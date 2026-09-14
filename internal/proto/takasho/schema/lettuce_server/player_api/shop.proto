@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/shop_get_new_notification_v1.proto";
+import "takasho/schema/lettuce_server/player_api/shop_mark_as_viewed_v1.proto";
+
+service Shop {
+  rpc GetNewNotificationV1 (ShopGetNewNotificationV1.Types.Request) returns (ShopGetNewNotificationV1.Types.Response);
+  rpc MarkAsViewedV1 (ShopMarkAsViewedV1.Types.Request) returns (ShopMarkAsViewedV1.Types.Response);
+}

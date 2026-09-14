@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (可用來縮短開包力等待時間的道具。\n使用後，可再度開封卡牌包的時間會縮短1小時。\n此道具可透過任務報酬等管道來獲得。)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (開包沙漏)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

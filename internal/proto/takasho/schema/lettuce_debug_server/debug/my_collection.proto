@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/my_collection_add_collection.proto";
+import "takasho/schema/lettuce_debug_server/debug/my_collection_set_like_count.proto";
+
+service MyCollection {
+  rpc AddCollection (MyCollectionAddCollection.Types.Request) returns (MyCollectionAddCollection.Types.Response);
+  rpc SetLikeCount (MyCollectionSetLikeCount.Types.Request) returns (MyCollectionSetLikeCount.Types.Response);
+}

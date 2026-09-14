@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PassPurchaseMock {
+  message Types {
+    message Request {
+      string product_id = 1;
+    }
+    message Response {
+      string product_id = 1;
+      google.protobuf.Timestamp purchased_at = 2;
+    }
+  }
+}

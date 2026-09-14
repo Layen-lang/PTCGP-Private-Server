@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (トレードパワーの待ち時間を短縮するアイテムです\n使用するとトレード1回ぶんまでの時間が1時間\n短縮します　ミッション報酬などで入手できます)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (トレード砂時計)",
+    "RecoveryDuration": 60
+  }
+]

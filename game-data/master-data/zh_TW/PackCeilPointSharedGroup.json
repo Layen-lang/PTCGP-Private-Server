@@ -1,0 +1,127 @@
+[
+  {
+    "ExpansionID": "PROMO-A",
+    "PackCeilPointSharedGroupId": "A1_PROMO",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A1",
+    "PackCeilPointSharedGroupId": "A1_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A1a",
+    "PackCeilPointSharedGroupId": "A1a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A2",
+    "PackCeilPointSharedGroupId": "A2_SPECIAL",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A2",
+    "PackCeilPointSharedGroupId": "A2_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A2a",
+    "PackCeilPointSharedGroupId": "A2a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A2b",
+    "PackCeilPointSharedGroupId": "A2b_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A3",
+    "PackCeilPointSharedGroupId": "A3_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A3a",
+    "PackCeilPointSharedGroupId": "A3a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A3b",
+    "PackCeilPointSharedGroupId": "A3b_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A4",
+    "PackCeilPointSharedGroupId": "A4_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A4a",
+    "PackCeilPointSharedGroupId": "A4a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A4b",
+    "PackCeilPointSharedGroupId": "A4b_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "PROMO-B",
+    "PackCeilPointSharedGroupId": "B1_PROMO",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B1",
+    "PackCeilPointSharedGroupId": "B1_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B1a",
+    "PackCeilPointSharedGroupId": "B1a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B2",
+    "PackCeilPointSharedGroupId": "B2_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B2a",
+    "PackCeilPointSharedGroupId": "B2a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B2b",
+    "PackCeilPointSharedGroupId": "B2b_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B3",
+    "PackCeilPointSharedGroupId": "B3_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B3a",
+    "PackCeilPointSharedGroupId": "B3a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B3b",
+    "PackCeilPointSharedGroupId": "B3b_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B4",
+    "PackCeilPointSharedGroupId": "B4_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "B4a",
+    "PackCeilPointSharedGroupId": "B4a_STANDARD",
+    "SortOrderPriority": 0
+  },
+  {
+    "ExpansionID": "A1",
+    "PackCeilPointSharedGroupId": "TUTORIAL",
+    "SortOrderPriority": 0
+  }
+]

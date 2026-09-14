@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pass_detect_free_trial_violation.proto";
+import "takasho/schema/lettuce_debug_server/debug/pass_purchase_mock.proto";
+import "takasho/schema/lettuce_debug_server/debug/pass_reset_free_trial_violation.proto";
+import "takasho/schema/lettuce_debug_server/debug/pass_unlink_market.proto";
+
+service Pass {
+  rpc PurchaseMock (PassPurchaseMock.Types.Request) returns (PassPurchaseMock.Types.Response);
+  rpc UnlinkMarket (PassUnlinkMarket.Types.Request) returns (PassUnlinkMarket.Types.Response);
+  rpc DetectFreeTrialViolation (PassDetectFreeTrialViolation.Types.Request) returns (PassDetectFreeTrialViolation.Types.Response);
+  rpc ResetFreeTrialViolation (PassResetFreeTrialViolation.Types.Request) returns (PassResetFreeTrialViolation.Types.Response);
+}

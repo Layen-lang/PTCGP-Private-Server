@@ -1,0 +1,290 @@
+[
+  {
+    "BannerImagePath": "0002010_01",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_DESC_EVENT_EMBLEM_1",
+    "EmblemEventID": "1",
+    "EventMissionGroupID": "MI_GR_0002010_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_1  (Évènement insigne Puissance Génétique 1)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_0002010_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_01_STEP_0",
+      "EMBLEM_EVENT_01_STEP_1",
+      "EMBLEM_EVENT_01_STEP_2",
+      "EMBLEM_EVENT_01_STEP_3",
+      "EMBLEM_EVENT_01_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2601000_13",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_12  (Évènement insigne Parade[C:Nbsp id=\"0\" ref=\"0\" ]Onirique)",
+    "EmblemEventID": "10",
+    "EventMissionGroupID": "MI_GR_2601000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_12  (Évènement insigne Parade[C:Nbsp id=\"0\" ref=\"0\" ]Onirique)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2601000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_10_STEP_0",
+      "EMBLEM_EVENT_10_STEP_1",
+      "EMBLEM_EVENT_10_STEP_2",
+      "EMBLEM_EVENT_10_STEP_3",
+      "EMBLEM_EVENT_10_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2604000_14",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_11  (Évènement insigne Aura Palpitante)",
+    "EmblemEventID": "11",
+    "EventMissionGroupID": "MI_GR_2604000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_11  (Évènement insigne Aura Palpitante)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2604000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_11_STEP_0",
+      "EMBLEM_EVENT_11_STEP_1",
+      "EMBLEM_EVENT_11_STEP_2",
+      "EMBLEM_EVENT_11_STEP_3",
+      "EMBLEM_EVENT_11_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2603000_04",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_13  (Évènement insigne Méga[C:Nbh ]Rayonnement)",
+    "EmblemEventID": "12",
+    "EventMissionGroupID": "MI_GR_2603000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_13  (Évènement insigne Méga[C:Nbh ]Rayonnement)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2603000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_12_STEP_0",
+      "EMBLEM_EVENT_12_STEP_1",
+      "EMBLEM_EVENT_12_STEP_2",
+      "EMBLEM_EVENT_12_STEP_3",
+      "EMBLEM_EVENT_12_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2605000_05",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_14  (Évènement insigne Propulsion Paradoxe)",
+    "EmblemEventID": "13",
+    "EventMissionGroupID": "MI_GR_2605000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_14  (Évènement insigne Propulsion Paradoxe)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2605000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_13_STEP_0",
+      "EMBLEM_EVENT_13_STEP_1",
+      "EMBLEM_EVENT_13_STEP_2",
+      "EMBLEM_EVENT_13_STEP_3",
+      "EMBLEM_EVENT_13_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2606000_05",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_16  (Évènement insigne Jours Heureux)",
+    "EmblemEventID": "14",
+    "EventMissionGroupID": "MI_GR_2606000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_16  (Évènement insigne Jours Heureux)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2606000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_14_STEP_0",
+      "EMBLEM_EVENT_14_STEP_1",
+      "EMBLEM_EVENT_14_STEP_2",
+      "EMBLEM_EVENT_14_STEP_3",
+      "EMBLEM_EVENT_14_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2607000_05",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_15  (Évènement insigne Domination Céleste)",
+    "EmblemEventID": "15",
+    "EventMissionGroupID": "MI_GR_2607000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_15  (Évènement insigne Domination Céleste)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2607000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_15_STEP_0",
+      "EMBLEM_EVENT_15_STEP_1",
+      "EMBLEM_EVENT_15_STEP_2",
+      "EMBLEM_EVENT_15_STEP_3",
+      "EMBLEM_EVENT_15_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2608000_05",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_18  (Évènement insigne L'Ambition de la Team Rocket)",
+    "EmblemEventID": "17",
+    "EventMissionGroupID": "MI_GR_2608000_EVENT_02",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_18  (Évènement insigne L'Ambition de la Team Rocket)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2608000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_17_STEP_0",
+      "EMBLEM_EVENT_17_STEP_1",
+      "EMBLEM_EVENT_17_STEP_2",
+      "EMBLEM_EVENT_17_STEP_3",
+      "EMBLEM_EVENT_17_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "0002010_03",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_DESC_EVENT_EMBLEM_3",
+    "EmblemEventID": "2",
+    "EventMissionGroupID": "MI_GR_0002010_EMBLEM_02",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_3  (Évènement insigne Puissance Génétique SP 1)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_0002010_EM_02",
+    "Steps": [
+      "EMBLEM_EVENT_02_STEP_0",
+      "EMBLEM_EVENT_02_STEP_1",
+      "EMBLEM_EVENT_02_STEP_2",
+      "EMBLEM_EVENT_02_STEP_3",
+      "EMBLEM_EVENT_02_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2408010_01",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_4  (Évènement insigne L'Île[C:Nbsp ]Fabuleuse)",
+    "EmblemEventID": "3",
+    "EventMissionGroupID": "MI_GR_2408010_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_4  (Évènement insigne L'Île[C:Nbsp ]Fabuleuse)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2408010_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_03_STEP_0",
+      "EMBLEM_EVENT_03_STEP_1",
+      "EMBLEM_EVENT_03_STEP_2",
+      "EMBLEM_EVENT_03_STEP_3",
+      "EMBLEM_EVENT_03_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2408010_02",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_5  (Évènement insigne L'Île[C:Nbsp ]Fabuleuse[C:Nbsp ]SP)",
+    "EmblemEventID": "4",
+    "EventMissionGroupID": "MI_GR_2408010_EMBLEM_02",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_5  (Évènement insigne L'Île[C:Nbsp ]Fabuleuse[C:Nbsp ]SP)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2408010_EM_02",
+    "Steps": [
+      "EMBLEM_EVENT_04_STEP_0",
+      "EMBLEM_EVENT_04_STEP_1",
+      "EMBLEM_EVENT_04_STEP_2",
+      "EMBLEM_EVENT_04_STEP_3",
+      "EMBLEM_EVENT_04_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2409010_04",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_6  (Évènement insigne Choc Spatio-Temporel)",
+    "EmblemEventID": "5",
+    "EventMissionGroupID": "MI_GR_2409010_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_6  (Évènement insigne Choc Spatio-Temporel)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2409010_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_05_STEP_0",
+      "EMBLEM_EVENT_05_STEP_1",
+      "EMBLEM_EVENT_05_STEP_2",
+      "EMBLEM_EVENT_05_STEP_3",
+      "EMBLEM_EVENT_05_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2502010_04",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_7  (Évènement insigne Lumière Triomphale SP)",
+    "EmblemEventID": "6",
+    "EventMissionGroupID": "MI_GR_2502010_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_7  (Évènement insigne Lumière Triomphale SP)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2502010_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_06_STEP_0",
+      "EMBLEM_EVENT_06_STEP_1",
+      "EMBLEM_EVENT_06_STEP_2",
+      "EMBLEM_EVENT_06_STEP_3",
+      "EMBLEM_EVENT_06_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2510000_06",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_8  (Évènement insigne Méga-Ascension)",
+    "EmblemEventID": "7",
+    "EventMissionGroupID": "MI_GR_2510000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_8  (Évènement insigne Méga-Ascension)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2510000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_07_STEP_0",
+      "EMBLEM_EVENT_07_STEP_1",
+      "EMBLEM_EVENT_07_STEP_2",
+      "EMBLEM_EVENT_07_STEP_3",
+      "EMBLEM_EVENT_07_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2512000_04",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_9  (Évènement insigne Embrasement[C:Nbsp ]Écarlate)",
+    "EmblemEventID": "8",
+    "EventMissionGroupID": "MI_GR_2512000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_9  (Évènement insigne Embrasement[C:Nbsp ]Écarlate)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2512000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_08_STEP_0",
+      "EMBLEM_EVENT_08_STEP_1",
+      "EMBLEM_EVENT_08_STEP_2",
+      "EMBLEM_EVENT_08_STEP_3",
+      "EMBLEM_EVENT_08_STEP_4"
+    ]
+  },
+  {
+    "BannerImagePath": "2602000_14",
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "DescriptionMSID": "BATTLE_NAME_EVENT_EMBLEM_10  (Évènement insigne Merveilles de Paldea)",
+    "EmblemEventID": "9",
+    "EventMissionGroupID": "MI_GR_2602000_EMBLEM_01",
+    "Exp": 15,
+    "NameMSID": "BATTLE_NAME_EVENT_EMBLEM_10  (Évènement insigne Merveilles de Paldea)",
+    "Rewards": [],
+    "ScheduleID": "SC_EV_2602000_EM_01",
+    "Steps": [
+      "EMBLEM_EVENT_09_STEP_0",
+      "EMBLEM_EVENT_09_STEP_1",
+      "EMBLEM_EVENT_09_STEP_2",
+      "EMBLEM_EVENT_09_STEP_3",
+      "EMBLEM_EVENT_09_STEP_4"
+    ]
+  }
+]

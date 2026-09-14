@@ -1,0 +1,9 @@
+[
+  {
+    "DescriptionMSID": "TRADE_ITEM_DESC_T1  (廃止されたアイテムです\nショップで他のアイテムと交換してください)",
+    "ID": "TRADE_ITEM_130010",
+    "NameMSID": "TRADE_ITEM_NAME_T1  (トレードメダル)",
+    "ScheduleID": "SC_INFINITE",
+    "SortOrderPriority": 1
+  }
+]

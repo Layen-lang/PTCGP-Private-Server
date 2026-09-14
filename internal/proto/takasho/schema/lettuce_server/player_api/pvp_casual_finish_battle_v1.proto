@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_client_report.proto";
+
+message PvpCasualFinishBattleV1 {
+  message Types {
+    message Request {
+      string finish_battle_token = 1;
+      takasho.schema.lettuce_server.resource.pvp.PvpBattleClientReport client_report = 2;
+      bool lose_declaration = 3;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+      takasho.schema.lettuce_server.resource.pvp.PvPResult result = 5;
+    }
+  }
+}

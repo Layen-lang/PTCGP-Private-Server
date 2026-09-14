@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_storage;
+
+message Criterion {
+  message Types {
+    enum MatchingType {
+      MATCHING_TYPE_UNSPECIFIED = 0;
+      MATCHING_TYPE_EXACT = 1;
+      MATCHING_TYPE_FORWARD = 2;
+    }
+  }
+  string key = 1;
+  Criterion.Types.MatchingType matching_type = 2;
+}

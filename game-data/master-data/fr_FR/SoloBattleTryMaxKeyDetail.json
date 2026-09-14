@@ -1,0 +1,242 @@
+[
+  {
+    "DescriptionMSID": "WinWithDeckOfColorless_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Incolore)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfGrass_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Plante)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFire_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Feu)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfWater_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Eau)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfLightning_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Électrique)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPsychic_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Psy)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 15,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFighting_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Combat)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 16,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDarkness_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Obscurité)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 17,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMetal_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Métal)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 18,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDragon_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de type Dragon)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 19,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "DealSomeDamageAtOnce_MSID  (Infliger un total de [Num:Int id=\"0\" max_length=\"3\" ] dégâts ou plus aux Pokémon adverses avec une seule attaque)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 30,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutScored_MSID  (Gagner ce combat sans que votre adversaire ne gagne de point)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutRetreat_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 61,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 100,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess3_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 103,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 104,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess3_MSID  (Gagner ce combat avec un deck ne contenant que des Pokémon de rareté [Text:Char v=\"DIAMOND\" ], [Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] et/ou [Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ])",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 105,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsTrainer_MSID  (Gagner ce combat avec un deck ne contenant aucune carte Dresseur)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 109,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsMegaEvolution_MSID  (Gagner ce combat avec un deck ne contenant aucune carte Pokémon-ex Méga-Évolution)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 120,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMegaEvolutionCardAtLeastN_MSID  (Gagner ce combat avec un deck contenant [Gr:Count s=\"un\" ][Num:Int max_length=\"2\" plural_only=\"\" ][C:Nbsp ]Pokémon-ex Méga-Évolution ou plus)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 121,
+    "TagParamType": 1
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsEx_MSID  (Gagner ce combat avec un deck ne contenant aucune carte Pokémon-ex)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 122,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfStadium_MSID  (Gagner ce combat avec un deck ne contenant aucune carte Stade)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 123,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionCardAtLeastN_MSID  (Gagner ce combat avec un deck contenant [Gr:Count s=\"une\" ref=\"1\" ][Num:Int id=\"1\" max_length=\"2\" plural_only=\"\" ][C:Nbsp ]carte[Gr:Count p=\"s\" ref=\"1\" ] de l'extension [Mst:ExpansionNameLong id=\"0\" ] ou plus)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 201,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionPokemonCardAtLeastN_MSID  (Gagner ce combat avec un deck contenant [Gr:Count s=\"un\" ref=\"1\" ][Num:Int id=\"1\" max_length=\"2\" plural_only=\"\" ][C:Nbsp ]Pokémon de l'extension[Mst:ExpansionNameLong id=\"0\" ] ou plus)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 202,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn6_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1006,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn8_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1008,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn10_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1010,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn12_MSID  (Gagner ce combat en 12 tours ou moins)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1012,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn14_MSID  (Gagner ce combat en 14 tours ou moins)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1014,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn16_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1016,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn18_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1018,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn20_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1020,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn22_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1022,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn24_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1024,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn26_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1026,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn28_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1028,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn30_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1030,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "MaxWinStreakCount_MSID  (Enchaîner [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp id=\"0\" ref=\"0\" ]victoires)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 2000,
+    "TagParamType": 0
+  }
+]

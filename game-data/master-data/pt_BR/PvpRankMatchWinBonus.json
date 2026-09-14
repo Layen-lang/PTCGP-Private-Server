@@ -1,0 +1,68 @@
+[
+  {
+    "Point": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "PvpRankMatchWinBonusID": "NO_WINBONUS"
+  },
+  {
+    "Point": [
+      0,
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "PvpRankMatchWinBonusID": "WINBONUS_BEGINNER_S1"
+  },
+  {
+    "Point": [
+      0,
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "PvpRankMatchWinBonusID": "WINBONUS_HYPER_A3b"
+  },
+  {
+    "Point": [
+      0,
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "PvpRankMatchWinBonusID": "WINBONUS_MASTER_A3b"
+  },
+  {
+    "Point": [
+      0,
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "PvpRankMatchWinBonusID": "WINBONUS_MONSTER_S1"
+  },
+  {
+    "Point": [
+      0,
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "PvpRankMatchWinBonusID": "WINBONUS_SUPER_S1"
+  }
+]

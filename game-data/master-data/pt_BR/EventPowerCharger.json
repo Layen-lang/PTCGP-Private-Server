@@ -1,0 +1,11 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_E1  (Usado para participar de Batalhas Solo ou\neventos. Este item pode reduzir o tempo para\nque essas batalhas fiquem disponíveis novamente.)",
+    "ID": "EVENT_CHARGER",
+    "NameMSID": "ITEM_NAME_CHARGER_E1  (Ampulheta de Evento)",
+    "RecoveryDuration": 720,
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1,
+    "Type": 1
+  }
+]

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message ItemShopDeletePurchaseSummaries {
+  message Types {
+    message Request {
+      string shop_id = 1;
+      repeated string product_ids = 2;
+    }
+    message Response {
+    }
+  }
+}

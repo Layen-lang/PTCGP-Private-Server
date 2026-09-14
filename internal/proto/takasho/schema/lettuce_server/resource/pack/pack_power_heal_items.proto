@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack;
+
+import "takasho/schema/lettuce_server/resource/item/pack_power_charger.proto";
+
+message PackPowerHealItems {
+  repeated takasho.schema.lettuce_server.resource.item.PackPowerCharger chargers = 1;
+  int64 vc_amount = 2;
+}

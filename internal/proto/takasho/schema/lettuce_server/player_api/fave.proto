@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/fave_insight_v1.proto";
+
+service Fave {
+  rpc InsightV1 (FaveInsightV1.Types.Request) returns (FaveInsightV1.Types.Response);
+}

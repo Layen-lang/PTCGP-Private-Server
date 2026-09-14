@@ -1,0 +1,26 @@
+[
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_SAIL  (Pokélingotti in offerta)",
+    "SortOrderPriority": 100
+  },
+  {
+    "CategoryID": "SH_CG_PG_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_EXTRA_ITEM  (Pokélingotti + extra)",
+    "SortOrderPriority": 90
+  },
+  {
+    "CategoryID": "SH_CG_PG_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_POKEGOLD  (Pokélingotti)",
+    "SortOrderPriority": 80
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_CATEGORY_SUB_3  (Pokélingotti + accessori)",
+    "SortOrderPriority": 0
+  }
+]

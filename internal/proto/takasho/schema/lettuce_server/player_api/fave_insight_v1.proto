@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message FaveInsightV1 {
+  message Types {
+    message Request {
+      bool colorless = 1;
+      bool grass = 2;
+      bool fire = 3;
+      bool water = 4;
+      bool lightning = 5;
+      bool psychic = 6;
+      bool fighting = 7;
+      bool darkness = 8;
+      bool metal = 9;
+      bool dragon = 10;
+      string nickname = 11;
+    }
+    message Response {
+    }
+  }
+}

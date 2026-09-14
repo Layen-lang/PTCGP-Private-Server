@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message ItemShopAddPurchaseSummaries {
+  message Types {
+    message Request {
+      message Types {
+        message PurchaseSummary {
+          string product_id = 1;
+          int64 purchase_amount = 2;
+          int64 next_reset_at = 3;
+          int64 last_purchased_at = 4;
+        }
+      }
+      string shop_id = 1;
+      repeated ItemShopAddPurchaseSummaries.Types.Request.Types.PurchaseSummary purchase_summaries = 2;
+    }
+    message Response {
+    }
+  }
+}

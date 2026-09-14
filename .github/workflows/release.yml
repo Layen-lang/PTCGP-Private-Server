@@ -1,0 +1,82 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  windows-release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Validate tag
+        shell: pwsh
+        run: |
+          $version = (Get-Content VERSION -Raw).Trim()
+          if ($version -notmatch '^\d+\.\d+\.\d+\.\d+$') { throw "Invalid VERSION: $version" }
+          if ($env:GITHUB_REF_NAME -ne "v$version") { throw "Tag $env:GITHUB_REF_NAME does not match VERSION $version" }
+
+      - name: Install and build frontend
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Test
+        run: go test ./...
+
+      - name: Build Windows executables
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force -Path bin | Out-Null
+          go build -trimpath -o bin/ptcgp-launcher.exe ./cmd/ptcgp-launcher
+          go build -trimpath -o bin/ptcgp-server.exe ./cmd/ptcgp-server
+
+      - name: Check publication safety
+        shell: pwsh
+        run: ./scripts/check_publication.ps1
+
+      - name: Package release
+        shell: pwsh
+        run: |
+          $version = (Get-Content VERSION -Raw).Trim()
+          $package = "PTCGP-Private-Server-$version-windows-amd64"
+          $stage = Join-Path $PWD "dist/$package"
+          New-Item -ItemType Directory -Force -Path "$stage/bin" | Out-Null
+          Copy-Item bin/ptcgp-launcher.exe,bin/ptcgp-server.exe "$stage/bin"
+          Copy-Item start-server.cmd,server.json,VERSION,README.md,CHANGELOG.md,LICENSE,NOTICE.md,SECURITY.md $stage
+          Copy-Item docs "$stage/docs" -Recurse
+          Copy-Item game-data "$stage/game-data" -Recurse
+          $archive = Join-Path $PWD "dist/$package.zip"
+          Compress-Archive -Path "$stage/*" -DestinationPath $archive -CompressionLevel NoCompression
+          if ((Get-Item $archive).Length -ge 2GB) { throw "Release archive exceeds GitHub's 2 GiB per-file limit" }
+          $hash = (Get-FileHash $archive -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $package.zip" | Set-Content -NoNewline -Encoding utf8 "dist/SHA256SUMS.txt"
+
+      - name: Create GitHub release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $version = (Get-Content VERSION -Raw).Trim()
+          gh release create $env:GITHUB_REF_NAME `
+            "dist/PTCGP-Private-Server-$version-windows-amd64.zip" `
+            "dist/SHA256SUMS.txt" `
+            --title "PTCGP Private Server $version" `
+            --generate-notes

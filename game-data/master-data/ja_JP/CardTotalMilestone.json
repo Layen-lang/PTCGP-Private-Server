@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (16といえば…「カイリュー」\n大きな　体格で　空を　飛ぶ。\n地球を　約１６時間で\n１周してしまう。)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (全国図鑑NO.25といえば…\n「ピカチュウ」\n何匹かが　集まっていると\nそこに　猛烈な　電気が　溜まり\n稲妻が　落ちることがあるという。)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (全国図鑑NO.50といえば…\n「ディグダ」\n地下１メートルくらいを　掘りすすみ\n木の根っこなどを　かじって　生きる。\nたまに　地上に　顔を出す。)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (80といえば…「ドククラゲ」\n８０本の　触手は　伸び縮み　自由。\n網のように　広げて\n獲物を　捕らえ　毒バリを　刺す。)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (100といえば…「ワンリキー」\n全身が　筋肉になっており\n子どもほどの　大きさしかないのに\n大人　１００人を　投げ飛ばせる。)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (151といえば…「ポケモン図鑑」\n『ポケットモンスター赤・緑』に\n登場したポケモンは、全部で１５１匹。)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (180といえば…「ヨルノズク」\nものごとを　考えだすと\n首を　１８０度　回転　させて\n頭の　働きを　高める。)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (全国図鑑NO.250といえば…\n「ホウオウ」\n心正しき　トレーナーの　前に\n七色の　翼を　光らせながら\n姿を　現すと　伝えられる。)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (300といえば…「フラージェス」\n３００年以上もの　あいだ\nお城の　庭園を　守り続けた\nフラージェスも　いたという。)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (500といえば…「ミカルゲ」\n５００年前に　悪さをしたため\n要石の　ひび割れに\n体を　つなぎとめられてしまった。)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (全国図鑑NO.777といえば…\n「トゲデマル」\nピンチになると　体を　丸めて\n背中の　とげとげを　逆立てると\nでたらめに　電撃を　撃ちまくる。)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (1000といえば…「ジラーチ」\n１０００年間で　７日だけ\n目を　覚まし　どんな　願い事でも\nかなえる　力を　使うという。)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (1500といえば…「コレクレー」\nおよそ１５００年前　宝箱の中で\n生まれた。　宝を　盗む\n不埒者の　生気を　吸い取る。)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (2000といえば…「ローブシン」\nコンクリートを　作る　技術は\n２０００年前に　ローブシンから\n教わったと　考えられている。)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (5000といえば…「フーディン」\n知能指数は　およそ　５０００。\n強い　念力が　あふれだしており\nそばに　いるだけで　頭痛が　する。)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (10000といえば…「カメール」\n１万年の　寿命を　持つと\n言われている。ふさふさの　尻尾は\n長生きの　シンボルとして　人気。)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (15000といえば…「ストリンダー」\n荒々しく　胸もとの　突起を\nかき鳴らして　放つ　電撃は\n１５０００ボルトを　軽く　超える。)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (20000といえば…「ネンドール」\n２万年前の　古代人が\nつくった　泥人形から\n生まれたらしい　謎の　ポケモン。)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (100000といえば…「ライチュウ」\n電撃は　１０万ボルト。\n自分の　何倍も　大きい　相手を\n一撃で　気絶させる。)",
+    "Threshold": 100000
+  }
+]

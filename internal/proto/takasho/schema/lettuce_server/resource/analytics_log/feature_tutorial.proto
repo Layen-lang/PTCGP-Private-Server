@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message FeatureTutorial {
+  int64 feature_type_id = 1;
+  int64 step_no = 2;
+}

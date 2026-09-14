@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_challenge_info.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_contents.proto";
+
+message FreeFeed {
+  string free_feed_id = 1;
+  FeedContents contents = 2;
+  FeedChallengeInfo challenge_info = 3;
+}

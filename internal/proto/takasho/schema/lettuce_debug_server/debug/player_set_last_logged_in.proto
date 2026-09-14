@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PlayerSetLastLoggedIn {
+  message Types {
+    message Request {
+      message Types {
+        message LastLoggedInInfo {
+          string player_id = 1;
+          string last_logged_in = 2;
+        }
+      }
+      repeated PlayerSetLastLoggedIn.Types.Request.Types.LastLoggedInInfo last_logged_in_infos = 1;
+    }
+    message Response {
+    }
+  }
+}

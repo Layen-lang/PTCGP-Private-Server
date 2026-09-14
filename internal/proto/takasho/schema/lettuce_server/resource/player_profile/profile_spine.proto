@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/collection/my_best_collection.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/available_type.proto";
+
+message ProfileSpine {
+  string player_id = 1;
+  string nickname = 2;
+  string icon_id = 3;
+  uint64 player_level = 4;
+  google.protobuf.Timestamp last_logged_in_at = 5;
+  repeated string emblem_ids = 6;
+  takasho.schema.lettuce_server.resource.collection.MyBestCollection collection = 7;
+  string friend_id = 8;
+  AvailableType available_type = 9;
+}

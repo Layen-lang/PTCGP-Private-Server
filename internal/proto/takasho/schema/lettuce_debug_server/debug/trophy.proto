@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/trophy_set.proto";
+
+service Trophy {
+  rpc Set (TrophySet.Types.Request) returns (TrophySet.Types.Response);
+}

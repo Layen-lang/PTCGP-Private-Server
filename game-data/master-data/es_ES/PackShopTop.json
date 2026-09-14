@@ -1,0 +1,170 @@
+[
+  {
+    "PackCeilPointSharedGroupID": "A1_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_0002010_01",
+    "PurchaseScheduleID": "SC_RELEASE",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1000
+  },
+  {
+    "PackCeilPointSharedGroupID": "A1a_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2408010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A1a",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 1010
+  },
+  {
+    "PackCeilPointSharedGroupID": "A2_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2409010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A2",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 1020
+  },
+  {
+    "PackCeilPointSharedGroupID": "A2a_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2502010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A2a",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 1030
+  },
+  {
+    "PackCeilPointSharedGroupID": "A2b_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2503010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A2b",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 1040
+  },
+  {
+    "PackCeilPointSharedGroupID": "A3_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2504010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A3",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 1050
+  },
+  {
+    "PackCeilPointSharedGroupID": "A3a_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2505010_01",
+    "PurchaseScheduleID": "SC_RELEASE_A3a",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 1060
+  },
+  {
+    "PackCeilPointSharedGroupID": "A3b_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2506000_01",
+    "PurchaseScheduleID": "SC_RELEASE_A3b",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 1070
+  },
+  {
+    "PackCeilPointSharedGroupID": "A4_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2507000_01",
+    "PurchaseScheduleID": "SC_RELEASE_A4",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 1080
+  },
+  {
+    "PackCeilPointSharedGroupID": "A4a_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2508000_01",
+    "PurchaseScheduleID": "SC_RELEASE_A4a",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 1090
+  },
+  {
+    "PackCeilPointSharedGroupID": "A4b_STANDARD",
+    "PackSeriesListTabID": "series_a",
+    "PackShopTopID": "PC_PS_2509000_01",
+    "PurchaseScheduleID": "SC_A4b_B1",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 1100
+  },
+  {
+    "PackCeilPointSharedGroupID": "B1_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2510000_01",
+    "PurchaseScheduleID": "SC_RELEASE_B1",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 1000
+  },
+  {
+    "PackCeilPointSharedGroupID": "B1a_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2512000_01",
+    "PurchaseScheduleID": "SC_RELEASE_B1a",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 1010
+  },
+  {
+    "PackCeilPointSharedGroupID": "B2_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2601000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B2",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 1020
+  },
+  {
+    "PackCeilPointSharedGroupID": "B2a_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2602000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B2a",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 1030
+  },
+  {
+    "PackCeilPointSharedGroupID": "B2b_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2603000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B2b",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 1040
+  },
+  {
+    "PackCeilPointSharedGroupID": "B3_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2604000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B3",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 1050
+  },
+  {
+    "PackCeilPointSharedGroupID": "B3a_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2605000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B3a",
+    "ScheduleID": "SC_PACK_RELEASE_B3a",
+    "SortOrderPriority": 1060
+  },
+  {
+    "PackCeilPointSharedGroupID": "B3b_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2606000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B3b",
+    "ScheduleID": "SC_PACK_RELEASE_B3b",
+    "SortOrderPriority": 1070
+  },
+  {
+    "PackCeilPointSharedGroupID": "B4_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2607000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B4",
+    "ScheduleID": "SC_PACK_RELEASE_B4",
+    "SortOrderPriority": 1080
+  },
+  {
+    "PackCeilPointSharedGroupID": "B4a_STANDARD",
+    "PackSeriesListTabID": "series_b",
+    "PackShopTopID": "PC_PS_2608000_01",
+    "PurchaseScheduleID": "SC_PACK_RELEASE_B4a",
+    "ScheduleID": "SC_PACK_RELEASE_B4a",
+    "SortOrderPriority": 1090
+  }
+]

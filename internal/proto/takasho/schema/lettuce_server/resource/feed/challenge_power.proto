@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "google/protobuf/timestamp.proto";
+
+message ChallengePower {
+  int64 amount = 1;
+  google.protobuf.Timestamp last_auto_healed_at = 2;
+  int64 over_heal_sec = 3;
+  int64 auto_heal_limit = 4;
+  int64 heal_sec_per_power = 5;
+  int64 manual_heal_limit = 6;
+}

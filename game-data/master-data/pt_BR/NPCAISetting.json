@@ -1,0 +1,37 @@
+[
+  {
+    "Key": "AbilityFactor",
+    "ValueDouble": 5.4,
+    "ValueInt": 0
+  },
+  {
+    "Key": "ActionLimit",
+    "ValueDouble": 0.0,
+    "ValueInt": 30
+  },
+  {
+    "Key": "AttackableFactor",
+    "ValueDouble": 2.0,
+    "ValueInt": 0
+  },
+  {
+    "Key": "HandTrainerBonus",
+    "ValueDouble": 300.0,
+    "ValueInt": 0
+  },
+  {
+    "Key": "IdenticalExtraEnergyFactor",
+    "ValueDouble": 5.0,
+    "ValueInt": 0
+  },
+  {
+    "Key": "NonIdenticalExtraEnergyFactor",
+    "ValueDouble": 2.5,
+    "ValueInt": 0
+  },
+  {
+    "Key": "UnattackableFactor",
+    "ValueDouble": 3.4,
+    "ValueInt": 0
+  }
+]

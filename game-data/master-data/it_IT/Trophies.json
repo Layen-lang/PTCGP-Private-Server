@@ -1,0 +1,527 @@
+[
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100010_PACK_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 180,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100010_PACK_A1_MSID  ([Gr:Count s=\"Aperta\" p=\"Aperte\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una busta\" p=\"buste\" ] di espansione usando\nl'energia buste)",
+    "Type": 9
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100020_FEED_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 170,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100020_FEED_A1_MSID  (Tentata la pesca misteriosa [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una volta\" p=\"volte\" ])",
+    "Type": 11
+  },
+  {
+    "BronzeAmount": 500,
+    "BronzeRewards": [],
+    "Category": 1,
+    "GoldAmount": 2000,
+    "GoldRewards": [],
+    "ID": "TROPHY_100030_ALBUM_A1",
+    "RainbowAmount": 5000,
+    "RainbowRewards": [],
+    "SilverAmount": 1000,
+    "SilverRewards": [],
+    "SortOrder": 160,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100190_ALBUM_A1_MSID  (Registrat[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] nel Cardex)",
+    "Type": 36
+  },
+  {
+    "BronzeAmount": 500,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 5000,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100040_DECK_A1",
+    "RainbowAmount": 10000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 1000,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 150,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100040_DECK_A1_MSID  (Ottenuto un totale di [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ])",
+    "Type": 12
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100050_Grass_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 140,
+    "TargetIDs": [
+      "2"
+    ],
+    "TrophyTextMSID": "TROPHY_100050_Grass_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Erba)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100060_Fire_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 130,
+    "TargetIDs": [
+      "3"
+    ],
+    "TrophyTextMSID": "TROPHY_100060_Fire_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Fuoco)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100070_Water_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 120,
+    "TargetIDs": [
+      "4"
+    ],
+    "TrophyTextMSID": "TROPHY_100070_Water_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Acqua)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100080_Lightning_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 110,
+    "TargetIDs": [
+      "5"
+    ],
+    "TrophyTextMSID": "TROPHY_100080_Lightning_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Lampo)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100090_Psychic_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 100,
+    "TargetIDs": [
+      "6"
+    ],
+    "TrophyTextMSID": "TROPHY_100090_Psychic_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Psico)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100100_Fighting_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 90,
+    "TargetIDs": [
+      "7"
+    ],
+    "TrophyTextMSID": "TROPHY_100100_Fighting_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Lotta)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100110_Darkness_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 80,
+    "TargetIDs": [
+      "8"
+    ],
+    "TrophyTextMSID": "TROPHY_100110_Darkness_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Oscurità)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100120_Metal_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 70,
+    "TargetIDs": [
+      "9"
+    ],
+    "TrophyTextMSID": "TROPHY_100120_Metal_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Metallo)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100130_Dragon_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 60,
+    "TargetIDs": [
+      "10"
+    ],
+    "TrophyTextMSID": "TROPHY_100130_Dragon_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Drago)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100140_Colorless_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 50,
+    "TargetIDs": [
+      "1"
+    ],
+    "TrophyTextMSID": "TROPHY_100140_Colorless_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] di tipo Incolore)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100150_SUPPORT_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 40,
+    "TargetIDs": [
+      "1"
+    ],
+    "TrophyTextMSID": "TROPHY_100150_SUPPORT_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Aiuto)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100160_MONSTERBALL_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 30,
+    "TargetIDs": [
+      "2",
+      "4"
+    ],
+    "TrophyTextMSID": "TROPHY_100160_MONSTERBALL_A1_MSID  (Ottenut[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Strumento)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 3,
+    "GoldAmount": 1000,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100170_CUP_A1",
+    "RainbowAmount": 10000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 500,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 20,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100170_CUP_A1_MSID  (Vint[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una lotta\" p=\"lotte\" ] VS)",
+    "Type": 4
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 3,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100180_RIBBONCUP_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 10,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100180_RIBBONCUP_A1_MSID  (Vint[Gr:Count s=\"a\" p=\"e\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una lotta\" p=\"lotte\" ] con CPU)",
+    "Type": 8
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 250,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100210_STADIUM_B2",
+    "RainbowAmount": 500,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 23,
+    "TargetIDs": [
+      "5"
+    ],
+    "TrophyTextMSID": "TROPHY_100210_STADIUM_B2_MSID  ([Gr:Count s=\"Ottenuta\" p=\"Ottenute\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Stadio\n)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 250,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100220_GOTSU_A2",
+    "RainbowAmount": 500,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 25,
+    "TargetIDs": [
+      "3"
+    ],
+    "TrophyTextMSID": "TROPHY_100220_GOTSU_A2_MSID  ([Gr:Count s=\"Ottenuta\" p=\"Ottenute\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Oggetto Pokémon)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100250_GIVECARD_B1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 165,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100250_GIVECARD_B1_MSID  ([Gr:Count s=\"Regalata\" p=\"Regalate\" ] [Num:Int max_length=\"5\" plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ])",
+    "Type": 49
+  }
+]

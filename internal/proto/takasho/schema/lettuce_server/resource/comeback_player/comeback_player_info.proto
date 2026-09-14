@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.comeback_player;
+
+import "google/protobuf/timestamp.proto";
+
+message ComebackPlayerInfo {
+  bool is_returning_player = 1;
+  google.protobuf.Timestamp returned_at = 2;
+  int32 absence_days = 4;
+}

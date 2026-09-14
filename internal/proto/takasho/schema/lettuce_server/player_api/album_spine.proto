@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/album/album.proto";
+import "takasho/schema/lettuce_server/resource/album/album_slot.proto";
+import "takasho/schema/lettuce_server/resource/album/public_setting.proto";
+
+message AlbumSpine {
+  uint64 album_id = 1;
+  string cover_id = 2;
+  takasho.schema.lettuce_server.resource.album.Album.Types.BackgroundColor background_color = 3;
+  uint64 card_num = 5;
+  takasho.schema.lettuce_server.resource.album.PublicSetting public_setting = 6;
+  uint64 display_order = 7;
+  repeated takasho.schema.lettuce_server.resource.album.AlbumSlot slots = 9;
+  string file_name = 10;
+  repeated string hash_tag_ids = 11;
+}

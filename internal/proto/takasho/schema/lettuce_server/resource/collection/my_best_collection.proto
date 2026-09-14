@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.collection;
+
+import "takasho/schema/lettuce_server/resource/collection/collection_slot.proto";
+import "takasho/schema/lettuce_server/resource/collection/collection_type.proto";
+
+message MyBestCollection {
+  CollectionType my_best_type = 1;
+  uint64 collection_id = 2;
+  string thumbnail_id = 3;
+  repeated CollectionSlot slots = 5;
+  repeated string hash_tag_ids = 6;
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (Les combats se déverrouillent quand vous\nterminez la partie 6 de la rubrique « Guide ».\n\nVous pouvez accéder à la rubrique « Guide »\nen touchant le bouton en bas à gauche\ndu menu « Combat ».)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (Le menu « Combat » se déverrouille au niveau 3.\n\nVous pouvez monter de niveau en accumulant\ndes points d'expérience, que vous pouvez obtenir\nen ouvrant des Boosters, entre autres.)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (Les cadres expo se déverrouillent au niveau 4.\n\nVous pouvez monter de niveau en accumulant\ndes points d'expérience, que vous pouvez obtenir\nen ouvrant des Boosters, entre autres.)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (Les portfolios se déverrouillent au niveau 6.\n\nVous pouvez monter de niveau en accumulant\ndes points d'expérience, que vous pouvez obtenir\nen ouvrant des Boosters, entre autres.)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (Les decks se déverrouillent quand vous terminez\nla partie 6 de la rubrique « Guide ».\n\nVous pouvez accéder à la rubrique « Guide »\nen touchant le bouton en bas à gauche\ndu menu « Combat ».)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (Les missions deck se déverrouillent au niveau 3.\n\nVous pouvez monter de niveau en accumulant\ndes points d'expérience, que vous pouvez obtenir\nen ouvrant des Boosters, entre autres.)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (La pioche miracle se déverrouille au niveau 2.)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (Le menu « Échange » se déverrouille au niveau 3.\n\nVous pouvez monter de niveau en accumulant\ndes points d'expérience, que vous pouvez obtenir\nen ouvrant des Boosters, entre autres.)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "google/protobuf/timestamp.proto";
+
+message FeedChallengeInfo {
+  google.protobuf.Timestamp start_at = 1;
+  google.protobuf.Timestamp end_at = 2;
+  int64 remaining_count = 3;
+  int64 require_feed_stamina = 4;
+  int64 next_challenge_num = 5;
+  bool is_snooping = 6;
+}

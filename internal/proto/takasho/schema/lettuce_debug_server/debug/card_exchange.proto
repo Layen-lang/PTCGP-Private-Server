@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/card_exchange_set_route_type_v1.proto";
+
+service CardExchange {
+  rpc SetRouteTypeV1 (CardExchangeSetRouteTypeV1.Types.Request) returns (CardExchangeSetRouteTypeV1.Types.Response);
+}

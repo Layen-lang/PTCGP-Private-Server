@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PassDetectFreeTrialViolation {
+  message Types {
+    message Request {
+      message Types {
+        message Violation {
+          string player_id = 1;
+          int64 free_trial_count = 2;
+        }
+      }
+      repeated PassDetectFreeTrialViolation.Types.Request.Types.Violation violations = 1;
+    }
+    message Response {
+      message Types {
+        message Violation {
+          string player_id = 1;
+          string pass_id = 2;
+          int64 free_trial_count = 3;
+          google.protobuf.Timestamp detected_at = 4;
+        }
+      }
+      repeated PassDetectFreeTrialViolation.Types.Response.Types.Violation violations = 1;
+    }
+  }
+}

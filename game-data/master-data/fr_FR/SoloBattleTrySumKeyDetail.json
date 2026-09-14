@@ -1,0 +1,117 @@
+[
+  {
+    "DescriptionMSID": "CauseSpecialConditionParalyzed_MSID  (Laisser le Pokémon de votre adversaire Paralysé [Num:Int id=\"0\" max_length=\"2\" ] fois)",
+    "SoloBattleTrySumKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionAsleep_MSID  (Laisser le Pokémon de votre adversaire Endormi [Num:Int id=\"0\" max_length=\"2\" ] fois)",
+    "SoloBattleTrySumKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionBurned_MSID  (Laisser le Pokémon de votre adversaire Brûlé [Num:Int id=\"0\" max_length=\"2\" ] fois)",
+    "SoloBattleTrySumKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionConfused_MSID  (Laisser le Pokémon de votre adversaire Confus [Num:Int id=\"0\" max_length=\"2\" ] fois)",
+    "SoloBattleTrySumKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionPoisoned_MSID  (Laisser le Pokémon de votre adversaire Empoisonné [Num:Int id=\"0\" max_length=\"2\" ] fois)",
+    "SoloBattleTrySumKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByColorlessAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Incolore)",
+    "SoloBattleTrySumKey": 20,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByGrassAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Plante)",
+    "SoloBattleTrySumKey": 21,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFireAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Feu)",
+    "SoloBattleTrySumKey": 22,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByWaterAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Eau)",
+    "SoloBattleTrySumKey": 23,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByLightningAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Électrique)",
+    "SoloBattleTrySumKey": 24,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByPsychicAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Psy)",
+    "SoloBattleTrySumKey": 25,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFightingAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Combat)",
+    "SoloBattleTrySumKey": 26,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDarknessAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Obscurité)",
+    "SoloBattleTrySumKey": 27,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByMetalAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Métal)",
+    "SoloBattleTrySumKey": 28,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDragonAttack_MSID  (Mettre K.O. le Pokémon Actif de l'adversaire [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] fois avec une attaque d'un Pokémon Dragon)",
+    "SoloBattleTrySumKey": 29,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayBasicPokemon_MSID  (Placer [Num:Int max_length=\"2\" plural_only=\"\" ][Gr:Count s=\"un\" ][C:Nbsp ]Pokémon de base sur le terrain)",
+    "SoloBattleTrySumKey": 40,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayOneEvolutionPokemon_MSID  (Placer [Num:Int max_length=\"2\" plural_only=\"\" ][Gr:Count s=\"un\" ] Pokémon de Niveau 1 sur le terrain)",
+    "SoloBattleTrySumKey": 41,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayTwoEvolutionPokemon_MSID  (Placer [Num:Int max_length=\"2\" plural_only=\"\" ][Gr:Count s=\"un\" ] Pokémon de Niveau 2 sur le terrain)",
+    "SoloBattleTrySumKey": 42,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayEXPokemon_MSID  (Placer [Num:Int max_length=\"2\" plural_only=\"\" ][Gr:Count s=\"un\" ] Pokémon-ex sur le terrain)",
+    "SoloBattleTrySumKey": 43,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "AttachEnergy_MSID  (Attacher [Gr:Count s=\"une\" two=\"\" ][Num:Int max_length=\"2\" plural_only=\"\" ] Énergie[Gr:Count p=\"s\" ] à vos Pokémon)",
+    "SoloBattleTrySumKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordDealtSomeDamage_MSID  (Infliger [Num:Int id=\"0\" max_length=\"5\" ] dégâts ou plus)",
+    "SoloBattleTrySumKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordAcquiredSomePoint_MSID  (Obtenir [Num:Int id=\"0\" max_length=\"3\" ] points ou plus)",
+    "SoloBattleTrySumKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordWonSomeBattle_MSID  (Gagner [Num:Int id=\"0\" max_length=\"3\" ] combats ou plus)",
+    "SoloBattleTrySumKey": 103,
+    "TagParamType": 0
+  }
+]

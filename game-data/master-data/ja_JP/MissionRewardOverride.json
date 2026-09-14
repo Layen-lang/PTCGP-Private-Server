@@ -1,0 +1,10 @@
+[
+  {
+    "ID": "MI_RW_OR_B4a_001",
+    "MissionID": "MI_AC_2607000_RETURN_01_02",
+    "RewardIDs": [
+      "MI_RW_PACK_B4a_001"
+    ],
+    "ScheduleID": "SC_PACK_RELEASE_B4a_B4b"
+  }
+]

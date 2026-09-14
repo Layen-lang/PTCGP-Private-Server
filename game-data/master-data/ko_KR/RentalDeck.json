@@ -1,0 +1,2968 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_1  (이상해꽃 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_2  (리자몽 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_3  (거북왕 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_4  (피카츄 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_5  (뮤츠 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_6  (괴력몬 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_7  (니드퀸&니드킹 덱(최강의 유전자))",
+    "SortOrderPriority": 1060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_8  (관동의 화석 덱(최강의 유전자))",
+    "SortOrderPriority": 1070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_9  (강연 덱(최강의 유전자))",
+    "SortOrderPriority": 1080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_10  (마티스 덱(최강의 유전자))",
+    "SortOrderPriority": 1090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_11  (웅 덱(최강의 유전자))",
+    "SortOrderPriority": 1100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_12  (독수 덱(최강의 유전자))",
+    "SortOrderPriority": 1110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001035",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_14  (뮤 ex 덱(환상이 있는 섬))",
+    "SortOrderPriority": 1120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001036",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_15  (세레비 ex 덱(환상이 있는 섬))",
+    "SortOrderPriority": 1130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001037",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_16  (갸라도스 ex 덱(환상이 있는 섬))",
+    "SortOrderPriority": 1140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001042",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_17  (프테라 ex 덱(환상이 있는 섬))",
+    "SortOrderPriority": 1150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104318",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001043",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_18  (그린&피죤투 ex 덱(환상이 있는 섬))",
+    "SortOrderPriority": 1160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1001044",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_13  (푸크린 ex 덱(최강의 유전자))",
+    "SortOrderPriority": 1115,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_19  (메가자리 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_20  (초염몽 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_21  (펄기아 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_22  (난천 덱(시공의 격투))",
+    "SortOrderPriority": 1210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_23  (전진 덱(시공의 격투))",
+    "SortOrderPriority": 1220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_24  (파치리스 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_25  (갓블라스트 덱(시공의 격투))",
+    "SortOrderPriority": 1240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_26  (무우마직 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_27  (내룸벨트 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_28  (엘레이드 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_29  (포푸니라 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_30  (다크라이 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_31  (갤럭시단의 조무래기 덱(시공의 격투))",
+    "SortOrderPriority": 1300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_32  (디아루가 ex 덱(시공의 격투))",
+    "SortOrderPriority": 1310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_33  (리피아 ex 덱(초극의 빛))",
+    "SortOrderPriority": 1320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_34  (용식 덱(초극의 빛))",
+    "SortOrderPriority": 1330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_35  (아르세우스 ex&히드런 덱(초극의 빛))",
+    "SortOrderPriority": 1340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_36  (글레이시아 ex 덱(초극의 빛))",
+    "SortOrderPriority": 1350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_37  (신오신화 덱(초극의 빛))",
+    "SortOrderPriority": 1360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_38  (아르세우스 ex&라이츄 덱(초극의 빛))",
+    "SortOrderPriority": 1370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_39  (한카리아스 ex 덱(초극의 빛))",
+    "SortOrderPriority": 1380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_40  (아르세우스 ex&크로뱃 덱(초극의 빛))",
+    "SortOrderPriority": 1390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_41  (대코파스 ex 덱(초극의 빛))",
+    "SortOrderPriority": 1400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_42  (독침붕 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1410,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_43  (리자몽 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_44  (바닥트리오 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_45  (피카츄 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_46  (기라티나 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_47  (루카리오 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_48  (팔데아토오 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002031",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_49  (두드리짱 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1002032",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_50  (비버통 ex 덱(샤이닝 하이))",
+    "SortOrderPriority": 1490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_51  (모크나이퍼 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_52  (마오 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_53  (어흥염 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_54  (키아웨 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_55  (모단단게 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_56  (수련 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_57  (알로라라이츄 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_58  (마마네 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_59  (루나아라 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_60  (아세로라 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_61  (내던숭이 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_62  (알로라질뻐기 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_63  (솔가레오 ex 덱(쌍천의 수호자))",
+    "SortOrderPriority": 1620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_64  (매시붕 ex 덱(이차원 크라이시스))",
+    "SortOrderPriority": 1630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_65  (카푸꼬꼬꼭 ex 덱(이차원 크라이시스))",
+    "SortOrderPriority": 1640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_66  (루가루암 ex 덱(이차원 크라이시스))",
+    "SortOrderPriority": 1650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_67  (악식킹 ex 덱(이차원 크라이시스))",
+    "SortOrderPriority": 1660,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_68  (알로라닥트리오 ex 덱(이차원 크라이시스))",
+    "SortOrderPriority": 1670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_69  (부스터 ex&이브이 ex 덱(이브이 가든))",
+    "SortOrderPriority": 1680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_70  (누리레느 ex 덱(이브이 가든))",
+    "SortOrderPriority": 1690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_71  (님피아 ex&이브이 ex 덱(이브이 가든))",
+    "SortOrderPriority": 1700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_72  (스위트릴레이 덱(이브이 가든))",
+    "SortOrderPriority": 1710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_73  (망나뇽 ex 덱(이브이 가든))",
+    "SortOrderPriority": 1720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1003024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_74  (잠만보 ex 덱(이브이 가든))",
+    "SortOrderPriority": 1730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_75  (단단지 ex&메가니움 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_76  (칠색조 ex&앤테이 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_77  (킹드라 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_84  (갸라도스 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_78  (랜턴 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_79  (에브이 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_80  (코리갑 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_81  (블래키 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_82  (무장조 ex&핫삼 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_83  (루기아 ex 덱(하늘과 바다의 인도))",
+    "SortOrderPriority": 1830,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_85  (솜솜코 ex 덱(미지의 수역))",
+    "SortOrderPriority": 1840,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_86  (앤테이 ex 덱(미지의 수역))",
+    "SortOrderPriority": 1850,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_87  (스이쿤 ex 덱(미지의 수역))",
+    "SortOrderPriority": 1860,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_88  (라이코 ex 덱(미지의 수역))",
+    "SortOrderPriority": 1870,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_89  (라티오스&라티아스 덱(미지의 수역))",
+    "SortOrderPriority": 1880,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_90  (강챙이 ex 덱(미지의 수역))",
+    "SortOrderPriority": 1890,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_91  (매시붕 ex&단단지 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1900,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_92  (리자몽 ex&파이어 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1910,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_93  (펄기아 ex&프리져 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1920,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_94  (피카츄 ex&알로라라이츄 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1930,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_95  (뮤츠 ex&뮤 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1940,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_96  (루나아라 ex&기라티나 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1950,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_97  (루카리오 ex&한카리아스 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1960,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_98  (악식킹 ex&크로뱃 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1970,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_99  (아르세우스 ex&디아루가 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1980,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_100  (솔가레오 ex&무장조 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 1990,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_101  (이브이 ex&님피아 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 2000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_102  (루기아 ex&칠색조 ex 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 2010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_103  (최고의 파트너 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 2020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1004030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_104  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 동료들 덱(하이클래스팩 ex))",
+    "SortOrderPriority": 2030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_105  (메가쁘사이저 ex 덱(메가라이징))",
+    "SortOrderPriority": 2040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_106  (메가번치코 ex 덱(메가라이징))",
+    "SortOrderPriority": 2050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_107  (메가갸라도스 ex 덱(메가라이징))",
+    "SortOrderPriority": 2060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_108  (시즈 덱(메가라이징))",
+    "SortOrderPriority": 2070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_109  (메가전룡 ex 덱(메가라이징))",
+    "SortOrderPriority": 2080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_110  (메가파비코리 ex 덱(메가라이징))",
+    "SortOrderPriority": 2090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_111  (멜리사 덱(메가라이징))",
+    "SortOrderPriority": 2100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_112  (홍수몬 ex 덱(메가라이징))",
+    "SortOrderPriority": 2110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_113  (할라 덱(메가라이징))",
+    "SortOrderPriority": 2120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_114  (메가앱솔 ex 덱(메가라이징))",
+    "SortOrderPriority": 2130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_115  (멜메탈 ex 덱(메가라이징))",
+    "SortOrderPriority": 2140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_116  (메가이상해꽃 ex 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_117  (메가리자몽Y ex 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_118  (메가거북왕 ex 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2170,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_119  (시트론 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_120  (메가이어롭 ex 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1005017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_121  (메가강철톤 ex 덱(홍련 블레이즈))",
+    "SortOrderPriority": 2200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_122  (오거폰벽록의 가면 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_123  (두파팡 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_124  (메가대짱이 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_125  (알로라나인테일 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_126  (스트린더 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_127  (메가가디안 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_128  (기가이어스 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_129  (두송 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_130  (메가입치트 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_131  (메가캥카 ex 덱(몽환 퍼레이드))",
+    "SortOrderPriority": 2300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_132  (마스카나 ex 덱(팔데아 원더))",
+    "SortOrderPriority": 2310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_133  (카디나르마 ex 덱(팔데아 원더))",
+    "SortOrderPriority": 2320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_134  (파오젠 ex 덱(팔데아 원더))",
+    "SortOrderPriority": 2330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_135  (찌리배리 ex 덱(팔데아 원더))",
+    "SortOrderPriority": 2340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_136  (타부자고 ex 덱(팔데아 원더))",
+    "SortOrderPriority": 2350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_137  (메가리자몽X ex 덱(샤이닝 메가))",
+    "SortOrderPriority": 2360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_138  (메가야도란 ex 덱(샤이닝 메가))",
+    "SortOrderPriority": 2370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_139  (메가썬더볼트 ex 덱(샤이닝 메가))",
+    "SortOrderPriority": 2380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_140  (메가팬텀 ex 덱(샤이닝 메가))",
+    "SortOrderPriority": 2390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_141  (메가핫삼 ex 덱(샤이닝 메가))",
+    "SortOrderPriority": 2400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1006021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_166  (엘리트 덱(메가번치코 ex))",
+    "SortOrderPriority": 10,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_142  (메가나무킹 ex 덱(파동 비트))",
+    "SortOrderPriority": 2420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_143  (메가폭타 ex 덱(파동 비트))",
+    "SortOrderPriority": 2430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_144  (샤미드 ex 덱(파동 비트))",
+    "SortOrderPriority": 2440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_145  (자포코일 ex 덱(파동 비트))",
+    "SortOrderPriority": 2450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_146  (메가루카리오 ex 덱(파동 비트))",
+    "SortOrderPriority": 2460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_147  (암팰리스 ex 덱(파동 비트))",
+    "SortOrderPriority": 2470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_148  (조로아크 ex 덱(파동 비트))",
+    "SortOrderPriority": 2480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_149  (아머까오 ex 덱(파동 비트))",
+    "SortOrderPriority": 2490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_150  (플라이곤 ex 덱(파동 비트))",
+    "SortOrderPriority": 2500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_151  (메가다부니 ex 덱(파동 비트))",
+    "SortOrderPriority": 2510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_152  (체렌 덱(파동 비트))",
+    "SortOrderPriority": 2520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_153  (무쇠보따리 ex 덱(진격 패러독스))",
+    "SortOrderPriority": 2530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_154  (미라이돈 ex 덱(진격 패러독스))",
+    "SortOrderPriority": 2540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_155  (날개치는머리 ex 덱(진격 패러독스))",
+    "SortOrderPriority": 2550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_156  (코라이돈 ex 덱(진격 패러독스))",
+    "SortOrderPriority": 2560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_157  (테라파고스 ex 덱(진격 패러독스))",
+    "SortOrderPriority": 2570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_158  (날뛰는우레 덱(진격 패러독스))",
+    "SortOrderPriority": 2580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_159  (무쇠무인 덱(진격 패러독스))",
+    "SortOrderPriority": 2590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_160  (밀로틱 ex 덱(미라클 데이즈))",
+    "SortOrderPriority": 2600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_161  (데덴네 ex 덱(미라클 데이즈))",
+    "SortOrderPriority": 2610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_162  (메가디안시 ex 덱(미라클 데이즈))",
+    "SortOrderPriority": 2620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_163  (메가깜까미 ex 덱(미라클 데이즈))",
+    "SortOrderPriority": 2630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_164  (히스이조로아크 ex 덱(미라클 데이즈))",
+    "SortOrderPriority": 2640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_165  (강아지투성이 덱(미라클 데이즈))",
+    "SortOrderPriority": 2650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1007025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_191  (엘리트 덱(메가리자몽Y ex))",
+    "SortOrderPriority": 20,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_167  (비퀸 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_168  (블레이범 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_169  (고래왕 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_170  (메가샤크니아 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_171  (로토무 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_172  (메가엘레이드 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_173  (후파 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_174  (메가메타그로스 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_175  (메가레쿠쟈 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_176  (스완나 ex 덱(천공의 지배자))",
+    "SortOrderPriority": 2760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_177  (로켓단의파이어 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_178  (로켓단의프리져 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_179  (로켓단의썬더 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_180  (로켓단의야도킹 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_181  (로켓단의또도가스 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_182  (로켓단의레트라 ex 덱(로켓단의 야망))",
+    "SortOrderPriority": 2820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (배틀에 사용할 수 있는 렌탈 덱입니다\n덱에 포함된 카드를 가지고 있지 않아도\n배틀에서 사용할 수 있습니다)",
+    "RentalDeckID": "1008025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_192  (엘리트 덱(메가루카리오 ex))",
+    "SortOrderPriority": 30,
+    "UsableLimitCount": 10
+  }
+]

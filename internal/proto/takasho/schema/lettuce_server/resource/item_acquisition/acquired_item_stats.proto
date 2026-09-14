@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item_acquisition;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto";
+import "takasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto";
+
+message AcquiredItemStats {
+  uint64 dropped_bright_sand_amount = 1;
+  repeated takasho.schema.lettuce_server.resource.card.CardInstance first_acquired_cards_in_expansions = 2;
+  repeated takasho.schema.lettuce_server.resource.card_skin.CardSkinStock dropped_card_skins = 3;
+  repeated takasho.schema.lettuce_server.resource.card_frame.CardFrameStock dropped_card_frames = 4;
+}

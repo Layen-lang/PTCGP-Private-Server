@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PokeGoldShopDeletePurchaseSummaries {
+  message Types {
+    message Request {
+      repeated string product_ids = 1;
+    }
+    message Response {
+    }
+  }
+}

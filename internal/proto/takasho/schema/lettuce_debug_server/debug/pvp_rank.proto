@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_add_past_ranking_dummy_players.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_add_ranking_dummy_players.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_aggregate_ranking.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_clear_season_result.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_confirm_ranking.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_request_matching_force_bot.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_reset_ranking.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_reset_ranking_aggregation.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_restore_ranking.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_set_current_season_profile.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_rank_set_ranking_player_points.proto";
+
+service PvpRank {
+  rpc SetRankingPlayerPoints (PvpRankSetRankingPlayerPoints.Types.Request) returns (PvpRankSetRankingPlayerPoints.Types.Response);
+  rpc ResetRanking (PvpRankResetRanking.Types.Request) returns (PvpRankResetRanking.Types.Response);
+  rpc AggregateRanking (PvpRankAggregateRanking.Types.Request) returns (PvpRankAggregateRanking.Types.Response);
+  rpc ConfirmRanking (PvpRankConfirmRanking.Types.Request) returns (PvpRankConfirmRanking.Types.Response);
+  rpc ResetRankingAggregation (PvpRankResetRankingAggregation.Types.Request) returns (PvpRankResetRankingAggregation.Types.Response);
+  rpc RestoreRanking (PvpRankRestoreRanking.Types.Request) returns (PvpRankRestoreRanking.Types.Response);
+  rpc AddRankingDummyPlayers (PvpRankAddRankingDummyPlayers.Types.Request) returns (PvpRankAddRankingDummyPlayers.Types.Response);
+  rpc AddPastRankingDummyPlayers (PvpRankAddPastRankingDummyPlayers.Types.Request) returns (PvpRankAddPastRankingDummyPlayers.Types.Response);
+  rpc SetCurrentSeasonProfile (PvpRankSetCurrentSeasonProfile.Types.Request) returns (PvpRankSetCurrentSeasonProfile.Types.Response);
+  rpc ClearSeasonResult (PvpRankClearSeasonResult.Types.Request) returns (PvpRankClearSeasonResult.Types.Response);
+  rpc RequestMatchingForceBot (PvpRankRequestMatchingForceBot.Types.Request) returns (PvpRankRequestMatchingForceBot.Types.Response);
+}

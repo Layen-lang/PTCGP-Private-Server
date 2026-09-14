@@ -1,0 +1,2533 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_1  (妙蛙花ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_4  (噴火龍ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_7  (水箭龜ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_11  (皮卡丘ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_13  (超夢ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_16  (怪力ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_19  (尼多后＆尼多王牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_20  (關都化石牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_21  (夏伯牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_22  (馬志士牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_23  (小剛牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_24  (阿桔牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_26  (夢幻ex牌組（幻遊島）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_27  (時拉比ex牌組（幻遊島）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_28  (暴鯉龍ex牌組（幻遊島）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001042",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_29  (化石翼龍ex牌組（幻遊島）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104318",
+    "MainCardSub1": "100104311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001043",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_30  (青綠＆大比鳥ex牌組（幻遊島）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1001044",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_25  (胖可丁ex牌組（最強的基因）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_31  (遠古巨蜓ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_32  (烈焰猴ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_33  (帕路奇亞ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_34  (竹蘭牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_35  (電次牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_36  (帕奇利茲ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_37  (神力爆破牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_38  (夢妖魔ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_39  (大舌舔ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_40  (艾路雷朵ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_41  (瑪狃拉ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_42  (達克萊伊ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_43  (銀河隊手下牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_44  (帝牙盧卡ex牌組（時空激鬥）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_45  (葉伊布ex牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_46  (阿馴牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_47  (阿爾宙斯ex＆席多藍恩牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_48  (冰伊布ex牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_49  (神奧神話牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_50  (阿爾宙斯ex＆雷丘牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_51  (烈咬陸鯊ex牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_52  (阿爾宙斯ex＆叉字蝠牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_53  (大朝北鼻ex牌組（超克之光）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_117  (大針蜂ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_118  (噴火龍ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_119  (三海地鼠ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_120  (皮卡丘ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_121  (騎拉帝納ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_122  (路卡利歐ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_123  (帕底亞土王ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002031",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_124  (巨鍛匠ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (可獲得牌組（20張卡牌），\n還可獲得能在牌組功能使用的主題牌組構築方案。\nex初階牌組只能從9種中兌換1種。)",
+    "ThemeDeckRecipeID": "1002032",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_125  (大尾狸ex初階牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203305",
+    "MainCardSub1": "100203311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002033",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_54  (大針蜂ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203405",
+    "MainCardSub1": "100203408",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002034",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_55  (噴火龍ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203509",
+    "MainCardSub1": "100203510",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_56  (三海地鼠ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203601",
+    "MainCardSub1": "100203611",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_57  (皮卡丘ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203711",
+    "MainCardSub1": "100203705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_58  (騎拉帝納ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203810",
+    "MainCardSub1": "100203805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002038",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_59  (路卡利歐ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203906",
+    "MainCardSub1": "100203911",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002039",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_60  (帕底亞土王ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204007",
+    "MainCardSub1": "100204011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002040",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_61  (巨鍛匠ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204109",
+    "MainCardSub1": "100204106",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1002041",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_62  (大尾狸ex牌組（嗨放異彩）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_63  (狙射樹梟ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_64  (瑪奧牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_65  (熾焰咆哮虎ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_66  (卡奇牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_67  (好勝毛蟹ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_68  (水蓮牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_69  (阿羅拉雷丘ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_70  (馬瑪內牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_71  (露奈雅拉ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_72  (阿塞蘿拉牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_73  (投擲猴ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_74  (阿羅拉臭臭泥ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_75  (索爾迦雷歐ex牌組（雙天之守護者）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_76  (爆肌蚊ex牌組（異次元危機）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_77  (卡璞・鳴鳴ex牌組（異次元危機）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_78  (鬃岩狼人ex牌組（異次元危機）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_79  (惡食大王ex牌組（異次元危機）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_80  (阿羅拉三地鼠ex牌組（異次元危機）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_81  (火伊布ex＆伊布ex牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_82  (西獅海壬ex牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_83  (仙子伊布ex＆伊布ex牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_84  (甜點砸砸砸牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_85  (快龍ex牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1003024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_86  (卡比獸ex牌組（伊布花園）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_87  (壺壺ex＆大竺葵牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_88  (鳳王ex＆炎帝牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_89  (刺龍王ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_96  (暴鯉龍牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_90  (電燈怪ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_91  (太陽伊布ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_92  (頓甲ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_93  (月亮伊布ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_94  (盔甲鳥ex＆巨鉗螳螂牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_95  (洛奇亞ex牌組（天與海的指引）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_97  (毽子棉ex牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_98  (炎帝ex牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_99  (水君ex牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_100  (雷公ex牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_101  (拉帝歐斯＆拉帝亞斯牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_102  (蚊香泳士ex牌組（未知水域）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_103  (爆肌蚊ex＆壺壺ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_104  (噴火龍ex＆火焰鳥ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_105  (帕路奇亞ex＆急凍鳥ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_106  (皮卡丘ex＆阿羅拉雷丘ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_107  (超夢ex＆夢幻ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_108  (露奈雅拉ex＆騎拉帝納ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_109  (路卡利歐ex＆烈咬陸鯊ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_110  (惡食大王ex＆叉字蝠ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_111  (阿爾宙斯ex＆帝牙盧卡ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_112  (索爾迦雷歐ex＆盔甲鳥ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_113  (伊布ex＆仙子伊布ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_114  (洛奇亞ex＆鳳王ex牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_115  (最棒的夥伴牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1004030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_116  (皮卡丘與同伴們牌組（高級擴充包ex）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_126  (超級凱羅斯ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_127  (超級火焰雞ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_128  (超級暴鯉龍ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_129  (西子伊牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_130  (超級電龍ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_131  (超級七夕青鳥ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_132  (梅麗莎牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_133  (快拳郎ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_134  (哈拉牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_135  (超級阿勃梭魯ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_136  (美錄梅塔ex牌組（超級崛起）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_137  (超級妙蛙花ex牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_138  (超級噴火龍Yex牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_139  (超級水箭龜ex牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_140  (希特隆牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_141  (超級長耳兔ex牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1005017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_142  (超級大鋼蛇ex牌組（紅蓮烈焰）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_143  (厄鬼椪碧草面具ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_144  (砰頭小丑ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_145  (超級巨沼怪ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_146  (阿羅拉九尾ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_147  (顫弦蠑螈ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_148  (超級沙奈朵ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_149  (龐岩怪ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_150  (聶梓牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_151  (超級大嘴娃ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_152  (超級袋獸ex牌組（幻夢遊行）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_153  (魔幻假面喵ex牌組（帕底亞驚奇）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_154  (紅蓮鎧騎ex牌組（帕底亞驚奇）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_155  (古劍豹ex牌組（帕底亞驚奇）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_156  (電肚蛙ex牌組（帕底亞驚奇）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_157  (賽富豪ex牌組（帕底亞驚奇）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_158  (超級噴火龍Xex牌組（超級異彩）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_159  (超級呆殼獸ex牌組（超級異彩）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_160  (超級雷電獸ex牌組（超級異彩）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_161  (超級耿鬼ex牌組（超級異彩）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_162  (超級巨鉗螳螂ex牌組（超級異彩）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1006021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_187  (精英牌組（超級火焰雞ex）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_163  (超級蜥蜴王ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_164  (超級噴火駝ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_165  (水伊布ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_166  (自爆磁怪ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_167  (超級路卡利歐ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_168  (岩殿居蟹ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_169  (索羅亞克ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_170  (鋼鎧鴉ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_171  (沙漠蜻蜓ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_172  (超級差不多娃娃ex牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_173  (黑連牌組（波導奏動）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_174  (鐵包袱ex牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_175  (密勒頓ex牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_176  (振翼髮ex牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_177  (故勒頓ex牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_178  (太樂巴戈斯ex牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_179  (猛雷鼓牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_180  (鐵武者牌組（進擊悖謬）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_181  (美納斯ex牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_182  (咚咚鼠ex牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_183  (超級蒂安希ex牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_184  (超級勾魂眼ex牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_185  (洗翠索羅亞克ex牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_186  (小狗滿地跑牌組（奇跡日常）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1007025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_212  (精英牌組（超級噴火龍Yex）)"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_188  (蜂女王ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_189  (火爆獸ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_190  (吼鯨王ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_191  (超級巨牙鯊ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_192  (洛托姆ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_193  (超級艾路雷朵ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_194  (胡帕ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_195  (超級巨金怪ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_196  (超級烈空坐ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_197  (舞天鵝ex牌組（天空主宰）)"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_198  (火箭隊的火焰鳥ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_199  (火箭隊的急凍鳥ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_200  (火箭隊的閃電鳥ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_201  (火箭隊的呆呆王ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_202  (火箭隊的雙彈瓦斯ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_203  (火箭隊的拉達ex牌組（火箭隊的野心）)"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "",
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (此為可在牌組功能使用的主題牌組構築方案。\n只要收集構築方案中記載的卡牌，\n即可建立牌組來遊玩。)",
+    "ThemeDeckRecipeID": "1008025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_213  (精英牌組（超級路卡利歐ex）)"
+  }
+]

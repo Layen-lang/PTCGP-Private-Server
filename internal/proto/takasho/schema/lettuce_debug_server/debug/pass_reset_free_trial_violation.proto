@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PassResetFreeTrialViolation {
+  message Types {
+    message Request {
+    }
+    message Response {
+      google.protobuf.Timestamp deleted_at = 4;
+    }
+  }
+}

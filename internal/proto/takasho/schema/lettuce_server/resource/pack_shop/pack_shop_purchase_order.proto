@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack_shop;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/order/order_resources.proto";
+
+message PackShopPurchaseOrder {
+  string transaction_id = 1;
+  string order_id = 2;
+  google.protobuf.Timestamp ordered_at = 3;
+  string expansion_id = 5;
+  string sku = 6;
+  string product_id = 7;
+  takasho.schema.lettuce_server.resource.order.OrderResources consumes = 8;
+  takasho.schema.lettuce_server.resource.order.OrderResources produces = 9;
+}

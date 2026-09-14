@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/friend/friend_status.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile.proto";
+
+message OtherPlayerProfileV1 {
+  message Types {
+    message Request {
+      string player_id = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.player_profile.Profile profile = 1;
+      takasho.schema.lettuce_server.resource.friend.FriendStatus friend_status = 2;
+    }
+  }
+}

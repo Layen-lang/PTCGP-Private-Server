@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/present_box_get_new_arrival_v1.proto";
+import "takasho/schema/lettuce_server/player_api/present_box_list_histories_v1.proto";
+import "takasho/schema/lettuce_server/player_api/present_box_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/present_box_receive_v1.proto";
+
+service PresentBox {
+  rpc ListV1 (PresentBoxListV1.Types.Request) returns (PresentBoxListV1.Types.Response);
+  rpc ListHistoriesV1 (PresentBoxListHistoriesV1.Types.Request) returns (PresentBoxListHistoriesV1.Types.Response);
+  rpc ReceiveV1 (PresentBoxReceiveV1.Types.Request) returns (PresentBoxReceiveV1.Types.Response);
+  rpc GetNewArrivalV1 (PresentBoxGetNewArrivalV1.Types.Request) returns (PresentBoxGetNewArrivalV1.Types.Response);
+}

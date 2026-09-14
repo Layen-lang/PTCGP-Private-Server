@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/card/card_stock.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message CardStockAdd {
+  message Types {
+    message Request {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.card.CardInstance cards = 2;
+      bool omit_sand = 3;
+      int64 duplication = 4;
+    }
+    message Response {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.card.CardStock card_stocks = 2;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 3;
+    }
+  }
+}

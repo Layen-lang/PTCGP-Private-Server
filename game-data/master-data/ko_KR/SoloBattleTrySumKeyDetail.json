@@ -1,0 +1,117 @@
+[
+  {
+    "DescriptionMSID": "CauseSpecialConditionParalyzed_MSID  (상대의 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 마비로 만든다)",
+    "SoloBattleTrySumKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionAsleep_MSID  (상대의 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 잠듦으로 만든다)",
+    "SoloBattleTrySumKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionBurned_MSID  (상대의 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 화상으로 만든다)",
+    "SoloBattleTrySumKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionConfused_MSID  (상대의 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 혼란으로 만든다)",
+    "SoloBattleTrySumKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionPoisoned_MSID  (상대의 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 독으로 만든다)",
+    "SoloBattleTrySumKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByColorlessAttack_MSID  (무색타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 20,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByGrassAttack_MSID  (풀타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 21,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFireAttack_MSID  (불꽃타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 22,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByWaterAttack_MSID  (물타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 23,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByLightningAttack_MSID  (번개타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 24,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByPsychicAttack_MSID  (초타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 25,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFightingAttack_MSID  (격투타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 26,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDarknessAttack_MSID  (악타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 27,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByMetalAttack_MSID  (강철타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 28,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDragonAttack_MSID  (드래곤타입의 포켓몬의 기술로 상대의 배틀 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]번 기절시킨다)",
+    "SoloBattleTrySumKey": 29,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayBasicPokemon_MSID  (자신의 필드에 기본 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]마리 낸다)",
+    "SoloBattleTrySumKey": 40,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayOneEvolutionPokemon_MSID  (자신의 필드에 1진화 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]마리 낸다)",
+    "SoloBattleTrySumKey": 41,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayTwoEvolutionPokemon_MSID  (자신의 필드에 2진화 포켓몬을 [Num:Int id=\"0\" max_length=\"2\" ]마리 낸다)",
+    "SoloBattleTrySumKey": 42,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayEXPokemon_MSID  (자신의 필드에 포켓몬 ex를 [Num:Int id=\"0\" max_length=\"2\" ]마리 낸다)",
+    "SoloBattleTrySumKey": 43,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "AttachEnergy_MSID  (자신의 포켓몬에게 에너지를 [Num:Int id=\"0\" max_length=\"2\" ]개 붙인다)",
+    "SoloBattleTrySumKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordDealtSomeDamage_MSID  ([Num:Int id=\"0\" max_length=\"5\" ]데미지 이상을 준다)",
+    "SoloBattleTrySumKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordAcquiredSomePoint_MSID  ([Num:Int id=\"0\" max_length=\"3\" ]포인트 이상을 획득한다)",
+    "SoloBattleTrySumKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordWonSomeBattle_MSID  ([Num:Int id=\"0\" max_length=\"3\" ]번 이상 승리한다)",
+    "SoloBattleTrySumKey": 103,
+    "TagParamType": 0
+  }
+]

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+
+message MissionIsCompletedV1 {
+  message Types {
+    message Response {
+      message Types {
+        message CompletedMission {
+          string mission_id = 1;
+          google.protobuf.Timestamp last_completed_at = 2;
+        }
+      }
+      repeated MissionIsCompletedV1.Types.Response.Types.CompletedMission completed_missions = 2;
+    }
+    message Request {
+      repeated string mission_ids = 1;
+    }
+  }
+}

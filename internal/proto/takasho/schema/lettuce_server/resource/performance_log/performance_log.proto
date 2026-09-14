@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.performance_log;
+
+import "takasho/schema/lettuce_server/resource/performance_log/performance_log_frame_time.proto";
+import "takasho/schema/lettuce_server/resource/performance_log/performance_log_load_time.proto";
+import "takasho/schema/lettuce_server/resource/performance_log/performance_log_memory.proto";
+import "takasho/schema/lettuce_server/resource/performance_log/performance_log_metadata.proto";
+
+message PerformanceLog {
+  PerformanceLogMetadata metadata = 1;
+  PerformanceLogFrameTime frame_time = 2;
+  PerformanceLogMemory memory = 3;
+  PerformanceLogLoadTime load_time = 4;
+}

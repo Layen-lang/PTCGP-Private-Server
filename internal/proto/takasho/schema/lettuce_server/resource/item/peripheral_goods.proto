@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "google/protobuf/timestamp.proto";
+
+message PeripheralGoods {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_DECK_SHIELD = 1;
+      TYPE_PLAY_MAT = 2;
+      TYPE_COIN_SKIN = 3;
+      TYPE_COLLECTION_FILE = 4;
+      TYPE_COLLECTION_BOARD = 5;
+    }
+  }
+  PeripheralGoods.Types.Type type = 1;
+  string id = 2;
+  uint64 amount = 3;
+  google.protobuf.Timestamp obtained_at = 4;
+}

@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: go.mod
+          cache: true
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: web
+        run: npm ci
+
+      - name: Check Go formatting
+        shell: pwsh
+        run: |
+          $files = Get-ChildItem cmd,internal -Recurse -File -Filter *.go |
+            Where-Object { $_.FullName -notlike '*\internal\proto\*' -and $_.Name -notlike '*.gen.go' }
+          $unformatted = @($files | ForEach-Object { gofmt -l $_.FullName })
+          if ($unformatted) { throw "Unformatted Go files:`n$($unformatted -join "`n")" }
+
+      - name: Test Go packages
+        run: go test ./...
+
+      - name: Vet Go packages
+        run: go vet ./...
+
+      - name: Lint frontend
+        working-directory: web
+        run: npm run lint
+
+      - name: Type-check frontend
+        working-directory: web
+        run: npm exec tsc -- -b
+
+      - name: Build frontend
+        working-directory: web
+        run: npm run build
+
+      - name: Verify embedded frontend is current
+        run: git diff --exit-code -- internal/admin/dist
+
+      - name: Check publication safety
+        shell: pwsh
+        run: ./scripts/check_publication.ps1

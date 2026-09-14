@@ -1,0 +1,90 @@
+[
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A1",
+    "ScheduleID": "SC_INFINITE"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A1a",
+    "ScheduleID": "SC_INFINITE"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A2",
+    "ScheduleID": "SC_RELEASE_A2a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A2a",
+    "ScheduleID": "SC_RELEASE_A2b"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A2b",
+    "ScheduleID": "SC_RELEASE_A3"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A3",
+    "ScheduleID": "SC_RELEASE_A3a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A3a",
+    "ScheduleID": "SC_RELEASE_A3b"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A3b",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A4",
+    "ScheduleID": "SC_RELEASE_A4a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A4a",
+    "ScheduleID": "SC_RELEASE_A4b"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_A4b",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B1",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B1a",
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B2",
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B2a",
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B2b",
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B3",
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B3a",
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B3b",
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B4",
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_B4a",
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  },
+  {
+    "GroupID": "TRADE_ALLOWED_GROUP_BeforeB1",
+    "ScheduleID": "SC_RELEASE_B1"
+  }
+]

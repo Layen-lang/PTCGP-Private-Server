@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/friend_approve_request_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_cancel_sent_requests_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_delete_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_get_favorites_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_reject_requests_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_search_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_send_requests_v1.proto";
+import "takasho/schema/lettuce_server/player_api/friend_set_favorite_v1.proto";
+
+service Friend {
+  rpc ListV1 (FriendListV1.Types.Request) returns (FriendListV1.Types.Response);
+  rpc SendRequestsV1 (FriendSendRequestsV1.Types.Request) returns (FriendSendRequestsV1.Types.Response);
+  rpc CancelSentRequestsV1 (FriendCancelSentRequestsV1.Types.Request) returns (FriendCancelSentRequestsV1.Types.Response);
+  rpc ApproveRequestV1 (FriendApproveRequestV1.Types.Request) returns (FriendApproveRequestV1.Types.Response);
+  rpc RejectRequestsV1 (FriendRejectRequestsV1.Types.Request) returns (FriendRejectRequestsV1.Types.Response);
+  rpc DeleteV1 (FriendDeleteV1.Types.Request) returns (FriendDeleteV1.Types.Response);
+  rpc SearchV1 (FriendSearchV1.Types.Request) returns (FriendSearchV1.Types.Response);
+  rpc SetFavoriteV1 (FriendSetFavoriteV1.Types.Request) returns (FriendSetFavoriteV1.Types.Response);
+  rpc GetFavoritesV1 (FriendGetFavoritesV1.Types.Request) returns (FriendGetFavoritesV1.Types.Response);
+}

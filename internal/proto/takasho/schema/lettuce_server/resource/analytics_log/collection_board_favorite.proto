@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CollectionBoardFavorite {
+  string board_id = 1;
+  repeated string cards = 2;
+  bool board_favorite_flg = 3;
+}

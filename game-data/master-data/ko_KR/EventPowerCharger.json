@@ -1,0 +1,11 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_E1  (일부 「혼자서」 배틀이나 이벤트에\n도전할 때 필요한 플레이 아이템입니다\n사용하면 도전하기까지 시간을 단축할 수 있습니다)",
+    "ID": "EVENT_CHARGER",
+    "NameMSID": "ITEM_NAME_CHARGER_E1  (이벤트 모래시계)",
+    "RecoveryDuration": 720,
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1,
+    "Type": 1
+  }
+]

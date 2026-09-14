@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (Reduce en una hora el tiempo de recuperación de\nenergía mágica para realizar elecciones mágicas.\nSe consigue, por ejemplo, al completar misiones.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (Reloj de arena mágico)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

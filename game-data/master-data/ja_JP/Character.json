@@ -1,0 +1,5530 @@
+[
+  {
+    "CharacterID": "ABAGOURA",
+    "DisplayNameMSID": "CARD_NAME_876  (アバゴーラ)"
+  },
+  {
+    "CharacterID": "ABSOL",
+    "DisplayNameMSID": "CARD_NAME_571  (アブソル)"
+  },
+  {
+    "CharacterID": "ABULY",
+    "DisplayNameMSID": "CARD_NAME_540  (アブリー)"
+  },
+  {
+    "CharacterID": "ABURIBBON",
+    "DisplayNameMSID": "CARD_NAME_541  (アブリボン)"
+  },
+  {
+    "CharacterID": "ACEBURN",
+    "DisplayNameMSID": "CARD_NAME_988  (エースバーン)"
+  },
+  {
+    "CharacterID": "ACEROLA",
+    "DisplayNameMSID": "CARD_NAME_606  (アセロラ)"
+  },
+  {
+    "CharacterID": "ACHAMO",
+    "DisplayNameMSID": "CARD_NAME_852  (アチャモ)"
+  },
+  {
+    "CharacterID": "ACHIGATOR",
+    "DisplayNameMSID": "CARD_NAME_1078  (アチゲータ)"
+  },
+  {
+    "CharacterID": "AGEHUNT",
+    "DisplayNameMSID": "CARD_NAME_835  (アゲハント)"
+  },
+  {
+    "CharacterID": "AGILDER",
+    "DisplayNameMSID": "CARD_NAME_1286  (アギルダー)"
+  },
+  {
+    "CharacterID": "AGNOME",
+    "DisplayNameMSID": "CARD_NAME_340  (アグノム)"
+  },
+  {
+    "CharacterID": "AGOJIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_495  (アゴジムシ)"
+  },
+  {
+    "CharacterID": "AGONOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1051  (アゴの化石)"
+  },
+  {
+    "CharacterID": "AGOYON",
+    "DisplayNameMSID": "CARD_NAME_649  (アーゴヨン)"
+  },
+  {
+    "CharacterID": "AIANT",
+    "DisplayNameMSID": "CARD_NAME_796  (アイアント)"
+  },
+  {
+    "CharacterID": "AIRMD",
+    "DisplayNameMSID": "CARD_NAME_371  (エアームド)"
+  },
+  {
+    "CharacterID": "AIRMD_EX",
+    "DisplayNameMSID": "CARD_NAME_759  (エアームドex)"
+  },
+  {
+    "CharacterID": "AKAGI",
+    "DisplayNameMSID": "CARD_NAME_405  (アカギ)"
+  },
+  {
+    "CharacterID": "AKANE",
+    "DisplayNameMSID": "CARD_NAME_825  (アカネ)"
+  },
+  {
+    "CharacterID": "AKUZIKING",
+    "DisplayNameMSID": "CARD_NAME_1031  (アクジキング)"
+  },
+  {
+    "CharacterID": "AKUZIKING_EX",
+    "DisplayNameMSID": "CARD_NAME_648  (アクジキングex)"
+  },
+  {
+    "CharacterID": "ALLIGATES",
+    "DisplayNameMSID": "CARD_NAME_715  (アリゲイツ)"
+  },
+  {
+    "CharacterID": "ALOLABETBETER",
+    "DisplayNameMSID": "CARD_NAME_569  (アローラベトベター)"
+  },
+  {
+    "CharacterID": "ALOLABETBETON",
+    "DisplayNameMSID": "CARD_NAME_1024  (アローラベトベトン)"
+  },
+  {
+    "CharacterID": "ALOLABETBETON_EX",
+    "DisplayNameMSID": "CARD_NAME_570  (アローラベトベトンex)"
+  },
+  {
+    "CharacterID": "ALOLADIGDA",
+    "DisplayNameMSID": "CARD_NAME_576  (アローラディグダ)"
+  },
+  {
+    "CharacterID": "ALOLADUGTRIO",
+    "DisplayNameMSID": "CARD_NAME_577  (アローラダグトリオ)"
+  },
+  {
+    "CharacterID": "ALOLADUGTRIO_EX",
+    "DisplayNameMSID": "CARD_NAME_650  (アローラダグトリオex)"
+  },
+  {
+    "CharacterID": "ALOLAGARAGARA",
+    "DisplayNameMSID": "CARD_NAME_505  (アローラガラガラ)"
+  },
+  {
+    "CharacterID": "ALOLAGOLONE",
+    "DisplayNameMSID": "CARD_NAME_528  (アローラゴローン)"
+  },
+  {
+    "CharacterID": "ALOLAGOLONYA",
+    "DisplayNameMSID": "CARD_NAME_529  (アローラゴローニャ)"
+  },
+  {
+    "CharacterID": "ALOLAISITSUBUTE",
+    "DisplayNameMSID": "CARD_NAME_527  (アローライシツブテ)"
+  },
+  {
+    "CharacterID": "ALOLAKORATTA",
+    "DisplayNameMSID": "CARD_NAME_565  (アローラコラッタ)"
+  },
+  {
+    "CharacterID": "ALOLAKYUKON",
+    "DisplayNameMSID": "CARD_NAME_516  (アローラキュウコン)"
+  },
+  {
+    "CharacterID": "ALOLAKYUKON_EX",
+    "DisplayNameMSID": "CARD_NAME_990  (アローラキュウコンex)"
+  },
+  {
+    "CharacterID": "ALOLANASSY",
+    "DisplayNameMSID": "CARD_NAME_485  (アローラナッシー)"
+  },
+  {
+    "CharacterID": "ALOLANYARTH",
+    "DisplayNameMSID": "CARD_NAME_567  (アローラニャース)"
+  },
+  {
+    "CharacterID": "ALOLAPERSIAN",
+    "DisplayNameMSID": "CARD_NAME_568  (アローラペルシアン)"
+  },
+  {
+    "CharacterID": "ALOLARAICHU",
+    "DisplayNameMSID": "CARD_NAME_1000  (アローラライチュウ)"
+  },
+  {
+    "CharacterID": "ALOLARAICHU_EX",
+    "DisplayNameMSID": "CARD_NAME_526  (アローラライチュウex)"
+  },
+  {
+    "CharacterID": "ALOLARATTA",
+    "DisplayNameMSID": "CARD_NAME_566  (アローララッタ)"
+  },
+  {
+    "CharacterID": "ALOLAROKON",
+    "DisplayNameMSID": "CARD_NAME_515  (アローラロコン)"
+  },
+  {
+    "CharacterID": "ALOLASAND",
+    "DisplayNameMSID": "CARD_NAME_513  (アローラサンド)"
+  },
+  {
+    "CharacterID": "ALOLASANDPAN",
+    "DisplayNameMSID": "CARD_NAME_514  (アローラサンドパン)"
+  },
+  {
+    "CharacterID": "AMAJO",
+    "DisplayNameMSID": "CARD_NAME_500  (アマージョ)"
+  },
+  {
+    "CharacterID": "AMAKAJI",
+    "DisplayNameMSID": "CARD_NAME_498  (アマカジ)"
+  },
+  {
+    "CharacterID": "AMAKUKAORUMORI",
+    "DisplayNameMSID": "CARD_NAME_1216  (あまくかおる森)"
+  },
+  {
+    "CharacterID": "AMAMAIKO",
+    "DisplayNameMSID": "CARD_NAME_499  (アママイコ)"
+  },
+  {
+    "CharacterID": "AMARURUGA",
+    "DisplayNameMSID": "CARD_NAME_998  (アマルルガ)"
+  },
+  {
+    "CharacterID": "AMARUS",
+    "DisplayNameMSID": "CARD_NAME_997  (アマルス)"
+  },
+  {
+    "CharacterID": "AMEMOTH",
+    "DisplayNameMSID": "CARD_NAME_487  (アメモース)"
+  },
+  {
+    "CharacterID": "AMETAMA",
+    "DisplayNameMSID": "CARD_NAME_486  (アメタマ)"
+  },
+  {
+    "CharacterID": "ANOHORAGUSA",
+    "DisplayNameMSID": "CARD_NAME_1072  (アノホラグサ)"
+  },
+  {
+    "CharacterID": "ANOKUSA",
+    "DisplayNameMSID": "CARD_NAME_1071  (アノクサ)"
+  },
+  {
+    "CharacterID": "ANOPTH",
+    "DisplayNameMSID": "CARD_NAME_1306  (アノプス)"
+  },
+  {
+    "CharacterID": "AOGARASU",
+    "DisplayNameMSID": "CARD_NAME_937  (アオガラス)"
+  },
+  {
+    "CharacterID": "AOI",
+    "DisplayNameMSID": "CARD_NAME_1254  (アオイ)"
+  },
+  {
+    "CharacterID": "APPRYU",
+    "DisplayNameMSID": "CARD_NAME_1157  (アップリュー)"
+  },
+  {
+    "CharacterID": "ARABURUTAKE",
+    "DisplayNameMSID": "CARD_NAME_1219  (アラブルタケ)"
+  },
+  {
+    "CharacterID": "ARBO",
+    "DisplayNameMSID": "CARD_NAME_164  (アーボ)"
+  },
+  {
+    "CharacterID": "ARBOK",
+    "DisplayNameMSID": "CARD_NAME_165  (アーボック)"
+  },
+  {
+    "CharacterID": "ARCEUS",
+    "DisplayNameMSID": "CARD_NAME_444  (アルセウス)"
+  },
+  {
+    "CharacterID": "ARCEUS_EX",
+    "DisplayNameMSID": "CARD_NAME_445  (アルセウスex)"
+  },
+  {
+    "CharacterID": "ARCHEN",
+    "DisplayNameMSID": "CARD_NAME_898  (アーケン)"
+  },
+  {
+    "CharacterID": "ARCHEOS",
+    "DisplayNameMSID": "CARD_NAME_899  (アーケオス)"
+  },
+  {
+    "CharacterID": "ARIADOS",
+    "DisplayNameMSID": "CARD_NAME_753  (アリアドス)"
+  },
+  {
+    "CharacterID": "ARMALDO",
+    "DisplayNameMSID": "CARD_NAME_1307  (アーマルド)"
+  },
+  {
+    "CharacterID": "ARMORGA",
+    "DisplayNameMSID": "CARD_NAME_920  (アーマーガア)"
+  },
+  {
+    "CharacterID": "ARMORGA_EX",
+    "DisplayNameMSID": "CARD_NAME_1205  (アーマーガアex)"
+  },
+  {
+    "CharacterID": "ARUKUJIRA",
+    "DisplayNameMSID": "CARD_NAME_1089  (アルクジラ)"
+  },
+  {
+    "CharacterID": "ASANAN",
+    "DisplayNameMSID": "CARD_NAME_436  (アサナン)"
+  },
+  {
+    "CharacterID": "ASHIMARI",
+    "DisplayNameMSID": "CARD_NAME_517  (アシマリ)"
+  },
+  {
+    "CharacterID": "ASHIRENE",
+    "DisplayNameMSID": "CARD_NAME_519  (アシレーヌ)"
+  },
+  {
+    "CharacterID": "ASHIRENE_EX",
+    "DisplayNameMSID": "CARD_NAME_678  (アシレーヌex)"
+  },
+  {
+    "CharacterID": "ATARITSUKIAISU",
+    "DisplayNameMSID": "CARD_NAME_1052  (当たりつきアイス)"
+  },
+  {
+    "CharacterID": "AZUMAO",
+    "DisplayNameMSID": "CARD_NAME_73  (アズマオウ)"
+  },
+  {
+    "CharacterID": "BABYMET",
+    "DisplayNameMSID": "CARD_NAME_944  (ヘビーメット)"
+  },
+  {
+    "CharacterID": "BACHINKEY",
+    "DisplayNameMSID": "CARD_NAME_848  (バチンキー)"
+  },
+  {
+    "CharacterID": "BACHINUNI",
+    "DisplayNameMSID": "CARD_NAME_112  (バチンウニ)"
+  },
+  {
+    "CharacterID": "BACHURU",
+    "DisplayNameMSID": "CARD_NAME_249  (バチュル)"
+  },
+  {
+    "CharacterID": "BAIVANILLA",
+    "DisplayNameMSID": "CARD_NAME_676  (バイバニラ)"
+  },
+  {
+    "CharacterID": "BAIWOOLUU",
+    "DisplayNameMSID": "CARD_NAME_213  (バイウールー)"
+  },
+  {
+    "CharacterID": "BAKECCHA",
+    "DisplayNameMSID": "CARD_NAME_1011  (バケッチャ)"
+  },
+  {
+    "CharacterID": "BAKPHOON",
+    "DisplayNameMSID": "CARD_NAME_706  (バクフーン)"
+  },
+  {
+    "CharacterID": "BAKPHOON_EX",
+    "DisplayNameMSID": "CARD_NAME_1290  (バクフーンex)"
+  },
+  {
+    "CharacterID": "BAKUGAMES",
+    "DisplayNameMSID": "CARD_NAME_512  (バクガメス)"
+  },
+  {
+    "CharacterID": "BAKUONG",
+    "DisplayNameMSID": "CARD_NAME_929  (バクオング)"
+  },
+  {
+    "CharacterID": "BAKUUDA",
+    "DisplayNameMSID": "CARD_NAME_1159  (バクーダ)"
+  },
+  {
+    "CharacterID": "BALKIE",
+    "DisplayNameMSID": "CARD_NAME_748  (バルキー)"
+  },
+  {
+    "CharacterID": "BANBADORO",
+    "DisplayNameMSID": "CARD_NAME_562  (バンバドロ)"
+  },
+  {
+    "CharacterID": "BANEBOO",
+    "DisplayNameMSID": "CARD_NAME_535  (バネブー)"
+  },
+  {
+    "CharacterID": "BANGIRAS",
+    "DisplayNameMSID": "CARD_NAME_435  (バンギラス)"
+  },
+  {
+    "CharacterID": "BAOKKIE",
+    "DisplayNameMSID": "CARD_NAME_857  (バオッキー)"
+  },
+  {
+    "CharacterID": "BAOPPU",
+    "DisplayNameMSID": "CARD_NAME_856  (バオップ)"
+  },
+  {
+    "CharacterID": "BARRIERD",
+    "DisplayNameMSID": "CARD_NAME_126  (バリヤード)"
+  },
+  {
+    "CharacterID": "BARUBEAT",
+    "DisplayNameMSID": "CARD_NAME_1133  (バルビート)"
+  },
+  {
+    "CharacterID": "BASSRAO",
+    "DisplayNameMSID": "CARD_NAME_958  (バスラオ)"
+  },
+  {
+    "CharacterID": "BAYLEAF",
+    "DisplayNameMSID": "CARD_NAME_692  (ベイリーフ)"
+  },
+  {
+    "CharacterID": "BEADARU",
+    "DisplayNameMSID": "CARD_NAME_392  (ビーダル)"
+  },
+  {
+    "CharacterID": "BEADARU_EX",
+    "DisplayNameMSID": "CARD_NAME_480  (ビーダルex)"
+  },
+  {
+    "CharacterID": "BEEDLE",
+    "DisplayNameMSID": "CARD_NAME_8  (ビードル)"
+  },
+  {
+    "CharacterID": "BEEQUEN",
+    "DisplayNameMSID": "CARD_NAME_291  (ビークイン)"
+  },
+  {
+    "CharacterID": "BEEQUEN_EX",
+    "DisplayNameMSID": "CARD_NAME_1284  (ビークインex)"
+  },
+  {
+    "CharacterID": "BERACAS",
+    "DisplayNameMSID": "CARD_NAME_1103  (ベラカス)"
+  },
+  {
+    "CharacterID": "BEROBA",
+    "DisplayNameMSID": "CARD_NAME_912  (ベロバー)"
+  },
+  {
+    "CharacterID": "BEROBELT",
+    "DisplayNameMSID": "CARD_NAME_479  (ベロベルト)"
+  },
+  {
+    "CharacterID": "BEROBELT_EX",
+    "DisplayNameMSID": "CARD_NAME_383  (ベロベルトex)"
+  },
+  {
+    "CharacterID": "BERORINGA",
+    "DisplayNameMSID": "CARD_NAME_201  (ベロリンガ)"
+  },
+  {
+    "CharacterID": "BETBETER",
+    "DisplayNameMSID": "CARD_NAME_174  (ベトベター)"
+  },
+  {
+    "CharacterID": "BETBETON",
+    "DisplayNameMSID": "CARD_NAME_175  (ベトベトン)"
+  },
+  {
+    "CharacterID": "BEVENOM",
+    "DisplayNameMSID": "CARD_NAME_627  (ベベノム)"
+  },
+  {
+    "CharacterID": "BIGAIRBALLOON",
+    "DisplayNameMSID": "CARD_NAME_1126  (大きなふうせん)"
+  },
+  {
+    "CharacterID": "BIPPA",
+    "DisplayNameMSID": "CARD_NAME_391  (ビッパ)"
+  },
+  {
+    "CharacterID": "BIRIRIDAMA",
+    "DisplayNameMSID": "CARD_NAME_99  (ビリリダマ)"
+  },
+  {
+    "CharacterID": "BISUTONAITO",
+    "DisplayNameMSID": "CARD_NAME_665  (ビーストナイト)"
+  },
+  {
+    "CharacterID": "BISUTOWORU",
+    "DisplayNameMSID": "CARD_NAME_662  (ビーストウォール)"
+  },
+  {
+    "CharacterID": "BLOSTER",
+    "DisplayNameMSID": "CARD_NAME_960  (ブロスター)"
+  },
+  {
+    "CharacterID": "BOCHI",
+    "DisplayNameMSID": "CARD_NAME_1106  (ボチ)"
+  },
+  {
+    "CharacterID": "BOHMANDER",
+    "DisplayNameMSID": "CARD_NAME_1038  (ボーマンダ)"
+  },
+  {
+    "CharacterID": "BOKUREI",
+    "DisplayNameMSID": "CARD_NAME_490  (ボクレー)"
+  },
+  {
+    "CharacterID": "BOOBER",
+    "DisplayNameMSID": "CARD_NAME_44  (ブーバー)"
+  },
+  {
+    "CharacterID": "BOOBURN",
+    "DisplayNameMSID": "CARD_NAME_296  (ブーバーン)"
+  },
+  {
+    "CharacterID": "BOOPIG",
+    "DisplayNameMSID": "CARD_NAME_536  (ブーピッグ)"
+  },
+  {
+    "CharacterID": "BOOSTER",
+    "DisplayNameMSID": "CARD_NAME_45  (ブースター)"
+  },
+  {
+    "CharacterID": "BOOSTER_EX",
+    "DisplayNameMSID": "CARD_NAME_672  (ブースターex)"
+  },
+  {
+    "CharacterID": "BOSSGODORA",
+    "DisplayNameMSID": "CARD_NAME_653  (ボスゴドラ)"
+  },
+  {
+    "CharacterID": "BOTAN",
+    "DisplayNameMSID": "CARD_NAME_690  (ボタン)"
+  },
+  {
+    "CharacterID": "BOWTZEL",
+    "DisplayNameMSID": "CARD_NAME_1101  (バウッツェル)"
+  },
+  {
+    "CharacterID": "BRACKY",
+    "DisplayNameMSID": "CARD_NAME_683  (ブラッキー)"
+  },
+  {
+    "CharacterID": "BRACKY_EX",
+    "DisplayNameMSID": "CARD_NAME_754  (ブラッキーex)"
+  },
+  {
+    "CharacterID": "BRIDURAS",
+    "DisplayNameMSID": "CARD_NAME_1317  (ブリジュラス)"
+  },
+  {
+    "CharacterID": "BRIGARRON",
+    "DisplayNameMSID": "CARD_NAME_976  (ブリガロン)"
+  },
+  {
+    "CharacterID": "BRIMUON",
+    "DisplayNameMSID": "CARD_NAME_1187  (ブリムオン)"
+  },
+  {
+    "CharacterID": "BUBY",
+    "DisplayNameMSID": "CARD_NAME_707  (ブビィ)"
+  },
+  {
+    "CharacterID": "BUFFRON",
+    "DisplayNameMSID": "CARD_NAME_772  (バッフロン)"
+  },
+  {
+    "CharacterID": "BULU",
+    "DisplayNameMSID": "CARD_NAME_743  (ブルー)"
+  },
+  {
+    "CharacterID": "BUNYATTO",
+    "DisplayNameMSID": "CARD_NAME_396  (ブニャット)"
+  },
+  {
+    "CharacterID": "BUOYSEL",
+    "DisplayNameMSID": "CARD_NAME_310  (ブイゼル)"
+  },
+  {
+    "CharacterID": "BURORON",
+    "DisplayNameMSID": "CARD_NAME_476  (ブロロン)"
+  },
+  {
+    "CharacterID": "BUROROROOM",
+    "DisplayNameMSID": "CARD_NAME_477  (ブロロローム)"
+  },
+  {
+    "CharacterID": "BURSYAMO",
+    "DisplayNameMSID": "CARD_NAME_854  (バシャーモ)"
+  },
+  {
+    "CharacterID": "BURUNGEL",
+    "DisplayNameMSID": "CARD_NAME_808  (ブルンゲル)"
+  },
+  {
+    "CharacterID": "BUSUTOENAJIKODAI",
+    "DisplayNameMSID": "CARD_NAME_1252  (ブーストエナジー 古代)"
+  },
+  {
+    "CharacterID": "BUSUTOENAJIMIRAI",
+    "DisplayNameMSID": "CARD_NAME_1253  (ブーストエナジー 未来)"
+  },
+  {
+    "CharacterID": "BUTTERFREE",
+    "DisplayNameMSID": "CARD_NAME_7  (バタフリー)"
+  },
+  {
+    "CharacterID": "CALAMANERO",
+    "DisplayNameMSID": "CARD_NAME_815  (カラマネロ)"
+  },
+  {
+    "CharacterID": "CALME",
+    "DisplayNameMSID": "CARD_NAME_1147  (カルム)"
+  },
+  {
+    "CharacterID": "CAMOME",
+    "DisplayNameMSID": "CARD_NAME_1342  (キャモメ)"
+  },
+  {
+    "CharacterID": "CAPSAIJI",
+    "DisplayNameMSID": "CARD_NAME_1073  (カプサイジ)"
+  },
+  {
+    "CharacterID": "CARBOU",
+    "DisplayNameMSID": "CARD_NAME_1080  (カルボウ)"
+  },
+  {
+    "CharacterID": "CARNE",
+    "DisplayNameMSID": "CARD_NAME_1056  (カルネ)"
+  },
+  {
+    "CharacterID": "CASEY",
+    "DisplayNameMSID": "CARD_NAME_115  (ケーシィ)"
+  },
+  {
+    "CharacterID": "CATERPIE",
+    "DisplayNameMSID": "CARD_NAME_5  (キャタピー)"
+  },
+  {
+    "CharacterID": "CELEBI",
+    "DisplayNameMSID": "CARD_NAME_795  (セレビィ)"
+  },
+  {
+    "CharacterID": "CELEBI_EX",
+    "DisplayNameMSID": "CARD_NAME_234  (セレビィex)"
+  },
+  {
+    "CharacterID": "CHADEATH",
+    "DisplayNameMSID": "CARD_NAME_1287  (チャデス)"
+  },
+  {
+    "CharacterID": "CHANDELA",
+    "DisplayNameMSID": "CARD_NAME_860  (シャンデラ)"
+  },
+  {
+    "CharacterID": "CHAOBOO",
+    "DisplayNameMSID": "CARD_NAME_1164  (チャオブー)"
+  },
+  {
+    "CharacterID": "CHAREM",
+    "DisplayNameMSID": "CARD_NAME_437  (チャーレム)"
+  },
+  {
+    "CharacterID": "CHEREN",
+    "DisplayNameMSID": "CARD_NAME_1214  (チェレン)"
+  },
+  {
+    "CharacterID": "CHERINBO",
+    "DisplayNameMSID": "CARD_NAME_413  (チェリンボ)"
+  },
+  {
+    "CharacterID": "CHERRIM",
+    "DisplayNameMSID": "CARD_NAME_414  (チェリム)"
+  },
+  {
+    "CharacterID": "CHEVARGO",
+    "DisplayNameMSID": "CARD_NAME_579  (シュバルゴ)"
+  },
+  {
+    "CharacterID": "CHICORITA",
+    "DisplayNameMSID": "CARD_NAME_691  (チコリータ)"
+  },
+  {
+    "CharacterID": "CHIGORAS",
+    "DisplayNameMSID": "CARD_NAME_1020  (チゴラス)"
+  },
+  {
+    "CharacterID": "CHIISANAFUUSEN",
+    "DisplayNameMSID": "CARD_NAME_1276  (小さなふうせん)"
+  },
+  {
+    "CharacterID": "CHILLACCINO",
+    "DisplayNameMSID": "CARD_NAME_211  (チラチーノ)"
+  },
+  {
+    "CharacterID": "CHILLARMY",
+    "DisplayNameMSID": "CARD_NAME_210  (チラーミィ)"
+  },
+  {
+    "CharacterID": "CHIONJEN",
+    "DisplayNameMSID": "CARD_NAME_1076  (チオンジェン)"
+  },
+  {
+    "CharacterID": "CHIREAN",
+    "DisplayNameMSID": "CARD_NAME_1303  (チリーン)"
+  },
+  {
+    "CharacterID": "CHIWOHAUHANE",
+    "DisplayNameMSID": "CARD_NAME_1220  (チヲハウハネ)"
+  },
+  {
+    "CharacterID": "CHOBOMAKI",
+    "DisplayNameMSID": "CARD_NAME_1285  (チョボマキ)"
+  },
+  {
+    "CharacterID": "CHONCHIE",
+    "DisplayNameMSID": "CARD_NAME_727  (チョンチー)"
+  },
+  {
+    "CharacterID": "CHORONEKO",
+    "DisplayNameMSID": "CARD_NAME_264  (チョロネコ)"
+  },
+  {
+    "CharacterID": "CHURINE",
+    "DisplayNameMSID": "CARD_NAME_29  (チュリネ)"
+  },
+  {
+    "CharacterID": "CITRON",
+    "DisplayNameMSID": "CARD_NAME_969  (シトロン)"
+  },
+  {
+    "CharacterID": "CITRONNORYUKKU",
+    "DisplayNameMSID": "CARD_NAME_967  (シトロンのリュック)"
+  },
+  {
+    "CharacterID": "CLEFFY",
+    "DisplayNameMSID": "CARD_NAME_580  (クレッフィ)"
+  },
+  {
+    "CharacterID": "COBALON",
+    "DisplayNameMSID": "CARD_NAME_915  (コバルオン)"
+  },
+  {
+    "CharacterID": "COCOON",
+    "DisplayNameMSID": "CARD_NAME_9  (コクーン)"
+  },
+  {
+    "CharacterID": "COIL",
+    "DisplayNameMSID": "CARD_NAME_97  (コイル)"
+  },
+  {
+    "CharacterID": "COKODORA",
+    "DisplayNameMSID": "CARD_NAME_651  (ココドラ)"
+  },
+  {
+    "CharacterID": "COLLECUREI",
+    "DisplayNameMSID": "CARD_NAME_466  (コレクレー)"
+  },
+  {
+    "CharacterID": "CORNI",
+    "DisplayNameMSID": "CARD_NAME_1212  (コルニ)"
+  },
+  {
+    "CharacterID": "COSMOG",
+    "DisplayNameMSID": "CARD_NAME_547  (コスモッグ)"
+  },
+  {
+    "CharacterID": "COSMOVUM",
+    "DisplayNameMSID": "CARD_NAME_548  (コスモウム)"
+  },
+  {
+    "CharacterID": "COTOISE",
+    "DisplayNameMSID": "CARD_NAME_673  (コータス)"
+  },
+  {
+    "CharacterID": "CRAB",
+    "DisplayNameMSID": "CARD_NAME_68  (クラブ)"
+  },
+  {
+    "CharacterID": "CREBASE",
+    "DisplayNameMSID": "CARD_NAME_880  (クレベース)"
+  },
+  {
+    "CharacterID": "CRESSELIA",
+    "DisplayNameMSID": "CARD_NAME_342  (クレセリア)"
+  },
+  {
+    "CharacterID": "CRESSELIA_EX",
+    "DisplayNameMSID": "CARD_NAME_450  (クレセリアex)"
+  },
+  {
+    "CharacterID": "CRIMGAN",
+    "DisplayNameMSID": "CARD_NAME_269  (クリムガン)"
+  },
+  {
+    "CharacterID": "CROBAT",
+    "DisplayNameMSID": "CARD_NAME_439  (クロバット)"
+  },
+  {
+    "CharacterID": "CROBAT_EX",
+    "DisplayNameMSID": "CARD_NAME_751  (クロバットex)"
+  },
+  {
+    "CharacterID": "CUESPATRA",
+    "DisplayNameMSID": "CARD_NAME_1105  (クエスパトラ)"
+  },
+  {
+    "CharacterID": "CUT ROTOM",
+    "DisplayNameMSID": "CARD_NAME_294  (カットロトム)"
+  },
+  {
+    "CharacterID": "CUWAWA",
+    "DisplayNameMSID": "CARD_NAME_542  (キュワワー)"
+  },
+  {
+    "CharacterID": "DADARIN",
+    "DisplayNameMSID": "CARD_NAME_240  (ダダリン)"
+  },
+  {
+    "CharacterID": "DADARIN_EX",
+    "DisplayNameMSID": "CARD_NAME_503  (ダダリンex)"
+  },
+  {
+    "CharacterID": "DAGEKI",
+    "DisplayNameMSID": "CARD_NAME_1193  (ダゲキ)"
+  },
+  {
+    "CharacterID": "DAIKENKI",
+    "DisplayNameMSID": "CARD_NAME_1299  (ダイケンキ)"
+  },
+  {
+    "CharacterID": "DAINOSE",
+    "DisplayNameMSID": "CARD_NAME_377  (ダイノーズ)"
+  },
+  {
+    "CharacterID": "DAINOSE_EX",
+    "DisplayNameMSID": "CARD_NAME_440  (ダイノーズex)"
+  },
+  {
+    "CharacterID": "DAIOUDOU",
+    "DisplayNameMSID": "CARD_NAME_1244  (ダイオウドウ)"
+  },
+  {
+    "CharacterID": "DAKUMA",
+    "DisplayNameMSID": "CARD_NAME_1197  (ダクマ)"
+  },
+  {
+    "CharacterID": "DANGORO",
+    "DisplayNameMSID": "CARD_NAME_1017  (ダンゴロ)"
+  },
+  {
+    "CharacterID": "DARKPENDANTO",
+    "DisplayNameMSID": "CARD_NAME_776  (ダークペンダント)"
+  },
+  {
+    "CharacterID": "DARKRAI",
+    "DisplayNameMSID": "CARD_NAME_369  (ダークライ)"
+  },
+  {
+    "CharacterID": "DARKRAI_EX",
+    "DisplayNameMSID": "CARD_NAME_370  (ダークライex)"
+  },
+  {
+    "CharacterID": "DARUMAKKA",
+    "DisplayNameMSID": "CARD_NAME_710  (ダルマッカ)"
+  },
+  {
+    "CharacterID": "DEDENNE",
+    "DisplayNameMSID": "CARD_NAME_251  (デデンネ)"
+  },
+  {
+    "CharacterID": "DEDENNE_EX",
+    "DisplayNameMSID": "CARD_NAME_1266  (デデンネex)"
+  },
+  {
+    "CharacterID": "DEKAGOOSE",
+    "DisplayNameMSID": "CARD_NAME_595  (デカグース)"
+  },
+  {
+    "CharacterID": "DEKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1119  (デカヌチャン)"
+  },
+  {
+    "CharacterID": "DEKANUCHAN_EX",
+    "DisplayNameMSID": "CARD_NAME_475  (デカヌチャンex)"
+  },
+  {
+    "CharacterID": "DELIBIRD",
+    "DisplayNameMSID": "CARD_NAME_723  (デリバード)"
+  },
+  {
+    "CharacterID": "DELVIL",
+    "DisplayNameMSID": "CARD_NAME_416  (デルビル)"
+  },
+  {
+    "CharacterID": "DENDIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_530  (デンヂムシ)"
+  },
+  {
+    "CharacterID": "DENJYUMOKU",
+    "DisplayNameMSID": "CARD_NAME_619  (デンジュモク)"
+  },
+  {
+    "CharacterID": "DENRYU",
+    "DisplayNameMSID": "CARD_NAME_732  (デンリュウ)"
+  },
+  {
+    "CharacterID": "DENTULA",
+    "DisplayNameMSID": "CARD_NAME_250  (デンチュラ)"
+  },
+  {
+    "CharacterID": "DENZI",
+    "DisplayNameMSID": "CARD_NAME_408  (デンジ)"
+  },
+  {
+    "CharacterID": "DESUKARN",
+    "DisplayNameMSID": "CARD_NAME_890  (デスカーン)"
+  },
+  {
+    "CharacterID": "DESUMASU",
+    "DisplayNameMSID": "CARD_NAME_889  (デスマス)"
+  },
+  {
+    "CharacterID": "DIALGA_EX",
+    "DisplayNameMSID": "CARD_NAME_378  (ディアルガex)"
+  },
+  {
+    "CharacterID": "DIANCIE",
+    "DisplayNameMSID": "CARD_NAME_1184  (ディアンシー)"
+  },
+  {
+    "CharacterID": "DIGDA",
+    "DisplayNameMSID": "CARD_NAME_139  (ディグダ)"
+  },
+  {
+    "CharacterID": "DIHEAD",
+    "DisplayNameMSID": "CARD_NAME_908  (ジヘッド)"
+  },
+  {
+    "CharacterID": "DINLU",
+    "DisplayNameMSID": "CARD_NAME_1112  (ディンルー)"
+  },
+  {
+    "CharacterID": "DIRTENG",
+    "DisplayNameMSID": "CARD_NAME_840  (ダーテング)"
+  },
+  {
+    "CharacterID": "DOBLE",
+    "DisplayNameMSID": "CARD_NAME_770  (ドーブル)"
+  },
+  {
+    "CharacterID": "DODAITOSE",
+    "DisplayNameMSID": "CARD_NAME_285  (ドダイトス)"
+  },
+  {
+    "CharacterID": "DODEKABASHI",
+    "DisplayNameMSID": "CARD_NAME_593  (ドデカバシ)"
+  },
+  {
+    "CharacterID": "DODO",
+    "DisplayNameMSID": "CARD_NAME_199  (ドードー)"
+  },
+  {
+    "CharacterID": "DODOGEZAN",
+    "DisplayNameMSID": "CARD_NAME_1238  (ドドゲザン)"
+  },
+  {
+    "CharacterID": "DODORIO",
+    "DisplayNameMSID": "CARD_NAME_200  (ドードリオ)"
+  },
+  {
+    "CharacterID": "DOGARS",
+    "DisplayNameMSID": "CARD_NAME_176  (ドガース)"
+  },
+  {
+    "CharacterID": "DOGOHMB",
+    "DisplayNameMSID": "CARD_NAME_928  (ドゴーム)"
+  },
+  {
+    "CharacterID": "DOHIDOIDE",
+    "DisplayNameMSID": "CARD_NAME_575  (ドヒドイデ)"
+  },
+  {
+    "CharacterID": "DOHMIRROR",
+    "DisplayNameMSID": "CARD_NAME_375  (ドーミラー)"
+  },
+  {
+    "CharacterID": "DOHTAKUN",
+    "DisplayNameMSID": "CARD_NAME_376  (ドータクン)"
+  },
+  {
+    "CharacterID": "DOJOACH",
+    "DisplayNameMSID": "CARD_NAME_420  (ドジョッチ)"
+  },
+  {
+    "CharacterID": "DOKKORER",
+    "DisplayNameMSID": "CARD_NAME_555  (ドッコラー)"
+  },
+  {
+    "CharacterID": "DOKUBARI",
+    "DisplayNameMSID": "CARD_NAME_604  (どくバリ)"
+  },
+  {
+    "CharacterID": "DOKUCALE",
+    "DisplayNameMSID": "CARD_NAME_837  (ドクケイル)"
+  },
+  {
+    "CharacterID": "DOKUKURAGE",
+    "DisplayNameMSID": "CARD_NAME_63  (ドククラゲ)"
+  },
+  {
+    "CharacterID": "DOKUROG",
+    "DisplayNameMSID": "CARD_NAME_368  (ドクロッグ)"
+  },
+  {
+    "CharacterID": "DONFAN",
+    "DisplayNameMSID": "CARD_NAME_432  (ドンファン)"
+  },
+  {
+    "CharacterID": "DONFAN_EX",
+    "DisplayNameMSID": "CARD_NAME_747  (ドンファンex)"
+  },
+  {
+    "CharacterID": "DONGKARASU",
+    "DisplayNameMSID": "CARD_NAME_357  (ドンカラス)"
+  },
+  {
+    "CharacterID": "DONMEL",
+    "DisplayNameMSID": "CARD_NAME_1158  (ドンメル)"
+  },
+  {
+    "CharacterID": "DORAPION",
+    "DisplayNameMSID": "CARD_NAME_366  (ドラピオン)"
+  },
+  {
+    "CharacterID": "DOROBANKO",
+    "DisplayNameMSID": "CARD_NAME_561  (ドロバンコ)"
+  },
+  {
+    "CharacterID": "DORYUZU",
+    "DisplayNameMSID": "CARD_NAME_578  (ドリュウズ)"
+  },
+  {
+    "CharacterID": "DOSIDON",
+    "DisplayNameMSID": "CARD_NAME_343  (ドサイドン)"
+  },
+  {
+    "CharacterID": "DOTEKKOTSU",
+    "DisplayNameMSID": "CARD_NAME_556  (ドテッコツ)"
+  },
+  {
+    "CharacterID": "DOUBLAN",
+    "DisplayNameMSID": "CARD_NAME_962  (ダブラン)"
+  },
+  {
+    "CharacterID": "DRAMIDORO",
+    "DisplayNameMSID": "CARD_NAME_817  (ドラミドロ)"
+  },
+  {
+    "CharacterID": "DRAMIDORO_EX",
+    "DisplayNameMSID": "CARD_NAME_911  (ドラミドロex)"
+  },
+  {
+    "CharacterID": "DREDEAR",
+    "DisplayNameMSID": "CARD_NAME_30  (ドレディア)"
+  },
+  {
+    "CharacterID": "DUGTRIO",
+    "DisplayNameMSID": "CARD_NAME_140  (ダグトリオ)"
+  },
+  {
+    "CharacterID": "DUMBBER",
+    "DisplayNameMSID": "CARD_NAME_1312  (ダンバル)"
+  },
+  {
+    "CharacterID": "DURALUDON",
+    "DisplayNameMSID": "CARD_NAME_1316  (ジュラルドン)"
+  },
+  {
+    "CharacterID": "DUSTDAS",
+    "DisplayNameMSID": "CARD_NAME_573  (ダストダス)"
+  },
+  {
+    "CharacterID": "EBIWALAR",
+    "DisplayNameMSID": "CARD_NAME_155  (エビワラー)"
+  },
+  {
+    "CharacterID": "EBIWALAR_EX",
+    "DisplayNameMSID": "CARD_NAME_897  (エビワラーex)"
+  },
+  {
+    "CharacterID": "EIEVUI",
+    "DisplayNameMSID": "CARD_NAME_206  (イーブイ)"
+  },
+  {
+    "CharacterID": "EIEVUI_EX",
+    "DisplayNameMSID": "CARD_NAME_685  (イーブイex)"
+  },
+  {
+    "CharacterID": "EIFIE",
+    "DisplayNameMSID": "CARD_NAME_679  (エーフィ)"
+  },
+  {
+    "CharacterID": "EIFIE_EX",
+    "DisplayNameMSID": "CARD_NAME_740  (エーフィex)"
+  },
+  {
+    "CharacterID": "EIPAM",
+    "DisplayNameMSID": "CARD_NAME_386  (エイパム)"
+  },
+  {
+    "CharacterID": "ELEBOO",
+    "DisplayNameMSID": "CARD_NAME_101  (エレブー)"
+  },
+  {
+    "CharacterID": "ELECTRICGENERATOR",
+    "DisplayNameMSID": "CARD_NAME_1125  (エレキジェネレーター)"
+  },
+  {
+    "CharacterID": "ELEKIBLE",
+    "DisplayNameMSID": "CARD_NAME_322  (エレキブル)"
+  },
+  {
+    "CharacterID": "ELEKID",
+    "DisplayNameMSID": "CARD_NAME_733  (エレキッド)"
+  },
+  {
+    "CharacterID": "ELESON",
+    "DisplayNameMSID": "CARD_NAME_1003  (エレズン)"
+  },
+  {
+    "CharacterID": "ELEZARD",
+    "DisplayNameMSID": "CARD_NAME_111  (エレザード)"
+  },
+  {
+    "CharacterID": "ELFUUN",
+    "DisplayNameMSID": "CARD_NAME_28  (エルフーン)"
+  },
+  {
+    "CharacterID": "ELFUUN_EX",
+    "DisplayNameMSID": "CARD_NAME_845  (エルフーンex)"
+  },
+  {
+    "CharacterID": "EMOLGA",
+    "DisplayNameMSID": "CARD_NAME_639  (エモンガ)"
+  },
+  {
+    "CharacterID": "EMPERTE",
+    "DisplayNameMSID": "CARD_NAME_309  (エンペルト)"
+  },
+  {
+    "CharacterID": "EMRIT",
+    "DisplayNameMSID": "CARD_NAME_339  (エムリット)"
+  },
+  {
+    "CharacterID": "ENBUOH",
+    "DisplayNameMSID": "CARD_NAME_1165  (エンブオー)"
+  },
+  {
+    "CharacterID": "ENECO",
+    "DisplayNameMSID": "CARD_NAME_587  (エネコ)"
+  },
+  {
+    "CharacterID": "ENEKORORO",
+    "DisplayNameMSID": "CARD_NAME_588  (エネコロロ)"
+  },
+  {
+    "CharacterID": "ENNEWT",
+    "DisplayNameMSID": "CARD_NAME_50  (エンニュート)"
+  },
+  {
+    "CharacterID": "ENTEI",
+    "DisplayNameMSID": "CARD_NAME_708  (エンテイ)"
+  },
+  {
+    "CharacterID": "ENTEI_EX",
+    "DisplayNameMSID": "CARD_NAME_791  (エンテイex)"
+  },
+  {
+    "CharacterID": "EREKIKORD",
+    "DisplayNameMSID": "CARD_NAME_664  (エレキコード)"
+  },
+  {
+    "CharacterID": "EREMENTARUTSUKEKAE",
+    "DisplayNameMSID": "CARD_NAME_773  (エレメンタルつけかえ)"
+  },
+  {
+    "CharacterID": "ERIAZERO",
+    "DisplayNameMSID": "CARD_NAME_1257  (エリアゼロ)"
+  },
+  {
+    "CharacterID": "ERIKA",
+    "DisplayNameMSID": "CARD_NAME_217  (エリカ)"
+  },
+  {
+    "CharacterID": "ERIKITERU",
+    "DisplayNameMSID": "CARD_NAME_110  (エリキテル)"
+  },
+  {
+    "CharacterID": "ERUREIDO",
+    "DisplayNameMSID": "CARD_NAME_1191  (エルレイド)"
+  },
+  {
+    "CharacterID": "ERUREIDO_EX",
+    "DisplayNameMSID": "CARD_NAME_355  (エルレイドex)"
+  },
+  {
+    "CharacterID": "ETEBOTH",
+    "DisplayNameMSID": "CARD_NAME_387  (エテボース)"
+  },
+  {
+    "CharacterID": "EXLEG",
+    "DisplayNameMSID": "CARD_NAME_1115  (エクスレッグ)"
+  },
+  {
+    "CharacterID": "FIARROW",
+    "DisplayNameMSID": "CARD_NAME_507  (ファイアロー)"
+  },
+  {
+    "CharacterID": "FIELDBLOWER",
+    "DisplayNameMSID": "CARD_NAME_1210  (フィールドブロアー)"
+  },
+  {
+    "CharacterID": "FIRE",
+    "DisplayNameMSID": "CARD_NAME_46  (ファイヤー)"
+  },
+  {
+    "CharacterID": "FIRE_EX",
+    "DisplayNameMSID": "CARD_NAME_47  (ファイヤーex)"
+  },
+  {
+    "CharacterID": "FISHER",
+    "DisplayNameMSID": "CARD_NAME_781  (釣り人)"
+  },
+  {
+    "CharacterID": "FLABEBE",
+    "DisplayNameMSID": "CARD_NAME_256  (フラベベ)"
+  },
+  {
+    "CharacterID": "FLOAZEL",
+    "DisplayNameMSID": "CARD_NAME_311  (フローゼル)"
+  },
+  {
+    "CharacterID": "FLOETTE",
+    "DisplayNameMSID": "CARD_NAME_257  (フラエッテ)"
+  },
+  {
+    "CharacterID": "FLORGES",
+    "DisplayNameMSID": "CARD_NAME_258  (フラージェス)"
+  },
+  {
+    "CharacterID": "FLYGON_EX",
+    "DisplayNameMSID": "CARD_NAME_1207  (フライゴンex)"
+  },
+  {
+    "CharacterID": "FOKKO",
+    "DisplayNameMSID": "CARD_NAME_1345  (フォッコ)"
+  },
+  {
+    "CharacterID": "FOODIN",
+    "DisplayNameMSID": "CARD_NAME_117  (フーディン)"
+  },
+  {
+    "CharacterID": "FORETOS",
+    "DisplayNameMSID": "CARD_NAME_756  (フォレトス)"
+  },
+  {
+    "CharacterID": "FREEGEO",
+    "DisplayNameMSID": "CARD_NAME_799  (フリージオ)"
+  },
+  {
+    "CharacterID": "FREEZER",
+    "DisplayNameMSID": "CARD_NAME_83  (フリーザー)"
+  },
+  {
+    "CharacterID": "FREEZER_EX",
+    "DisplayNameMSID": "CARD_NAME_84  (フリーザーex)"
+  },
+  {
+    "CharacterID": "FREFUWAN",
+    "DisplayNameMSID": "CARD_NAME_895  (フレフワン)"
+  },
+  {
+    "CharacterID": "FROST ROTOM",
+    "DisplayNameMSID": "CARD_NAME_318  (フロストロトム)"
+  },
+  {
+    "CharacterID": "FUKAMARU",
+    "DisplayNameMSID": "CARD_NAME_380  (フカマル)"
+  },
+  {
+    "CharacterID": "FUKUTHROW",
+    "DisplayNameMSID": "CARD_NAME_493  (フクスロー)"
+  },
+  {
+    "CharacterID": "FUREIMUPACCHI",
+    "DisplayNameMSID": "CARD_NAME_941  (フレイムパッチ)"
+  },
+  {
+    "CharacterID": "FUSHIDE",
+    "DisplayNameMSID": "CARD_NAME_266  (フシデ)"
+  },
+  {
+    "CharacterID": "FUSHIGIBANA",
+    "DisplayNameMSID": "CARD_NAME_3  (フシギバナ)"
+  },
+  {
+    "CharacterID": "FUSHIGIBANA_EX",
+    "DisplayNameMSID": "CARD_NAME_4  (フシギバナex)"
+  },
+  {
+    "CharacterID": "FUSHIGIDANE",
+    "DisplayNameMSID": "CARD_NAME_1  (フシギダネ)"
+  },
+  {
+    "CharacterID": "FUSHIGINAAME",
+    "DisplayNameMSID": "CARD_NAME_602  (ふしぎなアメ)"
+  },
+  {
+    "CharacterID": "FUSHIGINAHIROBA",
+    "DisplayNameMSID": "CARD_NAME_1062  (ふしぎな広場)"
+  },
+  {
+    "CharacterID": "FUSHIGISOU",
+    "DisplayNameMSID": "CARD_NAME_2  (フシギソウ)"
+  },
+  {
+    "CharacterID": "FUTACHIMARU",
+    "DisplayNameMSID": "CARD_NAME_1298  (フタチマル)"
+  },
+  {
+    "CharacterID": "FUTANOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_940  (ふたの化石)"
+  },
+  {
+    "CharacterID": "FUTUHAKASE",
+    "DisplayNameMSID": "CARD_NAME_1256  (フトゥー博士)"
+  },
+  {
+    "CharacterID": "FUWANTE",
+    "DisplayNameMSID": "CARD_NAME_336  (フワンテ)"
+  },
+  {
+    "CharacterID": "FUWARIDE",
+    "DisplayNameMSID": "CARD_NAME_337  (フワライド)"
+  },
+  {
+    "CharacterID": "GABITE",
+    "DisplayNameMSID": "CARD_NAME_381  (ガバイト)"
+  },
+  {
+    "CharacterID": "GABURIAS",
+    "DisplayNameMSID": "CARD_NAME_382  (ガブリアス)"
+  },
+  {
+    "CharacterID": "GABURIAS_EX",
+    "DisplayNameMSID": "CARD_NAME_438  (ガブリアスex)"
+  },
+  {
+    "CharacterID": "GACHIGORAS",
+    "DisplayNameMSID": "CARD_NAME_1021  (ガチゴラス)"
+  },
+  {
+    "CharacterID": "GACHIGUMA",
+    "DisplayNameMSID": "CARD_NAME_1274  (ガチグマ)"
+  },
+  {
+    "CharacterID": "GAKEGANI",
+    "DisplayNameMSID": "CARD_NAME_1111  (ガケガニ)"
+  },
+  {
+    "CharacterID": "GALARBARRIERD",
+    "DisplayNameMSID": "CARD_NAME_991  (ガラルバリヤード)"
+  },
+  {
+    "CharacterID": "GALARBARRIKOHRU",
+    "DisplayNameMSID": "CARD_NAME_992  (ガラルバリコオル)"
+  },
+  {
+    "CharacterID": "GALARGALLOP",
+    "DisplayNameMSID": "CARD_NAME_1008  (ガラルギャロップ)"
+  },
+  {
+    "CharacterID": "GALARJIGUZAGUMA",
+    "DisplayNameMSID": "CARD_NAME_1025  (ガラルジグザグマ)"
+  },
+  {
+    "CharacterID": "GALARMAGGYO",
+    "DisplayNameMSID": "CARD_NAME_1035  (ガラルマッギョ)"
+  },
+  {
+    "CharacterID": "GALARMASSUGUMA",
+    "DisplayNameMSID": "CARD_NAME_1026  (ガラルマッスグマ)"
+  },
+  {
+    "CharacterID": "GALARNYAIKING",
+    "DisplayNameMSID": "CARD_NAME_1033  (ガラルニャイキング)"
+  },
+  {
+    "CharacterID": "GALARNYARTH",
+    "DisplayNameMSID": "CARD_NAME_1032  (ガラルニャース)"
+  },
+  {
+    "CharacterID": "GALARPONYTA",
+    "DisplayNameMSID": "CARD_NAME_1007  (ガラルポニータ)"
+  },
+  {
+    "CharacterID": "GALARSUNIGOON",
+    "DisplayNameMSID": "CARD_NAME_806  (ガラルサニゴーン)"
+  },
+  {
+    "CharacterID": "GALARSUNNYGO",
+    "DisplayNameMSID": "CARD_NAME_805  (ガラルサニーゴ)"
+  },
+  {
+    "CharacterID": "GALARTACHIFUSAGUMA",
+    "DisplayNameMSID": "CARD_NAME_1027  (ガラルタチフサグマ)"
+  },
+  {
+    "CharacterID": "GALLOP",
+    "DisplayNameMSID": "CARD_NAME_43  (ギャロップ)"
+  },
+  {
+    "CharacterID": "GALLOP_EX",
+    "DisplayNameMSID": "CARD_NAME_850  (ギャロップex)"
+  },
+  {
+    "CharacterID": "GAMAGARU",
+    "DisplayNameMSID": "CARD_NAME_873  (ガマガル)"
+  },
+  {
+    "CharacterID": "GAMAGEROGE",
+    "DisplayNameMSID": "CARD_NAME_874  (ガマゲロゲ)"
+  },
+  {
+    "CharacterID": "GAMALE",
+    "DisplayNameMSID": "CARD_NAME_412  (ガーメイル)"
+  },
+  {
+    "CharacterID": "GAMECENTER",
+    "DisplayNameMSID": "CARD_NAME_1389  (ゲームセンター)"
+  },
+  {
+    "CharacterID": "GAMENODES",
+    "DisplayNameMSID": "CARD_NAME_750  (ガメノデス)"
+  },
+  {
+    "CharacterID": "GANGAR",
+    "DisplayNameMSID": "CARD_NAME_122  (ゲンガー)"
+  },
+  {
+    "CharacterID": "GANGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_123  (ゲンガーex)"
+  },
+  {
+    "CharacterID": "GANTLE",
+    "DisplayNameMSID": "CARD_NAME_1018  (ガントル)"
+  },
+  {
+    "CharacterID": "GAOGAEN",
+    "DisplayNameMSID": "CARD_NAME_674  (ガオガエン)"
+  },
+  {
+    "CharacterID": "GAOGAEN_EX",
+    "DisplayNameMSID": "CARD_NAME_510  (ガオガエンex)"
+  },
+  {
+    "CharacterID": "GARAGARA",
+    "DisplayNameMSID": "CARD_NAME_152  (ガラガラ)"
+  },
+  {
+    "CharacterID": "GARAGARA_EX",
+    "DisplayNameMSID": "CARD_NAME_153  (ガラガラex)"
+  },
+  {
+    "CharacterID": "GARDIE",
+    "DisplayNameMSID": "CARD_NAME_39  (ガーディ)"
+  },
+  {
+    "CharacterID": "GARURA",
+    "DisplayNameMSID": "CARD_NAME_203  (ガルーラ)"
+  },
+  {
+    "CharacterID": "GEKKOUGA",
+    "DisplayNameMSID": "CARD_NAME_89  (ゲッコウガ)"
+  },
+  {
+    "CharacterID": "GEKKOUGA_EX",
+    "DisplayNameMSID": "CARD_NAME_878  (ゲッコウガex)"
+  },
+  {
+    "CharacterID": "GEKOGASHIRA",
+    "DisplayNameMSID": "CARD_NAME_88  (ゲコガシラ)"
+  },
+  {
+    "CharacterID": "GENESECT",
+    "DisplayNameMSID": "CARD_NAME_953  (ゲノセクト)"
+  },
+  {
+    "CharacterID": "GHOS",
+    "DisplayNameMSID": "CARD_NAME_120  (ゴース)"
+  },
+  {
+    "CharacterID": "GHOST",
+    "DisplayNameMSID": "CARD_NAME_121  (ゴースト)"
+  },
+  {
+    "CharacterID": "GIARU",
+    "DisplayNameMSID": "CARD_NAME_760  (ギアル)"
+  },
+  {
+    "CharacterID": "GIGAIATH_EX",
+    "DisplayNameMSID": "CARD_NAME_1019  (ギガイアスex)"
+  },
+  {
+    "CharacterID": "GIGIARU",
+    "DisplayNameMSID": "CARD_NAME_761  (ギギアル)"
+  },
+  {
+    "CharacterID": "GIGIGIARU",
+    "DisplayNameMSID": "CARD_NAME_762  (ギギギアル)"
+  },
+  {
+    "CharacterID": "GILLGARD",
+    "DisplayNameMSID": "CARD_NAME_918  (ギルガルド)"
+  },
+  {
+    "CharacterID": "GIMOH",
+    "DisplayNameMSID": "CARD_NAME_913  (ギモー)"
+  },
+  {
+    "CharacterID": "GINGADANNOSHITAPPA",
+    "DisplayNameMSID": "CARD_NAME_406  (ギンガ団のしたっぱ)"
+  },
+  {
+    "CharacterID": "GIRATINA",
+    "DisplayNameMSID": "CARD_NAME_341  (ギラティナ)"
+  },
+  {
+    "CharacterID": "GIRATINA_EX",
+    "DisplayNameMSID": "CARD_NAME_465  (ギラティナex)"
+  },
+  {
+    "CharacterID": "GLACIA",
+    "DisplayNameMSID": "CARD_NAME_316  (グレイシア)"
+  },
+  {
+    "CharacterID": "GLACIA_EX",
+    "DisplayNameMSID": "CARD_NAME_424  (グレイシアex)"
+  },
+  {
+    "CharacterID": "GLANTH",
+    "DisplayNameMSID": "CARD_NAME_810  (ジーランス)"
+  },
+  {
+    "CharacterID": "GLAZIO",
+    "DisplayNameMSID": "CARD_NAME_666  (グラジオ)"
+  },
+  {
+    "CharacterID": "GLIGER",
+    "DisplayNameMSID": "CARD_NAME_344  (グライガー)"
+  },
+  {
+    "CharacterID": "GLION",
+    "DisplayNameMSID": "CARD_NAME_345  (グライオン)"
+  },
+  {
+    "CharacterID": "GOBIT",
+    "DisplayNameMSID": "CARD_NAME_135  (ゴビット)"
+  },
+  {
+    "CharacterID": "GOGOAT",
+    "DisplayNameMSID": "CARD_NAME_32  (ゴーゴート)"
+  },
+  {
+    "CharacterID": "GOKULIN",
+    "DisplayNameMSID": "CARD_NAME_1309  (ゴクリン)"
+  },
+  {
+    "CharacterID": "GOLBAT",
+    "DisplayNameMSID": "CARD_NAME_173  (ゴルバット)"
+  },
+  {
+    "CharacterID": "GOLDUCK",
+    "DisplayNameMSID": "CARD_NAME_58  (ゴルダック)"
+  },
+  {
+    "CharacterID": "GOLONE",
+    "DisplayNameMSID": "CARD_NAME_148  (ゴローン)"
+  },
+  {
+    "CharacterID": "GOLONYA",
+    "DisplayNameMSID": "CARD_NAME_149  (ゴローニャ)"
+  },
+  {
+    "CharacterID": "GOLOOG",
+    "DisplayNameMSID": "CARD_NAME_136  (ゴルーグ)"
+  },
+  {
+    "CharacterID": "GOMAZOU",
+    "DisplayNameMSID": "CARD_NAME_431  (ゴマゾウ)"
+  },
+  {
+    "CharacterID": "GONBE",
+    "DisplayNameMSID": "CARD_NAME_1273  (ゴンベ)"
+  },
+  {
+    "CharacterID": "GONYONYO",
+    "DisplayNameMSID": "CARD_NAME_927  (ゴニョニョ)"
+  },
+  {
+    "CharacterID": "GORIKY",
+    "DisplayNameMSID": "CARD_NAME_144  (ゴーリキー)"
+  },
+  {
+    "CharacterID": "GORIRANDER",
+    "DisplayNameMSID": "CARD_NAME_849  (ゴリランダー)"
+  },
+  {
+    "CharacterID": "GORONDA",
+    "DisplayNameMSID": "CARD_NAME_910  (ゴロンダ)"
+  },
+  {
+    "CharacterID": "GOTHIMIRU",
+    "DisplayNameMSID": "CARD_NAME_892  (ゴチミル)"
+  },
+  {
+    "CharacterID": "GOTHIMU",
+    "DisplayNameMSID": "CARD_NAME_891  (ゴチム)"
+  },
+  {
+    "CharacterID": "GOTHIRUSELLE",
+    "DisplayNameMSID": "CARD_NAME_893  (ゴチルゼル)"
+  },
+  {
+    "CharacterID": "GOTSUGOTSUMETTO",
+    "DisplayNameMSID": "CARD_NAME_403  (ゴツゴツメット)"
+  },
+  {
+    "CharacterID": "GOUKAZARU_EX",
+    "DisplayNameMSID": "CARD_NAME_301  (ゴウカザルex)"
+  },
+  {
+    "CharacterID": "GOURTON",
+    "DisplayNameMSID": "CARD_NAME_1122  (グルトン)"
+  },
+  {
+    "CharacterID": "GOUTETUNOMAEKAKE",
+    "DisplayNameMSID": "CARD_NAME_775  (鋼鉄のまえかけ)"
+  },
+  {
+    "CharacterID": "GRAENA",
+    "DisplayNameMSID": "CARD_NAME_361  (グラエナ)"
+  },
+  {
+    "CharacterID": "GRANBULU",
+    "DisplayNameMSID": "CARD_NAME_744  (グランブル)"
+  },
+  {
+    "CharacterID": "GREEN",
+    "DisplayNameMSID": "CARD_NAME_275  (グリーン)"
+  },
+  {
+    "CharacterID": "GROUDON",
+    "DisplayNameMSID": "CARD_NAME_1138  (グラードン)"
+  },
+  {
+    "CharacterID": "GUREGGRU",
+    "DisplayNameMSID": "CARD_NAME_367  (グレッグル)"
+  },
+  {
+    "CharacterID": "GURENARMA_EX",
+    "DisplayNameMSID": "CARD_NAME_1081  (グレンアルマex)"
+  },
+  {
+    "CharacterID": "GUSOKUMUSHA",
+    "DisplayNameMSID": "CARD_NAME_502  (グソクムシャ)"
+  },
+  {
+    "CharacterID": "GUZUMA",
+    "DisplayNameMSID": "CARD_NAME_609  (グズマ)"
+  },
+  {
+    "CharacterID": "GYARADOS",
+    "DisplayNameMSID": "CARD_NAME_78  (ギャラドス)"
+  },
+  {
+    "CharacterID": "GYARADOS_EX",
+    "DisplayNameMSID": "CARD_NAME_243  (ギャラドスex)"
+  },
+  {
+    "CharacterID": "HABATAKUKAMI",
+    "DisplayNameMSID": "CARD_NAME_1269  (ハバタクカミ)"
+  },
+  {
+    "CharacterID": "HABATAKUKAMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1227  (ハバタクカミex)"
+  },
+  {
+    "CharacterID": "HABUNAKE",
+    "DisplayNameMSID": "CARD_NAME_813  (ハブネーク)"
+  },
+  {
+    "CharacterID": "HAGANEIL",
+    "DisplayNameMSID": "CARD_NAME_757  (ハガネール)"
+  },
+  {
+    "CharacterID": "HAGIGISHIRI",
+    "DisplayNameMSID": "CARD_NAME_91  (ハギギシリ)"
+  },
+  {
+    "CharacterID": "HAHAKOMORI",
+    "DisplayNameMSID": "CARD_NAME_1156  (ハハコモリ)"
+  },
+  {
+    "CharacterID": "HAIKINGUCOURSE",
+    "DisplayNameMSID": "CARD_NAME_1148  (ハイキングコース)"
+  },
+  {
+    "CharacterID": "HAJIMARINOHEIGEN",
+    "DisplayNameMSID": "CARD_NAME_1061  (はじまりの平原)"
+  },
+  {
+    "CharacterID": "HAKADOG",
+    "DisplayNameMSID": "CARD_NAME_1107  (ハカドッグ)"
+  },
+  {
+    "CharacterID": "HAKASENOKENKYU",
+    "DisplayNameMSID": "CARD_NAME_229  (博士の研究)"
+  },
+  {
+    "CharacterID": "HAKURYU",
+    "DisplayNameMSID": "CARD_NAME_184  (ハクリュー)"
+  },
+  {
+    "CharacterID": "HALA",
+    "DisplayNameMSID": "CARD_NAME_947  (ハラ)"
+  },
+  {
+    "CharacterID": "HANDSCOPE",
+    "DisplayNameMSID": "CARD_NAME_230  (ハンドスコープ)"
+  },
+  {
+    "CharacterID": "HANDSOME",
+    "DisplayNameMSID": "CARD_NAME_667  (ハンサム)"
+  },
+  {
+    "CharacterID": "HANECCO",
+    "DisplayNameMSID": "CARD_NAME_696  (ハネッコ)"
+  },
+  {
+    "CharacterID": "HANENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_939  (はねの化石)"
+  },
+  {
+    "CharacterID": "HAPPINAS",
+    "DisplayNameMSID": "CARD_NAME_763  (ハピナス)"
+  },
+  {
+    "CharacterID": "HAPPINAS_EX",
+    "DisplayNameMSID": "CARD_NAME_784  (ハピナスex)"
+  },
+  {
+    "CharacterID": "HAPPINESSEGG",
+    "DisplayNameMSID": "CARD_NAME_1211  (しあわせタマゴ)"
+  },
+  {
+    "CharacterID": "HARABARIE",
+    "DisplayNameMSID": "CARD_NAME_1006  (ハラバリー)"
+  },
+  {
+    "CharacterID": "HARABARIE_EX",
+    "DisplayNameMSID": "CARD_NAME_1096  (ハラバリーex)"
+  },
+  {
+    "CharacterID": "HARIBORG",
+    "DisplayNameMSID": "CARD_NAME_975  (ハリボーグ)"
+  },
+  {
+    "CharacterID": "HARIMARON",
+    "DisplayNameMSID": "CARD_NAME_974  (ハリマロン)"
+  },
+  {
+    "CharacterID": "HARITEYAMA",
+    "DisplayNameMSID": "CARD_NAME_552  (ハリテヤマ)"
+  },
+  {
+    "CharacterID": "HARUKA",
+    "DisplayNameMSID": "CARD_NAME_948  (ハルカ)"
+  },
+  {
+    "CharacterID": "HARYSEN",
+    "DisplayNameMSID": "CARD_NAME_719  (ハリーセン)"
+  },
+  {
+    "CharacterID": "HASSAM",
+    "DisplayNameMSID": "CARD_NAME_758  (ハッサム)"
+  },
+  {
+    "CharacterID": "HASSBOH",
+    "DisplayNameMSID": "CARD_NAME_864  (ハスボー)"
+  },
+  {
+    "CharacterID": "HASUBRERO",
+    "DisplayNameMSID": "CARD_NAME_865  (ハスブレロ)"
+  },
+  {
+    "CharacterID": "HATOBOH",
+    "DisplayNameMSID": "CARD_NAME_1325  (ハトーボー)"
+  },
+  {
+    "CharacterID": "HAU",
+    "DisplayNameMSID": "CARD_NAME_689  (ハウ)"
+  },
+  {
+    "CharacterID": "HAYASHIGAME",
+    "DisplayNameMSID": "CARD_NAME_284  (ハヤシガメ)"
+  },
+  {
+    "CharacterID": "HEAT ROTOM",
+    "DisplayNameMSID": "CARD_NAME_302  (ヒートロトム)"
+  },
+  {
+    "CharacterID": "HEATRAN",
+    "DisplayNameMSID": "CARD_NAME_379  (ヒードラン)"
+  },
+  {
+    "CharacterID": "HEIGANI",
+    "DisplayNameMSID": "CARD_NAME_725  (ヘイガニ)"
+  },
+  {
+    "CharacterID": "HELLGAR",
+    "DisplayNameMSID": "CARD_NAME_417  (ヘルガー)"
+  },
+  {
+    "CharacterID": "HERACROS",
+    "DisplayNameMSID": "CARD_NAME_411  (ヘラクロス)"
+  },
+  {
+    "CharacterID": "HERDERRIE",
+    "DisplayNameMSID": "CARD_NAME_657  (ハーデリア)"
+  },
+  {
+    "CharacterID": "HEYRUSHER",
+    "DisplayNameMSID": "CARD_NAME_461  (ヘイラッシャ)"
+  },
+  {
+    "CharacterID": "HIBANNY",
+    "DisplayNameMSID": "CARD_NAME_986  (ヒバニー)"
+  },
+  {
+    "CharacterID": "HIDOIDE",
+    "DisplayNameMSID": "CARD_NAME_574  (ヒドイデ)"
+  },
+  {
+    "CharacterID": "HIHIDARUMA",
+    "DisplayNameMSID": "CARD_NAME_711  (ヒヒダルマ)"
+  },
+  {
+    "CharacterID": "HIKARI",
+    "DisplayNameMSID": "CARD_NAME_409  (ヒカリ)"
+  },
+  {
+    "CharacterID": "HIKER",
+    "DisplayNameMSID": "CARD_NAME_783  (やまおとこ)"
+  },
+  {
+    "CharacterID": "HIKOZARU",
+    "DisplayNameMSID": "CARD_NAME_299  (ヒコザル)"
+  },
+  {
+    "CharacterID": "HIMANUTS",
+    "DisplayNameMSID": "CARD_NAME_699  (ヒマナッツ)"
+  },
+  {
+    "CharacterID": "HIMEGUMA",
+    "DisplayNameMSID": "CARD_NAME_767  (ヒメグマ)"
+  },
+  {
+    "CharacterID": "HIMENKA",
+    "DisplayNameMSID": "CARD_NAME_981  (ヒメンカ)"
+  },
+  {
+    "CharacterID": "HIMITSUNOKOHAKU",
+    "DisplayNameMSID": "CARD_NAME_216  (ひみつのコハク)"
+  },
+  {
+    "CharacterID": "HINBASS",
+    "DisplayNameMSID": "CARD_NAME_792  (ヒンバス)"
+  },
+  {
+    "CharacterID": "HINOARASHI",
+    "DisplayNameMSID": "CARD_NAME_704  (ヒノアラシ)"
+  },
+  {
+    "CharacterID": "HINOYAKOMA",
+    "DisplayNameMSID": "CARD_NAME_506  (ヒノヤコマ)"
+  },
+  {
+    "CharacterID": "HIPPOPOTAS",
+    "DisplayNameMSID": "CARD_NAME_353  (ヒポポタス)"
+  },
+  {
+    "CharacterID": "HIRAHINA",
+    "DisplayNameMSID": "CARD_NAME_1104  (ヒラヒナ)"
+  },
+  {
+    "CharacterID": "HIRENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1053  (ヒレの化石)"
+  },
+  {
+    "CharacterID": "HISUIBASSRAO",
+    "DisplayNameMSID": "CARD_NAME_1354  (ヒスイバスラオ)"
+  },
+  {
+    "CharacterID": "HISUIDREDEAR",
+    "DisplayNameMSID": "CARD_NAME_1263  (ヒスイドレディア)"
+  },
+  {
+    "CharacterID": "HISUIIDAITOU",
+    "DisplayNameMSID": "CARD_NAME_1355  (ヒスイイダイトウ)"
+  },
+  {
+    "CharacterID": "HISUINUMEIL",
+    "DisplayNameMSID": "CARD_NAME_1271  (ヒスイヌメイル)"
+  },
+  {
+    "CharacterID": "HISUINUMELGON",
+    "DisplayNameMSID": "CARD_NAME_1272  (ヒスイヌメルゴン)"
+  },
+  {
+    "CharacterID": "HISUIZOROARK_EX",
+    "DisplayNameMSID": "CARD_NAME_1275  (ヒスイゾロアークex)"
+  },
+  {
+    "CharacterID": "HISUIZORUA",
+    "DisplayNameMSID": "CARD_NAME_1262  (ヒスイゾロア)"
+  },
+  {
+    "CharacterID": "HITHAMMER",
+    "DisplayNameMSID": "CARD_NAME_942  (ヒットハンマー)"
+  },
+  {
+    "CharacterID": "HITODEMAN",
+    "DisplayNameMSID": "CARD_NAME_74  (ヒトデマン)"
+  },
+  {
+    "CharacterID": "HITOKAGE",
+    "DisplayNameMSID": "CARD_NAME_33  (ヒトカゲ)"
+  },
+  {
+    "CharacterID": "HITOMOSHI",
+    "DisplayNameMSID": "CARD_NAME_858  (ヒトモシ)"
+  },
+  {
+    "CharacterID": "HITOTSUKI",
+    "DisplayNameMSID": "CARD_NAME_916  (ヒトツキ)"
+  },
+  {
+    "CharacterID": "HIYAKKIE",
+    "DisplayNameMSID": "CARD_NAME_871  (ヒヤッキー)"
+  },
+  {
+    "CharacterID": "HIYAPPU",
+    "DisplayNameMSID": "CARD_NAME_870  (ヒヤップ)"
+  },
+  {
+    "CharacterID": "HOERUKO",
+    "DisplayNameMSID": "CARD_NAME_867  (ホエルコ)"
+  },
+  {
+    "CharacterID": "HOGATOR",
+    "DisplayNameMSID": "CARD_NAME_1077  (ホゲータ)"
+  },
+  {
+    "CharacterID": "HOHO",
+    "DisplayNameMSID": "CARD_NAME_442  (ホーホー)"
+  },
+  {
+    "CharacterID": "HOOPA",
+    "DisplayNameMSID": "CARD_NAME_1305  (フーパ)"
+  },
+  {
+    "CharacterID": "HOOPA_EX",
+    "DisplayNameMSID": "CARD_NAME_1311  (フーパex)"
+  },
+  {
+    "CharacterID": "HORUBEE",
+    "DisplayNameMSID": "CARD_NAME_1047  (ホルビー)"
+  },
+  {
+    "CharacterID": "HORUDO",
+    "DisplayNameMSID": "CARD_NAME_1048  (ホルード)"
+  },
+  {
+    "CharacterID": "HOSHIGARISU",
+    "DisplayNameMSID": "CARD_NAME_632  (ホシガリス)"
+  },
+  {
+    "CharacterID": "HOUOU",
+    "DisplayNameMSID": "CARD_NAME_851  (ホウオウ)"
+  },
+  {
+    "CharacterID": "HOUOU_EX",
+    "DisplayNameMSID": "CARD_NAME_709  (ホウオウex)"
+  },
+  {
+    "CharacterID": "HULKUJIRA",
+    "DisplayNameMSID": "CARD_NAME_1090  (ハルクジラ)"
+  },
+  {
+    "CharacterID": "HUNTAIL",
+    "DisplayNameMSID": "CARD_NAME_1170  (ハンテール)"
+  },
+  {
+    "CharacterID": "HUURO",
+    "DisplayNameMSID": "CARD_NAME_1335  (フウロ)"
+  },
+  {
+    "CharacterID": "IDAINAKIBA",
+    "DisplayNameMSID": "CARD_NAME_1235  (イダイナキバ)"
+  },
+  {
+    "CharacterID": "IIBUINOBAKKU",
+    "DisplayNameMSID": "CARD_NAME_687  (イーブイのバッグ)"
+  },
+  {
+    "CharacterID": "IJIWARULETTER",
+    "DisplayNameMSID": "CARD_NAME_1144  (いじわるレター)"
+  },
+  {
+    "CharacterID": "IKIRINKO",
+    "DisplayNameMSID": "CARD_NAME_1124  (イキリンコ)"
+  },
+  {
+    "CharacterID": "IKKANEZUMI",
+    "DisplayNameMSID": "CARD_NAME_1050  (イッカネズミ)"
+  },
+  {
+    "CharacterID": "ILIMA",
+    "DisplayNameMSID": "CARD_NAME_607  (イリマ)"
+  },
+  {
+    "CharacterID": "ILLUMISE",
+    "DisplayNameMSID": "CARD_NAME_1134  (イルミーゼ)"
+  },
+  {
+    "CharacterID": "INCHIKIBARI",
+    "DisplayNameMSID": "CARD_NAME_1331  (いんちきバリ)"
+  },
+  {
+    "CharacterID": "INISHIENOTOUGIJYOU",
+    "DisplayNameMSID": "CARD_NAME_1217  (いにしえの闘技場)"
+  },
+  {
+    "CharacterID": "INOMOO",
+    "DisplayNameMSID": "CARD_NAME_304  (イノムー)"
+  },
+  {
+    "CharacterID": "INTEREON",
+    "DisplayNameMSID": "CARD_NAME_1176  (インテレオン)"
+  },
+  {
+    "CharacterID": "IRIS",
+    "DisplayNameMSID": "CARD_NAME_1146  (アイリス)"
+  },
+  {
+    "CharacterID": "IRUKAMAN",
+    "DisplayNameMSID": "CARD_NAME_1088  (イルカマン)"
+  },
+  {
+    "CharacterID": "ISHIHENGIN",
+    "DisplayNameMSID": "CARD_NAME_263  (イシヘンジン)"
+  },
+  {
+    "CharacterID": "ISHIZUMAI",
+    "DisplayNameMSID": "CARD_NAME_811  (イシズマイ)"
+  },
+  {
+    "CharacterID": "ISITSUBUTE",
+    "DisplayNameMSID": "CARD_NAME_147  (イシツブテ)"
+  },
+  {
+    "CharacterID": "ITAZURAROULETTE",
+    "DisplayNameMSID": "CARD_NAME_938  (いたずらルーレット)"
+  },
+  {
+    "CharacterID": "ITOMARU",
+    "DisplayNameMSID": "CARD_NAME_752  (イトマル)"
+  },
+  {
+    "CharacterID": "ITSUKI",
+    "DisplayNameMSID": "CARD_NAME_778  (イツキ)"
+  },
+  {
+    "CharacterID": "IWANKO",
+    "DisplayNameMSID": "CARD_NAME_559  (イワンコ)"
+  },
+  {
+    "CharacterID": "IWAPALACE",
+    "DisplayNameMSID": "CARD_NAME_812  (イワパレス)"
+  },
+  {
+    "CharacterID": "IWAPALACE_EX",
+    "DisplayNameMSID": "CARD_NAME_1194  (イワパレスex)"
+  },
+  {
+    "CharacterID": "IWARK",
+    "DisplayNameMSID": "CARD_NAME_150  (イワーク)"
+  },
+  {
+    "CharacterID": "IYASHINOUMIBE",
+    "DisplayNameMSID": "CARD_NAME_1337  (いやしの海辺)"
+  },
+  {
+    "CharacterID": "JAGURA",
+    "DisplayNameMSID": "CARD_NAME_1058  (ジャグラー)"
+  },
+  {
+    "CharacterID": "JALORDA",
+    "DisplayNameMSID": "CARD_NAME_237  (ジャローダ)"
+  },
+  {
+    "CharacterID": "JANOVY",
+    "DisplayNameMSID": "CARD_NAME_236  (ジャノビー)"
+  },
+  {
+    "CharacterID": "JIBACOIL",
+    "DisplayNameMSID": "CARD_NAME_321  (ジバコイル)"
+  },
+  {
+    "CharacterID": "JIBACOIL_EX",
+    "DisplayNameMSID": "CARD_NAME_1178  (ジバコイルex)"
+  },
+  {
+    "CharacterID": "JIGUZAGUMA",
+    "DisplayNameMSID": "CARD_NAME_925  (ジグザグマ)"
+  },
+  {
+    "CharacterID": "JIJILONG",
+    "DisplayNameMSID": "CARD_NAME_583  (ジジーロン)"
+  },
+  {
+    "CharacterID": "JIMEREON",
+    "DisplayNameMSID": "CARD_NAME_1175  (ジメレオン)"
+  },
+  {
+    "CharacterID": "JIODUMU",
+    "DisplayNameMSID": "CARD_NAME_1233  (ジオヅム)"
+  },
+  {
+    "CharacterID": "JIRACHI",
+    "DisplayNameMSID": "CARD_NAME_887  (ジラーチ)"
+  },
+  {
+    "CharacterID": "JUGON",
+    "DisplayNameMSID": "CARD_NAME_65  (ジュゴン)"
+  },
+  {
+    "CharacterID": "JUKAIN",
+    "DisplayNameMSID": "CARD_NAME_1151  (ジュカイン)"
+  },
+  {
+    "CharacterID": "JUN",
+    "DisplayNameMSID": "CARD_NAME_448  (ジュン)"
+  },
+  {
+    "CharacterID": "JUNAIPER",
+    "DisplayNameMSID": "CARD_NAME_633  (ジュナイパー)"
+  },
+  {
+    "CharacterID": "JUNAIPER_EX",
+    "DisplayNameMSID": "CARD_NAME_494  (ジュナイパーex)"
+  },
+  {
+    "CharacterID": "JUPPETA",
+    "DisplayNameMSID": "CARD_NAME_539  (ジュペッタ)"
+  },
+  {
+    "CharacterID": "JUPTILE",
+    "DisplayNameMSID": "CARD_NAME_1150  (ジュプトル)"
+  },
+  {
+    "CharacterID": "JYARAKO",
+    "DisplayNameMSID": "CARD_NAME_584  (ジャラコ)"
+  },
+  {
+    "CharacterID": "JYARANGO",
+    "DisplayNameMSID": "CARD_NAME_585  (ジャランゴ)"
+  },
+  {
+    "CharacterID": "JYARARANGA",
+    "DisplayNameMSID": "CARD_NAME_586  (ジャラランガ)"
+  },
+  {
+    "CharacterID": "KABALDON",
+    "DisplayNameMSID": "CARD_NAME_354  (カバルドン)"
+  },
+  {
+    "CharacterID": "KABIGON",
+    "DisplayNameMSID": "CARD_NAME_209  (カビゴン)"
+  },
+  {
+    "CharacterID": "KABIGON_EX",
+    "DisplayNameMSID": "CARD_NAME_686  (カビゴンex)"
+  },
+  {
+    "CharacterID": "KABURUMO",
+    "DisplayNameMSID": "CARD_NAME_489  (カブルモ)"
+  },
+  {
+    "CharacterID": "KABUTO",
+    "DisplayNameMSID": "CARD_NAME_158  (カブト)"
+  },
+  {
+    "CharacterID": "KABUTOPS",
+    "DisplayNameMSID": "CARD_NAME_159  (カブトプス)"
+  },
+  {
+    "CharacterID": "KACHIKOHRU",
+    "DisplayNameMSID": "CARD_NAME_879  (カチコール)"
+  },
+  {
+    "CharacterID": "KAENJISHI",
+    "DisplayNameMSID": "CARD_NAME_862  (カエンジシ)"
+  },
+  {
+    "CharacterID": "KAGEBOUZU",
+    "DisplayNameMSID": "CARD_NAME_538  (カゲボウズ)"
+  },
+  {
+    "CharacterID": "KAI",
+    "DisplayNameMSID": "CARD_NAME_446  (カイ)"
+  },
+  {
+    "CharacterID": "KAIDEN",
+    "DisplayNameMSID": "CARD_NAME_1097  (カイデン)"
+  },
+  {
+    "CharacterID": "KAILIOS",
+    "DisplayNameMSID": "CARD_NAME_26  (カイロス)"
+  },
+  {
+    "CharacterID": "KAINOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_214  (かいの化石)"
+  },
+  {
+    "CharacterID": "KAIRIKY",
+    "DisplayNameMSID": "CARD_NAME_145  (カイリキー)"
+  },
+  {
+    "CharacterID": "KAIRIKY_EX",
+    "DisplayNameMSID": "CARD_NAME_146  (カイリキーex)"
+  },
+  {
+    "CharacterID": "KAIRYU",
+    "DisplayNameMSID": "CARD_NAME_185  (カイリュー)"
+  },
+  {
+    "CharacterID": "KAIRYU_EX",
+    "DisplayNameMSID": "CARD_NAME_684  (カイリューex)"
+  },
+  {
+    "CharacterID": "KAJICCHU",
+    "DisplayNameMSID": "CARD_NAME_670  (カジッチュ)"
+  },
+  {
+    "CharacterID": "KAJIRIGAME",
+    "DisplayNameMSID": "CARD_NAME_247  (カジリガメ)"
+  },
+  {
+    "CharacterID": "KAKEDASHICHOSAIN",
+    "DisplayNameMSID": "CARD_NAME_274  (かけだし調査員)"
+  },
+  {
+    "CharacterID": "KAKI",
+    "DisplayNameMSID": "CARD_NAME_608  (カキ)"
+  },
+  {
+    "CharacterID": "KAKUREON",
+    "DisplayNameMSID": "CARD_NAME_1323  (カクレオン)"
+  },
+  {
+    "CharacterID": "KAMASUJAW",
+    "DisplayNameMSID": "CARD_NAME_882  (カマスジョー)"
+  },
+  {
+    "CharacterID": "KAMEIL",
+    "DisplayNameMSID": "CARD_NAME_54  (カメール)"
+  },
+  {
+    "CharacterID": "KAMETETE",
+    "DisplayNameMSID": "CARD_NAME_749  (カメテテ)"
+  },
+  {
+    "CharacterID": "KAMEX",
+    "DisplayNameMSID": "CARD_NAME_55  (カメックス)"
+  },
+  {
+    "CharacterID": "KAMEX_EX",
+    "DisplayNameMSID": "CARD_NAME_56  (カメックスex)"
+  },
+  {
+    "CharacterID": "KAMICCHU",
+    "DisplayNameMSID": "CARD_NAME_1321  (カミッチュ)"
+  },
+  {
+    "CharacterID": "KAMITSUOROCHI",
+    "DisplayNameMSID": "CARD_NAME_1322  (カミツオロチ)"
+  },
+  {
+    "CharacterID": "KAMITSURE",
+    "DisplayNameMSID": "CARD_NAME_1278  (カミツレ)"
+  },
+  {
+    "CharacterID": "KAMITURUGI",
+    "DisplayNameMSID": "CARD_NAME_617  (カミツルギ)"
+  },
+  {
+    "CharacterID": "KAMONEGI",
+    "DisplayNameMSID": "CARD_NAME_198  (カモネギ)"
+  },
+  {
+    "CharacterID": "KAMUKAME",
+    "DisplayNameMSID": "CARD_NAME_246  (カムカメ)"
+  },
+  {
+    "CharacterID": "KANKOUKYAKU",
+    "DisplayNameMSID": "CARD_NAME_1057  (かんこうきゃく)"
+  },
+  {
+    "CharacterID": "KANNAGITOWNNOTYOUROU",
+    "DisplayNameMSID": "CARD_NAME_447  (カンナギタウンの長老)"
+  },
+  {
+    "CharacterID": "KANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_473  (カヌチャン)"
+  },
+  {
+    "CharacterID": "KAPOERER",
+    "DisplayNameMSID": "CARD_NAME_346  (カポエラー)"
+  },
+  {
+    "CharacterID": "KAPU-BULUL",
+    "DisplayNameMSID": "CARD_NAME_504  (カプ・ブルル)"
+  },
+  {
+    "CharacterID": "KAPU-KOKEKO",
+    "DisplayNameMSID": "CARD_NAME_533  (カプ・コケコ)"
+  },
+  {
+    "CharacterID": "KAPU-KOKEKO_EX",
+    "DisplayNameMSID": "CARD_NAME_630  (カプ・コケコex)"
+  },
+  {
+    "CharacterID": "KAPU-REHIRE",
+    "DisplayNameMSID": "CARD_NAME_525  (カプ・レヒレ)"
+  },
+  {
+    "CharacterID": "KAPU-TETEFU",
+    "DisplayNameMSID": "CARD_NAME_546  (カプ・テテフ)"
+  },
+  {
+    "CharacterID": "KARAKARA",
+    "DisplayNameMSID": "CARD_NAME_151  (カラカラ)"
+  },
+  {
+    "CharacterID": "KARAMINGO",
+    "DisplayNameMSID": "CARD_NAME_468  (カラミンゴ)"
+  },
+  {
+    "CharacterID": "KARANAKUSHI",
+    "DisplayNameMSID": "CARD_NAME_312  (カラナクシ)"
+  },
+  {
+    "CharacterID": "KARASALIS",
+    "DisplayNameMSID": "CARD_NAME_834  (カラサリス)"
+  },
+  {
+    "CharacterID": "KARIKIRI",
+    "DisplayNameMSID": "CARD_NAME_496  (カリキリ)"
+  },
+  {
+    "CharacterID": "KASUMI",
+    "DisplayNameMSID": "CARD_NAME_218  (カスミ)"
+  },
+  {
+    "CharacterID": "KATSURA",
+    "DisplayNameMSID": "CARD_NAME_219  (カツラ)"
+  },
+  {
+    "CharacterID": "KEIKOUO",
+    "DisplayNameMSID": "CARD_NAME_244  (ケイコウオ)"
+  },
+  {
+    "CharacterID": "KEKENKANI",
+    "DisplayNameMSID": "CARD_NAME_902  (ケケンカニ)"
+  },
+  {
+    "CharacterID": "KEKENKANI_EX",
+    "DisplayNameMSID": "CARD_NAME_520  (ケケンカニex)"
+  },
+  {
+    "CharacterID": "KEKKAINOFIELD",
+    "DisplayNameMSID": "CARD_NAME_1218  (結界のフィールド)"
+  },
+  {
+    "CharacterID": "KEKKING",
+    "DisplayNameMSID": "CARD_NAME_1045  (ケッキング)"
+  },
+  {
+    "CharacterID": "KELDEO",
+    "DisplayNameMSID": "CARD_NAME_877  (ケルディオ)"
+  },
+  {
+    "CharacterID": "KEMUSSO",
+    "DisplayNameMSID": "CARD_NAME_833  (ケムッソ)"
+  },
+  {
+    "CharacterID": "KENHALLOW",
+    "DisplayNameMSID": "CARD_NAME_1326  (ケンホロウ)"
+  },
+  {
+    "CharacterID": "KENTAUROS",
+    "DisplayNameMSID": "CARD_NAME_204  (ケンタロス)"
+  },
+  {
+    "CharacterID": "KENTAUROS_EX",
+    "DisplayNameMSID": "CARD_NAME_924  (ケンタロスex)"
+  },
+  {
+    "CharacterID": "KERARAPPA",
+    "DisplayNameMSID": "CARD_NAME_592  (ケララッパ)"
+  },
+  {
+    "CharacterID": "KEROMATSU",
+    "DisplayNameMSID": "CARD_NAME_87  (ケロマツ)"
+  },
+  {
+    "CharacterID": "KIBAGO",
+    "DisplayNameMSID": "CARD_NAME_1142  (キバゴ)"
+  },
+  {
+    "CharacterID": "KIBANHA",
+    "DisplayNameMSID": "CARD_NAME_637  (キバニア)"
+  },
+  {
+    "CharacterID": "KIMAWARI",
+    "DisplayNameMSID": "CARD_NAME_700  (キマワリ)"
+  },
+  {
+    "CharacterID": "KIMORI",
+    "DisplayNameMSID": "CARD_NAME_1149  (キモリ)"
+  },
+  {
+    "CharacterID": "KINGDRA_EX",
+    "DisplayNameMSID": "CARD_NAME_713  (キングドラex)"
+  },
+  {
+    "CharacterID": "KINGLER",
+    "DisplayNameMSID": "CARD_NAME_69  (キングラー)"
+  },
+  {
+    "CharacterID": "KINOCOCO",
+    "DisplayNameMSID": "CARD_NAME_841  (キノココ)"
+  },
+  {
+    "CharacterID": "KINOGASSA",
+    "DisplayNameMSID": "CARD_NAME_842  (キノガッサ)"
+  },
+  {
+    "CharacterID": "KIRAFLOR",
+    "DisplayNameMSID": "CARD_NAME_1240  (キラフロル)"
+  },
+  {
+    "CharacterID": "KIRAME",
+    "DisplayNameMSID": "CARD_NAME_1239  (キラーメ)"
+  },
+  {
+    "CharacterID": "KIREIHANA",
+    "DisplayNameMSID": "CARD_NAME_277  (キレイハナ)"
+  },
+  {
+    "CharacterID": "KIRIKIZAN",
+    "DisplayNameMSID": "CARD_NAME_180  (キリキザン)"
+  },
+  {
+    "CharacterID": "KIRINRIKI",
+    "DisplayNameMSID": "CARD_NAME_742  (キリンリキ)"
+  },
+  {
+    "CharacterID": "KIRLIA",
+    "DisplayNameMSID": "CARD_NAME_131  (キルリア)"
+  },
+  {
+    "CharacterID": "KITERUGUMA",
+    "DisplayNameMSID": "CARD_NAME_597  (キテルグマ)"
+  },
+  {
+    "CharacterID": "KIZUGUSURI",
+    "DisplayNameMSID": "CARD_NAME_226  (きずぐすり)"
+  },
+  {
+    "CharacterID": "KOARUHIE",
+    "DisplayNameMSID": "CARD_NAME_85  (コアルヒー)"
+  },
+  {
+    "CharacterID": "KODOMOBEYA",
+    "DisplayNameMSID": "CARD_NAME_1281  (こども部屋)"
+  },
+  {
+    "CharacterID": "KODORA",
+    "DisplayNameMSID": "CARD_NAME_652  (コドラ)"
+  },
+  {
+    "CharacterID": "KODUCK",
+    "DisplayNameMSID": "CARD_NAME_57  (コダック)"
+  },
+  {
+    "CharacterID": "KOFUKIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_977  (コフキムシ)"
+  },
+  {
+    "CharacterID": "KOFUURAI",
+    "DisplayNameMSID": "CARD_NAME_978  (コフーライ)"
+  },
+  {
+    "CharacterID": "KOIKING",
+    "DisplayNameMSID": "CARD_NAME_77  (コイキング)"
+  },
+  {
+    "CharacterID": "KOINUDAISUKIGARL",
+    "DisplayNameMSID": "CARD_NAME_1279  (こいぬ大好きガール)"
+  },
+  {
+    "CharacterID": "KOJIO",
+    "DisplayNameMSID": "CARD_NAME_1232  (コジオ)"
+  },
+  {
+    "CharacterID": "KOJOFU",
+    "DisplayNameMSID": "CARD_NAME_160  (コジョフー)"
+  },
+  {
+    "CharacterID": "KOJONDO",
+    "DisplayNameMSID": "CARD_NAME_161  (コジョンド)"
+  },
+  {
+    "CharacterID": "KOKOGARA",
+    "DisplayNameMSID": "CARD_NAME_936  (ココガラ)"
+  },
+  {
+    "CharacterID": "KOKOROMORI",
+    "DisplayNameMSID": "CARD_NAME_134  (ココロモリ)"
+  },
+  {
+    "CharacterID": "KOLINK",
+    "DisplayNameMSID": "CARD_NAME_323  (コリンク)"
+  },
+  {
+    "CharacterID": "KOMATANA",
+    "DisplayNameMSID": "CARD_NAME_179  (コマタナ)"
+  },
+  {
+    "CharacterID": "KOMORUU",
+    "DisplayNameMSID": "CARD_NAME_1037  (コモルー)"
+  },
+  {
+    "CharacterID": "KONGPANG",
+    "DisplayNameMSID": "CARD_NAME_16  (コンパン)"
+  },
+  {
+    "CharacterID": "KONOHANA",
+    "DisplayNameMSID": "CARD_NAME_839  (コノハナ)"
+  },
+  {
+    "CharacterID": "KONOYOZARU",
+    "DisplayNameMSID": "CARD_NAME_1108  (コノヨザル)"
+  },
+  {
+    "CharacterID": "KORAIDON",
+    "DisplayNameMSID": "CARD_NAME_1113  (コライドン)"
+  },
+  {
+    "CharacterID": "KORAIDON_EX",
+    "DisplayNameMSID": "CARD_NAME_1237  (コライドンex)"
+  },
+  {
+    "CharacterID": "KORATTA",
+    "DisplayNameMSID": "CARD_NAME_189  (コラッタ)"
+  },
+  {
+    "CharacterID": "KORIPPO",
+    "DisplayNameMSID": "CARD_NAME_883  (コオリッポ)"
+  },
+  {
+    "CharacterID": "KOROBOHSHI",
+    "DisplayNameMSID": "CARD_NAME_286  (コロボーシ)"
+  },
+  {
+    "CharacterID": "KOROMORI",
+    "DisplayNameMSID": "CARD_NAME_133  (コロモリ)"
+  },
+  {
+    "CharacterID": "KOROTOCK",
+    "DisplayNameMSID": "CARD_NAME_287  (コロトック)"
+  },
+  {
+    "CharacterID": "KOSOKUMUSHI",
+    "DisplayNameMSID": "CARD_NAME_501  (コソクムシ)"
+  },
+  {
+    "CharacterID": "KOTONE",
+    "DisplayNameMSID": "CARD_NAME_779  (コトネ)"
+  },
+  {
+    "CharacterID": "KOURANOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_215  (こうらの化石)"
+  },
+  {
+    "CharacterID": "KUCHEAT",
+    "DisplayNameMSID": "CARD_NAME_178  (クチート)"
+  },
+  {
+    "CharacterID": "KUITARAN",
+    "DisplayNameMSID": "CARD_NAME_48  (クイタラン)"
+  },
+  {
+    "CharacterID": "KUMASYUN",
+    "DisplayNameMSID": "CARD_NAME_1172  (クマシュン)"
+  },
+  {
+    "CharacterID": "KUNUGIDAMA",
+    "DisplayNameMSID": "CARD_NAME_702  (クヌギダマ)"
+  },
+  {
+    "CharacterID": "KURIAVEIL",
+    "DisplayNameMSID": "CARD_NAME_1332  (クリアヴェール)"
+  },
+  {
+    "CharacterID": "KURUMAYU",
+    "DisplayNameMSID": "CARD_NAME_1155  (クルマユ)"
+  },
+  {
+    "CharacterID": "KURUMIRU",
+    "DisplayNameMSID": "CARD_NAME_1154  (クルミル)"
+  },
+  {
+    "CharacterID": "KUSAIHANA",
+    "DisplayNameMSID": "CARD_NAME_12  (クサイハナ)"
+  },
+  {
+    "CharacterID": "KUWAGANNON",
+    "DisplayNameMSID": "CARD_NAME_531  (クワガノン)"
+  },
+  {
+    "CharacterID": "KUWASSU",
+    "DisplayNameMSID": "CARD_NAME_1083  (クワッス)"
+  },
+  {
+    "CharacterID": "KUZUMO",
+    "DisplayNameMSID": "CARD_NAME_816  (クズモー)"
+  },
+  {
+    "CharacterID": "KYOGRE",
+    "DisplayNameMSID": "CARD_NAME_1296  (カイオーガ)"
+  },
+  {
+    "CharacterID": "KYOJIOHN",
+    "DisplayNameMSID": "CARD_NAME_1234  (キョジオーン)"
+  },
+  {
+    "CharacterID": "KYOU",
+    "DisplayNameMSID": "CARD_NAME_220  (キョウ)"
+  },
+  {
+    "CharacterID": "KYUKON",
+    "DisplayNameMSID": "CARD_NAME_38  (キュウコン)"
+  },
+  {
+    "CharacterID": "LAGLARGE",
+    "DisplayNameMSID": "CARD_NAME_995  (ラグラージ)"
+  },
+  {
+    "CharacterID": "LALANTES",
+    "DisplayNameMSID": "CARD_NAME_497  (ラランテス)"
+  },
+  {
+    "CharacterID": "LAMPLER",
+    "DisplayNameMSID": "CARD_NAME_859  (ランプラー)"
+  },
+  {
+    "CharacterID": "LANCULUS",
+    "DisplayNameMSID": "CARD_NAME_963  (ランクルス)"
+  },
+  {
+    "CharacterID": "LANDLOS",
+    "DisplayNameMSID": "CARD_NAME_1366  (ランドロス)"
+  },
+  {
+    "CharacterID": "LANTERN",
+    "DisplayNameMSID": "CARD_NAME_1179  (ランターン)"
+  },
+  {
+    "CharacterID": "LANTERN_EX",
+    "DisplayNameMSID": "CARD_NAME_728  (ランターンex)"
+  },
+  {
+    "CharacterID": "LAPLACE",
+    "DisplayNameMSID": "CARD_NAME_79  (ラプラス)"
+  },
+  {
+    "CharacterID": "LAPLACE_EX",
+    "DisplayNameMSID": "CARD_NAME_233  (ラプラスex)"
+  },
+  {
+    "CharacterID": "LATIAS",
+    "DisplayNameMSID": "CARD_NAME_790  (ラティアス)"
+  },
+  {
+    "CharacterID": "LATIOS",
+    "DisplayNameMSID": "CARD_NAME_793  (ラティオス)"
+  },
+  {
+    "CharacterID": "LAUDBON",
+    "DisplayNameMSID": "CARD_NAME_1079  (ラウドボーン)"
+  },
+  {
+    "CharacterID": "LEAF",
+    "DisplayNameMSID": "CARD_NAME_276  (リーフ)"
+  },
+  {
+    "CharacterID": "LEAFIA",
+    "DisplayNameMSID": "CARD_NAME_293  (リーフィア)"
+  },
+  {
+    "CharacterID": "LEAFIA_EX",
+    "DisplayNameMSID": "CARD_NAME_415  (リーフィアex)"
+  },
+  {
+    "CharacterID": "LEAFMANTO",
+    "DisplayNameMSID": "CARD_NAME_605  (リーフマント)"
+  },
+  {
+    "CharacterID": "LEPARDAS",
+    "DisplayNameMSID": "CARD_NAME_265  (レパルダス)"
+  },
+  {
+    "CharacterID": "LIGRAY",
+    "DisplayNameMSID": "CARD_NAME_254  (リグレー)"
+  },
+  {
+    "CharacterID": "LILIE",
+    "DisplayNameMSID": "CARD_NAME_613  (リーリエ)"
+  },
+  {
+    "CharacterID": "LILYLA",
+    "DisplayNameMSID": "CARD_NAME_1282  (リリーラ)"
+  },
+  {
+    "CharacterID": "LISYAN",
+    "DisplayNameMSID": "CARD_NAME_888  (リーシャン)"
+  },
+  {
+    "CharacterID": "LIVOLT",
+    "DisplayNameMSID": "CARD_NAME_428  (ライボルト)"
+  },
+  {
+    "CharacterID": "LIZARDO",
+    "DisplayNameMSID": "CARD_NAME_34  (リザード)"
+  },
+  {
+    "CharacterID": "LIZARDON",
+    "DisplayNameMSID": "CARD_NAME_35  (リザードン)"
+  },
+  {
+    "CharacterID": "LIZARDON_EX",
+    "DisplayNameMSID": "CARD_NAME_36  (リザードンex)"
+  },
+  {
+    "CharacterID": "LOVECUS",
+    "DisplayNameMSID": "CARD_NAME_869  (ラブカス)"
+  },
+  {
+    "CharacterID": "LOVETOLOS",
+    "DisplayNameMSID": "CARD_NAME_1268  (ラブトロス)"
+  },
+  {
+    "CharacterID": "LUCARIO",
+    "DisplayNameMSID": "CARD_NAME_352  (ルカリオ)"
+  },
+  {
+    "CharacterID": "LUCARIO_EX",
+    "DisplayNameMSID": "CARD_NAME_467  (ルカリオex)"
+  },
+  {
+    "CharacterID": "LUCHABULL",
+    "DisplayNameMSID": "CARD_NAME_590  (ルチャブル)"
+  },
+  {
+    "CharacterID": "LUCKY",
+    "DisplayNameMSID": "CARD_NAME_202  (ラッキー)"
+  },
+  {
+    "CharacterID": "LUCKYMITTENS",
+    "DisplayNameMSID": "CARD_NAME_945  (ラッキーミトン)"
+  },
+  {
+    "CharacterID": "LUGARUGAN",
+    "DisplayNameMSID": "CARD_NAME_560  (ルガルガン)"
+  },
+  {
+    "CharacterID": "LUGARUGAN_EX",
+    "DisplayNameMSID": "CARD_NAME_642  (ルガルガンex)"
+  },
+  {
+    "CharacterID": "LUGIA",
+    "DisplayNameMSID": "CARD_NAME_1040  (ルギア)"
+  },
+  {
+    "CharacterID": "LUGIA_EX",
+    "DisplayNameMSID": "CARD_NAME_771  (ルギアex)"
+  },
+  {
+    "CharacterID": "LUNALA_EX",
+    "DisplayNameMSID": "CARD_NAME_549  (ルナアーラex)"
+  },
+  {
+    "CharacterID": "LUNATONE",
+    "DisplayNameMSID": "CARD_NAME_537  (ルナトーン)"
+  },
+  {
+    "CharacterID": "LUSAMINE",
+    "DisplayNameMSID": "CARD_NAME_668  (ルザミーネ)"
+  },
+  {
+    "CharacterID": "LUXIO",
+    "DisplayNameMSID": "CARD_NAME_324  (ルクシオ)"
+  },
+  {
+    "CharacterID": "MAAIIKA",
+    "DisplayNameMSID": "CARD_NAME_814  (マーイーカ)"
+  },
+  {
+    "CharacterID": "MABOROSHINOSEKIBAN",
+    "DisplayNameMSID": "CARD_NAME_273  (幻の石板)"
+  },
+  {
+    "CharacterID": "MADATSUBOMI",
+    "DisplayNameMSID": "CARD_NAME_18  (マダツボミ)"
+  },
+  {
+    "CharacterID": "MAFITIFF",
+    "DisplayNameMSID": "CARD_NAME_1117  (マフィティフ)"
+  },
+  {
+    "CharacterID": "MAGCARGOT",
+    "DisplayNameMSID": "CARD_NAME_298  (マグカルゴ)"
+  },
+  {
+    "CharacterID": "MAGEARNA",
+    "DisplayNameMSID": "CARD_NAME_582  (マギアナ)"
+  },
+  {
+    "CharacterID": "MAGGYO",
+    "DisplayNameMSID": "CARD_NAME_801  (マッギョ)"
+  },
+  {
+    "CharacterID": "MAGMAG",
+    "DisplayNameMSID": "CARD_NAME_297  (マグマッグ)"
+  },
+  {
+    "CharacterID": "MAGMARASHI",
+    "DisplayNameMSID": "CARD_NAME_705  (マグマラシ)"
+  },
+  {
+    "CharacterID": "MAHOMIL",
+    "DisplayNameMSID": "CARD_NAME_631  (マホミル)"
+  },
+  {
+    "CharacterID": "MAHOXY",
+    "DisplayNameMSID": "CARD_NAME_1351  (マフォクシー)"
+  },
+  {
+    "CharacterID": "MAINTENANCE",
+    "DisplayNameMSID": "CARD_NAME_1145  (メンテナンス)"
+  },
+  {
+    "CharacterID": "MAKENKANI",
+    "DisplayNameMSID": "CARD_NAME_558  (マケンカニ)"
+  },
+  {
+    "CharacterID": "MAKUNOSHITA",
+    "DisplayNameMSID": "CARD_NAME_551  (マクノシタ)"
+  },
+  {
+    "CharacterID": "MAMANBOU",
+    "DisplayNameMSID": "CARD_NAME_677  (ママンボウ)"
+  },
+  {
+    "CharacterID": "MAMANE",
+    "DisplayNameMSID": "CARD_NAME_611  (マーマネ)"
+  },
+  {
+    "CharacterID": "MAMEBATTA",
+    "DisplayNameMSID": "CARD_NAME_1067  (マメバッタ)"
+  },
+  {
+    "CharacterID": "MAMEPATO",
+    "DisplayNameMSID": "CARD_NAME_1324  (マメパト)"
+  },
+  {
+    "CharacterID": "MAMMOO",
+    "DisplayNameMSID": "CARD_NAME_305  (マンムー)"
+  },
+  {
+    "CharacterID": "MAMORINOPONCHO",
+    "DisplayNameMSID": "CARD_NAME_1054  (まもりのポンチョ)"
+  },
+  {
+    "CharacterID": "MANAPHY",
+    "DisplayNameMSID": "CARD_NAME_320  (マナフィ)"
+  },
+  {
+    "CharacterID": "MANENE",
+    "DisplayNameMSID": "CARD_NAME_1302  (マネネ)"
+  },
+  {
+    "CharacterID": "MANKEY",
+    "DisplayNameMSID": "CARD_NAME_141  (マンキー)"
+  },
+  {
+    "CharacterID": "MANTAIN",
+    "DisplayNameMSID": "CARD_NAME_636  (マンタイン)"
+  },
+  {
+    "CharacterID": "MANYULA",
+    "DisplayNameMSID": "CARD_NAME_755  (マニューラ)"
+  },
+  {
+    "CharacterID": "MANYULA_EX",
+    "DisplayNameMSID": "CARD_NAME_359  (マニューラex)"
+  },
+  {
+    "CharacterID": "MAO",
+    "DisplayNameMSID": "CARD_NAME_612  (マオ)"
+  },
+  {
+    "CharacterID": "MARACACCHI",
+    "DisplayNameMSID": "CARD_NAME_488  (マラカッチ)"
+  },
+  {
+    "CharacterID": "MARIL",
+    "DisplayNameMSID": "CARD_NAME_418  (マリル)"
+  },
+  {
+    "CharacterID": "MARILLI",
+    "DisplayNameMSID": "CARD_NAME_419  (マリルリ)"
+  },
+  {
+    "CharacterID": "MARS",
+    "DisplayNameMSID": "CARD_NAME_410  (マーズ)"
+  },
+  {
+    "CharacterID": "MARSHADOW",
+    "DisplayNameMSID": "CARD_NAME_262  (マーシャドー)"
+  },
+  {
+    "CharacterID": "MARUMINE",
+    "DisplayNameMSID": "CARD_NAME_100  (マルマイン)"
+  },
+  {
+    "CharacterID": "MARUNOOM",
+    "DisplayNameMSID": "CARD_NAME_1310  (マルノーム)"
+  },
+  {
+    "CharacterID": "MARUYAKUDE",
+    "DisplayNameMSID": "CARD_NAME_52  (マルヤクデ)"
+  },
+  {
+    "CharacterID": "MASHADE",
+    "DisplayNameMSID": "CARD_NAME_239  (マシェード)"
+  },
+  {
+    "CharacterID": "MASQUERNYA",
+    "DisplayNameMSID": "CARD_NAME_457  (マスカーニャ)"
+  },
+  {
+    "CharacterID": "MASQUERNYA_EX",
+    "DisplayNameMSID": "CARD_NAME_1064  (マスカーニャex)"
+  },
+  {
+    "CharacterID": "MASSIVOON",
+    "DisplayNameMSID": "CARD_NAME_980  (マッシブーン)"
+  },
+  {
+    "CharacterID": "MASSIVOON_EX",
+    "DisplayNameMSID": "CARD_NAME_634  (マッシブーンex)"
+  },
+  {
+    "CharacterID": "MASSUGUMA",
+    "DisplayNameMSID": "CARD_NAME_926  (マッスグマ)"
+  },
+  {
+    "CharacterID": "MATADOGAS",
+    "DisplayNameMSID": "CARD_NAME_177  (マタドガス)"
+  },
+  {
+    "CharacterID": "MATISSE",
+    "DisplayNameMSID": "CARD_NAME_224  (マチス)"
+  },
+  {
+    "CharacterID": "MATSUBA",
+    "DisplayNameMSID": "CARD_NAME_827  (マツバ)"
+  },
+  {
+    "CharacterID": "MAWHIP",
+    "DisplayNameMSID": "CARD_NAME_625  (マホイップ)"
+  },
+  {
+    "CharacterID": "MAYULD",
+    "DisplayNameMSID": "CARD_NAME_836  (マユルド)"
+  },
+  {
+    "CharacterID": "MEECLE",
+    "DisplayNameMSID": "CARD_NAME_31  (メェークル)"
+  },
+  {
+    "CharacterID": "MEGAABSOL_EX",
+    "DisplayNameMSID": "CARD_NAME_906  (メガアブソルex)"
+  },
+  {
+    "CharacterID": "MEGABAKUUDA_EX",
+    "DisplayNameMSID": "CARD_NAME_1160  (メガバクーダex)"
+  },
+  {
+    "CharacterID": "MEGABURSYAMO_EX",
+    "DisplayNameMSID": "CARD_NAME_855  (メガバシャーモex)"
+  },
+  {
+    "CharacterID": "MEGACHAREM_EX",
+    "DisplayNameMSID": "CARD_NAME_1131  (メガチャーレムex)"
+  },
+  {
+    "CharacterID": "MEGADENRYU_EX",
+    "DisplayNameMSID": "CARD_NAME_885  (メガデンリュウex)"
+  },
+  {
+    "CharacterID": "MEGADIANCIE_EX",
+    "DisplayNameMSID": "CARD_NAME_1267  (メガディアンシーex)"
+  },
+  {
+    "CharacterID": "MEGAERUREIDO_EX",
+    "DisplayNameMSID": "CARD_NAME_1308  (メガエルレイドex)"
+  },
+  {
+    "CharacterID": "MEGAFUSHIGIBANA_EX",
+    "DisplayNameMSID": "CARD_NAME_955  (メガフシギバナex)"
+  },
+  {
+    "CharacterID": "MEGAGANGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_1139  (メガゲンガーex)"
+  },
+  {
+    "CharacterID": "MEGAGARURA_EX",
+    "DisplayNameMSID": "CARD_NAME_1039  (メガガルーラex)"
+  },
+  {
+    "CharacterID": "MEGAGYARADOS_EX",
+    "DisplayNameMSID": "CARD_NAME_863  (メガギャラドスex)"
+  },
+  {
+    "CharacterID": "MEGAHAGANEIL_EX",
+    "DisplayNameMSID": "CARD_NAME_966  (メガハガネールex)"
+  },
+  {
+    "CharacterID": "MEGAHASSAM_EX",
+    "DisplayNameMSID": "CARD_NAME_1141  (メガハッサムex)"
+  },
+  {
+    "CharacterID": "MEGAHELLGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_1339  (メガヘルガーex)"
+  },
+  {
+    "CharacterID": "MEGAHERACROS_EX",
+    "DisplayNameMSID": "CARD_NAME_1260  (メガヘラクロスex)"
+  },
+  {
+    "CharacterID": "MEGAJUKAIN_EX",
+    "DisplayNameMSID": "CARD_NAME_1152  (メガジュカインex)"
+  },
+  {
+    "CharacterID": "MEGAKAILIOS_EX",
+    "DisplayNameMSID": "CARD_NAME_832  (メガカイロスex)"
+  },
+  {
+    "CharacterID": "MEGAKAMEX_EX",
+    "DisplayNameMSID": "CARD_NAME_957  (メガカメックスex)"
+  },
+  {
+    "CharacterID": "MEGAKUCHEAT_EX",
+    "DisplayNameMSID": "CARD_NAME_1034  (メガクチートex)"
+  },
+  {
+    "CharacterID": "MEGALAGLARGE_EX",
+    "DisplayNameMSID": "CARD_NAME_996  (メガラグラージex)"
+  },
+  {
+    "CharacterID": "MEGALATIOS_EX",
+    "DisplayNameMSID": "CARD_NAME_954  (メガラティオスex)"
+  },
+  {
+    "CharacterID": "MEGALIVOLT_EX",
+    "DisplayNameMSID": "CARD_NAME_1137  (メガライボルトex)"
+  },
+  {
+    "CharacterID": "MEGALIZARDONX_EX",
+    "DisplayNameMSID": "CARD_NAME_1135  (メガリザードンXex)"
+  },
+  {
+    "CharacterID": "MEGALIZARDONY_EX",
+    "DisplayNameMSID": "CARD_NAME_1063  (メガリザードンYex)"
+  },
+  {
+    "CharacterID": "MEGALUCARIO_EX",
+    "DisplayNameMSID": "CARD_NAME_1190  (メガルカリオex)"
+  },
+  {
+    "CharacterID": "MEGAMETAGROSS_EX",
+    "DisplayNameMSID": "CARD_NAME_1315  (メガメタグロスex)"
+  },
+  {
+    "CharacterID": "MEGAMIMILOP_EX",
+    "DisplayNameMSID": "CARD_NAME_965  (メガミミロップex)"
+  },
+  {
+    "CharacterID": "MEGANIUM",
+    "DisplayNameMSID": "CARD_NAME_693  (メガニウム)"
+  },
+  {
+    "CharacterID": "MEGAPIGEOT_EX",
+    "DisplayNameMSID": "CARD_NAME_952  (メガピジョットex)"
+  },
+  {
+    "CharacterID": "MEGARAYQUAZA_EX",
+    "DisplayNameMSID": "CARD_NAME_1318  (メガレックウザex)"
+  },
+  {
+    "CharacterID": "MEGASAMEHADER_EX",
+    "DisplayNameMSID": "CARD_NAME_1291  (メガサメハダーex)"
+  },
+  {
+    "CharacterID": "MEGASIRNIGHT_EX",
+    "DisplayNameMSID": "CARD_NAME_1009  (メガサーナイトex)"
+  },
+  {
+    "CharacterID": "MEGATABUNNE_EX",
+    "DisplayNameMSID": "CARD_NAME_1209  (メガタブンネex)"
+  },
+  {
+    "CharacterID": "MEGATYLTALIS_EX",
+    "DisplayNameMSID": "CARD_NAME_886  (メガチルタリスex)"
+  },
+  {
+    "CharacterID": "MEGAYADORAN_EX",
+    "DisplayNameMSID": "CARD_NAME_1136  (メガヤドランex)"
+  },
+  {
+    "CharacterID": "MEGAYAMIRAMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1270  (メガヤミラミex)"
+  },
+  {
+    "CharacterID": "MEGAYANMA",
+    "DisplayNameMSID": "CARD_NAME_701  (メガヤンマ)"
+  },
+  {
+    "CharacterID": "MEGAYANMA_EX",
+    "DisplayNameMSID": "CARD_NAME_280  (メガヤンマex)"
+  },
+  {
+    "CharacterID": "MEGUROCO",
+    "DisplayNameMSID": "CARD_NAME_644  (メグロコ)"
+  },
+  {
+    "CharacterID": "MELECIE",
+    "DisplayNameMSID": "CARD_NAME_682  (メレシー)"
+  },
+  {
+    "CharacterID": "MELISSA",
+    "DisplayNameMSID": "CARD_NAME_949  (メリッサ)"
+  },
+  {
+    "CharacterID": "MELMETAL",
+    "DisplayNameMSID": "CARD_NAME_182  (メルメタル)"
+  },
+  {
+    "CharacterID": "MELMETAL_EX",
+    "DisplayNameMSID": "CARD_NAME_919  (メルメタルex)"
+  },
+  {
+    "CharacterID": "MELOETTA",
+    "DisplayNameMSID": "CARD_NAME_1010  (メロエッタ)"
+  },
+  {
+    "CharacterID": "MELTAN",
+    "DisplayNameMSID": "CARD_NAME_181  (メルタン)"
+  },
+  {
+    "CharacterID": "MEMORYLIGHT",
+    "DisplayNameMSID": "CARD_NAME_824  (メモリーライト)"
+  },
+  {
+    "CharacterID": "MENOKURAGE",
+    "DisplayNameMSID": "CARD_NAME_62  (メノクラゲ)"
+  },
+  {
+    "CharacterID": "MERLARVA",
+    "DisplayNameMSID": "CARD_NAME_241  (メラルバ)"
+  },
+  {
+    "CharacterID": "MERRIEP",
+    "DisplayNameMSID": "CARD_NAME_730  (メリープ)"
+  },
+  {
+    "CharacterID": "MESSON",
+    "DisplayNameMSID": "CARD_NAME_1174  (メッソン)"
+  },
+  {
+    "CharacterID": "METAGROSS",
+    "DisplayNameMSID": "CARD_NAME_1314  (メタグロス)"
+  },
+  {
+    "CharacterID": "METAMON",
+    "DisplayNameMSID": "CARD_NAME_205  (メタモン)"
+  },
+  {
+    "CharacterID": "METANG",
+    "DisplayNameMSID": "CARD_NAME_1313  (メタング)"
+  },
+  {
+    "CharacterID": "METARUKOABARIA",
+    "DisplayNameMSID": "CARD_NAME_1055  (メタルコアバリア)"
+  },
+  {
+    "CharacterID": "METENO",
+    "DisplayNameMSID": "CARD_NAME_564  (メテノ)"
+  },
+  {
+    "CharacterID": "MEW",
+    "DisplayNameMSID": "CARD_NAME_225  (ミュウ)"
+  },
+  {
+    "CharacterID": "MEWTWO",
+    "DisplayNameMSID": "CARD_NAME_128  (ミュウツー)"
+  },
+  {
+    "CharacterID": "MEWTWO_EX",
+    "DisplayNameMSID": "CARD_NAME_129  (ミュウツーex)"
+  },
+  {
+    "CharacterID": "MEW_EX",
+    "DisplayNameMSID": "CARD_NAME_252  (ミュウex)"
+  },
+  {
+    "CharacterID": "MIBRIM",
+    "DisplayNameMSID": "CARD_NAME_1185  (ミブリム)"
+  },
+  {
+    "CharacterID": "MIGALUSA",
+    "DisplayNameMSID": "CARD_NAME_1091  (ミガルーサ)"
+  },
+  {
+    "CharacterID": "MIJUMARU",
+    "DisplayNameMSID": "CARD_NAME_1297  (ミジュマル)"
+  },
+  {
+    "CharacterID": "MIKAN",
+    "DisplayNameMSID": "CARD_NAME_782  (ミカン)"
+  },
+  {
+    "CharacterID": "MIKARUGE",
+    "DisplayNameMSID": "CARD_NAME_364  (ミカルゲ)"
+  },
+  {
+    "CharacterID": "MIKURI",
+    "DisplayNameMSID": "CARD_NAME_1280  (ミクリ)"
+  },
+  {
+    "CharacterID": "MILOKAROSS",
+    "DisplayNameMSID": "CARD_NAME_785  (ミロカロス)"
+  },
+  {
+    "CharacterID": "MILOKAROSS_EX",
+    "DisplayNameMSID": "CARD_NAME_1264  (ミロカロスex)"
+  },
+  {
+    "CharacterID": "MILTANK",
+    "DisplayNameMSID": "CARD_NAME_789  (ミルタンク)"
+  },
+  {
+    "CharacterID": "MIMIKKYU",
+    "DisplayNameMSID": "CARD_NAME_545  (ミミッキュ)"
+  },
+  {
+    "CharacterID": "MIMIKKYU_EX",
+    "DisplayNameMSID": "CARD_NAME_1013  (ミミッキュex)"
+  },
+  {
+    "CharacterID": "MIMILOP",
+    "DisplayNameMSID": "CARD_NAME_394  (ミミロップ)"
+  },
+  {
+    "CharacterID": "MIMIROL",
+    "DisplayNameMSID": "CARD_NAME_393  (ミミロル)"
+  },
+  {
+    "CharacterID": "MIMIZUZU",
+    "DisplayNameMSID": "CARD_NAME_1120  (ミミズズ)"
+  },
+  {
+    "CharacterID": "MINEZUMI",
+    "DisplayNameMSID": "CARD_NAME_931  (ミネズミ)"
+  },
+  {
+    "CharacterID": "MINIRYU",
+    "DisplayNameMSID": "CARD_NAME_183  (ミニリュウ)"
+  },
+  {
+    "CharacterID": "MINIVE",
+    "DisplayNameMSID": "CARD_NAME_1068  (ミニーブ)"
+  },
+  {
+    "CharacterID": "MINOMADAM",
+    "DisplayNameMSID": "CARD_NAME_289  (ミノマダム)"
+  },
+  {
+    "CharacterID": "MINOMUCCHI",
+    "DisplayNameMSID": "CARD_NAME_288  (ミノムッチ)"
+  },
+  {
+    "CharacterID": "MINUN",
+    "DisplayNameMSID": "CARD_NAME_1002  (マイナン)"
+  },
+  {
+    "CharacterID": "MIRAIDON",
+    "DisplayNameMSID": "CARD_NAME_1099  (ミライドン)"
+  },
+  {
+    "CharacterID": "MIRAIDON_EX",
+    "DisplayNameMSID": "CARD_NAME_1225  (ミライドンex)"
+  },
+  {
+    "CharacterID": "MIRUHOG",
+    "DisplayNameMSID": "CARD_NAME_932  (ミルホッグ)"
+  },
+  {
+    "CharacterID": "MITSUHONEY",
+    "DisplayNameMSID": "CARD_NAME_290  (ミツハニー)"
+  },
+  {
+    "CharacterID": "MITSURU",
+    "DisplayNameMSID": "CARD_NAME_1336  (ミツル)"
+  },
+  {
+    "CharacterID": "MIZUGOROU",
+    "DisplayNameMSID": "CARD_NAME_993  (ミズゴロウ)"
+  },
+  {
+    "CharacterID": "MOGUREW",
+    "DisplayNameMSID": "CARD_NAME_554  (モグリュー)"
+  },
+  {
+    "CharacterID": "MOJUMBO",
+    "DisplayNameMSID": "CARD_NAME_278  (モジャンボ)"
+  },
+  {
+    "CharacterID": "MOKOKO",
+    "DisplayNameMSID": "CARD_NAME_731  (モココ)"
+  },
+  {
+    "CharacterID": "MOKUROH",
+    "DisplayNameMSID": "CARD_NAME_492  (モクロー)"
+  },
+  {
+    "CharacterID": "MONJARA",
+    "DisplayNameMSID": "CARD_NAME_24  (モンジャラ)"
+  },
+  {
+    "CharacterID": "MONMEN",
+    "DisplayNameMSID": "CARD_NAME_27  (モンメン)"
+  },
+  {
+    "CharacterID": "MONOMANEMUSUME",
+    "DisplayNameMSID": "CARD_NAME_950  (モノマネむすめ)"
+  },
+  {
+    "CharacterID": "MONOZU",
+    "DisplayNameMSID": "CARD_NAME_907  (モノズ)"
+  },
+  {
+    "CharacterID": "MONSTERBALL",
+    "DisplayNameMSID": "CARD_NAME_228  (モンスターボール)"
+  },
+  {
+    "CharacterID": "MOOLAND",
+    "DisplayNameMSID": "CARD_NAME_658  (ムーランド)"
+  },
+  {
+    "CharacterID": "MOROBARERU",
+    "DisplayNameMSID": "CARD_NAME_1200  (モロバレル)"
+  },
+  {
+    "CharacterID": "MORPEKO",
+    "DisplayNameMSID": "CARD_NAME_1140  (モルペコ)"
+  },
+  {
+    "CharacterID": "MORPHON",
+    "DisplayNameMSID": "CARD_NAME_17  (モルフォン)"
+  },
+  {
+    "CharacterID": "MOTHNOW",
+    "DisplayNameMSID": "CARD_NAME_93  (モスノウ)"
+  },
+  {
+    "CharacterID": "MOTOTOKAGE",
+    "DisplayNameMSID": "CARD_NAME_454  (モトトカゲ)"
+  },
+  {
+    "CharacterID": "MOUKAZARU",
+    "DisplayNameMSID": "CARD_NAME_300  (モウカザル)"
+  },
+  {
+    "CharacterID": "MUCHUL",
+    "DisplayNameMSID": "CARD_NAME_736  (ムチュール)"
+  },
+  {
+    "CharacterID": "MUKKURU",
+    "DisplayNameMSID": "CARD_NAME_388  (ムックル)"
+  },
+  {
+    "CharacterID": "MUKUBIRD",
+    "DisplayNameMSID": "CARD_NAME_389  (ムクバード)"
+  },
+  {
+    "CharacterID": "MUKUHAWK",
+    "DisplayNameMSID": "CARD_NAME_390  (ムクホーク)"
+  },
+  {
+    "CharacterID": "MUMA",
+    "DisplayNameMSID": "CARD_NAME_331  (ムウマ)"
+  },
+  {
+    "CharacterID": "MUMARGI",
+    "DisplayNameMSID": "CARD_NAME_804  (ムウマージ)"
+  },
+  {
+    "CharacterID": "MUMARGI_EX",
+    "DisplayNameMSID": "CARD_NAME_332  (ムウマージex)"
+  },
+  {
+    "CharacterID": "MUNNA",
+    "DisplayNameMSID": "CARD_NAME_745  (ムンナ)"
+  },
+  {
+    "CharacterID": "MUSHARNA",
+    "DisplayNameMSID": "CARD_NAME_746  (ムシャーナ)"
+  },
+  {
+    "CharacterID": "MUSHIYOKESUPUREI",
+    "DisplayNameMSID": "CARD_NAME_663  (むしよけスプレー)"
+  },
+  {
+    "CharacterID": "MUSKIPPA",
+    "DisplayNameMSID": "CARD_NAME_292  (マスキッパ)"
+  },
+  {
+    "CharacterID": "NAETLE",
+    "DisplayNameMSID": "CARD_NAME_283  (ナエトル)"
+  },
+  {
+    "CharacterID": "NAGEKI",
+    "DisplayNameMSID": "CARD_NAME_1192  (ナゲキ)"
+  },
+  {
+    "CharacterID": "NAGETUKESARU",
+    "DisplayNameMSID": "CARD_NAME_643  (ナゲツケサル)"
+  },
+  {
+    "CharacterID": "NAGETUKESARU_EX",
+    "DisplayNameMSID": "CARD_NAME_563  (ナゲツケサルex)"
+  },
+  {
+    "CharacterID": "NAKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_474  (ナカヌチャン)"
+  },
+  {
+    "CharacterID": "NAMAKERO",
+    "DisplayNameMSID": "CARD_NAME_1043  (ナマケロ)"
+  },
+  {
+    "CharacterID": "NAMAKOBUSHI",
+    "DisplayNameMSID": "CARD_NAME_90  (ナマコブシ)"
+  },
+  {
+    "CharacterID": "NAMAZUN",
+    "DisplayNameMSID": "CARD_NAME_421  (ナマズン)"
+  },
+  {
+    "CharacterID": "NAMIIRUKA",
+    "DisplayNameMSID": "CARD_NAME_1087  (ナミイルカ)"
+  },
+  {
+    "CharacterID": "NANJYAMO",
+    "DisplayNameMSID": "CARD_NAME_481  (ナンジャモ)"
+  },
+  {
+    "CharacterID": "NASSY",
+    "DisplayNameMSID": "CARD_NAME_22  (ナッシー)"
+  },
+  {
+    "CharacterID": "NASSY_EX",
+    "DisplayNameMSID": "CARD_NAME_23  (ナッシーex)"
+  },
+  {
+    "CharacterID": "NATIO",
+    "DisplayNameMSID": "CARD_NAME_739  (ネイティオ)"
+  },
+  {
+    "CharacterID": "NATSUME",
+    "DisplayNameMSID": "CARD_NAME_223  (ナツメ)"
+  },
+  {
+    "CharacterID": "NATY",
+    "DisplayNameMSID": "CARD_NAME_738  (ネイティ)"
+  },
+  {
+    "CharacterID": "NAZONOKUSA",
+    "DisplayNameMSID": "CARD_NAME_11  (ナゾノクサ)"
+  },
+  {
+    "CharacterID": "NECROZMA",
+    "DisplayNameMSID": "CARD_NAME_550  (ネクロズマ)"
+  },
+  {
+    "CharacterID": "NECROZMAAKATSUKINOTSUBASA",
+    "DisplayNameMSID": "CARD_NAME_620  (ネクロズマあかつきのつばさ)"
+  },
+  {
+    "CharacterID": "NECROZMATASOGARENOTATEGAMI",
+    "DisplayNameMSID": "CARD_NAME_621  (ネクロズマたそがれのたてがみ)"
+  },
+  {
+    "CharacterID": "NECROZMAULTRANECROZMA_EX",
+    "DisplayNameMSID": "CARD_NAME_623  (ウルトラネクロズマex)"
+  },
+  {
+    "CharacterID": "NEKKOARA",
+    "DisplayNameMSID": "CARD_NAME_599  (ネッコアラ)"
+  },
+  {
+    "CharacterID": "NEKKONOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1330  (ねっこの化石)"
+  },
+  {
+    "CharacterID": "NEMASYU",
+    "DisplayNameMSID": "CARD_NAME_238  (ネマシュ)"
+  },
+  {
+    "CharacterID": "NEMO",
+    "DisplayNameMSID": "CARD_NAME_1128  (ネモ)"
+  },
+  {
+    "CharacterID": "NENDOLL",
+    "DisplayNameMSID": "CARD_NAME_641  (ネンドール)"
+  },
+  {
+    "CharacterID": "NEOLANT",
+    "DisplayNameMSID": "CARD_NAME_245  (ネオラント)"
+  },
+  {
+    "CharacterID": "NEZU",
+    "DisplayNameMSID": "CARD_NAME_1059  (ネズ)"
+  },
+  {
+    "CharacterID": "NIDANGILL",
+    "DisplayNameMSID": "CARD_NAME_917  (ニダンギル)"
+  },
+  {
+    "CharacterID": "NIDOKING",
+    "DisplayNameMSID": "CARD_NAME_171  (ニドキング)"
+  },
+  {
+    "CharacterID": "NIDOQUEEN",
+    "DisplayNameMSID": "CARD_NAME_168  (ニドクイン)"
+  },
+  {
+    "CharacterID": "NIDORAN♀",
+    "DisplayNameMSID": "CARD_NAME_166  (ニドラン♀)"
+  },
+  {
+    "CharacterID": "NIDORAN♂",
+    "DisplayNameMSID": "CARD_NAME_169  (ニドラン♂)"
+  },
+  {
+    "CharacterID": "NIDORINA",
+    "DisplayNameMSID": "CARD_NAME_167  (ニドリーナ)"
+  },
+  {
+    "CharacterID": "NIDORINO",
+    "DisplayNameMSID": "CARD_NAME_170  (ニドリーノ)"
+  },
+  {
+    "CharacterID": "NIJIIRONODOUKUTSU",
+    "DisplayNameMSID": "CARD_NAME_1338  (にじいろの洞窟)"
+  },
+  {
+    "CharacterID": "NOCTUS",
+    "DisplayNameMSID": "CARD_NAME_973  (ノクタス)"
+  },
+  {
+    "CharacterID": "NOKOCCHI",
+    "DisplayNameMSID": "CARD_NAME_766  (ノコッチ)"
+  },
+  {
+    "CharacterID": "NOKOKOCCHI",
+    "DisplayNameMSID": "CARD_NAME_1250  (ノココッチ)"
+  },
+  {
+    "CharacterID": "NONOKURAGE",
+    "DisplayNameMSID": "CARD_NAME_1109  (ノノクラゲ)"
+  },
+  {
+    "CharacterID": "NOSEPASS",
+    "DisplayNameMSID": "CARD_NAME_347  (ノズパス)"
+  },
+  {
+    "CharacterID": "NUCKRAR",
+    "DisplayNameMSID": "CARD_NAME_1188  (ナックラー)"
+  },
+  {
+    "CharacterID": "NUIKOGUMA",
+    "DisplayNameMSID": "CARD_NAME_596  (ヌイコグマ)"
+  },
+  {
+    "CharacterID": "NUMACRAW",
+    "DisplayNameMSID": "CARD_NAME_994  (ヌマクロー)"
+  },
+  {
+    "CharacterID": "NUMEIL",
+    "DisplayNameMSID": "CARD_NAME_922  (ヌメイル)"
+  },
+  {
+    "CharacterID": "NUMELGON",
+    "DisplayNameMSID": "CARD_NAME_923  (ヌメルゴン)"
+  },
+  {
+    "CharacterID": "NUMERA",
+    "DisplayNameMSID": "CARD_NAME_921  (ヌメラ)"
+  },
+  {
+    "CharacterID": "NUOH",
+    "DisplayNameMSID": "CARD_NAME_718  (ヌオー)"
+  },
+  {
+    "CharacterID": "NUTREY",
+    "DisplayNameMSID": "CARD_NAME_655  (ナットレイ)"
+  },
+  {
+    "CharacterID": "NYABBY",
+    "DisplayNameMSID": "CARD_NAME_508  (ニャビー)"
+  },
+  {
+    "CharacterID": "NYAHEAT",
+    "DisplayNameMSID": "CARD_NAME_509  (ニャヒート)"
+  },
+  {
+    "CharacterID": "NYAHOJA",
+    "DisplayNameMSID": "CARD_NAME_453  (ニャオハ)"
+  },
+  {
+    "CharacterID": "NYAONIX",
+    "DisplayNameMSID": "CARD_NAME_1183  (ニャオニクス)"
+  },
+  {
+    "CharacterID": "NYARMAR",
+    "DisplayNameMSID": "CARD_NAME_395  (ニャルマー)"
+  },
+  {
+    "CharacterID": "NYAROTE",
+    "DisplayNameMSID": "CARD_NAME_456  (ニャローテ)"
+  },
+  {
+    "CharacterID": "NYARTH",
+    "DisplayNameMSID": "CARD_NAME_196  (ニャース)"
+  },
+  {
+    "CharacterID": "NYASPER",
+    "DisplayNameMSID": "CARD_NAME_1182  (ニャスパー)"
+  },
+  {
+    "CharacterID": "NYMPHIA",
+    "DisplayNameMSID": "CARD_NAME_680  (ニンフィア)"
+  },
+  {
+    "CharacterID": "NYMPHIA_EX",
+    "DisplayNameMSID": "CARD_NAME_681  (ニンフィアex)"
+  },
+  {
+    "CharacterID": "NYOROBON",
+    "DisplayNameMSID": "CARD_NAME_61  (ニョロボン)"
+  },
+  {
+    "CharacterID": "NYOROBON_EX",
+    "DisplayNameMSID": "CARD_NAME_809  (ニョロボンex)"
+  },
+  {
+    "CharacterID": "NYOROMO",
+    "DisplayNameMSID": "CARD_NAME_59  (ニョロモ)"
+  },
+  {
+    "CharacterID": "NYOROTONO",
+    "DisplayNameMSID": "CARD_NAME_712  (ニョロトノ)"
+  },
+  {
+    "CharacterID": "NYOROZO",
+    "DisplayNameMSID": "CARD_NAME_60  (ニョロゾ)"
+  },
+  {
+    "CharacterID": "NYULA",
+    "DisplayNameMSID": "CARD_NAME_358  (ニューラ)"
+  },
+  {
+    "CharacterID": "OBONNOMI",
+    "DisplayNameMSID": "CARD_NAME_943  (オボンのみ)"
+  },
+  {
+    "CharacterID": "ODORIDORI",
+    "DisplayNameMSID": "CARD_NAME_511  (オドリドリ)"
+  },
+  {
+    "CharacterID": "ODOSHISHI",
+    "DisplayNameMSID": "CARD_NAME_769  (オドシシ)"
+  },
+  {
+    "CharacterID": "OGERPONIDONOMEN",
+    "DisplayNameMSID": "CARD_NAME_999  (オーガポンいどのめん)"
+  },
+  {
+    "CharacterID": "OGERPONISHIZUENOMEN",
+    "DisplayNameMSID": "CARD_NAME_1023  (オーガポンいしずえのめん)"
+  },
+  {
+    "CharacterID": "OGERPONKAMADONOMEN",
+    "DisplayNameMSID": "CARD_NAME_989  (オーガポンかまどのめん)"
+  },
+  {
+    "CharacterID": "OGERPONMIDORINOMEN",
+    "DisplayNameMSID": "CARD_NAME_1289  (オーガポンみどりのめん)"
+  },
+  {
+    "CharacterID": "OGERPONMIDORINOMEN_EX",
+    "DisplayNameMSID": "CARD_NAME_983  (オーガポンみどりのめんex)"
+  },
+  {
+    "CharacterID": "OHBEM",
+    "DisplayNameMSID": "CARD_NAME_255  (オーベム)"
+  },
+  {
+    "CharacterID": "OHLONGE",
+    "DisplayNameMSID": "CARD_NAME_914  (オーロンゲ)"
+  },
+  {
+    "CharacterID": "OHROT",
+    "DisplayNameMSID": "CARD_NAME_491  (オーロット)"
+  },
+  {
+    "CharacterID": "OHSUBAME",
+    "DisplayNameMSID": "CARD_NAME_1042  (オオスバメ)"
+  },
+  {
+    "CharacterID": "OKORIZARU",
+    "DisplayNameMSID": "CARD_NAME_142  (オコリザル)"
+  },
+  {
+    "CharacterID": "OKUTANK",
+    "DisplayNameMSID": "CARD_NAME_722  (オクタン)"
+  },
+  {
+    "CharacterID": "OLIMHAKASE",
+    "DisplayNameMSID": "CARD_NAME_1255  (オーリム博士)"
+  },
+  {
+    "CharacterID": "OLINYO",
+    "DisplayNameMSID": "CARD_NAME_1069  (オリーニョ)"
+  },
+  {
+    "CharacterID": "OLIVA",
+    "DisplayNameMSID": "CARD_NAME_1070  (オリーヴァ)"
+  },
+  {
+    "CharacterID": "OMNITE",
+    "DisplayNameMSID": "CARD_NAME_81  (オムナイト)"
+  },
+  {
+    "CharacterID": "OMSTAR",
+    "DisplayNameMSID": "CARD_NAME_82  (オムスター)"
+  },
+  {
+    "CharacterID": "ONBAT",
+    "DisplayNameMSID": "CARD_NAME_1319  (オンバット)"
+  },
+  {
+    "CharacterID": "ONIDRILL",
+    "DisplayNameMSID": "CARD_NAME_192  (オニドリル)"
+  },
+  {
+    "CharacterID": "ONISHIZUKUMO",
+    "DisplayNameMSID": "CARD_NAME_524  (オニシズクモ)"
+  },
+  {
+    "CharacterID": "ONISUZUME",
+    "DisplayNameMSID": "CARD_NAME_191  (オニスズメ)"
+  },
+  {
+    "CharacterID": "ONONDO",
+    "DisplayNameMSID": "CARD_NAME_1143  (オノンド)"
+  },
+  {
+    "CharacterID": "ONONOKUS",
+    "DisplayNameMSID": "CARD_NAME_1132  (オノノクス)"
+  },
+  {
+    "CharacterID": "ONVERN",
+    "DisplayNameMSID": "CARD_NAME_1320  (オンバーン)"
+  },
+  {
+    "CharacterID": "OOKIIMARASADA",
+    "DisplayNameMSID": "CARD_NAME_600  (おおきいマラサダ)"
+  },
+  {
+    "CharacterID": "OOKINAMANTO",
+    "DisplayNameMSID": "CARD_NAME_402  (大きなマント)"
+  },
+  {
+    "CharacterID": "OOTACHI",
+    "DisplayNameMSID": "CARD_NAME_765  (オオタチ)"
+  },
+  {
+    "CharacterID": "ORACHIFU",
+    "DisplayNameMSID": "CARD_NAME_1116  (オラチフ)"
+  },
+  {
+    "CharacterID": "ORDILE",
+    "DisplayNameMSID": "CARD_NAME_716  (オーダイル)"
+  },
+  {
+    "CharacterID": "ORIGINDIALGA",
+    "DisplayNameMSID": "CARD_NAME_441  (オリジンディアルガ)"
+  },
+  {
+    "CharacterID": "ORIGINPALKIA",
+    "DisplayNameMSID": "CARD_NAME_425  (オリジンパルキア)"
+  },
+  {
+    "CharacterID": "OSAKANANETTO",
+    "DisplayNameMSID": "CARD_NAME_601  (おさかなネット)"
+  },
+  {
+    "CharacterID": "OSYAMARI",
+    "DisplayNameMSID": "CARD_NAME_518  (オシャマリ)"
+  },
+  {
+    "CharacterID": "OTACHI",
+    "DisplayNameMSID": "CARD_NAME_764  (オタチ)"
+  },
+  {
+    "CharacterID": "OTAMARO",
+    "DisplayNameMSID": "CARD_NAME_872  (オタマロ)"
+  },
+  {
+    "CharacterID": "OTORIYOSEPADDO",
+    "DisplayNameMSID": "CARD_NAME_1328  (おとりよせパッド)"
+  },
+  {
+    "CharacterID": "OTOSHIDORI",
+    "DisplayNameMSID": "CARD_NAME_1118  (オトシドリ)"
+  },
+  {
+    "CharacterID": "OTOSUPUS",
+    "DisplayNameMSID": "CARD_NAME_163  (オトスパス)"
+  },
+  {
+    "CharacterID": "PACHIRISU",
+    "DisplayNameMSID": "CARD_NAME_452  (パチリス)"
+  },
+  {
+    "CharacterID": "PACHIRISU_EX",
+    "DisplayNameMSID": "CARD_NAME_326  (パチリスex)"
+  },
+  {
+    "CharacterID": "PALDEADOOH",
+    "DisplayNameMSID": "CARD_NAME_1114  (パルデアドオー)"
+  },
+  {
+    "CharacterID": "PALDEADOOH_EX",
+    "DisplayNameMSID": "CARD_NAME_470  (パルデアドオーex)"
+  },
+  {
+    "CharacterID": "PALDEAKENTAUROS",
+    "DisplayNameMSID": "CARD_NAME_458  (パルデアケンタロス)"
+  },
+  {
+    "CharacterID": "PALDEAUPAH",
+    "DisplayNameMSID": "CARD_NAME_469  (パルデアウパー)"
+  },
+  {
+    "CharacterID": "PALKIA_EX",
+    "DisplayNameMSID": "CARD_NAME_319  (パルキアex)"
+  },
+  {
+    "CharacterID": "PAMO",
+    "DisplayNameMSID": "CARD_NAME_463  (パモ)"
+  },
+  {
+    "CharacterID": "PAMOT",
+    "DisplayNameMSID": "CARD_NAME_464  (パモット)"
+  },
+  {
+    "CharacterID": "PAOJIAN_EX",
+    "DisplayNameMSID": "CARD_NAME_1095  (パオジアンex)"
+  },
+  {
+    "CharacterID": "PARAS",
+    "DisplayNameMSID": "CARD_NAME_14  (パラス)"
+  },
+  {
+    "CharacterID": "PARASECT",
+    "DisplayNameMSID": "CARD_NAME_15  (パラセクト)"
+  },
+  {
+    "CharacterID": "PARASOLGIRL",
+    "DisplayNameMSID": "CARD_NAME_1215  (パラソルおねえさん)"
+  },
+  {
+    "CharacterID": "PARMOT",
+    "DisplayNameMSID": "CARD_NAME_451  (パーモット)"
+  },
+  {
+    "CharacterID": "PARSHEN",
+    "DisplayNameMSID": "CARD_NAME_67  (パルシェン)"
+  },
+  {
+    "CharacterID": "PATCHEEL",
+    "DisplayNameMSID": "CARD_NAME_930  (パッチール)"
+  },
+  {
+    "CharacterID": "PAWOU",
+    "DisplayNameMSID": "CARD_NAME_64  (パウワウ)"
+  },
+  {
+    "CharacterID": "PEARLULU",
+    "DisplayNameMSID": "CARD_NAME_1169  (パールル)"
+  },
+  {
+    "CharacterID": "PELIPPER",
+    "DisplayNameMSID": "CARD_NAME_1353  (ペリッパー)"
+  },
+  {
+    "CharacterID": "PENDROR",
+    "DisplayNameMSID": "CARD_NAME_268  (ペンドラー)"
+  },
+  {
+    "CharacterID": "PEPER",
+    "DisplayNameMSID": "CARD_NAME_1129  (ペパー)"
+  },
+  {
+    "CharacterID": "PERAP",
+    "DisplayNameMSID": "CARD_NAME_271  (ペラップ)"
+  },
+  {
+    "CharacterID": "PERFUTON",
+    "DisplayNameMSID": "CARD_NAME_1123  (パフュートン)"
+  },
+  {
+    "CharacterID": "PEROPPAFU",
+    "DisplayNameMSID": "CARD_NAME_259  (ペロッパフ)"
+  },
+  {
+    "CharacterID": "PEROREAM",
+    "DisplayNameMSID": "CARD_NAME_260  (ペロリーム)"
+  },
+  {
+    "CharacterID": "PERSIAN",
+    "DisplayNameMSID": "CARD_NAME_197  (ペルシアン)"
+  },
+  {
+    "CharacterID": "PHEROACHE",
+    "DisplayNameMSID": "CARD_NAME_635  (フェローチェ)"
+  },
+  {
+    "CharacterID": "PHIONE",
+    "DisplayNameMSID": "CARD_NAME_426  (フィオネ)"
+  },
+  {
+    "CharacterID": "PICHU",
+    "DisplayNameMSID": "CARD_NAME_729  (ピチュー)"
+  },
+  {
+    "CharacterID": "PIGEON",
+    "DisplayNameMSID": "CARD_NAME_187  (ピジョン)"
+  },
+  {
+    "CharacterID": "PIGEOT",
+    "DisplayNameMSID": "CARD_NAME_188  (ピジョット)"
+  },
+  {
+    "CharacterID": "PIGEOT_EX",
+    "DisplayNameMSID": "CARD_NAME_270  (ピジョットex)"
+  },
+  {
+    "CharacterID": "PIKACHU",
+    "DisplayNameMSID": "CARD_NAME_94  (ピカチュウ)"
+  },
+  {
+    "CharacterID": "PIKACHU_EX",
+    "DisplayNameMSID": "CARD_NAME_96  (ピカチュウex)"
+  },
+  {
+    "CharacterID": "PINPUKU",
+    "DisplayNameMSID": "CARD_NAME_1383  (ピンプク)"
+  },
+  {
+    "CharacterID": "PIPPI",
+    "DisplayNameMSID": "CARD_NAME_113  (ピッピ)"
+  },
+  {
+    "CharacterID": "PIXY",
+    "DisplayNameMSID": "CARD_NAME_114  (ピクシー)"
+  },
+  {
+    "CharacterID": "POCHAMA",
+    "DisplayNameMSID": "CARD_NAME_307  (ポッチャマ)"
+  },
+  {
+    "CharacterID": "POCHIENA",
+    "DisplayNameMSID": "CARD_NAME_360  (ポチエナ)"
+  },
+  {
+    "CharacterID": "POKABU",
+    "DisplayNameMSID": "CARD_NAME_1163  (ポカブ)"
+  },
+  {
+    "CharacterID": "POKEMONCENTERNOONEESAN",
+    "DisplayNameMSID": "CARD_NAME_482  (ポケモンセンターのお姉さん)"
+  },
+  {
+    "CharacterID": "POKEMONNOFUE",
+    "DisplayNameMSID": "CARD_NAME_272  (ポケモンの笛)"
+  },
+  {
+    "CharacterID": "POKEMONTSUUSHIN",
+    "DisplayNameMSID": "CARD_NAME_401  (ポケモン通信)"
+  },
+  {
+    "CharacterID": "POKEMONZUKAN",
+    "DisplayNameMSID": "CARD_NAME_231  (ポケモン図鑑)"
+  },
+  {
+    "CharacterID": "PONYTA",
+    "DisplayNameMSID": "CARD_NAME_42  (ポニータ)"
+  },
+  {
+    "CharacterID": "POPOCCO",
+    "DisplayNameMSID": "CARD_NAME_697  (ポポッコ)"
+  },
+  {
+    "CharacterID": "POPPO",
+    "DisplayNameMSID": "CARD_NAME_186  (ポッポ)"
+  },
+  {
+    "CharacterID": "PORYGON",
+    "DisplayNameMSID": "CARD_NAME_207  (ポリゴン)"
+  },
+  {
+    "CharacterID": "PORYGON-Z",
+    "DisplayNameMSID": "CARD_NAME_385  (ポリゴンZ)"
+  },
+  {
+    "CharacterID": "PORYGON2",
+    "DisplayNameMSID": "CARD_NAME_384  (ポリゴン2)"
+  },
+  {
+    "CharacterID": "POTDEATH",
+    "DisplayNameMSID": "CARD_NAME_1015  (ポットデス)"
+  },
+  {
+    "CharacterID": "POTTAISHI",
+    "DisplayNameMSID": "CARD_NAME_308  (ポッタイシ)"
+  },
+  {
+    "CharacterID": "POWALEN",
+    "DisplayNameMSID": "CARD_NAME_1208  (ポワルン)"
+  },
+  {
+    "CharacterID": "POWALENAMAMIZUNOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1167  (ポワルンあまみずのすがた)"
+  },
+  {
+    "CharacterID": "POWALENTAIYOUNOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1161  (ポワルンたいようのすがた)"
+  },
+  {
+    "CharacterID": "POWALENYUKIGUMONOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1168  (ポワルンゆきぐものすがた)"
+  },
+  {
+    "CharacterID": "PRASLE",
+    "DisplayNameMSID": "CARD_NAME_1001  (プラスル)"
+  },
+  {
+    "CharacterID": "PROTOGA",
+    "DisplayNameMSID": "CARD_NAME_875  (プロトーガ)"
+  },
+  {
+    "CharacterID": "PTERA",
+    "DisplayNameMSID": "CARD_NAME_208  (プテラ)"
+  },
+  {
+    "CharacterID": "PTERA_EX",
+    "DisplayNameMSID": "CARD_NAME_261  (プテラex)"
+  },
+  {
+    "CharacterID": "PUKURIN",
+    "DisplayNameMSID": "CARD_NAME_194  (プクリン)"
+  },
+  {
+    "CharacterID": "PUKURIN_EX",
+    "DisplayNameMSID": "CARD_NAME_195  (プクリンex)"
+  },
+  {
+    "CharacterID": "PULSEWAN",
+    "DisplayNameMSID": "CARD_NAME_803  (パルスワン)"
+  },
+  {
+    "CharacterID": "PUMPJIN",
+    "DisplayNameMSID": "CARD_NAME_1012  (パンプジン)"
+  },
+  {
+    "CharacterID": "PUPIMOCCHI",
+    "DisplayNameMSID": "CARD_NAME_1100  (パピモッチ)"
+  },
+  {
+    "CharacterID": "PUPURIN",
+    "DisplayNameMSID": "CARD_NAME_819  (ププリン)"
+  },
+  {
+    "CharacterID": "PURIN",
+    "DisplayNameMSID": "CARD_NAME_193  (プリン)"
+  },
+  {
+    "CharacterID": "PURURILL",
+    "DisplayNameMSID": "CARD_NAME_807  (プルリル)"
+  },
+  {
+    "CharacterID": "PY",
+    "DisplayNameMSID": "CARD_NAME_737  (ピィ)"
+  },
+  {
+    "CharacterID": "RABBIFUTO",
+    "DisplayNameMSID": "CARD_NAME_987  (ラビフット)"
+  },
+  {
+    "CharacterID": "RAICHU",
+    "DisplayNameMSID": "CARD_NAME_95  (ライチュウ)"
+  },
+  {
+    "CharacterID": "RAICHU_EX",
+    "DisplayNameMSID": "CARD_NAME_788  (ライチュウex)"
+  },
+  {
+    "CharacterID": "RAIKOU",
+    "DisplayNameMSID": "CARD_NAME_734  (ライコウ)"
+  },
+  {
+    "CharacterID": "RAIKOU_EX",
+    "DisplayNameMSID": "CARD_NAME_800  (ライコウex)"
+  },
+  {
+    "CharacterID": "RAKURAI",
+    "DisplayNameMSID": "CARD_NAME_427  (ラクライ)"
+  },
+  {
+    "CharacterID": "RALTS",
+    "DisplayNameMSID": "CARD_NAME_130  (ラルトス)"
+  },
+  {
+    "CharacterID": "RAMPALD",
+    "DisplayNameMSID": "CARD_NAME_350  (ラムパルド)"
+  },
+  {
+    "CharacterID": "RAMUNOMI",
+    "DisplayNameMSID": "CARD_NAME_404  (ラムのみ)"
+  },
+  {
+    "CharacterID": "RARECOIL",
+    "DisplayNameMSID": "CARD_NAME_98  (レアコイル)"
+  },
+  {
+    "CharacterID": "RATTA",
+    "DisplayNameMSID": "CARD_NAME_190  (ラッタ)"
+  },
+  {
+    "CharacterID": "RAYQUAZA",
+    "DisplayNameMSID": "CARD_NAME_830  (レックウザ)"
+  },
+  {
+    "CharacterID": "RAYQUAZA_EX",
+    "DisplayNameMSID": "CARD_NAME_831  (レックウザex)"
+  },
+  {
+    "CharacterID": "RED",
+    "DisplayNameMSID": "CARD_NAME_483  (レッド)"
+  },
+  {
+    "CharacterID": "REDCARD",
+    "DisplayNameMSID": "CARD_NAME_232  (レッドカード)"
+  },
+  {
+    "CharacterID": "REDIAN",
+    "DisplayNameMSID": "CARD_NAME_695  (レディアン)"
+  },
+  {
+    "CharacterID": "REDIBA",
+    "DisplayNameMSID": "CARD_NAME_694  (レディバ)"
+  },
+  {
+    "CharacterID": "REGICE",
+    "DisplayNameMSID": "CARD_NAME_306  (レジアイス)"
+  },
+  {
+    "CharacterID": "REGIDORAGO",
+    "DisplayNameMSID": "CARD_NAME_1377  (レジドラゴ)"
+  },
+  {
+    "CharacterID": "REGIGIGAS",
+    "DisplayNameMSID": "CARD_NAME_398  (レジギガス)"
+  },
+  {
+    "CharacterID": "REGIROCK",
+    "DisplayNameMSID": "CARD_NAME_348  (レジロック)"
+  },
+  {
+    "CharacterID": "REGISTEEL",
+    "DisplayNameMSID": "CARD_NAME_372  (レジスチル)"
+  },
+  {
+    "CharacterID": "RENTORAR",
+    "DisplayNameMSID": "CARD_NAME_325  (レントラー)"
+  },
+  {
+    "CharacterID": "RESHIRAM",
+    "DisplayNameMSID": "CARD_NAME_984  (レシラム)"
+  },
+  {
+    "CharacterID": "RESUKYUSUKAFU",
+    "DisplayNameMSID": "CARD_NAME_777  (レスキュースカーフ)"
+  },
+  {
+    "CharacterID": "RIKIKIRIN",
+    "DisplayNameMSID": "CARD_NAME_1249  (リキキリン)"
+  },
+  {
+    "CharacterID": "RIKUKURAGE",
+    "DisplayNameMSID": "CARD_NAME_1110  (リククラゲ)"
+  },
+  {
+    "CharacterID": "RINGUMA",
+    "DisplayNameMSID": "CARD_NAME_768  (リングマ)"
+  },
+  {
+    "CharacterID": "RIOLU",
+    "DisplayNameMSID": "CARD_NAME_351  (リオル)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOARBO",
+    "DisplayNameMSID": "CARD_NAME_1367  (ロケット団のアーボ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOARBOK",
+    "DisplayNameMSID": "CARD_NAME_1368  (ロケット団のアーボック)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBACHINUNI",
+    "DisplayNameMSID": "CARD_NAME_1359  (ロケット団のバチンウニ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBARRIERD",
+    "DisplayNameMSID": "CARD_NAME_1364  (ロケット団のバリヤード)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETBETER",
+    "DisplayNameMSID": "CARD_NAME_1369  (ロケット団のベトベター)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETBETON",
+    "DisplayNameMSID": "CARD_NAME_1370  (ロケット団のベトベトン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETOBETOBAZOOKA",
+    "DisplayNameMSID": "CARD_NAME_1385  (ロケット団のベトベトバズーカ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBIRIRIDAMA",
+    "DisplayNameMSID": "CARD_NAME_1356  (ロケット団のビリリダマ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBOOBER",
+    "DisplayNameMSID": "CARD_NAME_1346  (ロケット団のブーバー)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBOSS",
+    "DisplayNameMSID": "CARD_NAME_1388  (ロケット団のボス)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODAISAKUSEN",
+    "DisplayNameMSID": "CARD_NAME_1387  (ロケット団の大作戦)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODEKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1376  (ロケット団のデカヌチャン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODELVIL",
+    "DisplayNameMSID": "CARD_NAME_1348  (ロケット団のデルビル)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODOGARS",
+    "DisplayNameMSID": "CARD_NAME_1371  (ロケット団のドガース)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODOROBOUMASHIN",
+    "DisplayNameMSID": "CARD_NAME_1384  (ロケット団のどろぼうマシン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOFIRE_EX",
+    "DisplayNameMSID": "CARD_NAME_1347  (ロケット団のファイヤーex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOFREEZER_EX",
+    "DisplayNameMSID": "CARD_NAME_1352  (ロケット団のフリーザーex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOHELLGAR",
+    "DisplayNameMSID": "CARD_NAME_1349  (ロケット団のヘルガー)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKAKUREON",
+    "DisplayNameMSID": "CARD_NAME_1382  (ロケット団のカクレオン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1374  (ロケット団のカヌチャン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKENKYUUIN",
+    "DisplayNameMSID": "CARD_NAME_1386  (ロケット団の研究員)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKORATTA",
+    "DisplayNameMSID": "CARD_NAME_1378  (ロケット団のコラッタ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOLAPLACE",
+    "DisplayNameMSID": "CARD_NAME_1341  (ロケット団のラプラス)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMARUMINE",
+    "DisplayNameMSID": "CARD_NAME_1357  (ロケット団のマルマイン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMATADOGAS_EX",
+    "DisplayNameMSID": "CARD_NAME_1372  (ロケット団のマタドガスex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMEWTWO",
+    "DisplayNameMSID": "CARD_NAME_1365  (ロケット団のミュウツー)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONAKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1375  (ロケット団のナカヌチャン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONYARTH",
+    "DisplayNameMSID": "CARD_NAME_1380  (ロケット団のニャース)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONYULA",
+    "DisplayNameMSID": "CARD_NAME_1373  (ロケット団のニューラ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOPERSIAN",
+    "DisplayNameMSID": "CARD_NAME_1381  (ロケット団のペルシアン)"
+  },
+  {
+    "CharacterID": "ROCKETDANNORATTA_EX",
+    "DisplayNameMSID": "CARD_NAME_1379  (ロケット団のラッタex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSHITAPPA",
+    "DisplayNameMSID": "CARD_NAME_484  (ロケット団のしたっぱ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSLEEPE",
+    "DisplayNameMSID": "CARD_NAME_1362  (ロケット団のスリープ)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSLEEPER",
+    "DisplayNameMSID": "CARD_NAME_1363  (ロケット団のスリーパー)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSONANS",
+    "DisplayNameMSID": "CARD_NAME_1343  (ロケット団のソーナンス)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSTRIKE",
+    "DisplayNameMSID": "CARD_NAME_1340  (ロケット団のストライク)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOTHUNDER_EX",
+    "DisplayNameMSID": "CARD_NAME_1358  (ロケット団のサンダーex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOYADOKING_EX",
+    "DisplayNameMSID": "CARD_NAME_1361  (ロケット団のヤドキングex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOYADON",
+    "DisplayNameMSID": "CARD_NAME_1360  (ロケット団のヤドン)"
+  },
+  {
+    "CharacterID": "ROKON",
+    "DisplayNameMSID": "CARD_NAME_37  (ロコン)"
+  },
+  {
+    "CharacterID": "ROSELIA",
+    "DisplayNameMSID": "CARD_NAME_281  (ロゼリア)"
+  },
+  {
+    "CharacterID": "ROSERADE",
+    "DisplayNameMSID": "CARD_NAME_282  (ロズレイド)"
+  },
+  {
+    "CharacterID": "ROTOM",
+    "DisplayNameMSID": "CARD_NAME_327  (ロトム)"
+  },
+  {
+    "CharacterID": "ROTOMUZUKAN",
+    "DisplayNameMSID": "CARD_NAME_603  (ロトム図鑑)"
+  },
+  {
+    "CharacterID": "ROTOM_EX",
+    "DisplayNameMSID": "CARD_NAME_1300  (ロトムex)"
+  },
+  {
+    "CharacterID": "ROUBUSHIN",
+    "DisplayNameMSID": "CARD_NAME_557  (ローブシン)"
+  },
+  {
+    "CharacterID": "ROUGELA",
+    "DisplayNameMSID": "CARD_NAME_127  (ルージュラ)"
+  },
+  {
+    "CharacterID": "RUCHIA",
+    "DisplayNameMSID": "CARD_NAME_951  (ルチア)"
+  },
+  {
+    "CharacterID": "RUFFRESIA",
+    "DisplayNameMSID": "CARD_NAME_13  (ラフレシア)"
+  },
+  {
+    "CharacterID": "RUNPAPPA",
+    "DisplayNameMSID": "CARD_NAME_866  (ルンパッパ)"
+  },
+  {
+    "CharacterID": "RURIRI",
+    "DisplayNameMSID": "CARD_NAME_820  (ルリリ)"
+  },
+  {
+    "CharacterID": "SABONEA",
+    "DisplayNameMSID": "CARD_NAME_972  (サボネア)"
+  },
+  {
+    "CharacterID": "SADAIJA",
+    "DisplayNameMSID": "CARD_NAME_1196  (サダイジャ)"
+  },
+  {
+    "CharacterID": "SAIKIKKA",
+    "DisplayNameMSID": "CARD_NAME_1333  (サイキッカー)"
+  },
+  {
+    "CharacterID": "SAKAKI",
+    "DisplayNameMSID": "CARD_NAME_221  (サカキ)"
+  },
+  {
+    "CharacterID": "SAKEBUSHIPPO",
+    "DisplayNameMSID": "CARD_NAME_1226  (サケブシッポ)"
+  },
+  {
+    "CharacterID": "SAKURABYSS",
+    "DisplayNameMSID": "CARD_NAME_1171  (サクラビス)"
+  },
+  {
+    "CharacterID": "SAMAYOURU",
+    "DisplayNameMSID": "CARD_NAME_334  (サマヨール)"
+  },
+  {
+    "CharacterID": "SAMEHADER",
+    "DisplayNameMSID": "CARD_NAME_638  (サメハダー)"
+  },
+  {
+    "CharacterID": "SANAGIRAS",
+    "DisplayNameMSID": "CARD_NAME_434  (サナギラス)"
+  },
+  {
+    "CharacterID": "SAND",
+    "DisplayNameMSID": "CARD_NAME_137  (サンド)"
+  },
+  {
+    "CharacterID": "SANDPAN",
+    "DisplayNameMSID": "CARD_NAME_138  (サンドパン)"
+  },
+  {
+    "CharacterID": "SARUNORI",
+    "DisplayNameMSID": "CARD_NAME_847  (サルノリ)"
+  },
+  {
+    "CharacterID": "SASIKAMASU",
+    "DisplayNameMSID": "CARD_NAME_881  (サシカマス)"
+  },
+  {
+    "CharacterID": "SAWAMULAR",
+    "DisplayNameMSID": "CARD_NAME_154  (サワムラー)"
+  },
+  {
+    "CharacterID": "SAZANDORA",
+    "DisplayNameMSID": "CARD_NAME_909  (サザンドラ)"
+  },
+  {
+    "CharacterID": "SCORUPI",
+    "DisplayNameMSID": "CARD_NAME_365  (スコルピ)"
+  },
+  {
+    "CharacterID": "SCOVILLAIN",
+    "DisplayNameMSID": "CARD_NAME_1074  (スコヴィラン)"
+  },
+  {
+    "CharacterID": "SEADRA",
+    "DisplayNameMSID": "CARD_NAME_71  (シードラ)"
+  },
+  {
+    "CharacterID": "SEBIE",
+    "DisplayNameMSID": "CARD_NAME_1092  (セビエ)"
+  },
+  {
+    "CharacterID": "SEGLAIVE",
+    "DisplayNameMSID": "CARD_NAME_1094  (セグレイブ)"
+  },
+  {
+    "CharacterID": "SEGOHRU",
+    "DisplayNameMSID": "CARD_NAME_1093  (セゴール)"
+  },
+  {
+    "CharacterID": "SEKI",
+    "DisplayNameMSID": "CARD_NAME_449  (セキ)"
+  },
+  {
+    "CharacterID": "SEKITANZAN",
+    "DisplayNameMSID": "CARD_NAME_905  (セキタンザン)"
+  },
+  {
+    "CharacterID": "SERENA",
+    "DisplayNameMSID": "CARD_NAME_970  (セレナ)"
+  },
+  {
+    "CharacterID": "SHAYMIN",
+    "DisplayNameMSID": "CARD_NAME_295  (シェイミ)"
+  },
+  {
+    "CharacterID": "SHELLDER",
+    "DisplayNameMSID": "CARD_NAME_66  (シェルダー)"
+  },
+  {
+    "CharacterID": "SHIBIBEEL",
+    "DisplayNameMSID": "CARD_NAME_108  (シビビール)"
+  },
+  {
+    "CharacterID": "SHIBIRUDON",
+    "DisplayNameMSID": "CARD_NAME_109  (シビルドン)"
+  },
+  {
+    "CharacterID": "SHIBISHIRASU",
+    "DisplayNameMSID": "CARD_NAME_107  (シビシラス)"
+  },
+  {
+    "CharacterID": "SHIGAROKO",
+    "DisplayNameMSID": "CARD_NAME_1075  (シガロコ)"
+  },
+  {
+    "CharacterID": "SHIMAMA",
+    "DisplayNameMSID": "CARD_NAME_105  (シママ)"
+  },
+  {
+    "CharacterID": "SHIRONA",
+    "DisplayNameMSID": "CARD_NAME_407  (シロナ)"
+  },
+  {
+    "CharacterID": "SHIRUSHREW",
+    "DisplayNameMSID": "CARD_NAME_471  (シルシュルー)"
+  },
+  {
+    "CharacterID": "SHISHIKO",
+    "DisplayNameMSID": "CARD_NAME_861  (シシコ)"
+  },
+  {
+    "CharacterID": "SHIZARIGER",
+    "DisplayNameMSID": "CARD_NAME_726  (シザリガー)"
+  },
+  {
+    "CharacterID": "SHIZUI",
+    "DisplayNameMSID": "CARD_NAME_946  (シズイ)"
+  },
+  {
+    "CharacterID": "SHIZUKUMO",
+    "DisplayNameMSID": "CARD_NAME_523  (シズクモ)"
+  },
+  {
+    "CharacterID": "SHOWERS",
+    "DisplayNameMSID": "CARD_NAME_80  (シャワーズ)"
+  },
+  {
+    "CharacterID": "SHOWERS_EX",
+    "DisplayNameMSID": "CARD_NAME_1166  (シャワーズex)"
+  },
+  {
+    "CharacterID": "SHUSHUPU",
+    "DisplayNameMSID": "CARD_NAME_894  (シュシュプ)"
+  },
+  {
+    "CharacterID": "SIDON",
+    "DisplayNameMSID": "CARD_NAME_157  (サイドン)"
+  },
+  {
+    "CharacterID": "SIHORN",
+    "DisplayNameMSID": "CARD_NAME_156  (サイホーン)"
+  },
+  {
+    "CharacterID": "SILVADY",
+    "DisplayNameMSID": "CARD_NAME_660  (シルヴァディ)"
+  },
+  {
+    "CharacterID": "SILVER",
+    "DisplayNameMSID": "CARD_NAME_780  (シルバー)"
+  },
+  {
+    "CharacterID": "SIRNIGHT",
+    "DisplayNameMSID": "CARD_NAME_132  (サーナイト)"
+  },
+  {
+    "CharacterID": "SIRODETHNA",
+    "DisplayNameMSID": "CARD_NAME_544  (シロデスナ)"
+  },
+  {
+    "CharacterID": "SKUNPUU",
+    "DisplayNameMSID": "CARD_NAME_362  (スカンプー)"
+  },
+  {
+    "CharacterID": "SKUTANK",
+    "DisplayNameMSID": "CARD_NAME_363  (スカタンク)"
+  },
+  {
+    "CharacterID": "SLEEPE",
+    "DisplayNameMSID": "CARD_NAME_124  (スリープ)"
+  },
+  {
+    "CharacterID": "SLEEPER",
+    "DisplayNameMSID": "CARD_NAME_125  (スリーパー)"
+  },
+  {
+    "CharacterID": "SOHNANO",
+    "DisplayNameMSID": "CARD_NAME_1304  (ソーナノ)"
+  },
+  {
+    "CharacterID": "SOLGALEO_EX",
+    "DisplayNameMSID": "CARD_NAME_581  (ソルガレオex)"
+  },
+  {
+    "CharacterID": "SOLROCK",
+    "DisplayNameMSID": "CARD_NAME_553  (ソルロック)"
+  },
+  {
+    "CharacterID": "SONANS",
+    "DisplayNameMSID": "CARD_NAME_741  (ソーナンス)"
+  },
+  {
+    "CharacterID": "SOUBLADES",
+    "DisplayNameMSID": "CARD_NAME_1102  (ソウブレイズ)"
+  },
+  {
+    "CharacterID": "SOUBLADES_EX",
+    "DisplayNameMSID": "CARD_NAME_1261  (ソウブレイズex)"
+  },
+  {
+    "CharacterID": "SOUJYUKUEKISU",
+    "DisplayNameMSID": "CARD_NAME_968  (そうじゅくエキス)"
+  },
+  {
+    "CharacterID": "SPEAR",
+    "DisplayNameMSID": "CARD_NAME_10  (スピアー)"
+  },
+  {
+    "CharacterID": "SPEAR_EX",
+    "DisplayNameMSID": "CARD_NAME_455  (スピアーex)"
+  },
+  {
+    "CharacterID": "SPEEDER",
+    "DisplayNameMSID": "CARD_NAME_227  (スピーダー)"
+  },
+  {
+    "CharacterID": "SPIN ROTOM",
+    "DisplayNameMSID": "CARD_NAME_397  (スピンロトム)"
+  },
+  {
+    "CharacterID": "STARMIE",
+    "DisplayNameMSID": "CARD_NAME_75  (スターミー)"
+  },
+  {
+    "CharacterID": "STARMIE_EX",
+    "DisplayNameMSID": "CARD_NAME_76  (スターミーex)"
+  },
+  {
+    "CharacterID": "STRIKE",
+    "DisplayNameMSID": "CARD_NAME_25  (ストライク)"
+  },
+  {
+    "CharacterID": "STRINDER",
+    "DisplayNameMSID": "CARD_NAME_1181  (ストリンダー)"
+  },
+  {
+    "CharacterID": "STRINDER_EX",
+    "DisplayNameMSID": "CARD_NAME_1004  (ストリンダーex)"
+  },
+  {
+    "CharacterID": "SUBAME",
+    "DisplayNameMSID": "CARD_NAME_1041  (スバメ)"
+  },
+  {
+    "CharacterID": "SUBOMIE",
+    "DisplayNameMSID": "CARD_NAME_1153  (スボミー)"
+  },
+  {
+    "CharacterID": "SUICUNE",
+    "DisplayNameMSID": "CARD_NAME_724  (スイクン)"
+  },
+  {
+    "CharacterID": "SUICUNE_EX",
+    "DisplayNameMSID": "CARD_NAME_797  (スイクンex)"
+  },
+  {
+    "CharacterID": "SUIREN",
+    "DisplayNameMSID": "CARD_NAME_610  (スイレン)"
+  },
+  {
+    "CharacterID": "SUNABA",
+    "DisplayNameMSID": "CARD_NAME_543  (スナバァ)"
+  },
+  {
+    "CharacterID": "SUNAHEBI",
+    "DisplayNameMSID": "CARD_NAME_1195  (スナヘビ)"
+  },
+  {
+    "CharacterID": "SUNANOKEGAWA",
+    "DisplayNameMSID": "CARD_NAME_1236  (スナノケガワ)"
+  },
+  {
+    "CharacterID": "SUNNYGO",
+    "DisplayNameMSID": "CARD_NAME_720  (サニーゴ)"
+  },
+  {
+    "CharacterID": "SURFUGO",
+    "DisplayNameMSID": "CARD_NAME_478  (サーフゴー)"
+  },
+  {
+    "CharacterID": "SURFUGO_EX",
+    "DisplayNameMSID": "CARD_NAME_1121  (サーフゴーex)"
+  },
+  {
+    "CharacterID": "SWANNA",
+    "DisplayNameMSID": "CARD_NAME_86  (スワンナ)"
+  },
+  {
+    "CharacterID": "SWANNA_EX",
+    "DisplayNameMSID": "CARD_NAME_1327  (スワンナex)"
+  },
+  {
+    "CharacterID": "SYAGA",
+    "DisplayNameMSID": "CARD_NAME_1334  (シャガ)"
+  },
+  {
+    "CharacterID": "SYARITATSU",
+    "DisplayNameMSID": "CARD_NAME_462  (シャリタツ)"
+  },
+  {
+    "CharacterID": "SYMBOLER",
+    "DisplayNameMSID": "CARD_NAME_253  (シンボラー)"
+  },
+  {
+    "CharacterID": "TABENOKOSHI",
+    "DisplayNameMSID": "CARD_NAME_688  (たべのこし)"
+  },
+  {
+    "CharacterID": "TABINOGYOUSHOUNIN",
+    "DisplayNameMSID": "CARD_NAME_826  (旅の行商人)"
+  },
+  {
+    "CharacterID": "TABLECITY",
+    "DisplayNameMSID": "CARD_NAME_1130  (テーブルシティ)"
+  },
+  {
+    "CharacterID": "TABUNNE",
+    "DisplayNameMSID": "CARD_NAME_626  (タブンネ)"
+  },
+  {
+    "CharacterID": "TAGGINGRU",
+    "DisplayNameMSID": "CARD_NAME_472  (タギングル)"
+  },
+  {
+    "CharacterID": "TAIKAIDEN",
+    "DisplayNameMSID": "CARD_NAME_1098  (タイカイデン)"
+  },
+  {
+    "CharacterID": "TAIRENAR",
+    "DisplayNameMSID": "CARD_NAME_1350  (テールナー)"
+  },
+  {
+    "CharacterID": "TAIRETSU",
+    "DisplayNameMSID": "CARD_NAME_1022  (タイレーツ)"
+  },
+  {
+    "CharacterID": "TAKERURAIKO",
+    "DisplayNameMSID": "CARD_NAME_1248  (タケルライコ)"
+  },
+  {
+    "CharacterID": "TAKESHI",
+    "DisplayNameMSID": "CARD_NAME_222  (タケシ)"
+  },
+  {
+    "CharacterID": "TAMAGETAKE",
+    "DisplayNameMSID": "CARD_NAME_1199  (タマゲタケ)"
+  },
+  {
+    "CharacterID": "TAMANTA",
+    "DisplayNameMSID": "CARD_NAME_798  (タマンタ)"
+  },
+  {
+    "CharacterID": "TAMANTULA",
+    "DisplayNameMSID": "CARD_NAME_1065  (タマンチュラ)"
+  },
+  {
+    "CharacterID": "TAMATAMA",
+    "DisplayNameMSID": "CARD_NAME_21  (タマタマ)"
+  },
+  {
+    "CharacterID": "TAMAZARASHI",
+    "DisplayNameMSID": "CARD_NAME_1293  (タマザラシ)"
+  },
+  {
+    "CharacterID": "TANDON",
+    "DisplayNameMSID": "CARD_NAME_903  (タンドン)"
+  },
+  {
+    "CharacterID": "TANEBOH",
+    "DisplayNameMSID": "CARD_NAME_838  (タネボー)"
+  },
+  {
+    "CharacterID": "TARUPPLE",
+    "DisplayNameMSID": "CARD_NAME_671  (タルップル)"
+  },
+  {
+    "CharacterID": "TATAKKO",
+    "DisplayNameMSID": "CARD_NAME_162  (タタッコ)"
+  },
+  {
+    "CharacterID": "TATENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_400  (たての化石)"
+  },
+  {
+    "CharacterID": "TATETOPS",
+    "DisplayNameMSID": "CARD_NAME_373  (タテトプス)"
+  },
+  {
+    "CharacterID": "TATSUBAY",
+    "DisplayNameMSID": "CARD_NAME_1036  (タツベイ)"
+  },
+  {
+    "CharacterID": "TATTU",
+    "DisplayNameMSID": "CARD_NAME_70  (タッツー)"
+  },
+  {
+    "CharacterID": "TAXIDRIVER",
+    "DisplayNameMSID": "CARD_NAME_1213  (タクシードライバー)"
+  },
+  {
+    "CharacterID": "TEAMSTARGRUNT",
+    "DisplayNameMSID": "CARD_NAME_1127  (スター団のしたっぱ)"
+  },
+  {
+    "CharacterID": "TEBRIM",
+    "DisplayNameMSID": "CARD_NAME_1186  (テブリム)"
+  },
+  {
+    "CharacterID": "TEKKAGUYA",
+    "DisplayNameMSID": "CARD_NAME_661  (テッカグヤ)"
+  },
+  {
+    "CharacterID": "TEPPOUO",
+    "DisplayNameMSID": "CARD_NAME_721  (テッポウオ)"
+  },
+  {
+    "CharacterID": "TERAPAGOS_EX",
+    "DisplayNameMSID": "CARD_NAME_1251  (テラパゴスex)"
+  },
+  {
+    "CharacterID": "TERRAKION",
+    "DisplayNameMSID": "CARD_NAME_900  (テラキオン)"
+  },
+  {
+    "CharacterID": "TESSEED",
+    "DisplayNameMSID": "CARD_NAME_654  (テッシード)"
+  },
+  {
+    "CharacterID": "TETSUNOBUJIN",
+    "DisplayNameMSID": "CARD_NAME_1228  (テツノブジン)"
+  },
+  {
+    "CharacterID": "TETSUNODOKUGA",
+    "DisplayNameMSID": "CARD_NAME_1221  (テツノドクガ)"
+  },
+  {
+    "CharacterID": "TETSUNOIBARA",
+    "DisplayNameMSID": "CARD_NAME_1224  (テツノイバラ)"
+  },
+  {
+    "CharacterID": "TETSUNOISAHA",
+    "DisplayNameMSID": "CARD_NAME_1229  (テツノイサハ)"
+  },
+  {
+    "CharacterID": "TETSUNOIWAO",
+    "DisplayNameMSID": "CARD_NAME_1230  (テツノイワオ)"
+  },
+  {
+    "CharacterID": "TETSUNOKAINA",
+    "DisplayNameMSID": "CARD_NAME_1223  (テツノカイナ)"
+  },
+  {
+    "CharacterID": "TETSUNOKASHIRA",
+    "DisplayNameMSID": "CARD_NAME_1231  (テツノカシラ)"
+  },
+  {
+    "CharacterID": "TETSUNOKOUBE",
+    "DisplayNameMSID": "CARD_NAME_1241  (テツノコウベ)"
+  },
+  {
+    "CharacterID": "TETSUNOTSUTSUMI",
+    "DisplayNameMSID": "CARD_NAME_1265  (テツノツツミ)"
+  },
+  {
+    "CharacterID": "TETSUNOTSUTSUMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1222  (テツノツツミex)"
+  },
+  {
+    "CharacterID": "TETSUNOWADACHI",
+    "DisplayNameMSID": "CARD_NAME_1245  (テツノワダチ)"
+  },
+  {
+    "CharacterID": "THUNDER",
+    "DisplayNameMSID": "CARD_NAME_103  (サンダー)"
+  },
+  {
+    "CharacterID": "THUNDERS",
+    "DisplayNameMSID": "CARD_NAME_102  (サンダース)"
+  },
+  {
+    "CharacterID": "THUNDERS_EX",
+    "DisplayNameMSID": "CARD_NAME_884  (サンダースex)"
+  },
+  {
+    "CharacterID": "THUNDER_EX",
+    "DisplayNameMSID": "CARD_NAME_104  (サンダーex)"
+  },
+  {
+    "CharacterID": "TODOGGLER",
+    "DisplayNameMSID": "CARD_NAME_1294  (トドグラー)"
+  },
+  {
+    "CharacterID": "TODOROKUTSUKI",
+    "DisplayNameMSID": "CARD_NAME_1242  (トドロクツキ)"
+  },
+  {
+    "CharacterID": "TODOSERUGA",
+    "DisplayNameMSID": "CARD_NAME_1295  (トドゼルガ)"
+  },
+  {
+    "CharacterID": "TOGECHICK",
+    "DisplayNameMSID": "CARD_NAME_329  (トゲチック)"
+  },
+  {
+    "CharacterID": "TOGEDEMARU",
+    "DisplayNameMSID": "CARD_NAME_532  (トゲデマル)"
+  },
+  {
+    "CharacterID": "TOGEKISS",
+    "DisplayNameMSID": "CARD_NAME_330  (トゲキッス)"
+  },
+  {
+    "CharacterID": "TOGEPY",
+    "DisplayNameMSID": "CARD_NAME_328  (トゲピー)"
+  },
+  {
+    "CharacterID": "TORENINGUERIA",
+    "DisplayNameMSID": "CARD_NAME_1060  (トレーニングエリア)"
+  },
+  {
+    "CharacterID": "TORIDEPS",
+    "DisplayNameMSID": "CARD_NAME_374  (トリデプス)"
+  },
+  {
+    "CharacterID": "TORNELOS",
+    "DisplayNameMSID": "CARD_NAME_1046  (トルネロス)"
+  },
+  {
+    "CharacterID": "TOROGGON",
+    "DisplayNameMSID": "CARD_NAME_904  (トロッゴン)"
+  },
+  {
+    "CharacterID": "TOSAKINTO",
+    "DisplayNameMSID": "CARD_NAME_72  (トサキント)"
+  },
+  {
+    "CharacterID": "TRANSEL",
+    "DisplayNameMSID": "CARD_NAME_6  (トランセル)"
+  },
+  {
+    "CharacterID": "TRIMMIEN",
+    "DisplayNameMSID": "CARD_NAME_935  (トリミアン)"
+  },
+  {
+    "CharacterID": "TRITODON",
+    "DisplayNameMSID": "CARD_NAME_313  (トリトドン)"
+  },
+  {
+    "CharacterID": "TROPIUS",
+    "DisplayNameMSID": "CARD_NAME_669  (トロピウス)"
+  },
+  {
+    "CharacterID": "TSUBOTSUBO",
+    "DisplayNameMSID": "CARD_NAME_971  (ツボツボ)"
+  },
+  {
+    "CharacterID": "TSUBOTSUBO_EX",
+    "DisplayNameMSID": "CARD_NAME_703  (ツボツボex)"
+  },
+  {
+    "CharacterID": "TSUMENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1329  (ツメの化石)"
+  },
+  {
+    "CharacterID": "TSUTARJA",
+    "DisplayNameMSID": "CARD_NAME_235  (ツタージャ)"
+  },
+  {
+    "CharacterID": "TSUTSUKERA",
+    "DisplayNameMSID": "CARD_NAME_591  (ツツケラ)"
+  },
+  {
+    "CharacterID": "TUNBEAR",
+    "DisplayNameMSID": "CARD_NAME_1173  (ツンベアー)"
+  },
+  {
+    "CharacterID": "TUNDETUNDE",
+    "DisplayNameMSID": "CARD_NAME_622  (ツンデツンデ)"
+  },
+  {
+    "CharacterID": "TYLTALIS",
+    "DisplayNameMSID": "CARD_NAME_818  (チルタリス)"
+  },
+  {
+    "CharacterID": "TYLTTO",
+    "DisplayNameMSID": "CARD_NAME_821  (チルット)"
+  },
+  {
+    "CharacterID": "TYPENULL",
+    "DisplayNameMSID": "CARD_NAME_659  (タイプ：ヌル)"
+  },
+  {
+    "CharacterID": "UDEPPOU",
+    "DisplayNameMSID": "CARD_NAME_959  (ウデッポウ)"
+  },
+  {
+    "CharacterID": "UGATSUHOMURA",
+    "DisplayNameMSID": "CARD_NAME_1247  (ウガツホムラ)"
+  },
+  {
+    "CharacterID": "ULGAMOTH",
+    "DisplayNameMSID": "CARD_NAME_242  (ウルガモス)"
+  },
+  {
+    "CharacterID": "UMIDIGDA",
+    "DisplayNameMSID": "CARD_NAME_459  (ウミディグダ)"
+  },
+  {
+    "CharacterID": "UMITRIO",
+    "DisplayNameMSID": "CARD_NAME_1086  (ウミトリオ)"
+  },
+  {
+    "CharacterID": "UMITRIO_EX",
+    "DisplayNameMSID": "CARD_NAME_460  (ウミトリオex)"
+  },
+  {
+    "CharacterID": "UNERUMINAMO",
+    "DisplayNameMSID": "CARD_NAME_1246  (ウネルミナモ)"
+  },
+  {
+    "CharacterID": "UNIRAN",
+    "DisplayNameMSID": "CARD_NAME_961  (ユニラン)"
+  },
+  {
+    "CharacterID": "UNKNOWN",
+    "DisplayNameMSID": "CARD_NAME_429  (アンノーン)"
+  },
+  {
+    "CharacterID": "UPAH",
+    "DisplayNameMSID": "CARD_NAME_717  (ウパー)"
+  },
+  {
+    "CharacterID": "URIMOO",
+    "DisplayNameMSID": "CARD_NAME_303  (ウリムー)"
+  },
+  {
+    "CharacterID": "USOHACHI",
+    "DisplayNameMSID": "CARD_NAME_1189  (ウソハチ)"
+  },
+  {
+    "CharacterID": "USOKKIE",
+    "DisplayNameMSID": "CARD_NAME_430  (ウソッキー)"
+  },
+  {
+    "CharacterID": "UTSUBOT",
+    "DisplayNameMSID": "CARD_NAME_20  (ウツボット)"
+  },
+  {
+    "CharacterID": "UTSUDON",
+    "DisplayNameMSID": "CARD_NAME_19  (ウツドン)"
+  },
+  {
+    "CharacterID": "UTUROID",
+    "DisplayNameMSID": "CARD_NAME_647  (ウツロイド)"
+  },
+  {
+    "CharacterID": "UU",
+    "DisplayNameMSID": "CARD_NAME_248  (ウッウ)"
+  },
+  {
+    "CharacterID": "VALCHAI",
+    "DisplayNameMSID": "CARD_NAME_1201  (バルチャイ)"
+  },
+  {
+    "CharacterID": "VANIPETI",
+    "DisplayNameMSID": "CARD_NAME_624  (バニプッチ)"
+  },
+  {
+    "CharacterID": "VANIRICH",
+    "DisplayNameMSID": "CARD_NAME_675  (バニリッチ)"
+  },
+  {
+    "CharacterID": "VIBRAVA",
+    "DisplayNameMSID": "CARD_NAME_1206  (ビブラーバ)"
+  },
+  {
+    "CharacterID": "VICTINI",
+    "DisplayNameMSID": "CARD_NAME_1162  (ビクティニ)"
+  },
+  {
+    "CharacterID": "VIRIZION",
+    "DisplayNameMSID": "CARD_NAME_846  (ビリジオン)"
+  },
+  {
+    "CharacterID": "VIVIYON",
+    "DisplayNameMSID": "CARD_NAME_979  (ビビヨン)"
+  },
+  {
+    "CharacterID": "VOLTOLOS",
+    "DisplayNameMSID": "CARD_NAME_1301  (ボルトロス)"
+  },
+  {
+    "CharacterID": "VULGINA",
+    "DisplayNameMSID": "CARD_NAME_1202  (バルジーナ)"
+  },
+  {
+    "CharacterID": "WAKASYAMO",
+    "DisplayNameMSID": "CARD_NAME_853  (ワカシャモ)"
+  },
+  {
+    "CharacterID": "WAKKANEZUMI",
+    "DisplayNameMSID": "CARD_NAME_1049  (ワッカネズミ)"
+  },
+  {
+    "CharacterID": "WANAIDER",
+    "DisplayNameMSID": "CARD_NAME_1066  (ワナイダー)"
+  },
+  {
+    "CharacterID": "WANINOKO",
+    "DisplayNameMSID": "CARD_NAME_714  (ワニノコ)"
+  },
+  {
+    "CharacterID": "WANIVAL",
+    "DisplayNameMSID": "CARD_NAME_1085  (ウェーニバル)"
+  },
+  {
+    "CharacterID": "WANPACHI",
+    "DisplayNameMSID": "CARD_NAME_802  (ワンパチ)"
+  },
+  {
+    "CharacterID": "WANRIKY",
+    "DisplayNameMSID": "CARD_NAME_143  (ワンリキー)"
+  },
+  {
+    "CharacterID": "WARRGLE",
+    "DisplayNameMSID": "CARD_NAME_934  (ウォーグル)"
+  },
+  {
+    "CharacterID": "WARUVIAL",
+    "DisplayNameMSID": "CARD_NAME_646  (ワルビアル)"
+  },
+  {
+    "CharacterID": "WARUVILE",
+    "DisplayNameMSID": "CARD_NAME_645  (ワルビル)"
+  },
+  {
+    "CharacterID": "WASH ROTOM",
+    "DisplayNameMSID": "CARD_NAME_317  (ウォッシュロトム)"
+  },
+  {
+    "CharacterID": "WASHIBON",
+    "DisplayNameMSID": "CARD_NAME_933  (ワシボン)"
+  },
+  {
+    "CharacterID": "WATACCO",
+    "DisplayNameMSID": "CARD_NAME_698  (ワタッコ)"
+  },
+  {
+    "CharacterID": "WATACCO_EX",
+    "DisplayNameMSID": "CARD_NAME_794  (ワタッコex)"
+  },
+  {
+    "CharacterID": "WATASHIRAGA",
+    "DisplayNameMSID": "CARD_NAME_982  (ワタシラガ)"
+  },
+  {
+    "CharacterID": "WELKAMO",
+    "DisplayNameMSID": "CARD_NAME_1084  (ウェルカモ)"
+  },
+  {
+    "CharacterID": "WHALOH",
+    "DisplayNameMSID": "CARD_NAME_868  (ホエルオー)"
+  },
+  {
+    "CharacterID": "WHALOH_EX",
+    "DisplayNameMSID": "CARD_NAME_1292  (ホエルオーex)"
+  },
+  {
+    "CharacterID": "WHEEGA",
+    "DisplayNameMSID": "CARD_NAME_267  (ホイーガ)"
+  },
+  {
+    "CharacterID": "WHOTABOTO",
+    "DisplayNameMSID": "CARD_NAME_823  (ウォーターボート)"
+  },
+  {
+    "CharacterID": "WINDIE",
+    "DisplayNameMSID": "CARD_NAME_40  (ウインディ)"
+  },
+  {
+    "CharacterID": "WINDIE_EX",
+    "DisplayNameMSID": "CARD_NAME_41  (ウインディex)"
+  },
+  {
+    "CharacterID": "WOOLUU",
+    "DisplayNameMSID": "CARD_NAME_212  (ウールー)"
+  },
+  {
+    "CharacterID": "WULAOSUICHIGEKINOKATA",
+    "DisplayNameMSID": "CARD_NAME_1203  (いちげきウーラオス)"
+  },
+  {
+    "CharacterID": "WULAOSURENGEKINOKATA",
+    "DisplayNameMSID": "CARD_NAME_1177  (れんげきウーラオス)"
+  },
+  {
+    "CharacterID": "XERNEAS",
+    "DisplayNameMSID": "CARD_NAME_964  (ゼルネアス)"
+  },
+  {
+    "CharacterID": "YABACHA",
+    "DisplayNameMSID": "CARD_NAME_1014  (ヤバチャ)"
+  },
+  {
+    "CharacterID": "YABASOCHA",
+    "DisplayNameMSID": "CARD_NAME_1288  (ヤバソチャ)"
+  },
+  {
+    "CharacterID": "YABUKURON",
+    "DisplayNameMSID": "CARD_NAME_572  (ヤブクロン)"
+  },
+  {
+    "CharacterID": "YADOKING",
+    "DisplayNameMSID": "CARD_NAME_735  (ヤドキング)"
+  },
+  {
+    "CharacterID": "YADON",
+    "DisplayNameMSID": "CARD_NAME_118  (ヤドン)"
+  },
+  {
+    "CharacterID": "YADORAN",
+    "DisplayNameMSID": "CARD_NAME_119  (ヤドラン)"
+  },
+  {
+    "CharacterID": "YAJILON",
+    "DisplayNameMSID": "CARD_NAME_640  (ヤジロン)"
+  },
+  {
+    "CharacterID": "YAKUDE",
+    "DisplayNameMSID": "CARD_NAME_51  (ヤクデ)"
+  },
+  {
+    "CharacterID": "YAMIKARASU",
+    "DisplayNameMSID": "CARD_NAME_356  (ヤミカラス)"
+  },
+  {
+    "CharacterID": "YAMIRAMI",
+    "DisplayNameMSID": "CARD_NAME_534  (ヤミラミ)"
+  },
+  {
+    "CharacterID": "YANAKKIE",
+    "DisplayNameMSID": "CARD_NAME_844  (ヤナッキー)"
+  },
+  {
+    "CharacterID": "YANAPPU",
+    "DisplayNameMSID": "CARD_NAME_843  (ヤナップ)"
+  },
+  {
+    "CharacterID": "YANCHAM",
+    "DisplayNameMSID": "CARD_NAME_901  (ヤンチャム)"
+  },
+  {
+    "CharacterID": "YANYANMA",
+    "DisplayNameMSID": "CARD_NAME_279  (ヤンヤンマ)"
+  },
+  {
+    "CharacterID": "YAREYUUTAN",
+    "DisplayNameMSID": "CARD_NAME_598  (ヤレユータン)"
+  },
+  {
+    "CharacterID": "YARUKIMONO",
+    "DisplayNameMSID": "CARD_NAME_1044  (ヤルキモノ)"
+  },
+  {
+    "CharacterID": "YATOUMORI",
+    "DisplayNameMSID": "CARD_NAME_49  (ヤトウモリ)"
+  },
+  {
+    "CharacterID": "YAYAKOMA",
+    "DisplayNameMSID": "CARD_NAME_589  (ヤヤコマ)"
+  },
+  {
+    "CharacterID": "YESSAN",
+    "DisplayNameMSID": "CARD_NAME_1016  (イエッサン)"
+  },
+  {
+    "CharacterID": "YESSAN_EX",
+    "DisplayNameMSID": "CARD_NAME_896  (イエッサンex)"
+  },
+  {
+    "CharacterID": "YIYUI",
+    "DisplayNameMSID": "CARD_NAME_1082  (イーユイ)"
+  },
+  {
+    "CharacterID": "YOGIRAS",
+    "DisplayNameMSID": "CARD_NAME_433  (ヨーギラス)"
+  },
+  {
+    "CharacterID": "YOKUBARISU",
+    "DisplayNameMSID": "CARD_NAME_628  (ヨクバリス)"
+  },
+  {
+    "CharacterID": "YOMAWARU",
+    "DisplayNameMSID": "CARD_NAME_333  (ヨマワル)"
+  },
+  {
+    "CharacterID": "YONOIR",
+    "DisplayNameMSID": "CARD_NAME_335  (ヨノワール)"
+  },
+  {
+    "CharacterID": "YORTERRIE",
+    "DisplayNameMSID": "CARD_NAME_656  (ヨーテリー)"
+  },
+  {
+    "CharacterID": "YORUNOZUKU",
+    "DisplayNameMSID": "CARD_NAME_443  (ヨルノズク)"
+  },
+  {
+    "CharacterID": "YOUNGOOSE",
+    "DisplayNameMSID": "CARD_NAME_594  (ヤングース)"
+  },
+  {
+    "CharacterID": "YOWASHI",
+    "DisplayNameMSID": "CARD_NAME_521  (ヨワシ)"
+  },
+  {
+    "CharacterID": "YOWASHI_EX",
+    "DisplayNameMSID": "CARD_NAME_522  (ヨワシex)"
+  },
+  {
+    "CharacterID": "YUKIHAMI",
+    "DisplayNameMSID": "CARD_NAME_92  (ユキハミ)"
+  },
+  {
+    "CharacterID": "YUKIKABURI",
+    "DisplayNameMSID": "CARD_NAME_314  (ユキカブリ)"
+  },
+  {
+    "CharacterID": "YUKIMENOKO",
+    "DisplayNameMSID": "CARD_NAME_423  (ユキメノコ)"
+  },
+  {
+    "CharacterID": "YUKINOOH",
+    "DisplayNameMSID": "CARD_NAME_315  (ユキノオー)"
+  },
+  {
+    "CharacterID": "YUKIWARASHI",
+    "DisplayNameMSID": "CARD_NAME_422  (ユキワラシ)"
+  },
+  {
+    "CharacterID": "YUNGERER",
+    "DisplayNameMSID": "CARD_NAME_116  (ユンゲラー)"
+  },
+  {
+    "CharacterID": "YURADLE",
+    "DisplayNameMSID": "CARD_NAME_1283  (ユレイドル)"
+  },
+  {
+    "CharacterID": "YUUGANAMANTO",
+    "DisplayNameMSID": "CARD_NAME_1277  (ゆうがなマント)"
+  },
+  {
+    "CharacterID": "YUXIE",
+    "DisplayNameMSID": "CARD_NAME_338  (ユクシー)"
+  },
+  {
+    "CharacterID": "YVELTAL",
+    "DisplayNameMSID": "CARD_NAME_1030  (イベルタル)"
+  },
+  {
+    "CharacterID": "ZANGOOSE",
+    "DisplayNameMSID": "CARD_NAME_822  (ザングース)"
+  },
+  {
+    "CharacterID": "ZARUDE",
+    "DisplayNameMSID": "CARD_NAME_1204  (ザルード)"
+  },
+  {
+    "CharacterID": "ZEBRAIKA",
+    "DisplayNameMSID": "CARD_NAME_106  (ゼブライカ)"
+  },
+  {
+    "CharacterID": "ZEHIGAMEJOURO",
+    "DisplayNameMSID": "CARD_NAME_774  (ゼニガメじょうろ)"
+  },
+  {
+    "CharacterID": "ZEKROM",
+    "DisplayNameMSID": "CARD_NAME_1180  (ゼクロム)"
+  },
+  {
+    "CharacterID": "ZENIGAME",
+    "DisplayNameMSID": "CARD_NAME_53  (ゼニガメ)"
+  },
+  {
+    "CharacterID": "ZERAORA",
+    "DisplayNameMSID": "CARD_NAME_629  (ゼラオラ)"
+  },
+  {
+    "CharacterID": "ZOROARK",
+    "DisplayNameMSID": "CARD_NAME_787  (ゾロアーク)"
+  },
+  {
+    "CharacterID": "ZOROARK_EX",
+    "DisplayNameMSID": "CARD_NAME_1198  (ゾロアークex)"
+  },
+  {
+    "CharacterID": "ZORUA",
+    "DisplayNameMSID": "CARD_NAME_786  (ゾロア)"
+  },
+  {
+    "CharacterID": "ZOUDOU",
+    "DisplayNameMSID": "CARD_NAME_1243  (ゾウドウ)"
+  },
+  {
+    "CharacterID": "ZUBAT",
+    "DisplayNameMSID": "CARD_NAME_172  (ズバット)"
+  },
+  {
+    "CharacterID": "ZUGADOON",
+    "DisplayNameMSID": "CARD_NAME_618  (ズガドーン)"
+  },
+  {
+    "CharacterID": "ZUGADOON_EX",
+    "DisplayNameMSID": "CARD_NAME_985  (ズガドーンex)"
+  },
+  {
+    "CharacterID": "ZUGAIDOS",
+    "DisplayNameMSID": "CARD_NAME_349  (ズガイドス)"
+  },
+  {
+    "CharacterID": "ZUGAINOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_399  (ずがいの化石)"
+  },
+  {
+    "CharacterID": "ZUPIKA",
+    "DisplayNameMSID": "CARD_NAME_1005  (ズピカ)"
+  },
+  {
+    "CharacterID": "ZURUGGU",
+    "DisplayNameMSID": "CARD_NAME_1028  (ズルッグ)"
+  },
+  {
+    "CharacterID": "ZURUZUKIN",
+    "DisplayNameMSID": "CARD_NAME_1029  (ズルズキン)"
+  },
+  {
+    "CharacterID": "ZYGARDE",
+    "DisplayNameMSID": "CARD_NAME_1258  (ジガルデ)"
+  },
+  {
+    "CharacterID": "ZYGARDE_EX",
+    "DisplayNameMSID": "CARD_NAME_1259  (ジガルデex)"
+  }
+]

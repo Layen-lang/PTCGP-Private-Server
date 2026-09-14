@@ -1,0 +1,2033 @@
+[
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KIZUGUSURI",
+    "DescriptionMSID": "TRAINER_DESC_10  (Cure 20 pontos de dano de 1 dos seus Pokémon.)",
+    "TrainerID": "TR_000010",
+    "TrainerLogicID": "200100090",
+    "TrainerLogicParameters": [
+      "1",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SPEEDER",
+    "DescriptionMSID": "TRAINER_DESC_11  (Durante este turno, o custo de Recuo do seu Pokémon Ativo é 1 a menos.)",
+    "TrainerID": "TR_000020",
+    "TrainerLogicID": "200100040",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MONSTERBALL",
+    "DescriptionMSID": "TRAINER_DESC_12  (Coloque 1 Pokémon [Gr:Count s=\"Básico aleatório\" p=\"Básicos aleatórios\" ] do seu baralho na sua mão.)",
+    "TrainerID": "TR_000030",
+    "TrainerLogicID": "200100050",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAKASENOKENKYU",
+    "DescriptionMSID": "TRAINER_DESC_13  (Compre 2 [Gr:Count s=\"carta\" p=\"cartas\" ].)",
+    "TrainerID": "TR_000040",
+    "TrainerLogicID": "200100060",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANDSCOPE",
+    "DescriptionMSID": "TRAINER_DESC_14  (Seu oponente revela a mão dele.)",
+    "TrainerID": "TR_000050",
+    "TrainerLogicID": "200100010",
+    "TrainerLogicParameters": [],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONZUKAN",
+    "DescriptionMSID": "TRAINER_DESC_15  (Olhe [Gr:Count s=\"a\" p=\"as\" ] 3 [Gr:Count s=\"carta\" p=\"cartas\" ] de cima do seu baralho. )",
+    "TrainerID": "TR_000060",
+    "TrainerLogicID": "200100030",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "REDCARD",
+    "DescriptionMSID": "TRAINER_DESC_16  (Seu oponente embaralha a mão dele no baralho dele e compra 3 [Gr:Count s=\"carta\" p=\"cartas\" ].)",
+    "TrainerID": "TR_000070",
+    "TrainerLogicID": "200100020",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAINOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000080",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOURANOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000090",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIMITSUNOKOHAKU",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000100",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ERIKA",
+    "DescriptionMSID": "TRAINER_DESC_1  (Cure 50 pontos de dano de 1 dos seus Pokémon Grass.)",
+    "TrainerID": "TR_000110",
+    "TrainerLogicID": "200200010",
+    "TrainerLogicParameters": [
+      "Grass",
+      "1",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KASUMI",
+    "DescriptionMSID": "TRAINER_DESC_2  (Escolha 1 dos seus Pokémon Water, e jogue uma moeda até sair coroa. Para cada cara, pegue uma Energia Water da sua Zona de Energia e ligue-a àquele Pokémon.)",
+    "TrainerID": "TR_000120",
+    "TrainerLogicID": "200200020",
+    "TrainerLogicParameters": [
+      "Water",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KATSURA",
+    "DescriptionMSID": "TRAINER_DESC_6  (Durante este turno, os ataques usados pelos seus Ninetales, Rapidash ou Magmar causam +30 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000130",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "KYUKON",
+      "GALLOP",
+      "BOOBER",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KYOU",
+    "DescriptionMSID": "TRAINER_DESC_5  (Coloque seu Muk ou Weezing do Campo Ativo na sua mão.)",
+    "TrainerID": "TR_000140",
+    "TrainerLogicID": "200200050",
+    "TrainerLogicParameters": [
+      "BETBETON",
+      "MATADOGAS"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SAKAKI",
+    "DescriptionMSID": "TRAINER_DESC_7  (Durante este turno, os ataques usados pelos seus Pokémon causam +10 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000150",
+    "TrainerLogicID": "200200080",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TAKESHI",
+    "DescriptionMSID": "TRAINER_DESC_3  (Pegue 1 [Gr:Count s=\"Energia\" p=\"Energias\" ref=\"1\" ] Fighting da sua Zona de Energia e ligue-a[Gr:Count p=\"s\" ref=\"1\" ] a Golem ou Onix.)",
+    "TrainerID": "TR_000160",
+    "TrainerLogicID": "200200030",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "1",
+      "GOLONYA",
+      "IWARK"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NATSUME",
+    "DescriptionMSID": "TRAINER_DESC_9  (Mande o Pokémon Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.))",
+    "TrainerID": "TR_000170",
+    "TrainerLogicID": "200200060",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MATISSE",
+    "DescriptionMSID": "TRAINER_DESC_4  (Mova todas as Energias Lightning dos seus Pokémon no Banco para seu Raichu, Electrode ou Electabuzz no Campo Ativo.)",
+    "TrainerID": "TR_000180",
+    "TrainerLogicID": "200200040",
+    "TrainerLogicParameters": [
+      "RAICHU",
+      "MARUMINE",
+      "ELEBOO",
+      "Lightning"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MABOROSHINOSEKIBAN",
+    "DescriptionMSID": "TRAINER_DESC_18  (Olhe a carta de cima do seu baralho. Se aquela carta for um Pokémon Psychic, coloque-a na sua mão. Se não for um Pokémon Psychic, coloque-a como a carta de baixo do seu baralho.)",
+    "TrainerID": "TR_000190",
+    "TrainerLogicID": "200100070",
+    "TrainerLogicParameters": [
+      "Psychic"
+    ],
+    "TrainerType": 2,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONNOFUE",
+    "DescriptionMSID": "TRAINER_DESC_17  (Coloque 1 Pokémon [Gr:Count s=\"Básico\" p=\"Básicos\" ] da pilha de descarte do seu oponente no Banco dele.)",
+    "TrainerID": "TR_000200",
+    "TrainerLogicID": "200100080",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GREEN",
+    "DescriptionMSID": "TRAINER_DESC_20  (Durante o próximo turno do seu oponente, todos os seus Pokémon receberão −10 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000210",
+    "TrainerLogicID": "200200090",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAKEDASHICHOSAIN",
+    "DescriptionMSID": "TRAINER_DESC_19  (Coloque seu Mew ex do Campo Ativo na sua mão.)",
+    "TrainerID": "TR_000220",
+    "TrainerLogicID": "200200100",
+    "TrainerLogicParameters": [
+      "MEW_EX"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LEAF",
+    "DescriptionMSID": "TRAINER_DESC_11  (Durante este turno, o custo de Recuo do seu Pokémon Ativo é 2 a menos.)",
+    "TrainerID": "TR_000230",
+    "TrainerLogicID": "200200110",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ZUGAINOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000260",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TATENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000270",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONTSUUSHIN",
+    "DescriptionMSID": "TRAINER_DESC_21  (Escolha 1 Pokémon na sua mão e troque-o[Gr:Count p=\"s\" ] por 1 Pokémon aleatório[Gr:Count p=\"s\" ] no seu baralho.)",
+    "TrainerID": "TR_000280",
+    "TrainerLogicID": "200100100",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OOKINAMANTO",
+    "DescriptionMSID": "TRAINER_DESC_22  (O Pokémon ao qual esta carta está ligada recebe +20 PS.)",
+    "TrainerID": "TR_000290",
+    "TrainerLogicID": "400300010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GOTSUGOTSUMETTO",
+    "DescriptionMSID": "TRAINER_DESC_23  (Se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente, cause 20 pontos de dano ao Pokémon Atacante.)",
+    "TrainerID": "TR_000300",
+    "TrainerLogicID": "400100010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RAMUNOMI",
+    "DescriptionMSID": "TRAINER_DESC_24  (No final de cada turno, se o Pokémon ao qual esta carta está ligada estiver afetado por quaisquer Condições Especiais, ele se recuperará de todas delas, e descarte esta carta.)",
+    "TrainerID": "TR_000310",
+    "TrainerLogicID": "400100020",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AKAGI",
+    "DescriptionMSID": "TRAINER_DESC_25  (Mande 1 dos Pokémon no Banco do seu oponente que tiver algum dano nele para o Campo Ativo.)",
+    "TrainerID": "TR_000320",
+    "TrainerLogicID": "200200120",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GINGADANNOSHITAPPA",
+    "DescriptionMSID": "TRAINER_DESC_26  (Coloque aleatoriamente 1 carta[Gr:Count p=\"s\" ref=\"3\" ] dentre Glameow, Stunky e Croagunk do seu baralho na sua mão.)",
+    "TrainerID": "TR_000330",
+    "TrainerLogicID": "200200130",
+    "TrainerLogicParameters": [
+      "NYARMAR",
+      "SKUNPUU",
+      "GUREGGRU",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SHIRONA",
+    "DescriptionMSID": "TRAINER_DESC_27  (Durante este turno, os ataques usados pelo seu Garchomp ou Togekiss causarão +50 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000340",
+    "TrainerLogicID": "200200140",
+    "TrainerLogicParameters": [
+      "GABURIAS",
+      "TOGEKISS",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DENZI",
+    "DescriptionMSID": "TRAINER_DESC_28  (Escolha 1 dos seus Electivire ou Luxray. Ligue 2 Energia[Gr:Count p=\"s\" ref=\"3\" ] Lightning da sua pilha de descarte àquele Pokémon.)",
+    "TrainerID": "TR_000350",
+    "TrainerLogicID": "200200150",
+    "TrainerLogicParameters": [
+      "ELEKIBLE",
+      "RENTORAR",
+      "Lightning",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIKARI",
+    "DescriptionMSID": "TRAINER_DESC_29  (Mova 1 Energia de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.)",
+    "TrainerID": "TR_000360",
+    "TrainerLogicID": "200200160",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MARS",
+    "DescriptionMSID": "TRAINER_DESC_30  (Seu oponente embaralha a própria mão no baralho dele e compra 1 carta para cada um dos pontos restantes que precisa para vencer.)",
+    "TrainerID": "TR_000370",
+    "TrainerLogicID": "200200170",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAI",
+    "DescriptionMSID": "TRAINER_DESC_31  (Cure 40 pontos de dano de cada um dos seus Pokémon que tiver alguma Energia Water ligada.)",
+    "TrainerID": "TR_000380",
+    "TrainerLogicID": "200200180",
+    "TrainerLogicParameters": [
+      "Water",
+      "40"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KANNAGITOWNNOTYOUROU",
+    "DescriptionMSID": "TRAINER_DESC_32  (Coloque 1 Basic aleatório[Gr:Count p=\"s\" ref=\"1\" ] da sua pilha de descarte na sua mão.)",
+    "TrainerID": "TR_000390",
+    "TrainerLogicID": "200200190",
+    "TrainerLogicParameters": [
+      "Basic",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "JUN",
+    "DescriptionMSID": "TRAINER_DESC_33  (Durante este turno, os ataques usados pelos seus Snorlax, Heracross e Staraptor custarão 2 Energia[Gr:Count p=\"s\" ref=\"4\" ] Colorless a menos.)",
+    "TrainerID": "TR_000400",
+    "TrainerLogicID": "200200200",
+    "TrainerLogicParameters": [
+      "KABIGON",
+      "HERACROS",
+      "MUKUHAWK",
+      "Colorless",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SEKI",
+    "DescriptionMSID": "TRAINER_DESC_34  (Durante o próximo turno do seu oponente, todos os seus Pokémon Metal receberão −20 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000410",
+    "TrainerLogicID": "200200210",
+    "TrainerLogicParameters": [
+      "Metal",
+      "20"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NANJYAMO",
+    "DescriptionMSID": "TRAINER_DESC_35  (Cada jogador embaralha as cartas da própria mão no próprio baralho e, em seguida, compra aquele mesmo número de cartas.)",
+    "TrainerID": "TR_000420",
+    "TrainerLogicID": "200200220",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONCENTERNOONEESAN",
+    "DescriptionMSID": "TRAINER_DESC_36  (Cure 30 pontos de dano de 1 dos seus Pokémon, e ele se recupera de todas as Condições Especiais.)",
+    "TrainerID": "TR_000430",
+    "TrainerLogicID": "200200230",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RED",
+    "DescriptionMSID": "TRAINER_DESC_37  (Durante este turno, os ataques usados pelos seus Pokémon causam +20 pontos de dano ao Pokémon [Img:ex ] Ativo do seu oponente.)",
+    "TrainerID": "TR_000440",
+    "TrainerLogicID": "200200240",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOSHITAPPA",
+    "DescriptionMSID": "TRAINER_DESC_38  (Jogue uma moeda até sair coroa. Para cada cara, descarte uma Energia aleatória do Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000450",
+    "TrainerLogicID": "200200250",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OOKIIMARASADA",
+    "DescriptionMSID": "TRAINER_DESC_39  (Cure 10 pontos de dano e remova 1 [Gr:Count s=\"Condição Especial aleatória\" p=\"Condições Especiais aleatórias\" ref=\"1\" ] do seu Pokémon Ativo.)",
+    "TrainerID": "TR_000460",
+    "TrainerLogicID": "200100110",
+    "TrainerLogicParameters": [
+      "10",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OSAKANANETTO",
+    "DescriptionMSID": "TRAINER_DESC_94  (Coloque um Pokémon Water Básico aleatório da sua pilha de descarte na sua mão.)",
+    "TrainerID": "TR_000470",
+    "TrainerLogicID": "200100170",
+    "TrainerLogicParameters": [
+      "Water"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUSHIGINAAME",
+    "DescriptionMSID": "TRAINER_DESC_41  (Escolha 1 dos seus Pokémon Básicos em jogo. Se você tiver [Gr:Count s=\"uma\" ] carta[Gr:Count p=\"s\" ] de Estágio 2 na sua mão que [Gr:Count s=\"evolua\" p=\"evoluam\" ] [Gr:Count s=\"daquele\" p=\"daqueles\" ] Pokémon, coloque-[Gr:Count s=\"a\" p=\"as\" ] sobre [Gr:Count s=\"o Pokémon Básico\" p=\"os Pokémon Básicos\" ] para [Gr:Count s=\"evoluí-lo\" p=\"evoluí-los\" ], pulando o Estágio 1. Você não pode usar esta carta durante o seu primeiro turno ou em [Gr:Count s=\"um Pokémon Básico\" p=\"Pokémon Básicos\" ] que [Gr:Count s=\"foi colocado\" p=\"foram colocados\" ] em jogo neste turno.)",
+    "TrainerID": "TR_000480",
+    "TrainerLogicID": "200100120",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROTOMUZUKAN",
+    "DescriptionMSID": "TRAINER_DESC_42  (Olhe [Gr:Count p=\"as\" ]1 [Gr:Count s=\"carta\" p=\"cartas\" ] de cima do seu baralho. Em seguida, você pode embaralhar o seu baralho.)",
+    "TrainerID": "TR_000490",
+    "TrainerLogicID": "200100130",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DOKUBARI",
+    "DescriptionMSID": "TRAINER_DESC_43  (Se o Pokémon ao qual esta carta está ligada for o seu Pokémon Ativo e for danificado por um ataque dos Pokémon do seu oponente, o Pokémon Atacante agora estará Envenenado.)",
+    "TrainerID": "TR_000500",
+    "TrainerLogicID": "400100030",
+    "TrainerLogicParameters": [
+      "Poisoned  (Envenenado)"
+    ],
+    "TrainerType": 3,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LEAFMANTO",
+    "DescriptionMSID": "TRAINER_DESC_44  (O Pokémon Grass ao qual esta carta está ligada recebe +30 PS.)",
+    "TrainerID": "TR_000510",
+    "TrainerLogicID": "400300020",
+    "TrainerLogicParameters": [
+      "Grass",
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ACEROLA",
+    "DescriptionMSID": "TRAINER_DESC_45  (Escolha 1 dos seus Palossand ou Mimikyu que estiver danificado e mova 40 dos seus pontos de dano para o Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000520",
+    "TrainerLogicID": "200200270",
+    "TrainerLogicParameters": [
+      "SIRODETHNA",
+      "MIMIKKYU",
+      "40"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ILIMA",
+    "DescriptionMSID": "TRAINER_DESC_73  (Coloque 1 dos seus Pokémon Colorless que estiver danificado na sua mão.)",
+    "TrainerID": "TR_000530",
+    "TrainerLogicID": "200200280",
+    "TrainerLogicParameters": [
+      "Colorless"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAKI",
+    "DescriptionMSID": "TRAINER_DESC_47  (Escolha 1 dos seus Marowakde Alola ou Turtonator. Pegue 2 Energia[Gr:Count p=\"s\" ref=\"3\" ] Fire da sua Zona de Energia e ligue-a[Gr:Count p=\"s\" ref=\"3\" ] àquele Pokémon. O seu turno acaba.)",
+    "TrainerID": "TR_000540",
+    "TrainerLogicID": "200200290",
+    "TrainerLogicParameters": [
+      "ALOLAGARAGARA",
+      "BAKUGAMES",
+      "Fire",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GUZUMA",
+    "DescriptionMSID": "TRAINER_DESC_48  (Descarte todas as cartas de Ferramenta Pokémon ligadas a cada um dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000550",
+    "TrainerLogicID": "200200300",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SUIREN",
+    "DescriptionMSID": "TRAINER_DESC_49  (Você só pode usar esta carta se tiver Araquanid em jogo.\nMande 1 dos Pokémon no Banco do seu oponente para o Campo Ativo.)",
+    "TrainerID": "TR_000560",
+    "TrainerLogicID": "200200310",
+    "TrainerLogicParameters": [
+      "ONISHIZUKUMO"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAMANE",
+    "DescriptionMSID": "TRAINER_DESC_6  (Durante este turno, os ataques usados pelos seus Golemde Alola, Vikavolt ou Togedemaru causam +30 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000570",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "ALOLAGOLONYA",
+      "KUWAGANNON",
+      "TOGEDEMARU",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAO",
+    "DescriptionMSID": "TRAINER_DESC_50  (Cure todo o dano de 1 dos seus Shiinotic ou Tsareena. Se fizer isto, descarte todas as Energias [Gr:Count s=\"daquele\" p=\"daqueles\" ref=\"2\" ] Pokémon.)",
+    "TrainerID": "TR_000580",
+    "TrainerLogicID": "200200320",
+    "TrainerLogicParameters": [
+      "MASHADE",
+      "AMAJO",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LILIE",
+    "DescriptionMSID": "TRAINER_DESC_51  (Cure 60 pontos de dano de 1 dos seus Two.)",
+    "TrainerID": "TR_000590",
+    "TrainerLogicID": "200200330",
+    "TrainerLogicParameters": [
+      "Two",
+      "1",
+      "60"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BISUTOWORU",
+    "DescriptionMSID": "TRAINER_DESC_52  (Você só pode usar esta carta se o seu oponente não tiver recebido nenhum ponto.\n\nDurante o próximo turno do seu oponente, todas as suas Ultracriaturas receberão −20 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000600",
+    "TrainerLogicID": "200100140",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MUSHIYOKESUPUREI",
+    "DescriptionMSID": "TRAINER_DESC_53  (Mande o Basic Ativo do seu oponente para o Banco. (O seu oponente escolhe o novo Pokémon Ativo.))",
+    "TrainerID": "TR_000610",
+    "TrainerLogicID": "200100150",
+    "TrainerLogicParameters": [
+      "Basic"
+    ],
+    "TrainerType": 2,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "EREKIKORD",
+    "DescriptionMSID": "TRAINER_DESC_54  (Se o Pokémon Lightning ao qual esta carta está ligada estiver no Campo Ativo e for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, mova 2 Energia[Gr:Count p=\"s\" ref=\"2\" ] Lightning daquele Pokémon e ligue-as a 2 dos seus Pokémon no Banco, sendo 1 Energia[Gr:Count p=\"s\" ref=\"4\" ] a cada um deles.)",
+    "TrainerID": "TR_000620",
+    "TrainerLogicID": "400100040",
+    "TrainerLogicParameters": [
+      "Lightning",
+      "Lightning",
+      "2",
+      "2",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BISUTONAITO",
+    "DescriptionMSID": "TRAINER_DESC_55  (Os ataques usados pela Ultracriatura à qual esta carta está ligada causam +10 pontos de dano ao Pokémon Ativo do seu oponente para cada ponto que você recebeu.)",
+    "TrainerID": "TR_000630",
+    "TrainerLogicID": "400300030",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GLAZIO",
+    "DescriptionMSID": "TRAINER_DESC_56  (Coloque 1 carta[Gr:Count p=\"s\" ref=\"2\" ] aleatória[Gr:Count p=\"s\" ref=\"2\" ] dentre Tipo Nulo [Gr:Count s=\"ou\" p=\"e\" ref=\"2\" ] Silvally do seu baralho na sua mão.)",
+    "TrainerID": "TR_000640",
+    "TrainerLogicID": "200200340",
+    "TrainerLogicParameters": [
+      "TYPENULL",
+      "SILVADY",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANDSOME",
+    "DescriptionMSID": "TRAINER_DESC_57  (Seu oponente revela todas as cartas de Apoiador no baralho dele.)",
+    "TrainerID": "TR_000650",
+    "TrainerLogicID": "200200350",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LUSAMINE",
+    "DescriptionMSID": "TRAINER_DESC_58  (Você só pode usar esta carta se seu oponente tiver recebido pelo menos 1 ponto.\n\nEscolha 1 das suas Ultracriaturas. Ligue 2 Energia[Gr:Count p=\"s\" ] aleatória[Gr:Count p=\"s\" ] da sua pilha de descarte àquele Pokémon.)",
+    "TrainerID": "TR_000660",
+    "TrainerLogicID": "200200360",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IIBUINOBAKKU",
+    "DescriptionMSID": "TRAINER_DESC_59  (Escolha 1:\n\n\nDurante este turno, os ataques usados pelos seus Pokémon que evoluam de Eevee causam +10 pontos de dano ao Pokémon Ativo do seu oponente.\n\nCure 20 pontos de dano de cada um dos seus Pokémon que evolua de Eevee.\n)",
+    "TrainerID": "TR_000670",
+    "TrainerLogicID": "200100160",
+    "TrainerLogicParameters": [
+      "EIEVUI",
+      "10",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABENOKOSHI",
+    "DescriptionMSID": "TRAINER_DESC_60  (No final do seu turno, se o Pokémon ao qual esta carta está ligada estiver no Campo Ativo, cure 10 pontos de dano daquele Pokémon.)",
+    "TrainerID": "TR_000680",
+    "TrainerLogicID": "400100050",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAU",
+    "DescriptionMSID": "TRAINER_DESC_6  (Durante este turno, os ataques usados pelos seus Decidueye ex, Incineroar ex ou Primarina ex causam +30 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000690",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "JUNAIPER_EX",
+      "GAOGAEN_EX",
+      "ASHIRENE_EX",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BOTAN",
+    "DescriptionMSID": "TRAINER_DESC_61  (Olhe uma carta de Apoiador aleatória que não seja Penélope no baralho do seu oponente e a embaralhe de volta no baralho dele. Use o efeito daquela carta como o efeito desta carta.)",
+    "TrainerID": "TR_000700",
+    "TrainerLogicID": "200200370",
+    "TrainerLogicParameters": [
+      "BOTAN"
+    ],
+    "TrainerType": 1,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "EREMENTARUTSUKEKAE",
+    "DescriptionMSID": "TRAINER_DESC_62  (Mova uma Energia Fire, Water ou Lightning de 1 dos seus Pokémon no Banco para o seu Pokémon Ativo.)",
+    "TrainerID": "TR_000710",
+    "TrainerLogicID": "200100180",
+    "TrainerLogicParameters": [
+      "Fire",
+      "Water",
+      "Lightning"
+    ],
+    "TrainerType": 2,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ZEHIGAMEJOURO",
+    "DescriptionMSID": "TRAINER_DESC_63  (Descarte 1 Energia[Gr:Count p=\"s\" ref=\"1\" ] Fire do Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000720",
+    "TrainerLogicID": "200100190",
+    "TrainerLogicParameters": [
+      "Fire",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GOUTETUNOMAEKAKE",
+    "DescriptionMSID": "TRAINER_DESC_64  (O Pokémon Metal ao qual esta carta está ligada recebe −10 pontos de dano de ataques dos Pokémon do seu oponente, recupera-se de todas as Condições Especiais e não pode ser afetado por quaisquer Condições Especiais.)",
+    "TrainerID": "TR_000730",
+    "TrainerLogicID": "400300040",
+    "TrainerLogicParameters": [
+      "Metal",
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DARKPENDANTO",
+    "DescriptionMSID": "TRAINER_DESC_65  (Se o Pokémon Darkness ao qual esta carta está ligada estiver no Campo Ativo e for danificado por um ataque dos Pokémon do seu oponente, seu oponente revelará 1 [Gr:Count s=\"carta aleatória\" p=\"cartas aleatórias\" ref=\"1\" ] da mão dele e a[Gr:Count p=\"s\" ref=\"1\" ] embaralhará no baralho dele.)",
+    "TrainerID": "TR_000740",
+    "TrainerLogicID": "400100060",
+    "TrainerLogicParameters": [
+      "Darkness",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RESUKYUSUKAFU",
+    "DescriptionMSID": "TRAINER_DESC_66  (Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, coloque-o na sua mão em vez de na pilha de descarte.)",
+    "TrainerID": "TR_000750",
+    "TrainerLogicID": "400300045",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ITSUKI",
+    "DescriptionMSID": "TRAINER_DESC_67  (A próxima vez que você jogar qualquer número de moedas para o efeito de um ataque, Habilidade ou carta de Treinador após usar esta carta neste turno, a primeira jogada de moeda será definitivamente cara.)",
+    "TrainerID": "TR_000760",
+    "TrainerLogicID": "200200380",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOTONE",
+    "DescriptionMSID": "TRAINER_DESC_68  (Troque o seu Pokémon Ativo que estiver danificado por 1 dos seus Pokémon no Banco.)",
+    "TrainerID": "TR_000770",
+    "TrainerLogicID": "200200390",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SILVER",
+    "DescriptionMSID": "TRAINER_DESC_69  (Seu oponente revela a mão dele. Escolha [Num:Int ] carta[Gr:Count p=\"s\" ] de Apoiador que encontrar lá e [Gr:Count s=\"a\" p=\"as\" ] embaralhe no baralho do seu oponente.)",
+    "TrainerID": "TR_000780",
+    "TrainerLogicID": "200200400",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FISHER",
+    "DescriptionMSID": "TRAINER_DESC_70  (Jogue [Num:Int ] [Gr:Count s=\"moeda\" p=\"moedas\" ]. Para cada cara, um Pokémon Water é escolhido aleatoriamente da sua pilha de descarte e colocado na sua mão.)",
+    "TrainerID": "TR_000790",
+    "TrainerLogicID": "200200410",
+    "TrainerLogicParameters": [
+      "3",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MIKAN",
+    "DescriptionMSID": "TRAINER_DESC_71  (Durante o próximo turno do seu oponente, todos os seus Steelix e Skarmory ex receberão −50 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000800",
+    "TrainerLogicID": "200200420",
+    "TrainerLogicParameters": [
+      "HAGANEIL",
+      "AIRMD_EX",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIKER",
+    "DescriptionMSID": "TRAINER_DESC_72  (Para cada um dos seus Pokémon Fighting em jogo, olhe aquele mesmo número de cartas de cima do seu baralho e coloque-as de volta em qualquer ordem.)",
+    "TrainerID": "TR_000810",
+    "TrainerLogicID": "200200430",
+    "TrainerLogicParameters": [
+      "Fighting"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "WHOTABOTO",
+    "DescriptionMSID": "TRAINER_DESC_74  (O Custo de Recuo do Pokémon Water ao qual esta carta está ligada é 1 a menos.)",
+    "TrainerID": "TR_000820",
+    "TrainerLogicID": "400300050",
+    "TrainerLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MEMORYLIGHT",
+    "DescriptionMSID": "TRAINER_DESC_75  (O Pokémon ao qual esta carta está ligada pode usar qualquer ataque de suas Evoluções anteriores. (Você ainda precisa da Energia necessária para usar cada ataque.))",
+    "TrainerID": "TR_000830",
+    "TrainerLogicID": "400300060",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AKANE",
+    "DescriptionMSID": "TRAINER_DESC_76  (Cure 60 pontos de dano de 1 dos seus Miltank, e ele se recupera de estar Adormecidos, Paralisado e Confuso.)",
+    "TrainerID": "TR_000840",
+    "TrainerLogicID": "200200440",
+    "TrainerLogicParameters": [
+      "MILTANK",
+      "60",
+      "Asleep  (Adormecidos)",
+      "Paralyzed  (Paralisado)",
+      "Confused  (Confuso)"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABINOGYOUSHOUNIN",
+    "DescriptionMSID": "TRAINER_DESC_77  (Olhe a[Gr:Count p=\"s\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"carta\" p=\"cartas\" id=\"1\" ] de cima do seu baralho. Coloque todas as cartas de Ferramenta Pokémon que você encontrar lá na sua mão. Embaralhe as outras cartas de volta no seu baralho.)",
+    "TrainerID": "TR_000850",
+    "TrainerLogicID": "200200450",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MATSUBA",
+    "DescriptionMSID": "TRAINER_DESC_78  (Para cada um dos seus Pokémon Psychic em jogo, olhe aquele mesmo número de cartas de cima do baralho do seu oponente e coloque-as de volta em qualquer ordem.)",
+    "TrainerID": "TR_000860",
+    "TrainerLogicID": "200200460",
+    "TrainerLogicParameters": [
+      "Psychic"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ITAZURAROULETTE",
+    "DescriptionMSID": "TRAINER_DESC_79  ([Num:Int ] [Gr:Count s=\"carta\" p=\"cartas\" ] das mãos de ambos os jogadores [Gr:Count s=\"é\" p=\"são\" ] escolhida[Gr:Count p=\"s\" ] aleatoriamente, revelada[Gr:Count p=\"s\" ] ao outro jogador e embaralhada[Gr:Count p=\"s\" ] no baralho do seu dono.)",
+    "TrainerID": "TR_000870",
+    "TrainerLogicID": "200100200",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000880",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HITHAMMER",
+    "DescriptionMSID": "TRAINER_DESC_80  (Jogue [Num:Int ] [Gr:Count s=\"moeda\" p=\"moedas\" ]. Se [Gr:Count p=\"todas saírem\" one=\"sair\" two=\"ambas saírem\" ] cara, descarte 1 Energia[Gr:Count p=\"s\" ref=\"1\" ] aleatória[Gr:Count p=\"s\" ref=\"1\" ] do Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_000890",
+    "TrainerLogicID": "200100220",
+    "TrainerLogicParameters": [
+      "2",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUTANOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_000900",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUREIMUPACCHI",
+    "DescriptionMSID": "TRAINER_DESC_81  (Ligue 1 Energia[Gr:Count p=\"s\" ref=\"1\" ] Fire da sua pilha de descarte ao seu Pokémon Fire Ativo.)",
+    "TrainerID": "TR_000910",
+    "TrainerLogicID": "200100210",
+    "TrainerLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OBONNOMI",
+    "DescriptionMSID": "TRAINER_DESC_82  (No final de cada turno, se o Pokémon ao qual esta carta está ligada tiver metade do seu PS máximo ou menos restante, cure 30 pontos de dano dele. Se fizer isso, descarte esta carta.\n)",
+    "TrainerID": "TR_000920",
+    "TrainerLogicID": "400100070",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BABYMET",
+    "DescriptionMSID": "TRAINER_DESC_83  (Se o Pokémon ao qual esta carta está ligada tiver um Custo de Recuo de 3 ou mais, ele receberá −20 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_000930",
+    "TrainerLogicID": "400300070",
+    "TrainerLogicParameters": [
+      "3",
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LUCKYMITTENS",
+    "DescriptionMSID": "TRAINER_DESC_84  (Sempre que o Pokémon do seu oponente for Nocauteado pelo dano de um ataque usado pelo Pokémon ao qual esta carta está ligada, compre [Num:Int ] [Gr:Count s=\"carta\" p=\"cartas\" ].)",
+    "TrainerID": "TR_000940",
+    "TrainerLogicID": "400100080",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SHIZUI",
+    "DescriptionMSID": "TRAINER_DESC_85  (Cure 70 pontos de dano de 1 dos seus Carracosta ou Jellicent.)",
+    "TrainerID": "TR_000950",
+    "TrainerLogicID": "200200470",
+    "TrainerLogicParameters": [
+      "ABAGOURA",
+      "BURUNGEL",
+      "1",
+      "70"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HALA",
+    "DescriptionMSID": "TRAINER_DESC_86  (Durante o próximo turno do seu oponente, se o seu Hariyama ou Crabominable estiver prestes a ser Nocauteado pelo dano de um ataque, ele não será Nocauteado e o PS restante dele será 10.)",
+    "TrainerID": "TR_000960",
+    "TrainerLogicID": "200200480",
+    "TrainerLogicParameters": [
+      "HARITEYAMA",
+      "KEKENKANI",
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HARUKA",
+    "DescriptionMSID": "TRAINER_DESC_87  (Coloque [Num:Int ] Pokémon aleatório[Gr:Count p=\"s\" ] do seu baralho na sua mão. Para cada Pokémon que você colocou na sua mão dessa forma, escolha um Pokémon para embaralhar da sua mão no seu baralho.)",
+    "TrainerID": "TR_000970",
+    "TrainerLogicID": "200200490",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MELISSA",
+    "DescriptionMSID": "TRAINER_DESC_88  (Pegue 1 Energia[Gr:Count p=\"s\" ref=\"3\" ] Psychic da sua Zona de Energia e ligue-a[Gr:Count p=\"s\" ref=\"3\" ] a cada um dos seus Drifblim e Mismagius.)",
+    "TrainerID": "TR_000980",
+    "TrainerLogicID": "200200500",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "FUWARIDE",
+      "MUMARGI",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MONOMANEMUSUME",
+    "DescriptionMSID": "TRAINER_DESC_89  (Embaralhe a sua mão no seu baralho. Compre uma carta para cada carta na mão do seu oponente.)",
+    "TrainerID": "TR_000990",
+    "TrainerLogicID": "200200510",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RUCHIA",
+    "DescriptionMSID": "TRAINER_DESC_90  (Coloque 2 Pokémon Básico[Gr:Count p=\"s\" ref=\"1\" ] aleatório[Gr:Count p=\"s\" ref=\"1\" ] com [Num:Int max_length=\"3\" ] PS ou menos do seu baralho na sua mão.)",
+    "TrainerID": "TR_001000",
+    "TrainerLogicID": "200200520",
+    "TrainerLogicParameters": [
+      "50",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CITRONNORYUKKU",
+    "DescriptionMSID": "TRAINER_DESC_91  (Durante este turno, os ataques usados pelos seus Magneton ou Heliolisk causam +20 pontos de dano aos Pokémon do seu oponente.)",
+    "TrainerID": "TR_001010",
+    "TrainerLogicID": "200100240",
+    "TrainerLogicParameters": [
+      "RARECOIL",
+      "ELEZARD",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SOUJYUKUEKISU",
+    "DescriptionMSID": "TRAINER_DESC_92  (Escolha 1 dos seus Pokémon Grass em jogo. Coloque um Pokémon Grass aleatório do seu baralho que evolua daquele Pokémon sobre aquele Pokémon para evoluí-lo. Você não pode usar esta carta durante o seu primeiro turno ou em um Pokémon que entrou em jogo neste turno.)",
+    "TrainerID": "TR_001020",
+    "TrainerLogicID": "200100230",
+    "TrainerLogicParameters": [
+      "Grass",
+      "Grass"
+    ],
+    "TrainerType": 2,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CITRON",
+    "DescriptionMSID": "TRAINER_DESC_26  (Coloque aleatoriamente 2 carta[Gr:Count p=\"s\" ref=\"3\" ] dentre Magneton, Heliolisk e Mochila do Clemont do seu baralho na sua mão.)",
+    "TrainerID": "TR_001030",
+    "TrainerLogicID": "200200130",
+    "TrainerLogicParameters": [
+      "RARECOIL",
+      "ELEZARD",
+      "CITRONNORYUKKU",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SERENA",
+    "DescriptionMSID": "TRAINER_DESC_93  (Coloque [Num:Int ] Pokémon [Img:ex ] de Megaevolução aleatório[Gr:Count p=\"s\" ] do seu baralho na sua mão.)",
+    "TrainerID": "TR_001040",
+    "TrainerLogicID": "200200530",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AGONOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_001050",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ATARITSUKIAISU",
+    "DescriptionMSID": "TRAINER_DESC_95  (Cure 20 pontos de dano do seu Pokémon Ativo. Se você curou qualquer dano desta forma, jogue uma moeda. Se sair cara, coloque este Picolé da Sorte na sua mão em vez de na pilha de descarte.)",
+    "TrainerID": "TR_001060",
+    "TrainerLogicID": "200100250",
+    "TrainerLogicParameters": [
+      "20",
+      "ATARITSUKIAISU"
+    ],
+    "TrainerType": 2,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIRENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_001070",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAMORINOPONCHO",
+    "DescriptionMSID": "TRAINER_DESC_96  (Enquanto o Pokémon ao qual esta carta está ligada estiver no seu Banco, previna todo o dano causado àquele Pokémon por ataques e Habilidades do seu oponente.)",
+    "TrainerID": "TR_001080",
+    "TrainerLogicID": "400300080",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "METARUKOABARIA",
+    "DescriptionMSID": "TRAINER_DESC_97  (Se esta carta estiver ligada a 1 dos seus Pokémon, descarte-a no final do turno do seu oponente.\n\nO Pokémon Metal ao qual esta carta está ligada recebe −50 pontos de dano de ataques dos Pokémon do seu oponente.)",
+    "TrainerID": "TR_001090",
+    "TrainerLogicID": "400300090",
+    "TrainerLogicParameters": [
+      "Metal",
+      "50"
+    ],
+    "TrainerType": 3,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CARNE",
+    "DescriptionMSID": "TRAINER_DESC_98  (Cure 90 pontos de dano de 1 dos seus Pokémon Psychic que tiver 2 ou mais Energias Psychic ligada[Gr:Count p=\"s\" ref=\"1\" ] a ele. Se você curou qualquer dano desta forma, descarte 2 Energia[Gr:Count p=\"s\" ref=\"3\" ] Psychic daquele Pokémon.)",
+    "TrainerID": "TR_001100",
+    "TrainerLogicID": "200200540",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "2",
+      "90",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KANKOUKYAKU",
+    "DescriptionMSID": "TRAINER_DESC_99  (Olhe as 4 cartas de cima do seu baralho. Coloque todos os Pokémon Estágio 1 que encontrar lá na sua mão. Embaralhe as outras cartas de volta no seu baralho.)",
+    "TrainerID": "TR_001110",
+    "TrainerLogicID": "200200550",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "JAGURA",
+    "DescriptionMSID": "TRAINER_DESC_100  (Você só pode usar esta carta se seus Pokémon em jogo tiverem 3 ou mais tipos diferentes de Energia ligados a ele.\n\nMova todas as Energias de cada um dos seus Pokémon no Banco para o seu Pokémon Ativo.)",
+    "TrainerID": "TR_001120",
+    "TrainerLogicID": "200200560",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEZU",
+    "DescriptionMSID": "TRAINER_DESC_101  (Você só pode usar esta carta se tiver Obstagoonde Galar em jogo.\n\nDescarte 2 Energia[Gr:Count p=\"s\" ref=\"1\" ] aleatória[Gr:Count p=\"s\" ref=\"1\" ] do Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_001130",
+    "TrainerLogicID": "200200570",
+    "TrainerLogicParameters": [
+      "GALARTACHIFUSAGUMA",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TORENINGUERIA",
+    "DescriptionMSID": "TRAINER_DESC_102  (Os ataques usados pelos Pokémon Estágio 1 em jogo (seus e do seu oponente) causam\n+10 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_001140",
+    "TrainerLogicID": "500300030",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAJIMARINOHEIGEN",
+    "DescriptionMSID": "TRAINER_DESC_103  (Cada Pokémon Básico em jogo (seus e do seu oponente) recebe +20 PS.)",
+    "TrainerID": "TR_001150",
+    "TrainerLogicID": "500300010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUSHIGINAHIROBA",
+    "DescriptionMSID": "TRAINER_DESC_104  (O Custo de Recuo de cada Pokémon Psychic em jogo (seus e do seu oponente) é 2 a menos.)",
+    "TrainerID": "TR_001160",
+    "TrainerLogicID": "500300020",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "2"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ELECTRICGENERATOR",
+    "DescriptionMSID": "TRAINER_DESC_105  (Jogue uma moeda. Se sair cara, pegue uma Energia Lightning da sua Zona de Energia e ligue-a a 1 dos seus Pokémon Lightning no Banco.)",
+    "TrainerID": "TR_001170",
+    "TrainerLogicID": "200100260",
+    "TrainerLogicParameters": [
+      "Lightning",
+      "Lightning"
+    ],
+    "TrainerType": 2,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BIGAIRBALLOON",
+    "DescriptionMSID": "TRAINER_DESC_106  (O Pokémon Estágio 2 ao qual esta carta está ligada não tem Custo de Recuo.)",
+    "TrainerID": "TR_001180",
+    "TrainerLogicID": "400300100",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TEAMSTARGRUNT",
+    "DescriptionMSID": "TRAINER_DESC_107  (Descarte [Num:Int max_length=\"2\" ] [Gr:Count s=\"Energia\" p=\"Energias\" ] [Gr:Count s=\"aleatória\" p=\"aleatórias\" ] dentre as Energias ligadas a todos os Pokémon do seu oponente que têm uma Habilidade.)",
+    "TrainerID": "TR_001190",
+    "TrainerLogicID": "200200580",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEMO",
+    "DescriptionMSID": "TRAINER_DESC_108  (Durante este turno, os ataques usados pelos seus Pawmot causam +80 pontos de dano ao Pokémon [Img:ex ] Ativo do seu oponente.)",
+    "TrainerID": "TR_001200",
+    "TrainerLogicID": "200200590",
+    "TrainerLogicParameters": [
+      "PARMOT",
+      "80"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "PEPER",
+    "DescriptionMSID": "TRAINER_DESC_109  (Jogue uma moeda. Se sair cara, coloque [Num:Int ] [Gr:Count s=\"carta de Item aleatória\" p=\"cartas de Item aleatórias\" ] do seu baralho na sua mão. Se sair coroa, coloque [Num:Int ] [Gr:Count s=\"carta de Ferramenta Pokémon aleatória\" p=\"cartas de Ferramenta Pokémon aleatórias\" ] do seu baralho na sua mão.\n)",
+    "TrainerID": "TR_001210",
+    "TrainerLogicID": "200200600",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABLECITY",
+    "DescriptionMSID": "TRAINER_DESC_110  (Uma vez durante o turno de cada jogador, aquele jogador poderá jogar uma moeda. Se sair cara, aquele jogador colocará [Num:Int ] Pokémon aleatório[Gr:Count p=\"s\" ] do próprio baralho na própria mão.)",
+    "TrainerID": "TR_001220",
+    "TrainerLogicID": "500200010",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IJIWARULETTER",
+    "DescriptionMSID": "TRAINER_DESC_111  (Seu oponente descarta cartas da mão dele até ter 4 [Gr:Count s=\"carta\" p=\"cartas\" ] na mão dele.)",
+    "TrainerID": "TR_001230",
+    "TrainerLogicID": "200100270",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 2,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAINTENANCE",
+    "DescriptionMSID": "TRAINER_DESC_112  (Embaralhe [Num:Int ] [Gr:Count s=\"carta\" p=\"cartas\" ] da sua mão no seu baralho. Compre 1 [Gr:Count s=\"carta\" p=\"cartas\" ref=\"1\" ]. Se você não puder embaralhar [Num:Int ] [Gr:Count s=\"carta\" p=\"cartas\" ] da sua mão no seu baralho, você não poderá usar esta carta.)",
+    "TrainerID": "TR_001240",
+    "TrainerLogicID": "200100280",
+    "TrainerLogicParameters": [
+      "2",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IRIS",
+    "DescriptionMSID": "TRAINER_DESC_113  (Durante este turno, se o Pokémon Ativo do seu oponente for Nocauteado pelo dano de um ataque usado pelos seus Haxorus, você receberá 1 ponto a mais.)",
+    "TrainerID": "TR_001250",
+    "TrainerLogicID": "200200610",
+    "TrainerLogicParameters": [
+      "ONONOKUS"
+    ],
+    "TrainerType": 1,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CALME",
+    "DescriptionMSID": "TRAINER_DESC_114  (Compre uma carta para cada Pokémon [Img:ex ] de Megaevolução em jogo (seus e do seu oponente).)",
+    "TrainerID": "TR_001260",
+    "TrainerLogicID": "200200620",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAIKINGUCOURSE",
+    "DescriptionMSID": "TRAINER_DESC_115  (No final do turno de cada jogador, aquele jogador comprará cartas até ter 3 [Gr:Count s=\"carta\" p=\"cartas\" ] na própria mão.)",
+    "TrainerID": "TR_001270",
+    "TrainerLogicID": "500100010",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 5,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FIELDBLOWER",
+    "DescriptionMSID": "TRAINER_DESC_116  (Descarte uma carta de Ferramenta Pokémon de um Pokémon (seu ou do seu oponente), ou descarte uma carta de Estádio em jogo.)",
+    "TrainerID": "TR_001280",
+    "TrainerLogicID": "200100290",
+    "TrainerLogicParameters": [],
+    "TrainerType": 2,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAPPINESSEGG",
+    "DescriptionMSID": "TRAINER_DESC_117  (Se o Pokémon ao qual esta carta está ligada for Nocauteado pelo dano de um ataque dos Pokémon do seu oponente, compre cartas até que você tenha 5 [Gr:Count s=\"carta\" p=\"cartas\" ] na sua mão.)",
+    "TrainerID": "TR_001290",
+    "TrainerLogicID": "400100090",
+    "TrainerLogicParameters": [
+      "5"
+    ],
+    "TrainerType": 3,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CORNI",
+    "DescriptionMSID": "TRAINER_DESC_118  (Durante este turno, os ataques usados pelos seus Pokémon Fighting causam +30 pontos de dano ao Pokémon [Img:ex ] Ativo do seu oponente.)",
+    "TrainerID": "TR_001300",
+    "TrainerLogicID": "200200630",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TAXIDRIVER",
+    "DescriptionMSID": "TRAINER_DESC_119  (Coloque [Num:Int ] carta[Gr:Count p=\"s\" ] de Estádio aleatória[Gr:Count p=\"s\" ] do seu baralho na sua mão.)",
+    "TrainerID": "TR_001310",
+    "TrainerLogicID": "200200640",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CHEREN",
+    "DescriptionMSID": "TRAINER_DESC_120  (Durante o próximo turno do seu oponente, todos os seus Watchog e Stoutland receberão −100 pontos de dano de ataques dos Pokémon [Img:ex ] do seu oponente.)",
+    "TrainerID": "TR_001320",
+    "TrainerLogicID": "200200650",
+    "TrainerLogicParameters": [
+      "MIRUHOG",
+      "MOOLAND",
+      "100"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "PARASOLGIRL",
+    "DescriptionMSID": "TRAINER_DESC_121  (Coloque 1 dos seus Pokémon Water em jogo, exceto qualquer Pokémon [Img:ex ], na sua mão.)",
+    "TrainerID": "TR_001330",
+    "TrainerLogicID": "200200660",
+    "TrainerLogicParameters": [
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AMAKUKAORUMORI",
+    "DescriptionMSID": "TRAINER_DESC_122  (Uma vez durante o turno de cada jogador, aquele jogador poderá colocar 1 Pokémon Grass Básico[Gr:Count p=\"s\" ref=\"1\" ] aleatório[Gr:Count p=\"s\" ref=\"1\" ] do próprio baralho na própria mão.)",
+    "TrainerID": "TR_001340",
+    "TrainerLogicID": "500200020",
+    "TrainerLogicParameters": [
+      "Grass",
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "INISHIENOTOUGIJYOU",
+    "DescriptionMSID": "TRAINER_DESC_123  (Os ataques usados por cada Pokémon Fighting em jogo (seus ou do seu oponente) causam +20 pontos de dano ao Pokémon [Img:ex ] Ativo do seu oponente.)",
+    "TrainerID": "TR_001350",
+    "TrainerLogicID": "500300040",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KEKKAINOFIELD",
+    "DescriptionMSID": "TRAINER_DESC_124  (Ao aplicar a Fraqueza do Pokémon Ativo do oponente ao dano de ataques usados por Pokémon em jogo (seus e do seu oponente) que não sejam Pokémon [Img:ex ] de Megaevolução, aplique Fraqueza ×2.)",
+    "TrainerID": "TR_001360",
+    "TrainerLogicID": "500300050",
+    "TrainerLogicParameters": [],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [
+      2
+    ],
+    "CharacterID": "BUSUTOENAJIKODAI",
+    "DescriptionMSID": "TRAINER_DESC_125  (O Pokémon Ancestral ao qual esta carta está ligada recebe +40 PS.)",
+    "TrainerID": "TR_001370",
+    "TrainerLogicID": "400300110",
+    "TrainerLogicParameters": [
+      "40"
+    ],
+    "TrainerType": 3,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      3
+    ],
+    "CharacterID": "BUSUTOENAJIMIRAI",
+    "DescriptionMSID": "TRAINER_DESC_126  (Os ataques usados pelo Pokémon Futurista ao qual esta carta está ligada causam +20 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_001380",
+    "TrainerLogicID": "400300120",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AOI",
+    "DescriptionMSID": "TRAINER_DESC_127  (Coloque [Num:Int ] Pokémon Estágio[C:Nbsp ]2 aleatório[Gr:Count p=\"s\" ] do seu baralho na sua mão.)",
+    "TrainerID": "TR_001390",
+    "TrainerLogicID": "200200670",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      2
+    ],
+    "CharacterID": "OLIMHAKASE",
+    "DescriptionMSID": "TRAINER_DESC_128  (Ligue 3 tipos diferentes de Energia da sua pilha de descarte aos seus Pokémon Ancestrais como desejar.)",
+    "TrainerID": "TR_001400",
+    "TrainerLogicID": "200200680",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      3
+    ],
+    "CharacterID": "FUTUHAKASE",
+    "DescriptionMSID": "TRAINER_DESC_129  (Embaralhe 1 dos seus Pokémon Futuristas em jogo no seu baralho.)",
+    "TrainerID": "TR_001410",
+    "TrainerLogicID": "200200690",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ERIAZERO",
+    "DescriptionMSID": "TRAINER_DESC_130  (Uma vez durante o turno de cada jogador, aquele jogador poderá embaralhar um Pokémon Básico da própria mão no próprio baralho. Se fizer isso, ele comprará [Num:Int ] carta[Gr:Count p=\"s\" ref=\"0\" ].)",
+    "TrainerID": "TR_001420",
+    "TrainerLogicID": "500200030",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CHIISANAFUUSEN",
+    "DescriptionMSID": "TRAINER_DESC_131  (O Custo de Recuo do Pokémon Básico ao qual esta carta está ligada é 1 a menos.)",
+    "TrainerID": "TR_001430",
+    "TrainerLogicID": "400300140",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "YUUGANAMANTO",
+    "DescriptionMSID": "TRAINER_DESC_132  (O Pokémon Estágio[C:Nbsp ]1 ao qual esta carta está ligada recebe +30[C:Nbsp ]PS.)",
+    "TrainerID": "TR_001440",
+    "TrainerLogicID": "400300130",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAMITSURE",
+    "DescriptionMSID": "TRAINER_DESC_133  (Devolva todas as Ferramentas Pokémon ligadas a cada Pokémon (seus e do seu oponente) à mão do seu dono.)",
+    "TrainerID": "TR_001450",
+    "TrainerLogicID": "200200700",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOINUDAISUKIGARL",
+    "DescriptionMSID": "TRAINER_DESC_134  (Olhe as 4 cartas de cima do seu baralho. Coloque todos os Pokémon que você encontrar lá que tenham o ataque PokemonAttackName_ID_951 na sua mão. Embaralhe as outras cartas de volta no seu baralho.)",
+    "TrainerID": "TR_001460",
+    "TrainerLogicID": "200200710",
+    "TrainerLogicParameters": [
+      "4",
+      "PokemonAttackName_ID_951"
+    ],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MIKURI",
+    "DescriptionMSID": "TRAINER_DESC_135  (Escolha 1 dos seus Pokémon[C:Nbsp ]Water em jogo com um PS máximo de 50 ou menos. Coloque um Pokémon[C:Nbsp ]Water aleatório do seu baralho que evolua daquele Pokémon sobre aquele Pokémon para evoluí[C:Nbh ]lo.)",
+    "TrainerID": "TR_001470",
+    "TrainerLogicID": "200200720",
+    "TrainerLogicParameters": [
+      "50",
+      "Water",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KODOMOBEYA",
+    "DescriptionMSID": "TRAINER_DESC_136  (Uma vez durante o turno de cada jogador, aquele jogador poderá escolher [Num:Int ] carta[Gr:Count p=\"s\" ] da própria mão e trocá[C:Nbh ]la[Gr:Count p=\"s\" ] por [Num:Int ] carta[Gr:Count p=\"s\" ] de Ferramenta Pokémon aleatória[Gr:Count p=\"s\" ] do próprio baralho.)",
+    "TrainerID": "TR_001480",
+    "TrainerLogicID": "500200040",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OTORIYOSEPADDO",
+    "DescriptionMSID": "TRAINER_DESC_137  (Jogue uma moeda. Se sair cara, coloque [Num:Int max_length=\"2\" ] [Gr:Count s=\"carta de Item\" p=\"cartas de Item\" ] aleatória[Gr:Count p=\"s\" ] do seu baralho na sua mão.)",
+    "TrainerID": "TR_001490",
+    "TrainerLogicID": "200100300",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TSUMENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_001500",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEKKONOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Jogue esta carta como se fosse um Pokémon Colorless Básico com PS 40.\nA qualquer momento, durante o seu turno, você poderá descartar esta carta do jogo.\nEsta carta não pode recuar.)",
+    "TrainerID": "TR_001510",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "INCHIKIBARI",
+    "DescriptionMSID": "TRAINER_DESC_138  (No final do seu turno, se o Pokémon[C:Nbsp ]Darkness ao qual esta carta está ligada estiver no Campo Ativo, cause 10 pontos de dano ao Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_001520",
+    "TrainerLogicID": "400100100",
+    "TrainerLogicParameters": [
+      "Darkness",
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KURIAVEIL",
+    "DescriptionMSID": "TRAINER_DESC_139  (Previna todos os efeitos de ataques usados pelos Pokémon do seu oponente causados ao Pokémon ao qual esta carta está ligada. (Efeitos existentes não são removidos.))",
+    "TrainerID": "TR_001530",
+    "TrainerLogicID": "400300150",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SAIKIKKA",
+    "DescriptionMSID": "TRAINER_DESC_140  (Você só pode usar esta carta se o seu Pokémon no Campo Ativo tiver o ataque PokemonAttackName_ID_97.\n\nEscolha 1 dos Pokémon no Banco do seu oponente e mova 1 Energia[Gr:Count p=\"s\" ref=\"1\" ] aleatória[Gr:Count p=\"s\" ref=\"1\" ] dele para o Pokémon Ativo do seu oponente.)",
+    "TrainerID": "TR_001540",
+    "TrainerLogicID": "200200730",
+    "TrainerLogicParameters": [
+      "PokemonAttackName_ID_97",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SYAGA",
+    "DescriptionMSID": "TRAINER_DESC_141  (Durante este turno, 1 dos Pokémon do seu oponente é escolhido mais 1 vez[Gr:Count p=\"es\" ref=\"1\" ] para o ataque PokemonAttackName_ID_144 usado pelos seus Pokémon.)",
+    "TrainerID": "TR_001550",
+    "TrainerLogicID": "200200740",
+    "TrainerLogicParameters": [
+      "PokemonAttackName_ID_144",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HUURO",
+    "DescriptionMSID": "TRAINER_DESC_142  (Troque o seu Pokémon Estágio 1 Ativo por 1 dos seus Pokémon no Banco.)",
+    "TrainerID": "TR_001560",
+    "TrainerLogicID": "200200750",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MITSURU",
+    "DescriptionMSID": "TRAINER_DESC_143  (Pegue uma Energia Colorless da sua Zona de Energia e ligue-a a 1 dos seus Pokémon Estágio 2.)",
+    "TrainerID": "TR_001570",
+    "TrainerLogicID": "200200760",
+    "TrainerLogicParameters": [
+      "Colorless"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IYASHINOUMIBE",
+    "DescriptionMSID": "TRAINER_DESC_144  (No final do turno de cada jogador, aquele jogador curará 20 pontos de dano de cada um dos seus próprios Pokémon que tiver alguma Energia Water ligadas a ele.)",
+    "TrainerID": "TR_001580",
+    "TrainerLogicID": "500100020",
+    "TrainerLogicParameters": [
+      "Water",
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NIJIIRONODOUKUTSU",
+    "DescriptionMSID": "TRAINER_DESC_145  (Uma vez durante o turno de cada jogador, aquele jogador poderá descartar a Energia que foi gerada na própria Zona de Energia. Se fizer isso, a próxima Energia será produzida.)",
+    "TrainerID": "TR_001590",
+    "TrainerLogicID": "500200050",
+    "TrainerLogicParameters": [],
+    "TrainerType": 5,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNODOROBOUMASHIN",
+    "DescriptionMSID": "TRAINER_DESC_146  (Coloque 1 [Gr:Count s=\"carta de Item aleatória\" p=\"cartas de Item aleatórias\" ref=\"1\" ], exceto por quaisquer Máquina de Roubo da Equipe Rocket, da pilha de descarte do seu oponente na sua mão.)",
+    "TrainerID": "TR_001600",
+    "TrainerLogicID": "200100310",
+    "TrainerLogicParameters": [
+      "ROCKETDANNODOROBOUMASHIN",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOBETOBETOBAZOOKA",
+    "DescriptionMSID": "TRAINER_DESC_147  (Até o final do próximo turno do seu oponente, o Custo de Recuo do Pokémon Ativo do seu oponente será 1 a mais.)",
+    "TrainerID": "TR_001610",
+    "TrainerLogicID": "200100320",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOKENKYUUIN",
+    "DescriptionMSID": "TRAINER_DESC_150  (Jogue uma moeda até sair coroa. Para cada cara, coloque um Pokémon aleatório que tenha ''Equipe Rocket'' em seu nome do seu baralho na sua mão.)",
+    "TrainerID": "TR_001620",
+    "TrainerLogicID": "200200770",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNODAISAKUSEN",
+    "DescriptionMSID": "TRAINER_DESC_151  (O Pokémon Ativo do seu oponente agora está Confuso. Jogue uma moeda. Se sair coroa, seu Pokémon Ativo agora também estará Confuso.)",
+    "TrainerID": "TR_001630",
+    "TrainerLogicID": "200200780",
+    "TrainerLogicParameters": [
+      "Confused  (Confuso)"
+    ],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOBOSS",
+    "DescriptionMSID": "TRAINER_DESC_148  (Olhe a mão do seu oponente e coloque qualquer número de Pokémon Básicos que encontrar lá no Banco dele.)",
+    "TrainerID": "TR_001640",
+    "TrainerLogicID": "200200790",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GAMECENTER",
+    "DescriptionMSID": "TRAINER_DESC_149  (Uma vez durante o turno de cada jogador, aquele jogador poderá jogar [Num:Int max_length=\"2\" ] [Gr:Count s=\"moeda\" p=\"moedas\" ]. Se [Gr:Count p=\"todas saírem\" two=\"as duas saírem\" ] cara, aquele jogador comprará cartas até ter 7 [Gr:Count s=\"carta\" p=\"cartas\" ref=\"1\" ] na própria mão.)",
+    "TrainerID": "TR_001650",
+    "TrainerLogicID": "500200060",
+    "TrainerLogicParameters": [
+      "3",
+      "7"
+    ],
+    "TrainerType": 5,
+    "Version": 2608000
+  }
+]

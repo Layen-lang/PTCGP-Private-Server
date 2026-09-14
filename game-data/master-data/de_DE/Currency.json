@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Verkürzt die Zeit, in der sich Pack-Ausdauer\nregeneriert. Im Shop kaufbar sowie eintauschbar\ngegen Zubehör oder Items.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (PokéGold)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Verkürzt die Zeit, in der sich Pack-Ausdauer\nregeneriert. Im Shop kaufbar sowie eintauschbar\ngegen Zubehör oder Items.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (PokéGold)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Erhältlich durch das Abschließen von Premium-\nMissionen. Eintauschbar gegen Zubehör oder\nPromokarten im Shop.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Premium-Ticket)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Nutzbar beim Tausch und unter „Flair erhalten“.\nUnter anderem erhältlich, indem du Duplikate\neiner Karte sammelst oder als Missionsbelohnung.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Funkelstaub)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (Erhältlich durch das Abschließen von Event-\nMissionen oder Stufenkämpfen. Eintauschbar\ngegen Zubehör oder Items im Shop.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Shop-Ticket)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Erhältlich durch den Verbrauch von Karten mit\ngroßer Seltenheit in „Meine Karten“. Eintauschbar\ngegen spezielles Zubehör oder Items im Shop.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Spezial-Shop-Ticket)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

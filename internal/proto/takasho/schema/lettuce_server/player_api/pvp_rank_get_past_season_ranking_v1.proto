@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_my_season_summary.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_ranking_player.proto";
+import "takasho/schema/lettuce_server/resource/pvp/season_profile.proto";
+
+message PvpRankGetPastSeasonRankingV1 {
+  message Types {
+    message Request {
+      string season_id = 1;
+    }
+    message Response {
+      string season_id = 1;
+      takasho.schema.lettuce_server.resource.pvp.PvpRankMySeasonSummary my_summary = 2;
+      repeated takasho.schema.lettuce_server.resource.pvp.PvpRankRankingPlayer ranking_players = 3;
+      takasho.schema.lettuce_server.resource.pvp.SeasonProfile profile = 4;
+    }
+  }
+}

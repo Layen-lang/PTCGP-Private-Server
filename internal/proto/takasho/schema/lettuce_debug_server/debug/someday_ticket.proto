@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/someday_ticket_set_lottery_results.proto";
+
+service SomedayTicket {
+  rpc SetLotteryResults (SomedayTicketSetLotteryResults.Types.Request) returns (SomedayTicketSetLotteryResults.Types.Response);
+}

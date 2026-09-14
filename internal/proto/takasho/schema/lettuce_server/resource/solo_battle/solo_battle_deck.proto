@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+message SoloBattleDeck {
+  message Types {
+    enum DeckType {
+      DECK_TYPE_UNSPECIFIED = 0;
+      DECK_TYPE_MY_DECK = 1;
+      DECK_TYPE_RENTAL_DECK = 2;
+    }
+  }
+  SoloBattleDeck.Types.DeckType type = 1;
+  int64 my_deck_id = 2;
+  string rental_deck_id = 3;
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (Reduce en una hora el tiempo de recuperación\nde energía de sobre para abrir sobres. Se consigue,\npor ejemplo, al completar misiones.)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (Reloj de arena de sobres)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

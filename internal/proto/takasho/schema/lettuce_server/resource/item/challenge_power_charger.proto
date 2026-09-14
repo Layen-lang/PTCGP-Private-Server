@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+message ChallengePowerCharger {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_LARGE = 1;
+      TYPE_MEDIUM = 2;
+      TYPE_SMALL = 3;
+    }
+  }
+  ChallengePowerCharger.Types.Type type = 1;
+  uint64 amount = 2;
+}

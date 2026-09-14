@@ -1,0 +1,554 @@
+[
+  {
+    "CategoryID": "SH_CG_EM_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (Genetic Apex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_9  (Mythical Island)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (Space-Time Smackdown)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (Triumphant Light)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (Shining Revelry)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (Celestial Guardians)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (Extradimensional Crisis)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (Wisdom of Sea and Sky)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (Eevee Grove)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (Secluded Springs)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (Deluxe Pack: ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (Mega Rising)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (Crimson Blaze)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (Fantastical Parade)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (Paldean Wonders)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (Mega Shine)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (Pulsing Aura)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_13  (ex Starter Decks)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1030
+  },
+  {
+    "CategoryID": "SH_CG_EV_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_25  (Reissue Drop Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_26  (Reissue Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1020
+  },
+  {
+    "CategoryID": "SH_CG_EV_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_025",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_026",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_027",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_028",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_029",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_030",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_031",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_032",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_033",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_035",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_036",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_037",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Wonder Pick Event)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_038",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accessories)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_039",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_040",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_041",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_043",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_044",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_30  (Rare Items)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accessories)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (Recommended)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_PR_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PR_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accessories)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_PR_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (Items)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (Items)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accessories)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cards)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_6  (Daily Gifts)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_CATEGORY_SUB_7  (Hourglasses)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (Genetic Apex)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_4  (Supporter Cards)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_5  (Item Cards)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (Recommended)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (Space-Time Smackdown)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (Triumphant Light)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (Shining Revelry)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (Celestial Guardians)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_15  (Refreshed Monthly: Hourglasses)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_16  (Special Shop Tickets)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (Extradimensional Crisis)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (Wisdom of Sea and Sky)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (Eevee Grove)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (Secluded Springs)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (Deluxe Pack: ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (Mega Rising)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (Crimson Blaze)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (Fantastical Parade)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (Paldean Wonders)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (Mega Shine)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (Pulsing Aura)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_31",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accessories)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_1  (Special Series)",
+    "SortOrderPriority": 0
+  }
+]

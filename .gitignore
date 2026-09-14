@@ -1,0 +1,65 @@
+# Local runtime state and user data
+/bin/
+/data/
+/certs/
+/backups/
+/.runtime/
+/.cache/
+/.tmp/
+
+# Generated acquisition and update workspaces remain local. The curated
+# runtime-only game-data directory is intentionally published.
+/game-data-back/
+
+# Private captures and reverse-engineering workspaces
+/traffic-intercepter/
+/analysis/
+/tools/
+/scripts/*
+!/scripts/check_publication.ps1
+*.har
+*.apk
+*.aab
+*.dex
+*.so
+*.so.*
+
+# Databases, logs, credentials, and local configuration
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+!.env.example
+
+# Go and Python build artifacts
+*.test
+*.out
+*.prof
+*.next.exe
+coverage/
+**/__pycache__/
+*.py[cod]
+
+# Frontend dependencies and caches. internal/admin/dist is committed because
+# it is embedded in the Go binaries.
+/web/node_modules/
+/web/.vite/
+/web/dist/
+*.tsbuildinfo
+.eslintcache
+/dist/
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini

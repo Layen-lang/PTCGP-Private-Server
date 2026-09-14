@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (As batalhas são desbloqueadas após completar\na parte 6 do guia de batalha.\n\nÉ possível ver o guia de batalha ao tocar no botão\nno lado inferior esquerdo do menu de Batalha.)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (O menu de batalha é desbloqueado\nno nível de jogador 3.\n\nÉ possível subir o seu nível de jogador ganhando\nEXP. Você pode fazer isso abrindo pacotes de\nbooster e realizando outras atividades.)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (Os Expositores são desbloqueados\nno nível de jogador 4.\n\nÉ possível subir o seu nível de jogador ganhando\nEXP. Você pode fazer isso abrindo Pacotes\nde Booster e realizando outras atividades.)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (Os Fichários são desbloqueados\nno nível de jogador 6.\n\nÉ possível subir o seu nível de jogador ganhando\nEXP. Você pode fazer isso abrindo\nPacotes de Booster e realizando outras atividades.)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (Os baralhos são desbloqueados após completar\na parte 6 do guia de batalha.\n\nÉ possível ver o guia de batalha ao tocar no botão\nno lado inferior esquerdo do menu de Batalha.)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (As Missões de Baralho são desbloqueadas\nno nível de jogador 3.\n\nÉ possível subir o seu nível de jogador ganhando\nEXP. Você pode fazer isso abrindo Pacotes de\nBooster e realizando outras atividades.)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (As Escolhas Misteriosas são desbloqueadas\nno nível de jogador 2.)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (As trocas são desbloqueadas no nível de jogador 3.\n\nÉ possível subir o seu nível de jogador\nganhando EXP. Você pode fazer isso abrindo\nPacotes de Booster e realizando outras atividades.)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

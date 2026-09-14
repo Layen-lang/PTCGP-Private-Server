@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_casual_battle_server_auth_info.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_established_match.proto";
+
+message PvpCasualStartBattleV2 {
+  message Types {
+    message Request {
+      bool from_qr_code = 1;
+    }
+    message Response {
+      PvpCasualBattleServerAuthInfo auth_info = 1;
+      PvpCasualEstablishedMatch match = 2;
+      int64 rental_deck_used_count = 3;
+    }
+  }
+}

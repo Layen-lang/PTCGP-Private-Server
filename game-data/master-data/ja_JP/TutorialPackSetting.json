@@ -1,0 +1,15 @@
+[
+  {
+    "DisplayedPackIDs": 0,
+    "Exp": 25,
+    "PackCeilPointAmount": 5,
+    "PackCeilPointSharedGroupID": "A1_STANDARD",
+    "PackID": "AN001_0010_00_000",
+    "TutorialDisplayedPackIDs": [
+      "AN001_0020_00_000",
+      "AN001_0010_00_000",
+      "AN001_0030_00_000"
+    ],
+    "TutorialPackSettingID": "TUTORIAL_PACK_01"
+  }
+]

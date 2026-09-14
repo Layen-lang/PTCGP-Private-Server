@@ -1,0 +1,222 @@
+[
+  {
+    "ID": "PROFILE_MESSAGE_1",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_1  (請多多指教)",
+    "SortOrderPriority": 1
+  },
+  {
+    "ID": "PROFILE_MESSAGE_10",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_10  (我是雷屬性收藏家)",
+    "SortOrderPriority": 10
+  },
+  {
+    "ID": "PROFILE_MESSAGE_11",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_11  (我是超屬性收藏家)",
+    "SortOrderPriority": 11
+  },
+  {
+    "ID": "PROFILE_MESSAGE_12",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_12  (我是鬥屬性收藏家)",
+    "SortOrderPriority": 12
+  },
+  {
+    "ID": "PROFILE_MESSAGE_13",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_13  (我是惡屬性收藏家)",
+    "SortOrderPriority": 13
+  },
+  {
+    "ID": "PROFILE_MESSAGE_14",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_14  (我是鋼屬性收藏家)",
+    "SortOrderPriority": 14
+  },
+  {
+    "ID": "PROFILE_MESSAGE_15",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_15  (我是龍屬性收藏家)",
+    "SortOrderPriority": 15
+  },
+  {
+    "ID": "PROFILE_MESSAGE_16",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_16  (我是無屬性收藏家)",
+    "SortOrderPriority": 16
+  },
+  {
+    "ID": "PROFILE_MESSAGE_17",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_17  (我正在收集寶可夢ex！)",
+    "SortOrderPriority": 17
+  },
+  {
+    "ID": "PROFILE_MESSAGE_18",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_18  (我正在收集有我喜歡的插畫的卡牌！)",
+    "SortOrderPriority": 18
+  },
+  {
+    "ID": "PROFILE_MESSAGE_19",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_19  (我正在挑戰填滿圖鑑！)",
+    "SortOrderPriority": 19
+  },
+  {
+    "ID": "PROFILE_MESSAGE_2",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_2  (我是新手！)",
+    "SortOrderPriority": 2
+  },
+  {
+    "ID": "PROFILE_MESSAGE_20",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_20  (來看看我的收藏吧！)",
+    "SortOrderPriority": 20
+  },
+  {
+    "ID": "PROFILE_MESSAGE_21",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_21  (來對戰吧！)",
+    "SortOrderPriority": 21
+  },
+  {
+    "ID": "PROFILE_MESSAGE_22",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_22  (我是新手，請多多包涵！)",
+    "SortOrderPriority": 22
+  },
+  {
+    "ID": "PROFILE_MESSAGE_23",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_23  (對戰我還算有自信！)",
+    "SortOrderPriority": 23
+  },
+  {
+    "ID": "PROFILE_MESSAGE_24",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_24  (對戰我很有自信！)",
+    "SortOrderPriority": 24
+  },
+  {
+    "ID": "PROFILE_MESSAGE_25",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_25  (我有自信擲硬幣會出現正面！)",
+    "SortOrderPriority": 25
+  },
+  {
+    "ID": "PROFILE_MESSAGE_26",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_26  (我都用喜歡的寶可夢來對戰！)",
+    "SortOrderPriority": 26
+  },
+  {
+    "ID": "PROFILE_MESSAGE_27",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_27  (我的牌組還沒組好……請多多包涵！)",
+    "SortOrderPriority": 27
+  },
+  {
+    "ID": "PROFILE_MESSAGE_28",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_28  (我絕不會撤退！)",
+    "SortOrderPriority": 28
+  },
+  {
+    "ID": "PROFILE_MESSAGE_29",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_29  (我會用極大傷害來奪勝！)",
+    "SortOrderPriority": 29
+  },
+  {
+    "ID": "PROFILE_MESSAGE_3",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_3  (我喜歡可愛的寶可夢)",
+    "SortOrderPriority": 3
+  },
+  {
+    "ID": "PROFILE_MESSAGE_30",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_30  (來看看我的對戰桌墊吧！)",
+    "SortOrderPriority": 30
+  },
+  {
+    "ID": "PROFILE_MESSAGE_31",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_31  (我很擅長組牌組！)",
+    "SortOrderPriority": 31
+  },
+  {
+    "ID": "PROFILE_MESSAGE_32",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_32  (我正在招募朋友)",
+    "SortOrderPriority": 32
+  },
+  {
+    "ID": "PROFILE_MESSAGE_33",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_33  (我正在挑戰任務)",
+    "SortOrderPriority": 33
+  },
+  {
+    "ID": "PROFILE_MESSAGE_34",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_34  (我喜歡關都地區的寶可夢)",
+    "SortOrderPriority": 34
+  },
+  {
+    "ID": "PROFILE_MESSAGE_35",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_35  (我喜歡城都地區的寶可夢)",
+    "SortOrderPriority": 35
+  },
+  {
+    "ID": "PROFILE_MESSAGE_36",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_36  (我喜歡豐緣地區的寶可夢)",
+    "SortOrderPriority": 36
+  },
+  {
+    "ID": "PROFILE_MESSAGE_37",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_37  (我喜歡神奧地區的寶可夢)",
+    "SortOrderPriority": 37
+  },
+  {
+    "ID": "PROFILE_MESSAGE_38",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_38  (我喜歡洗翠地區的寶可夢)",
+    "SortOrderPriority": 38
+  },
+  {
+    "ID": "PROFILE_MESSAGE_39",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_39  (我喜歡合眾地區的寶可夢)",
+    "SortOrderPriority": 39
+  },
+  {
+    "ID": "PROFILE_MESSAGE_4",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_4  (我喜歡酷帥的寶可夢)",
+    "SortOrderPriority": 4
+  },
+  {
+    "ID": "PROFILE_MESSAGE_40",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_40  (我喜歡卡洛斯地區的寶可夢)",
+    "SortOrderPriority": 40
+  },
+  {
+    "ID": "PROFILE_MESSAGE_41",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_41  (我喜歡阿羅拉地區的寶可夢)",
+    "SortOrderPriority": 41
+  },
+  {
+    "ID": "PROFILE_MESSAGE_42",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_42  (我喜歡伽勒爾地區的寶可夢)",
+    "SortOrderPriority": 42
+  },
+  {
+    "ID": "PROFILE_MESSAGE_43",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_43  (我喜歡帕底亞地區的寶可夢)",
+    "SortOrderPriority": 43
+  },
+  {
+    "ID": "PROFILE_MESSAGE_44",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_44  (我正在收集超級進化寶可夢ex！)",
+    "SortOrderPriority": 44
+  },
+  {
+    "ID": "PROFILE_MESSAGE_5",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_5  (我喜歡很強的寶可夢)",
+    "SortOrderPriority": 5
+  },
+  {
+    "ID": "PROFILE_MESSAGE_6",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_6  (我喜歡傳說的寶可夢和幻之寶可夢)",
+    "SortOrderPriority": 6
+  },
+  {
+    "ID": "PROFILE_MESSAGE_7",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_7  (我是草屬性收藏家)",
+    "SortOrderPriority": 7
+  },
+  {
+    "ID": "PROFILE_MESSAGE_8",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_8  (我是火屬性收藏家)",
+    "SortOrderPriority": 8
+  },
+  {
+    "ID": "PROFILE_MESSAGE_9",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_9  (我是水屬性收藏家)",
+    "SortOrderPriority": 9
+  }
+]

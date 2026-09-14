@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/pack_ceil_point.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_power.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_power_heal_items.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_power_to_use.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto";
+import "takasho/schema/lettuce_server/resource/pack_shop/pack_shop_purchase_order.proto";
+
+message PackShopPurchaseV2 {
+  message Types {
+    message Request {
+      message Types {
+        enum Amount {
+          AMOUNT_UNSPECIFIED = 0;
+          AMOUNT_ONE = 1;
+          AMOUNT_TEN = 10;
+        }
+      }
+      string pack_consistent_token = 1;
+      string transaction_id = 2;
+      string product_id = 3;
+      PackShopPurchaseV2.Types.Request.Types.Amount amount = 4;
+      takasho.schema.lettuce_server.resource.pack.PackPowerHealItems heal_items = 5;
+      repeated takasho.schema.lettuce_server.resource.pack.PackPowerToUse use_powers = 6;
+      bool do_share = 7;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.pack_shop.PackShopPurchaseOrder purchase_order = 1;
+      repeated takasho.schema.lettuce_server.resource.pack.PackUnpackOrder unpack_orders = 2;
+      takasho.schema.lettuce_server.resource.item.PackCeilPoint pack_ceil_point = 3;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+      repeated takasho.schema.lettuce_server.resource.pack.PackPower pack_powers = 5;
+    }
+  }
+}

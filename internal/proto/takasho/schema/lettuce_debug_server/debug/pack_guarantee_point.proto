@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pack_guarantee_point_get_point.proto";
+import "takasho/schema/lettuce_debug_server/debug/pack_guarantee_point_set_point.proto";
+
+service PackGuaranteePoint {
+  rpc SetPoint (PackGuaranteePointSetPoint.Types.Request) returns (PackGuaranteePointSetPoint.Types.Response);
+  rpc GetPoint (PackGuaranteePointGetPoint.Types.Request) returns (PackGuaranteePointGetPoint.Types.Response);
+}

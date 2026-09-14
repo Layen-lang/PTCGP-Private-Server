@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/entry.proto";
+
+message DebugStorageSetEntriesV1 {
+  message Types {
+    message Request {
+      repeated Entry entries = 1;
+      string next_revision = 2;
+      string previous_revision = 3;
+    }
+    message Response {
+      repeated Entry entries = 1;
+      string revision = 2;
+    }
+  }
+}

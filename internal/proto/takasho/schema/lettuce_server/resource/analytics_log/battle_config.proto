@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message BattleConfig {
+  int64 bgm_volume = 1;
+  bool bgm_mute_flg = 2;
+  int64 se_volume = 3;
+  bool se_mute_flg = 4;
+  bool notice_operation_flg = 5;
+  bool next_energy_flg = 6;
+}

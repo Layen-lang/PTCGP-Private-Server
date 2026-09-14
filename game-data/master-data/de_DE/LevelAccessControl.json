@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (Kämpfe werden freigeschaltet, nachdem du Teil 06\ndes Kampf-Tutorials abgeschlossen hast.\n\nDu kannst das Kampf-Tutorial aufrufen, indem du\nauf die Schaltfläche unten links im Kampfmenü\ntippst.)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (Das Kampfmenü wird auf Spielerlevel 3\nfreigeschaltet.\n\nDu kannst deinen Spielerlevel mit Spieler-EP\nerhöhen. Diese erhältst du zum Beispiel, indem du\nPacks öffnest.)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (Galerien werden auf Spielerlevel 4 freigeschaltet.\n\nDu kannst deinen Spielerlevel mit Spieler-EP\nerhöhen. Diese erhältst du zum Beispiel, indem du\nPacks öffnest.)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (Alben werden auf Spielerlevel 6 freigeschaltet.\n\nDu kannst deinen Spielerlevel mit Spieler-EP\nerhöhen. Diese erhältst du zum Beispiel, indem du\nPacks öffnest.)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (Decks werden freigeschaltet, nachdem du Teil 06\ndes Kampf-Tutorials abgeschlossen hast.\n\nDu kannst das Kampf-Tutorial aufrufen, indem du\nauf die Schaltfläche unten links im Kampfmenü\ntippst.)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (Deck-Missionen werden auf Spielerlevel 3\nfreigeschaltet.\n\nDu kannst deinen Spielerlevel mit Spieler-EP\nerhöhen. Diese erhältst du zum Beispiel, indem du\nPacks öffnest.)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (Die Wunderwahl wird auf Spielerlevel 2\nfreigeschaltet.)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (Die Tauschfunktion wird auf Spielerlevel 3\nfreigeschaltet.\n\nDu kannst deinen Spielerlevel mit Spieler-EP\nerhöhen. Diese erhältst du zum Beispiel, indem du\nPacks öffnest.)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

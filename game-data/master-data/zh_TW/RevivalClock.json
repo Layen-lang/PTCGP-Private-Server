@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (用來復活已過期的得卡挑戰的道具。\n每次只能使用1個，需連同挑戰力一起消耗。)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (復活時鐘)",
+    "SortOrderPriority": 1
+  }
+]

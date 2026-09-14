@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message TutorialSetTutorialStep {
+  message Types {
+    message Request {
+      message Types {
+        message Step {
+          string player_id = 1;
+          string tutorial_id = 2;
+          int64 step = 3;
+        }
+      }
+      repeated TutorialSetTutorialStep.Types.Request.Types.Step steps = 1;
+    }
+    message Response {
+    }
+  }
+}

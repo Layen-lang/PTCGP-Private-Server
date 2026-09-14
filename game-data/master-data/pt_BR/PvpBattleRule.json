@@ -1,0 +1,13 @@
+[
+  {
+    "AfkPlayerTurnTimeLimitSeconds": 30,
+    "BattlePreparationTimeLimitClientSeconds": 90,
+    "BattlePreparationTimeLimitSeconds": 99,
+    "BattleTimeLimitMinutes": 20,
+    "FinalTurnNumber": 30,
+    "NonTurnActionTimeLimitSeconds": 30,
+    "RuleID": "BT_RU_MULTI_STANDARD",
+    "TurnTimeLimitSeconds": 90,
+    "WinningPrize": 3
+  }
+]

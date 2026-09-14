@@ -1,0 +1,117 @@
+[
+  {
+    "DescriptionMSID": "CauseSpecialConditionParalyzed_MSID  (相手ポケモンを[Num:Int id=\"0\" max_length=\"2\"]回マヒにする)",
+    "SoloBattleTrySumKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionAsleep_MSID  (相手ポケモンを[Num:Int id=\"0\" max_length=\"2\"]回ねむりにする)",
+    "SoloBattleTrySumKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionBurned_MSID  (相手ポケモンを[Num:Int id=\"0\" max_length=\"2\"]回やけどにする)",
+    "SoloBattleTrySumKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionConfused_MSID  (相手ポケモンを[Num:Int id=\"0\" max_length=\"2\"]回こんらんにする)",
+    "SoloBattleTrySumKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionPoisoned_MSID  (相手ポケモンを[Num:Int id=\"0\" max_length=\"2\"]回どくにする)",
+    "SoloBattleTrySumKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByColorlessAttack_MSID  (無色タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 20,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByGrassAttack_MSID  (草タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 21,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFireAttack_MSID  (炎タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 22,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByWaterAttack_MSID  (水タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 23,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByLightningAttack_MSID  (雷タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 24,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByPsychicAttack_MSID  (超タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 25,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFightingAttack_MSID  (闘タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 26,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDarknessAttack_MSID  (悪タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 27,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByMetalAttack_MSID  (鋼タイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 28,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDragonAttack_MSID  (ドラゴンタイプのポケモンのワザで相手のバトルポケモンを[Num:Int id=\"0\" max_length=\"2\"]回きぜつさせる)",
+    "SoloBattleTrySumKey": 29,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayBasicPokemon_MSID  (自分の場にたねポケモンを[Num:Int id=\"0\" max_length=\"2\"]匹出す)",
+    "SoloBattleTrySumKey": 40,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayOneEvolutionPokemon_MSID  (自分の場に1進化ポケモンを[Num:Int id=\"0\" max_length=\"2\"]匹出す)",
+    "SoloBattleTrySumKey": 41,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayTwoEvolutionPokemon_MSID  (自分の場に2進化ポケモンを[Num:Int id=\"0\" max_length=\"2\"]匹出す)",
+    "SoloBattleTrySumKey": 42,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayEXPokemon_MSID  (自分の場にポケモンexを[Num:Int id=\"0\" max_length=\"2\"]匹出す)",
+    "SoloBattleTrySumKey": 43,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "AttachEnergy_MSID  (自分のポケモンにエネルギーを[Num:Int id=\"0\" max_length=\"2\"]個つける)",
+    "SoloBattleTrySumKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordDealtSomeDamage_MSID  (与えたダメージが[Num:Int id=\"0\" max_length=\"5\"]ダメージ以上になる)",
+    "SoloBattleTrySumKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordAcquiredSomePoint_MSID  (獲得したポイント数が[Num:Int id=\"0\" max_length=\"3\"]ポイント以上になる)",
+    "SoloBattleTrySumKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordWonSomeBattle_MSID  (獲得した勝利数が[Num:Int id=\"0\" max_length=\"3\"]回以上になる)",
+    "SoloBattleTrySumKey": 103,
+    "TagParamType": 0
+  }
+]

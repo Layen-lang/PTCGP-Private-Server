@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message ChangeConfig {
+  int64 speaker_bgm_volume = 1;
+  int64 speaker_se_volume = 2;
+  int64 headphone_bgm_volume = 3;
+  int64 headphone_se_volume = 4;
+  int64 screen_quality = 5;
+  int64 fps = 6;
+  takasho.schema.lettuce_server.resource.language.Language language = 7;
+  string region = 8;
+  bool vibration = 9;
+  bool confirm_operation = 10;
+  bool share_pack = 11;
+  bool push_notice_recover_stamina = 12;
+  bool push_notice_recover_stamina2 = 13;
+  bool push_notice_trade = 14;
+  bool push_notice_worldcard = 15;
+  bool push_notice_news = 16;
+  bool push_notice_all = 17;
+  bool bgm_mute_flg = 18;
+  bool se_mute_flg = 19;
+  int64 trade_auto_reject = 20;
+  bool automation_gold_frame_flg = 21;
+}

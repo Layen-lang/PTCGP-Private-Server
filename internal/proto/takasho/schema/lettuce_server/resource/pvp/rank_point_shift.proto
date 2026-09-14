@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/pvp/main_rank_type.proto";
+import "takasho/schema/lettuce_server/resource/pvp/sub_rank_type.proto";
+
+message RankPointShift {
+  int64 point_before = 1;
+  MainRankType main_rank_before = 2;
+  SubRankType sub_rank_before = 3;
+  int64 point_after = 4;
+  MainRankType main_rank_after = 5;
+  SubRankType sub_rank_after = 6;
+  int64 acquisition_points = 7;
+  int64 bonus_points = 8;
+  bool promoted = 9;
+  bool relegated = 10;
+}

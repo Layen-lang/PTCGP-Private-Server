@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/bot_defender_get_evidence.proto";
+import "takasho/schema/lettuce_debug_server/debug/bot_defender_set_evidence.proto";
+
+service BotDefender {
+  rpc GetEvidence (BotDefenderGetEvidence.Types.Request) returns (BotDefenderGetEvidence.Types.Response);
+  rpc SetEvidence (BotDefenderSetEvidence.Types.Request) returns (BotDefenderSetEvidence.Types.Response);
+}

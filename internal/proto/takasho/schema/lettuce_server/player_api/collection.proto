@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/collection_get_someones_v1.proto";
+import "takasho/schema/lettuce_server/player_api/collection_like_v1.proto";
+import "takasho/schema/lettuce_server/player_api/collection_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/collection_other_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/collection_set_my_best_v1.proto";
+
+service Collection {
+  rpc GetSomeonesV1 (CollectionGetSomeonesV1.Types.Request) returns (CollectionGetSomeonesV1.Types.Response);
+  rpc ListV1 (CollectionListV1.Types.Request) returns (CollectionListV1.Types.Response);
+  rpc OtherListV1 (CollectionOtherListV1.Types.Request) returns (CollectionOtherListV1.Types.Response);
+  rpc SetMyBestV1 (CollectionSetMyBestV1.Types.Request) returns (CollectionSetMyBestV1.Types.Response);
+  rpc LikeV1 (CollectionLikeV1.Types.Request) returns (CollectionLikeV1.Types.Response);
+}

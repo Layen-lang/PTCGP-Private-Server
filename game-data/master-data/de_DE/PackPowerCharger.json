@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (Verkürzt die Zeit, bis weitere Packs geöffnet\nwerden können, um eine Stunde. Unter anderem\nerhältlich als Missionsbelohnung.)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (Pack-Sanduhr)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PvpRankSetRankingPlayerPoints {
+  message Types {
+    message Request {
+      message Types {
+        message RankingPlayerPoint {
+          string player_id = 1;
+          string season_id = 2;
+          int64 point = 3;
+        }
+      }
+      repeated PvpRankSetRankingPlayerPoints.Types.Request.Types.RankingPlayerPoint points = 1;
+    }
+    message Response {
+    }
+  }
+}

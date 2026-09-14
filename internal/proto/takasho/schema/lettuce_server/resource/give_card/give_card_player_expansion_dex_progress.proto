@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.give_card;
+
+message GiveCardPlayerExpansionDexProgress {
+  string expansion_id = 100;
+  int64 count = 200;
+}

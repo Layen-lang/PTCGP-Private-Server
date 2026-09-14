@@ -1,0 +1,3842 @@
+[
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100110_EIEVUI",
+    "NameMSID": "PeripheralGoods_BOARD_100110_EIEVUI  (이브이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100110_EIEVUI_SHORT  (이브이)",
+    "SortOrderPriority": 11,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100120_NYARTH",
+    "NameMSID": "PeripheralGoods_BOARD_100120_NYARTH  (나옹(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100120_NYARTH_SHORT  (나옹)",
+    "SortOrderPriority": 12,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100130_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100130_LIZARDON  (리자몽(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100130_LIZARDON_SHORT  (리자몽)",
+    "SortOrderPriority": 13,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100140_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA  (이상해꽃(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA_SHORT  (이상해꽃)",
+    "SortOrderPriority": 14,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100150_GREEN",
+    "NameMSID": "PeripheralGoods_BOARD_100150_GREEN  (그린(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100150_GREEN_SHORT  (그린)",
+    "SortOrderPriority": 15,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100160_MEWTWO",
+    "NameMSID": "PeripheralGoods_BOARD_100160_MEWTWO  (뮤츠(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100160_MEWTWO_SHORT  (뮤츠)",
+    "SortOrderPriority": 16,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100170_ERIKA",
+    "NameMSID": "PeripheralGoods_BOARD_100170_ERIKA  (민화(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100170_ERIKA_SHORT  (민화)",
+    "SortOrderPriority": 17,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100180_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT  (가디안(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT_SHORT  (가디안)",
+    "SortOrderPriority": 18,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100190_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100190_PIKACHU  (피카츄(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100190_PIKACHU_SHORT  (피카츄)",
+    "SortOrderPriority": 19,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100350_PremiumSet",
+    "NameMSID": "PeripheralGoods_BOARD_100350_PremiumSet  (스페셜 세트01(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100350_PremiumSet_SHORT  (스페셜 세트01)",
+    "SortOrderPriority": 24,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100360_Displayframe_cool",
+    "NameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool  (디스플레이 프레임 쿨(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool_SHORT  (디스플레이 프레임 쿨)",
+    "SortOrderPriority": 25,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100370_Natural_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf  (내추럴 리프(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf_SHORT  (내추럴 리프)",
+    "SortOrderPriority": 26,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100390_Snow_Crystal",
+    "NameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal  (스노 크리스털(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal_SHORT  (스노 크리스털)",
+    "SortOrderPriority": 28,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100400_Displayframe_pinkdesk",
+    "NameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk  (디스플레이 프레임 핑크 데스크(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk_SHORT  (디스플레이 프레임 핑크 데스크)",
+    "SortOrderPriority": 29,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100410_Miniature_temple",
+    "NameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple  (미니어처 신전(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple_SHORT  (미니어처 신전)",
+    "SortOrderPriority": 30,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100420_Displayframe_winterholiday",
+    "NameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday  (디스플레이 프레임 홀리데이(겨울)(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday_SHORT  (디스플레이 프레임 홀리데이(겨울))",
+    "SortOrderPriority": 31,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100430_Displayframe_newyear",
+    "NameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear  (디스플레이 프레임 뉴 이어(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear_SHORT  (디스플레이 프레임 뉴 이어)",
+    "SortOrderPriority": 32,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100440_Displayframe_brightroom",
+    "NameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom  (디스플레이 프레임 밝은 방(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom_SHORT  (디스플레이 프레임 밝은 방)",
+    "SortOrderPriority": 33,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100460_SHIRONA_MIKARUGE",
+    "NameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE  (난천&화강돌(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE_SHORT  (난천&화강돌)",
+    "SortOrderPriority": 35,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100470_HIKOZARU",
+    "NameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU  (불꽃숭이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU_SHORT  (불꽃숭이)",
+    "SortOrderPriority": 36,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100480_DARKRAI",
+    "NameMSID": "PeripheralGoods_BOARD_100480_DARKRAI  (다크라이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100480_DARKRAI_SHORT  (다크라이)",
+    "SortOrderPriority": 37,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100490_Cave_ore",
+    "NameMSID": "PeripheralGoods_BOARD_100490_Cave_ore  (광석이 잠든 동굴(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100490_Cave_ore_SHORT  (광석이 잠든 동굴)",
+    "SortOrderPriority": 38,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100500_Sweet_heart",
+    "NameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart  (스위트 하트(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart_SHORT  (스위트 하트)",
+    "SortOrderPriority": 39,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100510_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA  (마나피&팽도리(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA_SHORT  (마나피&팽도리)",
+    "SortOrderPriority": 40,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100520_Cyber_device",
+    "NameMSID": "PeripheralGoods_BOARD_100520_Cyber_device  (사이버틱 장치(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100520_Cyber_device_SHORT  (사이버틱 장치)",
+    "SortOrderPriority": 41,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100530_ARCEUS",
+    "NameMSID": "PeripheralGoods_BOARD_100530_ARCEUS  (아르세우스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100530_ARCEUS_SHORT  (아르세우스)",
+    "SortOrderPriority": 42,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100540_SEKI_KAI",
+    "NameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI  (찬석&주혜(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI_SHORT  (찬석&주혜)",
+    "SortOrderPriority": 43,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100550_Cherry_blossoms",
+    "NameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms  (만개한 벚꽃(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms_SHORT  (만개한 벚꽃)",
+    "SortOrderPriority": 44,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100560_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU  (루카리오&리오르(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU_SHORT  (루카리오&리오르)",
+    "SortOrderPriority": 45,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100570_Hall_of_fame",
+    "NameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame  (디스플레이 프레임 스테이지(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame_SHORT  (디스플레이 프레임 스테이지)",
+    "SortOrderPriority": 46,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100580_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON  (색이 다른 리자몽(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON_SHORT  (색이 다른 리자몽)",
+    "SortOrderPriority": 47,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100590_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU  (레드&피카츄(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU_SHORT  (레드&피카츄)",
+    "SortOrderPriority": 48,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100600_Displayframe_spring",
+    "NameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring  (디스플레이 프레임 봄(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring_SHORT  (디스플레이 프레임 봄)",
+    "SortOrderPriority": 49,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100610_Shiny_glare",
+    "NameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare  (디스플레이 프레임 색이 다른 빛(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare_SHORT  (디스플레이 프레임 색이 다른 빛)",
+    "SortOrderPriority": 50,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100620_SOLGALEO",
+    "NameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO  (솔가레오(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO_SHORT  (솔가레오)",
+    "SortOrderPriority": 51,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100630_STARRY_SKY",
+    "NameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY  (스타리 스카이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY_SHORT  (스타리 스카이)",
+    "SortOrderPriority": 52,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100640_MOKUROH",
+    "NameMSID": "PeripheralGoods_BOARD_100640_MOKUROH  (나몰빼미(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100640_MOKUROH_SHORT  (나몰빼미)",
+    "SortOrderPriority": 53,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100650_LILIE",
+    "NameMSID": "PeripheralGoods_BOARD_100650_LILIE  (릴리에(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100650_LILIE_SHORT  (릴리에)",
+    "SortOrderPriority": 54,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100660_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION  (축하의 마을(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION_SHORT  (축하의 마을)",
+    "SortOrderPriority": 55,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100670_DIGITAL_SPACE",
+    "NameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE  (디지털 공간(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE_SHORT  (디지털 공간)",
+    "SortOrderPriority": 56,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100680_uNECROZMA",
+    "NameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA  (울트라네크로즈마(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA_SHORT  (울트라네크로즈마)",
+    "SortOrderPriority": 57,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100690_FLOWER_GIFTBOX",
+    "NameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX  (플라워기프트 박스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX_SHORT  (플라워기프트 박스)",
+    "SortOrderPriority": 58,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100700_aROKON",
+    "NameMSID": "PeripheralGoods_BOARD_100700_aROKON  (알로라식스테일(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100700_aROKON_SHORT  (알로라식스테일)",
+    "SortOrderPriority": 59,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100710_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU  (아세로라&따라큐(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU_SHORT  (아세로라&따라큐)",
+    "SortOrderPriority": 60,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100720_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY  (글라디오(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY_SHORT  (글라디오)",
+    "SortOrderPriority": 61,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100730_NIGHT_CAMP",
+    "NameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP  (한밤의 숲속 캠프(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP_SHORT  (한밤의 숲속 캠프)",
+    "SortOrderPriority": 62,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100740_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2  (이브이 Ver.2(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2_SHORT  (이브이 Ver.2)",
+    "SortOrderPriority": 63,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100750_NYMPHIA",
+    "NameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA  (님피아&에리본&큐아링(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA_SHORT  (님피아&에리본&큐아링)",
+    "SortOrderPriority": 64,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100760_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY  (에브이&블래키(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY_SHORT  (에브이&블래키)",
+    "SortOrderPriority": 67,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100770_BANGIRAS",
+    "NameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS  (마기라스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS_SHORT  (마기라스)",
+    "SortOrderPriority": 68,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100780_Under_the_Sea",
+    "NameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea  (바닷속(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea_SHORT  (바닷속)",
+    "SortOrderPriority": 66,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100790_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA  (칠색조&루기아(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA_SHORT  (칠색조&루기아)",
+    "SortOrderPriority": 69,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100800_Displayframe_garden",
+    "NameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden  (디스플레이 프레임 정원(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden_SHORT  (디스플레이 프레임 정원)",
+    "SortOrderPriority": 70,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100810_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH  (누오&토오(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH_SHORT  (누오&토오)",
+    "SortOrderPriority": 71,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100820_Displayframe_Halloween",
+    "NameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween  (핼러윈(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween_SHORT  (핼러윈)",
+    "SortOrderPriority": 72,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100830_SUICUNE",
+    "NameMSID": "PeripheralGoods_BOARD_100830_SUICUNE  (스이쿤(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100830_SUICUNE_SHORT  (스이쿤)",
+    "SortOrderPriority": 73,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100840_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI  (피츄&삐&마그비&루리리(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI_SHORT  (피츄&삐&마그비&루리리)",
+    "SortOrderPriority": 74,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100850_Displayframe_Nine",
+    "NameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine  (디스플레이 프레임 9장(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine_SHORT  (디스플레이 프레임 9장)",
+    "SortOrderPriority": 65,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100860_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS  (메가파비코리(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS_SHORT  (메가파비코리)",
+    "SortOrderPriority": 80,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100870_KODUCK",
+    "NameMSID": "PeripheralGoods_BOARD_100870_KODUCK  (고라파덕(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100870_KODUCK_SHORT  (고라파덕)",
+    "SortOrderPriority": 81,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100880_Autumn_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf  (어텀 리프(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf_SHORT  (어텀 리프)",
+    "SortOrderPriority": 82,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100890_KOIKING",
+    "NameMSID": "PeripheralGoods_BOARD_100890_KOIKING  (잉어킹(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100890_KOIKING_SHORT  (잉어킹)",
+    "SortOrderPriority": 83,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100900_Holiday2025",
+    "NameMSID": "PeripheralGoods_BOARD_100900_Holiday2025  (홀리데이 2025(겨울)(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100900_Holiday2025_SHORT  (홀리데이 2025(겨울))",
+    "SortOrderPriority": 84,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100910_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO  (메가번치코(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO_SHORT  (메가번치코)",
+    "SortOrderPriority": 85,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100920_HARUKA",
+    "NameMSID": "PeripheralGoods_BOARD_100920_HARUKA  (봄이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100920_HARUKA_SHORT  (봄이)",
+    "SortOrderPriority": 86,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100930_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON  (메가진화 포켓몬(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON_SHORT  (메가진화 포켓몬)",
+    "SortOrderPriority": 87,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100940_PremiumSet02",
+    "NameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02  (스페셜 세트02(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02_SHORT  (스페셜 세트02)",
+    "SortOrderPriority": 88,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100950_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION  (메가진화 ex(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION_SHORT  (메가진화 ex)",
+    "SortOrderPriority": 89,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100960_Music_Space",
+    "NameMSID": "PeripheralGoods_BOARD_100960_Music_Space  (뮤직 스페이스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100960_Music_Space_SHORT  (뮤직 스페이스)",
+    "SortOrderPriority": 90,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100970_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO  (오박사(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO_SHORT  (오박사)",
+    "SortOrderPriority": 77,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100980_Autumn_Afternoon_Tea",
+    "NameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea  (가을의 애프터눈 티(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea_SHORT  (가을의 애프터눈 티)",
+    "SortOrderPriority": 78,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_100990_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2  (릴리에 Ver.2(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2_SHORT  (릴리에 Ver.2)",
+    "SortOrderPriority": 75,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101000_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA  (개굴닌자(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA_SHORT  (개굴닌자)",
+    "SortOrderPriority": 76,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101010_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 뉴 이어(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY_SHORT  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 뉴 이어)",
+    "SortOrderPriority": 96,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101020_ShotingStar_Sky",
+    "NameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky  (별똥별 하늘(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky_SHORT  (별똥별 하늘)",
+    "SortOrderPriority": 98,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101030_Rainbow",
+    "NameMSID": "PeripheralGoods_BOARD_101030_Rainbow  (레인보우(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101030_Rainbow_SHORT  (레인보우)",
+    "SortOrderPriority": 99,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101040_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU  (따라큐(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU_SHORT  (따라큐)",
+    "SortOrderPriority": 100,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101050_STRINDER",
+    "NameMSID": "PeripheralGoods_BOARD_101050_STRINDER  (스트린더(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101050_STRINDER_SHORT  (스트린더)",
+    "SortOrderPriority": 101,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101060_SIRNIGHT_KIRLIA_RALTS",
+    "NameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS  (가디안&킬리아&랄토스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS_SHORT  (가디안&킬리아&랄토스)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101070_NUMERA",
+    "NameMSID": "PeripheralGoods_BOARD_101070_NUMERA  (미끄메라(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101070_NUMERA_SHORT  (미끄메라)",
+    "SortOrderPriority": 92,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101080_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY  (메가리자몽Y(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY_SHORT  (메가리자몽Y)",
+    "SortOrderPriority": 93,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101090_SERENA",
+    "NameMSID": "PeripheralGoods_BOARD_101090_SERENA  (세레나(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101090_SERENA_SHORT  (세레나)",
+    "SortOrderPriority": 94,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101100_NewYear2026",
+    "NameMSID": "PeripheralGoods_BOARD_101100_NewYear2026  (뉴 이어 2026(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101100_NewYear2026_SHORT  (뉴 이어 2026)",
+    "SortOrderPriority": 95,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101110_PEPER",
+    "NameMSID": "PeripheralGoods_BOARD_101110_PEPER  (페퍼(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101110_PEPER_SHORT  (페퍼)",
+    "SortOrderPriority": 200,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101120_Adventure_Field",
+    "NameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field  (모험의 들판(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field_SHORT  (모험의 들판)",
+    "SortOrderPriority": 210,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101130_NYAHOJA_HOGATOR_KUWASSU",
+    "NameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU  (나오하&뜨아거&꾸왁스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU_SHORT  (나오하&뜨아거&꾸왁스)",
+    "SortOrderPriority": 220,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101140_NANJYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO  (모야모(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO_SHORT  (모야모)",
+    "SortOrderPriority": 230,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101150_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA  (메가캥카(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA_SHORT  (메가캥카)",
+    "SortOrderPriority": 340,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101160_Displayframe_snowy_window",
+    "NameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window  (디스플레이 프레임 눈 풍경(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window_SHORT  (디스플레이 프레임 눈 풍경)",
+    "SortOrderPriority": 350,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR  (메가팬텀&색이 다른 메가팬텀(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR_SHORT  (메가팬텀&색이 다른 메가팬텀)",
+    "SortOrderPriority": 310,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101180_MORPEKO",
+    "NameMSID": "PeripheralGoods_BOARD_101180_MORPEKO  (모르페코(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101180_MORPEKO_SHORT  (모르페코)",
+    "SortOrderPriority": 320,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101190_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA  (조로아크&조로아(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA_SHORT  (조로아크&조로아)",
+    "SortOrderPriority": 430,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101200_KIMORI_ACHAMO_MIZUGOROU",
+    "NameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU  (나무지기&아차모&물짱이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU_SHORT  (나무지기&아차모&물짱이)",
+    "SortOrderPriority": 450,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101210_Rival",
+    "NameMSID": "PeripheralGoods_BOARD_101210_Rival  (라이벌(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101210_Rival_SHORT  (라이벌)",
+    "SortOrderPriority": 460,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU  (메가루카리오&루카리오&리오르(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU_SHORT  (메가루카리오&루카리오&리오르)",
+    "SortOrderPriority": 470,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101230_ForestPokemons",
+    "NameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons  (숲의 포켓몬들(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons_SHORT  (숲의 포켓몬들)",
+    "SortOrderPriority": 420,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101240_LanternNight",
+    "NameMSID": "PeripheralGoods_BOARD_101240_LanternNight  (밤하늘의 등불(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101240_LanternNight_SHORT  (밤하늘의 등불)",
+    "SortOrderPriority": 410,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101250_KAMITSURE",
+    "NameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE  (카밀레(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE_SHORT  (카밀레)",
+    "SortOrderPriority": 610,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101260_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc  (멍파치&가디&요테리&암멍이&쫀도기(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc_SHORT  (멍파치&가디&요테리&암멍이&쫀도기)",
+    "SortOrderPriority": 620,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101270_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc  (피카츄&팽도리&님피아&요씽리스&잠만보(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc_SHORT  (피카츄&팽도리&님피아&요씽리스&잠만보)",
+    "SortOrderPriority": 630,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101280_Deserted_Island",
+    "NameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island  (무인도(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island_SHORT  (무인도)",
+    "SortOrderPriority": 91,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101290_KORAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101290_KORAIDON  (코라이돈(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101290_KORAIDON_SHORT  (코라이돈)",
+    "SortOrderPriority": 510,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101300_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI  (깜까미(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI_SHORT  (깜까미)",
+    "SortOrderPriority": 520,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101310_MIRAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON  (미라이돈(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON_SHORT  (미라이돈)",
+    "SortOrderPriority": 530,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101320_GEOMETRIC",
+    "NameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC  (지오메트릭 패턴(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC_SHORT  (지오메트릭 패턴)",
+    "SortOrderPriority": 540,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101330_VictoryStand",
+    "NameMSID": "PeripheralGoods_BOARD_101330_VictoryStand  (시상대(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101330_VictoryStand_SHORT  (시상대)",
+    "SortOrderPriority": 97,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101340_Displayframe_Two",
+    "NameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two  (디스플레이 프레임 2장(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two_SHORT  (디스플레이 프레임 2장)",
+    "SortOrderPriority": 240,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101350_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY  (포켓몬 30주년 디자인(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY_SHORT  (포켓몬 30주년 디자인)",
+    "SortOrderPriority": 250,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101360_Displayframe_Nine_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2  (디스플레이 프레임 9장 Ver.2(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2_SHORT  (디스플레이 프레임 9장 Ver.2)",
+    "SortOrderPriority": 440,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101370_Battle_Screen",
+    "NameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen  (배틀 화면(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen_SHORT  (배틀 화면)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101380_All_seasons",
+    "NameMSID": "PeripheralGoods_BOARD_101380_All_seasons  (계절(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101380_All_seasons_SHORT  (계절)",
+    "SortOrderPriority": 330,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101390_METAGROSS",
+    "NameMSID": "PeripheralGoods_BOARD_101390_METAGROSS  (메타그로스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101390_METAGROSS_SHORT  (메타그로스)",
+    "SortOrderPriority": 710,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101400_MIJUMARU",
+    "NameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU  (수댕이(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU_SHORT  (수댕이)",
+    "SortOrderPriority": 740,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101410_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA  (메가레쿠쟈(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA_SHORT  (메가레쿠쟈)",
+    "SortOrderPriority": 730,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101420_Everyday_city",
+    "NameMSID": "PeripheralGoods_BOARD_101420_Everyday_city  (일상의 도시(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101420_Everyday_city_SHORT  (일상의 도시)",
+    "SortOrderPriority": 720,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101430_Water_balloon",
+    "NameMSID": "PeripheralGoods_BOARD_101430_Water_balloon  (여름의 물풍선(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101430_Water_balloon_SHORT  (여름의 물풍선)",
+    "SortOrderPriority": 750,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101440_Rock_Paper_Scissors",
+    "NameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors  (가위바위보(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors_SHORT  (가위바위보)",
+    "SortOrderPriority": 760,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101450_Title_screen",
+    "NameMSID": "PeripheralGoods_BOARD_101450_Title_screen  (타이틀 화면(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101450_Title_screen_SHORT  (타이틀 화면)",
+    "SortOrderPriority": 550,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101460_Calendar",
+    "NameMSID": "PeripheralGoods_BOARD_101460_Calendar  (캘린더(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101460_Calendar_SHORT  (캘린더)",
+    "SortOrderPriority": 640,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101470_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc  (썬더&프리져&파이어(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc_SHORT  (썬더&프리져&파이어)",
+    "SortOrderPriority": 810,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101480_FOKKO",
+    "NameMSID": "PeripheralGoods_BOARD_101480_FOKKO  (푸호꼬(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101480_FOKKO_SHORT  (푸호꼬)",
+    "SortOrderPriority": 820,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101490_SAKAKI",
+    "NameMSID": "PeripheralGoods_BOARD_101490_SAKAKI  (로켓단의 보스(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101490_SAKAKI_SHORT  (로켓단의 보스)",
+    "SortOrderPriority": 830,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101500_RED_SPOTLIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT  (빨간 각광(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT_SHORT  (빨간 각광)",
+    "SortOrderPriority": 840,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101510_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET  (로켓단(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET_SHORT  (로켓단)",
+    "SortOrderPriority": 850,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101520_WeightComparison",
+    "NameMSID": "PeripheralGoods_BOARD_101520_WeightComparison  (무게 비교(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101520_WeightComparison_SHORT  (무게 비교)",
+    "SortOrderPriority": 860,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (컬렉션 보드 기능에서 사용할\n카드를 꾸미는 배경지입니다.)",
+    "ID": "BOARD_101530_RETRO_SUMMER",
+    "NameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER  (레트로 서머(보드))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER_SHORT  (레트로 서머)",
+    "SortOrderPriority": 650,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_COIN_100020_EIEVUI  (이브이(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100020_EIEVUI_SHORT  (이브이)",
+    "SortOrderPriority": 2,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_COIN_100030_NYARTH  (나옹(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100030_NYARTH_SHORT  (나옹)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100040_LIZARDON  (리자몽(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100040_LIZARDON_SHORT  (리자몽)",
+    "SortOrderPriority": 4,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100060_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA  (이상해꽃(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA_SHORT  (이상해꽃)",
+    "SortOrderPriority": 6,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100080_KAMEX",
+    "NameMSID": "PeripheralGoods_COIN_100080_KAMEX  (거북왕(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100080_KAMEX_SHORT  (거북왕)",
+    "SortOrderPriority": 8,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100100_MEWTWO  (뮤츠(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100100_MEWTWO_SHORT  (뮤츠)",
+    "SortOrderPriority": 10,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100130_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT  (가디안(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT_SHORT  (가디안)",
+    "SortOrderPriority": 13,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100140_PIKACHU",
+    "NameMSID": "PeripheralGoods_COIN_100140_PIKACHU  (피카츄(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100140_PIKACHU_SHORT  (피카츄)",
+    "SortOrderPriority": 14,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100160_MONSTERBALL",
+    "NameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL  (몬스터볼(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL_SHORT  (몬스터볼)",
+    "SortOrderPriority": 16,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100240_PremiumSet",
+    "NameMSID": "PeripheralGoods_COIN_100240_PremiumSet  (스페셜 세트01(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100240_PremiumSet_SHORT  (스페셜 세트01)",
+    "SortOrderPriority": 24,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100250_MEW",
+    "NameMSID": "PeripheralGoods_COIN_100250_MEW  (뮤(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100250_MEW_SHORT  (뮤)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100260_ERIKA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB  (민화 레인보우(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB_SHORT  (민화 레인보우)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100270_ERIKA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO  (민화 어나더(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO_SHORT  (민화 어나더)",
+    "SortOrderPriority": 26,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100290_SHIRONA",
+    "NameMSID": "PeripheralGoods_COIN_100290_SHIRONA  (난천(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100290_SHIRONA_SHORT  (난천)",
+    "SortOrderPriority": 28,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100300_HIKOZARU",
+    "NameMSID": "PeripheralGoods_COIN_100300_HIKOZARU  (불꽃숭이(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100300_HIKOZARU_SHORT  (불꽃숭이)",
+    "SortOrderPriority": 29,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100310_DARKRAI",
+    "NameMSID": "PeripheralGoods_COIN_100310_DARKRAI  (다크라이(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100310_DARKRAI_SHORT  (다크라이)",
+    "SortOrderPriority": 30,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100320_MANAPHY",
+    "NameMSID": "PeripheralGoods_COIN_100320_MANAPHY  (마나피(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100320_MANAPHY_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100330_ARCEUS",
+    "NameMSID": "PeripheralGoods_COIN_100330_ARCEUS  (아르세우스(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100330_ARCEUS_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100340_LEAFIA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO  (리피아 어나더(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO_SHORT  (리피아 어나더)",
+    "SortOrderPriority": 33,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100350_GLACIA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB  (글레이시아 레인보우(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB_SHORT  (글레이시아 레인보우)",
+    "SortOrderPriority": 34,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100360_LUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100360_LUCARIO  (루카리오(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100370_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100370_SHINY_LIZARDON  (색이 다른 리자몽(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100380_RED_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100380_RED_HOLO  (레드 어나더(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100390_RED_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100390_RED_RNB  (레드 레인보우(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100400_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100400_SHINY_MEWTWO  (색이 다른 뮤츠(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100410_SOLGALEO",
+    "NameMSID": "PeripheralGoods_COIN_100410_SOLGALEO  (솔가레오(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100410_SOLGALEO_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100420_MOKUROH",
+    "NameMSID": "PeripheralGoods_COIN_100420_MOKUROH  (나몰빼미(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100420_MOKUROH_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100430_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100430_LILIE  (릴리에(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100430_LILIE_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100440_SHAYMIN_SKYFORME",
+    "NameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME  (쉐이미 스카이폼(포켓몬 동전))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100450_uNECROZMA",
+    "NameMSID": "PeripheralGoods_COIN_100450_uNECROZMA  (울트라네크로즈마(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100460_aROKON",
+    "NameMSID": "PeripheralGoods_COIN_100460_aROKON  (알로라식스테일(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100490_SILVADY",
+    "NameMSID": "PeripheralGoods_COIN_100490_SILVADY  (실버디(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100500_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_COIN_100500_EIEVUI_2  (이브이 Ver.2(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100530_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_COIN_100530_EIFIE_BRACKY  (에브이&블래키(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100540_BANGIRAS",
+    "NameMSID": "PeripheralGoods_COIN_100540_BANGIRAS  (마기라스(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100550_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_COIN_100550_HOUOU_LUGIA  (칠색조&루기아(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100560_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_COIN_100560_NUOH_PALDEADOOH  (누오(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100570_SUICUNE",
+    "NameMSID": "PeripheralGoods_COIN_100570_SUICUNE  (스이쿤(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100600_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_COIN_100600_PROF_OHKIDO  (오박사(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100610_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100610_LILIE  (릴리에 Ver.2(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100620_PIKACHU_2",
+    "NameMSID": "PeripheralGoods_COIN_100620_PIKACHU_2  (피카츄 Ver.2(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100630_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_COIN_100630_GEKKOUGA  (개굴닌자(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100640_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_COIN_100640_MEGATYLTALIS  (메가파비코리(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100650_KODUCK",
+    "NameMSID": "PeripheralGoods_COIN_100650_KODUCK  (고라파덕(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 65,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100660_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_COIN_100660_MEGAGYARADOS  (메가갸라도스(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100670_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100670_MEGABURSYAMO  (메가번치코(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100680_HARUKA",
+    "NameMSID": "PeripheralGoods_COIN_100680_HARUKA  (봄이(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100690_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_COIN_100690_MEGA_POKEMON  (메가앱솔(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100700_PremiumSet02",
+    "NameMSID": "PeripheralGoods_COIN_100700_PremiumSet02  (스페셜 세트02(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100710_ACEROLA",
+    "NameMSID": "PeripheralGoods_COIN_100710_ACEROLA  (아세로라(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100720_NYMPHIA",
+    "NameMSID": "PeripheralGoods_COIN_100720_NYMPHIA  (님피아(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100730_PICHU",
+    "NameMSID": "PeripheralGoods_COIN_100730_PICHU  (피츄(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100740_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_COIN_100740_MIMIKKYU  (따라큐(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100750_STRINDER",
+    "NameMSID": "PeripheralGoods_COIN_100750_STRINDER  (스트린더(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100760_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100760_MEGASIRNIGHT  (메가가디안(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100770_NUMERA",
+    "NameMSID": "PeripheralGoods_COIN_100770_NUMERA  (미끄메라(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100780_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_COIN_100780_MEGALIZARDONY  (메가리자몽Y(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100790_SERENA",
+    "NameMSID": "PeripheralGoods_COIN_100790_SERENA  (세레나(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100800_PEPER",
+    "NameMSID": "PeripheralGoods_COIN_100800_PEPER  (페퍼(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100810_NYAHOJA",
+    "NameMSID": "PeripheralGoods_COIN_100810_NYAHOJA  (나오하(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100820_NANJYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100820_NANJYAMO  (모야모(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100830_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_COIN_100830_MEGAGARURA  (메가캥카(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100840_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_COIN_100840_SHINY_MEGAGANGAR  (색이 다른 메가팬텀(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100850_MORPEKO",
+    "NameMSID": "PeripheralGoods_COIN_100850_MORPEKO  (모르페코(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100860_ZOROARK",
+    "NameMSID": "PeripheralGoods_COIN_100860_ZOROARK  (조로아크(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100870_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_COIN_100870_MEGAJUKAIN  (메가나무킹(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100880_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100880_MEGALUCARIO  (메가루카리오(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100890_MESSON",
+    "NameMSID": "PeripheralGoods_COIN_100890_MESSON  (울머기(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100900_KAMITSURE",
+    "NameMSID": "PeripheralGoods_COIN_100900_KAMITSURE  (카밀레(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100910_WANPACHI",
+    "NameMSID": "PeripheralGoods_COIN_100910_WANPACHI  (멍파치(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100920_POCHAMA",
+    "NameMSID": "PeripheralGoods_COIN_100920_POCHAMA  (팽도리(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100930_KORAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100930_KORAIDON  (코라이돈(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100940_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_COIN_100940_YAMIRAMI  (깜까미(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100950_MIRAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100950_MIRAIDON  (미라이돈(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100960_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_COIN_100960_30th_ANNIVERSARY  (포켓몬 30주년 디자인(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_100990_METAGROSS",
+    "NameMSID": "PeripheralGoods_COIN_100990_METAGROSS  (메타그로스(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101000_MIJUMARU",
+    "NameMSID": "PeripheralGoods_COIN_101000_MIJUMARU  (수댕이(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101010_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_COIN_101010_MEGARAYQUAZA  (메가레쿠쟈(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101020_THUNDER",
+    "NameMSID": "PeripheralGoods_COIN_101020_THUNDER  (썬더(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101030_FOKKO",
+    "NameMSID": "PeripheralGoods_COIN_101030_FOKKO  (푸호꼬(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101040_SAKAKI",
+    "NameMSID": "PeripheralGoods_COIN_101040_SAKAKI  (로켓단의 보스(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (배틀 시에 사용할 수 있는 동전입니다.\n덱 기능에서 설정할 수 있습니다.)",
+    "ID": "COIN_101050_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_COIN_101050_TEAM_ROCKET  (로켓단(포켓몬 동전))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI  (이브이(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI_SHORT  (이브이)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH  (나옹(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH_SHORT  (나옹)",
+    "SortOrderPriority": 3,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON  (리자몽(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON_SHORT  (리자몽)",
+    "SortOrderPriority": 4,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA  (이상해꽃(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA_SHORT  (이상해꽃)",
+    "SortOrderPriority": 5,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100060_KAMEX",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX  (거북왕(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX_SHORT  (거북왕)",
+    "SortOrderPriority": 6,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO  (뮤츠(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO_SHORT  (뮤츠)",
+    "SortOrderPriority": 7,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA  (민화(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA_SHORT  (민화)",
+    "SortOrderPriority": 8,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT  (가디안(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT_SHORT  (가디안)",
+    "SortOrderPriority": 9,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU  (피카츄(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU_SHORT  (피카츄)",
+    "SortOrderPriority": 10,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet  (스페셜 세트01(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet_SHORT  (스페셜 세트01)",
+    "SortOrderPriority": 16,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100170_MEW",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW  (환상이 있는 섬 뮤(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW_SHORT  (환상이 있는 섬 뮤)",
+    "SortOrderPriority": 17,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100180_SHIRONA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA  (난천(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA_SHORT  (난천)",
+    "SortOrderPriority": 18,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100190_HIKOZARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU  (불꽃숭이(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU_SHORT  (불꽃숭이)",
+    "SortOrderPriority": 19,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI  (다크라이(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI_SHORT  (다크라이)",
+    "SortOrderPriority": 20,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100210_MANAPHY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY  (마나피(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY_SHORT",
+    "SortOrderPriority": 21,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS  (아르세우스(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100230_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA  (리피아&글레이시아(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA_SHORT  (리피아&글레이시아)",
+    "SortOrderPriority": 23,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100240_LUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100240_LUCARIO  (루카리오(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100250_SHINY_LIZARDON  (색이 다른 리자몽(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100260_RED_PIKACHU  (레드&피카츄(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100270_SHINY_MEWTWO  (색이 다른 뮤츠(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO  (솔가레오(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 28,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH  (나몰빼미(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100300_LILIE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE  (릴리에(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION  (축하의 마을(카드 실드))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100320_uNECROZMA  (울트라네크로즈마(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 32,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100330_aROKON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100330_aROKON  (알로라식스테일(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100340_ACEROLA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100340_ACEROLA  (아세로라(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100350_GLAZI_SILVADY  (글라디오(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100360_EIEVUI_2  (이브이 Ver.2(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100370_NYMPHIA  (님피아(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100380_EIFIE_BRACKY  (에브이&블래키(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100390_BANGIRAS  (마기라스(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100400_HOUOU_LUGIA  (칠색조&루기아(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100410_NUOH_PALDEADOOH  (누오&토오(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100420_SUICUNE  (스이쿤(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100430_PICHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100430_PICHU  (피츄(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100440_MEGATYLTALIS  (메가파비코리(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100450_KODUCK  (고라파덕(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100460_MEGAGYARADOS  (메가갸라도스(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100470_MEGABURSYAMO  (메가번치코(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100480_HARUKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100480_HARUKA  (봄이(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100490_MEGA_POKEMON  (메가진화 포켓몬(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100500_PremiumSet02  (스페셜 세트02(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100510_PROF_OHKIDO  (오박사(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100520_LILIE_Ver2  (릴리에 Ver.2(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100530_GEKKOUGA  (개굴닌자(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100540_1st_ANNIVERSARY  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 뉴 이어(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100550_MIMIKKYU  (따라큐(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100560_STRINDER  (스트린더(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100570_MEGASIRNIGHT  (메가가디안(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100580_NUMERA  (미끄메라(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100590_MEGALIZARDONY  (메가리자몽Y(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100600_SERENA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100600_SERENA  (세레나(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100610_PEPER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100610_PEPER  (페퍼(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100620_NYAHOJA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100620_NYAHOJA  (나오하(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100630_NANJYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100630_NANJYAMO  (모야모(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100640_MEGAGARURA  (메가캥카(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100650_SHINY_MEGAGANGAR  (색이 다른 메가팬텀(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100660_MORPEKO  (모르페코(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100670_ZOROARK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100670_ZOROARK  (조로아크(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100680_MEGAJUKAIN  (메가나무킹(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100690_MEGALUCARIO  (메가루카리오(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100700_ForestPokemons  (숲의 포켓몬들(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100710_KAMITSURE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100710_KAMITSURE  (카밀레(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100720_WANPACHI_GARDIE_etc  (멍파치&가디&요테리&암멍이&쫀도기(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100730_POCHAMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100730_POCHAMA  (팽도리(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100740_KORAIDON  (코라이돈(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100750_YAMIRAMI  (깜까미(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100760_MIRAIDON  (미라이돈(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100770_30th_ANNIVERSARY  (포켓몬 30주년 디자인(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100800_METAGROSS  (메타그로스(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100810_MIJUMARU  (수댕이(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100820_MEGARAYQUAZA  (메가레쿠쟈(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100830_THUNDER_FREEZER_etc  (썬더&프리져&파이어(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100840_FOKKO  (푸호꼬(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100850_SAKAKI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100850_SAKAKI  (로켓단의 보스(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (카드에 붙일 수 있는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "DECKSHIELD_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100860_TEAM_ROCKET  (로켓단(카드 실드))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100020_EIEVUI  (이브이(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100020_EIEVUI_SHORT  (이브이)",
+    "SortOrderPriority": 2,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_FILE_100030_NYARTH  (나옹(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100030_NYARTH_SHORT  (나옹)",
+    "SortOrderPriority": 3,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100040_LIZARDON  (리자몽(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100040_LIZARDON_SHORT  (리자몽)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA  (이상해꽃(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA_SHORT  (이상해꽃)",
+    "SortOrderPriority": 5,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX  (그린&거북왕(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX_SHORT  (그린&거북왕)",
+    "SortOrderPriority": 6,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100070_A1_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON  (최강의 유전자 리자몽(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON_SHORT  (최강의 유전자 리자몽)",
+    "SortOrderPriority": 7,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100080_A1_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO  (최강의 유전자 뮤츠(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO_SHORT  (최강의 유전자 뮤츠)",
+    "SortOrderPriority": 8,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100090_A1_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU  (최강의 유전자 피카츄(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU_SHORT  (최강의 유전자 피카츄)",
+    "SortOrderPriority": 9,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100100_MEWTWO  (뮤츠(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100100_MEWTWO_SHORT  (뮤츠)",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100110_ERIKA_RUFFRESIA",
+    "NameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA  (민화&라플레시아(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA_SHORT  (민화&라플레시아)",
+    "SortOrderPriority": 11,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100120_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT  (가디안(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT_SHORT  (가디안)",
+    "SortOrderPriority": 12,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100130_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100130_PIKACHU  (피카츄(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100130_PIKACHU_SHORT  (피카츄)",
+    "SortOrderPriority": 13,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100270_MONSTERBALL_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2  (몬스터볼(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2_SHORT  (몬스터볼)",
+    "SortOrderPriority": 16,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100290_PremiumSet",
+    "NameMSID": "PeripheralGoods_FILE_100290_PremiumSet  (스페셜 세트01(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100290_PremiumSet_SHORT  (스페셜 세트01)",
+    "SortOrderPriority": 18,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100300_A1a_MEW",
+    "NameMSID": "PeripheralGoods_FILE_100300_A1a_MEW  (환상이 있는 섬 뮤(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100300_A1a_MEW_SHORT  (환상이 있는 섬 뮤)",
+    "SortOrderPriority": 19,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100310_REST_BIG_TREE",
+    "NameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE  (모두가 모여 쉬는 큰 나무(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE_SHORT  (모두가 모여 쉬는 큰 나무)",
+    "SortOrderPriority": 20,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100320_PRISTINE_FOREST",
+    "NameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST  (손이 닿지 않은 삼림(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST_SHORT  (손이 닿지 않은 삼림)",
+    "SortOrderPriority": 21,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100330_QUIET_LAKE",
+    "NameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE  (고요한 호수(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE_SHORT  (고요한 호수)",
+    "SortOrderPriority": 22,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100340_BURN_GROUND",
+    "NameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND  (불타버린 황무지(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND_SHORT  (불타버린 황무지)",
+    "SortOrderPriority": 23,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100350_FORGOTTEN_REMAINS",
+    "NameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS  (잊혀진 유적(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS_SHORT  (잊혀진 유적)",
+    "SortOrderPriority": 24,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100360_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS  (난천&한카리아스(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS_SHORT  (난천&한카리아스)",
+    "SortOrderPriority": 25,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU  (불꽃숭이&파이숭이&초염몽(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (불꽃숭이&파이숭이&초염몽)",
+    "SortOrderPriority": 26,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100380_DARKRAI",
+    "NameMSID": "PeripheralGoods_FILE_100380_DARKRAI  (다크라이(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100380_DARKRAI_SHORT  (다크라이)",
+    "SortOrderPriority": 27,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100390_A2_DIALGA",
+    "NameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA  (시공의 격투 디아루가(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA_SHORT  (시공의 격투 디아루가)",
+    "SortOrderPriority": 28,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100400_A2_PALKIA",
+    "NameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA  (시공의 격투 펄기아(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA_SHORT  (시공의 격투 펄기아)",
+    "SortOrderPriority": 29,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100410_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA  (마나피&팽도리(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA_SHORT  (마나피&팽도리)",
+    "SortOrderPriority": 30,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100420_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100420_ARCEUS  (아르세우스(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100420_ARCEUS_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100430_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA  (찬석&주혜&리피아&글레이시아(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA_SHORT  (찬석&주혜&리피아&글레이시아)",
+    "SortOrderPriority": 32,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100440_A2a_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS  (초극의 빛 아르세우스(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS_SHORT  (초극의 빛 아르세우스)",
+    "SortOrderPriority": 33,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100450_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_FILE_100450_LUCARIO_RIOLU  (루카리오&리오르(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100460_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100460_SHINY_LIZARDON  (색이 다른 리자몽(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100470_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100470_RED_PIKACHU  (레드&피카츄(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100480_SHINY_GLARE",
+    "NameMSID": "PeripheralGoods_FILE_100480_SHINY_GLARE  (색이 다른 빛(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100490_A2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_100490_A2b_SHINY_POKEMONS  (샤이닝 하이 색이 다른 포켓몬들(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100500_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100500_SOLGALEO  (솔가레오(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100500_SOLGALEO_SHORT",
+    "SortOrderPriority": 39,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100510_MOKUROH",
+    "NameMSID": "PeripheralGoods_FILE_100510_MOKUROH  (나몰빼미(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100510_MOKUROH_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100520_LILIE_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA  (릴리에(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100530_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION  (축하의 마을(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100540_A3_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO  (쌍천의 수호자 솔가레오(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100550_A3_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA  (쌍천의 수호자 루나아라(파일))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA_SHORT",
+    "SortOrderPriority": 44,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100560_uNECROZMA",
+    "NameMSID": "PeripheralGoods_FILE_100560_uNECROZMA  (울트라네크로즈마(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100570_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_FILE_100570_aROKON_aKYUKON  (알로라식스테일&알로라나인테일(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100580_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100580_ACEROLA_MIMIKKYU  (아세로라&따라큐(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100590_A3a_CRISIS",
+    "NameMSID": "PeripheralGoods_FILE_100590_A3a_CRISIS  (이차원 크라이시스 울트라비스트(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100600_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_FILE_100600_GLAZI_SILVADY  (글라디오&실버디(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100610_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_FILE_100610_EIEVUI_2  (이브이 Ver.2(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100620_NYMPHIA",
+    "NameMSID": "PeripheralGoods_FILE_100620_NYMPHIA  (님피아(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100630_EIEVUI_GRADEN_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100630_EIEVUI_GRADEN_EIEVUI  (이브이 가든 이브이(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100640_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_FILE_100640_EIFIE_BRACKY  (에브이&블래키(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100650_BANGIRAS",
+    "NameMSID": "PeripheralGoods_FILE_100650_BANGIRAS  (마기라스(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100660_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100660_HOUOU_LUGIA  (칠색조&루기아(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100670_A4_HOUOU",
+    "NameMSID": "PeripheralGoods_FILE_100670_A4_HOUOU  (하늘과 바다의 인도 칠색조(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100680_A4_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100680_A4_LUGIA  (하늘과 바다의 인도 루기아(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100690_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_FILE_100690_NUOH_PALDEADOOH  (누오&토오(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100700_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100700_SUICUNE  (스이쿤(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100710_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_FILE_100710_PICHU_PY_BUBY_RURIRI  (피츄&삐&마그비&루리리(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100720_A4a_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100720_A4a_SUICUNE  (미지의 수역 스이쿤(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100730_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100730_MEGATYLTALIS  (메가파비코리(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100740_KODUCK",
+    "NameMSID": "PeripheralGoods_FILE_100740_KODUCK  (고라파덕(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100750_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100750_MEGAGYARADOS  (메가갸라도스(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100760_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100760_MEGABURSYAMO  (메가번치코(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100770_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_FILE_100770_HARUKA_ACHAMO  (봄이&아차모(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100780_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_FILE_100780_MEGA_POKEMON  (메가진화 포켓몬(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100790_PremiumSet02",
+    "NameMSID": "PeripheralGoods_FILE_100790_PremiumSet02  (스페셜 세트02(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100800_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_FILE_100800_MEGA_EVOLUTION  (메가진화 ex(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100810_B1_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100810_B1_MEGABURSYAMO  (메가라이징 메가번치코(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100820_B1_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100820_B1_MEGAGYARADOS  (메가라이징 메가갸라도스(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100830_B1_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100830_B1_MEGATYLTALIS  (메가라이징 메가파비코리(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100840_FlowerGarden",
+    "NameMSID": "PeripheralGoods_FILE_100840_FlowerGarden  (웃음꽃이 피는 화원(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100850_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_FILE_100850_PROF_OHKIDO  (오박사(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100860_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100860_LILIE_Ver2  (릴리에 Ver.2(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 63,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100870_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_FILE_100870_GEKKOUGA  (개굴닌자(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100880_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_100880_1st_ANNIVERSARY  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 뉴 이어(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 82,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100890_A4b_HIGH_CLASS",
+    "NameMSID": "PeripheralGoods_FILE_100890_A4b_HIGH_CLASS  (하이클래스팩 ex(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100900_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100900_MIMIKKYU  (따라큐(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 83,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100910_STRINDER",
+    "NameMSID": "PeripheralGoods_FILE_100910_STRINDER  (스트린더(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 84,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100920_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100920_MEGASIRNIGHT  (메가가디안(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 85,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100930_B2_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100930_B2_MEGASIRNIGHT  (몽환 퍼레이드 메가가디안(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 86,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100940_BeginningPlain",
+    "NameMSID": "PeripheralGoods_FILE_100940_BeginningPlain  (시작의 평원에서 신나게 배틀(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 87,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100950_NUMERA",
+    "NameMSID": "PeripheralGoods_FILE_100950_NUMERA  (미끄메라(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 78,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100960_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100960_MEGALIZARDONY  (메가리자몽Y(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 79,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100970_SERENA",
+    "NameMSID": "PeripheralGoods_FILE_100970_SERENA  (세레나(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 80,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100980_B1a_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100980_B1a_MEGALIZARDONY  (홍련 블레이즈 메가리자몽Y(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 81,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_100990_PEPER",
+    "NameMSID": "PeripheralGoods_FILE_100990_PEPER  (페퍼(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA  (나오하&나로테&마스카나(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101010_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_FILE_101010_NANJYAMO_HARABARIE  (모야모&찌리배리(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101020_B2a_PALDEAWONDER",
+    "NameMSID": "PeripheralGoods_FILE_101020_B2a_PALDEAWONDER  (팔데아 원더 뜨아거[Gr:Patchim v=\"gwa_wa\" ] 친구들(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101030_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_FILE_101030_MEGAGARURA  (메가캥카(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101040_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_FILE_101040_SHINY_MEGAGANGAR  (색이 다른 메가팬텀(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101050_MORPEKO",
+    "NameMSID": "PeripheralGoods_FILE_101050_MORPEKO  (모르페코(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101060_B2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_101060_B2b_SHINY_POKEMONS  (샤이닝 메가 색이 다른 포켓몬들(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101070_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_FILE_101070_ZOROARK_ZORUA  (조로아크&조로아(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 210,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101080_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101080_MEGAJUKAIN  (메가나무킹(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 220,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101090_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_FILE_101090_MEGALUCARIO  (메가루카리오(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 230,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101100_ForestPokemons",
+    "NameMSID": "PeripheralGoods_FILE_101100_ForestPokemons  (숲의 포켓몬들(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN  (파동 비트 메가루카리오&메가나무킹(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101120_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_FILE_101120_KAMITSURE_EMOLGA  (카밀레&에몽가(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101130_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_FILE_101130_WANPACHI_GARDIE_etc  (멍파치&가디&요테리&암멍이&쫀도기(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101140_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_FILE_101140_PIKACHU_POCHAMA_etc  (피카츄&팽도리&님피아&요씽리스&잠만보(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101150_B3b_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_101150_B3b_PIKACHU  (미라클 데이즈 피카츄들(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 640,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101160_Chill",
+    "NameMSID": "PeripheralGoods_FILE_101160_Chill  (다 함께 멍때리기(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 650,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101170_KORAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101170_KORAIDON  (코라이돈(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101180_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_FILE_101180_YAMIRAMI  (깜까미(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101190_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101190_MIRAIDON  (미라이돈(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101200_B3a_KORAIDON_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101200_B3a_KORAIDON_MIRAIDON  (진격 패러독스 코라이돈&미라이돈(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 540,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101210_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_101210_30th_ANNIVERSARY  (포켓몬 30주년 디자인(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101220_AREAZERO",
+    "NameMSID": "PeripheralGoods_FILE_101220_AREAZERO  (에리어 제로의 생태(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 550,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101230_METAGROSS",
+    "NameMSID": "PeripheralGoods_FILE_101230_METAGROSS  (메타그로스(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101240_MIJUMARU",
+    "NameMSID": "PeripheralGoods_FILE_101240_MIJUMARU  (수댕이(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 740,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101250_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101250_MEGARAYQUAZA  (메가레쿠쟈(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101260_B4_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101260_B4_MEGARAYQUAZA  (천공의 지배자 메가레쿠쟈(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101270_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_FILE_101270_THUNDER_FREEZER_etc  (썬더&프리져&파이어(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101280_FOKKO",
+    "NameMSID": "PeripheralGoods_FILE_101280_FOKKO  (푸호꼬(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101290_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_FILE_101290_SAKAKI_PERSIAN  (로켓단의 보스&페르시온(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101300_B4a_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101300_B4a_TEAM_ROCKET  (로켓단의 야망 로켓단(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (컬렉션 파일 기능에서 사용하는\n파일의 표지입니다)",
+    "ID": "FILE_101310_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101310_TEAM_ROCKET  (로켓단(파일))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 850,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI  (이브이(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI_SHORT  (이브이)",
+    "SortOrderPriority": 2,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH  (나옹(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH_SHORT  (나옹)",
+    "SortOrderPriority": 3,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON  (리자몽(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON_SHORT  (리자몽)",
+    "SortOrderPriority": 4,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA  (이상해꽃(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA_SHORT  (이상해꽃)",
+    "SortOrderPriority": 5,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX  (그린&거북왕(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX_SHORT  (그린&거북왕)",
+    "SortOrderPriority": 6,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO  (뮤츠(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO_SHORT  (뮤츠)",
+    "SortOrderPriority": 7,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA  (민화(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA_SHORT  (민화)",
+    "SortOrderPriority": 8,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT  (가디안(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT_SHORT  (가디안)",
+    "SortOrderPriority": 9,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU  (피카츄(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU_SHORT  (피카츄)",
+    "SortOrderPriority": 10,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet  (스페셜 세트01)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet_SHORT  (스페셜 세트01)",
+    "SortOrderPriority": 16,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100170_MEW",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100170_MEW  (환상이 있는 섬 뮤(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100170_MEW_SHORT  (환상이 있는 섬 뮤)",
+    "SortOrderPriority": 17,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100180_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS  (난천&한카리아스(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS_SHORT  (난천&한카리아스)",
+    "SortOrderPriority": 18,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU  (불꽃숭이&파이숭이&초염몽(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (불꽃숭이&파이숭이&초염몽)",
+    "SortOrderPriority": 19,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI  (다크라이(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI_SHORT  (다크라이)",
+    "SortOrderPriority": 20,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100210_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA  (마나피&팽도리(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA_SHORT  (마나피&팽도리)",
+    "SortOrderPriority": 21,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS  (아르세우스(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA  (찬석&주혜&리피아&글레이시아(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA_SHORT  (찬석&주혜&리피아&글레이시아)",
+    "SortOrderPriority": 23,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100240_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100240_LUCARIO_RIOLU  (루카리오&리오르(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100250_SHINY_LIZARDON  (색이 다른 리자몽(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100260_RED_PIKACHU  (레드&피카츄(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100270_SHINY_MEWTWO  (색이 다른 뮤츠(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO  (솔가레오(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH  (나몰빼미(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100300_LILIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE  (릴리에(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION  (축하의 마을(플레이매트))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100320_uNECROZMA  (울트라네크로즈마(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100330_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100330_aROKON_aKYUKON  (알로라식스테일&알로라나인테일(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100340_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100340_ACEROLA_MIMIKKYU  (아세로라&따라큐(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100350_GLAZI_SILVADY  (글라디오&실버디(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100360_EIEVUI_2  (이브이 Ver.2(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100370_NYMPHIA  (님피아(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100380_EIFIE_BRACKY  (에브이&블래키(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100390_BANGIRAS  (마기라스(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100400_HOUOU_LUGIA  (칠색조&루기아(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100410_NUOH_PALDEADOOH  (누오&토오(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100420_SUICUNE  (스이쿤(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100430_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100430_PICHU_PY_BUBY_RURIRI  (피츄&삐&마그비&루리리(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100440_MEGATYLTALIS  (메가파비코리(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100450_KODUCK  (고라파덕(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100460_MEGAGYARADOS  (메가갸라도스(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100470_MEGABURSYAMO  (메가번치코(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100480_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100480_HARUKA_ACHAMO  (봄이&아차모(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100490_MEGA_POKEMON  (메가진화 포켓몬(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100500_PremiumSet02  (스페셜 세트02(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100510_PROF_OHKIDO  (오박사(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100520_LILIE_Ver2  (릴리에 Ver.2(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100530_GEKKOUGA  (개굴닌자(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100540_1st_ANNIVERSARY  (피카츄[Gr:Patchim v=\"gwa_wa\" ] 뉴 이어(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100550_MIMIKKYU  (따라큐(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100560_STRINDER  (스트린더(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100570_MEGASIRNIGHT  (메가가디안(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100580_NUMERA  (미끄메라(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100590_MEGALIZARDONY  (메가리자몽Y(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100600_SERENA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100600_SERENA  (세레나(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100610_PEPER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100610_PEPER  (페퍼(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA  (나오하&나로테&마스카나(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100630_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100630_NANJYAMO_HARABARIE  (모야모&찌리배리(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100640_MEGAGARURA  (메가캥카(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100650_SHINY_MEGAGANGAR  (색이 다른 메가팬텀(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100660_MORPEKO  (모르페코(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100670_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100670_ZOROARK_ZORUA  (조로아크&조로아(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100680_MEGAJUKAIN  (메가나무킹(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100690_MEGALUCARIO  (메가루카리오(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100700_ForestPokemons  (숲의 포켓몬들(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100710_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100710_KAMITSURE_EMOLGA  (카밀레&에몽가(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100720_WANPACHI_GARDIE_etc  (멍파치&가디&요테리&암멍이&쫀도기(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100730_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100730_PIKACHU_POCHAMA_etc  (피카츄&팽도리&님피아&요씽리스&잠만보(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100740_KORAIDON  (코라이돈(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100750_YAMIRAMI  (깜까미(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100760_MIRAIDON  (미라이돈(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100770_30th_ANNIVERSARY  (포켓몬 30주년 디자인(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100800_METAGROSS  (메타그로스(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100810_MIJUMARU  (수댕이(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100820_MEGARAYQUAZA  (메가레쿠쟈(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100830_THUNDER_FREEZER_etc  (썬더&프리져&파이어(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100840_FOKKO  (푸호꼬(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100850_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100850_SAKAKI_PERSIAN  (로켓단의 보스&페르시온(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (배틀 시에 필드에 펼치는 주변 상품입니다\n덱 기능에서 설정할 수 있습니다)",
+    "ID": "PLAYMAT_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100860_TEAM_ROCKET  (로켓단(플레이매트))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 0
+  }
+]

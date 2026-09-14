@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pvp_casual_get_profile.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_casual_set_profile_update_mode.proto";
+import "takasho/schema/lettuce_debug_server/debug/pvp_casual_set_profiles.proto";
+
+service PvpCasual {
+  rpc SetProfiles (PvpCasualSetProfiles.Types.Request) returns (PvpCasualSetProfiles.Types.Response);
+  rpc SetProfileUpdateMode (PvpCasualSetProfileUpdateMode.Types.Request) returns (PvpCasualSetProfileUpdateMode.Types.Response);
+  rpc GetProfile (PvpCasualGetProfile.Types.Request) returns (PvpCasualGetProfile.Types.Response);
+}

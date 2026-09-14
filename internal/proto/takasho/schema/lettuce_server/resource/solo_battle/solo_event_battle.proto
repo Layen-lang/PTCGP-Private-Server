@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_try.proto";
+
+message SoloEventBattle {
+  string battle_id = 1;
+  bool is_cleared = 2;
+  repeated SoloBattleTry battle_tries = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+import "takasho/schema/lettuce_server/resource/item/event_power_charger.proto";
+
+message SoloBattleEventPowerHealItems {
+  repeated takasho.schema.lettuce_server.resource.item.EventPowerCharger chargers = 1;
+  int64 vc_amount = 2;
+}

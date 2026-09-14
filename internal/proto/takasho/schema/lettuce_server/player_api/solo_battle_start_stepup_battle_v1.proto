@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_deck.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_start_statistics.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_try_progress.proto";
+
+message SoloBattleStartStepupBattleV1 {
+  message Types {
+    message Request {
+      string solo_stepup_battle_id = 1;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleDeck deck = 2;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleStartStatistics statistics = 3;
+    }
+    message Response {
+      string battle_session_token = 1;
+      int64 rental_deck_used_count = 2;
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloBattleTryProgress battle_tries = 3;
+    }
+  }
+}

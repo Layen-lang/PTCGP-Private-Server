@@ -1,0 +1,11 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_E1  (S'utilise pour participer à certains combats solo ou\névènements. Cet objet fait en sorte que ceux-ci\nsoient à nouveau disponibles plus rapidement.)",
+    "ID": "EVENT_CHARGER",
+    "NameMSID": "ITEM_NAME_CHARGER_E1  (Sablier Évènement)",
+    "RecoveryDuration": 720,
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1,
+    "Type": 1
+  }
+]

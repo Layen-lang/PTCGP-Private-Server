@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/item_add.proto";
+import "takasho/schema/lettuce_debug_server/debug/item_add_to_players.proto";
+
+service Item {
+  rpc Add (ItemAdd.Types.Request) returns (ItemAdd.Types.Response);
+  rpc AddToPlayers (ItemAddToPlayers.Types.Request) returns (ItemAddToPlayers.Types.Response);
+}

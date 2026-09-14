@@ -1,0 +1,222 @@
+[
+  {
+    "ID": "PROFILE_MESSAGE_1",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_1  (¡Un placer conocerte!)",
+    "SortOrderPriority": 1
+  },
+  {
+    "ID": "PROFILE_MESSAGE_10",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_10  (Colecciono Pokémon de tipo Rayo)",
+    "SortOrderPriority": 10
+  },
+  {
+    "ID": "PROFILE_MESSAGE_11",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_11  (Colecciono Pokémon de tipo Psíquico)",
+    "SortOrderPriority": 11
+  },
+  {
+    "ID": "PROFILE_MESSAGE_12",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_12  (Colecciono Pokémon de tipo Lucha)",
+    "SortOrderPriority": 12
+  },
+  {
+    "ID": "PROFILE_MESSAGE_13",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_13  (Colecciono Pokémon de tipo Oscuro)",
+    "SortOrderPriority": 13
+  },
+  {
+    "ID": "PROFILE_MESSAGE_14",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_14  (Colecciono Pokémon de tipo Metálico)",
+    "SortOrderPriority": 14
+  },
+  {
+    "ID": "PROFILE_MESSAGE_15",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_15  (Colecciono Pokémon de tipo Dragón)",
+    "SortOrderPriority": 15
+  },
+  {
+    "ID": "PROFILE_MESSAGE_16",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_16  (Colecciono Pokémon de tipo Incoloro)",
+    "SortOrderPriority": 16
+  },
+  {
+    "ID": "PROFILE_MESSAGE_17",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_17  (Colecciono Pokémon ex)",
+    "SortOrderPriority": 17
+  },
+  {
+    "ID": "PROFILE_MESSAGE_18",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_18  (Colecciono cartas bonitas)",
+    "SortOrderPriority": 18
+  },
+  {
+    "ID": "PROFILE_MESSAGE_19",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_19  (¡Quiero completar el índice de cartas!)",
+    "SortOrderPriority": 19
+  },
+  {
+    "ID": "PROFILE_MESSAGE_2",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_2  (Soy principiante)",
+    "SortOrderPriority": 2
+  },
+  {
+    "ID": "PROFILE_MESSAGE_20",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_20  (¡Mira mi colección!)",
+    "SortOrderPriority": 20
+  },
+  {
+    "ID": "PROFILE_MESSAGE_21",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_21  (¡Echemos una partida!)",
+    "SortOrderPriority": 21
+  },
+  {
+    "ID": "PROFILE_MESSAGE_22",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_22  (¡Soy principiante, no te pases conmigo!)",
+    "SortOrderPriority": 22
+  },
+  {
+    "ID": "PROFILE_MESSAGE_23",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_23  (¡No se me dan mal los combates!)",
+    "SortOrderPriority": 23
+  },
+  {
+    "ID": "PROFILE_MESSAGE_24",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_24  (¡Se me dan muy bien los combates!)",
+    "SortOrderPriority": 24
+  },
+  {
+    "ID": "PROFILE_MESSAGE_25",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_25  (¡Siempre saco cara en mis lanzamientos!)",
+    "SortOrderPriority": 25
+  },
+  {
+    "ID": "PROFILE_MESSAGE_26",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_26  (¡Uso mis Pokémon favoritos en combate!)",
+    "SortOrderPriority": 26
+  },
+  {
+    "ID": "PROFILE_MESSAGE_27",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_27  (Aún estoy ajustando la baraja... ¡Piedad!)",
+    "SortOrderPriority": 27
+  },
+  {
+    "ID": "PROFILE_MESSAGE_28",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_28  (¡Nunca me rindo!)",
+    "SortOrderPriority": 28
+  },
+  {
+    "ID": "PROFILE_MESSAGE_29",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_29  (¡Lo mío son los ataques con gran daño!)",
+    "SortOrderPriority": 29
+  },
+  {
+    "ID": "PROFILE_MESSAGE_3",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_3  (Me gustan los Pokémon monos)",
+    "SortOrderPriority": 3
+  },
+  {
+    "ID": "PROFILE_MESSAGE_30",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_30  (¡Mira mis tapetes!)",
+    "SortOrderPriority": 30
+  },
+  {
+    "ID": "PROFILE_MESSAGE_31",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_31  (¡Soy un as creando barajas!)",
+    "SortOrderPriority": 31
+  },
+  {
+    "ID": "PROFILE_MESSAGE_32",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_32  (Busco nuevos amigos)",
+    "SortOrderPriority": 32
+  },
+  {
+    "ID": "PROFILE_MESSAGE_33",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_33  (Quiero completar misiones)",
+    "SortOrderPriority": 33
+  },
+  {
+    "ID": "PROFILE_MESSAGE_34",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_34  (Me gustan los Pokémon de Kanto)",
+    "SortOrderPriority": 34
+  },
+  {
+    "ID": "PROFILE_MESSAGE_35",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_35  (Me gustan los Pokémon de Johto)",
+    "SortOrderPriority": 35
+  },
+  {
+    "ID": "PROFILE_MESSAGE_36",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_36  (Me gustan los Pokémon de Hoenn)",
+    "SortOrderPriority": 36
+  },
+  {
+    "ID": "PROFILE_MESSAGE_37",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_37  (Me gustan los Pokémon de Sinnoh)",
+    "SortOrderPriority": 37
+  },
+  {
+    "ID": "PROFILE_MESSAGE_38",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_38  (Me gustan los Pokémon de Hisui)",
+    "SortOrderPriority": 38
+  },
+  {
+    "ID": "PROFILE_MESSAGE_39",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_39  (Me gustan los Pokémon de Teselia)",
+    "SortOrderPriority": 39
+  },
+  {
+    "ID": "PROFILE_MESSAGE_4",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_4  (Me gustan los Pokémon molones)",
+    "SortOrderPriority": 4
+  },
+  {
+    "ID": "PROFILE_MESSAGE_40",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_40  (Me gustan los Pokémon de Kalos)",
+    "SortOrderPriority": 40
+  },
+  {
+    "ID": "PROFILE_MESSAGE_41",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_41  (Me gustan los Pokémon de Alola)",
+    "SortOrderPriority": 41
+  },
+  {
+    "ID": "PROFILE_MESSAGE_42",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_42  (Me gustan los Pokémon de Galar)",
+    "SortOrderPriority": 42
+  },
+  {
+    "ID": "PROFILE_MESSAGE_43",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_43  (Me gustan los Pokémon de Paldea)",
+    "SortOrderPriority": 43
+  },
+  {
+    "ID": "PROFILE_MESSAGE_44",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_44  (Colecciono Pokémon ex Megaevolución)",
+    "SortOrderPriority": 44
+  },
+  {
+    "ID": "PROFILE_MESSAGE_5",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_5  (Me gustan los Pokémon fuertes)",
+    "SortOrderPriority": 5
+  },
+  {
+    "ID": "PROFILE_MESSAGE_6",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_6  (Pokémon legendarios y singulares a tope)",
+    "SortOrderPriority": 6
+  },
+  {
+    "ID": "PROFILE_MESSAGE_7",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_7  (Colecciono Pokémon de tipo Planta)",
+    "SortOrderPriority": 7
+  },
+  {
+    "ID": "PROFILE_MESSAGE_8",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_8  (Colecciono Pokémon de tipo Fuego)",
+    "SortOrderPriority": 8
+  },
+  {
+    "ID": "PROFILE_MESSAGE_9",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_9  (Colecciono Pokémon de tipo Agua)",
+    "SortOrderPriority": 9
+  }
+]

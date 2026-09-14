@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PackGuaranteePointSetPoint {
+  message Types {
+    message Request {
+      string player_id = 1;
+      string pack_guarantee_point_id = 2;
+      int64 amount = 3;
+    }
+    message Response {
+    }
+  }
+}

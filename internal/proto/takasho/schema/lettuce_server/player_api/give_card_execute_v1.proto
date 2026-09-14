@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/give_card/give_card_result_statistics.proto";
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+
+message GiveCardExecuteV1 {
+  message Types {
+    message Request {
+      string receiver_player_id = 100;
+      takasho.schema.lettuce_server.resource.card.CardInstance card = 200;
+      takasho.schema.lettuce_server.resource.give_card.GiveCardResultStatistics statistics = 300;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.player_resources.PlayerResources player_resources = 100;
+    }
+  }
+}

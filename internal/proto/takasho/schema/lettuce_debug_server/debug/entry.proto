@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message Entry {
+  string key = 1;
+  bytes value = 2;
+  google.protobuf.Timestamp created_at = 3;
+  google.protobuf.Timestamp updated_at = 4;
+}

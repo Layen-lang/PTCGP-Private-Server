@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.give_card;
+
+message GiveCardResultStatistics {
+  bool wish_card_flg = 100;
+  bool priority_area_flg = 200;
+  bool expansion_change_flg = 300;
+}

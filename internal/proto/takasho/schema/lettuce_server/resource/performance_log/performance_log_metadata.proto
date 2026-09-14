@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.performance_log;
+
+import "takasho/schema/lettuce_server/resource/performance_log/parsed_device_info.proto";
+
+message PerformanceLogMetadata {
+  message Types {
+    enum SettingFPS {
+      SETTING_FPS_UNSPECIFIED = 0;
+      SETTING_FPS_30 = 1;
+      SETTING_FPS_60 = 2;
+    }
+    enum SettingQuality {
+      SETTING_QUALITY_UNSPECIFIED = 0;
+      SETTING_QUALITY_LOW = 1;
+      SETTING_QUALITY_MEDIUM = 2;
+      SETTING_QUALITY_HIGH = 3;
+    }
+  }
+  string activity_name = 1;
+  PerformanceLogMetadata.Types.SettingFPS setting_fps = 2;
+  PerformanceLogMetadata.Types.SettingQuality setting_quality = 3;
+  ParsedDeviceInfo device_info = 4;
+  map<string, string> detail = 99;
+}

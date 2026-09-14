@@ -1,0 +1,9 @@
+[
+  {
+    "DescriptionMSID": "TRADE_ITEM_DESC_T1  (Dieses Item wird nicht mehr verwendet.\nBitte tausche es im Shop gegen andere Items ein.)",
+    "ID": "TRADE_ITEM_130010",
+    "NameMSID": "TRADE_ITEM_NAME_T1  (Tausch-Marken)",
+    "ScheduleID": "SC_INFINITE",
+    "SortOrderPriority": 1
+  }
+]

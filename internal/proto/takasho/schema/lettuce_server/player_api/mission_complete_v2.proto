@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message MissionCompleteV2 {
+  message Types {
+    message Request {
+      repeated string mission_ids = 1;
+      map<string, string> expected_reward_override_ids = 2;
+    }
+    message Response {
+      repeated string theme_deck_recipe_ids = 1;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 2;
+    }
+  }
+}

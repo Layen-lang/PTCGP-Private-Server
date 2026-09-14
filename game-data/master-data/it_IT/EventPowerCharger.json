@@ -1,0 +1,11 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_E1  (Si può usare per partecipare a certe lotte con\nCPU ed eventi. Riduce il tempo necessario perché\nqueste lotte diventino nuovamente disponibili.)",
+    "ID": "EVENT_CHARGER",
+    "NameMSID": "ITEM_NAME_CHARGER_E1  (Clessidra evento)",
+    "RecoveryDuration": 720,
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1,
+    "Type": 1
+  }
+]

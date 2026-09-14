@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+
+message FeedElementSubstitutionItem {
+  takasho.schema.lettuce_server.resource.item.InventoryItems item = 1;
+  bool disable = 2;
+  bool is_snooped = 3;
+}

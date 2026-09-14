@@ -1,0 +1,26 @@
+[
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_SAIL  (특별 포켓골드)",
+    "SortOrderPriority": 100
+  },
+  {
+    "CategoryID": "SH_CG_PG_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_EXTRA_ITEM  (포켓골드 + 증정분)",
+    "SortOrderPriority": 90
+  },
+  {
+    "CategoryID": "SH_CG_PG_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_POKEGOLD  (포켓골드)",
+    "SortOrderPriority": 80
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_CATEGORY_SUB_3  (포켓골드 + 주변 상품)",
+    "SortOrderPriority": 0
+  }
+]

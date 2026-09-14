@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.thank_reward;
+
+enum RouteType {
+  ROUTE_TYPE_UNSPECIFIED = 0;
+  ROUTE_TYPE_PVP = 1;
+  ROUTE_TYPE_FEED = 2;
+  ROUTE_TYPE_TRADE = 3;
+  ROUTE_TYPE_GIVE_CARD = 5;
+}

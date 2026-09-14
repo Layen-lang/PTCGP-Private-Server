@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+import "takasho/schema/lettuce_server/resource/order/order_resources.proto";
+
+message PackUnpackOrder {
+  string transaction_id = 1;
+  string order_id = 2;
+  google.protobuf.Timestamp ordered_at = 3;
+  takasho.schema.lettuce_server.resource.order.OrderResources consumes = 4;
+  takasho.schema.lettuce_server.resource.order.OrderResources produces = 5;
+  takasho.schema.lettuce_server.resource.language.Language lang = 6;
+  string pack_table_id = 7;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_random_battle.proto";
+
+message SoloBattleGetRandomBattlesV1 {
+  message Types {
+    message Request {
+      repeated string solo_random_battle_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloRandomBattle solo_random_battles = 1;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card_exchange;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message CardExchangeEntry {
+  string catalog_id = 1;
+  int32 amount = 2;
+  repeated takasho.schema.lettuce_server.resource.card.CardInstance resource_cards = 3;
+}

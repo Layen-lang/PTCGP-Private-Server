@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/card_exchange/player_card_exchange_route_type.proto";
+
+message CardExchangeSetRouteTypeV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.card_exchange.PlayerCardExchangeRouteType route_type = 1;
+    }
+    message Response {
+    }
+  }
+}

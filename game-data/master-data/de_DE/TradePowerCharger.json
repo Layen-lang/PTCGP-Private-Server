@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Verkürzt die Zeit, bis der nächste Tausch\ndurchgeführt werden kann, um eine Stunde.\nUnter anderem erhältlich als Missionsbelohnung.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Tausch-Sanduhr)",
+    "RecoveryDuration": 60
+  }
+]

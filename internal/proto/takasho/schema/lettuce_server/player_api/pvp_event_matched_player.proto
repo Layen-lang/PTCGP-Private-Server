@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/main_rank_type.proto";
+import "takasho/schema/lettuce_server/resource/pvp/sub_rank_type.proto";
+
+message PvpEventMatchedPlayer {
+  string player_id = 1;
+  string nickname = 2;
+  string icon_id = 3;
+  uint64 player_level = 4;
+  repeated string emblem_ids = 5;
+  int64 emblem_step_type = 6;
+  takasho.schema.lettuce_server.resource.pvp.MainRankType main_rank = 7;
+  takasho.schema.lettuce_server.resource.pvp.SubRankType sub_rank = 8;
+  string message_id = 9;
+}

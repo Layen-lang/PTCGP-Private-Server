@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/webview_language.proto";
+
+message WebviewGetPaymentServiceActUrlV1 {
+  message Types {
+    message Request {
+      WebviewLanguage language = 1;
+    }
+    message Response {
+      string url = 1;
+    }
+  }
+}

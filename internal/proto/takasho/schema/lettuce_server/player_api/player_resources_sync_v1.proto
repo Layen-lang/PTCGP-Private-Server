@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+
+message PlayerResourcesSyncV1 {
+  message Types {
+    message Request {
+      string cursor = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.player_resources.PlayerResources player_resources = 1;
+      bool has_next = 2;
+      string next_cursor = 3;
+    }
+  }
+}

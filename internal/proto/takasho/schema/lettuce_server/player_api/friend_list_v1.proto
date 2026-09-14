@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/friend/friend.proto";
+import "takasho/schema/lettuce_server/resource/friend/friend_request.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message FriendListV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.Friend friends = 1;
+      repeated takasho.schema.lettuce_server.resource.friend.FriendRequest sent_friend_requests = 2;
+      repeated takasho.schema.lettuce_server.resource.friend.FriendRequest received_friend_requests = 3;
+      repeated takasho.schema.lettuce_server.resource.player_profile.ProfileSpine profiles = 4;
+    }
+  }
+}

@@ -1,0 +1,524 @@
+[
+  {
+    "AssetID": "TICKET_ITSUKA",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ITSUKA  (Dieses Ticket kann noch nicht verwendet werden.\nEs wird sich noch zeigen, wozu es gut ist!)",
+    "ID": "ITSUKA_TICKET",
+    "NameMSID": "ITEM_NAME_TICKET_ITSUKA  (Vorabticket)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_0002010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV1  (Event-Shop-Ticket (Mauzi))",
+    "ScheduleID": "SC_SH_0002010_01",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_0002010_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV2  (Event-Shop-Ticket (Bisaflor))",
+    "ScheduleID": "SC_SH_0002010_07",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2408010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV3  (Event-Shop-Ticket (Turtok))",
+    "ScheduleID": "SC_SH_2408010_01",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2409010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV4  (Event-Shop-Ticket (Panflam))",
+    "ScheduleID": "SC_SH_2409010_01",
+    "SortOrderPriority": 70,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2502010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV5  (Event-Shop-Ticket (Manaphy))",
+    "ScheduleID": "SC_SH_2502010_01",
+    "SortOrderPriority": 90,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2503010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV7  (Event-Shop-Ticket (Lucario))",
+    "ScheduleID": "SC_SH_2503010_01",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2504010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV8  (Event-Shop-Ticket (Solgaleo))",
+    "ScheduleID": "SC_SH_2504010_01",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2505010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV9  (Event-Shop-Ticket (Ultra-Necrozma))",
+    "ScheduleID": "SC_SH_2505010_01",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2506000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV10  (Event-Shop-Ticket (Amigento))",
+    "ScheduleID": "SC_SH_2506000_01",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2507000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV11  (Event-Shop-Ticket (Despotar))",
+    "ScheduleID": "SC_SH_2507000_01",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2508000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV12  (Event-Shop-Ticket (Morlord))",
+    "ScheduleID": "SC_SH_2508000_01",
+    "SortOrderPriority": 220,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2509000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV15  (Event-Shop-Ticket (Professor Eich))",
+    "ScheduleID": "SC_SH_2509000_01",
+    "SortOrderPriority": 240,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV13  (Event-Shop-Ticket (Enton))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 260,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV14  (Event-Shop-Ticket (Mega-Garados))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 270,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_04",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV17  (Event-Shop-Ticket\n(PROMO-Neuauflagen-Drop-Event 2025))",
+    "ScheduleID": "SC_SH_2510000_09",
+    "SortOrderPriority": 290,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_05",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV16  (Event-Shop-Ticket\n(PROMO-Neuauflagen-Wunderwahl-Event 2025))",
+    "ScheduleID": "SC_SH_2510000_10",
+    "SortOrderPriority": 300,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_05",
+    "NameMSID": "ITEM_NAME_TICKET_EV22  (Promokarten-Tausch-Ticket (Drop-Event (Mega-Tauboss-ex)))",
+    "ScheduleID": "SC_SH_2510000_11",
+    "SortOrderPriority": 310,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_06",
+    "NameMSID": "ITEM_NAME_TICKET_EV23  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Enton)))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 320,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2510000_EV_07",
+    "NameMSID": "ITEM_NAME_TICKET_EV24  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Mega-Garados)))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 330,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2512000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV18  (Event-Shop-Ticket (Viscora))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 400,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2512000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV25  (Promokarten-Tausch-Ticket (Drop-Event (Voltilamm)))",
+    "ScheduleID": "SC_SH_2512000_06",
+    "SortOrderPriority": 360,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2512000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV26  (Promokarten-Tausch-Ticket (Drop-Event (Mega-Latios-ex)))",
+    "ScheduleID": "SC_SH_2512000_05",
+    "SortOrderPriority": 380,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2512000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV27  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Viscora)))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 370,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2601000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV19  (Event-Shop-Ticket (Riffex))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 350,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2601000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV34  (Promokarten-Tausch-Ticket (Drop-Event (Mega-Meditalis-ex)))",
+    "ScheduleID": "SC_SH_2601000_03",
+    "SortOrderPriority": 410,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2601000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV35  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Riffex)))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 405,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2602000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV20  (Event-Shop-Ticket (Pepper))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2602000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV29  (Promokarten-Tausch-Ticket (Drop-Event (Knarbon)))",
+    "ScheduleID": "SC_SH_2602000_01",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2602000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV30  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Pepper)))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Zubehör und Items\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2603000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV28  (Event-Shop-Ticket (Mega-Kangama))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 540,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2603000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV36  (Promokarten-Tausch-Ticket (Drop-Event (Flegmon)))",
+    "ScheduleID": "SC_SH_2603000_01",
+    "SortOrderPriority": 550,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2603000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV37  (Promokarten-Tausch-Ticket (Wunderwahl-Event (Mega-Kangama)))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 560,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2604000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV33  (Promokarten-Tausch-Ticket (Spezial-Drop-Event 2026))",
+    "ScheduleID": "SC_SH_2604000_01",
+    "SortOrderPriority": 590,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2604000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV31  (Promokarten-Tausch-Ticket (Drop-Event (Mega-Skaraborn-ex)))",
+    "ScheduleID": "SC_SH_2604000_02",
+    "SortOrderPriority": 600,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2605000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV41  (Promokarten-Tausch-Ticket (Drop-Event (Azugladis-ex)))",
+    "ScheduleID": "SC_SH_2605000_01",
+    "SortOrderPriority": 700,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2606000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV43  (Promokarten-Tausch-Ticket (Drop-Event (Hisui-Zorua)))",
+    "ScheduleID": "SC_SH_2606000_01",
+    "SortOrderPriority": 800,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2607000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV38  (Promokarten-Tausch-Ticket (Drop-Event (Mega-Hundemon-ex)))",
+    "ScheduleID": "SC_SH_2607000_01",
+    "SortOrderPriority": 900,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_2608000_EV_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ROCKET  (Erhältlich durch das Abschließen von\nTeam Rockets Spezialaufträgen.\nAnscheinend kann man es irgendwo nutzen...)",
+    "ID": "TICKET_2608000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV44  (Team Rockets dubioses Ticket)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "SortOrderPriority": 1000,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Erhältlich durch das Abschließen von Event-\nMissionen. Eintauschbar gegen Promokarten\nim Shop. Wird nach Ende des Tauschzeitraums\ngelöscht.)",
+    "ID": "TICKET_2608000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV45  (Promokarten-Tausch-Ticket (Drop-Event (Team RocketsLapras)))",
+    "ScheduleID": "SC_SH_2608000_01",
+    "SortOrderPriority": 1010,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_06",
+    "DescriptionMSID": "ITEM_DESC_TICKET_DECK  (Erhältlich durch das Abschließen von\nex-Startdeck-Missionen.\nEintauschbar gegen Decks (20 Karten) im Shop.\nWird nach Ende des Tauschzeitraums gelöscht.)",
+    "ID": "TICKET_DECK_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EV6  (Deck-Ticket (Event))",
+    "ScheduleID": "SC_CM_2503010_02",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1  (Emblem-Ticket (Unschlagbare Gene))",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1a  (Emblem-Ticket (Mysteriöse Insel))",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2   (Emblem-Ticket (Kollision von Raum und Zeit))",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2a  (Emblem-Ticket (Licht des Triumphs))",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2b  (Emblem-Ticket (Glänzendes Festival))",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3  (Emblem-Ticket (Hüter des Firmaments))",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A3a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3a  (Emblem-Ticket (Dimensionale Krise))",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A3b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3b  (Emblem-Ticket (Evoli-Hain))",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A4",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4  (Emblem-Ticket (Weisheit von Meer und Himmel))",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A4a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4a  (Emblem-Ticket (Verborgene Quelle))",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 230,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_A4b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4b  (Emblem-Ticket (Deluxepack-ex))",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 250,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1  (Event-Shop-Ticket (Mega-Aufstieg))",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 280,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1a  (Emblem-Ticket (Feuerrote Flammen))",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 340,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2  (Emblem-Ticket (Traumhafte Parade))",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 390,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2a  (Emblem-Ticket (Wundervolles Paldea))",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 500,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2b  (Event-Shop-Ticket (Mega-Schillern))",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Erhältlich durch das Vervollständigen von\nFokus-Sammlungen oder das Abschließen von\nDex-Missionen. Eintauschbar gegen bestimmte\nEmbleme im Shop.)",
+    "ID": "TICKET_EMBLEM_B3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B3  (Emblem-Ticket (Pulsierende Aura))",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 570,
+    "Type": 2
+  }
+]

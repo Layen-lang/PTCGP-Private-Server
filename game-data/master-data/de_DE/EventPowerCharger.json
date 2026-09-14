@@ -1,0 +1,11 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_E1  (Wird eingesetzt, um in bestimmten CPU-Kämpfen\noder Events anzutreten und kann die Zeit\nverkürzen, in der diese wieder verfügbar werden.)",
+    "ID": "EVENT_CHARGER",
+    "NameMSID": "ITEM_NAME_CHARGER_E1  (Event-Sanduhr)",
+    "RecoveryDuration": 720,
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 1,
+    "Type": 1
+  }
+]

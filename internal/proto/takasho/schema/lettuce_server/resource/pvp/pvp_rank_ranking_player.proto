@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+message PvpRankRankingPlayer {
+  string player_id = 1;
+  string player_name = 2;
+  string icon_id = 3;
+  int32 ranking = 4;
+  int64 point = 5;
+}

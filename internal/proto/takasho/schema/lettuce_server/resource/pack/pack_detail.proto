@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack;
+
+message PackDetail {
+  message Types {
+    message PackTableWeight {
+      string pack_table_id = 1;
+      string probability_string = 4;
+    }
+    message PackTable {
+      message Types {
+        message CardTable {
+          message Types {
+            message CardTableLabelItems {
+              message Types {
+                message CardWeight {
+                  string card_id = 1;
+                  string probability_string = 4;
+                }
+              }
+              repeated PackDetail.Types.PackTable.Types.CardTable.Types.CardTableLabelItems.Types.CardWeight card_weights = 1;
+            }
+            message LabelWeight {
+              string label = 1;
+              string probability_string = 4;
+            }
+          }
+          repeated PackDetail.Types.PackTable.Types.CardTable.Types.LabelWeight label_weights = 1;
+          map<string, PackDetail.Types.PackTable.Types.CardTable.Types.CardTableLabelItems> label_items = 2;
+        }
+      }
+      string pack_table_id = 1;
+      repeated string draw_count_labels = 2;
+      map<string, PackDetail.Types.PackTable.Types.CardTable> draw_count_card_tables = 3;
+    }
+  }
+  string pack_id = 1;
+  string expansion_id = 2;
+  repeated PackDetail.Types.PackTableWeight pack_table_weights = 4;
+  map<string, PackDetail.Types.PackTable> pack_tables = 5;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Used to reduce the time to recover pack stamina,\nor to exchange for accessories or items at the\nShop. Purchasable at the Shop.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Poké gold)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Used to reduce the time to recover pack stamina,\nor to exchange for accessories or items at the\nShop. Purchasable at the Shop.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Poké gold)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Obtainable by doing premium missions.\nUsed to exchange for accessories or promo cards\nat the Shop.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Premium ticket)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Used in trading and in Obtain Flair.\nObtainable when you acquire cards already\nregistered in your card dex, or as mission rewards\nand so forth.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Shinedust)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (Obtainable by completing event missions or\nfrom step-up battles. Used to exchange for\naccessories or items at the Shop.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Shop ticket)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Obtainable by consuming high rarity cards in\nMy Cards. Used to exchange for special\naccessories or items at the shop.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Special shop ticket)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

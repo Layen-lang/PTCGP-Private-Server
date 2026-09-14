@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_settings;
+
+enum AgreementType {
+  AGREEMENT_TYPE_UNSPECIFIED = 0;
+  AGREEMENT_TYPE_AGREE = 1;
+  AGREEMENT_TYPE_DISAGREE = 2;
+}

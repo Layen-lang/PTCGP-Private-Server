@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/friend/friend.proto";
+
+message FriendAddExisting {
+  message Types {
+    message Request {
+      string player_id = 1;
+      int64 add_friend_num = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.Friend friends = 1;
+    }
+  }
+}

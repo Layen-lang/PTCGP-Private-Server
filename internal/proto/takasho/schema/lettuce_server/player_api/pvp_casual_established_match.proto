@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_casual_matched_player.proto";
+
+message PvpCasualEstablishedMatch {
+  string battle_id = 1;
+  PvpCasualMatchedPlayer self = 2;
+  PvpCasualMatchedPlayer opponent = 3;
+}

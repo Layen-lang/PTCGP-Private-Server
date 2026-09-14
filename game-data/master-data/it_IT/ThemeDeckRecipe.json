@@ -1,0 +1,2533 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_1  (Mazzo Venusaur-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_4  (Mazzo Charizard-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_7  (Mazzo Blastoise-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_11  (Mazzo Pikachu-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_13  (Mazzo Mewtwo-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_16  (Mazzo Machamp-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_19  (Mazzo Nidoqueen e Nidoking (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_20  (Mazzo Fossili Kanto (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_21  (Mazzo Blaine (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_22  (Mazzo Lt. Surge (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_23  (Mazzo Brock (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_24  (Mazzo Koga (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_26  (Mazzo Mew-ex (L'Isola Misteriosa))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_27  (Mazzo Celebi-ex (L'Isola Misteriosa))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_28  (Mazzo Gyarados-ex (L'Isola Misteriosa))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001042",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_29  (Mazzo Aerodactyl-ex (L'Isola Misteriosa))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104318",
+    "MainCardSub1": "100104311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001043",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_30  (Mazzo Blu e Pidgeot-ex (L'Isola Misteriosa))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1001044",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_25  (Mazzo Wigglytuff-ex (Geni[C:Nbsp ]Supremi))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_31  (Mazzo Yanmega-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_32  (Mazzo Infernape-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_33  (Mazzo Palkia-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_34  (Mazzo Camilla (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_35  (Mazzo Corrado (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_36  (Mazzo Pachirisu-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_37  (Mazzo Scoppio Supremo (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_38  (Mazzo Mismagius-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_39  (Mazzo Lickilicky-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_40  (Mazzo Gallade-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_41  (Mazzo Weavile-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_42  (Mazzo Darkrai-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_43  (Mazzo Recluta del Team Galassia (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_44  (Mazzo Dialga-ex (Scontro Spaziotemporale))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_45  (Mazzo Leafeon-ex (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_46  (Mazzo Barry (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_47  (Mazzo Arceus-ex e Heatran (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_48  (Mazzo Glaceon-ex (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_49  (Mazzo Miti di Sinnoh (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_50  (Mazzo Arceus-ex e Raichu (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_51  (Mazzo Garchomp-ex (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_52  (Mazzo Arceus-ex e Crobat (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_53  (Mazzo Probopass-ex (Luce[C:Nbsp ]Trionfale))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_117  (Mazzo iniziale Beedrill-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_118  (Mazzo iniziale Charizard-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_119  (Mazzo iniziale Wugtrio-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_120  (Mazzo iniziale Pikachu-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_121  (Mazzo iniziale Giratina-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_122  (Mazzo iniziale Lucario-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_123  (Mazzo iniziale Clodsiredi Paldea-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002031",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_124  (Mazzo iniziale Tinkaton-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Un elenco per mazzo a tema e le 20 carte in esso\ncontenute, utilizzabili nella schermata \"Mazzi\".\nPuoi ottenere uno solo dei nove mazzi iniziali ex.)",
+    "ThemeDeckRecipeID": "1002032",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_125  (Mazzo iniziale Bibarel-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203305",
+    "MainCardSub1": "100203311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002033",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_54  (Mazzo Beedrill-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203405",
+    "MainCardSub1": "100203408",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002034",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_55  (Mazzo Charizard-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203509",
+    "MainCardSub1": "100203510",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_56  (Mazzo Wugtrio-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203601",
+    "MainCardSub1": "100203611",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_57  (Mazzo Pikachu-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203711",
+    "MainCardSub1": "100203705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_58  (Mazzo Giratina-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203810",
+    "MainCardSub1": "100203805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002038",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_59  (Mazzo Lucario-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203906",
+    "MainCardSub1": "100203911",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002039",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_60  (Mazzo Clodsiredi Paldea-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204007",
+    "MainCardSub1": "100204011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002040",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_61  (Mazzo Tinkaton-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204109",
+    "MainCardSub1": "100204106",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1002041",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_62  (Mazzo Bibarel-ex (Tripudio[C:Nbsp ]Splendente))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_63  (Mazzo Decidueye-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_64  (Mazzo Ibis (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_65  (Mazzo Incineroar-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_66  (Mazzo Kawe (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_67  (Mazzo Crabominable-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_68  (Mazzo Suiren (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_69  (Mazzo Raichudi Alola-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_70  (Mazzo Chrys (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_71  (Mazzo Lunala-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_72  (Mazzo Malpi (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_73  (Mazzo Passimian-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_74  (Mazzo Mukdi Alola-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_75  (Mazzo Solgaleo-ex (Guardiani[C:Nbsp ]Astrali))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_76  (Mazzo Buzzwole-ex (Crisi[C:Nbsp ]Ultradimensionale))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_77  (Mazzo Tapu Koko-ex (Crisi[C:Nbsp ]Ultradimensionale))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_78  (Mazzo Lycanroc-ex (Crisi[C:Nbsp ]Ultradimensionale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_79  (Mazzo Guzzlord-ex (Crisi[C:Nbsp ]Ultradimensionale))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_80  (Mazzo Dugtriodi Alola-ex (Crisi[C:Nbsp ]Ultradimensionale))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_81  (Mazzo Flareon-ex e Eevee-ex (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_82  (Mazzo Primarina-ex (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_83  (Mazzo Sylveon-ex e Eevee-ex (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_84  (Mazzo Dolce Staffetta (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_85  (Mazzo Dragonite-ex (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1003024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_86  (Mazzo Snorlax-ex (Il[C:Nbsp ]Bosco di Eevee))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_87  (Mazzo Shuckle-ex e Meganium (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_88  (Mazzo Ho-Oh-ex ed Entei (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_89  (Mazzo Kingdra-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_96  (Mazzo Gyarados (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_90  (Mazzo Lanturn-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_91  (Mazzo Espeon-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_92  (Mazzo Donphan-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_93  (Mazzo Umbreon-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_94  (Mazzo Skarmory-ex e Scizor (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_95  (Mazzo Lugia-ex (La Via del Cielo e del Mare))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_97  (Mazzo Jumpluff-ex (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_98  (Mazzo Entei-ex (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_99  (Mazzo Suicune-ex (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_100  (Mazzo Raikou-ex (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_101  (Mazzo Latios e Latias (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_102  (Mazzo Poliwrath-ex (Sorgenti[C:Nbsp ]Recondite))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_103  (Mazzo Buzzwole-ex e[C:Nbsp ]Shuckle-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_104  (Mazzo Charizard-ex e[C:Nbsp ]Moltres-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_105  (Mazzo Palkia-ex e[C:Nbsp ]Articuno-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_106  (Mazzo Pikachu-ex e[C:Nbsp ]Raichudi Alola-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_107  (Mazzo Mewtwo-ex e[C:Nbsp ]Mew-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_108  (Mazzo Lunala-ex e[C:Nbsp ]Giratina-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_109  (Mazzo Lucario-ex e[C:Nbsp ]Garchomp-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_110  (Mazzo Guzzlord-ex e[C:Nbsp ]Crobat-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_111  (Mazzo Arceus-ex e[C:Nbsp ]Dialga-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_112  (Mazzo Solgaleo-ex e[C:Nbsp ]Skarmory-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_113  (Mazzo Eevee-ex e[C:Nbsp ]Sylveon-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_114  (Mazzo Lugia-ex e[C:Nbsp ]Ho-Oh-ex (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_115  (Mazzo Compagni fidati (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1004030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_116  (Mazzo Pikachu & co. (Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_126  (Mazzo Mega Pinsir-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_127  (Mazzo Mega Blaziken-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_128  (Mazzo Mega Gyarados-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_129  (Mazzo Ciprian (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_130  (Mazzo Mega Ampharos-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_131  (Mazzo Mega Altaria-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_132  (Mazzo Fannie (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_133  (Mazzo Hitmonchan-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_134  (Mazzo Hala (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_135  (Mazzo Mega Absol-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_136  (Mazzo Melmetal-ex (Mega[C:Nbsp ]Ascesa))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_137  (Mazzo Mega Venusaur-ex (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_138  (Mazzo Mega Charizard[C:Nbsp ]Y-ex (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_139  (Mazzo Mega Blastoise-ex (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_140  (Mazzo Lem (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_141  (Mazzo Mega Lopunny-ex (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1005017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_142  (Mazzo Mega Steelix-ex (Fiamme[C:Nbsp ]Cremisi))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_143  (Mazzo OgerponMaschera Turchese-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_144  (Mazzo Blacephalon-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_145  (Mazzo Mega Swampert-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_146  (Mazzo Ninetalesdi Alola-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_147  (Mazzo Toxtricity-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_148  (Mazzo Mega Gardevoir-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_149  (Mazzo Gigalith-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_150  (Mazzo Ginepro (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_151  (Mazzo Mega Mawile-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_152  (Mazzo Mega Kangaskhan-ex (Parata[C:Nbsp ]Fantasmagorica))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_153  (Mazzo Meowscarada-ex (Meraviglie[C:Nbsp ]di[C:Nbsp ]Paldea))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_154  (Mazzo Armarouge-ex (Meraviglie[C:Nbsp ]di[C:Nbsp ]Paldea))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_155  (Mazzo Chien-Pao-ex (Meraviglie[C:Nbsp ]di[C:Nbsp ]Paldea))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_156  (Mazzo Bellibolt-ex (Meraviglie[C:Nbsp ]di[C:Nbsp ]Paldea))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_157  (Mazzo Gholdengo-ex (Meraviglie[C:Nbsp ]di[C:Nbsp ]Paldea))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_158  (Mazzo Mega Charizard[C:Nbsp ]X-ex (Mega[C:Nbsp ]Splendore))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_159  (Mazzo Mega Slowbro-ex (Mega[C:Nbsp ]Splendore))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_160  (Mazzo Mega Manectric-ex (Mega[C:Nbsp ]Splendore))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_161  (Mazzo Mega Gengar-ex (Mega[C:Nbsp ]Splendore))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_162  (Mazzo Mega Scizor-ex (Mega[C:Nbsp ]Splendore))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1006021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_187  (Mazzo élite (Mega Blaziken-ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_163  (Mazzo Mega Sceptile-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_164  (Mazzo Mega Camerupt-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_165  (Mazzo Vaporeon-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_166  (Mazzo Magnezone-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_167  (Mazzo Mega Lucario-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_168  (Mazzo Crustle-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_169  (Mazzo Zoroark-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_170  (Mazzo Corviknight-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_171  (Mazzo Flygon-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_172  (Mazzo Mega Audino-ex (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_173  (Mazzo Komor (Aura[C:Nbsp ]Pulsante))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_174  (Mazzo Saccoferreo-ex (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_175  (Mazzo Miraidon-ex (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_176  (Mazzo Crinealato-ex (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_177  (Mazzo Koraidon-ex (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_178  (Mazzo Terapagos-ex (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_179  (Mazzo Furiatonante (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_180  (Mazzo Eroeferreo (Assalto[C:Nbsp ]dei[C:Nbsp ]Paradossi))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_181  (Mazzo Milotic-ex (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_182  (Mazzo Dedenne-ex (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_183  (Mazzo Mega Diancie-ex (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_184  (Mazzo Mega Sableye-ex (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_185  (Mazzo Zoroarkdi Hisui-ex (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_186  (Mazzo Cucciolata (Giorni[C:Nbsp ]Giocondi))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1007025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_212  (Mazzo élite (Mega Charizard[C:Nbsp ]Y-ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_188  (Mazzo Vespiquen-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_189  (Mazzo Typhlosion-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_190  (Mazzo Wailord-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_191  (Mazzo Mega Sharpedo-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_192  (Mazzo Rotom-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_193  (Mazzo Mega Gallade-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_194  (Mazzo Hoopa-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_195  (Mazzo Mega Metagross-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_196  (Mazzo Mega Rayquaza-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_197  (Mazzo Swanna-ex (Sovrano[C:Nbsp ]dei[C:Nbsp ]Cieli))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_198  (Mazzo Moltres-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_199  (Mazzo Articuno-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_200  (Mazzo Zapdos-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_201  (Mazzo Slowking-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_202  (Mazzo Weezing-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_203  (Mazzo Raticate-exdel Team Rocket (I[C:Nbsp ]Loschi[C:Nbsp ]Piani[C:Nbsp ]del[C:Nbsp ]Team[C:Nbsp ]Rocket))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "",
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Elenco per mazzo a tema utilizzabile nella\nschermata \"Mazzi\". Può essere usato per\ncreare mazzi con le carte contenute nell'elenco.)",
+    "ThemeDeckRecipeID": "1008025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_213  (Mazzo élite (Mega Lucario-ex))"
+  }
+]

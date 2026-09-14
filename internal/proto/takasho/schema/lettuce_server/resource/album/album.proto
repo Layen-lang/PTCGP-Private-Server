@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.album;
+
+import "takasho/schema/lettuce_server/resource/album/album_slot.proto";
+import "takasho/schema/lettuce_server/resource/album/public_setting.proto";
+
+message Album {
+  message Types {
+    enum BackgroundColor {
+      BACKGROUND_COLOR_UNSPECIFIED = 0;
+      BACKGROUND_COLOR_GREEN = 1;
+      BACKGROUND_COLOR_RED = 2;
+      BACKGROUND_COLOR_BLUE = 3;
+      BACKGROUND_COLOR_YELLOW = 4;
+      BACKGROUND_COLOR_PURPLE = 5;
+      BACKGROUND_COLOR_BROWN = 6;
+      BACKGROUND_COLOR_BLACK = 7;
+      BACKGROUND_COLOR_SILVER = 8;
+      BACKGROUND_COLOR_GOLD = 9;
+      BACKGROUND_COLOR_WHITE = 10;
+    }
+  }
+  uint64 album_id = 1;
+  string cover_id = 2;
+  Album.Types.BackgroundColor background_color = 3;
+  repeated AlbumSlot slots = 5;
+  PublicSetting public_setting = 6;
+  uint64 display_order = 7;
+  string file_name = 9;
+  repeated string hash_tag_ids = 10;
+}

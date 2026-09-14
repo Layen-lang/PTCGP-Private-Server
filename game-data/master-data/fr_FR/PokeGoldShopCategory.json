@@ -1,0 +1,26 @@
+[
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_SAIL  (Offres Poké Lingots)",
+    "SortOrderPriority": 100
+  },
+  {
+    "CategoryID": "SH_CG_PG_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_EXTRA_ITEM  (Poké Lingots + bonus)",
+    "SortOrderPriority": 90
+  },
+  {
+    "CategoryID": "SH_CG_PG_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_POKEGOLD  (Poké Lingots)",
+    "SortOrderPriority": 80
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_POKEGOLD_CATEGORY_SUB_3  (Poké Lingots + Accessoires)",
+    "SortOrderPriority": 0
+  }
+]

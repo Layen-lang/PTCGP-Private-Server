@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_power.proto";
+
+message TradeHealTradePowerV1 {
+  message Types {
+    message Request {
+      message Types {
+        message HealItems {
+          repeated takasho.schema.lettuce_server.resource.item.TradePowerCharger chargers = 1;
+          int64 vc_amount = 2;
+        }
+      }
+      TradeHealTradePowerV1.Types.Request.Types.HealItems items = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.trade.TradePower trade_power = 1;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 2;
+    }
+  }
+}

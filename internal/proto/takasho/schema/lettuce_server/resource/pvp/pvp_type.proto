@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum PvpType {
+  PVP_TYPE_UNSPECIFIED = 0;
+  PVP_TYPE_CASUAL_RANDOM = 1;
+  PVP_TYPE_CASUAL_PRIVATE = 2;
+  PVP_TYPE_EVENT_EMBLEM = 3;
+  PVP_TYPE_RATING = 4;
+  PVP_TYPE_RANK = 5;
+}

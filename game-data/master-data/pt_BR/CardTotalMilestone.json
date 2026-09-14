@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (O número 16 lembra Dragonite!\nEle é capaz de voar apesar de seu\ncorpo gigante. Dá uma volta ao\nmundo em 16 horas.)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (Você obteve 25 cartas. 25 é o número\nde Pikachu no Pokédex Nacional!\nQuando vários Pikachu se reúnem, a \neletricidade deles causa trovoadas.)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (Você obteve 50 cartas. 50 é o número\nde Diglett no Pokédex Nacional! Eles\nmoram aproximadamente 1 metro sob\na terra alimentando-se de raízes. Às \nvezes, sobem para a superfície.)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (O número 80 lembra Tentacruel! Tem\n80 tentáculos que podem se estender\ne contrair como quiser. Tentacruel \napanha as presas com seus tentáculos\nlançando nelas picadas venenosas.)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (O número 100 lembra Machop! O seu\ncorpo é puro músculo. Apesar de ter\no tamanho de uma criança, é capaz de \nlevantar 100 adultos com seus braços.)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (O número 151 lembra Pokédex!\nUm total de 151 Pokémon\nforam apresentados em\nPokémon Red e Pokémon Blue.)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (O número 180 lembra Noctowl!\nQuando pensa, rotaciona sua cabeça\n180 graus para aprimorar sua\ncapacidade intelectual.)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (Você obteve 250 cartas. 250 é o\nnúmero de Ho-Oh no Pokédex\nNacional! Revela-se a um Treinador\nde coração puro ao brilhar suas asas\nnas cores do arco-íris.)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (O número 300 lembra Florges!\nAcredita-se que uma Florges protegeu\no jardim de um castelo por mais de \n300 anos.)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (O número 500 lembra Spiritomb!\nFoi aprisionado à fissura de uma\npedra sagrada como punição pelos\ndelitos cometidos há 500 anos.)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (Você obteve 777 cartas. 777 é o\nnúmero de Togedemaru no Pokédex\nNacional! Quando está em apuros,\nenrola-se como uma bola, levantando\nseus pelos como espinhos e lançando \neletricidade sem pestanejar.)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (O número 1.000 lembra Jirachi!\nAcredita-se que ele tem a habilidade\nde conceder qualquer desejo por uma\nsemana a cada 1.000 anos.)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (O número 1.500 lembra Gimmighoul!\nEste Pokémon nasceu dentro de um\nbaú do tesouro há 1.500 anos. Suga a\nvida daqueles que tentam roubá-lo.)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (O número 2.000 lembra Conkeldurr!\nAcredita-se que Conkeldurr ensinou\nos humanos como fazer concreto há\nmais de 2.000 anos.)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (O número 5.000 lembra Alakazam!\nDizem que seu QI é de 5.000. Seu\npoder psicocinético excessivo causa\ndor de cabeça em todos ao seu redor.)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (O número 10.000 lembra Wartortle!\nAcredita-se que vive até 10.000 anos.\nA sua cauda peluda é um símbolo\npopular de longevidade.)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (O número 15.000 lembra Toxtricity!\nA eletricidade que lança violentamente\npelas saliências do seu peito chegam a\nmais de 15.000 volts.)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (O número 20.000 lembra Claydol!\nEste Pokémon misterioso iniciou sua\nvida como uma figura de argila \nmoldada há mais de 20.000 anos.)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (O número 100.000 lembra Raichu!\nÉ capaz de lançar 100.000 volts de\neletricidade, acabando na hora com\ninimigos muito maiores que ele.)",
+    "Threshold": 100000
+  }
+]

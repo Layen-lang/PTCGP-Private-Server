@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+message Currency {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_SHOP_TICKET = 3;
+      TYPE_BRIGHT_SAND = 4;
+      TYPE_PREMIER_SHOP_TICKET = 5;
+      TYPE_SUBSCRIPTION_TICKET = 6;
+    }
+  }
+  Currency.Types.Type type = 1;
+  uint64 amount = 2;
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (Réduit le temps de recharge de la vitalité Booster\nd'une heure. S'obtient en accomplissant\ndes missions, entre autres.)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (Sablier Booster)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

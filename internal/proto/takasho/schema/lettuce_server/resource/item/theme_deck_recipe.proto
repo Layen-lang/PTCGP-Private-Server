@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "takasho/schema/lettuce_server/resource/item/card_instance.proto";
+
+message ThemeDeckRecipe {
+  string id = 1;
+  int64 amount = 2;
+  bool has_cards = 3;
+  repeated CardInstance cards = 4;
+}

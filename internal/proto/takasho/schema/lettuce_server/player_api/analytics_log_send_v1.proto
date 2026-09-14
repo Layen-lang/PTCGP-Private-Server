@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/analytics_log/auto_deck_make.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/battle_config.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/battle_tutorial.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/card_favorite.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/card_wish.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/change_config.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/collection_board_favorite_from_client.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/collection_file_favorite_from_client.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/feature_tutorial.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/game_tutorial.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/goods_favorite.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/home_icon_tap.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/home_screen.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/immersive_play.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/mission_clear.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/pack_favorite.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/pack_open.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/pack_share_config.proto";
+
+message AnalyticsLogSendV1 {
+  message Types {
+    message Request {
+      oneof body {
+        takasho.schema.lettuce_server.resource.analytics_log.BattleConfig battle_config = 1;
+        takasho.schema.lettuce_server.resource.analytics_log.HomeScreen home_screen = 2;
+        takasho.schema.lettuce_server.resource.analytics_log.GameTutorial game_tutorial = 3;
+        takasho.schema.lettuce_server.resource.analytics_log.BattleTutorial battle_tutorial = 4;
+        takasho.schema.lettuce_server.resource.analytics_log.MissionClear mission_clear = 5;
+        takasho.schema.lettuce_server.resource.analytics_log.HomeIconTap home_icon_tap = 6;
+        takasho.schema.lettuce_server.resource.analytics_log.ChangeConfig change_config = 7;
+        takasho.schema.lettuce_server.resource.analytics_log.PackShareConfig pack_share_config = 8;
+        takasho.schema.lettuce_server.resource.analytics_log.CardFavorite card_favorite = 9;
+        takasho.schema.lettuce_server.resource.analytics_log.CardWish card_wish = 10;
+        takasho.schema.lettuce_server.resource.analytics_log.ImmersivePlay immersive_play = 11;
+        takasho.schema.lettuce_server.resource.analytics_log.CollectionFileFavoriteFromClient collection_file_favorite = 12;
+        takasho.schema.lettuce_server.resource.analytics_log.CollectionBoardFavoriteFromClient collection_board_favorite = 13;
+        takasho.schema.lettuce_server.resource.analytics_log.FeatureTutorial feature_tutorial = 14;
+        takasho.schema.lettuce_server.resource.analytics_log.AutoDeckMake auto_deck_make = 15;
+        takasho.schema.lettuce_server.resource.analytics_log.PackFavorite pack_favorite = 16;
+        takasho.schema.lettuce_server.resource.analytics_log.GoodsFavorite goods_favorite = 17;
+        takasho.schema.lettuce_server.resource.analytics_log.PackOpen pack_open = 18;
+      }
+    }
+    message Response {
+    }
+  }
+}

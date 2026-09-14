@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto";
+import "takasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto";
+
+message PvpRankBattleRecords {
+  string battle_id = 1;
+  PvPResult pvp_result = 2;
+  google.protobuf.Timestamp completed_at = 3;
+  RankPointShift rank_point_shift = 4;
+  string icon_id = 5;
+  string player_name = 6;
+  string bot_deck_id = 7;
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+import "google/protobuf/timestamp.proto";
+
+message SoloBattleEventPower {
+  string event_id = 1;
+  int64 amount = 2;
+  google.protobuf.Timestamp last_auto_healed_at = 3;
+  int64 over_heal_sec = 4;
+  int64 auto_heal_limit = 5;
+  int64 heal_sec_per_power = 6;
+  int64 manual_heal_limit = 7;
+}

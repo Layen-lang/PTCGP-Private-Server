@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/tutorial_challenge_feed_v1.proto";
+import "takasho/schema/lettuce_server/player_api/tutorial_choice_exchange_route_v1.proto";
+import "takasho/schema/lettuce_server/player_api/tutorial_complete_v1.proto";
+import "takasho/schema/lettuce_server/player_api/tutorial_get_feed_timeline_v1.proto";
+import "takasho/schema/lettuce_server/player_api/tutorial_pack_purchase_v1.proto";
+
+service Tutorial {
+  rpc CompleteV1 (TutorialCompleteV1.Types.Request) returns (TutorialCompleteV1.Types.Response);
+  rpc ChoiceExchangeRouteV1 (TutorialChoiceExchangeRouteV1.Types.Request) returns (TutorialChoiceExchangeRouteV1.Types.Response);
+  rpc PackPurchaseV1 (TutorialPackPurchaseV1.Types.Request) returns (TutorialPackPurchaseV1.Types.Response);
+  rpc GetFeedTimelineV1 (TutorialGetFeedTimelineV1.Types.Request) returns (TutorialGetFeedTimelineV1.Types.Response);
+  rpc ChallengeFeedV1 (TutorialChallengeFeedV1.Types.Request) returns (TutorialChallengeFeedV1.Types.Response);
+}

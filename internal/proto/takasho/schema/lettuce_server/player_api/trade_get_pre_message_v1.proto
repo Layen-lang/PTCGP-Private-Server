@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/trade/trade_message.proto";
+
+message TradeGetPreMessageV1 {
+  message Types {
+    message Request {
+      string player_id = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.trade.TradeMessage pre_message = 1;
+    }
+  }
+}

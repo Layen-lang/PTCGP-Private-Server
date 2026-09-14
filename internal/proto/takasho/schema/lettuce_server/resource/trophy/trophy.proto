@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trophy;
+
+import "takasho/schema/lettuce_server/resource/trophy/trophy_rank.proto";
+
+message Trophy {
+  string id = 1;
+  TrophyRank rank = 2;
+}

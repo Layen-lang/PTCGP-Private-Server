@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message MyCollectionSetLikeCount {
+  message Types {
+    message Request {
+      message Types {
+        message MyCollectionLike {
+          string player_id = 1;
+          int64 like_count = 2;
+        }
+      }
+      repeated MyCollectionSetLikeCount.Types.Request.Types.MyCollectionLike my_collection_likes = 1;
+    }
+    message Response {
+    }
+  }
+}

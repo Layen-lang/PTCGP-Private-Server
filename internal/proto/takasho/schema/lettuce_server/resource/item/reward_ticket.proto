@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "google/protobuf/timestamp.proto";
+
+message RewardTicket {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_EVENT_SHOP_TICKET = 1;
+      TYPE_LIMITED_SHOP_TICKET = 2;
+      TYPE_EMBLEM_TICKET = 3;
+      TYPE_SOMEDAY_TICKET = 4;
+    }
+  }
+  RewardTicket.Types.Type type = 1;
+  string id = 2;
+  uint64 amount = 3;
+  google.protobuf.Timestamp expire_at = 4;
+}

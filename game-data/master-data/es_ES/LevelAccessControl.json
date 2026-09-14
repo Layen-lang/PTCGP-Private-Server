@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (Las partidas se desbloquean tras completar el\napartado 06 de la guía sobre partidas.\n\nPuedes abrir la guía tocando el botón de la\nesquina inferior izquierda en el menú \"Partidas\".)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (El menú \"Partidas\" se desbloquea en el nivel 3.\n\nTu nivel subirá a medida que recibas puntos de\nexperiencia. Hay varias formas de conseguirlos,\ncomo por ejemplo abriendo sobres.)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (Las vitrinas se desbloquean en el nivel 4.\n\nTu nivel subirá a medida que recibas puntos de\nexperiencia. Hay varias formas de conseguirlos,\ncomo por ejemplo abriendo sobres.)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (Los álbumes se desbloquean en el nivel 6.\n\nTu nivel subirá a medida que recibas puntos de\nexperiencia. Hay varias formas de conseguirlos,\ncomo por ejemplo abriendo sobres.)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (Las barajas se desbloquean tras completar el\napartado 06 de la guía sobre partidas.\n\nPuedes abrir la guía tocando el botón de la\nesquina inferior izquierda en el menú \"Partidas\".)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (Las misiones de baraja se desbloquean en el nivel\n3.\n\nTu nivel subirá a medida que recibas puntos de\nexperiencia. Hay varias formas de conseguirlos,\ncomo por ejemplo abriendo sobres.)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (Las elecciones mágicas se desbloquean\nen el nivel 2.)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (La función de intercambio se desbloquea en el\nnivel 3.\n\nTu nivel subirá a medida que recibas puntos de\nexperiencia. Hay varias formas de conseguirlos,\ncomo por ejemplo abriendo sobres.)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

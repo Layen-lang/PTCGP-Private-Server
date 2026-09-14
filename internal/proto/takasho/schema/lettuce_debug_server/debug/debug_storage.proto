@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/debug_storage_get_entries_v1.proto";
+import "takasho/schema/lettuce_debug_server/debug/debug_storage_set_entries_v1.proto";
+
+service DebugStorage {
+  rpc SetEntriesV1 (DebugStorageSetEntriesV1.Types.Request) returns (DebugStorageSetEntriesV1.Types.Response);
+  rpc GetEntriesV1 (DebugStorageGetEntriesV1.Types.Request) returns (DebugStorageGetEntriesV1.Types.Response);
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "ID": "A",
+    "LongNameMSID": "SERIES_NAME_1_LONG  (A Series)",
+    "NameMSID": "SERIES_NAME_1  (A)",
+    "Order": 100
+  },
+  {
+    "ID": "B",
+    "LongNameMSID": "SERIES_NAME_2_LONG  (B Series)",
+    "NameMSID": "SERIES_NAME_2  (B)",
+    "Order": 200
+  }
+]

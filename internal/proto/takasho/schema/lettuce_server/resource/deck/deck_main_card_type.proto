@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+enum DeckMainCardType {
+  DECK_MAIN_CARD_TYPE_UNSPECIFIED = 0;
+  DECK_MAIN_CARD_TYPE_MAIN = 1;
+  DECK_MAIN_CARD_TYPE_SUB1 = 2;
+  DECK_MAIN_CARD_TYPE_SUB2 = 3;
+}

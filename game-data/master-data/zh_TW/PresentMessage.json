@@ -1,0 +1,97 @@
+[
+  {
+    "ID": "PRESENT_MESSAGE_1",
+    "MSID": "PRESENT_MESSAGE_MSID_1  (已達持有上限的[Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]道具)",
+    "Route": 0
+  },
+  {
+    "ID": "PRESENT_MESSAGE_10",
+    "MSID": "PRESENT_MESSAGE_MSID_10  (「單人對戰」的對戰報酬)",
+    "Route": 71
+  },
+  {
+    "ID": "PRESENT_MESSAGE_11",
+    "MSID": "PRESENT_MESSAGE_MSID_11  (「與他人對戰」的對戰報酬)",
+    "Route": 72
+  },
+  {
+    "ID": "PRESENT_MESSAGE_12",
+    "MSID": "PRESENT_MESSAGE_MSID_12  (完成使用教學的禮物)",
+    "Route": 80
+  },
+  {
+    "ID": "PRESENT_MESSAGE_14",
+    "MSID": "PRESENT_MESSAGE_MSID_14  (透過禮物序號獲得的道具)",
+    "Route": 90
+  },
+  {
+    "ID": "PRESENT_MESSAGE_15",
+    "MSID": "PRESENT_MESSAGE_MSID_15  (在交換收到「謝謝！」了)",
+    "Route": 100
+  },
+  {
+    "ID": "PRESENT_MESSAGE_16",
+    "MSID": "PRESENT_MESSAGE_MSID_17  (有朝一日券的中獎報酬：頭獎)",
+    "Route": 120
+  },
+  {
+    "ID": "PRESENT_MESSAGE_17",
+    "MSID": "PRESENT_MESSAGE_MSID_18  (有朝一日券的中獎報酬：二獎)",
+    "Route": 121
+  },
+  {
+    "ID": "PRESENT_MESSAGE_18",
+    "MSID": "PRESENT_MESSAGE_MSID_19  (有朝一日券的中獎報酬：三獎)",
+    "Route": 122
+  },
+  {
+    "ID": "PRESENT_MESSAGE_19",
+    "MSID": "PRESENT_MESSAGE_MSID_20  (收到別人分送的卡牌了)",
+    "Route": 130
+  },
+  {
+    "ID": "PRESENT_MESSAGE_2",
+    "MSID": "PRESENT_MESSAGE_MSID_2  (營運團隊發放的道具)",
+    "Route": 10
+  },
+  {
+    "ID": "PRESENT_MESSAGE_20",
+    "MSID": "PRESENT_MESSAGE_MSID_21  (在分送收到「謝謝！」了)",
+    "Route": 140
+  },
+  {
+    "ID": "PRESENT_MESSAGE_3",
+    "MSID": "PRESENT_MESSAGE_MSID_3  (來自營運團隊的補償)",
+    "Route": 20
+  },
+  {
+    "ID": "PRESENT_MESSAGE_4",
+    "MSID": "PRESENT_MESSAGE_MSID_4  (收藏被按讚了)",
+    "Route": 30
+  },
+  {
+    "ID": "PRESENT_MESSAGE_5",
+    "MSID": "PRESENT_MESSAGE_MSID_5  (在得卡挑戰收到「謝謝！」了)",
+    "Route": 40
+  },
+  {
+    "ID": "PRESENT_MESSAGE_6",
+    "MSID": "PRESENT_MESSAGE_MSID_6  (在對戰收到「謝謝！」了)",
+    "Route": 50
+  },
+  {
+    "ID": "PRESENT_MESSAGE_7",
+    "MSID": "PRESENT_MESSAGE_MSID_7  (在商店獲得的[Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]道具附贈的禮物)",
+    "Route": 60
+  },
+  {
+    "ID": "PRESENT_MESSAGE_8",
+    "MSID": "PRESENT_MESSAGE_MSID_8  (在商店獲得的[Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]道具)",
+    "Route": 61
+  },
+  {
+    "ID": "PRESENT_MESSAGE_9",
+    "MSID": "PRESENT_MESSAGE_MSID_9  (任務報酬)",
+    "Route": 70
+  }
+]

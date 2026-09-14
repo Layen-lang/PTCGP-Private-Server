@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card_exchange;
+
+enum PlayerCardExchangeRouteType {
+  PLAYER_CARD_EXCHANGE_ROUTE_TYPE_PLAYER_CARD_EXCHANGE_ROUTE_UNSPECIFIED = 0;
+  PLAYER_CARD_EXCHANGE_ROUTE_TYPE_A = 1;
+  PLAYER_CARD_EXCHANGE_ROUTE_TYPE_B = 2;
+  PLAYER_CARD_EXCHANGE_ROUTE_TYPE_C = 3;
+}

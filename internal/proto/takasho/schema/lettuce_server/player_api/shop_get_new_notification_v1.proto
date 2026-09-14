@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message ShopGetNewNotificationV1 {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_POKE_GOLD_SHOP = 1;
+      TYPE_ITEM_SHOP = 2;
+      TYPE_POKE_GOLD_SHOP_PRODUCT = 3;
+      TYPE_ITEM_SHOP_PRODUCT = 4;
+      TYPE_ITEM_SHOP_CLOSE_SOON = 5;
+      TYPE_NEW_ITEM_SHOP = 6;
+      TYPE_ITEM_SHOP_CAN_PURCHASE_OR_EXCHANGE = 7;
+    }
+    message NewNotification {
+      ShopGetNewNotificationV1.Types.Type type = 1;
+      repeated string ids = 2;
+    }
+    message Request {
+      repeated ShopGetNewNotificationV1.Types.NewNotification new_notifications = 1;
+    }
+    message Response {
+      repeated ShopGetNewNotificationV1.Types.NewNotification new_notifications = 2;
+    }
+  }
+}

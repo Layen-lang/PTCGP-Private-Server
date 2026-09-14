@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.album;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message AlbumSlot {
+  uint64 slot_number = 1;
+  takasho.schema.lettuce_server.resource.card.CardInstance card_instance = 2;
+}

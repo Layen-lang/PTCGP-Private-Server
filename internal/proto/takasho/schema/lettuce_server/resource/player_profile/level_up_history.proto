@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+import "google/protobuf/timestamp.proto";
+
+message LevelUpHistory {
+  uint64 player_level = 1;
+  google.protobuf.Timestamp leveled_up_at = 2;
+}

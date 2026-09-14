@@ -1,0 +1,30 @@
+[
+  {
+    "Amount": 30,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "RewardID": "TROPHY_RW_CURRENCY_001"
+  },
+  {
+    "Amount": 50,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "RewardID": "TROPHY_RW_CURRENCY_002"
+  },
+  {
+    "Amount": 70,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "RewardID": "TROPHY_RW_CURRENCY_003"
+  },
+  {
+    "Amount": 100,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "RewardID": "TROPHY_RW_CURRENCY_004"
+  }
+]

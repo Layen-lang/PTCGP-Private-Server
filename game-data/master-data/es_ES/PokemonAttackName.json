@@ -1,0 +1,4442 @@
+[
+  {
+    "NameMSID": "ATTACK_NAME_1  (Látigo Cepa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_10  (Babeo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_10"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_100  (Chinchar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1000  (Viento Soleado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1000"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1001  (Arreglarse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1001"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1002  (Permanecer Inmóvil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1002"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1003  (Danza Abrasadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1003"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1004  (Bala Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1004"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1005  (Rayo Burbuja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1005"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1006  (Sacobomba)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1006"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1007  (Dedecircuito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1007"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1008  (Regalo Centelleante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1008"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1009  (Tormenta Brillante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1009"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_101  (Disparo Embrujado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1010  (Golpe Amoroso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1010"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1011  (Vuelo Maléfico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1011"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1012  (Amnesia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1012"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1013  (Gema Maldita)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1013"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1014  (Golpe de Gracia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1014"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1015  (Veneno Grave)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1015"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1016  (Pisotonazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1016"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1017  (Robo Voraz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1017"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1018  (Confrontar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1018"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1019  (Machada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1019"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_102  (Farfullar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1020  (Ilusión Malévola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1020"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1021  (Doble Cabezazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1021"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1022  (Colección de Crisálidas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1022"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1023  (Evovuelo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1023"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1024  (Adherirse y Absorber)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1024"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1025  (Orden de Seguimiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1025"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1026  (Conchaataque)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1026"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1027  (Golpe y Huida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1027"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1028  (Preludio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1028"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1029  (Escaldar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1029"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_103  (Psicopuño)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1030  (Látigo del Ogro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1030"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1031  (Cola Explosiva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1031"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1032  (Onda Ígnea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1032"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1033  (Infierno Devastador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1033"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1034  (Garras Afiladas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1034"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1035  (Jaqueca)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1035"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1036  (Turboescualo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1036"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1037  (Olas Milagrosas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1037"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1038  (Chapoteo Congelado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1038"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1039  (Bloqueo Ventisca)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1039"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_104  (Ataque Barrera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1040  (Explosión Marina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1040"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1041  (Concha Filo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1041"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1042  (Bombeo Mineral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1042"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1043  (Estallido Venganza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1043"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1044  (Chasquido Chispeante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1044"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1045  (Chispazo Chatarrero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1045"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1046  (Voltio Catastrófico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1046"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1047  (Chispa Eléctrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1047"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1048  (Minimetrónomo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1048"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1049  (Mimomezcla)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1049"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_105  (Estallido Vigoroso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1050  (Danza Sincronizada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1050"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1051  (Paranormal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1051"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1052  (Pisotón Obstructor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1052"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1053  (Aire Afilado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1053"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1054  (Fusión Mental)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1054"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1055  (Anillo Travieso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1055"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1056  (Pluma Sobrenatural)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1056"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1057  (Lanzamiento de Pívot)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1057"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1058  (Caída Abisal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1058"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1059  (Hoja Resonante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1059"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_106  (Esfera Psíquica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1060  (Rompecimientos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1060"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1061  (Placaje Cósmico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1061"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1062  (Caza en Equipo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1062"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1063  (Control de Bajos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1063"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1064  (Engullir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1064"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1065  (Tajo Mejorado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1065"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1066  (Ataque Óseo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1066"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1067  (Bala Sombra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1067"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1068  (Puño Bala)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1068"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1069  (Ataque al Cuadrado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1069"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_107  (Disparo Psi)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1070  (Ráfaga de Puñetazos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1070"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1071  (Lanza de Hierro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1071"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1072  (Tecno Shock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1072"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1073  (Tajo Furioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1073"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1074  (Atizar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1074"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1075  (Impacto Dragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1075"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1076  (Megaexplosión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1076"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1077  (Láser Veleidoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1077"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1078  (Impulso Aceleración)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1078"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1079  (Batidora Energética)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1079"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_108  (Arrumaco)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1080  (Bofetada Copiona)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1080"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1081  (Ala Propulsión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1081"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1082  (Represalia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1082"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1083  (Golpe de Oro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1083"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1084  (Llamarada del Cerbero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1084"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1086  (Frenesí Rocket)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1086"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1087  (Escarmiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1087"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1089  (Noctilocura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1089"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_109  (Doble Lazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1090  (Boomerang Hoja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1090"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1091  (Escarnio Abrasador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1091"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1092  (Carga Térmica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1092"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1093  (Ala Averna)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1093"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1094  (Colmillo Pirotóxico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1094"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1095  (Tormenta Polar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1095"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1096  (Contraataque Espiritual)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1096"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1097  (Garra Tronadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1097"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1098  (Buscabasura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1098"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1099  (Manoquinesis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1099"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_11  (Aroma Sedante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_11"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_110  (Bofetón Lodo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1100  (Atrapar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1101  (Explosión Psíquica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1102  (Puñetazo y Robo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1103  (Impacto Gaia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1104  (Buscador de Sombras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1105  (Residuos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1106  (Absorción Veneno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1107  (Invertir Impulso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1108  (Gas Desconcertante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1109  (Martillo Perforador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_111  (Excavar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1110  (Golpe Dragontino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1111  (Carrera Impulso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1112  (Pícaro Peligroso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1113  (Golpear y Esconder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1114  (Ovación Ovalada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1115  (Chapoteo Sentado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1116  (Torbellino Implacable)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_112  (Patada Baja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_113  (Devolver Golpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_114  (Fuerza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_115  (Sísmico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_116  (Rodar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_117  (Doble Filo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_117"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_118  (Aterrizaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_118"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_119  (Gruñido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_119"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_12  (Arañazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_12"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_120  (Derribo Óseo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_120"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_121  (Huesomerang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_121"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_122  (Patada Amplia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_122"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_123  (Puya)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_123"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_124  (Perforador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_124"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_125  (Ataque Caparazón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_125"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_126  (Chupavidas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_126"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_127  (Destructor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_127"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_128  (Patada Espiral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_128"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_129  (Devolver Noqueo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_129"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_13  (Cuchillada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_13"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_130  (Arrinconar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_130"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_131  (Llamar a la Familia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_131"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_132  (Flechazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_132"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_133  (Cornada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_133"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_134  (Cuerno Veneno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_134"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_135  (Planeo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_135"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_136  (Gas Venenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_136"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_137  (Carga Tóxica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_137"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_138  (Triturar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_138"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_139  (Perforar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_139"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_14  (Placaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_14"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_140  (Garra Metal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_140"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_141  (Amasar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_141"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_142  (Impacto Pesado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_142"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_143  (Bofetón Cola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_143"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_144  (Cometa Draco)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_144"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_145  (Taladradora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_145"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_146  (Vozarrón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_146"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_147  (Canción Adormecedora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_147"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_148  (Día de Pago)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_148"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_149  (Garra Umbría)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_149"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_15  (Polvo Veneno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_15"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_150  (Bofetada de Puerro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_150"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_151  (Pico Taladro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_151"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_152  (Lengüetazo Incesante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_152"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_153  (Puño Mareo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_153"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_154  (Copietear)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_154"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_155  (Afilar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_155"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_156  (Aleteo Primigenio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_156"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_157  (Hacer la Ola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_157"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_158  (Psicoinforme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_158"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_159  (Floración Gigante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_159"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_16  (Bomba Germen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_16"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_160  (Tormenta Carmesí)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_160"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_161  (Explosión de Calor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_161"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_162  (Hidrobazuca)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_162"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_163  (Ventisca)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_163"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_164  (Huracán Atronador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_164"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_165  (Guía Psi)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_165"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_166  (Carga Descuidada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_166"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_167  (Canto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_167"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_168  (Crecimiento Repentino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_168"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_169  (Floración Potente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_169"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_17  (Pisotón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_17"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_170  (Esporas Parpadeantes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_170"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_171  (Látigo Energético)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_171"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_172  (Embestida Ascendente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_172"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_173  (Ceniza Volcánica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_173"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_174  (Garras Venenosas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_174"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_175  (Saltar del Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_175"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_176  (Torbellino Furioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_176"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_177  (Agua en Tromba)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_177"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_178  (Buceo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_178"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_179  (Gigasacudida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_179"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_18  (Golpe Tropical)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_18"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_180  (Electrotela)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_180"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_181  (Robo Pico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_181"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_182  (Levantamente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_182"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_183  (Mirada Hipnótica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_183"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_184  (Hoja Drenante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_184"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_185  (Resplandeflor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_185"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_186  (Viento Feérico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_186"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_187  (Puño Infalible)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_187"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_188  (Puño)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_188"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_189  (Puño Ligero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_189"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_19  (Absorber)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_19"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_190  (Arremeter)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_190"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_191  (Presión de Guardia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_191"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_192  (Desquite)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_192"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_193  (Megapatada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_193"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_194  (División)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_194"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_195  (Pantalla de Humo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_195"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_196  (Picotazo Veneno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_196"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_197  (Ciclón Fragmentado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_197"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_198  (Placaje Lucha)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_198"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_199  (Pasos Incesantes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_199"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_2  (Hoja Afilada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_2"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_20  (Guadaña Afilada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_20"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_200  (Mimético)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_200"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_201  (Rayo Solar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_201"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_202  (Hackeo Genoma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_202"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_203  (Garra Dragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_203"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_204  (Paso Hoja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_204"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_205  (Tajo Aéreo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_205"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_206  (Látigo Venenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_206"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_207  (Planta Feroz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_207"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_208  (Melodía Envolvente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_208"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_209  (Hoja Cortante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_209"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_21  (Cornada Doble)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_21"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_210  (Azotar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_210"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_211  (Ciclón Hojarasca)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_211"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_212  (Corte de Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_212"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_213  (Atizador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_213"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_214  (Infierno Explosivo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_214"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_215  (Llama Abrasadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_215"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_216  (Puño Ardiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_216"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_217  (Envite Ígneo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_217"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_218  (Aliento Ardiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_218"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_219  (Martillear)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_219"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_22  (Pegarse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_22"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_220  (Aplastamiento Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_220"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_221  (Golpe Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_221"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_222  (Siesta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_222"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_223  (Acua Jet)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_223"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_224  (Chorro Tirabuzón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_224"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_225  (Agua Lodosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_225"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_226  (Natación Elegante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_226"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_227  (Cascada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_227"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_228  (Esquirla Helada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_228"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_229  (Vaho Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_229"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_23  (Placaje Giro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_23"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_230  (Tormenta Dimensional)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_230"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_231  (Regalo Oceánico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_231"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_232  (Estallido Trueno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_232"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_233  (Gran Explosión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_233"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_234  (Ataque Giro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_234"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_235  (Carga)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_235"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_236  (Voltaje Exaltado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_236"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_237  (Ocultarse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_237"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_238  (Garras Eléctricas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_238"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_239  (Flecha Eléctrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_239"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_24  (Absorción)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_24"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_240  (Aparato Chispeante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_240"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_241  (Láser de Asalto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_241"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_242  (Sacudida Superdirecta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_242"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_243  (Ilusión Mágica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_243"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_244  (Devorar Almas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_244"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_245  (Expandir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_245"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_246  (Golpe Globo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_246"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_247  (Impulso Mental)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_247"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_248  (Explosión Suprema)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_248"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_249  (Flecha Psíquica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_249"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_25  (Aprovisionamiento Hoja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_25"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_250  (Ganancia Lunar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_250"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_251  (Desmoronar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_251"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_252  (Embestida Montaña)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_252"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_253  (Acróbata)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_253"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_254  (Alud de Rocas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_254"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_255  (Testarazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_255"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_256  (Impacto Submarino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_256"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_257  (Presión Terrestre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_257"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_258  (Cuchilla Vigorizada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_258"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_259  (Técnica de Buceo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_259"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_26  (Ataque Sorpresa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_26"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_260  (Arañazo Doble)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_260"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_261  (Uñas Rasgadoras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_261"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_262  (Colmillo de Oscuridad)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_262"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_263  (Catástrofe en Espiral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_263"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_264  (Veneno X)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_264"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_265  (Paliza Grupal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_265"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_266  (Brecha Negra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_266"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_267  (Prisma Oscuro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_267"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_268  (Extremidades Metálicas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_268"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_269  (Cabecear)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_269"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_27  (Ascuas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_27"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_270  (Cabeza de Hierro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_270"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_271  (Nariz Triple)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_271"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_272  (Turbo Metálico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_272"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_273  (Placaje de Acero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_273"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_274  (Furia Lingual)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_274"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_275  (Transmisión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_275"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_276  (Rayo Errático)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_276"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_277  (Puya Cola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_277"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_278  (Doble Golpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_278"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_279  (Picoteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_279"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_28  (Garras de Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_28"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_280  (Embrague)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_280"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_281  (Superdiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_281"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_282  (Patada Salto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_282"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_283  (Posturita)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_283"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_284  (Interrupción)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_284"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_285  (Ataque Furia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_285"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_286  (Tormenta Giratoria)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_286"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_287  (Martillo Furioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_287"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_288  (Lanzamiento Cuerno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_288"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_289  (Follaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_289"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_29  (Giro Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_29"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_290  (Abatidoras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_290"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_291  (Drenadoras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_291"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_292  (Golpe Furibundo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_292"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_293  (Saña)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_293"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_294  (Témpano)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_294"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_295  (Puño Tirabuzón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_295"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_296  (Viento Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_296"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_297  (Zona Demoledora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_297"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_298  (Hidropulso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_298"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_299  (Chispa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_299"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_3  (Megaagotar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_3"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_30  (Látigo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_30"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_300  (Destello)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_300"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_301  (Fuerza Lunar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_301"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_302  (Impresionar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_302"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_303  (Hipnorrayo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_303"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_304  (Poder Oculto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_304"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_305  (Ataque Carrera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_305"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_306  (Cabezazo Lucha)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_306"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_307  (Giro Ondulante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_307"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_308  (Ataque Fugaz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_308"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_309  (Patada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_309"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_31  (Lanzallamas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_31"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_310  (Disparo Patada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_310"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_311  (Ataque Lineal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_311"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_312  (Toque)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_312"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_313  (Tóxico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_313"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_314  (Rayo de Luz Poderoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_314"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_315  (Acerañicos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_315"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_316  (Unidad Protectora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_316"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_317  (Espacio Ácrono)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_317"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_318  (Crisis en Picado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_318"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_319  (Colapso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_319"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_32  (Mordisco)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_32"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_320  (Ala Silenciosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_320"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_321  (Pájaro Osado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_321"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_322  (Fuerza Definitiva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_322"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_323  (Destello Psíquico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_323"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_324  (Rayo Confuso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_324"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_325  (Endurecimiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_325"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_326  (Ataque a la Herida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_326"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_327  (Puño Eléctrico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_327"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_328  (Constricción Poderosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_328"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_329  (Plasma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_329"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_33  (Placaje Ardiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_33"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_330  (Pedir Ayuda)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_330"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_331  (Alta Aceleración)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_331"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_332  (Multiplicar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_332"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_333  (Disparo Demora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_333"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_334  (Lanza Devastadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_334"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_335  (Guilloatina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_335"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_336  (Garras Luchadoras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_336"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_337  (Artillería de Vapor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_337"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_338  (Bomba de Humo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_338"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_339  (Placaje Llameante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_339"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_34  (Infierno Desatado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_34"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_340  (Saltar en Resorte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_340"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_341  (Vapuleo por Sorteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_341"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_342  (Ciclón Oceánico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_342"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_343  (Ataque Tambaleante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_343"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_344  (Represión Psíquica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_344"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_345  (Malabarismo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_345"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_346  (Impacto Caótico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_346"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_347  (Encofrarse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_347"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_348  (Aporrear)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_348"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_349  (Puño Mágnum)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_349"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_35  (Llama)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_35"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_350  (Esfera Aural)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_350"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_351  (Doble Patada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_351"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_352  (Colmillo Nocivo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_352"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_353  (Puya Nociva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_353"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_354  (Martillo Tenaz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_354"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_355  (Martillazo Descomunal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_355"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_356  (Corriente Giratoria)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_356"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_357  (Surfeo Resplandeciente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_357"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_358  (Presión Despreocupada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_358"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_359  (Disparo Salto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_359"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_36  (Crin de Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_36"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_360  (Defensa Férrea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_360"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_362  (Mazazo Tropical)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_362"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_363  (Estampida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_363"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_364  (Zumbido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_364"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_365  (Garfio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_365"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_366  (Cuchillada Garra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_366"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_367  (Ala Cortante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_367"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_368  (Hurgaheridas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_368"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_369  (Tormenta Floral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_369"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_37  (Puño de Magma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_37"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_370  (Luz Titilante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_370"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_371  (Tripatada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_371"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_372  (Escaramuza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_372"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_373  (Anclaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_373"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_374  (Placaje Severo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_374"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_375  (Huesomerang Ardiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_375"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_376  (Lanzallamas Continuo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_376"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_377  (Ala Ígnea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_377"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_378  (Colmillo Ígneo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_378"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_379  (Hacer Cicatrizas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_379"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_38  (Ataque Aéreo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_38"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_380  (Encendido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_380"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_381  (Veneno Candente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_381"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_382  (Armadura de Espinas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_382"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_384  (Aporreo Insaciable)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_384"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_385  (Banco Tormentoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_385"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_386  (Zarpas Peligrosas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_386"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_387  (Esparcir Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_387"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_388  (Drenaje Espiral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_388"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_389  (Superelectrocañón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_389"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_39  (Danza Infernal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_39"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_390  (Patada Destrucción)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_390"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_391  (Patada Trasera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_391"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_392  (Desconectar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_392"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_393  (Zumbar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_393"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_394  (Electrogolpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_394"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_395  (Voltiocambio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_395"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_396  (Empujón Barrera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_396"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_399  (Presión Lunar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_399"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_4  (Encontrar un Amigo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_4"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_40  (Combustión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_40"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_400  (Atadura Nocturna)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_400"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_401  (Danza Deslumbrante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_401"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_402  (Danza Malévola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_402"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_403  (Vibración)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_403"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_404  (Impacto Umbrío)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_404"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_405  (Flecha Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_405"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_406  (Explosión Lunar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_406"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_407  (Láser Prisma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_407"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_408  (Empujón con Bofetón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_408"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_409  (Expulsar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_409"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_41  (Roer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_41"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_410  (Indicios de Evolución)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_410"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_411  (Colmillo Sangriento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_411"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_412  (Fuerza Equina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_412"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_413  (Caída Sideral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_413"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_414  (Ladrón Tragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_414"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_415  (Lanzamiento de Residuos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_415"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_416  (Pánico Químico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_416"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_417  (Garra Oculta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_417"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_418  (Aliento Supervenenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_418"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_419  (Clavo Cañón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_419"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_42  (Llamarada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_42"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_420  (Lanza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_420"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_421  (Abrir el Cerrojo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_421"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_422  (Brecha Solar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_422"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_423  (Cañón Plateado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_423"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_424  (Cólera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_424"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_425  (Fragor Escamas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_425"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_426  (Asistencia de Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_426"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_427  (Presa Justiciera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_427"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_428  (Rabieta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_428"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_429  (Trampa Primate)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_429"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_43  (Pistola Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_43"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_430  (Psicarga)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_430"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_431  (Cabezazo Zen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_431"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_432  (Pico Cañón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_432"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_433  (Thrash Metal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_433"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_434  (Beat Punk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_434"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_435  (Electrónica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_435"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_436  (Psychobilly)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_436"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_437  (Black Metal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_437"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_438  (Brass Rock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_438"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_439  (Garra Fotónica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_439"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_44  (Chapoteo Ondulante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_44"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_440  (Shoegaze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_440"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_441  (Relevo Dulce)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_441"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_442  (Descarga de Arranque)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_442"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_443  (Dulzor Extremo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_443"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_444  (Mudar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_444"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_445  (Absorbebofetón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_445"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_446  (2-Step)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_446"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_447  (Púas Erizadas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_447"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_448  (Incisivos Mejorados)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_448"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_449  (Garra Relámpago)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_449"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_45  (Hidrobomba)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_45"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_450  (Huracán Plasma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_450"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_451  (Rayo Mach)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_451"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_452  (Corte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_452"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_453  (Flecha Certera)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_453"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_454  (Big Beat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_454"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_455  (Jump Blues)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_455"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_456  (Bola Eléctrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_456"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_457  (Impacto Estático)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_457"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_458  (Patada Lunar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_458"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_459  (Tropezón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_459"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_46  (Surf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_46"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_460  (Patada Salto Alta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_460"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_461  (Lanzarrocas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_461"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_462  (Lycancolmillo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_462"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_463  (Pase Frontal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_463"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_464  (Disparo Arenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_464"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_465  (Bucle Arena)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_465"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_466  (Entrometimiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_466"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_467  (Sorpresa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_467"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_468  (Colmillos Acechantes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_468"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_469  (New Wave)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_469"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_47  (Dolor de Cabeza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_47"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_470  (Grindcore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_470"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_471  (Agujero Tiránico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_471"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_472  (Electro House)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_472"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_473  (Cabezazo Súbito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_473"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_474  (Cabezazo Triple)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_474"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_475  (Gigaimpacto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_475"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_476  (Picotazo Púas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_476"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_477  (Colmillo Afilado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_477"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_478  (Abrazo Superpoderoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_478"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_479  (Golpe Rápido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_479"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_48  (Filo Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_48"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_480  (Colegas Osados)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_480"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_481  (Moombahton)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_481"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_482  (Viento Helado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_482"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_483  (Explosión Hoja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_483"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_484  (Puntapié Desequilibrante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_484"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_485  (Caldera de Apoyo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_485"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_486  (Lariat Oscuro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_486"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_487  (Hipertorbellino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_487"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_488  (Hoja Hielo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_488"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_489  (Doble Giro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_489"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_49  (Aleta Afilada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_49"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_490  (Riego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_490"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_491  (Aria Burbuja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_491"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_492  (Calambre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_492"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_493  (Sacudida Eléctrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_493"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_494  (Comprimir Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_494"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_495  (Armonía Evolutiva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_495"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_496  (Intento de Imitación)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_496"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_497  (Disparo Lodo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_497"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_498  (Terremoto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_498"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_499  (Dureza Rodante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_499"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_5  (Picadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_5"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_50  (Puño con Nudillos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_50"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_500  (Atadura Oscura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_500"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_501  (Placaje Juguetón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_501"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_502  (Garra Cuchillazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_502"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_503  (Agarre Poderoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_503"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_504  (Dragoaliento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_504"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_505  (Coleccionar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_505"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_506  (Sopaporífero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_506"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_507  (Mal Oído)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_507"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_508  (Danza Pétalo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_508"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_509  (Somnífero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_509"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_51  (Megapuño)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_51"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_510  (Hierba Lazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_510"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_511  (Guillotina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_511"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_512  (Ida y Vuelta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_512"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_513  (Triple Bofetón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_513"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_514  (Embestida Única)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_514"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_515  (Carbón Activado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_515"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_516  (Aliento Ígneo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_516"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_517  (Exudallamas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_517"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_518  (Lanzamiento Cálido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_518"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_519  (Fuerte Llama)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_519"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_52  (Bofetada Gentil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_52"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_520  (Turbofénix)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_520"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_521  (Calor Abrasador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_521"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_522  (Prisión Tormentosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_522"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_523  (Esquivo Chapoteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_523"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_524  (Azote Iracundo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_524"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_525  (Torbellino Destructivo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_525"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_526  (Pulpocañón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_526"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_527  (Robo a Trompicones)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_527"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_528  (Arroyo Curativo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_528"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_529  (Martillazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_529"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_53  (Tentáculos Venenosos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_53"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_530  (Ciclón de Plumas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_530"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_531  (Señal Intermitente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_531"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_532  (Lanzamiento Electrizante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_532"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_533  (Tiro Chispeante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_533"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_534  (Trueno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_534"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_535  (Descanso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_535"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_536  (Onda Trémula)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_536"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_537  (Golpetazo Atrayente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_537"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_538  (Llamada Centelleante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_538"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_539  (Encanto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_539"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_54  (Golpe Cabeza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_54"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_540  (Picado Rápido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_540"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_541  (Drenar Vida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_541"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_542  (Respuesta Decisiva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_542"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_543  (Psicorrayo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_543"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_544  (Placaje Salvaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_544"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_545  (Danza Onírica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_545"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_546  (Bote Cabezazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_546"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_547  (Prensa Gigante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_547"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_548  (Coscorrón Vigoroso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_548"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_549  (Giro Perforador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_549"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_55  (Bofetón Lengua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_55"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_550  (Golpe Bis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_550"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_551  (Golpe Dinámico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_551"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_552  (Tajo Ponzoñoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_552"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_553  (Amarrar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_553"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_554  (Cuchilla Oscura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_554"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_555  (Robo en Picado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_555"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_556  (Cola Destructora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_556"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_557  (Gran Brinco)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_557"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_558  (Colisión Coraza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_558"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_559  (Impulso Vendaval)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_559"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_56  (Agarre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_56"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_560  (Ala de Acero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_560"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_561  (Engranaje Cortante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_561"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_562  (Giraengranajes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_562"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_563  (Picotazos a Insectos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_563"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_564  (Acurruque)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_564"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_565  (Golpe Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_565"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_566  (Atajar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_566"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_567  (Rayo Desacelerador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_567"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_568  (Coletazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_568"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_569  (Vuelo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_569"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_57  (Pinza Letal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_57"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_570  (Imitar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_570"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_571  (Destello Repentino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_571"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_572  (Bocadito de Miel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_572"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_573  (Dar Vueltas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_573"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_574  (Cuernos Mejorados)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_574"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_575  (Capa de Color)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_575"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_576  (Ráfaga Elemental)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_576"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_577  (Golpe Cabeza Continuo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_577"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_578  (Resplandor Atrayente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_578"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_579  (Puño Feliz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_579"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_58  (Flecha de Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_58"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_580  (Golpe Doble)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_580"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_581  (Pulso Noche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_581"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_582  (Placaje Eléctrico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_582"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_583  (Puño Huracán)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_583"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_584  (Frenesí Rodante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_584"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_585  (Azote)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_585"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_586  (Vuelo Cruzado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_586"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_587  (Paliza Abrasadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_587"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_588  (Bote)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_588"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_589  (Golpe de Brisa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_589"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_59  (Vuelta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_59"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_590  (Follaje Temporal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_590"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_591  (Mascamontañas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_591"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_592  (Veneno Paralizador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_592"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_593  (Basura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_593"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_594  (Vals Cristalino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_594"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_595  (Pase Salpicante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_595"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_596  (Bala Voltaica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_596"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_597  (Relampaguito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_597"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_598  (Voltio Cruel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_598"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_599  (Chispa Desafiante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_599"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_6  (Tornado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_6"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_60  (Azar Cuerno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_60"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_600  (Prosa Maldita)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_600"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_601  (Resplandor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_601"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_602  (Rompeacantilados)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_602"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_603  (Hidronudillos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_603"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_604  (Derribo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_604"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_605  (Rociado de Arena)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_605"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_606  (Roca Afilada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_606"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_607  (Colmillo Némesis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_607"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_608  (Oleada Mental)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_608"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_609  (Derretir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_609"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_61  (Palmetazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_61"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_610  (Bomba Lodo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_610"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_611  (Arcano Draco)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_611"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_612  (Tortazos a Puerrillo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_612"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_613  (Estirar Lengua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_613"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_614  (Nana Adormecedora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_614"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_615  (Blandicura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_615"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_616  (Convocar Frío)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_616"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_617  (Avalancha Espiral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_617"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_618  (Tijera X)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_618"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_619  (Tijeretazo Crítico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_619"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_62  (Hidroestallido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_62"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_620  (Fortaleza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_620"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_621  (Polvo Selección)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_621"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_622  (Ciclón Helado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_622"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_623  (Golpes Furia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_623"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_624  (Espada Santa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_624"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_625  (Punzada Rama)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_625"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_626  (Asta Drenaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_626"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_627  (Embestida Percusión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_627"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_628  (Hundir Garras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_628"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_629  (Sprint Flamígero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_629"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_63  (Salpicadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_63"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_630  (Quema Sacra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_630"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_631  (Patada Ígnea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_631"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_632  (Megaabrasión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_632"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_633  (Puños Darmanitas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_633"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_634  (Lengua Látigo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_634"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_635  (Coraza Trampa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_635"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_636  (Evolución Cascada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_636"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_637  (Coletazo Martillador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_637"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_638  (Megachorro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_638"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_639  (Pasos Rítmicos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_639"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_64  (Hiperrayo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_64"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_640  (Soplo Cetáceo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_640"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_641  (Placaje Parejo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_641"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_642  (Puño en Espiral Cortante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_642"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_643  (Caparazón Bloqueador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_643"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_644  (Barrera Gélida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_644"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_645  (Presa Maxilar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_645"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_646  (Bala Electrizante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_646"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_647  (Lancero Eléctrico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_647"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_648  (Impacto Resplandor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_648"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_649  (Electromordisquito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_649"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_65  (Drenaje Burbujas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_65"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_650  (Rugido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_650"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_651  (Lanzamiento Injusto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_651"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_652  (Megacanto Armonioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_652"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_653  (Emboscada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_653"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_654  (Ráfaga de Viento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_654"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_655  (Bombardeo de Globos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_655"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_656  (Tintineo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_656"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_657  (Disparo de Alma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_657"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_658  (Cuna Estelar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_658"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_659  (Fragancia Desconcertante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_659"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_66  (Torbellino Ancestral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_66"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_660  (Rizo Algodón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_660"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_661  (Beso Drenaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_661"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_662  (Directo Raudo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_662"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_663  (Palmada Derribo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_663"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_664  (Colmillos Demoledores)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_664"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_665  (Mordisco Ñam Ñam)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_665"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_666  (Giro Salvaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_666"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_667  (Cohete Pesado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_667"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_668  (Puñetazo In Extremis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_668"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_669  (Ataque Arena)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_669"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_67  (Rayo Hielo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_67"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_670  (Sorbevidas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_670"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_671  (Golpe Calor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_671"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_672  (Caída de Carbón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_672"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_673  (Amonestación Malvada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_673"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_674  (Garra Aciaga)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_674"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_675  (Garra Tenebrosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_675"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_676  (Jaula Sombría)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_676"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_677  (Hiperdescarga)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_677"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_678  (Látigo Dracónico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_678"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_679  (Irreverencia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_679"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_68  (Ala Gélida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_68"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_680  (Mordedura Conjunta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_680"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_681  (Cuchilla Cortante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_681"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_682  (Ala Férrea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_682"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_683  (Gigagarra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_683"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_684  (Ala Veloz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_684"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_685  (Ciclón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_685"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_686  (Cola Hiperactiva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_686"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_687  (Golpe Cuerpo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_687"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_688  (Turbocabezazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_688"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_689  (Gran Estruendo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_689"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_69  (Aleteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_69"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_690  (Carantoña)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_690"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_691  (Patada Gato)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_691"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_692  (Cabezazo Mareante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_692"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_693  (Colmillo Penetrante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_693"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_694  (Mordisco Peligroso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_694"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_695  (Avalancha Continua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_695"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_696  (Poder Ilimitado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_696"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_697  (Burbuja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_697"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_698  (Tornado Gigante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_698"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_699  (As del Chapoteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_699"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_7  (Aguijonazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_7"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_70  (Ataque Ala)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_70"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_700  (Golpe Aéreo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_700"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_701  (Explosión Metálica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_701"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_702  (Impulso Sónico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_702"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_703  (Copia Aliada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_703"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_704  (Síntesis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_704"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_705  (Floración Crítica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_705"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_706  (Rayo Madurador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_706"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_707  (Prender)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_707"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_708  (Picado Carmesí)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_708"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_709  (Doble Chapoteo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_709"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_71  (Goteo de Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_71"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_710  (Bombardeo Triple)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_710"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_711  (Golpe Sorpresa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_711"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_712  (Acuaducha)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_712"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_713  (Disparo Espejo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_713"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_714  (Liderazgo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_714"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_715  (Poder Reserva)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_715"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_716  (Dulce Aroma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_716"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_717  (Bomba Aromática)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_717"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_718  (Geoexplosión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_718"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_719  (Bofetada Empujón Megatón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_719"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_72  (Golpe Niebla)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_72"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_720  (Somanta Abrumadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_720"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_721  (Cortar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_721"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_722  (Puntapié)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_722"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_723  (Lanzamugre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_723"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_724  (Hurto y Huida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_724"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_725  (Bomba Ácida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_725"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_726  (Defensor Metálico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_726"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_727  (Rotación Adamantina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_727"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_728  (Cibersecuestro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_728"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_729  (Ala Huracán)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_729"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_73  (Golpe de Lluvia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_73"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_730  (Meteoros)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_730"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_731  (Anillo Venenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_731"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_732  (Púas Desgarradoras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_732"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_733  (Brazo Pincho)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_733"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_734  (Lazo de Púas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_734"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_735  (Polvo Vívido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_735"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_736  (Ground Beat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_736"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_737  (Flotar en el Aire)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_737"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_738  (Follaje Energético)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_738"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_739  (Hueso Abrasador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_739"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_74  (Segundo Golpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_74"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_740  (Llama Azul)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_740"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_741  (Danza Inspiradora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_741"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_742  (Quemadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_742"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_743  (Pop Punk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_743"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_744  (Balonazo de Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_744"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_745  (Danza Horno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_745"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_746  (Nieve Confinadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_746"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_747  (Triple Giro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_747"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_748  (Caja de Sorpresas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_748"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_749  (Gran Remolino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_749"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_75  (Nieve Polvo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_75"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_750  (Destructor Intimidatorio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_750"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_751  (Fresquito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_751"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_752  (Bloqueo Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_752"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_753  (Rayo Aurora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_753"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_754  (Prisión de Granizo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_754"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_755  (Disparo Escupitajo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_755"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_756  (Danza Fuente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_756"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_757  (Sacudida Atronadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_757"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_758  (Trueno Atronador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_758"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_759  (Cola Eléctrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_759"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_76  (Rayo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_76"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_760  (Chispa Amiga)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_760"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_761  (Chispa Dañina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_761"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_762  (Láser Fotónico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_762"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_763  (Darse la Vuelta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_763"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_764  (Psicoturbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_764"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_765  (Fuerza Fantástica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_765"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_766  (Rencor Ruin)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_766"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_767  (Amigos del Pasado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_767"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_768  (Fragmento Zen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_768"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_769  (Fragmentar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_769"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_77  (Circuito Circular)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_77"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_770  (Martillo Impacto)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_770"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_771  (Psicopatada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_771"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_772  (Joya de Luz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_772"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_773  (Cañón Megatón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_773"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_774  (Colmillo Tiránico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_774"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_775  (Lanzamiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_775"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_776  (Invadir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_776"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_777  (Danza Cimiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_777"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_778  (Contoneo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_778"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_779  (Golpe Despiadado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_779"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_78  (Bola Relámpago)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_78"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_780  (Fluido Rociado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_780"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_781  (Disparo Pantalla de Humo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_781"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_782  (Voz Quejica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_782"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_783  (Afianzagarras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_783"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_784  (Castigo Pusilánime)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_784"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_785  (Choque Malvado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_785"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_786  (Breakcore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_786"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_787  (Mordisco Cavernoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_787"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_788  (Trituración In Crescendo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_788"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_789  (Trampa de Cepo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_789"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_79  (Ataque Giratorio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_79"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_790  (Trocear)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_790"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_791  (Doble Hoja)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_791"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_792  (Escudo Magno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_792"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_793  (Descenso Dragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_793"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_794  (Buen Rollito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_794"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_795  (Puño Firme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_795"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_796  (Puño Doble Familiar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_796"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_797  (Coleada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_797"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_798  (Aerochorro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_798"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_799  (Bostezo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_799"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_8  (Aguijón Afilado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_8"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_80  (Bola Voltio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_80"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_800  (Mejor Puñetazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_800"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_801  (Puño a Bocajarro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_801"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_802  (Pisadas Tambaleantes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_802"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_803  (Gran Torbellino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_803"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_804  (Multitud)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_804"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_805  (Paliza Familiar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_805"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_806  (Nieve Helada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_806"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_807  (Truco Floral)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_807"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_808  (Patada Juguetona)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_808"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_809  (Cabezazo Picajoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_809"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_81  (Puño Trueno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_81"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_810  (Rodabola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_810"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_811  (Avaricia Vinculante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_811"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_812  (Canto Jubiloso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_812"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_813  (Cañón Armadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_813"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_814  (Megafuego de Envidia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_814"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_815  (Giro Chapoteante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_815"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_816  (Hidropatada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_816"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_817  (Triple Latigazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_817"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_818  (Puño Jet)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_818"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_819  (Misil Carámbano)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_819"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_82  (Pin Misil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_82"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_820  (Puño Hielo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_820"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_821  (Rosca Despojante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_821"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_822  (Apoyo Vengativo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_822"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_823  (Embestida Témpano)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_823"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_824  (Chispa al Azar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_824"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_825  (Cañón de Alto Voltaje)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_825"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_826  (Láser Relámpago)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_826"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_827  (Espada Combativa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_827"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_828  (Homenaje Póstumo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_828"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_829  (Lanzamiento Incesante de Monedas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_829"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_83  (Trueno Rabioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_83"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_830  (Furia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_830"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_831  (Puño Dinamita)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_831"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_832  (Paralizador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_832"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_833  (Martillo Adrenalina)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_833"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_834  (Impacto Soberbia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_834"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_835  (Colmillo Furioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_835"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_836  (Martillo Lodoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_836"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_837  (Salto Cohete)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_837"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_838  (Ataque Colorido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_838"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_839  (Martillo Colosal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_839"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_84  (Picotazo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_84"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_840  (Suministro de Hierro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_840"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_841  (Derroche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_841"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_842  (Patada Pisotón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_842"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_843  (Triple Roedura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_843"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_844  (Amigo Conductor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_844"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_845  (Puño Chakra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_845"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_846  (Nutrientes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_846"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_847  (Filo Frenético)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_847"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_848  (Robo Giratorio)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_848"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_849  (Aplastamiento Mental)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_849"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_85  (Electropatada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_85"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_850  (Pisotón Estruendoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_850"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_851  (Cola de Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_851"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_852  (Fuego Despiadado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_852"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_853  (Volcán Atronador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_853"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_854  (Triovivo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_854"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_855  (Congelación Embravecida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_855"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_856  (Chapoteo Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_856"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_857  (Golpe de Emperador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_857"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_858  (Turbina de Agua)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_858"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_859  (Trueno Incendiario)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_859"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_86  (Lanza del Trueno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_86"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_860  (Electroaceleración)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_860"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_861  (Hipnosis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_861"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_862  (Memoria Prodigiosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_862"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_863  (Danzarandeante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_863"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_864  (Ligera Intromisión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_864"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_865  (Bomba Fango)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_865"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_866  (Estallido Gaia)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_866"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_867  (Giro y Vuelta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_867"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_868  (Laberinto de Sombras)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_868"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_869  (Letargo Oscuro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_869"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_87  (Carga Diminuta)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_87"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_870  (Torbellino de Residuos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_870"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_871  (Rueda Vigorizante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_871"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_872  (Explosión Enorme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_872"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_873  (Golpazo Balístico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_873"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_874  (A Todo Gas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_874"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_875  (Impacto Cola)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_875"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_876  (Plegaria Celestial)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_876"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_877  (Ola de Dragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_877"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_878  (Esparcir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_878"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_879  (Atadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_879"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_88  (Rayo de Cabeza)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_88"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_880  (Amigos Poderosos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_880"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_881  (Filo Fustigante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_881"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_882  (Hoja Aguda)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_882"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_883  (Coletazo Letal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_883"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_884  (Antiincendios)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_884"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_885  (Espora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_885"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_886  (Golpe al Amanecer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_886"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_887  (Polvo Irritante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_887"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_888  (Protección)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_888"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_889  (Compartir)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_889"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_89  (Colmillo Rayo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_89"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_890  (Escupitajo Ácido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_890"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_891  (Derribar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_891"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_892  (Estallido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_892"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_893  (Bum Volcánico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_893"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_894  (Sol Ardiente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_894"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_895  (Llama V)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_895"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_896  (Tormenta de Llamas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_896"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_897  (Flecha Ígnea)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_897"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_898  (Doble Redoble)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_898"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_899  (Raid Oscuro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_899"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_9  (Apisonar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_9"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_90  (Coletón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_90"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_900  (Cabezazo Lodo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_900"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_901  (Lluvia Absorbente)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_901"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_902  (Nieve Glacial)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_902"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_903  (Perla Centelleante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_903"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_904  (Reflejar Energía)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_904"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_905  (Puñetazo Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_905"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_906  (Disparo Tornado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_906"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_907  (Explosión Magnética)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_907"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_908  (Tormenta Cuchilla)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_908"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_909  (Disparo Único Explosivo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_909"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_91  (Ataque Rápido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_91"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_910  (Electroestallido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_910"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_911  (Ataque Fulgor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_911"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_912  (Descarga Vengativa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_912"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_913  (Voltaje Saciante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_913"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_914  (Tormenta de Diamantes)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_914"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_915  (Saña Mareante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_915"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_916  (Voz Cautivadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_916"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_917  (Plancha)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_917"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_918  (Martillo Enloquecido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_918"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_919  (Ataque Lacrimoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_919"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_92  (Impactrueno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_92"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_920  (Puño Luchador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_920"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_921  (A Bocajarro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_921"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_922  (Pulso Combativo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_922"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_923  (Espada Telúrica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_923"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_924  (Llave Giro)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_924"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_925  (Demolición)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_925"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_926  (Golpe Triple)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_926"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_927  (Machaque Montaña)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_927"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_928  (Superataque Arena)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_928"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_929  (Entrenamiento)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_929"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_93  (Bofetón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_93"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_930  (Bomba Gaseosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_930"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_931  (Envite Espinoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_931"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_932  (Ascensión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_932"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_933  (Golpetazo Brutal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_933"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_934  (Esporas Peligrosas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_934"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_935  (Lado Ciego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_935"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_936  (Interferente de Evolución)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_936"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_937  (Venganza Oscura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_937"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_938  (Carga Protectora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_938"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_939  (Resonancia Psíquica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_939"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_94  (Disparo Mágico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_94"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_940  (Tajo Umbrío)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_940"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_941  (Cañón de Cuerda)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_941"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_942  (Choque Aéreo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_942"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_943  (Viento Arena)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_943"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_944  (Pulso Dragón)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_944"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_945  (Vendar Herida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_945"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_946  (Patada Saltadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_946"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_947  (Zurra y Cavadura)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_947"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_948  (Garras Furiosas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_948"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_949  (Gigaturbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_949"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_95  (Teletransporte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_95"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_950  (Autosugestión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_950"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_951  (Camada)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_951"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_952  (Colmillos Luchadores)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_952"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_953  (Luz Sanadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_953"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_954  (Esplendor Sincero)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_954"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_955  (Cola Sedosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_955"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_956  (Placaje Caprichoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_956"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_957  (Justa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_957"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_958  (Bofetada Vigorosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_958"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_959  (Furia Retorcida)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_959"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_96  (Superrayo Psi)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_96"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_960  (Racha Térmica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_960"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_961  (Confiscar)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_961"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_962  (Arranque Gélido)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_962"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_963  (Onda Electrificante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_963"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_964  (Ristra de Bofetones)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_964"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_965  (Trueno Binario)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_965"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_966  (Rayo Hadrónico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_966"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_967  (Rayo Psi)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_967"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_968  (Fotocolisión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_968"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_969  (Abucheo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_969"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_97  (Psíquico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_97"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_970  (Inicio Hechizante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_970"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_971  (Filo Vengativo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_971"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_972  (Hacha Modular)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_972"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_973  (Cuchilla Contadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_973"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_974  (Pisotón Estremecedor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_974"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_975  (Relevo Dañino)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_975"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_976  (Destructor de Mundos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_976"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_977  (Regalo Precioso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_977"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_978  (Espada del General)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_978"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_979  (Golpe Venenoso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_979"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_98  (Gas Sofocante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_98"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_980  (Vientos Explosivos)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_980"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_981  (Viento de Oscuridad)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_981"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_982  (Ferrogolpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_982"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_983  (Giro Desenfrenado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_983"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_984  (Oleada Impetuosa)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_984"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_985  (Interrupción Abrasadora)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_985"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_986  (Noqueo Agotador)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_986"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_987  (Taladro Súbito)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_987"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_988  (Garra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_988"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_989  (Ataque en Picado)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_989"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_99  (Fuego Fatuo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_99"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_990  (Impacto Prismático)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_990"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_991  (Tormenta Celular)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_991"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_992  (Láser Telúrico)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_992"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_993  (Cornada Dinámica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_993"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_994  (Aliento de Fuego)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_994"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_995  (Corte Destello)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_995"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_996  (Presión Energética)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_996"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_997  (Correr Alrededor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_997"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_998  (Trueno a Cuerda)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_998"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_999  (Ola de Confusión)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_999"
+  }
+]

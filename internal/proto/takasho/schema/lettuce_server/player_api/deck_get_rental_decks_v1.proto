@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/deck/rental_deck_status.proto";
+
+message DeckGetRentalDecksV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.deck.RentalDeckStatus rental_decks = 1;
+    }
+  }
+}

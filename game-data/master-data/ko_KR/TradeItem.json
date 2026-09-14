@@ -1,0 +1,9 @@
+[
+  {
+    "DescriptionMSID": "TRADE_ITEM_DESC_T1  (폐지된 플레이 아이템입니다\n숍에서 다른 플레이 아이템과 교환해 주십시오)",
+    "ID": "TRADE_ITEM_130010",
+    "NameMSID": "TRADE_ITEM_NAME_T1  (트레이드 메달)",
+    "ScheduleID": "SC_INFINITE",
+    "SortOrderPriority": 1
+  }
+]

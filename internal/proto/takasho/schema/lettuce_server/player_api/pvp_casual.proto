@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_casual_delete_matching_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_finish_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_get_matching_result_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_request_private_matching_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_request_public_matching_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_casual_start_battle_v2.proto";
+
+service PvpCasual {
+  rpc RequestPublicMatchingV2 (PvpCasualRequestPublicMatchingV2.Types.Request) returns (PvpCasualRequestPublicMatchingV2.Types.Response);
+  rpc RequestPrivateMatchingV2 (PvpCasualRequestPrivateMatchingV2.Types.Request) returns (PvpCasualRequestPrivateMatchingV2.Types.Response);
+  rpc DeleteMatchingV2 (PvpCasualDeleteMatchingV2.Types.Request) returns (PvpCasualDeleteMatchingV2.Types.Response);
+  rpc GetMatchingResultV2 (PvpCasualGetMatchingResultV2.Types.Request) returns (PvpCasualGetMatchingResultV2.Types.Response);
+  rpc StartBattleV2 (PvpCasualStartBattleV2.Types.Request) returns (PvpCasualStartBattleV2.Types.Response);
+  rpc FinishBattleV1 (PvpCasualFinishBattleV1.Types.Request) returns (PvpCasualFinishBattleV1.Types.Response);
+}

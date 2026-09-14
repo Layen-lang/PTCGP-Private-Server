@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/player_resources_get_new_emblem_arrival_v1.proto";
+import "takasho/schema/lettuce_server/player_api/player_resources_mark_as_viewed_new_emblem_arrival_v1.proto";
+import "takasho/schema/lettuce_server/player_api/player_resources_sync_v1.proto";
+
+service PlayerResources {
+  rpc SyncV1 (PlayerResourcesSyncV1.Types.Request) returns (PlayerResourcesSyncV1.Types.Response);
+  rpc GetNewEmblemArrivalV1 (PlayerResourcesGetNewEmblemArrivalV1.Types.Request) returns (PlayerResourcesGetNewEmblemArrivalV1.Types.Response);
+  rpc MarkAsViewedNewEmblemArrivalV1 (PlayerResourcesMarkAsViewedNewEmblemArrivalV1.Types.Request) returns (PlayerResourcesMarkAsViewedNewEmblemArrivalV1.Types.Response);
+}

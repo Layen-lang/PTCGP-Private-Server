@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_deposit.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_message.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_outcome.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_session_status.proto";
+
+message TradeSession {
+  string session_id = 1;
+  takasho.schema.lettuce_server.resource.card.CardInstance my_submission = 2;
+  takasho.schema.lettuce_server.resource.card.CardInstance partner_submission = 3;
+  takasho.schema.lettuce_server.resource.player_profile.ProfileSpine partner = 4;
+  TradeSessionStatus status = 5;
+  TradeOutcome outcome = 6;
+  TradeDeposit deposit = 7;
+  bool is_proposer = 8;
+  TradeMessage proposer_message = 9;
+}

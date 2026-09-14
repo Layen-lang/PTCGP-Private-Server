@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+message SoloBattleStartStatistics {
+  message Types {
+    enum DeckType {
+      DECK_TYPE_UNSPECIFIED = 0;
+      DECK_TYPE_MY_DECK = 1;
+      DECK_TYPE_RENTAL_DECK = 2;
+    }
+  }
+  bool from_retry_dialog = 1;
+  SoloBattleStartStatistics.Types.DeckType retry_dialog_deck_type = 2;
+}

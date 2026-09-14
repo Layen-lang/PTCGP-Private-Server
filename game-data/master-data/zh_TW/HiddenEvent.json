@@ -1,0 +1,8 @@
+[
+  {
+    "Category": 1,
+    "DestinationShopId": "EVENT_SUSPICIOUS",
+    "HiddenEventId": "EVENT_ROCKET",
+    "TargetShopId": "EVENT_ROCKET_DUMMY"
+  }
+]

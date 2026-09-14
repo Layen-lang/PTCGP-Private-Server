@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card_exchange/player_card_exchange_route_type.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto";
+
+message TutorialChoiceExchangeRouteV1 {
+  message Types {
+    message Request {
+      string pack_id = 1;
+      string tutorial_id = 2;
+      int64 tutorial_step = 3;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.card_exchange.PlayerCardExchangeRouteType exchange_route_type = 1;
+      takasho.schema.lettuce_server.resource.pack.PackUnpackOrder unpack_order = 2;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 3;
+      string tutorial_id = 4;
+      int64 tutorial_step = 5;
+    }
+  }
+}

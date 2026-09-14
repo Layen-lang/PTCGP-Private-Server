@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/card_skin_exchange_v2.proto";
+import "takasho/schema/lettuce_server/player_api/card_skin_get_card_exchange_route_v1.proto";
+import "takasho/schema/lettuce_server/player_api/card_skin_sync_exchanged_catalogs_v1.proto";
+
+service CardSkin {
+  rpc ExchangeV2 (CardSkinExchangeV2.Types.Request) returns (CardSkinExchangeV2.Types.Response);
+  rpc SyncExchangedCatalogsV1 (CardSkinSyncExchangedCatalogsV1.Types.Request) returns (CardSkinSyncExchangedCatalogsV1.Types.Response);
+  rpc GetCardExchangeRouteV1 (CardSkinGetCardExchangeRouteV1.Types.Request) returns (CardSkinGetCardExchangeRouteV1.Types.Response);
+}

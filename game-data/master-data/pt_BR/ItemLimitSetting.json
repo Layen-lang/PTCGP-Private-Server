@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "MaxBrightSandAmount",
+    "Key": 2,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxChallengeChargerAmount",
+    "Key": 11,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "MaxEmblemTicketAmount",
+    "Key": 6,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxEventChargerAmount",
+    "Key": 12,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "MaxEventTicketAmount",
+    "Key": 5,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxLimitedShopTicketAmount",
+    "Key": 7,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxPackChargerAmount",
+    "Key": 10,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "MaxPeripheralGoodsItemAmount",
+    "Key": 19,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "MaxPokeGoldPaidAmount",
+    "Key": 0,
+    "ValueInt64": 3600
+  },
+  {
+    "Id": "MaxPremiumTicketAmount",
+    "Key": 8,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxProfileDecorationItemAmount",
+    "Key": 18,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "MaxRevivalClockAmount",
+    "Key": 14,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "MaxShopTicketAmount",
+    "Key": 3,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxSpecialTicketAmount",
+    "Key": 4,
+    "ValueInt64": 999999999
+  },
+  {
+    "Id": "MaxTradeChargerAmount",
+    "Key": 13,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "MaxTradeMedakAmount",
+    "Key": 9,
+    "ValueInt64": 999999
+  }
+]

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/feed_card_spec_feed_challenge_pool_card.proto";
+
+message FeedGetCardSpecFeedChallengePool {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated FeedCardSpecFeedChallengePoolCard cards = 1;
+    }
+  }
+}

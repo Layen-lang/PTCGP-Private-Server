@@ -1,0 +1,20 @@
+[
+  {
+    "ClientRankingSize": 100,
+    "Exp": 15,
+    "FirstSeasonID": "RANKMATCH_SEASON_A2b",
+    "ID": "RANKMATCH_SETTING",
+    "RankingStartHours": 48,
+    "RecentBattleRecordCount": 30,
+    "SeasonEndAdditionalMinutes": 0
+  },
+  {
+    "ClientRankingSize": 100,
+    "Exp": 15,
+    "FirstSeasonID": "RANKMATCH_SEASON_A2b",
+    "ID": "RANKMATCH_SETTING2",
+    "RankingStartHours": 12,
+    "RecentBattleRecordCount": 30,
+    "SeasonEndAdditionalMinutes": 0
+  }
+]

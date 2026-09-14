@@ -1,0 +1,240 @@
+[
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_0",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_0"
+    ],
+    "TutorialID": "3000",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_1",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_1"
+    ],
+    "TutorialID": "3001",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_10",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_10"
+    ],
+    "TutorialID": "3010",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_11",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_11"
+    ],
+    "TutorialID": "3011",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_12",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_12"
+    ],
+    "TutorialID": "3012",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_13",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_13",
+      "TUTORIAL_BATTLE_REWARD_ITEMS_14"
+    ],
+    "TutorialID": "3013",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_14",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_15"
+    ],
+    "TutorialID": "3014",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_15",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_16"
+    ],
+    "TutorialID": "3015",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_2",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_2"
+    ],
+    "TutorialID": "3002",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_3",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_3"
+    ],
+    "TutorialID": "3003",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_4",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_4"
+    ],
+    "TutorialID": "3004",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_5",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_5"
+    ],
+    "TutorialID": "3005",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_6",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_6"
+    ],
+    "TutorialID": "3006",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_7",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_7"
+    ],
+    "TutorialID": "3007",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_8",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_8"
+    ],
+    "TutorialID": "3008",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_BATTLE_REWARDS_9",
+    "RewardItemIds": [
+      "TUTORIAL_BATTLE_REWARD_ITEMS_9"
+    ],
+    "TutorialID": "3009",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_DECK_ROUTE_A",
+    "RewardItemIds": [
+      "TUTORIAL_REWARD_DECK2_1",
+      "TUTORIAL_REWARD_DECK2_2",
+      "TUTORIAL_REWARD_DECK2_3",
+      "TUTORIAL_REWARD_DECK2_4",
+      "TUTORIAL_REWARD_DECK2_5",
+      "TUTORIAL_REWARD_DECK2_6",
+      "TUTORIAL_REWARD_DECK2_7",
+      "TUTORIAL_REWARD_DECK2_8",
+      "TUTORIAL_REWARD_DECK2_9",
+      "TUTORIAL_REWARD_DECK2_10",
+      "TUTORIAL_REWARD_DECK2_11",
+      "TUTORIAL_REWARD_DECK2_12",
+      "TUTORIAL_REWARD_DECK2_13",
+      "TUTORIAL_REWARD_DECK2_14",
+      "TUTORIAL_REWARD_DECK2_15",
+      "TUTORIAL_REWARD_DECK2_16",
+      "TUTORIAL_REWARD_DECK2_17",
+      "TUTORIAL_REWARD_DECK2_18",
+      "TUTORIAL_REWARD_DECK2_19",
+      "TUTORIAL_REWARD_DECK2_20"
+    ],
+    "TutorialID": "1011",
+    "TutorialStep": 1
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_DECK_ROUTE_B",
+    "RewardItemIds": [
+      "TUTORIAL_REWARD_DECK3_1",
+      "TUTORIAL_REWARD_DECK3_2",
+      "TUTORIAL_REWARD_DECK3_3",
+      "TUTORIAL_REWARD_DECK3_4",
+      "TUTORIAL_REWARD_DECK3_5",
+      "TUTORIAL_REWARD_DECK3_6",
+      "TUTORIAL_REWARD_DECK3_7",
+      "TUTORIAL_REWARD_DECK3_8",
+      "TUTORIAL_REWARD_DECK3_9",
+      "TUTORIAL_REWARD_DECK3_10",
+      "TUTORIAL_REWARD_DECK3_11",
+      "TUTORIAL_REWARD_DECK3_12",
+      "TUTORIAL_REWARD_DECK3_13",
+      "TUTORIAL_REWARD_DECK3_14",
+      "TUTORIAL_REWARD_DECK3_15",
+      "TUTORIAL_REWARD_DECK3_16",
+      "TUTORIAL_REWARD_DECK3_17",
+      "TUTORIAL_REWARD_DECK3_18",
+      "TUTORIAL_REWARD_DECK3_19",
+      "TUTORIAL_REWARD_DECK3_20"
+    ],
+    "TutorialID": "1011",
+    "TutorialStep": 2
+  },
+  {
+    "AcquireMethod": 1,
+    "ID": "TUTORIAL_DECK_ROUTE_C",
+    "RewardItemIds": [
+      "TUTORIAL_REWARD_DECK1_1",
+      "TUTORIAL_REWARD_DECK1_2",
+      "TUTORIAL_REWARD_DECK1_3",
+      "TUTORIAL_REWARD_DECK1_4",
+      "TUTORIAL_REWARD_DECK1_5",
+      "TUTORIAL_REWARD_DECK1_6",
+      "TUTORIAL_REWARD_DECK1_7",
+      "TUTORIAL_REWARD_DECK1_8",
+      "TUTORIAL_REWARD_DECK1_9",
+      "TUTORIAL_REWARD_DECK1_10",
+      "TUTORIAL_REWARD_DECK1_11",
+      "TUTORIAL_REWARD_DECK1_12",
+      "TUTORIAL_REWARD_DECK1_13",
+      "TUTORIAL_REWARD_DECK1_14",
+      "TUTORIAL_REWARD_DECK1_15",
+      "TUTORIAL_REWARD_DECK1_16",
+      "TUTORIAL_REWARD_DECK1_17",
+      "TUTORIAL_REWARD_DECK1_18",
+      "TUTORIAL_REWARD_DECK1_19",
+      "TUTORIAL_REWARD_DECK1_20"
+    ],
+    "TutorialID": "1011",
+    "TutorialStep": 3
+  },
+  {
+    "AcquireMethod": 2,
+    "ID": "TUTORIAL_REWARDS_PACKCHARGER",
+    "RewardItemIds": [
+      "TUTORIAL_REWARD_PACKCHARGER"
+    ],
+    "TutorialID": "1000",
+    "TutorialStep": 602
+  }
+]

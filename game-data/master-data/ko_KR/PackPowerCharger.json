@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (팩 파워 대기 시간을 단축할 수 있는 플레이\n아이템입니다. 사용하면 팩 개봉까지 1시간 단축됩니다\n미션 보상 등에서 획득할 수 있습니다)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (팩 모래시계)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

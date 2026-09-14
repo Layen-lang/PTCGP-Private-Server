@@ -1,0 +1,60 @@
+{
+  "android": {
+    "activity": "com.unity3d.player.UnityPlayerActivity",
+    "package": "jp.pokemon.pokemontcgp",
+    "redirectHosts": [
+      "player-api-prod.app-41283.com",
+      "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+      "pokemon-webapi.appspot.com"
+    ],
+    "serial": "",
+    "serverAddress": "10.0.2.2"
+  },
+  "client": {
+    "androidAssetAladdinHash": "60e47d4533e095d6",
+    "appVersion": "1.7.2",
+    "assetBaseURL": "https://prod-game-assets-app-41283.akamaized.net/",
+    "baasHost": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "baasSDKVersion": "Unity-3.13.1-c55a4366e",
+    "buildHash": "d221b73b872fb5c797af9f86b50f9520de259348",
+    "clientSDKVersion": "2.0.0",
+    "masterMemoryAladdinHash": "d94a080180eb69af",
+    "playerAPIHost": "player-api-prod.app-41283.com",
+    "responseProtocolVersion": "v8.2.9",
+    "sdkVersion": "v8.0.8"
+  },
+  "contracts": {
+    "descriptorSHA256": "436bfa0e78f8b35b43c682f89696b790ee3e8ad87b982ae74ff7bb09a7433c2c",
+    "fingerprint": "declaration-order-v1",
+    "methods": 243,
+    "services": 68
+  },
+  "data": {
+    "images": "game-data/images",
+    "masterData": "game-data/master-data"
+  },
+  "patch": {
+    "expected_hex": "ffc302d1fd7b05a9fc6f06a9fa6707a9",
+    "library": "libCysharp.Net.Http.YetAnotherHttpHandler.Native.so",
+    "name": "PTCGP 1.7.2 Yaha local TLS",
+    "offset": 1601044,
+    "rationale": "derive the TLS flag store from the current exported setter and return success from the root-certificate entrypoint",
+    "replacement_hex": "2100805201400f39000080d2c0035fd6",
+    "source_sha256": "00368cbd8da1423c9c6c359ca11008f548128d2c73274902759a4338c2580083",
+    "target_sha256": "ba0d1633d79e734c37808c02623a75d06fef7cd17bdc520ce63ca449f4a6d4b0",
+    "version": "1.7.2"
+  },
+  "runtime": {
+    "address": "127.0.0.1:443",
+    "adminAddress": "127.0.0.1:8081",
+    "certificate": "certs/server.pem",
+    "certificateAuthority": "certs/ca.pem",
+    "database": "data/ptcgp.db",
+    "launcherAddress": "127.0.0.1:8080",
+    "privateKey": "certs/server-key.pem",
+    "runtimeDirectory": "data/runtime",
+    "strictMetadata": true,
+    "trafficLog": "data/runtime/traffic.jsonl"
+  },
+  "schemaVersion": 1
+}

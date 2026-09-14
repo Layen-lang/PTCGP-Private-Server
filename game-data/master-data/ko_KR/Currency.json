@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (팩 파워 회복 대기 시간을 단축하거나 숍에서\n주변 상품 혹은 플레이 아이템과 교환할 수 있습니다\n숍/교환소에서 구입할 수 있습니다)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (포켓골드)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (팩 파워 회복 대기 시간을 단축하거나 숍에서\n주변 상품 혹은 플레이 아이템과 교환할 수 있습니다\n숍/교환소에서 구입할 수 있습니다)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (포켓골드)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (프리미엄 미션에서 획득할 수 있습니다\n숍에서 주변 상품 혹은 프로모 카드와\n교환할 수 있습니다)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (프리미엄 티켓)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (트레이드나 「이펙트 획득」에서 사용하는 플레이\n아이템입니다. 이미 도감 등록을 완료한 카드 획득 시\n또는 미션 보상 등으로 획득할 수 있습니다)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (빛의 모래)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (이벤트 미션을 달성하거나\n스텝 업 배틀에서 입수할 수 있습니다\n숍에서 주변 상품, 플레이 아이템과 교환할 수 있습니다)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (숍 티켓)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (자신의 카드 화면에서 레어도가 높은 카드를\n소비하면 획득할 수 있습니다. 숍에서 특별한 주변 상품\n혹은 플레이 아이템과 교환할 수 있습니다)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (스페셜 숍 티켓)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

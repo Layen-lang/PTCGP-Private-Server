@@ -1,0 +1,138 @@
+[
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 1,
+    "MainRankNameMSID": "MAIN_RANK_NAME_BIGINNER  (新手級)",
+    "RankMatchRankID": "BEGINNER_1",
+    "SubRank": 1,
+    "SubRankNumber": 1
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 1,
+    "MainRankNameMSID": "MAIN_RANK_NAME_BIGINNER  (新手級)",
+    "RankMatchRankID": "BEGINNER_2",
+    "SubRank": 2,
+    "SubRankNumber": 2
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 1,
+    "MainRankNameMSID": "MAIN_RANK_NAME_BIGINNER  (新手級)",
+    "RankMatchRankID": "BEGINNER_3",
+    "SubRank": 3,
+    "SubRankNumber": 3
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 1,
+    "MainRankNameMSID": "MAIN_RANK_NAME_BIGINNER  (新手級)",
+    "RankMatchRankID": "BEGINNER_4",
+    "SubRank": 4,
+    "SubRankNumber": 4
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 4,
+    "MainRankNameMSID": "MAIN_RANK_NAME_HYPERBALL  (高級球級)",
+    "RankMatchRankID": "HYPERBALL_1",
+    "SubRank": 1,
+    "SubRankNumber": 1
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 4,
+    "MainRankNameMSID": "MAIN_RANK_NAME_HYPERBALL  (高級球級)",
+    "RankMatchRankID": "HYPERBALL_2",
+    "SubRank": 2,
+    "SubRankNumber": 2
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 4,
+    "MainRankNameMSID": "MAIN_RANK_NAME_HYPERBALL  (高級球級)",
+    "RankMatchRankID": "HYPERBALL_3",
+    "SubRank": 3,
+    "SubRankNumber": 3
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 4,
+    "MainRankNameMSID": "MAIN_RANK_NAME_HYPERBALL  (高級球級)",
+    "RankMatchRankID": "HYPERBALL_4",
+    "SubRank": 4,
+    "SubRankNumber": 4
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_MASTER  ([Mst:MainRankName id=\"0\"])",
+    "MainRank": 5,
+    "MainRankNameMSID": "MAIN_RANK_NAME_MASTERBALL  (大師球級)",
+    "RankMatchRankID": "MASTERBALL",
+    "SubRank": 1,
+    "SubRankNumber": 0
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 2,
+    "MainRankNameMSID": "MAIN_RANK_NAME_MONSTERBALL  (精靈球級)",
+    "RankMatchRankID": "MONSTERBALL_1",
+    "SubRank": 1,
+    "SubRankNumber": 1
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 2,
+    "MainRankNameMSID": "MAIN_RANK_NAME_MONSTERBALL  (精靈球級)",
+    "RankMatchRankID": "MONSTERBALL_2",
+    "SubRank": 2,
+    "SubRankNumber": 2
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 2,
+    "MainRankNameMSID": "MAIN_RANK_NAME_MONSTERBALL  (精靈球級)",
+    "RankMatchRankID": "MONSTERBALL_3",
+    "SubRank": 3,
+    "SubRankNumber": 3
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 2,
+    "MainRankNameMSID": "MAIN_RANK_NAME_MONSTERBALL  (精靈球級)",
+    "RankMatchRankID": "MONSTERBALL_4",
+    "SubRank": 4,
+    "SubRankNumber": 4
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 3,
+    "MainRankNameMSID": "MAIN_RANK_NAME_SUPERBALL  (超級球級)",
+    "RankMatchRankID": "SUPERBALL_1",
+    "SubRank": 1,
+    "SubRankNumber": 1
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 3,
+    "MainRankNameMSID": "MAIN_RANK_NAME_SUPERBALL  (超級球級)",
+    "RankMatchRankID": "SUPERBALL_2",
+    "SubRank": 2,
+    "SubRankNumber": 2
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 3,
+    "MainRankNameMSID": "MAIN_RANK_NAME_SUPERBALL  (超級球級)",
+    "RankMatchRankID": "SUPERBALL_3",
+    "SubRank": 3,
+    "SubRankNumber": 3
+  },
+  {
+    "FullRankNameMSID": "RANK_NAME_WITH_SUBRANK_OTHER  ([Mst:MainRankName id=\"0\"][Num:Int id=\"1\" max_length=\"1\"])",
+    "MainRank": 3,
+    "MainRankNameMSID": "MAIN_RANK_NAME_SUPERBALL  (超級球級)",
+    "RankMatchRankID": "SUPERBALL_4",
+    "SubRank": 4,
+    "SubRankNumber": 4
+  }
+]

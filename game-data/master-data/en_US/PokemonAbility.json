@@ -1,0 +1,1891 @@
+[
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Once during your turn, you may heal 20 damage from each of your Pokémon.)",
+    "PokemonAbilityID": "PK_000070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200050",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_6  (If this Pokémon is in the Active Spot, once during your turn, you may switch in 1 of your opponent’s Benched Basic Pokémon to the Active Spot.)",
+    "PokemonAbilityID": "PK_000200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_000610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −10 damage from attacks.)",
+    "PokemonAbilityID": "PK_000670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200010",
+    "AbilityLogicParameters": [
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_2  (Once during your turn, you may do 20 damage to 1 of your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_000890_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Lightning Energy from your Energy Zone and attach it to this Pokémon.)",
+    "PokemonAbilityID": "PK_000980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300020",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_12  (As long as this Pokémon is in the Active Spot, your opponent can’t use any Supporter cards from their hand.)",
+    "PokemonAbilityID": "PK_001230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Asleep  (Asleep)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Once during your turn, you may flip a coin. If heads, your opponent’s Active Pokémon is now Asleep.)",
+    "PokemonAbilityID": "PK_001250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Psychic Energy from your Energy Zone and attach it to the Psychic Pokémon in the Active Spot.)",
+    "PokemonAbilityID": "PK_001320_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Poisoned  (Poisoned)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent’s Active Pokémon Poisoned.)",
+    "PokemonAbilityID": "PK_001770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_001820_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200030",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_4  (Once during your turn, you may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.))",
+    "PokemonAbilityID": "PK_001880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200090",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_10  (Once during your turn, you may look at the top [Num:Int plural_only=\" \" ][Gr:Count s=\"card\" p=\"cards\" ] of your deck.)",
+    "PokemonAbilityID": "PK_002070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300030",
+    "AbilityLogicParameters": [
+      "Grass",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_13  (Each Grass Energy attached to your Grass Pokémon provides 2 Grass Energy. This effect doesn’t stack.)",
+    "PokemonAbilityID": "PK_002200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200100",
+    "AbilityLogicParameters": [
+      "Water",
+      "Water",
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_14  (As often as you like during your turn, you may move a Water Energy from 1 of your Benched Water Pokémon to your Active Water Pokémon.)",
+    "PokemonAbilityID": "PK_002330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300300040",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_15  (Your opponent can’t play any Pokémon from their hand to evolve their Active Pokémon.)",
+    "PokemonAbilityID": "PK_002590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_002690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Once during your turn, you may heal 10 damage from each of your Pokémon.)",
+    "PokemonAbilityID": "PK_003030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (This Pokémon takes −20 damage from attacks from Fire or Water Pokémon.)",
+    "PokemonAbilityID": "PK_003130_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (This Pokémon takes −30 damage from attacks from Fire or Water Pokémon.)",
+    "PokemonAbilityID": "PK_003140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300060",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_19  (Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon.)",
+    "PokemonAbilityID": "PK_003150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200110",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_20  (As often as you like during your turn, you may choose 1 of your Pokémon that has damage on it, and move all of its damage to this Pokémon.)",
+    "PokemonAbilityID": "PK_003530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300080",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_21  (If this Pokémon has any Energy attached, it has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_003590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_003680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300070",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_22  (Attacks used by your Fighting Pokémon do +20 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_003730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300100020",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_23  (Whenever you attach a Darkness Energy from your Energy Zone to this Pokémon, do 20 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_003910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "100"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (If any damage is done to this Pokémon by attacks, flip a coin. If heads, this Pokémon takes −100 damage from that attack.)",
+    "PokemonAbilityID": "PK_003950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200120",
+    "AbilityLogicParameters": [
+      "1",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_25  (You must discard [Num:Int plural_only=\" \" ][Gr:Count s=\"a card\" p=\"cards\" id=\"2\" ] from your hand in order to use this Ability. Once during your turn, you may draw 1[Gr:Count s=\"a card\" p=\"cards\" id=\"3\" ref=\"1\" ].)",
+    "PokemonAbilityID": "PK_004040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_004330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200130",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_27  (Once during your turn, if this Pokémon is in the Active Spot, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Grass Energy from your Energy Zone and attach it to [Gr:Count s=\"1 of your\" p=\"your\" ref=\"1\" ] Grass Pokémon.)",
+    "PokemonAbilityID": "PK_004340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_004370_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300120",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_29  (If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less Colorless Energy.)",
+    "PokemonAbilityID": "PK_004450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100030",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_30  (During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_004460_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks.)",
+    "PokemonAbilityID": "PK_004500_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200140",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_32  (Once during your turn, you may choose either player. Look at the top [Num:Int plural_only=\" \" ][Gr:Count s=\"card\" p=\"cards\" ] of that player’s deck.)",
+    "PokemonAbilityID": "PK_004580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_004590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_004650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200150",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_33  (Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_004740_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks.)",
+    "PokemonAbilityID": "PK_004790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300140",
+    "AbilityLogicParameters": [
+      "Basic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_34  (As long as this Pokémon is on your Bench, your Active Basic’s Retreat Cost is 1 less.)",
+    "PokemonAbilityID": "PK_004930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_35  (This Pokémon can’t be affected by any Special Conditions.)",
+    "PokemonAbilityID": "PK_004950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_36  (Whenever you attach a Psychic Energy from your Energy Zone to this Pokémon, heal 20 damage from this Pokémon.)",
+    "PokemonAbilityID": "PK_004960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300170",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_37  (This Pokémon takes −30 damage from attacks from Fighting Pokémon.)",
+    "PokemonAbilityID": "PK_004990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_005010_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300160",
+    "AbilityLogicParameters": [
+      "HEYRUSHER"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_38  (Your Active Dondozo has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_005400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200160",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_39  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Psychic Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends.)",
+    "PokemonAbilityID": "PK_005520_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Poisoned  (Poisoned)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Once during your turn, you may flip a coin. If heads, your opponent’s Active Pokémon is now Poisoned.)",
+    "PokemonAbilityID": "PK_005660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Once during your turn, you may heal 20 damage from your Active Pokémon.)",
+    "PokemonAbilityID": "PK_005760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300180",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_41  (During your first turn, this Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_006020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200180",
+    "AbilityLogicParameters": [
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_42  (Once during your turn, you may heal 30 damage from each of your Water Pokémon.)",
+    "PokemonAbilityID": "PK_006290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, do 50 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_006350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300190",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_44  (Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon [Img:ex].)",
+    "PokemonAbilityID": "PK_006470_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300200",
+    "AbilityLogicParameters": [
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_45  (Each of your Pokémon that has any Psychic Energy attached recovers from all Special Conditions and can’t be affected by any Special Conditions.)",
+    "PokemonAbilityID": "PK_006610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200190",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_46  (Once during your turn, you may move all Psychic Energy from 1 of your Benched Psychic Pokémon to your Active Pokémon.)",
+    "PokemonAbilityID": "PK_006680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.)",
+    "PokemonAbilityID": "PK_006770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100070",
+    "AbilityLogicParameters": [
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_48  (If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, move all Fighting Energy from this Pokémon to 1 of your Benched Pokémon.)",
+    "PokemonAbilityID": "PK_006850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_006900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_49  (Once during your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon.)",
+    "PokemonAbilityID": "PK_007030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (Asleep)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep.)",
+    "PokemonAbilityID": "PK_007220_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100080",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_51  (At the end of your first turn, take [Gr:Count s=\"a \" ref=\"1\" ]1Lightning Energy from your Energy Zone and attach it to this Pokémon.)",
+    "PokemonAbilityID": "PK_007410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300220",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_52  (As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon do −20 damage.)",
+    "PokemonAbilityID": "PK_007550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200210",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_53  (Once during your turn, you may put [Gr:Count s=\"a \" ref=\"0\" ]1random Pokémon from your deck into your hand.)",
+    "PokemonAbilityID": "PK_007640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300230",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_54  (Pokémon (both yours and your opponent’s) can’t be healed.)",
+    "PokemonAbilityID": "PK_007680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300240",
+    "AbilityLogicParameters": [
+      "Poisoned  (Poisoned)",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_55  (Your opponent’s Active Pokémon takes +10 damage from being Poisoned.)",
+    "PokemonAbilityID": "PK_007790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_007880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon cost 1 [Img:Element name=\"C\"] more.)",
+    "PokemonAbilityID": "PK_007910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200220",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_57  (Once during your turn, you may switch your Active Ultra Beast with 1 of your Benched Ultra Beasts.)",
+    "PokemonAbilityID": "PK_007960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200240",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_58  (Once during your turn, you may attach [Gr:Count s=\"a \" ref=\"1\" ]1Fire Energy from your discard pile to this Pokémon. If you do, do 20 damage to this Pokémon.)",
+    "PokemonAbilityID": "PK_008050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100100",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_59  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may draw [Num:Int plural_only=\" \" ][Gr:Count s=\"a card\" p=\"cards\" ].)",
+    "PokemonAbilityID": "PK_008280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300260",
+    "AbilityLogicParameters": [
+      "EIEVUI"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_60  (This Pokémon can evolve into any Pokémon that evolves from Eevee if you play it from your hand onto this Pokémon. (This Pokémon can’t evolve during your first turn or the turn you play it.))",
+    "PokemonAbilityID": "PK_008480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100090",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_61  (At the end of your turn, if this Pokémon is in the Active Spot, heal 20 damage from it.)",
+    "PokemonAbilityID": "PK_008490_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300200250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_62  (Once during your turn, you may put [Gr:Count s=\"a \" ][Num:Int plural_only=\" \" ]random Pokémon Tool [Gr:Count s=\"card\" p=\"cards\" ] from your deck into your hand.)",
+    "PokemonAbilityID": "PK_008510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_63  (Your Active Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_008710_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_008770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300280",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_64  (If this Pokémon has a Pokémon Tool attached, attacks used by this Pokémon cost 1 less Grass Energy.)",
+    "PokemonAbilityID": "PK_008790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200260",
+    "AbilityLogicParameters": [
+      "Burned  (Burned)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_65  (Once during your turn, you may make your opponent’s Active Pokémon Burned.)",
+    "PokemonAbilityID": "PK_008850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300290",
+    "AbilityLogicParameters": [
+      "NYOROZO",
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_66  (As long as this Pokémon is on your Bench, attacks used by your Pokémon that evolve from Poliwhirl do +40 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_008960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (This Pokémon takes −30 damage from attacks from Fire or Water Pokémon.)",
+    "PokemonAbilityID": "PK_009060_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100110",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_67  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may discard 1[Gr:Count s=\"a \" ref=\"0\" ]random Energy from your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_009170_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.)",
+    "PokemonAbilityID": "PK_009360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200270",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_69  (Once during your turn, if this Pokémon is in the Active Spot, you may heal 30 damage from 1 of your Pokémon.)",
+    "PokemonAbilityID": "PK_009390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300310",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_76",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_83  (This Ability works if you have any Unown in play with an Ability other than PokemonAbilityName_ID_76. All of your Pokémon take −10 damage from attacks from your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_009400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300320",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_77",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_84  (This Ability works if you have any Unown in play with an Ability other than PokemonAbilityName_ID_77. Attacks used by your Pokémon do +10 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_009410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200280",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_72  (Once during your turn, if this Pokémon is in the Active Spot, you may switch in 1 of your opponent’s Benched Pokémon that has damage on it to the Active Spot.)",
+    "PokemonAbilityID": "PK_009680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200290",
+    "AbilityLogicParameters": [
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_73  (Once during your turn, you may move all Darkness Energy from each of your Pokémon to this Pokémon.)",
+    "PokemonAbilityID": "PK_009750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100120",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_74  (Whenever you attach an Energy from your Energy Zone to this Pokémon, put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it.)",
+    "PokemonAbilityID": "PK_009920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300330",
+    "AbilityLogicParameters": [
+      "Asleep  (Asleep)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_75  (This Pokémon can’t be Asleep.)",
+    "PokemonAbilityID": "PK_009960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100140",
+    "AbilityLogicParameters": [
+      "Water",
+      "1",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_76  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may heal 60 damage from 1 of your Water Pokémon.)",
+    "PokemonAbilityID": "PK_010120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (If your opponent’s Pokémon is Knocked Out by damage from this Pokémon’s attacks, during your opponent’s next turn, prevent all damage from—and effects of—attacks done to this Pokémon.)",
+    "PokemonAbilityID": "PK_010140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (At the end of your turn, if this Pokémon is in the Active Spot, draw 1[Gr:Count s=\"a card\" p=\"cards\" ].)",
+    "PokemonAbilityID": "PK_010210_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (At the end of your turn, if this Pokémon is in the Active Spot, draw 1[Gr:Count s=\"a card\" p=\"cards\" ].)",
+    "PokemonAbilityID": "PK_010400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (At the end of your turn, if this Pokémon is in the Active Spot, draw 1[Gr:Count s=\"a card\" p=\"cards\" ].)",
+    "PokemonAbilityID": "PK_010440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100170",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_80  (Once during your turn, when you put this Pokémon from your hand onto your Bench, you may have your opponent reveal their hand.)",
+    "PokemonAbilityID": "PK_010510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_81  (If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, flip a coin. If heads, the Attacking Pokémon is Knocked Out.)",
+    "PokemonAbilityID": "PK_010540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300340",
+    "AbilityLogicParameters": [
+      "LATIAS"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_82  (If you have Latias in play, this Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_010550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_010610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_010790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_87  (Each of your Grass Pokémon gets +20 HP.)",
+    "PokemonAbilityID": "PK_011000_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_88  (Once during your turn, you may flip a coin. If heads, switch in 1 of your opponent’s Benched Pokémon to the Active Spot.)",
+    "PokemonAbilityID": "PK_011090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200310",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_89  (Once during your turn, you may discard the top 1[Gr:Count s=\"card\" p=\"cards\" ref=\"0\" ] of your opponent’s deck.)",
+    "PokemonAbilityID": "PK_011250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100180",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_90  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, take [Gr:Count s=\"a \" ref=\"1\" ]1Water Energy from your Energy Zone and attach it to [Gr:Count s=\"1 of \" ref=\"1\" ]your Benched Pokémon.)",
+    "PokemonAbilityID": "PK_011510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Once during your turn, you may switch your Active Water Pokémon with 1 of your Benched Pokémon.)",
+    "PokemonAbilityID": "PK_011550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300360",
+    "AbilityLogicParameters": [
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_92  (If this Pokémon has full HP, it takes −40 damage from attacks from your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_011620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100190",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_93  (As long as this Pokémon is in the Active Spot, whenever your opponent attaches an Energy from their Energy Zone to 1 of their Pokémon, do 20 damage to that Pokémon.)",
+    "PokemonAbilityID": "PK_011630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can’t get any points for it.)",
+    "PokemonAbilityID": "PK_011870_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_95  (Once during your turn, if this Pokémon is on your Bench, you may discard all Pokémon Tools from your opponent’s Active Pokémon. If you do, discard this Pokémon.)",
+    "PokemonAbilityID": "PK_012020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Once during your turn, you may heal 20 damage from your Active Pokémon.)",
+    "PokemonAbilityID": "PK_012030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200330",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "2",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_96  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]2Darkness Energy from your Energy Zone and attach it to this Pokémon. If you do, do 30 damage to this Pokémon.)",
+    "PokemonAbilityID": "PK_012390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100210",
+    "AbilityLogicParameters": [
+      "Poisoned  (Poisoned)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_97  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, the Attacking Pokémon is now Poisoned.)",
+    "PokemonAbilityID": "PK_012420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300380",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Metal",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_98  (Attacks used by your Psychic Pokémon and Metal Pokémon do +30 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_012540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon cost 1 [Img:Element name=\"C\"] more.)",
+    "PokemonAbilityID": "PK_012590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300370",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_99  (As long as this Pokémon is in the Active Spot, it can evolve during your first turn or the turn you play it.)",
+    "PokemonAbilityID": "PK_012660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100220",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_100  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 1[Gr:Count s=\"a Supporter card\" p=\"Supporter cards\" ref=\"0\"] from your discard pile into your hand.)",
+    "PokemonAbilityID": "PK_012760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_012880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Fire Energy from your Energy Zone and attach it to your Active Fire Pokémon.)",
+    "PokemonAbilityID": "PK_012980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_104  (Your opponent’s Active Pokémon’s Retreat Cost is 1 more.)",
+    "PokemonAbilityID": "PK_013120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300400",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_105  (As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks.)",
+    "PokemonAbilityID": "PK_013230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (This Pokémon gets +30 HP for each Psychic Energy attached to it.)",
+    "PokemonAbilityID": "PK_013380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_013660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300430",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_109  (Each of your Pokémon that has any Energy attached recovers from all Special Conditions and can’t be affected by any Special Conditions.)",
+    "PokemonAbilityID": "PK_013830_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300440",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_110  (If a Stadium is in play, this Pokémon has no Retreat Cost.)",
+    "PokemonAbilityID": "PK_014160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100240",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_111  (At the beginning of your turn, if this Pokémon is in the Active Spot, put 1[Gr:Count s=\"a random\" p=\"random\" ref=\"1\"] Psychic Pokémon from your deck into your hand.)",
+    "PokemonAbilityID": "PK_014360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300450",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_112  (When this Pokémon is first damaged by an attack after coming into play, prevent that damage.)",
+    "PokemonAbilityID": "PK_014390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_113  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may have your opponent shuffle their hand into their deck. For each remaining point that your opponent needs to win, they draw a card.)",
+    "PokemonAbilityID": "PK_014410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300460",
+    "AbilityLogicParameters": [
+      "TAIRETSU",
+      "20",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_114  (If you have another Falinks in play, this Pokémon’s attacks do +20 damage to your opponent’s Active Pokémon, and this Pokémon takes −20 damage from attacks from your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_014580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300420",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_115  (Basic Pokémon in play (both yours and your opponent’s) have no Abilities.)",
+    "PokemonAbilityID": "PK_014630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100250",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_116  (If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, do 10 damage to each of your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_014690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100260",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_117  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may put 2[Gr:Count s=\"a random Pokémon Tool card\" p=\"random Pokémon Tool cards\" ref=\"0\"] from your discard pile into your hand.)",
+    "PokemonAbilityID": "PK_014770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.)",
+    "PokemonAbilityID": "PK_014900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200350",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_118  (Once during your turn, if this Pokémon is in the Active Spot, you may look at a random Supporter card from your opponent’s hand. Use the effect of that card as the effect of this Ability.)",
+    "PokemonAbilityID": "PK_014960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_119  (Once during your turn, you may switch out your opponent’s Active Basic Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.))",
+    "PokemonAbilityID": "PK_014990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (Asleep)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (As long as this Pokémon is in the Active Spot, whenever you attach an Energy from your Energy Zone to it, it is now Asleep.)",
+    "PokemonAbilityID": "PK_015020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_015070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200370",
+    "AbilityLogicParameters": [
+      "1",
+      "60",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_120  (Once during your turn, you may heal 60 damage from 1 of your Pokémon [Img:ex ] that [Gr:Count s=\"has\" p=\"have\" ] any Energy attached. If you do, discard 1[Gr:Count s=\"a random\" p=\"random\" ref=\"2\" ] Energy from [Gr:Count s=\"that\" p=\"those\" ] Pokémon.)",
+    "PokemonAbilityID": "PK_015180_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200380",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire",
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_121  (Once during your turn, you may discard 1 Fire Energy from this Pokémon in order to use this Ability. During this turn, attacks used by your Fire Pokémon do +50 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_015270_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −30 damage from attacks.)",
+    "PokemonAbilityID": "PK_015290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300470",
+    "AbilityLogicParameters": [
+      "50",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_122  (If this Pokémon’s remaining HP is 50 or less, attacks used by this Pokémon do +60 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_015330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Water Energy from your Energy Zone and attach it to the Water Pokémon in the Active Spot.)",
+    "PokemonAbilityID": "PK_015450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Fire Energy from your Energy Zone and attach it to your Active Fire Pokémon.)",
+    "PokemonAbilityID": "PK_016140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300100280",
+    "AbilityLogicParameters": [
+      "Asleep  (Asleep)",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_123  (At the end of each turn, if your opponent’s Active Pokémon is Asleep, do 20 damage to that Pokémon.)",
+    "PokemonAbilityID": "PK_016440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Metal"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Once during your turn, you may switch your Active Metal Pokémon with 1 of your Benched Pokémon.)",
+    "PokemonAbilityID": "PK_016540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_016650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300480",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_124  (Each of your evolved Pokémon can use any attack from its previous Evolutions. (You still need the necessary Energy to use each attack.))",
+    "PokemonAbilityID": "PK_016690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300490",
+    "AbilityLogicParameters": [
+      "Fire",
+      "PokemonAbilityName_ID_129"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_125  (Once during your turn, after you flip any coins for an attack of 1 of your Fire Pokémon, you may ignore all results of those coin flips and begin flipping those coins again. You can’t use more than 1 PokemonAbilityName_ID_129 Ability each turn.)",
+    "PokemonAbilityID": "PK_016900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200390",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_126  (Once during your turn, if this Pokémon is in the Active Spot, you may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.))",
+    "PokemonAbilityID": "PK_017020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may do 20 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_017140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may do 30 damage to your opponent’s Active Pokémon.)",
+    "PokemonAbilityID": "PK_017150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Water",
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (As long as this Pokémon is in play, it is Water and Fighting type.)",
+    "PokemonAbilityID": "PK_017160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Confused  (Confused)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Once during your turn, if this Pokémon is in the Active Spot, you may make your opponent’s Active Pokémon Confused.)",
+    "PokemonAbilityID": "PK_017310_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200400",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_129  (Once during your turn, if this Pokémon is on your Bench, you may move 30 damage that your Active Pokémon has on it to this Pokémon.)",
+    "PokemonAbilityID": "PK_017380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (As long as this Pokémon is in play, it is Fighting and Darkness type.)",
+    "PokemonAbilityID": "PK_017780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300510",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_130  (As long as this Pokémon is on your Bench, your Active Darkness Pokémon’s Retreat Cost is 1 less.)",
+    "PokemonAbilityID": "PK_017800_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100300",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_131  (During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to each of your opponent’s Pokémon.)",
+    "PokemonAbilityID": "PK_017910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200410",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_132  (Once during your turn, you may remove a random Special Condition from your Active Pokémon.)",
+    "PokemonAbilityID": "PK_017930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300520",
+    "AbilityLogicParameters": [
+      "REGIROCK",
+      "REGICE",
+      "REGISTEEL"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_133  (If you don’t have Regirock, Regice, and Registeel on your Bench, this Pokémon can’t attack.)",
+    "PokemonAbilityID": "PK_017990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_018090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Once during your turn, when you put this Pokémon from your hand onto your Bench, you may switch it with your Active Pokémon. If you do, move all of your Energy in play to this Pokémon.)",
+    "PokemonAbilityID": "PK_018340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300530",
+    "AbilityLogicParameters": [
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_135  (Attacks used by your Future Pokémon cost 1 less Colorless Energy.)",
+    "PokemonAbilityID": "PK_018420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100320",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_136  (During Pokémon Checkup, heal 10 damage from each of your Pokémon.)",
+    "PokemonAbilityID": "PK_018480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Once during your turn, when you put this Pokémon from your hand onto your Bench, you may switch it with your Active Pokémon. If you do, move all of your Energy in play to this Pokémon.)",
+    "PokemonAbilityID": "PK_018510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (When this Pokémon is Knocked Out, flip a coin. If heads, your opponent can’t get any points for it.)",
+    "PokemonAbilityID": "PK_018600_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (If this Pokémon is in the Active Spot and is damaged by an attack from your opponent’s Pokémon, do 20 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_018610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100330",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_137  (Once during your turn, when you put this Pokémon from your hand onto your Bench, you may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.))",
+    "PokemonAbilityID": "PK_018620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −10 damage from attacks.)",
+    "PokemonAbilityID": "PK_018920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_138  (At the end of your opponent’s turn, if this Pokémon is in the Active Spot, put a random card from your deck that evolves from this Pokémon onto this Pokémon to evolve it.)",
+    "PokemonAbilityID": "PK_019040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Once during your turn, you may take [Gr:Count s=\"a \" ref=\"1\" ]1Water Energy from your Energy Zone and attach it to this Pokémon.)",
+    "PokemonAbilityID": "PK_019160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200420",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_140  (Once during your turn, if this Pokémon has a Pokémon Tool attached, you may heal 30 damage from 1 of your Pokémon.)",
+    "PokemonAbilityID": "PK_019280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "80"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (If any damage is done to this Pokémon by attacks, flip a coin. If heads, this Pokémon takes −80 damage from that attack.)",
+    "PokemonAbilityID": "PK_019480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300540",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_139  (As long as this Pokémon is in the Active Spot, your opponent can’t play any Stadium cards from their hand.)",
+    "PokemonAbilityID": "PK_019530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (If this Pokémon would be Knocked Out by damage from an attack, flip a coin. If heads, this Pokémon is not Knocked Out, and its remaining HP becomes 10.)",
+    "PokemonAbilityID": "PK_019560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_019580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200430",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_141  (Once during your turn, you may use this Ability. 1 Special [Gr:Count s=\"Condition\" p=\"Conditions\" ref=\"0\" ] from among Burned, Confused, and Poisoned [Gr:Count s=\"is\" p=\"are\" ref=\"0\" ] chosen at random, and your opponent’s Active Pokémon is now affected by [Gr:Count s=\"that\" p=\"those\" ref=\"0\" ] Special [Gr:Count s=\"Condition\" p=\"Conditions\" ref=\"0\" ]. Any Special Conditions already affecting that Pokémon will not be chosen.)",
+    "PokemonAbilityID": "PK_019660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_142  (Once during your turn, when you put this Pokémon from your hand onto your Bench, you may heal 20 damage from your Active Grass Pokémon.)",
+    "PokemonAbilityID": "PK_019780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_143  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may prevent all damage from—and effects of—attacks from your opponent’s Pokémon done to this Pokémon until the end of your opponent’s next turn.)",
+    "PokemonAbilityID": "PK_020050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100370",
+    "AbilityLogicParameters": [
+      "Paralyzed  (Paralyzed)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_144  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed.)",
+    "PokemonAbilityID": "PK_020110_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300550",
+    "AbilityLogicParameters": [
+      "DUMBBER",
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_145  (If you have another Beldum in play, this Pokémon’s Retreat Cost is 2 less.)",
+    "PokemonAbilityID": "PK_020670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300560",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_146  (This Pokémon may have up to 2 Pokémon Tool cards attached to it.)",
+    "PokemonAbilityID": "PK_020760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300200440",
+    "AbilityLogicParameters": [
+      "1",
+      "Dragon"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_147  (Once during your turn, if this Pokémon is on your Bench, you may attach [Gr:Count s=\"an \" ref=\"0\" ]1Energy from your discard pile to your Active Dragon Pokémon.)",
+    "PokemonAbilityID": "PK_020780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100380",
+    "AbilityLogicParameters": [
+      "4"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_148  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 4 cards of your deck and put all Item cards you find there into your hand. Shuffle the other cards back into your deck.)",
+    "PokemonAbilityID": "PK_020910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_021030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Grass",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (This Pokémon gets +30 HP for each Grass Energy attached to it.)",
+    "PokemonAbilityID": "PK_021230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "70"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent’s Pokémon, do 70 damage to the Attacking Pokémon.)",
+    "PokemonAbilityID": "PK_021350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200450",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_149  (Once during your turn, if this Pokémon is in the Active Spot, you may draw 1[Gr:Count s=\"a card\" p=\"cards\" ref=\"0\" ].)",
+    "PokemonAbilityID": "PK_021410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100400",
+    "AbilityLogicParameters": [
+      "Poisoned  (Poisoned)",
+      "Burned  (Burned)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_150  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may make your opponent’s Active Pokémon Poisoned and Burned.)",
+    "PokemonAbilityID": "PK_021560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300570",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_162"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_151  (Once during your turn, when you flip any coins for an effect of your Trainer cards, you may ignore all results of those coin flips and begin flipping those coins again. You can’t use more than 1 PokemonAbilityName_ID_162 Ability each turn.)",
+    "PokemonAbilityID": "PK_021640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (If your opponent’s Pokémon is Knocked Out by damage from this Pokémon’s attacks, during your opponent’s next turn, prevent all damage from—and effects of—attacks done to this Pokémon.)",
+    "PokemonAbilityID": "PK_021650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_152  (Once during your turn, when you play this Pokémon from your hand to evolve 1 of your Pokémon, you may move 1[Gr:Count s=\"a \" ref=\"0\" ]random Energy from your opponent’s Active Pokémon to this Pokémon.)",
+    "PokemonAbilityID": "PK_021700_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200460",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_153  (Once during your turn, you may look at 1[Gr:Count s=\"a random card\" p=\"random cards\" id=\"0\" ref=\"0\" ] from your opponent’s hand.)",
+    "PokemonAbilityID": "PK_021730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (This Pokémon takes −20 damage from attacks.)",
+    "PokemonAbilityID": "PK_021750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2608000
+  }
+]

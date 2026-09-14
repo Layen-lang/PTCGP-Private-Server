@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/feed/challenge_power.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_timeline.proto";
+
+message FeedRenewTimelineWithOptions {
+  message Types {
+    message Request {
+      int64 lucky_feed_probability_permill = 1;
+      int64 free_feed_probability_permill = 2;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.feed.FeedTimeline timeline = 1;
+      takasho.schema.lettuce_server.resource.feed.ChallengePower challenge_power = 2;
+    }
+  }
+}

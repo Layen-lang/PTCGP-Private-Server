@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Acquistabili nel negozio. Si possono usare\nper ridurre il tempo di ricarica dell'energia buste\no scambiare per ottenere oggetti o accessori.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokélingotti)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Acquistabili nel negozio. Si possono usare\nper ridurre il tempo di ricarica dell'energia buste\no scambiare per ottenere oggetti o accessori.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokélingotti)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Si ottiene completando missioni premium.\nSi può scambiare nel negozio per ottenere\naccessori e carte promozionali.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Buono premium)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Si usa per fare scambi e nella funzione\n\"Ottieni effetti\".\nPuoi riceverla ottenendo carte già registrate\nnel Cardex, completando missioni e così via.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Sabbialuce)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (Si ottiene completando missioni evento o nelle\nlotte per gradi. Si può scambiare nel negozio\nper ottenere oggetti o accessori.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Buono negozio)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Si ottiene scambiando carte dalla rarità alta nella\nCollezione. Si può scambiare nel negozio per\nottenere accessori e oggetti speciali.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Buono negozio speciale)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

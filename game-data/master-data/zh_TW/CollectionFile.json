@@ -1,0 +1,698 @@
+[
+  {
+    "FileID": "FILE_100020_EIEVUI",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100020",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100030_NYARTH",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100030",
+    "ScheduleID": "SC_SH_0002010_01"
+  },
+  {
+    "FileID": "FILE_100040_LIZARDON",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100040",
+    "ScheduleID": "SC_SH_2408010_04"
+  },
+  {
+    "FileID": "FILE_100050_FUSHIGIBANA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100050",
+    "ScheduleID": "SC_SH_0002010_07"
+  },
+  {
+    "FileID": "FILE_100060_GREEN_KAMEX",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100060",
+    "ScheduleID": "SC_SH_2408010_01"
+  },
+  {
+    "FileID": "FILE_100070_A1_LIZARDON",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100070",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100080_A1_MEWTWO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100080",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100090_A1_PIKACHU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100090",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100100_MEWTWO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100100",
+    "ScheduleID": "SC_SH_0002010_05"
+  },
+  {
+    "FileID": "FILE_100110_ERIKA_RUFFRESIA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100110",
+    "ScheduleID": "SC_A1_A2_GLOBAL"
+  },
+  {
+    "FileID": "FILE_100120_SIRNIGHT",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100120",
+    "ScheduleID": "SC_A1_A2_GLOBAL"
+  },
+  {
+    "FileID": "FILE_100130_PIKACHU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100130",
+    "ScheduleID": "SC_SH_0002010_06"
+  },
+  {
+    "FileID": "FILE_100270_MONSTERBALL_Ver2",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100270",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100290_PremiumSet",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100290",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "FileID": "FILE_100300_A1a_MEW",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100300",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100310_REST_BIG_TREE",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100310",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100320_PRISTINE_FOREST",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100320",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100330_QUIET_LAKE",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100330",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100340_BURN_GROUND",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100340",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100350_FORGOTTEN_REMAINS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100350",
+    "ScheduleID": "SC_RELEASE_A1a"
+  },
+  {
+    "FileID": "FILE_100360_SHIRONA_GABURIAS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100360",
+    "ScheduleID": "SC_A2_A3"
+  },
+  {
+    "FileID": "FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100370",
+    "ScheduleID": "SC_SH_2409010_01"
+  },
+  {
+    "FileID": "FILE_100380_DARKRAI",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100380",
+    "ScheduleID": "SC_SH_2409010_03"
+  },
+  {
+    "FileID": "FILE_100390_A2_DIALGA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100390",
+    "ScheduleID": "SC_A2_A2a"
+  },
+  {
+    "FileID": "FILE_100400_A2_PALKIA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100400",
+    "ScheduleID": "SC_A2_A2a"
+  },
+  {
+    "FileID": "FILE_100410_MANAPHY_POCHAMA",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100410",
+    "ScheduleID": "SC_SH_2502010_01"
+  },
+  {
+    "FileID": "FILE_100420_ARCEUS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100420",
+    "ScheduleID": "SC_SH_2502010_01"
+  },
+  {
+    "FileID": "FILE_100430_SEKI_KAI_LEAFIA_GLACIA",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100430",
+    "ScheduleID": "SC_A2a_A2b"
+  },
+  {
+    "FileID": "FILE_100440_A2a_ARCEUS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100440",
+    "ScheduleID": "SC_A2a_A2b"
+  },
+  {
+    "FileID": "FILE_100450_LUCARIO_RIOLU",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100450",
+    "ScheduleID": "SC_SH_2503010_01"
+  },
+  {
+    "FileID": "FILE_100460_SHINY_LIZARDON",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100460",
+    "ScheduleID": "SC_SH_2503010_03 "
+  },
+  {
+    "FileID": "FILE_100470_RED_PIKACHU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100470",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "FileID": "FILE_100480_SHINY_GLARE",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100480",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "FileID": "FILE_100490_A2b_SHINY_POKEMONS",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100490",
+    "ScheduleID": "SC_RELEASE_A2b"
+  },
+  {
+    "FileID": "FILE_100500_SOLGALEO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100500",
+    "ScheduleID": "SC_SH_2504010_01"
+  },
+  {
+    "FileID": "FILE_100510_MOKUROH",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100510",
+    "ScheduleID": "SC_SH_2504010_02"
+  },
+  {
+    "FileID": "FILE_100520_LILIE_LUNALA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100520",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "FileID": "FILE_100530_CITY_CELEBRATION",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100530",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "FileID": "FILE_100540_A3_SOLGALEO",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100540",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "FileID": "FILE_100550_A3_LUNALA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100550",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "FileID": "FILE_100560_uNECROZMA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100560",
+    "ScheduleID": "SC_SH_2505010_01"
+  },
+  {
+    "FileID": "FILE_100570_aROKON_aKYUKON",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100570",
+    "ScheduleID": "SC_SH_2505010_02"
+  },
+  {
+    "FileID": "FILE_100580_ACEROLA_MIMIKKYU",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100580",
+    "ScheduleID": "SC_A3a_A3b"
+  },
+  {
+    "FileID": "FILE_100590_A3a_CRISIS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100590",
+    "ScheduleID": "SC_A3a_A3b"
+  },
+  {
+    "FileID": "FILE_100600_GLAZI_SILVADY",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100600",
+    "ScheduleID": "SC_SH_2506000_01"
+  },
+  {
+    "FileID": "FILE_100610_EIEVUI_2",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100610",
+    "ScheduleID": "SC_SH_2506000_02"
+  },
+  {
+    "FileID": "FILE_100620_NYMPHIA",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100620",
+    "ScheduleID": "SC_RELEASE_A3b"
+  },
+  {
+    "FileID": "FILE_100630_EIEVUI_GRADEN_EIEVUI",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100630",
+    "ScheduleID": "SC_RELEASE_A3b"
+  },
+  {
+    "FileID": "FILE_100640_EIFIE_BRACKY",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100640",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "FileID": "FILE_100650_BANGIRAS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100650",
+    "ScheduleID": "SC_SH_2507000_01"
+  },
+  {
+    "FileID": "FILE_100660_HOUOU_LUGIA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100660",
+    "ScheduleID": "SC_SH_2507000_02"
+  },
+  {
+    "FileID": "FILE_100670_A4_HOUOU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100670",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "FileID": "FILE_100680_A4_LUGIA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100680",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "FileID": "FILE_100690_NUOH_PALDEADOOH",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100690",
+    "ScheduleID": "SC_GC_2508000_01"
+  },
+  {
+    "FileID": "FILE_100700_SUICUNE",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100700",
+    "ScheduleID": "SC_SH_2508000_02"
+  },
+  {
+    "FileID": "FILE_100710_PICHU_PY_BUBY_RURIRI",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100710",
+    "ScheduleID": "SC_A4a_B1"
+  },
+  {
+    "FileID": "FILE_100720_A4a_SUICUNE",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100720",
+    "ScheduleID": "SC_A4a_A4b"
+  },
+  {
+    "FileID": "FILE_100730_MEGATYLTALIS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100730",
+    "ScheduleID": "SC_B1_B1a"
+  },
+  {
+    "FileID": "FILE_100740_KODUCK",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100740",
+    "ScheduleID": "SC_SH_2510000_01"
+  },
+  {
+    "FileID": "FILE_100750_MEGAGYARADOS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100750",
+    "ScheduleID": "SC_SH_2510000_02"
+  },
+  {
+    "FileID": "FILE_100760_MEGABURSYAMO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100760",
+    "ScheduleID": "SC_SH_2510000_03"
+  },
+  {
+    "FileID": "FILE_100770_HARUKA_ACHAMO",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100770",
+    "ScheduleID": "SC_SH_2510000_04"
+  },
+  {
+    "FileID": "FILE_100780_MEGA_POKEMON",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100780",
+    "ScheduleID": "SC_EV_2510000_MI_01"
+  },
+  {
+    "FileID": "FILE_100790_PremiumSet02",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100790",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "FileID": "FILE_100800_MEGA_EVOLUTION",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100800",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "FileID": "FILE_100810_B1_MEGABURSYAMO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100810",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "FileID": "FILE_100820_B1_MEGAGYARADOS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100820",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "FileID": "FILE_100830_B1_MEGATYLTALIS",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100830",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "FileID": "FILE_100840_FlowerGarden",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100840",
+    "ScheduleID": "SC_RELEASE_A3b"
+  },
+  {
+    "FileID": "FILE_100850_PROF_OHKIDO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100850",
+    "ScheduleID": "SC_SH_2509000_01"
+  },
+  {
+    "FileID": "FILE_100860_LILIE_Ver2",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100860",
+    "ScheduleID": "SC_SH_2509000_02"
+  },
+  {
+    "FileID": "FILE_100870_GEKKOUGA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100870",
+    "ScheduleID": "SC_PC_2509000_01"
+  },
+  {
+    "FileID": "FILE_100880_1st_ANNIVERSARY",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100880",
+    "ScheduleID": "SC_SH_2512000_02"
+  },
+  {
+    "FileID": "FILE_100890_A4b_HIGH_CLASS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100890",
+    "ScheduleID": "SC_RELEASE_A4b"
+  },
+  {
+    "FileID": "FILE_100900_MIMIKKYU",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100900",
+    "ScheduleID": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "FileID": "FILE_100910_STRINDER",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100910",
+    "ScheduleID": "SC_SH_2601000_01"
+  },
+  {
+    "FileID": "FILE_100920_MEGASIRNIGHT",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100920",
+    "ScheduleID": "SC_SH_2601000_02"
+  },
+  {
+    "FileID": "FILE_100930_B2_MEGASIRNIGHT",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100930",
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "FileID": "FILE_100940_BeginningPlain",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100940",
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "FileID": "FILE_100950_NUMERA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100950",
+    "ScheduleID": "SC_SH_2512000_03"
+  },
+  {
+    "FileID": "FILE_100960_MEGALIZARDONY",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100960",
+    "ScheduleID": "SC_SH_2512000_04"
+  },
+  {
+    "FileID": "FILE_100970_SERENA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100970",
+    "ScheduleID": "SC_B1a_B2"
+  },
+  {
+    "FileID": "FILE_100980_B1a_MEGALIZARDONY",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_100980",
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "FileID": "FILE_100990_PEPER",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_100990",
+    "ScheduleID": "SC_SH_2602000_02"
+  },
+  {
+    "FileID": "FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101000",
+    "ScheduleID": "SC_SH_2602000_03"
+  },
+  {
+    "FileID": "FILE_101010_NANJYAMO_HARABARIE",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101010",
+    "ScheduleID": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "FileID": "FILE_101020_B2a_PALDEAWONDER",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101020",
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "FileID": "FILE_101030_MEGAGARURA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101030",
+    "ScheduleID": "SC_SH_2603000_02"
+  },
+  {
+    "FileID": "FILE_101040_SHINY_MEGAGANGAR",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101040",
+    "ScheduleID": "SC_SH_2603000_03"
+  },
+  {
+    "FileID": "FILE_101050_MORPEKO",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101050",
+    "ScheduleID": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "FileID": "FILE_101060_B2b_SHINY_POKEMONS",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101060",
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "FileID": "FILE_101070_ZOROARK_ZORUA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101070",
+    "ScheduleID": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "FileID": "FILE_101080_MEGAJUKAIN",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101080",
+    "ScheduleID": "SC_SH_2604000_03"
+  },
+  {
+    "FileID": "FILE_101090_MEGALUCARIO",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101090",
+    "ScheduleID": "SC_SH_2604000_04"
+  },
+  {
+    "FileID": "FILE_101100_ForestPokemons",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101100",
+    "ScheduleID": "SC_EV_2604000_MI_01"
+  },
+  {
+    "FileID": "FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101110",
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "FileID": "FILE_101120_KAMITSURE_EMOLGA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101120",
+    "ScheduleID": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "FileID": "FILE_101130_WANPACHI_GARDIE_etc",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101130",
+    "ScheduleID": "SC_SH_2606000_02"
+  },
+  {
+    "FileID": "FILE_101140_PIKACHU_POCHAMA_etc",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101140",
+    "ScheduleID": "SC_SH_2606000_03"
+  },
+  {
+    "FileID": "FILE_101150_B3b_PIKACHU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101150",
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "FileID": "FILE_101160_Chill",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101160",
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "FileID": "FILE_101170_KORAIDON",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101170",
+    "ScheduleID": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "FileID": "FILE_101180_YAMIRAMI",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101180",
+    "ScheduleID": "SC_SH_2605000_02"
+  },
+  {
+    "FileID": "FILE_101190_MIRAIDON",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101190",
+    "ScheduleID": "SC_SH_2605000_03"
+  },
+  {
+    "FileID": "FILE_101200_B3a_KORAIDON_MIRAIDON",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101200",
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "FileID": "FILE_101210_30th_ANNIVERSARY",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101210",
+    "ScheduleID": "SC_MI_2602000_04_DISPLAY"
+  },
+  {
+    "FileID": "FILE_101220_AREAZERO",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101220",
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "FileID": "FILE_101230_METAGROSS",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101230",
+    "ScheduleID": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "FileID": "FILE_101240_MIJUMARU",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101240",
+    "ScheduleID": "SC_SH_2607000_02"
+  },
+  {
+    "FileID": "FILE_101250_MEGARAYQUAZA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101250",
+    "ScheduleID": "SC_SH_2607000_03"
+  },
+  {
+    "FileID": "FILE_101260_B4_MEGARAYQUAZA",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101260",
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "FileID": "FILE_101270_THUNDER_FREEZER_etc",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101270",
+    "ScheduleID": "SC_PACK_RELEASE_B4a_B4b"
+  },
+  {
+    "FileID": "FILE_101280_FOKKO",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101280",
+    "ScheduleID": "SC_SH_2608000_02"
+  },
+  {
+    "FileID": "FILE_101290_SAKAKI_PERSIAN",
+    "FileNameTextColor": 2,
+    "IllustrationIconID": "ICON_FILE_101290",
+    "ScheduleID": "SC_SH_2608000_03"
+  },
+  {
+    "FileID": "FILE_101300_B4a_TEAM_ROCKET",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101300",
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  },
+  {
+    "FileID": "FILE_101310_TEAM_ROCKET",
+    "FileNameTextColor": 1,
+    "IllustrationIconID": "ICON_FILE_101310",
+    "ScheduleID": "SC_SH_2608000_04"
+  }
+]

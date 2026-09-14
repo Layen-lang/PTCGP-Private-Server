@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/player_level_may_level_up_v1.proto";
+
+service PlayerLevel {
+  rpc MayLevelUpV1 (PlayerLevelMayLevelUpV1.Types.Request) returns (PlayerLevelMayLevelUpV1.Types.Response);
+}

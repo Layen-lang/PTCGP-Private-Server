@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PvpCasualSetProfileUpdateMode {
+  message Types {
+    message Request {
+      string player_id = 1;
+      bool enabled = 2;
+    }
+    message Response {
+    }
+  }
+}

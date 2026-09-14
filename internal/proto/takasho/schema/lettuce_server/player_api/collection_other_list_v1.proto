@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/player_api/album_spine.proto";
+import "takasho/schema/lettuce_server/resource/mount/mount.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message CollectionOtherListV1 {
+  message Types {
+    message Request {
+      string player_id = 1;
+      string friend_id = 2;
+    }
+    message Response {
+      uint64 like_count = 1;
+      repeated AlbumSpine albums = 2;
+      repeated takasho.schema.lettuce_server.resource.mount.Mount mounts = 3;
+      takasho.schema.lettuce_server.resource.player_profile.ProfileSpine profile = 5;
+      google.protobuf.Timestamp like_history_expired_at = 6;
+    }
+  }
+}

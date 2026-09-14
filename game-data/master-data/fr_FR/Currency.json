@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Réduit le temps de recharge de la vitalité Booster.\nS'échange dans la boutique contre des Accessoires\nou des objets. S'achète dans la boutique.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Poké Lingots)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Réduit le temps de recharge de la vitalité Booster.\nS'échange dans la boutique contre des Accessoires\nou des objets. S'achète dans la boutique.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Poké Lingots)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Ticket obtenu en accomplissant des missions\npremium. S'échange contre des Accessoires\nou des cartes promo dans la boutique.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Ticket premium)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Objet utilisé lors des échanges et dans le menu\n«[C:Nbsp ]Obtenir effets déco[C:Nbsp ]». S'obtient en acquérant\ndes cartes déjà enregistrées dans le Cartodex,\nou en récompense de missions, entre autres.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Poudre Éclat)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (S'obtient en accomplissant des missions évènement\nou lors de combats par palier. S'échange dans\nla boutique contre des Accessoires ou des objets.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Ticket boutique)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Ticket obtenu en consommant des cartes rares\nde votre Collection. S'échange dans la boutique\ncontre des Accessoires ou des objets spéciaux.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Ticket boutique spécial)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

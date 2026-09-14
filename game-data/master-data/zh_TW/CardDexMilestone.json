@@ -1,0 +1,1167 @@
+[
+  {
+    "ExpansionID": "A1",
+    "Id": "10010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10210",
+    "Threshold": 210
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10220",
+    "Threshold": 220
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10230",
+    "Threshold": 230
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10240",
+    "Threshold": 240
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10250",
+    "Threshold": 250
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10260",
+    "Threshold": 260
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10270",
+    "Threshold": 270
+  },
+  {
+    "ExpansionID": "A1",
+    "Id": "10280",
+    "Threshold": 280
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A1a",
+    "Id": "2408010_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "A2",
+    "Id": "2409010_200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A2a",
+    "Id": "2502010_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A2b",
+    "Id": "2503010_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_10",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_20",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_210",
+    "Threshold": 210
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_220",
+    "Threshold": 220
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_230",
+    "Threshold": 230
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_30",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_40",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_50",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_60",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_70",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_80",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A3",
+    "Id": "2504010_90",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A3a",
+    "Id": "2505010_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A3b",
+    "Id": "2506000_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_210",
+    "Threshold": 210
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_220",
+    "Threshold": 220
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_230",
+    "Threshold": 230
+  },
+  {
+    "ExpansionID": "A4",
+    "Id": "2507000_240",
+    "Threshold": 240
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A4a",
+    "Id": "2508000_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_210",
+    "Threshold": 210
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_220",
+    "Threshold": 220
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_230",
+    "Threshold": 230
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_240",
+    "Threshold": 240
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_250",
+    "Threshold": 250
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_260",
+    "Threshold": 260
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_270",
+    "Threshold": 270
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_280",
+    "Threshold": 280
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_290",
+    "Threshold": 290
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_300",
+    "Threshold": 300
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_310",
+    "Threshold": 310
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_320",
+    "Threshold": 320
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_330",
+    "Threshold": 330
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_340",
+    "Threshold": 340
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_350",
+    "Threshold": 350
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_360",
+    "Threshold": 360
+  },
+  {
+    "ExpansionID": "A4b",
+    "Id": "2509000_370",
+    "Threshold": 370
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_100",
+    "Threshold": 100
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_110",
+    "Threshold": 110
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_120",
+    "Threshold": 120
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_130",
+    "Threshold": 130
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_140",
+    "Threshold": 140
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_150",
+    "Threshold": 150
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_160",
+    "Threshold": 160
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_170",
+    "Threshold": 170
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_180",
+    "Threshold": 180
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_190",
+    "Threshold": 190
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_200",
+    "Threshold": 200
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_210",
+    "Threshold": 210
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_220",
+    "Threshold": 220
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_230",
+    "Threshold": 230
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_240",
+    "Threshold": 240
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_250",
+    "Threshold": 250
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_260",
+    "Threshold": 260
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_270",
+    "Threshold": 270
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_280",
+    "Threshold": 280
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_290",
+    "Threshold": 290
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_300",
+    "Threshold": 300
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_310",
+    "Threshold": 310
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_320",
+    "Threshold": 320
+  },
+  {
+    "ExpansionID": "B1",
+    "Id": "2510000_330",
+    "Threshold": 330
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_010",
+    "Threshold": 10
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_020",
+    "Threshold": 20
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_030",
+    "Threshold": 30
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_040",
+    "Threshold": 40
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_050",
+    "Threshold": 50
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_060",
+    "Threshold": 60
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_070",
+    "Threshold": 70
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_080",
+    "Threshold": 80
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_090",
+    "Threshold": 90
+  },
+  {
+    "ExpansionID": "B1a",
+    "Id": "2512000_100",
+    "Threshold": 100
+  }
+]

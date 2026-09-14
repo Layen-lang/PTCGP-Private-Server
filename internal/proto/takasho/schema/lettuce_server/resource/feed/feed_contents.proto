@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_element_card.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_element_substitution_item.proto";
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message FeedContents {
+  repeated FeedElementCard cards = 1;
+  repeated FeedElementSubstitutionItem substitution_items = 2;
+  takasho.schema.lettuce_server.resource.language.Language lang = 3;
+}

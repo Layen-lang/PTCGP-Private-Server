@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/gm_tool_log_emit.proto";
+
+service GMToolLog {
+  rpc Emit (GMToolLogEmit.Types.Request) returns (GMToolLogEmit.Types.Response);
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_deck.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_info.proto";
+
+message PvpRankRequestMatchingForceBot {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.pvp.PvpBattleDeck deck = 1;
+      string bot_deck_id = 2;
+    }
+    message Response {
+      string matching_token = 1;
+      int64 polling_interval_ms = 2;
+      takasho.schema.lettuce_server.resource.pvp.PvpBattleInfo last_battle = 3;
+    }
+  }
+}

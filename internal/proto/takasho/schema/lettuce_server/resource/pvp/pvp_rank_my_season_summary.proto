@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+message PvpRankMySeasonSummary {
+  int32 ranking = 1;
+  int32 win_rate_per10000 = 2;
+  int64 point = 3;
+  int64 number_of_wins = 4;
+  int64 number_of_losses = 5;
+}

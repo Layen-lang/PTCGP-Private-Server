@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.mount;
+
+import "takasho/schema/lettuce_server/resource/album/public_setting.proto";
+import "takasho/schema/lettuce_server/resource/mount/mount_slot.proto";
+
+message Mount {
+  uint64 mount_id = 1;
+  string mount_template_id = 2;
+  uint64 mount_template_num = 3;
+  takasho.schema.lettuce_server.resource.album.PublicSetting public_setting = 4;
+  repeated MountSlot slots = 5;
+  uint64 display_order = 6;
+  repeated string hash_tag_ids = 7;
+}

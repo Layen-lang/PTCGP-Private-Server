@@ -1,0 +1,9 @@
+[
+  {
+    "AutoHealLimit": 5,
+    "HealSecondsPerPokeGold": 14400,
+    "HealSecondsPerPower": 86400,
+    "ManualHealLimit": 8,
+    "TradePowerID": "TRADE_POWER_1"
+  }
+]

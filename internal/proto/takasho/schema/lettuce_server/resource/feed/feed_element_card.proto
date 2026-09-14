@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message FeedElementCard {
+  string card_id = 1;
+  takasho.schema.lettuce_server.resource.language.Language lang = 2;
+  bool disable = 3;
+  string expansion_id = 4;
+  bool is_snooped = 5;
+}

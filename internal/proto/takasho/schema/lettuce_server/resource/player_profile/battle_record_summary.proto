@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+message BattleRecordSummary {
+  uint64 total_win_count = 1;
+  uint64 max_damage = 2;
+  uint64 total_acquired_point = 3;
+}

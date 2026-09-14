@@ -1,0 +1,9 @@
+[
+  {
+    "DescriptionMSID": "TRADE_ITEM_DESC_T1  (Este objeto ya no está disponible.\nCanjéalo por otros objetos de la tienda.)",
+    "ID": "TRADE_ITEM_130010",
+    "NameMSID": "TRADE_ITEM_NAME_T1  (Fichas de intercambio)",
+    "ScheduleID": "SC_INFINITE",
+    "SortOrderPriority": 1
+  }
+]

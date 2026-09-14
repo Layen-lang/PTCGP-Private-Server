@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pass;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/store/market.proto";
+
+message PassEntitlement {
+  message Types {
+    enum Period {
+      PERIOD_UNSPECIFIED = 0;
+      PERIOD_INITIAL = 1;
+      PERIOD_RENEW = 2;
+      PERIOD_GRACE = 3;
+      PERIOD_ACCOUNT_HOLD = 4;
+      PERIOD_GRADE_CHANGE = 5;
+      PERIOD_RE_SIGN_UP = 6;
+    }
+    enum LinkType {
+      LINK_TYPE_UNSPECIFIED = 0;
+      LINK_TYPE_DEFAULT = 1;
+      LINK_TYPE_UNLINK = 2;
+      LINK_TYPE_OWNERSHIP_CHANGE_FROM = 3;
+      LINK_TYPE_OWNERSHIP_CHANGE_TO = 4;
+    }
+  }
+  string pass_id = 1;
+  takasho.schema.lettuce_server.resource.store.Market market = 2;
+  string product_id = 3;
+  string unique_order_id = 4;
+  google.protobuf.Timestamp starts_at = 5;
+  google.protobuf.Timestamp ends_at = 6;
+  bool free_trial = 7;
+  bool locked = 8;
+  google.protobuf.Timestamp revoked_at = 9;
+  bool auto_renewing = 10;
+  google.protobuf.Timestamp auto_renewing_updated_at = 11;
+  PassEntitlement.Types.Period period = 12;
+  PassEntitlement.Types.LinkType link_type = 13;
+}

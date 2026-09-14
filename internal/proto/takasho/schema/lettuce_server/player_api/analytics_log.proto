@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/analytics_log_send_v1.proto";
+
+service AnalyticsLog {
+  rpc SendAnalyticsLogV1 (AnalyticsLogSendV1.Types.Request) returns (AnalyticsLogSendV1.Types.Response);
+}

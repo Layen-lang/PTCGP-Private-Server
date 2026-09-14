@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/card/card_stock.proto";
+import "takasho/schema/lettuce_server/resource/feed/challenge_power.proto";
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message TutorialChallengeFeedV1 {
+  message Types {
+    message Request {
+      string tutorial_id = 1;
+      int64 tutorial_step = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.card.CardInstance picked_cards = 1;
+      takasho.schema.lettuce_server.resource.item.InventoryItems picked_substitution_item = 2;
+      repeated takasho.schema.lettuce_server.resource.card.CardStock updated_card_stocks = 3;
+      takasho.schema.lettuce_server.resource.feed.ChallengePower challenge_power = 4;
+      string tutorial_id = 5;
+      int64 tutorial_step = 6;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 15;
+    }
+  }
+}

@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (說到16就想到……「快龍」。\n牠的體型很大，能在空中飛行。\n只需大約16小時就能繞地球1週。)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (說到全國圖鑑NO.25就想到……\n「皮卡丘」。\n據說同一處有好幾隻皮卡丘的時候，\n那裡就會凝集起強烈的電力，\n還可能造成閃電落於該處。)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (說到全國圖鑑NO.50就想到……\n「地鼠」。\n牠會在大約1公尺深的地底挖洞前進，\n靠啃食樹根之類的東西生存。\n偶爾會到地面上露個臉。)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (說到80就想到……「毒刺水母」。\n牠能夠自由伸縮身上的80根觸手。\n會像撒網般張開觸手捕捉獵物，\n並用毒針注入劇毒。)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (說到100就想到……「腕力」。\n牠全身都是肌肉，\n雖然體型只有小孩那麼大，\n卻可以扔飛100個大人。)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (說到151就想到……「寶可夢圖鑑」。\n《寶可夢 紅／綠》中登場的寶可夢\n總共是151隻。)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (說到180就想到……「貓頭夜鷹」。\n牠開始思考事情時，\n會將脖子旋轉180度，\n提高大腦的工作效率。)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (說到全國圖鑑NO.250就想到\n……「鳳王」。\n據說牠會閃耀著七彩翅膀，\n出現在正直的訓練家面前。)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (說到300就想到……「花潔夫人」。\n據說曾經有花潔夫人\n保護城堡的庭園\n長達300年以上。)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (說到500就想到……「花岩怪」。\n因為牠在500年前作惡多端，\n導致身體被綁縛在楔石的裂縫裡。)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (說到全國圖鑑NO.777就想到……\n「托戈德瑪爾」。\n牠在危急時刻會把身體捲成一團、\n倒豎起背上的尖刺，\n不分青紅皂白地發出電擊。)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (說到1000就想到……「基拉祈」。\n據說牠在1000年之中\n只有7天時間會醒過來，\n使用能實現任何願望的力量。)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (說到1500就想到……「索財靈」。\n牠在約1500年前出生在寶箱裡。\n如果有惡棍打算偷走寶藏，\n就會被牠吸走精氣。)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (說到2000就想到……「修建老匠」。\n製作水泥的技術，\n被認為是2000年前\n從修建老匠那裡學來的。)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (說到5000就想到……「胡地」。\n牠的智商大約有5000。\n滿溢著強大的念力，\n光是在牠身旁就會頭痛不已。)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (說到10000就想到……「卡咪龜」。\n據說牠擁有1萬年的壽命。\n蓬鬆的尾巴被視為長壽的象徵，\n深受人們的喜愛。)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (說到15000就想到……「顫弦蠑螈」。\n牠會激烈地彈奏胸部的突起物。\n彈奏時釋放出的電擊，\n可以輕易超過15000伏特。)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (說到20000就想到……「念力土偶」。\n牠似乎是由2萬年前的\n古代人製作的泥偶\n蛻變而來的謎之寶可夢。)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (說到100000就想到……「雷丘」。\n牠電擊的威力高達十萬伏特。\n能一擊電暈比自己大\n好幾倍的對手。)",
+    "Threshold": 100000
+  }
+]

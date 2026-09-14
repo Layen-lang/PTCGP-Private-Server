@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Sert à restaurer une pioche miracle ayant expiré.\nChaque restauration nécessite la consommation\nd'un Rembobinateur et de vitalité miracle.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Rembobinateur)",
+    "SortOrderPriority": 1
+  }
+]

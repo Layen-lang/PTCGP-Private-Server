@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum MainRankType {
+  MAIN_RANK_TYPE_UNSPECIFIED = 0;
+  MAIN_RANK_TYPE_BEGINNER = 1;
+  MAIN_RANK_TYPE_MONSTER_BALL = 2;
+  MAIN_RANK_TYPE_SUPER_BALL = 3;
+  MAIN_RANK_TYPE_HYPER_BALL = 4;
+  MAIN_RANK_TYPE_MASTER_BALL = 5;
+}

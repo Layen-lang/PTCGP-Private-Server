@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
+
+message FeedRevivalItems {
+  takasho.schema.lettuce_server.resource.item.RevivalClock revival_clock = 1;
+  int64 vc_amount = 2;
+}

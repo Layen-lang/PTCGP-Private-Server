@@ -1,0 +1,33 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+VERSION text eol=lf
+*.go text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
+*.proto text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+*.webmanifest text eol=lf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.so binary

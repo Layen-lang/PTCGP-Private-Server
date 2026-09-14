@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message FriendGetFavoritesV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated string favorite_player_ids = 100;
+    }
+  }
+}

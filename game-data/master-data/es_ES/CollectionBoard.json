@@ -1,0 +1,758 @@
+[
+  {
+    "BoardID": "BOARD_100110_EIEVUI",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100110",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "BoardID": "BOARD_100120_NYARTH",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100120",
+    "ScheduleID": "SC_SH_0002010_01"
+  },
+  {
+    "BoardID": "BOARD_100130_LIZARDON",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100130",
+    "ScheduleID": "SC_SH_2408010_04"
+  },
+  {
+    "BoardID": "BOARD_100140_FUSHIGIBANA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100140",
+    "ScheduleID": "SC_SH_0002010_07"
+  },
+  {
+    "BoardID": "BOARD_100150_GREEN",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100150",
+    "ScheduleID": "SC_SH_2408010_01"
+  },
+  {
+    "BoardID": "BOARD_100160_MEWTWO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100160",
+    "ScheduleID": "SC_SH_0002010_05"
+  },
+  {
+    "BoardID": "BOARD_100170_ERIKA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100170",
+    "ScheduleID": "SC_A1_A2_GLOBAL"
+  },
+  {
+    "BoardID": "BOARD_100180_SIRNIGHT",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100180",
+    "ScheduleID": "SC_A1_A2_GLOBAL"
+  },
+  {
+    "BoardID": "BOARD_100190_PIKACHU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100190",
+    "ScheduleID": "SC_SH_0002010_06"
+  },
+  {
+    "BoardID": "BOARD_100350_PremiumSet",
+    "CardNum": 7,
+    "IllustrationIconID": "ICON_BOARD_100350",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "BoardID": "BOARD_100360_Displayframe_cool",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100360",
+    "ScheduleID": "SC_RELEASE"
+  },
+  {
+    "BoardID": "BOARD_100370_Natural_Leaf",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100370",
+    "ScheduleID": "SC_A1a_A2"
+  },
+  {
+    "BoardID": "BOARD_100390_Snow_Crystal",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100390",
+    "ScheduleID": "SC_SH_0002010_07"
+  },
+  {
+    "BoardID": "BOARD_100400_Displayframe_pinkdesk",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100400",
+    "ScheduleID": "SC_SH_0002010_01"
+  },
+  {
+    "BoardID": "BOARD_100410_Miniature_temple",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100410",
+    "ScheduleID": "SC_SH_2408010_01"
+  },
+  {
+    "BoardID": "BOARD_100420_Displayframe_winterholiday",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100420",
+    "ScheduleID": "SC_EV_2408010_MI_05"
+  },
+  {
+    "BoardID": "BOARD_100430_Displayframe_newyear",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100430",
+    "ScheduleID": "SC_EV_2408010_MI_06"
+  },
+  {
+    "BoardID": "BOARD_100440_Displayframe_brightroom",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100440",
+    "ScheduleID": "SC_EV_2502010_MI_04"
+  },
+  {
+    "BoardID": "BOARD_100460_SHIRONA_MIKARUGE",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100460",
+    "ScheduleID": "SC_A2_A3"
+  },
+  {
+    "BoardID": "BOARD_100470_HIKOZARU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100470",
+    "ScheduleID": "SC_SH_2409010_01"
+  },
+  {
+    "BoardID": "BOARD_100480_DARKRAI",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100480",
+    "ScheduleID": "SC_SH_2409010_03"
+  },
+  {
+    "BoardID": "BOARD_100490_Cave_ore",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100490",
+    "ScheduleID": "SC_SH_2409010_01"
+  },
+  {
+    "BoardID": "BOARD_100500_Sweet_heart",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100500",
+    "ScheduleID": "SC_A2_A2a"
+  },
+  {
+    "BoardID": "BOARD_100510_MANAPHY_POCHAMA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100510",
+    "ScheduleID": "SC_SH_2502010_01"
+  },
+  {
+    "BoardID": "BOARD_100520_Cyber_device",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100520",
+    "ScheduleID": "SC_SH_2502010_01"
+  },
+  {
+    "BoardID": "BOARD_100530_ARCEUS",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100530",
+    "ScheduleID": "SC_SH_2502010_03"
+  },
+  {
+    "BoardID": "BOARD_100540_SEKI_KAI",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100540",
+    "ScheduleID": "SC_A2a_A3"
+  },
+  {
+    "BoardID": "BOARD_100550_Cherry_blossoms",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100550",
+    "ScheduleID": "SC_A2a_A2b"
+  },
+  {
+    "BoardID": "BOARD_100560_LUCARIO_RIOLU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100560",
+    "ScheduleID": "SC_SH_2503010_01"
+  },
+  {
+    "BoardID": "BOARD_100570_Hall_of_fame",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100570",
+    "ScheduleID": "SC_SH_2503010_01"
+  },
+  {
+    "BoardID": "BOARD_100580_SHINY_LIZARDON",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100580",
+    "ScheduleID": "SC_SH_2503010_03 "
+  },
+  {
+    "BoardID": "BOARD_100590_RED_PIKACHU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100590",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "BoardID": "BOARD_100600_Displayframe_spring",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100600",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "BoardID": "BOARD_100610_Shiny_glare",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100610",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "BoardID": "BOARD_100620_SOLGALEO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100620",
+    "ScheduleID": "SC_SH_2504010_01"
+  },
+  {
+    "BoardID": "BOARD_100630_STARRY_SKY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100630",
+    "ScheduleID": "SC_SH_2504010_01"
+  },
+  {
+    "BoardID": "BOARD_100640_MOKUROH",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100640",
+    "ScheduleID": "SC_SH_2504010_02"
+  },
+  {
+    "BoardID": "BOARD_100650_LILIE",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100650",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "BoardID": "BOARD_100660_CITY_CELEBRATION",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100660",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "BoardID": "BOARD_100670_DIGITAL_SPACE",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100670",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "BoardID": "BOARD_100680_uNECROZMA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100680",
+    "ScheduleID": "SC_SH_2505010_01"
+  },
+  {
+    "BoardID": "BOARD_100690_FLOWER_GIFTBOX",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100690",
+    "ScheduleID": "SC_SH_2505010_01"
+  },
+  {
+    "BoardID": "BOARD_100700_aROKON",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100700",
+    "ScheduleID": "SC_SH_2505010_02"
+  },
+  {
+    "BoardID": "BOARD_100710_ACEROLA_MIMIKKYU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100710",
+    "ScheduleID": "SC_RELEASE_A3a"
+  },
+  {
+    "BoardID": "BOARD_100720_GLAZI_SILVADY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100720",
+    "ScheduleID": "SC_SH_2506000_01"
+  },
+  {
+    "BoardID": "BOARD_100730_NIGHT_CAMP",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100730",
+    "ScheduleID": "SC_SH_2506000_01"
+  },
+  {
+    "BoardID": "BOARD_100740_EIEVUI_2",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100740",
+    "ScheduleID": "SC_SH_2506000_02"
+  },
+  {
+    "BoardID": "BOARD_100750_NYMPHIA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100750",
+    "ScheduleID": "SC_A3b_A4"
+  },
+  {
+    "BoardID": "BOARD_100760_EIFIE_BRACKY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100760",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "BoardID": "BOARD_100770_BANGIRAS",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100770",
+    "ScheduleID": "SC_SH_2507000_01"
+  },
+  {
+    "BoardID": "BOARD_100780_Under_the_Sea",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100780",
+    "ScheduleID": "SC_SH_2507000_01"
+  },
+  {
+    "BoardID": "BOARD_100790_HOUOU_LUGIA",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_100790",
+    "ScheduleID": "SC_SH_2507000_02"
+  },
+  {
+    "BoardID": "BOARD_100800_Displayframe_garden",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100800",
+    "ScheduleID": "SC_RELEASE_A4"
+  },
+  {
+    "BoardID": "BOARD_100810_NUOH_PALDEADOOH",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100810",
+    "ScheduleID": "SC_GC_2508000_01"
+  },
+  {
+    "BoardID": "BOARD_100820_Displayframe_Halloween",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100820",
+    "ScheduleID": "SC_GC_2508000_01"
+  },
+  {
+    "BoardID": "BOARD_100830_SUICUNE",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100830",
+    "ScheduleID": "SC_SH_2508000_02"
+  },
+  {
+    "BoardID": "BOARD_100840_PICHU_PY_BUBY_RURIRI",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100840",
+    "ScheduleID": "SC_A4a_A4b"
+  },
+  {
+    "BoardID": "BOARD_100850_Displayframe_Nine",
+    "CardNum": 9,
+    "IllustrationIconID": "ICON_BOARD_100850",
+    "ScheduleID": "SC_EV_2506000_MI_03"
+  },
+  {
+    "BoardID": "BOARD_100860_MEGATYLTALIS",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100860",
+    "ScheduleID": "SC_B1_B1a"
+  },
+  {
+    "BoardID": "BOARD_100870_KODUCK",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100870",
+    "ScheduleID": "SC_SH_2510000_01"
+  },
+  {
+    "BoardID": "BOARD_100880_Autumn_Leaf",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100880",
+    "ScheduleID": "SC_SH_2510000_01"
+  },
+  {
+    "BoardID": "BOARD_100890_KOIKING",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100890",
+    "ScheduleID": "SC_SH_2510000_02"
+  },
+  {
+    "BoardID": "BOARD_100900_Holiday2025",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_100900",
+    "ScheduleID": "SC_SH_2510000_02"
+  },
+  {
+    "BoardID": "BOARD_100910_MEGABURSYAMO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100910",
+    "ScheduleID": "SC_SH_2510000_03"
+  },
+  {
+    "BoardID": "BOARD_100920_HARUKA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100920",
+    "ScheduleID": "SC_SH_2510000_04"
+  },
+  {
+    "BoardID": "BOARD_100930_MEGA_POKEMON",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100930",
+    "ScheduleID": "SC_EV_2510000_MI_01"
+  },
+  {
+    "BoardID": "BOARD_100940_PremiumSet02",
+    "CardNum": 7,
+    "IllustrationIconID": "ICON_BOARD_100940",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "BoardID": "BOARD_100950_MEGA_EVOLUTION",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100950",
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "BoardID": "BOARD_100960_Music_Space",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_100960",
+    "ScheduleID": "SC_B1_B1a"
+  },
+  {
+    "BoardID": "BOARD_100970_PROF_OHKIDO",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_100970",
+    "ScheduleID": "SC_SH_2509000_01"
+  },
+  {
+    "BoardID": "BOARD_100980_Autumn_Afternoon_Tea",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100980",
+    "ScheduleID": "SC_SH_2509000_01"
+  },
+  {
+    "BoardID": "BOARD_100990_LILIE_Ver2",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_100990",
+    "ScheduleID": "SC_SH_2509000_02"
+  },
+  {
+    "BoardID": "BOARD_101000_GEKKOUGA",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101000",
+    "ScheduleID": "SC_PC_2509000_01"
+  },
+  {
+    "BoardID": "BOARD_101010_1st_ANNIVERSARY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101010",
+    "ScheduleID": "SC_SH_2512000_02"
+  },
+  {
+    "BoardID": "BOARD_101020_ShotingStar_Sky",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101020",
+    "ScheduleID": "SC_SH_2601000_01"
+  },
+  {
+    "BoardID": "BOARD_101030_Rainbow",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101030",
+    "ScheduleID": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BoardID": "BOARD_101040_MIMIKKYU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101040",
+    "ScheduleID": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BoardID": "BOARD_101050_STRINDER",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101050",
+    "ScheduleID": "SC_SH_2601000_01"
+  },
+  {
+    "BoardID": "BOARD_101060_SIRNIGHT_KIRLIA_RALTS",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101060",
+    "ScheduleID": "SC_SH_2601000_02"
+  },
+  {
+    "BoardID": "BOARD_101070_NUMERA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101070",
+    "ScheduleID": "SC_GC_2512000_01"
+  },
+  {
+    "BoardID": "BOARD_101080_MEGALIZARDONY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101080",
+    "ScheduleID": "SC_SH_2512000_04"
+  },
+  {
+    "BoardID": "BOARD_101090_SERENA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101090",
+    "ScheduleID": "SC_B1a_B2"
+  },
+  {
+    "BoardID": "BOARD_101100_NewYear2026",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101100",
+    "ScheduleID": "SC_GC_2512000_01"
+  },
+  {
+    "BoardID": "BOARD_101110_PEPER",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101110",
+    "ScheduleID": "SC_SH_2602000_02"
+  },
+  {
+    "BoardID": "BOARD_101120_Adventure_Field",
+    "CardNum": 6,
+    "IllustrationIconID": "ICON_BOARD_101120",
+    "ScheduleID": "SC_SH_2602000_02"
+  },
+  {
+    "BoardID": "BOARD_101130_NYAHOJA_HOGATOR_KUWASSU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101130",
+    "ScheduleID": "SC_SH_2602000_03"
+  },
+  {
+    "BoardID": "BOARD_101140_NANJYAMO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101140",
+    "ScheduleID": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BoardID": "BOARD_101150_MEGAGARURA",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101150",
+    "ScheduleID": "SC_SH_2603000_02"
+  },
+  {
+    "BoardID": "BOARD_101160_Displayframe_snowy_window",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101160",
+    "ScheduleID": "SC_SH_2603000_02"
+  },
+  {
+    "BoardID": "BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101170",
+    "ScheduleID": "SC_SH_2603000_03"
+  },
+  {
+    "BoardID": "BOARD_101180_MORPEKO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101180",
+    "ScheduleID": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BoardID": "BOARD_101190_ZOROARK_ZORUA",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101190",
+    "ScheduleID": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BoardID": "BOARD_101200_KIMORI_ACHAMO_MIZUGOROU",
+    "CardNum": 9,
+    "IllustrationIconID": "ICON_BOARD_101200",
+    "ScheduleID": "SC_SH_2604000_03"
+  },
+  {
+    "BoardID": "BOARD_101210_Rival",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101210",
+    "ScheduleID": "SC_SH_2604000_03"
+  },
+  {
+    "BoardID": "BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101220",
+    "ScheduleID": "SC_SH_2604000_04"
+  },
+  {
+    "BoardID": "BOARD_101230_ForestPokemons",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101230",
+    "ScheduleID": "SC_EV_2604000_MI_01"
+  },
+  {
+    "BoardID": "BOARD_101240_LanternNight",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101240",
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "BoardID": "BOARD_101250_KAMITSURE",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101250",
+    "ScheduleID": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BoardID": "BOARD_101260_WANPACHI_GARDIE_etc",
+    "CardNum": 6,
+    "IllustrationIconID": "ICON_BOARD_101260",
+    "ScheduleID": "SC_SH_2606000_02"
+  },
+  {
+    "BoardID": "BOARD_101270_PIKACHU_POCHAMA_etc",
+    "CardNum": 9,
+    "IllustrationIconID": "ICON_BOARD_101270",
+    "ScheduleID": "SC_SH_2606000_03"
+  },
+  {
+    "BoardID": "BOARD_101280_Deserted_Island",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101280",
+    "ScheduleID": "SC_CM_2510000_PKW_01"
+  },
+  {
+    "BoardID": "BOARD_101290_KORAIDON",
+    "CardNum": 4,
+    "IllustrationIconID": "ICON_BOARD_101290",
+    "ScheduleID": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BoardID": "BOARD_101300_YAMIRAMI",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101300",
+    "ScheduleID": "SC_SH_2605000_02"
+  },
+  {
+    "BoardID": "BOARD_101310_MIRAIDON",
+    "CardNum": 4,
+    "IllustrationIconID": "ICON_BOARD_101310",
+    "ScheduleID": "SC_SH_2605000_03"
+  },
+  {
+    "BoardID": "BOARD_101320_GEOMETRIC",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101320",
+    "ScheduleID": "SC_SH_2605000_02"
+  },
+  {
+    "BoardID": "BOARD_101330_VictoryStand",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101330",
+    "ScheduleID": "SC_CM_2512000_PKW_01"
+  },
+  {
+    "BoardID": "BOARD_101340_Displayframe_Two",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101340",
+    "ScheduleID": "SC_CM_2602000_BNS_01"
+  },
+  {
+    "BoardID": "BOARD_101350_30th_ANNIVERSARY",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101350",
+    "ScheduleID": "SC_MI_2602000_04_DISPLAY"
+  },
+  {
+    "BoardID": "BOARD_101360_Displayframe_Nine_Ver2",
+    "CardNum": 9,
+    "IllustrationIconID": "ICON_BOARD_101360",
+    "ScheduleID": "SC_CM_2604000_BNS_01"
+  },
+  {
+    "BoardID": "BOARD_101370_Battle_Screen",
+    "CardNum": 5,
+    "IllustrationIconID": "ICON_BOARD_101370",
+    "ScheduleID": "SC_CM_2601000_PKW_01"
+  },
+  {
+    "BoardID": "BOARD_101380_All_seasons",
+    "CardNum": 4,
+    "IllustrationIconID": "ICON_BOARD_101380",
+    "ScheduleID": "SC_CM_2603000_BNS_01"
+  },
+  {
+    "BoardID": "BOARD_101390_METAGROSS",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101390",
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "BoardID": "BOARD_101400_MIJUMARU",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101400",
+    "ScheduleID": "SC_SH_2607000_02"
+  },
+  {
+    "BoardID": "BOARD_101410_MEGARAYQUAZA",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101410",
+    "ScheduleID": "SC_SH_2607000_03"
+  },
+  {
+    "BoardID": "BOARD_101420_Everyday_city",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101420",
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "BoardID": "BOARD_101430_Water_balloon",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101430",
+    "ScheduleID": "SC_SH_2607000_02"
+  },
+  {
+    "BoardID": "BOARD_101440_Rock_Paper_Scissors",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101440",
+    "ScheduleID": "SC_CM_2607000_COMM_01"
+  },
+  {
+    "BoardID": "BOARD_101450_Title_screen",
+    "CardNum": 4,
+    "IllustrationIconID": "ICON_BOARD_101450",
+    "ScheduleID": "SC_CM_2605000_BNS_01"
+  },
+  {
+    "BoardID": "BOARD_101460_Calendar",
+    "CardNum": 6,
+    "IllustrationIconID": "ICON_BOARD_101460",
+    "ScheduleID": "SC_CM_2606000_COMM_01"
+  },
+  {
+    "BoardID": "BOARD_101470_THUNDER_FREEZER_etc",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101470",
+    "ScheduleID": "SC_PACK_RELEASE_B4a_B4b"
+  },
+  {
+    "BoardID": "BOARD_101480_FOKKO",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101480",
+    "ScheduleID": "SC_SH_2608000_02"
+  },
+  {
+    "BoardID": "BOARD_101490_SAKAKI",
+    "CardNum": 6,
+    "IllustrationIconID": "ICON_BOARD_101490",
+    "ScheduleID": "SC_SH_2608000_03"
+  },
+  {
+    "BoardID": "BOARD_101500_RED_SPOTLIGHT",
+    "CardNum": 1,
+    "IllustrationIconID": "ICON_BOARD_101500",
+    "ScheduleID": "SC_SH_2608000_02"
+  },
+  {
+    "BoardID": "BOARD_101510_TEAM_ROCKET",
+    "CardNum": 6,
+    "IllustrationIconID": "ICON_BOARD_101510",
+    "ScheduleID": "SC_SH_2608000_04"
+  },
+  {
+    "BoardID": "BOARD_101520_WeightComparison",
+    "CardNum": 2,
+    "IllustrationIconID": "ICON_BOARD_101520",
+    "ScheduleID": "SC_CM_2608000_BNS_01"
+  },
+  {
+    "BoardID": "BOARD_101530_RETRO_SUMMER",
+    "CardNum": 3,
+    "IllustrationIconID": "ICON_BOARD_101530",
+    "ScheduleID": "SC_SH_2606000_02"
+  }
+]

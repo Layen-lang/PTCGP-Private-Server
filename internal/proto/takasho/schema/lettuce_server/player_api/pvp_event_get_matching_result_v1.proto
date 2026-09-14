@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/matching_status.proto";
+
+message PvpEventGetMatchingResultV1 {
+  message Types {
+    message Request {
+      string matching_token = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.pvp.MatchingStatus status = 1;
+    }
+  }
+}

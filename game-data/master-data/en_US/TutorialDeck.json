@@ -1,0 +1,44 @@
+[
+  {
+    "CoinSkin": "",
+    "DeckCaseType": 3,
+    "DeckShield": "",
+    "EnergyType": [
+      3
+    ],
+    "MainCard": "100100105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "PlayMat": "",
+    "TutorialDeckID": "1001001",
+    "TutorialDeckNameMSID": "BATTLE_TUTORIAL_DECK_1  (Rapidash Deck)"
+  },
+  {
+    "CoinSkin": "",
+    "DeckCaseType": 2,
+    "DeckShield": "",
+    "EnergyType": [
+      2
+    ],
+    "MainCard": "100100207",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "PlayMat": "",
+    "TutorialDeckID": "1001002",
+    "TutorialDeckNameMSID": "BATTLE_TUTORIAL_DECK_2  (Pinsir Deck)"
+  },
+  {
+    "CoinSkin": "",
+    "DeckCaseType": 7,
+    "DeckShield": "",
+    "EnergyType": [
+      7
+    ],
+    "MainCard": "100100303",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "PlayMat": "",
+    "TutorialDeckID": "1001003",
+    "TutorialDeckNameMSID": "BATTLE_TUTORIAL_DECK_3  (Sandslash Deck)"
+  }
+]

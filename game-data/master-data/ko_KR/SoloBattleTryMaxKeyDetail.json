@@ -1,0 +1,242 @@
+[
+  {
+    "DescriptionMSID": "WinWithDeckOfColorless_MSID  (무색타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfGrass_MSID  (풀타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFire_MSID  (불꽃타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfWater_MSID  (물타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfLightning_MSID  (번개타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPsychic_MSID  (초타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 15,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFighting_MSID  (격투타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 16,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDarkness_MSID  (악타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 17,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMetal_MSID  (강철타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 18,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDragon_MSID  (드래곤타입의 포켓몬만 있는 덱으로 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 19,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "DealSomeDamageAtOnce_MSID  (1번의 기술로 상대의 포켓몬에게 합계 [Num:Int id=\"0\" max_length=\"3\" ]데미지 이상 준다)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 30,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutScored_MSID  (상대에게 1포인트도 주지 않고 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutRetreat_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 61,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 100,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess3_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 103,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 104,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess3_MSID  (포켓몬 카드의 레어도가\n[Text:Char v=\"DIAMOND\" ]와 [Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ]과 [Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ]만으로\n구성된 덱으로 승리하기)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 105,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsTrainer_MSID  (트레이너스를 덱에 넣지 않고 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 109,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsMegaEvolution_MSID  (메가진화 ex를 덱에 넣지 않고 승리한다\n)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 120,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMegaEvolutionCardAtLeastN_MSID  (메가진화 ex를 [Num:Int id=\"0\" max_length=\"2\" ]장 이상 덱에 넣어 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 121,
+    "TagParamType": 1
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsEx_MSID  (포켓몬 ex를 덱에 넣지 않고 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 122,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfStadium_MSID  (스타디움을 덱에 넣지 않고 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 123,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionCardAtLeastN_MSID  (「[Mst:ExpansionNameLong id=\"0\" ]」의 카드를 [Num:Int id=\"1\" max_length=\"2\" ]장 이상 덱에 넣어 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 201,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionPokemonCardAtLeastN_MSID  (「[Mst:ExpansionNameLong id=\"0\" ]」의 포켓몬 카드를 [Num:Int id=\"1\" max_length=\"2\" ]장 이상 덱에 넣어 승리한다)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 202,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn6_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1006,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn8_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1008,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn10_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1010,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn12_MSID  (12번째 차례 이내로 승리하기)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1012,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn14_MSID  (14번째 차례 이내로 승리하기)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1014,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn16_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1016,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn18_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1018,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn20_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1020,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn22_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1022,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn24_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1024,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn26_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1026,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn28_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1028,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn30_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1030,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "MaxWinStreakCount_MSID  ([Num:Int id=\"0\" max_length=\"2\" ]번 연속으로 승리한다)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 2000,
+    "TagParamType": 0
+  }
+]

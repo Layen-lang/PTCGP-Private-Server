@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_shop/product_type.proto";
+import "takasho/schema/lettuce_server/resource/item_shop/purchase_summary.proto";
+
+message ItemShopGetPurchaseSummariesV1 {
+  message Types {
+    message Request {
+      message Types {
+        message Product {
+          string product_id = 1;
+          takasho.schema.lettuce_server.resource.item_shop.ProductType product_type = 2;
+        }
+      }
+      string shop_id = 1;
+      repeated ItemShopGetPurchaseSummariesV1.Types.Request.Types.Product product_ids = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.item_shop.PurchaseSummary purchase_summaries = 1;
+    }
+  }
+}

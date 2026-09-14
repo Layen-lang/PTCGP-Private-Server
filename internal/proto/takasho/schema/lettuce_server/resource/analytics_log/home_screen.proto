@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message HomeScreen {
+}

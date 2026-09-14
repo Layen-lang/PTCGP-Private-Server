@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_type.proto";
+
+message PvpBattleInfo {
+  PvpType battle_type = 1;
+  bool require_finish = 2;
+}

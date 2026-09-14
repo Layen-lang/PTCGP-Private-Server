@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/feed/card_statistics.proto";
+import "takasho/schema/lettuce_server/resource/feed/challenge_power.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_revival_items.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_timeline.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_type.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message FeedSnoopV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.feed.FeedType feed_type = 1;
+      string feed_id = 2;
+      takasho.schema.lettuce_server.resource.feed.ChallengePower revival_challenge_power = 3;
+      takasho.schema.lettuce_server.resource.feed.FeedRevivalItems revival_items = 4;
+      int64 used_for_revival_challenge_power = 5;
+      takasho.schema.lettuce_server.resource.feed.CardStatistics card_statistics = 10;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.feed.ChallengePower challenge_power = 2;
+      bool successful_snooping_challenge = 3;
+      takasho.schema.lettuce_server.resource.feed.FeedTimeline timeline = 4;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 15;
+    }
+  }
+}

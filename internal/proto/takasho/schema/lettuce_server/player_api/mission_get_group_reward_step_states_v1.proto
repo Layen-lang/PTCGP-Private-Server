@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message MissionGetGroupRewardStepStatesV1 {
+  message Types {
+    message Response {
+      message Types {
+        message MissionGroupRewardStepState {
+          string mission_group_reward_step_id = 1;
+          bool is_cleared = 2;
+        }
+      }
+      repeated MissionGetGroupRewardStepStatesV1.Types.Response.Types.MissionGroupRewardStepState states = 1;
+    }
+    message Request {
+      repeated string mission_group_reward_step_ids = 1;
+    }
+  }
+}

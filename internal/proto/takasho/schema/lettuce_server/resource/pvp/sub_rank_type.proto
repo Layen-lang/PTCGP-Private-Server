@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum SubRankType {
+  SUB_RANK_TYPE_UNSPECIFIED = 0;
+  SUB_RANK_TYPE_FIRST = 1;
+  SUB_RANK_TYPE_SECOND = 2;
+  SUB_RANK_TYPE_THIRD = 3;
+  SUB_RANK_TYPE_FOURTH = 4;
+}

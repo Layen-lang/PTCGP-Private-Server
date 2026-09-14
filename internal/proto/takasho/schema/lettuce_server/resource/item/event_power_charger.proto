@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "google/protobuf/timestamp.proto";
+
+message EventPowerCharger {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_PVP = 1;
+      TYPE_PVE = 2;
+    }
+  }
+  EventPowerCharger.Types.Type type = 1;
+  string id = 2;
+  uint64 amount = 3;
+  google.protobuf.Timestamp expire_at = 4;
+}

@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message SomedayTicketSetLotteryResults {
+  message Types {
+    message Request {
+      message Types {
+        enum PrizeRank {
+          PRIZE_RANK_UNSPECIFIED = 0;
+          PRIZE_RANK_FIRST = 1;
+          PRIZE_RANK_SECOND = 2;
+        }
+        message LotteryResult {
+          string player_id = 1;
+          SomedayTicketSetLotteryResults.Types.Request.Types.PrizeRank prize_rank = 2;
+        }
+      }
+      repeated SomedayTicketSetLotteryResults.Types.Request.Types.LotteryResult results = 1;
+    }
+    message Response {
+    }
+  }
+}

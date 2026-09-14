@@ -1,0 +1,3842 @@
+[
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100110_EIEVUI",
+    "NameMSID": "PeripheralGoods_BOARD_100110_EIEVUI  (Eevee (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100110_EIEVUI_SHORT  (Eevee)",
+    "SortOrderPriority": 11,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100120_NYARTH",
+    "NameMSID": "PeripheralGoods_BOARD_100120_NYARTH  (Meowth (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100120_NYARTH_SHORT  (Meowth)",
+    "SortOrderPriority": 12,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100130_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100130_LIZARDON  (Charizard (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100130_LIZARDON_SHORT  (Charizard)",
+    "SortOrderPriority": 13,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100140_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA  (Venusaur (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA_SHORT  (Venusaur)",
+    "SortOrderPriority": 14,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100150_GREEN",
+    "NameMSID": "PeripheralGoods_BOARD_100150_GREEN  (Blue (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100150_GREEN_SHORT  (Blue)",
+    "SortOrderPriority": 15,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100160_MEWTWO",
+    "NameMSID": "PeripheralGoods_BOARD_100160_MEWTWO  (Mewtwo (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100160_MEWTWO_SHORT  (Mewtwo)",
+    "SortOrderPriority": 16,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100170_ERIKA",
+    "NameMSID": "PeripheralGoods_BOARD_100170_ERIKA  (Érica (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100170_ERIKA_SHORT  (Érica)",
+    "SortOrderPriority": 17,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100180_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT  (Gardevoir (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT_SHORT  (Gardevoir)",
+    "SortOrderPriority": 18,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100190_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100190_PIKACHU  (Pikachu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100190_PIKACHU_SHORT  (Pikachu)",
+    "SortOrderPriority": 19,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100350_PremiumSet",
+    "NameMSID": "PeripheralGoods_BOARD_100350_PremiumSet  (Conjunto Especial 01 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100350_PremiumSet_SHORT  (Conjunto Especial 01)",
+    "SortOrderPriority": 24,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100360_Displayframe_cool",
+    "NameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool  (Moldura Elegante (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool_SHORT  (Moldura Elegante)",
+    "SortOrderPriority": 25,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100370_Natural_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf  (Folhagem Natural (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf_SHORT  (Folhagem Natural)",
+    "SortOrderPriority": 26,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100390_Snow_Crystal",
+    "NameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal  (Cristais de Neve (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal_SHORT  (Cristais de Neve)",
+    "SortOrderPriority": 28,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100400_Displayframe_pinkdesk",
+    "NameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk  (Moldura de Mesa Rosa (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk_SHORT  (Moldura de Mesa Rosa)",
+    "SortOrderPriority": 29,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100410_Miniature_temple",
+    "NameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple  (Templozinho (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple_SHORT  (Templozinho)",
+    "SortOrderPriority": 30,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100420_Displayframe_winterholiday",
+    "NameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday  (Moldura de Festas de Fim de Ano (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday_SHORT  (Moldura de Festas de Fim de Ano)",
+    "SortOrderPriority": 31,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100430_Displayframe_newyear",
+    "NameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear  (Moldura de Ano-Novo (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear_SHORT  (Moldura de Ano-Novo)",
+    "SortOrderPriority": 32,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100440_Displayframe_brightroom",
+    "NameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom  (Moldura de Cômodo Iluminado (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom_SHORT  (Moldura de Cômodo Iluminado)",
+    "SortOrderPriority": 33,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100460_SHIRONA_MIKARUGE",
+    "NameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE  (Cíntia e Spiritomb (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE_SHORT  (Cíntia e Spiritomb)",
+    "SortOrderPriority": 35,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100470_HIKOZARU",
+    "NameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU  (Chimchar (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU_SHORT  (Chimchar)",
+    "SortOrderPriority": 36,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100480_DARKRAI",
+    "NameMSID": "PeripheralGoods_BOARD_100480_DARKRAI  (Darkrai (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100480_DARKRAI_SHORT  (Darkrai)",
+    "SortOrderPriority": 37,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100490_Cave_ore",
+    "NameMSID": "PeripheralGoods_BOARD_100490_Cave_ore  (Caverna de Cristais (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100490_Cave_ore_SHORT  (Caverna de Cristais)",
+    "SortOrderPriority": 38,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100500_Sweet_heart",
+    "NameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart  (Corações Apaixonantes (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart_SHORT  (Corações Apaixonantes)",
+    "SortOrderPriority": 39,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100510_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA  (Manaphy e Piplup (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA_SHORT  (Manaphy e Piplup)",
+    "SortOrderPriority": 40,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100520_Cyber_device",
+    "NameMSID": "PeripheralGoods_BOARD_100520_Cyber_device  (Dispositivo Futurístico (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100520_Cyber_device_SHORT  (Dispositivo Futurístico)",
+    "SortOrderPriority": 41,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100530_ARCEUS",
+    "NameMSID": "PeripheralGoods_BOARD_100530_ARCEUS  (Arceus (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100530_ARCEUS_SHORT  (Arceus)",
+    "SortOrderPriority": 42,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100540_SEKI_KAI",
+    "NameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI  (Ádamo e Irida (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI_SHORT  (Ádamo e Irida)",
+    "SortOrderPriority": 43,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100550_Cherry_blossoms",
+    "NameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms  (Cerejeira Florida (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms_SHORT  (Cerejeira Florida)",
+    "SortOrderPriority": 44,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100560_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU  (Lucario e Riolu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU_SHORT  (Lucario e Riolu)",
+    "SortOrderPriority": 45,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100570_Hall_of_fame",
+    "NameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame  (Moldura de Palco (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame_SHORT  (Moldura de Palco)",
+    "SortOrderPriority": 46,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100580_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON  (Charizard Brilhante (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON_SHORT  (Charizard Brilhante)",
+    "SortOrderPriority": 47,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100590_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU  (Red e Pikachu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU_SHORT  (Red e Pikachu)",
+    "SortOrderPriority": 48,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100600_Displayframe_spring",
+    "NameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring  (Moldura de Primavera (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring_SHORT  (Moldura de Primavera)",
+    "SortOrderPriority": 49,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100610_Shiny_glare",
+    "NameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare  (Moldura de Esplendor Brilhante (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare_SHORT  (Moldura de Esplendor Brilhante)",
+    "SortOrderPriority": 50,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100620_SOLGALEO",
+    "NameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO  (Solgaleo (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO_SHORT  (Solgaleo)",
+    "SortOrderPriority": 51,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100630_STARRY_SKY",
+    "NameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY  (Céu Reluzente (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY_SHORT  (Céu Reluzente)",
+    "SortOrderPriority": 52,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100640_MOKUROH",
+    "NameMSID": "PeripheralGoods_BOARD_100640_MOKUROH  (Rowlet (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100640_MOKUROH_SHORT  (Rowlet)",
+    "SortOrderPriority": 53,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100650_LILIE",
+    "NameMSID": "PeripheralGoods_BOARD_100650_LILIE  (Lílian (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100650_LILIE_SHORT  (Lílian)",
+    "SortOrderPriority": 54,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100660_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION  (Festa na Cidade (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION_SHORT  (Festa na Cidade)",
+    "SortOrderPriority": 55,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100670_DIGITAL_SPACE",
+    "NameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE  (Reino Cibernético (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE_SHORT  (Reino Cibernético)",
+    "SortOrderPriority": 56,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100680_uNECROZMA",
+    "NameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA  (Ultra Necrozma (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA_SHORT  (Ultra Necrozma)",
+    "SortOrderPriority": 57,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100690_FLOWER_GIFTBOX",
+    "NameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX  (Caixa de Presente Floral (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX_SHORT  (Caixa de Presente Floral)",
+    "SortOrderPriority": 58,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100700_aROKON",
+    "NameMSID": "PeripheralGoods_BOARD_100700_aROKON  (Vulpixde Alola (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100700_aROKON_SHORT  (Vulpixde Alola)",
+    "SortOrderPriority": 59,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100710_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU  (Acerola e Mimikyu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU_SHORT  (Acerola e Mimikyu)",
+    "SortOrderPriority": 60,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100720_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY  (Gladio (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY_SHORT  (Gladio)",
+    "SortOrderPriority": 61,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100730_NIGHT_CAMP",
+    "NameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP  (Acampamento Noturno (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP_SHORT  (Acampamento Noturno)",
+    "SortOrderPriority": 62,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100740_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2  (Eevee Ver.[C:Nbsp ]2 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2_SHORT  (Eevee Ver.[C:Nbsp ]2)",
+    "SortOrderPriority": 63,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100750_NYMPHIA",
+    "NameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA  (Sylveon, Ribombee e Comfey (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA_SHORT  (Sylveon, Ribombee e Comfey)",
+    "SortOrderPriority": 64,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100760_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY  (Espeon e Umbreon (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY_SHORT  (Espeon e Umbreon)",
+    "SortOrderPriority": 67,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100770_BANGIRAS",
+    "NameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS  (Tyranitar (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS_SHORT  (Tyranitar)",
+    "SortOrderPriority": 68,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100780_Under_the_Sea",
+    "NameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea  (Fundo do Mar (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea_SHORT  (Fundo do Mar)",
+    "SortOrderPriority": 66,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100790_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA  (Ho-Oh e Lugia (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA_SHORT  (Ho-Oh e Lugia)",
+    "SortOrderPriority": 69,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100800_Displayframe_garden",
+    "NameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden  (Moldura de Jardim (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden_SHORT  (Moldura de Jardim)",
+    "SortOrderPriority": 70,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100810_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH  (Quagsire e Clodsire (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH_SHORT  (Quagsire e Clodsire)",
+    "SortOrderPriority": 71,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100820_Displayframe_Halloween",
+    "NameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween  (Halloween (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween_SHORT  (Halloween)",
+    "SortOrderPriority": 72,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100830_SUICUNE",
+    "NameMSID": "PeripheralGoods_BOARD_100830_SUICUNE  (Suicune (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100830_SUICUNE_SHORT  (Suicune)",
+    "SortOrderPriority": 73,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100840_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI  (Pichu, Cleffa, Magby e Azurill (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI_SHORT  (Pichu, Cleffa, Magby e Azurill)",
+    "SortOrderPriority": 74,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100850_Displayframe_Nine",
+    "NameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine  (Moldura de Nove Cartas (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine_SHORT  (Moldura de Nove Cartas)",
+    "SortOrderPriority": 65,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100860_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS  (Mega Altaria (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS_SHORT  (Mega Altaria)",
+    "SortOrderPriority": 80,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100870_KODUCK",
+    "NameMSID": "PeripheralGoods_BOARD_100870_KODUCK  (Psyduck (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100870_KODUCK_SHORT  (Psyduck)",
+    "SortOrderPriority": 81,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100880_Autumn_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf  (Folhas Secas (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf_SHORT  (Folhas Secas)",
+    "SortOrderPriority": 82,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100890_KOIKING",
+    "NameMSID": "PeripheralGoods_BOARD_100890_KOIKING  (Magikarp (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100890_KOIKING_SHORT  (Magikarp)",
+    "SortOrderPriority": 83,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100900_Holiday2025",
+    "NameMSID": "PeripheralGoods_BOARD_100900_Holiday2025  (Festas de Fim de Ano 2025 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100900_Holiday2025_SHORT  (Festas de Fim de Ano 2025)",
+    "SortOrderPriority": 84,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100910_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO  (Mega Blaziken (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO_SHORT  (Mega Blaziken)",
+    "SortOrderPriority": 85,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100920_HARUKA",
+    "NameMSID": "PeripheralGoods_BOARD_100920_HARUKA  (May (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100920_HARUKA_SHORT  (May)",
+    "SortOrderPriority": 86,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100930_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON  (Pokémon de Megaevolução (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON_SHORT  (Pokémon de Megaevolução)",
+    "SortOrderPriority": 87,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100940_PremiumSet02",
+    "NameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02  (Conjunto Especial 02 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02_SHORT  (Conjunto Especial 02)",
+    "SortOrderPriority": 88,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100950_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION  (Pokémon ex de Megaevolução (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION_SHORT  (Pokémon ex de Megaevolução)",
+    "SortOrderPriority": 89,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100960_Music_Space",
+    "NameMSID": "PeripheralGoods_BOARD_100960_Music_Space  (Espaço Musical (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100960_Music_Space_SHORT  (Espaço Musical)",
+    "SortOrderPriority": 90,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100970_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO  (Professor Carvalho (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO_SHORT  (Professor Carvalho)",
+    "SortOrderPriority": 77,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100980_Autumn_Afternoon_Tea",
+    "NameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea  (Chá da Tarde (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea_SHORT  (Chá da Tarde)",
+    "SortOrderPriority": 78,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_100990_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2  (Lílian Ver.[C:Nbsp ]2 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2_SHORT  (Lílian Ver.[C:Nbsp ]2)",
+    "SortOrderPriority": 75,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101000_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA  (Greninja (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA_SHORT  (Greninja)",
+    "SortOrderPriority": 76,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101010_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY  (Ano-Novo com Pikachu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY_SHORT  (Ano-Novo com Pikachu)",
+    "SortOrderPriority": 96,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101020_ShotingStar_Sky",
+    "NameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky  (Céu de Estrelas Cadentes (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky_SHORT  (Céu de Estrelas Cadentes)",
+    "SortOrderPriority": 98,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101030_Rainbow",
+    "NameMSID": "PeripheralGoods_BOARD_101030_Rainbow  (Arco-íris (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101030_Rainbow_SHORT  (Arco-íris)",
+    "SortOrderPriority": 99,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101040_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU  (Mimikyu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU_SHORT  (Mimikyu)",
+    "SortOrderPriority": 100,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101050_STRINDER",
+    "NameMSID": "PeripheralGoods_BOARD_101050_STRINDER  (Toxtricity (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101050_STRINDER_SHORT  (Toxtricity)",
+    "SortOrderPriority": 101,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101060_SIRNIGHT_KIRLIA_RALTS",
+    "NameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS  (Gardevoir, Kirlia e Ralts (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS_SHORT  (Gardevoir, Kirlia e Ralts)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101070_NUMERA",
+    "NameMSID": "PeripheralGoods_BOARD_101070_NUMERA  (Goomy (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101070_NUMERA_SHORT  (Goomy)",
+    "SortOrderPriority": 92,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101080_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY  (Mega Charizard Y (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY_SHORT  (Mega Charizard Y)",
+    "SortOrderPriority": 93,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101090_SERENA",
+    "NameMSID": "PeripheralGoods_BOARD_101090_SERENA  (Serena (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101090_SERENA_SHORT  (Serena)",
+    "SortOrderPriority": 94,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101100_NewYear2026",
+    "NameMSID": "PeripheralGoods_BOARD_101100_NewYear2026  (Ano-Novo 2026 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101100_NewYear2026_SHORT  (Ano-Novo 2026)",
+    "SortOrderPriority": 95,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101110_PEPER",
+    "NameMSID": "PeripheralGoods_BOARD_101110_PEPER  (Arven (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101110_PEPER_SHORT  (Arven)",
+    "SortOrderPriority": 200,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101120_Adventure_Field",
+    "NameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field  (Campo de Aventuras (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field_SHORT  (Campo de Aventuras)",
+    "SortOrderPriority": 210,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101130_NYAHOJA_HOGATOR_KUWASSU",
+    "NameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU  (Sprigatito, Fuecoco e Quaxly (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU_SHORT  (Sprigatito, Fuecoco e Quaxly)",
+    "SortOrderPriority": 220,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101140_NANJYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO  (Kissera (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO_SHORT  (Kissera)",
+    "SortOrderPriority": 230,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101150_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA  (Mega Kangaskhan (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA_SHORT  (Mega Kangaskhan)",
+    "SortOrderPriority": 340,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101160_Displayframe_snowy_window",
+    "NameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window  (Moldura de Vista Nevada (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window_SHORT  (Moldura de Vista Nevada)",
+    "SortOrderPriority": 350,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR  (Mega Gengar e Mega Gengar Brilhante (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR_SHORT  (Mega Gengar e Mega Gengar Brilhante)",
+    "SortOrderPriority": 310,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101180_MORPEKO",
+    "NameMSID": "PeripheralGoods_BOARD_101180_MORPEKO  (Morpeko (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101180_MORPEKO_SHORT  (Morpeko)",
+    "SortOrderPriority": 320,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101190_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA  (Zoroark e Zorua (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA_SHORT  (Zoroark e Zorua)",
+    "SortOrderPriority": 430,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101200_KIMORI_ACHAMO_MIZUGOROU",
+    "NameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU  (Treecko, Torchic e Mudkip (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU_SHORT  (Treecko, Torchic e Mudkip)",
+    "SortOrderPriority": 450,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101210_Rival",
+    "NameMSID": "PeripheralGoods_BOARD_101210_Rival  (Rival (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101210_Rival_SHORT  (Rival)",
+    "SortOrderPriority": 460,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU  (Mega Lucario, Lucario e Riolu (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU_SHORT  (Mega Lucario, Lucario e Riolu)",
+    "SortOrderPriority": 470,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101230_ForestPokemons",
+    "NameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons  (Pokémon da Floresta (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons_SHORT  (Pokémon da Floresta)",
+    "SortOrderPriority": 420,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101240_LanternNight",
+    "NameMSID": "PeripheralGoods_BOARD_101240_LanternNight  (Lanternas do Céu Noturno (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101240_LanternNight_SHORT  (Lanternas do Céu Noturno)",
+    "SortOrderPriority": 410,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101250_KAMITSURE",
+    "NameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE  (Elesa (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE_SHORT  (Elesa)",
+    "SortOrderPriority": 610,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101260_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc  (Yamper, Growlithe, Lillipup, Rockruff e Fidough (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc_SHORT  (Yamper, Growlithe, Lillipup, Rockruff e Fidough)",
+    "SortOrderPriority": 620,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101270_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc  (Pikachu, Piplup, Sylveon, Greedent e Snorlax (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc_SHORT  (Pikachu, Piplup, Sylveon, Greedent e Snorlax)",
+    "SortOrderPriority": 630,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101280_Deserted_Island",
+    "NameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island  (Ilha Deserta (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island_SHORT  (Ilha Deserta)",
+    "SortOrderPriority": 91,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101290_KORAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101290_KORAIDON  (Koraidon (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101290_KORAIDON_SHORT  (Koraidon)",
+    "SortOrderPriority": 510,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101300_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI  (Sableye (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI_SHORT  (Sableye)",
+    "SortOrderPriority": 520,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101310_MIRAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON  (Miraidon (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON_SHORT  (Miraidon)",
+    "SortOrderPriority": 530,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101320_GEOMETRIC",
+    "NameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC  (Padrão Geométrico (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC_SHORT  (Padrão Geométrico)",
+    "SortOrderPriority": 540,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101330_VictoryStand",
+    "NameMSID": "PeripheralGoods_BOARD_101330_VictoryStand  (Pódios (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101330_VictoryStand_SHORT  (Pódios)",
+    "SortOrderPriority": 97,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101340_Displayframe_Two",
+    "NameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two  (Moldura de Duas Cartas (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two_SHORT  (Moldura de Duas Cartas)",
+    "SortOrderPriority": 240,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101350_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY  (Design de Comemoração dos 30 anos de Pokémon (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY_SHORT  (Design de Comemoração dos 30 anos de Pokémon)",
+    "SortOrderPriority": 250,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101360_Displayframe_Nine_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2  (Moldura de Nove Cartas Ver.[C:Nbsp ]2 (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2_SHORT  (Moldura de Nove Cartas Ver.[C:Nbsp ]2)",
+    "SortOrderPriority": 440,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101370_Battle_Screen",
+    "NameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen  (Tela de Batalha (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen_SHORT  (Tela de Batalha)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101380_All_seasons",
+    "NameMSID": "PeripheralGoods_BOARD_101380_All_seasons  (Estações (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101380_All_seasons_SHORT  (Estações)",
+    "SortOrderPriority": 330,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101390_METAGROSS",
+    "NameMSID": "PeripheralGoods_BOARD_101390_METAGROSS  (Metagross (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101390_METAGROSS_SHORT  (Metagross)",
+    "SortOrderPriority": 710,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101400_MIJUMARU",
+    "NameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU  (Oshawott (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU_SHORT  (Oshawott)",
+    "SortOrderPriority": 740,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101410_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA  (Mega Rayquaza (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA_SHORT  (Mega Rayquaza)",
+    "SortOrderPriority": 730,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101420_Everyday_city",
+    "NameMSID": "PeripheralGoods_BOARD_101420_Everyday_city  (Vida Urbana (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101420_Everyday_city_SHORT  (Vida Urbana)",
+    "SortOrderPriority": 720,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101430_Water_balloon",
+    "NameMSID": "PeripheralGoods_BOARD_101430_Water_balloon  (Balões de Verão (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101430_Water_balloon_SHORT  (Balões de Verão)",
+    "SortOrderPriority": 750,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101440_Rock_Paper_Scissors",
+    "NameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors  (Pedra, Papel e Tesoura (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors_SHORT  (Pedra, Papel e Tesoura)",
+    "SortOrderPriority": 760,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101450_Title_screen",
+    "NameMSID": "PeripheralGoods_BOARD_101450_Title_screen  (Tela Inicial (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101450_Title_screen_SHORT  (Tela Inicial)",
+    "SortOrderPriority": 550,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101460_Calendar",
+    "NameMSID": "PeripheralGoods_BOARD_101460_Calendar  (Calendário (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101460_Calendar_SHORT  (Calendário)",
+    "SortOrderPriority": 640,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101470_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc  (Zapdos, Articuno e Moltres (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc_SHORT  (Zapdos, Articuno e Moltres)",
+    "SortOrderPriority": 810,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101480_FOKKO",
+    "NameMSID": "PeripheralGoods_BOARD_101480_FOKKO  (Fennekin (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101480_FOKKO_SHORT  (Fennekin)",
+    "SortOrderPriority": 820,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101490_SAKAKI",
+    "NameMSID": "PeripheralGoods_BOARD_101490_SAKAKI  (Chefe da Equipe Rocket (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101490_SAKAKI_SHORT  (Chefe da Equipe Rocket)",
+    "SortOrderPriority": 830,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101500_RED_SPOTLIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT  (Brilho Escarlate (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT_SHORT  (Brilho Escarlate)",
+    "SortOrderPriority": 840,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101510_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET  (Equipe Rocket (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET_SHORT  (Equipe Rocket)",
+    "SortOrderPriority": 850,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101520_WeightComparison",
+    "NameMSID": "PeripheralGoods_BOARD_101520_WeightComparison  (Comparação de Pesos (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101520_WeightComparison_SHORT  (Comparação de Pesos)",
+    "SortOrderPriority": 860,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (Um fundo usado para colocar as cartas ao usar a\nseção Expositores.)",
+    "ID": "BOARD_101530_RETRO_SUMMER",
+    "NameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER  (Verão Retrô (Fundo))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER_SHORT  (Verão Retrô)",
+    "SortOrderPriority": 650,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_COIN_100020_EIEVUI  (Eevee (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100020_EIEVUI_SHORT  (Eevee)",
+    "SortOrderPriority": 2,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_COIN_100030_NYARTH  (Meowth (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100030_NYARTH_SHORT  (Meowth)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100040_LIZARDON  (Charizard (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100040_LIZARDON_SHORT  (Charizard)",
+    "SortOrderPriority": 4,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100060_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA  (Venusaur (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA_SHORT  (Venusaur)",
+    "SortOrderPriority": 6,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100080_KAMEX",
+    "NameMSID": "PeripheralGoods_COIN_100080_KAMEX  (Blastoise (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100080_KAMEX_SHORT  (Blastoise)",
+    "SortOrderPriority": 8,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100100_MEWTWO  (Mewtwo (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100100_MEWTWO_SHORT  (Mewtwo)",
+    "SortOrderPriority": 10,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100130_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT  (Gardevoir (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT_SHORT  (Gardevoir)",
+    "SortOrderPriority": 13,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100140_PIKACHU",
+    "NameMSID": "PeripheralGoods_COIN_100140_PIKACHU  (Pikachu (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100140_PIKACHU_SHORT  (Pikachu)",
+    "SortOrderPriority": 14,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100160_MONSTERBALL",
+    "NameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL  (Poké Bola (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL_SHORT  (Poké Bola)",
+    "SortOrderPriority": 16,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100240_PremiumSet",
+    "NameMSID": "PeripheralGoods_COIN_100240_PremiumSet  (Conjunto Especial 01 (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100240_PremiumSet_SHORT  (Conjunto Especial 01)",
+    "SortOrderPriority": 24,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100250_MEW",
+    "NameMSID": "PeripheralGoods_COIN_100250_MEW  (Mew (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100250_MEW_SHORT  (Mew)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100260_ERIKA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB  (Érica Arco-íris (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB_SHORT  (Érica Arco-íris)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100270_ERIKA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO  (Érica Alt. (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO_SHORT  (Érica Alt.)",
+    "SortOrderPriority": 26,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100290_SHIRONA",
+    "NameMSID": "PeripheralGoods_COIN_100290_SHIRONA  (Cíntia (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100290_SHIRONA_SHORT  (Cíntia)",
+    "SortOrderPriority": 28,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100300_HIKOZARU",
+    "NameMSID": "PeripheralGoods_COIN_100300_HIKOZARU  (Chimchar (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100300_HIKOZARU_SHORT  (Chimchar)",
+    "SortOrderPriority": 29,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100310_DARKRAI",
+    "NameMSID": "PeripheralGoods_COIN_100310_DARKRAI  (Darkrai (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100310_DARKRAI_SHORT  (Darkrai)",
+    "SortOrderPriority": 30,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100320_MANAPHY",
+    "NameMSID": "PeripheralGoods_COIN_100320_MANAPHY  (Manaphy (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100320_MANAPHY_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100330_ARCEUS",
+    "NameMSID": "PeripheralGoods_COIN_100330_ARCEUS  (Arceus (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100330_ARCEUS_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100340_LEAFIA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO  (Leafeon Alt. (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO_SHORT  (Leafeon Alt.)",
+    "SortOrderPriority": 33,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100350_GLACIA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB  (Glaceon Arco-íris (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB_SHORT  (Glaceon Arco-íris)",
+    "SortOrderPriority": 34,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100360_LUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100360_LUCARIO  (Lucario\n(Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100370_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100370_SHINY_LIZARDON  (Charizard Brilhante (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100380_RED_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100380_RED_HOLO  (Red Alt. (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100390_RED_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100390_RED_RNB  (Red Arco-íris (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100400_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100400_SHINY_MEWTWO  (Mewtwo Brilhante (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100410_SOLGALEO",
+    "NameMSID": "PeripheralGoods_COIN_100410_SOLGALEO  (Solgaleo (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100410_SOLGALEO_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100420_MOKUROH",
+    "NameMSID": "PeripheralGoods_COIN_100420_MOKUROH  (Rowlet (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100420_MOKUROH_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100430_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100430_LILIE  (Lílian (Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100430_LILIE_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100440_SHAYMIN_SKYFORME",
+    "NameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME  (Shaymin Forma Céu\n(Moeda de Pokémon))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100450_uNECROZMA",
+    "NameMSID": "PeripheralGoods_COIN_100450_uNECROZMA  (Ultra Necrozma (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100460_aROKON",
+    "NameMSID": "PeripheralGoods_COIN_100460_aROKON  (Vulpixde Alola (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100490_SILVADY",
+    "NameMSID": "PeripheralGoods_COIN_100490_SILVADY  (Silvally (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100500_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_COIN_100500_EIEVUI_2  (Eevee Ver.[C:Nbsp ]2 (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100530_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_COIN_100530_EIFIE_BRACKY  (Espeon e Umbreon (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100540_BANGIRAS",
+    "NameMSID": "PeripheralGoods_COIN_100540_BANGIRAS  (Tyranitar (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100550_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_COIN_100550_HOUOU_LUGIA  (Ho-Oh e Lugia (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100560_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_COIN_100560_NUOH_PALDEADOOH  (Quagsire (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100570_SUICUNE",
+    "NameMSID": "PeripheralGoods_COIN_100570_SUICUNE  (Suicune (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100600_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_COIN_100600_PROF_OHKIDO  (Professor Carvalho\n(Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100610_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100610_LILIE  (Lílian Ver.[C:Nbsp ]2 (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100620_PIKACHU_2",
+    "NameMSID": "PeripheralGoods_COIN_100620_PIKACHU_2  (Pikachu ver.[C:Nbsp ]2 (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100630_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_COIN_100630_GEKKOUGA  (Greninja\n(Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100640_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_COIN_100640_MEGATYLTALIS  (Mega Altaria (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100650_KODUCK",
+    "NameMSID": "PeripheralGoods_COIN_100650_KODUCK  (Psyduck (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 65,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100660_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_COIN_100660_MEGAGYARADOS  (Mega Gyarados (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100670_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100670_MEGABURSYAMO  (Mega Blaziken (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100680_HARUKA",
+    "NameMSID": "PeripheralGoods_COIN_100680_HARUKA  (May (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100690_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_COIN_100690_MEGA_POKEMON  (Mega Absol (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100700_PremiumSet02",
+    "NameMSID": "PeripheralGoods_COIN_100700_PremiumSet02  (Conjunto Especial 02 (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100710_ACEROLA",
+    "NameMSID": "PeripheralGoods_COIN_100710_ACEROLA  (Acerola (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100720_NYMPHIA",
+    "NameMSID": "PeripheralGoods_COIN_100720_NYMPHIA  (Sylveon (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100730_PICHU",
+    "NameMSID": "PeripheralGoods_COIN_100730_PICHU  (Pichu (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100740_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_COIN_100740_MIMIKKYU  (Mimikyu (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100750_STRINDER",
+    "NameMSID": "PeripheralGoods_COIN_100750_STRINDER  (Toxtricity (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100760_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100760_MEGASIRNIGHT  (Mega Gardevoir (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100770_NUMERA",
+    "NameMSID": "PeripheralGoods_COIN_100770_NUMERA  (Goomy (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100780_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_COIN_100780_MEGALIZARDONY  (Mega Charizard Y (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100790_SERENA",
+    "NameMSID": "PeripheralGoods_COIN_100790_SERENA  (Serena (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100800_PEPER",
+    "NameMSID": "PeripheralGoods_COIN_100800_PEPER  (Arven (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100810_NYAHOJA",
+    "NameMSID": "PeripheralGoods_COIN_100810_NYAHOJA  (Sprigatito (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100820_NANJYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100820_NANJYAMO  (Kissera (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100830_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_COIN_100830_MEGAGARURA  (Mega Kangaskhan (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100840_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_COIN_100840_SHINY_MEGAGANGAR  (Mega Gengar Brilhante (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100850_MORPEKO",
+    "NameMSID": "PeripheralGoods_COIN_100850_MORPEKO  (Morpeko (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100860_ZOROARK",
+    "NameMSID": "PeripheralGoods_COIN_100860_ZOROARK  (Zoroark (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100870_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_COIN_100870_MEGAJUKAIN  (Mega Sceptile (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100880_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100880_MEGALUCARIO  (Mega Lucario (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100890_MESSON",
+    "NameMSID": "PeripheralGoods_COIN_100890_MESSON  (Sobble (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100900_KAMITSURE",
+    "NameMSID": "PeripheralGoods_COIN_100900_KAMITSURE  (Elesa (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100910_WANPACHI",
+    "NameMSID": "PeripheralGoods_COIN_100910_WANPACHI  (Yamper (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100920_POCHAMA",
+    "NameMSID": "PeripheralGoods_COIN_100920_POCHAMA  (Piplup (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100930_KORAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100930_KORAIDON  (Koraidon (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100940_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_COIN_100940_YAMIRAMI  (Sableye (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100950_MIRAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100950_MIRAIDON  (Miraidon (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100960_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_COIN_100960_30th_ANNIVERSARY  (Design de Comemoração dos 30 anos de Pokémon (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_100990_METAGROSS",
+    "NameMSID": "PeripheralGoods_COIN_100990_METAGROSS  (Metagross (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101000_MIJUMARU",
+    "NameMSID": "PeripheralGoods_COIN_101000_MIJUMARU  (Oshawott (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101010_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_COIN_101010_MEGARAYQUAZA  (Mega Rayquaza (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101020_THUNDER",
+    "NameMSID": "PeripheralGoods_COIN_101020_THUNDER  (Zapdos (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101030_FOKKO",
+    "NameMSID": "PeripheralGoods_COIN_101030_FOKKO  (Fennekin (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101040_SAKAKI",
+    "NameMSID": "PeripheralGoods_COIN_101040_SAKAKI  (Chefe da Equipe Rocket (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (Uma moeda que pode ser usada em batalha.\nVocê pode selecioná-la na seção Baralhos.)",
+    "ID": "COIN_101050_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_COIN_101050_TEAM_ROCKET  (Equipe Rocket (Moeda de Pokémon))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI  (Eevee (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI_SHORT  (Eevee)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH  (Meowth (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH_SHORT  (Meowth)",
+    "SortOrderPriority": 3,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON  (Charizard (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON_SHORT  (Charizard)",
+    "SortOrderPriority": 4,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA  (Venusaur (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA_SHORT  (Venusaur)",
+    "SortOrderPriority": 5,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100060_KAMEX",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX  (Blastoise (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX_SHORT  (Blastoise)",
+    "SortOrderPriority": 6,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO  (Mewtwo (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO_SHORT  (Mewtwo)",
+    "SortOrderPriority": 7,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA  (Érica (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA_SHORT  (Érica)",
+    "SortOrderPriority": 8,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT  (Gardevoir (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT_SHORT  (Gardevoir)",
+    "SortOrderPriority": 9,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU  (Pikachu (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU_SHORT  (Pikachu)",
+    "SortOrderPriority": 10,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet  (Conjunto Especial 01 (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet_SHORT  (Conjunto Especial 01)",
+    "SortOrderPriority": 16,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100170_MEW",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW  (Ilha Mítica: Mew (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW_SHORT  (Ilha Mítica: Mew)",
+    "SortOrderPriority": 17,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100180_SHIRONA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA  (Cíntia (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA_SHORT  (Cíntia)",
+    "SortOrderPriority": 18,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100190_HIKOZARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU  (Chimchar (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU_SHORT  (Chimchar)",
+    "SortOrderPriority": 19,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI  (Darkrai (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI_SHORT  (Darkrai)",
+    "SortOrderPriority": 20,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100210_MANAPHY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY  (Manaphy (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY_SHORT",
+    "SortOrderPriority": 21,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS  (Arceus (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100230_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA  (Leafeon e Glaceon (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA_SHORT  (Leafeon e Glaceon)",
+    "SortOrderPriority": 23,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100240_LUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100240_LUCARIO  (Lucario\n(Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100250_SHINY_LIZARDON  (Charizard Brilhante (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100260_RED_PIKACHU  (Red e Pikachu (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100270_SHINY_MEWTWO  (Mewtwo Brilhante (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO  (Solgaleo (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 28,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH  (Rowlet (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100300_LILIE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE  (Lílian (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION  (Festa na Cidade (Capa para Carta))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100320_uNECROZMA  (Ultra Necrozma (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 32,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100330_aROKON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100330_aROKON  (Vulpixde Alola (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100340_ACEROLA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100340_ACEROLA  (Acerola (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100350_GLAZI_SILVADY  (Gladio (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100360_EIEVUI_2  (Eevee Ver.[C:Nbsp ]2 (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100370_NYMPHIA  (Sylveon (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100380_EIFIE_BRACKY  (Espeon e Umbreon (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100390_BANGIRAS  (Tyranitar (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100400_HOUOU_LUGIA  (Ho-Oh e Lugia (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100410_NUOH_PALDEADOOH  (Quagsire e Clodsire (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100420_SUICUNE  (Suicune (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100430_PICHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100430_PICHU  (Pichu (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100440_MEGATYLTALIS  (Mega Altaria (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100450_KODUCK  (Psyduck (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100460_MEGAGYARADOS  (Mega Gyarados (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100470_MEGABURSYAMO  (Mega Blaziken (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100480_HARUKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100480_HARUKA  (May (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100490_MEGA_POKEMON  (Pokémon de Megaevolução (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100500_PremiumSet02  (Conjunto Especial 02 (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100510_PROF_OHKIDO  (Professor Carvalho\n(Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100520_LILIE_Ver2  (Lílian Ver.[C:Nbsp ]2 (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100530_GEKKOUGA  (Greninja\n(Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100540_1st_ANNIVERSARY  (Ano-Novo com Pikachu (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100550_MIMIKKYU  (Mimikyu (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100560_STRINDER  (Toxtricity (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100570_MEGASIRNIGHT  (Mega Gardevoir (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100580_NUMERA  (Goomy (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100590_MEGALIZARDONY  (Mega Charizard Y (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100600_SERENA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100600_SERENA  (Serena (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100610_PEPER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100610_PEPER  (Arven (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100620_NYAHOJA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100620_NYAHOJA  (Sprigatito (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100630_NANJYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100630_NANJYAMO  (Kissera (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100640_MEGAGARURA  (Mega Kangaskhan (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100650_SHINY_MEGAGANGAR  (Mega Gengar Brilhante (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100660_MORPEKO  (Morpeko (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100670_ZOROARK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100670_ZOROARK  (Zoroark (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100680_MEGAJUKAIN  (Mega Sceptile (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100690_MEGALUCARIO  (Mega Lucario (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100700_ForestPokemons  (Pokémon da Floresta (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100710_KAMITSURE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100710_KAMITSURE  (Elesa (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100720_WANPACHI_GARDIE_etc  (Yamper, Growlithe, Lillipup, Rockruff e Fidough (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100730_POCHAMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100730_POCHAMA  (Piplup (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100740_KORAIDON  (Koraidon (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100750_YAMIRAMI  (Sableye (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100760_MIRAIDON  (Miraidon (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100770_30th_ANNIVERSARY  (Design de Comemoração dos 30 anos de Pokémon (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100800_METAGROSS  (Metagross (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100810_MIJUMARU  (Oshawott (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100820_MEGARAYQUAZA  (Mega Rayquaza (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100830_THUNDER_FREEZER_etc  (Zapdos, Articuno e Moltres (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100840_FOKKO  (Fennekin (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100850_SAKAKI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100850_SAKAKI  (Chefe da Equipe Rocket (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (Um acessório que é ligado às cartas.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "DECKSHIELD_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100860_TEAM_ROCKET  (Equipe Rocket (Capa para Carta))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100020_EIEVUI  (Eevee (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100020_EIEVUI_SHORT  (Eevee)",
+    "SortOrderPriority": 2,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_FILE_100030_NYARTH  (Meowth (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100030_NYARTH_SHORT  (Meowth)",
+    "SortOrderPriority": 3,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100040_LIZARDON  (Charizard (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100040_LIZARDON_SHORT  (Charizard)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA  (Venusaur (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA_SHORT  (Venusaur)",
+    "SortOrderPriority": 5,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX  (Blue e Blastoise (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX_SHORT  (Blue e Blastoise)",
+    "SortOrderPriority": 6,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100070_A1_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON  (Dominação Genética: Charizard (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON_SHORT  (Dominação Genética: Charizard)",
+    "SortOrderPriority": 7,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100080_A1_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO  (Dominação Genética: Mewtwo (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO_SHORT  (Dominação Genética: Mewtwo)",
+    "SortOrderPriority": 8,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100090_A1_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU  (Dominação Genética: Pikachu (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU_SHORT  (Dominação Genética: Pikachu)",
+    "SortOrderPriority": 9,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100100_MEWTWO  (Mewtwo (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100100_MEWTWO_SHORT  (Mewtwo)",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100110_ERIKA_RUFFRESIA",
+    "NameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA  (Érica e Vileplume (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA_SHORT  (Érica e Vileplume)",
+    "SortOrderPriority": 11,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100120_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT  (Gardevoir (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT_SHORT  (Gardevoir)",
+    "SortOrderPriority": 12,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100130_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100130_PIKACHU  (Pikachu (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100130_PIKACHU_SHORT  (Pikachu)",
+    "SortOrderPriority": 13,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100270_MONSTERBALL_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2  (Poké Bola (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2_SHORT  (Poké Bola)",
+    "SortOrderPriority": 16,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100290_PremiumSet",
+    "NameMSID": "PeripheralGoods_FILE_100290_PremiumSet  (Conjunto Especial 01 (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100290_PremiumSet_SHORT  (Conjunto Especial 01)",
+    "SortOrderPriority": 18,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100300_A1a_MEW",
+    "NameMSID": "PeripheralGoods_FILE_100300_A1a_MEW  (Ilha Mítica: Mew (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100300_A1a_MEW_SHORT  (Ilha Mítica: Mew)",
+    "SortOrderPriority": 19,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100310_REST_BIG_TREE",
+    "NameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE  (Árvore do Repouso (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE_SHORT  (Árvore do Repouso)",
+    "SortOrderPriority": 20,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100320_PRISTINE_FOREST",
+    "NameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST  (Floresta Intocada (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST_SHORT  (Floresta Intocada)",
+    "SortOrderPriority": 21,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100330_QUIET_LAKE",
+    "NameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE  (Lago Tranquilo (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE_SHORT  (Lago Tranquilo)",
+    "SortOrderPriority": 22,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100340_BURN_GROUND",
+    "NameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND  (Deserto Escaldante (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND_SHORT  (Deserto Escaldante)",
+    "SortOrderPriority": 23,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100350_FORGOTTEN_REMAINS",
+    "NameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS  (Ruínas Esquecidas (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS_SHORT  (Ruínas Esquecidas)",
+    "SortOrderPriority": 24,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100360_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS  (Cíntia e Garchomp (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS_SHORT  (Cíntia\ne Garchomp)",
+    "SortOrderPriority": 25,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU  (Chimchar, Monferno e Infernape (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (Chimchar, Monferno\ne Infernape)",
+    "SortOrderPriority": 26,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100380_DARKRAI",
+    "NameMSID": "PeripheralGoods_FILE_100380_DARKRAI  (Darkrai (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100380_DARKRAI_SHORT  (Darkrai)",
+    "SortOrderPriority": 27,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100390_A2_DIALGA",
+    "NameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA  (Embate do Tempo e Espaço:\nDialga (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA_SHORT  (Embate do Tempo e Espaço: Dialga)",
+    "SortOrderPriority": 28,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100400_A2_PALKIA",
+    "NameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA  (Embate do Tempo e Espaço:\nPalkia (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA_SHORT  (Embate do tempo e Espaço: Palkia)",
+    "SortOrderPriority": 29,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100410_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA  (Manaphy e Piplup (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA_SHORT  (Manaphy e Piplup)",
+    "SortOrderPriority": 30,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100420_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100420_ARCEUS  (Arceus (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100420_ARCEUS_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100430_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA  (Ádamo, Irida, Leafeon e Glaceon (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA_SHORT  (Ádamo, Irida, Leafeon e Glaceon)",
+    "SortOrderPriority": 32,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100440_A2a_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS  (Luz Triunfante: Arceus (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS_SHORT  (Luz Triunfante: Arceus)",
+    "SortOrderPriority": 33,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100450_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_FILE_100450_LUCARIO_RIOLU  (Lucario e Riolu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100460_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100460_SHINY_LIZARDON  (Charizard Brilhante (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100470_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100470_RED_PIKACHU  (Red e Pikachu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100480_SHINY_GLARE",
+    "NameMSID": "PeripheralGoods_FILE_100480_SHINY_GLARE  (Esplendor Brilhante (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100490_A2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_100490_A2b_SHINY_POKEMONS  (Festival Brilhante: Pokémon Brilhante (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100500_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100500_SOLGALEO  (Solgaleo (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100500_SOLGALEO_SHORT",
+    "SortOrderPriority": 39,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100510_MOKUROH",
+    "NameMSID": "PeripheralGoods_FILE_100510_MOKUROH  (Rowlet (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100510_MOKUROH_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100520_LILIE_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA  (Lílian (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100530_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION  (Festa na Cidade (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100540_A3_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO  (Guardiões Celestiais: Solgaleo (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100550_A3_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA  (Guardiões Celestiais: Lunala (Capa))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA_SHORT",
+    "SortOrderPriority": 44,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100560_uNECROZMA",
+    "NameMSID": "PeripheralGoods_FILE_100560_uNECROZMA  (Ultra Necrozma (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100570_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_FILE_100570_aROKON_aKYUKON  (Vulpixde Alola e Ninetalesde Alola (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100580_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100580_ACEROLA_MIMIKKYU  (Acerola e Mimikyu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100590_A3a_CRISIS",
+    "NameMSID": "PeripheralGoods_FILE_100590_A3a_CRISIS  (Crise Extradimensional: Ultracriatura (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100600_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_FILE_100600_GLAZI_SILVADY  (Gladio e Silvally (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100610_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_FILE_100610_EIEVUI_2  (Eevee Ver.[C:Nbsp ]2 (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100620_NYMPHIA",
+    "NameMSID": "PeripheralGoods_FILE_100620_NYMPHIA  (Sylveon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100630_EIEVUI_GRADEN_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100630_EIEVUI_GRADEN_EIEVUI  (Bosque dos Eevee: Eevee (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100640_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_FILE_100640_EIFIE_BRACKY  (Espeon e Umbreon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100650_BANGIRAS",
+    "NameMSID": "PeripheralGoods_FILE_100650_BANGIRAS  (Tyranitar (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100660_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100660_HOUOU_LUGIA  (Ho-Oh e Lugia (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100670_A4_HOUOU",
+    "NameMSID": "PeripheralGoods_FILE_100670_A4_HOUOU  (Sabedoria dos Céus e Mares: Ho-Oh (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100680_A4_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100680_A4_LUGIA  (Sabedoria dos Céus e Mares: Lugia (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100690_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_FILE_100690_NUOH_PALDEADOOH  (Quagsire e Clodsire (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100700_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100700_SUICUNE  (Suicune (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100710_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_FILE_100710_PICHU_PY_BUBY_RURIRI  (Pichu, Cleffa, Magby e Azurill (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100720_A4a_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100720_A4a_SUICUNE  (Suicune de Nascentes Reclusas (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100730_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100730_MEGATYLTALIS  (Mega Altaria (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100740_KODUCK",
+    "NameMSID": "PeripheralGoods_FILE_100740_KODUCK  (Psyduck (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100750_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100750_MEGAGYARADOS  (Mega Gyarados (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100760_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100760_MEGABURSYAMO  (Mega Blaziken (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100770_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_FILE_100770_HARUKA_ACHAMO  (May e Torchic (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100780_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_FILE_100780_MEGA_POKEMON  (Pokémon de Megaevolução (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100790_PremiumSet02",
+    "NameMSID": "PeripheralGoods_FILE_100790_PremiumSet02  (Conjunto Especial 02 (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100800_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_FILE_100800_MEGA_EVOLUTION  (Pokémon ex de Megaevolução (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100810_B1_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100810_B1_MEGABURSYAMO  (Mega Ascensão: Mega Blaziken (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100820_B1_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100820_B1_MEGAGYARADOS  (Mega Ascensão: Mega Gyarados (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100830_B1_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100830_B1_MEGATYLTALIS  (Mega Ascensão: Mega Altaria (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100840_FlowerGarden",
+    "NameMSID": "PeripheralGoods_FILE_100840_FlowerGarden  (Jardim de Flores Sorridentes (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100850_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_FILE_100850_PROF_OHKIDO  (Professor Carvalho (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100860_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100860_LILIE_Ver2  (Lílian Ver.[C:Nbsp ]2 (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 63,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100870_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_FILE_100870_GEKKOUGA  (Greninja (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100880_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_100880_1st_ANNIVERSARY  (Ano-Novo com Pikachu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 82,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100890_A4b_HIGH_CLASS",
+    "NameMSID": "PeripheralGoods_FILE_100890_A4b_HIGH_CLASS  (Pacote Deluxe ex (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100900_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100900_MIMIKKYU  (Mimikyu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 83,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100910_STRINDER",
+    "NameMSID": "PeripheralGoods_FILE_100910_STRINDER  (Toxtricity (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 84,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100920_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100920_MEGASIRNIGHT  (Mega Gardevoir (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 85,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100930_B2_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100930_B2_MEGASIRNIGHT  (Desfile Onírico: Mega Gardevoir (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 86,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100940_BeginningPlain",
+    "NameMSID": "PeripheralGoods_FILE_100940_BeginningPlain  (Batalha na Planície Primordial (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 87,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100950_NUMERA",
+    "NameMSID": "PeripheralGoods_FILE_100950_NUMERA  (Goomy (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 78,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100960_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100960_MEGALIZARDONY  (Mega Charizard Y (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 79,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100970_SERENA",
+    "NameMSID": "PeripheralGoods_FILE_100970_SERENA  (Serena (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 80,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100980_B1a_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100980_B1a_MEGALIZARDONY  (Chama Carmesim: Mega Charizard Y (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 81,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_100990_PEPER",
+    "NameMSID": "PeripheralGoods_FILE_100990_PEPER  (Arven (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA  (Sprigatito, Floragato e Meowscarada (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101010_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_FILE_101010_NANJYAMO_HARABARIE  (Kissera e Bellibolt (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101020_B2a_PALDEAWONDER",
+    "NameMSID": "PeripheralGoods_FILE_101020_B2a_PALDEAWONDER  (Maravilhas de Paldea: Fuecoco e Amigos (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101030_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_FILE_101030_MEGAGARURA  (Mega Kangaskhan (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101040_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_FILE_101040_SHINY_MEGAGANGAR  (Mega Gengar Brilhante (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101050_MORPEKO",
+    "NameMSID": "PeripheralGoods_FILE_101050_MORPEKO  (Morpeko (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101060_B2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_101060_B2b_SHINY_POKEMONS  (Mega Brilho: Pokémon Brilhantes (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101070_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_FILE_101070_ZOROARK_ZORUA  (Zoroark e Zorua (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 210,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101080_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101080_MEGAJUKAIN  (Mega Sceptile (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 220,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101090_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_FILE_101090_MEGALUCARIO  (Mega Lucario (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 230,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101100_ForestPokemons",
+    "NameMSID": "PeripheralGoods_FILE_101100_ForestPokemons  (Pokémon da Floresta (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN  (Aura Pulsante: Mega Lucario e Mega Sceptile (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101120_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_FILE_101120_KAMITSURE_EMOLGA  (Elesa e Emolga (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101130_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_FILE_101130_WANPACHI_GARDIE_etc  (Yamper, Growlithe, Lillipup, Rockruff e Fidough (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101140_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_FILE_101140_PIKACHU_POCHAMA_etc  (Pikachu, Piplup, Sylveon, Greedent e Snorlax (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101150_B3b_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_101150_B3b_PIKACHU  (Encantos Cotidianos: Pikachu (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 640,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101160_Chill",
+    "NameMSID": "PeripheralGoods_FILE_101160_Chill  (Totalmente Fora do Ar (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 650,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101170_KORAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101170_KORAIDON  (Koraidon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101180_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_FILE_101180_YAMIRAMI  (Sableye (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101190_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101190_MIRAIDON  (Miraidon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101200_B3a_KORAIDON_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101200_B3a_KORAIDON_MIRAIDON  (Impulso Paradoxal: Koraidon e Miraidon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 540,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101210_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_101210_30th_ANNIVERSARY  (Design de Comemoração dos 30 anos de Pokémon (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101220_AREAZERO",
+    "NameMSID": "PeripheralGoods_FILE_101220_AREAZERO  (Ecologia da Área Zero (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 550,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101230_METAGROSS",
+    "NameMSID": "PeripheralGoods_FILE_101230_METAGROSS  (Metagross (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101240_MIJUMARU",
+    "NameMSID": "PeripheralGoods_FILE_101240_MIJUMARU  (Oshawott (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 740,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101250_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101250_MEGARAYQUAZA  (Mega Rayquaza (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101260_B4_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101260_B4_MEGARAYQUAZA  (Mestre dos Céus: Mega Rayquaza (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101270_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_FILE_101270_THUNDER_FREEZER_etc  (Zapdos, Articuno e Moltres (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101280_FOKKO",
+    "NameMSID": "PeripheralGoods_FILE_101280_FOKKO  (Fennekin (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101290_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_FILE_101290_SAKAKI_PERSIAN  (Chefe da Equipe Rocket e Persian (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101300_B4a_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101300_B4a_TEAM_ROCKET  (Ambições da Equipe Rocket: Equipe Rocket (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (Uma capa para Fichários que pode ser usada\nna seção Fichários.)",
+    "ID": "FILE_101310_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101310_TEAM_ROCKET  (Equipe Rocket (Capa))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 850,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI  (Eevee (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI_SHORT  (Eevee)",
+    "SortOrderPriority": 2,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH  (Meowth (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH_SHORT  (Meowth)",
+    "SortOrderPriority": 3,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON  (Charizard (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON_SHORT  (Charizard)",
+    "SortOrderPriority": 4,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA  (Venusaur (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA_SHORT  (Venusaur)",
+    "SortOrderPriority": 5,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX  (Blue e Blastoise (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX_SHORT  (Blue e Blastoise)",
+    "SortOrderPriority": 6,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO  (Mewtwo (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO_SHORT  (Mewtwo)",
+    "SortOrderPriority": 7,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA  (Érica (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA_SHORT  (Érica)",
+    "SortOrderPriority": 8,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT  (Gardevoir (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT_SHORT  (Gardevoir)",
+    "SortOrderPriority": 9,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU  (Pikachu (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU_SHORT  (Pikachu)",
+    "SortOrderPriority": 10,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet  (Conjunto Especial 01 (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet_SHORT  (Conjunto Especial 01)",
+    "SortOrderPriority": 16,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100170_MEW",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100170_MEW  (Ilha Mítica: Mew (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100170_MEW_SHORT  (Ilha Mítica: Mew)",
+    "SortOrderPriority": 17,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100180_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS  (Cíntia e Garchomp (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS_SHORT  (Cíntia\ne Garchomp)",
+    "SortOrderPriority": 18,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU  (Chimchar, Monferno e Infernape (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (Chimchar, Monferno\ne Infernape)",
+    "SortOrderPriority": 19,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI  (Darkrai (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI_SHORT  (Darkrai)",
+    "SortOrderPriority": 20,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100210_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA  (Manaphy e Piplup (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA_SHORT  (Manaphy e Piplup)",
+    "SortOrderPriority": 21,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS  (Arceus (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA  (Ádamo, Irida, Leafeon e Glaceon (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA_SHORT  (Ádamo, Irida, Leafeon e Glaceon)",
+    "SortOrderPriority": 23,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100240_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100240_LUCARIO_RIOLU  (Lucario e Riolu (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100250_SHINY_LIZARDON  (Charizard Brilhante (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100260_RED_PIKACHU  (Red e Pikachu (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100270_SHINY_MEWTWO  (Mewtwo Brilhante (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO  (Solgaleo (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH  (Rowlet (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100300_LILIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE  (Lílian (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION  (Festa na Cidade (Tabuleiro))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100320_uNECROZMA  (Ultra Necrozma (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100330_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100330_aROKON_aKYUKON  (Vulpixde Alola e Ninetalesde Alola (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100340_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100340_ACEROLA_MIMIKKYU  (Acerola e Mimikyu (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100350_GLAZI_SILVADY  (Gladio e Silvally (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100360_EIEVUI_2  (Eevee Ver.[C:Nbsp ]2 (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100370_NYMPHIA  (Sylveon (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100380_EIFIE_BRACKY  (Espeon e Umbreon (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100390_BANGIRAS  (Tyranitar (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100400_HOUOU_LUGIA  (Ho-Oh e Lugia (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100410_NUOH_PALDEADOOH  (Quagsire e Clodsire (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100420_SUICUNE  (Suicune (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100430_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100430_PICHU_PY_BUBY_RURIRI  (Pichu, Cleffa, Magby e Azurill (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100440_MEGATYLTALIS  (Mega Altaria (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100450_KODUCK  (Psyduck (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100460_MEGAGYARADOS  (Mega Gyarados (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100470_MEGABURSYAMO  (Mega Blaziken (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100480_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100480_HARUKA_ACHAMO  (May e Torchic (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100490_MEGA_POKEMON  (Pokémon de Megaevolução (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100500_PremiumSet02  (Conjunto Especial 02 (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100510_PROF_OHKIDO  (Professor Carvalho (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100520_LILIE_Ver2  (Lílian Ver.[C:Nbsp ]2 (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100530_GEKKOUGA  (Greninja (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100540_1st_ANNIVERSARY  (Ano-Novo com Pikachu (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100550_MIMIKKYU  (Mimikyu (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100560_STRINDER  (Toxtricity (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100570_MEGASIRNIGHT  (Mega Gardevoir (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100580_NUMERA  (Goomy (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100590_MEGALIZARDONY  (Mega Charizard Y (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100600_SERENA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100600_SERENA  (Serena (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100610_PEPER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100610_PEPER  (Arven (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA  (Sprigatito, Floragato e Meowscarada (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100630_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100630_NANJYAMO_HARABARIE  (Kissera e Bellibolt (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100640_MEGAGARURA  (Mega Kangaskhan (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100650_SHINY_MEGAGANGAR  (Mega Gengar Brilhante (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100660_MORPEKO  (Morpeko (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100670_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100670_ZOROARK_ZORUA  (Zoroark e Zorua (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100680_MEGAJUKAIN  (Mega Sceptile (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100690_MEGALUCARIO  (Mega Lucario (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100700_ForestPokemons  (Pokémon da Floresta (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100710_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100710_KAMITSURE_EMOLGA  (Elesa e Emolga (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100720_WANPACHI_GARDIE_etc  (Yamper, Growlithe, Lillipup, Rockruff e Fidough (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100730_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100730_PIKACHU_POCHAMA_etc  (Pikachu, Piplup, Sylveon, Greedent e Snorlax (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100740_KORAIDON  (Koraidon (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100750_YAMIRAMI  (Sableye (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100760_MIRAIDON  (Miraidon (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100770_30th_ANNIVERSARY  (Design de Comemoração dos 30 anos de Pokémon (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100800_METAGROSS  (Metagross (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100810_MIJUMARU  (Oshawott (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100820_MEGARAYQUAZA  (Mega Rayquaza (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100830_THUNDER_FREEZER_etc  (Zapdos, Articuno e Moltres (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100840_FOKKO  (Fennekin (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100850_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100850_SAKAKI_PERSIAN  (Chefe da Equipe Rocket e Persian (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (Um acessório que é disposto na zona de jogo\ndurante a batalha.\nVocê pode selecioná-lo na seção Baralhos.)",
+    "ID": "PLAYMAT_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100860_TEAM_ROCKET  (Equipe Rocket (Tabuleiro))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 0
+  }
+]

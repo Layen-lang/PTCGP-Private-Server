@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+import "takasho/schema/lettuce_server/resource/player_settings/info.proto";
+
+message SystemLoginV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.language.Language language_type = 1;
+      bool third_party_data_provision_approved = 4;
+      string third_party_data_provision_version_approved = 5;
+      string privacy_policy_consent_version_approved = 6;
+      string terms_of_service_consent_version_approved = 7;
+      string country_region_code = 8;
+      int64 year_num_of_birth = 9;
+      int64 month_num_of_birth = 10;
+      bool use_of_data_in_game_announcements = 11;
+      bool use_of_last_login_time = 12;
+      bool use_of_login_data = 13;
+      bool use_of_performance_errors = 14;
+      takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType age_gate_type = 15;
+    }
+    message Response {
+      message Types {
+        message TutorialStatus {
+          string tutorial_id = 1;
+          int64 tutorial_step = 2;
+        }
+      }
+      takasho.schema.lettuce_server.resource.player_settings.Info player_settings_info = 1;
+      repeated SystemLoginV1.Types.Response.Types.TutorialStatus tutorial_completes = 3;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+    }
+  }
+}

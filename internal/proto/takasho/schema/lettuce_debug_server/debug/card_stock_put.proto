@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/card/card_stock.proto";
+
+message CardStockPut {
+  message Types {
+    message Request {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.card.CardStock card_stocks = 2;
+    }
+    message Response {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.card.CardStock card_stocks = 2;
+    }
+  }
+}

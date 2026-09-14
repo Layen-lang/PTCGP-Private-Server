@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.performance_log;
+
+message PerformanceLogMemory {
+  repeated int32 reserved_memory_buckets = 1;
+  repeated int32 used_memory_buckets = 2;
+  repeated int32 managed_heap_buckets = 3;
+  repeated int32 native_heap_buckets = 4;
+}

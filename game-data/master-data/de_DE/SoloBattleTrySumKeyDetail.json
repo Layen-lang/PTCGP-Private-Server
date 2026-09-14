@@ -1,0 +1,117 @@
+[
+  {
+    "DescriptionMSID": "CauseSpecialConditionParalyzed_MSID  (Paralysiere [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal ein Pokémon deines Gegners.)",
+    "SoloBattleTrySumKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionAsleep_MSID  (Versetze [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal ein Pokémon deines Gegners in Schlaf.)",
+    "SoloBattleTrySumKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionBurned_MSID  (Verbrenne [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal ein Pokémon deines Gegners.)",
+    "SoloBattleTrySumKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionConfused_MSID  (Verwirre [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal ein Pokémon deines Gegners.)",
+    "SoloBattleTrySumKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "CauseSpecialConditionPoisoned_MSID  (Vergifte [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal ein Pokémon deines Gegners.)",
+    "SoloBattleTrySumKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByColorlessAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Farblos-Pokémon.)",
+    "SoloBattleTrySumKey": 20,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByGrassAttack_MSID  (Besiege [Num:Int id=\"0\" max_length=\"2\" ] Mal das gegn. Aktive Pokémon mit einer Attacke eines Pflanzen-Pokémon.)",
+    "SoloBattleTrySumKey": 21,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFireAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Feuer-Pokémon.)",
+    "SoloBattleTrySumKey": 22,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByWaterAttack_MSID  (Besiege [Num:Int id=\"0\" max_length=\"2\" ] Mal das gegn. Aktive Pokémon mit einer Attacke eines Wasser-Pokémon.)",
+    "SoloBattleTrySumKey": 23,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByLightningAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Elektro-Pokémon.)",
+    "SoloBattleTrySumKey": 24,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByPsychicAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Psycho-Pokémon.)",
+    "SoloBattleTrySumKey": 25,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByFightingAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Kampf-Pokémon.)",
+    "SoloBattleTrySumKey": 26,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDarknessAttack_MSID  (Besiege [Num:Int id=\"0\" max_length=\"2\" ] Mal das gegn. Aktive Pokémon mit einer Attacke eines Finsternis-Pokémon.)",
+    "SoloBattleTrySumKey": 27,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByMetalAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Metall-Pokémon.)",
+    "SoloBattleTrySumKey": 28,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "KnockOutOpponentActiveByDragonAttack_MSID  (Besiege das Aktive Pokémon des Gegners [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ]Mal mit einer Attacke eines Drachen-Pokémon.)",
+    "SoloBattleTrySumKey": 29,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayBasicPokemon_MSID  (Bringe [Num:Int max_length=\"2\" plural_only=\" \" ][Gr:Count s=\"ein Basis-Pokémon\" p=\"Basis-Pokémon\" ] ins Spiel.)",
+    "SoloBattleTrySumKey": 40,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayOneEvolutionPokemon_MSID  (Bringe [Num:Int max_length=\"2\" plural_only=\" \" ][Gr:Count s=\"ein Phase-1-Pokémon\" p=\"Phase-1-Pokémon\" ] ins Spiel.)",
+    "SoloBattleTrySumKey": 41,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayTwoEvolutionPokemon_MSID  (Bringe [Num:Int max_length=\"2\" plural_only=\" \" ][Gr:Count s=\"ein Phase-2-Pokémon\" p=\"Phase-2-Pokémon\" ] ins Spiel.)",
+    "SoloBattleTrySumKey": 42,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "PlayEXPokemon_MSID  (Bringe [Num:Int max_length=\"2\" plural_only=\" \" ][Gr:Count s=\"ein Pokémon-ex\" p=\"Pokémon-ex\" ] ins Spiel.)",
+    "SoloBattleTrySumKey": 43,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "AttachEnergy_MSID  (Lege [Num:Int id=\"0\" max_length=\"2\" ][C:Nbsp ][Gr:Count s=\"Energie\" p=\"Energien\" ] an deine Pokémon an.)",
+    "SoloBattleTrySumKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordDealtSomeDamage_MSID  (Füge [Num:Int id=\"0\" max_length=\"5\" ] oder mehr Schadenspunkte zu.)",
+    "SoloBattleTrySumKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordAcquiredSomePoint_MSID  (Erhalte [Num:Int id=\"0\" max_length=\"3\" ] oder mehr Punkte.)",
+    "SoloBattleTrySumKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "RecordWonSomeBattle_MSID  (Gewinne [Num:Int id=\"0\" max_length=\"3\" ] oder mehr Kämpfe.)",
+    "SoloBattleTrySumKey": 103,
+    "TagParamType": 0
+  }
+]

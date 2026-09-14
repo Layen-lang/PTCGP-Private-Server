@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/thank_reward_send_to_bot_v1.proto";
+import "takasho/schema/lettuce_server/player_api/thank_reward_send_v1.proto";
+
+service ThankReward {
+  rpc SendV1 (ThankRewardSendV1.Types.Request) returns (ThankRewardSendV1.Types.Response);
+  rpc SendToBotV1 (ThankRewardSendToBotV1.Types.Request) returns (ThankRewardSendToBotV1.Types.Response);
+}

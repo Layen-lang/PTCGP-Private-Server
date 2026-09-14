@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/album_spine.proto";
+
+message AlbumListV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      uint64 album_limit_num = 1;
+      repeated AlbumSpine albums = 2;
+      uint64 like_count = 3;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/card_stock_add.proto";
+import "takasho/schema/lettuce_debug_server/debug/card_stock_delete.proto";
+import "takasho/schema/lettuce_debug_server/debug/card_stock_get.proto";
+import "takasho/schema/lettuce_debug_server/debug/card_stock_put.proto";
+
+service CardStock {
+  rpc Get (CardStockGet.Types.Request) returns (CardStockGet.Types.Response);
+  rpc Add (CardStockAdd.Types.Request) returns (CardStockAdd.Types.Response);
+  rpc Put (CardStockPut.Types.Request) returns (CardStockPut.Types.Response);
+  rpc Delete (CardStockDelete.Types.Request) returns (CardStockDelete.Types.Response);
+}

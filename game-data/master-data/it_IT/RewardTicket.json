@@ -1,0 +1,524 @@
+[
+  {
+    "AssetID": "TICKET_ITSUKA",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ITSUKA  (Questo buono non si può ancora usare.\nAspetta e vedrai!)",
+    "ID": "ITSUKA_TICKET",
+    "NameMSID": "ITEM_NAME_TICKET_ITSUKA  (Buono futuro)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_0002010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV1  (Buono negozio evento (Meowth))",
+    "ScheduleID": "SC_SH_0002010_01",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_0002010_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV2  (Buono negozio evento (Venusaur))",
+    "ScheduleID": "SC_SH_0002010_07",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2408010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV3  (Buono negozio evento (Blastoise))",
+    "ScheduleID": "SC_SH_2408010_01",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2409010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV4  (Buono negozio evento (Chimchar))",
+    "ScheduleID": "SC_SH_2409010_01",
+    "SortOrderPriority": 70,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2502010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV5  (Buono negozio evento (Manaphy))",
+    "ScheduleID": "SC_SH_2502010_01",
+    "SortOrderPriority": 90,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2503010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV7  (Buono negozio evento (Lucario))",
+    "ScheduleID": "SC_SH_2503010_01",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2504010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV8  (Buono negozio evento (Solgaleo))",
+    "ScheduleID": "SC_SH_2504010_01",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2505010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV9  (Buono negozio evento (UltraNecrozma))",
+    "ScheduleID": "SC_SH_2505010_01",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2506000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV10  (Buono negozio evento (Silvally))",
+    "ScheduleID": "SC_SH_2506000_01",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2507000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV11  (Buono negozio evento (Tyranitar))",
+    "ScheduleID": "SC_SH_2507000_01",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2508000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV12  (Buono negozio evento (Quagsire))",
+    "ScheduleID": "SC_SH_2508000_01",
+    "SortOrderPriority": 220,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2509000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV15  (Buono negozio evento\n(Professor Oak))",
+    "ScheduleID": "SC_SH_2509000_01",
+    "SortOrderPriority": 240,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV13  (Buono negozio evento (Psyduck))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 260,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV14  (Buono negozio evento\n(Mega[C:Nbsp ]Gyarados))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 270,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_04",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV17  (Buono negozio evento\n(Evento bonus\nristampa PROMO[C:Nbsp ]2025))",
+    "ScheduleID": "SC_SH_2510000_09",
+    "SortOrderPriority": 290,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_05",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV16  (Buono negozio evento\n(Evento pesca misteriosa\nristampa PROMO[C:Nbsp ]2025))",
+    "ScheduleID": "SC_SH_2510000_10",
+    "SortOrderPriority": 300,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_05",
+    "NameMSID": "ITEM_NAME_TICKET_EV22  (Buono carta promo\n(evento bonus\nMega Pidgeot-ex))",
+    "ScheduleID": "SC_SH_2510000_11",
+    "SortOrderPriority": 310,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_06",
+    "NameMSID": "ITEM_NAME_TICKET_EV23  (Buono carta promo\n(evento pesca misteriosa\nPsyduck))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 320,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2510000_EV_07",
+    "NameMSID": "ITEM_NAME_TICKET_EV24  (Buono carta promo\n(evento pesca misteriosa\nMega Gyarados))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 330,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2512000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV18  (Buono negozio evento (Goomy))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 400,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2512000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV25  (Buono carta promo\n(evento bonus Mareep))",
+    "ScheduleID": "SC_SH_2512000_06",
+    "SortOrderPriority": 360,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2512000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV26  (Buono carta promo\n(evento bonus\nMega Latios-ex))",
+    "ScheduleID": "SC_SH_2512000_05",
+    "SortOrderPriority": 380,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2512000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV27  (Buono carta promo\n(evento pesca misteriosa\nGoomy))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 370,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2601000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV19  (Buono negozio evento\n(Toxtricity))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 350,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2601000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV34  (Buono carta promo\n(evento bonus\nMega Medicham-ex))",
+    "ScheduleID": "SC_SH_2601000_03",
+    "SortOrderPriority": 410,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2601000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV35  (Buono carta promo\n(evento pesca misteriosa\nToxtricity))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 405,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2602000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV20  (Buono negozio evento (Pepe))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2602000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV29  (Buono carta promo\n(evento bonus Charcadet))",
+    "ScheduleID": "SC_SH_2602000_01",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2602000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV30  (Buono carta promo\n(evento pesca misteriosa\nPepe))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Si ottiene completando missioni evento.\nSi può scambiare nel negozio per ottenere\naccessori e oggetti. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_2603000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV28  (Buono negozio evento\n(Mega Kangaskhan))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 540,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2603000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV36  (Buono carta promo\n(evento bonus Slowpoke))",
+    "ScheduleID": "SC_SH_2603000_01",
+    "SortOrderPriority": 550,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2603000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV37  (Buono carta promo\n(evento pesca misteriosa\nMega Kangaskhan))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 560,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2604000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV33  (Buono carta promo\n(evento bonus speciale 2026))",
+    "ScheduleID": "SC_SH_2604000_01",
+    "SortOrderPriority": 590,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2604000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV31  (Buono carta promo\n(evento bonus\nMega Heracross-ex))",
+    "ScheduleID": "SC_SH_2604000_02",
+    "SortOrderPriority": 600,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2605000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV41  (Buono carta promo\n(evento bonus Ceruledge-ex))",
+    "ScheduleID": "SC_SH_2605000_01",
+    "SortOrderPriority": 700,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2606000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV43  (Buono carta promo (evento bonus Zoruadi Hisui))",
+    "ScheduleID": "SC_SH_2606000_01",
+    "SortOrderPriority": 800,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2607000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV38  (Buono carta promo (evento bonus Mega Houndoom-ex))",
+    "ScheduleID": "SC_SH_2607000_01",
+    "SortOrderPriority": 900,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_2608000_EV_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ROCKET  (Si ottiene completando gli incarichi speciali\ndel Team Rocket. Pare che si possa utilizzare\nda qualche parte...)",
+    "ID": "TICKET_2608000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV44  (Buono sospetto del Team Rocket)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "SortOrderPriority": 1000,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Si ottiene completando missioni evento. Si può\nscambiare nel negozio per ottenere carte promo.\nViene eliminato al termine del periodo di scambio.)",
+    "ID": "TICKET_2608000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV45  (Buono carta promo (evento\nbonus Laprasdel Team Rocket))",
+    "ScheduleID": "SC_SH_2608000_01",
+    "SortOrderPriority": 1010,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_06",
+    "DescriptionMSID": "ITEM_DESC_TICKET_DECK  (Si ottiene completando missioni mazzo iniziale ex.\nSi può scambiare nel negozio per ottenere un\nmazzo di 20 carte. Viene eliminato una volta\nterminato il periodo di scambio.)",
+    "ID": "TICKET_DECK_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EV6  (Buono mazzo (evento))",
+    "ScheduleID": "SC_CM_2503010_02",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1  (Buono emblema (Geni Supremi))",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1a  (Buono emblema (L'Isola Misteriosa))",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2   (Buono emblema (Scontro[C:Nbsp ]Spaziotemporale))",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2a  (Buono emblema (Luce Trionfale))",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2b  (Buono emblema (Tripudio[C:Nbsp ]Splendente))",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3  (Buono emblema (Guardiani Astrali))",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A3a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3a  (Buono emblema (Crisi[C:Nbsp ]Ultradimensionale))",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A3b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3b  (Buono emblema (Il Bosco di Eevee))",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A4",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4  (Buono emblema\n(La Via del Cielo e del Mare))",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A4a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4a  (Buono emblema (Sorgenti[C:Nbsp ]Recondite))",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 230,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_A4b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4b  (Buono emblema\n(Busta[C:Nbsp ]Deluxe[C:Nbsp ]ex))",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 250,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1  (Buono emblema\n(Mega Ascesa))",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 280,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1a  (Buono emblema\n(Fiamme Cremisi))",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 340,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2  (Buono emblema\n(Parata Fantasmagorica))",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 390,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2a  (Buono emblema\n(Meraviglie di Paldea))",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 500,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2b  (Buono emblema\n(Mega Splendore))",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Si ottiene completando missioni a tema o missioni\nCardex. Si può scambiare nel negozio per ottenere\nalcuni emblemi.)",
+    "ID": "TICKET_EMBLEM_B3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B3  (Buono emblema\n(Aura Pulsante))",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 570,
+    "Type": 2
+  }
+]

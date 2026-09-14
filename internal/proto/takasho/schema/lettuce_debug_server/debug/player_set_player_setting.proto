@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+import "takasho/schema/lettuce_server/resource/player_settings/agreement_type.proto";
+
+message PlayerSetPlayerSetting {
+  message Types {
+    message Request {
+      message Types {
+        message PlayerSetting {
+          string player_id = 1;
+          takasho.schema.lettuce_server.resource.language.Language language_type = 2;
+          takasho.schema.lettuce_server.resource.player_settings.AgreementType third_party_data_provision = 3;
+          string third_party_data_provision_version = 4;
+          string privacy_policy_version = 5;
+          string terms_of_service_version = 6;
+          string country_region_code = 7;
+          int64 year_num_of_birth = 8;
+          int64 month_num_of_birth = 9;
+          bool use_of_data_in_game_announcements = 10;
+          bool use_of_last_login_time = 11;
+        }
+      }
+      repeated PlayerSetPlayerSetting.Types.Request.Types.PlayerSetting player_settings = 1;
+    }
+    message Response {
+    }
+  }
+}

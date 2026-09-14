@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (Used to reduce the time to get wonder stamina.\nReduces the time to wonder pick by one hour.\nObtainable as mission rewards and so forth.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (Wonder Hourglass)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

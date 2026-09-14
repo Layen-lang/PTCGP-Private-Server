@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_challenge_info.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_contents.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_shared_player.proto";
+
+message SomeoneFeed {
+  string someone_feed_id = 1;
+  FeedContents contents = 2;
+  FeedChallengeInfo challenge_info = 3;
+  string pack_id = 10;
+  FeedSharedPlayer player = 11;
+}

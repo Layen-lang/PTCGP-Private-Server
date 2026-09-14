@@ -1,0 +1,524 @@
+[
+  {
+    "AssetID": "TICKET_ITSUKA",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ITSUKA  (지금은 쓸 수 없는 티켓입니다\n기대해 주세요!)",
+    "ID": "ITSUKA_TICKET",
+    "NameMSID": "ITEM_NAME_TICKET_ITSUKA  (언젠가 쓰일 티켓)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_0002010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV1  (이벤트 숍 티켓(나옹))",
+    "ScheduleID": "SC_SH_0002010_01",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_0002010_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV2  (이벤트 숍 티켓(이상해꽃))",
+    "ScheduleID": "SC_SH_0002010_07",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2408010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV3  (이벤트 숍 티켓(거북왕))",
+    "ScheduleID": "SC_SH_2408010_01",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2409010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV4  (이벤트 숍 티켓(불꽃숭이))",
+    "ScheduleID": "SC_SH_2409010_01",
+    "SortOrderPriority": 70,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2502010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV5  (이벤트 숍 티켓(마나피))",
+    "ScheduleID": "SC_SH_2502010_01",
+    "SortOrderPriority": 90,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2503010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV7  (이벤트 숍 티켓(루카리오))",
+    "ScheduleID": "SC_SH_2503010_01",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2504010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV8  (이벤트 숍 티켓(솔가레오))",
+    "ScheduleID": "SC_SH_2504010_01",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2505010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV9  (이벤트 숍 티켓(울트라네크로즈마))",
+    "ScheduleID": "SC_SH_2505010_01",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2506000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV10  (이벤트 숍 티켓(실버디))",
+    "ScheduleID": "SC_SH_2506000_01",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2507000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV11  (이벤트 숍 티켓(마기라스))",
+    "ScheduleID": "SC_SH_2507000_01",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2508000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV12  (이벤트 숍 티켓(누오))",
+    "ScheduleID": "SC_SH_2508000_01",
+    "SortOrderPriority": 220,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2509000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV15  (이벤트 숍 티켓(오박사))",
+    "ScheduleID": "SC_SH_2509000_01",
+    "SortOrderPriority": 240,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV13  (이벤트 숍 티켓(고라파덕))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 260,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV14  (이벤트 숍 티켓(메가갸라도스))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 270,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_04",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV17  (이벤트 숍 티켓(복각 PROMO 드롭 이벤트 2025))",
+    "ScheduleID": "SC_SH_2510000_09",
+    "SortOrderPriority": 290,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_05",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV16  (이벤트 숍 티켓(복각 PROMO 겟 챌린지 이벤트 2025))",
+    "ScheduleID": "SC_SH_2510000_10",
+    "SortOrderPriority": 300,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_05",
+    "NameMSID": "ITEM_NAME_TICKET_EV22  (프로모 카드 교환 티켓(메가피죤투 ex 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2510000_11",
+    "SortOrderPriority": 310,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_06",
+    "NameMSID": "ITEM_NAME_TICKET_EV23  (프로모 카드 교환 티켓(겟 챌린지 이벤트(고라파덕)))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 320,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2510000_EV_07",
+    "NameMSID": "ITEM_NAME_TICKET_EV24  (프로모 카드 교환 티켓(겟 챌린지 이벤트(메가갸라도스)))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 330,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2512000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV18  (이벤트 숍 티켓(미끄메라))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 400,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2512000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV25  (프로모 카드 교환 티켓(메리프 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2512000_06",
+    "SortOrderPriority": 360,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2512000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV26  (프로모 카드 교환 티켓(메가라티오스 ex 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2512000_05",
+    "SortOrderPriority": 380,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2512000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV27  (프로모 카드 교환 티켓(겟 챌린지 이벤트(미끄메라)))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 370,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2601000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV19  (이벤트 숍 티켓(스트린더))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 350,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2601000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV34  (프로모 카드 교환 티켓(메가요가램 ex 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2601000_03",
+    "SortOrderPriority": 410,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2601000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV35  (프로모 카드 교환 티켓(겟 챌린지 이벤트(스트린더)))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 405,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2602000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV20  (이벤트 숍 티켓(페퍼))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2602000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV29  (프로모 카드 교환 티켓(카르본 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2602000_01",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2602000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV30  (프로모 카드 교환 티켓(겟 챌린지 이벤트(페퍼)))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (숍에서 주변 상품이나 플레이 아이템과\n교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2603000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV28  (이벤트 숍 티켓(메가캥카))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 540,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2603000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV36  (프로모 카드 교환 티켓(야돈 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2603000_01",
+    "SortOrderPriority": 550,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2603000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV37  (프로모 카드 교환 티켓(겟 챌린지 이벤트(메가캥카)))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 560,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2604000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV33  (프로모 카드 교환 티켓(스페셜 드롭 이벤트 2026))",
+    "ScheduleID": "SC_SH_2604000_01",
+    "SortOrderPriority": 590,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2604000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV31  (프로모 카드 교환 티켓(메가헤라크로스 ex 드롭 이벤트)",
+    "ScheduleID": "SC_SH_2604000_02",
+    "SortOrderPriority": 600,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2605000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV41  (프로모 카드 교환 티켓(파라블레이즈 ex 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2605000_01",
+    "SortOrderPriority": 700,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2606000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV43  (프로모 카드 교환 티켓(히스이조로아 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2606000_01",
+    "SortOrderPriority": 800,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2607000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV38  (프로모 카드 교환 티켓(메가헬가 ex 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2607000_01",
+    "SortOrderPriority": 900,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_2608000_EV_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ROCKET  (로켓단의 특별 임무를 달성하면 획득할 수 있습니다\n어딘가에 쓰일 것 같습니다...)",
+    "ID": "TICKET_2608000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV44  (로켓단의 괴상한 티켓)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "SortOrderPriority": 1000,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (숍에서 프로모 카드와 교환할 수 있습니다\n이벤트 미션을 달성하면 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_2608000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV45  (프로모 카드 교환 티켓(로켓단의라프라스 드롭 이벤트))",
+    "ScheduleID": "SC_SH_2608000_01",
+    "SortOrderPriority": 1010,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_06",
+    "DescriptionMSID": "ITEM_DESC_TICKET_DECK  (숍에서 덱(20장 카드)과 교환할 수 있습니다\nex 스타트 덱 미션에서 획득할 수 있습니다\n교환 기간이 지나면 삭제됩니다)",
+    "ID": "TICKET_DECK_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EV6  (덱 티켓(이벤트))",
+    "ScheduleID": "SC_CM_2503010_02",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1  (엠블럼 티켓(최강의 유전자))",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1a  (엠블럼 티켓(환상이 있는 섬))",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2   (엠블럼 티켓(시공의 격투))",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2a  (엠블럼 티켓(초극의 빛))",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2b  (엠블럼 티켓(샤이닝 하이))",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3  (엠블럼 티켓(쌍천의 수호자))",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A3a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3a  (엠블럼 티켓(이차원 크라이시스))",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A3b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3b  (엠블럼 티켓(이브이 가든))",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A4",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4  (엠블럼 티켓(하늘과 바다의 인도))",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A4a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4a  (엠블럼 티켓(미지의 수역))",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 230,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_A4b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4b  (엠블럼 티켓(하이클래스팩 ex))",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 250,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1  (엠블럼 티켓(메가라이징))",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 280,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1a  (엠블럼 티켓(홍련 블레이즈))",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 340,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2  (엠블럼 티켓(몽환 퍼레이드))",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 390,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2a  (엠블럼 티켓(팔데아 원더))",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 500,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2b  (엠블럼 티켓(샤이닝 메가))",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (테마 컬렉션 혹은 도감 미션을 달성하면\n획득할 수 있습니다\n숍에서 특정 엠블럼과 교환할 수 있습니다)",
+    "ID": "TICKET_EMBLEM_B3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B3  (엠블럼 티켓(파동 비트))",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 570,
+    "Type": 2
+  }
+]

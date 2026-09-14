@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_power.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_session.proto";
+
+message TradeAcceptProposalV2 {
+  message Types {
+    message Request {
+      string trade_session_id = 1;
+      takasho.schema.lettuce_server.resource.card.CardInstance trade_submission = 2;
+      takasho.schema.lettuce_server.resource.item.InventoryItems deposit_items = 3;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.trade.TradeSession trade_session = 1;
+      takasho.schema.lettuce_server.resource.player_resources.PlayerResources item_state = 2;
+      takasho.schema.lettuce_server.resource.trade.TradePower trade_power = 3;
+    }
+  }
+}

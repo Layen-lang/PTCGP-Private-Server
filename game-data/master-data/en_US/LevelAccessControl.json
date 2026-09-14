@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (Battles are unlocked after completing part 06 of\nthe battle guide.\n\nYou can see the battle guide by tapping on the\nbutton in the bottom-left of the Battle menu.)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (The Battle menu is unlocked at player level 3.\n\nYou can increase your player level by earning\nplayer EXP. You can do this by opening packs and\nso forth.)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (Display boards are unlocked at player level 4.\n\nYou can increase your player level by earning\nplayer EXP. You can do this by opening packs and\nso forth.)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (Binders are unlocked at player level 6.\n\nYou can increase your player level by earning\nplayer EXP. You can do this by opening packs and\nso forth.)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (Decks are unlocked after completing part 06 of\nthe battle guide.\n\nYou can see the battle guide by tapping on the\nbutton in the bottom-left of the Battle menu.)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (Deck missions are unlocked at player level 3.\n\nYou can increase your player level by earning\nplayer EXP. You can do this by opening packs and\nso forth.)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (Wonder picks are unlocked at player level 2.)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (Trading is unlocked at player level 3.\n\nYou can increase your player level by earning\nplayer EXP. You can do this by opening packs and\nso forth.)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

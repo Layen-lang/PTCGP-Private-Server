@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_battle_records.proto";
+
+message PvpRankListRecentBattleRecordsV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords battle_records = 1;
+    }
+  }
+}

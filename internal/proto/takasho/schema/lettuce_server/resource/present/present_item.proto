@@ -1,0 +1,82 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.present;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto";
+import "takasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto";
+import "takasho/schema/lettuce_server/resource/item/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/item/challenge_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/currency.proto";
+import "takasho/schema/lettuce_server/resource/item/event_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/pack.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/peripheral_goods.proto";
+import "takasho/schema/lettuce_server/resource/item/poke_gold.proto";
+import "takasho/schema/lettuce_server/resource/item/profile_decoration.proto";
+import "takasho/schema/lettuce_server/resource/item/rental_deck.proto";
+import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
+import "takasho/schema/lettuce_server/resource/item/reward_ticket.proto";
+import "takasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_ticket.proto";
+
+message PresentItem {
+  message Types {
+    enum PresentRoute {
+      PRESENT_ROUTE_UNSPECIFIED = 0;
+      PRESENT_ROUTE_GMTOOL_GIFT = 10;
+      PRESENT_ROUTE_GMTOOL_COMPENSATION = 20;
+      PRESENT_ROUTE_COLLECTION_LIKE = 30;
+      PRESENT_ROUTE_FEED_GET_CHALLENGE_THANK = 40;
+      PRESENT_ROUTE_PVP_THANK = 50;
+      PRESENT_ROUTE_SHOP_BONUS = 60;
+      PRESENT_ROUTE_SHOP_PURCHASE = 61;
+      PRESENT_ROUTE_OVERFLOW_MISSION_REWARD = 70;
+      PRESENT_ROUTE_OVERFLOW_SOLO_BATTLE_REWARD = 71;
+      PRESENT_ROUTE_OVERFLOW_PVP_REWARD = 72;
+      PRESENT_ROUTE_TUTORIAL = 80;
+      PRESENT_ROUTE_GIFT_CODE = 90;
+      PRESENT_ROUTE_TRADE_THANK = 100;
+      PRESENT_ROUTE_SOMEDAY_TICKET_FIRST_PLACE = 120;
+      PRESENT_ROUTE_SOMEDAY_TICKET_SECOND_PLACE = 121;
+      PRESENT_ROUTE_SOMEDAY_TICKET_THIRD_PLACE = 122;
+      PRESENT_ROUTE_GIVE_CARD = 130;
+      PRESENT_ROUTE_GIVE_CARD_THANK = 140;
+    }
+    message Sender {
+      string nickname = 1;
+      string icon_id = 2;
+      string player_id = 3;
+    }
+  }
+  string present_id = 1;
+  PresentItem.Types.Sender sender = 100;
+  string message_msid = 101;
+  bool is_empty = 102;
+  PresentItem.Types.PresentRoute present_route = 103;
+  bool is_forever = 200;
+  google.protobuf.Timestamp expired_at = 201;
+  google.protobuf.Timestamp created_at = 300;
+  oneof item {
+    takasho.schema.lettuce_server.resource.item.CardInstance card = 2;
+    takasho.schema.lettuce_server.resource.item.RentalDeck rental_deck = 3;
+    takasho.schema.lettuce_server.resource.item.EventPowerCharger event_power_charger = 4;
+    takasho.schema.lettuce_server.resource.item.Pack pack = 5;
+    takasho.schema.lettuce_server.resource.item.PackPowerCharger pack_power_charger = 6;
+    takasho.schema.lettuce_server.resource.item.ChallengePowerCharger challenge_power_charger = 7;
+    takasho.schema.lettuce_server.resource.item.PeripheralGoods peripheral_goods = 8;
+    takasho.schema.lettuce_server.resource.item.ProfileDecoration profile_decoration = 9;
+    takasho.schema.lettuce_server.resource.item.Currency currency = 10;
+    takasho.schema.lettuce_server.resource.item.PokeGold poke_gold = 11;
+    takasho.schema.lettuce_server.resource.item.RewardTicket reward_ticket = 12;
+    takasho.schema.lettuce_server.resource.item.RevivalClock revival_clock = 13;
+    takasho.schema.lettuce_server.resource.item.ThemeDeckRecipe theme_deck_recipe = 14;
+    takasho.schema.lettuce_server.resource.item.TradePowerCharger trade_power_charger = 15;
+    takasho.schema.lettuce_server.resource.item.TradeItem trade_item = 16;
+    takasho.schema.lettuce_server.resource.card_skin.CardSkinStock card_skin = 17;
+    takasho.schema.lettuce_server.resource.item.TradeTicket trade_ticket = 20;
+    takasho.schema.lettuce_server.resource.card_frame.CardFrameStock card_frame = 21;
+  }
+}

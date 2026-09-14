@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message CardInstance {
+  takasho.schema.lettuce_server.resource.card.CardInstance card_instance = 1;
+  int64 amount = 2;
+}

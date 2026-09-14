@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/store/market.proto";
+
+message PassUnlinkMarket {
+  message Types {
+    message Request {
+      repeated takasho.schema.lettuce_server.resource.store.Market markets = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.store.Market markets = 1;
+      google.protobuf.Timestamp unlinked_at = 2;
+    }
+  }
+}

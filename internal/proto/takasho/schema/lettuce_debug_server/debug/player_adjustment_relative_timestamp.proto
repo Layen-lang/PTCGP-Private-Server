@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PlayerAdjustmentRelativeTimestamp {
+  message Types {
+    message Request {
+      bool enabled = 1;
+      int64 offset_sec = 2;
+    }
+    message Response {
+    }
+  }
+}

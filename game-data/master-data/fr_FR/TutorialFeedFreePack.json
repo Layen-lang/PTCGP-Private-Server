@@ -1,0 +1,47 @@
+[
+  {
+    "ExchangeRouteType": 1,
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "PokemonCardIDs": [
+      "PK_20_000330_00",
+      "PK_10_000330_00",
+      "PK_10_001550_00",
+      "PK_10_001410_00",
+      "PK_10_000380_00"
+    ],
+    "RewardPokemonCardID": "PK_20_000330_00",
+    "TutorialFeedFreePackID": "TUTORIAL_A"
+  },
+  {
+    "ExchangeRouteType": 2,
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "PokemonCardIDs": [
+      "PK_20_000010_00",
+      "PK_10_000010_00",
+      "PK_10_001270_00",
+      "PK_10_001860_00",
+      "PK_10_001310_00"
+    ],
+    "RewardPokemonCardID": "PK_20_000010_00",
+    "TutorialFeedFreePackID": "TUTORIAL_B"
+  },
+  {
+    "ExchangeRouteType": 3,
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "PokemonCardIDs": [
+      "PK_20_000530_00",
+      "PK_10_000530_00",
+      "PK_10_000940_00",
+      "PK_10_001940_00",
+      "PK_10_001140_00"
+    ],
+    "RewardPokemonCardID": "PK_20_000530_00",
+    "TutorialFeedFreePackID": "TUTORIAL_C"
+  }
+]

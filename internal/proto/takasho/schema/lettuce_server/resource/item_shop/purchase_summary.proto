@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item_shop;
+
+message PurchaseSummary {
+  string shop_id = 1;
+  string product_id = 2;
+  int64 purchase_amount = 3;
+}

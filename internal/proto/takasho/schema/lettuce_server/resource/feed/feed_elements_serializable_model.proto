@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_element_card_serializable_model.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_element_substitution_item_serializable_model.proto";
+
+message FeedElementsSerializableModel {
+  repeated FeedElementCardSerializableModel cards = 1;
+  repeated FeedElementSubstitutionItemSerializableModel substitution_items = 2;
+}

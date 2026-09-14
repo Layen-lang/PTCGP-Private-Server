@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/trophy/trophy.proto";
+
+message TrophyCompleteV1 {
+  message Types {
+    message Request {
+      repeated takasho.schema.lettuce_server.resource.trophy.Trophy trophies = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+    }
+  }
+}

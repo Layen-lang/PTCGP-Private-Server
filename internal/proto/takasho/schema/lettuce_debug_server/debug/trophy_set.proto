@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/trophy/trophy.proto";
+
+message TrophySet {
+  message Types {
+    message Request {
+      message Types {
+        message Achievement {
+          takasho.schema.lettuce_server.resource.trophy.Trophy trophy = 1;
+          string player_id = 2;
+        }
+      }
+      repeated TrophySet.Types.Request.Types.Achievement achievements = 1;
+    }
+    message Response {
+    }
+  }
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card;
+
+message UsageStatus {
+  bool is_used_from_album = 1;
+  bool is_used_from_mount = 2;
+  bool is_used_from_deck = 3;
+  bool has_public_collection = 4;
+}

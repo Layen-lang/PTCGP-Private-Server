@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/feed_add_power.proto";
+import "takasho/schema/lettuce_debug_server/debug/feed_challenge_with_options.proto";
+import "takasho/schema/lettuce_debug_server/debug/feed_delete_shared_packs.proto";
+import "takasho/schema/lettuce_debug_server/debug/feed_enable_timeline_renewal.proto";
+import "takasho/schema/lettuce_debug_server/debug/feed_get_card_spec_feed_challenge_pool.proto";
+import "takasho/schema/lettuce_debug_server/debug/feed_renew_timeline_with_options.proto";
+
+service Feed {
+  rpc EnableTimelineRenewal (FeedEnableTimelineRenewal.Types.Request) returns (FeedEnableTimelineRenewal.Types.Response);
+  rpc AddPower (FeedAddPower.Types.Request) returns (FeedAddPower.Types.Response);
+  rpc DeleteSharedPacks (FeedDeleteSharedPacks.Types.Request) returns (FeedDeleteSharedPacks.Types.Response);
+  rpc RenewTimelineWithOptions (FeedRenewTimelineWithOptions.Types.Request) returns (FeedRenewTimelineWithOptions.Types.Response);
+  rpc ChallengeWithOptions (FeedChallengeWithOptions.Types.Request) returns (FeedChallengeWithOptions.Types.Response);
+  rpc GetCardSpecFeedChallengePool (FeedGetCardSpecFeedChallengePool.Types.Request) returns (FeedGetCardSpecFeedChallengePool.Types.Response);
+}

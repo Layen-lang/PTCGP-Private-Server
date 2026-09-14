@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+message TradeSettings {
+  bool enable_trade_all_block = 1;
+}

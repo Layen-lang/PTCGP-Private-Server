@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/trade_create_trade_histories.proto";
+import "takasho/schema/lettuce_debug_server/debug/trade_set_power.proto";
+
+service Trade {
+  rpc SetPower (TradeSetPower.Types.Request) returns (TradeSetPower.Types.Response);
+  rpc CreateTradeHistories (TradeCreateTradeHistories.Types.Request) returns (TradeCreateTradeHistories.Types.Response);
+}

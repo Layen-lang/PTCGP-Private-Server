@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.order;
+
+import "takasho/schema/lettuce_server/resource/item/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/item/pack.proto";
+
+message OrderResources {
+  message Types {
+    message PackStamina {
+      int64 value = 1;
+      int64 value_t = 2;
+    }
+  }
+  repeated takasho.schema.lettuce_server.resource.item.Pack packs = 2;
+  OrderResources.Types.PackStamina pack_stamina = 3;
+  repeated takasho.schema.lettuce_server.resource.item.CardInstance card_instances = 5;
+  string pack_table_id = 6;
+}

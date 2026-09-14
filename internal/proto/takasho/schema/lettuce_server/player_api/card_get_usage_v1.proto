@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/card/usage_status.proto";
+
+message CardGetUsageV1 {
+  message Types {
+    message Request {
+      repeated takasho.schema.lettuce_server.resource.card.CardInstance cards = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.card.UsageStatus card_usage = 1;
+      takasho.schema.lettuce_server.resource.card.UsageStatus card_skin_usage = 2;
+      takasho.schema.lettuce_server.resource.card.UsageStatus card_frame_usage = 3;
+    }
+  }
+}

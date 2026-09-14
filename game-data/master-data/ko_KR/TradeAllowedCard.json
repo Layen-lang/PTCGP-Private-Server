@@ -1,0 +1,1082 @@
+[
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "TRADE_ALLOWED_CARD_A1_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1a"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1a"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1a"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1a"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "TRADE_ALLOWED_CARD_A1a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A1a"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "TRADE_ALLOWED_CARD_A2_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2a"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2a"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2a"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2a"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "TRADE_ALLOWED_CARD_A2a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2a"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2b"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2b"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2b"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2b"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "TRADE_ALLOWED_CARD_A2b_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A2b"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "TRADE_ALLOWED_CARD_A3_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3a"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3a"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3a"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3a"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "TRADE_ALLOWED_CARD_A3a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3a"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3b"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3b"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3b"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3b"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "TRADE_ALLOWED_CARD_A3b_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A3b"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "TRADE_ALLOWED_CARD_A4_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4a"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4a"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4a"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4a"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "TRADE_ALLOWED_CARD_A4a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4a"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4b"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4b"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4b"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4b"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_BeforeB1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "TRADE_ALLOWED_CARD_A4b_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_A4b"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "TRADE_ALLOWED_CARD_B1_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_SAR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_SR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "TRADE_ALLOWED_CARD_B1a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B1a"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "TRADE_ALLOWED_CARD_B2_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "TRADE_ALLOWED_CARD_B2a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2a"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "TRADE_ALLOWED_CARD_B2b_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B2b"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "TRADE_ALLOWED_CARD_B3_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "TRADE_ALLOWED_CARD_B3a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3a"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "TRADE_ALLOWED_CARD_B3b_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B3b"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "TRADE_ALLOWED_CARD_B4_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_AR",
+    "Rarity": 500,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_C",
+    "Rarity": 100,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_R",
+    "Rarity": 300,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_RR",
+    "Rarity": 400,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_S",
+    "Rarity": 830,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_SAR",
+    "Rarity": 600,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_SR",
+    "Rarity": 700,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_SSR",
+    "Rarity": 860,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "TRADE_ALLOWED_CARD_B4a_U",
+    "Rarity": 200,
+    "TradeAllowedGroupID": "TRADE_ALLOWED_GROUP_B4a"
+  }
+]

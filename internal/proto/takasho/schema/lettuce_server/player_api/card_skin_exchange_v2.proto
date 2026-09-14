@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card_exchange/card_exchange_catalog.proto";
+import "takasho/schema/lettuce_server/resource/card_exchange/card_exchange_entry.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message CardSkinExchangeV2 {
+  message Types {
+    message Request {
+      repeated takasho.schema.lettuce_server.resource.card_exchange.CardExchangeEntry entries = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.card_exchange.CardExchangeCatalog exchanged_catalogs = 1;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 2;
+    }
+  }
+}

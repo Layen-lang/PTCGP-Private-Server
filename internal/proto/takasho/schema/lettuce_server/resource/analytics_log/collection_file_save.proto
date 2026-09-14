@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CollectionFileSave {
+  string file_id = 1;
+  string file_cover_id = 4;
+  int64 file_cover_flg = 5;
+  int64 file_public_flg = 6;
+  repeated string cards = 7;
+  string file_name = 8;
+  repeated string hash_tag_ids = 9;
+}

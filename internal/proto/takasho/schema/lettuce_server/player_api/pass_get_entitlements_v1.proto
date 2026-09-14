@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pass/pass_entitlement.proto";
+import "takasho/schema/lettuce_server/resource/pass/pass_entitlement_history.proto";
+
+message PassGetEntitlementsV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.pass.PassEntitlement available_entitlements = 2;
+      repeated takasho.schema.lettuce_server.resource.pass.PassEntitlementHistory histories = 3;
+    }
+  }
+}

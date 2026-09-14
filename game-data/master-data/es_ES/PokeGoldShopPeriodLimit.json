@@ -1,0 +1,37 @@
+[
+  {
+    "LimitID": "3TIMES",
+    "MaxAmount": 3,
+    "PeriodicType": 0
+  },
+  {
+    "LimitID": "3TIMES_MONTH",
+    "MaxAmount": 3,
+    "PeriodicType": 3
+  },
+  {
+    "LimitID": "DAILY",
+    "MaxAmount": 1,
+    "PeriodicType": 1
+  },
+  {
+    "LimitID": "MONTHLY",
+    "MaxAmount": 1,
+    "PeriodicType": 3
+  },
+  {
+    "LimitID": "ONCE",
+    "MaxAmount": 1,
+    "PeriodicType": 0
+  },
+  {
+    "LimitID": "TWICE",
+    "MaxAmount": 2,
+    "PeriodicType": 0
+  },
+  {
+    "LimitID": "WEEKLY",
+    "MaxAmount": 1,
+    "PeriodicType": 2
+  }
+]

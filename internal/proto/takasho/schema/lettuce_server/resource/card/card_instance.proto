@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card;
+
+import "takasho/schema/lettuce_server/resource/card_frame/card_frame.proto";
+import "takasho/schema/lettuce_server/resource/card_skin/card_skin.proto";
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message CardInstance {
+  string card_id = 1;
+  takasho.schema.lettuce_server.resource.language.Language lang = 2;
+  string expansion_id = 3;
+  takasho.schema.lettuce_server.resource.card_skin.CardSkin card_skin = 4;
+  takasho.schema.lettuce_server.resource.card_frame.CardFrame card_frame = 5;
+}

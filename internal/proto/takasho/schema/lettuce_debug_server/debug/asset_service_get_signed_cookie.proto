@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message AssetServiceGetSignedCookie {
+  message Types {
+    message Request {
+    }
+    message Response {
+      string signed_cookie = 1;
+      google.protobuf.Timestamp expire_at = 2;
+      string prefix = 3;
+    }
+  }
+}

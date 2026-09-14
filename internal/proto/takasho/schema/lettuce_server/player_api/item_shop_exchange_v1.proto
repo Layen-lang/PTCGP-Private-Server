@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/item_shop/purchase_summary.proto";
+
+message ItemShopExchangeV1 {
+  message Types {
+    message Request {
+      message Types {
+        message RewardTicketPrice {
+          string id = 1;
+          int32 amount = 2;
+        }
+      }
+      string shop_id = 1;
+      string product_id = 2;
+      string transaction_id = 3;
+      int32 amount = 4;
+      ItemShopExchangeV1.Types.Request.Types.RewardTicketPrice price = 5;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+      takasho.schema.lettuce_server.resource.item_shop.PurchaseSummary purchase_summary = 5;
+    }
+  }
+}

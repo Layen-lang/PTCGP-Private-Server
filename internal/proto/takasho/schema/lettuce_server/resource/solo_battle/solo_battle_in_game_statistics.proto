@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+message SoloBattleInGameStatistics {
+  bool is_concede = 1;
+  int64 turn_num = 2;
+  bool pre = 3;
+  int64 player_point = 4;
+  int64 target_player_point = 5;
+  bool auto_flg = 7;
+}

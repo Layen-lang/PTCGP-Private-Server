@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/card_exchange/card_exchange_catalog.proto";
+
+message CardSkinSyncExchangedCatalogsV1 {
+  message Types {
+    message Request {
+      google.protobuf.Timestamp last_synced_at = 1;
+      string cursor = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.card_exchange.CardExchangeCatalog exchanged_catalogs = 1;
+      string next_cursor = 2;
+      bool has_next = 3;
+      google.protobuf.Timestamp last_modified_at = 4;
+    }
+  }
+}

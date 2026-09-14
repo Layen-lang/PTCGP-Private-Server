@@ -1,0 +1,554 @@
+[
+  {
+    "CategoryID": "SH_CG_EM_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (최강의 유전자)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_9  (환상이 있는 섬)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (시공의 격투)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (초극의 빛)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (샤이닝 하이)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (쌍천의 수호자)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (이차원 크라이시스)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (하늘과 바다의 인도)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (이브이 가든)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (미지의 수역)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (하이클래스팩 ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (메가라이징)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (홍련 블레이즈)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (몽환 퍼레이드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (팔데아 원더)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (샤이닝 메가)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (파동 비트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_13  (ex 스타트 덱)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1030
+  },
+  {
+    "CategoryID": "SH_CG_EV_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_25  (복각 드롭 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_26  (복각 겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1020
+  },
+  {
+    "CategoryID": "SH_CG_EV_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_025",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_026",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_027",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_028",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_029",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_030",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_031",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_032",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_033",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_035",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_036",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_037",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (겟 챌린지 이벤트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_038",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (주변 상품)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_039",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_040",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_041",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_043",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_044",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_30  (레어한 플레이 아이템)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (주변 상품)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (추천)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_PR_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PR_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (주변 상품)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_PR_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (플레이 아이템)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (플레이 아이템)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (주변 상품)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (카드)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_6  (매일 선물)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_CATEGORY_SUB_7  (모래시계)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (최강의 유전자)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_4  (서포트)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_5  (아이템)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (추천)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (시공의 격투)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (초극의 빛)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (샤이닝 하이)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (쌍천의 수호자)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_15  (매월 갱신 모래시계)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_16  (스페셜 숍 티켓)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (이차원 크라이시스)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (하늘과 바다의 인도)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (이브이 가든)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (미지의 수역)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (하이클래스팩 ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (메가라이징)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (홍련 블레이즈)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (몽환 퍼레이드)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (팔데아 원더)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (샤이닝 메가)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (파동 비트)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_31",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (주변 상품)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_1  (스페셜 시리즈)",
+    "SortOrderPriority": 0
+  }
+]

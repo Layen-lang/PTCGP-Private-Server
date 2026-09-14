@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/comeback_player_get_comeback_player_info_v1.proto";
+
+service ComebackPlayer {
+  rpc GetComebackPlayerInfoV1 (ComebackPlayerGetComebackPlayerInfoV1.Types.Request) returns (ComebackPlayerGetComebackPlayerInfoV1.Types.Response);
+}

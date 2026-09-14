@@ -1,0 +1,164 @@
+[
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_Deserted_Island",
+    "ExpansionID": "",
+    "ItemID": "BOARD_101280_Deserted_Island",
+    "ItemType": 9
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_ITSUKA_TICKET_1",
+    "ExpansionID": "",
+    "ItemID": "ITSUKA_TICKET",
+    "ItemType": 12
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_B1_1",
+    "ExpansionID": "",
+    "ItemID": "BN001_0010_00_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_B1_2",
+    "ExpansionID": "",
+    "ItemID": "BN001_0020_00_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_B1_3",
+    "ExpansionID": "",
+    "ItemID": "BN001_0030_00_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 120,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_CHARGER_1",
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4
+  },
+  {
+    "Amount": 36,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_CHARGER_36",
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4
+  },
+  {
+    "Amount": 24,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_CHARGER_A1",
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4
+  },
+  {
+    "Amount": 12,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_PACK_CHARGER_A1a",
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_POKEMONZUKAN_1",
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000060_01",
+    "ItemType": 1
+  },
+  {
+    "Amount": 10000,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_SHINEDUST_A4",
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_SPECIAL_PACK_1",
+    "ExpansionID": "",
+    "ItemID": "AN001_0010_01_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_SPECIAL_PACK_2",
+    "ExpansionID": "",
+    "ItemID": "AN001_0020_01_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 1,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_SPECIAL_PACK_3",
+    "ExpansionID": "",
+    "ItemID": "AN001_0030_01_000",
+    "ItemType": 8
+  },
+  {
+    "Amount": 120,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_TRADE_CHARGER_1",
+    "ExpansionID": "",
+    "ItemID": "TRADE_CHAGER_140010",
+    "ItemType": 16
+  },
+  {
+    "Amount": 500,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_TRADE_ITEM_1",
+    "ExpansionID": "",
+    "ItemID": "TRADE_ITEM_130010",
+    "ItemType": 17
+  },
+  {
+    "Amount": 1000,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_TRADE_ITEM_2",
+    "ExpansionID": "",
+    "ItemID": "TRADE_ITEM_130010",
+    "ItemType": 17
+  },
+  {
+    "Amount": 500,
+    "CardID": "",
+    "CardType": 0,
+    "ContentID": "PR_TRADE_ITEM_3",
+    "ExpansionID": "",
+    "ItemID": "TRADE_ITEM_130010",
+    "ItemType": 17
+  }
+]

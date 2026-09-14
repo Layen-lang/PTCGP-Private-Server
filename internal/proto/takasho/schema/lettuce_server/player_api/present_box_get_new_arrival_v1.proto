@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message PresentBoxGetNewArrivalV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      bool has_new_arrival = 1;
+    }
+  }
+}

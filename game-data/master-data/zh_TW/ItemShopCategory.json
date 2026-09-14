@@ -1,0 +1,554 @@
+[
+  {
+    "CategoryID": "SH_CG_EM_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (最強的基因)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_9  (幻遊島)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (時空激鬥)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (超克之光)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (嗨放異彩)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (雙天之守護者)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (異次元危機)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (天與海的指引)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (伊布花園)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (未知水域)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (高級擴充包ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (超級崛起)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (紅蓮烈焰)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (幻夢遊行)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (帕底亞驚奇)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (超級異彩)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (波導奏動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_13  (ex初階牌組)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1030
+  },
+  {
+    "CategoryID": "SH_CG_EV_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_25  (復刻掉落活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_26  (復刻得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1020
+  },
+  {
+    "CategoryID": "SH_CG_EV_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_025",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_026",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_027",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_028",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_029",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_030",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_031",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_032",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_033",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_035",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_036",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_037",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (得卡挑戰活動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_038",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (周邊物品)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_039",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_040",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_041",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_043",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_044",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_30  (稀有道具)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (周邊物品)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (推薦)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_PR_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PR_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (周邊物品)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_PR_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (道具)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (道具)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (周邊物品)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (卡牌)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_6  (每日禮物)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_CATEGORY_SUB_7  (沙漏)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (最強的基因)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_4  (支援者卡)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_5  (物品卡)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (推薦)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (時空激鬥)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (超克之光)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (嗨放異彩)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (雙天之守護者)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_15  (每月更新：沙漏)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_16  (特別商店券)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (異次元危機)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (天與海的指引)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (伊布花園)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (未知水域)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (高級擴充包ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (超級崛起)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (紅蓮烈焰)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (幻夢遊行)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (帕底亞驚奇)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (超級異彩)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (波導奏動)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_31",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (周邊物品)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_1  (特別系列)",
+    "SortOrderPriority": 0
+  }
+]

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CollectionBoardSave {
+  string board_id = 1;
+  string board_type_id = 4;
+  int64 board_public_flg = 6;
+  repeated string cards = 7;
+  repeated string hash_tag_ids = 8;
+}

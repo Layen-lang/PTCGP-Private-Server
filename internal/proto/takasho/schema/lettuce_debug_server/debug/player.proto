@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/player_adjustment_relative_timestamp.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_adjustment_timestamp.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_create.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_delete.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_delete_baas_user_debug_setting.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_get_last_logged_in.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_set_available.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_set_baas_user_debug_setting.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_set_last_logged_in.proto";
+import "takasho/schema/lettuce_debug_server/debug/player_set_player_setting.proto";
+
+service Player {
+  rpc Create (PlayerCreate.Types.Request) returns (PlayerCreate.Types.Response);
+  rpc Delete (PlayerDelete.Types.Request) returns (PlayerDelete.Types.Response);
+  rpc SetLastLoggedIn (PlayerSetLastLoggedIn.Types.Request) returns (PlayerSetLastLoggedIn.Types.Response);
+  rpc GetLastLoggedIn (PlayerGetLastLoggedIn.Types.Request) returns (PlayerGetLastLoggedIn.Types.Response);
+  rpc SetAvailable (PlayerSetAvailable.Types.Request) returns (PlayerSetAvailable.Types.Response);
+  rpc SetBaasUserDebugSetting (PlayerSetBaasUserDebugSetting.Types.Request) returns (PlayerSetBaasUserDebugSetting.Types.Response);
+  rpc DeleteBaasUserDebugSetting (PlayerDeleteBaasUserDebugSetting.Types.Request) returns (PlayerDeleteBaasUserDebugSetting.Types.Response);
+  rpc SetPlayerSetting (PlayerSetPlayerSetting.Types.Request) returns (PlayerSetPlayerSetting.Types.Response);
+  rpc SetPlayerAdjustmentTimestamp (PlayerAdjustmentTimestamp.Types.Request) returns (PlayerAdjustmentTimestamp.Types.Response);
+  rpc SetPlayerAdjustmentRelativeTimestamp (PlayerAdjustmentRelativeTimestamp.Types.Request) returns (PlayerAdjustmentRelativeTimestamp.Types.Response);
+}

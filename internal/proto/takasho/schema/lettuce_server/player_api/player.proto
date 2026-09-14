@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/player_delete_account_v1.proto";
+import "takasho/schema/lettuce_server/player_api/player_unlink_account_v1.proto";
+
+service Player {
+  rpc DeleteAccountV1 (PlayerDeleteAccountV1.Types.Request) returns (PlayerDeleteAccountV1.Types.Response);
+  rpc UnlinkAccountV1 (PlayerUnlinkAccountV1.Types.Request) returns (PlayerUnlinkAccountV1.Types.Response);
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/thank_reward/route_type.proto";
+
+message ThankRewardSendV1 {
+  message Types {
+    message Request {
+      string target_player_id = 1;
+      takasho.schema.lettuce_server.resource.thank_reward.RouteType route_type = 2;
+    }
+    message Response {
+    }
+  }
+}

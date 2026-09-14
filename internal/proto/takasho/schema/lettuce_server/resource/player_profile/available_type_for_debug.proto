@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+enum AvailableTypeForDebug {
+  AVAILABLE_TYPE_FOR_DEBUG_UNSPECIFIED = 0;
+  AVAILABLE_TYPE_FOR_DEBUG_AVAILABLE = 1;
+  AVAILABLE_TYPE_FOR_DEBUG_SUSPEND = 2;
+  AVAILABLE_TYPE_FOR_DEBUG_UNAVAILABLE_BANNED = 3;
+  AVAILABLE_TYPE_FOR_DEBUG_UNAVAILABLE_DELETED = 4;
+}

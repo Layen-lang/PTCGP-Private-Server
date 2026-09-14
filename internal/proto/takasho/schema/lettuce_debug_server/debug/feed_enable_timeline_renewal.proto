@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message FeedEnableTimelineRenewal {
+  message Types {
+    message Request {
+    }
+    message Response {
+    }
+  }
+}

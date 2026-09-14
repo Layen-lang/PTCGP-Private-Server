@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Objet qui recharge la vitalité échange. Réduit d'une\nheure le temps d'attente pour faire un échange.\nS'obtient en récompense de missions, etc.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Sablier Échange)",
+    "RecoveryDuration": 60
+  }
+]

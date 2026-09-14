@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/trophy_complete_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trophy_get_status_v1.proto";
+
+service Trophy {
+  rpc CompleteV1 (TrophyCompleteV1.Types.Request) returns (TrophyCompleteV1.Types.Response);
+  rpc GetStatusV1 (TrophyGetStatusV1.Types.Request) returns (TrophyGetStatusV1.Types.Response);
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/give_card_execute_v1.proto";
+import "takasho/schema/lettuce_server/player_api/give_card_get_friend_dex_progresses_v1.proto";
+import "takasho/schema/lettuce_server/player_api/give_card_get_friend_dex_registered_cards_v1.proto";
+import "takasho/schema/lettuce_server/player_api/give_card_get_friends_v1.proto";
+import "takasho/schema/lettuce_server/player_api/give_card_get_history_v1.proto";
+
+service GiveCard {
+  rpc GetFriendsV1 (GiveCardGetFriendsV1.Types.Request) returns (GiveCardGetFriendsV1.Types.Response);
+  rpc GetFriendDexRegisteredCardsV1 (GiveCardGetFriendDexRegisteredCardsV1.Types.Request) returns (GiveCardGetFriendDexRegisteredCardsV1.Types.Response);
+  rpc GetFriendDexProgressesV1 (GiveCardGetFriendDexProgressesV1.Types.Request) returns (GiveCardGetFriendDexProgressesV1.Types.Response);
+  rpc ExecuteV1 (GiveCardExecuteV1.Types.Request) returns (GiveCardExecuteV1.Types.Response);
+  rpc GetHistoryV1 (GiveCardGetHistoryV1.Types.Request) returns (GiveCardGetHistoryV1.Types.Response);
+}

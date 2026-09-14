@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/give_card/give_card_history.proto";
+import "takasho/schema/lettuce_server/resource/give_card/give_card_player_profile.proto";
+
+message GiveCardGetFriendsV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.give_card.GiveCardPlayerProfile friends = 100;
+      repeated takasho.schema.lettuce_server.resource.give_card.GiveCardHistory today_given_histories = 200;
+    }
+  }
+}

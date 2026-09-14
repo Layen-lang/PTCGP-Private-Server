@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message PvpCasualBattleServerAuthInfo {
+  string host = 1;
+  int32 port = 2;
+  string auth_token = 3;
+}

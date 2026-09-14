@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message TradeMessage {
+  string trade_message_stance_id = 1;
+  takasho.schema.lettuce_server.resource.language.Language language = 2;
+}

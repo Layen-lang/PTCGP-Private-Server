@@ -1,0 +1,2533 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_1  (Deck Florizarre-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_4  (Deck Dracaufeu-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_7  (Deck Tortank-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_11  (Deck Pikachu-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_13  (Deck Mewtwo-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_16  (Deck Mackogneur-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_19  (Deck Nidoqueen & Nidoking (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_20  (Deck Fossiles de Kanto (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_21  (Deck Auguste (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_22  (Deck Major Bob (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_23  (Deck Pierre (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_24  (Deck Koga (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_26  (Deck Mew-ex (L'Île[C:Nbsp ]Fabuleuse))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_27  (Deck Celebi-ex (L'Île[C:Nbsp ]Fabuleuse))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_28  (Deck Léviator-ex (L'Île[C:Nbsp ]Fabuleuse))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001042",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_29  (Deck Ptéra-ex (L'Île[C:Nbsp ]Fabuleuse))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104318",
+    "MainCardSub1": "100104311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001043",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_30  (Deck Blue & Roucarnage-ex (L'Île[C:Nbsp ]Fabuleuse))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1001044",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_25  (Deck Grodoudou-ex (Puissance[C:Nbsp ]Génétique))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_31  (Deck Yanmega-ex (Choc Spatio[C:Nbh ]Temporel))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_32  (Deck Simiabraz-ex (Choc Spatio[C:Nbh ]Temporel))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_33  (Deck Palkia-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_34  (Deck Cynthia (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_35  (Deck Tanguy (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_36  (Deck Pachirisu-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_37  (Deck Explosion Suprême (Choc Spatio[C:Nbh ]Temporel))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_38  (Deck Magirêve-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_39  (Deck Coudlangue-ex (Choc Spatio[C:Nbh ]Temporel))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_40  (Deck Gallame-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_41  (Deck Dimoret-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_42  (Deck Darkrai-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_43  (Deck Sbire de la Team Galaxie (Choc Spatio[C:Nbh ]Temporel))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_44  (Deck Dialga-ex (Choc Spatio-Temporel))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_45  (Deck Phyllali-ex (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_46  (Deck René\n(Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_47  (Deck Arceus-ex & Heatran (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_48  (Deck Givrali-ex (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_49  (Deck Mythes de Sinnoh (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_50  (Deck Arceus-ex & Raichu (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_51  (Deck Carchacrok-ex (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_52  (Deck Arceus-ex & Nostenfer (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_53  (Deck Tarinorme-ex (Lumière[C:Nbsp ]Triomphale))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_117  (Deck Départ Dardargnan-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_118  (Deck Départ Dracaufeu-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_119  (Deck Départ Triopikeau-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_120  (Deck Départ Pikachu-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_121  (Deck Départ Giratina-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_122  (Deck Départ Lucario-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_123  (Deck Départ Terraistede Paldea-ex[C:Nbsp ](Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002031",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_124  (Deck Départ Forgelina-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (Vous recevrez un deck à thème accessible dans\n« Mes decks », ainsi que ses 20[C:Nbsp ]cartes. Vous ne\npouvez obtenir qu'un seul des neuf Decks Départ-ex.)",
+    "ThemeDeckRecipeID": "1002032",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_125  (Deck Départ Castorno-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203305",
+    "MainCardSub1": "100203311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002033",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_54  (Deck Dardargnan-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203405",
+    "MainCardSub1": "100203408",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002034",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_55  (Deck Dracaufeu-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203509",
+    "MainCardSub1": "100203510",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_56  (Deck Triopikeau-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203601",
+    "MainCardSub1": "100203611",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_57  (Deck Pikachu-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203711",
+    "MainCardSub1": "100203705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_58  (Deck Giratina-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203810",
+    "MainCardSub1": "100203805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002038",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_59  (Deck Lucario-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203906",
+    "MainCardSub1": "100203911",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002039",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_60  (Deck Terraistede Paldea-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204007",
+    "MainCardSub1": "100204011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002040",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_61  (Deck Forgelina-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204109",
+    "MainCardSub1": "100204106",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1002041",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_62  (Deck Castorno-ex (Réjouissances Rayonnantes))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_63  (Deck Archéduc-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_64  (Deck Barbara (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_65  (Deck Félinferno-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_66  (Deck Kiawe (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_67  (Deck Crabominable-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_68  (Deck Néphie (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_69  (Deck Raichud'Alola-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_70  (Deck Chrys (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_71  (Deck Lunala-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_72  (Deck Margie (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_73  (Deck Quartermac-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_74  (Deck Grotadmorvd'Alola-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_75  (Deck Solgaleo-ex (Gardiens[C:Nbsp ]Astraux))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_76  (Deck Mouscoto-ex (Crise Interdimensionnelle))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_77  (Deck Tokorico-ex (Crise Interdimensionnelle))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_78  (Deck Lougaroc-ex (Crise Interdimensionnelle))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_79  (Deck Engloutyran-ex (Crise Interdimensionnelle))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_80  (Deck Triopikeurd'Alola-ex (Crise Interdimensionnelle))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_81  (Deck Pyroli-ex & Évoli-ex (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_82  (Deck Oratoria-ex (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_83  (Deck Nymphali-ex & Évoli-ex (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_84  (Deck Saupoudrage Sucré (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_85  (Deck Dracolosse-ex (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1003024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_86  (Deck Ronflex-ex (La Clairière d'Évoli))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_87  (Deck Caratroc-ex & Méganium (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_88  (Deck Ho-Oh-ex & Entei (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_89  (Deck Hyporoi-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_96  (Deck Léviator (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_90  (Deck Lanturn-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_91  (Deck Mentali-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_92  (Deck Donphan-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_93  (Deck Noctali-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_94  (Deck Airmure-ex & Cizayox (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_95  (Deck Lugia-ex (Sagesse entre Ciel et Mer))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_97  (Deck Cotovol-ex (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_98  (Deck Entei-ex (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_99  (Deck Suicune-ex (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_100  (Deck Raikou-ex (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_101  (Deck Latios & Latias (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_102  (Deck Tartard-ex (Source Secrète))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_103  (Deck Mouscoto-ex & Caratroc-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_104  (Deck Dracaufeu-ex & Sulfura-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_105  (Deck Palkia-ex & Artikodin-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_106  (Deck Pikachu-ex & Raichud'Alola-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_107  (Deck Mewtwo-ex & Mew-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_108  (Deck Lunala-ex & Giratina-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_109  (Deck Lucario-ex & Carchacrok-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_110  (Deck Engloutyran-ex & Nostenfer-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_111  (Deck Arceus-ex & Dialga-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_112  (Deck Solgaleo-ex & Airmure-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_113  (Deck Évoli-ex & Nymphali-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_114  (Deck Lugia-ex & Ho-Oh-ex (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_115  (Deck Fidèles Partenaires (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1004030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_116  (Deck Pikachu & Compagnie (Booster de Luxe[C:Nbsp ]ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_126  (Deck Méga-Scarabrute-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_127  (Deck Méga-Braségali-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_128  (Deck Méga-Léviator-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_129  (Deck Amana (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_130  (Deck Méga-Pharamp-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_131  (Deck Méga-Altaria-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_132  (Deck Kiméra (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_133  (Deck Tygnon-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_134  (Deck Pectorius (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_135  (Deck Méga-Absol-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_136  (Deck Melmetal-ex (Méga[C:Nbh ]Ascension))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_137  (Deck Méga-Florizarre-ex (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_138  (Deck Méga-Dracaufeu Y-ex (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_139  (Deck Méga-Tortank-ex (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_140  (Deck Lem (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_141  (Deck Méga-Lockpin-ex (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1005017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_142  (Deck Méga-Steelix-ex (Embrasement Écarlate))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_143  (Deck OgerponMasque Turquoise-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_144  (Deck Pierroteknik-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_145  (Deck Méga-Laggron-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_146  (Deck Feunardd'Alola-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_147  (Deck Salarsen-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_148  (Deck Méga-Gardevoir-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_149  (Deck Gigalithe-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_150  (Deck Peterson (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_151  (Deck Méga-Mysdibule-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_152  (Deck Méga-Kangourex-ex (Parade Onirique))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_153  (Deck Miascarade-ex (Merveilles de Paldea))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_154  (Deck Carmadura-ex (Merveilles de Paldea))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_155  (Deck Baojian-ex (Merveilles de Paldea))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_156  (Deck Ampibidou-ex (Merveilles de Paldea))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_157  (Deck Gromago-ex (Merveilles de Paldea))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_158  (Deck Méga-Dracaufeu X-ex (Méga[C:Nbh ]Rayonnement))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_159  (Deck Méga-Flagadoss-ex (Méga[C:Nbh ]Rayonnement))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_160  (Deck Méga-Élecsprint-ex (Méga[C:Nbh ]Rayonnement))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_161  (Deck Méga-Ectoplasma-ex (Méga[C:Nbh ]Rayonnement))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_162  (Deck Méga-Cizayox-ex (Méga[C:Nbh ]Rayonnement))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1006021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_187  (Deck d'élite (Méga-Braségali-ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_163  (Deck Méga-Jungko-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_164  (Deck Méga-Camérupt-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_165  (Deck Aquali-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_166  (Deck Magnézone-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_167  (Deck Méga-Lucario-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_168  (Deck Crabaraque-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_169  (Deck Zoroark-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_170  (Deck Corvaillus-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_171  (Deck Libégon-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_172  (Deck Méga-Nanméouïe-ex (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_173  (Deck Tcheren (Aura Palpitante))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_174  (Deck Hotte-de-Fer-ex (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_175  (Deck Miraidon-ex (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_176  (Deck Flotte-Mèche-ex (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_177  (Deck Koraidon-ex (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_178  (Deck Terapagos-ex (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_179  (Deck Ire-Foudre (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_180  (Deck Garde-de-Fer (Propulsion Paradoxe))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_181  (Deck Milobellus-ex (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_182  (Deck Dedenne-ex (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_183  (Deck Méga-Diancie-ex (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_184  (Deck Méga-Ténéfix-ex (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_185  (Deck Zoroarkde Hisui-ex (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_186  (Deck Chiots à Gogo (Jours Heureux))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1007025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_212  (Deck d'élite (Méga-Dracaufeu Y-ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_188  (Deck Apireine-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_189  (Deck Typhlosion-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_190  (Deck Wailord-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_191  (Deck Méga-Sharpedo-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_192  (Deck Motisma-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_193  (Deck Méga-Gallame-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_194  (Deck Hoopa-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_195  (Deck Méga-Métalosse-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_196  (Deck Méga-Rayquaza-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_197  (Deck Lakmécygne-ex (Domination Céleste))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_198  (Deck Sulfura-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_199  (Deck Artikodin-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_200  (Deck Électhor-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_201  (Deck Roigada-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_202  (Deck Smogogo-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_203  (Deck Rattatac-exde la Team Rocket (L'Ambition de la Team Rocket))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "",
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (Un deck à thème pouvant être utilisé lorsque vous\nconsultez vos decks. Vous pouvez créer ce deck et\njouer avec en collectant les cartes qui y sont listées.)",
+    "ThemeDeckRecipeID": "1008025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_213  (Deck d'élite Méga-Lucario-ex)"
+  }
+]

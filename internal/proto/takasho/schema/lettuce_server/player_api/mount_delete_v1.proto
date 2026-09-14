@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message MountDeleteV1 {
+  message Types {
+    message Request {
+      uint64 mount_id = 1;
+    }
+    message Response {
+    }
+  }
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "DescriptionMSID": "WinWithDeckOfColorless_MSID  (ポケモンが無色タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 10,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfGrass_MSID  (ポケモンが草タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 11,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFire_MSID  (ポケモンが炎タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 12,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfWater_MSID  (ポケモンが水タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 13,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfLightning_MSID  (ポケモンが雷タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 14,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPsychic_MSID  (ポケモンが超タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 15,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfFighting_MSID  (ポケモンが闘タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 16,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDarkness_MSID  (ポケモンが悪タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 17,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMetal_MSID  (ポケモンが鋼タイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 18,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfDragon_MSID  (ポケモンがドラゴンタイプのみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 19,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "DealSomeDamageAtOnce_MSID  (1回のワザで相手のポケモンに合計[Num:Int id=\"0\" max_length=\"3\"]ダメージ以上を与える)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 30,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutScored_MSID  (相手に1ポイントも取られずに勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 60,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithoutRetreat_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 61,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 100,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 101,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfRarityLess3_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 102,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess1_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 103,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess2_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 104,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfPokemonRarityLess3_MSID  (ポケモンのカードのレアリティが[Text:Char v=\"DIAMOND\"]と[Text:Char v=\"DIAMOND\"][Text:Char v=\"DIAMOND\"]と[Text:Char v=\"DIAMOND\"][Text:Char v=\"DIAMOND\"][Text:Char v=\"DIAMOND\"]のみのデッキで勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 105,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsTrainer_MSID  (トレーナーズをデッキに入れずに勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 109,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsMegaEvolution_MSID  (メガシンカexをデッキに入れずに勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 120,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfMegaEvolutionCardAtLeastN_MSID  (メガシンカexを[Num:Int id=\"0\" max_length=\"2\"]枚以上デッキに入れて勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 121,
+    "TagParamType": 1
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfCardsIsEx_MSID  (ポケモンexをデッキに入れずに勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 122,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithNoneOfStadium_MSID  (スタジアムをデッキに入れずに勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 123,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionCardAtLeastN_MSID  (「[Mst:ExpansionNameLong id=\"0\"]」のカードを[Num:Int id=\"1\" max_length=\"2\"]枚以上デッキに入れて勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 201,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithDeckOfSpecificExpansionPokemonCardAtLeastN_MSID  (「[Mst:ExpansionNameLong id=\"0\"]」のポケモンのカードを[Num:Int id=\"1\" max_length=\"2\"]枚以上デッキに入れて勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 202,
+    "TagParamType": 2
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn6_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1006,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn8_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1008,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn10_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1010,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn12_MSID  (12回目の番以内に勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1012,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn14_MSID  (14回目の番以内に勝利する)",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1014,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn16_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1016,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn18_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1018,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn20_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1020,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn22_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1022,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn24_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1024,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn26_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1026,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn28_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1028,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "WinWithinTurn30_MSID",
+    "Fixed1": true,
+    "SoloBattleTryMaxKey": 1030,
+    "TagParamType": 0
+  },
+  {
+    "DescriptionMSID": "MaxWinStreakCount_MSID  ([Num:Int id=\"0\" max_length=\"2\"]回連続で勝利する)",
+    "Fixed1": false,
+    "SoloBattleTryMaxKey": 2000,
+    "TagParamType": 0
+  }
+]

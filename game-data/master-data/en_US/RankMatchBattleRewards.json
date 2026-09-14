@@ -1,0 +1,3742 @@
+[
+  {
+    "EmblemID": "EMBLEM_100270_A2b_Beginner_01",
+    "ID": "SEASON_1_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_1_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100280_A2b_Beginner_02",
+    "ID": "SEASON_1_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_1_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100290_A2b_Beginner_03",
+    "ID": "SEASON_1_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_1_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100300_A2b_Beginner_04",
+    "ID": "SEASON_1_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_1_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100150_A2b_Hyper_01",
+    "ID": "SEASON_1_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_1_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100160_A2b_Hyper_02",
+    "ID": "SEASON_1_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_1_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100170_A2b_Hyper_03",
+    "ID": "SEASON_1_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_1_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100180_A2b_Hyper_04",
+    "ID": "SEASON_1_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_1_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100110_A2b_Master_01",
+    "ID": "SEASON_1_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100140_A2b_Master_04",
+    "ID": "SEASON_1_MASTER_1_100",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100130_A2b_Master_03",
+    "ID": "SEASON_1_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100120_A2b_Master_02",
+    "ID": "SEASON_1_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100230_A2b_Monster_01",
+    "ID": "SEASON_1_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_1_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100240_A2b_Monster_02",
+    "ID": "SEASON_1_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_1_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100250_A2b_Monster_03",
+    "ID": "SEASON_1_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_1_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100260_A2b_Monster_04",
+    "ID": "SEASON_1_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_1_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100190_A2b_Super_01",
+    "ID": "SEASON_1_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_1_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100200_A2b_Super_02",
+    "ID": "SEASON_1_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_1_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100210_A2b_Super_03",
+    "ID": "SEASON_1_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_1_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100220_A2b_Super_04",
+    "ID": "SEASON_1_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_1_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100470_A3_Beginner_01",
+    "ID": "SEASON_A3_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A3_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100480_A3_Beginner_02",
+    "ID": "SEASON_A3_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A3_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100490_A3_Beginner_03",
+    "ID": "SEASON_A3_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A3_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100500_A3_Beginner_04",
+    "ID": "SEASON_A3_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A3_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100350_A3_Hyper_01",
+    "ID": "SEASON_A3_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A3_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100360_A3_Hyper_02",
+    "ID": "SEASON_A3_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A3_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100370_A3_Hyper_03",
+    "ID": "SEASON_A3_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A3_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100380_A3_Hyper_04",
+    "ID": "SEASON_A3_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A3_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100310_A3_Master_01",
+    "ID": "SEASON_A3_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100340_A3_Master_04",
+    "ID": "SEASON_A3_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100320_A3_Master_02",
+    "ID": "SEASON_A3_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100330_A3_Master_03",
+    "ID": "SEASON_A3_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100430_A3_Monster_01",
+    "ID": "SEASON_A3_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A3_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100440_A3_Monster_02",
+    "ID": "SEASON_A3_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A3_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100450_A3_Monster_03",
+    "ID": "SEASON_A3_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A3_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100460_A3_Monster_04",
+    "ID": "SEASON_A3_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A3_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100390_A3_Super_01",
+    "ID": "SEASON_A3_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A3_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100400_A3_Super_02",
+    "ID": "SEASON_A3_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A3_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100410_A3_Super_03",
+    "ID": "SEASON_A3_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A3_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100420_A3_Super_04",
+    "ID": "SEASON_A3_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A3_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100670_A3a_Beginner_01",
+    "ID": "SEASON_A3a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A3a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100680_A3a_Beginner_02",
+    "ID": "SEASON_A3a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A3a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100690_A3a_Beginner_03",
+    "ID": "SEASON_A3a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A3a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100700_A3a_Beginner_04",
+    "ID": "SEASON_A3a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A3a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100550_A3a_Hyper_01",
+    "ID": "SEASON_A3a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A3a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100560_A3a_Hyper_02",
+    "ID": "SEASON_A3a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A3a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100570_A3a_Hyper_03",
+    "ID": "SEASON_A3a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A3a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100580_A3a_Hyper_04",
+    "ID": "SEASON_A3a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A3a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100510_A3a_Master_01",
+    "ID": "SEASON_A3a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100540_A3a_Master_04",
+    "ID": "SEASON_A3a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100520_A3a_Master_02",
+    "ID": "SEASON_A3a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100530_A3a_Master_03",
+    "ID": "SEASON_A3a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100630_A3a_Monster_01",
+    "ID": "SEASON_A3a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A3a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100640_A3a_Monster_02",
+    "ID": "SEASON_A3a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A3a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100650_A3a_Monster_03",
+    "ID": "SEASON_A3a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A3a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100660_A3a_Monster_04",
+    "ID": "SEASON_A3a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A3a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100590_A3a_Super_01",
+    "ID": "SEASON_A3a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A3a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100600_A3a_Super_02",
+    "ID": "SEASON_A3a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A3a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100610_A3a_Super_03",
+    "ID": "SEASON_A3a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A3a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100620_A3a_Super_04",
+    "ID": "SEASON_A3a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A3a_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100870_A3b_Beginner_01",
+    "ID": "SEASON_A3b_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A3b_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100880_A3b_Beginner_02",
+    "ID": "SEASON_A3b_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A3b_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100890_A3b_Beginner_03",
+    "ID": "SEASON_A3b_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A3b_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100900_A3b_Beginner_04",
+    "ID": "SEASON_A3b_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A3b_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100750_A3b_Hyper_01",
+    "ID": "SEASON_A3b_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A3b_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100760_A3b_Hyper_02",
+    "ID": "SEASON_A3b_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A3b_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100770_A3b_Hyper_03",
+    "ID": "SEASON_A3b_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A3b_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100780_A3b_Hyper_04",
+    "ID": "SEASON_A3b_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A3b_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100710_A3b_Master_01",
+    "ID": "SEASON_A3b_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100740_A3b_Master_04",
+    "ID": "SEASON_A3b_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100720_A3b_Master_02",
+    "ID": "SEASON_A3b_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100730_A3b_Master_03",
+    "ID": "SEASON_A3b_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100830_A3b_Monster_01",
+    "ID": "SEASON_A3b_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A3b_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100840_A3b_Monster_02",
+    "ID": "SEASON_A3b_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A3b_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100850_A3b_Monster_03",
+    "ID": "SEASON_A3b_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A3b_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100860_A3b_Monster_04",
+    "ID": "SEASON_A3b_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A3b_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100790_A3b_Super_01",
+    "ID": "SEASON_A3b_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A3b_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100800_A3b_Super_02",
+    "ID": "SEASON_A3b_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A3b_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100810_A3b_Super_03",
+    "ID": "SEASON_A3b_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A3b_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100820_A3b_Super_04",
+    "ID": "SEASON_A3b_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A3b_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101070_A4_Beginner_01",
+    "ID": "SEASON_A4_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A4_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101080_A4_Beginner_02",
+    "ID": "SEASON_A4_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A4_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101090_A4_Beginner_03",
+    "ID": "SEASON_A4_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A4_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101100_A4_Beginner_04",
+    "ID": "SEASON_A4_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A4_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100950_A4_Hyper_01",
+    "ID": "SEASON_A4_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A4_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100960_A4_Hyper_02",
+    "ID": "SEASON_A4_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A4_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_100970_A4_Hyper_03",
+    "ID": "SEASON_A4_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A4_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_100980_A4_Hyper_04",
+    "ID": "SEASON_A4_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A4_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100910_A4_Master_01",
+    "ID": "SEASON_A4_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100940_A4_Master_04",
+    "ID": "SEASON_A4_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100920_A4_Master_02",
+    "ID": "SEASON_A4_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_100930_A4_Master_03",
+    "ID": "SEASON_A4_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101030_A4_Monster_01",
+    "ID": "SEASON_A4_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A4_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101040_A4_Monster_02",
+    "ID": "SEASON_A4_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A4_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101050_A4_Monster_03",
+    "ID": "SEASON_A4_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A4_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101060_A4_Monster_04",
+    "ID": "SEASON_A4_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A4_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_100990_A4_Super_01",
+    "ID": "SEASON_A4_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A4_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101000_A4_Super_02",
+    "ID": "SEASON_A4_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A4_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101010_A4_Super_03",
+    "ID": "SEASON_A4_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A4_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101020_A4_Super_04",
+    "ID": "SEASON_A4_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A4_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101270_A4a_Beginner_01",
+    "ID": "SEASON_A4a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A4a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101280_A4a_Beginner_02",
+    "ID": "SEASON_A4a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A4a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101290_A4a_Beginner_03",
+    "ID": "SEASON_A4a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A4a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101300_A4a_Beginner_04",
+    "ID": "SEASON_A4a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A4a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101150_A4a_Hyper_01",
+    "ID": "SEASON_A4a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A4a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101160_A4a_Hyper_02",
+    "ID": "SEASON_A4a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A4a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101170_A4a_Hyper_03",
+    "ID": "SEASON_A4a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A4a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101180_A4a_Hyper_04",
+    "ID": "SEASON_A4a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A4a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101110_A4a_Master_01",
+    "ID": "SEASON_A4a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101140_A4a_Master_04",
+    "ID": "SEASON_A4a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101120_A4a_Master_02",
+    "ID": "SEASON_A4a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101130_A4a_Master_03",
+    "ID": "SEASON_A4a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101230_A4a_Monster_01",
+    "ID": "SEASON_A4a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A4a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101240_A4a_Monster_02",
+    "ID": "SEASON_A4a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A4a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101250_A4a_Monster_03",
+    "ID": "SEASON_A4a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A4a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101260_A4a_Monster_04",
+    "ID": "SEASON_A4a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A4a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101190_A4a_Super_01",
+    "ID": "SEASON_A4a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A4a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101200_A4a_Super_02",
+    "ID": "SEASON_A4a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A4a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101210_A4a_Super_03",
+    "ID": "SEASON_A4a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A4a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101220_A4a_Super_04",
+    "ID": "SEASON_A4a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A4a_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101470_A4b_Beginner_01",
+    "ID": "SEASON_A4b_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_A4b_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101480_A4b_Beginner_02",
+    "ID": "SEASON_A4b_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_A4b_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101490_A4b_Beginner_03",
+    "ID": "SEASON_A4b_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_A4b_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101500_A4b_Beginner_04",
+    "ID": "SEASON_A4b_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_A4b_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101350_A4b_Hyper_01",
+    "ID": "SEASON_A4b_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_A4b_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101360_A4b_Hyper_02",
+    "ID": "SEASON_A4b_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_A4b_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101370_A4b_Hyper_03",
+    "ID": "SEASON_A4b_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_A4b_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101380_A4b_Hyper_04",
+    "ID": "SEASON_A4b_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_A4b_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101310_A4b_Master_01",
+    "ID": "SEASON_A4b_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_A4b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101340_A4b_Master_04",
+    "ID": "SEASON_A4b_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101320_A4b_Master_02",
+    "ID": "SEASON_A4b_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101330_A4b_Master_03",
+    "ID": "SEASON_A4b_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_A4b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101430_A4b_Monster_01",
+    "ID": "SEASON_A4b_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_A4b_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101440_A4b_Monster_02",
+    "ID": "SEASON_A4b_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_A4b_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101450_A4b_Monster_03",
+    "ID": "SEASON_A4b_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_A4b_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101460_A4b_Monster_04",
+    "ID": "SEASON_A4b_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_A4b_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101390_A4b_Super_01",
+    "ID": "SEASON_A4b_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_A4b_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101400_A4b_Super_02",
+    "ID": "SEASON_A4b_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_A4b_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101410_A4b_Super_03",
+    "ID": "SEASON_A4b_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_A4b_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101420_A4b_Super_04",
+    "ID": "SEASON_A4b_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_A4b_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101670_B1_Beginner_01",
+    "ID": "SEASON_B1_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B1_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101680_B1_Beginner_02",
+    "ID": "SEASON_B1_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B1_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101690_B1_Beginner_03",
+    "ID": "SEASON_B1_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B1_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101700_B1_Beginner_04",
+    "ID": "SEASON_B1_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B1_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101550_B1_Hyper_01",
+    "ID": "SEASON_B1_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B1_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101560_B1_Hyper_02",
+    "ID": "SEASON_B1_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B1_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101570_B1_Hyper_03",
+    "ID": "SEASON_B1_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B1_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101580_B1_Hyper_04",
+    "ID": "SEASON_B1_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B1_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101510_B1_Master_01",
+    "ID": "SEASON_B1_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101540_B1_Master_04",
+    "ID": "SEASON_B1_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101520_B1_Master_02",
+    "ID": "SEASON_B1_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101530_B1_Master_03",
+    "ID": "SEASON_B1_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101630_B1_Monster_01",
+    "ID": "SEASON_B1_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B1_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101640_B1_Monster_02",
+    "ID": "SEASON_B1_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B1_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101650_B1_Monster_03",
+    "ID": "SEASON_B1_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B1_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101660_B1_Monster_04",
+    "ID": "SEASON_B1_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B1_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101590_B1_Super_01",
+    "ID": "SEASON_B1_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B1_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101600_B1_Super_02",
+    "ID": "SEASON_B1_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B1_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101610_B1_Super_03",
+    "ID": "SEASON_B1_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B1_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101620_B1_Super_04",
+    "ID": "SEASON_B1_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B1_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102070_B1a_Beginner_01",
+    "ID": "SEASON_B1a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B1a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102080_B1a_Beginner_02",
+    "ID": "SEASON_B1a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B1a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102090_B1a_Beginner_03",
+    "ID": "SEASON_B1a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B1a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102100_B1a_Beginner_04",
+    "ID": "SEASON_B1a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B1a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101950_B1a_Hyper_01",
+    "ID": "SEASON_B1a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B1a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101960_B1a_Hyper_02",
+    "ID": "SEASON_B1a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B1a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101970_B1a_Hyper_03",
+    "ID": "SEASON_B1a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B1a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101980_B1a_Hyper_04",
+    "ID": "SEASON_B1a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B1a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101910_B1a_Master_01",
+    "ID": "SEASON_B1a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B1a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101940_B1a_Master_04",
+    "ID": "SEASON_B1a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101920_B1a_Master_02",
+    "ID": "SEASON_B1a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101930_B1a_Master_03",
+    "ID": "SEASON_B1a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B1a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102030_B1a_Monster_01",
+    "ID": "SEASON_B1a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B1a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102040_B1a_Monster_02",
+    "ID": "SEASON_B1a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B1a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102050_B1a_Monster_03",
+    "ID": "SEASON_B1a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B1a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102060_B1a_Monster_04",
+    "ID": "SEASON_B1a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B1a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101990_B1a_Super_01",
+    "ID": "SEASON_B1a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B1a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102000_B1a_Super_02",
+    "ID": "SEASON_B1a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B1a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102010_B1a_Super_03",
+    "ID": "SEASON_B1a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B1a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102020_B1a_Super_04",
+    "ID": "SEASON_B1a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B1a_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101870_B2_Beginner_01",
+    "ID": "SEASON_B2_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B2_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101880_B2_Beginner_02",
+    "ID": "SEASON_B2_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B2_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101890_B2_Beginner_03",
+    "ID": "SEASON_B2_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B2_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101900_B2_Beginner_04",
+    "ID": "SEASON_B2_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B2_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101750_B2_Hyper_01",
+    "ID": "SEASON_B2_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B2_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101760_B2_Hyper_02",
+    "ID": "SEASON_B2_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B2_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101770_B2_Hyper_03",
+    "ID": "SEASON_B2_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B2_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101780_B2_Hyper_04",
+    "ID": "SEASON_B2_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B2_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101710_B2_Master_01",
+    "ID": "SEASON_B2_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B2_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101740_B2_Master_04",
+    "ID": "SEASON_B2_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101720_B2_Master_02",
+    "ID": "SEASON_B2_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101730_B2_Master_03",
+    "ID": "SEASON_B2_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101830_B2_Monster_01",
+    "ID": "SEASON_B2_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B2_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101840_B2_Monster_02",
+    "ID": "SEASON_B2_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B2_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101850_B2_Monster_03",
+    "ID": "SEASON_B2_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B2_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101860_B2_Monster_04",
+    "ID": "SEASON_B2_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B2_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_101790_B2_Super_01",
+    "ID": "SEASON_B2_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B2_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_101800_B2_Super_02",
+    "ID": "SEASON_B2_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B2_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_101810_B2_Super_03",
+    "ID": "SEASON_B2_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B2_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_101820_B2_Super_04",
+    "ID": "SEASON_B2_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B2_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102270_B2a_Beginner_01",
+    "ID": "SEASON_B2a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B2a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102280_B2a_Beginner_02",
+    "ID": "SEASON_B2a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B2a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102290_B2a_Beginner_03",
+    "ID": "SEASON_B2a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B2a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102300_B2a_Beginner_04",
+    "ID": "SEASON_B2a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B2a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102150_B2a_Hyper_01",
+    "ID": "SEASON_B2a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B2a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102160_B2a_Hyper_02",
+    "ID": "SEASON_B2a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B2a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102170_B2a_Hyper_03",
+    "ID": "SEASON_B2a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B2a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102180_B2a_Hyper_04",
+    "ID": "SEASON_B2a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B2a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102110_B2a_Master_01",
+    "ID": "SEASON_B2a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B2a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102140_B2a_Master_04",
+    "ID": "SEASON_B2a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102120_B2a_Master_02",
+    "ID": "SEASON_B2a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102130_B2a_Master_03",
+    "ID": "SEASON_B2a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102230_B2a_Monster_01",
+    "ID": "SEASON_B2a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B2a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102240_B2a_Monster_02",
+    "ID": "SEASON_B2a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B2a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102250_B2a_Monster_03",
+    "ID": "SEASON_B2a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B2a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102260_B2a_Monster_04",
+    "ID": "SEASON_B2a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B2a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102190_B2a_Super_01",
+    "ID": "SEASON_B2a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B2a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102200_B2a_Super_02",
+    "ID": "SEASON_B2a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B2a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102210_B2a_Super_03",
+    "ID": "SEASON_B2a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B2a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102220_B2a_Super_04",
+    "ID": "SEASON_B2a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B2a_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102470_B2b_Beginner_01",
+    "ID": "SEASON_B2b_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B2b_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102480_B2b_Beginner_02",
+    "ID": "SEASON_B2b_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B2b_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102490_B2b_Beginner_03",
+    "ID": "SEASON_B2b_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B2b_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102500_B2b_Beginner_04",
+    "ID": "SEASON_B2b_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B2b_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102350_B2b_Hyper_01",
+    "ID": "SEASON_B2b_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B2b_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102360_B2b_Hyper_02",
+    "ID": "SEASON_B2b_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B2b_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102370_B2b_Hyper_03",
+    "ID": "SEASON_B2b_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B2b_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102380_B2b_Hyper_04",
+    "ID": "SEASON_B2b_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B2b_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102310_B2b_Master_01",
+    "ID": "SEASON_B2b_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B2b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102340_B2b_Master_04",
+    "ID": "SEASON_B2b_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102320_B2b_Master_02",
+    "ID": "SEASON_B2b_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102330_B2b_Master_03",
+    "ID": "SEASON_B2b_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B2b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102430_B2b_Monster_01",
+    "ID": "SEASON_B2b_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B2b_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102440_B2b_Monster_02",
+    "ID": "SEASON_B2b_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B2b_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102450_B2b_Monster_03",
+    "ID": "SEASON_B2b_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B2b_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102460_B2b_Monster_04",
+    "ID": "SEASON_B2b_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B2b_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102390_B2b_Super_01",
+    "ID": "SEASON_B2b_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B2b_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102400_B2b_Super_02",
+    "ID": "SEASON_B2b_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B2b_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102410_B2b_Super_03",
+    "ID": "SEASON_B2b_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B2b_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102420_B2b_Super_04",
+    "ID": "SEASON_B2b_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B2b_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102670_B3_Beginner_01",
+    "ID": "SEASON_B3_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B3_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102680_B3_Beginner_02",
+    "ID": "SEASON_B3_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B3_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102690_B3_Beginner_03",
+    "ID": "SEASON_B3_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B3_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102700_B3_Beginner_04",
+    "ID": "SEASON_B3_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B3_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102550_B3_Hyper_01",
+    "ID": "SEASON_B3_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B3_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102560_B3_Hyper_02",
+    "ID": "SEASON_B3_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B3_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102570_B3_Hyper_03",
+    "ID": "SEASON_B3_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B3_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102580_B3_Hyper_04",
+    "ID": "SEASON_B3_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B3_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102510_B3_Master_01",
+    "ID": "SEASON_B3_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102540_B3_Master_04",
+    "ID": "SEASON_B3_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102520_B3_Master_02",
+    "ID": "SEASON_B3_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102530_B3_Master_03",
+    "ID": "SEASON_B3_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102630_B3_Monster_01",
+    "ID": "SEASON_B3_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B3_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102640_B3_Monster_02",
+    "ID": "SEASON_B3_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B3_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102650_B3_Monster_03",
+    "ID": "SEASON_B3_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B3_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102660_B3_Monster_04",
+    "ID": "SEASON_B3_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B3_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102590_B3_Super_01",
+    "ID": "SEASON_B3_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B3_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102600_B3_Super_02",
+    "ID": "SEASON_B3_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B3_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102610_B3_Super_03",
+    "ID": "SEASON_B3_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B3_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102620_B3_Super_04",
+    "ID": "SEASON_B3_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B3_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103070_B3a_Beginner_01",
+    "ID": "SEASON_B3a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B3a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103080_B3a_Beginner_02",
+    "ID": "SEASON_B3a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B3a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103090_B3a_Beginner_03",
+    "ID": "SEASON_B3a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B3a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103100_B3a_Beginner_04",
+    "ID": "SEASON_B3a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B3a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102950_B3a_Hyper_01",
+    "ID": "SEASON_B3a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B3a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102960_B3a_Hyper_02",
+    "ID": "SEASON_B3a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B3a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102970_B3a_Hyper_03",
+    "ID": "SEASON_B3a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B3a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102980_B3a_Hyper_04",
+    "ID": "SEASON_B3a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B3a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102910_B3a_Master_01",
+    "ID": "SEASON_B3a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102940_B3a_Master_04",
+    "ID": "SEASON_B3a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102920_B3a_Master_02",
+    "ID": "SEASON_B3a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102930_B3a_Master_03",
+    "ID": "SEASON_B3a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103030_B3a_Monster_01",
+    "ID": "SEASON_B3a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B3a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103040_B3a_Monster_02",
+    "ID": "SEASON_B3a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B3a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103050_B3a_Monster_03",
+    "ID": "SEASON_B3a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B3a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103060_B3a_Monster_04",
+    "ID": "SEASON_B3a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B3a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102990_B3a_Super_01",
+    "ID": "SEASON_B3a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B3a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103000_B3a_Super_02",
+    "ID": "SEASON_B3a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B3a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103010_B3a_Super_03",
+    "ID": "SEASON_B3a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B3a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103020_B3a_Super_04",
+    "ID": "SEASON_B3a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B3a_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102870_B3b_Beginner_01",
+    "ID": "SEASON_B3b_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B3b_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102880_B3b_Beginner_02",
+    "ID": "SEASON_B3b_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B3b_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102890_B3b_Beginner_03",
+    "ID": "SEASON_B3b_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B3b_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102900_B3b_Beginner_04",
+    "ID": "SEASON_B3b_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B3b_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102750_B3b_Hyper_01",
+    "ID": "SEASON_B3b_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B3b_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102760_B3b_Hyper_02",
+    "ID": "SEASON_B3b_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B3b_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102770_B3b_Hyper_03",
+    "ID": "SEASON_B3b_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B3b_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102780_B3b_Hyper_04",
+    "ID": "SEASON_B3b_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B3b_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102710_B3b_Master_01",
+    "ID": "SEASON_B3b_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102740_B3b_Master_04",
+    "ID": "SEASON_B3b_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102720_B3b_Master_02",
+    "ID": "SEASON_B3b_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102730_B3b_Master_03",
+    "ID": "SEASON_B3b_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B3b_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102830_B3b_Monster_01",
+    "ID": "SEASON_B3b_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B3b_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102840_B3b_Monster_02",
+    "ID": "SEASON_B3b_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B3b_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102850_B3b_Monster_03",
+    "ID": "SEASON_B3b_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B3b_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102860_B3b_Monster_04",
+    "ID": "SEASON_B3b_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B3b_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_102790_B3b_Super_01",
+    "ID": "SEASON_B3b_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B3b_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_102800_B3b_Super_02",
+    "ID": "SEASON_B3b_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B3b_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_102810_B3b_Super_03",
+    "ID": "SEASON_B3b_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B3b_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_102820_B3b_Super_04",
+    "ID": "SEASON_B3b_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B3b_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103270_B4_Beginner_01",
+    "ID": "SEASON_B4_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B4_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103280_B4_Beginner_02",
+    "ID": "SEASON_B4_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B4_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103290_B4_Beginner_03",
+    "ID": "SEASON_B4_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B4_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103300_B4_Beginner_04",
+    "ID": "SEASON_B4_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B4_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103150_B4_Hyper_01",
+    "ID": "SEASON_B4_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B4_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103160_B4_Hyper_02",
+    "ID": "SEASON_B4_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B4_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103170_B4_Hyper_03",
+    "ID": "SEASON_B4_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B4_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103180_B4_Hyper_04",
+    "ID": "SEASON_B4_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B4_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103110_B4_Master_01",
+    "ID": "SEASON_B4_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103140_B4_Master_04",
+    "ID": "SEASON_B4_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103120_B4_Master_02",
+    "ID": "SEASON_B4_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103130_B4_Master_03",
+    "ID": "SEASON_B4_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103230_B4_Monster_01",
+    "ID": "SEASON_B4_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B4_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103240_B4_Monster_02",
+    "ID": "SEASON_B4_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B4_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103250_B4_Monster_03",
+    "ID": "SEASON_B4_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B4_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103260_B4_Monster_04",
+    "ID": "SEASON_B4_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B4_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103190_B4_Super_01",
+    "ID": "SEASON_B4_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B4_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103200_B4_Super_02",
+    "ID": "SEASON_B4_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B4_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103210_B4_Super_03",
+    "ID": "SEASON_B4_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B4_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103220_B4_Super_04",
+    "ID": "SEASON_B4_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B4_SUPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103470_B4a_Beginner_01",
+    "ID": "SEASON_B4a_BEGINNER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_10"
+    ],
+    "SeasonRankID": "SEASON_B4a_BEGINNER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103480_B4a_Beginner_02",
+    "ID": "SEASON_B4a_BEGINNER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_15"
+    ],
+    "SeasonRankID": "SEASON_B4a_BEGINNER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103490_B4a_Beginner_03",
+    "ID": "SEASON_B4a_BEGINNER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_20"
+    ],
+    "SeasonRankID": "SEASON_B4a_BEGINNER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103500_B4a_Beginner_04",
+    "ID": "SEASON_B4a_BEGINNER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_25"
+    ],
+    "SeasonRankID": "SEASON_B4a_BEGINNER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103350_B4a_Hyper_01",
+    "ID": "SEASON_B4a_HYPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_75"
+    ],
+    "SeasonRankID": "SEASON_B4a_HYPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103360_B4a_Hyper_02",
+    "ID": "SEASON_B4a_HYPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_80"
+    ],
+    "SeasonRankID": "SEASON_B4a_HYPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103370_B4a_Hyper_03",
+    "ID": "SEASON_B4a_HYPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_85"
+    ],
+    "SeasonRankID": "SEASON_B4a_HYPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103380_B4a_Hyper_04",
+    "ID": "SEASON_B4a_HYPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_90"
+    ],
+    "SeasonRankID": "SEASON_B4a_HYPER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103310_B4a_Master_01",
+    "ID": "SEASON_B4a_MASTER_1",
+    "NameMSID": "RANK_REWARD_MASTER_020  ([Mst:MainRankName id=\"0\" ] (unranked))",
+    "RankingMax": 0,
+    "RankingMin": 10001,
+    "RewardIDs": [
+      "PACK_CHARGER_95"
+    ],
+    "SeasonRankID": "SEASON_B4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103340_B4a_Master_04",
+    "ID": "SEASON_B4a_MASTER_1_1000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 1000,
+    "RankingMin": 1,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103320_B4a_Master_02",
+    "ID": "SEASON_B4a_MASTER_1_10000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 10000,
+    "RankingMin": 5001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103330_B4a_Master_03",
+    "ID": "SEASON_B4a_MASTER_1_5000",
+    "NameMSID": "RANK_REWARD_MASTER_010  ([Mst:MainRankName id=\"0\" ] (#[Num:Int id=\"1\" max_length=\"4\" ]–#[Num:Int id=\"2\" max_length=\"5\" ]))",
+    "RankingMax": 5000,
+    "RankingMin": 1001,
+    "RewardIDs": [
+      "PACK_CHARGER_100"
+    ],
+    "SeasonRankID": "SEASON_B4a_MASTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103430_B4a_Monster_01",
+    "ID": "SEASON_B4a_MONSTER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_30"
+    ],
+    "SeasonRankID": "SEASON_B4a_MONSTER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103440_B4a_Monster_02",
+    "ID": "SEASON_B4a_MONSTER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_35"
+    ],
+    "SeasonRankID": "SEASON_B4a_MONSTER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103450_B4a_Monster_03",
+    "ID": "SEASON_B4a_MONSTER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_40"
+    ],
+    "SeasonRankID": "SEASON_B4a_MONSTER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103460_B4a_Monster_04",
+    "ID": "SEASON_B4a_MONSTER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_45"
+    ],
+    "SeasonRankID": "SEASON_B4a_MONSTER_4"
+  },
+  {
+    "EmblemID": "EMBLEM_103390_B4a_Super_01",
+    "ID": "SEASON_B4a_SUPER_1",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_50"
+    ],
+    "SeasonRankID": "SEASON_B4a_SUPER_1"
+  },
+  {
+    "EmblemID": "EMBLEM_103400_B4a_Super_02",
+    "ID": "SEASON_B4a_SUPER_2",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_55"
+    ],
+    "SeasonRankID": "SEASON_B4a_SUPER_2"
+  },
+  {
+    "EmblemID": "EMBLEM_103410_B4a_Super_03",
+    "ID": "SEASON_B4a_SUPER_3",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_60"
+    ],
+    "SeasonRankID": "SEASON_B4a_SUPER_3"
+  },
+  {
+    "EmblemID": "EMBLEM_103420_B4a_Super_04",
+    "ID": "SEASON_B4a_SUPER_4",
+    "NameMSID": "RANK_REWARD_OTHER  ([Mst:MainRankName id=\"0\" ] [Num:Int id=\"1\" max_length=\"1\" ])",
+    "RankingMax": 0,
+    "RankingMin": 0,
+    "RewardIDs": [
+      "PACK_CHARGER_65"
+    ],
+    "SeasonRankID": "SEASON_B4a_SUPER_4"
+  }
+]

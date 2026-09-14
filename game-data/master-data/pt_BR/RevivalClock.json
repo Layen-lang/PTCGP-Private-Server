@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Usado para restaurar uma Escolha Misteriosa\nque expirou. Um item será usado a cada vez,\njunto com Recarga Misteriosa.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Relógio Regressivo)",
+    "SortOrderPriority": 1
+  }
+]

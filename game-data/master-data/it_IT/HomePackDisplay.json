@@ -1,0 +1,241 @@
+[
+  {
+    "DisplayedPackIDs": [
+      "AN001_0020_00_000",
+      "AN001_0010_00_000",
+      "AN001_0030_00_000"
+    ],
+    "ID": "HOMEPACK_A1",
+    "MainPackID": "AN001_0010_00_000",
+    "ScheduleID": "SC_A1_A1a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN001_0010_00_000",
+      "AN002_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A1a",
+    "MainPackID": "AN002_0010_00_000",
+    "ScheduleID": "SC_A1a_A2"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN002_0010_00_000",
+      "AN003_0010_00_000",
+      "AN003_0020_00_000"
+    ],
+    "ID": "HOMEPACK_A2",
+    "MainPackID": "AN003_0010_00_000",
+    "ScheduleID": "SC_A2_A2a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN002_0010_00_000",
+      "AN004_0010_00_000",
+      "AN003_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A2a",
+    "MainPackID": "AN004_0010_00_000",
+    "ScheduleID": "SC_A2a_A2b"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN003_0010_00_000",
+      "AN005_0010_00_000",
+      "AN004_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A2b",
+    "MainPackID": "AN005_0010_00_000",
+    "ScheduleID": "SC_A2b_A3"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN005_0010_00_000",
+      "AN006_0010_00_000",
+      "AN006_0020_00_000"
+    ],
+    "ID": "HOMEPACK_A3",
+    "MainPackID": "AN006_0010_00_000",
+    "ScheduleID": "SC_A3_A3a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN005_0010_00_000",
+      "AN007_0010_00_000",
+      "AN006_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A3a",
+    "MainPackID": "AN007_0010_00_000",
+    "ScheduleID": "SC_A3a_A3b"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN006_0010_00_000",
+      "AN008_0010_00_000",
+      "AN007_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A3b",
+    "MainPackID": "AN008_0010_00_000",
+    "ScheduleID": "SC_A3b_A4"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN008_0010_00_000",
+      "AN009_0010_00_000",
+      "AN009_0020_00_000"
+    ],
+    "ID": "HOMEPACK_A4",
+    "MainPackID": "AN009_0010_00_000",
+    "ScheduleID": "SC_A4_A4a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN008_0010_00_000",
+      "AN010_0010_00_000",
+      "AN009_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A4a",
+    "MainPackID": "AN010_0010_00_000",
+    "ScheduleID": "SC_A4a_A4b"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN009_0010_00_000",
+      "AN011_0010_00_000",
+      "AN010_0010_00_000"
+    ],
+    "ID": "HOMEPACK_A4b",
+    "MainPackID": "AN011_0010_00_000",
+    "ScheduleID": "SC_A4b_B1"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN001_0020_00_000",
+      "BN001_0010_00_000",
+      "BN001_0030_00_000"
+    ],
+    "ID": "HOMEPACK_B1",
+    "MainPackID": "BN001_0010_00_000",
+    "ScheduleID": "SC_B1_B1a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN010_0010_00_000",
+      "BN002_0010_00_000",
+      "BN001_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B1a_01",
+    "MainPackID": "BN002_0010_00_000",
+    "ScheduleID": "SC_PC_2512000_02"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN011_0010_00_000",
+      "BN002_0010_00_000",
+      "BN001_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B1a_02",
+    "MainPackID": "BN002_0010_00_000",
+    "ScheduleID": "SC_PC_2512000_01"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN001_0010_00_000",
+      "BN003_0010_00_000",
+      "BN002_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B2",
+    "MainPackID": "BN003_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN002_0010_00_000",
+      "BN004_0010_00_000",
+      "BN003_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B2a",
+    "MainPackID": "BN004_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN003_0010_00_000",
+      "BN005_0010_00_000",
+      "BN004_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B2b",
+    "MainPackID": "BN005_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN004_0010_00_000",
+      "BN006_0010_00_000",
+      "BN005_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B3",
+    "MainPackID": "BN006_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN005_0010_00_000",
+      "BN007_0010_00_000",
+      "BN006_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B3a",
+    "MainPackID": "BN007_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN006_0010_00_000",
+      "BN008_0010_00_000",
+      "BN007_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B3b",
+    "MainPackID": "BN008_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN007_0010_00_000",
+      "BN009_0010_00_000",
+      "BN008_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B4",
+    "MainPackID": "BN009_0010_00_000",
+    "ScheduleID": "SC_PC_2607000_01"
+  },
+  {
+    "DisplayedPackIDs": [
+      "AN011_0010_00_000",
+      "BN009_0010_00_000",
+      "BN008_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B4_01",
+    "MainPackID": "BN009_0010_00_000",
+    "ScheduleID": "SC_PC_2607000_02"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN007_0010_00_000",
+      "BN009_0010_00_000",
+      "BN008_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B4_02",
+    "MainPackID": "BN009_0010_00_000",
+    "ScheduleID": "SC_PC_2607000_03"
+  },
+  {
+    "DisplayedPackIDs": [
+      "BN008_0010_00_000",
+      "BN010_0010_00_000",
+      "BN009_0010_00_000"
+    ],
+    "ID": "HOMEPACK_B4a",
+    "MainPackID": "BN010_0010_00_000",
+    "ScheduleID": "SC_PACK_RELEASE_B4a_B4b"
+  }
+]

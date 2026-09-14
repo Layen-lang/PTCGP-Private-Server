@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "AvailableSlotNum",
+    "Key": 2,
+    "ValueInt64": 20,
+    "ValueString": ""
+  },
+  {
+    "Id": "DeckSlotNum",
+    "Key": 0,
+    "ValueInt64": 30,
+    "ValueString": ""
+  },
+  {
+    "Id": "DefaultCoinSkinID",
+    "Key": 6,
+    "ValueInt64": 0,
+    "ValueString": "COIN_100160_MONSTERBALL"
+  },
+  {
+    "Id": "DefaultDeckShieldID",
+    "Key": 5,
+    "ValueInt64": 0,
+    "ValueString": ""
+  },
+  {
+    "Id": "DefaultMaxDeckNum",
+    "Key": 1,
+    "ValueInt64": 25,
+    "ValueString": ""
+  },
+  {
+    "Id": "DefaultPlayMatID",
+    "Key": 7,
+    "ValueInt64": 0,
+    "ValueString": ""
+  },
+  {
+    "Id": "MaxEnergyNum",
+    "Key": 3,
+    "ValueInt64": 3,
+    "ValueString": ""
+  },
+  {
+    "Id": "MaxSameCharacterCardNum",
+    "Key": 4,
+    "ValueInt64": 2,
+    "ValueString": ""
+  }
+]

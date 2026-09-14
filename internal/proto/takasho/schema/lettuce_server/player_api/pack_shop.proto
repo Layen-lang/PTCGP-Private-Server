@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pack_shop_exchange_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pack_shop_purchase_v2.proto";
+
+service PackShop {
+  rpc PurchaseV2 (PackShopPurchaseV2.Types.Request) returns (PackShopPurchaseV2.Types.Response);
+  rpc ExchangeV1 (PackShopExchangeV1.Types.Request) returns (PackShopExchangeV1.Types.Response);
+}

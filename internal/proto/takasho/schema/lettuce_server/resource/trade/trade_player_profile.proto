@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message TradePlayerProfile {
+  message Types {
+    enum TradeStatus {
+      TRADE_STATUS_UNSPECIFIED = 0;
+      TRADE_STATUS_CAN_TRADE = 1;
+      TRADE_STATUS_BLOCKED = 2;
+      TRADE_STATUS_TRADING = 3;
+      TRADE_STATUS_FEATURE_LOCKED = 4;
+      TRADE_STATUS_BANNED = 5;
+    }
+  }
+  takasho.schema.lettuce_server.resource.player_profile.ProfileSpine profile = 1;
+  bool can_trade = 2;
+  TradePlayerProfile.Types.TradeStatus status = 3;
+  repeated string desired_card_ids = 4;
+}

@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/date/date.proto";
+
+message MissionAddBulkActions {
+  message Types {
+    message Request {
+      message Types {
+        message BulkAction {
+          takasho.schema.lettuce_server.resource.date.Date date = 1;
+          int64 add_num = 2;
+        }
+      }
+      repeated MissionAddBulkActions.Types.Request.Types.BulkAction bulk_actions = 1;
+    }
+    message Response {
+    }
+  }
+}

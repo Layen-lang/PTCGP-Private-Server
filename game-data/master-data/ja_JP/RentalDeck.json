@@ -1,0 +1,2968 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_1  (フシギバナexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_2  (リザードンexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_3  (カメックスexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_4  (ピカチュウexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_5  (ミュウツーexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_6  (カイリキーexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_7  (ニドクイン＆ニドキングデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_8  (カントーの化石デッキ(最強の遺伝子))",
+    "SortOrderPriority": 1070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_9  (カツラデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_10  (マチスデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_11  (タケシデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_12  (キョウデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001035",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_14  (ミュウexデッキ(幻のいる島))",
+    "SortOrderPriority": 1120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001036",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_15  (セレビィexデッキ(幻のいる島))",
+    "SortOrderPriority": 1130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001037",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_16  (ギャラドスexデッキ(幻のいる島))",
+    "SortOrderPriority": 1140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001042",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_17  (プテラexデッキ(幻のいる島))",
+    "SortOrderPriority": 1150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104318",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001043",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_18  (グリーン＆ピジョットexデッキ(幻のいる島))",
+    "SortOrderPriority": 1160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1001044",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_13  (プクリンexデッキ(最強の遺伝子))",
+    "SortOrderPriority": 1115,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_19  (メガヤンマexデッキ(時空の激闘))",
+    "SortOrderPriority": 1180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_20  (ゴウカザルexデッキ(時空の激闘))",
+    "SortOrderPriority": 1190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_21  (パルキアexデッキ(時空の激闘))",
+    "SortOrderPriority": 1200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_22  (シロナデッキ(時空の激闘))",
+    "SortOrderPriority": 1210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_23  (デンジデッキ(時空の激闘))",
+    "SortOrderPriority": 1220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_24  (パチリスexデッキ(時空の激闘))",
+    "SortOrderPriority": 1230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_25  (ゴッドブラストデッキ(時空の激闘))",
+    "SortOrderPriority": 1240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_26  (ムウマージexデッキ(時空の激闘))",
+    "SortOrderPriority": 1250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_27  (ベロベルトexデッキ(時空の激闘))",
+    "SortOrderPriority": 1260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_28  (エルレイドexデッキ(時空の激闘))",
+    "SortOrderPriority": 1270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_29  (マニューラexデッキ(時空の激闘))",
+    "SortOrderPriority": 1280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_30  (ダークライexデッキ(時空の激闘))",
+    "SortOrderPriority": 1290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_31  (ギンガ団のしたっぱデッキ(時空の激闘))",
+    "SortOrderPriority": 1300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_32  (ディアルガexデッキ(時空の激闘))",
+    "SortOrderPriority": 1310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_33  (リーフィアexデッキ(超克の光))",
+    "SortOrderPriority": 1320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_34  (ジュンデッキ(超克の光))",
+    "SortOrderPriority": 1330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_35  (アルセウスex＆ヒードランデッキ(超克の光))",
+    "SortOrderPriority": 1340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_36  (グレイシアexデッキ(超克の光))",
+    "SortOrderPriority": 1350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_37  (シンオウ神話デッキ(超克の光))",
+    "SortOrderPriority": 1360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_38  (アルセウスex＆ライチュウデッキ(超克の光))",
+    "SortOrderPriority": 1370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_39  (ガブリアスexデッキ(超克の光))",
+    "SortOrderPriority": 1380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_40  (アルセウスex＆クロバットデッキ(超克の光))",
+    "SortOrderPriority": 1390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_41  (ダイノーズexデッキ(超克の光))",
+    "SortOrderPriority": 1400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_42  (スピアーexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1410,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_43  (リザードンexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_44  (ウミトリオexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_45  (ピカチュウexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_46  (ギラティナexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_47  (ルカリオexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_48  (パルデアドオーexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002031",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_49  (デカヌチャンexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1002032",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_50  (ビーダルexデッキ(シャイニングハイ))",
+    "SortOrderPriority": 1490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_51  (ジュナイパーexデッキ(双天の守護者))",
+    "SortOrderPriority": 1500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_52  (マオデッキ(双天の守護者))",
+    "SortOrderPriority": 1510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_53  (ガオガエンexデッキ(双天の守護者))",
+    "SortOrderPriority": 1520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_54  (カキデッキ(双天の守護者))",
+    "SortOrderPriority": 1530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_55  (ケケンカニexデッキ(双天の守護者))",
+    "SortOrderPriority": 1540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_56  (スイレンデッキ(双天の守護者))",
+    "SortOrderPriority": 1550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_57  (アローラライチュウexデッキ(双天の守護者))",
+    "SortOrderPriority": 1560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_58  (マーマネデッキ(双天の守護者))",
+    "SortOrderPriority": 1570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_59  (ルナアーラexデッキ(双天の守護者))",
+    "SortOrderPriority": 1580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_60  (アセロラデッキ(双天の守護者))",
+    "SortOrderPriority": 1590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_61  (ナゲツケサルexデッキ(双天の守護者))",
+    "SortOrderPriority": 1600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_62  (アローラベトベトンexデッキ(双天の守護者))",
+    "SortOrderPriority": 1610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_63  (ソルガレオexデッキ(双天の守護者))",
+    "SortOrderPriority": 1620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_64  (マッシブーンexデッキ(異次元クライシス))",
+    "SortOrderPriority": 1630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_65  (カプ・コケコexデッキ(異次元クライシス))",
+    "SortOrderPriority": 1640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_66  (ルガルガンexデッキ(異次元クライシス))",
+    "SortOrderPriority": 1650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_67  (アクジキングexデッキ(異次元クライシス))",
+    "SortOrderPriority": 1660,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_68  (アローラダグトリオexデッキ(異次元クライシス))",
+    "SortOrderPriority": 1670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_69  (ブースターex＆イーブイexデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_70  (アシレーヌexデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_71  (ニンフィアex＆イーブイexデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_72  (スイーツリレーデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_73  (カイリューexデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1003024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_74  (カビゴンexデッキ(イーブイガーデン))",
+    "SortOrderPriority": 1730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_75  (ツボツボex＆メガニウムデッキ(空と海の導き))",
+    "SortOrderPriority": 1740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_76  (ホウオウex＆エンテイデッキ(空と海の導き))",
+    "SortOrderPriority": 1750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_77  (キングドラexデッキ(空と海の導き))",
+    "SortOrderPriority": 1760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_84  (ギャラドスデッキ(空と海の導き))",
+    "SortOrderPriority": 1770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_78  (ランターンexデッキ(空と海の導き))",
+    "SortOrderPriority": 1780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_79  (エーフィexデッキ(空と海の導き))",
+    "SortOrderPriority": 1790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_80  (ドンファンexデッキ(空と海の導き))",
+    "SortOrderPriority": 1800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_81  (ブラッキーexデッキ(空と海の導き))",
+    "SortOrderPriority": 1810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_82  (エアームドex＆ハッサムデッキ(空と海の導き))",
+    "SortOrderPriority": 1820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_83  (ルギアexデッキ(空と海の導き))",
+    "SortOrderPriority": 1830,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_85  (ワタッコexデッキ(未知なる水域))",
+    "SortOrderPriority": 1840,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_86  (エンテイexデッキ(未知なる水域))",
+    "SortOrderPriority": 1850,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_87  (スイクンexデッキ(未知なる水域))",
+    "SortOrderPriority": 1860,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_88  (ライコウexデッキ(未知なる水域))",
+    "SortOrderPriority": 1870,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_89  (ラティオス＆ラティアスデッキ(未知なる水域))",
+    "SortOrderPriority": 1880,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_90  (ニョロボンexデッキ(未知なる水域))",
+    "SortOrderPriority": 1890,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_91  (マッシブーンex＆ツボツボexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1900,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_92  (リザードンex＆ファイヤーexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1910,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_93  (パルキアex＆フリーザーexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1920,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_94  (ピカチュウex＆アローラライチュウexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1930,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_95  (ミュウツーex＆ミュウexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1940,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_96  (ルナアーラex＆ギラティナexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1950,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_97  (ルカリオex＆ガブリアスexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1960,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_98  (アクジキングex＆クロバットexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1970,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_99  (アルセウスex＆ディアルガexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1980,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_100  (ソルガレオex＆エアームドexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 1990,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_101  (イーブイex＆ニンフィアexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 2000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_102  (ルギアex＆ホウオウexデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 2010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_103  (最高のパートナーデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 2020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1004030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_104  (ピカチュウとなかまたちデッキ(ハイクラスパック ex))",
+    "SortOrderPriority": 2030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_105  (メガカイロスexデッキ(メガライジング))",
+    "SortOrderPriority": 2040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_106  (メガバシャーモexデッキ(メガライジング))",
+    "SortOrderPriority": 2050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_107  (メガギャラドスexデッキ(メガライジング))",
+    "SortOrderPriority": 2060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_108  (シズイデッキ(メガライジング))",
+    "SortOrderPriority": 2070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_109  (メガデンリュウexデッキ(メガライジング))",
+    "SortOrderPriority": 2080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_110  (メガチルタリスexデッキ(メガライジング))",
+    "SortOrderPriority": 2090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_111  (メリッサデッキ(メガライジング))",
+    "SortOrderPriority": 2100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_112  (エビワラーexデッキ(メガライジング))",
+    "SortOrderPriority": 2110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_113  (ハラデッキ(メガライジング))",
+    "SortOrderPriority": 2120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_114  (メガアブソルexデッキ(メガライジング))",
+    "SortOrderPriority": 2130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_115  (メルメタルexデッキ(メガライジング))",
+    "SortOrderPriority": 2140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_116  (メガフシギバナexデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_117  (メガリザードンYexデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_118  (メガカメックスexデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2170,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_119  (シトロンデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_120  (メガミミロップexデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1005017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_121  (メガハガネールexデッキ(紅蓮ブレイズ))",
+    "SortOrderPriority": 2200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_122  (オーガポンみどりのめんexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_123  (ズガドーンexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_124  (メガラグラージexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_125  (アローラキュウコンexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_126  (ストリンダーexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_127  (メガサーナイトexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_128  (ギガイアスexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_129  (ネズデッキ(夢幻パレード))",
+    "SortOrderPriority": 2280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_130  (メガクチートexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_131  (メガガルーラexデッキ(夢幻パレード))",
+    "SortOrderPriority": 2300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_132  (マスカーニャexデッキ(パルデアワンダー))",
+    "SortOrderPriority": 2310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_133  (グレンアルマexデッキ(パルデアワンダー))",
+    "SortOrderPriority": 2320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_134  (パオジアンexデッキ(パルデアワンダー))",
+    "SortOrderPriority": 2330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_135  (ハラバリーexデッキ(パルデアワンダー))",
+    "SortOrderPriority": 2340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_136  (サーフゴーexデッキ(パルデアワンダー))",
+    "SortOrderPriority": 2350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_137  (メガリザードンXexデッキ(シャイニングメガ))",
+    "SortOrderPriority": 2360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_138  (メガヤドランexデッキ(シャイニングメガ))",
+    "SortOrderPriority": 2370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_139  (メガライボルトexデッキ(シャイニングメガ))",
+    "SortOrderPriority": 2380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_140  (メガゲンガーexデッキ(シャイニングメガ))",
+    "SortOrderPriority": 2390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_141  (メガハッサムexデッキ(シャイニングメガ))",
+    "SortOrderPriority": 2400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1006021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_166  (エリートデッキ(メガバシャーモex))",
+    "SortOrderPriority": 10,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_142  (メガジュカインexデッキ(波動ビート))",
+    "SortOrderPriority": 2420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_143  (メガバクーダexデッキ(波動ビート))",
+    "SortOrderPriority": 2430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_144  (シャワーズexデッキ(波動ビート))",
+    "SortOrderPriority": 2440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_145  (ジバコイルexデッキ(波動ビート))",
+    "SortOrderPriority": 2450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_146  (メガルカリオexデッキ(波動ビート))",
+    "SortOrderPriority": 2460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_147  (イワパレスexデッキ(波動ビート))",
+    "SortOrderPriority": 2470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_148  (ゾロアークexデッキ(波動ビート))",
+    "SortOrderPriority": 2480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_149  (アーマーガアexデッキ(波動ビート))",
+    "SortOrderPriority": 2490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_150  (フライゴンexデッキ(波動ビート))",
+    "SortOrderPriority": 2500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_151  (メガタブンネexデッキ(波動ビート))",
+    "SortOrderPriority": 2510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_152  (チェレンデッキ(波動ビート))",
+    "SortOrderPriority": 2520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_153  (テツノツツミexデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_154  (ミライドンexデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_155  (ハバタクカミexデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_156  (コライドンexデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_157  (テラパゴスexデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_158  (タケルライコデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_159  (テツノブジンデッキ(進撃パラドックス))",
+    "SortOrderPriority": 2590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_160  (ミロカロスexデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_161  (デデンネexデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_162  (メガディアンシーexデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_163  (メガヤミラミexデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_164  (ヒスイゾロアークexデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_165  (こいぬまみれデッキ(ミラクルデイズ))",
+    "SortOrderPriority": 2650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1007025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_191  (エリートデッキ(メガリザードンYex))",
+    "SortOrderPriority": 20,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_167  (ビークインexデッキ(天空の支配者))",
+    "SortOrderPriority": 2670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_168  (バクフーンexデッキ(天空の支配者))",
+    "SortOrderPriority": 2680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_169  (ホエルオーexデッキ(天空の支配者))",
+    "SortOrderPriority": 2690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_170  (メガサメハダーexデッキ(天空の支配者))",
+    "SortOrderPriority": 2700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_171  (ロトムexデッキ(天空の支配者))",
+    "SortOrderPriority": 2710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_172  (メガエルレイドexデッキ(天空の支配者))",
+    "SortOrderPriority": 2720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_173  (フーパexデッキ(天空の支配者))",
+    "SortOrderPriority": 2730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_174  (メガメタグロスexデッキ(天空の支配者))",
+    "SortOrderPriority": 2740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_175  (メガレックウザexデッキ(天空の支配者))",
+    "SortOrderPriority": 2750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_176  (スワンナexデッキ(天空の支配者))",
+    "SortOrderPriority": 2760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_177  (ロケット団のファイヤーexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_178  (ロケット団のフリーザーexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_179  (ロケット団のサンダーexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_180  (ロケット団のヤドキングexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_181  (ロケット団のマタドガスexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_182  (ロケット団のラッタexデッキ(ロケット団の野望))",
+    "SortOrderPriority": 2820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (バトルで使えるレンタルデッキです\nデッキに含まれるカードを所持していなくても\nバトルで使用できます)",
+    "RentalDeckID": "1008025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_192  (エリートデッキ(メガルカリオex))",
+    "SortOrderPriority": 30,
+    "UsableLimitCount": 10
+  }
+]

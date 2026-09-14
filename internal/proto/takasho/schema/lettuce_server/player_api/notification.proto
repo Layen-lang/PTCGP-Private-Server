@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/notification_get_settings_v1.proto";
+import "takasho/schema/lettuce_server/player_api/notification_save_settings_v1.proto";
+
+service Notification {
+  rpc GetSettingsV1 (NotificationGetSettingsV1.Types.Request) returns (NotificationGetSettingsV1.Types.Response);
+  rpc SaveSettingsV1 (NotificationSaveSettingsV1.Types.Request) returns (NotificationSaveSettingsV1.Types.Response);
+}

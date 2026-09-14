@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
+
+message TradeDeposit {
+  int64 power_amount = 5;
+  takasho.schema.lettuce_server.resource.item.TradeItem trade_item = 6;
+  takasho.schema.lettuce_server.resource.item.InventoryItems items = 7;
+}

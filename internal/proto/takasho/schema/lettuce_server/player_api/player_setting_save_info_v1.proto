@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+import "takasho/schema/lettuce_server/resource/player_settings/info.proto";
+
+message PlayerSettingSaveInfoV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.language.Language language_type = 1;
+      string country_region_code = 3;
+      bool use_of_last_login_time = 5;
+      bool use_of_login_data = 7;
+      bool use_of_performance_errors = 8;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.player_settings.Info info = 1;
+    }
+  }
+}

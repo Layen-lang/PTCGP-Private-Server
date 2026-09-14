@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack_shop;
+
+message ProductProduce {
+  message Types {
+    enum ProductProduceType {
+      PRODUCT_PRODUCE_TYPE_UNSPECIFIED = 0;
+      PRODUCT_PRODUCE_TYPE_CARD = 1;
+      PRODUCT_PRODUCE_TYPE_PACK = 2;
+      PRODUCT_PRODUCE_TYPE_PACK_STAMINA_CHARGER = 3;
+    }
+  }
+  ProductProduce.Types.ProductProduceType type = 1;
+  string id = 2;
+  uint64 amount = 3;
+}

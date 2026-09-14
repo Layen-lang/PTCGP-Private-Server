@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/webview_set_last_viewed.proto";
+
+service Webview {
+  rpc SetLastViewed (WebviewSetLastViewed.Types.Request) returns (WebviewSetLastViewed.Types.Response);
+}

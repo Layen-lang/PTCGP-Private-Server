@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message GMToolLogEmit {
+  message Types {
+    message Request {
+      message Types {
+        enum GMToolLogType {
+          GM_TOOL_LOG_TYPE_UNSPECIFIED = 0;
+          GM_TOOL_LOG_TYPE_BRIGHT_SAND_ACQUIRED = 1;
+          GM_TOOL_LOG_TYPE_BRIGHT_SAND_CONSUMED = 2;
+        }
+      }
+      string player_id = 1;
+      GMToolLogEmit.Types.Request.Types.GMToolLogType type = 2;
+      string value = 3;
+    }
+    message Response {
+    }
+  }
+}

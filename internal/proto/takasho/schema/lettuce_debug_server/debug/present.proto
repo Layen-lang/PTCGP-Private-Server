@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/present_create.proto";
+
+service Present {
+  rpc Create (PresentCreate.Types.Request) returns (PresentCreate.Types.Response);
+}

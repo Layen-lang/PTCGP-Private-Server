@@ -1,0 +1,1202 @@
+[
+  {
+    "Code": "AE",
+    "CountryID": "COUNTRY_ID_AE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AE  (아랍에미리트)",
+    "SortOrder": 144
+  },
+  {
+    "Code": "AG",
+    "CountryID": "COUNTRY_ID_AG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AG  (앤티가 바부다)",
+    "SortOrder": 3
+  },
+  {
+    "Code": "AI",
+    "CountryID": "COUNTRY_ID_AI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AI  (앵귈라)",
+    "SortOrder": 2
+  },
+  {
+    "Code": "AL",
+    "CountryID": "COUNTRY_ID_AL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AL  (알바니아)",
+    "SortOrder": 1
+  },
+  {
+    "Code": "AR",
+    "CountryID": "COUNTRY_ID_AR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AR  (아르헨티나)",
+    "SortOrder": 4
+  },
+  {
+    "Code": "AT",
+    "CountryID": "COUNTRY_ID_AT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AT  (오스트리아)",
+    "SortOrder": 7
+  },
+  {
+    "Code": "AU",
+    "CountryID": "COUNTRY_ID_AU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AU  (오스트레일리아)",
+    "SortOrder": 6
+  },
+  {
+    "Code": "AW",
+    "CountryID": "COUNTRY_ID_AW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AW  (아루바)",
+    "SortOrder": 5
+  },
+  {
+    "Code": "BA",
+    "CountryID": "COUNTRY_ID_BA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BA  (보스니아 헤르체고비나)",
+    "SortOrder": 17
+  },
+  {
+    "Code": "BB",
+    "CountryID": "COUNTRY_ID_BB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BB  (바베이도스)",
+    "SortOrder": 11
+  },
+  {
+    "Code": "BD",
+    "CountryID": "COUNTRY_ID_BD",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BD  (방글라데시)",
+    "SortOrder": 10
+  },
+  {
+    "Code": "BF",
+    "CountryID": "COUNTRY_ID_BF",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BF  (부르키나파소)",
+    "SortOrder": 23
+  },
+  {
+    "Code": "BG",
+    "CountryID": "COUNTRY_ID_BG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BG  (불가리아)",
+    "SortOrder": 22
+  },
+  {
+    "Code": "BH",
+    "CountryID": "COUNTRY_ID_BH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BH  (바레인)",
+    "SortOrder": 9
+  },
+  {
+    "Code": "BJ",
+    "CountryID": "COUNTRY_ID_BJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BJ  (베냉)",
+    "SortOrder": 13
+  },
+  {
+    "Code": "BL",
+    "CountryID": "COUNTRY_ID_BL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BL  (상투메 프린시페)",
+    "SortOrder": 117
+  },
+  {
+    "Code": "BM",
+    "CountryID": "COUNTRY_ID_BM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BM  (버뮤다)",
+    "SortOrder": 14
+  },
+  {
+    "Code": "BN",
+    "CountryID": "COUNTRY_ID_BN",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BN  (브루나이)",
+    "SortOrder": 21
+  },
+  {
+    "Code": "BO",
+    "CountryID": "COUNTRY_ID_BO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BO  (볼리비아)",
+    "SortOrder": 16
+  },
+  {
+    "Code": "BR",
+    "CountryID": "COUNTRY_ID_BR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BR  (브라질)",
+    "SortOrder": 19
+  },
+  {
+    "Code": "BS",
+    "CountryID": "COUNTRY_ID_BS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BS  (바하마)",
+    "SortOrder": 8
+  },
+  {
+    "Code": "BT",
+    "CountryID": "COUNTRY_ID_BT",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BT  (부탄)",
+    "SortOrder": 15
+  },
+  {
+    "Code": "BW",
+    "CountryID": "COUNTRY_ID_BW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BW  (보츠와나)",
+    "SortOrder": 18
+  },
+  {
+    "Code": "BY",
+    "CountryID": "COUNTRY_ID_BY",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BY  (벨라루스)",
+    "SortOrder": 111
+  },
+  {
+    "Code": "BZ",
+    "CountryID": "COUNTRY_ID_BZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BZ  (벨리즈)",
+    "SortOrder": 12
+  },
+  {
+    "Code": "CA",
+    "CountryID": "COUNTRY_ID_CA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CA  (캐나다)",
+    "SortOrder": 25
+  },
+  {
+    "Code": "CH",
+    "CountryID": "COUNTRY_ID_CH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CH  (스위스)",
+    "SortOrder": 132
+  },
+  {
+    "Code": "CI",
+    "CountryID": "COUNTRY_ID_CI",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CI  (코트디부아르)",
+    "SortOrder": 32
+  },
+  {
+    "Code": "CL",
+    "CountryID": "COUNTRY_ID_CL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CL  (칠레)",
+    "SortOrder": 29
+  },
+  {
+    "Code": "CO",
+    "CountryID": "COUNTRY_ID_CO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CO  (콜롬비아)",
+    "SortOrder": 30
+  },
+  {
+    "Code": "CR",
+    "CountryID": "COUNTRY_ID_CR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CR  (코스타리카)",
+    "SortOrder": 31
+  },
+  {
+    "Code": "CV",
+    "CountryID": "COUNTRY_ID_CV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CV  (카보베르데)",
+    "SortOrder": 26
+  },
+  {
+    "Code": "CY",
+    "CountryID": "COUNTRY_ID_CY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CY  (키프로스)",
+    "SortOrder": 34
+  },
+  {
+    "Code": "CZ",
+    "CountryID": "COUNTRY_ID_CZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CZ  (체코)",
+    "SortOrder": 35
+  },
+  {
+    "Code": "DE",
+    "CountryID": "COUNTRY_ID_DE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DE  (독일)",
+    "SortOrder": 49
+  },
+  {
+    "Code": "DK",
+    "CountryID": "COUNTRY_ID_DK",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DK  (덴마크)",
+    "SortOrder": 36
+  },
+  {
+    "Code": "DM",
+    "CountryID": "COUNTRY_ID_DM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DM  (도미니카 연방)",
+    "SortOrder": 37
+  },
+  {
+    "Code": "DO",
+    "CountryID": "COUNTRY_ID_DO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DO  (도미니카 공화국)",
+    "SortOrder": 38
+  },
+  {
+    "Code": "EC",
+    "CountryID": "COUNTRY_ID_EC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EC  (에콰도르)",
+    "SortOrder": 39
+  },
+  {
+    "Code": "EE",
+    "CountryID": "COUNTRY_ID_EE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EE  (에스토니아)",
+    "SortOrder": 42
+  },
+  {
+    "Code": "EG",
+    "CountryID": "COUNTRY_ID_EG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EG  (이집트)",
+    "SortOrder": 40
+  },
+  {
+    "Code": "ES",
+    "CountryID": "COUNTRY_ID_ES",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ES  (스페인)",
+    "SortOrder": 127
+  },
+  {
+    "Code": "FI",
+    "CountryID": "COUNTRY_ID_FI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FI  (핀란드)",
+    "SortOrder": 45
+  },
+  {
+    "Code": "FJ",
+    "CountryID": "COUNTRY_ID_FJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FJ  (피지)",
+    "SortOrder": 44
+  },
+  {
+    "Code": "FM",
+    "CountryID": "COUNTRY_ID_FM",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FM  (마이크로네시아 연방)",
+    "SortOrder": 89
+  },
+  {
+    "Code": "FR",
+    "CountryID": "COUNTRY_ID_FR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FR  (프랑스)",
+    "SortOrder": 46
+  },
+  {
+    "Code": "GA",
+    "CountryID": "COUNTRY_ID_GA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GA  (가봉)",
+    "SortOrder": 47
+  },
+  {
+    "Code": "GB",
+    "CountryID": "COUNTRY_ID_GB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GB  (영국)",
+    "SortOrder": 145
+  },
+  {
+    "Code": "GD",
+    "CountryID": "COUNTRY_ID_GD",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GD  (그레나다)",
+    "SortOrder": 52
+  },
+  {
+    "Code": "GH",
+    "CountryID": "COUNTRY_ID_GH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GH  (가나)",
+    "SortOrder": 50
+  },
+  {
+    "Code": "GM",
+    "CountryID": "COUNTRY_ID_GM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GM  (감비아)",
+    "SortOrder": 48
+  },
+  {
+    "Code": "GR",
+    "CountryID": "COUNTRY_ID_GR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GR  (그리스)",
+    "SortOrder": 51
+  },
+  {
+    "Code": "GT",
+    "CountryID": "COUNTRY_ID_GT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GT  (과테말라)",
+    "SortOrder": 53
+  },
+  {
+    "Code": "GW",
+    "CountryID": "COUNTRY_ID_GW",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GW  (기니비사우)",
+    "SortOrder": 54
+  },
+  {
+    "Code": "GY",
+    "CountryID": "COUNTRY_ID_GY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GY  (가이아나)",
+    "SortOrder": 55
+  },
+  {
+    "Code": "HK",
+    "CountryID": "COUNTRY_ID_HK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_HK  (홍콩)",
+    "SortOrder": 58
+  },
+  {
+    "Code": "HN",
+    "CountryID": "COUNTRY_ID_HN",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HN  (온두라스)",
+    "SortOrder": 57
+  },
+  {
+    "Code": "HR",
+    "CountryID": "COUNTRY_ID_HR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HR  (크로아티아)",
+    "SortOrder": 33
+  },
+  {
+    "Code": "HT",
+    "CountryID": "COUNTRY_ID_HT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HT  (아이티)",
+    "SortOrder": 56
+  },
+  {
+    "Code": "HU",
+    "CountryID": "COUNTRY_ID_HU",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HU  (헝가리)",
+    "SortOrder": 59
+  },
+  {
+    "Code": "ID",
+    "CountryID": "COUNTRY_ID_ID",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_ID  (인도네시아)",
+    "SortOrder": 62
+  },
+  {
+    "Code": "IE",
+    "CountryID": "COUNTRY_ID_IE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IE  (아일랜드)",
+    "SortOrder": 63
+  },
+  {
+    "Code": "IL",
+    "CountryID": "COUNTRY_ID_IL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IL  (이스라엘)",
+    "SortOrder": 64
+  },
+  {
+    "Code": "IN",
+    "CountryID": "COUNTRY_ID_IN",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_IN  (인도)",
+    "SortOrder": 61
+  },
+  {
+    "Code": "IS",
+    "CountryID": "COUNTRY_ID_IS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IS  (아이슬란드)",
+    "SortOrder": 60
+  },
+  {
+    "Code": "IT",
+    "CountryID": "COUNTRY_ID_IT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IT  (이탈리아)",
+    "SortOrder": 65
+  },
+  {
+    "Code": "JM",
+    "CountryID": "COUNTRY_ID_JM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_JM  (자메이카)",
+    "SortOrder": 66
+  },
+  {
+    "Code": "JO",
+    "CountryID": "COUNTRY_ID_JO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_JO  (요르단)",
+    "SortOrder": 68
+  },
+  {
+    "Code": "JP",
+    "CountryID": "COUNTRY_ID_JP",
+    "DateFormat": 1,
+    "InquiryType": 1,
+    "NameMSID": "COUNTRY_NAME_JP  (일본)",
+    "SortOrder": 67
+  },
+  {
+    "Code": "KG",
+    "CountryID": "COUNTRY_ID_KG",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KG  (키르기즈 공화국)",
+    "SortOrder": 72
+  },
+  {
+    "Code": "KH",
+    "CountryID": "COUNTRY_ID_KH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_KH  (캄보디아)",
+    "SortOrder": 24
+  },
+  {
+    "Code": "KN",
+    "CountryID": "COUNTRY_ID_KN",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KN  (세인트키츠 네비스)",
+    "SortOrder": 114
+  },
+  {
+    "Code": "KR",
+    "CountryID": "COUNTRY_ID_KR",
+    "DateFormat": 1,
+    "InquiryType": 2,
+    "NameMSID": "COUNTRY_NAME_KR  (대한민국)",
+    "SortOrder": 126
+  },
+  {
+    "Code": "KW",
+    "CountryID": "COUNTRY_ID_KW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KW  (쿠웨이트)",
+    "SortOrder": 71
+  },
+  {
+    "Code": "KY",
+    "CountryID": "COUNTRY_ID_KY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KY  (케이맨 제도)",
+    "SortOrder": 27
+  },
+  {
+    "Code": "KZ",
+    "CountryID": "COUNTRY_ID_KZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KZ  (카자흐스탄)",
+    "SortOrder": 69
+  },
+  {
+    "Code": "LA",
+    "CountryID": "COUNTRY_ID_LA",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_LA  (라오스)",
+    "SortOrder": 73
+  },
+  {
+    "Code": "LB",
+    "CountryID": "COUNTRY_ID_LB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LB  (레바논)",
+    "SortOrder": 75
+  },
+  {
+    "Code": "LC",
+    "CountryID": "COUNTRY_ID_LC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LC  (세인트루시아)",
+    "SortOrder": 115
+  },
+  {
+    "Code": "LI",
+    "CountryID": "COUNTRY_ID_LI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LI  (리히텐슈타인)",
+    "SortOrder": 77
+  },
+  {
+    "Code": "LK",
+    "CountryID": "COUNTRY_ID_LK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_LK  (스리랑카)",
+    "SortOrder": 128
+  },
+  {
+    "Code": "LR",
+    "CountryID": "COUNTRY_ID_LR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LR  (라이베리아)",
+    "SortOrder": 76
+  },
+  {
+    "Code": "LT",
+    "CountryID": "COUNTRY_ID_LT",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LT  (리투아니아)",
+    "SortOrder": 78
+  },
+  {
+    "Code": "LU",
+    "CountryID": "COUNTRY_ID_LU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LU  (룩셈부르크)",
+    "SortOrder": 79
+  },
+  {
+    "Code": "LV",
+    "CountryID": "COUNTRY_ID_LV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LV  (라트비아)",
+    "SortOrder": 74
+  },
+  {
+    "Code": "MA",
+    "CountryID": "COUNTRY_ID_MA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MA  (모로코)",
+    "SortOrder": 92
+  },
+  {
+    "Code": "MG",
+    "CountryID": "COUNTRY_ID_MG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MG  (마다가스카르)",
+    "SortOrder": 82
+  },
+  {
+    "Code": "MK",
+    "CountryID": "COUNTRY_ID_MK",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MK  (마케도니아)",
+    "SortOrder": 81
+  },
+  {
+    "Code": "MN",
+    "CountryID": "COUNTRY_ID_MN",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MN  (몽골)",
+    "SortOrder": 90
+  },
+  {
+    "Code": "MO",
+    "CountryID": "COUNTRY_ID_MO",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MO  (마카오)",
+    "SortOrder": 80
+  },
+  {
+    "Code": "MR",
+    "CountryID": "COUNTRY_ID_MR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MR  (모리타니아)",
+    "SortOrder": 86
+  },
+  {
+    "Code": "MS",
+    "CountryID": "COUNTRY_ID_MS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MS  (몬트세라트)",
+    "SortOrder": 91
+  },
+  {
+    "Code": "MT",
+    "CountryID": "COUNTRY_ID_MT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MT  (몰타)",
+    "SortOrder": 85
+  },
+  {
+    "Code": "MU",
+    "CountryID": "COUNTRY_ID_MU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MU  (모리셔스)",
+    "SortOrder": 87
+  },
+  {
+    "Code": "MW",
+    "CountryID": "COUNTRY_ID_MW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MW  (말라위)",
+    "SortOrder": 83
+  },
+  {
+    "Code": "MX",
+    "CountryID": "COUNTRY_ID_MX",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MX  (멕시코)",
+    "SortOrder": 88
+  },
+  {
+    "Code": "MY",
+    "CountryID": "COUNTRY_ID_MY",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MY  (말레이시아)",
+    "SortOrder": 84
+  },
+  {
+    "Code": "MZ",
+    "CountryID": "COUNTRY_ID_MZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MZ  (모잠비크)",
+    "SortOrder": 93
+  },
+  {
+    "Code": "NA",
+    "CountryID": "COUNTRY_ID_NA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NA  (나미비아)",
+    "SortOrder": 94
+  },
+  {
+    "Code": "NE",
+    "CountryID": "COUNTRY_ID_NE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NE  (니제르)",
+    "SortOrder": 98
+  },
+  {
+    "Code": "NG",
+    "CountryID": "COUNTRY_ID_NG",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NG  (나이지리아)",
+    "SortOrder": 43
+  },
+  {
+    "Code": "NI",
+    "CountryID": "COUNTRY_ID_NI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NI  (니카라과)",
+    "SortOrder": 97
+  },
+  {
+    "Code": "NO",
+    "CountryID": "COUNTRY_ID_NO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NO  (노르웨이)",
+    "SortOrder": 99
+  },
+  {
+    "Code": "NP",
+    "CountryID": "COUNTRY_ID_NP",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_NP  (네팔)",
+    "SortOrder": 95
+  },
+  {
+    "Code": "NZ",
+    "CountryID": "COUNTRY_ID_NZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NZ  (뉴질랜드)",
+    "SortOrder": 96
+  },
+  {
+    "Code": "OM",
+    "CountryID": "COUNTRY_ID_OM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_OM  (오만)",
+    "SortOrder": 100
+  },
+  {
+    "Code": "PA",
+    "CountryID": "COUNTRY_ID_PA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PA  (파나마)",
+    "SortOrder": 103
+  },
+  {
+    "Code": "PE",
+    "CountryID": "COUNTRY_ID_PE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PE  (페루)",
+    "SortOrder": 106
+  },
+  {
+    "Code": "PG",
+    "CountryID": "COUNTRY_ID_PG",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PG  (파푸아뉴기니)",
+    "SortOrder": 104
+  },
+  {
+    "Code": "PH",
+    "CountryID": "COUNTRY_ID_PH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PH  (필리핀)",
+    "SortOrder": 107
+  },
+  {
+    "Code": "PK",
+    "CountryID": "COUNTRY_ID_PK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PK  (파키스탄)",
+    "SortOrder": 101
+  },
+  {
+    "Code": "PL",
+    "CountryID": "COUNTRY_ID_PL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PL  (폴란드)",
+    "SortOrder": 108
+  },
+  {
+    "Code": "PT",
+    "CountryID": "COUNTRY_ID_PT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PT  (포르투갈)",
+    "SortOrder": 109
+  },
+  {
+    "Code": "PW",
+    "CountryID": "COUNTRY_ID_PW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PW  (팔라우)",
+    "SortOrder": 102
+  },
+  {
+    "Code": "PY",
+    "CountryID": "COUNTRY_ID_PY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PY  (파라과이)",
+    "SortOrder": 105
+  },
+  {
+    "Code": "QA",
+    "CountryID": "COUNTRY_ID_QA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_QA  (카타르)",
+    "SortOrder": 110
+  },
+  {
+    "Code": "RO",
+    "CountryID": "COUNTRY_ID_RO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RO  (루마니아)",
+    "SortOrder": 112
+  },
+  {
+    "Code": "RS",
+    "CountryID": "COUNTRY_ID_RS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RS  (세르비아)",
+    "SortOrder": 118
+  },
+  {
+    "Code": "RW",
+    "CountryID": "COUNTRY_ID_RW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RW  (르완다)",
+    "SortOrder": 113
+  },
+  {
+    "Code": "SA",
+    "CountryID": "COUNTRY_ID_SA",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SA  (사우디아라비아)",
+    "SortOrder": 70
+  },
+  {
+    "Code": "SB",
+    "CountryID": "COUNTRY_ID_SB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SB  (솔로몬제도)",
+    "SortOrder": 124
+  },
+  {
+    "Code": "SC",
+    "CountryID": "COUNTRY_ID_SC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SC  (세이셸)",
+    "SortOrder": 119
+  },
+  {
+    "Code": "SE",
+    "CountryID": "COUNTRY_ID_SE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SE  (스웨덴)",
+    "SortOrder": 131
+  },
+  {
+    "Code": "SG",
+    "CountryID": "COUNTRY_ID_SG",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_SG  (싱가포르)",
+    "SortOrder": 121
+  },
+  {
+    "Code": "SI",
+    "CountryID": "COUNTRY_ID_SI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SI  (슬로베니아)",
+    "SortOrder": 123
+  },
+  {
+    "Code": "SK",
+    "CountryID": "COUNTRY_ID_SK",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SK  (슬로바키아)",
+    "SortOrder": 122
+  },
+  {
+    "Code": "SL",
+    "CountryID": "COUNTRY_ID_SL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SL  (시에라리온)",
+    "SortOrder": 120
+  },
+  {
+    "Code": "SR",
+    "CountryID": "COUNTRY_ID_SR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SR  (수리남)",
+    "SortOrder": 129
+  },
+  {
+    "Code": "SV",
+    "CountryID": "COUNTRY_ID_SV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SV  (엘살바도르)",
+    "SortOrder": 41
+  },
+  {
+    "Code": "SZ",
+    "CountryID": "COUNTRY_ID_SZ",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SZ  (에스와티니)",
+    "SortOrder": 130
+  },
+  {
+    "Code": "TC",
+    "CountryID": "COUNTRY_ID_TC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TC  (터크스･카이코스 군도)",
+    "SortOrder": 141
+  },
+  {
+    "Code": "TD",
+    "CountryID": "COUNTRY_ID_TD",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TD  (차드)",
+    "SortOrder": 28
+  },
+  {
+    "Code": "TG",
+    "CountryID": "COUNTRY_ID_TG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TG  (토고)",
+    "SortOrder": 137
+  },
+  {
+    "Code": "TH",
+    "CountryID": "COUNTRY_ID_TH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_TH  (태국)",
+    "SortOrder": 136
+  },
+  {
+    "Code": "TJ",
+    "CountryID": "COUNTRY_ID_TJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TJ  (타지키스탄)",
+    "SortOrder": 134
+  },
+  {
+    "Code": "TM",
+    "CountryID": "COUNTRY_ID_TM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TM  (투르크메니스탄)",
+    "SortOrder": 140
+  },
+  {
+    "Code": "TR",
+    "CountryID": "COUNTRY_ID_TR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TR  (튀르키예)",
+    "SortOrder": 139
+  },
+  {
+    "Code": "TT",
+    "CountryID": "COUNTRY_ID_TT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TT  (트리니다드토바고)",
+    "SortOrder": 138
+  },
+  {
+    "Code": "TW",
+    "CountryID": "COUNTRY_ID_TW",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_TW  (대만)",
+    "SortOrder": 133
+  },
+  {
+    "Code": "TZ",
+    "CountryID": "COUNTRY_ID_TZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TZ  (탄자니아)",
+    "SortOrder": 135
+  },
+  {
+    "Code": "UA",
+    "CountryID": "COUNTRY_ID_UA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UA  (우크라이나)",
+    "SortOrder": 143
+  },
+  {
+    "Code": "UG",
+    "CountryID": "COUNTRY_ID_UG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UG  (우간다)",
+    "SortOrder": 142
+  },
+  {
+    "Code": "US",
+    "CountryID": "COUNTRY_ID_US",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_US  (미국)",
+    "SortOrder": 146
+  },
+  {
+    "Code": "UY",
+    "CountryID": "COUNTRY_ID_UY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UY  (우루과이)",
+    "SortOrder": 147
+  },
+  {
+    "Code": "UZ",
+    "CountryID": "COUNTRY_ID_UZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UZ  (우즈베키스탄)",
+    "SortOrder": 148
+  },
+  {
+    "Code": "VC",
+    "CountryID": "COUNTRY_ID_VC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VC  (세인트 빈센트 그레나딘)",
+    "SortOrder": 116
+  },
+  {
+    "Code": "VE",
+    "CountryID": "COUNTRY_ID_VE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VE  (베네수엘라)",
+    "SortOrder": 149
+  },
+  {
+    "Code": "VG",
+    "CountryID": "COUNTRY_ID_VG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VG  (영국령 버진군도)",
+    "SortOrder": 20
+  },
+  {
+    "Code": "ZA",
+    "CountryID": "COUNTRY_ID_ZA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ZA  (남아프리카)",
+    "SortOrder": 125
+  },
+  {
+    "Code": "ZM",
+    "CountryID": "COUNTRY_ID_ZM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ZM  (잠비아)",
+    "SortOrder": 150
+  }
+]

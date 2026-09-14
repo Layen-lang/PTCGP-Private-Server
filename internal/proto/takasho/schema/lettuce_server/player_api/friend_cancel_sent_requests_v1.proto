@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/friend/friend_request.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message FriendCancelSentRequestsV1 {
+  message Types {
+    message Request {
+      repeated string receiver_player_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.FriendRequest sent_friend_requests = 1;
+      repeated takasho.schema.lettuce_server.resource.player_profile.ProfileSpine profiles = 2;
+    }
+  }
+}

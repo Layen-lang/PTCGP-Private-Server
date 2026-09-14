@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack_shop;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/pack_shop/product_price.proto";
+import "takasho/schema/lettuce_server/resource/pack_shop/product_produce.proto";
+
+message PackShopProduct {
+  message Types {
+    enum ScheduleType {
+      SCHEDULE_TYPE_UNSPECIFIED = 0;
+      SCHEDULE_TYPE_FOREVER = 1;
+      SCHEDULE_TYPE_NEVER = 2;
+      SCHEDULE_TYPE_SINGLE_TERM = 3;
+    }
+  }
+  string product_id = 1;
+  int64 produce_pack_amount = 2;
+  ProductPrice price = 3;
+  repeated ProductProduce extra_produces = 4;
+  PackShopProduct.Types.ScheduleType schedule_type = 5;
+  google.protobuf.Timestamp opened_at = 6;
+  google.protobuf.Timestamp closed_at = 7;
+}

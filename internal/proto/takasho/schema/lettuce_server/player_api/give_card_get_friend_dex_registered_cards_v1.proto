@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message GiveCardGetFriendDexRegisteredCardsV1 {
+  message Types {
+    message Request {
+      string friend_player_id = 100;
+      string expansion_id = 200;
+    }
+    message Response {
+      repeated string dex_registered_card_ids = 100;
+      repeated string desired_card_ids = 200;
+    }
+  }
+}

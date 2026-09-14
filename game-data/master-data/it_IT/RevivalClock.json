@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Se usato assieme a dell'energia misteriosa,\npermette di ripristinare una pesca misteriosa\nnon più valida. A uso singolo.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Orologio ripristino)",
+    "SortOrderPriority": 1
+  }
+]

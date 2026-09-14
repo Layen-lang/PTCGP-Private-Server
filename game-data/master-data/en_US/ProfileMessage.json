@@ -1,0 +1,222 @@
+[
+  {
+    "ID": "PROFILE_MESSAGE_1",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_1  (Nice to meet you)",
+    "SortOrderPriority": 1
+  },
+  {
+    "ID": "PROFILE_MESSAGE_10",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_10  (I’m collecting Lightning types)",
+    "SortOrderPriority": 10
+  },
+  {
+    "ID": "PROFILE_MESSAGE_11",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_11  (I’m collecting Psychic types)",
+    "SortOrderPriority": 11
+  },
+  {
+    "ID": "PROFILE_MESSAGE_12",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_12  (I’m collecting Fighting types)",
+    "SortOrderPriority": 12
+  },
+  {
+    "ID": "PROFILE_MESSAGE_13",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_13  (I’m collecting Darkness types)",
+    "SortOrderPriority": 13
+  },
+  {
+    "ID": "PROFILE_MESSAGE_14",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_14  (I’m collecting Metal types)",
+    "SortOrderPriority": 14
+  },
+  {
+    "ID": "PROFILE_MESSAGE_15",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_15  (I’m collecting Dragon types)",
+    "SortOrderPriority": 15
+  },
+  {
+    "ID": "PROFILE_MESSAGE_16",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_16  (I’m collecting Colorless types)",
+    "SortOrderPriority": 16
+  },
+  {
+    "ID": "PROFILE_MESSAGE_17",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_17  (I’m collecting Pokémon ex!)",
+    "SortOrderPriority": 17
+  },
+  {
+    "ID": "PROFILE_MESSAGE_18",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_18  (I’m collecting cards with neat art!)",
+    "SortOrderPriority": 18
+  },
+  {
+    "ID": "PROFILE_MESSAGE_19",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_19  (I’m trying to complete the card dex!)",
+    "SortOrderPriority": 19
+  },
+  {
+    "ID": "PROFILE_MESSAGE_2",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_2  (I’m a beginner!)",
+    "SortOrderPriority": 2
+  },
+  {
+    "ID": "PROFILE_MESSAGE_20",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_20  (Check out my collection!)",
+    "SortOrderPriority": 20
+  },
+  {
+    "ID": "PROFILE_MESSAGE_21",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_21  (Let’s battle!)",
+    "SortOrderPriority": 21
+  },
+  {
+    "ID": "PROFILE_MESSAGE_22",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_22  (I’m a beginner, so go easy on me!)",
+    "SortOrderPriority": 22
+  },
+  {
+    "ID": "PROFILE_MESSAGE_23",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_23  (I’m somewhat confident in battle!)",
+    "SortOrderPriority": 23
+  },
+  {
+    "ID": "PROFILE_MESSAGE_24",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_24  (I’m confident in battle!)",
+    "SortOrderPriority": 24
+  },
+  {
+    "ID": "PROFILE_MESSAGE_25",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_25  (I’m confident at flipping heads!)",
+    "SortOrderPriority": 25
+  },
+  {
+    "ID": "PROFILE_MESSAGE_26",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_26  (In battle, I use my favorite Pokémon!)",
+    "SortOrderPriority": 26
+  },
+  {
+    "ID": "PROFILE_MESSAGE_27",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_27  (I’m still building decks... Go easy on me!)",
+    "SortOrderPriority": 27
+  },
+  {
+    "ID": "PROFILE_MESSAGE_28",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_28  (I never retreat!)",
+    "SortOrderPriority": 28
+  },
+  {
+    "ID": "PROFILE_MESSAGE_29",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_29  (I win by dealing heavy damage!)",
+    "SortOrderPriority": 29
+  },
+  {
+    "ID": "PROFILE_MESSAGE_3",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_3  (I like cute Pokémon)",
+    "SortOrderPriority": 3
+  },
+  {
+    "ID": "PROFILE_MESSAGE_30",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_30  (Check out my playmats!)",
+    "SortOrderPriority": 30
+  },
+  {
+    "ID": "PROFILE_MESSAGE_31",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_31  (I’m good at building decks!)",
+    "SortOrderPriority": 31
+  },
+  {
+    "ID": "PROFILE_MESSAGE_32",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_32  (I’m looking to make friends)",
+    "SortOrderPriority": 32
+  },
+  {
+    "ID": "PROFILE_MESSAGE_33",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_33  (I’m trying to complete missions)",
+    "SortOrderPriority": 33
+  },
+  {
+    "ID": "PROFILE_MESSAGE_34",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_34  (I like Pokémon from the Kanto region)",
+    "SortOrderPriority": 34
+  },
+  {
+    "ID": "PROFILE_MESSAGE_35",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_35  (I like Pokémon from the Johto region)",
+    "SortOrderPriority": 35
+  },
+  {
+    "ID": "PROFILE_MESSAGE_36",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_36  (I like Pokémon from the Hoenn region)",
+    "SortOrderPriority": 36
+  },
+  {
+    "ID": "PROFILE_MESSAGE_37",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_37  (I like Pokémon from the Sinnoh region)",
+    "SortOrderPriority": 37
+  },
+  {
+    "ID": "PROFILE_MESSAGE_38",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_38  (I like Pokémon from the Hisui region)",
+    "SortOrderPriority": 38
+  },
+  {
+    "ID": "PROFILE_MESSAGE_39",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_39  (I like Pokémon from the Unova region)",
+    "SortOrderPriority": 39
+  },
+  {
+    "ID": "PROFILE_MESSAGE_4",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_4  (I like cool Pokémon)",
+    "SortOrderPriority": 4
+  },
+  {
+    "ID": "PROFILE_MESSAGE_40",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_40  (I like Pokémon from the Kalos region)",
+    "SortOrderPriority": 40
+  },
+  {
+    "ID": "PROFILE_MESSAGE_41",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_41  (I like Pokémon from the Alola region)",
+    "SortOrderPriority": 41
+  },
+  {
+    "ID": "PROFILE_MESSAGE_42",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_42  (I like Pokémon from the Galar region)",
+    "SortOrderPriority": 42
+  },
+  {
+    "ID": "PROFILE_MESSAGE_43",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_43  (I like Pokémon from the Paldea region)",
+    "SortOrderPriority": 43
+  },
+  {
+    "ID": "PROFILE_MESSAGE_44",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_44  (I’m collecting Mega Evolution Pokémon ex!)",
+    "SortOrderPriority": 44
+  },
+  {
+    "ID": "PROFILE_MESSAGE_5",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_5  (I like strong Pokémon)",
+    "SortOrderPriority": 5
+  },
+  {
+    "ID": "PROFILE_MESSAGE_6",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_6  (I like Legendary and Mythical Pokémon)",
+    "SortOrderPriority": 6
+  },
+  {
+    "ID": "PROFILE_MESSAGE_7",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_7  (I’m collecting Grass types)",
+    "SortOrderPriority": 7
+  },
+  {
+    "ID": "PROFILE_MESSAGE_8",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_8  (I’m collecting Fire types)",
+    "SortOrderPriority": 8
+  },
+  {
+    "ID": "PROFILE_MESSAGE_9",
+    "MessageMSID": "PROFILE_MESSAGE_MSID_9  (I’m collecting Water types)",
+    "SortOrderPriority": 9
+  }
+]

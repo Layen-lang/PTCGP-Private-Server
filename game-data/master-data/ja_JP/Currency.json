@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (パックパワー回復の待ち時間を短縮したり\nショップで周辺グッズやアイテムと交換できます\nショップ/交換所で購入できます)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (ポケゴールド)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (パックパワー回復の待ち時間を短縮したり\nショップで周辺グッズやアイテムと交換できます\nショップ/交換所で購入できます)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (ポケゴールド)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (プレミアムミッションで入手できます\nショップで周辺グッズやプロモカードと\n交換できます)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (プレミアムチケット)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (トレードや「エフェクト入手」で使うアイテムです\nすでに図鑑登録済みのカードの獲得時や\nミッション報酬などで入手できます)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (ひかりのすな)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (イベントミッションの達成やステップアップバトル\nで入手できます\nショップで周辺グッズやアイテムと交換できます)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (ショップチケット)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (自分のカード画面でレアリティの高いカードを消費\nすると入手できます  ショップで特別な周辺グッズ\nやアイテムと交換できます)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (スペシャルショップチケット)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trade;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/trade/trade_session_state.proto";
+
+message TradeSessionStatus {
+  google.protobuf.Timestamp expire_at = 1;
+  TradeSessionState state = 2;
+}

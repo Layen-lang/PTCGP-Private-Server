@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/player_settings/info.proto";
+
+message PlayerSettingGetInfoV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.player_settings.Info info = 1;
+      float error_report_sampling_rate = 2;
+      float performance_log_sampling_rate = 3;
+    }
+  }
+}

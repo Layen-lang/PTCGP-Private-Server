@@ -1,0 +1,1538 @@
+[
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0010_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0010_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0010_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0010_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0020_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0020_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0020_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0020_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0030_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0030_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0030_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0030_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0040_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0040_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0040_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0040_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0050_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0050_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0050_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0050_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0060_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0060_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0060_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0060_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0070_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0070_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0070_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0070_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0080_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0080_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0080_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0080_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0090_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0090_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0090_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0090_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0100_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0100_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0100_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0100_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0110_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0110_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0110_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0110_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0120_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0120_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0120_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0120_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0130_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_AP001_0130_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0130_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_AP001_0130_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0130_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_AP001_0130_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0130_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_AP001_0130_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0010_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0010_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0010_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0010_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0020_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0020_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0020_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0020_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0030_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0030_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0030_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0030_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0040_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0040_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0040_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0040_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0050_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0050_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0050_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0050_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0060_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0060_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0060_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0060_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0070_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0070_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0070_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0070_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0080_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0080_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0080_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0080_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0090_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0090_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0090_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0090_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_DROP_BP001_0100_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0100_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0100_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0100_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0100_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0110_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0110_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0110_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0110_00_000_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 510,
+    "RewardID": "BT_RW_DROP_BP001_0120_00_000_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 640,
+    "RewardID": "BT_RW_DROP_BP001_0120_00_000_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 800,
+    "RewardID": "BT_RW_DROP_BP001_0120_00_000_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_BP001_0120_00_000_04_1"
+  },
+  {
+    "Amount": 25,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 1000,
+    "RewardID": "BT_RW_DROP_SHINEDUST_25"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 387,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 483,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 604,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 755,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 387,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_02_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 483,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_02_02_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 604,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_02_03_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 755,
+    "RewardID": "BT_RW_DROP_TICKET_0002010_EV_02_04_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0060_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0070_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0080_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0100_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0100_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0110_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0120_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "AP001_0130_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_AP001_0130_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0010_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0010_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0020_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0020_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0030_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0030_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0040_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0040_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0050_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0050_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0060_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0060_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0070_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0070_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0080_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0080_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0090_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0090_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0110_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0110_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "BP001_0120_00_000",
+    "ItemType": 8,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_BP001_0120_00_000"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_1"
+  },
+  {
+    "Amount": 12,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_12"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_2"
+  },
+  {
+    "Amount": 24,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_24"
+  },
+  {
+    "Amount": 3,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_3"
+  },
+  {
+    "Amount": 4,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_4"
+  },
+  {
+    "Amount": 5,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_5"
+  },
+  {
+    "Amount": 6,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_6"
+  },
+  {
+    "Amount": 7,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_7"
+  },
+  {
+    "Amount": 8,
+    "ExpansionID": "",
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_C60_8"
+  },
+  {
+    "Amount": 12,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_12"
+  },
+  {
+    "Amount": 15,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_15"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_2"
+  },
+  {
+    "Amount": 3,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_3"
+  },
+  {
+    "Amount": 4,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_4"
+  },
+  {
+    "Amount": 5,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_5"
+  },
+  {
+    "Amount": 6,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_6"
+  },
+  {
+    "Amount": 7,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_7"
+  },
+  {
+    "Amount": 8,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_CHARGER_P60_8"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EVENT_CHARGER_C60_2"
+  },
+  {
+    "Amount": 3,
+    "ExpansionID": "",
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EVENT_CHARGER_C60_3"
+  },
+  {
+    "Amount": 4,
+    "ExpansionID": "",
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EVENT_CHARGER_C60_4"
+  },
+  {
+    "Amount": 5,
+    "ExpansionID": "",
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EVENT_CHARGER_C60_5"
+  },
+  {
+    "Amount": 100,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_100"
+  },
+  {
+    "Amount": 125,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_125"
+  },
+  {
+    "Amount": 150,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_150"
+  },
+  {
+    "Amount": 20,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_20"
+  },
+  {
+    "Amount": 25,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_25"
+  },
+  {
+    "Amount": 30,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_30"
+  },
+  {
+    "Amount": 40,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_40"
+  },
+  {
+    "Amount": 50,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_50"
+  },
+  {
+    "Amount": 55,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_55"
+  },
+  {
+    "Amount": 60,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_60"
+  },
+  {
+    "Amount": 70,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_70"
+  },
+  {
+    "Amount": 75,
+    "ExpansionID": "",
+    "ItemID": "",
+    "ItemType": 11,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_EXP_75"
+  },
+  {
+    "Amount": 100,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_100"
+  },
+  {
+    "Amount": 150,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_150"
+  },
+  {
+    "Amount": 200,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_200"
+  },
+  {
+    "Amount": 25,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_25"
+  },
+  {
+    "Amount": 30,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_30"
+  },
+  {
+    "Amount": 300,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_300"
+  },
+  {
+    "Amount": 35,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_35"
+  },
+  {
+    "Amount": 40,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_40"
+  },
+  {
+    "Amount": 400,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_400"
+  },
+  {
+    "Amount": 50,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_50"
+  },
+  {
+    "Amount": 500,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_500"
+  },
+  {
+    "Amount": 600,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_600"
+  },
+  {
+    "Amount": 800,
+    "ExpansionID": "",
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHINEDUST_800"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_1"
+  },
+  {
+    "Amount": 15,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_15"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_2"
+  },
+  {
+    "Amount": 3,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_3"
+  },
+  {
+    "Amount": 30,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_30"
+  },
+  {
+    "Amount": 36,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_36"
+  },
+  {
+    "Amount": 4,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_4"
+  },
+  {
+    "Amount": 45,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_45"
+  },
+  {
+    "Amount": 5,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_5"
+  },
+  {
+    "Amount": 60,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_SHOPTICKET_60"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "TICKET_0002010_EV_01",
+    "ItemType": 12,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TICKET_0002010_EV_01_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "TICKET_0002010_EV_02",
+    "ItemType": 12,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TICKET_0002010_EV_02_1"
+  },
+  {
+    "Amount": 12,
+    "ExpansionID": "",
+    "ItemID": "TRADE_CHAGER_140010",
+    "ItemType": 16,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TRADE_CHARGER_012"
+  },
+  {
+    "Amount": 18,
+    "ExpansionID": "",
+    "ItemID": "TRADE_CHAGER_140010",
+    "ItemType": 16,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TRADE_CHARGER_018"
+  },
+  {
+    "Amount": 24,
+    "ExpansionID": "",
+    "ItemID": "TRADE_CHAGER_140010",
+    "ItemType": 16,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TRADE_CHARGER_024"
+  },
+  {
+    "Amount": 30,
+    "ExpansionID": "",
+    "ItemID": "TRADE_CHAGER_140010",
+    "ItemType": 16,
+    "ProbabilityPerMil": 0,
+    "RewardID": "BT_RW_ONCE_TRADE_CHARGER_030"
+  }
+]

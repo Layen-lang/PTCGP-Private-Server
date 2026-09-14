@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack;
+
+message Pack {
+  string pack_id = 1;
+  string expansion_id = 2;
+}

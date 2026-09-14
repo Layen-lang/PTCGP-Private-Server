@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack_shop;
+
+import "takasho/schema/lettuce_server/resource/pack/pack.proto";
+import "takasho/schema/lettuce_server/resource/pack_shop/pack_shop_product.proto";
+
+message PackShopPack {
+  takasho.schema.lettuce_server.resource.pack.Pack pack = 1;
+  repeated string featured_card_ids = 2;
+  repeated PackShopProduct products = 3;
+}

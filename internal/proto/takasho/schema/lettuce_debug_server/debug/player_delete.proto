@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PlayerDelete {
+  message Types {
+    message Request {
+      repeated string player_ids = 1;
+    }
+    message Response {
+      repeated string player_ids = 1;
+    }
+  }
+}

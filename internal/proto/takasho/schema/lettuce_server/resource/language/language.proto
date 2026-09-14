@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.language;
+
+enum Language {
+  LANGUAGE_UNSPECIFIED = 0;
+  LANGUAGE_JA = 1;
+  LANGUAGE_EN = 2;
+  LANGUAGE_CN = 3;
+  LANGUAGE_FR = 4;
+  LANGUAGE_IT = 5;
+  LANGUAGE_DE = 6;
+  LANGUAGE_ES = 7;
+  LANGUAGE_BR = 8;
+  LANGUAGE_KR = 9;
+  LANGUAGE_ES419 = 10;
+  LANGUAGE_ZH_CN = 11;
+  LANGUAGE_ID_ID = 12;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card_skin;
+
+message CardSkinStock {
+  string card_id = 1;
+  string card_skin_id = 2;
+  uint64 amount = 3;
+}

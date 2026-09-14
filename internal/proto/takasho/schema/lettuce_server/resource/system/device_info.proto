@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.system;
+
+import "takasho/schema/lettuce_server/resource/system/platform_type.proto";
+
+message DeviceInfo {
+  PlatformType platform = 1;
+  string identifier = 2;
+}

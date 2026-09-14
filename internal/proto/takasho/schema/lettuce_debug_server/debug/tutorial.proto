@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/tutorial_set_tutorial_step.proto";
+
+service Tutorial {
+  rpc SetTutorialStep (TutorialSetTutorialStep.Types.Request) returns (TutorialSetTutorialStep.Types.Response);
+}

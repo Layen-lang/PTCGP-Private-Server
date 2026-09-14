@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum EmblemStep {
+  EMBLEM_STEP_NO_EMBLEM = 0;
+  EMBLEM_STEP_WHITE = 1;
+  EMBLEM_STEP_BRONZE = 2;
+  EMBLEM_STEP_SILVER = 3;
+  EMBLEM_STEP_GOLD = 4;
+}

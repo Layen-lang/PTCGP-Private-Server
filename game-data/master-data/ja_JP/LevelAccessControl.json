@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (バトルは\nバトルの遊びかたの06を\nクリアするとオープンします\n\nバトルの遊びかたはバトルメニューの\n左下のボタンから確認できます)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (バトルメニューは\nプレイヤーレベルが3になると\nオープンします\n\nプレイヤーレベルはパック開封などで\nプレイヤー経験値を得ることで上がります)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (コレクションボードは\nプレイヤーレベルが4になると\nオープンします\n\nプレイヤーレベルはパック開封などで\nプレイヤー経験値を得ることで上がります)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (コレクションファイルは\nプレイヤーレベルが6になると\nオープンします\n\nプレイヤーレベルはパック開封などで\nプレイヤー経験値を得ることで上がります)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (デッキは\nバトルの遊びかたの06を\nクリアするとオープンします\n\nバトルの遊びかたはバトルメニューの\n左下のボタンから確認できます)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (デッキミッションは\nプレイヤーレベルが3になると\nオープンします\n\nプレイヤーレベルはパック開封などで\nプレイヤー経験値を得ることで上がります)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (ゲットチャレンジは\nプレイヤーレベルが2になると\nオープンします)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (トレードは\nプレイヤーレベルが3になると\nオープンします\n\nプレイヤーレベルはパック開封などで\nプレイヤー経験値を得ることで上がります)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

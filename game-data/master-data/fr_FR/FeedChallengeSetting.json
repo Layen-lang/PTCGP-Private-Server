@@ -1,0 +1,112 @@
+[
+  {
+    "Id": "CardSpecifiedInNumberFeedChallengeResetDays",
+    "Key": 19,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "CardSpecifiedInNumberFeedDisplayAmount",
+    "Key": 23,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "CardSpecifiedInNumberFeedDurationHours",
+    "Key": 25,
+    "ValueInt64": 2
+  },
+  {
+    "Id": "CardSpecifiedInNumberFeedMaxAmount",
+    "Key": 17,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "CardSpecifiedOverNumberFeedDisplayAmount",
+    "Key": 24,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "CardSpecifiedOverNumberFeedDurationHours",
+    "Key": 26,
+    "ValueInt64": 24
+  },
+  {
+    "Id": "CardSpecifiedOverNumberFeedMaxAmount",
+    "Key": 21,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "ChallengePowerManualHealLimit",
+    "Key": 15,
+    "ValueInt64": 8
+  },
+  {
+    "Id": "DeleteMinutesAfterExpiration",
+    "Key": 8,
+    "ValueInt64": 120
+  },
+  {
+    "Id": "ExpPerChallengePowerPerMil",
+    "Key": 9,
+    "ValueInt64": 15000
+  },
+  {
+    "Id": "ExpiredFeedMaxAmount",
+    "Key": 7,
+    "ValueInt64": 4
+  },
+  {
+    "Id": "FeedAmount",
+    "Key": 1,
+    "ValueInt64": 16
+  },
+  {
+    "Id": "FreeFeedMaxAmount",
+    "Key": 5,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "FreeFeedProbability",
+    "Key": 6,
+    "ValueInt64": 200
+  },
+  {
+    "Id": "FriendFeedMaxAmount",
+    "Key": 2,
+    "ValueInt64": 4
+  },
+  {
+    "Id": "HealSecondsPerPokeGold",
+    "Key": 14,
+    "ValueInt64": 7200
+  },
+  {
+    "Id": "LuckyFeedMaxAmount",
+    "Key": 3,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "LuckyFeedProbability",
+    "Key": 4,
+    "ValueInt64": 25
+  },
+  {
+    "Id": "MaxStamina",
+    "Key": 11,
+    "ValueInt64": 5
+  },
+  {
+    "Id": "PlayerFeedDurationMinute",
+    "Key": 0,
+    "ValueInt64": 240
+  },
+  {
+    "Id": "PokeGoldAmountForRevival",
+    "Key": 10,
+    "ValueInt64": 7
+  },
+  {
+    "Id": "StaminaRecoverSecond",
+    "Key": 12,
+    "ValueInt64": 43200
+  }
+]

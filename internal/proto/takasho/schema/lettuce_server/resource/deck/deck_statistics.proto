@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+message DeckStatistics {
+  message Types {
+    enum DeckMakeType {
+      DECK_MAKE_TYPE_UNSPECIFIED = 0;
+      DECK_MAKE_TYPE_NEW = 1;
+      DECK_MAKE_TYPE_THEME_RECIPE = 2;
+      DECK_MAKE_TYPE_COPY = 3;
+      DECK_MAKE_TYPE_UPDATE = 99;
+    }
+  }
+  DeckStatistics.Types.DeckMakeType deck_make_type = 1;
+  int64 auto_deck_make_flg = 2;
+}

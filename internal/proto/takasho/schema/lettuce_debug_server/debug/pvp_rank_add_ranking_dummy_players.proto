@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PvpRankAddRankingDummyPlayers {
+  message Types {
+    message Request {
+      string season_id = 1;
+      int32 num = 2;
+      int64 min_point = 3;
+      int64 max_point = 4;
+    }
+    message Response {
+      repeated string player_ids = 1;
+    }
+  }
+}

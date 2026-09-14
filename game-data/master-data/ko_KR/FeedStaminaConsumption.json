@@ -1,0 +1,68 @@
+[
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 3,
+    "FeedStaminaConsumptionID": "AR_1",
+    "Rarity": 500
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 1,
+    "FeedStaminaConsumptionID": "C_1",
+    "Rarity": 100
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "IM_1",
+    "Rarity": 800
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 3,
+    "FeedStaminaConsumptionID": "RR_1",
+    "Rarity": 400
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 2,
+    "FeedStaminaConsumptionID": "R_1",
+    "Rarity": 300
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "SAR_1",
+    "Rarity": 600
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "SR_1",
+    "Rarity": 700
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "SSR_1",
+    "Rarity": 860
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "S_1",
+    "Rarity": 830
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 4,
+    "FeedStaminaConsumptionID": "UR_1",
+    "Rarity": 900
+  },
+  {
+    "ChallengeNum": 1,
+    "ConsumptionAmount": 1,
+    "FeedStaminaConsumptionID": "U_1",
+    "Rarity": 200
+  }
+]

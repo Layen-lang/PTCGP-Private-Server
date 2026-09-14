@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_deck.proto";
+
+message PvpBattleClientReport {
+  int64 player_acquired_point = 1;
+  int64 player_max_damage = 2;
+  int64 opponent_acquired_point = 3;
+  int64 opponent_max_damage = 4;
+  int64 final_turn_number = 5;
+  PvpBattleDeck player_deck = 6;
+  bool first_turn_player = 7;
+  bool is_concede = 8;
+  int64 consume_time = 9;
+}

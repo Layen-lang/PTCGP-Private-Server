@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message AssetServiceGetVersions {
+  message Types {
+    enum Platform {
+      PLATFORM_UNSPECIFIED = 0;
+      PLATFORM_IOS = 1;
+      PLATFORM_ANDROID = 2;
+    }
+    message Master {
+      string master_version = 1;
+      string oyakata_revision = 2;
+      string master_memory_aladdin_hash = 3;
+      string comment = 4;
+      google.protobuf.Timestamp updated_at = 5;
+    }
+    message Asset {
+      string aladdin_hash = 1;
+      AssetServiceGetVersions.Types.Platform platform = 2;
+      string upload_username = 3;
+      string comment = 4;
+      google.protobuf.Timestamp updated_at = 5;
+    }
+    message AssetByPlatform {
+      AssetServiceGetVersions.Types.Platform platform = 1;
+      repeated AssetServiceGetVersions.Types.Asset assets = 2;
+    }
+    message ActiveMasterAndAsset {
+      string client_version = 1;
+      string master_version = 2;
+      string master_memory_aladdin_hash = 3;
+      string asset_aladdin_hash = 4;
+    }
+    message ActiveMasterAndAssetByPlatform {
+      AssetServiceGetVersions.Types.Platform platform = 1;
+      repeated AssetServiceGetVersions.Types.ActiveMasterAndAsset active_master_and_assets = 2;
+    }
+    message Request {
+      int32 num_of_items = 1;
+    }
+    message Response {
+      repeated AssetServiceGetVersions.Types.Master master_versions = 1;
+      repeated AssetServiceGetVersions.Types.AssetByPlatform assets = 2;
+      repeated AssetServiceGetVersions.Types.ActiveMasterAndAssetByPlatform active_master_and_assets = 3;
+    }
+  }
+}

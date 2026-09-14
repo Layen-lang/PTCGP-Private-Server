@@ -1,0 +1,9 @@
+[
+  {
+    "DescriptionMSID": "TRADE_ITEM_DESC_T1  (Oggetto non più utilizzato.\nScambialo con altri oggetti nel negozio.)",
+    "ID": "TRADE_ITEM_130010",
+    "NameMSID": "TRADE_ITEM_NAME_T1  (Gettoni scambio)",
+    "ScheduleID": "SC_INFINITE",
+    "SortOrderPriority": 1
+  }
+]

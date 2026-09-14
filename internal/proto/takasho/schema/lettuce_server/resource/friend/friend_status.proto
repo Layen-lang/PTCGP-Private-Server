@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.friend;
+
+enum FriendStatus {
+  FRIEND_STATUS_UNSPECIFIED = 0;
+  FRIEND_STATUS_FRIEND = 1;
+  FRIEND_STATUS_SENT_REQUEST = 2;
+  FRIEND_STATUS_RECEIVED_REQUEST = 3;
+}

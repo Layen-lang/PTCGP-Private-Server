@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+message FeedSharedPlayer {
+  string player_id = 1;
+  string nickname = 2;
+  string icon_id = 3;
+  bool is_friend = 4;
+  bool is_requesting_friend = 5;
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Si ottiene completando missioni e in altri modi.\nFa recuperare energia scambio in meno tempo.\nRiduce di un'ora l'attesa per fare uno scambio.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Clessidra scambio)",
+    "RecoveryDuration": 60
+  }
+]

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+message PackCeilPoint {
+  int64 amount = 2;
+  string pack_ceil_point_shared_group_id = 3;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+enum MatchingStance {
+  MATCHING_STANCE_UNSPECIFIED = 0;
+  MATCHING_STANCE_BEGINNER = 1;
+  MATCHING_STANCE_EXPERT = 2;
+  MATCHING_STANCE_ENJOY = 4;
+}

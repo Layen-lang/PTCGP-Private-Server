@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.friend;
+
+import "google/protobuf/timestamp.proto";
+
+message FriendRequest {
+  string from_player_id = 1;
+  string to_player_id = 2;
+  google.protobuf.Timestamp created_at = 3;
+}

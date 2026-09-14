@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_matched_player.proto";
+
+message PvpRankEstablishedMatch {
+  string battle_id = 1;
+  bool is_bot = 2;
+  PvpRankMatchedPlayer self = 3;
+  PvpRankMatchedPlayer opponent_player = 4;
+  string bot_deck_id = 5;
+}

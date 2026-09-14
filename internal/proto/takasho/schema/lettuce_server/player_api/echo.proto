@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/echo_echo_v1.proto";
+
+service Echo {
+  rpc EchoV1 (EchoEchoV1.Types.Request) returns (EchoEchoV1.Types.Response);
+}

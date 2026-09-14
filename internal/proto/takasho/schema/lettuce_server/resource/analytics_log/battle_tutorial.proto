@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message BattleTutorial {
+  string tutorial_stage_id = 1;
+  int64 step_no = 2;
+}

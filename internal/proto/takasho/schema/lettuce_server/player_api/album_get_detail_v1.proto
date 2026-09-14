@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/album/album.proto";
+
+message AlbumGetDetailV1 {
+  message Types {
+    message Request {
+      uint64 album_id = 1;
+    }
+    message Response {
+      uint64 card_limit_num = 1;
+      takasho.schema.lettuce_server.resource.album.Album album = 3;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "FeedSnoopID": "FeedSnoop_A2b_01",
+    "ScheduleID": "SC_CM_2503010_01"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A3_01",
+    "ScheduleID": "SC_CM_2504010_02"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A3a_01",
+    "ScheduleID": "SC_CM_2505010_01"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A3b_01",
+    "ScheduleID": "SC_CM_2506000_01"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A4_01",
+    "ScheduleID": "SC_CM_2507000_01"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A4a_01",
+    "ScheduleID": "SC_CM_2508000_PKW_01"
+  },
+  {
+    "FeedSnoopID": "FeedSnoop_A4b_01",
+    "ScheduleID": "SC_CM_2509000_PKW_01"
+  }
+]

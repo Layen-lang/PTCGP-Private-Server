@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/player_setting_get_info_v1.proto";
+import "takasho/schema/lettuce_server/player_api/player_setting_save_info_v1.proto";
+
+service PlayerSettings {
+  rpc GetInfoV1 (PlayerSettingGetInfoV1.Types.Request) returns (PlayerSettingGetInfoV1.Types.Response);
+  rpc SaveInfoV1 (PlayerSettingSaveInfoV1.Types.Request) returns (PlayerSettingSaveInfoV1.Types.Response);
+}

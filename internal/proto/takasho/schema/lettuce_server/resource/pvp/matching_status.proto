@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum MatchingStatus {
+  MATCHING_STATUS_UNSPECIFIED = 0;
+  MATCHING_STATUS_READY = 1;
+  MATCHING_STATUS_ESTABLISHED = 2;
+  MATCHING_STATUS_EXPIRED = 3;
+}

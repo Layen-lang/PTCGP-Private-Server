@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pass;
+
+import "takasho/schema/lettuce_server/resource/pass/pass_entitlement.proto";
+
+message PassEntitlementHistory {
+  string pass_id = 1;
+  repeated PassEntitlement entitlements = 2;
+}

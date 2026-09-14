@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pack_get_detail_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pack_get_pack_power_v1.proto";
+
+service Pack {
+  rpc GetPackPowerV1 (PackGetPackPowerV1.Types.Request) returns (PackGetPackPowerV1.Types.Response);
+  rpc GetDetailV2 (PackGetDetailV2.Types.Request) returns (PackGetDetailV2.Types.Response);
+}

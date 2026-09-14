@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Reaktiviert eine abgelaufene Wunderwahl.\nDabei muss neben Wunder-Ausdauer jeweils ein\nExemplar verbraucht werden.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Zeitsprung-Uhr)",
+    "SortOrderPriority": 1
+  }
+]

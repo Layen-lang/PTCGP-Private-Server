@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/poke_gold_shop_add_purchase_summaries.proto";
+import "takasho/schema/lettuce_debug_server/debug/poke_gold_shop_delete_purchase_summaries.proto";
+
+service PokeGoldShop {
+  rpc AddPurchaseSummaries (PokeGoldShopAddPurchaseSummaries.Types.Request) returns (PokeGoldShopAddPurchaseSummaries.Types.Response);
+  rpc DeletePurchaseSummaries (PokeGoldShopDeletePurchaseSummaries.Types.Request) returns (PokeGoldShopDeletePurchaseSummaries.Types.Response);
+}

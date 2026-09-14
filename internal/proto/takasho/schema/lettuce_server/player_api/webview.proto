@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/webview_get_about_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_e_commerce_law_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_game_hint_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_how_to_update_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_news_detail_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_news_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_payment_service_act_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_privacy_policy_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_specified_commercial_transaction_law_url_v1.proto";
+import "takasho/schema/lettuce_server/player_api/webview_get_terms_of_service_url_v1.proto";
+
+service Webview {
+  rpc GetNewsV1 (WebviewGetNewsV1.Types.Request) returns (WebviewGetNewsV1.Types.Response);
+  rpc GetNewsDetailUrlV1 (WebviewGetNewsDetailUrlV1.Types.Request) returns (WebviewGetNewsDetailUrlV1.Types.Response);
+  rpc GetGameHintUrlV1 (WebviewGetGameHintUrlV1.Types.Request) returns (WebviewGetGameHintUrlV1.Types.Response);
+  rpc GetAboutUrlV1 (WebviewGetAboutUrlV1.Types.Request) returns (WebviewGetAboutUrlV1.Types.Response);
+  rpc GetTermsOfServiceUrlV1 (WebviewGetTermsOfServiceUrlV1.Types.Request) returns (WebviewGetTermsOfServiceUrlV1.Types.Response);
+  rpc GetPrivacyPolicyUrlV1 (WebviewGetPrivacyPolicyUrlV1.Types.Request) returns (WebviewGetPrivacyPolicyUrlV1.Types.Response);
+  rpc GetPaymentServiceActUrlV1 (WebviewGetPaymentServiceActUrlV1.Types.Request) returns (WebviewGetPaymentServiceActUrlV1.Types.Response);
+  rpc GetSpecifiedCommercialTransactionLawUrlV1 (WebviewGetSpecifiedCommercialTransactionLawUrlV1.Types.Request) returns (WebviewGetSpecifiedCommercialTransactionLawUrlV1.Types.Response);
+  rpc GetECommerceLawUrlV1 (WebviewGetECommerceLawUrlV1.Types.Request) returns (WebviewGetECommerceLawUrlV1.Types.Response);
+  rpc GetHowToUpdateUrlV1 (WebviewGetHowToUpdateUrlV1.Types.Request) returns (WebviewGetHowToUpdateUrlV1.Types.Response);
+}

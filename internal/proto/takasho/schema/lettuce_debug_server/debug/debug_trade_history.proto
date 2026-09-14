@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message DebugTradeHistory {
+  string trade_session_id = 1;
+  string partner_player_id = 2;
+  takasho.schema.lettuce_server.resource.card.CardInstance my_submission = 3;
+  takasho.schema.lettuce_server.resource.card.CardInstance partner_submission = 4;
+  google.protobuf.Timestamp completed_at = 5;
+  int64 my_submission_card_last_amount = 6;
+  int64 partner_submission_card_last_amount = 7;
+}

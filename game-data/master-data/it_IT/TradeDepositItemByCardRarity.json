@@ -1,0 +1,92 @@
+[
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 4000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_AR",
+    "Rarity": 500,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 0,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_C",
+    "Rarity": 100,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 1200,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_R",
+    "Rarity": 300,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 5000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_RR",
+    "Rarity": 400,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 10000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_S",
+    "Rarity": 830,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 25000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_SAR",
+    "Rarity": 700,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 25000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_SR",
+    "Rarity": 600,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 30000,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_SSR",
+    "Rarity": 860,
+    "ScheduleID": ""
+  },
+  {
+    "CardKind": 0,
+    "DepositBrightSandAmount": 0,
+    "DepositTradeTicketAmount": 0,
+    "DepositTradeTicketID": "",
+    "ExpansionID": "",
+    "ID": "NORMAL_U",
+    "Rarity": 200,
+    "ScheduleID": ""
+  }
+]

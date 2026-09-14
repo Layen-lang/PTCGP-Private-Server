@@ -1,0 +1,527 @@
+[
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100010_PACK_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 180,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100010_PACK_A1_MSID  (팩 파워를 사용해 확장팩을\n[Num:Int id=\"0\" max_length=\"5\" ]번 개봉했다)",
+    "Type": 9
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100020_FEED_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 170,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100020_FEED_A1_MSID  (겟 챌린지를 [Num:Int max_length=\"5\" id=\"0\" ]번 플레이했다)",
+    "Type": 11
+  },
+  {
+    "BronzeAmount": 500,
+    "BronzeRewards": [],
+    "Category": 1,
+    "GoldAmount": 2000,
+    "GoldRewards": [],
+    "ID": "TROPHY_100030_ALBUM_A1",
+    "RainbowAmount": 5000,
+    "RainbowRewards": [],
+    "SilverAmount": 1000,
+    "SilverRewards": [],
+    "SortOrder": 160,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100190_ALBUM_A1_MSID  (도감에 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 등록했다)",
+    "Type": 36
+  },
+  {
+    "BronzeAmount": 500,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 5000,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100040_DECK_A1",
+    "RainbowAmount": 10000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 1000,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 150,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100040_DECK_A1_MSID  (카드를 합계 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 12
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100050_Grass_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 140,
+    "TargetIDs": [
+      "2"
+    ],
+    "TrophyTextMSID": "TROPHY_100050_Grass_A1_MSID  (풀타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100060_Fire_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 130,
+    "TargetIDs": [
+      "3"
+    ],
+    "TrophyTextMSID": "TROPHY_100060_Fire_A1_MSID  (불꽃타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100070_Water_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 120,
+    "TargetIDs": [
+      "4"
+    ],
+    "TrophyTextMSID": "TROPHY_100070_Water_A1_MSID  (물타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100080_Lightning_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 110,
+    "TargetIDs": [
+      "5"
+    ],
+    "TrophyTextMSID": "TROPHY_100080_Lightning_A1_MSID  (번개타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100090_Psychic_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 100,
+    "TargetIDs": [
+      "6"
+    ],
+    "TrophyTextMSID": "TROPHY_100090_Psychic_A1_MSID  (초타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100100_Fighting_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 90,
+    "TargetIDs": [
+      "7"
+    ],
+    "TrophyTextMSID": "TROPHY_100100_Fighting_A1_MSID  (격투타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100110_Darkness_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 80,
+    "TargetIDs": [
+      "8"
+    ],
+    "TrophyTextMSID": "TROPHY_100110_Darkness_A1_MSID  (악타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100120_Metal_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 70,
+    "TargetIDs": [
+      "9"
+    ],
+    "TrophyTextMSID": "TROPHY_100120_Metal_A1_MSID  (강철타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100130_Dragon_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 60,
+    "TargetIDs": [
+      "10"
+    ],
+    "TrophyTextMSID": "TROPHY_100130_Dragon_A1_MSID  (드래곤타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100140_Colorless_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 50,
+    "TargetIDs": [
+      "1"
+    ],
+    "TrophyTextMSID": "TROPHY_100140_Colorless_A1_MSID  (무색타입 카드를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 14
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100150_SUPPORT_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 40,
+    "TargetIDs": [
+      "1"
+    ],
+    "TrophyTextMSID": "TROPHY_100150_SUPPORT_A1_MSID  (서포트를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100160_MONSTERBALL_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 30,
+    "TargetIDs": [
+      "2",
+      "4"
+    ],
+    "TrophyTextMSID": "TROPHY_100160_MONSTERBALL_A1_MSID  (아이템을 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 3,
+    "GoldAmount": 1000,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100170_CUP_A1",
+    "RainbowAmount": 10000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 500,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 20,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100170_CUP_A1_MSID  (「누군가와」 배틀에서 [Num:Int max_length=\"5\" id=\"0\" ]번 승리했다)",
+    "Type": 4
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 3,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100180_RIBBONCUP_A1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 10,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100180_RIBBONCUP_A1_MSID  (「혼자서」 배틀에서 [Num:Int max_length=\"5\" id=\"0\" ]번 승리했다)",
+    "Type": 8
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 250,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100210_STADIUM_B2",
+    "RainbowAmount": 500,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 23,
+    "TargetIDs": [
+      "5"
+    ],
+    "TrophyTextMSID": "TROPHY_100210_STADIUM_B2_MSID  (스타디움을 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 50,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 2,
+    "GoldAmount": 250,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100220_GOTSU_A2",
+    "RainbowAmount": 500,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 100,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 25,
+    "TargetIDs": [
+      "3"
+    ],
+    "TrophyTextMSID": "TROPHY_100220_GOTSU_A2_MSID  (포켓몬의 도구를 [Num:Int max_length=\"5\" id=\"0\" ]장 모았다)",
+    "Type": 29
+  },
+  {
+    "BronzeAmount": 100,
+    "BronzeRewards": [
+      "TROPHY_RW_CURRENCY_001"
+    ],
+    "Category": 1,
+    "GoldAmount": 500,
+    "GoldRewards": [
+      "TROPHY_RW_CURRENCY_003"
+    ],
+    "ID": "TROPHY_100250_GIVECARD_B1",
+    "RainbowAmount": 1000,
+    "RainbowRewards": [
+      "TROPHY_RW_CURRENCY_004"
+    ],
+    "SilverAmount": 250,
+    "SilverRewards": [
+      "TROPHY_RW_CURRENCY_002"
+    ],
+    "SortOrder": 165,
+    "TargetIDs": [],
+    "TrophyTextMSID": "TROPHY_100250_GIVECARD_B1_MSID  (나눠주기를 [Num:Int max_length=\"5\" id=\"0\" ]번 했다)",
+    "Type": 49
+  }
+]

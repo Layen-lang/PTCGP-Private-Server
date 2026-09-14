@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (Die Zahl 16 erinnert an Dragoran!\nTrotz seines wuchtigen und\nmassiven Körpers kann es fliegen.\nEs ist in der Lage, die Welt in nur\n16 Stunden zu umrunden.)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (Die Zahl 25 erinnert an Pikachu,\ndas ist seine Pokédex-Nummer!\nWenn sich mehrere dieser Pokémon\nversammeln, kann ihre geballte\nEnergie Blitzgewitter erzeugen.)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (Die Zahl 50 erinnert an Digda,\ndas ist seine Pokédex-Nummer!\nDieses Pokémon lebt 1 m unter der\nErde. Es frisst Wurzeln und kommt\nhin und wieder an die Oberfläche.)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (Die Zahl 80 erinnert an Tentoxa!\nTentoxa kann seine 80 Tentakel\nbeliebig ausfahren und einziehen.\nEs breitet sie netzartig aus, um Beute\nzu fangen und dann zu vergiften.)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (Die Zahl 100 erinnert an Machollo!\nSein ganzer Körper besteht aus\nMuskeln. Auch wenn es nur so groß\nwie ein Menschenkind ist, kann es\n100 Erwachsene jonglieren.)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (Die Zahl 151 erinnert an den\nPokédex! In Pokémon Rote Edition\nund Pokémon Blaue Edition\nwurden 151 Pokémon eingeführt.)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (Die Zahl 180 erinnert an Noctuh!\nMuss es nachdenken, dreht es\nseinen Kopf um 180 Grad, um so\nseinen Intellekt zu schärfen.)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (Die Zahl 250 erinnert an Ho-Oh,\ndas ist seine Pokédex-Nummer!\nEs wird sich dem Trainer offenbaren,\nder reinen Herzens ist, und ihm\nseine bunten Schwingen zeigen.)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (Die Zahl 300 erinnert an Florges!\nEinst soll es ein Florges gegeben\nhaben, das den Garten eines\nSchlosses über eine Zeitspanne von\nmehr als 300 Jahren beschützt und\ngepflegt hat.)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (Die Zahl 500 erinnert an Kryppuk!\nAls Sühne für vor 500 Jahren\nbegangene Untaten wurde dieses\nPokémon in den Spalt eines\nSpiritkerns gebannt.)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (Die Zahl 777 erinnert an Togedemaru,\ndas ist seine Pokédex-Nummer!\nBei Gefahr rollt es sich zusammen,\nstellt seine Rückenstacheln auf und\nschießt willkürlich mit Elektrizität\num sich.)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (Die Zahl 1000 erinnert an Jirachi!\nMan sagt, es kann alle 1000 Jahre\nfür eine Woche jeden Wunsch\nerfüllen.)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (Die Zahl 1500 erinnert an\nGierspenst! Es entstand vor etwa\n1500 Jahren in einer Schatztruhe.\nWenn Diebe versuchen, den Schatz\nzu stehlen, saugt es ihnen die\nLebensenergie aus.)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (Die Zahl 2000 erinnert an Meistagrif!\nMan nimmt an, dass es der\nMenschheit vor circa 2000 Jahren\ndas Betonmischen beigebracht hat.)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (Die Zahl 5000 erinnert an Simsala!\nEs hat einen IQ von 5000. Seine\nPsycho-Kräfte sind so stark\nausgeprägt, dass man Kopfweh\nbekommt, wenn man nur neben\nihm steht.)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (Die Zahl 10 000 erinnert an\nSchillok! Man sagt, es werde\n10 000 Jahre alt. Sein buschiger\nSchweif ist ein beliebtes Symbol\nfür Langlebigkeit.)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (Die Zahl 15 000 erinnert an Riffex!\nDurch wildes Kratzen an seinem\nBrustfortsatz erzeugt es Stromstöße,\ndie mit Leichtigkeit eine Stärke von\n15 000 Volt übersteigen.)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (Die Zahl 20 000 erinnert an\nLepumentas! Dieses rätselhafte\nPokémon ist aus einer Lehmpuppe\nentstanden, die vor 20 000 Jahren\nvon einem uralten Volk angefertigt\nwurde.)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (Die Zahl 100 000 erinnert an Raichu!\nEs kann bis zu 100 000 V freisetzen\nund dadurch sogar Gegner, die viel\ngrößer sind als es selbst, mit einem\nSchlag außer Gefecht setzen.)",
+    "Threshold": 100000
+  }
+]

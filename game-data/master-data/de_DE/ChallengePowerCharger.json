@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (Verkürzt die Zeit bis zur nächsten Wunderwahl\num eine Stunde. Unter anderem erhältlich\nals Missionsbelohnung.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (Wunder-Sanduhr)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

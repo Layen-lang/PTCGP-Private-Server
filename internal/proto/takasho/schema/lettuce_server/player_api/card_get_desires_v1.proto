@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/desired_card.proto";
+
+message CardGetDesiresV1 {
+  message Types {
+    message Request {
+      string player_id = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.card.DesiredCard desired_cards = 1;
+    }
+  }
+}

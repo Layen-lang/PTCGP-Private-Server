@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+
+message PlayerResourcesGetNewEmblemArrivalV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item.InventoryItems new_arrivals = 1;
+      takasho.schema.lettuce_server.resource.player_resources.PlayerResources player_resources = 2;
+    }
+  }
+}

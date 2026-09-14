@@ -1,0 +1,134 @@
+[
+  {
+    "Amount": 210,
+    "ID": "BrightSandDropSetting_AR",
+    "Rarity": 500,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 470,
+    "ID": "BrightSandDropSetting_AR_A4",
+    "Rarity": 500,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 10,
+    "ID": "BrightSandDropSetting_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 20,
+    "ID": "BrightSandDropSetting_C_A4",
+    "Rarity": 100,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 1760,
+    "ID": "BrightSandDropSetting_IM",
+    "Rarity": 800,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 5400,
+    "ID": "BrightSandDropSetting_IM_A4",
+    "Rarity": 800,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 100,
+    "ID": "BrightSandDropSetting_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 300,
+    "ID": "BrightSandDropSetting_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 720,
+    "ID": "BrightSandDropSetting_RR_A4",
+    "Rarity": 400,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 240,
+    "ID": "BrightSandDropSetting_R_A4",
+    "Rarity": 300,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 600,
+    "ID": "BrightSandDropSetting_S",
+    "Rarity": 830,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 870,
+    "ID": "BrightSandDropSetting_SAR",
+    "Rarity": 600,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 2400,
+    "ID": "BrightSandDropSetting_SAR_A4",
+    "Rarity": 600,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 870,
+    "ID": "BrightSandDropSetting_SR",
+    "Rarity": 700,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 2400,
+    "ID": "BrightSandDropSetting_SR_A4",
+    "Rarity": 700,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 1300,
+    "ID": "BrightSandDropSetting_SSR",
+    "Rarity": 860,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 3600,
+    "ID": "BrightSandDropSetting_SSR_A4",
+    "Rarity": 860,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 1700,
+    "ID": "BrightSandDropSetting_S_A4",
+    "Rarity": 830,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 20,
+    "ID": "BrightSandDropSetting_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 3600,
+    "ID": "BrightSandDropSetting_UR",
+    "Rarity": 900,
+    "ScheduleID": "SC_TRADE_250700_01"
+  },
+  {
+    "Amount": 30000,
+    "ID": "BrightSandDropSetting_UR_A4",
+    "Rarity": 900,
+    "ScheduleID": "SC_TRADE_250700_02"
+  },
+  {
+    "Amount": 40,
+    "ID": "BrightSandDropSetting_U_A4",
+    "Rarity": 200,
+    "ScheduleID": "SC_TRADE_250700_02"
+  }
+]

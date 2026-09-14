@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_my_past_rankings.proto";
+
+message PvpRankFetchMyPastSeasonRankingsV1 {
+  message Types {
+    message Request {
+      repeated string season_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.pvp.PvpRankMyPastRankings rankings = 1;
+    }
+  }
+}

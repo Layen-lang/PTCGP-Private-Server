@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "google/protobuf/timestamp.proto";
+
+message TradeTicket {
+  string id = 1;
+  int64 amount = 2;
+  google.protobuf.Timestamp expire_at = 3;
+}

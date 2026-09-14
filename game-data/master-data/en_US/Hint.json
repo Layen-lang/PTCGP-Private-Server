@@ -1,0 +1,2546 @@
+[
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 021010",
+    "IconID": "cmn_pict_effect",
+    "ParentID": "",
+    "Priority": 1375,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902fee0",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_210"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 021020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 021010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902fee0",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_860",
+    "TitleMSID": "GAME_HINT_TITLE_860"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 021030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 021010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902fee0",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_870",
+    "TitleMSID": "GAME_HINT_TITLE_870"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 021040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 021010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "69f00690",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_930",
+    "TitleMSID": "GAME_HINT_TITLE_930"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 021050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 021010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "69f00690",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_940",
+    "TitleMSID": "GAME_HINT_TITLE_940"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 022000",
+    "IconID": "cmn_pict_social_cardshare",
+    "ParentID": "",
+    "Priority": 1330,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902b890",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_220"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 022010",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 022000",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902b890",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_880",
+    "TitleMSID": "GAME_HINT_TITLE_880"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 022020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 022000",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902b890",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_890",
+    "TitleMSID": "GAME_HINT_TITLE_890"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_ 022030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_ 022000",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6902b890",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_900",
+    "TitleMSID": "GAME_HINT_TITLE_900"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_001010",
+    "IconID": "cmn_pict_tutorial",
+    "ParentID": "",
+    "Priority": 2000,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_010"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_001030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_001010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_020",
+    "TitleMSID": "GAME_HINT_TITLE_020"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_002010",
+    "IconID": "cmm_pict_help",
+    "ParentID": "",
+    "Priority": 1900,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_020"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_002020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_002010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_030",
+    "TitleMSID": "GAME_HINT_TITLE_030"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_002030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_002010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_040",
+    "TitleMSID": "GAME_HINT_TITLE_040"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_002040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_002010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_050",
+    "TitleMSID": "GAME_HINT_TITLE_050"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_004010",
+    "IconID": "cmn_pict_pack",
+    "ParentID": "",
+    "Priority": 1700,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_040"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_004020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_004010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_080",
+    "TitleMSID": "GAME_HINT_TITLE_080"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_004050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_004010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_110",
+    "TitleMSID": "GAME_HINT_TITLE_110"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_004060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_004010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_590",
+    "TitleMSID": "GAME_HINT_TITLE_590"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_005010",
+    "IconID": "cmn_pict_feed",
+    "ParentID": "",
+    "Priority": 1600,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_050"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_005020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_005010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_120",
+    "TitleMSID": "GAME_HINT_TITLE_120"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_005030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_005010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_130",
+    "TitleMSID": "GAME_HINT_TITLE_130"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_005040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_005010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_140",
+    "TitleMSID": "GAME_HINT_TITLE_140"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_005050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_005010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_600",
+    "TitleMSID": "GAME_HINT_TITLE_600"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006010",
+    "IconID": "cmn_pict_card",
+    "ParentID": "",
+    "Priority": 1800,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_060"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_150",
+    "TitleMSID": "GAME_HINT_TITLE_150"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_160",
+    "TitleMSID": "GAME_HINT_TITLE_160"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_170",
+    "TitleMSID": "GAME_HINT_TITLE_170"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_180",
+    "TitleMSID": "GAME_HINT_TITLE_180"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_190",
+    "TitleMSID": "GAME_HINT_TITLE_190"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006065",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_195",
+    "TitleMSID": "GAME_HINT_TITLE_195"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006090",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_620",
+    "TitleMSID": "GAME_HINT_TITLE_620"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_006100",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_630",
+    "TitleMSID": "GAME_HINT_TITLE_630"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007010",
+    "IconID": "cmn_pict_card",
+    "ParentID": "",
+    "Priority": 1400,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_070"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_220",
+    "TitleMSID": "GAME_HINT_TITLE_220"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_230",
+    "TitleMSID": "GAME_HINT_TITLE_230"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_240",
+    "TitleMSID": "GAME_HINT_TITLE_240"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_250",
+    "TitleMSID": "GAME_HINT_TITLE_250"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_260",
+    "TitleMSID": "GAME_HINT_TITLE_260"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_007070",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_650",
+    "TitleMSID": "GAME_HINT_TITLE_650"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008010",
+    "IconID": "cmn_pict_collection_file",
+    "ParentID": "",
+    "Priority": 1300,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_080"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_270",
+    "TitleMSID": "GAME_HINT_TITLE_270"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_280",
+    "TitleMSID": "GAME_HINT_TITLE_280"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_290",
+    "TitleMSID": "GAME_HINT_TITLE_290"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_300",
+    "TitleMSID": "GAME_HINT_TITLE_300"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_310",
+    "TitleMSID": "GAME_HINT_TITLE_310"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_008070",
+    "IconID": "",
+    "ParentID": "GAME_HINT_008010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_610",
+    "TitleMSID": "GAME_HINT_TITLE_610"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009010",
+    "IconID": "cmn_pict_collection_board",
+    "ParentID": "",
+    "Priority": 1200,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_090"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_009010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_320",
+    "TitleMSID": "GAME_HINT_TITLE_320"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_009010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_330",
+    "TitleMSID": "GAME_HINT_TITLE_330"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_009010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_340",
+    "TitleMSID": "GAME_HINT_TITLE_340"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_009010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_350",
+    "TitleMSID": "GAME_HINT_TITLE_350"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_009060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_009010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_360",
+    "TitleMSID": "GAME_HINT_TITLE_360"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_010010",
+    "IconID": "cmn_pict_mission",
+    "ParentID": "",
+    "Priority": 1100,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_100"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_010020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_010010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_370",
+    "TitleMSID": "GAME_HINT_TITLE_370"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_011010",
+    "IconID": "cmn_pict_deck",
+    "ParentID": "",
+    "Priority": 1000,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_110"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_011020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_011010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_380",
+    "TitleMSID": "GAME_HINT_TITLE_380"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_011030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_011010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_390",
+    "TitleMSID": "GAME_HINT_TITLE_390"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_011040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_011010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_400",
+    "TitleMSID": "GAME_HINT_TITLE_400"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_011050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_011010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_410",
+    "TitleMSID": "GAME_HINT_TITLE_410"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012010",
+    "IconID": "cmn_pict_shop",
+    "ParentID": "",
+    "Priority": 900,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_120"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_012010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_420",
+    "TitleMSID": "GAME_HINT_TITLE_420"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_012010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_640",
+    "TitleMSID": "GAME_HINT_TITLE_640"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_012010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_660",
+    "TitleMSID": "GAME_HINT_TITLE_660"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_012010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_670",
+    "TitleMSID": "GAME_HINT_TITLE_670"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_012070",
+    "IconID": "",
+    "ParentID": "GAME_HINT_012010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_680",
+    "TitleMSID": "GAME_HINT_TITLE_680"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_013010",
+    "IconID": "cmn_pict_player",
+    "ParentID": "",
+    "Priority": 800,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_130"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_013020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_013010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_430",
+    "TitleMSID": "GAME_HINT_TITLE_430"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_013030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_013010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_440",
+    "TitleMSID": "GAME_HINT_TITLE_440"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_013040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_013010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_450",
+    "TitleMSID": "GAME_HINT_TITLE_450"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_014010",
+    "IconID": "cmn_pict_social_friend",
+    "ParentID": "",
+    "Priority": 700,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_140"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_014020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_014010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_460",
+    "TitleMSID": "GAME_HINT_TITLE_460"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_015010",
+    "IconID": "cmn_pict_battle",
+    "ParentID": "",
+    "Priority": 600,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_150"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_015020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_015010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_470",
+    "TitleMSID": "GAME_HINT_TITLE_470"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_015030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_015010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_480",
+    "TitleMSID": "GAME_HINT_TITLE_480"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_015040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_015010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_500",
+    "TitleMSID": "GAME_HINT_TITLE_500"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_015050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_015010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_510",
+    "TitleMSID": "GAME_HINT_TITLE_510"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_016010",
+    "IconID": "cmn_pict_others",
+    "ParentID": "",
+    "Priority": 400,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_160"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_016020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_016010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_490",
+    "TitleMSID": "GAME_HINT_TITLE_490"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_016030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_016010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "69f00690",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_910",
+    "TitleMSID": "GAME_HINT_TITLE_910"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017010",
+    "IconID": "cmn_pict_battle",
+    "ParentID": "",
+    "Priority": 500,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_170"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_520",
+    "TitleMSID": "GAME_HINT_TITLE_520"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_530",
+    "TitleMSID": "GAME_HINT_TITLE_530"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_540",
+    "TitleMSID": "GAME_HINT_TITLE_540"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_550",
+    "TitleMSID": "GAME_HINT_TITLE_550"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_560",
+    "TitleMSID": "GAME_HINT_TITLE_560"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017070",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_570",
+    "TitleMSID": "GAME_HINT_TITLE_570"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_017080",
+    "IconID": "",
+    "ParentID": "GAME_HINT_017010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_580",
+    "TitleMSID": "GAME_HINT_TITLE_580"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_018010",
+    "IconID": "cmn_pict_pack",
+    "ParentID": "",
+    "Priority": 1750,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_180"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_018020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_018010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_090",
+    "TitleMSID": "GAME_HINT_TITLE_090"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_018030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_018010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_100",
+    "TitleMSID": "GAME_HINT_TITLE_100"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_018040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_018010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_200",
+    "TitleMSID": "GAME_HINT_TITLE_200"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_018050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_018010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_210",
+    "TitleMSID": "GAME_HINT_TITLE_210"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019010",
+    "IconID": "cmn_pict_trade",
+    "ParentID": "",
+    "Priority": 1350,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_190"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_690",
+    "TitleMSID": "GAME_HINT_TITLE_690"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019030",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_700",
+    "TitleMSID": "GAME_HINT_TITLE_700"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019040",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_740",
+    "TitleMSID": "GAME_HINT_TITLE_740"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019050",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_750",
+    "TitleMSID": "GAME_HINT_TITLE_750"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_760",
+    "TitleMSID": "GAME_HINT_TITLE_760"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019070",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_710",
+    "TitleMSID": "GAME_HINT_TITLE_710"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019080",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_720",
+    "TitleMSID": "GAME_HINT_TITLE_720"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019090",
+    "IconID": "",
+    "ParentID": "GAME_HINT_019010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "67997d90",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_730",
+    "TitleMSID": "GAME_HINT_TITLE_730"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_019100",
+    "IconID": "",
+    "ParentID": "GAME_HINT_006010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_770",
+    "TitleMSID": "GAME_HINT_TITLE_770"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_021060",
+    "IconID": "",
+    "ParentID": "GAME_HINT_007010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "6a6aa210",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_950",
+    "TitleMSID": "GAME_HINT_TITLE_950"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_023010",
+    "IconID": "cmn_pict_battle",
+    "ParentID": "",
+    "Priority": 450,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "69f00690",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "",
+    "TitleMSID": "GAME_HINT_CATEGORY_230"
+  },
+  {
+    "AModeOnly": false,
+    "ID": "GAME_HINT_023020",
+    "IconID": "",
+    "ParentID": "GAME_HINT_023010",
+    "Priority": 0,
+    "ShowCloseAt": [
+      {
+        "$data": "00000000",
+        "$ext": -1
+      },
+      0
+    ],
+    "ShowOS": 0,
+    "ShowStartAt": [
+      {
+        "$data": "69f00690",
+        "$ext": -1
+      },
+      0
+    ],
+    "TextMSID": "GAME_HINT_DESCRIPTION_920",
+    "TitleMSID": "GAME_HINT_TITLE_920"
+  }
+]

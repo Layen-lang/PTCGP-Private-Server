@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/mount/mount.proto";
+
+message MountListV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      uint64 mount_limit_num = 1;
+      repeated takasho.schema.lettuce_server.resource.mount.Mount mounts = 2;
+      uint64 like_count = 3;
+    }
+  }
+}

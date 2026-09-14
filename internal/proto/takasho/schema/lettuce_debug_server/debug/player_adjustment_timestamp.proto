@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PlayerAdjustmentTimestamp {
+  message Types {
+    message Request {
+      bool enabled = 1;
+      google.protobuf.Timestamp timestamp = 2;
+    }
+    message Response {
+    }
+  }
+}

@@ -1,0 +1,524 @@
+[
+  {
+    "AssetID": "TICKET_ITSUKA",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ITSUKA  (此票券目前還無法使用。\n敬請期待！)",
+    "ID": "ITSUKA_TICKET",
+    "NameMSID": "ITEM_NAME_TICKET_ITSUKA  (有朝一日券)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_0002010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV1  (活動商店券（喵喵）)",
+    "ScheduleID": "SC_SH_0002010_01",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_0002010_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV2  (活動商店券（妙蛙花）)",
+    "ScheduleID": "SC_SH_0002010_07",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2408010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV3  (活動商店券（水箭龜）)",
+    "ScheduleID": "SC_SH_2408010_01",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2409010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV4  (活動商店券（小火焰猴）)",
+    "ScheduleID": "SC_SH_2409010_01",
+    "SortOrderPriority": 70,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2502010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV5  (活動商店券（瑪納霏）)",
+    "ScheduleID": "SC_SH_2502010_01",
+    "SortOrderPriority": 90,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2503010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV7  (活動商店券（路卡利歐）)",
+    "ScheduleID": "SC_SH_2503010_01",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2504010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV8  (活動商店券（索爾迦雷歐）)",
+    "ScheduleID": "SC_SH_2504010_01",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2505010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV9  (活動商店券（究極奈克洛茲瑪）)",
+    "ScheduleID": "SC_SH_2505010_01",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2506000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV10  (活動商店券（銀伴戰獸）)",
+    "ScheduleID": "SC_SH_2506000_01",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2507000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV11  (活動商店券（班基拉斯）)",
+    "ScheduleID": "SC_SH_2507000_01",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2508000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV12  (活動商店券（沼王）)",
+    "ScheduleID": "SC_SH_2508000_01",
+    "SortOrderPriority": 220,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2509000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV15  (活動商店券（大木博士）)",
+    "ScheduleID": "SC_SH_2509000_01",
+    "SortOrderPriority": 240,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV13  (活動商店券（可達鴨）)",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 260,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV14  (活動商店券（超級暴鯉龍）)",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 270,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_04",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV17  (活動商店券（復刻PROMO掉落活動2025）)",
+    "ScheduleID": "SC_SH_2510000_09",
+    "SortOrderPriority": 290,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_05",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV16  (活動商店券（復刻PROMO得卡挑戰活動2025）)",
+    "ScheduleID": "SC_SH_2510000_10",
+    "SortOrderPriority": 300,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_05",
+    "NameMSID": "ITEM_NAME_TICKET_EV22  (特典卡兌換券（超級大比鳥ex掉落活動）)",
+    "ScheduleID": "SC_SH_2510000_11",
+    "SortOrderPriority": 310,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_06",
+    "NameMSID": "ITEM_NAME_TICKET_EV23  (特典卡兌換券（得卡挑戰活動（可達鴨））)",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 320,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2510000_EV_07",
+    "NameMSID": "ITEM_NAME_TICKET_EV24  (特典卡兌換券（得卡挑戰活動（超級暴鯉龍））)",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 330,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2512000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV18  (活動商店券（黏黏寶）)",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 400,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2512000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV25  (特典卡兌換券（咩利羊掉落活動）)",
+    "ScheduleID": "SC_SH_2512000_06",
+    "SortOrderPriority": 360,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2512000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV26  (特典卡兌換券（超級拉帝歐斯ex掉落活動）)",
+    "ScheduleID": "SC_SH_2512000_05",
+    "SortOrderPriority": 380,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2512000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV27  (特典卡兌換券（得卡挑戰活動（黏黏寶））)",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 370,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2601000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV19  (活動商店券（顫弦蠑螈）)",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 350,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2601000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV34  (特典卡兌換券（超級恰雷姆ex掉落活動）)",
+    "ScheduleID": "SC_SH_2601000_03",
+    "SortOrderPriority": 410,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2601000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV35  (特典卡兌換券（得卡挑戰活動（顫弦蠑螈））)",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 405,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2602000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV20  (活動商店券（派帕）)",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2602000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV29  (特典卡兌換券（炭小侍掉落活動）)",
+    "ScheduleID": "SC_SH_2602000_01",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2602000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV30  (特典卡兌換券（得卡挑戰活動（派帕））)",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (可用來在商店兌換周邊物品或道具。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2603000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV28  (活動商店券（超級袋獸）)",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 540,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2603000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV36  (特典卡兌換券（呆呆獸掉落活動）)",
+    "ScheduleID": "SC_SH_2603000_01",
+    "SortOrderPriority": 550,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2603000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV37  (特典卡兌換券（得卡挑戰活動（超級袋獸））)",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 560,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2604000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV33  (特典卡兌換券（特別掉落活動2026）)",
+    "ScheduleID": "SC_SH_2604000_01",
+    "SortOrderPriority": 590,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2604000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV31  (特典卡兌換券（超級赫拉克羅斯ex掉落活動）)",
+    "ScheduleID": "SC_SH_2604000_02",
+    "SortOrderPriority": 600,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2605000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV41  (特典卡兌換券（蒼炎刃鬼ex掉落活動）)",
+    "ScheduleID": "SC_SH_2605000_01",
+    "SortOrderPriority": 700,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2606000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV43  (特典卡兌換券（洗翠索羅亞掉落活動）)",
+    "ScheduleID": "SC_SH_2606000_01",
+    "SortOrderPriority": 800,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2607000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV38  (特典卡兌換券（超級黑魯加ex掉落活動）)",
+    "ScheduleID": "SC_SH_2607000_01",
+    "SortOrderPriority": 900,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_2608000_EV_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ROCKET  (達成火箭隊的特別任務後即可獲得。\n似乎能在某處使用……)",
+    "ID": "TICKET_2608000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV44  (火箭隊的可疑票券)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "SortOrderPriority": 1000,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (可用來在商店兌換特典卡。\n達成活動任務後即可獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_2608000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV45  (特典卡兌換券（火箭隊的拉普拉斯掉落活動）)",
+    "ScheduleID": "SC_SH_2608000_01",
+    "SortOrderPriority": 1010,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_06",
+    "DescriptionMSID": "ITEM_DESC_TICKET_DECK  (可用來在商店兌換牌組（20張卡牌）。\n可透過ex初階牌組任務來獲得。\n超過兌換期限後將被刪除。)",
+    "ID": "TICKET_DECK_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EV6  (牌組券（活動）)",
+    "ScheduleID": "SC_CM_2503010_02",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1  (勳章券（最強的基因）)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1a  (勳章券（幻遊島）)",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2   (勳章券（時空激鬥）)",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2a  (勳章券（超克之光）)",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2b  (勳章券（嗨放異彩）)",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3  (勳章券（雙天之守護者）)",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A3a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3a  (勳章券（異次元危機）)",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A3b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3b  (勳章券（伊布花園）)",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A4",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4  (勳章券（天與海的指引）)",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A4a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4a  (勳章券（未知水域）)",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 230,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_A4b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4b  (勳章券（高級擴充包ex）)",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 250,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1  (勳章券（超級崛起）)",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 280,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1a  (勳章券（紅蓮烈焰）)",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 340,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2  (勳章券（幻夢遊行）)",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 390,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2a  (勳章券（帕底亞驚奇）)",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 500,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2b  (勳章券（超級異彩）)",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (達成主題收藏或圖鑑任務後即可獲得。\n可用來在商店兌換指定的勳章。)",
+    "ID": "TICKET_EMBLEM_B3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B3  (勳章券（波導奏動）)",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 570,
+    "Type": 2
+  }
+]

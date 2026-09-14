@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pass_get_entitlements_v1.proto";
+
+service Pass {
+  rpc GetEntitlementsV1 (PassGetEntitlementsV1.Types.Request) returns (PassGetEntitlementsV1.Types.Response);
+}

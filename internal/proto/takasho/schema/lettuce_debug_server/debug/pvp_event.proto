@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pvp_event_set_profiles.proto";
+
+service PvpEvent {
+  rpc SetProfiles (PvpEventSetProfiles.Types.Request) returns (PvpEventSetProfiles.Types.Response);
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/pack/pack_power.proto";
+
+message PackPowerAdd {
+  message Types {
+    message Request {
+      int64 heal_min = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.pack.PackPower pack_power = 1;
+    }
+  }
+}

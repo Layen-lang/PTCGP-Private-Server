@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/item_shop_add_purchase_summaries.proto";
+import "takasho/schema/lettuce_debug_server/debug/item_shop_delete_purchase_summaries.proto";
+
+service ItemShop {
+  rpc AddPurchaseSummaries (ItemShopAddPurchaseSummaries.Types.Request) returns (ItemShopAddPurchaseSummaries.Types.Response);
+  rpc DeletePurchaseSummaries (ItemShopDeletePurchaseSummaries.Types.Request) returns (ItemShopDeletePurchaseSummaries.Types.Response);
+}

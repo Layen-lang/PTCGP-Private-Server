@@ -1,0 +1,5204 @@
+[
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000080_00",
+    "IllustrationID": "cTR_10_000080_00_KAINOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000080"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000090_00",
+    "IllustrationID": "cTR_10_000090_00_KOURANOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000090"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000100_00",
+    "IllustrationID": "cTR_10_000100_00_HIMITSUNOKOHAKU_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000100"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000100_01",
+    "IllustrationID": "cTR_10_000100_01_HIMITSUNOKOHAKU_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000100"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000110_00",
+    "IllustrationID": "cTR_10_000110_00_ERIKA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_57  (kirisAki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000110"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000110_01",
+    "IllustrationID": "cTR_10_000110_01_ERIKA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_57  (kirisAki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000110"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000120_00",
+    "IllustrationID": "cTR_10_000120_00_KASUMI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000120"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000130_00",
+    "IllustrationID": "cTR_10_000130_00_KATSURA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000130"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000140_00",
+    "IllustrationID": "cTR_10_000140_00_KYOU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_92  (Souichirou Gunjima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000140"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000150_00",
+    "IllustrationID": "cTR_10_000150_00_SAKAKI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000150"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000150_01",
+    "IllustrationID": "cTR_10_000150_01_SAKAKI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000150"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000160_00",
+    "IllustrationID": "cTR_10_000160_00_TAKESHI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000160"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000170_00",
+    "IllustrationID": "cTR_10_000170_00_NATSUME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000170"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000170_01",
+    "IllustrationID": "cTR_10_000170_01_NATSUME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000170"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000180_00",
+    "IllustrationID": "cTR_10_000180_00_MATISSE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000180"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000190_00",
+    "IllustrationID": "cTR_10_000190_00_MABOROSHINOSEKIBAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000190"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000200_00",
+    "IllustrationID": "cTR_10_000200_00_POKEMONNOFUE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000200"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000210_00",
+    "IllustrationID": "cTR_10_000210_00_GREEN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000210"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000220_00",
+    "IllustrationID": "cTR_10_000220_00_KAKEDASHICHOSAIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000220"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000230_00",
+    "IllustrationID": "cTR_10_000230_00_LEAF_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000230"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000230_01",
+    "IllustrationID": "cTR_10_000230_01_LEAF_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000230"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000260_00",
+    "IllustrationID": "cTR_10_000260_00_ZUGAINOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000260"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000270_00",
+    "IllustrationID": "cTR_10_000270_00_TATENOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000270"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000280_00",
+    "IllustrationID": "cTR_10_000280_00_POKEMONTSUUSHIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_81  (Ayaka Yoshida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000280"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000280_01",
+    "IllustrationID": "cTR_10_000280_01_POKEMONTSUUSHIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_81  (Ayaka Yoshida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000280"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000290_00",
+    "IllustrationID": "cTR_10_000290_00_OOKINAMANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000290"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000290_01",
+    "IllustrationID": "cTR_10_000290_01_OOKINAMANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000290"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000300_00",
+    "IllustrationID": "cTR_10_000300_00_GOTSUGOTSUMETTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_81  (Ayaka Yoshida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000300"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000300_01",
+    "IllustrationID": "cTR_10_000300_01_GOTSUGOTSUMETTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_81  (Ayaka Yoshida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000300"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000310_00",
+    "IllustrationID": "cTR_10_000310_00_RAMUNOMI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_129  (Yoshinobu Saito)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000310"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000320_00",
+    "IllustrationID": "cTR_10_000320_00_AKAGI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000320"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000320_01",
+    "IllustrationID": "cTR_10_000320_01_AKAGI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000320"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000330_00",
+    "IllustrationID": "cTR_10_000330_00_GINGADANNOSHITAPPA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000330"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000340_00",
+    "IllustrationID": "cTR_10_000340_00_SHIRONA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000340"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000350_00",
+    "IllustrationID": "cTR_10_000350_00_DENZI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000350"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000360_00",
+    "IllustrationID": "cTR_10_000360_00_HIKARI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000360"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000360_01",
+    "IllustrationID": "cTR_10_000360_01_HIKARI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000360"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000370_00",
+    "IllustrationID": "cTR_10_000370_00_MARS_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000370"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000370_01",
+    "IllustrationID": "cTR_10_000370_01_MARS_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000370"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000380_00",
+    "IllustrationID": "cTR_10_000380_00_KAI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000380"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000380_01",
+    "IllustrationID": "cTR_10_000380_01_KAI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000380"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000390_00",
+    "IllustrationID": "cTR_10_000390_00_KANNAGITOWNNOTYOUROU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000390"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000400_00",
+    "IllustrationID": "cTR_10_000400_00_JUN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000400"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000410_00",
+    "IllustrationID": "cTR_10_000410_00_SEKI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000410"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000420_00",
+    "IllustrationID": "cTR_10_000420_00_NANJYAMO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000420_01",
+    "IllustrationID": "cTR_10_000420_01_NANJYAMO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000420_02",
+    "IllustrationID": "cTR_10_000420_02_NANJYAMO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000430_00",
+    "IllustrationID": "cTR_10_000430_00_POKEMONCENTERNOONEESAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000430"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000440_00",
+    "IllustrationID": "cTR_10_000440_00_RED_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000440"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000440_01",
+    "IllustrationID": "cTR_10_000440_01_RED_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000440"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000450_00",
+    "IllustrationID": "cTR_10_000450_00_ROCKETDANNOSHITAPPA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_26  (kantaro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000450"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000460_00",
+    "IllustrationID": "cTR_10_000460_00_OOKIIMARASADA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000460"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000470_00",
+    "IllustrationID": "cTR_10_000470_00_OSAKANANETTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000470"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000480_00",
+    "IllustrationID": "cTR_10_000480_00_FUSHIGINAAME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000480"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000480_01",
+    "IllustrationID": "cTR_10_000480_01_FUSHIGINAAME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000480"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000490_00",
+    "IllustrationID": "cTR_10_000490_00_ROTOMUZUKAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000490"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000500_00",
+    "IllustrationID": "cTR_10_000500_00_DOKUBARI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000500"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000510_00",
+    "IllustrationID": "cTR_10_000510_00_LEAFMANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000510"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000510_01",
+    "IllustrationID": "cTR_10_000510_01_LEAFMANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000510"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000520_00",
+    "IllustrationID": "cTR_10_000520_00_ACEROLA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000520"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000530_00",
+    "IllustrationID": "cTR_10_000530_00_ILIMA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000530"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000540_00",
+    "IllustrationID": "cTR_10_000540_00_KAKI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000540"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000550_00",
+    "IllustrationID": "cTR_10_000550_00_GUZUMA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000550"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000560_00",
+    "IllustrationID": "cTR_10_000560_00_SUIREN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000560"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000570_00",
+    "IllustrationID": "cTR_10_000570_00_MAMANE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_45  (Akira Komayama)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000570"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000580_00",
+    "IllustrationID": "cTR_10_000580_00_MAO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000580"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000590_00",
+    "IllustrationID": "cTR_10_000590_00_LILIE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_171  (hechima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000590"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000590_01",
+    "IllustrationID": "cTR_10_000590_01_LILIE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_171  (hechima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000590"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000600_00",
+    "IllustrationID": "cTR_10_000600_00_BISUTOWORU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000600"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000610_00",
+    "IllustrationID": "cTR_10_000610_00_MUSHIYOKESUPUREI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_129  (Yoshinobu Saito)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000610"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000620_00",
+    "IllustrationID": "cTR_10_000620_00_EREKIKORD_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000620"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000620_01",
+    "IllustrationID": "cTR_10_000620_01_EREKIKORD_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000620"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000630_00",
+    "IllustrationID": "cTR_10_000630_00_BISUTONAITO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_180  (inose yukie)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000630"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000640_00",
+    "IllustrationID": "cTR_10_000640_00_GLAZIO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000640"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000650_00",
+    "IllustrationID": "cTR_10_000650_00_HANDSOME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000650"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000660_00",
+    "IllustrationID": "cTR_10_000660_00_LUSAMINE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000660"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000660_01",
+    "IllustrationID": "cTR_10_000660_01_LUSAMINE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000660"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000670_00",
+    "IllustrationID": "cTR_10_000670_00_IIBUINOBAKKU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000670"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000670_01",
+    "IllustrationID": "cTR_10_000670_01_IIBUINOBAKKU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000670"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000680_00",
+    "IllustrationID": "cTR_10_000680_00_TABENOKOSHI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000680"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000690_00",
+    "IllustrationID": "cTR_10_000690_00_HAU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000690"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000700_00",
+    "IllustrationID": "cTR_10_000700_00_BOTAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000700"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000700_01",
+    "IllustrationID": "cTR_10_000700_01_BOTAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000700"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000710_00",
+    "IllustrationID": "cTR_10_000710_00_EREMENTARUTSUKEKAE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000710"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000710_01",
+    "IllustrationID": "cTR_10_000710_01_EREMENTARUTSUKEKAE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000710"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000720_00",
+    "IllustrationID": "cTR_10_000720_00_ZEHIGAMEJOURO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000720"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000730_00",
+    "IllustrationID": "cTR_10_000730_00_GOUTETUNOMAEKAKE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000730"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000740_00",
+    "IllustrationID": "cTR_10_000740_00_DARKPENDANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000740"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000750_00",
+    "IllustrationID": "cTR_10_000750_00_RESUKYUSUKAFU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000750"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000760_00",
+    "IllustrationID": "cTR_10_000760_00_ITSUKI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000760"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000770_00",
+    "IllustrationID": "cTR_10_000770_00_KOTONE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000770"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000770_01",
+    "IllustrationID": "cTR_10_000770_01_KOTONE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000770"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000780_00",
+    "IllustrationID": "cTR_10_000780_00_SILVER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000780"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000780_01",
+    "IllustrationID": "cTR_10_000780_01_SILVER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 1,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000780"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000790_00",
+    "IllustrationID": "cTR_10_000790_00_FISHER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000790"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000800_00",
+    "IllustrationID": "cTR_10_000800_00_MIKAN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000800"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000810_00",
+    "IllustrationID": "cTR_10_000810_00_HIKER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_37  (Hitoshi Ariga)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000810"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000820_00",
+    "IllustrationID": "cTR_10_000820_00_WHOTABOTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000820"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000830_00",
+    "IllustrationID": "cTR_10_000830_00_MEMORYLIGHT_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000830"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000840_00",
+    "IllustrationID": "cTR_10_000840_00_AKANE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000840"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000850_00",
+    "IllustrationID": "cTR_10_000850_00_TABINOGYOUSHOUNIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000850"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000860_00",
+    "IllustrationID": "cTR_10_000860_00_MATSUBA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000860"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000870_00",
+    "IllustrationID": "cTR_10_000870_00_ITAZURAROULETTE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000870"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000880_00",
+    "IllustrationID": "cTR_10_000880_00_HANENOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000880"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000890_00",
+    "IllustrationID": "cTR_10_000890_00_HITHAMMER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000890"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_000900_00",
+    "IllustrationID": "cTR_10_000900_00_FUTANOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000900"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000910_00",
+    "IllustrationID": "cTR_10_000910_00_FUREIMUPACCHI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000910"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000920_00",
+    "IllustrationID": "cTR_10_000920_00_OBONNOMI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000920"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000930_00",
+    "IllustrationID": "cTR_10_000930_00_BABYMET_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000930"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000940_00",
+    "IllustrationID": "cTR_10_000940_00_LUCKYMITTENS_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000940"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000950_00",
+    "IllustrationID": "cTR_10_000950_00_SHIZUI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000950"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000960_00",
+    "IllustrationID": "cTR_10_000960_00_HALA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000960"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000970_00",
+    "IllustrationID": "cTR_10_000970_00_HARUKA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000970"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_000980_00",
+    "IllustrationID": "cTR_10_000980_00_MELISSA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000980"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_000990_00",
+    "IllustrationID": "cTR_10_000990_00_MONOMANEMUSUME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000990"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001000_00",
+    "IllustrationID": "cTR_10_001000_00_RUCHIA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_116  (Cona Nitanda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001000"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001010_00",
+    "IllustrationID": "cTR_10_001010_00_CITRONNORYUKKU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001010"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001020_00",
+    "IllustrationID": "cTR_10_001020_00_SOUJYUKUEKISU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001020"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001030_00",
+    "IllustrationID": "cTR_10_001030_00_CITRON_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001030"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001040_00",
+    "IllustrationID": "cTR_10_001040_00_SERENA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001040"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_001050_00",
+    "IllustrationID": "cTR_10_001050_00_AGONOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001050"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001060_00",
+    "IllustrationID": "cTR_10_001060_00_ATARITSUKIAISU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_180  (inose yukie)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001060"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_001070_00",
+    "IllustrationID": "cTR_10_001070_00_HIRENOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001070"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001080_00",
+    "IllustrationID": "cTR_10_001080_00_MAMORINOPONCHO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001080"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001090_00",
+    "IllustrationID": "cTR_10_001090_00_METARUKOABARIA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001090"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001100_00",
+    "IllustrationID": "cTR_10_001100_00_CARNE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001100"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001110_00",
+    "IllustrationID": "cTR_10_001110_00_KANKOUKYAKU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001110"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001120_00",
+    "IllustrationID": "cTR_10_001120_00_JAGURA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001120"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001130_00",
+    "IllustrationID": "cTR_10_001130_00_NEZU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001130"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001140_00",
+    "IllustrationID": "cTR_10_001140_00_TORENINGUERIA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_214  (MARINA Chikazawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001140"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001150_00",
+    "IllustrationID": "cTR_10_001150_00_HAJIMARINOHEIGEN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001150"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001160_00",
+    "IllustrationID": "cTR_10_001160_00_FUSHIGINAHIROBA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001160"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001170_00",
+    "IllustrationID": "cTR_10_001170_00_ELECTRICGENERATOR_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001170"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001180_00",
+    "IllustrationID": "cTR_10_001180_00_BIGAIRBALLOON_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001180"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001190_00",
+    "IllustrationID": "cTR_10_001190_00_TEAMSTARGRUNT_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001190"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001200_00",
+    "IllustrationID": "cTR_10_001200_00_NEMO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001200"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001210_00",
+    "IllustrationID": "cTR_10_001210_00_PEPER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001210"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001220_00",
+    "IllustrationID": "cTR_10_001220_00_TABLECITY_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_73  (Oswaldo KATO)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001220"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001230_00",
+    "IllustrationID": "cTR_10_001230_00_IJIWARULETTER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001230"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001240_00",
+    "IllustrationID": "cTR_10_001240_00_MAINTENANCE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001240"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001250_00",
+    "IllustrationID": "cTR_10_001250_00_IRIS_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001250"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001260_00",
+    "IllustrationID": "cTR_10_001260_00_CALME_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001260"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001270_00",
+    "IllustrationID": "cTR_10_001270_00_HAIKINGUCOURSE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001270"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001280_00",
+    "IllustrationID": "cTR_10_001280_00_FIELDBLOWER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001280"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001290_00",
+    "IllustrationID": "cTR_10_001290_00_HAPPINESSEGG_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001290"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001300_00",
+    "IllustrationID": "cTR_10_001300_00_CORNI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_221  (Kannnu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001300"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001310_00",
+    "IllustrationID": "cTR_10_001310_00_TAXIDRIVER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001310"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001320_00",
+    "IllustrationID": "cTR_10_001320_00_CHEREN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001320"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001330_00",
+    "IllustrationID": "cTR_10_001330_00_PARASOLGIRL_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001330"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001340_00",
+    "IllustrationID": "cTR_10_001340_00_AMAKUKAORUMORI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_222  (Kenichi Yamaguchi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001340"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001350_00",
+    "IllustrationID": "cTR_10_001350_00_INISHIENOTOUGIJYOU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001350"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001360_00",
+    "IllustrationID": "cTR_10_001360_00_KEKKAINOFIELD_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001360"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001370_00",
+    "IllustrationID": "cTR_10_001370_00_BUSUTOENAJIKODAI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001370"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001380_00",
+    "IllustrationID": "cTR_10_001380_00_BUSUTOENAJIMIRAI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001380"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001390_00",
+    "IllustrationID": "cTR_10_001390_00_AOI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_116  (Cona Nitanda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001390"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001400_00",
+    "IllustrationID": "cTR_10_001400_00_OLIMHAKASE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001400"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001410_00",
+    "IllustrationID": "cTR_10_001410_00_FUTUHAKASE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001410"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001420_00",
+    "IllustrationID": "cTR_10_001420_00_ERIAZERO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_214  (MARINA Chikazawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001430_00",
+    "IllustrationID": "cTR_10_001430_00_CHIISANAFUUSEN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001430"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001440_00",
+    "IllustrationID": "cTR_10_001440_00_YUUGANAMANTO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001440"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001450_00",
+    "IllustrationID": "cTR_10_001450_00_KAMITSURE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_232  (Nobusawa/Mochipuyo)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001450"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001460_00",
+    "IllustrationID": "cTR_10_001460_00_KOINUDAISUKIGARL_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001460"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001470_00",
+    "IllustrationID": "cTR_10_001470_00_MIKURI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001470"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001480_00",
+    "IllustrationID": "cTR_10_001480_00_KODOMOBEYA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_95  (OKACHEKE)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001480"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001490_00",
+    "IllustrationID": "cTR_10_001490_00_OTORIYOSEPADDO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001490"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_001500_00",
+    "IllustrationID": "cTR_10_001500_00_TSUMENOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001500"
+  },
+  {
+    "AutoDeckScore": -1000,
+    "CardID": "TR_10_001510_00",
+    "IllustrationID": "cTR_10_001510_00_NEKKONOKASEKI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001510"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001520_00",
+    "IllustrationID": "cTR_10_001520_00_INCHIKIBARI_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001520"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001530_00",
+    "IllustrationID": "cTR_10_001530_00_KURIAVEIL_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001530"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001540_00",
+    "IllustrationID": "cTR_10_001540_00_SAIKIKKA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001540"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001550_00",
+    "IllustrationID": "cTR_10_001550_00_SYAGA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_92  (Souichirou Gunjima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001550"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001560_00",
+    "IllustrationID": "cTR_10_001560_00_HUURO_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_232  (Nobusawa/Mochipuyo)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001560"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001570_00",
+    "IllustrationID": "cTR_10_001570_00_MITSURU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001570"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001580_00",
+    "IllustrationID": "cTR_10_001580_00_IYASHINOUMIBE_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001580"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001590_00",
+    "IllustrationID": "cTR_10_001590_00_NIJIIRONODOUKUTSU_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001590"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001600_00",
+    "IllustrationID": "cTR_10_001600_00_ROCKETDANNODOROBOUMASHIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001600"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001610_00",
+    "IllustrationID": "cTR_10_001610_00_ROCKETDANNOBETOBETOBAZOOKA_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001610"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_10_001620_00",
+    "IllustrationID": "cTR_10_001620_00_ROCKETDANNOKENKYUUIN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001620"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001630_00",
+    "IllustrationID": "cTR_10_001630_00_ROCKETDANNODAISAKUSEN_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001630"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001640_00",
+    "IllustrationID": "cTR_10_001640_00_ROCKETDANNOBOSS_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001640"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_10_001650_00",
+    "IllustrationID": "cTR_10_001650_00_GAMECENTER_U",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_214  (MARINA Chikazawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 200,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001650"
+  },
+  {
+    "AutoDeckScore": 50,
+    "CardID": "TR_20_000030_00",
+    "IllustrationID": "cTR_20_000030_00_MONSTERBALL_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000030"
+  },
+  {
+    "AutoDeckScore": 50,
+    "CardID": "TR_20_000040_00",
+    "IllustrationID": "cTR_20_000040_00_HAKASENOKENKYU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_45  (Akira Komayama)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "CARD_SUBNAME_1  (오박사)",
+    "SeriesID": "A",
+    "TrainerID": "TR_000040"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000110_00",
+    "IllustrationID": "cTR_20_000110_00_ERIKA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000110"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000120_00",
+    "IllustrationID": "cTR_20_000120_00_KASUMI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000120"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000130_00",
+    "IllustrationID": "cTR_20_000130_00_KATSURA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000130"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000140_00",
+    "IllustrationID": "cTR_20_000140_00_KYOU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_92  (Souichirou Gunjima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000140"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000150_00",
+    "IllustrationID": "cTR_20_000150_00_SAKAKI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000150"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000160_00",
+    "IllustrationID": "cTR_20_000160_00_TAKESHI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000160"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000170_00",
+    "IllustrationID": "cTR_20_000170_00_NATSUME_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000170"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000180_00",
+    "IllustrationID": "cTR_20_000180_00_MATISSE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000180"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000210_00",
+    "IllustrationID": "cTR_20_000210_00_GREEN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000210"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000220_00",
+    "IllustrationID": "cTR_20_000220_00_KAKEDASHICHOSAIN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000220"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000230_00",
+    "IllustrationID": "cTR_20_000230_00_LEAF_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000230"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000320_00",
+    "IllustrationID": "cTR_20_000320_00_AKAGI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000320"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000330_00",
+    "IllustrationID": "cTR_20_000330_00_GINGADANNOSHITAPPA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000330"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000340_00",
+    "IllustrationID": "cTR_20_000340_00_SHIRONA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000340"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000350_00",
+    "IllustrationID": "cTR_20_000350_00_DENZI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000350"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000360_00",
+    "IllustrationID": "cTR_20_000360_00_HIKARI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000360"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000370_00",
+    "IllustrationID": "cTR_20_000370_00_MARS_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000370"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000380_00",
+    "IllustrationID": "cTR_20_000380_00_KAI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000380"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000390_00",
+    "IllustrationID": "cTR_20_000390_00_KANNAGITOWNNOTYOUROU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000390"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000400_00",
+    "IllustrationID": "cTR_20_000400_00_JUN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000400"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000410_00",
+    "IllustrationID": "cTR_20_000410_00_SEKI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000410"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000420_00",
+    "IllustrationID": "cTR_20_000420_00_NANJYAMO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000420_01",
+    "IllustrationID": "cTR_20_000420_01_NANJYAMO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000420"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000430_00",
+    "IllustrationID": "cTR_20_000430_00_POKEMONCENTERNOONEESAN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000430"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000440_00",
+    "IllustrationID": "cTR_20_000440_00_RED_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000440"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000450_00",
+    "IllustrationID": "cTR_20_000450_00_ROCKETDANNOSHITAPPA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_26  (kantaro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000450"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000480_00",
+    "IllustrationID": "cTR_20_000480_00_FUSHIGINAAME_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000480"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000520_00",
+    "IllustrationID": "cTR_20_000520_00_ACEROLA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000520"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000530_00",
+    "IllustrationID": "cTR_20_000530_00_ILIMA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000530"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000540_00",
+    "IllustrationID": "cTR_20_000540_00_KAKI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000540"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000550_00",
+    "IllustrationID": "cTR_20_000550_00_GUZUMA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000550"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000550_01",
+    "IllustrationID": "cTR_20_000550_01_GUZUMA_IM",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_108  (danciao)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 800,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000550"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000560_00",
+    "IllustrationID": "cTR_20_000560_00_SUIREN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000560"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000570_00",
+    "IllustrationID": "cTR_20_000570_00_MAMANE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_45  (Akira Komayama)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000570"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000580_00",
+    "IllustrationID": "cTR_20_000580_00_MAO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000580"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000590_00",
+    "IllustrationID": "cTR_20_000590_00_LILIE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_171  (hechima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000590"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000590_01",
+    "IllustrationID": "cTR_20_000590_01_LILIE_IM",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 800,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000590"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000590_02",
+    "IllustrationID": "cTR_20_000590_02_LILIE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000590"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000640_00",
+    "IllustrationID": "cTR_20_000640_00_GLAZIO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000640"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000650_00",
+    "IllustrationID": "cTR_20_000650_00_HANDSOME_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000650"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000660_00",
+    "IllustrationID": "cTR_20_000660_00_LUSAMINE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000660"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000660_01",
+    "IllustrationID": "cTR_20_000660_01_LUSAMINE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000660"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000670_00",
+    "IllustrationID": "cTR_20_000670_00_IIBUINOBAKKU_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_122  (AYUMI ODASHIMA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000670"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000690_00",
+    "IllustrationID": "cTR_20_000690_00_HAU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000690"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000700_00",
+    "IllustrationID": "cTR_20_000700_00_BOTAN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000700"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000700_01",
+    "IllustrationID": "cTR_20_000700_01_BOTAN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000700"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000760_00",
+    "IllustrationID": "cTR_20_000760_00_ITSUKI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000760"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000770_00",
+    "IllustrationID": "cTR_20_000770_00_KOTONE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000770"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000780_00",
+    "IllustrationID": "cTR_20_000780_00_SILVER_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000780"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000790_00",
+    "IllustrationID": "cTR_20_000790_00_FISHER_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000790"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000800_00",
+    "IllustrationID": "cTR_20_000800_00_MIKAN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000800"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000810_00",
+    "IllustrationID": "cTR_20_000810_00_HIKER_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000810"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000840_00",
+    "IllustrationID": "cTR_20_000840_00_AKANE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000840"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000850_00",
+    "IllustrationID": "cTR_20_000850_00_TABINOGYOUSHOUNIN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_41  (GOSSAN)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000850"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000860_00",
+    "IllustrationID": "cTR_20_000860_00_MATSUBA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000860"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000910_00",
+    "IllustrationID": "cTR_20_000910_00_FUREIMUPACCHI_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000910"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000950_00",
+    "IllustrationID": "cTR_20_000950_00_SHIZUI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000950"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000960_00",
+    "IllustrationID": "cTR_20_000960_00_HALA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000960"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000970_00",
+    "IllustrationID": "cTR_20_000970_00_HARUKA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_51  (Sanosuke Sakuma)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000970"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_000980_00",
+    "IllustrationID": "cTR_20_000980_00_MELISSA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000980"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_000990_00",
+    "IllustrationID": "cTR_20_000990_00_MONOMANEMUSUME_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_000990"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001000_00",
+    "IllustrationID": "cTR_20_001000_00_RUCHIA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_116  (Cona Nitanda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001000"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001020_00",
+    "IllustrationID": "cTR_20_001020_00_SOUJYUKUEKISU_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001020"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001030_00",
+    "IllustrationID": "cTR_20_001030_00_CITRON_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001030"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001040_00",
+    "IllustrationID": "cTR_20_001040_00_SERENA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001040"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001080_00",
+    "IllustrationID": "cTR_20_001080_00_MAMORINOPONCHO_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001080"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001090_00",
+    "IllustrationID": "cTR_20_001090_00_METARUKOABARIA_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_183  (Studio Bora Inc.)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001090"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001100_00",
+    "IllustrationID": "cTR_20_001100_00_CARNE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_90  (saino misaki)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001100"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001110_00",
+    "IllustrationID": "cTR_20_001110_00_KANKOUKYAKU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_187  (yuu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001110"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001120_00",
+    "IllustrationID": "cTR_20_001120_00_JAGURA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001120"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001130_00",
+    "IllustrationID": "cTR_20_001130_00_NEZU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001130"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001170_00",
+    "IllustrationID": "cTR_20_001170_00_ELECTRICGENERATOR_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001170"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001190_00",
+    "IllustrationID": "cTR_20_001190_00_TEAMSTARGRUNT_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001190"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001200_00",
+    "IllustrationID": "cTR_20_001200_00_NEMO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001200"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001210_00",
+    "IllustrationID": "cTR_20_001210_00_PEPER_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001210"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001210_01",
+    "IllustrationID": "cTR_20_001210_01_PEPER_IM",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 800,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001210"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001250_00",
+    "IllustrationID": "cTR_20_001250_00_IRIS_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_164  (Susumu Maeya)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001250"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001260_00",
+    "IllustrationID": "cTR_20_001260_00_CALME_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_35  (Ryuta Fuse)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001260"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001300_00",
+    "IllustrationID": "cTR_20_001300_00_CORNI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_221  (Kannnu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001300"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001310_00",
+    "IllustrationID": "cTR_20_001310_00_TAXIDRIVER_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_93  (Hideki Ishikawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001310"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001320_00",
+    "IllustrationID": "cTR_20_001320_00_CHEREN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_94  (Taira Akitsu)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001320"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001330_00",
+    "IllustrationID": "cTR_20_001330_00_PARASOLGIRL_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_109  (En Morikura)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001330"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001390_00",
+    "IllustrationID": "cTR_20_001390_00_AOI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_116  (Cona Nitanda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001390"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001400_00",
+    "IllustrationID": "cTR_20_001400_00_OLIMHAKASE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001400"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001410_00",
+    "IllustrationID": "cTR_20_001410_00_FUTUHAKASE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_135  (akagi)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001410"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001430_00",
+    "IllustrationID": "cTR_20_001430_00_CHIISANAFUUSEN_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001430"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001450_00",
+    "IllustrationID": "cTR_20_001450_00_KAMITSURE_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_232  (Nobusawa/Mochipuyo)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001450"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001460_00",
+    "IllustrationID": "cTR_20_001460_00_KOINUDAISUKIGARL_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001460"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001470_00",
+    "IllustrationID": "cTR_20_001470_00_MIKURI_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001470"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001540_00",
+    "IllustrationID": "cTR_20_001540_00_SAIKIKKA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_96  (GIDORA)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001540"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001550_00",
+    "IllustrationID": "cTR_20_001550_00_SYAGA_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_92  (Souichirou Gunjima)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001550"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001560_00",
+    "IllustrationID": "cTR_20_001560_00_HUURO_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_232  (Nobusawa/Mochipuyo)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001560"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001570_00",
+    "IllustrationID": "cTR_20_001570_00_MITSURU_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_25  (Teeziro)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001570"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001610_00",
+    "IllustrationID": "cTR_20_001610_00_ROCKETDANNOBETOBETOBAZOOKA_UR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 900,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001610"
+  },
+  {
+    "AutoDeckScore": -2000,
+    "CardID": "TR_20_001620_00",
+    "IllustrationID": "cTR_20_001620_00_ROCKETDANNOKENKYUUIN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_102  (hncl)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001620"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001630_00",
+    "IllustrationID": "cTR_20_001630_00_ROCKETDANNODAISAKUSEN_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_79  (nagimiso)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001630"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001630_01",
+    "IllustrationID": "cTR_20_001630_01_ROCKETDANNODAISAKUSEN_IM",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_153  (Yukihiro Tada)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 800,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001630"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_20_001640_00",
+    "IllustrationID": "cTR_20_001640_00_ROCKETDANNOBOSS_SR",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_84  (Atsushi Furusawa)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": false,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "",
+    "PromotionNameMSID": "",
+    "Rarity": 700,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "B",
+    "TrainerID": "TR_001640"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000010_00",
+    "IllustrationID": "cTR_90_000010_00_KIZUGUSURI_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000010"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000020_00",
+    "IllustrationID": "cTR_90_000020_00_SPEEDER_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000020"
+  },
+  {
+    "AutoDeckScore": 50,
+    "CardID": "TR_90_000030_00",
+    "IllustrationID": "cTR_90_000030_00_MONSTERBALL_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000030"
+  },
+  {
+    "AutoDeckScore": 50,
+    "CardID": "TR_90_000040_00",
+    "IllustrationID": "cTR_90_000040_00_HAKASENOKENKYU_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_24  (Naoki Saito)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "CARD_SUBNAME_1  (오박사)",
+    "SeriesID": "A",
+    "TrainerID": "TR_000040"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000050_00",
+    "IllustrationID": "cTR_90_000050_00_HANDSCOPE_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_91  (Toyste Beach)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000050"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000060_00",
+    "IllustrationID": "cTR_90_000060_00_POKEMONZUKAN_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_105  (Ryo Ueda)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000060"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000060_01",
+    "IllustrationID": "cTR_90_000060_01_POKEMONZUKAN_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_74  (Yuu Nishida)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_CAMPAIGN  (캠페인에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000060"
+  },
+  {
+    "AutoDeckScore": 0,
+    "CardID": "TR_90_000070_00",
+    "IllustrationID": "cTR_90_000070_00_REDCARD_C",
+    "IllustratorNameMSIDs": [
+      "ILLUSTRATOR_60  (5ban Graphics)"
+    ],
+    "IsNotDisplayedOutgame": false,
+    "IsPromotion": true,
+    "IsSerial": false,
+    "MirrorType": 0,
+    "PromotionCardSourceMSID": "CARD_SOURCE_TYPE_SHOP  (숍에서 입수)",
+    "PromotionNameMSID": "PROMOTION_NAME_1  (PROMO-A)",
+    "Rarity": 100,
+    "RightEndDisplayNameMSID": "",
+    "SeriesID": "A",
+    "TrainerID": "TR_000070"
+  }
+]

@@ -1,0 +1,3842 @@
+[
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100110_EIEVUI",
+    "NameMSID": "PeripheralGoods_BOARD_100110_EIEVUI  (イーブイ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100110_EIEVUI_SHORT  (イーブイ)",
+    "SortOrderPriority": 11,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100120_NYARTH",
+    "NameMSID": "PeripheralGoods_BOARD_100120_NYARTH  (ニャース(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100120_NYARTH_SHORT  (ニャース)",
+    "SortOrderPriority": 12,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100130_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100130_LIZARDON  (リザードン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100130_LIZARDON_SHORT  (リザードン)",
+    "SortOrderPriority": 13,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100140_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA  (フシギバナ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA_SHORT  (フシギバナ)",
+    "SortOrderPriority": 14,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100150_GREEN",
+    "NameMSID": "PeripheralGoods_BOARD_100150_GREEN  (グリーン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100150_GREEN_SHORT  (グリーン)",
+    "SortOrderPriority": 15,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100160_MEWTWO",
+    "NameMSID": "PeripheralGoods_BOARD_100160_MEWTWO  (ミュウツー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100160_MEWTWO_SHORT  (ミュウツー)",
+    "SortOrderPriority": 16,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100170_ERIKA",
+    "NameMSID": "PeripheralGoods_BOARD_100170_ERIKA  (エリカ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100170_ERIKA_SHORT  (エリカ)",
+    "SortOrderPriority": 17,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100180_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT  (サーナイト(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT_SHORT  (サーナイト)",
+    "SortOrderPriority": 18,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100190_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100190_PIKACHU  (ピカチュウ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100190_PIKACHU_SHORT  (ピカチュウ)",
+    "SortOrderPriority": 19,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100350_PremiumSet",
+    "NameMSID": "PeripheralGoods_BOARD_100350_PremiumSet  (スペシャルセット01(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100350_PremiumSet_SHORT  (スペシャルセット01)",
+    "SortOrderPriority": 24,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100360_Displayframe_cool",
+    "NameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool  (ディスプレイフレーム クール(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool_SHORT  (ディスプレイフレーム クール)",
+    "SortOrderPriority": 25,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100370_Natural_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf  (ナチュラルリーフ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf_SHORT  (ナチュラルリーフ)",
+    "SortOrderPriority": 26,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100390_Snow_Crystal",
+    "NameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal  (スノークリスタル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal_SHORT  (スノークリスタル)",
+    "SortOrderPriority": 28,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100400_Displayframe_pinkdesk",
+    "NameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk  (ディスプレイフレーム ピンクのデスク(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk_SHORT  (ディスプレイフレーム ピンクのデスク)",
+    "SortOrderPriority": 29,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100410_Miniature_temple",
+    "NameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple  (ミニチュア神殿(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple_SHORT  (ミニチュア神殿)",
+    "SortOrderPriority": 30,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100420_Displayframe_winterholiday",
+    "NameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday  (ディスプレイフレーム ホリデー(冬)(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday_SHORT  (ディスプレイフレーム ホリデー(冬))",
+    "SortOrderPriority": 31,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100430_Displayframe_newyear",
+    "NameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear  (ディスプレイフレーム ニューイヤー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear_SHORT  (ディスプレイフレーム ニューイヤー)",
+    "SortOrderPriority": 32,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100440_Displayframe_brightroom",
+    "NameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom  (ディスプレイフレーム 明るい部屋(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom_SHORT  (ディスプレイフレーム 明るい部屋)",
+    "SortOrderPriority": 33,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100460_SHIRONA_MIKARUGE",
+    "NameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE  (シロナ＆ミカルゲ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE_SHORT  (シロナ＆ミカルゲ)",
+    "SortOrderPriority": 35,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100470_HIKOZARU",
+    "NameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU  (ヒコザル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU_SHORT  (ヒコザル)",
+    "SortOrderPriority": 36,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100480_DARKRAI",
+    "NameMSID": "PeripheralGoods_BOARD_100480_DARKRAI  (ダークライ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100480_DARKRAI_SHORT  (ダークライ)",
+    "SortOrderPriority": 37,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100490_Cave_ore",
+    "NameMSID": "PeripheralGoods_BOARD_100490_Cave_ore  (鉱石が眠る洞窟(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100490_Cave_ore_SHORT  (鉱石が眠る洞窟)",
+    "SortOrderPriority": 38,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100500_Sweet_heart",
+    "NameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart  (スイートハート(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart_SHORT  (スイートハート)",
+    "SortOrderPriority": 39,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100510_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA  (マナフィ＆ポッチャマ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA_SHORT  (マナフィ＆ポッチャマ)",
+    "SortOrderPriority": 40,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100520_Cyber_device",
+    "NameMSID": "PeripheralGoods_BOARD_100520_Cyber_device  (サイバーな装置(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100520_Cyber_device_SHORT  (サイバーな装置)",
+    "SortOrderPriority": 41,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100530_ARCEUS",
+    "NameMSID": "PeripheralGoods_BOARD_100530_ARCEUS  (アルセウス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100530_ARCEUS_SHORT  (アルセウス)",
+    "SortOrderPriority": 42,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100540_SEKI_KAI",
+    "NameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI  (セキ＆カイ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI_SHORT  (セキ＆カイ)",
+    "SortOrderPriority": 43,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100550_Cherry_blossoms",
+    "NameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms  (満開の桜(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms_SHORT  (満開の桜)",
+    "SortOrderPriority": 44,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100560_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU  (ルカリオ＆リオル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU_SHORT  (ルカリオ＆リオル)",
+    "SortOrderPriority": 45,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100570_Hall_of_fame",
+    "NameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame  (ディスプレイフレーム ステージ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame_SHORT  (ディスプレイフレーム ステージ)",
+    "SortOrderPriority": 46,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100580_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON  (色ちがいのリザードン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON_SHORT  (色ちがいのリザードン)",
+    "SortOrderPriority": 47,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100590_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU  (レッド＆ピカチュウ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU_SHORT  (レッド＆ピカチュウ)",
+    "SortOrderPriority": 48,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100600_Displayframe_spring",
+    "NameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring  (ディスプレイフレーム 春(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring_SHORT  (ディスプレイフレーム 春)",
+    "SortOrderPriority": 49,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100610_Shiny_glare",
+    "NameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare  (ディスプレイフレーム 色ちがいの輝き(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare_SHORT  (ディスプレイフレーム 色ちがいの輝き)",
+    "SortOrderPriority": 50,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100620_SOLGALEO",
+    "NameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO  (ソルガレオ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO_SHORT  (ソルガレオ)",
+    "SortOrderPriority": 51,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100630_STARRY_SKY",
+    "NameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY  (スターリースカイ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY_SHORT  (スターリースカイ)",
+    "SortOrderPriority": 52,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100640_MOKUROH",
+    "NameMSID": "PeripheralGoods_BOARD_100640_MOKUROH  (モクロー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100640_MOKUROH_SHORT  (モクロー)",
+    "SortOrderPriority": 53,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100650_LILIE",
+    "NameMSID": "PeripheralGoods_BOARD_100650_LILIE  (リーリエ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100650_LILIE_SHORT  (リーリエ)",
+    "SortOrderPriority": 54,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100660_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION  (お祝いの街(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION_SHORT  (お祝いの街)",
+    "SortOrderPriority": 55,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100670_DIGITAL_SPACE",
+    "NameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE  (デジタル空間(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE_SHORT  (デジタル空間)",
+    "SortOrderPriority": 56,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100680_uNECROZMA",
+    "NameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA  (ウルトラネクロズマ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA_SHORT  (ウルトラネクロズマ)",
+    "SortOrderPriority": 57,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100690_FLOWER_GIFTBOX",
+    "NameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX  (フラワーギフトボックス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX_SHORT  (フラワーギフトボックス)",
+    "SortOrderPriority": 58,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100700_aROKON",
+    "NameMSID": "PeripheralGoods_BOARD_100700_aROKON  (アローラロコン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100700_aROKON_SHORT  (アローラロコン)",
+    "SortOrderPriority": 59,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100710_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU  (アセロラ＆ミミッキュ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU_SHORT  (アセロラ＆ミミッキュ)",
+    "SortOrderPriority": 60,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100720_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY  (グラジオ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY_SHORT  (グラジオ)",
+    "SortOrderPriority": 61,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100730_NIGHT_CAMP",
+    "NameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP  (夜の森のキャンプ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP_SHORT  (夜の森のキャンプ)",
+    "SortOrderPriority": 62,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100740_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2  (イーブイ Ver.2(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2_SHORT  (イーブイ Ver.2)",
+    "SortOrderPriority": 63,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100750_NYMPHIA",
+    "NameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA  (ニンフィア＆アブリボン＆キュワワー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA_SHORT  (ニンフィア＆アブリボン＆キュワワー)",
+    "SortOrderPriority": 64,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100760_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY  (エーフィ＆ブラッキー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY_SHORT  (エーフィ＆ブラッキー)",
+    "SortOrderPriority": 67,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100770_BANGIRAS",
+    "NameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS  (バンギラス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS_SHORT  (バンギラス)",
+    "SortOrderPriority": 68,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100780_Under_the_Sea",
+    "NameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea  (海の中(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea_SHORT  (海の中)",
+    "SortOrderPriority": 66,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100790_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA  (ホウオウ＆ルギア(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA_SHORT  (ホウオウ＆ルギア)",
+    "SortOrderPriority": 69,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100800_Displayframe_garden",
+    "NameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden  (ディスプレイフレーム 庭園(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden_SHORT  (ディスプレイフレーム 庭園)",
+    "SortOrderPriority": 70,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100810_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH  (ヌオー＆ドオー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH_SHORT  (ヌオー＆ドオー)",
+    "SortOrderPriority": 71,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100820_Displayframe_Halloween",
+    "NameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween  (ハロウィン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween_SHORT  (ハロウィン)",
+    "SortOrderPriority": 72,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100830_SUICUNE",
+    "NameMSID": "PeripheralGoods_BOARD_100830_SUICUNE  (スイクン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100830_SUICUNE_SHORT  (スイクン)",
+    "SortOrderPriority": 73,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100840_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI  (ピチュー＆ピィ＆ブビィ＆ルリリ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI_SHORT  (ピチュー＆ピィ＆ブビィ＆ルリリ)",
+    "SortOrderPriority": 74,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100850_Displayframe_Nine",
+    "NameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine  (ディスプレイフレーム 9枚(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine_SHORT  (ディスプレイフレーム 9枚)",
+    "SortOrderPriority": 65,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100860_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS  (メガチルタリス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS_SHORT  (メガチルタリス)",
+    "SortOrderPriority": 80,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100870_KODUCK",
+    "NameMSID": "PeripheralGoods_BOARD_100870_KODUCK  (コダック(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100870_KODUCK_SHORT  (コダック)",
+    "SortOrderPriority": 81,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100880_Autumn_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf  (オータムリーフ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf_SHORT  (オータムリーフ)",
+    "SortOrderPriority": 82,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100890_KOIKING",
+    "NameMSID": "PeripheralGoods_BOARD_100890_KOIKING  (コイキング(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100890_KOIKING_SHORT  (コイキング)",
+    "SortOrderPriority": 83,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100900_Holiday2025",
+    "NameMSID": "PeripheralGoods_BOARD_100900_Holiday2025  (ホリデー2025(冬)(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100900_Holiday2025_SHORT  (ホリデー2025(冬))",
+    "SortOrderPriority": 84,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100910_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO  (メガバシャーモ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO_SHORT  (メガバシャーモ)",
+    "SortOrderPriority": 85,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100920_HARUKA",
+    "NameMSID": "PeripheralGoods_BOARD_100920_HARUKA  (ハルカ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100920_HARUKA_SHORT  (ハルカ)",
+    "SortOrderPriority": 86,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100930_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON  (メガシンカポケモン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON_SHORT  (メガシンカポケモン)",
+    "SortOrderPriority": 87,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100940_PremiumSet02",
+    "NameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02  (スペシャルセット02(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02_SHORT  (スペシャルセット02)",
+    "SortOrderPriority": 88,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100950_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION  (メガシンカex(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION_SHORT  (メガシンカex)",
+    "SortOrderPriority": 89,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100960_Music_Space",
+    "NameMSID": "PeripheralGoods_BOARD_100960_Music_Space  (ミュージックスペース(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100960_Music_Space_SHORT  (ミュージックスペース)",
+    "SortOrderPriority": 90,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100970_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO  (オーキド博士(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO_SHORT  (オーキド博士)",
+    "SortOrderPriority": 77,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100980_Autumn_Afternoon_Tea",
+    "NameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea  (秋のアフタヌーンティー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea_SHORT  (秋のアフタヌーンティー)",
+    "SortOrderPriority": 78,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_100990_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2  (リーリエ Ver.2(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2_SHORT  (リーリエ Ver.2)",
+    "SortOrderPriority": 75,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101000_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA  (ゲッコウガ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA_SHORT  (ゲッコウガ)",
+    "SortOrderPriority": 76,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101010_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY  (ピカチュウとニューイヤー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY_SHORT  (ピカチュウとニューイヤー)",
+    "SortOrderPriority": 96,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101020_ShotingStar_Sky",
+    "NameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky  (流れ星の空(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky_SHORT  (流れ星の空)",
+    "SortOrderPriority": 98,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101030_Rainbow",
+    "NameMSID": "PeripheralGoods_BOARD_101030_Rainbow  (レインボー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101030_Rainbow_SHORT  (レインボー)",
+    "SortOrderPriority": 99,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101040_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU  (ミミッキュ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU_SHORT  (ミミッキュ)",
+    "SortOrderPriority": 100,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101050_STRINDER",
+    "NameMSID": "PeripheralGoods_BOARD_101050_STRINDER  (ストリンダー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101050_STRINDER_SHORT  (ストリンダー)",
+    "SortOrderPriority": 101,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101060_SIRNIGHT_KIRLIA_RALTS",
+    "NameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS  (サーナイト＆キルリア＆ラルトス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS_SHORT  (サーナイト＆キルリア＆ラルトス)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101070_NUMERA",
+    "NameMSID": "PeripheralGoods_BOARD_101070_NUMERA  (ヌメラ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101070_NUMERA_SHORT  (ヌメラ)",
+    "SortOrderPriority": 92,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101080_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY  (メガリザードンY(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY_SHORT  (メガリザードンY)",
+    "SortOrderPriority": 93,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101090_SERENA",
+    "NameMSID": "PeripheralGoods_BOARD_101090_SERENA  (セレナ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101090_SERENA_SHORT  (セレナ)",
+    "SortOrderPriority": 94,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101100_NewYear2026",
+    "NameMSID": "PeripheralGoods_BOARD_101100_NewYear2026  (ニューイヤー2026(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101100_NewYear2026_SHORT  (ニューイヤー2026)",
+    "SortOrderPriority": 95,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101110_PEPER",
+    "NameMSID": "PeripheralGoods_BOARD_101110_PEPER  (ペパー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101110_PEPER_SHORT  (ペパー)",
+    "SortOrderPriority": 200,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101120_Adventure_Field",
+    "NameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field  (冒険の原っぱ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field_SHORT  (冒険の原っぱ)",
+    "SortOrderPriority": 210,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101130_NYAHOJA_HOGATOR_KUWASSU",
+    "NameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU  (ニャオハ＆ホゲータ＆クワッス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU_SHORT  (ニャオハ＆ホゲータ＆クワッス)",
+    "SortOrderPriority": 220,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101140_NANJYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO  (ナンジャモ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO_SHORT  (ナンジャモ)",
+    "SortOrderPriority": 230,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101150_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA  (メガガルーラ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA_SHORT  (メガガルーラ)",
+    "SortOrderPriority": 340,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101160_Displayframe_snowy_window",
+    "NameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window  (ディスプレイフレーム 雪景色(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window_SHORT  (ディスプレイフレーム 雪景色)",
+    "SortOrderPriority": 350,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR  (メガゲンガー＆色ちがいのメガゲンガー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR_SHORT  (メガゲンガー＆色ちがいのメガゲンガー)",
+    "SortOrderPriority": 310,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101180_MORPEKO",
+    "NameMSID": "PeripheralGoods_BOARD_101180_MORPEKO  (モルペコ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101180_MORPEKO_SHORT  (モルペコ)",
+    "SortOrderPriority": 320,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101190_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA  (ゾロアーク＆ゾロア(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA_SHORT  (ゾロアーク＆ゾロア)",
+    "SortOrderPriority": 430,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101200_KIMORI_ACHAMO_MIZUGOROU",
+    "NameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU  (キモリ＆アチャモ＆ミズゴロウ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU_SHORT  (キモリ＆アチャモ＆ミズゴロウ)",
+    "SortOrderPriority": 450,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101210_Rival",
+    "NameMSID": "PeripheralGoods_BOARD_101210_Rival  (ライバル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101210_Rival_SHORT  (ライバル)",
+    "SortOrderPriority": 460,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU  (メガルカリオ＆ルカリオ＆リオル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU_SHORT  (メガルカリオ＆ルカリオ＆リオル)",
+    "SortOrderPriority": 470,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101230_ForestPokemons",
+    "NameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons  (森のポケモンたち(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons_SHORT  (森のポケモンたち)",
+    "SortOrderPriority": 420,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101240_LanternNight",
+    "NameMSID": "PeripheralGoods_BOARD_101240_LanternNight  (ランタンの夜空(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101240_LanternNight_SHORT  (ランタンの夜空)",
+    "SortOrderPriority": 410,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101250_KAMITSURE",
+    "NameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE  (カミツレ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE_SHORT  (カミツレ)",
+    "SortOrderPriority": 610,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101260_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc  (ワンパチ＆ガーディ＆ヨーテリー＆イワンコ＆パピモッチ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc_SHORT  (ワンパチ＆ガーディ＆ヨーテリー＆イワンコ＆パピモッチ)",
+    "SortOrderPriority": 620,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101270_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc  (ピカチュウ＆ポッチャマ＆ニンフィア＆ヨクバリス＆カビゴン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc_SHORT  (ピカチュウ＆ポッチャマ＆ニンフィア＆ヨクバリス＆カビゴン)",
+    "SortOrderPriority": 630,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101280_Deserted_Island",
+    "NameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island  (無人島(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island_SHORT  (無人島)",
+    "SortOrderPriority": 91,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101290_KORAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101290_KORAIDON  (コライドン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101290_KORAIDON_SHORT  (コライドン)",
+    "SortOrderPriority": 510,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101300_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI  (ヤミラミ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI_SHORT  (ヤミラミ)",
+    "SortOrderPriority": 520,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101310_MIRAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON  (ミライドン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON_SHORT  (ミライドン)",
+    "SortOrderPriority": 530,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101320_GEOMETRIC",
+    "NameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC  (ジオメトリックパターン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC_SHORT  (ジオメトリックパターン)",
+    "SortOrderPriority": 540,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101330_VictoryStand",
+    "NameMSID": "PeripheralGoods_BOARD_101330_VictoryStand  (表彰台(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101330_VictoryStand_SHORT  (表彰台)",
+    "SortOrderPriority": 97,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101340_Displayframe_Two",
+    "NameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two  (ディスプレイフレーム 2枚(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two_SHORT  (ディスプレイフレーム 2枚)",
+    "SortOrderPriority": 240,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101350_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY  (ポケモン30周年デザイン(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY_SHORT  (ポケモン30周年デザイン)",
+    "SortOrderPriority": 250,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101360_Displayframe_Nine_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2  (ディスプレイフレーム 9枚 Ver.2(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2_SHORT  (ディスプレイフレーム 9枚 Ver.2)",
+    "SortOrderPriority": 440,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101370_Battle_Screen",
+    "NameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen  (バトル画面(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen_SHORT  (バトル画面)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101380_All_seasons",
+    "NameMSID": "PeripheralGoods_BOARD_101380_All_seasons  (季節(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101380_All_seasons_SHORT  (季節)",
+    "SortOrderPriority": 330,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101390_METAGROSS",
+    "NameMSID": "PeripheralGoods_BOARD_101390_METAGROSS  (メタグロス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101390_METAGROSS_SHORT  (メタグロス)",
+    "SortOrderPriority": 710,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101400_MIJUMARU",
+    "NameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU  (ミジュマル(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU_SHORT  (ミジュマル)",
+    "SortOrderPriority": 740,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101410_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA  (メガレックウザ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA_SHORT  (メガレックウザ)",
+    "SortOrderPriority": 730,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101420_Everyday_city",
+    "NameMSID": "PeripheralGoods_BOARD_101420_Everyday_city  (日常の都市(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101420_Everyday_city_SHORT  (日常の都市)",
+    "SortOrderPriority": 720,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101430_Water_balloon",
+    "NameMSID": "PeripheralGoods_BOARD_101430_Water_balloon  (夏の水風船(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101430_Water_balloon_SHORT  (夏の水風船)",
+    "SortOrderPriority": 750,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101440_Rock_Paper_Scissors",
+    "NameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors  (じゃんけん(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors_SHORT  (じゃんけん)",
+    "SortOrderPriority": 760,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101450_Title_screen",
+    "NameMSID": "PeripheralGoods_BOARD_101450_Title_screen  (タイトル画面(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101450_Title_screen_SHORT  (タイトル画面)",
+    "SortOrderPriority": 550,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101460_Calendar",
+    "NameMSID": "PeripheralGoods_BOARD_101460_Calendar  (カレンダー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101460_Calendar_SHORT  (カレンダー)",
+    "SortOrderPriority": 640,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101470_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc  (サンダー＆フリーザー＆ファイヤー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc_SHORT  (サンダー＆フリーザー＆ファイヤー)",
+    "SortOrderPriority": 810,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101480_FOKKO",
+    "NameMSID": "PeripheralGoods_BOARD_101480_FOKKO  (フォッコ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101480_FOKKO_SHORT  (フォッコ)",
+    "SortOrderPriority": 820,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101490_SAKAKI",
+    "NameMSID": "PeripheralGoods_BOARD_101490_SAKAKI  (ロケット団のボス(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101490_SAKAKI_SHORT  (ロケット団のボス)",
+    "SortOrderPriority": 830,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101500_RED_SPOTLIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT  (赤い脚光(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT_SHORT  (赤い脚光)",
+    "SortOrderPriority": 840,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101510_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET  (ロケット団(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET_SHORT  (ロケット団)",
+    "SortOrderPriority": 850,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101520_WeightComparison",
+    "NameMSID": "PeripheralGoods_BOARD_101520_WeightComparison  (重さくらべ(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101520_WeightComparison_SHORT  (重さくらべ)",
+    "SortOrderPriority": 860,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (コレクションボード機能で使う\nカードを飾るための台紙です)",
+    "ID": "BOARD_101530_RETRO_SUMMER",
+    "NameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER  (レトロサマー(ボード))",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER_SHORT  (レトロサマー)",
+    "SortOrderPriority": 650,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_COIN_100020_EIEVUI  (イーブイ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100020_EIEVUI_SHORT  (イーブイ)",
+    "SortOrderPriority": 2,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_COIN_100030_NYARTH  (ニャース(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100030_NYARTH_SHORT  (ニャース)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100040_LIZARDON  (リザードン(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100040_LIZARDON_SHORT  (リザードン)",
+    "SortOrderPriority": 4,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100060_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA  (フシギバナ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA_SHORT  (フシギバナ)",
+    "SortOrderPriority": 6,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100080_KAMEX",
+    "NameMSID": "PeripheralGoods_COIN_100080_KAMEX  (カメックス(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100080_KAMEX_SHORT  (カメックス)",
+    "SortOrderPriority": 8,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100100_MEWTWO  (ミュウツー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100100_MEWTWO_SHORT  (ミュウツー)",
+    "SortOrderPriority": 10,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100130_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT  (サーナイト(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT_SHORT  (サーナイト)",
+    "SortOrderPriority": 13,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100140_PIKACHU",
+    "NameMSID": "PeripheralGoods_COIN_100140_PIKACHU  (ピカチュウ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100140_PIKACHU_SHORT  (ピカチュウ)",
+    "SortOrderPriority": 14,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100160_MONSTERBALL",
+    "NameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL  (モンスターボール(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL_SHORT  (モンスターボール)",
+    "SortOrderPriority": 16,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100240_PremiumSet",
+    "NameMSID": "PeripheralGoods_COIN_100240_PremiumSet  (スペシャルセット01(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100240_PremiumSet_SHORT  (スペシャルセット01)",
+    "SortOrderPriority": 24,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100250_MEW",
+    "NameMSID": "PeripheralGoods_COIN_100250_MEW  (ミュウ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100250_MEW_SHORT  (ミュウ)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100260_ERIKA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB  (エリカ レインボー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB_SHORT  (エリカ レインボー)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100270_ERIKA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO  (エリカ アナザー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO_SHORT  (エリカ アナザー)",
+    "SortOrderPriority": 26,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100290_SHIRONA",
+    "NameMSID": "PeripheralGoods_COIN_100290_SHIRONA  (シロナ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100290_SHIRONA_SHORT  (シロナ)",
+    "SortOrderPriority": 28,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100300_HIKOZARU",
+    "NameMSID": "PeripheralGoods_COIN_100300_HIKOZARU  (ヒコザル(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100300_HIKOZARU_SHORT  (ヒコザル)",
+    "SortOrderPriority": 29,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100310_DARKRAI",
+    "NameMSID": "PeripheralGoods_COIN_100310_DARKRAI  (ダークライ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100310_DARKRAI_SHORT  (ダークライ)",
+    "SortOrderPriority": 30,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100320_MANAPHY",
+    "NameMSID": "PeripheralGoods_COIN_100320_MANAPHY  (マナフィ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100320_MANAPHY_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100330_ARCEUS",
+    "NameMSID": "PeripheralGoods_COIN_100330_ARCEUS  (アルセウス(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100330_ARCEUS_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100340_LEAFIA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO  (リーフィア アナザー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO_SHORT  (リーフィア アナザー)",
+    "SortOrderPriority": 33,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100350_GLACIA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB  (グレイシア レインボー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB_SHORT  (グレイシア レインボー)",
+    "SortOrderPriority": 34,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100360_LUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100360_LUCARIO  (ルカリオ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100370_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100370_SHINY_LIZARDON  (色ちがいのリザードン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100380_RED_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100380_RED_HOLO  (レッド アナザー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100390_RED_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100390_RED_RNB  (レッド レインボー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100400_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100400_SHINY_MEWTWO  (色ちがいのミュウツー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100410_SOLGALEO",
+    "NameMSID": "PeripheralGoods_COIN_100410_SOLGALEO  (ソルガレオ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100410_SOLGALEO_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100420_MOKUROH",
+    "NameMSID": "PeripheralGoods_COIN_100420_MOKUROH  (モクロー(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100420_MOKUROH_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100430_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100430_LILIE  (リーリエ(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100430_LILIE_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100440_SHAYMIN_SKYFORME",
+    "NameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME  (シェイミ スカイフォルム(ポケモンコイン))",
+    "ShortNameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100450_uNECROZMA",
+    "NameMSID": "PeripheralGoods_COIN_100450_uNECROZMA  (ウルトラネクロズマ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100460_aROKON",
+    "NameMSID": "PeripheralGoods_COIN_100460_aROKON  (アローラロコン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100490_SILVADY",
+    "NameMSID": "PeripheralGoods_COIN_100490_SILVADY  (シルヴァディ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100500_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_COIN_100500_EIEVUI_2  (イーブイ Ver.2(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100530_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_COIN_100530_EIFIE_BRACKY  (エーフィ＆ブラッキー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100540_BANGIRAS",
+    "NameMSID": "PeripheralGoods_COIN_100540_BANGIRAS  (バンギラス(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100550_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_COIN_100550_HOUOU_LUGIA  (ホウオウ＆ルギア(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100560_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_COIN_100560_NUOH_PALDEADOOH  (ヌオー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100570_SUICUNE",
+    "NameMSID": "PeripheralGoods_COIN_100570_SUICUNE  (スイクン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100600_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_COIN_100600_PROF_OHKIDO  (オーキド博士(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100610_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100610_LILIE  (リーリエ Ver.2(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100620_PIKACHU_2",
+    "NameMSID": "PeripheralGoods_COIN_100620_PIKACHU_2  (ピカチュウ Ver.2(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100630_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_COIN_100630_GEKKOUGA  (ゲッコウガ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100640_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_COIN_100640_MEGATYLTALIS  (メガチルタリス(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100650_KODUCK",
+    "NameMSID": "PeripheralGoods_COIN_100650_KODUCK  (コダック(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 65,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100660_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_COIN_100660_MEGAGYARADOS  (メガギャラドス(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100670_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100670_MEGABURSYAMO  (メガバシャーモ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100680_HARUKA",
+    "NameMSID": "PeripheralGoods_COIN_100680_HARUKA  (ハルカ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100690_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_COIN_100690_MEGA_POKEMON  (メガアブソル(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100700_PremiumSet02",
+    "NameMSID": "PeripheralGoods_COIN_100700_PremiumSet02  (スペシャルセット02(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100710_ACEROLA",
+    "NameMSID": "PeripheralGoods_COIN_100710_ACEROLA  (アセロラ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100720_NYMPHIA",
+    "NameMSID": "PeripheralGoods_COIN_100720_NYMPHIA  (ニンフィア(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100730_PICHU",
+    "NameMSID": "PeripheralGoods_COIN_100730_PICHU  (ピチュー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100740_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_COIN_100740_MIMIKKYU  (ミミッキュ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100750_STRINDER",
+    "NameMSID": "PeripheralGoods_COIN_100750_STRINDER  (ストリンダー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100760_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100760_MEGASIRNIGHT  (メガサーナイト(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100770_NUMERA",
+    "NameMSID": "PeripheralGoods_COIN_100770_NUMERA  (ヌメラ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100780_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_COIN_100780_MEGALIZARDONY  (メガリザードンY(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100790_SERENA",
+    "NameMSID": "PeripheralGoods_COIN_100790_SERENA  (セレナ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100800_PEPER",
+    "NameMSID": "PeripheralGoods_COIN_100800_PEPER  (ペパー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100810_NYAHOJA",
+    "NameMSID": "PeripheralGoods_COIN_100810_NYAHOJA  (ニャオハ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100820_NANJYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100820_NANJYAMO  (ナンジャモ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100830_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_COIN_100830_MEGAGARURA  (メガガルーラ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100840_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_COIN_100840_SHINY_MEGAGANGAR  (色ちがいのメガゲンガー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100850_MORPEKO",
+    "NameMSID": "PeripheralGoods_COIN_100850_MORPEKO  (モルペコ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100860_ZOROARK",
+    "NameMSID": "PeripheralGoods_COIN_100860_ZOROARK  (ゾロアーク(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100870_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_COIN_100870_MEGAJUKAIN  (メガジュカイン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100880_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100880_MEGALUCARIO  (メガルカリオ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100890_MESSON",
+    "NameMSID": "PeripheralGoods_COIN_100890_MESSON  (メッソン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100900_KAMITSURE",
+    "NameMSID": "PeripheralGoods_COIN_100900_KAMITSURE  (カミツレ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100910_WANPACHI",
+    "NameMSID": "PeripheralGoods_COIN_100910_WANPACHI  (ワンパチ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100920_POCHAMA",
+    "NameMSID": "PeripheralGoods_COIN_100920_POCHAMA  (ポッチャマ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100930_KORAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100930_KORAIDON  (コライドン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100940_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_COIN_100940_YAMIRAMI  (ヤミラミ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100950_MIRAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100950_MIRAIDON  (ミライドン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100960_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_COIN_100960_30th_ANNIVERSARY  (ポケモン30周年デザイン(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_100990_METAGROSS",
+    "NameMSID": "PeripheralGoods_COIN_100990_METAGROSS  (メタグロス(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101000_MIJUMARU",
+    "NameMSID": "PeripheralGoods_COIN_101000_MIJUMARU  (ミジュマル(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101010_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_COIN_101010_MEGARAYQUAZA  (メガレックウザ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101020_THUNDER",
+    "NameMSID": "PeripheralGoods_COIN_101020_THUNDER  (サンダー(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101030_FOKKO",
+    "NameMSID": "PeripheralGoods_COIN_101030_FOKKO  (フォッコ(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101040_SAKAKI",
+    "NameMSID": "PeripheralGoods_COIN_101040_SAKAKI  (ロケット団のボス(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (バトル時に使用できるコインです\nデッキ機能で設定できます)",
+    "ID": "COIN_101050_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_COIN_101050_TEAM_ROCKET  (ロケット団(ポケモンコイン))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI  (イーブイ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI_SHORT  (イーブイ)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH  (ニャース(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH_SHORT  (ニャース)",
+    "SortOrderPriority": 3,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON  (リザードン(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON_SHORT  (リザードン)",
+    "SortOrderPriority": 4,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA  (フシギバナ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA_SHORT  (フシギバナ)",
+    "SortOrderPriority": 5,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100060_KAMEX",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX  (カメックス(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX_SHORT  (カメックス)",
+    "SortOrderPriority": 6,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO  (ミュウツー(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO_SHORT  (ミュウツー)",
+    "SortOrderPriority": 7,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA  (エリカ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA_SHORT  (エリカ)",
+    "SortOrderPriority": 8,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT  (サーナイト(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT_SHORT  (サーナイト)",
+    "SortOrderPriority": 9,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU  (ピカチュウ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU_SHORT  (ピカチュウ)",
+    "SortOrderPriority": 10,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet  (スペシャルセット01(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet_SHORT  (スペシャルセット01)",
+    "SortOrderPriority": 16,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100170_MEW",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW  (幻のいる島 ミュウ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW_SHORT  (幻のいる島 ミュウ)",
+    "SortOrderPriority": 17,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100180_SHIRONA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA  (シロナ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA_SHORT  (シロナ)",
+    "SortOrderPriority": 18,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100190_HIKOZARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU  (ヒコザル(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU_SHORT  (ヒコザル)",
+    "SortOrderPriority": 19,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI  (ダークライ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI_SHORT  (ダークライ)",
+    "SortOrderPriority": 20,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100210_MANAPHY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY  (マナフィ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY_SHORT",
+    "SortOrderPriority": 21,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS  (アルセウス(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100230_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA  (リーフィア＆グレイシア(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA_SHORT  (リーフィア＆グレイシア)",
+    "SortOrderPriority": 23,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100240_LUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100240_LUCARIO  (ルカリオ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100250_SHINY_LIZARDON  (色ちがいのリザードン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100260_RED_PIKACHU  (レッド＆ピカチュウ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100270_SHINY_MEWTWO  (色ちがいのミュウツー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO  (ソルガレオ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 28,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH  (モクロー(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100300_LILIE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE  (リーリエ(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION  (お祝いの街(デッキシールド))",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100320_uNECROZMA  (ウルトラネクロズマ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 32,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100330_aROKON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100330_aROKON  (アローラロコン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100340_ACEROLA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100340_ACEROLA  (アセロラ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100350_GLAZI_SILVADY  (グラジオ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100360_EIEVUI_2  (イーブイ Ver.2(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100370_NYMPHIA  (ニンフィア(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100380_EIFIE_BRACKY  (エーフィ＆ブラッキー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100390_BANGIRAS  (バンギラス(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100400_HOUOU_LUGIA  (ホウオウ＆ルギア(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100410_NUOH_PALDEADOOH  (ヌオー＆ドオー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100420_SUICUNE  (スイクン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100430_PICHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100430_PICHU  (ピチュー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100440_MEGATYLTALIS  (メガチルタリス(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100450_KODUCK  (コダック(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100460_MEGAGYARADOS  (メガギャラドス(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100470_MEGABURSYAMO  (メガバシャーモ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100480_HARUKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100480_HARUKA  (ハルカ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100490_MEGA_POKEMON  (メガシンカポケモン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100500_PremiumSet02  (スペシャルセット02(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100510_PROF_OHKIDO  (オーキド博士(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100520_LILIE_Ver2  (リーリエ Ver.2(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100530_GEKKOUGA  (ゲッコウガ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100540_1st_ANNIVERSARY  (ピカチュウとニューイヤー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100550_MIMIKKYU  (ミミッキュ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100560_STRINDER  (ストリンダー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100570_MEGASIRNIGHT  (メガサーナイト(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100580_NUMERA  (ヌメラ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100590_MEGALIZARDONY  (メガリザードンY(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100600_SERENA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100600_SERENA  (セレナ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100610_PEPER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100610_PEPER  (ペパー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100620_NYAHOJA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100620_NYAHOJA  (ニャオハ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100630_NANJYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100630_NANJYAMO  (ナンジャモ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100640_MEGAGARURA  (メガガルーラ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100650_SHINY_MEGAGANGAR  (色ちがいのメガゲンガー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100660_MORPEKO  (モルペコ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100670_ZOROARK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100670_ZOROARK  (ゾロアーク(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100680_MEGAJUKAIN  (メガジュカイン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100690_MEGALUCARIO  (メガルカリオ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100700_ForestPokemons  (森のポケモンたち(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100710_KAMITSURE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100710_KAMITSURE  (カミツレ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100720_WANPACHI_GARDIE_etc  (ワンパチ＆ガーディ＆ヨーテリー＆イワンコ＆パピモッチ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100730_POCHAMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100730_POCHAMA  (ポッチャマ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100740_KORAIDON  (コライドン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100750_YAMIRAMI  (ヤミラミ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100760_MIRAIDON  (ミライドン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100770_30th_ANNIVERSARY  (ポケモン30周年デザイン(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100800_METAGROSS  (メタグロス(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100810_MIJUMARU  (ミジュマル(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100820_MEGARAYQUAZA  (メガレックウザ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100830_THUNDER_FREEZER_etc  (サンダー＆フリーザー＆ファイヤー(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100840_FOKKO  (フォッコ(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100850_SAKAKI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100850_SAKAKI  (ロケット団のボス(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (カードに装着する周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "DECKSHIELD_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100860_TEAM_ROCKET  (ロケット団(デッキシールド))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100020_EIEVUI  (イーブイ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100020_EIEVUI_SHORT  (イーブイ)",
+    "SortOrderPriority": 2,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_FILE_100030_NYARTH  (ニャース(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100030_NYARTH_SHORT  (ニャース)",
+    "SortOrderPriority": 3,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100040_LIZARDON  (リザードン(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100040_LIZARDON_SHORT  (リザードン)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA  (フシギバナ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA_SHORT  (フシギバナ)",
+    "SortOrderPriority": 5,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX  (グリーン＆カメックス(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX_SHORT  (グリーン＆カメックス)",
+    "SortOrderPriority": 6,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100070_A1_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON  (最強の遺伝子 リザードン(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON_SHORT  (最強の遺伝子 リザードン)",
+    "SortOrderPriority": 7,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100080_A1_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO  (最強の遺伝子 ミュウツー(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO_SHORT  (最強の遺伝子 ミュウツー)",
+    "SortOrderPriority": 8,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100090_A1_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU  (最強の遺伝子 ピカチュウ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU_SHORT  (最強の遺伝子 ピカチュウ)",
+    "SortOrderPriority": 9,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100100_MEWTWO  (ミュウツー(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100100_MEWTWO_SHORT  (ミュウツー)",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100110_ERIKA_RUFFRESIA",
+    "NameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA  (エリカ＆ラフレシア(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA_SHORT  (エリカ＆ラフレシア)",
+    "SortOrderPriority": 11,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100120_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT  (サーナイト(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT_SHORT  (サーナイト)",
+    "SortOrderPriority": 12,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100130_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100130_PIKACHU  (ピカチュウ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100130_PIKACHU_SHORT  (ピカチュウ)",
+    "SortOrderPriority": 13,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100270_MONSTERBALL_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2  (モンスターボール(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2_SHORT  (モンスターボール)",
+    "SortOrderPriority": 16,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100290_PremiumSet",
+    "NameMSID": "PeripheralGoods_FILE_100290_PremiumSet  (スペシャルセット01(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100290_PremiumSet_SHORT  (スペシャルセット01)",
+    "SortOrderPriority": 18,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100300_A1a_MEW",
+    "NameMSID": "PeripheralGoods_FILE_100300_A1a_MEW  (幻のいる島 ミュウ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100300_A1a_MEW_SHORT  (幻のいる島 ミュウ)",
+    "SortOrderPriority": 19,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100310_REST_BIG_TREE",
+    "NameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE  (みんな集まる憩いの大樹(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE_SHORT  (みんな集まる憩いの大樹)",
+    "SortOrderPriority": 20,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100320_PRISTINE_FOREST",
+    "NameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST  (手つかずの森林(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST_SHORT  (手つかずの森林)",
+    "SortOrderPriority": 21,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100330_QUIET_LAKE",
+    "NameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE  (静かな湖(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE_SHORT  (静かな湖)",
+    "SortOrderPriority": 22,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100340_BURN_GROUND",
+    "NameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND  (焼けつく荒地(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND_SHORT  (焼けつく荒地)",
+    "SortOrderPriority": 23,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100350_FORGOTTEN_REMAINS",
+    "NameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS  (忘れられた遺跡(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS_SHORT  (忘れられた遺跡)",
+    "SortOrderPriority": 24,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100360_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS  (シロナ＆ガブリアス(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS_SHORT  (シロナ＆ガブリアス)",
+    "SortOrderPriority": 25,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU  (ヒコザル＆モウカザル＆ゴウカザル(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (ヒコザル＆モウカザル＆ゴウカザル)",
+    "SortOrderPriority": 26,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100380_DARKRAI",
+    "NameMSID": "PeripheralGoods_FILE_100380_DARKRAI  (ダークライ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100380_DARKRAI_SHORT  (ダークライ)",
+    "SortOrderPriority": 27,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100390_A2_DIALGA",
+    "NameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA  (時空の激闘 ディアルガ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA_SHORT  (時空の激闘 ディアルガ)",
+    "SortOrderPriority": 28,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100400_A2_PALKIA",
+    "NameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA  (時空の激闘 パルキア(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA_SHORT  (時空の激闘 パルキア)",
+    "SortOrderPriority": 29,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100410_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA  (マナフィ＆ポッチャマ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA_SHORT  (マナフィ＆ポッチャマ)",
+    "SortOrderPriority": 30,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100420_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100420_ARCEUS  (アルセウス(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100420_ARCEUS_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100430_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA  (セキ＆カイ＆リーフィア＆グレイシア(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA_SHORT  (セキ＆カイ＆リーフィア＆グレイシア)",
+    "SortOrderPriority": 32,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100440_A2a_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS  (超克の光 アルセウス(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS_SHORT  (超克の光 アルセウス)",
+    "SortOrderPriority": 33,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100450_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_FILE_100450_LUCARIO_RIOLU  (ルカリオ＆リオル(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100460_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100460_SHINY_LIZARDON  (色ちがいのリザードン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100470_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100470_RED_PIKACHU  (レッド＆ピカチュウ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100480_SHINY_GLARE",
+    "NameMSID": "PeripheralGoods_FILE_100480_SHINY_GLARE  (色ちがいの輝き(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100490_A2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_100490_A2b_SHINY_POKEMONS  (シャイニングハイ 色ちがいのポケモンたち(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100500_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100500_SOLGALEO  (ソルガレオ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100500_SOLGALEO_SHORT",
+    "SortOrderPriority": 39,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100510_MOKUROH",
+    "NameMSID": "PeripheralGoods_FILE_100510_MOKUROH  (モクロー(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100510_MOKUROH_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100520_LILIE_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA  (リーリエ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100530_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION  (お祝いの街(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100540_A3_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO  (双天の守護者 ソルガレオ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100550_A3_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA  (双天の守護者 ルナアーラ(ファイル))",
+    "ShortNameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA_SHORT",
+    "SortOrderPriority": 44,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100560_uNECROZMA",
+    "NameMSID": "PeripheralGoods_FILE_100560_uNECROZMA  (ウルトラネクロズマ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100570_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_FILE_100570_aROKON_aKYUKON  (アローラロコン＆アローラキュウコン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100580_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100580_ACEROLA_MIMIKKYU  (アセロラ＆ミミッキュ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100590_A3a_CRISIS",
+    "NameMSID": "PeripheralGoods_FILE_100590_A3a_CRISIS  (異次元クライシス ウルトラビースト(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100600_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_FILE_100600_GLAZI_SILVADY  (グラジオ＆シルヴァディ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100610_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_FILE_100610_EIEVUI_2  (イーブイ Ver.2(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100620_NYMPHIA",
+    "NameMSID": "PeripheralGoods_FILE_100620_NYMPHIA  (ニンフィア(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100630_EIEVUI_GRADEN_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100630_EIEVUI_GRADEN_EIEVUI  (イーブイガーデン イーブイ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100640_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_FILE_100640_EIFIE_BRACKY  (エーフィ＆ブラッキー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100650_BANGIRAS",
+    "NameMSID": "PeripheralGoods_FILE_100650_BANGIRAS  (バンギラス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100660_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100660_HOUOU_LUGIA  (ホウオウ＆ルギア(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100670_A4_HOUOU",
+    "NameMSID": "PeripheralGoods_FILE_100670_A4_HOUOU  (空と海の導き ホウオウ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100680_A4_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100680_A4_LUGIA  (空と海の導き ルギア(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100690_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_FILE_100690_NUOH_PALDEADOOH  (ヌオー＆ドオー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100700_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100700_SUICUNE  (スイクン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100710_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_FILE_100710_PICHU_PY_BUBY_RURIRI  (ピチュー＆ピィ＆ブビィ＆ルリリ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100720_A4a_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100720_A4a_SUICUNE  (未知なる水域 スイクン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100730_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100730_MEGATYLTALIS  (メガチルタリス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100740_KODUCK",
+    "NameMSID": "PeripheralGoods_FILE_100740_KODUCK  (コダック(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100750_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100750_MEGAGYARADOS  (メガギャラドス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100760_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100760_MEGABURSYAMO  (メガバシャーモ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100770_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_FILE_100770_HARUKA_ACHAMO  (ハルカ＆アチャモ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100780_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_FILE_100780_MEGA_POKEMON  (メガシンカポケモン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100790_PremiumSet02",
+    "NameMSID": "PeripheralGoods_FILE_100790_PremiumSet02  (スペシャルセット02(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100800_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_FILE_100800_MEGA_EVOLUTION  (メガシンカex(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100810_B1_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100810_B1_MEGABURSYAMO  (メガライジング メガバシャーモ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100820_B1_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100820_B1_MEGAGYARADOS  (メガライジング メガギャラドス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100830_B1_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100830_B1_MEGATYLTALIS  (メガライジング メガチルタリス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100840_FlowerGarden",
+    "NameMSID": "PeripheralGoods_FILE_100840_FlowerGarden  (笑顔の花が咲いた園(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100850_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_FILE_100850_PROF_OHKIDO  (オーキド博士(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100860_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100860_LILIE_Ver2  (リーリエ Ver.2(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 63,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100870_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_FILE_100870_GEKKOUGA  (ゲッコウガ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100880_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_100880_1st_ANNIVERSARY  (ピカチュウとニューイヤー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 82,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100890_A4b_HIGH_CLASS",
+    "NameMSID": "PeripheralGoods_FILE_100890_A4b_HIGH_CLASS  (ハイクラスパック ex(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100900_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100900_MIMIKKYU  (ミミッキュ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 83,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100910_STRINDER",
+    "NameMSID": "PeripheralGoods_FILE_100910_STRINDER  (ストリンダー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 84,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100920_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100920_MEGASIRNIGHT  (メガサーナイト(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 85,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100930_B2_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100930_B2_MEGASIRNIGHT  (夢幻パレード メガサーナイト(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 86,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100940_BeginningPlain",
+    "NameMSID": "PeripheralGoods_FILE_100940_BeginningPlain  (はじまりの平原でわいわいバトル(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 87,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100950_NUMERA",
+    "NameMSID": "PeripheralGoods_FILE_100950_NUMERA  (ヌメラ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 78,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100960_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100960_MEGALIZARDONY  (メガリザードンY(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 79,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100970_SERENA",
+    "NameMSID": "PeripheralGoods_FILE_100970_SERENA  (セレナ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 80,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100980_B1a_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100980_B1a_MEGALIZARDONY  (紅蓮ブレイズ メガリザードンY(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 81,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_100990_PEPER",
+    "NameMSID": "PeripheralGoods_FILE_100990_PEPER  (ペパー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA  (ニャオハ＆ニャローテ＆マスカーニャ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101010_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_FILE_101010_NANJYAMO_HARABARIE  (ナンジャモ＆ハラバリー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101020_B2a_PALDEAWONDER",
+    "NameMSID": "PeripheralGoods_FILE_101020_B2a_PALDEAWONDER  (パルデアワンダー ホゲータたち(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101030_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_FILE_101030_MEGAGARURA  (メガガルーラ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101040_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_FILE_101040_SHINY_MEGAGANGAR  (色ちがいのメガゲンガー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101050_MORPEKO",
+    "NameMSID": "PeripheralGoods_FILE_101050_MORPEKO  (モルペコ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101060_B2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_101060_B2b_SHINY_POKEMONS  (シャイニングメガ 色ちがいのポケモンたち(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101070_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_FILE_101070_ZOROARK_ZORUA  (ゾロアーク＆ゾロア(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 210,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101080_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101080_MEGAJUKAIN  (メガジュカイン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 220,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101090_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_FILE_101090_MEGALUCARIO  (メガルカリオ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 230,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101100_ForestPokemons",
+    "NameMSID": "PeripheralGoods_FILE_101100_ForestPokemons  (森のポケモンたち(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN  (波動ビート メガルカリオ＆メガジュカイン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101120_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_FILE_101120_KAMITSURE_EMOLGA  (カミツレ＆エモンガ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101130_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_FILE_101130_WANPACHI_GARDIE_etc  (ワンパチ＆ガーディ＆ヨーテリー＆イワンコ＆パピモッチ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101140_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_FILE_101140_PIKACHU_POCHAMA_etc  (ピカチュウ＆ポッチャマ＆ニンフィア＆ヨクバリス＆カビゴン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101150_B3b_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_101150_B3b_PIKACHU  (ミラクルデイズ ピカチュウたち(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 640,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101160_Chill",
+    "NameMSID": "PeripheralGoods_FILE_101160_Chill  (みんなでボケー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 650,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101170_KORAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101170_KORAIDON  (コライドン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101180_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_FILE_101180_YAMIRAMI  (ヤミラミ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101190_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101190_MIRAIDON  (ミライドン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101200_B3a_KORAIDON_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101200_B3a_KORAIDON_MIRAIDON  (進撃パラドックス コライドン＆ミライドン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 540,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101210_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_101210_30th_ANNIVERSARY  (ポケモン30周年デザイン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101220_AREAZERO",
+    "NameMSID": "PeripheralGoods_FILE_101220_AREAZERO  (エリアゼロの生態(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 550,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101230_METAGROSS",
+    "NameMSID": "PeripheralGoods_FILE_101230_METAGROSS  (メタグロス(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101240_MIJUMARU",
+    "NameMSID": "PeripheralGoods_FILE_101240_MIJUMARU  (ミジュマル(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 740,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101250_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101250_MEGARAYQUAZA  (メガレックウザ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101260_B4_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101260_B4_MEGARAYQUAZA  (天空の支配者 メガレックウザ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101270_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_FILE_101270_THUNDER_FREEZER_etc  (サンダー＆フリーザー＆ファイヤー(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101280_FOKKO",
+    "NameMSID": "PeripheralGoods_FILE_101280_FOKKO  (フォッコ(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101290_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_FILE_101290_SAKAKI_PERSIAN  (ロケット団のボス＆ペルシアン(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101300_B4a_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101300_B4a_TEAM_ROCKET  (ロケット団の野望 ロケット団(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (コレクションファイル機能で使う\nファイルの表紙です)",
+    "ID": "FILE_101310_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101310_TEAM_ROCKET  (ロケット団(ファイル))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 850,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI  (イーブイ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI_SHORT  (イーブイ)",
+    "SortOrderPriority": 2,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH  (ニャース(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH_SHORT  (ニャース)",
+    "SortOrderPriority": 3,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON  (リザードン(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON_SHORT  (リザードン)",
+    "SortOrderPriority": 4,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA  (フシギバナ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA_SHORT  (フシギバナ)",
+    "SortOrderPriority": 5,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX  (グリーン＆カメックス(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX_SHORT  (グリーン＆カメックス)",
+    "SortOrderPriority": 6,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO  (ミュウツー(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO_SHORT  (ミュウツー)",
+    "SortOrderPriority": 7,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA  (エリカ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA_SHORT  (エリカ)",
+    "SortOrderPriority": 8,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT  (サーナイト(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT_SHORT  (サーナイト)",
+    "SortOrderPriority": 9,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU  (ピカチュウ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU_SHORT  (ピカチュウ)",
+    "SortOrderPriority": 10,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet  (スペシャルセット01(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet_SHORT  (スペシャルセット01)",
+    "SortOrderPriority": 16,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100170_MEW",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100170_MEW  (幻のいる島 ミュウ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100170_MEW_SHORT  (幻のいる島 ミュウ)",
+    "SortOrderPriority": 17,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100180_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS  (シロナ＆ガブリアス(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS_SHORT  (シロナ＆ガブリアス)",
+    "SortOrderPriority": 18,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU  (ヒコザル＆モウカザル＆ゴウカザル(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (ヒコザル＆モウカザル＆ゴウカザル)",
+    "SortOrderPriority": 19,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI  (ダークライ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI_SHORT  (ダークライ)",
+    "SortOrderPriority": 20,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100210_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA  (マナフィ＆ポッチャマ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA_SHORT  (マナフィ＆ポッチャマ)",
+    "SortOrderPriority": 21,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS  (アルセウス(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA  (セキ＆カイ＆リーフィア＆グレイシア(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA_SHORT  (セキ＆カイ＆リーフィア＆グレイシア)",
+    "SortOrderPriority": 23,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100240_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100240_LUCARIO_RIOLU  (ルカリオ＆リオル(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100250_SHINY_LIZARDON  (色ちがいのリザードン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100260_RED_PIKACHU  (レッド＆ピカチュウ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100270_SHINY_MEWTWO  (色ちがいのミュウツー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO  (ソルガレオ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH  (モクロー(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100300_LILIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE  (リーリエ(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION  (お祝いの街(プレイマット))",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100320_uNECROZMA  (ウルトラネクロズマ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100330_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100330_aROKON_aKYUKON  (アローラロコン＆アローラキュウコン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100340_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100340_ACEROLA_MIMIKKYU  (アセロラ＆ミミッキュ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100350_GLAZI_SILVADY  (グラジオ＆シルヴァディ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100360_EIEVUI_2  (イーブイ Ver.2(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100370_NYMPHIA  (ニンフィア(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100380_EIFIE_BRACKY  (エーフィ＆ブラッキー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100390_BANGIRAS  (バンギラス(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100400_HOUOU_LUGIA  (ホウオウ＆ルギア(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100410_NUOH_PALDEADOOH  (ヌオー＆ドオー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100420_SUICUNE  (スイクン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100430_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100430_PICHU_PY_BUBY_RURIRI  (ピチュー＆ピィ＆ブビィ＆ルリリ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100440_MEGATYLTALIS  (メガチルタリス(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100450_KODUCK  (コダック(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100460_MEGAGYARADOS  (メガギャラドス(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100470_MEGABURSYAMO  (メガバシャーモ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100480_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100480_HARUKA_ACHAMO  (ハルカ＆アチャモ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100490_MEGA_POKEMON  (メガシンカポケモン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100500_PremiumSet02  (スペシャルセット02(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100510_PROF_OHKIDO  (オーキド博士(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100520_LILIE_Ver2  (リーリエ Ver.2(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100530_GEKKOUGA  (ゲッコウガ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100540_1st_ANNIVERSARY  (ピカチュウとニューイヤー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100550_MIMIKKYU  (ミミッキュ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100560_STRINDER  (ストリンダー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100570_MEGASIRNIGHT  (メガサーナイト(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100580_NUMERA  (ヌメラ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100590_MEGALIZARDONY  (メガリザードンY(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100600_SERENA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100600_SERENA  (セレナ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100610_PEPER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100610_PEPER  (ペパー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA  (ニャオハ＆ニャローテ＆マスカーニャ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100630_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100630_NANJYAMO_HARABARIE  (ナンジャモ＆ハラバリー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100640_MEGAGARURA  (メガガルーラ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100650_SHINY_MEGAGANGAR  (色ちがいのメガゲンガー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100660_MORPEKO  (モルペコ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100670_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100670_ZOROARK_ZORUA  (ゾロアーク＆ゾロア(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100680_MEGAJUKAIN  (メガジュカイン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100690_MEGALUCARIO  (メガルカリオ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100700_ForestPokemons  (森のポケモンたち(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100710_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100710_KAMITSURE_EMOLGA  (カミツレ＆エモンガ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100720_WANPACHI_GARDIE_etc  (ワンパチ＆ガーディ＆ヨーテリー＆イワンコ＆パピモッチ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100730_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100730_PIKACHU_POCHAMA_etc  (ピカチュウ＆ポッチャマ＆ニンフィア＆ヨクバリス＆カビゴン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100740_KORAIDON  (コライドン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100750_YAMIRAMI  (ヤミラミ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100760_MIRAIDON  (ミライドン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100770_30th_ANNIVERSARY  (ポケモン30周年デザイン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100800_METAGROSS  (メタグロス(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100810_MIJUMARU  (ミジュマル(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100820_MEGARAYQUAZA  (メガレックウザ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100830_THUNDER_FREEZER_etc  (サンダー＆フリーザー＆ファイヤー(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100840_FOKKO  (フォッコ(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100850_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100850_SAKAKI_PERSIAN  (ロケット団のボス＆ペルシアン(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (バトル時に場に広げる周辺グッズです\nデッキ機能で設定できます)",
+    "ID": "PLAYMAT_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100860_TEAM_ROCKET  (ロケット団(プレイマット))",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 0
+  }
+]

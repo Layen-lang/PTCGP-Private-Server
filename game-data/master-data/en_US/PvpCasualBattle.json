@@ -1,0 +1,12 @@
+[
+  {
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "Exp": 15,
+    "PvpCasualType": 1
+  },
+  {
+    "BattleRuleID": "BT_RU_MULTI_STANDARD",
+    "Exp": 0,
+    "PvpCasualType": 2
+  }
+]

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pokemon;
+
+enum EnergyType {
+  ENERGY_TYPE_UNSPECIFIED = 0;
+  ENERGY_TYPE_COLORLESS = 1;
+  ENERGY_TYPE_GRASS = 2;
+  ENERGY_TYPE_FIRE = 3;
+  ENERGY_TYPE_WATER = 4;
+  ENERGY_TYPE_LIGHTNING = 5;
+  ENERGY_TYPE_PSYCHIC = 6;
+  ENERGY_TYPE_FIGHTING = 7;
+  ENERGY_TYPE_DARKNESS = 8;
+  ENERGY_TYPE_METAL = 9;
+  ENERGY_TYPE_DRAGON = 10;
+}

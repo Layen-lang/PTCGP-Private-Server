@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_deck.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_info.proto";
+
+message PvpEventRequestEmblemMatchingV2 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.pvp.PvpBattleDeck deck = 1;
+    }
+    message Response {
+      int64 polling_interval_ms = 1;
+      takasho.schema.lettuce_server.resource.pvp.PvpBattleInfo last_battle = 2;
+    }
+  }
+}

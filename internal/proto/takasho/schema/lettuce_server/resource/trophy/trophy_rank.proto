@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.trophy;
+
+enum TrophyRank {
+  TROPHY_RANK_UNSPECIFIED = 0;
+  TROPHY_RANK_BRONZE = 1;
+  TROPHY_RANK_SLIVER = 2;
+  TROPHY_RANK_GOLD = 3;
+  TROPHY_RANK_RAINBOW = 4;
+}

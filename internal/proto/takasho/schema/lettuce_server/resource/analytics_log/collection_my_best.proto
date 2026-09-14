@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CollectionMyBest {
+  message Types {
+    enum CollectionType {
+      COLLECTION_TYPE_UNSPECIFIED = 0;
+      COLLECTION_TYPE_COLLECTION_FILE = 1;
+      COLLECTION_TYPE_COLLECTION_BOARD = 2;
+    }
+  }
+  CollectionMyBest.Types.CollectionType collection_type = 1;
+  string file_id = 2;
+  string board_id = 3;
+  int64 mybest_flg = 4;
+  repeated string cards = 5;
+}

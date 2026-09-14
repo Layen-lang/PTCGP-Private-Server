@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.system;
+
+enum PlatformType {
+  PLATFORM_TYPE_UNSPECIFIED = 0;
+  PLATFORM_TYPE_GOOGLE = 1;
+  PLATFORM_TYPE_APPLE = 2;
+  PLATFORM_TYPE_EDITOR = 3;
+}

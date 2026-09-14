@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_event_matched_player.proto";
+
+message PvpEventEstablishedMatch {
+  string battle_id = 1;
+  PvpEventMatchedPlayer self = 2;
+  PvpEventMatchedPlayer opponent = 3;
+}

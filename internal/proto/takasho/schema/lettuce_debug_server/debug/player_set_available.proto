@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/player_profile/available_type_for_debug.proto";
+
+message PlayerSetAvailable {
+  message Types {
+    message Request {
+      message Types {
+        message SetAvailableInfo {
+          string player_id = 1;
+          takasho.schema.lettuce_server.resource.player_profile.AvailableTypeForDebug available_type = 2;
+        }
+      }
+      repeated PlayerSetAvailable.Types.Request.Types.SetAvailableInfo set_available_infos = 1;
+    }
+    message Response {
+    }
+  }
+}

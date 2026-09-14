@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/collection/my_best_collection.proto";
+
+message ProfileSetProfiles {
+  message Types {
+    message Request {
+      message Types {
+        message Profile {
+          string player_id = 1;
+          string nickname = 2;
+          string icon_id = 3;
+          repeated string emblem_ids = 4;
+          string message_id = 5;
+          takasho.schema.lettuce_server.resource.collection.MyBestCollection my_best = 6;
+        }
+      }
+      repeated ProfileSetProfiles.Types.Request.Types.Profile profiles = 1;
+    }
+    message Response {
+    }
+  }
+}

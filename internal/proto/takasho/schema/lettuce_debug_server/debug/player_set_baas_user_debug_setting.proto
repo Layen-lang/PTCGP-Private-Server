@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PlayerSetBaasUserDebugSetting {
+  message Types {
+    message PokeGoldPurchaseEvent {
+      google.protobuf.Timestamp purchased_at = 2;
+    }
+    message Request {
+      string master_version = 1;
+      PlayerSetBaasUserDebugSetting.Types.PokeGoldPurchaseEvent poke_gold_purchase_event = 2;
+    }
+    message Response {
+      string baas_user_id = 1;
+      string master_version = 2;
+      PlayerSetBaasUserDebugSetting.Types.PokeGoldPurchaseEvent poke_gold_purchase_event = 3;
+    }
+  }
+}

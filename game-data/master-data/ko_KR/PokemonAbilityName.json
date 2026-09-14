@@ -1,0 +1,662 @@
+[
+  {
+    "NameMSID": "ABILITY_NAME_1  (파우더 힐)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_10  (새어나가는 가스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_100  (커스메탈)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_101  (끈적한 점막)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_102  (부스트 진화)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_103  (프렌드서치)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_104  (이그니션)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_105  (트랩 테리터리)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_106  (등껍질실드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_107  (무한증폭)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_108  (평온의 바람)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_109  (서핑테일)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_11  (하드코트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_110  (이상한 노랫소리)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_111  (탈)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_112  (리프레시 티)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_113  (연계 유닛)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_114  (화학의힘)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_115  (마지막 외침)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_116  (움켜잡기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_117  (멋대로 스텝)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_118  (초상화)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_119  (벌레회피 윈드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_12  (쫓아내기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_120  (조는 버릇)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_121  (엑스트라 힐)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_122  (패션 보이스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_123  (장갑)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_124  (급류)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_125  (아이스 메이커)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_126  (나이트메어)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_127  (메탈 캐리)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_128  (타임리콜)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_129  (승리의별)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_13  (데이터 스캔)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_130  (얼어붙는 수류)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_131  (연사)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_132  (더블타입)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_133  (혼란시키는 귀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_134  (아픔 받기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_135  (못된 택배)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_136  (모래감옥)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_137  (해피서플리)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_138  (옛 봉인)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_139  (전설의 진격)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_14  (밀림의 주인)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_140  (미래 시스템)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_141  (은혜의 소금)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_142  (깨어진 결정)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_143  (오토 마셜)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_144  (고대의 부르짖기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_145  (자라는 시기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_146  (아쿠아 차지)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_147  (치유의 리본)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_148  (둥지 숨기 가드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_149  (왕큰 몸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_15  (흘려보내기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_150  (버라이어티 파우더)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_151  (대접)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_152  (본질밝히기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_153  (이볼브쇼크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_154  (인력의 몸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_155  (더블 커스텀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_156  (용의 은혜)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_157  (보물 모으기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_158  (로열 블룸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_159  (길동무봄버)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_16  (원시의결정)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_160  (나쁜 번뜩임)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_161  (보일러 스모그)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_162  (럭셔리 동전)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_163  (마하 스텔스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_164  (도둑질 앞니)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_165  (스파이 활동)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_17  (까칠한피부)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_18  (향기로운 화원)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_19  (두꺼운지방)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_2  (향기의 덫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_20  (크리스털 바디)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_21  (섀도홀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_22  (부유)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_23  (딱딱한몸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_24  (파이팅 코치)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_25  (나이트메어 오라)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_26  (얼굴가드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_27  (거칠게 깎기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_28  (파워 링크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_29  (숲의 숨결)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_3  (반격)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_30  (스피드 링크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_31  (허슬 링크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_32  (스노 필드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_33  (가드 링크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_34  (CHECK [C:Lsb ]체크[C:Rsb ])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_35  (트릭 링크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_36  (스카이 서포트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_37  (신화의 반짝임)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_38  (초승달의 날개옷)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_39  (선풍 가드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_4  (조가비갑옷)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_40  (철수 지시)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_41  (파공의 외침)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_42  (독칠)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_43  (평온의 노래)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_44  (도망태세)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_45  (힐 멜로디)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_46  (내용물분출)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_47  (신비의부적)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_48  (플라워가드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_49  (사이코커넥트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_5  (물수리검)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_50  (근성)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_51  (오프로드 패스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_52  (퍼코트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_53  (라이징 로드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_54  (절대안깸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_55  (신뢰 섬광)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_56  (위협엄니)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_57  (발광)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_58  (회복봉인)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_59  (포이즌업)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_6  (볼트 차지)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_60  (강철 가시)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_61  (파수견 얼굴)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_62  (울트라 스러스터)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_63  (번 업)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_64  (해피 리본)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_65  (브이브이 진화)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_66  (볼가득 버릇)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_67  (테일캐치)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_68  (코튼플라이트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_69  (단단한 껍질)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_7  (그림자 속박)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_70  (의욕후르츠)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_71  (버닝브레스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_72  (왕의응원)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_73  (거친집게)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_74  (하늘의축복)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_75  (사이코힐)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_76  (GUARD [C:Lsb ]가드[C:Rsb ])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_77  (POWER [C:Lsb ]파워[C:Rsb ])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_78  (다크체이스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_79  (탈취에너지)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_8  (잠듦의 추)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_80  (버그진화)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_81  (불면)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_82  (치유파문)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_83  (환영트릭)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_84  (전설의고동)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_85  (틈새포착체크)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_86  (멸망의바디)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_87  (무한플로트)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_88  (터프니스 아로마)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_89  (매혹의 리듬)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_9  (트랜스 셰이드)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_90  (서서히태우기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_91  (벌벌바디)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_92  (수류변화)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_93  (아이스페이스)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_94  (전자벽)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_95  (어둠으로 사라지기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_96  (분해의열쇠)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_97  (챙겨주기)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_98  (포효타래)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_99  (독가시)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99"
+  }
+]

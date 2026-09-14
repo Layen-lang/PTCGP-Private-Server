@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/pvp/main_rank_type.proto";
+import "takasho/schema/lettuce_server/resource/pvp/sub_rank_type.proto";
+
+message SeasonProfile {
+  string season_id = 1;
+  int64 point = 2;
+  MainRankType main_rank = 3;
+  SubRankType sub_rank = 4;
+  int32 ranking = 5;
+  int32 win_rate_per10000 = 6;
+  int64 number_of_wins = 7;
+  int64 number_of_losses = 8;
+}

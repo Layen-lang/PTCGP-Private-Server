@@ -1,0 +1,57 @@
+[
+  {
+    "Id": "CEIL_POINT_AR",
+    "Key": 4,
+    "Value": 400
+  },
+  {
+    "Id": "CEIL_POINT_C",
+    "Key": 0,
+    "Value": 35
+  },
+  {
+    "Id": "CEIL_POINT_IM",
+    "Key": 7,
+    "Value": 1500
+  },
+  {
+    "Id": "CEIL_POINT_R",
+    "Key": 2,
+    "Value": 150
+  },
+  {
+    "Id": "CEIL_POINT_RR",
+    "Key": 3,
+    "Value": 500
+  },
+  {
+    "Id": "CEIL_POINT_S",
+    "Key": 1000,
+    "Value": 1000
+  },
+  {
+    "Id": "CEIL_POINT_SAR",
+    "Key": 5,
+    "Value": 1250
+  },
+  {
+    "Id": "CEIL_POINT_SR",
+    "Key": 6,
+    "Value": 1250
+  },
+  {
+    "Id": "CEIL_POINT_SSR",
+    "Key": 1100,
+    "Value": 1350
+  },
+  {
+    "Id": "CEIL_POINT_U",
+    "Key": 1,
+    "Value": 70
+  },
+  {
+    "Id": "CEIL_POINT_UR",
+    "Key": 8,
+    "Value": 2500
+  }
+]

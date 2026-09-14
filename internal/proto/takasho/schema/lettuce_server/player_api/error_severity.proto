@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message ErrorSeverity {
+  message Types {
+    enum Value {
+      VALUE_UNSPECIFIED = 0;
+      VALUE_EMERGENCY = 1;
+      VALUE_CRITICAL = 2;
+      VALUE_ERROR = 3;
+      VALUE_WARNING = 4;
+      VALUE_INFO = 5;
+      VALUE_DEBUG = 6;
+    }
+  }
+}

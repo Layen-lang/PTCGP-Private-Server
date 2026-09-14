@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_ranking_player.proto";
+
+message PvpRankGetCurrentSeasonRankingV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      bool is_open = 1;
+      repeated takasho.schema.lettuce_server.resource.pvp.PvpRankRankingPlayer ranking_players = 2;
+      google.protobuf.Timestamp renew_after = 3;
+      bool ranking_unavailable = 4;
+    }
+  }
+}

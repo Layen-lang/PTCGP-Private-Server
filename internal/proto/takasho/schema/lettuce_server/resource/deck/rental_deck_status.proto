@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+import "google/protobuf/timestamp.proto";
+
+message RentalDeckStatus {
+  string rental_deck_id = 1;
+  uint64 used_count = 2;
+  google.protobuf.Timestamp obtained_at = 3;
+}

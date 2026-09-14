@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/error_code.proto";
+import "takasho/schema/lettuce_server/player_api/error_severity.proto";
+
+message MethodOption {
+  message Types {
+    message MethodErrorDefinition {
+      ErrorCode.Types.Method code = 1;
+      ErrorSeverity.Types.Value severity = 2;
+      string message = 3;
+      string description = 4;
+    }
+  }
+  bool skip_authenticate = 1;
+  bool skip_client_version = 2;
+  repeated MethodOption.Types.MethodErrorDefinition method_error_definitions = 3;
+  bool skip_player_available = 5;
+}

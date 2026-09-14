@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/feed/free_feed.proto";
+import "takasho/schema/lettuce_server/resource/feed/lucky_feed.proto";
+import "takasho/schema/lettuce_server/resource/feed/someone_feed.proto";
+
+message FeedTimeline {
+  string timeline_id = 1;
+  repeated SomeoneFeed someone_feeds = 2;
+  repeated LuckyFeed lucky_feeds = 3;
+  repeated FreeFeed free_feeds = 4;
+  google.protobuf.Timestamp renew_after = 10;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/friend/friend.proto";
+
+message FriendDeleteV1 {
+  message Types {
+    message Request {
+      repeated string delete_player_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.Friend friends = 1;
+    }
+  }
+}

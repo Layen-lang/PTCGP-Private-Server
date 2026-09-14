@@ -1,0 +1,3842 @@
+[
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100110_EIEVUI",
+    "NameMSID": "PeripheralGoods_BOARD_100110_EIEVUI  (伊布（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100110_EIEVUI_SHORT  (伊布)",
+    "SortOrderPriority": 11,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100120_NYARTH",
+    "NameMSID": "PeripheralGoods_BOARD_100120_NYARTH  (喵喵（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100120_NYARTH_SHORT  (喵喵)",
+    "SortOrderPriority": 12,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100130_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100130_LIZARDON  (噴火龍（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100130_LIZARDON_SHORT  (噴火龍)",
+    "SortOrderPriority": 13,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100140_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA  (妙蛙花（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100140_FUSHIGIBANA_SHORT  (妙蛙花)",
+    "SortOrderPriority": 14,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100150_GREEN",
+    "NameMSID": "PeripheralGoods_BOARD_100150_GREEN  (青綠（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100150_GREEN_SHORT  (青綠)",
+    "SortOrderPriority": 15,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100160_MEWTWO",
+    "NameMSID": "PeripheralGoods_BOARD_100160_MEWTWO  (超夢（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100160_MEWTWO_SHORT  (超夢)",
+    "SortOrderPriority": 16,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100170_ERIKA",
+    "NameMSID": "PeripheralGoods_BOARD_100170_ERIKA  (莉佳（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100170_ERIKA_SHORT  (莉佳)",
+    "SortOrderPriority": 17,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100180_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT  (沙奈朵（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100180_SIRNIGHT_SHORT  (沙奈朵)",
+    "SortOrderPriority": 18,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100190_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100190_PIKACHU  (皮卡丘（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100190_PIKACHU_SHORT  (皮卡丘)",
+    "SortOrderPriority": 19,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100350_PremiumSet",
+    "NameMSID": "PeripheralGoods_BOARD_100350_PremiumSet  (特別組合01（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100350_PremiumSet_SHORT  (特別組合01)",
+    "SortOrderPriority": 24,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100360_Displayframe_cool",
+    "NameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool  (展示框：酷帥（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100360_Displayframe_cool_SHORT  (展示框：酷帥)",
+    "SortOrderPriority": 25,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100370_Natural_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf  (自然枝葉（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100370_Natural_Leaf_SHORT  (自然枝葉)",
+    "SortOrderPriority": 26,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100390_Snow_Crystal",
+    "NameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal  (雪晶（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100390_Snow_Crystal_SHORT  (雪晶)",
+    "SortOrderPriority": 28,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100400_Displayframe_pinkdesk",
+    "NameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk  (展示框：粉紅書桌（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100400_Displayframe_pinkdesk_SHORT  (展示框：粉紅書桌)",
+    "SortOrderPriority": 29,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100410_Miniature_temple",
+    "NameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple  (袖珍神殿（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100410_Miniature_temple_SHORT  (袖珍神殿)",
+    "SortOrderPriority": 30,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100420_Displayframe_winterholiday",
+    "NameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday  (展示框：冬日佳節（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100420_Displayframe_winterholiday_SHORT  (展示框：冬日佳節)",
+    "SortOrderPriority": 31,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100430_Displayframe_newyear",
+    "NameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear  (展示框：新年快樂（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100430_Displayframe_newyear_SHORT  (展示框：新年快樂)",
+    "SortOrderPriority": 32,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100440_Displayframe_brightroom",
+    "NameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom  (展示框：明亮居室（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100440_Displayframe_brightroom_SHORT  (展示框：明亮居室)",
+    "SortOrderPriority": 33,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100460_SHIRONA_MIKARUGE",
+    "NameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE  (竹蘭＆花岩怪（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100460_SHIRONA_MIKARUGE_SHORT  (竹蘭＆花岩怪)",
+    "SortOrderPriority": 35,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100470_HIKOZARU",
+    "NameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU  (小火焰猴（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100470_HIKOZARU_SHORT  (小火焰猴)",
+    "SortOrderPriority": 36,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100480_DARKRAI",
+    "NameMSID": "PeripheralGoods_BOARD_100480_DARKRAI  (達克萊伊（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100480_DARKRAI_SHORT  (達克萊伊)",
+    "SortOrderPriority": 37,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100490_Cave_ore",
+    "NameMSID": "PeripheralGoods_BOARD_100490_Cave_ore  (礦藏洞窟（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100490_Cave_ore_SHORT  (礦藏洞窟)",
+    "SortOrderPriority": 38,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100500_Sweet_heart",
+    "NameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart  (粉嫩甜心（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100500_Sweet_heart_SHORT  (粉嫩甜心)",
+    "SortOrderPriority": 39,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100510_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA  (瑪納霏＆波加曼（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100510_MANAPHY_POCHAMA_SHORT  (瑪納霏＆波加曼)",
+    "SortOrderPriority": 40,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100520_Cyber_device",
+    "NameMSID": "PeripheralGoods_BOARD_100520_Cyber_device  (電控裝置（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100520_Cyber_device_SHORT  (電控裝置)",
+    "SortOrderPriority": 41,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100530_ARCEUS",
+    "NameMSID": "PeripheralGoods_BOARD_100530_ARCEUS  (阿爾宙斯（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100530_ARCEUS_SHORT  (阿爾宙斯)",
+    "SortOrderPriority": 42,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100540_SEKI_KAI",
+    "NameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI  (剛石＆珠貝（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100540_SEKI_KAI_SHORT  (剛石＆珠貝)",
+    "SortOrderPriority": 43,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100550_Cherry_blossoms",
+    "NameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms  (盛放櫻花（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100550_Cherry_blossoms_SHORT  (盛放櫻花)",
+    "SortOrderPriority": 44,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100560_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU  (路卡利歐＆利歐路（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100560_LUCARIO_RIOLU_SHORT  (路卡利歐＆利歐路)",
+    "SortOrderPriority": 45,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100570_Hall_of_fame",
+    "NameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame  (展示框：舞台（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100570_Hall_of_fame_SHORT  (展示框：舞台)",
+    "SortOrderPriority": 46,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100580_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON  (異色的噴火龍（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100580_SHINY_LIZARDON_SHORT  (異色的噴火龍)",
+    "SortOrderPriority": 47,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100590_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU  (赤紅＆皮卡丘（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100590_RED_PIKACHU_SHORT  (赤紅＆皮卡丘)",
+    "SortOrderPriority": 48,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100600_Displayframe_spring",
+    "NameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring  (展示框：春（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100600_Displayframe_spring_SHORT  (展示框：春)",
+    "SortOrderPriority": 49,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100610_Shiny_glare",
+    "NameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare  (展示框：異色輝光（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100610_Shiny_glare_SHORT  (展示框：異色輝光)",
+    "SortOrderPriority": 50,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100620_SOLGALEO",
+    "NameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO  (索爾迦雷歐（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100620_SOLGALEO_SHORT  (索爾迦雷歐)",
+    "SortOrderPriority": 51,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100630_STARRY_SKY",
+    "NameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY  (滿天星斗（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100630_STARRY_SKY_SHORT  (滿天星斗)",
+    "SortOrderPriority": 52,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100640_MOKUROH",
+    "NameMSID": "PeripheralGoods_BOARD_100640_MOKUROH  (木木梟（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100640_MOKUROH_SHORT  (木木梟)",
+    "SortOrderPriority": 53,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100650_LILIE",
+    "NameMSID": "PeripheralGoods_BOARD_100650_LILIE  (莉莉艾（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100650_LILIE_SHORT  (莉莉艾)",
+    "SortOrderPriority": 54,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100660_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION  (喜氣滿街巷（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100660_CITY_CELEBRATION_SHORT  (喜氣滿街巷)",
+    "SortOrderPriority": 55,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100670_DIGITAL_SPACE",
+    "NameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE  (數位空間（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100670_DIGITAL_SPACE_SHORT  (數位空間)",
+    "SortOrderPriority": 56,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100680_uNECROZMA",
+    "NameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA  (究極奈克洛茲瑪（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100680_uNECROZMA_SHORT  (究極奈克洛茲瑪)",
+    "SortOrderPriority": 57,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100690_FLOWER_GIFTBOX",
+    "NameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX  (花語禮盒（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100690_FLOWER_GIFTBOX_SHORT  (花語禮盒)",
+    "SortOrderPriority": 58,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100700_aROKON",
+    "NameMSID": "PeripheralGoods_BOARD_100700_aROKON  (阿羅拉六尾（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100700_aROKON_SHORT  (阿羅拉六尾)",
+    "SortOrderPriority": 59,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100710_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU  (阿塞蘿拉＆謎擬Ｑ（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100710_ACEROLA_MIMIKKYU_SHORT  (阿塞蘿拉＆謎擬Ｑ)",
+    "SortOrderPriority": 60,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100720_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY  (格拉吉歐（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100720_GLAZI_SILVADY_SHORT  (格拉吉歐)",
+    "SortOrderPriority": 61,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100730_NIGHT_CAMP",
+    "NameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP  (森夜野營（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100730_NIGHT_CAMP_SHORT  (森夜野營)",
+    "SortOrderPriority": 62,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100740_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2  (伊布Ver.2（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100740_EIEVUI_2_SHORT  (伊布Ver.2)",
+    "SortOrderPriority": 63,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100750_NYMPHIA",
+    "NameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA  (仙子伊布＆蝶結萌虻＆花療環環（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100750_NYMPHIA_SHORT  (仙子伊布＆蝶結萌虻＆花療環環)",
+    "SortOrderPriority": 64,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100760_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY  (太陽伊布＆月亮伊布（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100760_EIFIE_BRACKY_SHORT  (太陽伊布＆月亮伊布)",
+    "SortOrderPriority": 67,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100770_BANGIRAS",
+    "NameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS  (班基拉斯（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100770_BANGIRAS_SHORT  (班基拉斯)",
+    "SortOrderPriority": 68,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100780_Under_the_Sea",
+    "NameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea  (海底世界（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100780_Under_the_Sea_SHORT  (海底世界)",
+    "SortOrderPriority": 66,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100790_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA  (鳳王＆洛奇亞（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100790_HOUOU_LUGIA_SHORT  (鳳王＆洛奇亞)",
+    "SortOrderPriority": 69,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100800_Displayframe_garden",
+    "NameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden  (展示框：庭園（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100800_Displayframe_garden_SHORT  (展示框：庭園)",
+    "SortOrderPriority": 70,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100810_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH  (沼王＆土王（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100810_NUOH_PALDEADOOH_SHORT  (沼王＆土王)",
+    "SortOrderPriority": 71,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100820_Displayframe_Halloween",
+    "NameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween  (萬聖夜（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100820_Displayframe_Halloween_SHORT  (萬聖夜)",
+    "SortOrderPriority": 72,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100830_SUICUNE",
+    "NameMSID": "PeripheralGoods_BOARD_100830_SUICUNE  (水君（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100830_SUICUNE_SHORT  (水君)",
+    "SortOrderPriority": 73,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100840_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI  (皮丘＆皮寶寶＆鴨嘴寶寶＆露力麗（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100840_PICHU_PY_BUBY_RURIRI_SHORT  (皮丘＆皮寶寶＆鴨嘴寶寶＆露力麗)",
+    "SortOrderPriority": 74,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100850_Displayframe_Nine",
+    "NameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine  (展示框：9張（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100850_Displayframe_Nine_SHORT  (展示框：9張)",
+    "SortOrderPriority": 65,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100860_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS  (超級七夕青鳥（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100860_MEGATYLTALIS_SHORT  (超級七夕青鳥)",
+    "SortOrderPriority": 80,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100870_KODUCK",
+    "NameMSID": "PeripheralGoods_BOARD_100870_KODUCK  (可達鴨（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100870_KODUCK_SHORT  (可達鴨)",
+    "SortOrderPriority": 81,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100880_Autumn_Leaf",
+    "NameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf  (秋葉（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100880_Autumn_Leaf_SHORT  (秋葉)",
+    "SortOrderPriority": 82,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100890_KOIKING",
+    "NameMSID": "PeripheralGoods_BOARD_100890_KOIKING  (鯉魚王（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100890_KOIKING_SHORT  (鯉魚王)",
+    "SortOrderPriority": 83,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100900_Holiday2025",
+    "NameMSID": "PeripheralGoods_BOARD_100900_Holiday2025  (冬日佳節2025（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100900_Holiday2025_SHORT  (冬日佳節2025)",
+    "SortOrderPriority": 84,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100910_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO  (超級火焰雞（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100910_MEGABURSYAMO_SHORT  (超級火焰雞)",
+    "SortOrderPriority": 85,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100920_HARUKA",
+    "NameMSID": "PeripheralGoods_BOARD_100920_HARUKA  (小遙（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100920_HARUKA_SHORT  (小遙)",
+    "SortOrderPriority": 86,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100930_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON  (超級進化寶可夢（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100930_MEGA_POKEMON_SHORT  (超級進化寶可夢)",
+    "SortOrderPriority": 87,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100940_PremiumSet02",
+    "NameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02  (特別組合02（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100940_PremiumSet02_SHORT  (特別組合02)",
+    "SortOrderPriority": 88,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100950_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION  (超級進化寶可夢ex（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100950_MEGA_EVOLUTION_SHORT  (超級進化寶可夢ex)",
+    "SortOrderPriority": 89,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100960_Music_Space",
+    "NameMSID": "PeripheralGoods_BOARD_100960_Music_Space  (音樂空間（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100960_Music_Space_SHORT  (音樂空間)",
+    "SortOrderPriority": 90,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100970_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO  (大木博士（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100970_PROF_OHKIDO_SHORT  (大木博士)",
+    "SortOrderPriority": 77,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100980_Autumn_Afternoon_Tea",
+    "NameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea  (秋日午茶（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100980_Autumn_Afternoon_Tea_SHORT  (秋日午茶)",
+    "SortOrderPriority": 78,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_100990_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2  (莉莉艾Ver.2（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_100990_LILIE_Ver2_SHORT  (莉莉艾Ver.2)",
+    "SortOrderPriority": 75,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101000_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA  (甲賀忍蛙（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101000_GEKKOUGA_SHORT  (甲賀忍蛙)",
+    "SortOrderPriority": 76,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101010_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY  (與皮卡丘歡慶新年（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101010_1st_ANNIVERSARY_SHORT  (與皮卡丘歡慶新年)",
+    "SortOrderPriority": 96,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101020_ShotingStar_Sky",
+    "NameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky  (流星夜空（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101020_ShotingStar_Sky_SHORT  (流星夜空)",
+    "SortOrderPriority": 98,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101030_Rainbow",
+    "NameMSID": "PeripheralGoods_BOARD_101030_Rainbow  (彩虹（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101030_Rainbow_SHORT  (彩虹)",
+    "SortOrderPriority": 99,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101040_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU  (謎擬Ｑ（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101040_MIMIKKYU_SHORT  (謎擬Ｑ)",
+    "SortOrderPriority": 100,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101050_STRINDER",
+    "NameMSID": "PeripheralGoods_BOARD_101050_STRINDER  (顫弦蠑螈（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101050_STRINDER_SHORT  (顫弦蠑螈)",
+    "SortOrderPriority": 101,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101060_SIRNIGHT_KIRLIA_RALTS",
+    "NameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS  (沙奈朵＆奇魯莉安＆拉魯拉絲（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101060_SIRNIGHT_KIRLIA_RALTS_SHORT  (沙奈朵＆奇魯莉安＆拉魯拉絲)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101070_NUMERA",
+    "NameMSID": "PeripheralGoods_BOARD_101070_NUMERA  (黏黏寶（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101070_NUMERA_SHORT  (黏黏寶)",
+    "SortOrderPriority": 92,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101080_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY  (超級噴火龍Y（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101080_MEGALIZARDONY_SHORT  (超級噴火龍Y)",
+    "SortOrderPriority": 93,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101090_SERENA",
+    "NameMSID": "PeripheralGoods_BOARD_101090_SERENA  (莎莉娜（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101090_SERENA_SHORT  (莎莉娜)",
+    "SortOrderPriority": 94,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101100_NewYear2026",
+    "NameMSID": "PeripheralGoods_BOARD_101100_NewYear2026  (新年快樂2026（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101100_NewYear2026_SHORT  (新年快樂2026)",
+    "SortOrderPriority": 95,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101110_PEPER",
+    "NameMSID": "PeripheralGoods_BOARD_101110_PEPER  (派帕（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101110_PEPER_SHORT  (派帕)",
+    "SortOrderPriority": 200,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101120_Adventure_Field",
+    "NameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field  (冒險原野（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101120_Adventure_Field_SHORT  (冒險原野)",
+    "SortOrderPriority": 210,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101130_NYAHOJA_HOGATOR_KUWASSU",
+    "NameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU  (新葉喵＆呆火鱷＆潤水鴨（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101130_NYAHOJA_HOGATOR_KUWASSU_SHORT  (新葉喵＆呆火鱷＆潤水鴨)",
+    "SortOrderPriority": 220,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101140_NANJYAMO",
+    "NameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO  (奇樹（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101140_NANJYAMO_SHORT  (奇樹)",
+    "SortOrderPriority": 230,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101150_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA  (超級袋獸（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101150_MEGAGARURA_SHORT  (超級袋獸)",
+    "SortOrderPriority": 340,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101160_Displayframe_snowy_window",
+    "NameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window  (展示框：雪景（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101160_Displayframe_snowy_window_SHORT  (展示框：雪景)",
+    "SortOrderPriority": 350,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR  (超級耿鬼＆異色的超級耿鬼（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101170_MEGAGANGAR_SHINY_MEGAGANGAR_SHORT  (超級耿鬼＆異色的超級耿鬼)",
+    "SortOrderPriority": 310,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101180_MORPEKO",
+    "NameMSID": "PeripheralGoods_BOARD_101180_MORPEKO  (莫魯貝可（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101180_MORPEKO_SHORT  (莫魯貝可)",
+    "SortOrderPriority": 320,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101190_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA  (索羅亞克＆索羅亞（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101190_ZOROARK_ZORUA_SHORT  (索羅亞克＆索羅亞)",
+    "SortOrderPriority": 430,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101200_KIMORI_ACHAMO_MIZUGOROU",
+    "NameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU  (木守宮＆火稚雞＆水躍魚（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101200_KIMORI_ACHAMO_MIZUGOROU_SHORT  (木守宮＆火稚雞＆水躍魚)",
+    "SortOrderPriority": 450,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101210_Rival",
+    "NameMSID": "PeripheralGoods_BOARD_101210_Rival  (勁敵（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101210_Rival_SHORT  (勁敵)",
+    "SortOrderPriority": 460,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU  (超級路卡利歐＆路卡利歐＆利歐路（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101220_MEGALUCARIO_LUCARIO_RIOLU_SHORT  (超級路卡利歐＆路卡利歐＆利歐路)",
+    "SortOrderPriority": 470,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101230_ForestPokemons",
+    "NameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons  (森林的寶可夢們（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101230_ForestPokemons_SHORT  (森林的寶可夢們)",
+    "SortOrderPriority": 420,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101240_LanternNight",
+    "NameMSID": "PeripheralGoods_BOARD_101240_LanternNight  (天燈夜空（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101240_LanternNight_SHORT  (天燈夜空)",
+    "SortOrderPriority": 410,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101250_KAMITSURE",
+    "NameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE  (小菊兒（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101250_KAMITSURE_SHORT  (小菊兒)",
+    "SortOrderPriority": 610,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101260_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc  (來電汪＆卡蒂狗＆小約克＆岩狗狗＆狗仔包（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101260_WANPACHI_GARDIE_etc_SHORT  (來電汪＆卡蒂狗＆小約克＆岩狗狗＆狗仔包)",
+    "SortOrderPriority": 620,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101270_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc  (皮卡丘＆波加曼＆仙子伊布＆藏飽栗鼠＆卡比獸（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101270_PIKACHU_POCHAMA_etc_SHORT  (皮卡丘＆波加曼＆仙子伊布＆藏飽栗鼠＆卡比獸)",
+    "SortOrderPriority": 630,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101280_Deserted_Island",
+    "NameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island  (無人島（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101280_Deserted_Island_SHORT  (無人島)",
+    "SortOrderPriority": 91,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101290_KORAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101290_KORAIDON  (故勒頓（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101290_KORAIDON_SHORT  (故勒頓)",
+    "SortOrderPriority": 510,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101300_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI  (勾魂眼（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101300_YAMIRAMI_SHORT  (勾魂眼)",
+    "SortOrderPriority": 520,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101310_MIRAIDON",
+    "NameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON  (密勒頓（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101310_MIRAIDON_SHORT  (密勒頓)",
+    "SortOrderPriority": 530,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101320_GEOMETRIC",
+    "NameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC  (幾何圖樣（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101320_GEOMETRIC_SHORT  (幾何圖樣)",
+    "SortOrderPriority": 540,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101330_VictoryStand",
+    "NameMSID": "PeripheralGoods_BOARD_101330_VictoryStand  (頒獎台（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101330_VictoryStand_SHORT  (頒獎台)",
+    "SortOrderPriority": 97,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101340_Displayframe_Two",
+    "NameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two  (展示框：2張（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101340_Displayframe_Two_SHORT  (展示框：2張)",
+    "SortOrderPriority": 240,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101350_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY  (寶可夢30週年紀念款（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101350_30th_ANNIVERSARY_SHORT  (寶可夢30週年紀念款)",
+    "SortOrderPriority": 250,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101360_Displayframe_Nine_Ver2",
+    "NameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2  (展示框：9張Ver.2（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101360_Displayframe_Nine_Ver2_SHORT  (展示框：9張Ver.2)",
+    "SortOrderPriority": 440,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101370_Battle_Screen",
+    "NameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen  (對戰畫面（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101370_Battle_Screen_SHORT  (對戰畫面)",
+    "SortOrderPriority": 102,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101380_All_seasons",
+    "NameMSID": "PeripheralGoods_BOARD_101380_All_seasons  (季節（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101380_All_seasons_SHORT  (季節)",
+    "SortOrderPriority": 330,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101390_METAGROSS",
+    "NameMSID": "PeripheralGoods_BOARD_101390_METAGROSS  (巨金怪（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101390_METAGROSS_SHORT  (巨金怪)",
+    "SortOrderPriority": 710,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101400_MIJUMARU",
+    "NameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU  (水水獺（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101400_MIJUMARU_SHORT  (水水獺)",
+    "SortOrderPriority": 740,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101410_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA  (超級烈空坐（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101410_MEGARAYQUAZA_SHORT  (超級烈空坐)",
+    "SortOrderPriority": 730,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101420_Everyday_city",
+    "NameMSID": "PeripheralGoods_BOARD_101420_Everyday_city  (日常都市（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101420_Everyday_city_SHORT  (日常都市)",
+    "SortOrderPriority": 720,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101430_Water_balloon",
+    "NameMSID": "PeripheralGoods_BOARD_101430_Water_balloon  (夏日水球（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101430_Water_balloon_SHORT  (夏日水球)",
+    "SortOrderPriority": 750,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101440_Rock_Paper_Scissors",
+    "NameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors  (猜拳（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101440_Rock_Paper_Scissors_SHORT  (猜拳)",
+    "SortOrderPriority": 760,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101450_Title_screen",
+    "NameMSID": "PeripheralGoods_BOARD_101450_Title_screen  (標題畫面（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101450_Title_screen_SHORT  (標題畫面)",
+    "SortOrderPriority": 550,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101460_Calendar",
+    "NameMSID": "PeripheralGoods_BOARD_101460_Calendar  (月曆（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101460_Calendar_SHORT  (月曆)",
+    "SortOrderPriority": 640,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101470_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc  (閃電鳥＆急凍鳥＆火焰鳥（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101470_THUNDER_FREEZER_etc_SHORT  (閃電鳥＆急凍鳥＆火焰鳥)",
+    "SortOrderPriority": 810,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101480_FOKKO",
+    "NameMSID": "PeripheralGoods_BOARD_101480_FOKKO  (火狐狸（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101480_FOKKO_SHORT  (火狐狸)",
+    "SortOrderPriority": 820,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101490_SAKAKI",
+    "NameMSID": "PeripheralGoods_BOARD_101490_SAKAKI  (火箭隊的老大（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101490_SAKAKI_SHORT  (火箭隊的老大)",
+    "SortOrderPriority": 830,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101500_RED_SPOTLIGHT",
+    "NameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT  (紅色聚光燈（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101500_RED_SPOTLIGHT_SHORT  (紅色聚光燈)",
+    "SortOrderPriority": 840,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101510_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET  (火箭隊（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101510_TEAM_ROCKET_SHORT  (火箭隊)",
+    "SortOrderPriority": 850,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101520_WeightComparison",
+    "NameMSID": "PeripheralGoods_BOARD_101520_WeightComparison  (重量比一比（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101520_WeightComparison_SHORT  (重量比一比)",
+    "SortOrderPriority": 860,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_BOARD_200010_DESCRIPTION  (可在收藏板功能中用來展示卡牌的背板。)",
+    "ID": "BOARD_101530_RETRO_SUMMER",
+    "NameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER  (懷舊夏日（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_BOARD_101530_RETRO_SUMMER_SHORT  (懷舊夏日)",
+    "SortOrderPriority": 650,
+    "Type": 4
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_COIN_100020_EIEVUI  (伊布（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100020_EIEVUI_SHORT  (伊布)",
+    "SortOrderPriority": 2,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_COIN_100030_NYARTH  (喵喵（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100030_NYARTH_SHORT  (喵喵)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100040_LIZARDON  (噴火龍（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100040_LIZARDON_SHORT  (噴火龍)",
+    "SortOrderPriority": 4,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100060_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA  (妙蛙花（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100060_FUSHIGIBANA_SHORT  (妙蛙花)",
+    "SortOrderPriority": 6,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100080_KAMEX",
+    "NameMSID": "PeripheralGoods_COIN_100080_KAMEX  (水箭龜（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100080_KAMEX_SHORT  (水箭龜)",
+    "SortOrderPriority": 8,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100100_MEWTWO  (超夢（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100100_MEWTWO_SHORT  (超夢)",
+    "SortOrderPriority": 10,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100130_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT  (沙奈朵（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100130_SIRNIGHT_SHORT  (沙奈朵)",
+    "SortOrderPriority": 13,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100140_PIKACHU",
+    "NameMSID": "PeripheralGoods_COIN_100140_PIKACHU  (皮卡丘（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100140_PIKACHU_SHORT  (皮卡丘)",
+    "SortOrderPriority": 14,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100160_MONSTERBALL",
+    "NameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL  (精靈球（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100160_MONSTERBALL_SHORT  (精靈球)",
+    "SortOrderPriority": 16,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100240_PremiumSet",
+    "NameMSID": "PeripheralGoods_COIN_100240_PremiumSet  (特別組合01（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100240_PremiumSet_SHORT  (特別組合01)",
+    "SortOrderPriority": 24,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100250_MEW",
+    "NameMSID": "PeripheralGoods_COIN_100250_MEW  (夢幻（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100250_MEW_SHORT  (夢幻)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100260_ERIKA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB  (莉佳：彩虹（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100260_ERIKA_RNB_SHORT  (莉佳：彩虹)",
+    "SortOrderPriority": 25,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100270_ERIKA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO  (莉佳：異款（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100270_ERIKA_HOLO_SHORT  (莉佳：異款)",
+    "SortOrderPriority": 26,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100290_SHIRONA",
+    "NameMSID": "PeripheralGoods_COIN_100290_SHIRONA  (竹蘭（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100290_SHIRONA_SHORT  (竹蘭)",
+    "SortOrderPriority": 28,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100300_HIKOZARU",
+    "NameMSID": "PeripheralGoods_COIN_100300_HIKOZARU  (小火焰猴（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100300_HIKOZARU_SHORT  (小火焰猴)",
+    "SortOrderPriority": 29,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100310_DARKRAI",
+    "NameMSID": "PeripheralGoods_COIN_100310_DARKRAI  (達克萊伊（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100310_DARKRAI_SHORT  (達克萊伊)",
+    "SortOrderPriority": 30,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100320_MANAPHY",
+    "NameMSID": "PeripheralGoods_COIN_100320_MANAPHY  (瑪納霏（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100320_MANAPHY_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100330_ARCEUS",
+    "NameMSID": "PeripheralGoods_COIN_100330_ARCEUS  (阿爾宙斯（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100330_ARCEUS_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100340_LEAFIA_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO  (葉伊布：異款（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100340_LEAFIA_HOLO_SHORT  (葉伊布：異款)",
+    "SortOrderPriority": 33,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100350_GLACIA_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB  (冰伊布：彩虹（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100350_GLACIA_RNB_SHORT  (冰伊布：彩虹)",
+    "SortOrderPriority": 34,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100360_LUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100360_LUCARIO  (路卡利歐（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100370_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_COIN_100370_SHINY_LIZARDON  (異色的噴火龍（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100380_RED_HOLO",
+    "NameMSID": "PeripheralGoods_COIN_100380_RED_HOLO  (赤紅：異款（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100390_RED_RNB",
+    "NameMSID": "PeripheralGoods_COIN_100390_RED_RNB  (赤紅：彩虹（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100400_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_COIN_100400_SHINY_MEWTWO  (異色的超夢（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100410_SOLGALEO",
+    "NameMSID": "PeripheralGoods_COIN_100410_SOLGALEO  (索爾迦雷歐（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100410_SOLGALEO_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100420_MOKUROH",
+    "NameMSID": "PeripheralGoods_COIN_100420_MOKUROH  (木木梟（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100420_MOKUROH_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100430_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100430_LILIE  (莉莉艾（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100430_LILIE_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100440_SHAYMIN_SKYFORME",
+    "NameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME  (謝米 天空形態（寶可夢幣）)",
+    "ShortNameMSID": "PeripheralGoods_COIN_100440_SHAYMIN_SKYFORME_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100450_uNECROZMA",
+    "NameMSID": "PeripheralGoods_COIN_100450_uNECROZMA  (究極奈克洛茲瑪（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100460_aROKON",
+    "NameMSID": "PeripheralGoods_COIN_100460_aROKON  (阿羅拉六尾（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100490_SILVADY",
+    "NameMSID": "PeripheralGoods_COIN_100490_SILVADY  (銀伴戰獸（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100500_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_COIN_100500_EIEVUI_2  (伊布Ver.2（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100530_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_COIN_100530_EIFIE_BRACKY  (太陽伊布＆月亮伊布（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100540_BANGIRAS",
+    "NameMSID": "PeripheralGoods_COIN_100540_BANGIRAS  (班基拉斯（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100550_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_COIN_100550_HOUOU_LUGIA  (鳳王＆洛奇亞（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100560_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_COIN_100560_NUOH_PALDEADOOH  (沼王（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100570_SUICUNE",
+    "NameMSID": "PeripheralGoods_COIN_100570_SUICUNE  (水君（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100600_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_COIN_100600_PROF_OHKIDO  (大木博士（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100610_LILIE",
+    "NameMSID": "PeripheralGoods_COIN_100610_LILIE  (莉莉艾Ver.2（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100620_PIKACHU_2",
+    "NameMSID": "PeripheralGoods_COIN_100620_PIKACHU_2  (皮卡丘Ver.2（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100630_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_COIN_100630_GEKKOUGA  (甲賀忍蛙（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100640_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_COIN_100640_MEGATYLTALIS  (超級七夕青鳥（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100650_KODUCK",
+    "NameMSID": "PeripheralGoods_COIN_100650_KODUCK  (可達鴨（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 65,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100660_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_COIN_100660_MEGAGYARADOS  (超級暴鯉龍（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100670_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100670_MEGABURSYAMO  (超級火焰雞（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100680_HARUKA",
+    "NameMSID": "PeripheralGoods_COIN_100680_HARUKA  (小遙（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100690_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_COIN_100690_MEGA_POKEMON  (超級阿勃梭魯（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100700_PremiumSet02",
+    "NameMSID": "PeripheralGoods_COIN_100700_PremiumSet02  (特別組合02（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100710_ACEROLA",
+    "NameMSID": "PeripheralGoods_COIN_100710_ACEROLA  (阿塞蘿拉（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100720_NYMPHIA",
+    "NameMSID": "PeripheralGoods_COIN_100720_NYMPHIA  (仙子伊布（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100730_PICHU",
+    "NameMSID": "PeripheralGoods_COIN_100730_PICHU  (皮丘（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100740_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_COIN_100740_MIMIKKYU  (謎擬Ｑ（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100750_STRINDER",
+    "NameMSID": "PeripheralGoods_COIN_100750_STRINDER  (顫弦蠑螈（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100760_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_COIN_100760_MEGASIRNIGHT  (超級沙奈朵（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100770_NUMERA",
+    "NameMSID": "PeripheralGoods_COIN_100770_NUMERA  (黏黏寶（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100780_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_COIN_100780_MEGALIZARDONY  (超級噴火龍Y（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100790_SERENA",
+    "NameMSID": "PeripheralGoods_COIN_100790_SERENA  (莎莉娜（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100800_PEPER",
+    "NameMSID": "PeripheralGoods_COIN_100800_PEPER  (派帕（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100810_NYAHOJA",
+    "NameMSID": "PeripheralGoods_COIN_100810_NYAHOJA  (新葉喵（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100820_NANJYAMO",
+    "NameMSID": "PeripheralGoods_COIN_100820_NANJYAMO  (奇樹（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100830_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_COIN_100830_MEGAGARURA  (超級袋獸（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100840_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_COIN_100840_SHINY_MEGAGANGAR  (異色的超級耿鬼（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100850_MORPEKO",
+    "NameMSID": "PeripheralGoods_COIN_100850_MORPEKO  (莫魯貝可（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100860_ZOROARK",
+    "NameMSID": "PeripheralGoods_COIN_100860_ZOROARK  (索羅亞克（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100870_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_COIN_100870_MEGAJUKAIN  (超級蜥蜴王（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100880_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_COIN_100880_MEGALUCARIO  (超級路卡利歐（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100890_MESSON",
+    "NameMSID": "PeripheralGoods_COIN_100890_MESSON  (淚眼蜥（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100900_KAMITSURE",
+    "NameMSID": "PeripheralGoods_COIN_100900_KAMITSURE  (小菊兒（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100910_WANPACHI",
+    "NameMSID": "PeripheralGoods_COIN_100910_WANPACHI  (來電汪（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100920_POCHAMA",
+    "NameMSID": "PeripheralGoods_COIN_100920_POCHAMA  (波加曼（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100930_KORAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100930_KORAIDON  (故勒頓（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100940_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_COIN_100940_YAMIRAMI  (勾魂眼（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100950_MIRAIDON",
+    "NameMSID": "PeripheralGoods_COIN_100950_MIRAIDON  (密勒頓（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100960_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_COIN_100960_30th_ANNIVERSARY  (寶可夢30週年紀念款（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_100990_METAGROSS",
+    "NameMSID": "PeripheralGoods_COIN_100990_METAGROSS  (巨金怪（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101000_MIJUMARU",
+    "NameMSID": "PeripheralGoods_COIN_101000_MIJUMARU  (水水獺（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101010_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_COIN_101010_MEGARAYQUAZA  (超級烈空坐（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101020_THUNDER",
+    "NameMSID": "PeripheralGoods_COIN_101020_THUNDER  (閃電鳥（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101030_FOKKO",
+    "NameMSID": "PeripheralGoods_COIN_101030_FOKKO  (火狐狸（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101040_SAKAKI",
+    "NameMSID": "PeripheralGoods_COIN_101040_SAKAKI  (火箭隊的老大（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_COIN_500010_DESCRIPTION  (對戰時使用的硬幣。\n可在牌組功能中進行設定。)",
+    "ID": "COIN_101050_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_COIN_101050_TEAM_ROCKET  (火箭隊（寶可夢幣）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 2
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI  (伊布（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100020_EIEVUI_SHORT  (伊布)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH  (喵喵（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100030_NYARTH_SHORT  (喵喵)",
+    "SortOrderPriority": 3,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON  (噴火龍（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100040_LIZARDON_SHORT  (噴火龍)",
+    "SortOrderPriority": 4,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA  (妙蛙花（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100050_FUSHIGIBANA_SHORT  (妙蛙花)",
+    "SortOrderPriority": 5,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100060_KAMEX",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX  (水箭龜（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100060_KAMEX_SHORT  (水箭龜)",
+    "SortOrderPriority": 6,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO  (超夢（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100070_MEWTWO_SHORT  (超夢)",
+    "SortOrderPriority": 7,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA  (莉佳（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100080_ERIKA_SHORT  (莉佳)",
+    "SortOrderPriority": 8,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT  (沙奈朵（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100090_SIRNIGHT_SHORT  (沙奈朵)",
+    "SortOrderPriority": 9,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU  (皮卡丘（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100100_PIKACHU_SHORT  (皮卡丘)",
+    "SortOrderPriority": 10,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet  (特別組合01（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100160_PremiumSet_SHORT  (特別組合01)",
+    "SortOrderPriority": 16,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100170_MEW",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW  (幻遊島 夢幻（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100170_MEW_SHORT  (幻遊島 夢幻)",
+    "SortOrderPriority": 17,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100180_SHIRONA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA  (竹蘭（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100180_SHIRONA_SHORT  (竹蘭)",
+    "SortOrderPriority": 18,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100190_HIKOZARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU  (小火焰猴（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100190_HIKOZARU_SHORT  (小火焰猴)",
+    "SortOrderPriority": 19,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI  (達克萊伊（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100200_DARKRAI_SHORT  (達克萊伊)",
+    "SortOrderPriority": 20,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100210_MANAPHY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY  (瑪納霏（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100210_MANAPHY_SHORT",
+    "SortOrderPriority": 21,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS  (阿爾宙斯（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100230_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA  (葉伊布＆冰伊布（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100230_LEAFIA_GLACIA_SHORT  (葉伊布＆冰伊布)",
+    "SortOrderPriority": 23,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100240_LUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100240_LUCARIO  (路卡利歐（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100250_SHINY_LIZARDON  (異色的噴火龍（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100260_RED_PIKACHU  (赤紅＆皮卡丘（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100270_SHINY_MEWTWO  (異色的超夢（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO  (索爾迦雷歐（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 28,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH  (木木梟（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100300_LILIE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE  (莉莉艾（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100300_LILIE_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION  (喜氣滿街巷（牌組護套）)",
+    "ShortNameMSID": "PeripheralGoods_DECKSHIELD_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100320_uNECROZMA  (究極奈克洛茲瑪（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 32,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100330_aROKON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100330_aROKON  (阿羅拉六尾（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100340_ACEROLA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100340_ACEROLA  (阿塞蘿拉（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100350_GLAZI_SILVADY  (格拉吉歐（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100360_EIEVUI_2  (伊布Ver.2（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100370_NYMPHIA  (仙子伊布（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100380_EIFIE_BRACKY  (太陽伊布＆月亮伊布（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100390_BANGIRAS  (班基拉斯（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100400_HOUOU_LUGIA  (鳳王＆洛奇亞（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100410_NUOH_PALDEADOOH  (沼王＆土王（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100420_SUICUNE  (水君（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100430_PICHU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100430_PICHU  (皮丘（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100440_MEGATYLTALIS  (超級七夕青鳥（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100450_KODUCK  (可達鴨（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100460_MEGAGYARADOS  (超級暴鯉龍（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100470_MEGABURSYAMO  (超級火焰雞（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100480_HARUKA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100480_HARUKA  (小遙（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100490_MEGA_POKEMON  (超級進化寶可夢（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100500_PremiumSet02  (特別組合02（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100510_PROF_OHKIDO  (大木博士（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100520_LILIE_Ver2  (莉莉艾Ver.2（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100530_GEKKOUGA  (甲賀忍蛙（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100540_1st_ANNIVERSARY  (與皮卡丘歡慶新年（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100550_MIMIKKYU  (謎擬Ｑ（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100560_STRINDER  (顫弦蠑螈（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100570_MEGASIRNIGHT  (超級沙奈朵（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100580_NUMERA  (黏黏寶（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100590_MEGALIZARDONY  (超級噴火龍Y（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100600_SERENA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100600_SERENA  (莎莉娜（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100610_PEPER",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100610_PEPER  (派帕（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100620_NYAHOJA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100620_NYAHOJA  (新葉喵（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100630_NANJYAMO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100630_NANJYAMO  (奇樹（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100640_MEGAGARURA  (超級袋獸（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100650_SHINY_MEGAGANGAR  (異色的超級耿鬼（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100660_MORPEKO  (莫魯貝可（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100670_ZOROARK",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100670_ZOROARK  (索羅亞克（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100680_MEGAJUKAIN  (超級蜥蜴王（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100690_MEGALUCARIO  (超級路卡利歐（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100700_ForestPokemons  (森林的寶可夢們（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100710_KAMITSURE",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100710_KAMITSURE  (小菊兒（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100720_WANPACHI_GARDIE_etc  (來電汪＆卡蒂狗＆小約克＆岩狗狗＆狗仔包（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100730_POCHAMA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100730_POCHAMA  (波加曼（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100740_KORAIDON  (故勒頓（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100750_YAMIRAMI  (勾魂眼（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100760_MIRAIDON  (密勒頓（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100770_30th_ANNIVERSARY  (寶可夢30週年紀念款（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100800_METAGROSS  (巨金怪（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100810_MIJUMARU  (水水獺（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100820_MEGARAYQUAZA  (超級烈空坐（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100830_THUNDER_FREEZER_etc  (閃電鳥＆急凍鳥＆火焰鳥（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100840_FOKKO  (火狐狸（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100850_SAKAKI",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100850_SAKAKI  (火箭隊的老大（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_DECKSHIELD_400010_DESCRIPTION  (裝備在卡牌上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "DECKSHIELD_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_DECKSHIELD_100860_TEAM_ROCKET  (火箭隊（牌組護套）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 1
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100020_EIEVUI  (伊布（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100020_EIEVUI_SHORT  (伊布)",
+    "SortOrderPriority": 2,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_FILE_100030_NYARTH  (喵喵（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100030_NYARTH_SHORT  (喵喵)",
+    "SortOrderPriority": 3,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100040_LIZARDON  (噴火龍（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100040_LIZARDON_SHORT  (噴火龍)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA  (妙蛙花（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100050_FUSHIGIBANA_SHORT  (妙蛙花)",
+    "SortOrderPriority": 5,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX  (青綠＆水箭龜（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100060_GREEN_KAMEX_SHORT  (青綠＆水箭龜)",
+    "SortOrderPriority": 6,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100070_A1_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON  (最強的基因 噴火龍（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100070_A1_LIZARDON_SHORT  (最強的基因 噴火龍)",
+    "SortOrderPriority": 7,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100080_A1_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO  (最強的基因 超夢（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100080_A1_MEWTWO_SHORT  (最強的基因 超夢)",
+    "SortOrderPriority": 8,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100090_A1_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU  (最強的基因 皮卡丘（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100090_A1_PIKACHU_SHORT  (最強的基因 皮卡丘)",
+    "SortOrderPriority": 9,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100100_MEWTWO",
+    "NameMSID": "PeripheralGoods_FILE_100100_MEWTWO  (超夢（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100100_MEWTWO_SHORT  (超夢)",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100110_ERIKA_RUFFRESIA",
+    "NameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA  (莉佳＆霸王花（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100110_ERIKA_RUFFRESIA_SHORT  (莉佳＆霸王花)",
+    "SortOrderPriority": 11,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100120_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT  (沙奈朵（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100120_SIRNIGHT_SHORT  (沙奈朵)",
+    "SortOrderPriority": 12,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100130_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100130_PIKACHU  (皮卡丘（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100130_PIKACHU_SHORT  (皮卡丘)",
+    "SortOrderPriority": 13,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100270_MONSTERBALL_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2  (精靈球（收藏板）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100270_MONSTERBALL_Ver2_SHORT  (精靈球)",
+    "SortOrderPriority": 16,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100290_PremiumSet",
+    "NameMSID": "PeripheralGoods_FILE_100290_PremiumSet  (特別組合01（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100290_PremiumSet_SHORT  (特別組合01)",
+    "SortOrderPriority": 18,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100300_A1a_MEW",
+    "NameMSID": "PeripheralGoods_FILE_100300_A1a_MEW  (幻遊島 夢幻（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100300_A1a_MEW_SHORT  (幻遊島 夢幻)",
+    "SortOrderPriority": 19,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100310_REST_BIG_TREE",
+    "NameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE  (大家的休憩之樹（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100310_REST_BIG_TREE_SHORT  (大家的休憩之樹)",
+    "SortOrderPriority": 20,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100320_PRISTINE_FOREST",
+    "NameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST  (原始森林（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100320_PRISTINE_FOREST_SHORT  (原始森林)",
+    "SortOrderPriority": 21,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100330_QUIET_LAKE",
+    "NameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE  (靜謐湖泊（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100330_QUIET_LAKE_SHORT  (靜謐湖泊)",
+    "SortOrderPriority": 22,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100340_BURN_GROUND",
+    "NameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND  (灼熱荒地（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100340_BURN_GROUND_SHORT  (灼熱荒地)",
+    "SortOrderPriority": 23,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100350_FORGOTTEN_REMAINS",
+    "NameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS  (失落遺跡（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100350_FORGOTTEN_REMAINS_SHORT  (失落遺跡)",
+    "SortOrderPriority": 24,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100360_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS  (竹蘭＆烈咬陸鯊（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100360_SHIRONA_GABURIAS_SHORT  (竹蘭＆烈咬陸鯊)",
+    "SortOrderPriority": 25,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU  (小火焰猴＆猛火猴＆烈焰猴（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100370_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (小火焰猴＆猛火猴＆烈焰猴)",
+    "SortOrderPriority": 26,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100380_DARKRAI",
+    "NameMSID": "PeripheralGoods_FILE_100380_DARKRAI  (達克萊伊（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100380_DARKRAI_SHORT  (達克萊伊)",
+    "SortOrderPriority": 27,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100390_A2_DIALGA",
+    "NameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA  (時空激鬥 帝牙盧卡（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100390_A2_DIALGA_SHORT  (時空激鬥 帝牙盧卡)",
+    "SortOrderPriority": 28,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100400_A2_PALKIA",
+    "NameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA  (時空激鬥 帕路奇亞（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100400_A2_PALKIA_SHORT  (時空激鬥 帕路奇亞)",
+    "SortOrderPriority": 29,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100410_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA  (瑪納霏＆波加曼（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100410_MANAPHY_POCHAMA_SHORT  (瑪納霏＆波加曼)",
+    "SortOrderPriority": 30,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100420_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100420_ARCEUS  (阿爾宙斯（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100420_ARCEUS_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100430_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA  (剛石＆珠貝＆葉伊布＆冰伊布（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100430_SEKI_KAI_LEAFIA_GLACIA_SHORT  (剛石＆珠貝＆葉伊布＆冰伊布)",
+    "SortOrderPriority": 32,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100440_A2a_ARCEUS",
+    "NameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS  (超克之光 阿爾宙斯（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100440_A2a_ARCEUS_SHORT  (超克之光 阿爾宙斯)",
+    "SortOrderPriority": 33,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100450_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_FILE_100450_LUCARIO_RIOLU  (路卡利歐＆利歐路（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100460_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_FILE_100460_SHINY_LIZARDON  (異色的噴火龍（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100470_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_100470_RED_PIKACHU  (赤紅＆皮卡丘（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100480_SHINY_GLARE",
+    "NameMSID": "PeripheralGoods_FILE_100480_SHINY_GLARE  (異色輝光（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100490_A2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_100490_A2b_SHINY_POKEMONS  (嗨放異彩 異色的寶可夢們（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100500_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100500_SOLGALEO  (索爾迦雷歐（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100500_SOLGALEO_SHORT",
+    "SortOrderPriority": 39,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100510_MOKUROH",
+    "NameMSID": "PeripheralGoods_FILE_100510_MOKUROH  (木木梟（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100510_MOKUROH_SHORT",
+    "SortOrderPriority": 40,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100520_LILIE_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA  (莉莉艾（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100520_LILIE_LUNALA_SHORT",
+    "SortOrderPriority": 41,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100530_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION  (喜氣滿街巷（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100530_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 42,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100540_A3_SOLGALEO",
+    "NameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO  (雙天之守護者 索爾迦雷歐（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100540_A3_SOLGALEO_SHORT",
+    "SortOrderPriority": 43,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100550_A3_LUNALA",
+    "NameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA  (雙天之守護者 露奈雅拉（收藏冊）)",
+    "ShortNameMSID": "PeripheralGoods_FILE_100550_A3_LUNALA_SHORT",
+    "SortOrderPriority": 44,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100560_uNECROZMA",
+    "NameMSID": "PeripheralGoods_FILE_100560_uNECROZMA  (究極奈克洛茲瑪（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100570_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_FILE_100570_aROKON_aKYUKON  (阿羅拉六尾＆阿羅拉九尾（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100580_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100580_ACEROLA_MIMIKKYU  (阿塞蘿拉＆謎擬Ｑ（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100590_A3a_CRISIS",
+    "NameMSID": "PeripheralGoods_FILE_100590_A3a_CRISIS  (異次元危機 究極異獸（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 48,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100600_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_FILE_100600_GLAZI_SILVADY  (格拉吉歐＆銀伴戰獸（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100610_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_FILE_100610_EIEVUI_2  (伊布Ver.2（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100620_NYMPHIA",
+    "NameMSID": "PeripheralGoods_FILE_100620_NYMPHIA  (仙子伊布（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100630_EIEVUI_GRADEN_EIEVUI",
+    "NameMSID": "PeripheralGoods_FILE_100630_EIEVUI_GRADEN_EIEVUI  (伊布花園 伊布（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100640_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_FILE_100640_EIFIE_BRACKY  (太陽伊布＆月亮伊布（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100650_BANGIRAS",
+    "NameMSID": "PeripheralGoods_FILE_100650_BANGIRAS  (班基拉斯（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100660_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100660_HOUOU_LUGIA  (鳳王＆洛奇亞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100670_A4_HOUOU",
+    "NameMSID": "PeripheralGoods_FILE_100670_A4_HOUOU  (天與海的指引 鳳王（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100680_A4_LUGIA",
+    "NameMSID": "PeripheralGoods_FILE_100680_A4_LUGIA  (天與海的指引 洛奇亞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100690_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_FILE_100690_NUOH_PALDEADOOH  (沼王＆土王（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100700_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100700_SUICUNE  (水君（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100710_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_FILE_100710_PICHU_PY_BUBY_RURIRI  (皮丘＆皮寶寶＆鴨嘴寶寶＆露力麗（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100720_A4a_SUICUNE",
+    "NameMSID": "PeripheralGoods_FILE_100720_A4a_SUICUNE  (未知水域 水君（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100730_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100730_MEGATYLTALIS  (超級七夕青鳥（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 67,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100740_KODUCK",
+    "NameMSID": "PeripheralGoods_FILE_100740_KODUCK  (可達鴨（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 68,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100750_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100750_MEGAGYARADOS  (超級暴鯉龍（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 69,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100760_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100760_MEGABURSYAMO  (超級火焰雞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 70,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100770_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_FILE_100770_HARUKA_ACHAMO  (小遙＆火稚雞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 71,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100780_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_FILE_100780_MEGA_POKEMON  (超級進化寶可夢（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 72,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100790_PremiumSet02",
+    "NameMSID": "PeripheralGoods_FILE_100790_PremiumSet02  (特別組合02（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 73,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100800_MEGA_EVOLUTION",
+    "NameMSID": "PeripheralGoods_FILE_100800_MEGA_EVOLUTION  (超級進化寶可夢ex（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 74,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100810_B1_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_FILE_100810_B1_MEGABURSYAMO  (超級崛起 超級火焰雞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 75,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100820_B1_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_FILE_100820_B1_MEGAGYARADOS  (超級崛起 超級暴鯉龍（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 76,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100830_B1_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_FILE_100830_B1_MEGATYLTALIS  (超級崛起 超級七夕青鳥（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 77,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100840_FlowerGarden",
+    "NameMSID": "PeripheralGoods_FILE_100840_FlowerGarden  (笑容如花綻放的庭園（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100850_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_FILE_100850_PROF_OHKIDO  (大木博士（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100860_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_FILE_100860_LILIE_Ver2  (莉莉艾Ver.2（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 63,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100870_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_FILE_100870_GEKKOUGA  (甲賀忍蛙（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 64,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100880_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_100880_1st_ANNIVERSARY  (與皮卡丘歡慶新年（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 82,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100890_A4b_HIGH_CLASS",
+    "NameMSID": "PeripheralGoods_FILE_100890_A4b_HIGH_CLASS  (高級擴充包ex（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 66,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100900_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_FILE_100900_MIMIKKYU  (謎擬Ｑ（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 83,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100910_STRINDER",
+    "NameMSID": "PeripheralGoods_FILE_100910_STRINDER  (顫弦蠑螈（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 84,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100920_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100920_MEGASIRNIGHT  (超級沙奈朵（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 85,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100930_B2_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_FILE_100930_B2_MEGASIRNIGHT  (幻夢遊行 超級沙奈朵（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 86,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100940_BeginningPlain",
+    "NameMSID": "PeripheralGoods_FILE_100940_BeginningPlain  (起始平原上的歡樂對戰（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 87,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100950_NUMERA",
+    "NameMSID": "PeripheralGoods_FILE_100950_NUMERA  (黏黏寶（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 78,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100960_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100960_MEGALIZARDONY  (超級噴火龍Y（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 79,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100970_SERENA",
+    "NameMSID": "PeripheralGoods_FILE_100970_SERENA  (莎莉娜（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 80,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100980_B1a_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_FILE_100980_B1a_MEGALIZARDONY  (紅蓮烈焰 超級噴火龍Y（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 81,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_100990_PEPER",
+    "NameMSID": "PeripheralGoods_FILE_100990_PEPER  (派帕（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_FILE_101000_NYAHOJA_NYAROTE_MASQUERNYA  (新葉喵＆蒂蕾喵＆魔幻假面喵（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101010_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_FILE_101010_NANJYAMO_HARABARIE  (奇樹＆電肚蛙（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101020_B2a_PALDEAWONDER",
+    "NameMSID": "PeripheralGoods_FILE_101020_B2a_PALDEAWONDER  (帕底亞驚奇 呆火鱷們（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101030_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_FILE_101030_MEGAGARURA  (超級袋獸（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101040_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_FILE_101040_SHINY_MEGAGANGAR  (異色的超級耿鬼（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101050_MORPEKO",
+    "NameMSID": "PeripheralGoods_FILE_101050_MORPEKO  (莫魯貝可（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101060_B2b_SHINY_POKEMONS",
+    "NameMSID": "PeripheralGoods_FILE_101060_B2b_SHINY_POKEMONS  (超級異彩 異色的寶可夢們（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101070_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_FILE_101070_ZOROARK_ZORUA  (索羅亞克＆索羅亞（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 210,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101080_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101080_MEGAJUKAIN  (超級蜥蜴王（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 220,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101090_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_FILE_101090_MEGALUCARIO  (超級路卡利歐（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 230,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101100_ForestPokemons",
+    "NameMSID": "PeripheralGoods_FILE_101100_ForestPokemons  (森林的寶可夢們（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_FILE_101110_B3_MEGALUCARIO_MEGAJUKAIN  (波導奏動 超級路卡利歐＆超級蜥蜴王（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101120_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_FILE_101120_KAMITSURE_EMOLGA  (小菊兒＆電飛鼠（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101130_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_FILE_101130_WANPACHI_GARDIE_etc  (來電汪＆卡蒂狗＆小約克＆岩狗狗＆狗仔包（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101140_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_FILE_101140_PIKACHU_POCHAMA_etc  (皮卡丘＆波加曼＆仙子伊布＆藏飽栗鼠＆卡比獸（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101150_B3b_PIKACHU",
+    "NameMSID": "PeripheralGoods_FILE_101150_B3b_PIKACHU  (奇跡日常 皮卡丘們（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 640,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101160_Chill",
+    "NameMSID": "PeripheralGoods_FILE_101160_Chill  (大家一起呆（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 650,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101170_KORAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101170_KORAIDON  (故勒頓（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101180_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_FILE_101180_YAMIRAMI  (勾魂眼（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101190_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101190_MIRAIDON  (密勒頓（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101200_B3a_KORAIDON_MIRAIDON",
+    "NameMSID": "PeripheralGoods_FILE_101200_B3a_KORAIDON_MIRAIDON  (進擊悖謬 故勒頓＆密勒頓（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 540,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101210_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_FILE_101210_30th_ANNIVERSARY  (寶可夢30週年紀念款（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101220_AREAZERO",
+    "NameMSID": "PeripheralGoods_FILE_101220_AREAZERO  (第零區的生態（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 550,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101230_METAGROSS",
+    "NameMSID": "PeripheralGoods_FILE_101230_METAGROSS  (巨金怪（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101240_MIJUMARU",
+    "NameMSID": "PeripheralGoods_FILE_101240_MIJUMARU  (水水獺（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 740,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101250_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101250_MEGARAYQUAZA  (超級烈空坐（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101260_B4_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_FILE_101260_B4_MEGARAYQUAZA  (天空主宰 超級烈空坐（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101270_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_FILE_101270_THUNDER_FREEZER_etc  (閃電鳥＆急凍鳥＆火焰鳥（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101280_FOKKO",
+    "NameMSID": "PeripheralGoods_FILE_101280_FOKKO  (火狐狸（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101290_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_FILE_101290_SAKAKI_PERSIAN  (火箭隊的老大＆貓老大（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101300_B4a_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101300_B4a_TEAM_ROCKET  (火箭隊的野心 火箭隊（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_FILE_100010_DESCRIPTION  (可在收藏冊功能中使用的收藏冊封面。)",
+    "ID": "FILE_101310_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_FILE_101310_TEAM_ROCKET  (火箭隊（收藏冊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 850,
+    "Type": 3
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100020_EIEVUI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI  (伊布（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100020_EIEVUI_SHORT  (伊布)",
+    "SortOrderPriority": 2,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100030_NYARTH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH  (喵喵（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100030_NYARTH_SHORT  (喵喵)",
+    "SortOrderPriority": 3,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100040_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON  (噴火龍（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100040_LIZARDON_SHORT  (噴火龍)",
+    "SortOrderPriority": 4,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100050_FUSHIGIBANA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA  (妙蛙花（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100050_FUSHIGIBANA_SHORT  (妙蛙花)",
+    "SortOrderPriority": 5,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100060_GREEN_KAMEX",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX  (青綠＆水箭龜（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100060_GREEN_KAMEX_SHORT  (青綠＆水箭龜)",
+    "SortOrderPriority": 6,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100070_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO  (超夢（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100070_MEWTWO_SHORT  (超夢)",
+    "SortOrderPriority": 7,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100080_ERIKA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA  (莉佳（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100080_ERIKA_SHORT  (莉佳)",
+    "SortOrderPriority": 8,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100090_SIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT  (沙奈朵（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100090_SIRNIGHT_SHORT  (沙奈朵)",
+    "SortOrderPriority": 9,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100100_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU  (皮卡丘（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100100_PIKACHU_SHORT  (皮卡丘)",
+    "SortOrderPriority": 10,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100160_PremiumSet",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet  (特別組合01（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100160_PremiumSet_SHORT  (特別組合01)",
+    "SortOrderPriority": 16,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100170_MEW",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100170_MEW  (幻遊島 夢幻（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100170_MEW_SHORT  (幻遊島 夢幻)",
+    "SortOrderPriority": 17,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100180_SHIRONA_GABURIAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS  (竹蘭＆烈咬陸鯊（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100180_SHIRONA_GABURIAS_SHORT  (竹蘭＆烈咬陸鯊)",
+    "SortOrderPriority": 18,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU  (小火焰猴＆猛火猴＆烈焰猴（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100190_HIKOZARU_MOUKAZARU_GOUKAZARU_SHORT  (小火焰猴＆猛火猴＆烈焰猴)",
+    "SortOrderPriority": 19,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100200_DARKRAI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI  (達克萊伊（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100200_DARKRAI_SHORT  (達克萊伊)",
+    "SortOrderPriority": 20,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100210_MANAPHY_POCHAMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA  (瑪納霏＆波加曼（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100210_MANAPHY_POCHAMA_SHORT  (瑪納霏＆波加曼)",
+    "SortOrderPriority": 21,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100220_ARCEUS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS  (阿爾宙斯（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100220_ARCEUS_SHORT",
+    "SortOrderPriority": 22,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA  (剛石＆珠貝＆葉伊布＆冰伊布（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100230_SEKI_KAI_LEAFIA_GLACIA_SHORT  (剛石＆珠貝＆葉伊布＆冰伊布)",
+    "SortOrderPriority": 23,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100240_LUCARIO_RIOLU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100240_LUCARIO_RIOLU  (路卡利歐＆利歐路（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 24,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100250_SHINY_LIZARDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100250_SHINY_LIZARDON  (異色的噴火龍（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 25,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100260_RED_PIKACHU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100260_RED_PIKACHU  (赤紅＆皮卡丘（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 26,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100270_SHINY_MEWTWO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100270_SHINY_MEWTWO  (異色的超夢（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 27,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100280_SOLGALEO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO  (索爾迦雷歐（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100280_SOLGALEO_SHORT",
+    "SortOrderPriority": 29,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100290_MOKUROH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH  (木木梟（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100290_MOKUROH_SHORT",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100300_LILIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE  (莉莉艾（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100300_LILIE_SHORT",
+    "SortOrderPriority": 31,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100310_CITY_CELEBRATION",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION  (喜氣滿街巷（對戰桌墊）)",
+    "ShortNameMSID": "PeripheralGoods_PLAYMAT_100310_CITY_CELEBRATION_SHORT",
+    "SortOrderPriority": 32,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100320_uNECROZMA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100320_uNECROZMA  (究極奈克洛茲瑪（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 33,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100330_aROKON_aKYUKON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100330_aROKON_aKYUKON  (阿羅拉六尾＆阿羅拉九尾（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 34,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100340_ACEROLA_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100340_ACEROLA_MIMIKKYU  (阿塞蘿拉＆謎擬Ｑ（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 35,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100350_GLAZI_SILVADY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100350_GLAZI_SILVADY  (格拉吉歐＆銀伴戰獸（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 36,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100360_EIEVUI_2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100360_EIEVUI_2  (伊布Ver.2（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 37,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100370_NYMPHIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100370_NYMPHIA  (仙子伊布（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 38,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100380_EIFIE_BRACKY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100380_EIFIE_BRACKY  (太陽伊布＆月亮伊布（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 39,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100390_BANGIRAS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100390_BANGIRAS  (班基拉斯（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100400_HOUOU_LUGIA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100400_HOUOU_LUGIA  (鳳王＆洛奇亞（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 41,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100410_NUOH_PALDEADOOH",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100410_NUOH_PALDEADOOH  (沼王＆土王（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 42,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100420_SUICUNE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100420_SUICUNE  (水君（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 43,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100430_PICHU_PY_BUBY_RURIRI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100430_PICHU_PY_BUBY_RURIRI  (皮丘＆皮寶寶＆鴨嘴寶寶＆露力麗（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 44,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100440_MEGATYLTALIS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100440_MEGATYLTALIS  (超級七夕青鳥（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 49,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100450_KODUCK",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100450_KODUCK  (可達鴨（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 50,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100460_MEGAGYARADOS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100460_MEGAGYARADOS  (超級暴鯉龍（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 51,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100470_MEGABURSYAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100470_MEGABURSYAMO  (超級火焰雞（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 52,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100480_HARUKA_ACHAMO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100480_HARUKA_ACHAMO  (小遙＆火稚雞（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 53,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100490_MEGA_POKEMON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100490_MEGA_POKEMON  (超級進化寶可夢（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 54,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100500_PremiumSet02",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100500_PremiumSet02  (特別組合02（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 55,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100510_PROF_OHKIDO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100510_PROF_OHKIDO  (大木博士（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 45,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100520_LILIE_Ver2",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100520_LILIE_Ver2  (莉莉艾Ver.2（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 46,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100530_GEKKOUGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100530_GEKKOUGA  (甲賀忍蛙（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 47,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100540_1st_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100540_1st_ANNIVERSARY  (與皮卡丘歡慶新年（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 59,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100550_MIMIKKYU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100550_MIMIKKYU  (謎擬Ｑ（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100560_STRINDER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100560_STRINDER  (顫弦蠑螈（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 61,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100570_MEGASIRNIGHT",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100570_MEGASIRNIGHT  (超級沙奈朵（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 62,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100580_NUMERA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100580_NUMERA  (黏黏寶（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 56,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100590_MEGALIZARDONY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100590_MEGALIZARDONY  (超級噴火龍Y（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 57,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100600_SERENA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100600_SERENA  (莎莉娜（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 58,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100610_PEPER",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100610_PEPER  (派帕（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 100,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100620_NYAHOJA_NYAROTE_MASQUERNYA  (新葉喵＆蒂蕾喵＆魔幻假面喵（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100630_NANJYAMO_HARABARIE",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100630_NANJYAMO_HARABARIE  (奇樹＆電肚蛙（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100640_MEGAGARURA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100640_MEGAGARURA  (超級袋獸（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100650_SHINY_MEGAGANGAR",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100650_SHINY_MEGAGANGAR  (異色的超級耿鬼（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100660_MORPEKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100660_MORPEKO  (莫魯貝可（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 150,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100670_ZOROARK_ZORUA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100670_ZOROARK_ZORUA  (索羅亞克＆索羅亞（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100680_MEGAJUKAIN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100680_MEGAJUKAIN  (超級蜥蜴王（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 190,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100690_MEGALUCARIO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100690_MEGALUCARIO  (超級路卡利歐（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100700_ForestPokemons",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100700_ForestPokemons  (森林的寶可夢們（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 170,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100710_KAMITSURE_EMOLGA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100710_KAMITSURE_EMOLGA  (小菊兒＆電飛鼠（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 610,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100720_WANPACHI_GARDIE_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100720_WANPACHI_GARDIE_etc  (來電汪＆卡蒂狗＆小約克＆岩狗狗＆狗仔包（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 620,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100730_PIKACHU_POCHAMA_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100730_PIKACHU_POCHAMA_etc  (皮卡丘＆波加曼＆仙子伊布＆藏飽栗鼠＆卡比獸（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 630,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100740_KORAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100740_KORAIDON  (故勒頓（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100750_YAMIRAMI",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100750_YAMIRAMI  (勾魂眼（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100760_MIRAIDON",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100760_MIRAIDON  (密勒頓（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100770_30th_ANNIVERSARY",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100770_30th_ANNIVERSARY  (寶可夢30週年紀念款（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 130,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100800_METAGROSS",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100800_METAGROSS  (巨金怪（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 710,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100810_MIJUMARU",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100810_MIJUMARU  (水水獺（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 730,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100820_MEGARAYQUAZA",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100820_MEGARAYQUAZA  (超級烈空坐（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 720,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100830_THUNDER_FREEZER_etc",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100830_THUNDER_FREEZER_etc  (閃電鳥＆急凍鳥＆火焰鳥（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 810,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100840_FOKKO",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100840_FOKKO  (火狐狸（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 820,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100850_SAKAKI_PERSIAN",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100850_SAKAKI_PERSIAN  (火箭隊的老大＆貓老大（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 830,
+    "Type": 0
+  },
+  {
+    "DescriptionMSID": "PeripheralGoods_PLAYMAT_300010_DESCRIPTION  (對戰時可放置在場上的周邊物品。\n可在牌組功能中進行設定。)",
+    "ID": "PLAYMAT_100860_TEAM_ROCKET",
+    "NameMSID": "PeripheralGoods_PLAYMAT_100860_TEAM_ROCKET  (火箭隊（對戰桌墊）)",
+    "ShortNameMSID": "",
+    "SortOrderPriority": 840,
+    "Type": 0
+  }
+]

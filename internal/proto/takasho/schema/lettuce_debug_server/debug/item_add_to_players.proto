@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+
+message ItemAddToPlayers {
+  message Types {
+    message Request {
+      repeated string player_ids = 1;
+      takasho.schema.lettuce_server.resource.item.InventoryItems items = 2;
+    }
+    message Response {
+      repeated string successful_player_ids = 1;
+      repeated string failed_player_ids = 2;
+    }
+  }
+}

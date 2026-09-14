@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/system/partial_maintenance_type.proto";
+
+message SystemPartialMaintenanceV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.system.PartialMaintenanceType partial_maintenance_type = 1;
+    }
+    message Response {
+      bool under_maintenance = 1;
+      bool is_non_close = 2;
+      google.protobuf.Timestamp opened_at = 3;
+      google.protobuf.Timestamp closed_at = 4;
+    }
+  }
+}

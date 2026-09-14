@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_stepup_battle.proto";
+
+message SoloBattleGetStepupBattlesV1 {
+  message Types {
+    message Request {
+      repeated string solo_stepup_battle_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloStepupBattle solo_stepup_battles = 1;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/card_get_desires_v1.proto";
+import "takasho/schema/lettuce_server/player_api/card_get_usage_v1.proto";
+import "takasho/schema/lettuce_server/player_api/card_set_desires_v1.proto";
+
+service Card {
+  rpc SetDesiresV1 (CardSetDesiresV1.Types.Request) returns (CardSetDesiresV1.Types.Response);
+  rpc GetDesiresV1 (CardGetDesiresV1.Types.Request) returns (CardGetDesiresV1.Types.Response);
+  rpc GetUsageV1 (CardGetUsageV1.Types.Request) returns (CardGetUsageV1.Types.Response);
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message PackOpen {
+  message Types {
+    enum PackOpenType {
+      PACK_OPEN_TYPE_UNSPECIFIED = 0;
+      PACK_OPEN_TYPE_NORMAL = 1;
+      PACK_OPEN_TYPE_BACK = 2;
+      PACK_OPEN_TYPE_POTATO_BAG = 3;
+    }
+  }
+  string pack_id = 1;
+  PackOpen.Types.PackOpenType pack_open_type = 2;
+}

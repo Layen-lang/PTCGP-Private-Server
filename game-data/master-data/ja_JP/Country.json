@@ -1,0 +1,1202 @@
+[
+  {
+    "Code": "AE",
+    "CountryID": "COUNTRY_ID_AE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AE  (アラブ首長国連邦)",
+    "SortOrder": 144
+  },
+  {
+    "Code": "AG",
+    "CountryID": "COUNTRY_ID_AG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AG  (アンティグア・バーブーダ)",
+    "SortOrder": 3
+  },
+  {
+    "Code": "AI",
+    "CountryID": "COUNTRY_ID_AI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AI  (アンギラ)",
+    "SortOrder": 2
+  },
+  {
+    "Code": "AL",
+    "CountryID": "COUNTRY_ID_AL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AL  (アルバニア)",
+    "SortOrder": 1
+  },
+  {
+    "Code": "AR",
+    "CountryID": "COUNTRY_ID_AR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AR  (アルゼンチン)",
+    "SortOrder": 4
+  },
+  {
+    "Code": "AT",
+    "CountryID": "COUNTRY_ID_AT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AT  (オーストリア)",
+    "SortOrder": 7
+  },
+  {
+    "Code": "AU",
+    "CountryID": "COUNTRY_ID_AU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AU  (オーストラリア)",
+    "SortOrder": 6
+  },
+  {
+    "Code": "AW",
+    "CountryID": "COUNTRY_ID_AW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_AW  (アルバ)",
+    "SortOrder": 5
+  },
+  {
+    "Code": "BA",
+    "CountryID": "COUNTRY_ID_BA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BA  (ボスニア・ヘルツェゴビナ)",
+    "SortOrder": 17
+  },
+  {
+    "Code": "BB",
+    "CountryID": "COUNTRY_ID_BB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BB  (バルバドス)",
+    "SortOrder": 11
+  },
+  {
+    "Code": "BD",
+    "CountryID": "COUNTRY_ID_BD",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BD  (バングラデシュ)",
+    "SortOrder": 10
+  },
+  {
+    "Code": "BF",
+    "CountryID": "COUNTRY_ID_BF",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BF  (ブルキナファソ)",
+    "SortOrder": 23
+  },
+  {
+    "Code": "BG",
+    "CountryID": "COUNTRY_ID_BG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BG  (ブルガリア)",
+    "SortOrder": 22
+  },
+  {
+    "Code": "BH",
+    "CountryID": "COUNTRY_ID_BH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BH  (バーレーン)",
+    "SortOrder": 9
+  },
+  {
+    "Code": "BJ",
+    "CountryID": "COUNTRY_ID_BJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BJ  (ベナン)",
+    "SortOrder": 13
+  },
+  {
+    "Code": "BL",
+    "CountryID": "COUNTRY_ID_BL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BL  (サントメ・プリンシペ)",
+    "SortOrder": 117
+  },
+  {
+    "Code": "BM",
+    "CountryID": "COUNTRY_ID_BM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BM  (バミューダ)",
+    "SortOrder": 14
+  },
+  {
+    "Code": "BN",
+    "CountryID": "COUNTRY_ID_BN",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BN  (ブルネイ・ダルサラーム)",
+    "SortOrder": 21
+  },
+  {
+    "Code": "BO",
+    "CountryID": "COUNTRY_ID_BO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BO  (ボリビア)",
+    "SortOrder": 16
+  },
+  {
+    "Code": "BR",
+    "CountryID": "COUNTRY_ID_BR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BR  (ブラジル)",
+    "SortOrder": 19
+  },
+  {
+    "Code": "BS",
+    "CountryID": "COUNTRY_ID_BS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BS  (バハマ)",
+    "SortOrder": 8
+  },
+  {
+    "Code": "BT",
+    "CountryID": "COUNTRY_ID_BT",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_BT  (ブータン)",
+    "SortOrder": 15
+  },
+  {
+    "Code": "BW",
+    "CountryID": "COUNTRY_ID_BW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BW  (ボツワナ)",
+    "SortOrder": 18
+  },
+  {
+    "Code": "BY",
+    "CountryID": "COUNTRY_ID_BY",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BY  (ベラルーシ)",
+    "SortOrder": 111
+  },
+  {
+    "Code": "BZ",
+    "CountryID": "COUNTRY_ID_BZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_BZ  (ベリーズ)",
+    "SortOrder": 12
+  },
+  {
+    "Code": "CA",
+    "CountryID": "COUNTRY_ID_CA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CA  (カナダ)",
+    "SortOrder": 25
+  },
+  {
+    "Code": "CH",
+    "CountryID": "COUNTRY_ID_CH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CH  (スイス)",
+    "SortOrder": 132
+  },
+  {
+    "Code": "CI",
+    "CountryID": "COUNTRY_ID_CI",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CI  (コートジボワール)",
+    "SortOrder": 32
+  },
+  {
+    "Code": "CL",
+    "CountryID": "COUNTRY_ID_CL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CL  (チリ)",
+    "SortOrder": 29
+  },
+  {
+    "Code": "CO",
+    "CountryID": "COUNTRY_ID_CO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CO  (コロンビア)",
+    "SortOrder": 30
+  },
+  {
+    "Code": "CR",
+    "CountryID": "COUNTRY_ID_CR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CR  (コスタリカ)",
+    "SortOrder": 31
+  },
+  {
+    "Code": "CV",
+    "CountryID": "COUNTRY_ID_CV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CV  (カーボベルデ)",
+    "SortOrder": 26
+  },
+  {
+    "Code": "CY",
+    "CountryID": "COUNTRY_ID_CY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CY  (キプロス)",
+    "SortOrder": 34
+  },
+  {
+    "Code": "CZ",
+    "CountryID": "COUNTRY_ID_CZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_CZ  (チェコ)",
+    "SortOrder": 35
+  },
+  {
+    "Code": "DE",
+    "CountryID": "COUNTRY_ID_DE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DE  (ドイツ)",
+    "SortOrder": 49
+  },
+  {
+    "Code": "DK",
+    "CountryID": "COUNTRY_ID_DK",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DK  (デンマーク)",
+    "SortOrder": 36
+  },
+  {
+    "Code": "DM",
+    "CountryID": "COUNTRY_ID_DM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DM  (ドミニカ国)",
+    "SortOrder": 37
+  },
+  {
+    "Code": "DO",
+    "CountryID": "COUNTRY_ID_DO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_DO  (ドミニカ共和国)",
+    "SortOrder": 38
+  },
+  {
+    "Code": "EC",
+    "CountryID": "COUNTRY_ID_EC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EC  (エクアドル)",
+    "SortOrder": 39
+  },
+  {
+    "Code": "EE",
+    "CountryID": "COUNTRY_ID_EE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EE  (エストニア)",
+    "SortOrder": 42
+  },
+  {
+    "Code": "EG",
+    "CountryID": "COUNTRY_ID_EG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_EG  (エジプト)",
+    "SortOrder": 40
+  },
+  {
+    "Code": "ES",
+    "CountryID": "COUNTRY_ID_ES",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ES  (スペイン)",
+    "SortOrder": 127
+  },
+  {
+    "Code": "FI",
+    "CountryID": "COUNTRY_ID_FI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FI  (フィンランド)",
+    "SortOrder": 45
+  },
+  {
+    "Code": "FJ",
+    "CountryID": "COUNTRY_ID_FJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FJ  (フィジー)",
+    "SortOrder": 44
+  },
+  {
+    "Code": "FM",
+    "CountryID": "COUNTRY_ID_FM",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FM  (ミクロネシア連邦)",
+    "SortOrder": 89
+  },
+  {
+    "Code": "FR",
+    "CountryID": "COUNTRY_ID_FR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_FR  (フランス)",
+    "SortOrder": 46
+  },
+  {
+    "Code": "GA",
+    "CountryID": "COUNTRY_ID_GA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GA  (ガボン)",
+    "SortOrder": 47
+  },
+  {
+    "Code": "GB",
+    "CountryID": "COUNTRY_ID_GB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GB  (英国)",
+    "SortOrder": 145
+  },
+  {
+    "Code": "GD",
+    "CountryID": "COUNTRY_ID_GD",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GD  (グレナダ)",
+    "SortOrder": 52
+  },
+  {
+    "Code": "GH",
+    "CountryID": "COUNTRY_ID_GH",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GH  (ガーナ)",
+    "SortOrder": 50
+  },
+  {
+    "Code": "GM",
+    "CountryID": "COUNTRY_ID_GM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GM  (ガンビア)",
+    "SortOrder": 48
+  },
+  {
+    "Code": "GR",
+    "CountryID": "COUNTRY_ID_GR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GR  (ギリシャ)",
+    "SortOrder": 51
+  },
+  {
+    "Code": "GT",
+    "CountryID": "COUNTRY_ID_GT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GT  (グアテマラ)",
+    "SortOrder": 53
+  },
+  {
+    "Code": "GW",
+    "CountryID": "COUNTRY_ID_GW",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GW  (ギニアビサウ)",
+    "SortOrder": 54
+  },
+  {
+    "Code": "GY",
+    "CountryID": "COUNTRY_ID_GY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_GY  (ガイアナ)",
+    "SortOrder": 55
+  },
+  {
+    "Code": "HK",
+    "CountryID": "COUNTRY_ID_HK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_HK  (香港)",
+    "SortOrder": 58
+  },
+  {
+    "Code": "HN",
+    "CountryID": "COUNTRY_ID_HN",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HN  (ホンジュラス)",
+    "SortOrder": 57
+  },
+  {
+    "Code": "HR",
+    "CountryID": "COUNTRY_ID_HR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HR  (クロアチア)",
+    "SortOrder": 33
+  },
+  {
+    "Code": "HT",
+    "CountryID": "COUNTRY_ID_HT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HT  (ハイチ)",
+    "SortOrder": 56
+  },
+  {
+    "Code": "HU",
+    "CountryID": "COUNTRY_ID_HU",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_HU  (ハンガリー)",
+    "SortOrder": 59
+  },
+  {
+    "Code": "ID",
+    "CountryID": "COUNTRY_ID_ID",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_ID  (インドネシア)",
+    "SortOrder": 62
+  },
+  {
+    "Code": "IE",
+    "CountryID": "COUNTRY_ID_IE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IE  (アイルランド)",
+    "SortOrder": 63
+  },
+  {
+    "Code": "IL",
+    "CountryID": "COUNTRY_ID_IL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IL  (イスラエル)",
+    "SortOrder": 64
+  },
+  {
+    "Code": "IN",
+    "CountryID": "COUNTRY_ID_IN",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_IN  (インド)",
+    "SortOrder": 61
+  },
+  {
+    "Code": "IS",
+    "CountryID": "COUNTRY_ID_IS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IS  (アイスランド)",
+    "SortOrder": 60
+  },
+  {
+    "Code": "IT",
+    "CountryID": "COUNTRY_ID_IT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_IT  (イタリア)",
+    "SortOrder": 65
+  },
+  {
+    "Code": "JM",
+    "CountryID": "COUNTRY_ID_JM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_JM  (ジャマイカ)",
+    "SortOrder": 66
+  },
+  {
+    "Code": "JO",
+    "CountryID": "COUNTRY_ID_JO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_JO  (ヨルダン)",
+    "SortOrder": 68
+  },
+  {
+    "Code": "JP",
+    "CountryID": "COUNTRY_ID_JP",
+    "DateFormat": 1,
+    "InquiryType": 1,
+    "NameMSID": "COUNTRY_NAME_JP  (日本)",
+    "SortOrder": 67
+  },
+  {
+    "Code": "KG",
+    "CountryID": "COUNTRY_ID_KG",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KG  (キルギス共和国)",
+    "SortOrder": 72
+  },
+  {
+    "Code": "KH",
+    "CountryID": "COUNTRY_ID_KH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_KH  (カンボジア)",
+    "SortOrder": 24
+  },
+  {
+    "Code": "KN",
+    "CountryID": "COUNTRY_ID_KN",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KN  (セントクリストファー・ネイビス)",
+    "SortOrder": 114
+  },
+  {
+    "Code": "KR",
+    "CountryID": "COUNTRY_ID_KR",
+    "DateFormat": 1,
+    "InquiryType": 2,
+    "NameMSID": "COUNTRY_NAME_KR  (韓国)",
+    "SortOrder": 126
+  },
+  {
+    "Code": "KW",
+    "CountryID": "COUNTRY_ID_KW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KW  (クウェート)",
+    "SortOrder": 71
+  },
+  {
+    "Code": "KY",
+    "CountryID": "COUNTRY_ID_KY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KY  (ケイマン諸島)",
+    "SortOrder": 27
+  },
+  {
+    "Code": "KZ",
+    "CountryID": "COUNTRY_ID_KZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_KZ  (カザフスタン)",
+    "SortOrder": 69
+  },
+  {
+    "Code": "LA",
+    "CountryID": "COUNTRY_ID_LA",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_LA  (ラオス人民民主共和国)",
+    "SortOrder": 73
+  },
+  {
+    "Code": "LB",
+    "CountryID": "COUNTRY_ID_LB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LB  (レバノン)",
+    "SortOrder": 75
+  },
+  {
+    "Code": "LC",
+    "CountryID": "COUNTRY_ID_LC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LC  (セントルシア)",
+    "SortOrder": 115
+  },
+  {
+    "Code": "LI",
+    "CountryID": "COUNTRY_ID_LI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LI  (リヒテンシュタイン)",
+    "SortOrder": 77
+  },
+  {
+    "Code": "LK",
+    "CountryID": "COUNTRY_ID_LK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_LK  (スリランカ)",
+    "SortOrder": 128
+  },
+  {
+    "Code": "LR",
+    "CountryID": "COUNTRY_ID_LR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LR  (リベリア)",
+    "SortOrder": 76
+  },
+  {
+    "Code": "LT",
+    "CountryID": "COUNTRY_ID_LT",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LT  (リトアニア)",
+    "SortOrder": 78
+  },
+  {
+    "Code": "LU",
+    "CountryID": "COUNTRY_ID_LU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LU  (ルクセンブルク)",
+    "SortOrder": 79
+  },
+  {
+    "Code": "LV",
+    "CountryID": "COUNTRY_ID_LV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_LV  (ラトビア)",
+    "SortOrder": 74
+  },
+  {
+    "Code": "MA",
+    "CountryID": "COUNTRY_ID_MA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MA  (モロッコ)",
+    "SortOrder": 92
+  },
+  {
+    "Code": "MG",
+    "CountryID": "COUNTRY_ID_MG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MG  (マダガスカル)",
+    "SortOrder": 82
+  },
+  {
+    "Code": "MK",
+    "CountryID": "COUNTRY_ID_MK",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MK  (北マケドニア)",
+    "SortOrder": 81
+  },
+  {
+    "Code": "MN",
+    "CountryID": "COUNTRY_ID_MN",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MN  (モンゴル)",
+    "SortOrder": 90
+  },
+  {
+    "Code": "MO",
+    "CountryID": "COUNTRY_ID_MO",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MO  (マカオ)",
+    "SortOrder": 80
+  },
+  {
+    "Code": "MR",
+    "CountryID": "COUNTRY_ID_MR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MR  (モーリタニア)",
+    "SortOrder": 86
+  },
+  {
+    "Code": "MS",
+    "CountryID": "COUNTRY_ID_MS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MS  (モントセラト)",
+    "SortOrder": 91
+  },
+  {
+    "Code": "MT",
+    "CountryID": "COUNTRY_ID_MT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MT  (マルタ)",
+    "SortOrder": 85
+  },
+  {
+    "Code": "MU",
+    "CountryID": "COUNTRY_ID_MU",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MU  (モーリシャス)",
+    "SortOrder": 87
+  },
+  {
+    "Code": "MW",
+    "CountryID": "COUNTRY_ID_MW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MW  (マラウイ)",
+    "SortOrder": 83
+  },
+  {
+    "Code": "MX",
+    "CountryID": "COUNTRY_ID_MX",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MX  (メキシコ)",
+    "SortOrder": 88
+  },
+  {
+    "Code": "MY",
+    "CountryID": "COUNTRY_ID_MY",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_MY  (マレーシア)",
+    "SortOrder": 84
+  },
+  {
+    "Code": "MZ",
+    "CountryID": "COUNTRY_ID_MZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_MZ  (モザンビーク)",
+    "SortOrder": 93
+  },
+  {
+    "Code": "NA",
+    "CountryID": "COUNTRY_ID_NA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NA  (ナミビア)",
+    "SortOrder": 94
+  },
+  {
+    "Code": "NE",
+    "CountryID": "COUNTRY_ID_NE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NE  (ニジェール)",
+    "SortOrder": 98
+  },
+  {
+    "Code": "NG",
+    "CountryID": "COUNTRY_ID_NG",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NG  (ナイジェリア)",
+    "SortOrder": 43
+  },
+  {
+    "Code": "NI",
+    "CountryID": "COUNTRY_ID_NI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NI  (ニカラグア)",
+    "SortOrder": 97
+  },
+  {
+    "Code": "NO",
+    "CountryID": "COUNTRY_ID_NO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NO  (ノルウェー)",
+    "SortOrder": 99
+  },
+  {
+    "Code": "NP",
+    "CountryID": "COUNTRY_ID_NP",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_NP  (ネパール)",
+    "SortOrder": 95
+  },
+  {
+    "Code": "NZ",
+    "CountryID": "COUNTRY_ID_NZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_NZ  (ニュージーランド)",
+    "SortOrder": 96
+  },
+  {
+    "Code": "OM",
+    "CountryID": "COUNTRY_ID_OM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_OM  (オマーン)",
+    "SortOrder": 100
+  },
+  {
+    "Code": "PA",
+    "CountryID": "COUNTRY_ID_PA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PA  (パナマ)",
+    "SortOrder": 103
+  },
+  {
+    "Code": "PE",
+    "CountryID": "COUNTRY_ID_PE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PE  (ペルー)",
+    "SortOrder": 106
+  },
+  {
+    "Code": "PG",
+    "CountryID": "COUNTRY_ID_PG",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PG  (パプアニューギニア)",
+    "SortOrder": 104
+  },
+  {
+    "Code": "PH",
+    "CountryID": "COUNTRY_ID_PH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PH  (フィリピン)",
+    "SortOrder": 107
+  },
+  {
+    "Code": "PK",
+    "CountryID": "COUNTRY_ID_PK",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_PK  (パキスタン)",
+    "SortOrder": 101
+  },
+  {
+    "Code": "PL",
+    "CountryID": "COUNTRY_ID_PL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PL  (ポーランド)",
+    "SortOrder": 108
+  },
+  {
+    "Code": "PT",
+    "CountryID": "COUNTRY_ID_PT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PT  (ポルトガル)",
+    "SortOrder": 109
+  },
+  {
+    "Code": "PW",
+    "CountryID": "COUNTRY_ID_PW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PW  (パラオ)",
+    "SortOrder": 102
+  },
+  {
+    "Code": "PY",
+    "CountryID": "COUNTRY_ID_PY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_PY  (パラグアイ)",
+    "SortOrder": 105
+  },
+  {
+    "Code": "QA",
+    "CountryID": "COUNTRY_ID_QA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_QA  (カタール)",
+    "SortOrder": 110
+  },
+  {
+    "Code": "RO",
+    "CountryID": "COUNTRY_ID_RO",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RO  (ルーマニア)",
+    "SortOrder": 112
+  },
+  {
+    "Code": "RS",
+    "CountryID": "COUNTRY_ID_RS",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RS  (セルビア)",
+    "SortOrder": 118
+  },
+  {
+    "Code": "RW",
+    "CountryID": "COUNTRY_ID_RW",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_RW  (ルワンダ)",
+    "SortOrder": 113
+  },
+  {
+    "Code": "SA",
+    "CountryID": "COUNTRY_ID_SA",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SA  (サウジアラビア)",
+    "SortOrder": 70
+  },
+  {
+    "Code": "SB",
+    "CountryID": "COUNTRY_ID_SB",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SB  (ソロモン諸島)",
+    "SortOrder": 124
+  },
+  {
+    "Code": "SC",
+    "CountryID": "COUNTRY_ID_SC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SC  (セーシェル)",
+    "SortOrder": 119
+  },
+  {
+    "Code": "SE",
+    "CountryID": "COUNTRY_ID_SE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SE  (スウェーデン)",
+    "SortOrder": 131
+  },
+  {
+    "Code": "SG",
+    "CountryID": "COUNTRY_ID_SG",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_SG  (シンガポール)",
+    "SortOrder": 121
+  },
+  {
+    "Code": "SI",
+    "CountryID": "COUNTRY_ID_SI",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SI  (スロベニア)",
+    "SortOrder": 123
+  },
+  {
+    "Code": "SK",
+    "CountryID": "COUNTRY_ID_SK",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SK  (スロバキア)",
+    "SortOrder": 122
+  },
+  {
+    "Code": "SL",
+    "CountryID": "COUNTRY_ID_SL",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SL  (シエラレオネ)",
+    "SortOrder": 120
+  },
+  {
+    "Code": "SR",
+    "CountryID": "COUNTRY_ID_SR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SR  (スリナム)",
+    "SortOrder": 129
+  },
+  {
+    "Code": "SV",
+    "CountryID": "COUNTRY_ID_SV",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SV  (エルサルバドル)",
+    "SortOrder": 41
+  },
+  {
+    "Code": "SZ",
+    "CountryID": "COUNTRY_ID_SZ",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_SZ  (エスワティニ)",
+    "SortOrder": 130
+  },
+  {
+    "Code": "TC",
+    "CountryID": "COUNTRY_ID_TC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TC  (タークス・カイコス諸島)",
+    "SortOrder": 141
+  },
+  {
+    "Code": "TD",
+    "CountryID": "COUNTRY_ID_TD",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TD  (チャド)",
+    "SortOrder": 28
+  },
+  {
+    "Code": "TG",
+    "CountryID": "COUNTRY_ID_TG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TG  (トーゴ)",
+    "SortOrder": 137
+  },
+  {
+    "Code": "TH",
+    "CountryID": "COUNTRY_ID_TH",
+    "DateFormat": 2,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_TH  (タイ)",
+    "SortOrder": 136
+  },
+  {
+    "Code": "TJ",
+    "CountryID": "COUNTRY_ID_TJ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TJ  (タジキスタン)",
+    "SortOrder": 134
+  },
+  {
+    "Code": "TM",
+    "CountryID": "COUNTRY_ID_TM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TM  (トルクメニスタン)",
+    "SortOrder": 140
+  },
+  {
+    "Code": "TR",
+    "CountryID": "COUNTRY_ID_TR",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TR  (トルコ)",
+    "SortOrder": 139
+  },
+  {
+    "Code": "TT",
+    "CountryID": "COUNTRY_ID_TT",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TT  (トリニダード・トバゴ)",
+    "SortOrder": 138
+  },
+  {
+    "Code": "TW",
+    "CountryID": "COUNTRY_ID_TW",
+    "DateFormat": 1,
+    "InquiryType": 3,
+    "NameMSID": "COUNTRY_NAME_TW  (台湾)",
+    "SortOrder": 133
+  },
+  {
+    "Code": "TZ",
+    "CountryID": "COUNTRY_ID_TZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_TZ  (タンザニア)",
+    "SortOrder": 135
+  },
+  {
+    "Code": "UA",
+    "CountryID": "COUNTRY_ID_UA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UA  (ウクライナ)",
+    "SortOrder": 143
+  },
+  {
+    "Code": "UG",
+    "CountryID": "COUNTRY_ID_UG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UG  (ウガンダ)",
+    "SortOrder": 142
+  },
+  {
+    "Code": "US",
+    "CountryID": "COUNTRY_ID_US",
+    "DateFormat": 1,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_US  (米国)",
+    "SortOrder": 146
+  },
+  {
+    "Code": "UY",
+    "CountryID": "COUNTRY_ID_UY",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UY  (ウルグアイ)",
+    "SortOrder": 147
+  },
+  {
+    "Code": "UZ",
+    "CountryID": "COUNTRY_ID_UZ",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_UZ  (ウズベキスタン)",
+    "SortOrder": 148
+  },
+  {
+    "Code": "VC",
+    "CountryID": "COUNTRY_ID_VC",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VC  (セントビンセントおよびグレナディーン諸島)",
+    "SortOrder": 116
+  },
+  {
+    "Code": "VE",
+    "CountryID": "COUNTRY_ID_VE",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VE  (ベネズエラ)",
+    "SortOrder": 149
+  },
+  {
+    "Code": "VG",
+    "CountryID": "COUNTRY_ID_VG",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_VG  (英領バージン諸島)",
+    "SortOrder": 20
+  },
+  {
+    "Code": "ZA",
+    "CountryID": "COUNTRY_ID_ZA",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ZA  (南アフリカ)",
+    "SortOrder": 125
+  },
+  {
+    "Code": "ZM",
+    "CountryID": "COUNTRY_ID_ZM",
+    "DateFormat": 2,
+    "InquiryType": 4,
+    "NameMSID": "COUNTRY_NAME_ZM  (ザンビア)",
+    "SortOrder": 150
+  }
+]

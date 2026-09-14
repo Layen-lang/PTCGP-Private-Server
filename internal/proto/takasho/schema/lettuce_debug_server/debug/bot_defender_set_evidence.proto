@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/bot_defender_evidence.proto";
+
+message BotDefenderSetEvidence {
+  message Types {
+    message Request {
+      string player_id = 1;
+      BotDefenderEvidence evidence = 2;
+    }
+    message Response {
+    }
+  }
+}

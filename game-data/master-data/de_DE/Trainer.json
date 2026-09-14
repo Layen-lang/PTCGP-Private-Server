@@ -1,0 +1,2033 @@
+[
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KIZUGUSURI",
+    "DescriptionMSID": "TRAINER_DESC_10  (Heile 20[C:Nbsp ]Schadenspunkte bei 1 deiner Pokémon.)",
+    "TrainerID": "TR_000010",
+    "TrainerLogicID": "200100090",
+    "TrainerLogicParameters": [
+      "1",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SPEEDER",
+    "DescriptionMSID": "TRAINER_DESC_11  (Während dieses Zuges verringern sich die Rückzugskosten deines Aktiven Pokémon um[C:Nbsp ]1.)",
+    "TrainerID": "TR_000020",
+    "TrainerLogicID": "200100040",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MONSTERBALL",
+    "DescriptionMSID": "TRAINER_DESC_12  (Nimm 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Basis-Pokémon aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_000030",
+    "TrainerLogicID": "200100050",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAKASENOKENKYU",
+    "DescriptionMSID": "TRAINER_DESC_13  (Ziehe 2 [Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "TrainerID": "TR_000040",
+    "TrainerLogicID": "200100060",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANDSCOPE",
+    "DescriptionMSID": "TRAINER_DESC_14  (Dein Gegner zeigt dir seine Handkarten.)",
+    "TrainerID": "TR_000050",
+    "TrainerLogicID": "200100010",
+    "TrainerLogicParameters": [],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONZUKAN",
+    "DescriptionMSID": "TRAINER_DESC_15  (Schau dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks an.)",
+    "TrainerID": "TR_000060",
+    "TrainerLogicID": "200100030",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "REDCARD",
+    "DescriptionMSID": "TRAINER_DESC_16  (Dein Gegner mischt seine Handkarten in sein Deck und zieht 3[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "TrainerID": "TR_000070",
+    "TrainerLogicID": "200100020",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 2,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAINOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000080",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOURANOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000090",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIMITSUNOKOHAKU",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000100",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ERIKA",
+    "DescriptionMSID": "TRAINER_DESC_1  (Heile 50[C:Nbsp ]Schadenspunkte bei 1 deiner \nGrass-Pokémon.)",
+    "TrainerID": "TR_000110",
+    "TrainerLogicID": "200200010",
+    "TrainerLogicParameters": [
+      "Grass",
+      "1",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KASUMI",
+    "DescriptionMSID": "TRAINER_DESC_2  (Wähle 1 deiner Water-Pokémon und wirf anschließend so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf 1[C:Nbsp ]Water-Energie aus deinem Energiebereich an jenes Pokémon an.)",
+    "TrainerID": "TR_000120",
+    "TrainerLogicID": "200200020",
+    "TrainerLogicParameters": [
+      "Water",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KATSURA",
+    "DescriptionMSID": "TRAINER_DESC_6  (Während dieses Zuges fügen die Attacken deines Vulnona, Gallopa oder Magmar dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000130",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "KYUKON",
+      "GALLOP",
+      "BOOBER",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KYOU",
+    "DescriptionMSID": "TRAINER_DESC_5  (Nimm dein Sleimok oder Smogmog in der Aktiven Position auf deine Hand.)",
+    "TrainerID": "TR_000140",
+    "TrainerLogicID": "200200050",
+    "TrainerLogicParameters": [
+      "BETBETON",
+      "MATADOGAS"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SAKAKI",
+    "DescriptionMSID": "TRAINER_DESC_7  (Während dieses Zuges fügen die Attacken deiner Pokémon dem Aktiven Pokémon deines Gegners +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000150",
+    "TrainerLogicID": "200200080",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TAKESHI",
+    "DescriptionMSID": "TRAINER_DESC_3  (Lege 1[C:Nbsp ]Fighting-[Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an Geowaz oder Onix an.)",
+    "TrainerID": "TR_000160",
+    "TrainerLogicID": "200200030",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "1",
+      "GOLONYA",
+      "IWARK"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NATSUME",
+    "DescriptionMSID": "TRAINER_DESC_9  (Wechsle das Aktive Pokémon deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "TrainerID": "TR_000170",
+    "TrainerLogicID": "200200060",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MATISSE",
+    "DescriptionMSID": "TRAINER_DESC_4  (Verschiebe alle Lightning-Energien von Pokémon auf deiner Bank auf dein Raichu, Lektrobal oder Elektek in der Aktiven Position.)",
+    "TrainerID": "TR_000180",
+    "TrainerLogicID": "200200040",
+    "TrainerLogicParameters": [
+      "RAICHU",
+      "MARUMINE",
+      "ELEBOO",
+      "Lightning"
+    ],
+    "TrainerType": 1,
+    "Version": 2010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MABOROSHINOSEKIBAN",
+    "DescriptionMSID": "TRAINER_DESC_18  (Schau dir die oberste Karte deines Decks an. Ist die Karte ein Psychic[C:Nbh ]Pokémon, nimm sie auf die Hand. Ist die Karte kein Psychic[C:Nbh ]Pokémon, lege sie unter dein Deck.)",
+    "TrainerID": "TR_000190",
+    "TrainerLogicID": "200100070",
+    "TrainerLogicParameters": [
+      "Psychic"
+    ],
+    "TrainerType": 2,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONNOFUE",
+    "DescriptionMSID": "TRAINER_DESC_17  (Lege 1[C:Nbsp ]Basis-Pokémon aus dem Ablagestapel deines Gegners auf seine Bank.)",
+    "TrainerID": "TR_000200",
+    "TrainerLogicID": "200100080",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GREEN",
+    "DescriptionMSID": "TRAINER_DESC_20  (Während des nächsten Zuges deines Gegners werden allen deinen Pokémon durch Attacken von Pokémon deines Gegners −[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_000210",
+    "TrainerLogicID": "200200090",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAKEDASHICHOSAIN",
+    "DescriptionMSID": "TRAINER_DESC_19  (Nimm dein Mew-ex in der Aktiven Position auf deine Hand.)",
+    "TrainerID": "TR_000220",
+    "TrainerLogicID": "200200100",
+    "TrainerLogicParameters": [
+      "MEW_EX"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LEAF",
+    "DescriptionMSID": "TRAINER_DESC_11  (Während dieses Zuges verringern sich die Rückzugskosten deines Aktiven Pokémon um[C:Nbsp ]2.)",
+    "TrainerID": "TR_000230",
+    "TrainerLogicID": "200200110",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2408010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ZUGAINOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000260",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TATENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000270",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONTSUUSHIN",
+    "DescriptionMSID": "TRAINER_DESC_21  (Wähle 1 Pokémon aus deiner Hand und tausche [Gr:Count s=\"es\" p=\"sie\" ] mit 1 zufälligen Pokémon aus deinem Deck aus.)",
+    "TrainerID": "TR_000280",
+    "TrainerLogicID": "200100100",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OOKINAMANTO",
+    "DescriptionMSID": "TRAINER_DESC_22  (Das Pokémon, an das diese Karte angelegt ist, erhält +[C:Nbsp ]20[C:Nbsp ]KP.)",
+    "TrainerID": "TR_000290",
+    "TrainerLogicID": "400300010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GOTSUGOTSUMETTO",
+    "DescriptionMSID": "TRAINER_DESC_23  (Wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000300",
+    "TrainerLogicID": "400100010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RAMUNOMI",
+    "DescriptionMSID": "TRAINER_DESC_24  (Am Ende jedes Zuges, wenn das Pokémon, an das diese Karte angelegt ist, von Speziellen Zuständen betroffen ist, erholt es sich von allen und du legst diese Karte auf deinen Ablagestapel.)",
+    "TrainerID": "TR_000310",
+    "TrainerLogicID": "400100020",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AKAGI",
+    "DescriptionMSID": "TRAINER_DESC_25  (Wechsle 1 Pokémon von der Bank deines Gegners, dem bereits Schaden zugefügt wurde, in die Aktive Position ein.)",
+    "TrainerID": "TR_000320",
+    "TrainerLogicID": "200200120",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GINGADANNOSHITAPPA",
+    "DescriptionMSID": "TRAINER_DESC_26  (Nimm von den Karten Charmian, Skunkapuh und Glibunkel 1 zufällige aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_000330",
+    "TrainerLogicID": "200200130",
+    "TrainerLogicParameters": [
+      "NYARMAR",
+      "SKUNPUU",
+      "GUREGGRU",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SHIRONA",
+    "DescriptionMSID": "TRAINER_DESC_27  (Während dieses Zuges fügen die Attacken deines Knakrack oder Togekiss dem Aktiven Pokémon deines Gegners +[C:Nbsp ]50[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000340",
+    "TrainerLogicID": "200200140",
+    "TrainerLogicParameters": [
+      "GABURIAS",
+      "TOGEKISS",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DENZI",
+    "DescriptionMSID": "TRAINER_DESC_28  (Wähle 1 deiner Elevoltek oder Luxtra. Lege 2[C:Nbsp ]Lightning[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"3\" ] aus deinem Ablagestapel an jenes Pokémon an.)",
+    "TrainerID": "TR_000350",
+    "TrainerLogicID": "200200150",
+    "TrainerLogicParameters": [
+      "ELEKIBLE",
+      "RENTORAR",
+      "Lightning",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIKARI",
+    "DescriptionMSID": "TRAINER_DESC_29  (Verschiebe 1 Energie von 1 der Pokémon auf deiner Bank auf dein Aktives Pokémon.)",
+    "TrainerID": "TR_000360",
+    "TrainerLogicID": "200200160",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MARS",
+    "DescriptionMSID": "TRAINER_DESC_30  (Dein Gegner mischt seine Handkarten in sein Deck und zieht 1 Karte für jeden Punkt, der ihm zum Sieg fehlt.)",
+    "TrainerID": "TR_000370",
+    "TrainerLogicID": "200200170",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2409010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAI",
+    "DescriptionMSID": "TRAINER_DESC_31  (Heile 40[C:Nbsp ]Schadenspunkte bei jedem deiner Pokémon, an das mindestens 1[C:Nbsp ]Water[C:Nbh ]Energie angelegt ist.)",
+    "TrainerID": "TR_000380",
+    "TrainerLogicID": "200200180",
+    "TrainerLogicParameters": [
+      "Water",
+      "40"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KANNAGITOWNNOTYOUROU",
+    "DescriptionMSID": "TRAINER_DESC_32  (Nimm 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ref=\"1\" ] Basic aus deinem Ablagestapel auf deine Hand.)",
+    "TrainerID": "TR_000390",
+    "TrainerLogicID": "200200190",
+    "TrainerLogicParameters": [
+      "Basic",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "JUN",
+    "DescriptionMSID": "TRAINER_DESC_33  (Während dieses Zuges verringern sich die Kosten der eingesetzten Attacken von deinem Relaxo, Skaraborn und Staraptor um 2[C:Nbsp ]Colorless[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"4\" ].)",
+    "TrainerID": "TR_000400",
+    "TrainerLogicID": "200200200",
+    "TrainerLogicParameters": [
+      "KABIGON",
+      "HERACROS",
+      "MUKUHAWK",
+      "Colorless",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SEKI",
+    "DescriptionMSID": "TRAINER_DESC_34  (Während des nächsten Zuges deines Gegners werden allen deinen Metal[C:Nbh ]Pokémon durch Attacken von Pokémon deines Gegners −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_000410",
+    "TrainerLogicID": "200200210",
+    "TrainerLogicParameters": [
+      "Metal",
+      "20"
+    ],
+    "TrainerType": 1,
+    "Version": 2502010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NANJYAMO",
+    "DescriptionMSID": "TRAINER_DESC_35  (Jeder Spieler mischt seine Handkarten in sein Deck und zieht anschließend dieselbe Anzahl Karten.)",
+    "TrainerID": "TR_000420",
+    "TrainerLogicID": "200200220",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "POKEMONCENTERNOONEESAN",
+    "DescriptionMSID": "TRAINER_DESC_36  (Heile 30[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Pokémon, und es erholt sich von allen Speziellen Zuständen.)",
+    "TrainerID": "TR_000430",
+    "TrainerLogicID": "200200230",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RED",
+    "DescriptionMSID": "TRAINER_DESC_37  (Während dieses Zuges fügen die Attacken deiner Pokémon dem Aktiven Pokémon-[Img:ex ] deines Gegners +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000440",
+    "TrainerLogicID": "200200240",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOSHITAPPA",
+    "DescriptionMSID": "TRAINER_DESC_38  (Wirf so lange 1 Münze, bis sie Zahl zeigt. Lege pro Kopf 1 zufällige Energie vom Aktiven Pokémon deines Gegners ab.)",
+    "TrainerID": "TR_000450",
+    "TrainerLogicID": "200200250",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2503010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OOKIIMARASADA",
+    "DescriptionMSID": "TRAINER_DESC_39  (Heile 10[C:Nbsp ]Schadenspunkte bei deinem Aktiven Pokémon, und es erholt sich von 1[C:Nbsp ]zufälligen [Gr:Count s=\"Speziellen Zustand\" p=\"Speziellen Zuständen\" ref=\"1\" ].)",
+    "TrainerID": "TR_000460",
+    "TrainerLogicID": "200100110",
+    "TrainerLogicParameters": [
+      "10",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OSAKANANETTO",
+    "DescriptionMSID": "TRAINER_DESC_94  (Nimm ein zufälliges Basis[C:Nbh ]Water[C:Nbh ]Pokémon aus deinem Ablagestapel auf deine Hand.)",
+    "TrainerID": "TR_000470",
+    "TrainerLogicID": "200100170",
+    "TrainerLogicParameters": [
+      "Water"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUSHIGINAAME",
+    "DescriptionMSID": "TRAINER_DESC_41  (Wähle 1 deiner Basis-Pokémon im Spiel. Wenn du [Gr:Count s=\"eine \" ]Phase-2-[Gr:Count s=\"Karte\" p=\"Karten\" ] auf deiner Hand hast, die sich aus [Gr:Count s=\"jenem\" p=\"jenen\" ] Pokémon [Gr:Count s=\"entwickelt\" p=\"entwickeln\" ], lege [Gr:Count s=\"jene Karte\" p=\"jene Karten\" ] auf [Gr:Count s=\"das\" p=\"die\" ] Basis-Pokémon, um [Gr:Count s=\"es\" p=\"sie\" ] zu entwickeln und Phase 1 zu überspringen. Du kannst diese Karte nicht während deines ersten Zuges oder für [Gr:Count s=\"ein \" ]Basis-Pokémon, [Gr:Count s=\"das\" p=\"die\" ] während dieses Zuges ins Spiel gebracht [Gr:Count s=\"wurde\" p=\"wurden\" ], einsetzen.)",
+    "TrainerID": "TR_000480",
+    "TrainerLogicID": "200100120",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROTOMUZUKAN",
+    "DescriptionMSID": "TRAINER_DESC_42  (Schau dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks an. Anschließend kannst du dein Deck mischen.)",
+    "TrainerID": "TR_000490",
+    "TrainerLogicID": "200100130",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DOKUBARI",
+    "DescriptionMSID": "TRAINER_DESC_43  (Wenn das Pokémon, an das diese Karte angelegt ist, dein Aktives Pokémon ist und durch eine Attacke deines Gegners Schaden erhält, [Text:SpecialCondition v0=\"ist das Angreifende Pokémon jetzt {}\" v1=\"{} das Angreifende Pokémon jetzt\" ].)",
+    "TrainerID": "TR_000500",
+    "TrainerLogicID": "400100030",
+    "TrainerLogicParameters": [
+      "Poisoned  (vergiftet)"
+    ],
+    "TrainerType": 3,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LEAFMANTO",
+    "DescriptionMSID": "TRAINER_DESC_44  (Das Grass[C:Nbh ]Pokémon, an das diese Karte angelegt ist, erhält +[C:Nbsp ]30[C:Nbsp ]KP.)",
+    "TrainerID": "TR_000510",
+    "TrainerLogicID": "400300020",
+    "TrainerLogicParameters": [
+      "Grass",
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ACEROLA",
+    "DescriptionMSID": "TRAINER_DESC_45  (Wähle 1 deiner Colossand oder Mimigma, dem bereits Schaden zugefügt wurde, und verschiebe 40 der bereits zugefügten Schadenspunkte auf das Aktive Pokémon deines Gegners.)",
+    "TrainerID": "TR_000520",
+    "TrainerLogicID": "200200270",
+    "TrainerLogicParameters": [
+      "SIRODETHNA",
+      "MIMIKKYU",
+      "40"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ILIMA",
+    "DescriptionMSID": "TRAINER_DESC_73  (Nimm 1 deiner Colorless[C:Nbh ]Pokémon, dem bereits Schaden zugefügt wurde, auf deine Hand.)",
+    "TrainerID": "TR_000530",
+    "TrainerLogicID": "200200280",
+    "TrainerLogicParameters": [
+      "Colorless"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAKI",
+    "DescriptionMSID": "TRAINER_DESC_47  (Wähle 1 deiner Alola-Knogga oder Tortunator. Lege 2[C:Nbsp ]Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"3\" ] aus deinem Energiebereich an dieses Pokémon an. Dein Zug endet.)",
+    "TrainerID": "TR_000540",
+    "TrainerLogicID": "200200290",
+    "TrainerLogicParameters": [
+      "ALOLAGARAGARA",
+      "BAKUGAMES",
+      "Fire",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GUZUMA",
+    "DescriptionMSID": "TRAINER_DESC_48  (Lege alle an gegnerische Pokémon angelegte Pokémon-Ausrüstungen auf den Ablagestapel deines Gegners.)",
+    "TrainerID": "TR_000550",
+    "TrainerLogicID": "200200300",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SUIREN",
+    "DescriptionMSID": "TRAINER_DESC_49  (Du kannst diese Karte nur einsetzen, wenn du Aranestro im Spiel hast. Wechsle 1 Pokémon von der Bank deines Gegners in die Aktive Position ein.)",
+    "TrainerID": "TR_000560",
+    "TrainerLogicID": "200200310",
+    "TrainerLogicParameters": [
+      "ONISHIZUKUMO"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAMANE",
+    "DescriptionMSID": "TRAINER_DESC_6  (Während dieses Zuges fügen die Attacken deines Alola-Geowaz, Donarion oder Togedemaru dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000570",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "ALOLAGOLONYA",
+      "KUWAGANNON",
+      "TOGEDEMARU",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAO",
+    "DescriptionMSID": "TRAINER_DESC_50  (Heile allen Schaden bei 1 deiner Lamellux oder Fruyal. Wenn du das machst, lege alle Energien von [Gr:Count s=\"jenem\" p=\"jenen\" ref=\"2\" ] Pokémon auf deinen Ablagestapel.)",
+    "TrainerID": "TR_000580",
+    "TrainerLogicID": "200200320",
+    "TrainerLogicParameters": [
+      "MASHADE",
+      "AMAJO",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LILIE",
+    "DescriptionMSID": "TRAINER_DESC_51  (Heile 60[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Two.)",
+    "TrainerID": "TR_000590",
+    "TrainerLogicID": "200200330",
+    "TrainerLogicParameters": [
+      "Two",
+      "1",
+      "60"
+    ],
+    "TrainerType": 1,
+    "Version": 2504010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BISUTOWORU",
+    "DescriptionMSID": "TRAINER_DESC_52  (Du kannst diese Karte nur einsetzen, wenn dein Gegner noch keine Punkte erhalten hat.\n\nWährend des nächsten Zuges deines Gegners werden allen deinen Ultrabestien durch Attacken von Pokémon deines Gegners −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_000600",
+    "TrainerLogicID": "200100140",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MUSHIYOKESUPUREI",
+    "DescriptionMSID": "TRAINER_DESC_53  (Wechsle das Aktive Basic deines Gegners auf seine Bank aus. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "TrainerID": "TR_000610",
+    "TrainerLogicID": "200100150",
+    "TrainerLogicParameters": [
+      "Basic"
+    ],
+    "TrainerType": 2,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "EREKIKORD",
+    "DescriptionMSID": "TRAINER_DESC_54  (Wenn das Lightning[C:Nbh ]Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, verschiebe 2[C:Nbsp ]Lightning[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"2\" ] von diesem Pokémon und lege jeweils 1[C:Nbsp ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"4\" ] an 2 der Pokémon auf deiner Bank an.)",
+    "TrainerID": "TR_000620",
+    "TrainerLogicID": "400100040",
+    "TrainerLogicParameters": [
+      "Lightning",
+      "Lightning",
+      "2",
+      "2",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BISUTONAITO",
+    "DescriptionMSID": "TRAINER_DESC_55  (Die eingesetzten Attacken von der Ultrabestie, an die diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners für jeden von dir erhaltenen Punkt +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000630",
+    "TrainerLogicID": "400300030",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GLAZIO",
+    "DescriptionMSID": "TRAINER_DESC_56  (Nimm von den Karten Typ:Null und Amigento 1 zufällige aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_000640",
+    "TrainerLogicID": "200200340",
+    "TrainerLogicParameters": [
+      "TYPENULL",
+      "SILVADY",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANDSOME",
+    "DescriptionMSID": "TRAINER_DESC_57  (Dein Gegner zeigt dir alle Unterstützerkarten in seinem Deck.)",
+    "TrainerID": "TR_000650",
+    "TrainerLogicID": "200200350",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LUSAMINE",
+    "DescriptionMSID": "TRAINER_DESC_58  (Du kannst diese Karte nur einsetzen, wenn dein Gegner mindestens 1[C:Nbsp ]Punkt erhalten hat.\n\nWähle 1 deiner Ultrabestien. Lege 2 zufällige [Gr:Count s=\"Energie\" p=\"Energien\" ] aus deinem Ablagestapel an jenes Pokémon an.)",
+    "TrainerID": "TR_000660",
+    "TrainerLogicID": "200200360",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2505010
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IIBUINOBAKKU",
+    "DescriptionMSID": "TRAINER_DESC_59  (Wähle 1 aus:\n\n\nWährend dieses Zuges fügen die Attacken deiner Pokémon, die sich aus Evoli entwickeln, dem Aktiven Pokémon deines Gegners +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zu.\n\nHeile 20[C:Nbsp ]Schadenspunkte bei jedem deiner Pokémon, die sich aus Evoli entwickeln.\n)",
+    "TrainerID": "TR_000670",
+    "TrainerLogicID": "200100160",
+    "TrainerLogicParameters": [
+      "EIEVUI",
+      "10",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABENOKOSHI",
+    "DescriptionMSID": "TRAINER_DESC_60  (Am Ende deines Zuges, wenn das Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, heile 10[C:Nbsp ]Schadenspunkte bei jenem Pokémon.)",
+    "TrainerID": "TR_000680",
+    "TrainerLogicID": "400100050",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAU",
+    "DescriptionMSID": "TRAINER_DESC_6  (Während dieses Zuges fügen die Attacken deines Silvarro-ex, Fuegro-ex oder Primarene-ex dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_000690",
+    "TrainerLogicID": "200200070",
+    "TrainerLogicParameters": [
+      "JUNAIPER_EX",
+      "GAOGAEN_EX",
+      "ASHIRENE_EX",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BOTAN",
+    "DescriptionMSID": "TRAINER_DESC_61  (Schau dir 1 zufällige Unterstützerkarte (außer Cosima) aus dem Deck deines Gegners an und mische sie zurück in sein Deck. Setze den Effekt jener Karte als Effekt dieser Karte ein.)",
+    "TrainerID": "TR_000700",
+    "TrainerLogicID": "200200370",
+    "TrainerLogicParameters": [
+      "BOTAN"
+    ],
+    "TrainerType": 1,
+    "Version": 2506000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "EREMENTARUTSUKEKAE",
+    "DescriptionMSID": "TRAINER_DESC_62  (Verschiebe 1 Fire[C:Nbh ], Water[C:Nbh ] oder Lightning[C:Nbh ]Energie von 1[C:Nbsp ]der Pokémon auf deiner Bank auf dein Aktives Pokémon.)",
+    "TrainerID": "TR_000710",
+    "TrainerLogicID": "200100180",
+    "TrainerLogicParameters": [
+      "Fire",
+      "Water",
+      "Lightning"
+    ],
+    "TrainerType": 2,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ZEHIGAMEJOURO",
+    "DescriptionMSID": "TRAINER_DESC_63  (Lege 1[C:Nbsp ]Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] vom Aktiven Pokémon deines Gegners ab.)",
+    "TrainerID": "TR_000720",
+    "TrainerLogicID": "200100190",
+    "TrainerLogicParameters": [
+      "Fire",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GOUTETUNOMAEKAKE",
+    "DescriptionMSID": "TRAINER_DESC_64  (Dem Metal[C:Nbh ]Pokémon, an das diese Karte angelegt ist, werden −[C:Nbsp ]10[C:Nbsp ]Schadenspunkte durch Attacken von Pokémon deines Gegners zugefügt, es erholt sich von allen Speziellen Zuständen und kann nicht von Speziellen Zuständen betroffen werden.)",
+    "TrainerID": "TR_000730",
+    "TrainerLogicID": "400300040",
+    "TrainerLogicParameters": [
+      "Metal",
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "DARKPENDANTO",
+    "DescriptionMSID": "TRAINER_DESC_65  (Wenn das Darkness[C:Nbh ]Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, zeigt dein Gegner dir 1[C:Nbsp ]zufällige [Gr:Count s=\"Karte\" p=\"Karten\" ref=\"1\" ] aus seiner Hand und mischt sie in sein Deck.)",
+    "TrainerID": "TR_000740",
+    "TrainerLogicID": "400100060",
+    "TrainerLogicParameters": [
+      "Darkness",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RESUKYUSUKAFU",
+    "DescriptionMSID": "TRAINER_DESC_66  (Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, nimm es auf deine Hand, anstatt es auf deinen Ablagestapel zu legen.)",
+    "TrainerID": "TR_000750",
+    "TrainerLogicID": "400300045",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ITSUKI",
+    "DescriptionMSID": "TRAINER_DESC_67  (Wenn du während dieses Zuges das nächste Mal für den Effekt einer Attacke, Fähigkeit oder Trainerkarte eine beliebige Anzahl Münzen wirfst, ist der erste Münzwurf garantiert Kopf.)",
+    "TrainerID": "TR_000760",
+    "TrainerLogicID": "200200380",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOTONE",
+    "DescriptionMSID": "TRAINER_DESC_68  (Tausche dein Aktives Pokémon, dem bereits Schaden zugefügt wurde, gegen 1 Pokémon auf deiner Bank aus.)",
+    "TrainerID": "TR_000770",
+    "TrainerLogicID": "200200390",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SILVER",
+    "DescriptionMSID": "TRAINER_DESC_69  (Dein Gegner zeigt dir seine Handkarten. Wähle 1[C:Nbsp ][Gr:Count s=\"Unterstützerkarte\" p=\"Unterstützerkarten\" ], die du dort findest, und mische sie in das Deck deines Gegners.)",
+    "TrainerID": "TR_000780",
+    "TrainerLogicID": "200200400",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FISHER",
+    "DescriptionMSID": "TRAINER_DESC_70  (Wirf 3[C:Nbsp ][Gr:Count s=\"Münze\" p=\"Münzen\" ]. Nimm pro Kopf 1[C:Nbsp ]zufälliges Water[C:Nbh ]Pokémon aus deinem Ablagestapel auf deine Hand.)",
+    "TrainerID": "TR_000790",
+    "TrainerLogicID": "200200410",
+    "TrainerLogicParameters": [
+      "3",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MIKAN",
+    "DescriptionMSID": "TRAINER_DESC_71  (Während des nächsten Zuges deines Gegners werden allen deinen Stahlos und Panzaeron-ex durch Attacken von Pokémon deines Gegners −[C:Nbsp ]50[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_000800",
+    "TrainerLogicID": "200200420",
+    "TrainerLogicParameters": [
+      "HAGANEIL",
+      "AIRMD_EX",
+      "50"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIKER",
+    "DescriptionMSID": "TRAINER_DESC_72  (Für jedes deiner Fighting[C:Nbh ]Pokémon im Spiel, schau dir die entsprechende Anzahl oberste Karten deines Decks an und lege sie in beliebiger Reihenfolge zurück auf dein Deck.)",
+    "TrainerID": "TR_000810",
+    "TrainerLogicID": "200200430",
+    "TrainerLogicParameters": [
+      "Fighting"
+    ],
+    "TrainerType": 1,
+    "Version": 2507000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "WHOTABOTO",
+    "DescriptionMSID": "TRAINER_DESC_74  (Die Rückzugskosten des Water[C:Nbh ]Pokémon, an das diese Karte angelegt ist, verringern sich um 1.)",
+    "TrainerID": "TR_000820",
+    "TrainerLogicID": "400300050",
+    "TrainerLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MEMORYLIGHT",
+    "DescriptionMSID": "TRAINER_DESC_75  (Das Pokémon, an das diese Karte angelegt ist, kann die Attacken aus vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendigen Energien.))",
+    "TrainerID": "TR_000830",
+    "TrainerLogicID": "400300060",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AKANE",
+    "DescriptionMSID": "TRAINER_DESC_76  (Heile 60[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Miltank, und es schläft, paralysiert und verwirrt.)",
+    "TrainerID": "TR_000840",
+    "TrainerLogicID": "200200440",
+    "TrainerLogicParameters": [
+      "MILTANK",
+      "60",
+      "Asleep  (schläft)",
+      "Paralyzed  (paralysiert)",
+      "Confused  (verwirrt)"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABINOGYOUSHOUNIN",
+    "DescriptionMSID": "TRAINER_DESC_77  (Schau dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\"\" ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks an. Nimm alle Pokémon-Ausrüstungen, die du dort findest, auf deine Hand. Mische die anderen Karten zurück in dein Deck.)",
+    "TrainerID": "TR_000850",
+    "TrainerLogicID": "200200450",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MATSUBA",
+    "DescriptionMSID": "TRAINER_DESC_78  (Für jedes deiner Psychic[C:Nbh ]Pokémon im Spiel, schau dir die entsprechende Anzahl oberste Karten des Decks deines Gegners an und lege sie in beliebiger Reihenfolge zurück auf sein Deck.)",
+    "TrainerID": "TR_000860",
+    "TrainerLogicID": "200200460",
+    "TrainerLogicParameters": [
+      "Psychic"
+    ],
+    "TrainerType": 1,
+    "Version": 2508000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ITAZURAROULETTE",
+    "DescriptionMSID": "TRAINER_DESC_79  ([Num:Int ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] [Gr:Count s=\"wird zufällig aus deiner Hand oder der des Gegners\" p=\"werden zufällig aus deiner Hand, der des Gegners oder beider Spieler\" ] ausgewählt, dem anderen Spieler gezeigt, und dann wieder in das jeweilige Deck gemischt.)",
+    "TrainerID": "TR_000870",
+    "TrainerLogicID": "200100200",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HANENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000880",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HITHAMMER",
+    "DescriptionMSID": "TRAINER_DESC_80  (Wirf 2[C:Nbsp ][Gr:Count s=\"Münze\" p=\"Münzen\" id=\"0\" ref=\"0\"]. [Gr:Count p=\"Zeigen alle Münzen Kopf\" one=\"Bei Kopf\" two=\"Zeigen beide Münzen Kopf\" id=\"0\" ref=\"0\"], lege 1 zufällige [Gr:Count s=\"Energie\" p=\"Energien\" id=\"0\" ref=\"1\" ] vom Aktiven Pokémon deines Gegners ab.)",
+    "TrainerID": "TR_000890",
+    "TrainerLogicID": "200100220",
+    "TrainerLogicParameters": [
+      "2",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUTANOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_000900",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUREIMUPACCHI",
+    "DescriptionMSID": "TRAINER_DESC_81  (Lege 1[C:Nbsp ]Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Ablagestapel an dein Fire[C:Nbh ]Pokémon in der Aktiven Position an.)",
+    "TrainerID": "TR_000910",
+    "TrainerLogicID": "200100210",
+    "TrainerLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "TrainerType": 2,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OBONNOMI",
+    "DescriptionMSID": "TRAINER_DESC_82  (Am Ende jedes Zuges, wenn dem Pokémon, an das diese Karte angelegt ist, die Hälfte oder weniger seiner maximalen KP verbleiben, heile 30[C:Nbsp ]Schadenspunkte bei jenem Pokémon. Wenn du das machst, lege diese Karte auf den Ablagestapel.)",
+    "TrainerID": "TR_000920",
+    "TrainerLogicID": "400100070",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BABYMET",
+    "DescriptionMSID": "TRAINER_DESC_83  (Wenn das Pokémon, an das diese Karte angelegt ist, Rückzugskosten von 3 oder mehr hat, werden jenem Pokémon durch Attacken von Pokémon deines Gegners −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_000930",
+    "TrainerLogicID": "400300070",
+    "TrainerLogicParameters": [
+      "3",
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "LUCKYMITTENS",
+    "DescriptionMSID": "TRAINER_DESC_84  (Ziehe jedes Mal, wenn das Pokémon deines Gegners durch Schaden einer Attacke von dem Pokémon, an das diese Karte angelegt ist, kampfunfähig wird, [Num:Int ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "TrainerID": "TR_000940",
+    "TrainerLogicID": "400100080",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SHIZUI",
+    "DescriptionMSID": "TRAINER_DESC_85  (Heile 70[C:Nbsp ]Schadenspunkte bei 1 deiner Karippas oder Apoquallyp.)",
+    "TrainerID": "TR_000950",
+    "TrainerLogicID": "200200470",
+    "TrainerLogicParameters": [
+      "ABAGOURA",
+      "BURUNGEL",
+      "1",
+      "70"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HALA",
+    "DescriptionMSID": "TRAINER_DESC_86  (Wenn dein Hariyama oder Krawell im nächsten Zug deines Gegners durch Schaden einer Attacke kampfunfähig würde, wird es nicht kampfunfähig und seine verbleibenden KP sind gleich 10.)",
+    "TrainerID": "TR_000960",
+    "TrainerLogicID": "200200480",
+    "TrainerLogicParameters": [
+      "HARITEYAMA",
+      "KEKENKANI",
+      "10"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HARUKA",
+    "DescriptionMSID": "TRAINER_DESC_87  (Nimm [Num:Int ] [Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Pokémon aus deinem Deck auf deine Hand. Für jedes Pokémon, das du auf diese Weise auf deine Hand nimmst, wähle ein Pokémon aus deiner Hand und mische es in dein Deck.)",
+    "TrainerID": "TR_000970",
+    "TrainerLogicID": "200200490",
+    "TrainerLogicParameters": [
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MELISSA",
+    "DescriptionMSID": "TRAINER_DESC_88  (Lege 1[C:Nbsp ]Psychic[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"3\" ] aus deinem Energiebereich an jedes deiner Drifzepeli und Traunmagil an.)",
+    "TrainerID": "TR_000980",
+    "TrainerLogicID": "200200500",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "FUWARIDE",
+      "MUMARGI",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MONOMANEMUSUME",
+    "DescriptionMSID": "TRAINER_DESC_89  (Mische deine Handkarten in dein Deck. Ziehe anschließend 1[C:Nbsp ]Karte für jede Karte auf der Hand deines Gegners.)",
+    "TrainerID": "TR_000990",
+    "TrainerLogicID": "200200510",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "RUCHIA",
+    "DescriptionMSID": "TRAINER_DESC_90  (Nimm 2[C:Nbsp ][Gr:Count s=\"zufälliges\" p=\"zufällige\" ref=\"1\" ] Basis-Pokémon mit 50[C:Nbsp ]KP oder weniger aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001000",
+    "TrainerLogicID": "200200520",
+    "TrainerLogicParameters": [
+      "50",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2510000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CITRONNORYUKKU",
+    "DescriptionMSID": "TRAINER_DESC_91  (Während dieses Zuges fügen die Attacken deines Magneton oder Elezard den Pokémon deines Gegners +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001010",
+    "TrainerLogicID": "200100240",
+    "TrainerLogicParameters": [
+      "RARECOIL",
+      "ELEZARD",
+      "20"
+    ],
+    "TrainerType": 2,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SOUJYUKUEKISU",
+    "DescriptionMSID": "TRAINER_DESC_92  (Wähle 1 deiner Grass[C:Nbh ]Pokémon im Spiel. Lege ein zufälliges Grass[C:Nbh ]Pokémon aus deinem Deck, das sich aus diesem Pokémon entwickelt, auf dieses Pokémon, um es zu entwickeln. Du kannst diese Karte nicht während deines ersten Zuges einsetzen oder Pokémon entwickeln, die während dieses Zuges ins Spiel gebracht wurden.)",
+    "TrainerID": "TR_001020",
+    "TrainerLogicID": "200100230",
+    "TrainerLogicParameters": [
+      "Grass",
+      "Grass"
+    ],
+    "TrainerType": 2,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CITRON",
+    "DescriptionMSID": "TRAINER_DESC_26  (Nimm von den Karten Magneton, Elezard und Citros Rucksack 2 zufällige aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001030",
+    "TrainerLogicID": "200200130",
+    "TrainerLogicParameters": [
+      "RARECOIL",
+      "ELEZARD",
+      "CITRONNORYUKKU",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SERENA",
+    "DescriptionMSID": "TRAINER_DESC_93  (Nimm 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Mega[C:Nbh ]Entwicklungs-Pokémon[C:Nbh ][Img:ex ] aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001040",
+    "TrainerLogicID": "200200530",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2512000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AGONOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_001050",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ATARITSUKIAISU",
+    "DescriptionMSID": "TRAINER_DESC_95  (Heile 20[C:Nbsp ]Schadenspunkte bei deinem Aktiven Pokémon. Wenn du auf diese Weise Schaden geheilt hast, wirf 1 Münze. Nimm Glücks-Eis bei Kopf wieder auf deine Hand, anstatt die Karte auf deinen Ablagestapel zu legen.)",
+    "TrainerID": "TR_001060",
+    "TrainerLogicID": "200100250",
+    "TrainerLogicParameters": [
+      "20",
+      "ATARITSUKIAISU"
+    ],
+    "TrainerType": 2,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HIRENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_001070",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAMORINOPONCHO",
+    "DescriptionMSID": "TRAINER_DESC_96  (Solange sich das Pokémon, an das diese Karte angelegt ist, auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken und Fähigkeiten deines Gegners zugefügt wird.)",
+    "TrainerID": "TR_001080",
+    "TrainerLogicID": "400300080",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "METARUKOABARIA",
+    "DescriptionMSID": "TRAINER_DESC_97  (Wenn diese Karte an 1 deiner Pokémon angelegt ist, lege sie am Ende des Zuges deines Gegners auf deinen Ablagestapel.\n\nDem Metal[C:Nbh ]Pokémon, an das diese Karte angelegt ist, werden −[C:Nbsp ]50[C:Nbsp ]Schadenspunkte durch Attacken von Pokémon deines Gegners zugefügt.)",
+    "TrainerID": "TR_001090",
+    "TrainerLogicID": "400300090",
+    "TrainerLogicParameters": [
+      "Metal",
+      "50"
+    ],
+    "TrainerType": 3,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CARNE",
+    "DescriptionMSID": "TRAINER_DESC_98  (Heile 90[C:Nbsp ]Schadenspunkte bei 1 deiner Psychic[C:Nbh ]Pokémon, an das mindestens 2 oder mehr Psychic[C:Nbh ]Energien angelegt sind. Wenn du auf diese Weise Schaden geheilt hast, lege 2[C:Nbsp ]Psychic[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"3\" ] von jenem Pokémon ab.)",
+    "TrainerID": "TR_001100",
+    "TrainerLogicID": "200200540",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "2",
+      "90",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KANKOUKYAKU",
+    "DescriptionMSID": "TRAINER_DESC_99  (Schau dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\"\" ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks an. Nimm alle Phase-1-Pokémon, die du dort findest, auf deine Hand. Mische die anderen Karten zurück in dein Deck.)",
+    "TrainerID": "TR_001110",
+    "TrainerLogicID": "200200550",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "JAGURA",
+    "DescriptionMSID": "TRAINER_DESC_100  (Du kannst diese Karte nur einsetzen, wenn an deine Pokémon im Spiel 3 oder mehr verschiedene Energietypen angelegt sind.\n\nVerschiebe sämtliche Energien von allen Pokémon auf deiner Bank auf dein Aktives Pokémon.)",
+    "TrainerID": "TR_001120",
+    "TrainerLogicID": "200200560",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEZU",
+    "DescriptionMSID": "TRAINER_DESC_101  (Du kannst diese Karte nur einsetzen, wenn du Galar-Barrikadax im Spiel hast.\n\nLege 2 zufällige [Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] vom Aktiven Pokémon deines Gegners ab.)",
+    "TrainerID": "TR_001130",
+    "TrainerLogicID": "200200570",
+    "TrainerLogicParameters": [
+      "GALARTACHIFUSAGUMA",
+      "2"
+    ],
+    "TrainerType": 1,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TORENINGUERIA",
+    "DescriptionMSID": "TRAINER_DESC_102  (Attacken von Phase-1-Pokémon im Spiel (deine und die deines Gegners) fügen dem Aktiven Pokémon des Gegners +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001140",
+    "TrainerLogicID": "500300030",
+    "TrainerLogicParameters": [
+      "10"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAJIMARINOHEIGEN",
+    "DescriptionMSID": "TRAINER_DESC_103  (Jedes Basis-Pokémon im Spiel (deine und die deines Gegners) erhält +[C:Nbsp ]20[C:Nbsp ]KP.)",
+    "TrainerID": "TR_001150",
+    "TrainerLogicID": "500300010",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FUSHIGINAHIROBA",
+    "DescriptionMSID": "TRAINER_DESC_104  (Die Rückzugskosten aller Psychic[C:Nbh ]Pokémon im Spiel (deiner und der deines Gegners) verringern sich um 2.)",
+    "TrainerID": "TR_001160",
+    "TrainerLogicID": "500300020",
+    "TrainerLogicParameters": [
+      "Psychic",
+      "2"
+    ],
+    "TrainerType": 5,
+    "Version": 2601000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ELECTRICGENERATOR",
+    "DescriptionMSID": "TRAINER_DESC_105  (Wirf 1 Münze. Lege bei Kopf 1[C:Nbsp id=\"0\" ref=\"0\" ]Lightning[C:Nbh ]Energie aus deinem Energiebereich an 1[C:Nbsp id=\"0\" ref=\"0\" ]Lightning[C:Nbh ]Pokémon auf deiner Bank an.)",
+    "TrainerID": "TR_001170",
+    "TrainerLogicID": "200100260",
+    "TrainerLogicParameters": [
+      "Lightning",
+      "Lightning"
+    ],
+    "TrainerType": 2,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "BIGAIRBALLOON",
+    "DescriptionMSID": "TRAINER_DESC_106  (Das Phase-2-Pokémon, an das diese Karte angelegt ist, hat keine Rückzugskosten.)",
+    "TrainerID": "TR_001180",
+    "TrainerLogicID": "400300100",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TEAMSTARGRUNT",
+    "DescriptionMSID": "TRAINER_DESC_107  (Lege 1 zufällige [Gr:Count s=\"Energie\" p=\"Energien\" ] von allen Energien, die an gegnerische Pokémon mit einer Fähigkeit angelegt sind, ab.)",
+    "TrainerID": "TR_001190",
+    "TrainerLogicID": "200200580",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEMO",
+    "DescriptionMSID": "TRAINER_DESC_108  (Während dieses Zuges fügen die Attacken deiner Pamomamo dem Aktiven Pokémon-[Img:ex ] deines Gegners +[C:Nbsp id=\"0\" ref=\"0\" ]80[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001200",
+    "TrainerLogicID": "200200590",
+    "TrainerLogicParameters": [
+      "PARMOT",
+      "80"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "PEPER",
+    "DescriptionMSID": "TRAINER_DESC_109  (Wirf 1 Münze. Nimm bei Kopf 1 zufällige [Gr:Count s=\"Item-Karte\" p=\"Item-Karten\" ] aus deinem Deck auf deine Hand. Bei Zahl nimm 1 zufällige [Gr:Count s=\"Pokémon-Ausrüstungskarte\" p=\"Pokémon-Ausrüstungskarten\" ] aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001210",
+    "TrainerLogicID": "200200600",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TABLECITY",
+    "DescriptionMSID": "TRAINER_DESC_110  (Einmal während des Zuges jedes Spielers kann jener Spieler 1[C:Nbsp id=\"0\" ref=\"0\" ]Münze werfen. Bei Kopf nimmt jener Spieler 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Pokémon aus seinem Deck auf seine Hand.)",
+    "TrainerID": "TR_001220",
+    "TrainerLogicID": "500200010",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2602000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IJIWARULETTER",
+    "DescriptionMSID": "TRAINER_DESC_111  (Dein Gegner legt so lange Karten aus seiner Hand auf seinen Ablagestapel, bis er 4[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] auf seiner Hand hat.)",
+    "TrainerID": "TR_001230",
+    "TrainerLogicID": "200100270",
+    "TrainerLogicParameters": [
+      "4"
+    ],
+    "TrainerType": 2,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MAINTENANCE",
+    "DescriptionMSID": "TRAINER_DESC_112  (Mische 2 [Gr:Count s=\"Karte\" p=\"Karten\" ref=\"0\" ] aus deiner Hand in dein Deck. Ziehe 1 [Gr:Count s=\"Karte\" p=\"Karten\" ref=\"1\" ]. Wenn du keine 2[Gr:Count s=\"Karte\" p=\"Karten\" ref=\"0\" ] in dein Deck mischen kannst, kannst du diese Karte nicht einsetzen.)",
+    "TrainerID": "TR_001240",
+    "TrainerLogicID": "200100280",
+    "TrainerLogicParameters": [
+      "2",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IRIS",
+    "DescriptionMSID": "TRAINER_DESC_113  (Wenn das Aktive Pokémon deines Gegners während dieses Zuges durch Schaden einer Attacke deines Maxax kampfunfähig wird, erhältst du 1 Punkt mehr.)",
+    "TrainerID": "TR_001250",
+    "TrainerLogicID": "200200610",
+    "TrainerLogicParameters": [
+      "ONONOKUS"
+    ],
+    "TrainerType": 1,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CALME",
+    "DescriptionMSID": "TRAINER_DESC_114  (Ziehe 1[C:Nbsp id=\"0\" ref=\"0\" ]Karte für jedes Mega-Entwicklungs-Pokémon-[Img:ex ] im Spiel (deine und die deines Gegners).)",
+    "TrainerID": "TR_001260",
+    "TrainerLogicID": "200200620",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAIKINGUCOURSE",
+    "DescriptionMSID": "TRAINER_DESC_115  (Am Ende des Zuges jedes Spielers zieht jener Spieler so lange Karten, bis er 3 [Gr:Count s=\"Karte\" p=\"Karten\" ] auf der Hand hat.)",
+    "TrainerID": "TR_001270",
+    "TrainerLogicID": "500100010",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 5,
+    "Version": 2603000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "FIELDBLOWER",
+    "DescriptionMSID": "TRAINER_DESC_116  (Lege 1 Pokémon-Ausrüstung von einem Pokémon (deinem oder einem deines Gegners) ab, oder lege eine Stadionkarte im Spiel auf den Ablagestapel.)",
+    "TrainerID": "TR_001280",
+    "TrainerLogicID": "200100290",
+    "TrainerLogicParameters": [],
+    "TrainerType": 2,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HAPPINESSEGG",
+    "DescriptionMSID": "TRAINER_DESC_117  (Wenn das Pokémon, an das diese Karte angelegt ist, durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, ziehe so lange Karten, bis du 5[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] auf deiner Hand hast.)",
+    "TrainerID": "TR_001290",
+    "TrainerLogicID": "400100090",
+    "TrainerLogicParameters": [
+      "5"
+    ],
+    "TrainerType": 3,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CORNI",
+    "DescriptionMSID": "TRAINER_DESC_118  (Während dieses Zuges fügen Attacken deiner Fighting[C:Nbh ]Pokémon dem Aktiven Pokémon[C:Nbh ][Img:ex ] deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001300",
+    "TrainerLogicID": "200200630",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "30"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TAXIDRIVER",
+    "DescriptionMSID": "TRAINER_DESC_119  (Nimm 1 zufällige [Gr:Count s=\"Stadionkarte\" p=\"Stadionkarten\" ] aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001310",
+    "TrainerLogicID": "200200640",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CHEREN",
+    "DescriptionMSID": "TRAINER_DESC_120  (Während des nächsten Zuges deines Gegners werden allen deinen Kukmarda und Bissbark durch Attacken von Pokémon[C:Nbh ][Img:ex ] deines Gegners −[C:Nbsp ]100[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "TrainerID": "TR_001320",
+    "TrainerLogicID": "200200650",
+    "TrainerLogicParameters": [
+      "MIRUHOG",
+      "MOOLAND",
+      "100"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "PARASOLGIRL",
+    "DescriptionMSID": "TRAINER_DESC_121  (Nimm 1 deiner Water[C:Nbh ]Pokémon, außer Pokémon[C:Nbh ][Img:ex ], auf deine Hand.)",
+    "TrainerID": "TR_001330",
+    "TrainerLogicID": "200200660",
+    "TrainerLogicParameters": [
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AMAKUKAORUMORI",
+    "DescriptionMSID": "TRAINER_DESC_122  (Einmal während des Zuges jedes Spielers kann jener Spieler 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ref=\"1\" ] Basis[C:Nbh ]Grass[C:Nbh ]Pokémon aus seinem Deck auf seine Hand nehmen.)",
+    "TrainerID": "TR_001340",
+    "TrainerLogicID": "500200020",
+    "TrainerLogicParameters": [
+      "Grass",
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "INISHIENOTOUGIJYOU",
+    "DescriptionMSID": "TRAINER_DESC_123  (Attacken von jedem Fighting[C:Nbh ]Pokémon im Spiel (deinen und denen deines Gegners) fügen dem Aktiven Pokémon[C:Nbh ][Img:ex ] des Gegners +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001350",
+    "TrainerLogicID": "500300040",
+    "TrainerLogicParameters": [
+      "Fighting",
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KEKKAINOFIELD",
+    "DescriptionMSID": "TRAINER_DESC_124  (Wenn die Schwäche des Aktiven Pokémon deines Gegners mit dem Schaden, der durch Attacken der Pokémon im Spiel (deiner und der deines Gegners), die keine Mega-Entwicklungs-Pokémon[C:Nbh ][Img:ex ] sind, zugefügt wird, verrechnet wird, verrechne sie als ×[C:Nbsp ]2.)",
+    "TrainerID": "TR_001360",
+    "TrainerLogicID": "500300050",
+    "TrainerLogicParameters": [],
+    "TrainerType": 5,
+    "Version": 2604000
+  },
+  {
+    "AdditionalCategories": [
+      2
+    ],
+    "CharacterID": "BUSUTOENAJIKODAI",
+    "DescriptionMSID": "TRAINER_DESC_125  (Das Pokémon aus der Vergangenheit, an das diese Karte angelegt ist, erhält +[C:Nbsp ]40[C:Nbsp ]KP.)",
+    "TrainerID": "TR_001370",
+    "TrainerLogicID": "400300110",
+    "TrainerLogicParameters": [
+      "40"
+    ],
+    "TrainerType": 3,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      3
+    ],
+    "CharacterID": "BUSUTOENAJIMIRAI",
+    "DescriptionMSID": "TRAINER_DESC_126  (Die Attacken des Pokémon aus der Zukunft, an das diese Karte angelegt ist, fügen dem Aktiven Pokémon deines Gegners +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001380",
+    "TrainerLogicID": "400300120",
+    "TrainerLogicParameters": [
+      "20"
+    ],
+    "TrainerType": 3,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "AOI",
+    "DescriptionMSID": "TRAINER_DESC_127  (Nimm 1 [Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Phase-2-Pokémon aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001390",
+    "TrainerLogicID": "200200670",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      2
+    ],
+    "CharacterID": "OLIMHAKASE",
+    "DescriptionMSID": "TRAINER_DESC_128  (Lege 3 [Gr:Count s=\"Energie\" p=\"Energien\" ] verschiedener Typen aus deinem Ablagestapel beliebig an deine Pokémon aus der Vergangenheit an.)",
+    "TrainerID": "TR_001400",
+    "TrainerLogicID": "200200680",
+    "TrainerLogicParameters": [
+      "3"
+    ],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [
+      3
+    ],
+    "CharacterID": "FUTUHAKASE",
+    "DescriptionMSID": "TRAINER_DESC_129  (Mische 1 deiner Pokémon aus der Zukunft im Spiel in dein Deck.)",
+    "TrainerID": "TR_001410",
+    "TrainerLogicID": "200200690",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ERIAZERO",
+    "DescriptionMSID": "TRAINER_DESC_130  (Einmal während des Zuges jedes Spielers kann jener Spieler 1 Basis-Pokémon aus seiner Hand in sein Deck mischen. Wenn er das macht, zieht er 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "TrainerID": "TR_001420",
+    "TrainerLogicID": "500200030",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2605000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "CHIISANAFUUSEN",
+    "DescriptionMSID": "TRAINER_DESC_131  (Die Rückzugskosten des Basis-Pokémon, an das diese Karte angelegt ist, verringern sich um 1.)",
+    "TrainerID": "TR_001430",
+    "TrainerLogicID": "400300140",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 3,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "YUUGANAMANTO",
+    "DescriptionMSID": "TRAINER_DESC_132  (Das Phase-1-Pokémon, an das diese Karte angelegt ist, erhält +[C:Nbsp ]30[C:Nbsp ]KP.)",
+    "TrainerID": "TR_001440",
+    "TrainerLogicID": "400300130",
+    "TrainerLogicParameters": [
+      "30"
+    ],
+    "TrainerType": 3,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KAMITSURE",
+    "DescriptionMSID": "TRAINER_DESC_133  (Alle Pokémon-Ausrüstungen, die an Pokémon (deine und die deines Gegners) angelegt sind, kehren auf die Hand ihres jeweiligen Besitzers zurück.)",
+    "TrainerID": "TR_001450",
+    "TrainerLogicID": "200200700",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KOINUDAISUKIGARL",
+    "DescriptionMSID": "TRAINER_DESC_134  (Schau dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks an. Nimm alle Pokémon mit der Attacke PokemonAttackName_ID_951, die du dort findest, auf deine Hand. Mische die anderen Karten zurück in dein Deck.)",
+    "TrainerID": "TR_001460",
+    "TrainerLogicID": "200200710",
+    "TrainerLogicParameters": [
+      "4",
+      "PokemonAttackName_ID_951"
+    ],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MIKURI",
+    "DescriptionMSID": "TRAINER_DESC_135  (Wähle 1 deiner Water[C:Nbh ]Pokémon im Spiel, dessen maximale KP 50 oder weniger betragen. Lege ein zufälliges Water[C:Nbh ]Pokémon aus deinem Deck, das sich aus diesem Pokémon entwickelt, auf dieses Pokémon, um es zu entwickeln.)",
+    "TrainerID": "TR_001470",
+    "TrainerLogicID": "200200720",
+    "TrainerLogicParameters": [
+      "50",
+      "Water",
+      "Water"
+    ],
+    "TrainerType": 1,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KODOMOBEYA",
+    "DescriptionMSID": "TRAINER_DESC_136  (Einmal während des Zuges jedes Spielers kann jener Spieler 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] aus seiner Hand auswählen und sie mit 1[C:Nbsp ]zufälligen [Gr:Count s=\"Pokémon-Ausrüstung\" p=\"Pokémon-Ausrüstungen\" ] aus seinem Deck austauschen.)",
+    "TrainerID": "TR_001480",
+    "TrainerLogicID": "500200040",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 5,
+    "Version": 2606000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "OTORIYOSEPADDO",
+    "DescriptionMSID": "TRAINER_DESC_137  (Wirf 1 Münze. Nimm bei Kopf 1 zufällige [Gr:Count s=\"Itemkarte\" p=\"Itemkarten\" ] aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001490",
+    "TrainerLogicID": "200100300",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "TSUMENOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_001500",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NEKKONOKASEKI",
+    "DescriptionMSID": "TRAINER_DESC_8  (Spiele diese Karte, als ob sie ein Basis-Colorless-Pokémon mit 40[C:Nbsp ]KP wäre. Du kannst diese Karte jederzeit während deines Zuges aus dem Spiel nehmen und auf deinen Ablagestapel legen.\nDiese Karte kann sich nicht zurückziehen.)",
+    "TrainerID": "TR_001510",
+    "TrainerLogicID": "200300010",
+    "TrainerLogicParameters": [
+      "40",
+      "Colorless"
+    ],
+    "TrainerType": 4,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "INCHIKIBARI",
+    "DescriptionMSID": "TRAINER_DESC_138  (Am Ende deines Zuges, wenn das Darkness[C:Nbh ]Pokémon, an das diese Karte angelegt ist, in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10[C:Nbsp ]Schadenspunkte zu.)",
+    "TrainerID": "TR_001520",
+    "TrainerLogicID": "400100100",
+    "TrainerLogicParameters": [
+      "Darkness",
+      "10"
+    ],
+    "TrainerType": 3,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "KURIAVEIL",
+    "DescriptionMSID": "TRAINER_DESC_139  (Verhindere alle Effekte der von den Pokémon deines Gegners eingesetzten Attacken, die dem Pokémon zugefügt werden, an das diese Karte angelegt ist. (Bestehende Effekte werden nicht entfernt.))",
+    "TrainerID": "TR_001530",
+    "TrainerLogicID": "400300150",
+    "TrainerLogicParameters": [],
+    "TrainerType": 3,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SAIKIKKA",
+    "DescriptionMSID": "TRAINER_DESC_140  (Du kannst diese Karte nur einsetzen, wenn dein Pokémon in der Aktiven Position die Attacke PokemonAttackName_ID_97 hat.\n\nWähle 1 Pokémon auf der Bank deines Gegners und verschiebe 1[C:Nbsp ][Gr:Count s=\"zufällige Energie\" p=\"zufällige Energien\" ref=\"1\" ] von diesem auf das Aktive Pokémon deines Gegners.)",
+    "TrainerID": "TR_001540",
+    "TrainerLogicID": "200200730",
+    "TrainerLogicParameters": [
+      "PokemonAttackName_ID_97",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "SYAGA",
+    "DescriptionMSID": "TRAINER_DESC_141  (Während dieses Zuges wird 1 Pokémon des Gegners 1 Mal mehr ausgewählt, wenn deine Pokémon die Attacke PokemonAttackName_ID_144 einsetzen.)",
+    "TrainerID": "TR_001550",
+    "TrainerLogicID": "200200740",
+    "TrainerLogicParameters": [
+      "PokemonAttackName_ID_144",
+      "1"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "HUURO",
+    "DescriptionMSID": "TRAINER_DESC_142  (Tausche dein Aktives Phase-1-Pokémon gegen 1[C:Nbsp ]Pokémon auf deiner Bank aus.)",
+    "TrainerID": "TR_001560",
+    "TrainerLogicID": "200200750",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "MITSURU",
+    "DescriptionMSID": "TRAINER_DESC_143  (Lege 1[C:Nbsp ]Colorless[C:Nbh ]Energie aus deinem Energiebereich an 1 deiner Phase-2-Pokémon an.)",
+    "TrainerID": "TR_001570",
+    "TrainerLogicID": "200200760",
+    "TrainerLogicParameters": [
+      "Colorless"
+    ],
+    "TrainerType": 1,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "IYASHINOUMIBE",
+    "DescriptionMSID": "TRAINER_DESC_144  (Am Ende des Zuges jedes Spielers heilt jener Spieler 20[C:Nbsp ]Schadenspunkte bei jedem seiner Pokémon, an das mindestens 1[C:Nbsp ]Water[C:Nbh ]Energie angelegt ist.)",
+    "TrainerID": "TR_001580",
+    "TrainerLogicID": "500100020",
+    "TrainerLogicParameters": [
+      "Water",
+      "20"
+    ],
+    "TrainerType": 5,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "NIJIIRONODOUKUTSU",
+    "DescriptionMSID": "TRAINER_DESC_145  (Einmal während des Zuges jedes Spielers kann jener Spieler die Energie, die in seinem Energiebereich generiert wurde, ablegen. Wenn er das macht, wird die nächste Energie generiert.)",
+    "TrainerID": "TR_001590",
+    "TrainerLogicID": "500200050",
+    "TrainerLogicParameters": [],
+    "TrainerType": 5,
+    "Version": 2607000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNODOROBOUMASHIN",
+    "DescriptionMSID": "TRAINER_DESC_146  (Nimm 1 zufällige [Gr:Count s=\"Itemkarte\" p=\"Itemkarten\" ref=\"1\" ], außer Team Rockets Raubmaschine, aus dem Ablagestapel deines Gegners auf deine Hand.)",
+    "TrainerID": "TR_001600",
+    "TrainerLogicID": "200100310",
+    "TrainerLogicParameters": [
+      "ROCKETDANNODOROBOUMASHIN",
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOBETOBETOBAZOOKA",
+    "DescriptionMSID": "TRAINER_DESC_147  (Bis zum Ende des nächsten Zuges deines Gegners erhöhen sich die Rückzugskosten des Aktiven Pokémon deines Gegners um 1.)",
+    "TrainerID": "TR_001610",
+    "TrainerLogicID": "200100320",
+    "TrainerLogicParameters": [
+      "1"
+    ],
+    "TrainerType": 2,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOKENKYUUIN",
+    "DescriptionMSID": "TRAINER_DESC_150  (Wirf so lange 1 Münze, bis sie Zahl zeigt. Nimm pro Kopf 1 zufälliges Pokémon, bei dem „Team[C:Nbsp ]Rocket“ zum Namen gehört, aus deinem Deck auf deine Hand.)",
+    "TrainerID": "TR_001620",
+    "TrainerLogicID": "200200770",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNODAISAKUSEN",
+    "DescriptionMSID": "TRAINER_DESC_151  (Das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"ist jetzt {}\" v1=\"{} jetzt\" ]. Wirf 1 Münze. Bei Zahl [Text:SpecialCondition v0=\"ist dein Aktives Pokémon jetzt auch {}\" v1=\"{} dein Aktives Pokémon jetzt auch\" ].)",
+    "TrainerID": "TR_001630",
+    "TrainerLogicID": "200200780",
+    "TrainerLogicParameters": [
+      "Confused  (verwirrt)"
+    ],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "ROCKETDANNOBOSS",
+    "DescriptionMSID": "TRAINER_DESC_148  (Schau dir die Hand deines Gegners an und lege beliebig viele Basis-Pokémon, die du dort findest, auf die Bank deines Gegners.)",
+    "TrainerID": "TR_001640",
+    "TrainerLogicID": "200200790",
+    "TrainerLogicParameters": [],
+    "TrainerType": 1,
+    "Version": 2608000
+  },
+  {
+    "AdditionalCategories": [],
+    "CharacterID": "GAMECENTER",
+    "DescriptionMSID": "TRAINER_DESC_149  (Einmal während des Zuges jedes Spielers kann jener Spieler 3[C:Nbsp ][Gr:Count s=\"Münze\" p=\"Münzen\" ref=\"0\" ] werfen. [Gr:Count p=\"Zeigen alle Münzen Kopf,\" one=\"Bei Kopf\" two=\"Zeigen beide Münzen Kopf,\" ref=\"0\" ] zieht jener Spieler so lange Karten, bis er 7[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ref=\"1\" ] auf der Hand hat.)",
+    "TrainerID": "TR_001650",
+    "TrainerLogicID": "500200060",
+    "TrainerLogicParameters": [
+      "3",
+      "7"
+    ],
+    "TrainerType": 5,
+    "Version": 2608000
+  }
+]

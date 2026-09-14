@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/action/action_state.proto";
+import "takasho/schema/lettuce_server/resource/date/date.proto";
+
+message MissionAddAction {
+  message Types {
+    message Request {
+      message Types {
+        message Action {
+          takasho.schema.lettuce_server.resource.action.ActionState.Types.ActionKey key = 1;
+          string action_target = 2;
+          int64 count = 3;
+        }
+      }
+      repeated MissionAddAction.Types.Request.Types.Action actions = 1;
+      takasho.schema.lettuce_server.resource.date.Date date = 2;
+    }
+    message Response {
+    }
+  }
+}

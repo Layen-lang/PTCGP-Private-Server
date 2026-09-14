@@ -1,0 +1,65 @@
+[
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_050  (배틀은\n배틀 놀이 방법 06을\n클리어하면 오픈됩니다\n\n배틀 놀이 방법은 배틀 메뉴의\n좌측 하단 버튼에서 확인할 수 있습니다)",
+    "ID": "battle",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 2
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_020  (배틀 메뉴는\n플레이어 레벨이 3이 되면\n오픈됩니다\n\n플레이어 레벨은 팩 개봉 등에서\n플레이어 경험치를 얻으면 오릅니다)",
+    "ID": "battle_tutorial",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 1
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_060  (컬렉션 보드는\n플레이어 레벨이 4가 되면\n오픈됩니다\n\n플레이어 레벨은 팩 개봉 등에서\n플레이어 경험치를 얻으면 오릅니다)",
+    "ID": "collection_board",
+    "IsDisplayUnlockDialog": false,
+    "Level": 4,
+    "Type": 3
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_070  (컬렉션 파일은\n플레이어 레벨이 6이 되면\n오픈됩니다\n\n플레이어 레벨은 팩 개봉 등에서\n플레이어 경험치를 얻으면 오릅니다)",
+    "ID": "collection_file",
+    "IsDisplayUnlockDialog": false,
+    "Level": 6,
+    "Type": 4
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_040  (덱은\n배틀 놀이 방법 06을\n클리어하면 오픈됩니다\n\n배틀 놀이 방법은 배틀 메뉴의\n좌측 하단 버튼에서 확인할 수 있습니다)",
+    "ID": "deck",
+    "IsDisplayUnlockDialog": false,
+    "Level": 0,
+    "Type": 5
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_030  (덱 미션은\n플레이어 레벨이 3이 되면\n오픈됩니다\n\n플레이어 레벨은 팩 개봉 등에서\n플레이어 경험치를 얻으면 오릅니다)",
+    "ID": "deck_mission",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 6
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_010  (겟 챌린지는\n플레이어 레벨이 2가 되면\n오픈됩니다)",
+    "ID": "get_challenge",
+    "IsDisplayUnlockDialog": false,
+    "Level": 2,
+    "Type": 7
+  },
+  {
+    "ConditionDescriptionMSID": "",
+    "ID": "initial_pack_display",
+    "IsDisplayUnlockDialog": false,
+    "Level": 15,
+    "Type": 9
+  },
+  {
+    "ConditionDescriptionMSID": "LEVEL_ACCESS_CONTROL_DISCRIPTION_090  (트레이드는\n플레이어 레벨이 3이 되면\n오픈됩니다\n\n플레이어 레벨은 팩 개봉 등에서\n플레이어 경험치를 얻으면 오릅니다)",
+    "ID": "trade",
+    "IsDisplayUnlockDialog": false,
+    "Level": 3,
+    "Type": 8
+  }
+]

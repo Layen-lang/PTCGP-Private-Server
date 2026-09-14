@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/mount_change_order_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mount_delete_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mount_get_detail_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mount_get_other_detail_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mount_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mount_set_v1.proto";
+
+service Mount {
+  rpc ListV1 (MountListV1.Types.Request) returns (MountListV1.Types.Response);
+  rpc ChangeOrderV1 (MountChangeOrderV1.Types.Request) returns (MountChangeOrderV1.Types.Response);
+  rpc GetDetailV1 (MountGetDetailV1.Types.Request) returns (MountGetDetailV1.Types.Response);
+  rpc GetOtherDetailV1 (MountGetOtherDetailV1.Types.Request) returns (MountGetOtherDetailV1.Types.Response);
+  rpc SetV1 (MountSetV1.Types.Request) returns (MountSetV1.Types.Response);
+  rpc DeleteV1 (MountDeleteV1.Types.Request) returns (MountDeleteV1.Types.Response);
+}

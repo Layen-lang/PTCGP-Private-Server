@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CollectionFileSkinEffect {
+  message Types {
+    message CardSkin {
+      string card_id = 1;
+      string skin_id = 2;
+    }
+    message CardFrame {
+      string card_id = 1;
+      string frame_id = 2;
+    }
+  }
+  string file_id = 1;
+  repeated CollectionFileSkinEffect.Types.CardSkin card_skins = 2;
+  repeated CollectionFileSkinEffect.Types.CardFrame card_frames = 3;
+}

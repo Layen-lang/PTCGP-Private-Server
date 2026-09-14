@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/album/album.proto";
+import "takasho/schema/lettuce_server/resource/mount/mount.proto";
+
+message MyCollectionAddCollection {
+  message Types {
+    message Request {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.album.Album albums = 2;
+      repeated takasho.schema.lettuce_server.resource.mount.Mount mounts = 3;
+    }
+    message Response {
+    }
+  }
+}

@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_settings;
+
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/available_type.proto";
+
+message Info {
+  message Types {
+    enum AgeGateType {
+      AGE_GATE_TYPE_UNSPECIFIED = 0;
+      AGE_GATE_TYPE_A = 1;
+      AGE_GATE_TYPE_B = 2;
+    }
+  }
+  takasho.schema.lettuce_server.resource.language.Language language_type = 1;
+  string third_party_data_provision_version = 5;
+  bool privacy_policy_consent_is_required = 6;
+  bool terms_of_service_consent_is_required = 7;
+  bool third_party_data_provision_is_required = 8;
+  string country_region_code = 9;
+  int64 year_num_of_birth = 10;
+  int64 month_num_of_birth = 11;
+  bool use_of_last_login_time = 13;
+  string support_id = 14;
+  takasho.schema.lettuce_server.resource.player_profile.AvailableType available_type = 15;
+  bool use_of_login_data = 16;
+  bool use_of_performance_errors = 17;
+  string privacy_policy_consent_version = 18;
+  string terms_of_service_consent_version = 19;
+  Info.Types.AgeGateType age_gate_type = 20;
+}

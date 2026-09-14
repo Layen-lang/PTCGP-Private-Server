@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message GoodsFavorite {
+  message Types {
+    message TargetGoods {
+      message Types {
+        enum ItemType {
+          ITEM_TYPE_UNSPECIFIED = 0;
+          ITEM_TYPE_PLAY_MAT = 901;
+          ITEM_TYPE_DECK_SHIELD = 902;
+          ITEM_TYPE_COIN_SKIN = 903;
+          ITEM_TYPE_COLLECTION_FILE = 904;
+          ITEM_TYPE_COLLECTION_BOARD = 905;
+        }
+      }
+      string goods_id = 1;
+      GoodsFavorite.Types.TargetGoods.Types.ItemType item_type = 2;
+      bool favorite_flg = 3;
+    }
+  }
+  repeated GoodsFavorite.Types.TargetGoods target_goods = 1;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/sign_in_with_apple_generate_token_v1.proto";
+
+service SignInWithApple {
+  rpc GenerateTokenV1 (SignInWithAppleGenerateTokenV1.Types.Request) returns (SignInWithAppleGenerateTokenV1.Types.Response);
+}

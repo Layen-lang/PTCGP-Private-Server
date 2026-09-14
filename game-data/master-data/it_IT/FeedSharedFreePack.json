@@ -1,0 +1,4685 @@
+[
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_002020_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000010_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000330_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003080_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003310_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_11",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_005060_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_12",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_13",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_006660_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_14",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_15",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007370_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_16",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_17",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_18",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007400_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_19",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009050_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_20",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_21",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_22",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_010190_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_23",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2510000_04_24",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009760_00"
+    ],
+    "ProbabilityWeight": 417,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_SHOPTICKET_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2601000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_013920_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2601000_EV_01_01",
+      "FD_SS_TICKET_2601000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2601000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_013940_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2601000_EV_01_01",
+      "FD_SS_TICKET_2601000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2601000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_013920_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2601000_EV_01_01",
+      "FD_SS_TICKET_2601000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2601000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_013940_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2601000_EV_01_01",
+      "FD_SS_TICKET_2601000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2602000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_015470_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2602000_EV_01_01",
+      "FD_SS_TICKET_2602000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2602000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_015740_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2602000_EV_01_01",
+      "FD_SS_TICKET_2602000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2a"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2602000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_015470_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2602000_EV_01_01",
+      "FD_SS_TICKET_2602000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2a"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2602000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_015740_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2602000_EV_01_01",
+      "FD_SS_TICKET_2602000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2603000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_016050_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2603000_EV_01_01",
+      "FD_SS_TICKET_2603000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2603000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_016060_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2603000_EV_01_01",
+      "FD_SS_TICKET_2603000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2b"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2603000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_016050_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2603000_EV_01_01",
+      "FD_SS_TICKET_2603000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B2b"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2603000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_016060_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2603000_EV_01_01",
+      "FD_SS_TICKET_2603000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2604000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_016700_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2604000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_017490_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2605000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_015110_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2605000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_018550_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2606000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_019010_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2606000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_019020_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2607000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_020150_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2607000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_020670_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2608000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_021170_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FC_FR_2608000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_021180_00"
+    ],
+    "ProbabilityWeight": 500,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2",
+      "FD_SS_CHALLENGE_CHARGER_110030_3",
+      "FD_SS_CHALLENGE_CHARGER_110030_4"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_002020_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_0002010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_01_01",
+      "FD_SS_TICKET_0002010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_0002010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_01_01",
+      "FD_SS_TICKET_0002010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002020_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_0002010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_01_01",
+      "FD_SS_TICKET_0002010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001960_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_0002010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_01_01",
+      "FD_SS_TICKET_0002010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000340_00",
+      "PK_10_000380_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000380_00",
+      "PK_10_000430_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000430_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000130_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000340_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000130_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000330_00",
+      "PK_10_000370_00",
+      "PK_10_000390_00",
+      "PK_10_000420_00",
+      "PK_10_000440_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000370_00",
+      "PK_10_000390_00",
+      "PK_10_000420_00",
+      "PK_10_000440_00",
+      "PK_10_000480_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000390_00",
+      "PK_10_000420_00",
+      "PK_10_000440_00",
+      "PK_10_000480_00",
+      "PK_10_000330_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000420_00",
+      "PK_10_000440_00",
+      "PK_10_000480_00",
+      "PK_10_000330_00",
+      "PK_10_000370_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000440_00",
+      "PK_10_000480_00",
+      "PK_10_000330_00",
+      "PK_10_000370_00",
+      "PK_10_000390_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000480_00",
+      "PK_10_000330_00",
+      "PK_10_000370_00",
+      "PK_10_000390_00",
+      "PK_10_000420_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_0002010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_03_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000010_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_0002010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_02_01",
+      "FD_SS_TICKET_0002010_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_03_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_0002010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_02_01",
+      "FD_SS_TICKET_0002010_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_03_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000010_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_0002010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_02_01",
+      "FD_SS_TICKET_0002010_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_0002010_03_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000970_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_0002010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_0002010_EV_02_01",
+      "FD_SS_TICKET_0002010_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002410_00",
+      "PK_10_002430_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002430_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000180_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001120_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000180_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001120_00",
+      "PK_10_002410_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002390_00",
+      "PK_10_002420_00",
+      "PK_10_002440_00",
+      "PK_10_000970_00",
+      "PK_10_001100_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002420_00",
+      "PK_10_002440_00",
+      "PK_10_000970_00",
+      "PK_10_001100_00",
+      "PK_10_001110_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002440_00",
+      "PK_10_000970_00",
+      "PK_10_001100_00",
+      "PK_10_001110_00",
+      "PK_10_002390_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000970_00",
+      "PK_10_001100_00",
+      "PK_10_001110_00",
+      "PK_10_002390_00",
+      "PK_10_002420_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001100_00",
+      "PK_10_001110_00",
+      "PK_10_002390_00",
+      "PK_10_002420_00",
+      "PK_10_002440_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_01_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001110_00",
+      "PK_10_002390_00",
+      "PK_10_002420_00",
+      "PK_10_002440_00",
+      "PK_10_000970_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2408010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2408010_EV_01_01",
+      "FD_SS_TICKET_2408010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000530_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2408010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2408010_EV_01_01",
+      "FD_SS_TICKET_2408010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_000330_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2408010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2408010_EV_01_01",
+      "FD_SS_TICKET_2408010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000330_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2408010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2408010_EV_01_01",
+      "FD_SS_TICKET_2408010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002460_00",
+      "PK_10_002480_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002480_00",
+      "PK_10_002500_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002500_00",
+      "PK_10_001310_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001310_00",
+      "PK_10_002460_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002510_00",
+      "PK_10_002520_00",
+      "PK_10_002490_00",
+      "PK_10_002530_00",
+      "PK_10_002470_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002520_00",
+      "PK_10_002490_00",
+      "PK_10_002530_00",
+      "PK_10_002470_00",
+      "PK_10_001300_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002490_00",
+      "PK_10_002530_00",
+      "PK_10_002470_00",
+      "PK_10_001300_00",
+      "PK_10_002510_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002530_00",
+      "PK_10_002470_00",
+      "PK_10_001300_00",
+      "PK_10_002510_00",
+      "PK_10_002520_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002470_00",
+      "PK_10_001300_00",
+      "PK_10_002510_00",
+      "PK_10_002520_00",
+      "PK_10_002490_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2408010_03_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001300_00",
+      "PK_10_002510_00",
+      "PK_10_002520_00",
+      "PK_10_002490_00",
+      "PK_10_002530_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2408010_FR_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003080_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2409010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2409010_EV_01_01",
+      "FD_SS_TICKET_2409010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2409010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2409010_EV_01_01",
+      "FD_SS_TICKET_2409010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003080_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2409010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2409010_EV_01_01",
+      "FD_SS_TICKET_2409010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003440_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2409010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2409010_EV_01_01",
+      "FD_SS_TICKET_2409010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003780_00",
+      "PK_10_003820_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003820_00",
+      "PK_10_003840_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003840_00",
+      "PK_10_003850_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003850_00",
+      "PK_10_003780_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003770_00",
+      "PK_10_003790_00",
+      "PK_10_003810_00",
+      "PK_10_003830_00",
+      "PK_10_001760_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003790_00",
+      "PK_10_003810_00",
+      "PK_10_003830_00",
+      "PK_10_001760_00",
+      "PK_10_003880_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003810_00",
+      "PK_10_003830_00",
+      "PK_10_001760_00",
+      "PK_10_003880_00",
+      "PK_10_003770_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003830_00",
+      "PK_10_001760_00",
+      "PK_10_003880_00",
+      "PK_10_003770_00",
+      "PK_10_003790_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001760_00",
+      "PK_10_003880_00",
+      "PK_10_003770_00",
+      "PK_10_003790_00",
+      "PK_10_003810_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2409010_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003880_00",
+      "PK_10_003770_00",
+      "PK_10_003790_00",
+      "PK_10_003810_00",
+      "PK_10_003830_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2409010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003310_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2502010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2502010_EV_01_01",
+      "FD_SS_TICKET_2502010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2502010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2502010_EV_01_01",
+      "FD_SS_TICKET_2502010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003310_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2502010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2502010_EV_01_01",
+      "FD_SS_TICKET_2502010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004870_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2502010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2502010_EV_01_01",
+      "FD_SS_TICKET_2502010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004270_00",
+      "PK_10_004290_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004250_00",
+      "PK_10_002190_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004290_00",
+      "PK_10_004250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002190_00",
+      "PK_10_004270_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004260_00",
+      "PK_10_004280_00",
+      "PK_10_004300_00",
+      "PK_10_002190_00",
+      "PK_10_004860_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004280_00",
+      "PK_10_004300_00",
+      "PK_10_002180_00",
+      "PK_10_004860_00",
+      "PK_10_000250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004300_00",
+      "PK_10_002180_00",
+      "PK_10_004860_00",
+      "PK_10_000250_00",
+      "PK_10_004260_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002180_00",
+      "PK_10_004860_00",
+      "PK_10_000250_00",
+      "PK_10_004260_00",
+      "PK_10_004280_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004860_00",
+      "PK_10_000250_00",
+      "PK_10_004260_00",
+      "PK_10_004280_00",
+      "PK_10_004300_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2502010_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000250_00",
+      "PK_10_004260_00",
+      "PK_10_004280_00",
+      "PK_10_004300_00",
+      "PK_10_002190_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2502010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_005060_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2503010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2503010_EV_01_01",
+      "FD_SS_TICKET_2503010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2503010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2503010_EV_01_01",
+      "FD_SS_TICKET_2503010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005060_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2503010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2503010_EV_01_01",
+      "FD_SS_TICKET_2503010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005070_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2503010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2503010_EV_01_01",
+      "FD_SS_TICKET_2503010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004600_00",
+      "PK_10_003680_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a",
+      "A2b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002610_00",
+      "PK_10_005590_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004600_00",
+      "PK_10_002610_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2",
+      "A2b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003680_00",
+      "PK_10_005590_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005540_00",
+      "PK_10_005550_00",
+      "PK_10_005560_00",
+      "PK_10_005570_00",
+      "PK_10_005070_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005550_00",
+      "PK_10_005560_00",
+      "PK_10_005570_00",
+      "PK_10_005070_00",
+      "PK_10_003660_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005560_00",
+      "PK_10_005570_00",
+      "PK_10_005070_00",
+      "PK_10_003660_00",
+      "PK_10_005540_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005570_00",
+      "PK_10_005070_00",
+      "PK_10_003660_00",
+      "PK_10_005540_00",
+      "PK_10_005550_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005070_00",
+      "PK_10_003660_00",
+      "PK_10_005540_00",
+      "PK_10_005550_00",
+      "PK_10_005560_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2503010_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003660_00",
+      "PK_10_005540_00",
+      "PK_10_005550_00",
+      "PK_10_005560_00",
+      "PK_10_005570_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2503010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_006660_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2504010_EV_01_01",
+      "FD_SS_TICKET_2504010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2504010_EV_01_01",
+      "FD_SS_TICKET_2504010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006660_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2504010_EV_01_01",
+      "FD_SS_TICKET_2504010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006810_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2504010_EV_01_01",
+      "FD_SS_TICKET_2504010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007010_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000410_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004830_00",
+      "PK_10_007000_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004830_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000410_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007010_00",
+      "PK_10_007000_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001780_00",
+      "PK_10_004820_00",
+      "PK_10_005870_00",
+      "PK_10_006740_00",
+      "PK_10_006990_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004820_00",
+      "PK_10_005870_00",
+      "PK_10_006740_00",
+      "PK_10_006990_00",
+      "PK_10_006980_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005870_00",
+      "PK_10_006740_00",
+      "PK_10_006990_00",
+      "PK_10_006980_00",
+      "PK_10_001780_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006740_00",
+      "PK_10_006990_00",
+      "PK_10_006980_00",
+      "PK_10_001780_00",
+      "PK_10_004820_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006990_00",
+      "PK_10_006980_00",
+      "PK_10_001780_00",
+      "PK_10_004820_00",
+      "PK_10_005870_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2504010_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006980_00",
+      "PK_10_001780_00",
+      "PK_10_004820_00",
+      "PK_10_005870_00",
+      "PK_10_006740_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007370_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2505010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2505010_EV_01_01",
+      "FD_SS_TICKET_2505010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2505010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2505010_EV_01_01",
+      "FD_SS_TICKET_2505010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007370_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2505010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2505010_EV_01_01",
+      "FD_SS_TICKET_2505010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007380_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2505010_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2505010_EV_01_01",
+      "FD_SS_TICKET_2505010_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007490_00",
+      "PK_10_007260_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000660_00",
+      "TR_10_000630_00",
+      "TR_10_000600_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007490_00",
+      "PK_10_007260_00",
+      "PK_10_007270_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000630_00",
+      "TR_10_000600_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007490_00",
+      "PK_10_007260_00",
+      "PK_10_007270_00",
+      "PK_10_007300_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000600_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007490_00",
+      "PK_10_007260_00",
+      "PK_10_007270_00",
+      "PK_10_007300_00",
+      "PK_10_007370_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007260_00",
+      "PK_10_007270_00",
+      "PK_10_007300_00",
+      "PK_10_007370_00",
+      "PK_10_007250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007270_00",
+      "PK_10_007300_00",
+      "PK_10_007370_00",
+      "PK_10_007250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000660_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007300_00",
+      "PK_10_007370_00",
+      "PK_10_007250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000660_00",
+      "TR_10_000630_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007370_00",
+      "PK_10_007250_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000660_00",
+      "TR_10_000630_00",
+      "TR_10_000600_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2505010_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007250_00",
+      "PK_10_007490_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2505010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000660_00",
+      "TR_10_000630_00",
+      "TR_10_000600_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007400_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2506000_EV_01_01",
+      "FD_SS_TICKET_2506000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2506000_EV_01_01",
+      "FD_SS_TICKET_2506000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007400_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2506000_EV_01_01",
+      "FD_SS_TICKET_2506000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007390_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2506000_EV_01_01",
+      "FD_SS_TICKET_2506000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_01"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_02"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_SHOPTICKET_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_PACK_CHARGER_100030_1"
+    ],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_00",
+      "PK_10_002060_01",
+      "PK_10_002060_02",
+      "PK_10_008040_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b",
+      "A1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_01",
+      "PK_10_002060_02",
+      "PK_10_002740_00",
+      "PK_10_007330_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1",
+      "A3b",
+      "A1a",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002060_02",
+      "PK_10_002740_00",
+      "PK_10_004070_00",
+      "PK_10_008120_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A1a",
+      "A3b",
+      "A2",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002740_00",
+      "PK_10_004070_00",
+      "PK_10_004860_00",
+      "PK_10_008360_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2",
+      "A3b",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004070_00",
+      "PK_10_004860_00",
+      "PK_10_008470_00",
+      "PK_10_008220_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004860_00",
+      "PK_10_008470_00",
+      "PK_10_004070_00",
+      "PK_10_007980_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A1a",
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008470_00",
+      "PK_10_002740_00",
+      "PK_10_002060_00",
+      "PK_10_008130_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2506000_02_11",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008470_00",
+      "PK_10_002060_00",
+      "PK_10_002060_01",
+      "PK_10_008270_00"
+    ],
+    "ProbabilityWeight": 909,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000670_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009050_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2507000_EV_01_01",
+      "FD_SS_TICKET_2507000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2507000_EV_01_01",
+      "FD_SS_TICKET_2507000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009050_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2507000_EV_01_01",
+      "FD_SS_TICKET_2507000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009720_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2507000_EV_01_01",
+      "FD_SS_TICKET_2507000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4",
+      "A3a",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009240_00",
+      "PK_10_004490_00",
+      "PK_10_009200_00",
+      "PK_10_009230_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000620_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A4",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008210_00",
+      "PK_10_009200_00",
+      "PK_10_009230_00",
+      "PK_10_003430_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000710_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a",
+      "A3b",
+      "A4",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008210_00",
+      "PK_10_009230_00",
+      "PK_10_003430_00",
+      "PK_10_009280_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000620_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4",
+      "A2",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009240_00",
+      "PK_10_003430_00",
+      "PK_10_009280_00",
+      "PK_10_008200_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000710_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3a",
+      "A4",
+      "A3b",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009280_00",
+      "PK_10_008200_00",
+      "PK_10_004490_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000620_00",
+      "TR_10_000710_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4",
+      "A3b",
+      "A2a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2507000_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009240_00",
+      "PK_10_008210_00",
+      "PK_10_008200_00",
+      "PK_10_004490_00",
+      "PK_10_009200_00"
+    ],
+    "ProbabilityWeight": 1666,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_010190_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2508000_EV_01_01",
+      "FD_SS_TICKET_2508000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2508000_EV_01_01",
+      "FD_SS_TICKET_2508000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010190_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2508000_EV_01_01",
+      "FD_SS_TICKET_2508000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010180_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2508000_EV_01_01",
+      "FD_SS_TICKET_2508000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A4a",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008180_00",
+      "PK_10_010380_00",
+      "PK_10_003310_00",
+      "PK_10_008170_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000820_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A2",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010380_00",
+      "PK_10_003310_00",
+      "PK_10_008170_00",
+      "PK_10_010370_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000820_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A2",
+      "A4a",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003310_00",
+      "PK_10_008170_00",
+      "PK_10_010370_00",
+      "PK_10_010390_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000820_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A3b",
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008170_00",
+      "PK_10_010370_00",
+      "PK_10_010390_00",
+      "PK_10_009100_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000820_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A4a",
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008170_00",
+      "PK_10_010370_00",
+      "PK_10_010390_00",
+      "PK_10_009100_00",
+      "PK_10_010410_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010370_00",
+      "PK_10_010390_00",
+      "PK_10_009100_00",
+      "PK_10_010410_00",
+      "PK_10_010430_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A4",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010390_00",
+      "PK_10_009100_00",
+      "PK_10_010410_00",
+      "PK_10_010430_00",
+      "PK_10_008180_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4",
+      "A4a",
+      "A3b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009100_00",
+      "PK_10_010410_00",
+      "PK_10_010430_00",
+      "PK_10_008180_00",
+      "PK_10_010380_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A3b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010410_00",
+      "PK_10_010430_00",
+      "PK_10_008180_00",
+      "PK_10_010380_00",
+      "PK_10_003310_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A3b",
+      "A2"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2508000_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_010430_00",
+      "PK_10_008180_00",
+      "PK_10_010380_00",
+      "PK_10_003310_00"
+    ],
+    "ProbabilityWeight": 100,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000820_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2509000_EV_01_01",
+      "FD_SS_TICKET_2509000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_009760_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2509000_EV_01_01",
+      "FD_SS_TICKET_2509000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003030_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2509000_EV_01_01",
+      "FD_SS_TICKET_2509000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009760_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2509000_EV_01_01",
+      "FD_SS_TICKET_2509000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007490_01",
+      "PK_10_007490_00",
+      "PK_10_005220_00",
+      "PK_10_000340_00",
+      "PK_10_003090_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005220_01",
+      "PK_10_005220_00",
+      "PK_10_000340_00",
+      "PK_10_003090_00",
+      "PK_10_003310_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000340_01",
+      "PK_10_000340_00",
+      "PK_10_003090_00",
+      "PK_10_003310_00",
+      "PK_10_001210_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003090_01",
+      "PK_10_003090_00",
+      "PK_10_003310_00",
+      "PK_10_001210_00",
+      "PK_10_006580_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_05",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003310_01",
+      "PK_10_003310_00",
+      "PK_10_001210_00",
+      "PK_10_006580_00",
+      "PK_10_006670_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_06",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001210_01",
+      "PK_10_001210_00",
+      "PK_10_006580_00",
+      "PK_10_006670_00",
+      "PK_10_001440_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_07",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006580_01",
+      "PK_10_006580_00",
+      "PK_10_006670_00",
+      "PK_10_001440_00",
+      "PK_10_004600_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_08",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_006670_01",
+      "PK_10_006670_00",
+      "PK_10_001440_00",
+      "PK_10_004600_00",
+      "PK_10_005680_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_09",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001440_01",
+      "PK_10_001440_00",
+      "PK_10_004600_00",
+      "PK_10_005680_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000480_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_10",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004600_01",
+      "PK_10_004600_00",
+      "PK_10_005680_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000480_00",
+      "TR_10_000280_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_11",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005680_01",
+      "PK_10_005680_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000480_00",
+      "TR_10_000280_00",
+      "TR_10_000320_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_12",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000480_01",
+      "TR_10_000480_00",
+      "TR_10_000280_00",
+      "TR_10_000320_00",
+      "TR_10_000170_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_13",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000280_01",
+      "TR_10_000280_00",
+      "TR_10_000320_00",
+      "TR_10_000170_00",
+      "TR_10_000590_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_14",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005910_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000320_01",
+      "TR_10_000320_00",
+      "TR_10_000170_00",
+      "TR_10_000590_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_15",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005910_00",
+      "PK_10_007250_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000170_01",
+      "TR_10_000170_00",
+      "TR_10_000590_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_16",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005910_00",
+      "PK_10_007250_00",
+      "PK_10_000390_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000590_01",
+      "TR_10_000590_00"
+    ]
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_17",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005910_01",
+      "PK_10_005910_00",
+      "PK_10_007250_00",
+      "PK_10_000390_00",
+      "PK_10_008060_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_18",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_007250_01",
+      "PK_10_007250_00",
+      "PK_10_000390_00",
+      "PK_10_008060_00",
+      "PK_10_002310_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_19",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000390_01",
+      "PK_10_000390_00",
+      "PK_10_008060_00",
+      "PK_10_002310_00",
+      "PK_10_008180_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_20",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008060_01",
+      "PK_10_008060_00",
+      "PK_10_002310_00",
+      "PK_10_008180_00",
+      "PK_10_000940_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_21",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_002310_01",
+      "PK_10_002310_00",
+      "PK_10_008180_00",
+      "PK_10_000940_00",
+      "PK_10_009200_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_22",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008180_01",
+      "PK_10_008180_00",
+      "PK_10_000940_00",
+      "PK_10_009200_00",
+      "PK_10_003470_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_23",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_000940_01",
+      "PK_10_000940_00",
+      "PK_10_009200_00",
+      "PK_10_003470_00",
+      "PK_10_001510_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_24",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009200_01",
+      "PK_10_009200_00",
+      "PK_10_003470_00",
+      "PK_10_001510_00",
+      "PK_10_009550_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_25",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003470_01",
+      "PK_10_003470_00",
+      "PK_10_001510_00",
+      "PK_10_009550_00",
+      "PK_10_005070_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_26",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001510_01",
+      "PK_10_001510_00",
+      "PK_10_009550_00",
+      "PK_10_005070_00",
+      "PK_10_004730_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_27",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_009550_01",
+      "PK_10_009550_00",
+      "PK_10_005070_00",
+      "PK_10_004730_00",
+      "PK_10_003790_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_28",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_005070_01",
+      "PK_10_005070_00",
+      "PK_10_004730_00",
+      "PK_10_003790_00",
+      "PK_10_001980_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_29",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_004730_01",
+      "PK_10_004730_00",
+      "PK_10_003790_00",
+      "PK_10_001980_00",
+      "PK_10_008470_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_30",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_003790_01",
+      "PK_10_003790_00",
+      "PK_10_001980_00",
+      "PK_10_008470_00",
+      "PK_10_007490_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_31",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_001980_01",
+      "PK_10_001980_00",
+      "PK_10_008470_00",
+      "PK_10_007490_00",
+      "PK_10_005220_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2509000_02_32",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_008470_01",
+      "PK_10_008470_00",
+      "PK_10_007490_00",
+      "PK_10_005220_00",
+      "PK_10_000340_00"
+    ],
+    "ProbabilityWeight": 31,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_011300_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_01_01",
+      "FD_SS_TICKET_2510000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_011150_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_01_01",
+      "FD_SS_TICKET_2510000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_011150_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_01_01",
+      "FD_SS_TICKET_2510000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_011300_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_01_01",
+      "FD_SS_TICKET_2510000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_02_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_012660_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_02_01",
+      "FD_SS_TICKET_2510000_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_02_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_011900_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_02_01",
+      "FD_SS_TICKET_2510000_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_02_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_011900_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_02_01",
+      "FD_SS_TICKET_2510000_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2510000_02_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_012660_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2510000_EV_02_01",
+      "FD_SS_TICKET_2510000_EV_02_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2512000_01_01",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_013030_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2512000_EV_01_01",
+      "FD_SS_TICKET_2512000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2512000_01_02",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_90_013040_00"
+    ],
+    "ProbabilityWeight": 150,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2512000_EV_01_01",
+      "FD_SS_TICKET_2512000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2512000_01_03",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_013030_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2512000_EV_01_01",
+      "FD_SS_TICKET_2512000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  },
+  {
+    "ExpansionIDsPriority": [
+      "B1a"
+    ],
+    "FeedSharedFreePackID": "FD_FR_2512000_01_04",
+    "FreeFeedDurationMinute": 60,
+    "PokemonCardIDs": [
+      "PK_10_013040_00"
+    ],
+    "ProbabilityWeight": 350,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [
+      "FD_SS_TICKET_2512000_EV_01_01",
+      "FD_SS_TICKET_2512000_EV_01_02",
+      "FD_SS_CHALLENGE_CHARGER_110030_1",
+      "FD_SS_CHALLENGE_CHARGER_110030_2"
+    ],
+    "TrainerCardIDs": []
+  }
+]

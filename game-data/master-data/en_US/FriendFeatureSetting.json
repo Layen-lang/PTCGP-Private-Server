@@ -1,0 +1,17 @@
+[
+  {
+    "Id": "MaxFriendNum",
+    "Key": 0,
+    "ValueInt64": 99
+  },
+  {
+    "Id": "MaxFriendRequestNum",
+    "Key": 1,
+    "ValueInt64": 30
+  },
+  {
+    "Id": "MaxSearchResultNum",
+    "Key": 2,
+    "ValueInt64": 30
+  }
+]

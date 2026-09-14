@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+import "takasho/schema/lettuce_server/resource/deck/deck_case_type.proto";
+import "takasho/schema/lettuce_server/resource/deck/deck_slot.proto";
+import "takasho/schema/lettuce_server/resource/pokemon/energy_type.proto";
+
+message Deck {
+  int64 deck_id = 1;
+  string deck_name = 2;
+  repeated DeckSlot slots = 3;
+  repeated takasho.schema.lettuce_server.resource.pokemon.EnergyType energy_types = 4;
+  DeckCaseType deck_case_type = 5;
+  string deck_shield_id = 6;
+  string coin_skin_id = 7;
+  string play_mat_id = 8;
+  int64 display_order = 9;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+message CardStatistics {
+  message Types {
+    message CardState {
+      string card_id = 1;
+      bool gold_effect_flg = 2;
+    }
+  }
+  repeated CardStatistics.Types.CardState card_states = 1;
+}

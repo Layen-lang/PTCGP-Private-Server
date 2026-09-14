@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/item_shop_exchange_v1.proto";
+import "takasho/schema/lettuce_server/player_api/item_shop_get_purchase_summaries_v1.proto";
+import "takasho/schema/lettuce_server/player_api/item_shop_get_purchase_summaries_v2.proto";
+import "takasho/schema/lettuce_server/player_api/item_shop_liquidate_v1.proto";
+import "takasho/schema/lettuce_server/player_api/item_shop_purchase_v1.proto";
+
+service ItemShop {
+  rpc GetPurchaseSummariesV1 (ItemShopGetPurchaseSummariesV1.Types.Request) returns (ItemShopGetPurchaseSummariesV1.Types.Response);
+  rpc GetPurchaseSummariesV2 (ItemShopGetPurchaseSummariesV2.Types.Request) returns (ItemShopGetPurchaseSummariesV2.Types.Response);
+  rpc PurchaseV1 (ItemShopPurchaseV1.Types.Request) returns (ItemShopPurchaseV1.Types.Response);
+  rpc ExchangeV1 (ItemShopExchangeV1.Types.Request) returns (ItemShopExchangeV1.Types.Response);
+  rpc LiquidateV1 (ItemShopLiquidateV1.Types.Request) returns (ItemShopLiquidateV1.Types.Response);
+}

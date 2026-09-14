@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_challenge_info.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_contents.proto";
+
+message LuckyFeed {
+  message Types {
+    enum LuckyFeedType {
+      LUCKY_FEED_TYPE_UNSPECIFIED = 0;
+      LUCKY_FEED_TYPE_NORMAL = 1;
+      LUCKY_FEED_TYPE_EVENT = 2;
+    }
+  }
+  string lucky_feed_id = 1;
+  FeedContents contents = 2;
+  FeedChallengeInfo challenge_info = 3;
+  LuckyFeed.Types.LuckyFeedType lucky_feed_type = 10;
+}

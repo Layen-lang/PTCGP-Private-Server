@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (Objet qui recharge la vitalité miracle. Réduit d'une\nheure le temps d'attente d'une pioche miracle.\nPeut être obtenu en récompense de missions, etc.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (Sablier Miracle)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

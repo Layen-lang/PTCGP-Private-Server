@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Reduz o tempo para obter Recarga de Troca.\nReduz em 1h o tempo para fazer uma única troca.\nPode ser obtida como recompensa de missões, etc.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Ampulheta de Troca)",
+    "RecoveryDuration": 60
+  }
+]

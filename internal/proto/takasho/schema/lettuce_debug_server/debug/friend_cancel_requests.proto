@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/friend/friend.proto";
+import "takasho/schema/lettuce_server/resource/friend/friend_request.proto";
+
+message FriendCancelRequests {
+  message Types {
+    message Request {
+      string player_id = 1;
+      repeated string target_player_ids = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.Friend friends = 1;
+      repeated takasho.schema.lettuce_server.resource.friend.FriendRequest sent_friend_requests = 2;
+    }
+  }
+}

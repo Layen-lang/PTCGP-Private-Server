@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message FeedCardSpecFeedChallengePoolCard {
+  string card_id = 1;
+  bool is_own = 2;
+  bool is_target_rarity = 3;
+  bool exists_redis = 4;
+  bool exists_db = 5;
+}

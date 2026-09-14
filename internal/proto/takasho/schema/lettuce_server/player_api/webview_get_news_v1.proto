@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/webview_language.proto";
+
+message WebviewGetNewsV1 {
+  message Types {
+    message Request {
+      WebviewLanguage language = 1;
+    }
+    message Response {
+      bool new_arrival = 1;
+      string news_url = 2;
+      bool force_show = 3;
+      string force_show_url = 4;
+    }
+  }
+}

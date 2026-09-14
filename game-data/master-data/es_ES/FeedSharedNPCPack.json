@@ -1,0 +1,3192 @@
+[
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_002020_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00",
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_000410_00",
+      "PK_10_000350_00",
+      "PK_10_000460_00",
+      "PK_10_000340_00",
+      "PK_10_000380_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_000410_00",
+      "PK_10_000350_00",
+      "PK_10_000460_00",
+      "PK_10_000430_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000130_00"
+    ],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_03_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000010_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_03_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_03_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00",
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_0002010_03_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_0002010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_001040_00",
+      "PK_10_000980_00",
+      "PK_10_002400_00",
+      "PK_10_002410_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000180_00"
+    ],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_001040_00",
+      "PK_10_000980_00",
+      "PK_10_002400_00",
+      "PK_10_002430_00",
+      "PK_10_001120_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000330_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_02_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00",
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_02_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_03_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_002450_00",
+      "PK_10_001280_00",
+      "PK_10_001320_00",
+      "PK_10_002460_00",
+      "PK_10_002480_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2408010_03_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_002450_00",
+      "PK_10_001280_00",
+      "PK_10_001320_00",
+      "PK_10_002500_00",
+      "PK_10_001310_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2408010_LC_03",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003080_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00",
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_003800_00",
+      "PK_10_003900_00",
+      "PK_10_001770_00",
+      "PK_10_003780_00",
+      "PK_10_003820_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1",
+      "A2"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2409010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_003800_00",
+      "PK_10_003900_00",
+      "PK_10_001770_00",
+      "PK_10_003840_00",
+      "PK_10_003850_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2409010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003310_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00",
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_004340_00",
+      "PK_10_004330_00",
+      "PK_10_002200_00",
+      "PK_10_004270_00",
+      "PK_10_004290_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A1a",
+      "A2a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2502010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_004340_00",
+      "PK_10_004330_00",
+      "PK_10_002200_00",
+      "PK_10_004250_00",
+      "PK_10_002190_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2502010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005060_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00",
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2",
+      "A2a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_005580_00",
+      "PK_10_005020_00",
+      "PK_10_003730_00",
+      "PK_10_004600_00",
+      "PK_10_003680_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A2b",
+      "A2",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2503010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_005580_00",
+      "PK_10_005020_00",
+      "PK_10_003730_00",
+      "PK_10_002610_00",
+      "PK_10_005590_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2503010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006660_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00",
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_007030_00",
+      "PK_10_007020_00",
+      "PK_10_007040_00",
+      "PK_10_007010_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [
+      "TR_10_000410_00"
+    ],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A2a",
+      "A3"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2504010_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_007030_00",
+      "PK_10_007020_00",
+      "PK_10_007040_00",
+      "PK_10_004830_00",
+      "PK_10_007000_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2504010_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2505010_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2505010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2505010_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2505010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2505010_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2505010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2505010_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007370_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00",
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2505010_LC_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A3a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2505010_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_007800_00",
+      "PK_10_007480_00",
+      "PK_10_007790_00",
+      "PK_10_007810_00",
+      "PK_10_007960_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2505010_LC_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007400_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00",
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A3b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_008480_00",
+      "PK_10_008280_00",
+      "PK_10_008270_00",
+      "PK_10_008220_00",
+      "PK_10_008120_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A3b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_008480_00",
+      "PK_10_008050_00",
+      "PK_10_008040_00",
+      "PK_10_007330_00",
+      "PK_10_008360_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A2a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_02_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_008480_00",
+      "PK_10_004340_00",
+      "PK_10_007980_00",
+      "PK_10_008120_00",
+      "PK_10_008220_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A3b",
+      "A2a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2506000_02_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_008480_00",
+      "PK_10_004460_00",
+      "PK_10_008130_00",
+      "PK_10_008360_00",
+      "PK_10_007330_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2506000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2507000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2507000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2507000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2507000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009050_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00",
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2507000_FR_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4",
+      "A3a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2507000_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_009210_00",
+      "PK_10_007420_00",
+      "PK_10_009220_00",
+      "PK_10_009250_00",
+      "PK_10_007410_00"
+    ],
+    "ProbabilityWeight": 500,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2507000_FR_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2508000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2508000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2508000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2508000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010190_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00",
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2508000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4a",
+      "A3b",
+      "A1a"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2508000_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_010400_00",
+      "PK_10_008190_00",
+      "PK_10_010420_00",
+      "PK_10_002330_00",
+      "PK_10_010120_00"
+    ],
+    "ProbabilityWeight": 1000,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2508000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009760_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_003030_00",
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_002200_01",
+      "PK_10_008040_01",
+      "PK_10_007490_01",
+      "PK_10_005220_01",
+      "PK_10_000340_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_008040_01",
+      "PK_10_000890_01",
+      "PK_10_005220_01",
+      "PK_10_000340_01",
+      "PK_10_003090_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_000890_01",
+      "PK_10_007410_01",
+      "PK_10_000340_01",
+      "PK_10_003090_01",
+      "PK_10_003310_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_007410_01",
+      "PK_10_001320_01",
+      "PK_10_003090_01",
+      "PK_10_003310_01",
+      "PK_10_001210_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_05",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_001320_01",
+      "PK_10_003730_01",
+      "PK_10_003310_01",
+      "PK_10_001210_01",
+      "PK_10_006580_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_06",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_003730_01",
+      "PK_10_007790_01",
+      "PK_10_001210_01",
+      "PK_10_006580_01",
+      "PK_10_006670_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "A4b"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2509000_02_07",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 1,
+    "PokemonCardIDs": [
+      "PK_10_007790_01",
+      "PK_10_007040_01",
+      "PK_10_006580_01",
+      "PK_10_006670_01",
+      "PK_10_001440_01"
+    ],
+    "ProbabilityWeight": 143,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2509000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011150_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011300_00",
+      "PK_90_011300_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011150_00",
+      "PK_90_011300_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_02_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011900_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_02_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_02_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_012660_00",
+      "PK_90_012660_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_02_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_011900_00",
+      "PK_90_012660_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2510000_02",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_002020_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_001960_00",
+      "PK_90_001960_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00",
+      "PK_90_000330_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000010_00",
+      "PK_90_000010_00",
+      "PK_90_000970_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000970_00",
+      "PK_90_000970_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00",
+      "PK_90_003080_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_05",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000330_00",
+      "PK_90_000330_00",
+      "PK_90_000530_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_06",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_000530_00",
+      "PK_90_000530_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00",
+      "PK_90_003310_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_07",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003080_00",
+      "PK_90_003080_00",
+      "PK_90_003440_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_08",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003440_00",
+      "PK_90_003440_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00",
+      "PK_90_005060_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_09",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003310_00",
+      "PK_90_003310_00",
+      "PK_90_004870_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_10",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_004870_00",
+      "PK_90_004870_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00",
+      "PK_90_006660_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_11",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005060_00",
+      "PK_90_005060_00",
+      "PK_90_005070_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_12",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_005070_00",
+      "PK_90_005070_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00",
+      "PK_90_007370_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_13",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006660_00",
+      "PK_90_006660_00",
+      "PK_90_006810_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_14",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_006810_00",
+      "PK_90_006810_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00",
+      "PK_90_007390_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_15",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007370_00",
+      "PK_90_007370_00",
+      "PK_90_007380_00",
+      "PK_90_007390_00",
+      "PK_90_007400_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_16",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007380_00",
+      "PK_90_007380_00",
+      "PK_90_007390_00",
+      "PK_90_007400_00",
+      "PK_90_009050_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_17",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007390_00",
+      "PK_90_007390_00",
+      "PK_90_007400_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_18",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_007400_00",
+      "PK_90_007400_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00",
+      "PK_90_010180_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_19",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009050_00",
+      "PK_90_009050_00",
+      "PK_90_009720_00",
+      "PK_90_010180_00",
+      "PK_90_010190_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_20",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009720_00",
+      "PK_90_009720_00",
+      "PK_90_010180_00",
+      "PK_90_010190_00",
+      "PK_90_003030_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_21",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010180_00",
+      "PK_90_010180_00",
+      "PK_90_010190_00",
+      "PK_90_003030_00",
+      "PK_90_009760_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_22",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_010190_00",
+      "PK_90_010190_00",
+      "PK_90_003030_00",
+      "PK_90_009760_00",
+      "PK_90_002020_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_23",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_003030_00",
+      "PK_90_003030_00",
+      "PK_90_009760_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-A"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2510000_04_24",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_009760_00",
+      "PK_90_009760_00",
+      "PK_90_002020_00",
+      "PK_90_001960_00",
+      "PK_90_000010_00"
+    ],
+    "ProbabilityWeight": 417,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_EV_2510000_MI_04",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2512000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013040_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2512000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2512000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013030_00",
+      "PK_90_013030_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2512000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013030_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00",
+      "PK_90_013040_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2512000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2601000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013940_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2601000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2601000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013920_00",
+      "PK_90_013920_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2601000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_013920_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00",
+      "PK_90_013940_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2601000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2602000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015740_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2602000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2602000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015470_00",
+      "PK_90_015470_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2602000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015470_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00",
+      "PK_90_015740_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2602000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2603000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016060_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2603000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2603000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016050_00",
+      "PK_90_016050_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2603000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016050_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00",
+      "PK_90_016060_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 0,
+    "ScheduleID": "SC_GC_2603000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": false
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2604000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_016700_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2604000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_016700_00",
+      "PK_90_017490_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2604000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_016700_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2604000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_017490_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00",
+      "PK_90_017490_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2604000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2605000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_015110_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2605000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_015110_00",
+      "PK_90_018550_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2605000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_015110_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2605000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_018550_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00",
+      "PK_90_018550_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2605000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2606000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019010_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2606000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019010_00",
+      "PK_90_019020_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2606000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_019010_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2606000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_019020_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00",
+      "PK_90_019020_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2606000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2607000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020150_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2607000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020150_00",
+      "PK_90_020670_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2607000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_020150_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2607000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_020670_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00",
+      "PK_90_020670_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2607000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2608000_01_01",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021170_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2608000_01_02",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021170_00",
+      "PK_90_021180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2608000_01_03",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_021170_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  },
+  {
+    "DeleteMinutesAfterExpiration": 240,
+    "ExpansionIDsPriority": [
+      "PROMO-B"
+    ],
+    "FeedSharedNPCPackID": "FD_LC_2608000_01_04",
+    "LuckyFeedDurationMinute": 30,
+    "NPCPackType": 2,
+    "PokemonCardIDs": [
+      "PK_90_021180_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00",
+      "PK_90_021180_00"
+    ],
+    "ProbabilityWeight": 250,
+    "RequiredChallengePower": 1,
+    "ScheduleID": "SC_GC_2608000_01",
+    "SubstitutionItemIDs": [],
+    "TrainerCardIDs": [],
+    "UseRequiredChallengePower": true
+  }
+]

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/action_sync_account_link_state_v1.proto";
+import "takasho/schema/lettuce_server/player_api/action_sync_states_v1.proto";
+
+service Action {
+  rpc SyncStatesV1 (ActionSyncStatesV1.Types.Request) returns (ActionSyncStatesV1.Types.Response);
+  rpc SyncAccountLinkStateV1 (ActionSyncAccountLinkStateV1.Types.Request) returns (ActionSyncAccountLinkStateV1.Types.Response);
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/performance_log_send_v1.proto";
+
+service PerformanceLog {
+  rpc SendV1 (PerformanceLogSendV1.Types.Request) returns (PerformanceLogSendV1.Types.Response);
+}

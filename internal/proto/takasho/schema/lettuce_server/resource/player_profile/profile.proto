@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+import "takasho/schema/lettuce_server/resource/player_profile/battle_record_summary.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/expansion_progress_info.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message Profile {
+  ProfileSpine profile_spine = 1;
+  string message_id = 2;
+  uint64 number_of_cards = 3;
+  repeated ExpansionProgressInfo card_expansion_progress_infos = 4;
+  BattleRecordSummary battle_record_summary = 5;
+  repeated string desired_card_ids = 6;
+}

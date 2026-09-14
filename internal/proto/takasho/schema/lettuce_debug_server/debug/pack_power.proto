@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/pack_power_add.proto";
+
+service PackPower {
+  rpc Add (PackPowerAdd.Types.Request) returns (PackPowerAdd.Types.Response);
+}

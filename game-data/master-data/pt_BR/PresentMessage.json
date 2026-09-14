@@ -1,0 +1,97 @@
+[
+  {
+    "ID": "PRESENT_MESSAGE_1",
+    "MSID": "PRESENT_MESSAGE_MSID_1  (Limite atingido para [Gr:Count s=\"este item\" p=\"estes itens\" ][Num:Int max_length=\"0\" visible=\"0\" ].)",
+    "Route": 0
+  },
+  {
+    "ID": "PRESENT_MESSAGE_10",
+    "MSID": "PRESENT_MESSAGE_MSID_10  (Recompensa de Batalha Solo)",
+    "Route": 71
+  },
+  {
+    "ID": "PRESENT_MESSAGE_11",
+    "MSID": "PRESENT_MESSAGE_MSID_11  (Recompensa de Batalha Contra)",
+    "Route": 72
+  },
+  {
+    "ID": "PRESENT_MESSAGE_12",
+    "MSID": "PRESENT_MESSAGE_MSID_12  (Presente por completar tutorial)",
+    "Route": 80
+  },
+  {
+    "ID": "PRESENT_MESSAGE_14",
+    "MSID": "PRESENT_MESSAGE_MSID_14  (Item que você obteve \nde um Código de Presente)",
+    "Route": 90
+  },
+  {
+    "ID": "PRESENT_MESSAGE_15",
+    "MSID": "PRESENT_MESSAGE_MSID_15  (Sua troca recebeu um Valeu!)",
+    "Route": 100
+  },
+  {
+    "ID": "PRESENT_MESSAGE_16",
+    "MSID": "PRESENT_MESSAGE_MSID_17  (Recompensa de Ticket Antecipado:\n1º prêmio)",
+    "Route": 120
+  },
+  {
+    "ID": "PRESENT_MESSAGE_17",
+    "MSID": "PRESENT_MESSAGE_MSID_18  (Recompensa de Ticket Antecipado:\n2º prêmio)",
+    "Route": 121
+  },
+  {
+    "ID": "PRESENT_MESSAGE_18",
+    "MSID": "PRESENT_MESSAGE_MSID_19  (Recompensa de Ticket Antecipado:\n3º prêmio)",
+    "Route": 122
+  },
+  {
+    "ID": "PRESENT_MESSAGE_19",
+    "MSID": "PRESENT_MESSAGE_MSID_20  (Compartilhamento recebido)",
+    "Route": 130
+  },
+  {
+    "ID": "PRESENT_MESSAGE_2",
+    "MSID": "PRESENT_MESSAGE_MSID_2  (Item distribuído pela \nequipe de desenvolvimento)",
+    "Route": 10
+  },
+  {
+    "ID": "PRESENT_MESSAGE_20",
+    "MSID": "PRESENT_MESSAGE_MSID_21  (Seu compartilhamento recebeu um Valeu!)",
+    "Route": 140
+  },
+  {
+    "ID": "PRESENT_MESSAGE_3",
+    "MSID": "PRESENT_MESSAGE_MSID_3  (Item gratuito da \nequipe de desenvolvimento)",
+    "Route": 20
+  },
+  {
+    "ID": "PRESENT_MESSAGE_4",
+    "MSID": "PRESENT_MESSAGE_MSID_4  (Alguém curtiu a sua Vitrine)",
+    "Route": 30
+  },
+  {
+    "ID": "PRESENT_MESSAGE_5",
+    "MSID": "PRESENT_MESSAGE_MSID_5  (Sua Escolha Misteriosa recebeu um Valeu!)",
+    "Route": 40
+  },
+  {
+    "ID": "PRESENT_MESSAGE_6",
+    "MSID": "PRESENT_MESSAGE_MSID_6  (Sua batalha recebeu um Valeu!)",
+    "Route": 50
+  },
+  {
+    "ID": "PRESENT_MESSAGE_7",
+    "MSID": "PRESENT_MESSAGE_MSID_7  (Um bônus por [Gr:Count s=\"um item\" p=\"itens\" ][Num:Int max_length=\"0\" visible=\"0\" ] que você obteve\nna Loja)",
+    "Route": 60
+  },
+  {
+    "ID": "PRESENT_MESSAGE_8",
+    "MSID": "PRESENT_MESSAGE_MSID_8  ([Gr:Count s=\"Item\" p=\"Itens\" id=\"1\" ][Num:Int max_length=\"0\" visible=\"0\" ] [Gr:Count s=\"obtido\" p=\"obtidos\" ] na Loja)",
+    "Route": 61
+  },
+  {
+    "ID": "PRESENT_MESSAGE_9",
+    "MSID": "PRESENT_MESSAGE_MSID_9  (Recompensa de missão)",
+    "Route": 70
+  }
+]

@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message PlayerGetLastLoggedIn {
+  message Types {
+    message Response {
+      message Types {
+        message LastLoggedInInfo {
+          string player_id = 1;
+          google.protobuf.Timestamp last_logged_in = 2;
+        }
+      }
+      repeated PlayerGetLastLoggedIn.Types.Response.Types.LastLoggedInInfo last_logged_in_infos = 1;
+    }
+    message Request {
+      repeated string player_ids = 1;
+    }
+  }
+}

@@ -1,0 +1,662 @@
+[
+  {
+    "NameMSID": "ABILITY_NAME_1  (粉療)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_10  (瓦斯洩漏)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_100  (咒詛金屬)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_101  (黏黏黏膜)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_102  (提升進化)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_103  (朋友搜索)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_104  (點火)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_105  (陷阱地盤)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_106  (甲殼盾)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_107  (無限增幅)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_108  (平和之風)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_109  (衝浪之尾)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_11  (堅硬膜)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_110  (神奇歌聲)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_111  (畫皮)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_112  (煥活茶)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_113  (團結一陣)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_114  (化學之力)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_115  (最後的吶喊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_116  (抓取)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_117  (隨興起舞)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_118  (肖像畫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_119  (防蟲之風)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_12  (驅離)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_120  (愛打瞌睡)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_121  (額外治療)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_122  (熱情歌聲)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_123  (裝甲)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_124  (激流)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_125  (製冰者)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_126  (夢魘)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_127  (金屬搬運)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_128  (時光回溯)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_129  (勝利之星)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_13  (資料掃描)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_130  (嚴寒水流)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_131  (快攻)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_132  (雙重屬性)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_133  (惑耳)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_134  (收下傷害)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_135  (壞蛋快遞)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_136  (沙牢)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_137  (幸福補給)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_138  (遠古封印)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_139  (傳說進擊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_14  (密林霸主)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_140  (未來系統)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_141  (恩澤之鹽)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_142  (碎裂結晶)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_143  (自動用武)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_144  (古代戰吼)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_145  (成長期)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_146  (水流充能)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_147  (治癒緞帶)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_148  (窩居防守)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_149  (爆大身軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_15  (沖刷)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_150  (多變粉)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_151  (款待)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_152  (試探)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_153  (進化衝擊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_154  (牽引身軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_155  (雙重改造)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_156  (龍恩)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_157  (集寶)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_158  (皇家綻放)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_159  (同命轟炸)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_16  (原始法則)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_160  (邪惡點子)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_161  (蒸騰濁霧)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_162  (輝煌金幣)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_163  (音速隱形)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_164  (打劫門牙)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_165  (間諜行動)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_17  (粗糙皮膚)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_18  (芳香花園)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_19  (厚脂肪)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_2  (芳香陷阱)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_20  (水晶之軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_21  (暗影洞)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_22  (飄浮)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_23  (堅硬身軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_24  (對戰指導)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_25  (夢魘氣場)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_26  (用臉防守)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_27  (狂放不羈)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_28  (力量連繫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_29  (森林氣息)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_3  (反擊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_30  (速度連繫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_31  (衝勁連繫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_32  (冰雪場地)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_33  (防守連繫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_34  (CHECK [C:Lsb]確認[C:Rsb])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_35  (戲法連繫)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_36  (天空支援)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_37  (神話輝光)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_38  (新月羽衣)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_39  (旋風防守)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_4  (硬殼盔甲)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_40  (撤退指令)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_41  (破空吶喊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_42  (塗毒)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_43  (安寧之歌)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_44  (躍躍欲逃)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_45  (療癒旋律)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_46  (飛出的內在物)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_47  (神秘守護)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_48  (鮮花防守)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_49  (精神連結)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_5  (飛水手裡劍)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_50  (毅力)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_51  (孤注移擲)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_52  (毛皮大衣)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_53  (日昇之路)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_54  (絕對睡眠)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_55  (迅雷閃光)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_56  (威嚇之牙)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_57  (發光)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_58  (回復封鎖)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_59  (加強毒性)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_6  (伏特充能)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_60  (鋼刺)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_61  (犬面戒備)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_62  (究極推進器)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_63  (燒起來)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_64  (幸福緞帶)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_65  (布布進化)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_66  (就是愛吃)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_67  (尾捉)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_68  (棉花飛行)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_69  (堅硬甲殼)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_7  (影子咒縛)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_70  (果力全開)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_71  (燃燒吐息)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_72  (蛙皇聲援)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_73  (狂暴鉗)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_74  (天福)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_75  (精神治療)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_76  (GUARD [C:Lsb]防守[C:Rsb])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_77  (POWER [C:Lsb]力量[C:Rsb])",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_78  (暗黑追擊)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_79  (霸佔能量)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_8  (引夢擺錘)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_80  (漏洞進化)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_81  (不眠)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_82  (治癒波紋)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_83  (幻影戲法)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_84  (傳說脈動)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_85  (穿透檢查)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_86  (滅亡之軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_87  (幻夢飄浮)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_88  (堅韌芳香)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_89  (魅惑節奏)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_9  (移形換影)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_90  (細燒慢烤)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_91  (水嫩之軀)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_92  (水流變幻)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_93  (結凍頭)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_94  (電磁牆)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_95  (融入黑暗)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_96  (分解鑰匙)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_97  (貼心)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_98  (連首咆哮)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_99  (毒刺)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99"
+  }
+]

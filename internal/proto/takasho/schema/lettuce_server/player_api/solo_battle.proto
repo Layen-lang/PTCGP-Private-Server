@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/solo_battle_finish_event_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_finish_random_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_finish_stepup_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_get_event_battles_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_get_event_powers_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_get_random_battles_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_get_stepup_battles_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_heal_event_power_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_start_event_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_start_random_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/solo_battle_start_stepup_battle_v1.proto";
+
+service SoloBattle {
+  rpc GetStepupBattlesV1 (SoloBattleGetStepupBattlesV1.Types.Request) returns (SoloBattleGetStepupBattlesV1.Types.Response);
+  rpc StartStepupBattleV1 (SoloBattleStartStepupBattleV1.Types.Request) returns (SoloBattleStartStepupBattleV1.Types.Response);
+  rpc FinishStepupBattleV1 (SoloBattleFinishStepupBattleV1.Types.Request) returns (SoloBattleFinishStepupBattleV1.Types.Response);
+  rpc GetEventBattlesV1 (SoloBattleGetEventBattlesV1.Types.Request) returns (SoloBattleGetEventBattlesV1.Types.Response);
+  rpc StartEventBattleV1 (SoloBattleStartEventBattleV1.Types.Request) returns (SoloBattleStartEventBattleV1.Types.Response);
+  rpc FinishEventBattleV1 (SoloBattleFinishEventBattleV1.Types.Request) returns (SoloBattleFinishEventBattleV1.Types.Response);
+  rpc HealEventPowerV1 (SoloBattleHealEventPowerV1.Types.Request) returns (SoloBattleHealEventPowerV1.Types.Response);
+  rpc GetEventPowersV1 (SoloBattleGetEventPowersV1.Types.Request) returns (SoloBattleGetEventPowersV1.Types.Response);
+  rpc GetRandomBattlesV1 (SoloBattleGetRandomBattlesV1.Types.Request) returns (SoloBattleGetRandomBattlesV1.Types.Response);
+  rpc StartRandomBattleV1 (SoloBattleStartRandomBattleV1.Types.Request) returns (SoloBattleStartRandomBattleV1.Types.Response);
+  rpc FinishRandomBattleV1 (SoloBattleFinishRandomBattleV1.Types.Request) returns (SoloBattleFinishRandomBattleV1.Types.Response);
+}

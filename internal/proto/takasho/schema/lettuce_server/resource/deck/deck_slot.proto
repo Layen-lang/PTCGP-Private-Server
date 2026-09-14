@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/deck/deck_main_card_type.proto";
+
+message DeckSlot {
+  uint64 slot_number = 1;
+  takasho.schema.lettuce_server.resource.card.CardInstance card_instance = 2;
+  DeckMainCardType main_card_type = 3;
+}

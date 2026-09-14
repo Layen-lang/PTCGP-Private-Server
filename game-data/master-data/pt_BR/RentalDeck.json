@@ -1,0 +1,2968 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_1  (Baralho Venusaur ex (Dominação Genética))",
+    "SortOrderPriority": 1000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_2  (Baralho Charizard ex (Dominação Genética))",
+    "SortOrderPriority": 1010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_3  (Baralho Blastoise ex (Dominação Genética))",
+    "SortOrderPriority": 1020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_4  (Baralho Pikachu ex (Dominação Genética))",
+    "SortOrderPriority": 1030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_5  (Baralho Mewtwo ex (Dominação Genética))",
+    "SortOrderPriority": 1040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_6  (Baralho Machamp ex (Dominação Genética))",
+    "SortOrderPriority": 1050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_7  (Baralho Nidoqueen e Nidoking ex (Dominação Genética))",
+    "SortOrderPriority": 1060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_8  (Baralho Fósseis de Kanto ex (Dominação Genética))",
+    "SortOrderPriority": 1070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_9  (Baralho Blaine (Dominação Genética))",
+    "SortOrderPriority": 1080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_10  (Baralho Ten. Surge (Dominação Genética))",
+    "SortOrderPriority": 1090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_11  (Baralho Brock (Dominação Genética))",
+    "SortOrderPriority": 1100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_12  (Baralho Koga (Dominação Genética))",
+    "SortOrderPriority": 1110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001035",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_14  (Baralho Mew ex\n(Ilha Mítica))",
+    "SortOrderPriority": 1120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001036",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_15  (Baralho Celebi ex\n(Ilha Mítica))",
+    "SortOrderPriority": 1130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001037",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_16  (Baralho Gyarados ex\n(Ilha Mítica))",
+    "SortOrderPriority": 1140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001042",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_17  (Baralho Aerodactyl ex\n(Ilha Mítica))",
+    "SortOrderPriority": 1150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104318",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001043",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_18  (Baralho Blue e\nPidgeot ex (Ilha Mítica))",
+    "SortOrderPriority": 1160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1001044",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_13  (Baralho Wigglytuff ex (Dominação Genética))",
+    "SortOrderPriority": 1115,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_19  (Baralho Yanmega ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_20  (Baralho Infernape ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_21  (Baralho Palkia ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_22  (Baralho Cíntia (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_23  (Baralho Volkner (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_24  (Baralho Pachirisu ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_25  (Baralho Explosão Suprema (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_26  (Baralho Mismagius ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_27  (Baralho Lickilicky ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_28  (Baralho Gallade ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_29  (Baralho Weavile ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_30  (Baralho Darkrai ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_31  (Baralho Recruta da E. Galáctica (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_32  (Baralho Dialga ex (Embate do Tempo e Espaço))",
+    "SortOrderPriority": 1310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_33  (Baralho Leafeon ex (Luz Triunfante))",
+    "SortOrderPriority": 1320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_34  (Baralho Barry (Luz Triunfante))",
+    "SortOrderPriority": 1330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_35  (Baralho Arceus ex e Heatran (Luz Triunfante))",
+    "SortOrderPriority": 1340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_36  (Baralho Glaceon ex (Luz Triunfante))",
+    "SortOrderPriority": 1350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_37  (Baralho Lendas de Sinnoh (Luz Triunfante))",
+    "SortOrderPriority": 1360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_38  (Baralho Arceus ex e Raichu (Luz Triunfante))",
+    "SortOrderPriority": 1370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_39  (Baralho Garchomp ex (Luz Triunfante))",
+    "SortOrderPriority": 1380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_40  (Baralho Arceus ex e Crobat (Luz Triunfante))",
+    "SortOrderPriority": 1390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_41  (Baralho Probopass ex (Luz Triunfante))",
+    "SortOrderPriority": 1400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_42  (Baralho Beedrill ex (Festival Brilhante))",
+    "SortOrderPriority": 1410,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_43  (Baralho Charizard ex (Festival Brilhante))",
+    "SortOrderPriority": 1420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_44  (Baralho Wugtrio ex (Festival Brilhante))",
+    "SortOrderPriority": 1430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_45  (Baralho Pikachu ex (Festival Brilhante))",
+    "SortOrderPriority": 1440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_46  (Baralho Giratina ex (Festival Brilhante))",
+    "SortOrderPriority": 1450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_47  (Baralho Lucario ex (Festival Brilhante))",
+    "SortOrderPriority": 1460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_48  (Baralho Clodsirede Paldea ex (Festival Brilhante))",
+    "SortOrderPriority": 1470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002031",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_49  (Baralho Tinkaton ex (Festival Brilhante))",
+    "SortOrderPriority": 1480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1002032",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_50  (Baralho Bibarel ex (Festival Brilhante))",
+    "SortOrderPriority": 1490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_51  (Baralho Decidueye ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_52  (Baralho Lulú\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_53  (Baralho Incineroar ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_54  (Baralho Kiawe\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_55  (Baralho Crabominable ex (Guardiões Celestiais))",
+    "SortOrderPriority": 1540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_56  (Baralho Vitória\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_57  (Baralho Raichude Alola ex (Guardiões Celestiais))",
+    "SortOrderPriority": 1560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_58  (Baralho Chris\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_59  (Baralho Lunala ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_60  (Baralho Acerola\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_61  (Baralho Passimian ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_62  (Baralho Mukde Alola ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_63  (Baralho Solgaleo ex\n(Guardiões Celestiais))",
+    "SortOrderPriority": 1620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_64  (Baralho Buzzwole ex\n(Crise Extradimensional))",
+    "SortOrderPriority": 1630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_65  (Baralho Tapu Koko ex\n(Crise Extradimensional))",
+    "SortOrderPriority": 1640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_66  (Baralho Lycanroc ex\n(Crise Extradimensional))",
+    "SortOrderPriority": 1650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_67  (Baralho Guzzlord ex\n(Crise Extradimensional))",
+    "SortOrderPriority": 1660,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_68  (Baralho Dugtriode Alola ex\n(Crise Extradimensional))",
+    "SortOrderPriority": 1670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_69  (Baralho Flareon ex e Eevee ex (Bosque dos Eevee))",
+    "SortOrderPriority": 1680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_70  (Baralho Primarina ex (Bosque dos Eevee))",
+    "SortOrderPriority": 1690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_71  (Baralho Sylveon ex e Eevee ex (Bosque dos Eevee))",
+    "SortOrderPriority": 1700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_72  (Baralho Revezamento Doce (Bosque[C:Nbsp ]dos[C:Nbsp ]Eevee))",
+    "SortOrderPriority": 1710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_73  (Baralho Dragonite ex (Bosque dos Eevee))",
+    "SortOrderPriority": 1720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1003024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_74  (Baralho Snorlax ex (Bosque dos Eevee))",
+    "SortOrderPriority": 1730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_75  (Baralho Shuckle ex e Meganium (Sabedoria dos Céus\ne Mares))",
+    "SortOrderPriority": 1740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_76  (Baralho Ho-Oh ex e Entei (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_77  (Baralho Kingdra ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_84  (Baralho Gyarados (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_78  (Baralho Lanturn ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_79  (Baralho Espeon ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_80  (Baralho Donphan ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_81  (Baralho Umbreon ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_82  (Baralho Skarmory ex e Scizor (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_83  (Baralho Lugia ex (Sabedoria dos Céus e Mares))",
+    "SortOrderPriority": 1830,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_85  (Baralho Jumpluff ex (Nascentes Reclusas))",
+    "SortOrderPriority": 1840,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_86  (Baralho Entei ex (Nascentes Reclusas))",
+    "SortOrderPriority": 1850,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_87  (Baralho Suicune ex (Nascentes Reclusas))",
+    "SortOrderPriority": 1860,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_88  (Baralho Raikou ex (Nascentes Reclusas))",
+    "SortOrderPriority": 1870,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_89  (Baralho Latios e Latias (Nascentes Reclusas))",
+    "SortOrderPriority": 1880,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_90  (Baralho Poliwrath ex (Nascentes Reclusas))",
+    "SortOrderPriority": 1890,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_91  (Baralho Buzzwole ex e Shuckle ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1900,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_92  (Baralho Charizard ex e Moltres ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1910,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_93  (Baralho Palkia ex e Articuno ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1920,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_94  (Baralho Pikachu ex e Raichude Alola ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1930,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_95  (Baralho Mewtwo ex e Mew ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1940,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_96  (Baralho Lunala ex e Giratina ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1950,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_97  (Baralho Lucario ex e Garchomp ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1960,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_98  (Baralho Guzzlord ex e Crobat ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1970,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_99  (Baralho Arceus ex e Dialga ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1980,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_100  (Baralho Solgaleo ex e Skarmory ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 1990,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_101  (Baralho Eevee ex e Sylveon ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 2000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_102  (Baralho Lugia ex e Ho-Oh ex (Pacote Deluxe ex))",
+    "SortOrderPriority": 2010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_103  (Baralho Melhores Parceiros (Pacote Deluxe ex))",
+    "SortOrderPriority": 2020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1004030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_104  (Baralho Pikachu e Amigos (Pacote Deluxe ex))",
+    "SortOrderPriority": 2030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_105  (Baralho Mega Pinsir ex (Mega Ascensão))",
+    "SortOrderPriority": 2040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_106  (Baralho Mega Blaziken ex (Mega Ascensão))",
+    "SortOrderPriority": 2050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_107  (Baralho Mega Gyarados ex (Mega Ascensão))",
+    "SortOrderPriority": 2060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_108  (Baralho Marlon (Mega Ascensão))",
+    "SortOrderPriority": 2070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_109  (Baralho Mega Ampharos ex (Mega Ascensão))",
+    "SortOrderPriority": 2080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_110  (Baralho Mega Altaria ex (Mega Ascensão))",
+    "SortOrderPriority": 2090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_111  (Baralho Fantina (Mega Ascensão))",
+    "SortOrderPriority": 2100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_112  (Baralho Hitmonchan ex (Mega Ascensão))",
+    "SortOrderPriority": 2110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_113  (Baralho Pandam (Mega Ascensão))",
+    "SortOrderPriority": 2120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_114  (Baralho Mega Absol ex (Mega Ascensão))",
+    "SortOrderPriority": 2130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_115  (Baralho Melmetal ex (Mega Ascensão))",
+    "SortOrderPriority": 2140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_116  (Baralho Mega Venusaur ex (Chama Carmesim))",
+    "SortOrderPriority": 2150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_117  (Baralho Mega Charizard Y ex (Chama Carmesim))",
+    "SortOrderPriority": 2160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_118  (Baralho Mega Blastoise ex (Chama Carmesim))",
+    "SortOrderPriority": 2170,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_119  (Baralho Clemont (Chama Carmesim))",
+    "SortOrderPriority": 2180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_120  (Baralho Mega Lopunny ex (Chama Carmesim))",
+    "SortOrderPriority": 2190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1005017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_121  (Baralho Mega Steelix ex (Chama Carmesim))",
+    "SortOrderPriority": 2200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_122  (Baralho OgerponMáscara Turquesa ex (Desfile Onírico))",
+    "SortOrderPriority": 2210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_123  (Baralho Blacephalon ex (Desfile Onírico))",
+    "SortOrderPriority": 2220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_124  (Baralho Mega Swampert ex (Desfile Onírico))",
+    "SortOrderPriority": 2230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_125  (Baralho Ninetalesde Alola ex (Desfile Onírico))",
+    "SortOrderPriority": 2240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_126  (Baralho Toxtricity ex (Desfile Onírico))",
+    "SortOrderPriority": 2250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_127  (Baralho Mega Gardevoir ex (Desfile Onírico))",
+    "SortOrderPriority": 2260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_128  (Baralho Gigalith ex (Desfile Onírico))",
+    "SortOrderPriority": 2270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_129  (Baralho Pietro (Desfile Onírico))",
+    "SortOrderPriority": 2280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_130  (Baralho Mega Mawile ex (Desfile Onírico))",
+    "SortOrderPriority": 2290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_131  (Baralho Mega Kangaskhan ex (Desfile Onírico))",
+    "SortOrderPriority": 2300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_132  (Baralho Meowscarada ex (Maravilhas de Paldea))",
+    "SortOrderPriority": 2310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_133  (Baralho Armarouge ex (Maravilhas de Paldea))",
+    "SortOrderPriority": 2320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_134  (Baralho Chien-Pao ex (Maravilhas de Paldea))",
+    "SortOrderPriority": 2330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_135  (Baralho Bellibolt ex (Maravilhas de Paldea))",
+    "SortOrderPriority": 2340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_136  (Baralho Gholdengo ex (Maravilhas de Paldea))",
+    "SortOrderPriority": 2350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_137  (Baralho Mega Charizard X ex (Mega Brilho))",
+    "SortOrderPriority": 2360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_138  (Baralho Mega Slowbro ex (Mega Brilho))",
+    "SortOrderPriority": 2370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_139  (Baralho Mega Manectric ex (Mega Brilho))",
+    "SortOrderPriority": 2380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_140  (Baralho Mega Gengar ex (Mega Brilho))",
+    "SortOrderPriority": 2390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_141  (Baralho Mega Scizor ex (Mega Brilho))",
+    "SortOrderPriority": 2400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1006021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_166  (Baralho de Elite (Mega Blaziken ex))",
+    "SortOrderPriority": 10,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_142  (Baralho Mega Sceptile ex (Aura Pulsante))",
+    "SortOrderPriority": 2420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_143  (Baralho Mega Camerupt ex (Aura Pulsante))",
+    "SortOrderPriority": 2430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_144  (Baralho Vaporeon ex (Aura Pulsante))",
+    "SortOrderPriority": 2440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_145  (Baralho Magnezone ex (Aura Pulsante))",
+    "SortOrderPriority": 2450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_146  (Baralho Mega Lucario ex (Aura Pulsante))",
+    "SortOrderPriority": 2460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_147  (Baralho Crustle ex (Aura Pulsante))",
+    "SortOrderPriority": 2470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_148  (Baralho Zoroark ex (Aura Pulsante))",
+    "SortOrderPriority": 2480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_149  (Baralho Corviknight ex (Aura Pulsante))",
+    "SortOrderPriority": 2490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_150  (Baralho Flygon ex (Aura Pulsante))",
+    "SortOrderPriority": 2500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_151  (Baralho Mega Audino ex (Aura Pulsante))",
+    "SortOrderPriority": 2510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_152  (Baralho Cheren (Aura Pulsante))",
+    "SortOrderPriority": 2520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_153  (Baralho Pacote Férreo ex (Impulso Paradoxal))",
+    "SortOrderPriority": 2530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_154  (Baralho Miraidon ex (Impulso Paradoxal))",
+    "SortOrderPriority": 2540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_155  (Baralho Juba Sopro ex (Impulso Paradoxal))",
+    "SortOrderPriority": 2550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_156  (Baralho Koraidon ex (Impulso Paradoxal))",
+    "SortOrderPriority": 2560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_157  (Baralho Terapagos ex (Impulso Paradoxal))",
+    "SortOrderPriority": 2570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_158  (Baralho Raio Fúria (Impulso Paradoxal))",
+    "SortOrderPriority": 2580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_159  (Baralho Valentia Férrea (Impulso Paradoxal))",
+    "SortOrderPriority": 2590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_160  (Baralho Milotic ex (Encantos Cotidianos))",
+    "SortOrderPriority": 2600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_161  (Baralho Dedenne ex (Encantos Cotidianos))",
+    "SortOrderPriority": 2610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_162  (Baralho Mega Diancie ex (Encantos Cotidianos))",
+    "SortOrderPriority": 2620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_163  (Baralho Mega Sableye ex (Encantos Cotidianos))",
+    "SortOrderPriority": 2630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_164  (Baralho Zoroarkde Hisui ex (Encantos Cotidianos))",
+    "SortOrderPriority": 2640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_165  (Baralho Pilha de Filhotes (Encantos Cotidianos))",
+    "SortOrderPriority": 2650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1007025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_191  (Baralho de Elite Mega Charizard Y ex)",
+    "SortOrderPriority": 20,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_167  (Baralho Vespiquen ex (Mestre dos Céus))",
+    "SortOrderPriority": 2670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_168  (Baralho Typhlosion ex (Mestre dos Céus))",
+    "SortOrderPriority": 2680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_169  (Baralho Wailord ex (Mestre dos Céus))",
+    "SortOrderPriority": 2690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_170  (Baralho Mega Sharpedo ex (Mestre dos Céus))",
+    "SortOrderPriority": 2700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_171  (Baralho Rotom ex (Mestre dos Céus))",
+    "SortOrderPriority": 2710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_172  (Baralho Mega Gallade ex (Mestre dos Céus))",
+    "SortOrderPriority": 2720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_173  (Baralho Hoopa ex (Mestre dos Céus))",
+    "SortOrderPriority": 2730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_174  (Baralho Mega Metagross ex (Mestre dos Céus))",
+    "SortOrderPriority": 2740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_175  (Baralho Mega Rayquaza ex (Mestre dos Céus))",
+    "SortOrderPriority": 2750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_176  (Baralho Swanna ex (Mestre dos Céus))",
+    "SortOrderPriority": 2760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_177  (Baralho Moltres exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_178  (Baralho Articuno exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_179  (Baralho Zapdos exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_180  (Baralho Slowking exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_181  (Baralho Weezing exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_182  (Baralho Raticate exda Equipe Rocket (Ambições da Equipe Rocket))",
+    "SortOrderPriority": 2820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Um Baralho de Aluguel para usar em batalhas.\nEste baralho pode ser usado em batalha mesmo\nque você não tenha todas as cartas incluídas nele.)",
+    "RentalDeckID": "1008025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_192  (Baralho de Elite (Mega Lucario ex))",
+    "SortOrderPriority": 30,
+    "UsableLimitCount": 10
+  }
+]

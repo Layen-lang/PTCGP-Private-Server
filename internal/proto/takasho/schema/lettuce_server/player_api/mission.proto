@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/mission_complete_group_reward_step_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mission_complete_v2.proto";
+import "takasho/schema/lettuce_server/player_api/mission_get_group_reward_step_states_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mission_is_completed_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mission_is_notified_v1.proto";
+import "takasho/schema/lettuce_server/player_api/mission_set_notified_v1.proto";
+
+service Mission {
+  rpc CompleteV2 (MissionCompleteV2.Types.Request) returns (MissionCompleteV2.Types.Response);
+  rpc IsCompletedV1 (MissionIsCompletedV1.Types.Request) returns (MissionIsCompletedV1.Types.Response);
+  rpc IsNotifiedV1 (MissionIsNotifiedV1.Types.Request) returns (MissionIsNotifiedV1.Types.Response);
+  rpc SetNotifiedV1 (MissionSetNotifiedV1.Types.Request) returns (MissionSetNotifiedV1.Types.Response);
+  rpc GetGroupRewardStepStatesV1 (MissionGetGroupRewardStepStatesV1.Types.Request) returns (MissionGetGroupRewardStepStatesV1.Types.Response);
+  rpc CompleteGroupRewardStepV1 (MissionCompleteGroupRewardStepV1.Types.Request) returns (MissionCompleteGroupRewardStepV1.Types.Response);
+}

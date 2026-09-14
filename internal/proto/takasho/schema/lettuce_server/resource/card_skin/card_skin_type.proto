@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card_skin;
+
+enum CardSkinType {
+  CARD_SKIN_TYPE_UNSPECIFIED = 0;
+  CARD_SKIN_TYPE_DECORATION = 1;
+  CARD_SKIN_TYPE_BATTLE_EFFECT = 2;
+}

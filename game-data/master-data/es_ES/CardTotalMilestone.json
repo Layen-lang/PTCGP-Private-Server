@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (¡El 16 se asocia a Dragonite!\nA pesar del tamaño que tiene y de lo\npesado que es, puede volar. Es capaz\nde dar la vuelta al mundo en solo 16\nhoras.)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (¡El 25 se asocia a Pikachu, es su\nnúmero en la Pokédex Nacional!\nCuando varios de estos Pokémon\nse juntan, su energía puede causar\nfuertes tormentas.)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (¡El 50 se asocia a Diglett, es su\nnúmero en la Pokédex Nacional!\nVive 1 m por debajo del suelo, donde\nse alimenta de raíces. A veces también\naparece en la superficie.)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (¡El 80 se asocia a Tentacruel!\nPuede estirar y contraer con total\nlibertad sus 80 tentáculos. Con ellos\natrapa a sus presas y les inyecta un\nveneno debilitante.)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (¡El 100 se asocia a Machop!\nEs una masa de músculos y, pese a\nsu pequeño tamaño, tiene fuerza de\nsobra para levantar en brazos a 100\npersonas.)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (¡El 151 se asocia a la Pokédex!\nEn Pokémon Rojo y Pokémon Azul,\nhabía un total de 151 Pokémon.)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (¡El 180 se asocia a Noctowl!\nCuando necesita pensar, gira la cabeza\n180° para agudizar su capacidad\nintelectual.)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (¡El 250 se asocia a Ho-Oh, es su\nnúmero en la Pokédex Nacional!\nSe revelará ante Entrenadores de\ncorazón puro mostrando sus brillantes\nalas arcoíris.)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (¡El 300 se asocia a Florges!\nExisten historias de un ejemplar de\nFlorges que custodió los jardines de\nun castillo durante más de 300 años.)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (¡El 500 se asocia a Spiritomb!\nComo castigo por una fechoría\ncometida 500 años atrás, está unido\na la fisura de una piedra angular\nmística.)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (¡El 777 se asocia a Togedemaru, es su\nnúmero en la Pokédex Nacional!\nCuando se encuentra en peligro, se\nhace una bola, eriza las púas del lomo\ny propina descargas eléctricas a\ndiestro y siniestro.)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (¡El 1000 se asocia a Jirachi!\nSe dice que, cada mil años, puede\nconceder cualquier deseo durante\nuna semana.)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (¡El 1500 se asocia a Gimmighoul!\nEl cofre en el que nació data de hace\n1500 años aproximadamente. Absorbe\nla energía vital de los granujas que\nintentan hacerse con su tesoro.)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (¡El 2000 se asocia a Conkeldurr!\nSe cree que Conkeldurr enseñó a los\nhumanos la técnica para elaborar\nhormigón hace más de 2000 años.)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (¡El 5000 se asocia a Alakazam!\nSu coeficiente intelectual ronda los\n5000. Los poderes telequinéticos que\nrezuma causan jaquecas a cualquiera\nque se acerque.)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (¡El 10[C:Nnbsp ]000 se asocia a Wartortle!\nSe dice que vive diez mil años.\nSu peluda cola es popular como\nsímbolo de longevidad.)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (¡El 15[C:Nnbsp ]000 se asocia a Toxtricity!\nCuando rasga con fuerza las\nprotuberancias que tiene en el pecho,\nlibera unas descargas que superan con\nfacilidad los 15[C:Nnbsp ]000 V.)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (¡El 20[C:Nnbsp ]000 se asocia a Claydol!\nAl parecer, este misterioso Pokémon\nnació a partir de una figurilla de barro\ncreada por una civilización de hace\nmás de 20[C:Nnbsp ]000 años.)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (¡El 100[C:Nnbsp ]000 se asocia a Raichu!\nPuede emitir ráfagas de 100[C:Nnbsp ]000 V\ncapaces de acabar de un solo golpe\ncon rivales mucho más grandes que\nél.)",
+    "Threshold": 100000
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B2",
+    "Schedule": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B2a",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B2a",
+    "Schedule": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B2b",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B2b",
+    "Schedule": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B3",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B3",
+    "Schedule": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B3a",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B3a",
+    "Schedule": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B3b",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B3b",
+    "Schedule": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B4",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B4",
+    "Schedule": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_ADVANCED_B4a",
+    "NPCDeckGroupID": "DECKGROUP_ADVANCED_B4a",
+    "Schedule": "SC_PACK_RELEASE_B4a_B4b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B2",
+    "Schedule": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B2a",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B2a",
+    "Schedule": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B2b",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B2b",
+    "Schedule": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B3",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B3",
+    "Schedule": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B3a",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B3a",
+    "Schedule": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B3b",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B3b",
+    "Schedule": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B4",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B4",
+    "Schedule": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_BEGINNER_B4a",
+    "NPCDeckGroupID": "DECKGROUP_BEGINNER_B4a",
+    "Schedule": "SC_PACK_RELEASE_B4a_B4b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B2",
+    "Schedule": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B2a",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B2a",
+    "Schedule": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B2b",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B2b",
+    "Schedule": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B3",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B3",
+    "Schedule": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B3a",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B3a",
+    "Schedule": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B3b",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B3b",
+    "Schedule": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B4",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B4",
+    "Schedule": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_EXPERT_B4a",
+    "NPCDeckGroupID": "DECKGROUP_EXPERT_B4a",
+    "Schedule": "SC_PACK_RELEASE_B4a_B4b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B2",
+    "Schedule": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B2a",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B2a",
+    "Schedule": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B2b",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B2b",
+    "Schedule": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B3",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B3",
+    "Schedule": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B3a",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B3a",
+    "Schedule": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B3b",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B3b",
+    "Schedule": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B4",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B4",
+    "Schedule": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "BattleId": "RANDOMBATTLE_INTERMEDIATE_B4a",
+    "NPCDeckGroupID": "DECKGROUP_INTERMEDIATE_B4a",
+    "Schedule": "SC_PACK_RELEASE_B4a_B4b"
+  }
+]

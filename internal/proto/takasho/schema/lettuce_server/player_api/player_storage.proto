@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/player_storage_get_entries_v1.proto";
+import "takasho/schema/lettuce_server/player_api/player_storage_set_entries_v1.proto";
+
+service PlayerStorage {
+  rpc SetEntriesV1 (PlayerStorageSetEntriesV1.Types.Request) returns (PlayerStorageSetEntriesV1.Types.Response);
+  rpc GetEntriesV1 (PlayerStorageGetEntriesV1.Types.Request) returns (PlayerStorageGetEntriesV1.Types.Response);
+}

@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/pvp/main_rank_type.proto";
+import "takasho/schema/lettuce_server/resource/pvp/sub_rank_type.proto";
+
+message PvpRankSetCurrentSeasonProfile {
+  message Types {
+    message Request {
+      string player_id = 1;
+      int64 point = 2;
+      int64 winning_streak = 3;
+      int64 losing_streak = 4;
+      int64 total_win_count = 5;
+      int64 total_lose_count = 6;
+    }
+    message Response {
+      string season_id = 1;
+      int64 point = 2;
+      takasho.schema.lettuce_server.resource.pvp.MainRankType main_rank = 3;
+      takasho.schema.lettuce_server.resource.pvp.SubRankType sub_rank = 4;
+      int32 ranking = 5;
+      int64 current_winning_streak = 6;
+      int64 current_losing_streak = 7;
+      int64 total_win_count = 8;
+      int64 total_lose_count = 9;
+    }
+  }
+}

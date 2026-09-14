@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+
+message FeedElementSubstitutionItemSerializableModel {
+  int64 feed_element_index = 1;
+  takasho.schema.lettuce_server.resource.item.InventoryItems item = 2;
+  int64 probability_weight = 3;
+  int64 wt = 4;
+}

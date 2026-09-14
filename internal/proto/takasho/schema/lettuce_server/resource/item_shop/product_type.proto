@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item_shop;
+
+enum ProductType {
+  PRODUCT_TYPE_UNSPECIFIED = 0;
+  PRODUCT_TYPE_CURRENCY = 1;
+  PRODUCT_TYPE_REWARD = 2;
+  PRODUCT_TYPE_LIQUIDATION = 3;
+}

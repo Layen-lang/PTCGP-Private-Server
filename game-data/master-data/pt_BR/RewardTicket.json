@@ -1,0 +1,524 @@
+[
+  {
+    "AssetID": "TICKET_ITSUKA",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ITSUKA  (Este ticket ainda não pode ser usado. \nAguarde para ver o que é!)",
+    "ID": "ITSUKA_TICKET",
+    "NameMSID": "ITEM_NAME_TICKET_ITSUKA  (Ticket Antecipado)",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 10,
+    "Type": 3
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_0002010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV1  (Ticket de Evento da Loja (Meowth))",
+    "ScheduleID": "SC_SH_0002010_01",
+    "SortOrderPriority": 40,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_0002010_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV2  (Ticket de Evento da Loja (Venusaur))",
+    "ScheduleID": "SC_SH_0002010_07",
+    "SortOrderPriority": 30,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2408010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV3  (Ticket de Evento da Loja (Blastoise))",
+    "ScheduleID": "SC_SH_2408010_01",
+    "SortOrderPriority": 60,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2409010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV4  (Ticket de Evento da Loja (Chimchar))",
+    "ScheduleID": "SC_SH_2409010_01",
+    "SortOrderPriority": 70,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2502010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV5  (Ticket de Evento da Loja\n(Manaphy))",
+    "ScheduleID": "SC_SH_2502010_01",
+    "SortOrderPriority": 90,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2503010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV7  (Ticket de Evento da Loja (Lucario))",
+    "ScheduleID": "SC_SH_2503010_01",
+    "SortOrderPriority": 120,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2504010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV8  (Ticket de Evento da Loja (Solgaleo))",
+    "ScheduleID": "SC_SH_2504010_01",
+    "SortOrderPriority": 140,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2505010_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV9  (Ticket de Evento da Loja (Ultra Necrozma))",
+    "ScheduleID": "SC_SH_2505010_01",
+    "SortOrderPriority": 160,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2506000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV10  (Ticket de Evento da Loja (Silvally))",
+    "ScheduleID": "SC_SH_2506000_01",
+    "SortOrderPriority": 180,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2507000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV11  (Ticket de Evento da Loja\n(Tyranitar))",
+    "ScheduleID": "SC_SH_2507000_01",
+    "SortOrderPriority": 200,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2508000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV12  (Ticket de Evento da Loja (Quagsire))",
+    "ScheduleID": "SC_SH_2508000_01",
+    "SortOrderPriority": 220,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2509000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV15  (Ticket de Evento da Loja\n(Professor Carvalho))",
+    "ScheduleID": "SC_SH_2509000_01",
+    "SortOrderPriority": 240,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV13  (Ticket de Evento da Loja (Psyduck))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 260,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV14  (Ticket de Evento da Loja (Mega Gyarados))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 270,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_04",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV17  (Ticket de Evento da Loja (Evento de Oportunidade 2025: Reedição PROMO))",
+    "ScheduleID": "SC_SH_2510000_09",
+    "SortOrderPriority": 290,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_05",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV16  (Ticket de Evento da Loja (Evento Escolha Misteriosa 2025: Reedição PROMO))",
+    "ScheduleID": "SC_SH_2510000_10",
+    "SortOrderPriority": 300,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_05",
+    "NameMSID": "ITEM_NAME_TICKET_EV22  (Ticket de Troca de Carta Promocional (Evento de Oportunidade Mega Pidgeot ex))",
+    "ScheduleID": "SC_SH_2510000_11",
+    "SortOrderPriority": 310,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_06",
+    "NameMSID": "ITEM_NAME_TICKET_EV23  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Psyduck))",
+    "ScheduleID": "SC_SH_2510000_01",
+    "SortOrderPriority": 320,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2510000_EV_07",
+    "NameMSID": "ITEM_NAME_TICKET_EV24  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Mega Gyarados))",
+    "ScheduleID": "SC_SH_2510000_02",
+    "SortOrderPriority": 330,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2512000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV18  (Ticket de Evento da Loja (Goomy))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 400,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2512000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV25  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Mareep))",
+    "ScheduleID": "SC_SH_2512000_06",
+    "SortOrderPriority": 360,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2512000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV26  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Mega Latios ex))",
+    "ScheduleID": "SC_SH_2512000_05",
+    "SortOrderPriority": 380,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2512000_EV_04",
+    "NameMSID": "ITEM_NAME_TICKET_EV27  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Goomy))",
+    "ScheduleID": "SC_SH_2512000_03",
+    "SortOrderPriority": 370,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2601000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV19  (Ticket de Evento da Loja (Toxtricity))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 350,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2601000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV34  (Ticket de Troca de Carta Promocional (Evento de Oportunidade Mega Medicham ex))",
+    "ScheduleID": "SC_SH_2601000_03",
+    "SortOrderPriority": 410,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2601000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV35  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Toxtricity))",
+    "ScheduleID": "SC_SH_2601000_01",
+    "SortOrderPriority": 405,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_02",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2602000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV20  (Ticket de Evento da Loja (Arven)\n)",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 510,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2602000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV29  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Charcadet))",
+    "ScheduleID": "SC_SH_2602000_01",
+    "SortOrderPriority": 520,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2602000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV30  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Arven))",
+    "ScheduleID": "SC_SH_2602000_02",
+    "SortOrderPriority": 530,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_03",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EVENT  (Trocável por acessórios e itens na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2603000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV28  (Ticket de Evento da Loja (Mega Kangaskhan))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 540,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2603000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV36  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Slowpoke))",
+    "ScheduleID": "SC_SH_2603000_01",
+    "SortOrderPriority": 550,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2603000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV37  (Ticket de Troca de Carta Promocional (Evento Escolha Misteriosa: Mega Kangaskhan))",
+    "ScheduleID": "SC_SH_2603000_02",
+    "SortOrderPriority": 560,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2604000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV33  (Ticket de Troca de Carta Promocional (Evento de Oportunidade Especial 2026))",
+    "ScheduleID": "SC_SH_2604000_01",
+    "SortOrderPriority": 590,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2604000_EV_03",
+    "NameMSID": "ITEM_NAME_TICKET_EV31  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Mega Heracross ex))",
+    "ScheduleID": "SC_SH_2604000_02",
+    "SortOrderPriority": 600,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2605000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV41  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Ceruledge ex))",
+    "ScheduleID": "SC_SH_2605000_01",
+    "SortOrderPriority": 700,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_09",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2606000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV43  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Zoruade Hisui))",
+    "ScheduleID": "SC_SH_2606000_01",
+    "SortOrderPriority": 800,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_08",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2607000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV38  (Ticket de Troca de Carta Promocional (Evento de Oportunidade: Mega Houndoom ex))",
+    "ScheduleID": "SC_SH_2607000_01",
+    "SortOrderPriority": 900,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_2608000_EV_01",
+    "DescriptionMSID": "ITEM_DESC_TICKET_ROCKET  (Pode ser obtido completando Tarefas Especiais\nda Equipe Rocket. Aparentemente, pode ser\nusado em algum lugar...)",
+    "ID": "TICKET_2608000_EV_01",
+    "NameMSID": "ITEM_NAME_TICKET_EV44  (Ticket Suspeito da Equipe Rocket)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "SortOrderPriority": 1000,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_07",
+    "DescriptionMSID": "ITEM_DESC_TICKET_REVIVAL_001  (Trocável por cartas promocionais na Loja.\nPode ser obtido completando Missões de Eventos.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_2608000_EV_02",
+    "NameMSID": "ITEM_NAME_TICKET_EV45  (Ticket de Troca de Carta Promocional (Evento de Oportunidade Laprasda Equipe Rocket))",
+    "ScheduleID": "SC_SH_2608000_01",
+    "SortOrderPriority": 1010,
+    "Type": 0
+  },
+  {
+    "AssetID": "EVENT_SHOPTICKET_06",
+    "DescriptionMSID": "ITEM_DESC_TICKET_DECK  (Trocável por baralhos de 20 cartas na Loja.\nPode ser obtido em Missões de Baralho Inicial ex.\nSerá excluído quando o período de troca acabar.)",
+    "ID": "TICKET_DECK_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EV6  (Ticket de Baralho (Evento))",
+    "ScheduleID": "SC_CM_2503010_02",
+    "SortOrderPriority": 110,
+    "Type": 0
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1  (Ticket de Emblema (Dominação Genética))",
+    "ScheduleID": "SC_RELEASE",
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A1a  (Ticket de Emblema (Ilha Mítica))",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2   (Ticket de Emblema\n(Embate do Tempo e Espaço))",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2a  (Ticket de Emblema (Luz Triunfante))",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A2b  (Ticket de Emblema (Festival Brilhante))",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SortOrderPriority": 130,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3  (Ticket de Emblema\n(Guardiões Celestiais))",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A3a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3a  (Ticket de Emblema (Crise Extradimensional))",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SortOrderPriority": 170,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A3b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A3b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A3b  (Ticket de Emblema (Bosque dos Eevee))",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SortOrderPriority": 190,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A4",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4  (Ticket de Emblema\n(Sabedoria dos Céus e Mares))",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A4a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4a  (Ticket de Emblema\n(Nascentes Reclusas))",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SortOrderPriority": 230,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_A4b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_A4b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_A4b  (Ticket de Emblema\n(Pacote Deluxe ex))",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SortOrderPriority": 250,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B1",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1  (Ticket de Emblema (Mega Ascensão))",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SortOrderPriority": 280,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B1a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B1a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B1a  (Ticket de Emblema (Chama Carmesim))",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SortOrderPriority": 340,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B2",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2  (Ticket de Emblema (Desfile Onírico))",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SortOrderPriority": 390,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2a",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B2a",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2a  (Ticket de Emblema (Maravilhas de Paldea))",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SortOrderPriority": 500,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B2b",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B2b",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B2b  (Ticket de Emblema (Mega Brilho))",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SortOrderPriority": 530,
+    "Type": 2
+  },
+  {
+    "AssetID": "TICKET_EMBLEM_B3",
+    "DescriptionMSID": "ITEM_DESC_TICKET_EMBLEM  (Pode ser obtido completando Coleções Temáticas\nou Missões do Dex.\nTrocável por um Emblema específico na Loja.)",
+    "ID": "TICKET_EMBLEM_B3",
+    "NameMSID": "ITEM_NAME_TICKET_EMBLEM_B3  (Ticket de Emblema (Aura Pulsante))",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SortOrderPriority": 570,
+    "Type": 2
+  }
+]

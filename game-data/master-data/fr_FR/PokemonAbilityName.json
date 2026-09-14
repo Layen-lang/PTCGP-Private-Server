@@ -1,0 +1,662 @@
+[
+  {
+    "NameMSID": "ABILITY_NAME_1  (Soin Poudre)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_10  (Fuite de Gaz)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_100  (Métal Maudit)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_101  (Membrane Gluante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_102  (Évolution Boostée)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_103  (En Quête d'Amis)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_104  (Préchauffe)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_105  (Territoire Piégé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_106  (Carapace)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_107  (Amplification Infinie)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_108  (Brise Apaisante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_109  (Surf Caudal)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_11  (Strate Dure)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_110  (Chant Étrange)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_111  (Fantômasque)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_112  (Thé Rafraîchissant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_113  (Unité Coordonnée)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_114  (Osmose)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_115  (Hurlement Final)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_116  (Désenfouir)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_117  (Pas Insouciants)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_118  (Portrait)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_119  (Vent Repousse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_12  (Déroute)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_120  (Torpeur Persistante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_121  (Soin Supplémentaire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_122  (Voix Passionnée)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_123  (Cuirasse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_124  (Torrent)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_125  (Création de Glace)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_126  (Mauvais Rêve)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_127  (Transport Métal)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_128  (Rappel Temporel)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_129  (Victorieux)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_13  (Numérisation)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_130  (Flot Gelé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_131  (Tir Soudain)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_132  (Type Double)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_133  (Oreilles Déroutantes)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_134  (Réception de Douleur)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_135  (Livraison Maléfique)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_136  (Prison de Sable)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_137  (Complément de Joie)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_138  (Sceau d'Antiquité)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_139  (Propulsion Légendaire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_14  (Jungle Dominante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_140  (Système Futur)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_141  (Sel Bienfaisant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_142  (Cristal Brisant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_143  (Combat Automatisé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_144  (Rugissement Révolu)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_145  (Poussée de Croissance)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_146  (Charge Aqua)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_147  (Rubans Apaisants)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_148  (Coqui-Garde)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_149  (Corps Massif)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_15  (Surlavage)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_150  (Poudres Variées)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_151  (Aux Petits Soins)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_152  (Position)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_153  (Choc Évolutif)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_154  (Corps Conducteur)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_155  (Double Personnalisation)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_156  (Bénédiction du Dragon)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_157  (Collecte de Trésors)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_158  (Floraison Royale)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_159  (Explo-Destin)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_16  (Ordre Primitif)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_160  (Inspiration Maléfique)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_161  (Dégazage Bouillonnant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_162  (Pièce Scintillante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_163  (Évasion Éclair)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_164  (Incisives Voleuses)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_165  (Renseignements)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_17  (Peau Dure)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_18  (Jardin Fleuri Parfumé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_19  (Isograisse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_2  (Piège Parfumé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_20  (Corps de Cristal)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_21  (Crevasse d'Ombre)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_22  (Lévitation)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_23  (Exosquelette)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_24  (Entraînement au Combat)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_25  (Aura Cauchemardesque)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_26  (Protection Frontale)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_27  (Taillade Sauvage)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_28  (Lien Puissance)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_29  (Souffle Forestier)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_3  (Contre-Attaque)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_30  (Lien Vitesse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_31  (Lien Vigueur)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_32  (Terrain Enneigé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_33  (Lien Protection)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_34  (CHECK)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_35  (Lien Malice)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_36  (Soutien Céleste)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_37  (Éclat de Légende)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_38  (Plumage Lunaire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_39  (Cyclone Défensif)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_4  (Coque Armure)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_40  (Ordre de Repli)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_41  (Cri Espace-Brisé)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_42  (Couche de Poison)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_43  (Chant Réconfortant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_44  (Escampette)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_45  (Mélodie Médicinale)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_46  (Expuls'Organes)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_47  (Rune Protect)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_48  (Garde Florale)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_49  (Connexion Psy)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_5  (Sheauriken)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_50  (Cran)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_51  (Passe Latérale)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_52  (Toison Épaisse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_53  (Ascension Solaire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_54  (Hypersommeil)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_55  (Flash Fulgurant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_56  (Croc Intimidant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_57  (Luminescence)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_58  (Anti-Soin)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_59  (Poison Sans Fin)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_6  (Charge Volt)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_60  (Épines d'Acier)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_61  (Surveillance Canine)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_62  (Ultra-Propulseurs)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_63  (Ignition)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_64  (Ruban du Bonheur)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_65  (Volivolution)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_66  (Bouche Pleine)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_67  (Queue Farfouilleuse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_68  (Envolée Molletonnée)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_69  (Coquille Dure)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_7  (Maléfice des Ombres)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_70  (Fruitastique)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_71  (Haleine de Feu)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_72  (Encouragements Dignes)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_73  (Pince Rebelle)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_74  (Bénédiction Céleste)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_75  (Soin Psy)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_76  (GARDIEN)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_77  (POWER)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_78  (Poursuite des Ténèbres)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_79  (Pillage d'Énergie)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_8  (Pendulo Dodo)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_80  (Évolution Boguée)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_81  (Insomnia)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_82  (Onde Apaisante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_83  (Ruse Illusoire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_84  (Battement Légendaire)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_85  (Inspection Insinuante)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_86  (Corps Condamné)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_87  (Lévitation Onirique)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_88  (Arôme d'Endurance)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_89  (Rythme Envoûtant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_9  (Ombre Psy)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_90  (Combustion Lente)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_91  (Corps Rebondissant\t)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_92  (Courant Changeant)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_93  (Tête de Gel)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_94  (Mur Électromagnétique)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_95  (Disparition Ténébreuse)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_96  (Clés Séparatrices)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_97  (Veille)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_98  (Cri à l'Unisson)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98"
+  },
+  {
+    "NameMSID": "ABILITY_NAME_99  (Point Poison)",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99"
+  }
+]

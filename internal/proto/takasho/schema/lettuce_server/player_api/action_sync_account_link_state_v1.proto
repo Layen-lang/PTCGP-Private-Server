@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message ActionSyncAccountLinkStateV1 {
+  message Types {
+    message Request {
+      message Types {
+        enum AccountLinkType {
+          ACCOUNT_LINK_TYPE_UNSPECIFIED = 0;
+          ACCOUNT_LINK_TYPE_NA = 1;
+          ACCOUNT_LINK_TYPE_GOOGLE = 2;
+          ACCOUNT_LINK_TYPE_APPLE = 3;
+        }
+      }
+      repeated ActionSyncAccountLinkStateV1.Types.Request.Types.AccountLinkType account_link_types = 4;
+    }
+    message Response {
+    }
+  }
+}

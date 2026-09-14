@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card_exchange;
+
+message CardExchangeCatalog {
+  string catalog_id = 1;
+  int64 exchanged_count = 2;
+}

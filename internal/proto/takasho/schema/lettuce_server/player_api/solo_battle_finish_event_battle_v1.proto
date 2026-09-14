@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_deck.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_event_power.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_in_game_statistics.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_result_type.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_try_progress.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_try_progress_result.proto";
+
+message SoloBattleFinishEventBattleV1 {
+  message Types {
+    message Request {
+      string battle_id = 1;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleResultType result_type = 2;
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloBattleTryProgress battle_try_progresses = 3;
+      string battle_session_token = 4;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleDeck deck = 5;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleInGameStatistics battle_stats = 6;
+    }
+    message Response {
+      bool is_first_clear = 4;
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloBattleTryProgressResult battle_tries = 5;
+      repeated string dropped_reward_ids = 6;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 7;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleEventPower event_power = 8;
+    }
+  }
+}

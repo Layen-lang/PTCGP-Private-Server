@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/trade_accept_proposal_v2.proto";
+import "takasho/schema/lettuce_server/player_api/trade_confirm_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_friends_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_history_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_pre_message_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_setting_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_trade_power_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_get_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_heal_trade_power_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_receive_deposits_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_receive_outcomes_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_reject_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_save_pre_message_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_save_setting_v1.proto";
+import "takasho/schema/lettuce_server/player_api/trade_submit_proposal_v2.proto";
+
+service Trade {
+  rpc GetV1 (TradeGetV1.Types.Request) returns (TradeGetV1.Types.Response);
+  rpc SubmitProposalV2 (TradeSubmitProposalV2.Types.Request) returns (TradeSubmitProposalV2.Types.Response);
+  rpc AcceptProposalV2 (TradeAcceptProposalV2.Types.Request) returns (TradeAcceptProposalV2.Types.Response);
+  rpc ConfirmV1 (TradeConfirmV1.Types.Request) returns (TradeConfirmV1.Types.Response);
+  rpc RejectV1 (TradeRejectV1.Types.Request) returns (TradeRejectV1.Types.Response);
+  rpc ReceiveOutcomesV1 (TradeReceiveOutcomesV1.Types.Request) returns (TradeReceiveOutcomesV1.Types.Response);
+  rpc ReceiveDepositsV1 (TradeReceiveDepositsV1.Types.Request) returns (TradeReceiveDepositsV1.Types.Response);
+  rpc GetFriendsV1 (TradeGetFriendsV1.Types.Request) returns (TradeGetFriendsV1.Types.Response);
+  rpc GetSettingV1 (TradeGetSettingV1.Types.Request) returns (TradeGetSettingV1.Types.Response);
+  rpc SaveSettingV1 (TradeSaveSettingV1.Types.Request) returns (TradeSaveSettingV1.Types.Response);
+  rpc GetHistoryV1 (TradeGetHistoryV1.Types.Request) returns (TradeGetHistoryV1.Types.Response);
+  rpc GetTradePowerV1 (TradeGetTradePowerV1.Types.Request) returns (TradeGetTradePowerV1.Types.Response);
+  rpc HealTradePowerV1 (TradeHealTradePowerV1.Types.Request) returns (TradeHealTradePowerV1.Types.Response);
+  rpc GetPreMessageV1 (TradeGetPreMessageV1.Types.Request) returns (TradeGetPreMessageV1.Types.Response);
+  rpc SavePreMessageV1 (TradeSavePreMessageV1.Types.Request) returns (TradeSavePreMessageV1.Types.Response);
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CardFavorite {
+  message Types {
+    message TargetCard {
+      string card_id = 1;
+      bool card_favorite_flg = 2;
+    }
+  }
+  repeated CardFavorite.Types.TargetCard target_cards = 1;
+}

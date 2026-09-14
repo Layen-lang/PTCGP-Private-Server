@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/item_shop/purchase_summary.proto";
+
+message ItemShopLiquidateV1 {
+  message Types {
+    message Request {
+      message Types {
+        message LiquidatedItem {
+          takasho.schema.lettuce_server.resource.item.TradeItem trade_item = 1;
+        }
+      }
+      string shop_id = 1;
+      string product_id = 2;
+      string transaction_id = 3;
+      int32 amount = 4;
+      ItemShopLiquidateV1.Types.Request.Types.LiquidatedItem liquidated_item = 5;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 1;
+      takasho.schema.lettuce_server.resource.item_shop.PurchaseSummary purchase_summary = 2;
+    }
+  }
+}

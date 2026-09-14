@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_event_delete_matching_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_event_finish_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_event_get_emblem_profile_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_event_get_matching_result_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_event_request_emblem_matching_v2.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_event_start_battle_v2.proto";
+
+service PvpEvent {
+  rpc RequestEmblemMatchingV2 (PvpEventRequestEmblemMatchingV2.Types.Request) returns (PvpEventRequestEmblemMatchingV2.Types.Response);
+  rpc DeleteMatchingV2 (PvpEventDeleteMatchingV2.Types.Request) returns (PvpEventDeleteMatchingV2.Types.Response);
+  rpc GetMatchingResultV2 (PvpEventGetMatchingResultV2.Types.Request) returns (PvpEventGetMatchingResultV2.Types.Response);
+  rpc StartBattleV2 (PvpEventStartBattleV2.Types.Request) returns (PvpEventStartBattleV2.Types.Response);
+  rpc FinishBattleV1 (PvpEventFinishBattleV1.Types.Request) returns (PvpEventFinishBattleV1.Types.Response);
+  rpc GetEmblemProfileV1 (PvpEventGetEmblemProfileV1.Types.Request) returns (PvpEventGetEmblemProfileV1.Types.Response);
+}

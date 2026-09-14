@@ -1,0 +1,154 @@
+[
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1010",
+    "ImageID": "tips_16",
+    "TextMSID": "CardTotalMilestone_TIPS_0010  (Qui dit 16 dit... Dracolosse !\nMalgré son poids et son physique\nimposant, Dracolosse est capable\nde voler. Il peut faire le tour\ndu monde en 16 heures.)",
+    "Threshold": 16
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1020",
+    "ImageID": "tips_25",
+    "TextMSID": "CardTotalMilestone_TIPS_0020  (Qui dit 25, dit... le numéro de\nPikachu dans le Pokédex national !\nQuand plusieurs de ces Pokémon\nse réunissent, ils provoquent de\ngigantesques orages.)",
+    "Threshold": 25
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1030",
+    "ImageID": "tips_50",
+    "TextMSID": "CardTotalMilestone_TIPS_0030  (Qui dit 50, dit... le numéro de\nTaupiqueur dans le Pokédex\nnational ! Ce Pokémon vit un mètre\nsous terre et se nourrit de racines.\nIl apparaît parfois à la surface.)",
+    "Threshold": 50
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1040",
+    "ImageID": "tips_80",
+    "TextMSID": "CardTotalMilestone_TIPS_0040  (Qui dit 80 dit... Tentacruel ! Il peut\nallonger ses 80 tentacules à volonté\net les utiliser comme un filet pour\nattraper sa proie et la transpercer\nde ses pics empoisonnés.)",
+    "Threshold": 80
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1050",
+    "ImageID": "tips_100",
+    "TextMSID": "CardTotalMilestone_TIPS_0050  (Qui dit 100 dit... Machoc !\nSon corps est essentiellement\ncomposé de muscles. Même s'il fait\nla taille d'un petit enfant, il peut\nsoulever 100 adultes avec ses bras.)",
+    "Threshold": 100
+  },
+  {
+    "CardID": "TR_90_000060_00",
+    "CardType": 2,
+    "Id": "1060",
+    "ImageID": "",
+    "TextMSID": "CardTotalMilestone_TIPS_0060  (Qui dit 151 dit... le Pokédex ! Dans\nPokémon Rouge et Pokémon Bleu,\non retrouvait un total de\n151 Pokémon.)",
+    "Threshold": 151
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1070",
+    "ImageID": "tips_180",
+    "TextMSID": "CardTotalMilestone_TIPS_0070  (Qui dit 180 dit... Noarfang !\nQuand il réfléchit, il tourne sa tête\nsur 180 degrés pour optimiser\nson mode de pensée.)",
+    "Threshold": 180
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1080",
+    "ImageID": "tips_250",
+    "TextMSID": "CardTotalMilestone_TIPS_0080  (Qui dit 250, dit... le numéro de\nHo-Oh dans le Pokédex national !\nIl ne se montre qu'à un Dresseur\nau cœur pur en dévoilant\nses magnifiques ailes colorées.)",
+    "Threshold": 250
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1090",
+    "ImageID": "tips_300",
+    "TextMSID": "CardTotalMilestone_TIPS_0090  (Qui dit 300 dit... Florges !\nOn raconte qu'un Florges aurait\nprotégé les jardins d'un château\npendant plus de 300 ans.)",
+    "Threshold": 300
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1100",
+    "ImageID": "tips_500",
+    "TextMSID": "CardTotalMilestone_TIPS_0100  (Qui dit 500 dit... Spiritomb !\nOn l'a enchaîné à la fissure d'une clé\nde voûte afin de le punir de ses\nmauvaises actions il y a 500 ans.)",
+    "Threshold": 500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1110",
+    "ImageID": "tips_777",
+    "TextMSID": "CardTotalMilestone_TIPS_0110  (Qui dit 777, dit... le numéro de\nTogedemaru dans le Pokédex national !\nEn cas de danger, il se roule en boule,\ndresse ses épines dorsales et lance\ndes décharges électriques au hasard.)",
+    "Threshold": 777
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1120",
+    "ImageID": "tips_1000",
+    "TextMSID": "CardTotalMilestone_TIPS_0120  (Qui dit 1 000 dit... Jirachi ! On\nraconte qu'une fois tous les mille\nans, pendant une semaine seulement,\nil se réveille et utilise son pouvoir\npour exaucer tous les vœux.)",
+    "Threshold": 1000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1130",
+    "ImageID": "tips_1500",
+    "TextMSID": "CardTotalMilestone_TIPS_0130  (Qui dit 1 500 dit... Mordudor !\nCe Pokémon est né dans un coffre\nau trésor, il y a environ 1 500 ans.\nIl absorbe l'énergie vitale des\nvoyous qui osent voler son magot.)",
+    "Threshold": 1500
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1140",
+    "ImageID": "tips_2000",
+    "TextMSID": "CardTotalMilestone_TIPS_0140  (Qui dit 2 000 dit... Bétochef !\nOn pense que c'est un Bétochef\nqui a appris aux êtres humains à\nfabriquer du ciment il y a 2 000 ans.)",
+    "Threshold": 2000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1150",
+    "ImageID": "tips_5000",
+    "TextMSID": "CardTotalMilestone_TIPS_0150  (Qui dit 5 000 dit... Alakazam !\nSon Q.I. atteindrait les 5 000.\nIl émet des ondes psychiques si\nfortes qu'il suffit de se tenir près\nde lui pour avoir mal à la tête.)",
+    "Threshold": 5000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1160",
+    "ImageID": "tips_10000",
+    "TextMSID": "CardTotalMilestone_TIPS_0160  (Qui dit 10 000 dit... Carabaffe !\nOn dit que ce Pokémon peut\natteindre l'âge de 10 000 ans.\nSa queue duveteuse est un symbole\nde longévité populaire.)",
+    "Threshold": 10000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1170",
+    "ImageID": "tips_15000",
+    "TextMSID": "CardTotalMilestone_TIPS_0170  (Qui dit 15 000 dit... Salarsen !\nLes décharges électriques qu'il\nenvoie lorsqu'il gratte furieusement\nles excroissances sur son torse\ndépassent sans problème les\n15 000 volts.)",
+    "Threshold": 15000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1180",
+    "ImageID": "tips_20000",
+    "TextMSID": "CardTotalMilestone_TIPS_0180  (Qui dit 20 000 dit... Kaorine !\nCe Pokémon mystérieux serait né\nd'une figurine d'argile vieille de près\nde 20 000 ans.)",
+    "Threshold": 20000
+  },
+  {
+    "CardID": "",
+    "CardType": 1,
+    "Id": "1190",
+    "ImageID": "tips_100000",
+    "TextMSID": "CardTotalMilestone_TIPS_0190  (Qui dit 100 000 dit... Raichu !\nIl envoie des décharges de\n100 000 volts, ce qui lui permet de\nmettre au tapis des ennemis bien plus\nimposants que lui en une seule attaque.)",
+    "Threshold": 100000
+  }
+]

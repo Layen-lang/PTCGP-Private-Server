@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_random_battle.proto";
+
+message SoloBattleSetWinStreak {
+  message Types {
+    message Request {
+      string player_id = 1;
+      string battle_id = 2;
+      int64 current_win_streak = 3;
+      int64 max_win_streak = 4;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.solo_battle.SoloRandomBattle solo_random_battle = 1;
+    }
+  }
+}

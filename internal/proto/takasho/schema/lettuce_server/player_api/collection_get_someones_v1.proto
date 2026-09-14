@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/collection/someone_collection_player_info.proto";
+
+message CollectionGetSomeonesV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.collection.SomeoneCollectionPlayerInfo popular_collection_player_infos = 1;
+      repeated takasho.schema.lettuce_server.resource.collection.SomeoneCollectionPlayerInfo random_collection_player_infos = 2;
+      repeated takasho.schema.lettuce_server.resource.collection.SomeoneCollectionPlayerInfo friend_collection_player_infos = 3;
+      bool server_unavailable = 4;
+    }
+  }
+}

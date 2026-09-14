@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Reduce en una hora el tiempo de recuperación de\nenergía de intercambio para hacer un intercambio.\nSe consigue, por ejemplo, al completar misiones.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Reloj de arena de intercambio)",
+    "RecoveryDuration": 60
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "FriendCollectionNum",
+    "Key": 6,
+    "ValueInt64": 20
+  },
+  {
+    "Id": "MinimumLikeCount",
+    "Key": 4,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "PopularCollectionBoardNum",
+    "Key": 1,
+    "ValueInt64": 5
+  },
+  {
+    "Id": "PopularCollectionFileNum",
+    "Key": 0,
+    "ValueInt64": 5
+  },
+  {
+    "Id": "RandomCollectionBoardNum",
+    "Key": 3,
+    "ValueInt64": 3
+  },
+  {
+    "Id": "RandomCollectionFileNum",
+    "Key": 2,
+    "ValueInt64": 3
+  }
+]

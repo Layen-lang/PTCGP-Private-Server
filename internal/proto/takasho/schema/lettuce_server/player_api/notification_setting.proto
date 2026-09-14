@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message NotificationSetting {
+  bool important_notice = 1;
+}

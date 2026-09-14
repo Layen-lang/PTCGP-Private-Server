@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/profile_reset_nickname_changed_at.proto";
+import "takasho/schema/lettuce_debug_server/debug/profile_set_profiles.proto";
+
+service Profile {
+  rpc SetProfiles (ProfileSetProfiles.Types.Request) returns (ProfileSetProfiles.Types.Response);
+  rpc ResetNicknameChangedAt (ProfileResetNicknameChangedAt.Types.Request) returns (ProfileResetNicknameChangedAt.Types.Response);
+}

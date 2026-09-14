@@ -1,0 +1,2968 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_1  (Bisaflor-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_2  (Glurak-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_3  (Turtok-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_4  (Pikachu-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_5  (Mewtu-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_6  (Machomei-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_7  (Nidoqueen & Nidoking-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_8  (Kanto-Fossilien-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_9  (Pyro-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_10  (Major Bob-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_11  (Rocko-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_12  (Koga-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001035",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_14  (Mew-ex-Deck (Mysteriöse Insel))",
+    "SortOrderPriority": 1120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001036",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_15  (Celebi-ex-Deck (Mysteriöse Insel))",
+    "SortOrderPriority": 1130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001037",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_16  (Garados-ex-Deck (Mysteriöse Insel))",
+    "SortOrderPriority": 1140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001042",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_17  (Aerodactyl-ex-Deck (Mysteriöse Insel))",
+    "SortOrderPriority": 1150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104318",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001043",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_18  (Blau & Tauboss-ex-Deck (Mysteriöse Insel))",
+    "SortOrderPriority": 1160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1001044",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_13  (Knuddeluff-ex-Deck (Unschlagbare Gene))",
+    "SortOrderPriority": 1115,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_19  (Yanmega-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_20  (Panferno-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_21  (Palkia-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_22  (Cynthia-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_23  (Volkner-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_24  (Pachirisu-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_25  (Allmächtiger Schuss-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_26  (Traunmagil-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_27  (Schlurplek-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_28  (Galagladi-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_29  (Snibunna-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_30  (Darkrai-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_31  (Rüpel von Team Galaktik-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_32  (Dialga-ex-Deck (Kollision von Raum und Zeit))",
+    "SortOrderPriority": 1310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_33  (Folipurba-ex-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_34  (Barry-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_35  (Arceus-ex & Heatran-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_36  (Glaziola-ex-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_37  (Mythen Sinnohs-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_38  (Arceus-ex & Raichu-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_39  (Knakrack-ex-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_40  (Arceus-ex & Iksbat-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_41  (Voluminas-ex-Deck (Licht des Triumphs))",
+    "SortOrderPriority": 1400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_42  (Bibor-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1410,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_43  (Glurak-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_44  (Schligdri-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_45  (Pikachu-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_46  (Giratina-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_47  (Lucario-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_48  (Paldea-Suelord-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002031",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_49  (Granforgita-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1002032",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_50  (Bidifas-ex-Deck (Glänzendes Festival))",
+    "SortOrderPriority": 1490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_51  (Silvarro-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_52  (Maho-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_53  (Fuegro-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_54  (Kiawe-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_55  (Krawell-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_56  (Tracy-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_57  (Alola-Raichu-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_58  (Chrys-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_59  (Lunala-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_60  (Lola-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_61  (Quartermak-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_62  (Alola-Sleimok-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_63  (Solgaleo-ex-Deck (Hüter des Firmaments))",
+    "SortOrderPriority": 1620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_64  (Masskito-ex-Deck (Dimensionale Krise))",
+    "SortOrderPriority": 1630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_65  (Kapu-Riki-ex-Deck (Dimensionale Krise))",
+    "SortOrderPriority": 1640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_66  (Wolwerock-ex-Deck (Dimensionale Krise))",
+    "SortOrderPriority": 1650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_67  (Schlingking-ex-Deck (Dimensionale Krise))",
+    "SortOrderPriority": 1660,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_68  (Alola-Digdri-ex-Deck (Dimensionale Krise))",
+    "SortOrderPriority": 1670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_69  (Flamara-ex & Evoli-ex-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_70  (Primarene-ex-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_71  (Feelinara-ex & Evoli-ex-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_72  (Süße Staffel-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_73  (Dragoran-ex-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1003024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_74  (Relaxo-ex-Deck (Evoli-Hain))",
+    "SortOrderPriority": 1730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_75  (Pottrott-ex & Meganie-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_76  (Ho-Oh-ex & Entei-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_77  (Seedraking-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_84  (Garados-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_78  (Lanturn-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_79  (Psiana-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_80  (Donphan-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_81  (Nachtara-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_82  (Panzaeron-ex & Scherox-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_83  (Lugia-ex-Deck (Weisheit von Meer und Himmel))",
+    "SortOrderPriority": 1830,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_85  (Papungha-ex-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1840,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_86  (Entei-ex-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1850,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_87  (Suicune-ex-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1860,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_88  (Raikou-ex-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1870,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_89  (Latios & Latias-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1880,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_90  (Quappo-ex-Deck (Verborgene Quelle))",
+    "SortOrderPriority": 1890,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_91  (Masskito-ex & Pottrott-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1900,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_92  (Glurak-ex & Lavados-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1910,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_93  (Palkia-ex & Arktos-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1920,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_94  (Pikachu-ex & Alola-Raichu-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1930,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_95  (Mewtu-ex & Mew-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1940,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_96  (Lunala-ex & Giratina-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1950,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_97  (Lucario-ex & Knakrack-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1960,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_98  (Schlingking-ex & Iksbat-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1970,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_99  (Arceus-ex & Dialga-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1980,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004026",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_100  (Solgaleo-ex & Panzaeron-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 1990,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004027",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_101  (Evoli-ex & Feelinara-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 2000,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004028",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_102  (Lugia-ex & Ho-Oh-ex-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 2010,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004029",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_103  (Allerbeste Partner-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 2020,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1004030",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_104  (Pikachu & Freunde-Deck (Deluxepack-ex))",
+    "SortOrderPriority": 2030,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_105  (Mega-Pinsir-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2040,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_106  (Mega-Lohgock-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2050,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_107  (Mega-Garados-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2060,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_108  (Benson-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2070,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_109  (Mega-Ampharos-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2080,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_110  (Mega-Altaria-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2090,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_111  (Lamina-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2100,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_112  (Nockchan-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2110,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_113  (Hala-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2120,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_114  (Mega-Absol-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2130,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_115  (Melmetal-ex-Deck (Mega-Aufstieg))",
+    "SortOrderPriority": 2140,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_116  (Mega-Bisaflor-ex-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2150,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_117  (Mega-Glurak Y-ex-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2160,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_118  (Mega-Turtok-ex-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2170,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_119  (Citro-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2180,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_120  (Mega-Schlapor-ex-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2190,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1005017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_121  (Mega-Stahlos-ex-Deck (Feuerrote Flammen))",
+    "SortOrderPriority": 2200,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_122  (Türkisgrüne-Maske-Ogerpon-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2210,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_123  (Kopplosio-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2220,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_124  (Mega-Sumpex-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2230,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_125  (Alola-Vulnona-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2240,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_126  (Riffex-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2250,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_127  (Mega-Guardevoir-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2260,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_128  (Brockoloss-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2270,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_129  (Nezz-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2280,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_130  (Mega-Flunkifer-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2290,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_131  (Mega-Kangama-ex-Deck (Traumhafte Parade))",
+    "SortOrderPriority": 2300,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_132  (Maskagato-ex-Deck (Wundervolles Paldea))",
+    "SortOrderPriority": 2310,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_133  (Crimanzo-ex-Deck (Wundervolles Paldea))",
+    "SortOrderPriority": 2320,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_134  (Baojian-ex-Deck (Wundervolles Paldea))",
+    "SortOrderPriority": 2330,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_135  (Wampitz-ex-Deck (Wundervolles Paldea))",
+    "SortOrderPriority": 2340,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_136  (Monetigo-ex-Deck (Wundervolles Paldea))",
+    "SortOrderPriority": 2350,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_137  (Mega-Glurak X-ex-Deck (Mega-Schillern))",
+    "SortOrderPriority": 2360,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_138  (Mega-Lahmus-ex-Deck (Mega-Schillern))",
+    "SortOrderPriority": 2370,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_139  (Mega-Voltenso-ex-Deck (Mega-Schillern))",
+    "SortOrderPriority": 2380,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_140  (Mega-Gengar-ex-Deck (Mega-Schillern))",
+    "SortOrderPriority": 2390,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_141  (Mega-Scherox-ex-Deck (Mega-Schillern))",
+    "SortOrderPriority": 2400,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "IsUsableCountLimited": true,
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1006021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_166  (Elite-Deck (Mega-Lohgock-ex))",
+    "SortOrderPriority": 10,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_142  (Mega-Gewaldro-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2420,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_143  (Mega-Camerupt-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2430,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_144  (Aquana-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2440,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_145  (Magnezone-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2450,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_146  (Mega-Lucario-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2460,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_147  (Castellith-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2470,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_148  (Zoroark-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2480,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_149  (Krarmor-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2490,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_150  (Libelldra-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2500,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_151  (Mega-Ohrdoch-ex-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2510,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_152  (Cheren-Deck (Pulsierende Aura))",
+    "SortOrderPriority": 2520,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_153  (Eisenbündel-ex-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2530,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_154  (Miraidon-ex-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2540,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_155  (Flatterhaar-ex-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2550,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_156  (Koraidon-ex-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2560,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_157  (Terapagos-ex-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2570,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007017",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_158  (Furienblitz-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2580,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007018",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_159  (Eisenkrieger-Deck (Paradoxansturm))",
+    "SortOrderPriority": 2590,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007019",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_160  (Milotic-ex-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2600,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007020",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_161  (Dedenne-ex-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2610,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007021",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_162  (Mega-Diancie-ex-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2620,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007022",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_163  (Mega-Zobiris-ex-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2630,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007023",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_164  (Hisui-Zoroark-ex-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2640,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007024",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_165  (Welpenhaufen-Deck (Wunder des Alltags))",
+    "SortOrderPriority": 2650,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "IsUsableCountLimited": true,
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1007025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_191  (Elite-Deck (Mega-Glurak Y-ex))",
+    "SortOrderPriority": 20,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008001",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_167  (Honweisel-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2670,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008002",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_168  (Tornupto-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2680,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008003",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_169  (Wailord-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2690,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008004",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_170  (Mega-Tohaido-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2700,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008005",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_171  (Rotom-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2710,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008006",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_172  (Mega-Galagladi-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2720,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008007",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_173  (Hoopa-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2730,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008008",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_174  (Mega-Metagross-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2740,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008009",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_175  (Mega-Rayquaza-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2750,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008010",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_176  (Swaroness-ex-Deck (Herrscher der Lüfte))",
+    "SortOrderPriority": 2760,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008011",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_177  (Team RocketsLavados-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2770,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008012",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_178  (Team RocketsArktos-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2780,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008013",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_179  (Team RocketsZapdos-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2790,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008014",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_180  (Team RocketsLaschoking-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2800,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008015",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_181  (Team RocketsSmogmog-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2810,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "IsUsableCountLimited": true,
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008016",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_182  (Team RocketsRattikarl-ex-Deck (Team Rockets Pläne))",
+    "SortOrderPriority": 2820,
+    "UsableLimitCount": 10
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "IsUsableCountLimited": true,
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "RentalDeckDescriptionMSID": "BATTLE_RENTAL_DECK_DESCRIPTION_1  (Ein Leihdeck, das du in Kämpfen einsetzen kannst.\nDieses Deck kannst du verwenden, auch wenn du\nnicht alle Karten daraus besitzt.)",
+    "RentalDeckID": "1008025",
+    "RentalDeckNameMSID": "BATTLE_RENTAL_DECK_192  (Elite-Deck (Mega-Lucario-ex))",
+    "SortOrderPriority": 30,
+    "UsableLimitCount": 10
+  }
+]

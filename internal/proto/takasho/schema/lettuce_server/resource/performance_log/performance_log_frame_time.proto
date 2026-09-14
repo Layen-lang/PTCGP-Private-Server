@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.performance_log;
+
+message PerformanceLogFrameTime {
+  repeated int32 frame_time_buckets = 1;
+}

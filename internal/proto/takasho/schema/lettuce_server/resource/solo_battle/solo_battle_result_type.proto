@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.solo_battle;
+
+enum SoloBattleResultType {
+  SOLO_BATTLE_RESULT_TYPE_RESULT_TYPE_UNSPECIFIED = 0;
+  SOLO_BATTLE_RESULT_TYPE_RESULT_TYPE_WIN = 1;
+  SOLO_BATTLE_RESULT_TYPE_RESULT_TYPE_DRAW = 2;
+  SOLO_BATTLE_RESULT_TYPE_RESULT_TYPE_LOSE = 3;
+}

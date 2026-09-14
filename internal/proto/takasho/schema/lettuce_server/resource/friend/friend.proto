@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.friend;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/player_profile/profile_spine.proto";
+
+message Friend {
+  string player_id = 1;
+  google.protobuf.Timestamp became_friends_at = 2;
+  takasho.schema.lettuce_server.resource.player_profile.ProfileSpine profile = 3;
+}

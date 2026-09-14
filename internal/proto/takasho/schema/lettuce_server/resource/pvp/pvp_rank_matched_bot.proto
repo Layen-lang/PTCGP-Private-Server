@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+message PvpRankMatchedBot {
+  string bot_id = 1;
+  string bot_deck_id = 2;
+}

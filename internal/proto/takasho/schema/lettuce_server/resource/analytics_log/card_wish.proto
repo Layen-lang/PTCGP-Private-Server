@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message CardWish {
+  string card_id = 1;
+  bool card_wish_flg = 2;
+  bool possession_flg = 3;
+}

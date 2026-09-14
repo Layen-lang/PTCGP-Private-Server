@@ -1,0 +1,5530 @@
+[
+  {
+    "CharacterID": "ABAGOURA",
+    "DisplayNameMSID": "CARD_NAME_876  (肋骨海龜)"
+  },
+  {
+    "CharacterID": "ABSOL",
+    "DisplayNameMSID": "CARD_NAME_571  (阿勃梭魯)"
+  },
+  {
+    "CharacterID": "ABULY",
+    "DisplayNameMSID": "CARD_NAME_540  (萌虻)"
+  },
+  {
+    "CharacterID": "ABURIBBON",
+    "DisplayNameMSID": "CARD_NAME_541  (蝶結萌虻)"
+  },
+  {
+    "CharacterID": "ACEBURN",
+    "DisplayNameMSID": "CARD_NAME_988  (閃焰王牌)"
+  },
+  {
+    "CharacterID": "ACEROLA",
+    "DisplayNameMSID": "CARD_NAME_606  (阿塞蘿拉)"
+  },
+  {
+    "CharacterID": "ACHAMO",
+    "DisplayNameMSID": "CARD_NAME_852  (火稚雞)"
+  },
+  {
+    "CharacterID": "ACHIGATOR",
+    "DisplayNameMSID": "CARD_NAME_1078  (炙燙鱷)"
+  },
+  {
+    "CharacterID": "AGEHUNT",
+    "DisplayNameMSID": "CARD_NAME_835  (狩獵鳳蝶)"
+  },
+  {
+    "CharacterID": "AGILDER",
+    "DisplayNameMSID": "CARD_NAME_1286  (敏捷蟲)"
+  },
+  {
+    "CharacterID": "AGNOME",
+    "DisplayNameMSID": "CARD_NAME_340  (亞克諾姆)"
+  },
+  {
+    "CharacterID": "AGOJIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_495  (強顎雞母蟲)"
+  },
+  {
+    "CharacterID": "AGONOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1051  (顎之化石)"
+  },
+  {
+    "CharacterID": "AGOYON",
+    "DisplayNameMSID": "CARD_NAME_649  (四顎針龍)"
+  },
+  {
+    "CharacterID": "AIANT",
+    "DisplayNameMSID": "CARD_NAME_796  (鐵蟻)"
+  },
+  {
+    "CharacterID": "AIRMD",
+    "DisplayNameMSID": "CARD_NAME_371  (盔甲鳥)"
+  },
+  {
+    "CharacterID": "AIRMD_EX",
+    "DisplayNameMSID": "CARD_NAME_759  (盔甲鳥ex)"
+  },
+  {
+    "CharacterID": "AKAGI",
+    "DisplayNameMSID": "CARD_NAME_405  (赤日)"
+  },
+  {
+    "CharacterID": "AKANE",
+    "DisplayNameMSID": "CARD_NAME_825  (小茜)"
+  },
+  {
+    "CharacterID": "AKUZIKING",
+    "DisplayNameMSID": "CARD_NAME_1031  (惡食大王)"
+  },
+  {
+    "CharacterID": "AKUZIKING_EX",
+    "DisplayNameMSID": "CARD_NAME_648  (惡食大王ex)"
+  },
+  {
+    "CharacterID": "ALLIGATES",
+    "DisplayNameMSID": "CARD_NAME_715  (藍鱷)"
+  },
+  {
+    "CharacterID": "ALOLABETBETER",
+    "DisplayNameMSID": "CARD_NAME_569  (阿羅拉臭泥)"
+  },
+  {
+    "CharacterID": "ALOLABETBETON",
+    "DisplayNameMSID": "CARD_NAME_1024  (阿羅拉臭臭泥)"
+  },
+  {
+    "CharacterID": "ALOLABETBETON_EX",
+    "DisplayNameMSID": "CARD_NAME_570  (阿羅拉臭臭泥ex)"
+  },
+  {
+    "CharacterID": "ALOLADIGDA",
+    "DisplayNameMSID": "CARD_NAME_576  (阿羅拉地鼠)"
+  },
+  {
+    "CharacterID": "ALOLADUGTRIO",
+    "DisplayNameMSID": "CARD_NAME_577  (阿羅拉三地鼠)"
+  },
+  {
+    "CharacterID": "ALOLADUGTRIO_EX",
+    "DisplayNameMSID": "CARD_NAME_650  (阿羅拉三地鼠ex)"
+  },
+  {
+    "CharacterID": "ALOLAGARAGARA",
+    "DisplayNameMSID": "CARD_NAME_505  (阿羅拉嘎啦嘎啦)"
+  },
+  {
+    "CharacterID": "ALOLAGOLONE",
+    "DisplayNameMSID": "CARD_NAME_528  (阿羅拉隆隆石)"
+  },
+  {
+    "CharacterID": "ALOLAGOLONYA",
+    "DisplayNameMSID": "CARD_NAME_529  (阿羅拉隆隆岩)"
+  },
+  {
+    "CharacterID": "ALOLAISITSUBUTE",
+    "DisplayNameMSID": "CARD_NAME_527  (阿羅拉小拳石)"
+  },
+  {
+    "CharacterID": "ALOLAKORATTA",
+    "DisplayNameMSID": "CARD_NAME_565  (阿羅拉小拉達)"
+  },
+  {
+    "CharacterID": "ALOLAKYUKON",
+    "DisplayNameMSID": "CARD_NAME_516  (阿羅拉九尾)"
+  },
+  {
+    "CharacterID": "ALOLAKYUKON_EX",
+    "DisplayNameMSID": "CARD_NAME_990  (阿羅拉九尾ex)"
+  },
+  {
+    "CharacterID": "ALOLANASSY",
+    "DisplayNameMSID": "CARD_NAME_485  (阿羅拉椰蛋樹)"
+  },
+  {
+    "CharacterID": "ALOLANYARTH",
+    "DisplayNameMSID": "CARD_NAME_567  (阿羅拉喵喵)"
+  },
+  {
+    "CharacterID": "ALOLAPERSIAN",
+    "DisplayNameMSID": "CARD_NAME_568  (阿羅拉貓老大)"
+  },
+  {
+    "CharacterID": "ALOLARAICHU",
+    "DisplayNameMSID": "CARD_NAME_1000  (阿羅拉雷丘)"
+  },
+  {
+    "CharacterID": "ALOLARAICHU_EX",
+    "DisplayNameMSID": "CARD_NAME_526  (阿羅拉雷丘ex)"
+  },
+  {
+    "CharacterID": "ALOLARATTA",
+    "DisplayNameMSID": "CARD_NAME_566  (阿羅拉拉達)"
+  },
+  {
+    "CharacterID": "ALOLAROKON",
+    "DisplayNameMSID": "CARD_NAME_515  (阿羅拉六尾)"
+  },
+  {
+    "CharacterID": "ALOLASAND",
+    "DisplayNameMSID": "CARD_NAME_513  (阿羅拉穿山鼠)"
+  },
+  {
+    "CharacterID": "ALOLASANDPAN",
+    "DisplayNameMSID": "CARD_NAME_514  (阿羅拉穿山王)"
+  },
+  {
+    "CharacterID": "AMAJO",
+    "DisplayNameMSID": "CARD_NAME_500  (甜冷美后)"
+  },
+  {
+    "CharacterID": "AMAKAJI",
+    "DisplayNameMSID": "CARD_NAME_498  (甜竹竹)"
+  },
+  {
+    "CharacterID": "AMAKUKAORUMORI",
+    "DisplayNameMSID": "CARD_NAME_1216  (甜薰森林)"
+  },
+  {
+    "CharacterID": "AMAMAIKO",
+    "DisplayNameMSID": "CARD_NAME_499  (甜舞妮)"
+  },
+  {
+    "CharacterID": "AMARURUGA",
+    "DisplayNameMSID": "CARD_NAME_998  (冰雪巨龍)"
+  },
+  {
+    "CharacterID": "AMARUS",
+    "DisplayNameMSID": "CARD_NAME_997  (冰雪龍)"
+  },
+  {
+    "CharacterID": "AMEMOTH",
+    "DisplayNameMSID": "CARD_NAME_487  (雨翅蛾)"
+  },
+  {
+    "CharacterID": "AMETAMA",
+    "DisplayNameMSID": "CARD_NAME_486  (溜溜糖球)"
+  },
+  {
+    "CharacterID": "ANOHORAGUSA",
+    "DisplayNameMSID": "CARD_NAME_1072  (怖納噬草)"
+  },
+  {
+    "CharacterID": "ANOKUSA",
+    "DisplayNameMSID": "CARD_NAME_1071  (納噬草)"
+  },
+  {
+    "CharacterID": "ANOPTH",
+    "DisplayNameMSID": "CARD_NAME_1306  (太古羽蟲)"
+  },
+  {
+    "CharacterID": "AOGARASU",
+    "DisplayNameMSID": "CARD_NAME_937  (藍鴉)"
+  },
+  {
+    "CharacterID": "AOI",
+    "DisplayNameMSID": "CARD_NAME_1254  (小青)"
+  },
+  {
+    "CharacterID": "APPRYU",
+    "DisplayNameMSID": "CARD_NAME_1157  (蘋裹龍)"
+  },
+  {
+    "CharacterID": "ARABURUTAKE",
+    "DisplayNameMSID": "CARD_NAME_1219  (猛惡菇)"
+  },
+  {
+    "CharacterID": "ARBO",
+    "DisplayNameMSID": "CARD_NAME_164  (阿柏蛇)"
+  },
+  {
+    "CharacterID": "ARBOK",
+    "DisplayNameMSID": "CARD_NAME_165  (阿柏怪)"
+  },
+  {
+    "CharacterID": "ARCEUS",
+    "DisplayNameMSID": "CARD_NAME_444  (阿爾宙斯)"
+  },
+  {
+    "CharacterID": "ARCEUS_EX",
+    "DisplayNameMSID": "CARD_NAME_445  (阿爾宙斯ex)"
+  },
+  {
+    "CharacterID": "ARCHEN",
+    "DisplayNameMSID": "CARD_NAME_898  (始祖小鳥)"
+  },
+  {
+    "CharacterID": "ARCHEOS",
+    "DisplayNameMSID": "CARD_NAME_899  (始祖大鳥)"
+  },
+  {
+    "CharacterID": "ARIADOS",
+    "DisplayNameMSID": "CARD_NAME_753  (阿利多斯)"
+  },
+  {
+    "CharacterID": "ARMALDO",
+    "DisplayNameMSID": "CARD_NAME_1307  (太古盔甲)"
+  },
+  {
+    "CharacterID": "ARMORGA",
+    "DisplayNameMSID": "CARD_NAME_920  (鋼鎧鴉)"
+  },
+  {
+    "CharacterID": "ARMORGA_EX",
+    "DisplayNameMSID": "CARD_NAME_1205  (鋼鎧鴉ex)"
+  },
+  {
+    "CharacterID": "ARUKUJIRA",
+    "DisplayNameMSID": "CARD_NAME_1089  (走鯨)"
+  },
+  {
+    "CharacterID": "ASANAN",
+    "DisplayNameMSID": "CARD_NAME_436  (瑪沙那)"
+  },
+  {
+    "CharacterID": "ASHIMARI",
+    "DisplayNameMSID": "CARD_NAME_517  (球球海獅)"
+  },
+  {
+    "CharacterID": "ASHIRENE",
+    "DisplayNameMSID": "CARD_NAME_519  (西獅海壬)"
+  },
+  {
+    "CharacterID": "ASHIRENE_EX",
+    "DisplayNameMSID": "CARD_NAME_678  (西獅海壬ex)"
+  },
+  {
+    "CharacterID": "ATARITSUKIAISU",
+    "DisplayNameMSID": "CARD_NAME_1052  (可抽獎的冰棒)"
+  },
+  {
+    "CharacterID": "AZUMAO",
+    "DisplayNameMSID": "CARD_NAME_73  (金魚王)"
+  },
+  {
+    "CharacterID": "BABYMET",
+    "DisplayNameMSID": "CARD_NAME_944  (沉重頭盔)"
+  },
+  {
+    "CharacterID": "BACHINKEY",
+    "DisplayNameMSID": "CARD_NAME_848  (啪咚猴)"
+  },
+  {
+    "CharacterID": "BACHINUNI",
+    "DisplayNameMSID": "CARD_NAME_112  (啪嚓海膽)"
+  },
+  {
+    "CharacterID": "BACHURU",
+    "DisplayNameMSID": "CARD_NAME_249  (電電蟲)"
+  },
+  {
+    "CharacterID": "BAIVANILLA",
+    "DisplayNameMSID": "CARD_NAME_676  (雙倍多多冰)"
+  },
+  {
+    "CharacterID": "BAIWOOLUU",
+    "DisplayNameMSID": "CARD_NAME_213  (毛毛角羊)"
+  },
+  {
+    "CharacterID": "BAKECCHA",
+    "DisplayNameMSID": "CARD_NAME_1011  (南瓜精)"
+  },
+  {
+    "CharacterID": "BAKPHOON",
+    "DisplayNameMSID": "CARD_NAME_706  (火爆獸)"
+  },
+  {
+    "CharacterID": "BAKPHOON_EX",
+    "DisplayNameMSID": "CARD_NAME_1290  (火爆獸ex)"
+  },
+  {
+    "CharacterID": "BAKUGAMES",
+    "DisplayNameMSID": "CARD_NAME_512  (爆焰龜獸)"
+  },
+  {
+    "CharacterID": "BAKUONG",
+    "DisplayNameMSID": "CARD_NAME_929  (爆音怪)"
+  },
+  {
+    "CharacterID": "BAKUUDA",
+    "DisplayNameMSID": "CARD_NAME_1159  (噴火駝)"
+  },
+  {
+    "CharacterID": "BALKIE",
+    "DisplayNameMSID": "CARD_NAME_748  (無畏小子)"
+  },
+  {
+    "CharacterID": "BANBADORO",
+    "DisplayNameMSID": "CARD_NAME_562  (重泥挽馬)"
+  },
+  {
+    "CharacterID": "BANEBOO",
+    "DisplayNameMSID": "CARD_NAME_535  (跳跳豬)"
+  },
+  {
+    "CharacterID": "BANGIRAS",
+    "DisplayNameMSID": "CARD_NAME_435  (班基拉斯)"
+  },
+  {
+    "CharacterID": "BAOKKIE",
+    "DisplayNameMSID": "CARD_NAME_857  (爆香猿)"
+  },
+  {
+    "CharacterID": "BAOPPU",
+    "DisplayNameMSID": "CARD_NAME_856  (爆香猴)"
+  },
+  {
+    "CharacterID": "BARRIERD",
+    "DisplayNameMSID": "CARD_NAME_126  (魔牆人偶)"
+  },
+  {
+    "CharacterID": "BARUBEAT",
+    "DisplayNameMSID": "CARD_NAME_1133  (電螢蟲)"
+  },
+  {
+    "CharacterID": "BASSRAO",
+    "DisplayNameMSID": "CARD_NAME_958  (野蠻鱸魚)"
+  },
+  {
+    "CharacterID": "BAYLEAF",
+    "DisplayNameMSID": "CARD_NAME_692  (月桂葉)"
+  },
+  {
+    "CharacterID": "BEADARU",
+    "DisplayNameMSID": "CARD_NAME_392  (大尾狸)"
+  },
+  {
+    "CharacterID": "BEADARU_EX",
+    "DisplayNameMSID": "CARD_NAME_480  (大尾狸ex)"
+  },
+  {
+    "CharacterID": "BEEDLE",
+    "DisplayNameMSID": "CARD_NAME_8  (獨角蟲)"
+  },
+  {
+    "CharacterID": "BEEQUEN",
+    "DisplayNameMSID": "CARD_NAME_291  (蜂女王)"
+  },
+  {
+    "CharacterID": "BEEQUEN_EX",
+    "DisplayNameMSID": "CARD_NAME_1284  (蜂女王ex)"
+  },
+  {
+    "CharacterID": "BERACAS",
+    "DisplayNameMSID": "CARD_NAME_1103  (蟲甲聖)"
+  },
+  {
+    "CharacterID": "BEROBA",
+    "DisplayNameMSID": "CARD_NAME_912  (搗蛋小妖)"
+  },
+  {
+    "CharacterID": "BEROBELT",
+    "DisplayNameMSID": "CARD_NAME_479  (大舌舔)"
+  },
+  {
+    "CharacterID": "BEROBELT_EX",
+    "DisplayNameMSID": "CARD_NAME_383  (大舌舔ex)"
+  },
+  {
+    "CharacterID": "BERORINGA",
+    "DisplayNameMSID": "CARD_NAME_201  (大舌頭)"
+  },
+  {
+    "CharacterID": "BETBETER",
+    "DisplayNameMSID": "CARD_NAME_174  (臭泥)"
+  },
+  {
+    "CharacterID": "BETBETON",
+    "DisplayNameMSID": "CARD_NAME_175  (臭臭泥)"
+  },
+  {
+    "CharacterID": "BEVENOM",
+    "DisplayNameMSID": "CARD_NAME_627  (毒貝比)"
+  },
+  {
+    "CharacterID": "BIGAIRBALLOON",
+    "DisplayNameMSID": "CARD_NAME_1126  (大氣球)"
+  },
+  {
+    "CharacterID": "BIPPA",
+    "DisplayNameMSID": "CARD_NAME_391  (大牙狸)"
+  },
+  {
+    "CharacterID": "BIRIRIDAMA",
+    "DisplayNameMSID": "CARD_NAME_99  (霹靂電球)"
+  },
+  {
+    "CharacterID": "BISUTONAITO",
+    "DisplayNameMSID": "CARD_NAME_665  (異獸秘石)"
+  },
+  {
+    "CharacterID": "BISUTOWORU",
+    "DisplayNameMSID": "CARD_NAME_662  (異獸防壁)"
+  },
+  {
+    "CharacterID": "BLOSTER",
+    "DisplayNameMSID": "CARD_NAME_960  (鋼炮臂蝦)"
+  },
+  {
+    "CharacterID": "BOCHI",
+    "DisplayNameMSID": "CARD_NAME_1106  (墓仔狗)"
+  },
+  {
+    "CharacterID": "BOHMANDER",
+    "DisplayNameMSID": "CARD_NAME_1038  (暴飛龍)"
+  },
+  {
+    "CharacterID": "BOKUREI",
+    "DisplayNameMSID": "CARD_NAME_490  (小木靈)"
+  },
+  {
+    "CharacterID": "BOOBER",
+    "DisplayNameMSID": "CARD_NAME_44  (鴨嘴火獸)"
+  },
+  {
+    "CharacterID": "BOOBURN",
+    "DisplayNameMSID": "CARD_NAME_296  (鴨嘴炎獸)"
+  },
+  {
+    "CharacterID": "BOOPIG",
+    "DisplayNameMSID": "CARD_NAME_536  (噗噗豬)"
+  },
+  {
+    "CharacterID": "BOOSTER",
+    "DisplayNameMSID": "CARD_NAME_45  (火伊布)"
+  },
+  {
+    "CharacterID": "BOOSTER_EX",
+    "DisplayNameMSID": "CARD_NAME_672  (火伊布ex)"
+  },
+  {
+    "CharacterID": "BOSSGODORA",
+    "DisplayNameMSID": "CARD_NAME_653  (波士可多拉)"
+  },
+  {
+    "CharacterID": "BOTAN",
+    "DisplayNameMSID": "CARD_NAME_690  (牡丹)"
+  },
+  {
+    "CharacterID": "BOWTZEL",
+    "DisplayNameMSID": "CARD_NAME_1101  (麻花犬)"
+  },
+  {
+    "CharacterID": "BRACKY",
+    "DisplayNameMSID": "CARD_NAME_683  (月亮伊布)"
+  },
+  {
+    "CharacterID": "BRACKY_EX",
+    "DisplayNameMSID": "CARD_NAME_754  (月亮伊布ex)"
+  },
+  {
+    "CharacterID": "BRIDURAS",
+    "DisplayNameMSID": "CARD_NAME_1317  (鋁鋼橋龍)"
+  },
+  {
+    "CharacterID": "BRIGARRON",
+    "DisplayNameMSID": "CARD_NAME_976  (布里卡隆)"
+  },
+  {
+    "CharacterID": "BRIMUON",
+    "DisplayNameMSID": "CARD_NAME_1187  (布莉姆溫)"
+  },
+  {
+    "CharacterID": "BUBY",
+    "DisplayNameMSID": "CARD_NAME_707  (鴨嘴寶寶)"
+  },
+  {
+    "CharacterID": "BUFFRON",
+    "DisplayNameMSID": "CARD_NAME_772  (爆炸頭水牛)"
+  },
+  {
+    "CharacterID": "BULU",
+    "DisplayNameMSID": "CARD_NAME_743  (布魯)"
+  },
+  {
+    "CharacterID": "BUNYATTO",
+    "DisplayNameMSID": "CARD_NAME_396  (東施喵)"
+  },
+  {
+    "CharacterID": "BUOYSEL",
+    "DisplayNameMSID": "CARD_NAME_310  (泳圈鼬)"
+  },
+  {
+    "CharacterID": "BURORON",
+    "DisplayNameMSID": "CARD_NAME_476  (噗隆隆)"
+  },
+  {
+    "CharacterID": "BUROROROOM",
+    "DisplayNameMSID": "CARD_NAME_477  (普隆隆姆)"
+  },
+  {
+    "CharacterID": "BURSYAMO",
+    "DisplayNameMSID": "CARD_NAME_854  (火焰雞)"
+  },
+  {
+    "CharacterID": "BURUNGEL",
+    "DisplayNameMSID": "CARD_NAME_808  (胖嘟嘟)"
+  },
+  {
+    "CharacterID": "BUSUTOENAJIKODAI",
+    "DisplayNameMSID": "CARD_NAME_1252  (驅勁能量 古代)"
+  },
+  {
+    "CharacterID": "BUSUTOENAJIMIRAI",
+    "DisplayNameMSID": "CARD_NAME_1253  (驅勁能量 未來)"
+  },
+  {
+    "CharacterID": "BUTTERFREE",
+    "DisplayNameMSID": "CARD_NAME_7  (巴大蝶)"
+  },
+  {
+    "CharacterID": "CALAMANERO",
+    "DisplayNameMSID": "CARD_NAME_815  (烏賊王)"
+  },
+  {
+    "CharacterID": "CALME",
+    "DisplayNameMSID": "CARD_NAME_1147  (卡魯穆)"
+  },
+  {
+    "CharacterID": "CAMOME",
+    "DisplayNameMSID": "CARD_NAME_1342  (長翅鷗)"
+  },
+  {
+    "CharacterID": "CAPSAIJI",
+    "DisplayNameMSID": "CARD_NAME_1073  (熱辣娃)"
+  },
+  {
+    "CharacterID": "CARBOU",
+    "DisplayNameMSID": "CARD_NAME_1080  (炭小侍)"
+  },
+  {
+    "CharacterID": "CARNE",
+    "DisplayNameMSID": "CARD_NAME_1056  (卡露妮)"
+  },
+  {
+    "CharacterID": "CASEY",
+    "DisplayNameMSID": "CARD_NAME_115  (凱西)"
+  },
+  {
+    "CharacterID": "CATERPIE",
+    "DisplayNameMSID": "CARD_NAME_5  (綠毛蟲)"
+  },
+  {
+    "CharacterID": "CELEBI",
+    "DisplayNameMSID": "CARD_NAME_795  (時拉比)"
+  },
+  {
+    "CharacterID": "CELEBI_EX",
+    "DisplayNameMSID": "CARD_NAME_234  (時拉比ex)"
+  },
+  {
+    "CharacterID": "CHADEATH",
+    "DisplayNameMSID": "CARD_NAME_1287  (斯魔茶)"
+  },
+  {
+    "CharacterID": "CHANDELA",
+    "DisplayNameMSID": "CARD_NAME_860  (水晶燈火靈)"
+  },
+  {
+    "CharacterID": "CHAOBOO",
+    "DisplayNameMSID": "CARD_NAME_1164  (炒炒豬)"
+  },
+  {
+    "CharacterID": "CHAREM",
+    "DisplayNameMSID": "CARD_NAME_437  (恰雷姆)"
+  },
+  {
+    "CharacterID": "CHEREN",
+    "DisplayNameMSID": "CARD_NAME_1214  (黑連)"
+  },
+  {
+    "CharacterID": "CHERINBO",
+    "DisplayNameMSID": "CARD_NAME_413  (櫻花寶)"
+  },
+  {
+    "CharacterID": "CHERRIM",
+    "DisplayNameMSID": "CARD_NAME_414  (櫻花兒)"
+  },
+  {
+    "CharacterID": "CHEVARGO",
+    "DisplayNameMSID": "CARD_NAME_579  (騎士蝸牛)"
+  },
+  {
+    "CharacterID": "CHICORITA",
+    "DisplayNameMSID": "CARD_NAME_691  (菊草葉)"
+  },
+  {
+    "CharacterID": "CHIGORAS",
+    "DisplayNameMSID": "CARD_NAME_1020  (寶寶暴龍)"
+  },
+  {
+    "CharacterID": "CHIISANAFUUSEN",
+    "DisplayNameMSID": "CARD_NAME_1276  (小氣球)"
+  },
+  {
+    "CharacterID": "CHILLACCINO",
+    "DisplayNameMSID": "CARD_NAME_211  (奇諾栗鼠)"
+  },
+  {
+    "CharacterID": "CHILLARMY",
+    "DisplayNameMSID": "CARD_NAME_210  (泡沫栗鼠)"
+  },
+  {
+    "CharacterID": "CHIONJEN",
+    "DisplayNameMSID": "CARD_NAME_1076  (古簡蝸)"
+  },
+  {
+    "CharacterID": "CHIREAN",
+    "DisplayNameMSID": "CARD_NAME_1303  (風鈴鈴)"
+  },
+  {
+    "CharacterID": "CHIWOHAUHANE",
+    "DisplayNameMSID": "CARD_NAME_1220  (爬地翅)"
+  },
+  {
+    "CharacterID": "CHOBOMAKI",
+    "DisplayNameMSID": "CARD_NAME_1285  (小嘴蝸)"
+  },
+  {
+    "CharacterID": "CHONCHIE",
+    "DisplayNameMSID": "CARD_NAME_727  (燈籠魚)"
+  },
+  {
+    "CharacterID": "CHORONEKO",
+    "DisplayNameMSID": "CARD_NAME_264  (扒手貓)"
+  },
+  {
+    "CharacterID": "CHURINE",
+    "DisplayNameMSID": "CARD_NAME_29  (百合根娃娃)"
+  },
+  {
+    "CharacterID": "CITRON",
+    "DisplayNameMSID": "CARD_NAME_969  (希特隆)"
+  },
+  {
+    "CharacterID": "CITRONNORYUKKU",
+    "DisplayNameMSID": "CARD_NAME_967  (希特隆的背包)"
+  },
+  {
+    "CharacterID": "CLEFFY",
+    "DisplayNameMSID": "CARD_NAME_580  (鑰圈兒)"
+  },
+  {
+    "CharacterID": "COBALON",
+    "DisplayNameMSID": "CARD_NAME_915  (勾帕路翁)"
+  },
+  {
+    "CharacterID": "COCOON",
+    "DisplayNameMSID": "CARD_NAME_9  (鐵殼蛹)"
+  },
+  {
+    "CharacterID": "COIL",
+    "DisplayNameMSID": "CARD_NAME_97  (小磁怪)"
+  },
+  {
+    "CharacterID": "COKODORA",
+    "DisplayNameMSID": "CARD_NAME_651  (可可多拉)"
+  },
+  {
+    "CharacterID": "COLLECUREI",
+    "DisplayNameMSID": "CARD_NAME_466  (索財靈)"
+  },
+  {
+    "CharacterID": "CORNI",
+    "DisplayNameMSID": "CARD_NAME_1212  (可爾妮)"
+  },
+  {
+    "CharacterID": "COSMOG",
+    "DisplayNameMSID": "CARD_NAME_547  (科斯莫古)"
+  },
+  {
+    "CharacterID": "COSMOVUM",
+    "DisplayNameMSID": "CARD_NAME_548  (科斯莫姆)"
+  },
+  {
+    "CharacterID": "COTOISE",
+    "DisplayNameMSID": "CARD_NAME_673  (煤炭龜)"
+  },
+  {
+    "CharacterID": "CRAB",
+    "DisplayNameMSID": "CARD_NAME_68  (大鉗蟹)"
+  },
+  {
+    "CharacterID": "CREBASE",
+    "DisplayNameMSID": "CARD_NAME_880  (冰岩怪)"
+  },
+  {
+    "CharacterID": "CRESSELIA",
+    "DisplayNameMSID": "CARD_NAME_342  (克雷色利亞)"
+  },
+  {
+    "CharacterID": "CRESSELIA_EX",
+    "DisplayNameMSID": "CARD_NAME_450  (克雷色利亞ex)"
+  },
+  {
+    "CharacterID": "CRIMGAN",
+    "DisplayNameMSID": "CARD_NAME_269  (赤面龍)"
+  },
+  {
+    "CharacterID": "CROBAT",
+    "DisplayNameMSID": "CARD_NAME_439  (叉字蝠)"
+  },
+  {
+    "CharacterID": "CROBAT_EX",
+    "DisplayNameMSID": "CARD_NAME_751  (叉字蝠ex)"
+  },
+  {
+    "CharacterID": "CUESPATRA",
+    "DisplayNameMSID": "CARD_NAME_1105  (超能豔鴕)"
+  },
+  {
+    "CharacterID": "CUT ROTOM",
+    "DisplayNameMSID": "CARD_NAME_294  (切割洛托姆)"
+  },
+  {
+    "CharacterID": "CUWAWA",
+    "DisplayNameMSID": "CARD_NAME_542  (花療環環)"
+  },
+  {
+    "CharacterID": "DADARIN",
+    "DisplayNameMSID": "CARD_NAME_240  (破破舵輪)"
+  },
+  {
+    "CharacterID": "DADARIN_EX",
+    "DisplayNameMSID": "CARD_NAME_503  (破破舵輪ex)"
+  },
+  {
+    "CharacterID": "DAGEKI",
+    "DisplayNameMSID": "CARD_NAME_1193  (打擊鬼)"
+  },
+  {
+    "CharacterID": "DAIKENKI",
+    "DisplayNameMSID": "CARD_NAME_1299  (大劍鬼)"
+  },
+  {
+    "CharacterID": "DAINOSE",
+    "DisplayNameMSID": "CARD_NAME_377  (大朝北鼻)"
+  },
+  {
+    "CharacterID": "DAINOSE_EX",
+    "DisplayNameMSID": "CARD_NAME_440  (大朝北鼻ex)"
+  },
+  {
+    "CharacterID": "DAIOUDOU",
+    "DisplayNameMSID": "CARD_NAME_1244  (大王銅象)"
+  },
+  {
+    "CharacterID": "DAKUMA",
+    "DisplayNameMSID": "CARD_NAME_1197  (熊徒弟)"
+  },
+  {
+    "CharacterID": "DANGORO",
+    "DisplayNameMSID": "CARD_NAME_1017  (石丸子)"
+  },
+  {
+    "CharacterID": "DARKPENDANTO",
+    "DisplayNameMSID": "CARD_NAME_776  (暗黑吊墜)"
+  },
+  {
+    "CharacterID": "DARKRAI",
+    "DisplayNameMSID": "CARD_NAME_369  (達克萊伊)"
+  },
+  {
+    "CharacterID": "DARKRAI_EX",
+    "DisplayNameMSID": "CARD_NAME_370  (達克萊伊ex)"
+  },
+  {
+    "CharacterID": "DARUMAKKA",
+    "DisplayNameMSID": "CARD_NAME_710  (火紅不倒翁)"
+  },
+  {
+    "CharacterID": "DEDENNE",
+    "DisplayNameMSID": "CARD_NAME_251  (咚咚鼠)"
+  },
+  {
+    "CharacterID": "DEDENNE_EX",
+    "DisplayNameMSID": "CARD_NAME_1266  (咚咚鼠ex)"
+  },
+  {
+    "CharacterID": "DEKAGOOSE",
+    "DisplayNameMSID": "CARD_NAME_595  (貓鼬探長)"
+  },
+  {
+    "CharacterID": "DEKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1119  (巨鍛匠)"
+  },
+  {
+    "CharacterID": "DEKANUCHAN_EX",
+    "DisplayNameMSID": "CARD_NAME_475  (巨鍛匠ex)"
+  },
+  {
+    "CharacterID": "DELIBIRD",
+    "DisplayNameMSID": "CARD_NAME_723  (信使鳥)"
+  },
+  {
+    "CharacterID": "DELVIL",
+    "DisplayNameMSID": "CARD_NAME_416  (戴魯比)"
+  },
+  {
+    "CharacterID": "DENDIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_530  (蟲電寶)"
+  },
+  {
+    "CharacterID": "DENJYUMOKU",
+    "DisplayNameMSID": "CARD_NAME_619  (電束木)"
+  },
+  {
+    "CharacterID": "DENRYU",
+    "DisplayNameMSID": "CARD_NAME_732  (電龍)"
+  },
+  {
+    "CharacterID": "DENTULA",
+    "DisplayNameMSID": "CARD_NAME_250  (電蜘蛛)"
+  },
+  {
+    "CharacterID": "DENZI",
+    "DisplayNameMSID": "CARD_NAME_408  (電次)"
+  },
+  {
+    "CharacterID": "DESUKARN",
+    "DisplayNameMSID": "CARD_NAME_890  (死神棺)"
+  },
+  {
+    "CharacterID": "DESUMASU",
+    "DisplayNameMSID": "CARD_NAME_889  (哭哭面具)"
+  },
+  {
+    "CharacterID": "DIALGA_EX",
+    "DisplayNameMSID": "CARD_NAME_378  (帝牙盧卡ex)"
+  },
+  {
+    "CharacterID": "DIANCIE",
+    "DisplayNameMSID": "CARD_NAME_1184  (蒂安希)"
+  },
+  {
+    "CharacterID": "DIGDA",
+    "DisplayNameMSID": "CARD_NAME_139  (地鼠)"
+  },
+  {
+    "CharacterID": "DIHEAD",
+    "DisplayNameMSID": "CARD_NAME_908  (雙首暴龍)"
+  },
+  {
+    "CharacterID": "DINLU",
+    "DisplayNameMSID": "CARD_NAME_1112  (古鼎鹿)"
+  },
+  {
+    "CharacterID": "DIRTENG",
+    "DisplayNameMSID": "CARD_NAME_840  (狡猾天狗)"
+  },
+  {
+    "CharacterID": "DOBLE",
+    "DisplayNameMSID": "CARD_NAME_770  (圖圖犬)"
+  },
+  {
+    "CharacterID": "DODAITOSE",
+    "DisplayNameMSID": "CARD_NAME_285  (土台龜)"
+  },
+  {
+    "CharacterID": "DODEKABASHI",
+    "DisplayNameMSID": "CARD_NAME_593  (銃嘴大鳥)"
+  },
+  {
+    "CharacterID": "DODO",
+    "DisplayNameMSID": "CARD_NAME_199  (嘟嘟)"
+  },
+  {
+    "CharacterID": "DODOGEZAN",
+    "DisplayNameMSID": "CARD_NAME_1238  (仆斬將軍)"
+  },
+  {
+    "CharacterID": "DODORIO",
+    "DisplayNameMSID": "CARD_NAME_200  (嘟嘟利)"
+  },
+  {
+    "CharacterID": "DOGARS",
+    "DisplayNameMSID": "CARD_NAME_176  (瓦斯彈)"
+  },
+  {
+    "CharacterID": "DOGOHMB",
+    "DisplayNameMSID": "CARD_NAME_928  (吼爆彈)"
+  },
+  {
+    "CharacterID": "DOHIDOIDE",
+    "DisplayNameMSID": "CARD_NAME_575  (超壞星)"
+  },
+  {
+    "CharacterID": "DOHMIRROR",
+    "DisplayNameMSID": "CARD_NAME_375  (銅鏡怪)"
+  },
+  {
+    "CharacterID": "DOHTAKUN",
+    "DisplayNameMSID": "CARD_NAME_376  (青銅鐘)"
+  },
+  {
+    "CharacterID": "DOJOACH",
+    "DisplayNameMSID": "CARD_NAME_420  (泥泥鰍)"
+  },
+  {
+    "CharacterID": "DOKKORER",
+    "DisplayNameMSID": "CARD_NAME_555  (搬運小匠)"
+  },
+  {
+    "CharacterID": "DOKUBARI",
+    "DisplayNameMSID": "CARD_NAME_604  (毒針)"
+  },
+  {
+    "CharacterID": "DOKUCALE",
+    "DisplayNameMSID": "CARD_NAME_837  (毒粉蛾)"
+  },
+  {
+    "CharacterID": "DOKUKURAGE",
+    "DisplayNameMSID": "CARD_NAME_63  (毒刺水母)"
+  },
+  {
+    "CharacterID": "DOKUROG",
+    "DisplayNameMSID": "CARD_NAME_368  (毒骷蛙)"
+  },
+  {
+    "CharacterID": "DONFAN",
+    "DisplayNameMSID": "CARD_NAME_432  (頓甲)"
+  },
+  {
+    "CharacterID": "DONFAN_EX",
+    "DisplayNameMSID": "CARD_NAME_747  (頓甲ex)"
+  },
+  {
+    "CharacterID": "DONGKARASU",
+    "DisplayNameMSID": "CARD_NAME_357  (烏鴉頭頭)"
+  },
+  {
+    "CharacterID": "DONMEL",
+    "DisplayNameMSID": "CARD_NAME_1158  (呆火駝)"
+  },
+  {
+    "CharacterID": "DORAPION",
+    "DisplayNameMSID": "CARD_NAME_366  (龍王蠍)"
+  },
+  {
+    "CharacterID": "DOROBANKO",
+    "DisplayNameMSID": "CARD_NAME_561  (泥驢仔)"
+  },
+  {
+    "CharacterID": "DORYUZU",
+    "DisplayNameMSID": "CARD_NAME_578  (龍頭地鼠)"
+  },
+  {
+    "CharacterID": "DOSIDON",
+    "DisplayNameMSID": "CARD_NAME_343  (超甲狂犀)"
+  },
+  {
+    "CharacterID": "DOTEKKOTSU",
+    "DisplayNameMSID": "CARD_NAME_556  (鐵骨土人)"
+  },
+  {
+    "CharacterID": "DOUBLAN",
+    "DisplayNameMSID": "CARD_NAME_962  (雙卵細胞球)"
+  },
+  {
+    "CharacterID": "DRAMIDORO",
+    "DisplayNameMSID": "CARD_NAME_817  (毒藻龍)"
+  },
+  {
+    "CharacterID": "DRAMIDORO_EX",
+    "DisplayNameMSID": "CARD_NAME_911  (毒藻龍ex)"
+  },
+  {
+    "CharacterID": "DREDEAR",
+    "DisplayNameMSID": "CARD_NAME_30  (裙兒小姐)"
+  },
+  {
+    "CharacterID": "DUGTRIO",
+    "DisplayNameMSID": "CARD_NAME_140  (三地鼠)"
+  },
+  {
+    "CharacterID": "DUMBBER",
+    "DisplayNameMSID": "CARD_NAME_1312  (鐵啞鈴)"
+  },
+  {
+    "CharacterID": "DURALUDON",
+    "DisplayNameMSID": "CARD_NAME_1316  (鋁鋼龍)"
+  },
+  {
+    "CharacterID": "DUSTDAS",
+    "DisplayNameMSID": "CARD_NAME_573  (灰塵山)"
+  },
+  {
+    "CharacterID": "EBIWALAR",
+    "DisplayNameMSID": "CARD_NAME_155  (快拳郎)"
+  },
+  {
+    "CharacterID": "EBIWALAR_EX",
+    "DisplayNameMSID": "CARD_NAME_897  (快拳郎ex)"
+  },
+  {
+    "CharacterID": "EIEVUI",
+    "DisplayNameMSID": "CARD_NAME_206  (伊布)"
+  },
+  {
+    "CharacterID": "EIEVUI_EX",
+    "DisplayNameMSID": "CARD_NAME_685  (伊布ex)"
+  },
+  {
+    "CharacterID": "EIFIE",
+    "DisplayNameMSID": "CARD_NAME_679  (太陽伊布)"
+  },
+  {
+    "CharacterID": "EIFIE_EX",
+    "DisplayNameMSID": "CARD_NAME_740  (太陽伊布ex)"
+  },
+  {
+    "CharacterID": "EIPAM",
+    "DisplayNameMSID": "CARD_NAME_386  (長尾怪手)"
+  },
+  {
+    "CharacterID": "ELEBOO",
+    "DisplayNameMSID": "CARD_NAME_101  (電擊獸)"
+  },
+  {
+    "CharacterID": "ELECTRICGENERATOR",
+    "DisplayNameMSID": "CARD_NAME_1125  (電氣發生器)"
+  },
+  {
+    "CharacterID": "ELEKIBLE",
+    "DisplayNameMSID": "CARD_NAME_322  (電擊魔獸)"
+  },
+  {
+    "CharacterID": "ELEKID",
+    "DisplayNameMSID": "CARD_NAME_733  (電擊怪)"
+  },
+  {
+    "CharacterID": "ELESON",
+    "DisplayNameMSID": "CARD_NAME_1003  (毒電嬰)"
+  },
+  {
+    "CharacterID": "ELEZARD",
+    "DisplayNameMSID": "CARD_NAME_111  (光電傘蜥)"
+  },
+  {
+    "CharacterID": "ELFUUN",
+    "DisplayNameMSID": "CARD_NAME_28  (風妖精)"
+  },
+  {
+    "CharacterID": "ELFUUN_EX",
+    "DisplayNameMSID": "CARD_NAME_845  (風妖精ex)"
+  },
+  {
+    "CharacterID": "EMOLGA",
+    "DisplayNameMSID": "CARD_NAME_639  (電飛鼠)"
+  },
+  {
+    "CharacterID": "EMPERTE",
+    "DisplayNameMSID": "CARD_NAME_309  (帝王拿波)"
+  },
+  {
+    "CharacterID": "EMRIT",
+    "DisplayNameMSID": "CARD_NAME_339  (艾姆利多)"
+  },
+  {
+    "CharacterID": "ENBUOH",
+    "DisplayNameMSID": "CARD_NAME_1165  (炎武王)"
+  },
+  {
+    "CharacterID": "ENECO",
+    "DisplayNameMSID": "CARD_NAME_587  (向尾喵)"
+  },
+  {
+    "CharacterID": "ENEKORORO",
+    "DisplayNameMSID": "CARD_NAME_588  (優雅貓)"
+  },
+  {
+    "CharacterID": "ENNEWT",
+    "DisplayNameMSID": "CARD_NAME_50  (焰后蜥)"
+  },
+  {
+    "CharacterID": "ENTEI",
+    "DisplayNameMSID": "CARD_NAME_708  (炎帝)"
+  },
+  {
+    "CharacterID": "ENTEI_EX",
+    "DisplayNameMSID": "CARD_NAME_791  (炎帝ex)"
+  },
+  {
+    "CharacterID": "EREKIKORD",
+    "DisplayNameMSID": "CARD_NAME_664  (電線)"
+  },
+  {
+    "CharacterID": "EREMENTARUTSUKEKAE",
+    "DisplayNameMSID": "CARD_NAME_773  (元素置換)"
+  },
+  {
+    "CharacterID": "ERIAZERO",
+    "DisplayNameMSID": "CARD_NAME_1257  (第零區)"
+  },
+  {
+    "CharacterID": "ERIKA",
+    "DisplayNameMSID": "CARD_NAME_217  (莉佳)"
+  },
+  {
+    "CharacterID": "ERIKITERU",
+    "DisplayNameMSID": "CARD_NAME_110  (傘電蜥)"
+  },
+  {
+    "CharacterID": "ERUREIDO",
+    "DisplayNameMSID": "CARD_NAME_1191  (艾路雷朵)"
+  },
+  {
+    "CharacterID": "ERUREIDO_EX",
+    "DisplayNameMSID": "CARD_NAME_355  (艾路雷朵ex)"
+  },
+  {
+    "CharacterID": "ETEBOTH",
+    "DisplayNameMSID": "CARD_NAME_387  (雙尾怪手)"
+  },
+  {
+    "CharacterID": "EXLEG",
+    "DisplayNameMSID": "CARD_NAME_1115  (烈腿蝗)"
+  },
+  {
+    "CharacterID": "FIARROW",
+    "DisplayNameMSID": "CARD_NAME_507  (烈箭鷹)"
+  },
+  {
+    "CharacterID": "FIELDBLOWER",
+    "DisplayNameMSID": "CARD_NAME_1210  (場地吹風機)"
+  },
+  {
+    "CharacterID": "FIRE",
+    "DisplayNameMSID": "CARD_NAME_46  (火焰鳥)"
+  },
+  {
+    "CharacterID": "FIRE_EX",
+    "DisplayNameMSID": "CARD_NAME_47  (火焰鳥ex)"
+  },
+  {
+    "CharacterID": "FISHER",
+    "DisplayNameMSID": "CARD_NAME_781  (釣魚者)"
+  },
+  {
+    "CharacterID": "FLABEBE",
+    "DisplayNameMSID": "CARD_NAME_256  (花蓓蓓)"
+  },
+  {
+    "CharacterID": "FLOAZEL",
+    "DisplayNameMSID": "CARD_NAME_311  (浮潛鼬)"
+  },
+  {
+    "CharacterID": "FLOETTE",
+    "DisplayNameMSID": "CARD_NAME_257  (花葉蒂)"
+  },
+  {
+    "CharacterID": "FLORGES",
+    "DisplayNameMSID": "CARD_NAME_258  (花潔夫人)"
+  },
+  {
+    "CharacterID": "FLYGON_EX",
+    "DisplayNameMSID": "CARD_NAME_1207  (沙漠蜻蜓ex)"
+  },
+  {
+    "CharacterID": "FOKKO",
+    "DisplayNameMSID": "CARD_NAME_1345  (火狐狸)"
+  },
+  {
+    "CharacterID": "FOODIN",
+    "DisplayNameMSID": "CARD_NAME_117  (胡地)"
+  },
+  {
+    "CharacterID": "FORETOS",
+    "DisplayNameMSID": "CARD_NAME_756  (佛烈托斯)"
+  },
+  {
+    "CharacterID": "FREEGEO",
+    "DisplayNameMSID": "CARD_NAME_799  (幾何雪花)"
+  },
+  {
+    "CharacterID": "FREEZER",
+    "DisplayNameMSID": "CARD_NAME_83  (急凍鳥)"
+  },
+  {
+    "CharacterID": "FREEZER_EX",
+    "DisplayNameMSID": "CARD_NAME_84  (急凍鳥ex)"
+  },
+  {
+    "CharacterID": "FREFUWAN",
+    "DisplayNameMSID": "CARD_NAME_895  (芳香精)"
+  },
+  {
+    "CharacterID": "FROST ROTOM",
+    "DisplayNameMSID": "CARD_NAME_318  (結冰洛托姆)"
+  },
+  {
+    "CharacterID": "FUKAMARU",
+    "DisplayNameMSID": "CARD_NAME_380  (圓陸鯊)"
+  },
+  {
+    "CharacterID": "FUKUTHROW",
+    "DisplayNameMSID": "CARD_NAME_493  (投羽梟)"
+  },
+  {
+    "CharacterID": "FUREIMUPACCHI",
+    "DisplayNameMSID": "CARD_NAME_941  (火補丁)"
+  },
+  {
+    "CharacterID": "FUSHIDE",
+    "DisplayNameMSID": "CARD_NAME_266  (百足蜈蚣)"
+  },
+  {
+    "CharacterID": "FUSHIGIBANA",
+    "DisplayNameMSID": "CARD_NAME_3  (妙蛙花)"
+  },
+  {
+    "CharacterID": "FUSHIGIBANA_EX",
+    "DisplayNameMSID": "CARD_NAME_4  (妙蛙花ex)"
+  },
+  {
+    "CharacterID": "FUSHIGIDANE",
+    "DisplayNameMSID": "CARD_NAME_1  (妙蛙種子)"
+  },
+  {
+    "CharacterID": "FUSHIGINAAME",
+    "DisplayNameMSID": "CARD_NAME_602  (神奇糖果)"
+  },
+  {
+    "CharacterID": "FUSHIGINAHIROBA",
+    "DisplayNameMSID": "CARD_NAME_1062  (神奇廣場)"
+  },
+  {
+    "CharacterID": "FUSHIGISOU",
+    "DisplayNameMSID": "CARD_NAME_2  (妙蛙草)"
+  },
+  {
+    "CharacterID": "FUTACHIMARU",
+    "DisplayNameMSID": "CARD_NAME_1298  (雙刃丸)"
+  },
+  {
+    "CharacterID": "FUTANOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_940  (背蓋化石)"
+  },
+  {
+    "CharacterID": "FUTUHAKASE",
+    "DisplayNameMSID": "CARD_NAME_1256  (弗圖博士)"
+  },
+  {
+    "CharacterID": "FUWANTE",
+    "DisplayNameMSID": "CARD_NAME_336  (飄飄球)"
+  },
+  {
+    "CharacterID": "FUWARIDE",
+    "DisplayNameMSID": "CARD_NAME_337  (隨風球)"
+  },
+  {
+    "CharacterID": "GABITE",
+    "DisplayNameMSID": "CARD_NAME_381  (尖牙陸鯊)"
+  },
+  {
+    "CharacterID": "GABURIAS",
+    "DisplayNameMSID": "CARD_NAME_382  (烈咬陸鯊)"
+  },
+  {
+    "CharacterID": "GABURIAS_EX",
+    "DisplayNameMSID": "CARD_NAME_438  (烈咬陸鯊ex)"
+  },
+  {
+    "CharacterID": "GACHIGORAS",
+    "DisplayNameMSID": "CARD_NAME_1021  (怪顎龍)"
+  },
+  {
+    "CharacterID": "GACHIGUMA",
+    "DisplayNameMSID": "CARD_NAME_1274  (月月熊)"
+  },
+  {
+    "CharacterID": "GAKEGANI",
+    "DisplayNameMSID": "CARD_NAME_1111  (毛崖蟹)"
+  },
+  {
+    "CharacterID": "GALARBARRIERD",
+    "DisplayNameMSID": "CARD_NAME_991  (伽勒爾魔牆人偶)"
+  },
+  {
+    "CharacterID": "GALARBARRIKOHRU",
+    "DisplayNameMSID": "CARD_NAME_992  (伽勒爾踏冰人偶)"
+  },
+  {
+    "CharacterID": "GALARGALLOP",
+    "DisplayNameMSID": "CARD_NAME_1008  (伽勒爾烈焰馬)"
+  },
+  {
+    "CharacterID": "GALARJIGUZAGUMA",
+    "DisplayNameMSID": "CARD_NAME_1025  (伽勒爾蛇紋熊)"
+  },
+  {
+    "CharacterID": "GALARMAGGYO",
+    "DisplayNameMSID": "CARD_NAME_1035  (伽勒爾泥巴魚)"
+  },
+  {
+    "CharacterID": "GALARMASSUGUMA",
+    "DisplayNameMSID": "CARD_NAME_1026  (伽勒爾直衝熊)"
+  },
+  {
+    "CharacterID": "GALARNYAIKING",
+    "DisplayNameMSID": "CARD_NAME_1033  (伽勒爾喵頭目)"
+  },
+  {
+    "CharacterID": "GALARNYARTH",
+    "DisplayNameMSID": "CARD_NAME_1032  (伽勒爾喵喵)"
+  },
+  {
+    "CharacterID": "GALARPONYTA",
+    "DisplayNameMSID": "CARD_NAME_1007  (伽勒爾小火馬)"
+  },
+  {
+    "CharacterID": "GALARSUNIGOON",
+    "DisplayNameMSID": "CARD_NAME_806  (伽勒爾魔靈珊瑚)"
+  },
+  {
+    "CharacterID": "GALARSUNNYGO",
+    "DisplayNameMSID": "CARD_NAME_805  (伽勒爾太陽珊瑚)"
+  },
+  {
+    "CharacterID": "GALARTACHIFUSAGUMA",
+    "DisplayNameMSID": "CARD_NAME_1027  (伽勒爾堵攔熊)"
+  },
+  {
+    "CharacterID": "GALLOP",
+    "DisplayNameMSID": "CARD_NAME_43  (烈焰馬)"
+  },
+  {
+    "CharacterID": "GALLOP_EX",
+    "DisplayNameMSID": "CARD_NAME_850  (烈焰馬ex)"
+  },
+  {
+    "CharacterID": "GAMAGARU",
+    "DisplayNameMSID": "CARD_NAME_873  (藍蟾蜍)"
+  },
+  {
+    "CharacterID": "GAMAGEROGE",
+    "DisplayNameMSID": "CARD_NAME_874  (蟾蜍王)"
+  },
+  {
+    "CharacterID": "GAMALE",
+    "DisplayNameMSID": "CARD_NAME_412  (紳士蛾)"
+  },
+  {
+    "CharacterID": "GAMECENTER",
+    "DisplayNameMSID": "CARD_NAME_1389  (電子遊樂場)"
+  },
+  {
+    "CharacterID": "GAMENODES",
+    "DisplayNameMSID": "CARD_NAME_750  (龜足巨鎧)"
+  },
+  {
+    "CharacterID": "GANGAR",
+    "DisplayNameMSID": "CARD_NAME_122  (耿鬼)"
+  },
+  {
+    "CharacterID": "GANGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_123  (耿鬼ex)"
+  },
+  {
+    "CharacterID": "GANTLE",
+    "DisplayNameMSID": "CARD_NAME_1018  (地幔岩)"
+  },
+  {
+    "CharacterID": "GAOGAEN",
+    "DisplayNameMSID": "CARD_NAME_674  (熾焰咆哮虎)"
+  },
+  {
+    "CharacterID": "GAOGAEN_EX",
+    "DisplayNameMSID": "CARD_NAME_510  (熾焰咆哮虎ex)"
+  },
+  {
+    "CharacterID": "GARAGARA",
+    "DisplayNameMSID": "CARD_NAME_152  (嘎啦嘎啦)"
+  },
+  {
+    "CharacterID": "GARAGARA_EX",
+    "DisplayNameMSID": "CARD_NAME_153  (嘎啦嘎啦ex)"
+  },
+  {
+    "CharacterID": "GARDIE",
+    "DisplayNameMSID": "CARD_NAME_39  (卡蒂狗)"
+  },
+  {
+    "CharacterID": "GARURA",
+    "DisplayNameMSID": "CARD_NAME_203  (袋獸)"
+  },
+  {
+    "CharacterID": "GEKKOUGA",
+    "DisplayNameMSID": "CARD_NAME_89  (甲賀忍蛙)"
+  },
+  {
+    "CharacterID": "GEKKOUGA_EX",
+    "DisplayNameMSID": "CARD_NAME_878  (甲賀忍蛙ex)"
+  },
+  {
+    "CharacterID": "GEKOGASHIRA",
+    "DisplayNameMSID": "CARD_NAME_88  (呱頭蛙)"
+  },
+  {
+    "CharacterID": "GENESECT",
+    "DisplayNameMSID": "CARD_NAME_953  (蓋諾賽克特)"
+  },
+  {
+    "CharacterID": "GHOS",
+    "DisplayNameMSID": "CARD_NAME_120  (鬼斯)"
+  },
+  {
+    "CharacterID": "GHOST",
+    "DisplayNameMSID": "CARD_NAME_121  (鬼斯通)"
+  },
+  {
+    "CharacterID": "GIARU",
+    "DisplayNameMSID": "CARD_NAME_760  (齒輪兒)"
+  },
+  {
+    "CharacterID": "GIGAIATH_EX",
+    "DisplayNameMSID": "CARD_NAME_1019  (龐岩怪ex)"
+  },
+  {
+    "CharacterID": "GIGIARU",
+    "DisplayNameMSID": "CARD_NAME_761  (齒輪組)"
+  },
+  {
+    "CharacterID": "GIGIGIARU",
+    "DisplayNameMSID": "CARD_NAME_762  (齒輪怪)"
+  },
+  {
+    "CharacterID": "GILLGARD",
+    "DisplayNameMSID": "CARD_NAME_918  (堅盾劍怪)"
+  },
+  {
+    "CharacterID": "GIMOH",
+    "DisplayNameMSID": "CARD_NAME_913  (詐唬魔)"
+  },
+  {
+    "CharacterID": "GINGADANNOSHITAPPA",
+    "DisplayNameMSID": "CARD_NAME_406  (銀河隊手下)"
+  },
+  {
+    "CharacterID": "GIRATINA",
+    "DisplayNameMSID": "CARD_NAME_341  (騎拉帝納)"
+  },
+  {
+    "CharacterID": "GIRATINA_EX",
+    "DisplayNameMSID": "CARD_NAME_465  (騎拉帝納ex)"
+  },
+  {
+    "CharacterID": "GLACIA",
+    "DisplayNameMSID": "CARD_NAME_316  (冰伊布)"
+  },
+  {
+    "CharacterID": "GLACIA_EX",
+    "DisplayNameMSID": "CARD_NAME_424  (冰伊布ex)"
+  },
+  {
+    "CharacterID": "GLANTH",
+    "DisplayNameMSID": "CARD_NAME_810  (古空棘魚)"
+  },
+  {
+    "CharacterID": "GLAZIO",
+    "DisplayNameMSID": "CARD_NAME_666  (格拉吉歐)"
+  },
+  {
+    "CharacterID": "GLIGER",
+    "DisplayNameMSID": "CARD_NAME_344  (天蠍)"
+  },
+  {
+    "CharacterID": "GLION",
+    "DisplayNameMSID": "CARD_NAME_345  (天蠍王)"
+  },
+  {
+    "CharacterID": "GOBIT",
+    "DisplayNameMSID": "CARD_NAME_135  (泥偶小人)"
+  },
+  {
+    "CharacterID": "GOGOAT",
+    "DisplayNameMSID": "CARD_NAME_32  (坐騎山羊)"
+  },
+  {
+    "CharacterID": "GOKULIN",
+    "DisplayNameMSID": "CARD_NAME_1309  (溶食獸)"
+  },
+  {
+    "CharacterID": "GOLBAT",
+    "DisplayNameMSID": "CARD_NAME_173  (大嘴蝠)"
+  },
+  {
+    "CharacterID": "GOLDUCK",
+    "DisplayNameMSID": "CARD_NAME_58  (哥達鴨)"
+  },
+  {
+    "CharacterID": "GOLONE",
+    "DisplayNameMSID": "CARD_NAME_148  (隆隆石)"
+  },
+  {
+    "CharacterID": "GOLONYA",
+    "DisplayNameMSID": "CARD_NAME_149  (隆隆岩)"
+  },
+  {
+    "CharacterID": "GOLOOG",
+    "DisplayNameMSID": "CARD_NAME_136  (泥偶巨人)"
+  },
+  {
+    "CharacterID": "GOMAZOU",
+    "DisplayNameMSID": "CARD_NAME_431  (小小象)"
+  },
+  {
+    "CharacterID": "GONBE",
+    "DisplayNameMSID": "CARD_NAME_1273  (小卡比獸)"
+  },
+  {
+    "CharacterID": "GONYONYO",
+    "DisplayNameMSID": "CARD_NAME_927  (咕妞妞)"
+  },
+  {
+    "CharacterID": "GORIKY",
+    "DisplayNameMSID": "CARD_NAME_144  (豪力)"
+  },
+  {
+    "CharacterID": "GORIRANDER",
+    "DisplayNameMSID": "CARD_NAME_849  (轟擂金剛猩)"
+  },
+  {
+    "CharacterID": "GORONDA",
+    "DisplayNameMSID": "CARD_NAME_910  (流氓熊貓)"
+  },
+  {
+    "CharacterID": "GOTHIMIRU",
+    "DisplayNameMSID": "CARD_NAME_892  (哥德小童)"
+  },
+  {
+    "CharacterID": "GOTHIMU",
+    "DisplayNameMSID": "CARD_NAME_891  (哥德寶寶)"
+  },
+  {
+    "CharacterID": "GOTHIRUSELLE",
+    "DisplayNameMSID": "CARD_NAME_893  (哥德小姐)"
+  },
+  {
+    "CharacterID": "GOTSUGOTSUMETTO",
+    "DisplayNameMSID": "CARD_NAME_403  (凸凸頭盔)"
+  },
+  {
+    "CharacterID": "GOUKAZARU_EX",
+    "DisplayNameMSID": "CARD_NAME_301  (烈焰猴ex)"
+  },
+  {
+    "CharacterID": "GOURTON",
+    "DisplayNameMSID": "CARD_NAME_1122  (愛吃豚)"
+  },
+  {
+    "CharacterID": "GOUTETUNOMAEKAKE",
+    "DisplayNameMSID": "CARD_NAME_775  (鋼鐵前掛)"
+  },
+  {
+    "CharacterID": "GRAENA",
+    "DisplayNameMSID": "CARD_NAME_361  (大狼犬)"
+  },
+  {
+    "CharacterID": "GRANBULU",
+    "DisplayNameMSID": "CARD_NAME_744  (布魯皇)"
+  },
+  {
+    "CharacterID": "GREEN",
+    "DisplayNameMSID": "CARD_NAME_275  (青綠)"
+  },
+  {
+    "CharacterID": "GROUDON",
+    "DisplayNameMSID": "CARD_NAME_1138  (固拉多)"
+  },
+  {
+    "CharacterID": "GUREGGRU",
+    "DisplayNameMSID": "CARD_NAME_367  (不良蛙)"
+  },
+  {
+    "CharacterID": "GURENARMA_EX",
+    "DisplayNameMSID": "CARD_NAME_1081  (紅蓮鎧騎ex)"
+  },
+  {
+    "CharacterID": "GUSOKUMUSHA",
+    "DisplayNameMSID": "CARD_NAME_502  (具甲武者)"
+  },
+  {
+    "CharacterID": "GUZUMA",
+    "DisplayNameMSID": "CARD_NAME_609  (古茲馬)"
+  },
+  {
+    "CharacterID": "GYARADOS",
+    "DisplayNameMSID": "CARD_NAME_78  (暴鯉龍)"
+  },
+  {
+    "CharacterID": "GYARADOS_EX",
+    "DisplayNameMSID": "CARD_NAME_243  (暴鯉龍ex)"
+  },
+  {
+    "CharacterID": "HABATAKUKAMI",
+    "DisplayNameMSID": "CARD_NAME_1269  (振翼髮)"
+  },
+  {
+    "CharacterID": "HABATAKUKAMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1227  (振翼髮ex)"
+  },
+  {
+    "CharacterID": "HABUNAKE",
+    "DisplayNameMSID": "CARD_NAME_813  (飯匙蛇)"
+  },
+  {
+    "CharacterID": "HAGANEIL",
+    "DisplayNameMSID": "CARD_NAME_757  (大鋼蛇)"
+  },
+  {
+    "CharacterID": "HAGIGISHIRI",
+    "DisplayNameMSID": "CARD_NAME_91  (磨牙彩皮魚)"
+  },
+  {
+    "CharacterID": "HAHAKOMORI",
+    "DisplayNameMSID": "CARD_NAME_1156  (保母蟲)"
+  },
+  {
+    "CharacterID": "HAIKINGUCOURSE",
+    "DisplayNameMSID": "CARD_NAME_1148  (健行步道)"
+  },
+  {
+    "CharacterID": "HAJIMARINOHEIGEN",
+    "DisplayNameMSID": "CARD_NAME_1061  (起始平原)"
+  },
+  {
+    "CharacterID": "HAKADOG",
+    "DisplayNameMSID": "CARD_NAME_1107  (墓揚犬)"
+  },
+  {
+    "CharacterID": "HAKASENOKENKYU",
+    "DisplayNameMSID": "CARD_NAME_229  (博士的研究)"
+  },
+  {
+    "CharacterID": "HAKURYU",
+    "DisplayNameMSID": "CARD_NAME_184  (哈克龍)"
+  },
+  {
+    "CharacterID": "HALA",
+    "DisplayNameMSID": "CARD_NAME_947  (哈拉)"
+  },
+  {
+    "CharacterID": "HANDSCOPE",
+    "DisplayNameMSID": "CARD_NAME_230  (窺手鏡)"
+  },
+  {
+    "CharacterID": "HANDSOME",
+    "DisplayNameMSID": "CARD_NAME_667  (帥哥)"
+  },
+  {
+    "CharacterID": "HANECCO",
+    "DisplayNameMSID": "CARD_NAME_696  (毽子草)"
+  },
+  {
+    "CharacterID": "HANENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_939  (羽毛化石)"
+  },
+  {
+    "CharacterID": "HAPPINAS",
+    "DisplayNameMSID": "CARD_NAME_763  (幸福蛋)"
+  },
+  {
+    "CharacterID": "HAPPINAS_EX",
+    "DisplayNameMSID": "CARD_NAME_784  (幸福蛋ex)"
+  },
+  {
+    "CharacterID": "HAPPINESSEGG",
+    "DisplayNameMSID": "CARD_NAME_1211  (幸運蛋)"
+  },
+  {
+    "CharacterID": "HARABARIE",
+    "DisplayNameMSID": "CARD_NAME_1006  (電肚蛙)"
+  },
+  {
+    "CharacterID": "HARABARIE_EX",
+    "DisplayNameMSID": "CARD_NAME_1096  (電肚蛙ex)"
+  },
+  {
+    "CharacterID": "HARIBORG",
+    "DisplayNameMSID": "CARD_NAME_975  (胖胖哈力)"
+  },
+  {
+    "CharacterID": "HARIMARON",
+    "DisplayNameMSID": "CARD_NAME_974  (哈力栗)"
+  },
+  {
+    "CharacterID": "HARITEYAMA",
+    "DisplayNameMSID": "CARD_NAME_552  (鐵掌力士)"
+  },
+  {
+    "CharacterID": "HARUKA",
+    "DisplayNameMSID": "CARD_NAME_948  (小遙)"
+  },
+  {
+    "CharacterID": "HARYSEN",
+    "DisplayNameMSID": "CARD_NAME_719  (千針魚)"
+  },
+  {
+    "CharacterID": "HASSAM",
+    "DisplayNameMSID": "CARD_NAME_758  (巨鉗螳螂)"
+  },
+  {
+    "CharacterID": "HASSBOH",
+    "DisplayNameMSID": "CARD_NAME_864  (蓮葉童子)"
+  },
+  {
+    "CharacterID": "HASUBRERO",
+    "DisplayNameMSID": "CARD_NAME_865  (蓮帽小童)"
+  },
+  {
+    "CharacterID": "HATOBOH",
+    "DisplayNameMSID": "CARD_NAME_1325  (咕咕鴿)"
+  },
+  {
+    "CharacterID": "HAU",
+    "DisplayNameMSID": "CARD_NAME_689  (哈烏)"
+  },
+  {
+    "CharacterID": "HAYASHIGAME",
+    "DisplayNameMSID": "CARD_NAME_284  (樹林龜)"
+  },
+  {
+    "CharacterID": "HEAT ROTOM",
+    "DisplayNameMSID": "CARD_NAME_302  (加熱洛托姆)"
+  },
+  {
+    "CharacterID": "HEATRAN",
+    "DisplayNameMSID": "CARD_NAME_379  (席多藍恩)"
+  },
+  {
+    "CharacterID": "HEIGANI",
+    "DisplayNameMSID": "CARD_NAME_725  (龍蝦小兵)"
+  },
+  {
+    "CharacterID": "HELLGAR",
+    "DisplayNameMSID": "CARD_NAME_417  (黑魯加)"
+  },
+  {
+    "CharacterID": "HERACROS",
+    "DisplayNameMSID": "CARD_NAME_411  (赫拉克羅斯)"
+  },
+  {
+    "CharacterID": "HERDERRIE",
+    "DisplayNameMSID": "CARD_NAME_657  (哈約克)"
+  },
+  {
+    "CharacterID": "HEYRUSHER",
+    "DisplayNameMSID": "CARD_NAME_461  (吃吼霸)"
+  },
+  {
+    "CharacterID": "HIBANNY",
+    "DisplayNameMSID": "CARD_NAME_986  (炎兔兒)"
+  },
+  {
+    "CharacterID": "HIDOIDE",
+    "DisplayNameMSID": "CARD_NAME_574  (好壞星)"
+  },
+  {
+    "CharacterID": "HIHIDARUMA",
+    "DisplayNameMSID": "CARD_NAME_711  (達摩狒狒)"
+  },
+  {
+    "CharacterID": "HIKARI",
+    "DisplayNameMSID": "CARD_NAME_409  (小光)"
+  },
+  {
+    "CharacterID": "HIKER",
+    "DisplayNameMSID": "CARD_NAME_783  (登山男)"
+  },
+  {
+    "CharacterID": "HIKOZARU",
+    "DisplayNameMSID": "CARD_NAME_299  (小火焰猴)"
+  },
+  {
+    "CharacterID": "HIMANUTS",
+    "DisplayNameMSID": "CARD_NAME_699  (向日種子)"
+  },
+  {
+    "CharacterID": "HIMEGUMA",
+    "DisplayNameMSID": "CARD_NAME_767  (熊寶寶)"
+  },
+  {
+    "CharacterID": "HIMENKA",
+    "DisplayNameMSID": "CARD_NAME_981  (幼棉棉)"
+  },
+  {
+    "CharacterID": "HIMITSUNOKOHAKU",
+    "DisplayNameMSID": "CARD_NAME_216  (秘密琥珀)"
+  },
+  {
+    "CharacterID": "HINBASS",
+    "DisplayNameMSID": "CARD_NAME_792  (醜醜魚)"
+  },
+  {
+    "CharacterID": "HINOARASHI",
+    "DisplayNameMSID": "CARD_NAME_704  (火球鼠)"
+  },
+  {
+    "CharacterID": "HINOYAKOMA",
+    "DisplayNameMSID": "CARD_NAME_506  (火箭雀)"
+  },
+  {
+    "CharacterID": "HIPPOPOTAS",
+    "DisplayNameMSID": "CARD_NAME_353  (沙河馬)"
+  },
+  {
+    "CharacterID": "HIRAHINA",
+    "DisplayNameMSID": "CARD_NAME_1104  (飄飄雛)"
+  },
+  {
+    "CharacterID": "HIRENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1053  (鰭之化石)"
+  },
+  {
+    "CharacterID": "HISUIBASSRAO",
+    "DisplayNameMSID": "CARD_NAME_1354  (洗翠野蠻鱸魚)"
+  },
+  {
+    "CharacterID": "HISUIDREDEAR",
+    "DisplayNameMSID": "CARD_NAME_1263  (洗翠裙兒小姐)"
+  },
+  {
+    "CharacterID": "HISUIIDAITOU",
+    "DisplayNameMSID": "CARD_NAME_1355  (洗翠幽尾玄魚)"
+  },
+  {
+    "CharacterID": "HISUINUMEIL",
+    "DisplayNameMSID": "CARD_NAME_1271  (洗翠黏美兒)"
+  },
+  {
+    "CharacterID": "HISUINUMELGON",
+    "DisplayNameMSID": "CARD_NAME_1272  (洗翠黏美龍)"
+  },
+  {
+    "CharacterID": "HISUIZOROARK_EX",
+    "DisplayNameMSID": "CARD_NAME_1275  (洗翠索羅亞克ex)"
+  },
+  {
+    "CharacterID": "HISUIZORUA",
+    "DisplayNameMSID": "CARD_NAME_1262  (洗翠索羅亞)"
+  },
+  {
+    "CharacterID": "HITHAMMER",
+    "DisplayNameMSID": "CARD_NAME_942  (重擊錘)"
+  },
+  {
+    "CharacterID": "HITODEMAN",
+    "DisplayNameMSID": "CARD_NAME_74  (海星星)"
+  },
+  {
+    "CharacterID": "HITOKAGE",
+    "DisplayNameMSID": "CARD_NAME_33  (小火龍)"
+  },
+  {
+    "CharacterID": "HITOMOSHI",
+    "DisplayNameMSID": "CARD_NAME_858  (燭光靈)"
+  },
+  {
+    "CharacterID": "HITOTSUKI",
+    "DisplayNameMSID": "CARD_NAME_916  (獨劍鞘)"
+  },
+  {
+    "CharacterID": "HIYAKKIE",
+    "DisplayNameMSID": "CARD_NAME_871  (冷水猿)"
+  },
+  {
+    "CharacterID": "HIYAPPU",
+    "DisplayNameMSID": "CARD_NAME_870  (冷水猴)"
+  },
+  {
+    "CharacterID": "HOERUKO",
+    "DisplayNameMSID": "CARD_NAME_867  (吼吼鯨)"
+  },
+  {
+    "CharacterID": "HOGATOR",
+    "DisplayNameMSID": "CARD_NAME_1077  (呆火鱷)"
+  },
+  {
+    "CharacterID": "HOHO",
+    "DisplayNameMSID": "CARD_NAME_442  (咕咕)"
+  },
+  {
+    "CharacterID": "HOOPA",
+    "DisplayNameMSID": "CARD_NAME_1305  (胡帕)"
+  },
+  {
+    "CharacterID": "HOOPA_EX",
+    "DisplayNameMSID": "CARD_NAME_1311  (胡帕ex)"
+  },
+  {
+    "CharacterID": "HORUBEE",
+    "DisplayNameMSID": "CARD_NAME_1047  (掘掘兔)"
+  },
+  {
+    "CharacterID": "HORUDO",
+    "DisplayNameMSID": "CARD_NAME_1048  (掘地兔)"
+  },
+  {
+    "CharacterID": "HOSHIGARISU",
+    "DisplayNameMSID": "CARD_NAME_632  (貪心栗鼠)"
+  },
+  {
+    "CharacterID": "HOUOU",
+    "DisplayNameMSID": "CARD_NAME_851  (鳳王)"
+  },
+  {
+    "CharacterID": "HOUOU_EX",
+    "DisplayNameMSID": "CARD_NAME_709  (鳳王ex)"
+  },
+  {
+    "CharacterID": "HULKUJIRA",
+    "DisplayNameMSID": "CARD_NAME_1090  (浩大鯨)"
+  },
+  {
+    "CharacterID": "HUNTAIL",
+    "DisplayNameMSID": "CARD_NAME_1170  (獵斑魚)"
+  },
+  {
+    "CharacterID": "HUURO",
+    "DisplayNameMSID": "CARD_NAME_1335  (風露)"
+  },
+  {
+    "CharacterID": "IDAINAKIBA",
+    "DisplayNameMSID": "CARD_NAME_1235  (雄偉牙)"
+  },
+  {
+    "CharacterID": "IIBUINOBAKKU",
+    "DisplayNameMSID": "CARD_NAME_687  (伊布包包)"
+  },
+  {
+    "CharacterID": "IJIWARULETTER",
+    "DisplayNameMSID": "CARD_NAME_1144  (惡搞信)"
+  },
+  {
+    "CharacterID": "IKIRINKO",
+    "DisplayNameMSID": "CARD_NAME_1124  (怒鸚哥)"
+  },
+  {
+    "CharacterID": "IKKANEZUMI",
+    "DisplayNameMSID": "CARD_NAME_1050  (一家鼠)"
+  },
+  {
+    "CharacterID": "ILIMA",
+    "DisplayNameMSID": "CARD_NAME_607  (伊利馬)"
+  },
+  {
+    "CharacterID": "ILLUMISE",
+    "DisplayNameMSID": "CARD_NAME_1134  (甜甜螢)"
+  },
+  {
+    "CharacterID": "INCHIKIBARI",
+    "DisplayNameMSID": "CARD_NAME_1331  (耍詐針)"
+  },
+  {
+    "CharacterID": "INISHIENOTOUGIJYOU",
+    "DisplayNameMSID": "CARD_NAME_1217  (古老鬥技場)"
+  },
+  {
+    "CharacterID": "INOMOO",
+    "DisplayNameMSID": "CARD_NAME_304  (長毛豬)"
+  },
+  {
+    "CharacterID": "INTEREON",
+    "DisplayNameMSID": "CARD_NAME_1176  (千面避役)"
+  },
+  {
+    "CharacterID": "IRIS",
+    "DisplayNameMSID": "CARD_NAME_1146  (艾莉絲)"
+  },
+  {
+    "CharacterID": "IRUKAMAN",
+    "DisplayNameMSID": "CARD_NAME_1088  (海豚俠)"
+  },
+  {
+    "CharacterID": "ISHIHENGIN",
+    "DisplayNameMSID": "CARD_NAME_263  (巨石丁)"
+  },
+  {
+    "CharacterID": "ISHIZUMAI",
+    "DisplayNameMSID": "CARD_NAME_811  (石居蟹)"
+  },
+  {
+    "CharacterID": "ISITSUBUTE",
+    "DisplayNameMSID": "CARD_NAME_147  (小拳石)"
+  },
+  {
+    "CharacterID": "ITAZURAROULETTE",
+    "DisplayNameMSID": "CARD_NAME_938  (惡作劇輪盤)"
+  },
+  {
+    "CharacterID": "ITOMARU",
+    "DisplayNameMSID": "CARD_NAME_752  (圓絲蛛)"
+  },
+  {
+    "CharacterID": "ITSUKI",
+    "DisplayNameMSID": "CARD_NAME_778  (一樹)"
+  },
+  {
+    "CharacterID": "IWANKO",
+    "DisplayNameMSID": "CARD_NAME_559  (岩狗狗)"
+  },
+  {
+    "CharacterID": "IWAPALACE",
+    "DisplayNameMSID": "CARD_NAME_812  (岩殿居蟹)"
+  },
+  {
+    "CharacterID": "IWAPALACE_EX",
+    "DisplayNameMSID": "CARD_NAME_1194  (岩殿居蟹ex)"
+  },
+  {
+    "CharacterID": "IWARK",
+    "DisplayNameMSID": "CARD_NAME_150  (大岩蛇)"
+  },
+  {
+    "CharacterID": "IYASHINOUMIBE",
+    "DisplayNameMSID": "CARD_NAME_1337  (療癒海邊)"
+  },
+  {
+    "CharacterID": "JAGURA",
+    "DisplayNameMSID": "CARD_NAME_1058  (雜耍藝人)"
+  },
+  {
+    "CharacterID": "JALORDA",
+    "DisplayNameMSID": "CARD_NAME_237  (君主蛇)"
+  },
+  {
+    "CharacterID": "JANOVY",
+    "DisplayNameMSID": "CARD_NAME_236  (青藤蛇)"
+  },
+  {
+    "CharacterID": "JIBACOIL",
+    "DisplayNameMSID": "CARD_NAME_321  (自爆磁怪)"
+  },
+  {
+    "CharacterID": "JIBACOIL_EX",
+    "DisplayNameMSID": "CARD_NAME_1178  (自爆磁怪ex)"
+  },
+  {
+    "CharacterID": "JIGUZAGUMA",
+    "DisplayNameMSID": "CARD_NAME_925  (蛇紋熊)"
+  },
+  {
+    "CharacterID": "JIJILONG",
+    "DisplayNameMSID": "CARD_NAME_583  (老翁龍)"
+  },
+  {
+    "CharacterID": "JIMEREON",
+    "DisplayNameMSID": "CARD_NAME_1175  (變澀蜥)"
+  },
+  {
+    "CharacterID": "JIODUMU",
+    "DisplayNameMSID": "CARD_NAME_1233  (鹽石壘)"
+  },
+  {
+    "CharacterID": "JIRACHI",
+    "DisplayNameMSID": "CARD_NAME_887  (基拉祈)"
+  },
+  {
+    "CharacterID": "JUGON",
+    "DisplayNameMSID": "CARD_NAME_65  (白海獅)"
+  },
+  {
+    "CharacterID": "JUKAIN",
+    "DisplayNameMSID": "CARD_NAME_1151  (蜥蜴王)"
+  },
+  {
+    "CharacterID": "JUN",
+    "DisplayNameMSID": "CARD_NAME_448  (阿馴)"
+  },
+  {
+    "CharacterID": "JUNAIPER",
+    "DisplayNameMSID": "CARD_NAME_633  (狙射樹梟)"
+  },
+  {
+    "CharacterID": "JUNAIPER_EX",
+    "DisplayNameMSID": "CARD_NAME_494  (狙射樹梟ex)"
+  },
+  {
+    "CharacterID": "JUPPETA",
+    "DisplayNameMSID": "CARD_NAME_539  (詛咒娃娃)"
+  },
+  {
+    "CharacterID": "JUPTILE",
+    "DisplayNameMSID": "CARD_NAME_1150  (森林蜥蜴)"
+  },
+  {
+    "CharacterID": "JYARAKO",
+    "DisplayNameMSID": "CARD_NAME_584  (心鱗寶)"
+  },
+  {
+    "CharacterID": "JYARANGO",
+    "DisplayNameMSID": "CARD_NAME_585  (鱗甲龍)"
+  },
+  {
+    "CharacterID": "JYARARANGA",
+    "DisplayNameMSID": "CARD_NAME_586  (杖尾鱗甲龍)"
+  },
+  {
+    "CharacterID": "KABALDON",
+    "DisplayNameMSID": "CARD_NAME_354  (河馬獸)"
+  },
+  {
+    "CharacterID": "KABIGON",
+    "DisplayNameMSID": "CARD_NAME_209  (卡比獸)"
+  },
+  {
+    "CharacterID": "KABIGON_EX",
+    "DisplayNameMSID": "CARD_NAME_686  (卡比獸ex)"
+  },
+  {
+    "CharacterID": "KABURUMO",
+    "DisplayNameMSID": "CARD_NAME_489  (蓋蓋蟲)"
+  },
+  {
+    "CharacterID": "KABUTO",
+    "DisplayNameMSID": "CARD_NAME_158  (化石盔)"
+  },
+  {
+    "CharacterID": "KABUTOPS",
+    "DisplayNameMSID": "CARD_NAME_159  (鐮刀盔)"
+  },
+  {
+    "CharacterID": "KACHIKOHRU",
+    "DisplayNameMSID": "CARD_NAME_879  (冰寶)"
+  },
+  {
+    "CharacterID": "KAENJISHI",
+    "DisplayNameMSID": "CARD_NAME_862  (火炎獅)"
+  },
+  {
+    "CharacterID": "KAGEBOUZU",
+    "DisplayNameMSID": "CARD_NAME_538  (怨影娃娃)"
+  },
+  {
+    "CharacterID": "KAI",
+    "DisplayNameMSID": "CARD_NAME_446  (珠貝)"
+  },
+  {
+    "CharacterID": "KAIDEN",
+    "DisplayNameMSID": "CARD_NAME_1097  (電海燕)"
+  },
+  {
+    "CharacterID": "KAILIOS",
+    "DisplayNameMSID": "CARD_NAME_26  (凱羅斯)"
+  },
+  {
+    "CharacterID": "KAINOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_214  (貝殼化石)"
+  },
+  {
+    "CharacterID": "KAIRIKY",
+    "DisplayNameMSID": "CARD_NAME_145  (怪力)"
+  },
+  {
+    "CharacterID": "KAIRIKY_EX",
+    "DisplayNameMSID": "CARD_NAME_146  (怪力ex)"
+  },
+  {
+    "CharacterID": "KAIRYU",
+    "DisplayNameMSID": "CARD_NAME_185  (快龍)"
+  },
+  {
+    "CharacterID": "KAIRYU_EX",
+    "DisplayNameMSID": "CARD_NAME_684  (快龍ex)"
+  },
+  {
+    "CharacterID": "KAJICCHU",
+    "DisplayNameMSID": "CARD_NAME_670  (啃果蟲)"
+  },
+  {
+    "CharacterID": "KAJIRIGAME",
+    "DisplayNameMSID": "CARD_NAME_247  (暴噬龜)"
+  },
+  {
+    "CharacterID": "KAKEDASHICHOSAIN",
+    "DisplayNameMSID": "CARD_NAME_274  (新手調查員)"
+  },
+  {
+    "CharacterID": "KAKI",
+    "DisplayNameMSID": "CARD_NAME_608  (卡奇)"
+  },
+  {
+    "CharacterID": "KAKUREON",
+    "DisplayNameMSID": "CARD_NAME_1323  (變隱龍)"
+  },
+  {
+    "CharacterID": "KAMASUJAW",
+    "DisplayNameMSID": "CARD_NAME_882  (戽斗尖梭)"
+  },
+  {
+    "CharacterID": "KAMEIL",
+    "DisplayNameMSID": "CARD_NAME_54  (卡咪龜)"
+  },
+  {
+    "CharacterID": "KAMETETE",
+    "DisplayNameMSID": "CARD_NAME_749  (龜腳腳)"
+  },
+  {
+    "CharacterID": "KAMEX",
+    "DisplayNameMSID": "CARD_NAME_55  (水箭龜)"
+  },
+  {
+    "CharacterID": "KAMEX_EX",
+    "DisplayNameMSID": "CARD_NAME_56  (水箭龜ex)"
+  },
+  {
+    "CharacterID": "KAMICCHU",
+    "DisplayNameMSID": "CARD_NAME_1321  (裹蜜蟲)"
+  },
+  {
+    "CharacterID": "KAMITSUOROCHI",
+    "DisplayNameMSID": "CARD_NAME_1322  (蜜集大蛇)"
+  },
+  {
+    "CharacterID": "KAMITSURE",
+    "DisplayNameMSID": "CARD_NAME_1278  (小菊兒)"
+  },
+  {
+    "CharacterID": "KAMITURUGI",
+    "DisplayNameMSID": "CARD_NAME_617  (紙御劍)"
+  },
+  {
+    "CharacterID": "KAMONEGI",
+    "DisplayNameMSID": "CARD_NAME_198  (大蔥鴨)"
+  },
+  {
+    "CharacterID": "KAMUKAME",
+    "DisplayNameMSID": "CARD_NAME_246  (咬咬龜)"
+  },
+  {
+    "CharacterID": "KANKOUKYAKU",
+    "DisplayNameMSID": "CARD_NAME_1057  (觀光客)"
+  },
+  {
+    "CharacterID": "KANNAGITOWNNOTYOUROU",
+    "DisplayNameMSID": "CARD_NAME_447  (神和鎮長老)"
+  },
+  {
+    "CharacterID": "KANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_473  (小鍛匠)"
+  },
+  {
+    "CharacterID": "KAPOERER",
+    "DisplayNameMSID": "CARD_NAME_346  (戰舞郎)"
+  },
+  {
+    "CharacterID": "KAPU-BULUL",
+    "DisplayNameMSID": "CARD_NAME_504  (卡璞・哞哞)"
+  },
+  {
+    "CharacterID": "KAPU-KOKEKO",
+    "DisplayNameMSID": "CARD_NAME_533  (卡璞・鳴鳴)"
+  },
+  {
+    "CharacterID": "KAPU-KOKEKO_EX",
+    "DisplayNameMSID": "CARD_NAME_630  (卡璞・鳴鳴ex)"
+  },
+  {
+    "CharacterID": "KAPU-REHIRE",
+    "DisplayNameMSID": "CARD_NAME_525  (卡璞・鰭鰭)"
+  },
+  {
+    "CharacterID": "KAPU-TETEFU",
+    "DisplayNameMSID": "CARD_NAME_546  (卡璞・蝶蝶)"
+  },
+  {
+    "CharacterID": "KARAKARA",
+    "DisplayNameMSID": "CARD_NAME_151  (卡拉卡拉)"
+  },
+  {
+    "CharacterID": "KARAMINGO",
+    "DisplayNameMSID": "CARD_NAME_468  (纏紅鶴)"
+  },
+  {
+    "CharacterID": "KARANAKUSHI",
+    "DisplayNameMSID": "CARD_NAME_312  (無殼海兔)"
+  },
+  {
+    "CharacterID": "KARASALIS",
+    "DisplayNameMSID": "CARD_NAME_834  (甲殼繭)"
+  },
+  {
+    "CharacterID": "KARIKIRI",
+    "DisplayNameMSID": "CARD_NAME_496  (偽螳草)"
+  },
+  {
+    "CharacterID": "KASUMI",
+    "DisplayNameMSID": "CARD_NAME_218  (小霞)"
+  },
+  {
+    "CharacterID": "KATSURA",
+    "DisplayNameMSID": "CARD_NAME_219  (夏伯)"
+  },
+  {
+    "CharacterID": "KEIKOUO",
+    "DisplayNameMSID": "CARD_NAME_244  (螢光魚)"
+  },
+  {
+    "CharacterID": "KEKENKANI",
+    "DisplayNameMSID": "CARD_NAME_902  (好勝毛蟹)"
+  },
+  {
+    "CharacterID": "KEKENKANI_EX",
+    "DisplayNameMSID": "CARD_NAME_520  (好勝毛蟹ex)"
+  },
+  {
+    "CharacterID": "KEKKAINOFIELD",
+    "DisplayNameMSID": "CARD_NAME_1218  (結界場地)"
+  },
+  {
+    "CharacterID": "KEKKING",
+    "DisplayNameMSID": "CARD_NAME_1045  (請假王)"
+  },
+  {
+    "CharacterID": "KELDEO",
+    "DisplayNameMSID": "CARD_NAME_877  (凱路迪歐)"
+  },
+  {
+    "CharacterID": "KEMUSSO",
+    "DisplayNameMSID": "CARD_NAME_833  (刺尾蟲)"
+  },
+  {
+    "CharacterID": "KENHALLOW",
+    "DisplayNameMSID": "CARD_NAME_1326  (高傲雉雞)"
+  },
+  {
+    "CharacterID": "KENTAUROS",
+    "DisplayNameMSID": "CARD_NAME_204  (肯泰羅)"
+  },
+  {
+    "CharacterID": "KENTAUROS_EX",
+    "DisplayNameMSID": "CARD_NAME_924  (肯泰羅ex)"
+  },
+  {
+    "CharacterID": "KERARAPPA",
+    "DisplayNameMSID": "CARD_NAME_592  (喇叭啄鳥)"
+  },
+  {
+    "CharacterID": "KEROMATSU",
+    "DisplayNameMSID": "CARD_NAME_87  (呱呱泡蛙)"
+  },
+  {
+    "CharacterID": "KIBAGO",
+    "DisplayNameMSID": "CARD_NAME_1142  (牙牙)"
+  },
+  {
+    "CharacterID": "KIBANHA",
+    "DisplayNameMSID": "CARD_NAME_637  (利牙魚)"
+  },
+  {
+    "CharacterID": "KIMAWARI",
+    "DisplayNameMSID": "CARD_NAME_700  (向日花怪)"
+  },
+  {
+    "CharacterID": "KIMORI",
+    "DisplayNameMSID": "CARD_NAME_1149  (木守宮)"
+  },
+  {
+    "CharacterID": "KINGDRA_EX",
+    "DisplayNameMSID": "CARD_NAME_713  (刺龍王ex)"
+  },
+  {
+    "CharacterID": "KINGLER",
+    "DisplayNameMSID": "CARD_NAME_69  (巨鉗蟹)"
+  },
+  {
+    "CharacterID": "KINOCOCO",
+    "DisplayNameMSID": "CARD_NAME_841  (蘑蘑菇)"
+  },
+  {
+    "CharacterID": "KINOGASSA",
+    "DisplayNameMSID": "CARD_NAME_842  (斗笠菇)"
+  },
+  {
+    "CharacterID": "KIRAFLOR",
+    "DisplayNameMSID": "CARD_NAME_1240  (晶光花)"
+  },
+  {
+    "CharacterID": "KIRAME",
+    "DisplayNameMSID": "CARD_NAME_1239  (晶光芽)"
+  },
+  {
+    "CharacterID": "KIREIHANA",
+    "DisplayNameMSID": "CARD_NAME_277  (美麗花)"
+  },
+  {
+    "CharacterID": "KIRIKIZAN",
+    "DisplayNameMSID": "CARD_NAME_180  (劈斬司令)"
+  },
+  {
+    "CharacterID": "KIRINRIKI",
+    "DisplayNameMSID": "CARD_NAME_742  (麒麟奇)"
+  },
+  {
+    "CharacterID": "KIRLIA",
+    "DisplayNameMSID": "CARD_NAME_131  (奇魯莉安)"
+  },
+  {
+    "CharacterID": "KITERUGUMA",
+    "DisplayNameMSID": "CARD_NAME_597  (穿著熊)"
+  },
+  {
+    "CharacterID": "KIZUGUSURI",
+    "DisplayNameMSID": "CARD_NAME_226  (傷藥)"
+  },
+  {
+    "CharacterID": "KOARUHIE",
+    "DisplayNameMSID": "CARD_NAME_85  (鴨寶寶)"
+  },
+  {
+    "CharacterID": "KODOMOBEYA",
+    "DisplayNameMSID": "CARD_NAME_1281  (兒童房)"
+  },
+  {
+    "CharacterID": "KODORA",
+    "DisplayNameMSID": "CARD_NAME_652  (可多拉)"
+  },
+  {
+    "CharacterID": "KODUCK",
+    "DisplayNameMSID": "CARD_NAME_57  (可達鴨)"
+  },
+  {
+    "CharacterID": "KOFUKIMUSHI",
+    "DisplayNameMSID": "CARD_NAME_977  (粉蝶蟲)"
+  },
+  {
+    "CharacterID": "KOFUURAI",
+    "DisplayNameMSID": "CARD_NAME_978  (粉蝶蛹)"
+  },
+  {
+    "CharacterID": "KOIKING",
+    "DisplayNameMSID": "CARD_NAME_77  (鯉魚王)"
+  },
+  {
+    "CharacterID": "KOINUDAISUKIGARL",
+    "DisplayNameMSID": "CARD_NAME_1279  (超愛小狗的女孩)"
+  },
+  {
+    "CharacterID": "KOJIO",
+    "DisplayNameMSID": "CARD_NAME_1232  (鹽石寶)"
+  },
+  {
+    "CharacterID": "KOJOFU",
+    "DisplayNameMSID": "CARD_NAME_160  (功夫鼬)"
+  },
+  {
+    "CharacterID": "KOJONDO",
+    "DisplayNameMSID": "CARD_NAME_161  (師父鼬)"
+  },
+  {
+    "CharacterID": "KOKOGARA",
+    "DisplayNameMSID": "CARD_NAME_936  (稚山雀)"
+  },
+  {
+    "CharacterID": "KOKOROMORI",
+    "DisplayNameMSID": "CARD_NAME_134  (心蝙蝠)"
+  },
+  {
+    "CharacterID": "KOLINK",
+    "DisplayNameMSID": "CARD_NAME_323  (小貓怪)"
+  },
+  {
+    "CharacterID": "KOMATANA",
+    "DisplayNameMSID": "CARD_NAME_179  (駒刀小兵)"
+  },
+  {
+    "CharacterID": "KOMORUU",
+    "DisplayNameMSID": "CARD_NAME_1037  (甲殼龍)"
+  },
+  {
+    "CharacterID": "KONGPANG",
+    "DisplayNameMSID": "CARD_NAME_16  (毛球)"
+  },
+  {
+    "CharacterID": "KONOHANA",
+    "DisplayNameMSID": "CARD_NAME_839  (長鼻葉)"
+  },
+  {
+    "CharacterID": "KONOYOZARU",
+    "DisplayNameMSID": "CARD_NAME_1108  (棄世猴)"
+  },
+  {
+    "CharacterID": "KORAIDON",
+    "DisplayNameMSID": "CARD_NAME_1113  (故勒頓)"
+  },
+  {
+    "CharacterID": "KORAIDON_EX",
+    "DisplayNameMSID": "CARD_NAME_1237  (故勒頓ex)"
+  },
+  {
+    "CharacterID": "KORATTA",
+    "DisplayNameMSID": "CARD_NAME_189  (小拉達)"
+  },
+  {
+    "CharacterID": "KORIPPO",
+    "DisplayNameMSID": "CARD_NAME_883  (冰砌鵝)"
+  },
+  {
+    "CharacterID": "KOROBOHSHI",
+    "DisplayNameMSID": "CARD_NAME_286  (圓法師)"
+  },
+  {
+    "CharacterID": "KOROMORI",
+    "DisplayNameMSID": "CARD_NAME_133  (滾滾蝙蝠)"
+  },
+  {
+    "CharacterID": "KOROTOCK",
+    "DisplayNameMSID": "CARD_NAME_287  (音箱蟀)"
+  },
+  {
+    "CharacterID": "KOSOKUMUSHI",
+    "DisplayNameMSID": "CARD_NAME_501  (膽小蟲)"
+  },
+  {
+    "CharacterID": "KOTONE",
+    "DisplayNameMSID": "CARD_NAME_779  (琴音)"
+  },
+  {
+    "CharacterID": "KOURANOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_215  (甲殼化石)"
+  },
+  {
+    "CharacterID": "KUCHEAT",
+    "DisplayNameMSID": "CARD_NAME_178  (大嘴娃)"
+  },
+  {
+    "CharacterID": "KUITARAN",
+    "DisplayNameMSID": "CARD_NAME_48  (熔蟻獸)"
+  },
+  {
+    "CharacterID": "KUMASYUN",
+    "DisplayNameMSID": "CARD_NAME_1172  (噴嚏熊)"
+  },
+  {
+    "CharacterID": "KUNUGIDAMA",
+    "DisplayNameMSID": "CARD_NAME_702  (榛果球)"
+  },
+  {
+    "CharacterID": "KURIAVEIL",
+    "DisplayNameMSID": "CARD_NAME_1332  (恆淨薄紗)"
+  },
+  {
+    "CharacterID": "KURUMAYU",
+    "DisplayNameMSID": "CARD_NAME_1155  (寶包繭)"
+  },
+  {
+    "CharacterID": "KURUMIRU",
+    "DisplayNameMSID": "CARD_NAME_1154  (蟲寶包)"
+  },
+  {
+    "CharacterID": "KUSAIHANA",
+    "DisplayNameMSID": "CARD_NAME_12  (臭臭花)"
+  },
+  {
+    "CharacterID": "KUWAGANNON",
+    "DisplayNameMSID": "CARD_NAME_531  (鍬農炮蟲)"
+  },
+  {
+    "CharacterID": "KUWASSU",
+    "DisplayNameMSID": "CARD_NAME_1083  (潤水鴨)"
+  },
+  {
+    "CharacterID": "KUZUMO",
+    "DisplayNameMSID": "CARD_NAME_816  (垃垃藻)"
+  },
+  {
+    "CharacterID": "KYOGRE",
+    "DisplayNameMSID": "CARD_NAME_1296  (蓋歐卡)"
+  },
+  {
+    "CharacterID": "KYOJIOHN",
+    "DisplayNameMSID": "CARD_NAME_1234  (鹽石巨靈)"
+  },
+  {
+    "CharacterID": "KYOU",
+    "DisplayNameMSID": "CARD_NAME_220  (阿桔)"
+  },
+  {
+    "CharacterID": "KYUKON",
+    "DisplayNameMSID": "CARD_NAME_38  (九尾)"
+  },
+  {
+    "CharacterID": "LAGLARGE",
+    "DisplayNameMSID": "CARD_NAME_995  (巨沼怪)"
+  },
+  {
+    "CharacterID": "LALANTES",
+    "DisplayNameMSID": "CARD_NAME_497  (蘭螳花)"
+  },
+  {
+    "CharacterID": "LAMPLER",
+    "DisplayNameMSID": "CARD_NAME_859  (燈火幽靈)"
+  },
+  {
+    "CharacterID": "LANCULUS",
+    "DisplayNameMSID": "CARD_NAME_963  (人造細胞卵)"
+  },
+  {
+    "CharacterID": "LANDLOS",
+    "DisplayNameMSID": "CARD_NAME_1366  (土地雲)"
+  },
+  {
+    "CharacterID": "LANTERN",
+    "DisplayNameMSID": "CARD_NAME_1179  (電燈怪)"
+  },
+  {
+    "CharacterID": "LANTERN_EX",
+    "DisplayNameMSID": "CARD_NAME_728  (電燈怪ex)"
+  },
+  {
+    "CharacterID": "LAPLACE",
+    "DisplayNameMSID": "CARD_NAME_79  (拉普拉斯)"
+  },
+  {
+    "CharacterID": "LAPLACE_EX",
+    "DisplayNameMSID": "CARD_NAME_233  (拉普拉斯ex)"
+  },
+  {
+    "CharacterID": "LATIAS",
+    "DisplayNameMSID": "CARD_NAME_790  (拉帝亞斯)"
+  },
+  {
+    "CharacterID": "LATIOS",
+    "DisplayNameMSID": "CARD_NAME_793  (拉帝歐斯)"
+  },
+  {
+    "CharacterID": "LAUDBON",
+    "DisplayNameMSID": "CARD_NAME_1079  (骨紋巨聲鱷)"
+  },
+  {
+    "CharacterID": "LEAF",
+    "DisplayNameMSID": "CARD_NAME_276  (葉子)"
+  },
+  {
+    "CharacterID": "LEAFIA",
+    "DisplayNameMSID": "CARD_NAME_293  (葉伊布)"
+  },
+  {
+    "CharacterID": "LEAFIA_EX",
+    "DisplayNameMSID": "CARD_NAME_415  (葉伊布ex)"
+  },
+  {
+    "CharacterID": "LEAFMANTO",
+    "DisplayNameMSID": "CARD_NAME_605  (葉綠斗蓬)"
+  },
+  {
+    "CharacterID": "LEPARDAS",
+    "DisplayNameMSID": "CARD_NAME_265  (酷豹)"
+  },
+  {
+    "CharacterID": "LIGRAY",
+    "DisplayNameMSID": "CARD_NAME_254  (小灰怪)"
+  },
+  {
+    "CharacterID": "LILIE",
+    "DisplayNameMSID": "CARD_NAME_613  (莉莉艾)"
+  },
+  {
+    "CharacterID": "LILYLA",
+    "DisplayNameMSID": "CARD_NAME_1282  (觸手百合)"
+  },
+  {
+    "CharacterID": "LISYAN",
+    "DisplayNameMSID": "CARD_NAME_888  (鈴鐺響)"
+  },
+  {
+    "CharacterID": "LIVOLT",
+    "DisplayNameMSID": "CARD_NAME_428  (雷電獸)"
+  },
+  {
+    "CharacterID": "LIZARDO",
+    "DisplayNameMSID": "CARD_NAME_34  (火恐龍)"
+  },
+  {
+    "CharacterID": "LIZARDON",
+    "DisplayNameMSID": "CARD_NAME_35  (噴火龍)"
+  },
+  {
+    "CharacterID": "LIZARDON_EX",
+    "DisplayNameMSID": "CARD_NAME_36  (噴火龍ex)"
+  },
+  {
+    "CharacterID": "LOVECUS",
+    "DisplayNameMSID": "CARD_NAME_869  (愛心魚)"
+  },
+  {
+    "CharacterID": "LOVETOLOS",
+    "DisplayNameMSID": "CARD_NAME_1268  (眷戀雲)"
+  },
+  {
+    "CharacterID": "LUCARIO",
+    "DisplayNameMSID": "CARD_NAME_352  (路卡利歐)"
+  },
+  {
+    "CharacterID": "LUCARIO_EX",
+    "DisplayNameMSID": "CARD_NAME_467  (路卡利歐ex)"
+  },
+  {
+    "CharacterID": "LUCHABULL",
+    "DisplayNameMSID": "CARD_NAME_590  (摔角鷹人)"
+  },
+  {
+    "CharacterID": "LUCKY",
+    "DisplayNameMSID": "CARD_NAME_202  (吉利蛋)"
+  },
+  {
+    "CharacterID": "LUCKYMITTENS",
+    "DisplayNameMSID": "CARD_NAME_945  (幸運手套)"
+  },
+  {
+    "CharacterID": "LUGARUGAN",
+    "DisplayNameMSID": "CARD_NAME_560  (鬃岩狼人)"
+  },
+  {
+    "CharacterID": "LUGARUGAN_EX",
+    "DisplayNameMSID": "CARD_NAME_642  (鬃岩狼人ex)"
+  },
+  {
+    "CharacterID": "LUGIA",
+    "DisplayNameMSID": "CARD_NAME_1040  (洛奇亞)"
+  },
+  {
+    "CharacterID": "LUGIA_EX",
+    "DisplayNameMSID": "CARD_NAME_771  (洛奇亞ex)"
+  },
+  {
+    "CharacterID": "LUNALA_EX",
+    "DisplayNameMSID": "CARD_NAME_549  (露奈雅拉ex)"
+  },
+  {
+    "CharacterID": "LUNATONE",
+    "DisplayNameMSID": "CARD_NAME_537  (月石)"
+  },
+  {
+    "CharacterID": "LUSAMINE",
+    "DisplayNameMSID": "CARD_NAME_668  (露莎米奈)"
+  },
+  {
+    "CharacterID": "LUXIO",
+    "DisplayNameMSID": "CARD_NAME_324  (勒克貓)"
+  },
+  {
+    "CharacterID": "MAAIIKA",
+    "DisplayNameMSID": "CARD_NAME_814  (好啦魷)"
+  },
+  {
+    "CharacterID": "MABOROSHINOSEKIBAN",
+    "DisplayNameMSID": "CARD_NAME_273  (幻之石板)"
+  },
+  {
+    "CharacterID": "MADATSUBOMI",
+    "DisplayNameMSID": "CARD_NAME_18  (喇叭芽)"
+  },
+  {
+    "CharacterID": "MAFITIFF",
+    "DisplayNameMSID": "CARD_NAME_1117  (獒教父)"
+  },
+  {
+    "CharacterID": "MAGCARGOT",
+    "DisplayNameMSID": "CARD_NAME_298  (熔岩蝸牛)"
+  },
+  {
+    "CharacterID": "MAGEARNA",
+    "DisplayNameMSID": "CARD_NAME_582  (瑪機雅娜)"
+  },
+  {
+    "CharacterID": "MAGGYO",
+    "DisplayNameMSID": "CARD_NAME_801  (泥巴魚)"
+  },
+  {
+    "CharacterID": "MAGMAG",
+    "DisplayNameMSID": "CARD_NAME_297  (熔岩蟲)"
+  },
+  {
+    "CharacterID": "MAGMARASHI",
+    "DisplayNameMSID": "CARD_NAME_705  (火岩鼠)"
+  },
+  {
+    "CharacterID": "MAHOMIL",
+    "DisplayNameMSID": "CARD_NAME_631  (小仙奶)"
+  },
+  {
+    "CharacterID": "MAHOXY",
+    "DisplayNameMSID": "CARD_NAME_1351  (妖火紅狐)"
+  },
+  {
+    "CharacterID": "MAINTENANCE",
+    "DisplayNameMSID": "CARD_NAME_1145  (維護)"
+  },
+  {
+    "CharacterID": "MAKENKANI",
+    "DisplayNameMSID": "CARD_NAME_558  (好勝蟹)"
+  },
+  {
+    "CharacterID": "MAKUNOSHITA",
+    "DisplayNameMSID": "CARD_NAME_551  (幕下力士)"
+  },
+  {
+    "CharacterID": "MAMANBOU",
+    "DisplayNameMSID": "CARD_NAME_677  (保母曼波)"
+  },
+  {
+    "CharacterID": "MAMANE",
+    "DisplayNameMSID": "CARD_NAME_611  (馬瑪內)"
+  },
+  {
+    "CharacterID": "MAMEBATTA",
+    "DisplayNameMSID": "CARD_NAME_1067  (豆蟋蟀)"
+  },
+  {
+    "CharacterID": "MAMEPATO",
+    "DisplayNameMSID": "CARD_NAME_1324  (豆豆鴿)"
+  },
+  {
+    "CharacterID": "MAMMOO",
+    "DisplayNameMSID": "CARD_NAME_305  (象牙豬)"
+  },
+  {
+    "CharacterID": "MAMORINOPONCHO",
+    "DisplayNameMSID": "CARD_NAME_1054  (守護披風)"
+  },
+  {
+    "CharacterID": "MANAPHY",
+    "DisplayNameMSID": "CARD_NAME_320  (瑪納霏)"
+  },
+  {
+    "CharacterID": "MANENE",
+    "DisplayNameMSID": "CARD_NAME_1302  (魔尼尼)"
+  },
+  {
+    "CharacterID": "MANKEY",
+    "DisplayNameMSID": "CARD_NAME_141  (猴怪)"
+  },
+  {
+    "CharacterID": "MANTAIN",
+    "DisplayNameMSID": "CARD_NAME_636  (巨翅飛魚)"
+  },
+  {
+    "CharacterID": "MANYULA",
+    "DisplayNameMSID": "CARD_NAME_755  (瑪狃拉)"
+  },
+  {
+    "CharacterID": "MANYULA_EX",
+    "DisplayNameMSID": "CARD_NAME_359  (瑪狃拉ex)"
+  },
+  {
+    "CharacterID": "MAO",
+    "DisplayNameMSID": "CARD_NAME_612  (瑪奧)"
+  },
+  {
+    "CharacterID": "MARACACCHI",
+    "DisplayNameMSID": "CARD_NAME_488  (沙鈴仙人掌)"
+  },
+  {
+    "CharacterID": "MARIL",
+    "DisplayNameMSID": "CARD_NAME_418  (瑪力露)"
+  },
+  {
+    "CharacterID": "MARILLI",
+    "DisplayNameMSID": "CARD_NAME_419  (瑪力露麗)"
+  },
+  {
+    "CharacterID": "MARS",
+    "DisplayNameMSID": "CARD_NAME_410  (夥星)"
+  },
+  {
+    "CharacterID": "MARSHADOW",
+    "DisplayNameMSID": "CARD_NAME_262  (瑪夏多)"
+  },
+  {
+    "CharacterID": "MARUMINE",
+    "DisplayNameMSID": "CARD_NAME_100  (頑皮雷彈)"
+  },
+  {
+    "CharacterID": "MARUNOOM",
+    "DisplayNameMSID": "CARD_NAME_1310  (吞食獸)"
+  },
+  {
+    "CharacterID": "MARUYAKUDE",
+    "DisplayNameMSID": "CARD_NAME_52  (焚焰蚣)"
+  },
+  {
+    "CharacterID": "MASHADE",
+    "DisplayNameMSID": "CARD_NAME_239  (燈罩夜菇)"
+  },
+  {
+    "CharacterID": "MASQUERNYA",
+    "DisplayNameMSID": "CARD_NAME_457  (魔幻假面喵)"
+  },
+  {
+    "CharacterID": "MASQUERNYA_EX",
+    "DisplayNameMSID": "CARD_NAME_1064  (魔幻假面喵ex)"
+  },
+  {
+    "CharacterID": "MASSIVOON",
+    "DisplayNameMSID": "CARD_NAME_980  (爆肌蚊)"
+  },
+  {
+    "CharacterID": "MASSIVOON_EX",
+    "DisplayNameMSID": "CARD_NAME_634  (爆肌蚊ex)"
+  },
+  {
+    "CharacterID": "MASSUGUMA",
+    "DisplayNameMSID": "CARD_NAME_926  (直衝熊)"
+  },
+  {
+    "CharacterID": "MATADOGAS",
+    "DisplayNameMSID": "CARD_NAME_177  (雙彈瓦斯)"
+  },
+  {
+    "CharacterID": "MATISSE",
+    "DisplayNameMSID": "CARD_NAME_224  (馬志士)"
+  },
+  {
+    "CharacterID": "MATSUBA",
+    "DisplayNameMSID": "CARD_NAME_827  (松葉)"
+  },
+  {
+    "CharacterID": "MAWHIP",
+    "DisplayNameMSID": "CARD_NAME_625  (霜奶仙)"
+  },
+  {
+    "CharacterID": "MAYULD",
+    "DisplayNameMSID": "CARD_NAME_836  (盾甲繭)"
+  },
+  {
+    "CharacterID": "MEECLE",
+    "DisplayNameMSID": "CARD_NAME_31  (坐騎小羊)"
+  },
+  {
+    "CharacterID": "MEGAABSOL_EX",
+    "DisplayNameMSID": "CARD_NAME_906  (超級阿勃梭魯ex)"
+  },
+  {
+    "CharacterID": "MEGABAKUUDA_EX",
+    "DisplayNameMSID": "CARD_NAME_1160  (超級噴火駝ex)"
+  },
+  {
+    "CharacterID": "MEGABURSYAMO_EX",
+    "DisplayNameMSID": "CARD_NAME_855  (超級火焰雞ex)"
+  },
+  {
+    "CharacterID": "MEGACHAREM_EX",
+    "DisplayNameMSID": "CARD_NAME_1131  (超級恰雷姆ex)"
+  },
+  {
+    "CharacterID": "MEGADENRYU_EX",
+    "DisplayNameMSID": "CARD_NAME_885  (超級電龍ex)"
+  },
+  {
+    "CharacterID": "MEGADIANCIE_EX",
+    "DisplayNameMSID": "CARD_NAME_1267  (超級蒂安希ex)"
+  },
+  {
+    "CharacterID": "MEGAERUREIDO_EX",
+    "DisplayNameMSID": "CARD_NAME_1308  (超級艾路雷朵ex)"
+  },
+  {
+    "CharacterID": "MEGAFUSHIGIBANA_EX",
+    "DisplayNameMSID": "CARD_NAME_955  (超級妙蛙花ex)"
+  },
+  {
+    "CharacterID": "MEGAGANGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_1139  (超級耿鬼ex)"
+  },
+  {
+    "CharacterID": "MEGAGARURA_EX",
+    "DisplayNameMSID": "CARD_NAME_1039  (超級袋獸ex)"
+  },
+  {
+    "CharacterID": "MEGAGYARADOS_EX",
+    "DisplayNameMSID": "CARD_NAME_863  (超級暴鯉龍ex)"
+  },
+  {
+    "CharacterID": "MEGAHAGANEIL_EX",
+    "DisplayNameMSID": "CARD_NAME_966  (超級大鋼蛇ex)"
+  },
+  {
+    "CharacterID": "MEGAHASSAM_EX",
+    "DisplayNameMSID": "CARD_NAME_1141  (超級巨鉗螳螂ex)"
+  },
+  {
+    "CharacterID": "MEGAHELLGAR_EX",
+    "DisplayNameMSID": "CARD_NAME_1339  (超級黑魯加ex)"
+  },
+  {
+    "CharacterID": "MEGAHERACROS_EX",
+    "DisplayNameMSID": "CARD_NAME_1260  (超級赫拉克羅斯ex)"
+  },
+  {
+    "CharacterID": "MEGAJUKAIN_EX",
+    "DisplayNameMSID": "CARD_NAME_1152  (超級蜥蜴王ex)"
+  },
+  {
+    "CharacterID": "MEGAKAILIOS_EX",
+    "DisplayNameMSID": "CARD_NAME_832  (超級凱羅斯ex)"
+  },
+  {
+    "CharacterID": "MEGAKAMEX_EX",
+    "DisplayNameMSID": "CARD_NAME_957  (超級水箭龜ex)"
+  },
+  {
+    "CharacterID": "MEGAKUCHEAT_EX",
+    "DisplayNameMSID": "CARD_NAME_1034  (超級大嘴娃ex)"
+  },
+  {
+    "CharacterID": "MEGALAGLARGE_EX",
+    "DisplayNameMSID": "CARD_NAME_996  (超級巨沼怪ex)"
+  },
+  {
+    "CharacterID": "MEGALATIOS_EX",
+    "DisplayNameMSID": "CARD_NAME_954  (超級拉帝歐斯ex)"
+  },
+  {
+    "CharacterID": "MEGALIVOLT_EX",
+    "DisplayNameMSID": "CARD_NAME_1137  (超級雷電獸ex)"
+  },
+  {
+    "CharacterID": "MEGALIZARDONX_EX",
+    "DisplayNameMSID": "CARD_NAME_1135  (超級噴火龍Xex)"
+  },
+  {
+    "CharacterID": "MEGALIZARDONY_EX",
+    "DisplayNameMSID": "CARD_NAME_1063  (超級噴火龍Yex)"
+  },
+  {
+    "CharacterID": "MEGALUCARIO_EX",
+    "DisplayNameMSID": "CARD_NAME_1190  (超級路卡利歐ex)"
+  },
+  {
+    "CharacterID": "MEGAMETAGROSS_EX",
+    "DisplayNameMSID": "CARD_NAME_1315  (超級巨金怪ex)"
+  },
+  {
+    "CharacterID": "MEGAMIMILOP_EX",
+    "DisplayNameMSID": "CARD_NAME_965  (超級長耳兔ex)"
+  },
+  {
+    "CharacterID": "MEGANIUM",
+    "DisplayNameMSID": "CARD_NAME_693  (大竺葵)"
+  },
+  {
+    "CharacterID": "MEGAPIGEOT_EX",
+    "DisplayNameMSID": "CARD_NAME_952  (超級大比鳥ex)"
+  },
+  {
+    "CharacterID": "MEGARAYQUAZA_EX",
+    "DisplayNameMSID": "CARD_NAME_1318  (超級烈空坐ex)"
+  },
+  {
+    "CharacterID": "MEGASAMEHADER_EX",
+    "DisplayNameMSID": "CARD_NAME_1291  (超級巨牙鯊ex)"
+  },
+  {
+    "CharacterID": "MEGASIRNIGHT_EX",
+    "DisplayNameMSID": "CARD_NAME_1009  (超級沙奈朵ex)"
+  },
+  {
+    "CharacterID": "MEGATABUNNE_EX",
+    "DisplayNameMSID": "CARD_NAME_1209  (超級差不多娃娃ex)"
+  },
+  {
+    "CharacterID": "MEGATYLTALIS_EX",
+    "DisplayNameMSID": "CARD_NAME_886  (超級七夕青鳥ex)"
+  },
+  {
+    "CharacterID": "MEGAYADORAN_EX",
+    "DisplayNameMSID": "CARD_NAME_1136  (超級呆殼獸ex)"
+  },
+  {
+    "CharacterID": "MEGAYAMIRAMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1270  (超級勾魂眼ex)"
+  },
+  {
+    "CharacterID": "MEGAYANMA",
+    "DisplayNameMSID": "CARD_NAME_701  (遠古巨蜓)"
+  },
+  {
+    "CharacterID": "MEGAYANMA_EX",
+    "DisplayNameMSID": "CARD_NAME_280  (遠古巨蜓ex)"
+  },
+  {
+    "CharacterID": "MEGUROCO",
+    "DisplayNameMSID": "CARD_NAME_644  (黑眼鱷)"
+  },
+  {
+    "CharacterID": "MELECIE",
+    "DisplayNameMSID": "CARD_NAME_682  (小碎鑽)"
+  },
+  {
+    "CharacterID": "MELISSA",
+    "DisplayNameMSID": "CARD_NAME_949  (梅麗莎)"
+  },
+  {
+    "CharacterID": "MELMETAL",
+    "DisplayNameMSID": "CARD_NAME_182  (美錄梅塔)"
+  },
+  {
+    "CharacterID": "MELMETAL_EX",
+    "DisplayNameMSID": "CARD_NAME_919  (美錄梅塔ex)"
+  },
+  {
+    "CharacterID": "MELOETTA",
+    "DisplayNameMSID": "CARD_NAME_1010  (美洛耶塔)"
+  },
+  {
+    "CharacterID": "MELTAN",
+    "DisplayNameMSID": "CARD_NAME_181  (美錄坦)"
+  },
+  {
+    "CharacterID": "MEMORYLIGHT",
+    "DisplayNameMSID": "CARD_NAME_824  (記憶燈泡)"
+  },
+  {
+    "CharacterID": "MENOKURAGE",
+    "DisplayNameMSID": "CARD_NAME_62  (瑪瑙水母)"
+  },
+  {
+    "CharacterID": "MERLARVA",
+    "DisplayNameMSID": "CARD_NAME_241  (燃燒蟲)"
+  },
+  {
+    "CharacterID": "MERRIEP",
+    "DisplayNameMSID": "CARD_NAME_730  (咩利羊)"
+  },
+  {
+    "CharacterID": "MESSON",
+    "DisplayNameMSID": "CARD_NAME_1174  (淚眼蜥)"
+  },
+  {
+    "CharacterID": "METAGROSS",
+    "DisplayNameMSID": "CARD_NAME_1314  (巨金怪)"
+  },
+  {
+    "CharacterID": "METAMON",
+    "DisplayNameMSID": "CARD_NAME_205  (百變怪)"
+  },
+  {
+    "CharacterID": "METANG",
+    "DisplayNameMSID": "CARD_NAME_1313  (金屬怪)"
+  },
+  {
+    "CharacterID": "METARUKOABARIA",
+    "DisplayNameMSID": "CARD_NAME_1055  (金屬核心屏障)"
+  },
+  {
+    "CharacterID": "METENO",
+    "DisplayNameMSID": "CARD_NAME_564  (小隕星)"
+  },
+  {
+    "CharacterID": "MEW",
+    "DisplayNameMSID": "CARD_NAME_225  (夢幻)"
+  },
+  {
+    "CharacterID": "MEWTWO",
+    "DisplayNameMSID": "CARD_NAME_128  (超夢)"
+  },
+  {
+    "CharacterID": "MEWTWO_EX",
+    "DisplayNameMSID": "CARD_NAME_129  (超夢ex)"
+  },
+  {
+    "CharacterID": "MEW_EX",
+    "DisplayNameMSID": "CARD_NAME_252  (夢幻ex)"
+  },
+  {
+    "CharacterID": "MIBRIM",
+    "DisplayNameMSID": "CARD_NAME_1185  (迷布莉姆)"
+  },
+  {
+    "CharacterID": "MIGALUSA",
+    "DisplayNameMSID": "CARD_NAME_1091  (輕身鱈)"
+  },
+  {
+    "CharacterID": "MIJUMARU",
+    "DisplayNameMSID": "CARD_NAME_1297  (水水獺)"
+  },
+  {
+    "CharacterID": "MIKAN",
+    "DisplayNameMSID": "CARD_NAME_782  (阿蜜)"
+  },
+  {
+    "CharacterID": "MIKARUGE",
+    "DisplayNameMSID": "CARD_NAME_364  (花岩怪)"
+  },
+  {
+    "CharacterID": "MIKURI",
+    "DisplayNameMSID": "CARD_NAME_1280  (米可利)"
+  },
+  {
+    "CharacterID": "MILOKAROSS",
+    "DisplayNameMSID": "CARD_NAME_785  (美納斯)"
+  },
+  {
+    "CharacterID": "MILOKAROSS_EX",
+    "DisplayNameMSID": "CARD_NAME_1264  (美納斯ex)"
+  },
+  {
+    "CharacterID": "MILTANK",
+    "DisplayNameMSID": "CARD_NAME_789  (大奶罐)"
+  },
+  {
+    "CharacterID": "MIMIKKYU",
+    "DisplayNameMSID": "CARD_NAME_545  (謎擬Ｑ)"
+  },
+  {
+    "CharacterID": "MIMIKKYU_EX",
+    "DisplayNameMSID": "CARD_NAME_1013  (謎擬Ｑex)"
+  },
+  {
+    "CharacterID": "MIMILOP",
+    "DisplayNameMSID": "CARD_NAME_394  (長耳兔)"
+  },
+  {
+    "CharacterID": "MIMIROL",
+    "DisplayNameMSID": "CARD_NAME_393  (捲捲耳)"
+  },
+  {
+    "CharacterID": "MIMIZUZU",
+    "DisplayNameMSID": "CARD_NAME_1120  (拖拖蚓)"
+  },
+  {
+    "CharacterID": "MINEZUMI",
+    "DisplayNameMSID": "CARD_NAME_931  (探探鼠)"
+  },
+  {
+    "CharacterID": "MINIRYU",
+    "DisplayNameMSID": "CARD_NAME_183  (迷你龍)"
+  },
+  {
+    "CharacterID": "MINIVE",
+    "DisplayNameMSID": "CARD_NAME_1068  (迷你芙)"
+  },
+  {
+    "CharacterID": "MINOMADAM",
+    "DisplayNameMSID": "CARD_NAME_289  (結草貴婦)"
+  },
+  {
+    "CharacterID": "MINOMUCCHI",
+    "DisplayNameMSID": "CARD_NAME_288  (結草兒)"
+  },
+  {
+    "CharacterID": "MINUN",
+    "DisplayNameMSID": "CARD_NAME_1002  (負電拍拍)"
+  },
+  {
+    "CharacterID": "MIRAIDON",
+    "DisplayNameMSID": "CARD_NAME_1099  (密勒頓)"
+  },
+  {
+    "CharacterID": "MIRAIDON_EX",
+    "DisplayNameMSID": "CARD_NAME_1225  (密勒頓ex)"
+  },
+  {
+    "CharacterID": "MIRUHOG",
+    "DisplayNameMSID": "CARD_NAME_932  (步哨鼠)"
+  },
+  {
+    "CharacterID": "MITSUHONEY",
+    "DisplayNameMSID": "CARD_NAME_290  (三蜜蜂)"
+  },
+  {
+    "CharacterID": "MITSURU",
+    "DisplayNameMSID": "CARD_NAME_1336  (滿充)"
+  },
+  {
+    "CharacterID": "MIZUGOROU",
+    "DisplayNameMSID": "CARD_NAME_993  (水躍魚)"
+  },
+  {
+    "CharacterID": "MOGUREW",
+    "DisplayNameMSID": "CARD_NAME_554  (螺釘地鼠)"
+  },
+  {
+    "CharacterID": "MOJUMBO",
+    "DisplayNameMSID": "CARD_NAME_278  (巨蔓藤)"
+  },
+  {
+    "CharacterID": "MOKOKO",
+    "DisplayNameMSID": "CARD_NAME_731  (茸茸羊)"
+  },
+  {
+    "CharacterID": "MOKUROH",
+    "DisplayNameMSID": "CARD_NAME_492  (木木梟)"
+  },
+  {
+    "CharacterID": "MONJARA",
+    "DisplayNameMSID": "CARD_NAME_24  (蔓藤怪)"
+  },
+  {
+    "CharacterID": "MONMEN",
+    "DisplayNameMSID": "CARD_NAME_27  (木棉球)"
+  },
+  {
+    "CharacterID": "MONOMANEMUSUME",
+    "DisplayNameMSID": "CARD_NAME_950  (模仿少女)"
+  },
+  {
+    "CharacterID": "MONOZU",
+    "DisplayNameMSID": "CARD_NAME_907  (單首龍)"
+  },
+  {
+    "CharacterID": "MONSTERBALL",
+    "DisplayNameMSID": "CARD_NAME_228  (精靈球)"
+  },
+  {
+    "CharacterID": "MOOLAND",
+    "DisplayNameMSID": "CARD_NAME_658  (長毛狗)"
+  },
+  {
+    "CharacterID": "MOROBARERU",
+    "DisplayNameMSID": "CARD_NAME_1200  (敗露球菇)"
+  },
+  {
+    "CharacterID": "MORPEKO",
+    "DisplayNameMSID": "CARD_NAME_1140  (莫魯貝可)"
+  },
+  {
+    "CharacterID": "MORPHON",
+    "DisplayNameMSID": "CARD_NAME_17  (摩魯蛾)"
+  },
+  {
+    "CharacterID": "MOTHNOW",
+    "DisplayNameMSID": "CARD_NAME_93  (雪絨蛾)"
+  },
+  {
+    "CharacterID": "MOTOTOKAGE",
+    "DisplayNameMSID": "CARD_NAME_454  (摩托蜥)"
+  },
+  {
+    "CharacterID": "MOUKAZARU",
+    "DisplayNameMSID": "CARD_NAME_300  (猛火猴)"
+  },
+  {
+    "CharacterID": "MUCHUL",
+    "DisplayNameMSID": "CARD_NAME_736  (迷唇娃)"
+  },
+  {
+    "CharacterID": "MUKKURU",
+    "DisplayNameMSID": "CARD_NAME_388  (姆克兒)"
+  },
+  {
+    "CharacterID": "MUKUBIRD",
+    "DisplayNameMSID": "CARD_NAME_389  (姆克鳥)"
+  },
+  {
+    "CharacterID": "MUKUHAWK",
+    "DisplayNameMSID": "CARD_NAME_390  (姆克鷹)"
+  },
+  {
+    "CharacterID": "MUMA",
+    "DisplayNameMSID": "CARD_NAME_331  (夢妖)"
+  },
+  {
+    "CharacterID": "MUMARGI",
+    "DisplayNameMSID": "CARD_NAME_804  (夢妖魔)"
+  },
+  {
+    "CharacterID": "MUMARGI_EX",
+    "DisplayNameMSID": "CARD_NAME_332  (夢妖魔ex)"
+  },
+  {
+    "CharacterID": "MUNNA",
+    "DisplayNameMSID": "CARD_NAME_745  (食夢夢)"
+  },
+  {
+    "CharacterID": "MUSHARNA",
+    "DisplayNameMSID": "CARD_NAME_746  (夢夢蝕)"
+  },
+  {
+    "CharacterID": "MUSHIYOKESUPUREI",
+    "DisplayNameMSID": "CARD_NAME_663  (除蟲噴霧)"
+  },
+  {
+    "CharacterID": "MUSKIPPA",
+    "DisplayNameMSID": "CARD_NAME_292  (尖牙籠)"
+  },
+  {
+    "CharacterID": "NAETLE",
+    "DisplayNameMSID": "CARD_NAME_283  (草苗龜)"
+  },
+  {
+    "CharacterID": "NAGEKI",
+    "DisplayNameMSID": "CARD_NAME_1192  (投摔鬼)"
+  },
+  {
+    "CharacterID": "NAGETUKESARU",
+    "DisplayNameMSID": "CARD_NAME_643  (投擲猴)"
+  },
+  {
+    "CharacterID": "NAGETUKESARU_EX",
+    "DisplayNameMSID": "CARD_NAME_563  (投擲猴ex)"
+  },
+  {
+    "CharacterID": "NAKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_474  (巧鍛匠)"
+  },
+  {
+    "CharacterID": "NAMAKERO",
+    "DisplayNameMSID": "CARD_NAME_1043  (懶人獺)"
+  },
+  {
+    "CharacterID": "NAMAKOBUSHI",
+    "DisplayNameMSID": "CARD_NAME_90  (拳海參)"
+  },
+  {
+    "CharacterID": "NAMAZUN",
+    "DisplayNameMSID": "CARD_NAME_421  (鯰魚王)"
+  },
+  {
+    "CharacterID": "NAMIIRUKA",
+    "DisplayNameMSID": "CARD_NAME_1087  (波普海豚)"
+  },
+  {
+    "CharacterID": "NANJYAMO",
+    "DisplayNameMSID": "CARD_NAME_481  (奇樹)"
+  },
+  {
+    "CharacterID": "NASSY",
+    "DisplayNameMSID": "CARD_NAME_22  (椰蛋樹)"
+  },
+  {
+    "CharacterID": "NASSY_EX",
+    "DisplayNameMSID": "CARD_NAME_23  (椰蛋樹ex)"
+  },
+  {
+    "CharacterID": "NATIO",
+    "DisplayNameMSID": "CARD_NAME_739  (天然鳥)"
+  },
+  {
+    "CharacterID": "NATSUME",
+    "DisplayNameMSID": "CARD_NAME_223  (娜姿)"
+  },
+  {
+    "CharacterID": "NATY",
+    "DisplayNameMSID": "CARD_NAME_738  (天然雀)"
+  },
+  {
+    "CharacterID": "NAZONOKUSA",
+    "DisplayNameMSID": "CARD_NAME_11  (走路草)"
+  },
+  {
+    "CharacterID": "NECROZMA",
+    "DisplayNameMSID": "CARD_NAME_550  (奈克洛茲瑪)"
+  },
+  {
+    "CharacterID": "NECROZMAAKATSUKINOTSUBASA",
+    "DisplayNameMSID": "CARD_NAME_620  (奈克洛茲瑪拂曉之翼)"
+  },
+  {
+    "CharacterID": "NECROZMATASOGARENOTATEGAMI",
+    "DisplayNameMSID": "CARD_NAME_621  (奈克洛茲瑪黃昏之鬃)"
+  },
+  {
+    "CharacterID": "NECROZMAULTRANECROZMA_EX",
+    "DisplayNameMSID": "CARD_NAME_623  (究極奈克洛茲瑪ex)"
+  },
+  {
+    "CharacterID": "NEKKOARA",
+    "DisplayNameMSID": "CARD_NAME_599  (樹枕尾熊)"
+  },
+  {
+    "CharacterID": "NEKKONOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1330  (根狀化石)"
+  },
+  {
+    "CharacterID": "NEMASYU",
+    "DisplayNameMSID": "CARD_NAME_238  (睡睡菇)"
+  },
+  {
+    "CharacterID": "NEMO",
+    "DisplayNameMSID": "CARD_NAME_1128  (妮莫)"
+  },
+  {
+    "CharacterID": "NENDOLL",
+    "DisplayNameMSID": "CARD_NAME_641  (念力土偶)"
+  },
+  {
+    "CharacterID": "NEOLANT",
+    "DisplayNameMSID": "CARD_NAME_245  (霓虹魚)"
+  },
+  {
+    "CharacterID": "NEZU",
+    "DisplayNameMSID": "CARD_NAME_1059  (聶梓)"
+  },
+  {
+    "CharacterID": "NIDANGILL",
+    "DisplayNameMSID": "CARD_NAME_917  (雙劍鞘)"
+  },
+  {
+    "CharacterID": "NIDOKING",
+    "DisplayNameMSID": "CARD_NAME_171  (尼多王)"
+  },
+  {
+    "CharacterID": "NIDOQUEEN",
+    "DisplayNameMSID": "CARD_NAME_168  (尼多后)"
+  },
+  {
+    "CharacterID": "NIDORAN♀",
+    "DisplayNameMSID": "CARD_NAME_166  (尼多蘭)"
+  },
+  {
+    "CharacterID": "NIDORAN♂",
+    "DisplayNameMSID": "CARD_NAME_169  (尼多朗)"
+  },
+  {
+    "CharacterID": "NIDORINA",
+    "DisplayNameMSID": "CARD_NAME_167  (尼多娜)"
+  },
+  {
+    "CharacterID": "NIDORINO",
+    "DisplayNameMSID": "CARD_NAME_170  (尼多力諾)"
+  },
+  {
+    "CharacterID": "NIJIIRONODOUKUTSU",
+    "DisplayNameMSID": "CARD_NAME_1338  (虹色洞窟)"
+  },
+  {
+    "CharacterID": "NOCTUS",
+    "DisplayNameMSID": "CARD_NAME_973  (夢歌仙人掌)"
+  },
+  {
+    "CharacterID": "NOKOCCHI",
+    "DisplayNameMSID": "CARD_NAME_766  (土龍弟弟)"
+  },
+  {
+    "CharacterID": "NOKOKOCCHI",
+    "DisplayNameMSID": "CARD_NAME_1250  (土龍節節)"
+  },
+  {
+    "CharacterID": "NONOKURAGE",
+    "DisplayNameMSID": "CARD_NAME_1109  (原野水母)"
+  },
+  {
+    "CharacterID": "NOSEPASS",
+    "DisplayNameMSID": "CARD_NAME_347  (朝北鼻)"
+  },
+  {
+    "CharacterID": "NUCKRAR",
+    "DisplayNameMSID": "CARD_NAME_1188  (大顎蟻)"
+  },
+  {
+    "CharacterID": "NUIKOGUMA",
+    "DisplayNameMSID": "CARD_NAME_596  (童偶熊)"
+  },
+  {
+    "CharacterID": "NUMACRAW",
+    "DisplayNameMSID": "CARD_NAME_994  (沼躍魚)"
+  },
+  {
+    "CharacterID": "NUMEIL",
+    "DisplayNameMSID": "CARD_NAME_922  (黏美兒)"
+  },
+  {
+    "CharacterID": "NUMELGON",
+    "DisplayNameMSID": "CARD_NAME_923  (黏美龍)"
+  },
+  {
+    "CharacterID": "NUMERA",
+    "DisplayNameMSID": "CARD_NAME_921  (黏黏寶)"
+  },
+  {
+    "CharacterID": "NUOH",
+    "DisplayNameMSID": "CARD_NAME_718  (沼王)"
+  },
+  {
+    "CharacterID": "NUTREY",
+    "DisplayNameMSID": "CARD_NAME_655  (堅果啞鈴)"
+  },
+  {
+    "CharacterID": "NYABBY",
+    "DisplayNameMSID": "CARD_NAME_508  (火斑喵)"
+  },
+  {
+    "CharacterID": "NYAHEAT",
+    "DisplayNameMSID": "CARD_NAME_509  (炎熱喵)"
+  },
+  {
+    "CharacterID": "NYAHOJA",
+    "DisplayNameMSID": "CARD_NAME_453  (新葉喵)"
+  },
+  {
+    "CharacterID": "NYAONIX",
+    "DisplayNameMSID": "CARD_NAME_1183  (超能妙喵)"
+  },
+  {
+    "CharacterID": "NYARMAR",
+    "DisplayNameMSID": "CARD_NAME_395  (魅力喵)"
+  },
+  {
+    "CharacterID": "NYAROTE",
+    "DisplayNameMSID": "CARD_NAME_456  (蒂蕾喵)"
+  },
+  {
+    "CharacterID": "NYARTH",
+    "DisplayNameMSID": "CARD_NAME_196  (喵喵)"
+  },
+  {
+    "CharacterID": "NYASPER",
+    "DisplayNameMSID": "CARD_NAME_1182  (妙喵)"
+  },
+  {
+    "CharacterID": "NYMPHIA",
+    "DisplayNameMSID": "CARD_NAME_680  (仙子伊布)"
+  },
+  {
+    "CharacterID": "NYMPHIA_EX",
+    "DisplayNameMSID": "CARD_NAME_681  (仙子伊布ex)"
+  },
+  {
+    "CharacterID": "NYOROBON",
+    "DisplayNameMSID": "CARD_NAME_61  (蚊香泳士)"
+  },
+  {
+    "CharacterID": "NYOROBON_EX",
+    "DisplayNameMSID": "CARD_NAME_809  (蚊香泳士ex)"
+  },
+  {
+    "CharacterID": "NYOROMO",
+    "DisplayNameMSID": "CARD_NAME_59  (蚊香蝌蚪)"
+  },
+  {
+    "CharacterID": "NYOROTONO",
+    "DisplayNameMSID": "CARD_NAME_712  (蚊香蛙皇)"
+  },
+  {
+    "CharacterID": "NYOROZO",
+    "DisplayNameMSID": "CARD_NAME_60  (蚊香君)"
+  },
+  {
+    "CharacterID": "NYULA",
+    "DisplayNameMSID": "CARD_NAME_358  (狃拉)"
+  },
+  {
+    "CharacterID": "OBONNOMI",
+    "DisplayNameMSID": "CARD_NAME_943  (文柚果)"
+  },
+  {
+    "CharacterID": "ODORIDORI",
+    "DisplayNameMSID": "CARD_NAME_511  (花舞鳥)"
+  },
+  {
+    "CharacterID": "ODOSHISHI",
+    "DisplayNameMSID": "CARD_NAME_769  (驚角鹿)"
+  },
+  {
+    "CharacterID": "OGERPONIDONOMEN",
+    "DisplayNameMSID": "CARD_NAME_999  (厄鬼椪水井面具)"
+  },
+  {
+    "CharacterID": "OGERPONISHIZUENOMEN",
+    "DisplayNameMSID": "CARD_NAME_1023  (厄鬼椪礎石面具)"
+  },
+  {
+    "CharacterID": "OGERPONKAMADONOMEN",
+    "DisplayNameMSID": "CARD_NAME_989  (厄鬼椪火灶面具)"
+  },
+  {
+    "CharacterID": "OGERPONMIDORINOMEN",
+    "DisplayNameMSID": "CARD_NAME_1289  (厄鬼椪碧草面具)"
+  },
+  {
+    "CharacterID": "OGERPONMIDORINOMEN_EX",
+    "DisplayNameMSID": "CARD_NAME_983  (厄鬼椪碧草面具ex)"
+  },
+  {
+    "CharacterID": "OHBEM",
+    "DisplayNameMSID": "CARD_NAME_255  (大宇怪)"
+  },
+  {
+    "CharacterID": "OHLONGE",
+    "DisplayNameMSID": "CARD_NAME_914  (長毛巨魔)"
+  },
+  {
+    "CharacterID": "OHROT",
+    "DisplayNameMSID": "CARD_NAME_491  (朽木妖)"
+  },
+  {
+    "CharacterID": "OHSUBAME",
+    "DisplayNameMSID": "CARD_NAME_1042  (大王燕)"
+  },
+  {
+    "CharacterID": "OKORIZARU",
+    "DisplayNameMSID": "CARD_NAME_142  (火爆猴)"
+  },
+  {
+    "CharacterID": "OKUTANK",
+    "DisplayNameMSID": "CARD_NAME_722  (章魚桶)"
+  },
+  {
+    "CharacterID": "OLIMHAKASE",
+    "DisplayNameMSID": "CARD_NAME_1255  (奧琳博士)"
+  },
+  {
+    "CharacterID": "OLINYO",
+    "DisplayNameMSID": "CARD_NAME_1069  (奧利紐)"
+  },
+  {
+    "CharacterID": "OLIVA",
+    "DisplayNameMSID": "CARD_NAME_1070  (奧利瓦)"
+  },
+  {
+    "CharacterID": "OMNITE",
+    "DisplayNameMSID": "CARD_NAME_81  (菊石獸)"
+  },
+  {
+    "CharacterID": "OMSTAR",
+    "DisplayNameMSID": "CARD_NAME_82  (多刺菊石獸)"
+  },
+  {
+    "CharacterID": "ONBAT",
+    "DisplayNameMSID": "CARD_NAME_1319  (嗡蝠)"
+  },
+  {
+    "CharacterID": "ONIDRILL",
+    "DisplayNameMSID": "CARD_NAME_192  (大嘴雀)"
+  },
+  {
+    "CharacterID": "ONISHIZUKUMO",
+    "DisplayNameMSID": "CARD_NAME_524  (滴蛛霸)"
+  },
+  {
+    "CharacterID": "ONISUZUME",
+    "DisplayNameMSID": "CARD_NAME_191  (烈雀)"
+  },
+  {
+    "CharacterID": "ONONDO",
+    "DisplayNameMSID": "CARD_NAME_1143  (斧牙龍)"
+  },
+  {
+    "CharacterID": "ONONOKUS",
+    "DisplayNameMSID": "CARD_NAME_1132  (雙斧戰龍)"
+  },
+  {
+    "CharacterID": "ONVERN",
+    "DisplayNameMSID": "CARD_NAME_1320  (音波龍)"
+  },
+  {
+    "CharacterID": "OOKIIMARASADA",
+    "DisplayNameMSID": "CARD_NAME_600  (大馬拉薩達)"
+  },
+  {
+    "CharacterID": "OOKINAMANTO",
+    "DisplayNameMSID": "CARD_NAME_402  (大斗蓬)"
+  },
+  {
+    "CharacterID": "OOTACHI",
+    "DisplayNameMSID": "CARD_NAME_765  (大尾立)"
+  },
+  {
+    "CharacterID": "ORACHIFU",
+    "DisplayNameMSID": "CARD_NAME_1116  (偶叫獒)"
+  },
+  {
+    "CharacterID": "ORDILE",
+    "DisplayNameMSID": "CARD_NAME_716  (大力鱷)"
+  },
+  {
+    "CharacterID": "ORIGINDIALGA",
+    "DisplayNameMSID": "CARD_NAME_441  (起源帝牙盧卡)"
+  },
+  {
+    "CharacterID": "ORIGINPALKIA",
+    "DisplayNameMSID": "CARD_NAME_425  (起源帕路奇亞)"
+  },
+  {
+    "CharacterID": "OSAKANANETTO",
+    "DisplayNameMSID": "CARD_NAME_601  (漁網)"
+  },
+  {
+    "CharacterID": "OSYAMARI",
+    "DisplayNameMSID": "CARD_NAME_518  (花漾海獅)"
+  },
+  {
+    "CharacterID": "OTACHI",
+    "DisplayNameMSID": "CARD_NAME_764  (尾立)"
+  },
+  {
+    "CharacterID": "OTAMARO",
+    "DisplayNameMSID": "CARD_NAME_872  (圓蝌蚪)"
+  },
+  {
+    "CharacterID": "OTORIYOSEPADDO",
+    "DisplayNameMSID": "CARD_NAME_1328  (訂購平板)"
+  },
+  {
+    "CharacterID": "OTOSHIDORI",
+    "DisplayNameMSID": "CARD_NAME_1118  (下石鳥)"
+  },
+  {
+    "CharacterID": "OTOSUPUS",
+    "DisplayNameMSID": "CARD_NAME_163  (八爪武師)"
+  },
+  {
+    "CharacterID": "PACHIRISU",
+    "DisplayNameMSID": "CARD_NAME_452  (帕奇利茲)"
+  },
+  {
+    "CharacterID": "PACHIRISU_EX",
+    "DisplayNameMSID": "CARD_NAME_326  (帕奇利茲ex)"
+  },
+  {
+    "CharacterID": "PALDEADOOH",
+    "DisplayNameMSID": "CARD_NAME_1114  (帕底亞土王)"
+  },
+  {
+    "CharacterID": "PALDEADOOH_EX",
+    "DisplayNameMSID": "CARD_NAME_470  (帕底亞土王ex)"
+  },
+  {
+    "CharacterID": "PALDEAKENTAUROS",
+    "DisplayNameMSID": "CARD_NAME_458  (帕底亞肯泰羅)"
+  },
+  {
+    "CharacterID": "PALDEAUPAH",
+    "DisplayNameMSID": "CARD_NAME_469  (帕底亞烏波)"
+  },
+  {
+    "CharacterID": "PALKIA_EX",
+    "DisplayNameMSID": "CARD_NAME_319  (帕路奇亞ex)"
+  },
+  {
+    "CharacterID": "PAMO",
+    "DisplayNameMSID": "CARD_NAME_463  (布撥)"
+  },
+  {
+    "CharacterID": "PAMOT",
+    "DisplayNameMSID": "CARD_NAME_464  (布土撥)"
+  },
+  {
+    "CharacterID": "PAOJIAN_EX",
+    "DisplayNameMSID": "CARD_NAME_1095  (古劍豹ex)"
+  },
+  {
+    "CharacterID": "PARAS",
+    "DisplayNameMSID": "CARD_NAME_14  (派拉斯)"
+  },
+  {
+    "CharacterID": "PARASECT",
+    "DisplayNameMSID": "CARD_NAME_15  (派拉斯特)"
+  },
+  {
+    "CharacterID": "PARASOLGIRL",
+    "DisplayNameMSID": "CARD_NAME_1215  (陽傘姐姐)"
+  },
+  {
+    "CharacterID": "PARMOT",
+    "DisplayNameMSID": "CARD_NAME_451  (巴布土撥)"
+  },
+  {
+    "CharacterID": "PARSHEN",
+    "DisplayNameMSID": "CARD_NAME_67  (刺甲貝)"
+  },
+  {
+    "CharacterID": "PATCHEEL",
+    "DisplayNameMSID": "CARD_NAME_930  (晃晃斑)"
+  },
+  {
+    "CharacterID": "PAWOU",
+    "DisplayNameMSID": "CARD_NAME_64  (小海獅)"
+  },
+  {
+    "CharacterID": "PEARLULU",
+    "DisplayNameMSID": "CARD_NAME_1169  (珍珠貝)"
+  },
+  {
+    "CharacterID": "PELIPPER",
+    "DisplayNameMSID": "CARD_NAME_1353  (大嘴鷗)"
+  },
+  {
+    "CharacterID": "PENDROR",
+    "DisplayNameMSID": "CARD_NAME_268  (蜈蚣王)"
+  },
+  {
+    "CharacterID": "PEPER",
+    "DisplayNameMSID": "CARD_NAME_1129  (派帕)"
+  },
+  {
+    "CharacterID": "PERAP",
+    "DisplayNameMSID": "CARD_NAME_271  (聒噪鳥)"
+  },
+  {
+    "CharacterID": "PERFUTON",
+    "DisplayNameMSID": "CARD_NAME_1123  (飄香豚)"
+  },
+  {
+    "CharacterID": "PEROPPAFU",
+    "DisplayNameMSID": "CARD_NAME_259  (綿綿泡芙)"
+  },
+  {
+    "CharacterID": "PEROREAM",
+    "DisplayNameMSID": "CARD_NAME_260  (胖甜妮)"
+  },
+  {
+    "CharacterID": "PERSIAN",
+    "DisplayNameMSID": "CARD_NAME_197  (貓老大)"
+  },
+  {
+    "CharacterID": "PHEROACHE",
+    "DisplayNameMSID": "CARD_NAME_635  (費洛美螂)"
+  },
+  {
+    "CharacterID": "PHIONE",
+    "DisplayNameMSID": "CARD_NAME_426  (霏歐納)"
+  },
+  {
+    "CharacterID": "PICHU",
+    "DisplayNameMSID": "CARD_NAME_729  (皮丘)"
+  },
+  {
+    "CharacterID": "PIGEON",
+    "DisplayNameMSID": "CARD_NAME_187  (比比鳥)"
+  },
+  {
+    "CharacterID": "PIGEOT",
+    "DisplayNameMSID": "CARD_NAME_188  (大比鳥)"
+  },
+  {
+    "CharacterID": "PIGEOT_EX",
+    "DisplayNameMSID": "CARD_NAME_270  (大比鳥ex)"
+  },
+  {
+    "CharacterID": "PIKACHU",
+    "DisplayNameMSID": "CARD_NAME_94  (皮卡丘)"
+  },
+  {
+    "CharacterID": "PIKACHU_EX",
+    "DisplayNameMSID": "CARD_NAME_96  (皮卡丘ex)"
+  },
+  {
+    "CharacterID": "PINPUKU",
+    "DisplayNameMSID": "CARD_NAME_1383  (小福蛋)"
+  },
+  {
+    "CharacterID": "PIPPI",
+    "DisplayNameMSID": "CARD_NAME_113  (皮皮)"
+  },
+  {
+    "CharacterID": "PIXY",
+    "DisplayNameMSID": "CARD_NAME_114  (皮可西)"
+  },
+  {
+    "CharacterID": "POCHAMA",
+    "DisplayNameMSID": "CARD_NAME_307  (波加曼)"
+  },
+  {
+    "CharacterID": "POCHIENA",
+    "DisplayNameMSID": "CARD_NAME_360  (土狼犬)"
+  },
+  {
+    "CharacterID": "POKABU",
+    "DisplayNameMSID": "CARD_NAME_1163  (暖暖豬)"
+  },
+  {
+    "CharacterID": "POKEMONCENTERNOONEESAN",
+    "DisplayNameMSID": "CARD_NAME_482  (寶可夢中心的姐姐)"
+  },
+  {
+    "CharacterID": "POKEMONNOFUE",
+    "DisplayNameMSID": "CARD_NAME_272  (寶可夢之笛)"
+  },
+  {
+    "CharacterID": "POKEMONTSUUSHIN",
+    "DisplayNameMSID": "CARD_NAME_401  (寶可夢通信)"
+  },
+  {
+    "CharacterID": "POKEMONZUKAN",
+    "DisplayNameMSID": "CARD_NAME_231  (寶可夢圖鑑)"
+  },
+  {
+    "CharacterID": "PONYTA",
+    "DisplayNameMSID": "CARD_NAME_42  (小火馬)"
+  },
+  {
+    "CharacterID": "POPOCCO",
+    "DisplayNameMSID": "CARD_NAME_697  (毽子花)"
+  },
+  {
+    "CharacterID": "POPPO",
+    "DisplayNameMSID": "CARD_NAME_186  (波波)"
+  },
+  {
+    "CharacterID": "PORYGON",
+    "DisplayNameMSID": "CARD_NAME_207  (多邊獸)"
+  },
+  {
+    "CharacterID": "PORYGON-Z",
+    "DisplayNameMSID": "CARD_NAME_385  (多邊獸Ｚ)"
+  },
+  {
+    "CharacterID": "PORYGON2",
+    "DisplayNameMSID": "CARD_NAME_384  (多邊獸Ⅱ)"
+  },
+  {
+    "CharacterID": "POTDEATH",
+    "DisplayNameMSID": "CARD_NAME_1015  (怖思壺)"
+  },
+  {
+    "CharacterID": "POTTAISHI",
+    "DisplayNameMSID": "CARD_NAME_308  (波皇子)"
+  },
+  {
+    "CharacterID": "POWALEN",
+    "DisplayNameMSID": "CARD_NAME_1208  (飄浮泡泡)"
+  },
+  {
+    "CharacterID": "POWALENAMAMIZUNOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1167  (飄浮泡泡雨水的樣子)"
+  },
+  {
+    "CharacterID": "POWALENTAIYOUNOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1161  (飄浮泡泡太陽的樣子)"
+  },
+  {
+    "CharacterID": "POWALENYUKIGUMONOSUGATA",
+    "DisplayNameMSID": "CARD_NAME_1168  (飄浮泡泡雪雲的樣子)"
+  },
+  {
+    "CharacterID": "PRASLE",
+    "DisplayNameMSID": "CARD_NAME_1001  (正電拍拍)"
+  },
+  {
+    "CharacterID": "PROTOGA",
+    "DisplayNameMSID": "CARD_NAME_875  (原蓋海龜)"
+  },
+  {
+    "CharacterID": "PTERA",
+    "DisplayNameMSID": "CARD_NAME_208  (化石翼龍)"
+  },
+  {
+    "CharacterID": "PTERA_EX",
+    "DisplayNameMSID": "CARD_NAME_261  (化石翼龍ex)"
+  },
+  {
+    "CharacterID": "PUKURIN",
+    "DisplayNameMSID": "CARD_NAME_194  (胖可丁)"
+  },
+  {
+    "CharacterID": "PUKURIN_EX",
+    "DisplayNameMSID": "CARD_NAME_195  (胖可丁ex)"
+  },
+  {
+    "CharacterID": "PULSEWAN",
+    "DisplayNameMSID": "CARD_NAME_803  (逐電犬)"
+  },
+  {
+    "CharacterID": "PUMPJIN",
+    "DisplayNameMSID": "CARD_NAME_1012  (南瓜怪人)"
+  },
+  {
+    "CharacterID": "PUPIMOCCHI",
+    "DisplayNameMSID": "CARD_NAME_1100  (狗仔包)"
+  },
+  {
+    "CharacterID": "PUPURIN",
+    "DisplayNameMSID": "CARD_NAME_819  (寶寶丁)"
+  },
+  {
+    "CharacterID": "PURIN",
+    "DisplayNameMSID": "CARD_NAME_193  (胖丁)"
+  },
+  {
+    "CharacterID": "PURURILL",
+    "DisplayNameMSID": "CARD_NAME_807  (輕飄飄)"
+  },
+  {
+    "CharacterID": "PY",
+    "DisplayNameMSID": "CARD_NAME_737  (皮寶寶)"
+  },
+  {
+    "CharacterID": "RABBIFUTO",
+    "DisplayNameMSID": "CARD_NAME_987  (騰蹴小將)"
+  },
+  {
+    "CharacterID": "RAICHU",
+    "DisplayNameMSID": "CARD_NAME_95  (雷丘)"
+  },
+  {
+    "CharacterID": "RAICHU_EX",
+    "DisplayNameMSID": "CARD_NAME_788  (雷丘ex)"
+  },
+  {
+    "CharacterID": "RAIKOU",
+    "DisplayNameMSID": "CARD_NAME_734  (雷公)"
+  },
+  {
+    "CharacterID": "RAIKOU_EX",
+    "DisplayNameMSID": "CARD_NAME_800  (雷公ex)"
+  },
+  {
+    "CharacterID": "RAKURAI",
+    "DisplayNameMSID": "CARD_NAME_427  (落雷獸)"
+  },
+  {
+    "CharacterID": "RALTS",
+    "DisplayNameMSID": "CARD_NAME_130  (拉魯拉絲)"
+  },
+  {
+    "CharacterID": "RAMPALD",
+    "DisplayNameMSID": "CARD_NAME_350  (戰槌龍)"
+  },
+  {
+    "CharacterID": "RAMUNOMI",
+    "DisplayNameMSID": "CARD_NAME_404  (木子果)"
+  },
+  {
+    "CharacterID": "RARECOIL",
+    "DisplayNameMSID": "CARD_NAME_98  (三合一磁怪)"
+  },
+  {
+    "CharacterID": "RATTA",
+    "DisplayNameMSID": "CARD_NAME_190  (拉達)"
+  },
+  {
+    "CharacterID": "RAYQUAZA",
+    "DisplayNameMSID": "CARD_NAME_830  (烈空坐)"
+  },
+  {
+    "CharacterID": "RAYQUAZA_EX",
+    "DisplayNameMSID": "CARD_NAME_831  (烈空坐ex)"
+  },
+  {
+    "CharacterID": "RED",
+    "DisplayNameMSID": "CARD_NAME_483  (赤紅)"
+  },
+  {
+    "CharacterID": "REDCARD",
+    "DisplayNameMSID": "CARD_NAME_232  (紅牌)"
+  },
+  {
+    "CharacterID": "REDIAN",
+    "DisplayNameMSID": "CARD_NAME_695  (安瓢蟲)"
+  },
+  {
+    "CharacterID": "REDIBA",
+    "DisplayNameMSID": "CARD_NAME_694  (芭瓢蟲)"
+  },
+  {
+    "CharacterID": "REGICE",
+    "DisplayNameMSID": "CARD_NAME_306  (雷吉艾斯)"
+  },
+  {
+    "CharacterID": "REGIDORAGO",
+    "DisplayNameMSID": "CARD_NAME_1377  (雷吉鐸拉戈)"
+  },
+  {
+    "CharacterID": "REGIGIGAS",
+    "DisplayNameMSID": "CARD_NAME_398  (雷吉奇卡斯)"
+  },
+  {
+    "CharacterID": "REGIROCK",
+    "DisplayNameMSID": "CARD_NAME_348  (雷吉洛克)"
+  },
+  {
+    "CharacterID": "REGISTEEL",
+    "DisplayNameMSID": "CARD_NAME_372  (雷吉斯奇魯)"
+  },
+  {
+    "CharacterID": "RENTORAR",
+    "DisplayNameMSID": "CARD_NAME_325  (倫琴貓)"
+  },
+  {
+    "CharacterID": "RESHIRAM",
+    "DisplayNameMSID": "CARD_NAME_984  (萊希拉姆)"
+  },
+  {
+    "CharacterID": "RESUKYUSUKAFU",
+    "DisplayNameMSID": "CARD_NAME_777  (救援領巾)"
+  },
+  {
+    "CharacterID": "RIKIKIRIN",
+    "DisplayNameMSID": "CARD_NAME_1249  (奇麒麟)"
+  },
+  {
+    "CharacterID": "RIKUKURAGE",
+    "DisplayNameMSID": "CARD_NAME_1110  (陸地水母)"
+  },
+  {
+    "CharacterID": "RINGUMA",
+    "DisplayNameMSID": "CARD_NAME_768  (圈圈熊)"
+  },
+  {
+    "CharacterID": "RIOLU",
+    "DisplayNameMSID": "CARD_NAME_351  (利歐路)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOARBO",
+    "DisplayNameMSID": "CARD_NAME_1367  (火箭隊的阿柏蛇)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOARBOK",
+    "DisplayNameMSID": "CARD_NAME_1368  (火箭隊的阿柏怪)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBACHINUNI",
+    "DisplayNameMSID": "CARD_NAME_1359  (火箭隊的啪嚓海膽)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBARRIERD",
+    "DisplayNameMSID": "CARD_NAME_1364  (火箭隊的魔牆人偶)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETBETER",
+    "DisplayNameMSID": "CARD_NAME_1369  (火箭隊的臭泥)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETBETON",
+    "DisplayNameMSID": "CARD_NAME_1370  (火箭隊的臭臭泥)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBETOBETOBAZOOKA",
+    "DisplayNameMSID": "CARD_NAME_1385  (火箭隊的黏黏炮)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBIRIRIDAMA",
+    "DisplayNameMSID": "CARD_NAME_1356  (火箭隊的霹靂電球)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBOOBER",
+    "DisplayNameMSID": "CARD_NAME_1346  (火箭隊的鴨嘴火獸)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOBOSS",
+    "DisplayNameMSID": "CARD_NAME_1388  (火箭隊的老大)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODAISAKUSEN",
+    "DisplayNameMSID": "CARD_NAME_1387  (火箭隊的大作戰)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODEKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1376  (火箭隊的巨鍛匠)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODELVIL",
+    "DisplayNameMSID": "CARD_NAME_1348  (火箭隊的戴魯比)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODOGARS",
+    "DisplayNameMSID": "CARD_NAME_1371  (火箭隊的瓦斯彈)"
+  },
+  {
+    "CharacterID": "ROCKETDANNODOROBOUMASHIN",
+    "DisplayNameMSID": "CARD_NAME_1384  (火箭隊的竊盜機)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOFIRE_EX",
+    "DisplayNameMSID": "CARD_NAME_1347  (火箭隊的火焰鳥ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOFREEZER_EX",
+    "DisplayNameMSID": "CARD_NAME_1352  (火箭隊的急凍鳥ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOHELLGAR",
+    "DisplayNameMSID": "CARD_NAME_1349  (火箭隊的黑魯加)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKAKUREON",
+    "DisplayNameMSID": "CARD_NAME_1382  (火箭隊的變隱龍)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1374  (火箭隊的小鍛匠)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKENKYUUIN",
+    "DisplayNameMSID": "CARD_NAME_1386  (火箭隊的研究員)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOKORATTA",
+    "DisplayNameMSID": "CARD_NAME_1378  (火箭隊的小拉達)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOLAPLACE",
+    "DisplayNameMSID": "CARD_NAME_1341  (火箭隊的拉普拉斯)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMARUMINE",
+    "DisplayNameMSID": "CARD_NAME_1357  (火箭隊的頑皮雷彈)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMATADOGAS_EX",
+    "DisplayNameMSID": "CARD_NAME_1372  (火箭隊的雙彈瓦斯ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOMEWTWO",
+    "DisplayNameMSID": "CARD_NAME_1365  (火箭隊的超夢)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONAKANUCHAN",
+    "DisplayNameMSID": "CARD_NAME_1375  (火箭隊的巧鍛匠)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONYARTH",
+    "DisplayNameMSID": "CARD_NAME_1380  (火箭隊的喵喵)"
+  },
+  {
+    "CharacterID": "ROCKETDANNONYULA",
+    "DisplayNameMSID": "CARD_NAME_1373  (火箭隊的狃拉)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOPERSIAN",
+    "DisplayNameMSID": "CARD_NAME_1381  (火箭隊的貓老大)"
+  },
+  {
+    "CharacterID": "ROCKETDANNORATTA_EX",
+    "DisplayNameMSID": "CARD_NAME_1379  (火箭隊的拉達ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSHITAPPA",
+    "DisplayNameMSID": "CARD_NAME_484  (火箭隊手下)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSLEEPE",
+    "DisplayNameMSID": "CARD_NAME_1362  (火箭隊的催眠貘)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSLEEPER",
+    "DisplayNameMSID": "CARD_NAME_1363  (火箭隊的引夢貘人)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSONANS",
+    "DisplayNameMSID": "CARD_NAME_1343  (火箭隊的果然翁)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOSTRIKE",
+    "DisplayNameMSID": "CARD_NAME_1340  (火箭隊的飛天螳螂)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOTHUNDER_EX",
+    "DisplayNameMSID": "CARD_NAME_1358  (火箭隊的閃電鳥ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOYADOKING_EX",
+    "DisplayNameMSID": "CARD_NAME_1361  (火箭隊的呆呆王ex)"
+  },
+  {
+    "CharacterID": "ROCKETDANNOYADON",
+    "DisplayNameMSID": "CARD_NAME_1360  (火箭隊的呆呆獸)"
+  },
+  {
+    "CharacterID": "ROKON",
+    "DisplayNameMSID": "CARD_NAME_37  (六尾)"
+  },
+  {
+    "CharacterID": "ROSELIA",
+    "DisplayNameMSID": "CARD_NAME_281  (毒薔薇)"
+  },
+  {
+    "CharacterID": "ROSERADE",
+    "DisplayNameMSID": "CARD_NAME_282  (羅絲雷朵)"
+  },
+  {
+    "CharacterID": "ROTOM",
+    "DisplayNameMSID": "CARD_NAME_327  (洛托姆)"
+  },
+  {
+    "CharacterID": "ROTOMUZUKAN",
+    "DisplayNameMSID": "CARD_NAME_603  (洛托姆圖鑑)"
+  },
+  {
+    "CharacterID": "ROTOM_EX",
+    "DisplayNameMSID": "CARD_NAME_1300  (洛托姆ex)"
+  },
+  {
+    "CharacterID": "ROUBUSHIN",
+    "DisplayNameMSID": "CARD_NAME_557  (修建老匠)"
+  },
+  {
+    "CharacterID": "ROUGELA",
+    "DisplayNameMSID": "CARD_NAME_127  (迷唇姐)"
+  },
+  {
+    "CharacterID": "RUCHIA",
+    "DisplayNameMSID": "CARD_NAME_951  (琉琪亞)"
+  },
+  {
+    "CharacterID": "RUFFRESIA",
+    "DisplayNameMSID": "CARD_NAME_13  (霸王花)"
+  },
+  {
+    "CharacterID": "RUNPAPPA",
+    "DisplayNameMSID": "CARD_NAME_866  (樂天河童)"
+  },
+  {
+    "CharacterID": "RURIRI",
+    "DisplayNameMSID": "CARD_NAME_820  (露力麗)"
+  },
+  {
+    "CharacterID": "SABONEA",
+    "DisplayNameMSID": "CARD_NAME_972  (刺球仙人掌)"
+  },
+  {
+    "CharacterID": "SADAIJA",
+    "DisplayNameMSID": "CARD_NAME_1196  (沙螺蟒)"
+  },
+  {
+    "CharacterID": "SAIKIKKA",
+    "DisplayNameMSID": "CARD_NAME_1333  (超能力者)"
+  },
+  {
+    "CharacterID": "SAKAKI",
+    "DisplayNameMSID": "CARD_NAME_221  (坂木)"
+  },
+  {
+    "CharacterID": "SAKEBUSHIPPO",
+    "DisplayNameMSID": "CARD_NAME_1226  (吼叫尾)"
+  },
+  {
+    "CharacterID": "SAKURABYSS",
+    "DisplayNameMSID": "CARD_NAME_1171  (櫻花魚)"
+  },
+  {
+    "CharacterID": "SAMAYOURU",
+    "DisplayNameMSID": "CARD_NAME_334  (彷徨夜靈)"
+  },
+  {
+    "CharacterID": "SAMEHADER",
+    "DisplayNameMSID": "CARD_NAME_638  (巨牙鯊)"
+  },
+  {
+    "CharacterID": "SANAGIRAS",
+    "DisplayNameMSID": "CARD_NAME_434  (沙基拉斯)"
+  },
+  {
+    "CharacterID": "SAND",
+    "DisplayNameMSID": "CARD_NAME_137  (穿山鼠)"
+  },
+  {
+    "CharacterID": "SANDPAN",
+    "DisplayNameMSID": "CARD_NAME_138  (穿山王)"
+  },
+  {
+    "CharacterID": "SARUNORI",
+    "DisplayNameMSID": "CARD_NAME_847  (敲音猴)"
+  },
+  {
+    "CharacterID": "SASIKAMASU",
+    "DisplayNameMSID": "CARD_NAME_881  (刺梭魚)"
+  },
+  {
+    "CharacterID": "SAWAMULAR",
+    "DisplayNameMSID": "CARD_NAME_154  (飛腿郎)"
+  },
+  {
+    "CharacterID": "SAZANDORA",
+    "DisplayNameMSID": "CARD_NAME_909  (三首惡龍)"
+  },
+  {
+    "CharacterID": "SCORUPI",
+    "DisplayNameMSID": "CARD_NAME_365  (鉗尾蠍)"
+  },
+  {
+    "CharacterID": "SCOVILLAIN",
+    "DisplayNameMSID": "CARD_NAME_1074  (狠辣椒)"
+  },
+  {
+    "CharacterID": "SEADRA",
+    "DisplayNameMSID": "CARD_NAME_71  (海刺龍)"
+  },
+  {
+    "CharacterID": "SEBIE",
+    "DisplayNameMSID": "CARD_NAME_1092  (涼脊龍)"
+  },
+  {
+    "CharacterID": "SEGLAIVE",
+    "DisplayNameMSID": "CARD_NAME_1094  (戟脊龍)"
+  },
+  {
+    "CharacterID": "SEGOHRU",
+    "DisplayNameMSID": "CARD_NAME_1093  (凍脊龍)"
+  },
+  {
+    "CharacterID": "SEKI",
+    "DisplayNameMSID": "CARD_NAME_449  (剛石)"
+  },
+  {
+    "CharacterID": "SEKITANZAN",
+    "DisplayNameMSID": "CARD_NAME_905  (巨炭山)"
+  },
+  {
+    "CharacterID": "SERENA",
+    "DisplayNameMSID": "CARD_NAME_970  (莎莉娜)"
+  },
+  {
+    "CharacterID": "SHAYMIN",
+    "DisplayNameMSID": "CARD_NAME_295  (謝米)"
+  },
+  {
+    "CharacterID": "SHELLDER",
+    "DisplayNameMSID": "CARD_NAME_66  (大舌貝)"
+  },
+  {
+    "CharacterID": "SHIBIBEEL",
+    "DisplayNameMSID": "CARD_NAME_108  (麻麻鰻)"
+  },
+  {
+    "CharacterID": "SHIBIRUDON",
+    "DisplayNameMSID": "CARD_NAME_109  (麻麻鰻魚王)"
+  },
+  {
+    "CharacterID": "SHIBISHIRASU",
+    "DisplayNameMSID": "CARD_NAME_107  (麻麻小魚)"
+  },
+  {
+    "CharacterID": "SHIGAROKO",
+    "DisplayNameMSID": "CARD_NAME_1075  (蟲滾泥)"
+  },
+  {
+    "CharacterID": "SHIMAMA",
+    "DisplayNameMSID": "CARD_NAME_105  (斑斑馬)"
+  },
+  {
+    "CharacterID": "SHIRONA",
+    "DisplayNameMSID": "CARD_NAME_407  (竹蘭)"
+  },
+  {
+    "CharacterID": "SHIRUSHREW",
+    "DisplayNameMSID": "CARD_NAME_471  (滋汁鼴)"
+  },
+  {
+    "CharacterID": "SHISHIKO",
+    "DisplayNameMSID": "CARD_NAME_861  (小獅獅)"
+  },
+  {
+    "CharacterID": "SHIZARIGER",
+    "DisplayNameMSID": "CARD_NAME_726  (鐵螯龍蝦)"
+  },
+  {
+    "CharacterID": "SHIZUI",
+    "DisplayNameMSID": "CARD_NAME_946  (西子伊)"
+  },
+  {
+    "CharacterID": "SHIZUKUMO",
+    "DisplayNameMSID": "CARD_NAME_523  (滴蛛)"
+  },
+  {
+    "CharacterID": "SHOWERS",
+    "DisplayNameMSID": "CARD_NAME_80  (水伊布)"
+  },
+  {
+    "CharacterID": "SHOWERS_EX",
+    "DisplayNameMSID": "CARD_NAME_1166  (水伊布ex)"
+  },
+  {
+    "CharacterID": "SHUSHUPU",
+    "DisplayNameMSID": "CARD_NAME_894  (粉香香)"
+  },
+  {
+    "CharacterID": "SIDON",
+    "DisplayNameMSID": "CARD_NAME_157  (鑽角犀獸)"
+  },
+  {
+    "CharacterID": "SIHORN",
+    "DisplayNameMSID": "CARD_NAME_156  (獨角犀牛)"
+  },
+  {
+    "CharacterID": "SILVADY",
+    "DisplayNameMSID": "CARD_NAME_660  (銀伴戰獸)"
+  },
+  {
+    "CharacterID": "SILVER",
+    "DisplayNameMSID": "CARD_NAME_780  (小銀)"
+  },
+  {
+    "CharacterID": "SIRNIGHT",
+    "DisplayNameMSID": "CARD_NAME_132  (沙奈朵)"
+  },
+  {
+    "CharacterID": "SIRODETHNA",
+    "DisplayNameMSID": "CARD_NAME_544  (噬沙堡爺)"
+  },
+  {
+    "CharacterID": "SKUNPUU",
+    "DisplayNameMSID": "CARD_NAME_362  (臭鼬噗)"
+  },
+  {
+    "CharacterID": "SKUTANK",
+    "DisplayNameMSID": "CARD_NAME_363  (坦克臭鼬)"
+  },
+  {
+    "CharacterID": "SLEEPE",
+    "DisplayNameMSID": "CARD_NAME_124  (催眠貘)"
+  },
+  {
+    "CharacterID": "SLEEPER",
+    "DisplayNameMSID": "CARD_NAME_125  (引夢貘人)"
+  },
+  {
+    "CharacterID": "SOHNANO",
+    "DisplayNameMSID": "CARD_NAME_1304  (小果然)"
+  },
+  {
+    "CharacterID": "SOLGALEO_EX",
+    "DisplayNameMSID": "CARD_NAME_581  (索爾迦雷歐ex)"
+  },
+  {
+    "CharacterID": "SOLROCK",
+    "DisplayNameMSID": "CARD_NAME_553  (太陽岩)"
+  },
+  {
+    "CharacterID": "SONANS",
+    "DisplayNameMSID": "CARD_NAME_741  (果然翁)"
+  },
+  {
+    "CharacterID": "SOUBLADES",
+    "DisplayNameMSID": "CARD_NAME_1102  (蒼炎刃鬼)"
+  },
+  {
+    "CharacterID": "SOUBLADES_EX",
+    "DisplayNameMSID": "CARD_NAME_1261  (蒼炎刃鬼ex)"
+  },
+  {
+    "CharacterID": "SOUJYUKUEKISU",
+    "DisplayNameMSID": "CARD_NAME_968  (早熟精華)"
+  },
+  {
+    "CharacterID": "SPEAR",
+    "DisplayNameMSID": "CARD_NAME_10  (大針蜂)"
+  },
+  {
+    "CharacterID": "SPEAR_EX",
+    "DisplayNameMSID": "CARD_NAME_455  (大針蜂ex)"
+  },
+  {
+    "CharacterID": "SPEEDER",
+    "DisplayNameMSID": "CARD_NAME_227  (速度強化)"
+  },
+  {
+    "CharacterID": "SPIN ROTOM",
+    "DisplayNameMSID": "CARD_NAME_397  (旋轉洛托姆)"
+  },
+  {
+    "CharacterID": "STARMIE",
+    "DisplayNameMSID": "CARD_NAME_75  (寶石海星)"
+  },
+  {
+    "CharacterID": "STARMIE_EX",
+    "DisplayNameMSID": "CARD_NAME_76  (寶石海星ex)"
+  },
+  {
+    "CharacterID": "STRIKE",
+    "DisplayNameMSID": "CARD_NAME_25  (飛天螳螂)"
+  },
+  {
+    "CharacterID": "STRINDER",
+    "DisplayNameMSID": "CARD_NAME_1181  (顫弦蠑螈)"
+  },
+  {
+    "CharacterID": "STRINDER_EX",
+    "DisplayNameMSID": "CARD_NAME_1004  (顫弦蠑螈ex)"
+  },
+  {
+    "CharacterID": "SUBAME",
+    "DisplayNameMSID": "CARD_NAME_1041  (傲骨燕)"
+  },
+  {
+    "CharacterID": "SUBOMIE",
+    "DisplayNameMSID": "CARD_NAME_1153  (含羞苞)"
+  },
+  {
+    "CharacterID": "SUICUNE",
+    "DisplayNameMSID": "CARD_NAME_724  (水君)"
+  },
+  {
+    "CharacterID": "SUICUNE_EX",
+    "DisplayNameMSID": "CARD_NAME_797  (水君ex)"
+  },
+  {
+    "CharacterID": "SUIREN",
+    "DisplayNameMSID": "CARD_NAME_610  (水蓮)"
+  },
+  {
+    "CharacterID": "SUNABA",
+    "DisplayNameMSID": "CARD_NAME_543  (沙丘娃)"
+  },
+  {
+    "CharacterID": "SUNAHEBI",
+    "DisplayNameMSID": "CARD_NAME_1195  (沙包蛇)"
+  },
+  {
+    "CharacterID": "SUNANOKEGAWA",
+    "DisplayNameMSID": "CARD_NAME_1236  (沙鐵皮)"
+  },
+  {
+    "CharacterID": "SUNNYGO",
+    "DisplayNameMSID": "CARD_NAME_720  (太陽珊瑚)"
+  },
+  {
+    "CharacterID": "SURFUGO",
+    "DisplayNameMSID": "CARD_NAME_478  (賽富豪)"
+  },
+  {
+    "CharacterID": "SURFUGO_EX",
+    "DisplayNameMSID": "CARD_NAME_1121  (賽富豪ex)"
+  },
+  {
+    "CharacterID": "SWANNA",
+    "DisplayNameMSID": "CARD_NAME_86  (舞天鵝)"
+  },
+  {
+    "CharacterID": "SWANNA_EX",
+    "DisplayNameMSID": "CARD_NAME_1327  (舞天鵝ex)"
+  },
+  {
+    "CharacterID": "SYAGA",
+    "DisplayNameMSID": "CARD_NAME_1334  (夏卡)"
+  },
+  {
+    "CharacterID": "SYARITATSU",
+    "DisplayNameMSID": "CARD_NAME_462  (米立龍)"
+  },
+  {
+    "CharacterID": "SYMBOLER",
+    "DisplayNameMSID": "CARD_NAME_253  (象徵鳥)"
+  },
+  {
+    "CharacterID": "TABENOKOSHI",
+    "DisplayNameMSID": "CARD_NAME_688  (吃剩的東西)"
+  },
+  {
+    "CharacterID": "TABINOGYOUSHOUNIN",
+    "DisplayNameMSID": "CARD_NAME_826  (旅行商人)"
+  },
+  {
+    "CharacterID": "TABLECITY",
+    "DisplayNameMSID": "CARD_NAME_1130  (桌台市)"
+  },
+  {
+    "CharacterID": "TABUNNE",
+    "DisplayNameMSID": "CARD_NAME_626  (差不多娃娃)"
+  },
+  {
+    "CharacterID": "TAGGINGRU",
+    "DisplayNameMSID": "CARD_NAME_472  (塗標客)"
+  },
+  {
+    "CharacterID": "TAIKAIDEN",
+    "DisplayNameMSID": "CARD_NAME_1098  (大電海燕)"
+  },
+  {
+    "CharacterID": "TAIRENAR",
+    "DisplayNameMSID": "CARD_NAME_1350  (長尾火狐)"
+  },
+  {
+    "CharacterID": "TAIRETSU",
+    "DisplayNameMSID": "CARD_NAME_1022  (列陣兵)"
+  },
+  {
+    "CharacterID": "TAKERURAIKO",
+    "DisplayNameMSID": "CARD_NAME_1248  (猛雷鼓)"
+  },
+  {
+    "CharacterID": "TAKESHI",
+    "DisplayNameMSID": "CARD_NAME_222  (小剛)"
+  },
+  {
+    "CharacterID": "TAMAGETAKE",
+    "DisplayNameMSID": "CARD_NAME_1199  (哎呀球菇)"
+  },
+  {
+    "CharacterID": "TAMANTA",
+    "DisplayNameMSID": "CARD_NAME_798  (小球飛魚)"
+  },
+  {
+    "CharacterID": "TAMANTULA",
+    "DisplayNameMSID": "CARD_NAME_1065  (團珠蛛)"
+  },
+  {
+    "CharacterID": "TAMATAMA",
+    "DisplayNameMSID": "CARD_NAME_21  (蛋蛋)"
+  },
+  {
+    "CharacterID": "TAMAZARASHI",
+    "DisplayNameMSID": "CARD_NAME_1293  (海豹球)"
+  },
+  {
+    "CharacterID": "TANDON",
+    "DisplayNameMSID": "CARD_NAME_903  (小炭仔)"
+  },
+  {
+    "CharacterID": "TANEBOH",
+    "DisplayNameMSID": "CARD_NAME_838  (橡實果)"
+  },
+  {
+    "CharacterID": "TARUPPLE",
+    "DisplayNameMSID": "CARD_NAME_671  (豐蜜龍)"
+  },
+  {
+    "CharacterID": "TATAKKO",
+    "DisplayNameMSID": "CARD_NAME_162  (拳拳蛸)"
+  },
+  {
+    "CharacterID": "TATENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_400  (盾甲化石)"
+  },
+  {
+    "CharacterID": "TATETOPS",
+    "DisplayNameMSID": "CARD_NAME_373  (盾甲龍)"
+  },
+  {
+    "CharacterID": "TATSUBAY",
+    "DisplayNameMSID": "CARD_NAME_1036  (寶貝龍)"
+  },
+  {
+    "CharacterID": "TATTU",
+    "DisplayNameMSID": "CARD_NAME_70  (墨海馬)"
+  },
+  {
+    "CharacterID": "TAXIDRIVER",
+    "DisplayNameMSID": "CARD_NAME_1213  (計程車司機)"
+  },
+  {
+    "CharacterID": "TEAMSTARGRUNT",
+    "DisplayNameMSID": "CARD_NAME_1127  (天星隊手下)"
+  },
+  {
+    "CharacterID": "TEBRIM",
+    "DisplayNameMSID": "CARD_NAME_1186  (提布莉姆)"
+  },
+  {
+    "CharacterID": "TEKKAGUYA",
+    "DisplayNameMSID": "CARD_NAME_661  (鐵火輝夜)"
+  },
+  {
+    "CharacterID": "TEPPOUO",
+    "DisplayNameMSID": "CARD_NAME_721  (鐵炮魚)"
+  },
+  {
+    "CharacterID": "TERAPAGOS_EX",
+    "DisplayNameMSID": "CARD_NAME_1251  (太樂巴戈斯ex)"
+  },
+  {
+    "CharacterID": "TERRAKION",
+    "DisplayNameMSID": "CARD_NAME_900  (代拉基翁)"
+  },
+  {
+    "CharacterID": "TESSEED",
+    "DisplayNameMSID": "CARD_NAME_654  (種子鐵球)"
+  },
+  {
+    "CharacterID": "TETSUNOBUJIN",
+    "DisplayNameMSID": "CARD_NAME_1228  (鐵武者)"
+  },
+  {
+    "CharacterID": "TETSUNODOKUGA",
+    "DisplayNameMSID": "CARD_NAME_1221  (鐵毒蛾)"
+  },
+  {
+    "CharacterID": "TETSUNOIBARA",
+    "DisplayNameMSID": "CARD_NAME_1224  (鐵荊棘)"
+  },
+  {
+    "CharacterID": "TETSUNOISAHA",
+    "DisplayNameMSID": "CARD_NAME_1229  (鐵斑葉)"
+  },
+  {
+    "CharacterID": "TETSUNOIWAO",
+    "DisplayNameMSID": "CARD_NAME_1230  (鐵磐岩)"
+  },
+  {
+    "CharacterID": "TETSUNOKAINA",
+    "DisplayNameMSID": "CARD_NAME_1223  (鐵臂膀)"
+  },
+  {
+    "CharacterID": "TETSUNOKASHIRA",
+    "DisplayNameMSID": "CARD_NAME_1231  (鐵頭殼)"
+  },
+  {
+    "CharacterID": "TETSUNOKOUBE",
+    "DisplayNameMSID": "CARD_NAME_1241  (鐵脖頸)"
+  },
+  {
+    "CharacterID": "TETSUNOTSUTSUMI",
+    "DisplayNameMSID": "CARD_NAME_1265  (鐵包袱)"
+  },
+  {
+    "CharacterID": "TETSUNOTSUTSUMI_EX",
+    "DisplayNameMSID": "CARD_NAME_1222  (鐵包袱ex)"
+  },
+  {
+    "CharacterID": "TETSUNOWADACHI",
+    "DisplayNameMSID": "CARD_NAME_1245  (鐵轍跡)"
+  },
+  {
+    "CharacterID": "THUNDER",
+    "DisplayNameMSID": "CARD_NAME_103  (閃電鳥)"
+  },
+  {
+    "CharacterID": "THUNDERS",
+    "DisplayNameMSID": "CARD_NAME_102  (雷伊布)"
+  },
+  {
+    "CharacterID": "THUNDERS_EX",
+    "DisplayNameMSID": "CARD_NAME_884  (雷伊布ex)"
+  },
+  {
+    "CharacterID": "THUNDER_EX",
+    "DisplayNameMSID": "CARD_NAME_104  (閃電鳥ex)"
+  },
+  {
+    "CharacterID": "TODOGGLER",
+    "DisplayNameMSID": "CARD_NAME_1294  (海魔獅)"
+  },
+  {
+    "CharacterID": "TODOROKUTSUKI",
+    "DisplayNameMSID": "CARD_NAME_1242  (轟鳴月)"
+  },
+  {
+    "CharacterID": "TODOSERUGA",
+    "DisplayNameMSID": "CARD_NAME_1295  (帝牙海獅)"
+  },
+  {
+    "CharacterID": "TOGECHICK",
+    "DisplayNameMSID": "CARD_NAME_329  (波克基古)"
+  },
+  {
+    "CharacterID": "TOGEDEMARU",
+    "DisplayNameMSID": "CARD_NAME_532  (托戈德瑪爾)"
+  },
+  {
+    "CharacterID": "TOGEKISS",
+    "DisplayNameMSID": "CARD_NAME_330  (波克基斯)"
+  },
+  {
+    "CharacterID": "TOGEPY",
+    "DisplayNameMSID": "CARD_NAME_328  (波克比)"
+  },
+  {
+    "CharacterID": "TORENINGUERIA",
+    "DisplayNameMSID": "CARD_NAME_1060  (訓練區)"
+  },
+  {
+    "CharacterID": "TORIDEPS",
+    "DisplayNameMSID": "CARD_NAME_374  (護城龍)"
+  },
+  {
+    "CharacterID": "TORNELOS",
+    "DisplayNameMSID": "CARD_NAME_1046  (龍捲雲)"
+  },
+  {
+    "CharacterID": "TOROGGON",
+    "DisplayNameMSID": "CARD_NAME_904  (大炭車)"
+  },
+  {
+    "CharacterID": "TOSAKINTO",
+    "DisplayNameMSID": "CARD_NAME_72  (角金魚)"
+  },
+  {
+    "CharacterID": "TRANSEL",
+    "DisplayNameMSID": "CARD_NAME_6  (鐵甲蛹)"
+  },
+  {
+    "CharacterID": "TRIMMIEN",
+    "DisplayNameMSID": "CARD_NAME_935  (多麗米亞)"
+  },
+  {
+    "CharacterID": "TRITODON",
+    "DisplayNameMSID": "CARD_NAME_313  (海兔獸)"
+  },
+  {
+    "CharacterID": "TROPIUS",
+    "DisplayNameMSID": "CARD_NAME_669  (熱帶龍)"
+  },
+  {
+    "CharacterID": "TSUBOTSUBO",
+    "DisplayNameMSID": "CARD_NAME_971  (壺壺)"
+  },
+  {
+    "CharacterID": "TSUBOTSUBO_EX",
+    "DisplayNameMSID": "CARD_NAME_703  (壺壺ex)"
+  },
+  {
+    "CharacterID": "TSUMENOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_1329  (爪子化石)"
+  },
+  {
+    "CharacterID": "TSUTARJA",
+    "DisplayNameMSID": "CARD_NAME_235  (藤藤蛇)"
+  },
+  {
+    "CharacterID": "TSUTSUKERA",
+    "DisplayNameMSID": "CARD_NAME_591  (小篤兒)"
+  },
+  {
+    "CharacterID": "TUNBEAR",
+    "DisplayNameMSID": "CARD_NAME_1173  (凍原熊)"
+  },
+  {
+    "CharacterID": "TUNDETUNDE",
+    "DisplayNameMSID": "CARD_NAME_622  (壘磊石)"
+  },
+  {
+    "CharacterID": "TYLTALIS",
+    "DisplayNameMSID": "CARD_NAME_818  (七夕青鳥)"
+  },
+  {
+    "CharacterID": "TYLTTO",
+    "DisplayNameMSID": "CARD_NAME_821  (青綿鳥)"
+  },
+  {
+    "CharacterID": "TYPENULL",
+    "DisplayNameMSID": "CARD_NAME_659  (屬性：空)"
+  },
+  {
+    "CharacterID": "UDEPPOU",
+    "DisplayNameMSID": "CARD_NAME_959  (鐵臂槍蝦)"
+  },
+  {
+    "CharacterID": "UGATSUHOMURA",
+    "DisplayNameMSID": "CARD_NAME_1247  (破空焰)"
+  },
+  {
+    "CharacterID": "ULGAMOTH",
+    "DisplayNameMSID": "CARD_NAME_242  (火神蛾)"
+  },
+  {
+    "CharacterID": "UMIDIGDA",
+    "DisplayNameMSID": "CARD_NAME_459  (海地鼠)"
+  },
+  {
+    "CharacterID": "UMITRIO",
+    "DisplayNameMSID": "CARD_NAME_1086  (三海地鼠)"
+  },
+  {
+    "CharacterID": "UMITRIO_EX",
+    "DisplayNameMSID": "CARD_NAME_460  (三海地鼠ex)"
+  },
+  {
+    "CharacterID": "UNERUMINAMO",
+    "DisplayNameMSID": "CARD_NAME_1246  (波盪水)"
+  },
+  {
+    "CharacterID": "UNIRAN",
+    "DisplayNameMSID": "CARD_NAME_961  (單卵細胞球)"
+  },
+  {
+    "CharacterID": "UNKNOWN",
+    "DisplayNameMSID": "CARD_NAME_429  (未知圖騰)"
+  },
+  {
+    "CharacterID": "UPAH",
+    "DisplayNameMSID": "CARD_NAME_717  (烏波)"
+  },
+  {
+    "CharacterID": "URIMOO",
+    "DisplayNameMSID": "CARD_NAME_303  (小山豬)"
+  },
+  {
+    "CharacterID": "USOHACHI",
+    "DisplayNameMSID": "CARD_NAME_1189  (盆才怪)"
+  },
+  {
+    "CharacterID": "USOKKIE",
+    "DisplayNameMSID": "CARD_NAME_430  (樹才怪)"
+  },
+  {
+    "CharacterID": "UTSUBOT",
+    "DisplayNameMSID": "CARD_NAME_20  (大食花)"
+  },
+  {
+    "CharacterID": "UTSUDON",
+    "DisplayNameMSID": "CARD_NAME_19  (口呆花)"
+  },
+  {
+    "CharacterID": "UTUROID",
+    "DisplayNameMSID": "CARD_NAME_647  (虛吾伊德)"
+  },
+  {
+    "CharacterID": "UU",
+    "DisplayNameMSID": "CARD_NAME_248  (古月鳥)"
+  },
+  {
+    "CharacterID": "VALCHAI",
+    "DisplayNameMSID": "CARD_NAME_1201  (禿鷹丫頭)"
+  },
+  {
+    "CharacterID": "VANIPETI",
+    "DisplayNameMSID": "CARD_NAME_624  (迷你冰)"
+  },
+  {
+    "CharacterID": "VANIRICH",
+    "DisplayNameMSID": "CARD_NAME_675  (多多冰)"
+  },
+  {
+    "CharacterID": "VIBRAVA",
+    "DisplayNameMSID": "CARD_NAME_1206  (超音波幼蟲)"
+  },
+  {
+    "CharacterID": "VICTINI",
+    "DisplayNameMSID": "CARD_NAME_1162  (比克提尼)"
+  },
+  {
+    "CharacterID": "VIRIZION",
+    "DisplayNameMSID": "CARD_NAME_846  (畢力吉翁)"
+  },
+  {
+    "CharacterID": "VIVIYON",
+    "DisplayNameMSID": "CARD_NAME_979  (彩粉蝶)"
+  },
+  {
+    "CharacterID": "VOLTOLOS",
+    "DisplayNameMSID": "CARD_NAME_1301  (雷電雲)"
+  },
+  {
+    "CharacterID": "VULGINA",
+    "DisplayNameMSID": "CARD_NAME_1202  (禿鷹娜)"
+  },
+  {
+    "CharacterID": "WAKASYAMO",
+    "DisplayNameMSID": "CARD_NAME_853  (力壯雞)"
+  },
+  {
+    "CharacterID": "WAKKANEZUMI",
+    "DisplayNameMSID": "CARD_NAME_1049  (一對鼠)"
+  },
+  {
+    "CharacterID": "WANAIDER",
+    "DisplayNameMSID": "CARD_NAME_1066  (操陷蛛)"
+  },
+  {
+    "CharacterID": "WANINOKO",
+    "DisplayNameMSID": "CARD_NAME_714  (小鋸鱷)"
+  },
+  {
+    "CharacterID": "WANIVAL",
+    "DisplayNameMSID": "CARD_NAME_1085  (狂歡浪舞鴨)"
+  },
+  {
+    "CharacterID": "WANPACHI",
+    "DisplayNameMSID": "CARD_NAME_802  (來電汪)"
+  },
+  {
+    "CharacterID": "WANRIKY",
+    "DisplayNameMSID": "CARD_NAME_143  (腕力)"
+  },
+  {
+    "CharacterID": "WARRGLE",
+    "DisplayNameMSID": "CARD_NAME_934  (勇士雄鷹)"
+  },
+  {
+    "CharacterID": "WARUVIAL",
+    "DisplayNameMSID": "CARD_NAME_646  (流氓鱷)"
+  },
+  {
+    "CharacterID": "WARUVILE",
+    "DisplayNameMSID": "CARD_NAME_645  (混混鱷)"
+  },
+  {
+    "CharacterID": "WASH ROTOM",
+    "DisplayNameMSID": "CARD_NAME_317  (清洗洛托姆)"
+  },
+  {
+    "CharacterID": "WASHIBON",
+    "DisplayNameMSID": "CARD_NAME_933  (毛頭小鷹)"
+  },
+  {
+    "CharacterID": "WATACCO",
+    "DisplayNameMSID": "CARD_NAME_698  (毽子棉)"
+  },
+  {
+    "CharacterID": "WATACCO_EX",
+    "DisplayNameMSID": "CARD_NAME_794  (毽子棉ex)"
+  },
+  {
+    "CharacterID": "WATASHIRAGA",
+    "DisplayNameMSID": "CARD_NAME_982  (白蓬蓬)"
+  },
+  {
+    "CharacterID": "WELKAMO",
+    "DisplayNameMSID": "CARD_NAME_1084  (湧躍鴨)"
+  },
+  {
+    "CharacterID": "WHALOH",
+    "DisplayNameMSID": "CARD_NAME_868  (吼鯨王)"
+  },
+  {
+    "CharacterID": "WHALOH_EX",
+    "DisplayNameMSID": "CARD_NAME_1292  (吼鯨王ex)"
+  },
+  {
+    "CharacterID": "WHEEGA",
+    "DisplayNameMSID": "CARD_NAME_267  (車輪毬)"
+  },
+  {
+    "CharacterID": "WHOTABOTO",
+    "DisplayNameMSID": "CARD_NAME_823  (水上小艇)"
+  },
+  {
+    "CharacterID": "WINDIE",
+    "DisplayNameMSID": "CARD_NAME_40  (風速狗)"
+  },
+  {
+    "CharacterID": "WINDIE_EX",
+    "DisplayNameMSID": "CARD_NAME_41  (風速狗ex)"
+  },
+  {
+    "CharacterID": "WOOLUU",
+    "DisplayNameMSID": "CARD_NAME_212  (毛辮羊)"
+  },
+  {
+    "CharacterID": "WULAOSUICHIGEKINOKATA",
+    "DisplayNameMSID": "CARD_NAME_1203  (一擊武道熊師)"
+  },
+  {
+    "CharacterID": "WULAOSURENGEKINOKATA",
+    "DisplayNameMSID": "CARD_NAME_1177  (連擊武道熊師)"
+  },
+  {
+    "CharacterID": "XERNEAS",
+    "DisplayNameMSID": "CARD_NAME_964  (哲爾尼亞斯)"
+  },
+  {
+    "CharacterID": "YABACHA",
+    "DisplayNameMSID": "CARD_NAME_1014  (來悲茶)"
+  },
+  {
+    "CharacterID": "YABASOCHA",
+    "DisplayNameMSID": "CARD_NAME_1288  (來悲粗茶)"
+  },
+  {
+    "CharacterID": "YABUKURON",
+    "DisplayNameMSID": "CARD_NAME_572  (破破袋)"
+  },
+  {
+    "CharacterID": "YADOKING",
+    "DisplayNameMSID": "CARD_NAME_735  (呆呆王)"
+  },
+  {
+    "CharacterID": "YADON",
+    "DisplayNameMSID": "CARD_NAME_118  (呆呆獸)"
+  },
+  {
+    "CharacterID": "YADORAN",
+    "DisplayNameMSID": "CARD_NAME_119  (呆殼獸)"
+  },
+  {
+    "CharacterID": "YAJILON",
+    "DisplayNameMSID": "CARD_NAME_640  (天秤偶)"
+  },
+  {
+    "CharacterID": "YAKUDE",
+    "DisplayNameMSID": "CARD_NAME_51  (燒火蚣)"
+  },
+  {
+    "CharacterID": "YAMIKARASU",
+    "DisplayNameMSID": "CARD_NAME_356  (黑暗鴉)"
+  },
+  {
+    "CharacterID": "YAMIRAMI",
+    "DisplayNameMSID": "CARD_NAME_534  (勾魂眼)"
+  },
+  {
+    "CharacterID": "YANAKKIE",
+    "DisplayNameMSID": "CARD_NAME_844  (花椰猿)"
+  },
+  {
+    "CharacterID": "YANAPPU",
+    "DisplayNameMSID": "CARD_NAME_843  (花椰猴)"
+  },
+  {
+    "CharacterID": "YANCHAM",
+    "DisplayNameMSID": "CARD_NAME_901  (頑皮熊貓)"
+  },
+  {
+    "CharacterID": "YANYANMA",
+    "DisplayNameMSID": "CARD_NAME_279  (蜻蜻蜓)"
+  },
+  {
+    "CharacterID": "YAREYUUTAN",
+    "DisplayNameMSID": "CARD_NAME_598  (智揮猩)"
+  },
+  {
+    "CharacterID": "YARUKIMONO",
+    "DisplayNameMSID": "CARD_NAME_1044  (過動猿)"
+  },
+  {
+    "CharacterID": "YATOUMORI",
+    "DisplayNameMSID": "CARD_NAME_49  (夜盜火蜥)"
+  },
+  {
+    "CharacterID": "YAYAKOMA",
+    "DisplayNameMSID": "CARD_NAME_589  (小箭雀)"
+  },
+  {
+    "CharacterID": "YESSAN",
+    "DisplayNameMSID": "CARD_NAME_1016  (愛管侍)"
+  },
+  {
+    "CharacterID": "YESSAN_EX",
+    "DisplayNameMSID": "CARD_NAME_896  (愛管侍ex)"
+  },
+  {
+    "CharacterID": "YIYUI",
+    "DisplayNameMSID": "CARD_NAME_1082  (古玉魚)"
+  },
+  {
+    "CharacterID": "YOGIRAS",
+    "DisplayNameMSID": "CARD_NAME_433  (幼基拉斯)"
+  },
+  {
+    "CharacterID": "YOKUBARISU",
+    "DisplayNameMSID": "CARD_NAME_628  (藏飽栗鼠)"
+  },
+  {
+    "CharacterID": "YOMAWARU",
+    "DisplayNameMSID": "CARD_NAME_333  (夜巡靈)"
+  },
+  {
+    "CharacterID": "YONOIR",
+    "DisplayNameMSID": "CARD_NAME_335  (黑夜魔靈)"
+  },
+  {
+    "CharacterID": "YORTERRIE",
+    "DisplayNameMSID": "CARD_NAME_656  (小約克)"
+  },
+  {
+    "CharacterID": "YORUNOZUKU",
+    "DisplayNameMSID": "CARD_NAME_443  (貓頭夜鷹)"
+  },
+  {
+    "CharacterID": "YOUNGOOSE",
+    "DisplayNameMSID": "CARD_NAME_594  (貓鼬少)"
+  },
+  {
+    "CharacterID": "YOWASHI",
+    "DisplayNameMSID": "CARD_NAME_521  (弱丁魚)"
+  },
+  {
+    "CharacterID": "YOWASHI_EX",
+    "DisplayNameMSID": "CARD_NAME_522  (弱丁魚ex)"
+  },
+  {
+    "CharacterID": "YUKIHAMI",
+    "DisplayNameMSID": "CARD_NAME_92  (雪吞蟲)"
+  },
+  {
+    "CharacterID": "YUKIKABURI",
+    "DisplayNameMSID": "CARD_NAME_314  (雪笠怪)"
+  },
+  {
+    "CharacterID": "YUKIMENOKO",
+    "DisplayNameMSID": "CARD_NAME_423  (雪妖女)"
+  },
+  {
+    "CharacterID": "YUKINOOH",
+    "DisplayNameMSID": "CARD_NAME_315  (暴雪王)"
+  },
+  {
+    "CharacterID": "YUKIWARASHI",
+    "DisplayNameMSID": "CARD_NAME_422  (雪童子)"
+  },
+  {
+    "CharacterID": "YUNGERER",
+    "DisplayNameMSID": "CARD_NAME_116  (勇基拉)"
+  },
+  {
+    "CharacterID": "YURADLE",
+    "DisplayNameMSID": "CARD_NAME_1283  (搖籃百合)"
+  },
+  {
+    "CharacterID": "YUUGANAMANTO",
+    "DisplayNameMSID": "CARD_NAME_1277  (優雅斗篷)"
+  },
+  {
+    "CharacterID": "YUXIE",
+    "DisplayNameMSID": "CARD_NAME_338  (由克希)"
+  },
+  {
+    "CharacterID": "YVELTAL",
+    "DisplayNameMSID": "CARD_NAME_1030  (伊裴爾塔爾)"
+  },
+  {
+    "CharacterID": "ZANGOOSE",
+    "DisplayNameMSID": "CARD_NAME_822  (貓鼬斬)"
+  },
+  {
+    "CharacterID": "ZARUDE",
+    "DisplayNameMSID": "CARD_NAME_1204  (薩戮德)"
+  },
+  {
+    "CharacterID": "ZEBRAIKA",
+    "DisplayNameMSID": "CARD_NAME_106  (雷電斑馬)"
+  },
+  {
+    "CharacterID": "ZEHIGAMEJOURO",
+    "DisplayNameMSID": "CARD_NAME_774  (傑尼龜噴壺)"
+  },
+  {
+    "CharacterID": "ZEKROM",
+    "DisplayNameMSID": "CARD_NAME_1180  (捷克羅姆)"
+  },
+  {
+    "CharacterID": "ZENIGAME",
+    "DisplayNameMSID": "CARD_NAME_53  (傑尼龜)"
+  },
+  {
+    "CharacterID": "ZERAORA",
+    "DisplayNameMSID": "CARD_NAME_629  (捷拉奧拉)"
+  },
+  {
+    "CharacterID": "ZOROARK",
+    "DisplayNameMSID": "CARD_NAME_787  (索羅亞克)"
+  },
+  {
+    "CharacterID": "ZOROARK_EX",
+    "DisplayNameMSID": "CARD_NAME_1198  (索羅亞克ex)"
+  },
+  {
+    "CharacterID": "ZORUA",
+    "DisplayNameMSID": "CARD_NAME_786  (索羅亞)"
+  },
+  {
+    "CharacterID": "ZOUDOU",
+    "DisplayNameMSID": "CARD_NAME_1243  (銅象)"
+  },
+  {
+    "CharacterID": "ZUBAT",
+    "DisplayNameMSID": "CARD_NAME_172  (超音蝠)"
+  },
+  {
+    "CharacterID": "ZUGADOON",
+    "DisplayNameMSID": "CARD_NAME_618  (砰頭小丑)"
+  },
+  {
+    "CharacterID": "ZUGADOON_EX",
+    "DisplayNameMSID": "CARD_NAME_985  (砰頭小丑ex)"
+  },
+  {
+    "CharacterID": "ZUGAIDOS",
+    "DisplayNameMSID": "CARD_NAME_349  (頭蓋龍)"
+  },
+  {
+    "CharacterID": "ZUGAINOKASEKI",
+    "DisplayNameMSID": "CARD_NAME_399  (頭蓋化石)"
+  },
+  {
+    "CharacterID": "ZUPIKA",
+    "DisplayNameMSID": "CARD_NAME_1005  (光蚪仔)"
+  },
+  {
+    "CharacterID": "ZURUGGU",
+    "DisplayNameMSID": "CARD_NAME_1028  (滑滑小子)"
+  },
+  {
+    "CharacterID": "ZURUZUKIN",
+    "DisplayNameMSID": "CARD_NAME_1029  (頭巾混混)"
+  },
+  {
+    "CharacterID": "ZYGARDE",
+    "DisplayNameMSID": "CARD_NAME_1258  (基格爾德)"
+  },
+  {
+    "CharacterID": "ZYGARDE_EX",
+    "DisplayNameMSID": "CARD_NAME_1259  (基格爾德ex)"
+  }
+]

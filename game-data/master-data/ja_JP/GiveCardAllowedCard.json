@@ -1,0 +1,506 @@
+[
+  {
+    "ExpansionID": "A1",
+    "ID": "GIVE_ALLOWED_CARD_A1_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "GIVE_ALLOWED_CARD_A1_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "GIVE_ALLOWED_CARD_A1_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1",
+    "ID": "GIVE_ALLOWED_CARD_A1_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "GIVE_ALLOWED_CARD_A1a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "GIVE_ALLOWED_CARD_A1a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "GIVE_ALLOWED_CARD_A1a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A1a",
+    "ID": "GIVE_ALLOWED_CARD_A1a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "GIVE_ALLOWED_CARD_A2_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "GIVE_ALLOWED_CARD_A2_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "GIVE_ALLOWED_CARD_A2_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2",
+    "ID": "GIVE_ALLOWED_CARD_A2_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "GIVE_ALLOWED_CARD_A2a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "GIVE_ALLOWED_CARD_A2a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "GIVE_ALLOWED_CARD_A2a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2a",
+    "ID": "GIVE_ALLOWED_CARD_A2a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "GIVE_ALLOWED_CARD_A2b_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "GIVE_ALLOWED_CARD_A2b_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "GIVE_ALLOWED_CARD_A2b_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A2b",
+    "ID": "GIVE_ALLOWED_CARD_A2b_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "GIVE_ALLOWED_CARD_A3_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "GIVE_ALLOWED_CARD_A3_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "GIVE_ALLOWED_CARD_A3_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3",
+    "ID": "GIVE_ALLOWED_CARD_A3_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "GIVE_ALLOWED_CARD_A3a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "GIVE_ALLOWED_CARD_A3a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "GIVE_ALLOWED_CARD_A3a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3a",
+    "ID": "GIVE_ALLOWED_CARD_A3a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "GIVE_ALLOWED_CARD_A3b_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "GIVE_ALLOWED_CARD_A3b_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "GIVE_ALLOWED_CARD_A3b_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A3b",
+    "ID": "GIVE_ALLOWED_CARD_A3b_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "GIVE_ALLOWED_CARD_A4_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "GIVE_ALLOWED_CARD_A4_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "GIVE_ALLOWED_CARD_A4_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4",
+    "ID": "GIVE_ALLOWED_CARD_A4_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "GIVE_ALLOWED_CARD_A4a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "GIVE_ALLOWED_CARD_A4a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "GIVE_ALLOWED_CARD_A4a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4a",
+    "ID": "GIVE_ALLOWED_CARD_A4a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "GIVE_ALLOWED_CARD_A4b_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "GIVE_ALLOWED_CARD_A4b_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "GIVE_ALLOWED_CARD_A4b_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "A4b",
+    "ID": "GIVE_ALLOWED_CARD_A4b_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "GIVE_ALLOWED_CARD_B1_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "GIVE_ALLOWED_CARD_B1_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "GIVE_ALLOWED_CARD_B1_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "B1",
+    "ID": "GIVE_ALLOWED_CARD_B1_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "GIVE_ALLOWED_CARD_B1a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "GIVE_ALLOWED_CARD_B1a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "GIVE_ALLOWED_CARD_B1a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "ExpansionID": "B1a",
+    "ID": "GIVE_ALLOWED_CARD_B1a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_RELEASE_B1a"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "GIVE_ALLOWED_CARD_B2_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "GIVE_ALLOWED_CARD_B2_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "GIVE_ALLOWED_CARD_B2_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "ExpansionID": "B2",
+    "ID": "GIVE_ALLOWED_CARD_B2_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B2"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "GIVE_ALLOWED_CARD_B2a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "GIVE_ALLOWED_CARD_B2a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "GIVE_ALLOWED_CARD_B2a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "ExpansionID": "B2a",
+    "ID": "GIVE_ALLOWED_CARD_B2a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B2a"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "GIVE_ALLOWED_CARD_B2b_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "GIVE_ALLOWED_CARD_B2b_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "GIVE_ALLOWED_CARD_B2b_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "ExpansionID": "B2b",
+    "ID": "GIVE_ALLOWED_CARD_B2b_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B2b"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "GIVE_ALLOWED_CARD_B3_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "GIVE_ALLOWED_CARD_B3_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "GIVE_ALLOWED_CARD_B3_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "ExpansionID": "B3",
+    "ID": "GIVE_ALLOWED_CARD_B3_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B3"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "GIVE_ALLOWED_CARD_B3a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "GIVE_ALLOWED_CARD_B3a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "GIVE_ALLOWED_CARD_B3a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "ExpansionID": "B3a",
+    "ID": "GIVE_ALLOWED_CARD_B3a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B3a"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "GIVE_ALLOWED_CARD_B3b_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "GIVE_ALLOWED_CARD_B3b_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "GIVE_ALLOWED_CARD_B3b_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "ExpansionID": "B3b",
+    "ID": "GIVE_ALLOWED_CARD_B3b_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B3b"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "GIVE_ALLOWED_CARD_B4_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "GIVE_ALLOWED_CARD_B4_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "GIVE_ALLOWED_CARD_B4_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "ExpansionID": "B4",
+    "ID": "GIVE_ALLOWED_CARD_B4_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B4"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "GIVE_ALLOWED_CARD_B4a_C",
+    "Rarity": 100,
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "GIVE_ALLOWED_CARD_B4a_R",
+    "Rarity": 300,
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "GIVE_ALLOWED_CARD_B4a_RR",
+    "Rarity": 400,
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  },
+  {
+    "ExpansionID": "B4a",
+    "ID": "GIVE_ALLOWED_CARD_B4a_U",
+    "Rarity": 200,
+    "ScheduleID": "SC_PACK_RELEASE_B4a"
+  }
+]

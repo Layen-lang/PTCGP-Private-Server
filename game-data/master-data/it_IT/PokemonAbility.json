@@ -1,0 +1,1891 @@
+[
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 20 danni.)",
+    "PokemonAbilityID": "PK_000070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200050",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_6  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi scambiare uno dei Pokémon Base nella panchina del tuo avversario con il suo Pokémon in posizione attiva.)",
+    "PokemonAbilityID": "PK_000200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_000610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -10 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_000670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200010",
+    "AbilityLogicParameters": [
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_2  (Una sola volta durante il tuo turno, puoi infliggere 20 danni a [Num:Int plural_only=\" \" ][Gr:Count s=\"uno \" ]dei Pokémon del tuo avversario.)",
+    "PokemonAbilityID": "PK_000890_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Una sola volta durante il tuo turno, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Lightning dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] a questo Pokémon.)",
+    "PokemonAbilityID": "PK_000980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300020",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_12  (Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Aiuto che ha in mano.)",
+    "PokemonAbilityID": "PK_001230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Asleep  (addormentati)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene addormentati.)",
+    "PokemonAbilityID": "PK_001250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Una sola volta durante il tuo turno, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Psychic dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] al Pokémon Psychic in posizione attiva.)",
+    "PokemonAbilityID": "PK_001320_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Poisoned  (avvelenato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi lasciare il Pokémon attivo del tuo avversario avvelenato.)",
+    "PokemonAbilityID": "PK_001770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_001820_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200030",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_4  (Una sola volta durante il tuo turno, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_001880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200090",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_10  (Una sola volta durante il tuo turno, puoi guardare [Gr:Count s=\"la prima\" p=\"le prime\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"carta\" p=\"carte\" ] del tuo mazzo.)",
+    "PokemonAbilityID": "PK_002070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300030",
+    "AbilityLogicParameters": [
+      "Grass",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_13  (Ogni Energia Grass assegnata ai tuoi Pokémon Grass fornisce due Energie Grass. Questo effetto non è cumulabile.)",
+    "PokemonAbilityID": "PK_002200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200100",
+    "AbilityLogicParameters": [
+      "Water",
+      "Water",
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_14  (Durante il tuo turno, puoi spostare un'Energia Water da uno dei tuoi Pokémon Water in panchina al tuo Pokémon Water in posizione attiva tutte le volte che vuoi.)",
+    "PokemonAbilityID": "PK_002330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300300040",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_15  (Il tuo avversario non può giocare Pokémon dalla sua mano per far evolvere il Pokémon in posizione attiva.)",
+    "PokemonAbilityID": "PK_002590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_002690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon da 10 danni.)",
+    "PokemonAbilityID": "PK_003030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Questo Pokémon subisce -20 danni dagli attacchi dei Pokémon Fire o Water.)",
+    "PokemonAbilityID": "PK_003130_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Questo Pokémon subisce -30 danni dagli attacchi dei Pokémon Fire o Water.)",
+    "PokemonAbilityID": "PK_003140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300060",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_19  (Previeni tutti gli effetti inflitti a questo Pokémon dagli attacchi usati dai Pokémon del tuo avversario.)",
+    "PokemonAbilityID": "PK_003150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200110",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_20  (Durante il tuo turno, puoi scegliere uno dei tuoi Pokémon danneggiati e spostare tutti i suoi danni su questo Pokémon tutte le volte che vuoi.)",
+    "PokemonAbilityID": "PK_003530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300080",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_21  (Se questo Pokémon ha delle Energie assegnate, non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_003590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_003680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300070",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_22  (Gli attacchi usati dai tuoi Pokémon Fighting infliggono +20 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_003730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300100020",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_23  (Ogni volta che assegni un'Energia Darkness a questo Pokémon dalla tua Zona Energia, infliggi 20 danni al Pokémon attivo dell'avversario.)",
+    "PokemonAbilityID": "PK_003910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "100"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, questo Pokémon subisce -100 danni da quell'attacco.)",
+    "PokemonAbilityID": "PK_003950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200120",
+    "AbilityLogicParameters": [
+      "1",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_25  (Devi scartare [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] che hai in mano per usare questa abilità. Una sola volta durante il tuo turno, puoi pescare 1[Gr:Count s=\"una carta\" p=\"carte\" ref=\"1\" ].)",
+    "PokemonAbilityID": "PK_004040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (Se hai in gioco Arceus o Arceus-ex, gli attacchi usati da questo Pokémon infliggono +30 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_004330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200130",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_27  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Grass dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] [Gr:Count s=\"a uno dei tuoi\" p=\"ai tuoi\" ref=\"1\" ] Pokémon[C:Nbsp ]Grass.)",
+    "PokemonAbilityID": "PK_004340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (Se hai in gioco Arceus o Arceus-ex, questo Pokémon non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_004370_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300120",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_29  (Se hai in gioco Arceus o Arceus-ex, il costo degli attacchi usati da questo Pokémon è ridotto di 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"3\" ][C:Nbsp ]Colorless.)",
+    "PokemonAbilityID": "PK_004450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100030",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_30  (Durante il controllo Pokémon, se questo Pokémon è in posizione attiva, infliggi 10 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_004460_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (Se hai in gioco Arceus o Arceus-ex, questo Pokémon subisce -30 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_004500_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200140",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_32  (Una sola volta durante il tuo turno, puoi scegliere uno dei giocatori. Guarda [Gr:Count s=\"la prima\" p=\"le prime\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"carta\" p=\"carte\" ] del mazzo di quel giocatore.)",
+    "PokemonAbilityID": "PK_004580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (Se hai in gioco Arceus o Arceus-ex, questo Pokémon non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_004590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (Se hai in gioco Arceus o Arceus-ex, gli attacchi usati da questo Pokémon infliggono +30 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_004650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200150",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_33  (Una sola volta durante il tuo turno, se hai in gioco Arceus o Arceus-ex, puoi infliggere 30 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_004740_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (Se hai in gioco Arceus o Arceus-ex, questo Pokémon subisce -30 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_004790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300140",
+    "AbilityLogicParameters": [
+      "Basic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_34  (Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Basic attivo è ridotto di 1.)",
+    "PokemonAbilityID": "PK_004930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_35  (Questo Pokémon non può essere influenzato da condizioni speciali.)",
+    "PokemonAbilityID": "PK_004950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_36  (Ogni volta che assegni un'Energia Psychic a questo Pokémon dalla tua Zona Energia, curalo da 20 danni.)",
+    "PokemonAbilityID": "PK_004960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300170",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_37  (Questo Pokémon subisce -30 danni dagli attacchi dei Pokémon Fighting.)",
+    "PokemonAbilityID": "PK_004990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_005010_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300160",
+    "AbilityLogicParameters": [
+      "HEYRUSHER"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_38  (Il tuo Dondozo in posizione attiva non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_005400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200160",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_39  (Una sola volta durante il tuo turno, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Psychic dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] a questo Pokémon. Se usi questa abilità, il tuo turno finisce.)",
+    "PokemonAbilityID": "PK_005520_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Poisoned  (avvelenato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene avvelenato.)",
+    "PokemonAbilityID": "PK_005660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Una sola volta durante il tuo turno, puoi curare il tuo Pokémon attivo da 20 danni.)",
+    "PokemonAbilityID": "PK_005760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300180",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_41  (Durante il tuo primo turno, questo Pokémon non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_006020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200180",
+    "AbilityLogicParameters": [
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_42  (Una sola volta durante il tuo turno, puoi curare ciascuno dei tuoi Pokémon Water da 30 danni.)",
+    "PokemonAbilityID": "PK_006290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 50 danni.)",
+    "PokemonAbilityID": "PK_006350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300190",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_44  (Previeni tutti i danni inflitti a questo Pokémon dagli attacchi dei Pokémon-[Img:ex ] del tuo avversario.)",
+    "PokemonAbilityID": "PK_006470_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300200",
+    "AbilityLogicParameters": [
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_45  (Ciascuno dei tuoi Pokémon che ha delle Energie[C:Nbsp ]Psychic assegnate guarisce da tutte le condizioni speciali e non può essere influenzato da condizioni speciali.)",
+    "PokemonAbilityID": "PK_006610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200190",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_46  (Una sola volta durante il tuo turno, puoi spostare tutte le Energie Psychic da uno dei tuoi Pokémon Psychic in panchina al tuo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_006680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (Se questo Pokémon sta per essere messo KO dai danni di un attacco, lancia una moneta. Se esce testa, il Pokémon non viene messo KO e i suoi PS rimanenti diventano 10.)",
+    "PokemonAbilityID": "PK_006770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100070",
+    "AbilityLogicParameters": [
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_48  (Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, sposta tutte le Energie Fighting da questo Pokémon a uno di quelli nella tua panchina.)",
+    "PokemonAbilityID": "PK_006850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_006900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_49  (Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scambiarlo con il tuo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_007030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (addormentati)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (Fintanto che questo Pokémon è in posizione attiva, ogni volta che gli assegni un'Energia dalla tua Zona Energia, il Pokémon viene addormentati.)",
+    "PokemonAbilityID": "PK_007220_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100080",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_51  (Alla fine del tuo primo turno, prendi 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Lightning dalla tua Zona Energia e [Gr:Count s=\"assegnala\" p=\"assegnale\" ref=\"1\" ] a questo Pokémon.)",
+    "PokemonAbilityID": "PK_007410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300220",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_52  (Fintanto che questo Pokémon è in posizione attiva, gli attacchi usati dal Pokémon attivo del tuo avversario infliggono -20 danni.)",
+    "PokemonAbilityID": "PK_007550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200210",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_53  (Una sola volta durante il tuo turno, puoi prendere [Num:Int plural_only=\"\" ][Gr:Count s=\"un\" ] Pokémon a caso dal tuo mazzo e [Gr:Count s=\"aggiungerlo\" p=\"aggiungerli\" ] alle carte che hai in mano.)",
+    "PokemonAbilityID": "PK_007640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300230",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_54  (I Pokémon, sia tuoi che del tuo avversario, non possono essere curati.)",
+    "PokemonAbilityID": "PK_007680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300240",
+    "AbilityLogicParameters": [
+      "Poisoned  (avvelenato)",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_55  (La condizione speciale avvelenato infligge +10 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_007790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_007880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (Fintanto che questo Pokémon è in posizione attiva, il costo degli attacchi usati dal Pokémon attivo del tuo avversario aumenta di 1 [Img:Element name=\"C\" ].)",
+    "PokemonAbilityID": "PK_007910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200220",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_57  (Una sola volta durante il tuo turno, puoi sostituire la tua Ultracreatura attiva con una delle tue Ultracreature in panchina.)",
+    "PokemonAbilityID": "PK_007960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200240",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_58  (Una sola volta durante il tuo turno, puoi assegnare a questo Pokémon 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Fire dalla tua pila degli scarti. Se lo fai, questo Pokémon subisce 20 danni.)",
+    "PokemonAbilityID": "PK_008050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100100",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_59  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi pescare [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ].)",
+    "PokemonAbilityID": "PK_008280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300260",
+    "AbilityLogicParameters": [
+      "EIEVUI"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_60  (Questo Pokémon può evolversi in qualsiasi Pokémon che si evolve da Eevee, se giochi quel Pokémon dalla tua mano mettendolo sopra questo Pokémon. Questo Pokémon non può evolversi durante il tuo primo turno o il turno in cui lo giochi.)",
+    "PokemonAbilityID": "PK_008480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100090",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_61  (Alla fine del tuo turno, se questo Pokémon è in posizione attiva, curalo da 20 danni.)",
+    "PokemonAbilityID": "PK_008490_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300200250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_62  (Una sola volta durante il tuo turno, puoi prendere [Num:Int plural_only=\" \" ][Gr:Count s=\"un Oggetto Pokémon\" p=\"Oggetti Pokémon\" ] a caso dal tuo mazzo e [Gr:Count s=\"aggiungerlo\" p=\"aggiungerli\" ] alle carte che hai in mano.)",
+    "PokemonAbilityID": "PK_008510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_63  (Il tuo Pokémon in posizione attiva non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_008710_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_008770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300280",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_64  (Se questo Pokémon ha un Oggetto Pokémon assegnato, il costo degli attacchi usati da questo Pokémon è ridotto di 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Grass.)",
+    "PokemonAbilityID": "PK_008790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200260",
+    "AbilityLogicParameters": [
+      "Burned  (bruciato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_65  (Una sola volta durante il tuo turno, puoi lasciare il Pokémon attivo del tuo avversario bruciato.)",
+    "PokemonAbilityID": "PK_008850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300290",
+    "AbilityLogicParameters": [
+      "NYOROZO",
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_66  (Fintanto che questo Pokémon è nella tua panchina, gli attacchi usati dai tuoi Pokémon che si evolvono da Poliwhirl infliggono +40 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_008960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Questo Pokémon subisce -30 danni dagli attacchi dei Pokémon Fire o Water.)",
+    "PokemonAbilityID": "PK_009060_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100110",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_67  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi rimuovere [Num:Int plural_only=\" \" ][Gr:Count s=\"un'Energia\" p=\"Energie\" ] a caso dal Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_009170_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.)",
+    "PokemonAbilityID": "PK_009360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200270",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_69  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi curare [Num:Int plural_only=\" \" ][Gr:Count s=\"uno dei tuoi\" p=\"tuoi\" ] Pokémon da 30 danni.)",
+    "PokemonAbilityID": "PK_009390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300310",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_76",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_83  (Questa abilità ha effetto se c'è in gioco una carta Unown con un'abilità diversa da PokemonAbilityName_ID_76. Tutti i tuoi Pokémon subiscono -10 danni dagli attacchi dei Pokémon avversari.)",
+    "PokemonAbilityID": "PK_009400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300320",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_77",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_84  (Questa abilità ha effetto se c'è in gioco una carta Unown con un'abilità diversa da PokemonAbilityName_ID_77. Gli attacchi usati dai tuoi Pokémon infliggono +10 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_009410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200280",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_72  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi sostituire uno dei Pokémon danneggiati nella panchina del tuo avversario con il suo Pokémon in posizione attiva.)",
+    "PokemonAbilityID": "PK_009680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200290",
+    "AbilityLogicParameters": [
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_73  (Una sola volta durante il tuo turno, puoi spostare tutte le Energie[C:Nbsp ]Darkness da ciascuno dei tuoi Pokémon a questo Pokémon.)",
+    "PokemonAbilityID": "PK_009750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100120",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_74  (Quando assegni un'Energia dalla tua Zona Energia a questo Pokémon, prendi una carta a caso che si evolve da questo Pokémon dal mazzo e mettigliela sopra per farlo evolvere.)",
+    "PokemonAbilityID": "PK_009920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300330",
+    "AbilityLogicParameters": [
+      "Asleep  (addormentati)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_75  (Questo Pokémon non può venire addormentati.)",
+    "PokemonAbilityID": "PK_009960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100140",
+    "AbilityLogicParameters": [
+      "Water",
+      "1",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_76  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi curare 1[Gr:Count s=\"uno\" ref=\"1\" ] dei tuoi Pokémon Water da 60 danni.)",
+    "PokemonAbilityID": "PK_010120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (Se un Pokémon del tuo avversario viene messo KO dai danni degli attacchi di questo Pokémon, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.)",
+    "PokemonAbilityID": "PK_010140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Alla fine del tuo turno, se questo Pokémon è in posizione attiva, pesca [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ].)",
+    "PokemonAbilityID": "PK_010210_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Alla fine del tuo turno, se questo Pokémon è in posizione attiva, pesca [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ].)",
+    "PokemonAbilityID": "PK_010400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Alla fine del tuo turno, se questo Pokémon è in posizione attiva, pesca [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ].)",
+    "PokemonAbilityID": "PK_010440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100170",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_80  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi far mostrare al tuo avversario le carte che ha in mano.)",
+    "PokemonAbilityID": "PK_010510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_81  (Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, lancia una moneta. Se esce testa, il Pokémon attaccante viene messo KO.)",
+    "PokemonAbilityID": "PK_010540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300340",
+    "AbilityLogicParameters": [
+      "LATIAS"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_82  (Se hai in gioco Latias, questo Pokémon non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_010550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_010610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_010790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_87  (Ognuno dei tuoi Pokémon Grass ha +20 PS.)",
+    "PokemonAbilityID": "PK_011000_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_88  (Una sola volta durante il tuo turno, puoi lanciare una moneta. Se esce testa, scambia uno dei Pokémon nella panchina del tuo avversario con il suo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_011090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200310",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_89  (Una sola volta durante il tuo turno, puoi scartare [Gr:Count s=\"la prima\" p=\"le prime\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"carta\" p=\"carte\" ] del mazzo dell'avversario.)",
+    "PokemonAbilityID": "PK_011250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100180",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_90  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, prendi 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Water dalla tua Zona Energia e [Gr:Count s=\"assegnala a uno dei tuoi\" p=\"assegnale ai tuoi\" ref=\"1\" ] Pokémon in panchina.)",
+    "PokemonAbilityID": "PK_011510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Una sola volta durante il tuo turno, puoi sostituire il tuo Pokémon Water attivo con uno dei tuoi Pokémon in panchina.)",
+    "PokemonAbilityID": "PK_011550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300360",
+    "AbilityLogicParameters": [
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_92  (Se questo Pokémon ha tutti i PS, subisce -40 danni dagli attacchi dei Pokémon avversari.)",
+    "PokemonAbilityID": "PK_011620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100190",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_93  (Fintanto che questo Pokémon è in posizione attiva, ogni volta che l'avversario assegna un'Energia dalla sua Zona Energia a uno dei suoi Pokémon, quel Pokémon subisce 20 danni.)",
+    "PokemonAbilityID": "PK_011630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (Quando questo Pokémon viene messo KO, lancia una moneta. Se esce testa, il tuo avversario non può ottenere punti per effetto di quel KO.)",
+    "PokemonAbilityID": "PK_011870_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_95  (Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi scartare tutti gli Oggetti Pokémon dal Pokémon attivo del tuo avversario. Se lo fai, scarta questo Pokémon.)",
+    "PokemonAbilityID": "PK_012020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Una sola volta durante il tuo turno, puoi curare il tuo Pokémon attivo da 20 danni.)",
+    "PokemonAbilityID": "PK_012030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200330",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "2",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_96  (Una sola volta durante il tuo turno, puoi prendere 2[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Darkness dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] a questo Pokémon. Se lo fai, questo Pokémon subisce 30 danni.)",
+    "PokemonAbilityID": "PK_012390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100210",
+    "AbilityLogicParameters": [
+      "Poisoned  (avvelenato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_97  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante viene avvelenato.)",
+    "PokemonAbilityID": "PK_012420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300380",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Metal",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_98  (Gli attacchi usati dai tuoi Pokémon Psychic e Metal infliggono +30 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_012540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (Fintanto che questo Pokémon è in posizione attiva, il costo degli attacchi usati dal Pokémon attivo del tuo avversario aumenta di 1 [Img:Element name=\"C\" ].)",
+    "PokemonAbilityID": "PK_012590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300370",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_99  (Fintanto che questo Pokémon è in posizione attiva, può evolversi durante il tuo primo turno o il turno in cui lo giochi.)",
+    "PokemonAbilityID": "PK_012660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100220",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_100  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi prendere [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Aiuto dalla tua pila degli scarti e [Gr:Count s=\"aggiungerla\" p=\"aggiungerle\" ] alle carte che hai in mano.)",
+    "PokemonAbilityID": "PK_012760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_012880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Fire dalla Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] al tuo Pokémon Fire attivo.)",
+    "PokemonAbilityID": "PK_012980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_104  (Il costo di ritirata del Pokémon attivo del tuo avversario aumenta di 1.)",
+    "PokemonAbilityID": "PK_013120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300400",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_105  (Fintanto che questo Pokémon è nella tua panchina, previeni tutti i danni inflitti a questo Pokémon da qualsiasi attacco.)",
+    "PokemonAbilityID": "PK_013230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (Questo Pokémon ha +30 PS per ogni Energia Psychic a esso assegnata.)",
+    "PokemonAbilityID": "PK_013380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_013660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300430",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_109  (Ciascuno dei tuoi Pokémon che ha delle Energie assegnate guarisce da tutte le condizioni speciali e non può essere influenzato da condizioni speciali.)",
+    "PokemonAbilityID": "PK_013830_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300440",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_110  (Se c'è in gioco una carta Stadio, questo Pokémon non ha costo di ritirata.)",
+    "PokemonAbilityID": "PK_014160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100240",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_111  (All'inizio del tuo turno, se questo Pokémon è in posizione attiva, prendi 1[Gr:Count s=\"un\" ref=\"1\" ] Pokémon Psychic a caso dal tuo mazzo e [Gr:Count s=\"aggiungilo\" p=\"aggiungili\" ref=\"1\" ] alle carte che hai in mano.)",
+    "PokemonAbilityID": "PK_014360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300450",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_112  (Previeni i danni dal primo attacco subito da questo Pokémon dopo che è entrato in gioco.)",
+    "PokemonAbilityID": "PK_014390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_113  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi costringere il tuo avversario a rimischiare le carte che ha in mano nel proprio mazzo. L'avversario pesca quindi una carta per ogni punto che deve ancora ottenere per vincere.)",
+    "PokemonAbilityID": "PK_014410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300460",
+    "AbilityLogicParameters": [
+      "TAIRETSU",
+      "20",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_114  (Se hai un altro Falinks in gioco, gli attacchi di questo Pokémon infliggono +20 danni al Pokémon attivo dell'avversario, e questo Pokémon subisce -20 danni dagli attacchi dei Pokémon avversari.)",
+    "PokemonAbilityID": "PK_014580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300420",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_115  (I Pokémon Base in gioco, sia tuoi che del tuo avversario, non hanno abilità.)",
+    "PokemonAbilityID": "PK_014630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100250",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_116  (Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, tutti i Pokémon del tuo avversario subiscono 10 danni.)",
+    "PokemonAbilityID": "PK_014690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100260",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_117  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi prendere [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ] Oggetto Pokémon a caso dalla tua pila degli scarti e [Gr:Count s=\"aggiungerla\" p=\"aggiungerle\" ] alle carte che hai in mano.)",
+    "PokemonAbilityID": "PK_014770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, previeni quei danni.)",
+    "PokemonAbilityID": "PK_014900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200350",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_118  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi prendere una carta Aiuto a caso dalla mano del tuo avversario e guardarla. Usa l'effetto di quella carta come effetto di questa abilità.)",
+    "PokemonAbilityID": "PK_014960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_119  (Una sola volta durante il tuo turno, puoi spostare il Pokémon Base attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_014990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (addormentati)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (Fintanto che questo Pokémon è in posizione attiva, ogni volta che gli assegni un'Energia dalla tua Zona Energia, il Pokémon viene addormentati.)",
+    "PokemonAbilityID": "PK_015020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_015070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200370",
+    "AbilityLogicParameters": [
+      "1",
+      "60",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_120  (Una sola volta durante il tuo turno, puoi curare da 60 danni [Num:Int plural_only=\"\" ][Gr:Count s=\"uno\" ] dei tuoi Pokémon[C:Nbh ][Img:ex ] che [Gr:Count s=\"ha\" p=\"hanno\" ] delle Energie assegnate. Se lo fai, rimuovi 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"2\" ] a caso da [Gr:Count s=\"quel\" p=\"quei\" ] Pokémon.)",
+    "PokemonAbilityID": "PK_015180_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200380",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire",
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_121  (Una sola volta durante il tuo turno, puoi rimuovere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Fire da questo Pokémon per usare questa abilità. Durante questo turno, gli attacchi usati dai tuoi Pokémon Fire infliggono +50 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_015270_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -30 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_015290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300470",
+    "AbilityLogicParameters": [
+      "50",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_122  (Se i PS rimanenti di questo Pokémon sono 50 o meno, gli attacchi usati da questo Pokémon infliggono +60 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_015330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Una sola volta durante il tuo turno, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Water dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] al Pokémon Water in posizione attiva.)",
+    "PokemonAbilityID": "PK_015450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ] Fire dalla Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] al tuo Pokémon Fire attivo.)",
+    "PokemonAbilityID": "PK_016140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300100280",
+    "AbilityLogicParameters": [
+      "Asleep  (addormentati)",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_123  (Alla fine di ogni turno, se il Pokémon attivo dell'avversario è addormentati, infliggi 20 danni a quel Pokémon.)",
+    "PokemonAbilityID": "PK_016440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Metal"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Una sola volta durante il tuo turno, puoi sostituire il tuo Pokémon Metal attivo con uno dei tuoi Pokémon in panchina.)",
+    "PokemonAbilityID": "PK_016540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_016650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300480",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_124  (Ciascuno dei tuoi Pokémon evoluti può usare gli attacchi dei suoi stadi evolutivi precedenti. Devi comunque avere l'Energia necessaria per usare quegli attacchi.)",
+    "PokemonAbilityID": "PK_016690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300490",
+    "AbilityLogicParameters": [
+      "Fire",
+      "PokemonAbilityName_ID_129"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_125  (Una sola volta durante il tuo turno, dopo aver lanciato la moneta tutte le volte richieste dall'attacco di uno dei tuoi Pokémon Fire, puoi ignorare tutti gli effetti di quei lanci e lanciare nuovamente la moneta. Puoi usare l’abilità PokemonAbilityName_ID_129 solo una volta per turno.)",
+    "PokemonAbilityID": "PK_016900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200390",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_126  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina. Il tuo avversario sceglie il nuovo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_017020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi infliggere 20 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_017140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi infliggere 30 danni al Pokémon attivo del tuo avversario.)",
+    "PokemonAbilityID": "PK_017150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Water",
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (Fintanto che questo Pokémon è in gioco, è di tipo Water e[C:Nbsp ]Fighting.)",
+    "PokemonAbilityID": "PK_017160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Confused  (confuso)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi lasciare il Pokémon attivo del tuo avversario confuso.)",
+    "PokemonAbilityID": "PK_017310_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200400",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_129  (Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi spostare 30 danni dal tuo Pokémon attivo a questo Pokémon.)",
+    "PokemonAbilityID": "PK_017380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (Fintanto che questo Pokémon è in gioco, è di tipo Fighting e[C:Nbsp ]Darkness.)",
+    "PokemonAbilityID": "PK_017780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300510",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_130  (Fintanto che questo Pokémon è nella tua panchina, il costo di ritirata del tuo Pokémon Darkness attivo è ridotto di[C:Nbsp ]1.)",
+    "PokemonAbilityID": "PK_017800_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100300",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_131  (Durante il controllo Pokémon, se questo Pokémon è in posizione attiva, infliggi 10 danni a ciascuno dei Pokémon del tuo avversario.)",
+    "PokemonAbilityID": "PK_017910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200410",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_132  (Una sola volta durante il tuo turno, puoi guarire il tuo Pokémon attivo da una condizione speciale a caso.)",
+    "PokemonAbilityID": "PK_017930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300520",
+    "AbilityLogicParameters": [
+      "REGIROCK",
+      "REGICE",
+      "REGISTEEL"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_133  (Se non hai Regirock, Regice e Registeel in panchina, questo Pokémon non può attaccare.)",
+    "PokemonAbilityID": "PK_017990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_018090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi scambiarlo con il tuo Pokémon attivo. Se lo fai, sposta tutte le tue Energie in gioco a questo Pokémon.)",
+    "PokemonAbilityID": "PK_018340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300530",
+    "AbilityLogicParameters": [
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_135  (Il costo degli attacchi usati dai tuoi Pokémon Tempo Futuro è ridotto di 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Colorless.)",
+    "PokemonAbilityID": "PK_018420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100320",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_136  (Cura ciascuno dei tuoi Pokémon da 10 danni durante il controllo Pokémon.)",
+    "PokemonAbilityID": "PK_018480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi scambiarlo con il tuo Pokémon attivo. Se lo fai, sposta tutte le tue Energie in gioco a questo Pokémon.)",
+    "PokemonAbilityID": "PK_018510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (Quando questo Pokémon viene messo KO, lancia una moneta. Se esce testa, il tuo avversario non può ottenere punti per effetto di quel KO.)",
+    "PokemonAbilityID": "PK_018600_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Se questo Pokémon è in posizione attiva e viene danneggiato da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 20 danni.)",
+    "PokemonAbilityID": "PK_018610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100330",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_137  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi spostare il Pokémon attivo del tuo avversario nella sua panchina.  Il tuo avversario sceglie il nuovo Pokémon attivo.)",
+    "PokemonAbilityID": "PK_018620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -10 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_018920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_138  (Alla fine del turno del tuo avversario, se questo Pokémon è in posizione attiva, prendi dal mazzo una carta a caso che si evolve da questo Pokémon e mettigliela sopra per farlo evolvere.)",
+    "PokemonAbilityID": "PK_019040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Una sola volta durante il tuo turno, puoi prendere 1[Gr:Count s=\"un'Energia\" p=\"Energie\" ref=\"1\" ][C:Nbsp ]Water dalla tua Zona Energia e [Gr:Count s=\"assegnarla\" p=\"assegnarle\" ref=\"1\" ] a questo Pokémon.)",
+    "PokemonAbilityID": "PK_019160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200420",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_140  (Una sola volta durante il tuo turno, se questo Pokémon ha un Oggetto Pokémon assegnato, puoi curare [Num:Int plural_only=\"\" ][Gr:Count s=\"uno\" ] dei tuoi Pokémon da 30 danni.)",
+    "PokemonAbilityID": "PK_019280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "80"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (Se questo Pokémon subisce danni da qualsiasi attacco, lancia una moneta. Se esce testa, questo Pokémon subisce -80 danni da quell'attacco.)",
+    "PokemonAbilityID": "PK_019480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300540",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_139  (Fintanto che questo Pokémon è in posizione attiva, il tuo avversario non può giocare le carte Stadio che ha in mano.)",
+    "PokemonAbilityID": "PK_019530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (Se questo Pokémon sta per essere messo KO dai danni di un attacco, lancia una moneta. Se esce testa, il Pokémon non viene messo KO e i suoi PS rimanenti diventano 10.)",
+    "PokemonAbilityID": "PK_019560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_019580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200430",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_141  (Una sola volta durante il tuo turno, puoi usare questa abilità. Il Pokémon attivo dell'avversario viene influenzato da [Num:Int plural_only=\" \" ][Gr:Count s=\"una condizione speciale scelta\" p=\"condizioni speciali scelte\" ] a caso tra bruciato, confuso e avvelenato. Eventuali condizioni speciali da cui è già influenzato il Pokémon non verranno scelte.)",
+    "PokemonAbilityID": "PK_019660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_142  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano e lo metti in panchina, puoi curare il tuo Pokémon Grass attivo da 20 danni.)",
+    "PokemonAbilityID": "PK_019780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_143  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi prevenire sia i danni che gli effetti degli attacchi inflitti a questo Pokémon dai Pokémon del tuo avversario fino alla fine del prossimo turno del tuo avversario.)",
+    "PokemonAbilityID": "PK_020050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100370",
+    "AbilityLogicParameters": [
+      "Paralyzed  (paralizzato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_144  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi lanciare una moneta. Se esce testa, il Pokémon attivo del tuo avversario viene paralizzato.)",
+    "PokemonAbilityID": "PK_020110_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300550",
+    "AbilityLogicParameters": [
+      "DUMBBER",
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_145  (Se hai un altro Beldum in gioco, il costo di ritirata di questo Pokémon è ridotto di 2.)",
+    "PokemonAbilityID": "PK_020670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300560",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_146  (Questo Pokémon può avere fino a 2 carte Oggetto Pokémon assegnate.)",
+    "PokemonAbilityID": "PK_020760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300200440",
+    "AbilityLogicParameters": [
+      "1",
+      "Dragon"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_147  (Una sola volta durante il tuo turno, se questo Pokémon è nella tua panchina, puoi assegnare al tuo Pokémon Dragon attivo [Num:Int plural_only=\" \" ][Gr:Count s=\"un'Energia\" p=\"Energie\" ] dalla tua pila degli scarti.)",
+    "PokemonAbilityID": "PK_020780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100380",
+    "AbilityLogicParameters": [
+      "4"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_148  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi guardare le prime 4 carte del tuo mazzo e aggiungere tutte le carte Strumento che trovi alle carte che hai in mano. Poi rimischia le altre carte nel tuo mazzo.)",
+    "PokemonAbilityID": "PK_020910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_021030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Grass",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (Questo Pokémon ha +30 PS per ogni Energia Grass a esso assegnata.)",
+    "PokemonAbilityID": "PK_021230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "70"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (Se questo Pokémon è in posizione attiva e viene messo KO dai danni inflitti da un attacco di un Pokémon del tuo avversario, il Pokémon attaccante subisce 70 danni.)",
+    "PokemonAbilityID": "PK_021350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200450",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_149  (Una sola volta durante il tuo turno, se questo Pokémon è in posizione attiva, puoi pescare [Num:Int plural_only=\" \" ][Gr:Count s=\"una carta\" p=\"carte\" ].)",
+    "PokemonAbilityID": "PK_021410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100400",
+    "AbilityLogicParameters": [
+      "Poisoned  (avvelenato)",
+      "Burned  (bruciato)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_150  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi lasciare il Pokémon attivo del tuo avversario avvelenato e bruciato.)",
+    "PokemonAbilityID": "PK_021560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300570",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_162"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_151  (Una sola volta durante il tuo turno, dopo aver lanciato la moneta tutte le volte richieste da un effetto delle tue carte Allenatore, puoi ignorare tutti i risultati di quei lanci e lanciare nuovamente la moneta. Puoi usare l’abilità PokemonAbilityName_ID_162 solo una volta per turno.)",
+    "PokemonAbilityID": "PK_021640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (Se un Pokémon del tuo avversario viene messo KO dai danni degli attacchi di questo Pokémon, durante il prossimo turno del tuo avversario, previeni sia i danni che gli effetti degli attacchi inflitti a questo Pokémon.)",
+    "PokemonAbilityID": "PK_021650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_152  (Una sola volta durante il tuo turno, quando giochi questo Pokémon dalla tua mano per far evolvere uno dei tuoi Pokémon, puoi spostare [Num:Int plural_only=\" \" ][Gr:Count s=\"un'Energia\" p=\"Energie\" ] a caso dal Pokémon attivo del tuo avversario a questo Pokémon.)",
+    "PokemonAbilityID": "PK_021700_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200460",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_153  (Una sola volta durante il tuo turno, puoi guardare 1[Gr:Count s=\"una carta\" p=\"carte\" ] a caso fra quelle nella mano del tuo avversario.)",
+    "PokemonAbilityID": "PK_021730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Questo Pokémon subisce -20 danni dagli attacchi.)",
+    "PokemonAbilityID": "PK_021750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2608000
+  }
+]

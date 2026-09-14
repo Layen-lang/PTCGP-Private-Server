@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message BotDefenderEvidence {
+  message Types {
+    message APICallEvent {
+      string full_method = 1;
+      int64 app_error_code = 2;
+      google.protobuf.Timestamp called_at = 3;
+    }
+  }
+  repeated BotDefenderEvidence.Types.APICallEvent api_call_events = 1;
+  repeated string ips = 2;
+  int64 device_account_player_count = 3;
+}

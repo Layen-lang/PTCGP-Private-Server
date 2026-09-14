@@ -1,0 +1,97 @@
+[
+  {
+    "ID": "PRESENT_MESSAGE_1",
+    "MSID": "PRESENT_MESSAGE_MSID_1  (Límite alcanzado para [Gr:Count s=\"este objeto\" p=\"estos objetos\" ][Num:Int max_length=\"0\" visible=\"0\" ].)",
+    "Route": 0
+  },
+  {
+    "ID": "PRESENT_MESSAGE_10",
+    "MSID": "PRESENT_MESSAGE_MSID_10  (Recompensa de partida individual.)",
+    "Route": 71
+  },
+  {
+    "ID": "PRESENT_MESSAGE_11",
+    "MSID": "PRESENT_MESSAGE_MSID_11  (Recompensa de partida versus.)",
+    "Route": 72
+  },
+  {
+    "ID": "PRESENT_MESSAGE_12",
+    "MSID": "PRESENT_MESSAGE_MSID_12  (Regalo por completar el tutorial.)",
+    "Route": 80
+  },
+  {
+    "ID": "PRESENT_MESSAGE_14",
+    "MSID": "PRESENT_MESSAGE_MSID_14  (Objeto obtenido con un código de regalo.)",
+    "Route": 90
+  },
+  {
+    "ID": "PRESENT_MESSAGE_15",
+    "MSID": "PRESENT_MESSAGE_MSID_15  (Agradecimiento por un intercambio.)",
+    "Route": 100
+  },
+  {
+    "ID": "PRESENT_MESSAGE_16",
+    "MSID": "PRESENT_MESSAGE_MSID_17  (Recompensa de cupón futuro: primer\npremio.)",
+    "Route": 120
+  },
+  {
+    "ID": "PRESENT_MESSAGE_17",
+    "MSID": "PRESENT_MESSAGE_MSID_18  (Recompensa de cupón futuro: segundo\npremio.)",
+    "Route": 121
+  },
+  {
+    "ID": "PRESENT_MESSAGE_18",
+    "MSID": "PRESENT_MESSAGE_MSID_19  (Recompensa de cupón futuro: tercer\npremio.)",
+    "Route": 122
+  },
+  {
+    "ID": "PRESENT_MESSAGE_19",
+    "MSID": "PRESENT_MESSAGE_MSID_20  (Carta recibida.)",
+    "Route": 130
+  },
+  {
+    "ID": "PRESENT_MESSAGE_2",
+    "MSID": "PRESENT_MESSAGE_MSID_2  (Distribución del equipo de desarrollo.)",
+    "Route": 10
+  },
+  {
+    "ID": "PRESENT_MESSAGE_20",
+    "MSID": "PRESENT_MESSAGE_MSID_21  (Agradecimiento por compartir.)",
+    "Route": 140
+  },
+  {
+    "ID": "PRESENT_MESSAGE_3",
+    "MSID": "PRESENT_MESSAGE_MSID_3  (Regalo del equipo de desarrollo.)",
+    "Route": 20
+  },
+  {
+    "ID": "PRESENT_MESSAGE_4",
+    "MSID": "PRESENT_MESSAGE_MSID_4  (Tu galería ha recibido un me gusta.)",
+    "Route": 30
+  },
+  {
+    "ID": "PRESENT_MESSAGE_5",
+    "MSID": "PRESENT_MESSAGE_MSID_5  (Agradecimiento por una elección mágica.)",
+    "Route": 40
+  },
+  {
+    "ID": "PRESENT_MESSAGE_6",
+    "MSID": "PRESENT_MESSAGE_MSID_6  (Agradecimiento por una partida.)",
+    "Route": 50
+  },
+  {
+    "ID": "PRESENT_MESSAGE_7",
+    "MSID": "PRESENT_MESSAGE_MSID_7  (Extra por [Gr:Count s=\"un artículo\" p=\"artículos\" ][Num:Int max_length=\"0\" visible=\"0\" ] que has obtenido\nen la tienda.)",
+    "Route": 60
+  },
+  {
+    "ID": "PRESENT_MESSAGE_8",
+    "MSID": "PRESENT_MESSAGE_MSID_8  ([Gr:Count s=\"Un artículo\" p=\"Artículos\" ][Num:Int max_length=\"0\" visible=\"0\" ] que has obtenido en la tienda.)",
+    "Route": 61
+  },
+  {
+    "ID": "PRESENT_MESSAGE_9",
+    "MSID": "PRESENT_MESSAGE_MSID_9  (Recompensa de misión.)",
+    "Route": 70
+  }
+]

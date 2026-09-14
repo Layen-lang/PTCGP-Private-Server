@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message MissionIsNotifiedV1 {
+  message Types {
+    message Request {
+      repeated string mission_ids = 1;
+    }
+    message Response {
+      repeated string fifty_percents = 1;
+      repeated string ninety_percents = 2;
+    }
+  }
+}

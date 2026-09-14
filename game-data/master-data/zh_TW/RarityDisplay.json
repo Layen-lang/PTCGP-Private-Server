@@ -1,0 +1,57 @@
+[
+  {
+    "Rarity": 900,
+    "RarityDisplayGroupID": "UR",
+    "RarityDisplayID": "CROWN_1"
+  },
+  {
+    "Rarity": 100,
+    "RarityDisplayGroupID": "C",
+    "RarityDisplayID": "DIAMOND_1"
+  },
+  {
+    "Rarity": 200,
+    "RarityDisplayGroupID": "U",
+    "RarityDisplayID": "DIAMOND_2"
+  },
+  {
+    "Rarity": 300,
+    "RarityDisplayGroupID": "R",
+    "RarityDisplayID": "DIAMOND_3"
+  },
+  {
+    "Rarity": 400,
+    "RarityDisplayGroupID": "RR",
+    "RarityDisplayID": "DIAMOND_4"
+  },
+  {
+    "Rarity": 830,
+    "RarityDisplayGroupID": "S",
+    "RarityDisplayID": "EIGHT_STAR_1"
+  },
+  {
+    "Rarity": 860,
+    "RarityDisplayGroupID": "SSR",
+    "RarityDisplayID": "EIGHT_STAR_2"
+  },
+  {
+    "Rarity": 500,
+    "RarityDisplayGroupID": "AR",
+    "RarityDisplayID": "STAR_1"
+  },
+  {
+    "Rarity": 600,
+    "RarityDisplayGroupID": "SAR_SR",
+    "RarityDisplayID": "STAR_2"
+  },
+  {
+    "Rarity": 700,
+    "RarityDisplayGroupID": "SAR_SR",
+    "RarityDisplayID": "STAR_3"
+  },
+  {
+    "Rarity": 800,
+    "RarityDisplayGroupID": "IM",
+    "RarityDisplayID": "STAR_4"
+  }
+]

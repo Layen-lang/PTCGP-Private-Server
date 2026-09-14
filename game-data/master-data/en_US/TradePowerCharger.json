@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_T1  (Used to reduce the time to get trade stamina.\nReduces the time to do a single trade by one hour.\nObtainable as mission rewards and so forth.)",
+    "ID": "TRADE_CHAGER_140010",
+    "NameMSID": "ITEM_NAME_CHARGER_T1  (Trade Hourglass)",
+    "RecoveryDuration": 60
+  }
+]

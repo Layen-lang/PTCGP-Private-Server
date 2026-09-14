@@ -1,0 +1,554 @@
+[
+  {
+    "CategoryID": "SH_CG_EM_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (Genes Formidables)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_9  (La Isla Singular)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (Pugna Espaciotemporal)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (Luz Triunfal)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (Festival Brillante)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (Guardianes Celestiales)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (Crisis Dimensional)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (Saber Marino y Celeste)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (Arboleda de Eevee)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (Manantial Oculto)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (Sobre Deluxe ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (Megaascenso)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (Fuego Carmesí)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (Desfile de Ensueño)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (Encantos de Paldea)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (Megavariocolor)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EM_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (Aura Pulsante)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_13  (Barajas Iniciación ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1010
+  },
+  {
+    "CategoryID": "SH_CG_EV_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1030
+  },
+  {
+    "CategoryID": "SH_CG_EV_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_25  (Evento botín bis)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_26  (Evento elección mágica bis)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1020
+  },
+  {
+    "CategoryID": "SH_CG_EV_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_025",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_026",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_027",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_028",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_029",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_030",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_031",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_032",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_033",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_035",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_036",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_037",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_3  (Evento elección mágica)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_038",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accesorios)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_039",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_040",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_041",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_043",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_EV_044",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_30  (Objetos raros)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accesorios)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PG_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (Recomendados)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_PR_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_PR_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accesorios)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_PR_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (Objetos)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_EV_5  (Objetos)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_002",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accesorios)",
+    "SortOrderPriority": 800
+  },
+  {
+    "CategoryID": "SH_CG_SH_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_3  (Cartas)",
+    "SortOrderPriority": 900
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_6  (Regalos diarios)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_002",
+    "IsOutOfStockInvisible": true,
+    "NameMSID": "SHOP_CATEGORY_SUB_7  (Relojes de arena)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_003",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_2  (Genes Formidables)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_004",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_4  (Cartas de Partidario)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_005",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_5  (Cartas de Objeto)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_006",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_8  (Recomendados)",
+    "SortOrderPriority": 0
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_007",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_10  (Pugna Espaciotemporal)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_008",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_12  (Luz Triunfal)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_009",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_11  (Festival Brillante)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_010",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_14  (Guardianes Celestiales)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_011",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_15  (Relojes de arena (se actualiza cada mes))",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_012",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_16  (Cupones de tienda especiales)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_013",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_17  (Crisis Dimensional)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_014",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_18  (Saber Marino y Celeste)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_015",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_19  (Arboleda de Eevee)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_016",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_20  (Manantial Oculto)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_017",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_22  (Sobre Deluxe ex)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_018",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_21  (Megaascenso)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_019",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_23  (Fuego Carmesí)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_020",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_24  (Desfile de Ensueño)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_021",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_27  (Encantos de Paldea)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_022",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_29  (Megavariocolor)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_023",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_28  (Aura Pulsante)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SH_SUB_024",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_31",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_GD_2  (Accesorios)",
+    "SortOrderPriority": 1000
+  },
+  {
+    "CategoryID": "SH_CG_SP_SUB_001",
+    "IsOutOfStockInvisible": false,
+    "NameMSID": "SHOP_CATEGORY_SUB_1  (Series especiales)",
+    "SortOrderPriority": 0
+  }
+]

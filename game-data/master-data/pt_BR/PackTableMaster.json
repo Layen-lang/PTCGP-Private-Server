@@ -1,0 +1,1302 @@
+[
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0010_00_000",
+    "PackTableID": "AN001_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN001_0010_00_000",
+    "PackTableID": "AN001_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0010_01_000",
+    "PackTableID": "AN001_0010_01_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0020_00_000",
+    "PackTableID": "AN001_0020_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN001_0020_00_000",
+    "PackTableID": "AN001_0020_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0020_01_000",
+    "PackTableID": "AN001_0020_01_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0030_00_000",
+    "PackTableID": "AN001_0030_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN001_0030_00_000",
+    "PackTableID": "AN001_0030_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN001_0030_01_000",
+    "PackTableID": "AN001_0030_01_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN002_0010_00_000",
+    "PackTableID": "AN002_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN002_0010_00_000",
+    "PackTableID": "AN002_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN003_0010_00_000",
+    "PackTableID": "AN003_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN003_0010_00_000",
+    "PackTableID": "AN003_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN003_0020_00_000",
+    "PackTableID": "AN003_0020_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN003_0020_00_000",
+    "PackTableID": "AN003_0020_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN004_0010_00_000",
+    "PackTableID": "AN004_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN004_0010_00_000",
+    "PackTableID": "AN004_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN005_0010_00_000",
+    "PackTableID": "AN005_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN005_0010_00_000",
+    "PackTableID": "AN005_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN006_0010_00_000",
+    "PackTableID": "AN006_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN006_0010_00_000",
+    "PackTableID": "AN006_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN006_0020_00_000",
+    "PackTableID": "AN006_0020_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN006_0020_00_000",
+    "PackTableID": "AN006_0020_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN007_0010_00_000",
+    "PackTableID": "AN007_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN007_0010_00_000",
+    "PackTableID": "AN007_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN008_0010_00_000",
+    "PackTableID": "AN008_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN008_0010_00_000",
+    "PackTableID": "AN008_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN009_0010_00_000",
+    "PackTableID": "AN009_0010_00_000_01",
+    "ProbabilityWeight": 9162,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN009_0010_00_000",
+    "PackTableID": "AN009_0010_00_000_02",
+    "ProbabilityWeight": 5,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "AN009_0010_00_000",
+    "PackTableID": "AN009_0010_00_000_03",
+    "ProbabilityWeight": 833,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN009_0020_00_000",
+    "PackTableID": "AN009_0020_00_000_01",
+    "ProbabilityWeight": 9162,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN009_0020_00_000",
+    "PackTableID": "AN009_0020_00_000_02",
+    "ProbabilityWeight": 5,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "AN009_0020_00_000",
+    "PackTableID": "AN009_0020_00_000_03",
+    "ProbabilityWeight": 833,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN010_0010_00_000",
+    "PackTableID": "AN010_0010_00_000_01",
+    "ProbabilityWeight": 9162,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN010_0010_00_000",
+    "PackTableID": "AN010_0010_00_000_02",
+    "ProbabilityWeight": 5,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "AN010_0010_00_000",
+    "PackTableID": "AN010_0010_00_000_03",
+    "ProbabilityWeight": 833,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AN011_0010_00_000",
+    "PackTableID": "AN011_0010_00_000_01",
+    "ProbabilityWeight": 1999,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "AN011_0010_00_000",
+    "PackTableID": "AN011_0010_00_000_02",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0010_00_000",
+    "PackTableID": "AP001_0010_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0020_00_000",
+    "PackTableID": "AP001_0020_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0030_00_000",
+    "PackTableID": "AP001_0030_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0040_00_000",
+    "PackTableID": "AP001_0040_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0050_00_000",
+    "PackTableID": "AP001_0050_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0060_00_000",
+    "PackTableID": "AP001_0060_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0070_00_000",
+    "PackTableID": "AP001_0070_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0080_00_000",
+    "PackTableID": "AP001_0080_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0090_00_000",
+    "PackTableID": "AP001_0090_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0100_00_000",
+    "PackTableID": "AP001_0100_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0110_00_000",
+    "PackTableID": "AP001_0110_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0120_00_000",
+    "PackTableID": "AP001_0120_00_000_04",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "AP001_0130_00_000",
+    "PackTableID": "AP001_0130_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN001_0010_00_000",
+    "PackTableID": "BN001_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN001_0010_00_000",
+    "PackTableID": "BN001_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN001_0010_00_000",
+    "PackTableID": "BN001_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN001_0020_00_000",
+    "PackTableID": "BN001_0020_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN001_0020_00_000",
+    "PackTableID": "BN001_0020_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN001_0020_00_000",
+    "PackTableID": "BN001_0020_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN001_0030_00_000",
+    "PackTableID": "BN001_0030_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN001_0030_00_000",
+    "PackTableID": "BN001_0030_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN001_0030_00_000",
+    "PackTableID": "BN001_0030_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN002_0010_00_000",
+    "PackTableID": "BN002_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN002_0010_00_000",
+    "PackTableID": "BN002_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN002_0010_00_000",
+    "PackTableID": "BN002_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN003_0010_00_000",
+    "PackTableID": "BN003_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN003_0010_00_000",
+    "PackTableID": "BN003_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN003_0010_00_000",
+    "PackTableID": "BN003_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN004_0010_00_000",
+    "PackTableID": "BN004_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN004_0010_00_000",
+    "PackTableID": "BN004_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN004_0010_00_000",
+    "PackTableID": "BN004_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN005_0010_00_000",
+    "PackTableID": "BN005_0010_00_000_01",
+    "ProbabilityWeight": 947069,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN005_0010_00_000",
+    "PackTableID": "BN005_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN005_0010_00_000",
+    "PackTableID": "BN005_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_THEMERARE  (Pacote Raro Temático)",
+    "NoticeType": 1,
+    "PackID": "BN005_0010_00_000",
+    "PackTableID": "BN005_0010_00_000_04",
+    "ProbabilityWeight": 50,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN006_0010_00_000",
+    "PackTableID": "BN006_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN006_0010_00_000",
+    "PackTableID": "BN006_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN006_0010_00_000",
+    "PackTableID": "BN006_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN007_0010_00_000",
+    "PackTableID": "BN007_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN007_0010_00_000",
+    "PackTableID": "BN007_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN007_0010_00_000",
+    "PackTableID": "BN007_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN008_0010_00_000",
+    "PackTableID": "BN008_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN008_0010_00_000",
+    "PackTableID": "BN008_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN008_0010_00_000",
+    "PackTableID": "BN008_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN009_0010_00_000",
+    "PackTableID": "BN009_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN009_0010_00_000",
+    "PackTableID": "BN009_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN009_0010_00_000",
+    "PackTableID": "BN009_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BN010_0010_00_000",
+    "PackTableID": "BN010_0010_00_000_01",
+    "ProbabilityWeight": 947119,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_RARE  (Pacote raro)",
+    "NoticeType": 1,
+    "PackID": "BN010_0010_00_000",
+    "PackTableID": "BN010_0010_00_000_02",
+    "ProbabilityWeight": 500,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_PLUS1  (Pacote normal + 1 carta)",
+    "NoticeType": 1,
+    "PackID": "BN010_0010_00_000",
+    "PackTableID": "BN010_0010_00_000_03",
+    "ProbabilityWeight": 52381,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0010_00_000",
+    "PackTableID": "BP001_0010_00_000_01",
+    "ProbabilityWeight": 2000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0020_00_000",
+    "PackTableID": "BP001_0020_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0030_00_000",
+    "PackTableID": "BP001_0030_00_000_01",
+    "ProbabilityWeight": 1000,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0040_00_000",
+    "PackTableID": "BP001_0040_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0050_00_000",
+    "PackTableID": "BP001_0050_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0060_00_000",
+    "PackTableID": "BP001_0060_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0070_00_000",
+    "PackTableID": "BP001_0070_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0080_00_000",
+    "PackTableID": "BP001_0080_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0090_00_000",
+    "PackTableID": "BP001_0090_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0100_00_000",
+    "PackTableID": "BP001_0100_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0110_00_000",
+    "PackTableID": "BP001_0110_00_000_01",
+    "ProbabilityWeight": 1,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "BP001_0120_00_000",
+    "PackTableID": "BP001_0120_00_000_01",
+    "ProbabilityWeight": 100,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN001_0010_00_000",
+    "PackTableID": "GR_AN001_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN001_0020_00_000",
+    "PackTableID": "GR_AN001_0020_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN001_0030_00_000",
+    "PackTableID": "GR_AN001_0030_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN002_0010_00_000",
+    "PackTableID": "GR_AN002_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN003_0010_00_000",
+    "PackTableID": "GR_AN003_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN003_0020_00_000",
+    "PackTableID": "GR_AN003_0020_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN004_0010_00_000",
+    "PackTableID": "GR_AN004_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN005_0010_00_000",
+    "PackTableID": "GR_AN005_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN006_0010_00_000",
+    "PackTableID": "GR_AN006_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN006_0020_00_000",
+    "PackTableID": "GR_AN006_0020_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN007_0010_00_000",
+    "PackTableID": "GR_AN007_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "AN008_0010_00_000",
+    "PackTableID": "GR_AN008_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_03  (• Um pacote \"normal\" ou \"normal + 1 carta\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria acima será selecionado.\n• A probabilidade de seleção será a mesma da combinação de um pacote \"normal\" e um pacote \"normal + 1 carta\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 3,
+    "PackID": "AN009_0010_00_000",
+    "PackTableID": "GR_AN009_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_03  (• Um pacote \"normal\" ou \"normal + 1 carta\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria acima será selecionado.\n• A probabilidade de seleção será a mesma da combinação de um pacote \"normal\" e um pacote \"normal + 1 carta\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 3,
+    "PackID": "AN009_0020_00_000",
+    "PackTableID": "GR_AN009_0020_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_03  (• Um pacote \"normal\" ou \"normal + 1 carta\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria acima será selecionado.\n• A probabilidade de seleção será a mesma da combinação de um pacote \"normal\" e um pacote \"normal + 1 carta\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 3,
+    "PackID": "AN010_0010_00_000",
+    "PackTableID": "GR_AN010_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN001_0010_00_000",
+    "PackTableID": "GR_BN001_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN001_0020_00_000",
+    "PackTableID": "GR_BN001_0020_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN001_0030_00_000",
+    "PackTableID": "GR_BN001_0030_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN002_0010_00_000",
+    "PackTableID": "GR_BN002_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN003_0010_00_000",
+    "PackTableID": "GR_BN003_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN004_0010_00_000",
+    "PackTableID": "GR_BN004_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN005_0010_00_000",
+    "PackTableID": "GR_BN005_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN006_0010_00_000",
+    "PackTableID": "GR_BN006_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN007_0010_00_000",
+    "PackTableID": "GR_BN007_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN008_0010_00_000",
+    "PackTableID": "GR_BN008_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN009_0010_00_000",
+    "PackTableID": "GR_BN009_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "pack_offer_ratio_caution_02  (• Um pacote \"normal\" não será selecionado se as condições para o Pacote de Booster nesta categoria ser gerado forem cumpridas.\n• Em vez dele, o Pacote de Booster nesta categoria será selecionado.\n• A probabilidade de seleção será a mesma das Taxas de Aparição de um pacote \"normal\".\n• Confira a seção \"Atenção\" para mais informações sobre as condições de geração de pacote.)",
+    "NameMSID": "PACK_TABLE_NAME_GUARANTEE  ([Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ][Text:Char v=\"DIAMOND\" ] ou sup. garantida)",
+    "NoticeType": 2,
+    "PackID": "BN010_0010_00_000",
+    "PackTableID": "GR_BN010_0010_01",
+    "ProbabilityWeight": 0,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "TUTORIAL_1",
+    "PackTableID": "TUTORIAL_1",
+    "ProbabilityWeight": 100,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "TUTORIAL_2",
+    "PackTableID": "TUTORIAL_2",
+    "ProbabilityWeight": 100,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  },
+  {
+    "AnnotationMSID": "",
+    "NameMSID": "PACK_TABLE_NAME_NORMAL  (Pacote normal)",
+    "NoticeType": 0,
+    "PackID": "TUTORIAL_3",
+    "PackTableID": "TUTORIAL_3",
+    "ProbabilityWeight": 100,
+    "ShuffleEndNth": 0,
+    "ShuffleStartNth": 0
+  }
+]

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+enum EmblemEventWinType {
+  EMBLEM_EVENT_WIN_TYPE_COUNT = 0;
+  EMBLEM_EVENT_WIN_TYPE_STREAK = 1;
+}

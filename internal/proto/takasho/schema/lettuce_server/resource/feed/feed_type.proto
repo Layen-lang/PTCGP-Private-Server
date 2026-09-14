@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+enum FeedType {
+  FEED_TYPE_UNSPECIFIED = 0;
+  FEED_TYPE_SOMEONE = 1;
+  FEED_TYPE_LUCKY = 2;
+  FEED_TYPE_FREE = 3;
+}

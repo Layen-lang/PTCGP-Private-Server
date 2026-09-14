@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+enum WebviewLanguage {
+  WEBVIEW_LANGUAGE_UNSPECIFIED = 0;
+  WEBVIEW_LANGUAGE_DE = 1;
+  WEBVIEW_LANGUAGE_EN_US = 2;
+  WEBVIEW_LANGUAGE_EN_GB = 3;
+  WEBVIEW_LANGUAGE_ES = 4;
+  WEBVIEW_LANGUAGE_FR = 5;
+  WEBVIEW_LANGUAGE_IT = 6;
+  WEBVIEW_LANGUAGE_PT_BR = 7;
+  WEBVIEW_LANGUAGE_JA = 8;
+  WEBVIEW_LANGUAGE_ZH_TW = 9;
+  WEBVIEW_LANGUAGE_KO = 10;
+}

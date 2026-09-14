@@ -1,0 +1,97 @@
+[
+  {
+    "ID": "PRESENT_MESSAGE_1",
+    "MSID": "PRESENT_MESSAGE_MSID_1  (보유 상한에 도달한 [Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]플레이 아이템입니다)",
+    "Route": 0
+  },
+  {
+    "ID": "PRESENT_MESSAGE_10",
+    "MSID": "PRESENT_MESSAGE_MSID_10  (「혼자서」 배틀 보상입니다)",
+    "Route": 71
+  },
+  {
+    "ID": "PRESENT_MESSAGE_11",
+    "MSID": "PRESENT_MESSAGE_MSID_11  (「누군가와」 배틀 보상입니다)",
+    "Route": 72
+  },
+  {
+    "ID": "PRESENT_MESSAGE_12",
+    "MSID": "PRESENT_MESSAGE_MSID_12  (튜토리얼 클리어 선물입니다)",
+    "Route": 80
+  },
+  {
+    "ID": "PRESENT_MESSAGE_14",
+    "MSID": "PRESENT_MESSAGE_MSID_14  (선물 코드로 획득한 플레이 아이템입니다)",
+    "Route": 90
+  },
+  {
+    "ID": "PRESENT_MESSAGE_15",
+    "MSID": "PRESENT_MESSAGE_MSID_15  (트레이드에서 「고마워!」를 받았습니다)",
+    "Route": 100
+  },
+  {
+    "ID": "PRESENT_MESSAGE_16",
+    "MSID": "PRESENT_MESSAGE_MSID_17  (언젠가 쓰일 티켓 당첨 보상 : 1등)",
+    "Route": 120
+  },
+  {
+    "ID": "PRESENT_MESSAGE_17",
+    "MSID": "PRESENT_MESSAGE_MSID_18  (언젠가 쓰일 티켓 당첨 보상 : 2등)",
+    "Route": 121
+  },
+  {
+    "ID": "PRESENT_MESSAGE_18",
+    "MSID": "PRESENT_MESSAGE_MSID_19  (언젠가 쓰일 티켓 당첨 보상 : 3등)",
+    "Route": 122
+  },
+  {
+    "ID": "PRESENT_MESSAGE_19",
+    "MSID": "PRESENT_MESSAGE_MSID_20  (나눠주기로 받은 카드가 도착했습니다)",
+    "Route": 130
+  },
+  {
+    "ID": "PRESENT_MESSAGE_2",
+    "MSID": "PRESENT_MESSAGE_MSID_2  (운영팀이 드리는 배포 플레이 아이템입니다)",
+    "Route": 10
+  },
+  {
+    "ID": "PRESENT_MESSAGE_20",
+    "MSID": "PRESENT_MESSAGE_MSID_21  (나눠주기에서 「고마워!」를 받았습니다)",
+    "Route": 140
+  },
+  {
+    "ID": "PRESENT_MESSAGE_3",
+    "MSID": "PRESENT_MESSAGE_MSID_3  (운영팀이 드리는 사과 보상입니다)",
+    "Route": 20
+  },
+  {
+    "ID": "PRESENT_MESSAGE_4",
+    "MSID": "PRESENT_MESSAGE_MSID_4  (컬렉션에 좋아요를 받았습니다)",
+    "Route": 30
+  },
+  {
+    "ID": "PRESENT_MESSAGE_5",
+    "MSID": "PRESENT_MESSAGE_MSID_5  (겟 챌린지에서 「고마워!」를 받았습니다)",
+    "Route": 40
+  },
+  {
+    "ID": "PRESENT_MESSAGE_6",
+    "MSID": "PRESENT_MESSAGE_MSID_6  (배틀에서 「고마워!」를 받았습니다!)",
+    "Route": 50
+  },
+  {
+    "ID": "PRESENT_MESSAGE_7",
+    "MSID": "PRESENT_MESSAGE_MSID_7  (숍에서 입수한 [Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]플레이 아이템의 추가 증정분입니다)",
+    "Route": 60
+  },
+  {
+    "ID": "PRESENT_MESSAGE_8",
+    "MSID": "PRESENT_MESSAGE_MSID_8  (숍에서 입수한 [Num:Int id=\"0\" visible=\"0\" max_length=\"0\" ]플레이 아이템입니다)",
+    "Route": 61
+  },
+  {
+    "ID": "PRESENT_MESSAGE_9",
+    "MSID": "PRESENT_MESSAGE_MSID_9  (미션 보상입니다)",
+    "Route": 70
+  }
+]

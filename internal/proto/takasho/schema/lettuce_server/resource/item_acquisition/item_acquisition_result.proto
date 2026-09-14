@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item_acquisition;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/item/poke_gold.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/acquired_item_stats.proto";
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+import "takasho/schema/lettuce_server/resource/present/present_item.proto";
+
+message ItemAcquisitionResult {
+  takasho.schema.lettuce_server.resource.item.InventoryItems acquired_items = 1;
+  takasho.schema.lettuce_server.resource.item.InventoryItems accepted_items = 2;
+  repeated takasho.schema.lettuce_server.resource.present.PresentItem presents = 3;
+  takasho.schema.lettuce_server.resource.player_resources.PlayerResources item_state = 4;
+  repeated takasho.schema.lettuce_server.resource.item.PokeGold poke_gold_states = 5;
+  AcquiredItemStats acquired_item_stats = 6;
+  takasho.schema.lettuce_server.resource.item.InventoryItems overflown_items = 7;
+}

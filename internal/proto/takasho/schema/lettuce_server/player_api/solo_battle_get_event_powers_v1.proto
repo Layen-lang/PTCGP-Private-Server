@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_event_power.proto";
+
+message SoloBattleGetEventPowersV1 {
+  message Types {
+    message Request {
+      repeated string event_ids = 1;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.solo_battle.SoloBattleEventPower event_powers = 1;
+    }
+  }
+}

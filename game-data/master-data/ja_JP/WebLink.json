@@ -1,0 +1,86 @@
+[
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_BATTLE",
+    "TextMSID": "LINK_TEXT_BATTLE",
+    "URLMSID": "LINK_PATH_BATTLE"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_CHALLENGE",
+    "TextMSID": "LINK_TEXT_CHALLENGE",
+    "URLMSID": "LINK_PATH_CHALLENGE"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_EVENT_BATTLE",
+    "TextMSID": "LINK_TEXT_EVENT",
+    "URLMSID": "LINK_PATH_BATTLE"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_EVENT_MISSION",
+    "TextMSID": "LINK_TEXT_EVENT",
+    "URLMSID": "LINK_PATH_MISSION"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_MISSION",
+    "TextMSID": "LINK_TEXT_MISSION",
+    "URLMSID": "LINK_PATH_MISSION"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_PACK",
+    "TextMSID": "LINK_TEXT_PACK",
+    "URLMSID": "LINK_PATH_PACK"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "LINK_SHOP",
+    "TextMSID": "LINK_TEXT_SHOP",
+    "URLMSID": "LINK_PATH_SHOP"
+  },
+  {
+    "AllowedInBMode": true,
+    "ID": "WebLink_BugNews_001",
+    "TextMSID": "WebLink_Text_BugNews_001",
+    "URLMSID": "WebLink_URL_BugNews_001"
+  },
+  {
+    "AllowedInBMode": true,
+    "ID": "WebLink_OfficialX_001",
+    "TextMSID": "WebLink_Text_OfficialX_001",
+    "URLMSID": "WebLink_URL_OfficialX_001"
+  },
+  {
+    "AllowedInBMode": true,
+    "ID": "WebLink_OfficialX_002",
+    "TextMSID": "WebLink_Text_OfficialX_002",
+    "URLMSID": "WebLink_URL_OfficialX_002"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "WebLink_Questionnaire_001",
+    "TextMSID": "WebLink_Text_Questionnaire_001",
+    "URLMSID": "WebLink_URL_Questionnaire_001"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "WebLink_Questionnaire_002",
+    "TextMSID": "WebLink_Text_Questionnaire_001",
+    "URLMSID": "WebLink_URL_Questionnaire_002"
+  },
+  {
+    "AllowedInBMode": false,
+    "ID": "WebLink_Questionnaire_003",
+    "TextMSID": "WebLink_Text_Questionnaire_001",
+    "URLMSID": "WebLink_URL_Questionnaire_003"
+  },
+  {
+    "AllowedInBMode": true,
+    "ID": "Weblink_EULA_KOREA",
+    "TextMSID": "WebLink_Text_BugNews_001",
+    "URLMSID": "Weblink_URL_EULA_KOREA"
+  }
+]

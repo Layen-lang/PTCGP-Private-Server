@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/present/present_item.proto";
+
+message PresentBoxListV1 {
+  message Types {
+    message Request {
+      string page_token = 1;
+    }
+    message Response {
+      string next_page_token = 1;
+      repeated takasho.schema.lettuce_server.resource.present.PresentItem presents = 2;
+    }
+  }
+}

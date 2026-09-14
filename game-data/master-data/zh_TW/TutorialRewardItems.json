@@ -1,0 +1,548 @@
+[
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_0"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000060_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_10"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000050_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_11"
+  },
+  {
+    "Amount": 4,
+    "ExpansionID": "",
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_12"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "1001044",
+    "ItemType": 10,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_13"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "",
+    "ItemID": "1001044",
+    "ItemType": 13,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_14"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_15"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_16"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_2"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_3"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_4"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_5"
+  },
+  {
+    "Amount": 2,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_6"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000010_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_7"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000020_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_8"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000070_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_BATTLE_REWARD_ITEMS_9"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000390_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000520_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_10"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001860_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_11"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_12"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_13"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001900_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_14"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001930_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_15"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001980_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_16"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_17"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_18"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_19"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000390_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_2"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_20"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000420_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_3"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000420_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_4"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000430_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_5"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000440_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_6"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000480_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_7"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000510_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_8"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000510_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK1_9"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000140_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000280_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_10"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001860_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_11"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_12"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_13"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001900_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_14"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001930_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_15"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001980_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_16"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_17"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_18"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_19"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000140_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_2"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_20"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000150_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_3"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000210_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_4"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000210_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_5"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000250_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_6"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000260_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_7"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000270_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_8"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_000270_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK2_9"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001370_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_1"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001610_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_10"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001860_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_11"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_12"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001890_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_13"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001900_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_14"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001930_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_15"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001980_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_16"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_17"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000030_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_18"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_19"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001370_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_2"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "PROMO-A",
+    "ItemID": "TR_90_000040_00",
+    "ItemType": 1,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_20"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001380_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_3"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001510_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_4"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001510_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_5"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001500_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_6"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001550_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_7"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001600_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_8"
+  },
+  {
+    "Amount": 1,
+    "ExpansionID": "A1",
+    "ItemID": "PK_10_001600_00",
+    "ItemType": 0,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_DECK3_9"
+  },
+  {
+    "Amount": 12,
+    "ExpansionID": "",
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "TutorialRewardItemID": "TUTORIAL_REWARD_PACKCHARGER"
+  }
+]

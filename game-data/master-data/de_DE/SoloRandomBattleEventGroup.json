@@ -1,0 +1,58 @@
+[
+  {
+    "BannerAssetId": "",
+    "EventGroupID": "EventGroup_B2",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2601000  (Zufallskampf (B2))",
+    "ScheduleID": "SC_PACK_RELEASE_B2_B2a"
+  },
+  {
+    "BannerAssetId": "",
+    "EventGroupID": "EventGroup_B2a",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2602000  (Zufallskampf (B2a))",
+    "ScheduleID": "SC_PACK_RELEASE_B2a_B2b"
+  },
+  {
+    "BannerAssetId": "",
+    "EventGroupID": "EventGroup_B2b",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2603000  (Zufallskampf (B2b))",
+    "ScheduleID": "SC_PACK_RELEASE_B2b_B3"
+  },
+  {
+    "BannerAssetId": "",
+    "EventGroupID": "EventGroup_B3",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2604000  (Zufallskampf (B3))",
+    "ScheduleID": "SC_PACK_RELEASE_B3_B3a"
+  },
+  {
+    "BannerAssetId": "RandomBattlesB3a_1",
+    "EventGroupID": "EventGroup_B3a",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2605000  (Zufallskampf (B3a))",
+    "ScheduleID": "SC_PACK_RELEASE_B3a_B3b"
+  },
+  {
+    "BannerAssetId": "RandomBattlesB3b_1",
+    "EventGroupID": "EventGroup_B3b",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2606000  (Zufallskampf (B3b))",
+    "ScheduleID": "SC_PACK_RELEASE_B3b_B4"
+  },
+  {
+    "BannerAssetId": "RandomBattlesB4_1",
+    "EventGroupID": "EventGroup_B4",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2607000  (Zufallskampf (B4))",
+    "ScheduleID": "SC_PACK_RELEASE_B4_B4a"
+  },
+  {
+    "BannerAssetId": "RandombattlesB4a_1",
+    "EventGroupID": "EventGroup_B4a",
+    "GroupID": "BT_RA_B2",
+    "GroupNameMSID": "BT_RA_2608000  (Zufallskampf (B4a))",
+    "ScheduleID": "SC_PACK_RELEASE_B4a_B4b"
+  }
+]

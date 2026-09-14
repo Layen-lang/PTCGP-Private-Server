@@ -1,0 +1,15 @@
+{
+  "name": "PTCGP Private Server",
+  "short_name": "PTCGP",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#102c26",
+  "background_color": "#f6f5f0",
+  "display": "standalone"
+}

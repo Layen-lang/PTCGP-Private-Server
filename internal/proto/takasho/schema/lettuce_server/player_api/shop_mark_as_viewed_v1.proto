@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "google/protobuf/timestamp.proto";
+
+message ShopMarkAsViewedV1 {
+  message Types {
+    enum Type {
+      TYPE_UNSPECIFIED = 0;
+      TYPE_POKE_GOLD_SHOP = 1;
+      TYPE_ITEM_SHOP = 2;
+      TYPE_ITEM_SHOP_CLOSE_SOON = 5;
+      TYPE_NEW_ITEM_SHOP = 6;
+    }
+    message MarkedShop {
+      ShopMarkAsViewedV1.Types.Type type = 1;
+      repeated string ids = 2;
+    }
+    message Request {
+      repeated ShopMarkAsViewedV1.Types.MarkedShop shops = 1;
+    }
+    message Response {
+      repeated ShopMarkAsViewedV1.Types.MarkedShop shops = 1;
+      google.protobuf.Timestamp last_viewed_at = 2;
+    }
+  }
+}

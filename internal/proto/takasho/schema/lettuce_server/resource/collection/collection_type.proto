@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.collection;
+
+enum CollectionType {
+  COLLECTION_TYPE_UNSPECIFIED = 0;
+  COLLECTION_TYPE_COLLECTION_FILE = 1;
+  COLLECTION_TYPE_COLLECTION_BOARD = 2;
+}

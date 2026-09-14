@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/feed/feed_revival_items.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_type.proto";
+
+message FeedChallengeWithOptions {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.feed.FeedType feed_type = 1;
+      string feed_id = 2;
+      int64 challenge_num = 3;
+      takasho.schema.lettuce_server.resource.feed.FeedRevivalItems revival_items = 4;
+      int64 element_index = 5;
+    }
+    message Response {
+    }
+  }
+}

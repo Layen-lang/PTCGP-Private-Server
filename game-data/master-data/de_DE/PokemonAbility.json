@@ -1,0 +1,1891 @@
+[
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Einmal während deines Zuges kannst du 20[C:Nbsp ]Schadenspunkte bei jedem deiner Pokémon heilen.)",
+    "PokemonAbilityID": "PK_000070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_1",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200050",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_6  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Basis-Pokémon von der Bank deines Gegners in die Aktive Position einwechseln.)",
+    "PokemonAbilityID": "PK_000200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_2",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_000610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_000670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200010",
+    "AbilityLogicParameters": [
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_2  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Pokémon deines Gegners 20[C:Nbsp ]Schadenspunkte zufügen.)",
+    "PokemonAbilityID": "PK_000890_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_5",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Lightning-[Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dieses Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_000980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_6",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300020",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_12  (Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Unterstützerkarten aus seiner Hand spielen.)",
+    "PokemonAbilityID": "PK_001230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_7",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Asleep  (schläft)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon jetzt {}\" v1=\"{} das Aktive Pokémon jetzt\" ].)",
+    "PokemonAbilityID": "PK_001250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_8",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Psychic-[Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dein Aktives Psychic-Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_001320_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_9",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Poisoned  (vergiftet)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ].)",
+    "PokemonAbilityID": "PK_001770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_10",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_001820_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_11",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200030",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_4  (Einmal während deines Zuges kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "PokemonAbilityID": "PK_001880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_12",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300200090",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_10  (Einmal während deines Zuges kannst du dir die [Gr:Count s=\"oberste\" p=\"obersten\" ] [Num:Int plural_only=\" \" ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks anschauen.)",
+    "PokemonAbilityID": "PK_002070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_13",
+    "Version": 2010
+  },
+  {
+    "AbilityLogicID": "300300030",
+    "AbilityLogicParameters": [
+      "Grass",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_13  (Jede an deine Grass[C:Nbh ]Pokémon angelegte Grass[C:Nbh ]Energie liefert 2[C:Nbsp ]Grass[C:Nbh ]Energien. Der Effekt stapelt sich nicht.)",
+    "PokemonAbilityID": "PK_002200_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_14",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200100",
+    "AbilityLogicParameters": [
+      "Water",
+      "Water",
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_14  (Beliebig oft während deines Zuges kannst du 1[C:Nbsp ]Water[C:Nbh ]Energie von 1[C:Nbsp ]Water[C:Nbh ]Pokémon auf deiner Bank auf dein Aktives Water[C:Nbh ]Pokémon verschieben.)",
+    "PokemonAbilityID": "PK_002330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_15",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300300040",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_15  (Dein Gegner kann keine Pokémon aus seiner Hand spielen, um sein Aktives Pokémon zu entwickeln.)",
+    "PokemonAbilityID": "PK_002590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_16",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_002690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_17",
+    "Version": 2408010
+  },
+  {
+    "AbilityLogicID": "300200020",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_3  (Einmal während deines Zuges kannst du 10[C:Nbsp ]Schadenspunkte bei jedem deiner Pokémon heilen.)",
+    "PokemonAbilityID": "PK_003030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_18",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Diesem Pokémon werden durch Attacken von Fire[C:Nbh ] oder Water[C:Nbh ]Pokémon −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_003130_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Diesem Pokémon werden durch Attacken von Fire[C:Nbh ] oder Water[C:Nbh ]Pokémon −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_003140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300060",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_19  (Verhindere alle Effekte der von Pokémon deines Gegners eingesetzten Attacken, die diesem Pokémon zugefügt werden.)",
+    "PokemonAbilityID": "PK_003150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_20",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200110",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_20  (Beliebig oft während deines Zuges kannst du 1[C:Nbsp ]deiner Pokémon wählen, dem bereits Schaden zugefügt wurde, und seinen gesamten Schaden auf dieses Pokémon verschieben.)",
+    "PokemonAbilityID": "PK_003530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_21",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300080",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_21  (Wenn an dieses Pokémon mindestens 1[C:Nbsp ]Energie angelegt ist, hat es keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_003590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_22",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_003680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300070",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_22  (Die Attacken deiner Fighting[C:Nbh ]Pokémon fügen dem Aktiven Pokémon deines Gegners +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_003730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_24",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300100020",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_23  (Füge jedes Mal, wenn du 1[C:Nbsp ]Darkness[C:Nbh ]Energie aus dem Energiebereich an dieses Pokémon anlegst, dem Aktiven Pokémon deines Gegners 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_003910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_25",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "100"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1[C:Nbsp ]Münze. Bei Kopf werden diesem Pokémon durch diese Attacke −[C:Nbsp ]100[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_003950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_26",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300200120",
+    "AbilityLogicParameters": [
+      "1",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_25  (Du musst [Num:Int ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] von deiner Hand auf deinen Ablagestapel legen, um diese Fähigkeit einzusetzen. Einmal während deines Zuges kannst du 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ref=\"1\" ] ziehen.)",
+    "PokemonAbilityID": "PK_004040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_27",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (Wenn du Arceus oder Arceus-ex im Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_004330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200130",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1",
+      "Grass"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_27  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1[C:Nbsp ]Grass[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" id=\"1\" ref=\"1\" ] aus deinem Energiebereich an [Gr:Count s=\"1 deiner\" p=\"deine\" ref=\"1\" ] Grass[C:Nbh ]Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_004340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_29",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (Wenn du Arceus oder Arceus-ex im Spiel hast, hat dieses Pokémon keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_004370_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300120",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_29  (Wenn du Arceus oder Arceus-ex im Spiel hast, verringern sich die Kosten der von diesem Pokémon eingesetzten Attacken um 1[C:Nbsp ]Colorless[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"3\" ].)",
+    "PokemonAbilityID": "PK_004450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_31",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100030",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_30  (Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge dem Aktiven Pokémon deines Gegners 10[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_004460_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_32",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (Wenn du Arceus oder Arceus-ex im Spiel hast, werden diesem Pokémon durch Attacken −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_004500_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200140",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_32  (Einmal während deines Zuges kannst du einen Spieler auswählen. Schau dir die [Gr:Count s=\"oberste\" p=\"obersten \" ][Num:Int plural_only=\"\" ] [Gr:Count s=\"Karte\" p=\"Karten\" ] des Decks dieses Spielers an.)",
+    "PokemonAbilityID": "PK_004580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_34",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300110",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_28  (Wenn du Arceus oder Arceus-ex im Spiel hast, hat dieses Pokémon keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_004590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_30",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300100",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_26  (Wenn du Arceus oder Arceus-ex im Spiel hast, fügen die von diesem Pokémon eingesetzten Attacken dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_004650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_28",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300200150",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_33  (Wenn du Arceus oder Arceus-ex im Spiel hast, kannst du einmal während deines Zuges dem Aktiven Pokémon deines Gegners 30[C:Nbsp ]Schadenspunkte zufügen.)",
+    "PokemonAbilityID": "PK_004740_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_35",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300130",
+    "AbilityLogicParameters": [
+      "ARCEUS",
+      "ARCEUS_EX",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_31  (Wenn du Arceus oder Arceus-ex im Spiel hast, werden diesem Pokémon durch Attacken −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_004790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_33",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300140",
+    "AbilityLogicParameters": [
+      "Basic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_34  (Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Basic um 1.)",
+    "PokemonAbilityID": "PK_004930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_36",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300300150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_35  (Dieses Pokémon kann nicht von Speziellen Zuständen betroffen werden.)",
+    "PokemonAbilityID": "PK_004950_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_37",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100040",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_36  (Heile jedes Mal, wenn du 1[C:Nbsp ]Psychic[C:Nbh ]Energie aus dem Energiebereich an dieses Pokémon anlegst, 20[C:Nbsp ]Schadenspunkte bei diesem Pokémon.)",
+    "PokemonAbilityID": "PK_004960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_38",
+    "Version": 2409010
+  },
+  {
+    "AbilityLogicID": "300300170",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_37  (Diesem Pokémon werden durch Attacken von Fighting[C:Nbh ]Pokémon −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_004990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_39",
+    "Version": 2502010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_005010_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300160",
+    "AbilityLogicParameters": [
+      "HEYRUSHER"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_38  (Dein Heerashai in der Aktiven Position hat keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_005400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_40",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200160",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_39  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Psychic[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dieses Pokémon anlegen. Wenn du diese Fähigkeit einsetzt, endet dein Zug.)",
+    "PokemonAbilityID": "PK_005520_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_41",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200070",
+    "AbilityLogicParameters": [
+      "Poisoned  (vergiftet)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_8  (Einmal während deines Zuges kannst du 1 Münze werfen. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon jetzt {}\" v1=\"{} das Aktive Pokémon jetzt\" ].)",
+    "PokemonAbilityID": "PK_005660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_42",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Einmal während deines Zuges kannst du 20[C:Nbsp ]Schadenspunkte bei deinem Aktiven Pokémon heilen.)",
+    "PokemonAbilityID": "PK_005760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_43",
+    "Version": 2503010
+  },
+  {
+    "AbilityLogicID": "300300180",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_41  (Während deines ersten Zuges hat dieses Pokémon keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_006020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_44",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200180",
+    "AbilityLogicParameters": [
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_42  (Einmal während deines Zuges kannst du 30[C:Nbsp ]Schadenspunkte bei jedem deiner Water[C:Nbh ]Pokémon heilen.)",
+    "PokemonAbilityID": "PK_006290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_45",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge dem Angreifenden Pokémon 50[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_006350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_46",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300190",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_44  (Verhindere allen Schaden, der diesem Pokémon durch Attacken von Pokémon[C:Nbh ][Img:ex ] deines Gegners zugefügt wird.)",
+    "PokemonAbilityID": "PK_006470_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_47",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300200",
+    "AbilityLogicParameters": [
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_45  (Jedes deiner Pokémon, an das mindestens 1[C:Nbsp ]Psychic[C:Nbh ]Energie angelegt ist, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden.)",
+    "PokemonAbilityID": "PK_006610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_48",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200190",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Psychic"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_46  (Einmal während deines Zuges kannst du alle Psychic[C:Nbh ]Energien von 1[C:Nbsp ]Psychic[C:Nbh ]Pokémon auf deiner Bank auf dein Aktives Pokémon verschieben.)",
+    "PokemonAbilityID": "PK_006680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_49",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (Wenn dieses Pokémon durch Schaden einer Attacke kampfunfähig würde, wirf 1 Münze. Bei Kopf wird dieses Pokémon nicht kampfunfähig und seine verbleibenden KP sind gleich 10.)",
+    "PokemonAbilityID": "PK_006770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100070",
+    "AbilityLogicParameters": [
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_48  (Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, verschiebe alle Fighting[C:Nbh ]Energien von diesem Pokémon auf 1 Pokémon auf deiner Bank.)",
+    "PokemonAbilityID": "PK_006850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_51",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_006900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300200200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_49  (Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du es gegen dein Aktives Pokémon austauschen.)",
+    "PokemonAbilityID": "PK_007030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_53",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (schläft)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, [Text:SpecialCondition v0=\"ist dieses Pokémon jetzt {}\" v1=\"{} dieses Pokémon jetzt\" ].)",
+    "PokemonAbilityID": "PK_007220_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_54",
+    "Version": 2504010
+  },
+  {
+    "AbilityLogicID": "300100080",
+    "AbilityLogicParameters": [
+      "Lightning",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_51  (Am Ende deines ersten Zuges lege 1[C:Nbsp ]Lightning[C:Nbh ]Energie aus deinem Energiebereich an dieses Pokémon an.)",
+    "PokemonAbilityID": "PK_007410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_55",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300220",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_52  (Solange dieses Pokémon in der Aktiven Position ist, fügen die Attacken des Aktiven Pokémon deines Gegners −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_007550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_56",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200210",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_53  (Einmal während deines Zuges kannst du 1[C:Nbsp ][Gr:Count s=\"zufälliges\" p=\"zufällige\" ] Pokémon aus deinem Deck auf deine Hand nehmen.)",
+    "PokemonAbilityID": "PK_007640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_57",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300230",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_54  (Pokémon (deine und die deines Gegners) können nicht geheilt werden.)",
+    "PokemonAbilityID": "PK_007680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_58",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300240",
+    "AbilityLogicParameters": [
+      "Poisoned  (vergiftet)",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_55  (Dem Aktiven Pokémon deines Gegners werden +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zugefügt, wenn es [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ].)",
+    "PokemonAbilityID": "PK_007790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_59",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_007880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_60",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Kosten der vom Aktiven Pokémon deines Gegners eingesetzten Attacken um 1[C:Nbsp ][Img:Element name=\"C\" ].)",
+    "PokemonAbilityID": "PK_007910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_61",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200220",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_57  (Einmal während deines Zuges kannst du deine Aktive Ultrabestie gegen 1 Ultrabestie auf deiner Bank austauschen.)",
+    "PokemonAbilityID": "PK_007960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_62",
+    "Version": 2505010
+  },
+  {
+    "AbilityLogicID": "300200240",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_58  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Ablagestapel an dieses Pokémon anlegen. Wenn du das machst, füge diesem Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_008050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_63",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100100",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_59  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] ziehen.)",
+    "PokemonAbilityID": "PK_008280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_64",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300260",
+    "AbilityLogicParameters": [
+      "EIEVUI"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_60  (Dieses Pokémon kann sich zu einem beliebigen Pokémon entwickeln, das sich aus Evoli entwickelt, wenn du es aus deiner Hand auf dieses Pokémon spielst. (Dieses Pokémon kann sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, nicht entwickeln.))",
+    "PokemonAbilityID": "PK_008480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_65",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300100090",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_61  (Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, heile 20[C:Nbsp ]Schadenspunkte bei ihm.)",
+    "PokemonAbilityID": "PK_008490_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_66",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300200250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_62  (Einmal während deines Zuges kannst du 1[C:Nbsp ]zufällige [Gr:Count s=\"Pokémon-Ausrüstung\" p=\"Pokémon-Ausrüstungen\" ] aus deinem Deck auf deine Hand nehmen.)",
+    "PokemonAbilityID": "PK_008510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_67",
+    "Version": 2506000
+  },
+  {
+    "AbilityLogicID": "300300270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_63  (Dein Aktives Pokémon hat keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_008710_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_68",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_008770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_69",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300280",
+    "AbilityLogicParameters": [
+      "Grass",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_64  (Wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, verringern sich die Kosten der von diesem Pokémon eingesetzten Attacken um 1[C:Nbsp ]Grass[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ].)",
+    "PokemonAbilityID": "PK_008790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_70",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200260",
+    "AbilityLogicParameters": [
+      "Burned  (verbrannt)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_65  (Einmal während deines Zuges kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ].)",
+    "PokemonAbilityID": "PK_008850_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_71",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300290",
+    "AbilityLogicParameters": [
+      "NYOROZO",
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_66  (Solange sich dieses Pokémon auf deiner Bank befindet, fügen die Attacken deiner Pokémon, die sich aus Quaputzi entwickeln, dem Aktiven Pokémon deines Gegners +[C:Nbsp ]40[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_008960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_72",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300050",
+    "AbilityLogicParameters": [
+      "Fire",
+      "Water",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_18  (Diesem Pokémon werden durch Attacken von Fire[C:Nbh ] oder Water[C:Nbh ]Pokémon −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_009060_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_19",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100110",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_67  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 zufällige [Gr:Count s=\"Energie\" p=\"Energien\" ] vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel legen.)",
+    "PokemonAbilityID": "PK_009170_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_73",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1[C:Nbsp ]Münze. Verhindere bei Kopf jenen Schaden.)",
+    "PokemonAbilityID": "PK_009360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_74",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200270",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_69  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 30[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Pokémon heilen.)",
+    "PokemonAbilityID": "PK_009390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_75",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300310",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_76",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_83  (Diese Fähigkeit zeigt nur Wirkung, wenn du ein Icognito im Spiel hast, das eine andere Fähigkeit als PokemonAbilityName_ID_76 besitzt. Allen deinen Pokémon werden −[C:Nbsp ]10[C:Nbsp ]Schadenspunkte durch Attacken von Pokémon des Gegners zugefügt.)",
+    "PokemonAbilityID": "PK_009400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_76",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300320",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_77",
+      "UNKNOWN",
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_84  (Diese Fähigkeit zeigt nur Wirkung, wenn du ein Icognito im Spiel hast, das eine andere Fähigkeit als PokemonAbilityName_ID_77 besitzt. Die Attacken deiner Pokémon fügen dem Aktiven Pokémon deines Gegners +[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_009410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_77",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200280",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_72  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1 Pokémon, dem bereits Schaden zugefügt wurde, von der Bank deines Gegners in die Aktive Position einwechseln.)",
+    "PokemonAbilityID": "PK_009680_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_78",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300200290",
+    "AbilityLogicParameters": [
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_73  (Einmal während deines Zuges kannst du alle Darkness[C:Nbh ]Energien von jedem deiner Pokémon auf dieses Pokémon verschieben.)",
+    "PokemonAbilityID": "PK_009750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_79",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100120",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_74  (Lege jedes Mal, wenn du eine Energie aus dem Energiebereich an dieses Pokémon anlegst, eine zufällige Karte aus deinem Deck, die sich aus diesem Pokémon entwickelt, auf dieses Pokémon, um es zu entwickeln.)",
+    "PokemonAbilityID": "PK_009920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_80",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300300330",
+    "AbilityLogicParameters": [
+      "Asleep  (schläft)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_75  (Dieses Pokémon kann nicht [Text:SpecialCondition v0=\"{} werden\" v1=\"von Schlaf betroffen werden\" ].)",
+    "PokemonAbilityID": "PK_009960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_81",
+    "Version": 2507000
+  },
+  {
+    "AbilityLogicID": "300100140",
+    "AbilityLogicParameters": [
+      "Water",
+      "1",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_76  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 60[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Water[C:Nbh ]Pokémon heilen.)",
+    "PokemonAbilityID": "PK_010120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_82",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (Wenn das Pokémon deines Gegners durch Schaden der Attacken dieses Pokémon kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.)",
+    "PokemonAbilityID": "PK_010140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_83",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "PokemonAbilityID": "PK_010210_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "PokemonAbilityID": "PK_010400_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100130",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_78  (Am Ende deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, ziehe 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ].)",
+    "PokemonAbilityID": "PK_010440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_84",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100170",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_80  (Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf die Bank spielst, kannst du deinen Gegner dazu veranlassen, dir seine Handkarten zu zeigen.)",
+    "PokemonAbilityID": "PK_010510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_85",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100150",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_81  (Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, wirf 1[C:Nbsp ]Münze. Bei Kopf ist das Angreifende Pokémon kampfunfähig.)",
+    "PokemonAbilityID": "PK_010540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_86",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300340",
+    "AbilityLogicParameters": [
+      "LATIAS"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_82  (Wenn du Latias im Spiel hast, hat dieses Pokémon keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_010550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_87",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_010610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_23",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_010790_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_3",
+    "Version": 2508000
+  },
+  {
+    "AbilityLogicID": "300300350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_87  (Jedes deiner Grass[C:Nbh ]Pokémon erhält +[C:Nbsp ]20[C:Nbsp ]KP.)",
+    "PokemonAbilityID": "PK_011000_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_88",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_88  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Münze werfen. Wechsle bei Kopf 1[C:Nbsp ]Pokémon von der Bank deines Gegners in die Aktive Position ein.)",
+    "PokemonAbilityID": "PK_011090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_89",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200310",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_89  (Einmal während deines Zuges kannst du die [Gr:Count s=\"oberste\" p=\"obersten\" ][C:Nbsp ][Num:Int plural_only=\" \" ][Gr:Count s=\"Karte\" p=\"Karten\" ] vom Deck deines Gegners auf seinen Ablagestapel legen.)",
+    "PokemonAbilityID": "PK_011250_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_90",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100180",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_90  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, nimm 1[C:Nbsp ]Water[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich und lege sie an [Gr:Count s=\"1\" ref=\"1\" ] Pokémon auf deiner Bank an.)",
+    "PokemonAbilityID": "PK_011510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_91",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Water"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Einmal während deines Zuges kannst du dein Aktives Water[C:Nbh ]Pokémon gegen 1 Pokémon auf deiner Bank austauschen.)",
+    "PokemonAbilityID": "PK_011550_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_92",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300360",
+    "AbilityLogicParameters": [
+      "40"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_92  (Wenn dieses Pokémon volle KP hat, werden ihm durch Attacken von Pokémon deines Gegners −[C:Nbsp ]40[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_011620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_93",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100190",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_93  (Solange dieses Pokémon in der Aktiven Position ist, füge jedes Mal, wenn dein Gegner Energie aus seinem Energiebereich an 1 seiner Pokémon anlegt, jenem Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_011630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_94",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (Wenn dieses Pokémon kampfunfähig wird, wirf 1 Münze. Bei Kopf erhält dein Gegner dafür keine Punkte.)",
+    "PokemonAbilityID": "PK_011870_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_95",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_95  (Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du alle Pokémon-Ausrüstungen vom Aktiven Pokémon deines Gegners auf seinen Ablagestapel legen. Wenn du das machst, lege dieses Pokémon auf deinen Ablagestapel.)",
+    "PokemonAbilityID": "PK_012020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_96",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200170",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_40  (Einmal während deines Zuges kannst du 20[C:Nbsp ]Schadenspunkte bei deinem Aktiven Pokémon heilen.)",
+    "PokemonAbilityID": "PK_012030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_97",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300200330",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "2",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_96  (Einmal während deines Zuges kannst du 2[C:Nbsp ]Darkness[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dieses Pokémon anlegen. Wenn du das machst, füge diesem Pokémon 30[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_012390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_98",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100210",
+    "AbilityLogicParameters": [
+      "Poisoned  (vergiftet)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_97  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, [Text:SpecialCondition v0=\"ist das Angreifende Pokémon jetzt {}\" v1=\"{} das Angreifende Pokémon jetzt\" ].)",
+    "PokemonAbilityID": "PK_012420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_99",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300380",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "Metal",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_98  (Die Attacken deiner Psychic[C:Nbh ]Pokémon und Metal[C:Nbh ]Pokémon fügen dem Aktiven Pokémon deines Gegners +[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_012540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_100",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300250",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_56  (Solange dieses Pokémon in der Aktiven Position ist, erhöhen sich die Kosten der vom Aktiven Pokémon deines Gegners eingesetzten Attacken um 1[C:Nbsp ][Img:Element name=\"C\" ].)",
+    "PokemonAbilityID": "PK_012590_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_101",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300370",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_99  (Solange dieses Pokémon in der Aktiven Position ist, kann es sich während deines ersten Zuges oder während des Zuges, in dem du es spielst, entwickeln.)",
+    "PokemonAbilityID": "PK_012660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_102",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100220",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_100  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du [Num:Int ][C:Nbsp ][Gr:Count s=\"Unterstützerkarte\" p=\"Unterstützerkarten\" ] aus deinem Ablagestapel auf deine Hand nehmen.)",
+    "PokemonAbilityID": "PK_012760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_103",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_012880_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2510000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dein Aktives Fire[C:Nbh ]Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_012980_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_104  (Die Rückzugskosten des Aktiven Pokémon deines Gegners erhöhen sich um 1.)",
+    "PokemonAbilityID": "PK_013120_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_105",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300400",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_105  (Solange sich dieses Pokémon auf deiner Bank befindet, verhindere allen Schaden, der diesem Pokémon durch Attacken zugefügt wird.)",
+    "PokemonAbilityID": "PK_013230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_106",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (Dieses Pokémon erhält +[C:Nbsp ]30[C:Nbsp ]KP für jede an es angelegte Psychic[C:Nbh ]Energie.)",
+    "PokemonAbilityID": "PK_013380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_107",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_013660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2512000
+  },
+  {
+    "AbilityLogicID": "300300430",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_109  (Jedes deiner Pokémon, an das mindestens 1[C:Nbsp ]Energie angelegt ist, erholt sich von allen Speziellen Zuständen und kann von keinen Speziellen Zuständen betroffen werden.)",
+    "PokemonAbilityID": "PK_013830_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_108",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300440",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_110  (Wenn eine Stadionkarte im Spiel ist, hat dieses Pokémon keine Rückzugskosten.)",
+    "PokemonAbilityID": "PK_014160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_109",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100240",
+    "AbilityLogicParameters": [
+      "Psychic",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_111  (Zu Beginn deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, nimm 1[C:Nbsp ][Gr:Count s=\"zufälliges\" p=\"zufällige\" ref=\"1\" ] Psychic[C:Nbh ]Pokémon aus deinem Deck auf deine Hand.)",
+    "PokemonAbilityID": "PK_014360_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_110",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300450",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_112  (Wenn diesem Pokémon zum ersten Mal Schaden durch eine Attacke zugefügt wird, nachdem es ins Spiel gebracht wurde, verhindere jenen Schaden.)",
+    "PokemonAbilityID": "PK_014390_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_111",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100270",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_113  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du deinen Gegner dazu veranlassen, seine Handkarten in sein Deck zu mischen. Für jeden verbleibenden Punkt, den dein Gegner benötigt, um zu gewinnen, zieht er eine Karte.)",
+    "PokemonAbilityID": "PK_014410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_112",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300460",
+    "AbilityLogicParameters": [
+      "TAIRETSU",
+      "20",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_114  (Wenn du ein weiteres Legios im Spiel hast, werden dem Aktiven Pokémon deines Gegners durch Attacken von diesem Pokémon +[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt und diesem Pokémon werden durch Attacken von Pokémon deines Gegners −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_014580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_113",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300420",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_115  (Basis-Pokémon im Spiel (deine und die deines Gegners) haben keine Fähigkeiten.)",
+    "PokemonAbilityID": "PK_014630_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_114",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100250",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_116  (Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge jedem Pokémon deines Gegners 10[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_014690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_115",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100260",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_117  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 2[C:Nbsp ]zufällige [Gr:Count s=\"Pokémon-Ausrüstung\" p=\"Pokémon-Ausrüstungen\" ] aus deinem Ablagestapel auf deine Hand nehmen.)",
+    "PokemonAbilityID": "PK_014770_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_116",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300300",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_68  (Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1[C:Nbsp ]Münze. Verhindere bei Kopf jenen Schaden.)",
+    "PokemonAbilityID": "PK_014900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_117",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200350",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_118  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du dir 1 zufällige Unterstützerkarte aus der Hand deines Gegners ansehen. Setze den Effekt jener Karte als Effekt dieser Fähigkeit ein.)",
+    "PokemonAbilityID": "PK_014960_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_118",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_119  (Einmal während deines Zuges kannst du das Aktive Basis[C:Nbh ]Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "PokemonAbilityID": "PK_014990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_119",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300100105",
+    "AbilityLogicParameters": [
+      "Asleep  (schläft)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_50  (Jedes Mal, wenn du 1 Energie aus dem Energiebereich an dieses Pokémon anlegst und es sich in der Aktiven Position befindet, [Text:SpecialCondition v0=\"ist dieses Pokémon jetzt {}\" v1=\"{} dieses Pokémon jetzt\" ].)",
+    "PokemonAbilityID": "PK_015020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_120",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_015070_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2601000
+  },
+  {
+    "AbilityLogicID": "300200370",
+    "AbilityLogicParameters": [
+      "1",
+      "60",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_120  (Einmal während deines Zuges kannst du 60[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte bei 1 deiner Pokémon-[Img:ex ] heilen, an [Gr:Count s=\"das\" p=\"die\" ] mindestens 1[C:Nbsp id=\"0\" ref=\"0\" ]Energie angelegt ist. Wenn du das machst, lege 1 [Gr:Count s=\"zufällige Energie\" p=\"zufällige Energien\" ref=\"2\" ] von [Gr:Count s=\"jenem\" p=\"jenen\" ] Pokémon ab.)",
+    "PokemonAbilityID": "PK_015180_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_121",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200380",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire",
+      "50"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_121  (Einmal während deines Zuges kannst du 1[C:Nbsp id=\"0\" ref=\"0\" ]Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] von diesem Pokémon ablegen, um diese Fähigkeit einzusetzen. Während dieses Zuges fügen Attacken deiner Fire[C:Nbh ]Pokémon dem Aktiven Pokémon deines Gegners +[C:Nbsp id=\"0\" ref=\"0\" ]50[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_015270_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_122",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]30[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_015290_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_123",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300300470",
+    "AbilityLogicParameters": [
+      "50",
+      "60"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_122  (Wenn dieses Pokémon 50 oder weniger verbleibende KP hat, fügen seine Attacken dem Aktiven Pokémon deines Gegners +[C:Nbsp id=\"0\" ref=\"0\" ]60[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_015330_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_124",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300200040",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_5  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Water-[Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dein Aktives Water-Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_015450_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_125",
+    "Version": 2602000
+  },
+  {
+    "AbilityLogicID": "300100230",
+    "AbilityLogicParameters": [
+      "Fire",
+      "1",
+      "Fire"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_103  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Fire[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dein Aktives Fire[C:Nbh ]Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_016140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_104",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300100280",
+    "AbilityLogicParameters": [
+      "Asleep  (schläft)",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_123  (Am Ende jedes Zuges, wenn das Aktive Pokémon deines Gegners [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ], füge jenem Pokémon 20[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_016440_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_126",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300200320",
+    "AbilityLogicParameters": [
+      "Metal"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_91  (Einmal während deines Zuges kannst du dein Aktives Metal[C:Nbh ]Pokémon gegen 1 Pokémon auf deiner Bank austauschen.)",
+    "PokemonAbilityID": "PK_016540_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_127",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_016650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2603000
+  },
+  {
+    "AbilityLogicID": "300300480",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_124  (Jedes deiner entwickelten Pokémon kann die Attacken seiner vorangegangenen Entwicklungen einsetzen. (Du benötigst jedoch die jeweils für die Attacke notwendige Energie.))",
+    "PokemonAbilityID": "PK_016690_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_128",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300490",
+    "AbilityLogicParameters": [
+      "Fire",
+      "PokemonAbilityName_ID_129"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_125  (Einmal während deines Zuges, nachdem du Münzen für eine Attacke von 1 deiner Fire[C:Nbh ]Pokémon geworfen hast, kannst du alle daraus resultierenden Effekte ignorieren und die Münzen erneut werfen. Du kannst die Fähigkeit PokemonAbilityName_ID_129 nur einmal pro Zug einsetzen.)",
+    "PokemonAbilityID": "PK_016900_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_129",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200390",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_126  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "PokemonAbilityID": "PK_017020_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_130",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dem Aktiven Pokémon deines Gegners 20[C:Nbsp ]Schadenspunkte zufügen.)",
+    "PokemonAbilityID": "PK_017140_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100290",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_127  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dem Aktiven Pokémon deines Gegners 30[C:Nbsp ]Schadenspunkte zufügen.)",
+    "PokemonAbilityID": "PK_017150_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_131",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Water",
+      "Fighting"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (Solange dieses Pokémon im Spiel ist, ist es vom Typ Water und Fighting.)",
+    "PokemonAbilityID": "PK_017160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200080",
+    "AbilityLogicParameters": [
+      "Confused  (verwirrt)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_9  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ].)",
+    "PokemonAbilityID": "PK_017310_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_133",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200400",
+    "AbilityLogicParameters": [
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_129  (Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du 30[C:Nbsp id=\"0\" ref=\"0\" ]Schadenspunkte, die deinem Aktiven Pokémon bereits zugefügt wurden, auf dieses Pokémon übertragen.)",
+    "PokemonAbilityID": "PK_017380_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_134",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300500",
+    "AbilityLogicParameters": [
+      "Fighting",
+      "Darkness"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_128  (Solange dieses Pokémon im Spiel ist, ist es vom Typ Fighting und Darkness.)",
+    "PokemonAbilityID": "PK_017780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_132",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300510",
+    "AbilityLogicParameters": [
+      "Darkness",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_130  (Solange sich dieses Pokémon auf deiner Bank befindet, verringern sich die Rückzugskosten deines Aktiven Darkness[C:Nbh ]Pokémon um 1.)",
+    "PokemonAbilityID": "PK_017800_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_135",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100300",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_131  (Wenn dieses Pokémon beim Pokémon-Check in der Aktiven Position ist, füge jedem Pokémon deines Gegners 10[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_017910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_136",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300200410",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_132  (Einmal während deines Zuges kann sich dein Aktives Pokémon von einem zufälligen Speziellen Zustand erholen.)",
+    "PokemonAbilityID": "PK_017930_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_137",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300520",
+    "AbilityLogicParameters": [
+      "REGIROCK",
+      "REGICE",
+      "REGISTEEL"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_133  (Wenn sich Regirock, Regice und Registeel nicht auf deiner Bank befinden, kann dieses Pokémon nicht angreifen.)",
+    "PokemonAbilityID": "PK_017990_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_138",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_018090_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf deine Bank spielst, kannst du es gegen dein Aktives Pokémon austauschen. Wenn du das machst, verschiebe alle deine Energien im Spiel auf dieses Pokémon.)",
+    "PokemonAbilityID": "PK_018340_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300530",
+    "AbilityLogicParameters": [
+      "Colorless",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_135  (Die Kosten der Attacken von Pokémon aus der Zukunft verringern sich um 1[C:Nbsp ]Colorless[C:Nbh ][Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ].)",
+    "PokemonAbilityID": "PK_018420_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_140",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100320",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_136  (Heile beim Pokémon-Check 10[C:Nbsp ]Schadenspunkte bei jedem deiner Pokémon.)",
+    "PokemonAbilityID": "PK_018480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_141",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100310",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_134  (Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf deine Bank spielst, kannst du es gegen dein Aktives Pokémon austauschen. Wenn du das machst, verschiebe alle deine Energien im Spiel auf dieses Pokémon.)",
+    "PokemonAbilityID": "PK_018510_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_139",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100200",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_94  (Wenn dieses Pokémon kampfunfähig wird, wirf 1 Münze. Bei Kopf erhält dein Gegner dafür keine Punkte.)",
+    "PokemonAbilityID": "PK_018600_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_142",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_1  (Wenn dieses Pokémon in der Aktiven Position ist und durch eine Attacke von Pokémon deines Gegners Schaden erhält, füge dem Angreifenden Pokémon 20[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_018610_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_143",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300100330",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_137  (Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf deine Bank spielst, kannst du das Aktive Pokémon deines Gegners auf seine Bank auswechseln. (Dein Gegner wählt das neue Aktive Pokémon.))",
+    "PokemonAbilityID": "PK_018620_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_144",
+    "Version": 2605000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]10[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_018920_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_4",
+    "Version": 2604000
+  },
+  {
+    "AbilityLogicID": "300100340",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_138  (Lege am Ende des Zuges deines Gegners, wenn dieses Pokémon in der Aktiven Position ist, eine zufällige Karte aus deinem Deck, die sich aus diesem Pokémon entwickelt, auf dieses Pokémon, um es zu entwickeln.)",
+    "PokemonAbilityID": "PK_019040_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_145",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200060",
+    "AbilityLogicParameters": [
+      "Water",
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_7  (Einmal während deines Zuges kannst du 1[C:Nbsp ]Water-[Gr:Count s=\"Energie\" p=\"Energien\" ref=\"1\" ] aus deinem Energiebereich an dieses Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_019160_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_146",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200420",
+    "AbilityLogicParameters": [
+      "1",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_140  (Einmal während deines Zuges, wenn an dieses Pokémon 1 Pokémon-Ausrüstung angelegt ist, kannst du 30[C:Nbsp ]Schadenspunkte bei 1[C:Nbsp ]deiner Pokémon heilen.)",
+    "PokemonAbilityID": "PK_019280_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_147",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300090",
+    "AbilityLogicParameters": [
+      "80"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_24  (Wenn diesem Pokémon durch Attacken Schaden zugefügt wird, wirf 1[C:Nbsp ]Münze. Bei Kopf werden diesem Pokémon durch diese Attacke −[C:Nbsp ]80[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_019480_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_148",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300540",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_139  (Solange dieses Pokémon in der Aktiven Position ist, kann dein Gegner keine Stadionkarten aus seiner Hand spielen.)",
+    "PokemonAbilityID": "PK_019530_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_149",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300100060",
+    "AbilityLogicParameters": [
+      "10"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_47  (Wenn dieses Pokémon durch Schaden einer Attacke kampfunfähig würde, wirf 1 Münze. Bei Kopf wird dieses Pokémon nicht kampfunfähig und seine verbleibenden KP sind gleich 10.)",
+    "PokemonAbilityID": "PK_019560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_50",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_019580_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2606000
+  },
+  {
+    "AbilityLogicID": "300200430",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_141  (Einmal während deines Zuges kannst du diese Fähigkeit einsetzen. 1[C:Nbsp ][Gr:Count s=\"Spezieller Zustand wird\" p=\"Spezielle Zustände werden\" ] zufällig aus Verbrennung, Verwirrung und Vergiftung ausgewählt. Das Aktive Pokémon deines Gegners ist jetzt von [Gr:Count s=\"diesem\" p=\"diesen\" ] [Gr:Count s=\"Zustand\" p=\"Zuständen\" ] betroffen. Spezielle Zustände, von denen das Pokémon bereits betroffen ist, werden nicht ausgewählt.)",
+    "PokemonAbilityID": "PK_019660_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_150",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100350",
+    "AbilityLogicParameters": [
+      "Grass",
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_142  (Einmal während deines Zuges, wenn du dieses Pokémon aus deiner Hand auf deine Bank spielst, kannst du 20[C:Nbsp ]Schadenspunkte bei deinem Aktiven Grass[C:Nbh ]Pokémon heilen.)",
+    "PokemonAbilityID": "PK_019780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_151",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100360",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_143  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du bis zum Ende des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken von Pokémon deines Gegners, die diesem Pokémon zugefügt werden, verhindern.)",
+    "PokemonAbilityID": "PK_020050_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_152",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100370",
+    "AbilityLogicParameters": [
+      "Paralyzed  (paralysiert)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_144  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1 Münze werfen. Bei Kopf [Text:SpecialCondition v0=\"ist das Aktive Pokémon deines Gegners jetzt {}\" v1=\"{} das Aktive Pokémon deines Gegners jetzt\" ].)",
+    "PokemonAbilityID": "PK_020110_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_153",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300550",
+    "AbilityLogicParameters": [
+      "DUMBBER",
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_145  (Wenn du ein weiteres Tanhel im Spiel hast, verringern sich die Rückzugskosten dieses Pokémon um 2.)",
+    "PokemonAbilityID": "PK_020670_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_154",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300560",
+    "AbilityLogicParameters": [
+      "2"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_146  (An dieses Pokémon können bis zu 2[C:Nbsp ]Pokémon[C:Nbh ]Ausrüstungen angelegt sein.)",
+    "PokemonAbilityID": "PK_020760_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_155",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300200440",
+    "AbilityLogicParameters": [
+      "1",
+      "Dragon"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_147  (Einmal während deines Zuges, wenn sich dieses Pokémon auf deiner Bank befindet, kannst du 1[C:Nbsp ][Gr:Count s=\"Energie\" p=\"Energien\" ] aus deinem Ablagestapel an dein Aktives Dragon[C:Nbh ]Pokémon anlegen.)",
+    "PokemonAbilityID": "PK_020780_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_156",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300100380",
+    "AbilityLogicParameters": [
+      "4"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_148  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du dir die [Gr:Count s=\"oberste\" p=\"obersten \" ][Num:Int plural_only=\"\" ][C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] deines Decks anschauen und alle Itemkarten, die du dort findest, auf deine Hand nehmen. Mische die anderen Karten zurück in dein Deck.)",
+    "PokemonAbilityID": "PK_020910_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_157",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_021030_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2607000
+  },
+  {
+    "AbilityLogicID": "300300410",
+    "AbilityLogicParameters": [
+      "Grass",
+      "30"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_106  (Dieses Pokémon erhält +[C:Nbsp ]30[C:Nbsp ]KP für jede an es angelegte Grass[C:Nbh ]Energie.)",
+    "PokemonAbilityID": "PK_021230_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_158",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100050",
+    "AbilityLogicParameters": [
+      "70"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_43  (Wenn dieses Pokémon in der Aktiven Position ist und durch Schaden einer Attacke von Pokémon deines Gegners kampfunfähig wird, füge dem Angreifenden Pokémon 70[C:Nbsp ]Schadenspunkte zu.)",
+    "PokemonAbilityID": "PK_021350_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_159",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200450",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_149  (Einmal während deines Zuges, wenn dieses Pokémon in der Aktiven Position ist, kannst du 1[C:Nbsp ][Gr:Count s=\"Karte\" p=\"Karten\" ] ziehen.)",
+    "PokemonAbilityID": "PK_021410_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_160",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100400",
+    "AbilityLogicParameters": [
+      "Poisoned  (vergiftet)",
+      "Burned  (verbrannt)"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_150  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du entscheiden, ob das Aktive Pokémon deines Gegners nun [Text:SpecialCondition v0=\"{} ist\" v1=\"{}\" ] und verbrannt.)",
+    "PokemonAbilityID": "PK_021560_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_161",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300570",
+    "AbilityLogicParameters": [
+      "PokemonAbilityName_ID_162"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_151  (Einmal während deines Zuges, nachdem du Münzen für einen Effekt von 1 deiner Trainerkarten geworfen hast, kannst du alle daraus resultierenden Effekte ignorieren und die Münzen erneut werfen. Du kannst die Fähigkeit PokemonAbilityName_ID_162 nur einmal pro Zug einsetzen.)",
+    "PokemonAbilityID": "PK_021640_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_162",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100160",
+    "AbilityLogicParameters": [],
+    "DescriptionMSID": "ABILITY_DESC_79  (Wenn das Pokémon deines Gegners durch Schaden der Attacken dieses Pokémon kampfunfähig wird, verhindere während des nächsten Zuges deines Gegners allen Schaden durch und alle Effekte von Attacken, die diesem Pokémon zugefügt werden.)",
+    "PokemonAbilityID": "PK_021650_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_163",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300100390",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_152  (Einmal während deines Zuges, wenn du dieses Pokémon von deiner Hand spielst, um 1 deiner Pokémon zu entwickeln, kannst du 1[C:Nbsp ]zufällige [Gr:Count s=\"Energie\" p=\"Energien\" ] vom Aktiven Pokémon deines Gegners auf dieses Pokémon verschieben.)",
+    "PokemonAbilityID": "PK_021700_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_164",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300200460",
+    "AbilityLogicParameters": [
+      "1"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_153  (Einmal während deines Zuges kannst du dir 1[C:Nbsp ]zufällige [Gr:Count s=\"Karte\" p=\"Karten\" ] aus der Hand deines Gegners anschauen.)",
+    "PokemonAbilityID": "PK_021730_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_165",
+    "Version": 2608000
+  },
+  {
+    "AbilityLogicID": "300300010",
+    "AbilityLogicParameters": [
+      "20"
+    ],
+    "DescriptionMSID": "ABILITY_DESC_11  (Diesem Pokémon werden durch Attacken −[C:Nbsp ]20[C:Nbsp ]Schadenspunkte zugefügt.)",
+    "PokemonAbilityID": "PK_021750_ABL_01",
+    "PokemonAbilityNameID": "PokemonAbilityName_ID_52",
+    "Version": 2608000
+  }
+]

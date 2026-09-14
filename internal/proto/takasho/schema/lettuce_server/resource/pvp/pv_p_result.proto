@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+enum PvPResult {
+  PV_P_RESULT_DRAW = 0;
+  PV_P_RESULT_WIN = 1;
+  PV_P_RESULT_LOSE = 2;
+}

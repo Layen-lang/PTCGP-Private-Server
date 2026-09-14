@@ -1,0 +1,127 @@
+[
+  {
+    "Id": "ADDITIONAL_EVOLUTION_LINE_CARD_SCORE",
+    "Key": 6,
+    "ValueInt64": 2000
+  },
+  {
+    "Id": "BASIC_POKEMON_CARD_SCORE",
+    "Key": 8,
+    "ValueInt64": 5
+  },
+  {
+    "Id": "DIFFERENT_POKEMON_TYPE_LINE_SCORE",
+    "Key": 14,
+    "ValueInt64": -300
+  },
+  {
+    "Id": "DIFFERENT_POKEMON_TYPE_SCORE",
+    "Key": 17,
+    "ValueInt64": -150
+  },
+  {
+    "Id": "EMPTY_EVOLUTION_TREE_CARD_SCORE",
+    "Key": 4,
+    "ValueInt64": 10000
+  },
+  {
+    "Id": "ENERGY_OVERFLOW_SCORE",
+    "Key": 21,
+    "ValueInt64": -10000
+  },
+  {
+    "Id": "FIRST_BASIC_POKEMON_CARD_SCORE",
+    "Key": 7,
+    "ValueInt64": 99999
+  },
+  {
+    "Id": "FIRST_SAME_POKEMON_TYPE_SCORE",
+    "Key": 16,
+    "ValueInt64": 1500
+  },
+  {
+    "Id": "INCOMPLETE_EVOLUTION_LINE_CARD_SCORE",
+    "Key": 11,
+    "ValueInt64": -5000
+  },
+  {
+    "Id": "LACKED_EVOLUTION_LINE_CARD_SCORE",
+    "Key": 5,
+    "ValueInt64": 5000
+  },
+  {
+    "Id": "LEAST_POKEMON_TYPE_SCORE",
+    "Key": 20,
+    "ValueInt64": 10
+  },
+  {
+    "Id": "LINE_ENERGY_OVERFLOW_SCORE",
+    "Key": 12,
+    "ValueInt64": -1000
+  },
+  {
+    "Id": "MAX_TRAINERS_COUNT",
+    "Key": 1,
+    "ValueInt64": 10
+  },
+  {
+    "Id": "MIN_TRAINERS_COUNT",
+    "Key": 0,
+    "ValueInt64": 7
+  },
+  {
+    "Id": "MIN_TRAINER_CARD_TYPE_SCORE",
+    "Key": 24,
+    "ValueInt64": 1
+  },
+  {
+    "Id": "NO_EVOLUTION_POKEMON_CARD_COUNT",
+    "Key": 2,
+    "ValueInt64": 3
+  },
+  {
+    "Id": "NO_EVOLUTION_POKEMON_CARD_SCORE",
+    "Key": 19,
+    "ValueInt64": 400
+  },
+  {
+    "Id": "ONE_EVOLVED_POKEMON_CARD_SCORE",
+    "Key": 9,
+    "ValueInt64": 3
+  },
+  {
+    "Id": "PREEVOLVED_EMPTY_CARD_SCORE",
+    "Key": 3,
+    "ValueInt64": 20000
+  },
+  {
+    "Id": "SAME_POKEMON_SCORE",
+    "Key": 18,
+    "ValueInt64": 1000
+  },
+  {
+    "Id": "SAME_POKEMON_TYPE_LINE_SCORE",
+    "Key": 13,
+    "ValueInt64": 300
+  },
+  {
+    "Id": "SAME_POKEMON_TYPE_SCORE",
+    "Key": 15,
+    "ValueInt64": 150
+  },
+  {
+    "Id": "TRAINER_CARD_OVERFLOW_SCORE",
+    "Key": 23,
+    "ValueInt64": -10
+  },
+  {
+    "Id": "TRAINER_CARD_SCORE",
+    "Key": 22,
+    "ValueInt64": 1000
+  },
+  {
+    "Id": "TWO_EVOLVED_POKEMON_CARD_SCORE",
+    "Key": 10,
+    "ValueInt64": 1
+  }
+]

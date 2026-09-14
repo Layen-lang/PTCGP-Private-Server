@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/mission_add_action.proto";
+import "takasho/schema/lettuce_debug_server/debug/mission_add_bulk_actions.proto";
+import "takasho/schema/lettuce_debug_server/debug/mission_undo_clear.proto";
+
+service Mission {
+  rpc AddAction (MissionAddAction.Types.Request) returns (MissionAddAction.Types.Response);
+  rpc UndoClear (MissionUndoClear.Types.Request) returns (MissionUndoClear.Types.Response);
+  rpc AddBulkActions (MissionAddBulkActions.Types.Request) returns (MissionAddBulkActions.Types.Response);
+}

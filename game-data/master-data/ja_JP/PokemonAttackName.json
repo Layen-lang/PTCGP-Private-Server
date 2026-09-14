@@ -1,0 +1,4442 @@
+[
+  {
+    "NameMSID": "ATTACK_NAME_1  (つるのムチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_10  (よだれ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_10"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_100  (いやがらせ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1000  (おひさまウインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1000"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1001  (ドレスアップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1001"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1002  (じっとする)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1002"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1003  (ひのこのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1003"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1004  (アクアバレット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1004"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1005  (バブルこうせん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1005"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1006  (バンドルポンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1006"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1007  (デデサークル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1007"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1008  (きらめくおくりもの)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1008"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1009  (ブリリアントストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1009"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_101  (ホロウショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1010  (あいのいちげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1010"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1011  (かけりたたる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1011"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1012  (ドわすれ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1012"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1013  (カースドジュエル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1013"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1014  (とどめをさす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1014"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1015  (バッドポイズン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1015"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1016  (ふみふみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1016"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1017  (がつがつドロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1017"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1018  (がちんこ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1018"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1019  (アームハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1019"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_102  (つぶやく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1020  (うらみのげんえい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1020"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1021  (にどずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1021"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1022  (まゆがあつまる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1022"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1023  (エボルフライト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1023"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1024  (からめてすいとる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1024"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1025  (ついげきしれい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1025"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1026  (シェルアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1026"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1027  (なぐってドロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1027"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1028  (プレリュード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1028"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1029  (ねっとう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1029"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_103  (サイコパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1030  (オーガウィップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1030"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1031  (バーストテール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1031"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1032  (ねっぷう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1032"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1033  (はかいのごうか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1033"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1034  (するどいツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1034"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1035  (へんずつう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1035"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1036  (ターボシャーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1036"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1037  (ミラクルザブーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1037"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1038  (ひょうけつスプラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1038"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1039  (ブリザードロック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1039"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_104  (バリアアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1040  (タイダルブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1040"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1041  (シェルブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1041"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1042  (ミネラルポンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1042"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1043  (リベンジバースト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1043"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1044  (パチッとくずす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1044"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1045  (ジャンクスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1045"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1046  (ディザスターボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1046"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1047  (エレキスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1047"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1048  (ちいさくゆびをふる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1048"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1049  (まねまねシャッフル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1049"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_105  (パワーブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1050  (シンクロダンス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1050"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1051  (じんつうりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1051"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1052  (ふみふみジャマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1052"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1053  (エアカッター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1053"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1054  (サイコトリップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1054"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1055  (いたずらリング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1055"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1056  (あやかしフェザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1056"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1057  (うっちゃり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1057"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1058  (ならくおとし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1058"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1059  (レゾナンスブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1059"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_106  (ねんどうだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1060  (がんばんくずし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1060"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1061  (コスモタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1061"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1062  (チームハント)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1062"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1063  (じゅうていおん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1063"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1064  (まるのみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1064"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1065  (きょうかスラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1065"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1066  (ボーンラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1066"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1067  (シャドーバレット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1067"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1068  (バレットパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1068"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1069  (グランドクロス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1069"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_107  (サイコショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1070  (ガトリングスラッグ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1070"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1071  (アイアンランス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1071"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1072  (テクノバスター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1072"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1073  (いかりのやいば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1073"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1074  (たたきつける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1074"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1075  (ドラゴンインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1075"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1076  (メガバースト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1076"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1077  (きまぐレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1077"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1078  (こうそくドライブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1078"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1079  (エナジーミキサー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1079"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_108  (ハートスタンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1080  (おそろいビンタ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1080"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1081  (ジェットウイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1081"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1082  (かたきうち)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1082"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1083  (ゴールドブレイク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1083"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1084  (ヘルハウンドフレア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1084"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1086  (ロケットフィーバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1086"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1087  (こらしめる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1087"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1089  (ほたるのいかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1089"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_109  (ダブルラリアット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1090  (はっぱブーメラン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1090"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1091  (なぶりやき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1091"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1092  (ヒートチャージ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1092"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1093  (ごくえんのつばさ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1093"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1094  (どくねつのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1094"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1095  (ひょうせつのあらし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1095"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1096  (ソウルカウンター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1096"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1097  (らいめいのかぎづめ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1097"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1098  (ゴミあさり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1098"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1099  (ハンドキネシス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1099"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_11  (アロマスリープ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_11"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_110  (どろかけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1100  (わなにはめる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1101  (サイキックボム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1102  (パンチ&ドロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1103  (ガイアインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1104  (シャドーシーカー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1105  (ヘドロこうげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1106  (どくしゃぶり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1107  (ぎゃくふんしゃ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1108  (こんらんガス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1109  (くいうちハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_111  (あなをほる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1110  (ドラゴンスラム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1111  (ブーストダッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1112  (デスローグ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1113  (なぐってかくれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1114  (ぷくぷくエール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1115  (ヒップドロップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1116  (れいこくなうず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_112  (けたぐり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_113  (やりかえす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_114  (かいりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_115  (ちきゅうなげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_116  (ころがる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_117  (すてみタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_117"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_118  (ランドクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_118"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_119  (なきごえ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_119"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_12  (ひっかく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_12"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_120  (ホネなぐり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_120"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_121  (ホネブーメラン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_121"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_122  (のびるキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_122"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_123  (ジャブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_123"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_124  (つのドリル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_124"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_125  (こうらアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_125"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_126  (きゅうけつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_126"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_127  (はたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_127"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_128  (かいてんげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_128"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_129  (なぐりとばす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_129"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_13  (きりさく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_13"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_130  (おいつめる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_130"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_131  (なかまをよぶ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_131"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_132  (ラブラブアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_132"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_133  (つのでつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_133"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_134  (どくのつの)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_134"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_135  (かっくう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_135"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_136  (どくガス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_136"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_137  (ベノムショック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_137"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_138  (かみくだく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_138"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_139  (つきさす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_139"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_14  (たいあたり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_14"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_140  (メタルクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_140"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_141  (ためる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_141"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_142  (ヘビーインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_142"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_143  (しっぽでたたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_143"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_144  (りゅうせいぐん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_144"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_145  (ドリルライナー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_145"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_146  (ハイパーボイス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_146"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_147  (スリーピーソング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_147"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_148  (ネコにこばん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_148"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_149  (シャドークロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_149"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_15  (どくのこな)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_15"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_150  (ネギでたたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_150"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_151  (ドリルくちばし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_151"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_152  (れんぞくベロベロ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_152"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_153  (ピヨピヨパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_153"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_154  (どこでもコピー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_154"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_155  (かくばる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_155"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_156  (げんしのはばたき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_156"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_157  (ともだちのわ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_157"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_158  (サイコリポート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_158"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_159  (ジャイアントブルーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_159"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_16  (タネばくだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_16"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_160  (ぐれんのあらし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_160"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_161  (ヒートブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_161"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_162  (ハイドロバズーカ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_162"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_163  (ふぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_163"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_164  (ハリケーンサンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_164"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_165  (サイコドライブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_165"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_166  (とつげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_166"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_167  (うたう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_167"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_168  (ちょっとせいちょう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_168"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_169  (パワフルブルーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_169"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_17  (ふみつけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_17"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_170  (ゆれるほうし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_170"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_171  (エナジーウィップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_171"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_172  (つきあげる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_172"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_173  (かさいりゅう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_173"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_174  (どくのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_174"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_175  (はねにげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_175"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_176  (あばれうずしお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_176"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_177  (アクアライナー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_177"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_178  (ダイビング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_178"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_179  (ギガスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_179"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_18  (トロピカルスイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_18"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_180  (エレキネット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_180"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_181  (スパイクドロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_181"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_182  (マインドジャック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_182"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_183  (みつめる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_183"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_184  (リーフドレイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_184"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_185  (ブルームシャイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_185"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_186  (ようせいのかぜ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_186"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_187  (きあいづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_187"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_188  (パンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_188"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_189  (なぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_189"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_19  (すいとる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_19"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_190  (つきたおし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_190"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_191  (ガードプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_191"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_192  (リベンジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_192"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_193  (メガトンキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_193"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_194  (ぶんれつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_194"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_195  (えんまく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_195"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_196  (どくばり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_196"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_197  (けちらしサイクロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_197"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_198  (とうしのタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_198"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_199  (れんぞくステップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_199"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_2  (はっぱカッター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_2"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_20  (するどいカマ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_20"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_200  (ものまね)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_200"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_201  (ソーラービーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_201"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_202  (ゲノムハック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_202"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_203  (ドラゴンクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_203"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_204  (リーフステップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_204"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_205  (エアスラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_205"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_206  (どくのムチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_206"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_207  (ハードプラント)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_207"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_208  (トランスメロディ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_208"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_209  (はっぱぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_209"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_21  (ダブルホーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_21"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_210  (ウィップダウン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_210"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_211  (はっぱサイクロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_211"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_212  (エナジーカット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_212"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_213  (もえあがる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_213"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_214  (バーストインフェルノ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_214"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_215  (やきこがす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_215"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_216  (ほのおパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_216"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_217  (フレアドライブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_217"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_218  (ヒートブレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_218"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_219  (ぶちかます)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_219"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_22  (くっつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_22"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_220  (フロストダンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_220"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_221  (フロストスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_221"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_222  (ひとやすみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_222"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_223  (アクアジェット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_223"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_224  (ジェットスクリュー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_224"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_225  (だくりゅう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_225"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_226  (ゆうがにおよぐ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_226"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_227  (たきのぼり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_227"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_228  (こおりのつぶて)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_228"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_229  (こおりのいぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_229"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_23  (ころがりタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_23"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_230  (ディメンションストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_230"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_231  (うみのおくりもの)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_231"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_232  (サンダーブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_232"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_233  (ばくはつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_233"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_234  (ボールアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_234"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_235  (じゅうでん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_235"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_236  (エキサイトボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_236"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_237  (かくれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_237"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_238  (でんきのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_238"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_239  (ボルテージアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_239"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_24  (ちょっとすいとる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_24"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_240  (ガジェットスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_240"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_241  (アサルトレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_241"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_242  (オーバースマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_242"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_243  (マジカルトリップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_243"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_244  (ソウルイート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_244"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_245  (ふくらむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_245"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_246  (バルーンアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_246"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_247  (マインドブースト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_247"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_248  (ゴッドブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_248"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_249  (サイコアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_249"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_25  (リーフサプライ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_25"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_250  (ムーンライトゲイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_250"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_251  (たたきつぶす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_251"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_252  (マウンテンスイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_252"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_253  (アクロバット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_253"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_254  (ロックスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_254"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_255  (もろはのずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_255"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_256  (サブマリンブロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_256"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_257  (グラウンドプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_257"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_258  (エナジーブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_258"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_259  (ちょくげきひこう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_259"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_26  (ふいをつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_26"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_260  (ダブルひっかき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_260"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_261  (スクラッチネイル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_261"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_262  (やみのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_262"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_263  (うずまくわざわい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_263"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_264  (クロスポイズン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_264"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_265  (みんなでしばく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_265"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_266  (ダークホール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_266"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_267  (ダークプリズム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_267"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_268  (メタルアームズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_268"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_269  (ヘッドバング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_269"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_27  (ひのこ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_27"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_270  (アイアンヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_270"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_271  (トリプルノーズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_271"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_272  (メタルターボ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_272"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_273  (こうてつタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_273"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_274  (ベロベロラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_274"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_275  (ビーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_275"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_276  (バグビーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_276"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_277  (しっぽパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_277"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_278  (ダブルアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_278"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_279  (ついばむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_279"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_28  (ほのおのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_28"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_280  (わしづかみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_280"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_281  (いかりのまえば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_281"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_282  (とびげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_282"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_283  (きどる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_283"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_284  (じゃまする)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_284"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_285  (みだれづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_285"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_286  (せんぷう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_286"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_287  (レイジングハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_287"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_288  (いっぽんなげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_288"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_289  (このは)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_289"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_29  (ほのおのうず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_29"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_290  (なやみのタネ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_290"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_291  (やどりぎのタネ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_291"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_292  (ぶちぎれボンバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_292"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_293  (あばれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_293"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_294  (つらら)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_294"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_295  (どつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_295"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_296  (フリーズウインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_296"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_297  (ゾーンブレイク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_297"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_298  (みずのはどう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_298"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_299  (スパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_299"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_3  (メガドレイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_3"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_30  (しっぽをふる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_30"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_300  (フラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_300"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_301  (ムーンフォース)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_301"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_302  (おどろかす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_302"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_303  (さいみんはどう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_303"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_304  (めざめるパワー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_304"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_305  (とびだしアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_305"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_306  (とうしのずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_306"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_307  (ローリングスピン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_307"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_308  (スピードアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_308"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_309  (キック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_309"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_31  (かえんほうしゃ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_31"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_310  (いっぱつげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_310"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_311  (ちょくげきだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_311"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_312  (たたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_312"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_313  (どくどく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_313"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_314  (パワービーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_314"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_315  (てっこつくだき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_315"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_316  (プロテクトユニット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_316"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_317  (タイムクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_317"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_318  (クライシスダイブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_318"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_319  (たおれこむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_319"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_32  (かみつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_32"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_320  (サイレントウイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_320"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_321  (ブレイブバード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_321"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_322  (アルティメットフォース)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_322"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_323  (サイコフラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_323"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_324  (あやしいひかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_324"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_325  (かたまる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_325"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_326  (きずにうちこむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_326"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_327  (ビリリパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_327"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_328  (パワープレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_328"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_329  (プラズマ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_329"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_33  (ヒートタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_33"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_330  (ともだちをよぶ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_330"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_331  (オーバーアクセル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_331"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_332  (ふえる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_332"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_333  (いとをはく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_333"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_334  (クラッシュスピア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_334"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_335  (ギロチンラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_335"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_336  (とうしのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_336"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_337  (ばくねつほう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_337"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_338  (えんばく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_338"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_339  (ブレイズタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_339"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_34  (もうかのとっしん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_34"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_340  (とびだす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_340"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_341  (あちこちとびだす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_341"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_342  (オーシャンサイクロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_342"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_343  (ローリングアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_343"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_344  (サイコサプレッション)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_344"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_345  (ジャグリング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_345"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_346  (カオスインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_346"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_347  (はこにかくれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_347"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_348  (ぶんなぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_348"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_349  (マグナムパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_349"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_35  (ほのお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_35"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_350  (はどうだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_350"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_351  (にどげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_351"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_352  (どくのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_352"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_353  (どくづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_353"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_354  (がんばりハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_354"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_355  (ごうかいスタンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_355"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_356  (スピンドリフト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_356"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_357  (ゴージャスサーフ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_357"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_358  (のびのびプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_358"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_359  (ホッピングシュート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_359"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_36  (ほのおのたてがみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_36"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_360  (てっぺき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_360"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_362  (トロピカルハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_362"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_363  (ふむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_363"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_364  (むしのさざめき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_364"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_365  (ひっかける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_365"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_366  (ツメできりさく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_366"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_367  (するどいはね)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_367"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_368  (きずをうちぬく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_368"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_369  (はなふぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_369"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_37  (マグマパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_37"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_370  (またたくひかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_370"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_371  (さんれんきゃく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_371"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_372  (であいがしら)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_372"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_373  (アンカーショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_373"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_374  (めりこみタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_374"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_375  (もえるホネブーメラン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_375"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_376  (ひをはく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_376"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_377  (ほのおのつばさ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_377"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_378  (ほのおのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_378"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_379  (スカースマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_379"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_38  (ゴッドバード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_38"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_380  (メラメラ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_380"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_381  (ヒートポイズン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_381"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_382  (トゲのよろい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_382"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_384  (がつがつボンバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_384"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_385  (ぎょぐんストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_385"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_386  (デンジャラスクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_386"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_387  (うちみず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_387"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_388  (スパイラルドレイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_388"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_389  (ちょうでんじほう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_389"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_39  (れっかのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_39"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_390  (けとばす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_390"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_391  (うしろげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_391"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_392  (でんじしょうがい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_392"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_393  (パチパチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_393"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_394  (エレキスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_394"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_395  (ボルトチェンジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_395"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_396  (バリアプッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_396"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_399  (ムーンプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_399"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_4  (ともだちをさがす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_4"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_40  (かえん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_40"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_400  (ナイトバインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_400"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_401  (げんわくダンス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_401"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_402  (うらみのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_402"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_403  (しんどう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_403"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_404  (シャドーヒット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_404"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_405  (エナジーアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_405"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_406  (ルナブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_406"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_407  (プリズムレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_407"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_408  (はりて)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_408"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_409  (おしだし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_409"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_41  (かじる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_41"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_410  (しんかのきざし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_410"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_411  (ブラッドファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_411"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_412  (10まんばりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_412"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_413  (ほしおとし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_413"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_414  (くいあさる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_414"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_415  (ヘドロなげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_415"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_416  (ケミカルパニック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_416"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_417  (アサシンクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_417"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_418  (どくのいき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_418"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_419  (とげキャノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_419"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_42  (だいもんじ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_42"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_420  (ロングスピア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_420"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_421  (アンロック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_421"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_422  (ソルブレイク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_422"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_423  (シルバーカノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_423"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_424  (ぎゃくじょう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_424"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_425  (スケイルノイズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_425"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_426  (エネアシスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_426"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_427  (せいぎのプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_427"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_428  (あばれまわる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_428"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_429  (さるのわな)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_429"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_43  (みずでっぽう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_43"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_430  (サイコチャージ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_430"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_431  (しねんのずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_431"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_432  (くちばしキャノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_432"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_433  (デスラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_433"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_434  (ビートパンク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_434"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_435  (エレクトロニカ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_435"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_436  (サイコビリー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_436"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_437  (ブラックメタル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_437"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_438  (ブラスロック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_438"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_439  (フォトンクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_439"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_44  (スプラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_44"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_440  (シューゲイザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_440"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_441  (スイーツリレー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_441"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_442  (ビギニングボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_442"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_443  (ドカもりスイーツ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_443"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_444  (だっぴ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_444"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_445  (ドレインビンタ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_445"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_446  (ツーステップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_446"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_447  (さかだつトゲ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_447"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_448  (きょうかまえば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_448"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_449  (かみなりのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_449"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_45  (ハイドロポンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_45"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_450  (プラズマハリケーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_450"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_451  (マッハボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_451"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_452  (いあいぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_452"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_453  (スナイピングアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_453"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_454  (ビッグビート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_454"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_455  (ジャンプブルース)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_455"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_456  (ライトニングボール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_456"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_457  (バチバチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_457"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_458  (ムーンキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_458"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_459  (ころばす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_459"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_46  (なみのり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_46"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_460  (とびひざげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_460"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_461  (いわおとし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_461"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_462  (ガルファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_462"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_463  (いっしょになげる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_463"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_464  (サンドショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_464"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_465  (すなじごく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_465"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_466  (ちょっかいをだす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_466"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_467  (ねこだまし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_467"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_468  (ひっこぬきファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_468"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_469  (ニューウェーブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_469"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_47  (ずつう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_47"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_470  (グラインドコア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_470"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_471  (タイラントホール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_471"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_472  (アシッドハウス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_472"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_473  (ひょっこりヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_473"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_474  (トリプレットヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_474"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_475  (ギガインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_475"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_476  (トゲでさす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_476"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_477  (するどいキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_477"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_478  (かいりきハッグ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_478"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_479  (クイックアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_479"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_48  (アクアエッジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_48"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_480  (バディブレイブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_480"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_481  (ムーンバートン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_481"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_482  (カッターウインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_482"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_483  (リーフブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_483"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_484  (けおとす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_484"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_485  (アシストヒーター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_485"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_486  (DDラリアット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_486"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_487  (はかいのうずしお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_487"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_488  (こおりのやいば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_488"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_489  (ダブルスピン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_489"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_49  (ひれカッター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_49"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_490  (みずまき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_490"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_491  (うたかたのアリア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_491"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_492  (プチショック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_492"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_493  (サンダーショック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_493"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_494  (エナジークラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_494"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_495  (エボルハーモニー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_495"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_496  (まねてみる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_496"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_497  (マッドショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_497"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_498  (じしん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_498"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_499  (ハードロール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_499"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_5  (むしくい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_5"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_50  (げんこつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_50"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_500  (ブラックバインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_500"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_501  (じゃれおとす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_501"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_502  (スラッシュクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_502"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_503  (まんりきばさみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_503"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_504  (りゅうのいぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_504"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_505  (もってくる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_505"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_506  (たおれこみパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_506"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_507  (おんち)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_507"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_508  (はなびらのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_508"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_509  (ねむりごな)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_509"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_51  (メガトンパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_51"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_510  (くさむすび)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_510"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_511  (ハサミギロチン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_511"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_512  (とんぼがえり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_512"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_513  (トリプルビンタ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_513"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_514  (いってんづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_514"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_515  (ひだね)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_515"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_516  (しゃくねつのいぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_516"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_517  (ぶちまけファイヤー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_517"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_518  (ぽかぽかトス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_518"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_519  (ストロングフレア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_519"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_52  (ひっぱたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_52"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_520  (フェニックスターボ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_520"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_521  (あぶりやき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_521"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_522  (ストームジェイル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_522"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_523  (はねてかわす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_523"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_524  (あばれスイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_524"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_525  (はかいのうず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_525"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_526  (オクタンほう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_526"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_527  (ずっこけドロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_527"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_528  (キュアストリーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_528"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_529  (クラブハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_529"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_53  (どくのしょくしゅ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_53"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_530  (フェザーサイクロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_530"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_531  (シグナルフラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_531"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_532  (ぱちぱちトス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_532"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_533  (ぴりぴりショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_533"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_534  (かみなり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_534"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_535  (ねむる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_535"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_536  (ぞわぞわウェーブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_536"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_537  (メロメロアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_537"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_538  (きらきらコール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_538"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_539  (あまえる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_539"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_54  (ずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_54"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_540  (スピードひこう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_540"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_541  (ライフダウン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_541"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_542  (つよめにかえす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_542"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_543  (サイケこうせん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_543"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_544  (ワイルドタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_544"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_545  (ゆめみのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_545"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_546  (とびだしヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_546"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_547  (ギガントプレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_547"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_548  (ばしばしナックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_548"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_549  (つきぬけスピン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_549"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_55  (ベロではたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_55"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_550  (ダブルチョップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_550"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_551  (ばくれつチョップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_551"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_552  (ベノムスラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_552"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_553  (しばりつける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_553"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_554  (ダークカッター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_554"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_555  (スナッチダイブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_555"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_556  (バスターテール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_556"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_557  (とびこえる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_557"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_558  (シェルクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_558"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_559  (しっぷうづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_559"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_56  (はさむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_56"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_560  (はがねのつばさ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_560"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_561  (ギアカッター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_561"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_562  (ギアスピナー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_562"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_563  (むしをついばむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_563"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_564  (まるまる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_564"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_565  (エナジーブロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_565"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_566  (ふりおろす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_566"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_567  (スロービーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_567"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_568  (テールスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_568"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_569  (そらをとぶ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_569"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_57  (ひっさつクラブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_57"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_570  (さるまね)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_570"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_571  (スネークフラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_571"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_572  (みつをなめる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_572"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_573  (ふりまわす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_573"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_574  (きょうかホーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_574"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_575  (ぬりたくる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_575"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_576  (エレメンタルブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_576"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_577  (れんぞくずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_577"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_578  (さそうひかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_578"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_579  (しあわせパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_579"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_58  (ウォーターアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_58"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_580  (ダブルスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_580"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_581  (ナイトバースト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_581"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_582  (ボルテッカー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_582"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_583  (ハリケーンパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_583"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_584  (ころがりフィーバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_584"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_585  (じたばた)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_585"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_586  (クロスフライト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_586"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_587  (ブレイズビート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_587"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_588  (とびはねる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_588"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_589  (そよかぜアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_589"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_59  (はねまわる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_59"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_590  (ときのこのは)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_590"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_591  (やまかじり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_591"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_592  (しんけいどく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_592"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_593  (ポイすて)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_593"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_594  (クリスタルワルツ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_594"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_595  (ざぶざぶトス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_595"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_596  (ボルテージバレット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_596"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_597  (プチボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_597"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_598  (ワイルドボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_598"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_599  (まけんきスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_599"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_6  (かぜおこし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_6"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_60  (つのでつつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_60"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_600  (のろいのことだま)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_600"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_601  (ラスターパージ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_601"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_602  (がけくずし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_602"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_603  (ハイドロナックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_603"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_604  (とっしん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_604"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_605  (すなしぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_605"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_606  (ストーンエッジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_606"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_607  (いんねんのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_607"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_608  (ブレインサージ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_608"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_609  (とかす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_609"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_61  (ひらてうち)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_61"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_610  (ヘドロばくだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_610"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_611  (りゅうのおうぎ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_611"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_612  (ネギでぶったたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_612"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_613  (のびるベロ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_613"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_614  (すやすやソング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_614"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_615  (ぷにぷにヒール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_615"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_616  (れいきをよぶ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_616"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_617  (スパイラルラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_617"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_618  (シザークロス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_618"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_619  (クリティカルシザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_619"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_62  (ハイドロスプラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_62"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_620  (かたくなる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_620"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_621  (セレクトパウダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_621"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_622  (こがらしせんぷう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_622"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_623  (みだれひっかき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_623"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_624  (せいなるつるぎ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_624"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_625  (えだづき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_625"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_626  (ウッドホーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_626"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_627  (ドラムラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_627"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_628  (ツメをたてる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_628"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_629  (フレアスプリンター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_629"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_63  (はねる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_63"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_630  (ホーリーバーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_630"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_631  (ブレイズキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_631"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_632  (メガバーニング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_632"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_633  (だるまれんだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_633"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_634  (ベロのムチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_634"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_635  (トラップシェル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_635"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_636  (たきのぼりしんか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_636"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_637  (テールハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_637"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_638  (メガブラスター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_638"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_639  (リズミックステップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_639"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_64  (はかいこうせん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_64"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_640  (ホエールポンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_640"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_641  (カップルタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_641"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_642  (ぐるぐるパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_642"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_643  (ブロックシェル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_643"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_644  (フロストバリア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_644"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_645  (くらいつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_645"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_646  (ビリリバレット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_646"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_647  (ライトニングランサー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_647"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_648  (フラッシュインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_648"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_649  (でんきをかじる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_649"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_65  (バブルドレイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_65"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_650  (ほえる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_650"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_651  (ダーティスロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_651"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_652  (メガハーモニー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_652"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_653  (おそいかかる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_653"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_654  (かぜふんしゃ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_654"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_655  (バルーンボンバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_655"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_656  (しゃんしゃんノイズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_656"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_657  (ソウルシュート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_657"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_658  (ほしのゆりかご)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_658"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_659  (フラフラパフューム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_659"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_66  (こだいのうずしお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_66"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_660  (コットンガード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_660"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_661  (ドレインキッス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_661"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_662  (クイックストレート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_662"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_663  (はりておとし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_663"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_664  (クラッシュファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_664"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_665  (ガブガブバイト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_665"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_666  (ワイルドスピン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_666"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_667  (ヘビーロケット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_667"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_668  (ギリギリパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_668"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_669  (すなかけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_669"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_67  (れいとうビーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_67"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_670  (ライフサッカー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_670"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_671  (ヒートスタンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_671"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_672  (せきたんおとし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_672"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_673  (あくのいましめ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_673"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_674  (ふきつなツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_674"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_675  (ダークネスクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_675"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_676  (シャドーコープ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_676"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_677  (ハイパービーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_677"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_678  (ドラゴンウィップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_678"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_679  (どげざつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_679"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_68  (アイスウイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_68"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_680  (いっしょにかむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_680"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_681  (スライスブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_681"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_682  (くろがねのつばさ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_682"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_683  (ギガクロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_683"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_684  (スピードウイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_684"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_685  (たつまき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_685"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_686  (エキサイトテール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_686"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_687  (のしかかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_687"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_688  (ジェットヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_688"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_689  (だいばくおん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_689"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_69  (はばたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_69"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_690  (じゃれつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_690"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_691  (ねこキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_691"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_692  (フラフラずつき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_692"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_693  (するどいまえば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_693"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_694  (デンジャラスバイト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_694"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_695  (れんぞくころがり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_695"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_696  (そこぢから)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_696"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_697  (あわ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_697"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_698  (ジャイアントツイスター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_698"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_699  (はねじょうず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_699"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_7  (チクチクさす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_7"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_70  (つばさでうつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_70"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_700  (つばめがえし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_700"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_701  (メタルブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_701"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_702  (ソニックインパルス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_702"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_703  (ともだちコピー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_703"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_704  (こうごうせい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_704"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_705  (クライシスブルーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_705"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_706  (そうじゅくビーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_706"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_707  (ぶらさがる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_707"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_708  (グレンダイブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_708"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_709  (ダブルスプラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_709"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_71  (みずきり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_71"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_710  (トリプルボンバード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_710"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_711  (きしゅうこうげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_711"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_712  (アクアシャワー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_712"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_713  (ミラーショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_713"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_714  (みちびく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_714"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_715  (アシストパワー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_715"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_716  (あまいかおり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_716"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_717  (パフュームボム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_717"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_718  (ジオバースト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_718"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_719  (メガトンはりて)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_719"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_72  (かすみぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_72"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_720  (ラピッドスマッシャー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_720"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_721  (チョップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_721"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_722  (ローキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_722"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_723  (ダストシュート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_723"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_724  (うばってドロン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_724"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_725  (アシッドボム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_725"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_726  (メタルディフェンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_726"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_727  (アダマントローリング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_727"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_728  (サイバージャック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_728"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_729  (ハリケーンウイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_729"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_73  (みずかけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_73"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_730  (スピードスター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_730"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_731  (ポイズンサークル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_731"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_732  (トゲでえぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_732"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_733  (ニードルアーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_733"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_734  (ニードルラリアット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_734"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_735  (ビビッドパウダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_735"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_736  (グラウンドビート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_736"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_737  (まいあがる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_737"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_738  (エナジーリーフ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_738"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_739  (ヒートボーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_739"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_74  (きずをえぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_74"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_740  (あおいほのお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_740"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_741  (ダンシングエール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_741"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_742  (こがす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_742"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_743  (ポップパンク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_743"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_744  (ひのたまシュート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_744"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_745  (かまどのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_745"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_746  (スノーバインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_746"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_747  (トリプルスピン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_747"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_748  (サプライズボックス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_748"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_749  (おおうずしお)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_749"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_75  (こなゆき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_75"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_750  (ゴウワンバスター)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_750"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_751  (ひんやり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_751"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_752  (カチカチロック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_752"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_753  (オーロラビーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_753"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_754  (ヘイルプリズン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_754"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_755  (はきだしショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_755"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_756  (いどのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_756"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_757  (でんげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_757"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_758  (ビッグサンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_758"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_759  (でんきしっぽ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_759"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_76  (10まんボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_76"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_760  (バディスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_760"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_761  (ダメージスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_761"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_762  (フォトンレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_762"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_763  (おきあがりアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_763"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_764  (サイコターボ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_764"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_765  (ファンタジアフォース)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_765"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_766  (ちょっとうらむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_766"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_767  (デッドストック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_767"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_768  (しねんのつぶて)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_768"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_769  (たたきこわす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_769"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_77  (エレキサークル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_77"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_770  (ノックハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_770"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_771  (サイコキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_771"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_772  (パワージェム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_772"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_773  (メガトンキャノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_773"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_774  (ティラノファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_774"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_775  (なげつける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_775"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_776  (せめこむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_776"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_777  (いしずえのまい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_777"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_778  (いばる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_778"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_779  (むじひないちげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_779"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_78  (ピッカリだま)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_78"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_780  (しるをとばす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_780"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_781  (えんまくだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_781"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_782  (あまえごえ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_782"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_783  (ツメをだす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_783"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_784  (よわきをくじく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_784"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_785  (イビルクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_785"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_786  (ブレイクコア)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_786"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_787  (ばっくりバイト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_787"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_788  (ヒートアップクランチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_788"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_789  (トラップバサミ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_789"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_79  (かいてんアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_79"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_790  (きる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_790"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_791  (にだんぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_791"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_792  (グレートシールド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_792"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_793  (ドラゴンフォール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_793"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_794  (じょうきげん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_794"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_795  (ワンツーパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_795"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_796  (ファミリーダブルパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_796"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_797  (しっぽビンタ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_797"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_798  (エアロブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_798"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_799  (あくび)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_799"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_8  (するどいはり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_8"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_80  (エレキボール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_80"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_800  (ぜんりょくパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_800"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_801  (グーパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_801"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_802  (フラフラステップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_802"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_803  (ふきぬける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_803"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_804  (むれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_804"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_805  (ファミリービート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_805"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_806  (スノーアイス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_806"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_807  (トリックフラワー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_807"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_808  (やんちゃげり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_808"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_809  (レッドホットヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_809"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_81  (かみなりパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_81"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_810  (たまころがり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_810"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_811  (どんよくバインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_811"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_812  (ようきにうたう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_812"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_813  (アーマーキャノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_813"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_814  (ねたみのごうか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_814"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_815  (スプラッシュターン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_815"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_816  (ハイドロキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_816"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_817  (さんれんのムチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_817"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_818  (ジェットパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_818"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_819  (つららミサイル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_819"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_82  (ミサイルばり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_82"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_820  (れいとうパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_820"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_821  (ダイエットスクリュー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_821"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_822  (まきかえす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_822"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_823  (アイシクルダイブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_823"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_824  (でんじスパーク)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_824"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_825  (こうでんあつほう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_825"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_826  (ライトニングレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_826"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_827  (とうしのたいけん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_827"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_828  (おはかまいり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_828"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_829  (れんぞくコインなげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_829"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_83  (らくらい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_83"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_830  (いかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_830"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_831  (ダイナマイトパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_831"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_832  (しびれごな)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_832"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_833  (アドレナハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_833"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_834  (ごうまんインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_834"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_835  (ランページファング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_835"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_836  (どろんこハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_836"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_837  (ロケットジャンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_837"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_838  (カラフルアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_838"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_839  (デカハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_839"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_84  (つつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_84"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_840  (てつぶんサプライ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_840"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_841  (ばらまきラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_841"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_842  (レッグスタンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_842"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_843  (トリプルかじり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_843"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_844  (バディドライブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_844"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_845  (チャクラフィスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_845"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_846  (えいようそ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_846"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_847  (きょうらんのやいば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_847"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_848  (かいてんドロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_848"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_849  (メンタルクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_849"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_85  (エレキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_85"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_850  (ランブルストンプ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_850"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_851  (ほのおのしっぽ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_851"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_852  (レイジングブレイズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_852"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_853  (らいめいボルケーノ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_853"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_854  (ランドリーゴーランド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_854"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_855  (レイジングフリーズ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_855"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_856  (みずしぶき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_856"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_857  (こうていのいちげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_857"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_858  (アクアターボ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_858"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_859  (ばくねつサンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_859"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_86  (サンダーアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_86"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_860  (イナズマアクセル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_860"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_861  (さいみんじゅつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_861"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_862  (ミラクルメモリー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_862"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_863  (ゆさぶるダンス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_863"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_864  (ちょっとつっこむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_864"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_865  (どろばくだん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_865"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_866  (ガイアブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_866"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_867  (スピンターン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_867"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_868  (シャドーラビリンス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_868"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_869  (くろいまどろみ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_869"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_87  (プチでんき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_87"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_870  (ヘドロのうず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_870"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_871  (エネしゃりん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_871"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_872  (とくだいばくはつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_872"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_873  (バレットスラッガー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_873"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_874  (あらくれダッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_874"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_875  (しっぽでつく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_875"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_876  (てんくうのいのり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_876"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_877  (ドラゴンウェーブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_877"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_878  (けちらす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_878"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_879  (しめつける)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_879"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_88  (ヘッドボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_88"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_880  (ひゃくにんりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_880"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_881  (スナイプエッジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_881"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_882  (リーフブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_882"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_883  (デッドリーテール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_883"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_884  (しょうか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_884"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_885  (キノコのほうし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_885"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_886  (ねこみをおそう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_886"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_887  (ひりひりパウダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_887"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_888  (まもる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_888"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_889  (おすそわけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_889"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_89  (かみなりのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_89"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_890  (すっぱいだえき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_890"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_891  (はねとばす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_891"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_892  (ふんか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_892"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_893  (ボルカニックドッカン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_893"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_894  (やけつくたいよう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_894"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_895  (Vフレイム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_895"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_896  (フレアストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_896"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_897  (ファイヤーアロー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_897"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_898  (にどたたき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_898"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_899  (しゅうげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_899"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_9  (ぶつかる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_9"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_90  (しっぽではたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_90"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_900  (どろんこヘッド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_900"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_901  (すいとるあまみず)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_901"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_902  (こごえるゆきぐも)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_902"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_903  (たまのかがやき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_903"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_904  (エネリフレクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_904"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_905  (つららパンチ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_905"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_906  (トルネードショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_906"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_907  (マグネブラスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_907"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_908  (いかずちのやいば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_908"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_909  (いっぱつボム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_909"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_91  (でんこうせっか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_91"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_910  (エレキボンバー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_910"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_911  (らいげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_911"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_912  (リベンジショック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_912"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_913  (まんぷくボルト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_913"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_914  (ダイヤストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_914"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_915  (めまいのついげき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_915"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_916  (チャームボイス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_916"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_917  (とびかかる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_917"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_918  (マッドハンマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_918"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_919  (うるうるアタック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_919"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_92  (でんきショック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_92"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_920  (とうしのこぶし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_920"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_921  (インファイト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_921"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_922  (ファイティングビート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_922"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_923  (グラウンドソード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_923"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_924  (ともえなげ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_924"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_925  (かわらわり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_925"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_926  (トリプルスマッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_926"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_927  (マウンテンクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_927"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_928  (すごいすなかけ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_928"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_929  (たんれん)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_929"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_93  (ビンタ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_93"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_930  (おならボム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_930"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_931  (とげラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_931"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_932  (かくせい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_932"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_933  (ビートダウン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_933"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_934  (あぶないほうし)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_934"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_935  (やみうち)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_935"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_936  (しんかジャマー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_936"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_937  (ダークリベンジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_937"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_938  (プロテクトチャージ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_938"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_939  (サイコレゾナンス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_939"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_94  (マジカルショット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_94"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_940  (つじぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_940"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_941  (からくりカノン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_941"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_942  (エアクラッシュ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_942"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_943  (すなかぜ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_943"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_944  (りゅうのはどう)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_944"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_945  (きずをなおす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_945"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_946  (ジャンプキック)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_946"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_947  (つついてもぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_947"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_948  (いかりのツメ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_948"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_949  (ギガターボ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_949"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_95  (テレポート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_95"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_950  (じこあんじ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_950"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_951  (こいぬまみれ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_951"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_952  (とうしのキバ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_952"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_953  (いやしのひかり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_953"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_954  (ハートフルシャイン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_954"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_955  (ふわふわテール)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_955"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_956  (きまぐれタックル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_956"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_957  (ねらいおとす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_957"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_958  (いさみたたく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_958"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_959  (のたうちあばれる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_959"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_96  (ちょうねんりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_96"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_960  (サーマルガスト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_960"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_961  (かこいこむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_961"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_962  (コールドスタート)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_962"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_963  (ショックウェーブ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_963"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_964  (リピートスラップ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_964"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_965  (バイナリサンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_965"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_966  (ハドロンレイ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_966"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_967  (ねんりき)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_967"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_968  (ルミナコリジョン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_968"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_969  (がなりおいだす)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_969"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_97  (サイコキネシス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_97"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_970  (げんしょじゅばく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_970"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_971  (アベンジエッジ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_971"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_972  (モジュールアックス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_972"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_973  (カウントブレード)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_973"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_974  (ふみこみゆさぶる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_974"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_975  (ひきよせくだく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_975"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_976  (てんちふんさい)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_976"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_977  (ジュエルギフト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_977"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_978  (たいしょうのやいば)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_978"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_979  (ベノムヒット)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_979"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_98  (ガスでつつむ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_98"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_980  (ブラストウインド)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_980"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_981  (やみのかぜ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_981"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_982  (アイアンスイング)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_982"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_983  (ローリングリリース)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_983"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_984  (なみうちめぐる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_984"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_985  (あぶりさえぎる)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_985"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_986  (ごうらいひっさつ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_986"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_987  (いきなりドリル)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_987"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_988  (かぎづめ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_988"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_989  (きゅうこうか)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_989"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_99  (おにび)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_99"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_990  (プリズムインパクト)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_990"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_991  (セルストーム)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_991"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_992  (グランドレーザー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_992"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_993  (ダイナミックホーン)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_993"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_994  (ひをふく)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_994"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_995  (かげろうぎり)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_995"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_996  (エナジープレス)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_996"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_997  (はしゃぐ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_997"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_998  (からくりサンダー)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_998"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_999  (へんなねんぱ)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_999"
+  }
+]

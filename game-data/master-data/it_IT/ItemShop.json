@@ -1,0 +1,482 @@
+[
+  {
+    "IconItemID": "",
+    "IconType": 0,
+    "NameMSID": "SHOP_TAB_NAME_040  (Emblemi)",
+    "ScheduleID": "SC_CLOSE_B3",
+    "ShopID": "EMBLEM",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 30,
+    "Type": 1
+  },
+  {
+    "IconItemID": "TICKET_2507000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2507000_01",
+    "ShopID": "EVENT_BANGIRAS",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2505010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2505010_01",
+    "ShopID": "EVENT_BEVENOM_NUIKOGUMA",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2602000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2602000_01",
+    "ShopID": "EVENT_CARBOU_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2504010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2504010_01",
+    "ShopID": "EVENT_COSMOG",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_DECK_A2b",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_080  (Mazzi iniziali ex)",
+    "ScheduleID": "SC_CM_2503010_02",
+    "ShopID": "EVENT_DECK_TICKET",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_0002010_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_0002010_07",
+    "ShopID": "EVENT_FUSHIGIBANA",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2603000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2603000_02",
+    "ShopID": "EVENT_GHOS_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2409010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2409010_01",
+    "ShopID": "EVENT_HIKOZARU",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2606000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2606000_01",
+    "ShopID": "EVENT_HISUIZORUA_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 160,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2408010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2408010_01",
+    "ShopID": "EVENT_KAMEX",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2510000_01",
+    "ShopID": "EVENT_KODUCK",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 80,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_06",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2510000_01",
+    "ShopID": "EVENT_KODUCK_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2503010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2503010_01",
+    "ShopID": "EVENT_LUCARIO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2502010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2502010_01",
+    "ShopID": "EVENT_MANAPHY",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2601000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2601000_03",
+    "ShopID": "EVENT_MEGACHAREM_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2603000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2603000_02",
+    "ShopID": "EVENT_MEGAGARURA",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 90,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2510000_02",
+    "ShopID": "EVENT_MEGAGYARADOS",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 100,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_07",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2510000_02",
+    "ShopID": "EVENT_MEGAGYARADOS_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 90,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2607000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2607000_01",
+    "ShopID": "EVENT_MEGAHELLGAR_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 180,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2604000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2604000_02",
+    "ShopID": "EVENT_MEGAHERACROS_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 120,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2512000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2512000_05",
+    "ShopID": "EVENT_MEGALATIOS_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_05",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2510000_11",
+    "ShopID": "EVENT_MEGAPIGEOT_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2512000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2512000_06",
+    "ShopID": "EVENT_MERRIEP_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2512000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2512000_03",
+    "ShopID": "EVENT_NUMERA",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2512000_EV_04",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2512000_03",
+    "ShopID": "EVENT_NUMERA_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2508000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2508000_01",
+    "ShopID": "EVENT_NUOH",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_0002010_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_0002010_01",
+    "ShopID": "EVENT_NYARTH",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "",
+    "IconType": 0,
+    "NameMSID": "SHOP_TAB_NAME_070  (Altro)",
+    "ScheduleID": "SC_RELEASE",
+    "ShopID": "EVENT_OTHER",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 10,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2602000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2602000_02",
+    "ShopID": "EVENT_PEPER",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2602000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2602000_02",
+    "ShopID": "EVENT_PEPER_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2509000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2509000_01",
+    "ShopID": "EVENT_PROF_OHKIDO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_090  (Ristampa (ev. bonus))",
+    "ScheduleID": "SC_SH_2510000_09",
+    "ShopID": "EVENT_REVIVALDROP",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2510000_EV_04",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_100  (Ristampa (pesca misteriosa))",
+    "ScheduleID": "SC_SH_2510000_10",
+    "ShopID": "EVENT_REVIVALFEED",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2608000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2608000_01",
+    "ShopID": "EVENT_ROCKETLAPRAS_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 210,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2608000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_120  (Team Rocket)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "ShopID": "EVENT_ROCKET_DUMMY",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 200,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2506000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2506000_01",
+    "ShopID": "EVENT_SILVADY",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 50,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2605000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2605000_01",
+    "ShopID": "EVENT_SOUBLADES_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 150,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2604000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2604000_01",
+    "ShopID": "EVENT_SPDROPEVENT_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 110,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2601000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_050  (Evento)",
+    "ScheduleID": "SC_SH_2601000_01",
+    "ShopID": "EVENT_STRINDER",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2601000_EV_03",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2601000_01",
+    "ShopID": "EVENT_STRINDER_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 60,
+    "Type": 2
+  },
+  {
+    "IconItemID": "TICKET_2608000_EV_01",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_120  (Team Rocket)",
+    "ScheduleID": "SC_SH_2608000_04",
+    "ShopID": "EVENT_SUSPICIOUS",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 190,
+    "Type": 3
+  },
+  {
+    "IconItemID": "TICKET_2603000_EV_02",
+    "IconType": 2,
+    "NameMSID": "SHOP_TAB_NAME_110  (Carte promozionali)",
+    "ScheduleID": "SC_SH_2603000_01",
+    "ShopID": "EVENT_YADON_PROMO",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 70,
+    "Type": 2
+  },
+  {
+    "IconItemID": "",
+    "IconType": 0,
+    "NameMSID": "SHOP_TAB_NAME_070  (Altro)",
+    "ScheduleID": "SC_CLOSE_B2",
+    "ShopID": "OTHER",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 10,
+    "Type": 1
+  },
+  {
+    "IconItemID": "POKEGOLD_FREE",
+    "IconType": 1,
+    "NameMSID": "SHOP_TAB_NAME_010  (Pokélingotti)",
+    "ScheduleID": "SC_CLOSE_B2",
+    "ShopID": "POKEGOLD",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 20,
+    "Type": 2
+  },
+  {
+    "IconItemID": "PREMIUM_TICKET",
+    "IconType": 1,
+    "NameMSID": "SHOP_TAB_NAME_060  (Premium)",
+    "ScheduleID": "SC_RELEASE",
+    "ShopID": "PREMIUM",
+    "ShowPremiumLicenseButton": true,
+    "SortOrderPriority": 30,
+    "Type": 2
+  },
+  {
+    "IconItemID": "SHOPTICKET",
+    "IconType": 1,
+    "NameMSID": "SHOP_TAB_NAME_020  (Buoni)",
+    "ScheduleID": "SC_RELEASE",
+    "ShopID": "SHOP",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 40,
+    "Type": 1
+  },
+  {
+    "IconItemID": "SHOPTICKET_P",
+    "IconType": 1,
+    "NameMSID": "SHOP_TAB_NAME_030  (Speciali)",
+    "ScheduleID": "SC_RELEASE",
+    "ShopID": "SPECIAL",
+    "ShowPremiumLicenseButton": false,
+    "SortOrderPriority": 20,
+    "Type": 1
+  }
+]

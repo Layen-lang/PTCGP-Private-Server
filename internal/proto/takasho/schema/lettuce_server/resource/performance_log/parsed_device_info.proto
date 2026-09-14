@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.performance_log;
+
+message ParsedDeviceInfo {
+  string os = 1;
+  string os_detail = 2;
+  string device = 3;
+  string app_version = 4;
+}

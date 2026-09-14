@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/my_profile_v1.proto";
+import "takasho/schema/lettuce_server/player_api/other_player_profile_v1.proto";
+import "takasho/schema/lettuce_server/player_api/save_my_profile_v1.proto";
+
+service PlayerProfile {
+  rpc MyProfileV1 (MyProfileV1.Types.Request) returns (MyProfileV1.Types.Response);
+  rpc OtherPlayerProfileV1 (OtherPlayerProfileV1.Types.Request) returns (OtherPlayerProfileV1.Types.Response);
+  rpc SaveMyProfileV1 (SaveMyProfileV1.Types.Request) returns (SaveMyProfileV1.Types.Response);
+}

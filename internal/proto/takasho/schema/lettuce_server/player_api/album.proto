@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/album_change_order_v1.proto";
+import "takasho/schema/lettuce_server/player_api/album_delete_v1.proto";
+import "takasho/schema/lettuce_server/player_api/album_get_detail_v1.proto";
+import "takasho/schema/lettuce_server/player_api/album_get_other_detail_v1.proto";
+import "takasho/schema/lettuce_server/player_api/album_list_v1.proto";
+import "takasho/schema/lettuce_server/player_api/album_set_v1.proto";
+
+service Album {
+  rpc ListV1 (AlbumListV1.Types.Request) returns (AlbumListV1.Types.Response);
+  rpc ChangeOrderV1 (AlbumChangeOrderV1.Types.Request) returns (AlbumChangeOrderV1.Types.Response);
+  rpc GetDetailV1 (AlbumGetDetailV1.Types.Request) returns (AlbumGetDetailV1.Types.Response);
+  rpc GetOtherDetailV1 (AlbumGetOtherDetailV1.Types.Request) returns (AlbumGetOtherDetailV1.Types.Response);
+  rpc SetV1 (AlbumSetV1.Types.Request) returns (AlbumSetV1.Types.Response);
+  rpc DeleteV1 (AlbumDeleteV1.Types.Request) returns (AlbumDeleteV1.Types.Response);
+}

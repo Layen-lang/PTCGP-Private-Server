@@ -1,0 +1,2533 @@
+[
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_1  (Venusaur ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100100705",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_4  (Charizard ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101005",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_7  (Blastoise ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_11  (Pikachu ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_13  (Mewtwo ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100101905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_16  (Machamp ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102205",
+    "MainCardSub1": "100102211",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_19  (Nidoqueen & Nidoking Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102305",
+    "MainCardSub1": "100102310",
+    "MainCardSub2": "100102316",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_20  (Kanto Fossils Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102401",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_21  (Blaine Deck (Genetic[C:Nbsp ]Apex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_22  (Lt. Surge Deck (Genetic[C:Nbsp ]Apex))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102601",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_23  (Brock Deck (Genetic[C:Nbsp ]Apex))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100102701",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_24  (Koga Deck (Genetic[C:Nbsp ]Apex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_26  (Mew ex Deck (Mythical Island))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_27  (Celebi ex Deck (Mythical Island))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100103703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_28  (Gyarados ex Deck (Mythical Island))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001042",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_29  (Aerodactyl ex Deck (Mythical Island))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "A1a",
+    "MainCard": "100104318",
+    "MainCardSub1": "100104311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001043",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_30  (Blue & Pidgeot ex Deck (Mythical Island))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A1",
+    "MainCard": "100104403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1001044",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_25  (Wigglytuff ex Deck (Genetic Apex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_31  (Yanmega ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200211",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_32  (Infernape ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_33  (Palkia ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_34  (Cynthia Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200518",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_35  (Volkner Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_36  (Pachirisu ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_37  (Supreme Blast Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_38  (Mismagius ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100200910",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_39  (Lickilicky ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_40  (Gallade ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201103",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_41  (Weavile ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_42  (Darkrai ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201316",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_43  (Team Galactic Grunt Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2",
+    "MainCard": "100201407",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_44  (Dialga ex Deck (Space-Time Smackdown))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201513",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_45  (Leafeon ex Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_46  (Barry Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201714",
+    "MainCardSub1": "100201705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_47  (Arceus ex & Heatran Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_48  (Glaceon ex Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      4,
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100201912",
+    "MainCardSub1": "100201907",
+    "MainCardSub2": "100201902",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_49  (Myths of Sinnoh Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202014",
+    "MainCardSub1": "100202003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_50  (Arceus ex & Raichu Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202114",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_51  (Garchomp ex Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202214",
+    "MainCardSub1": "100202206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_52  (Arceus ex & Crobat Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2a",
+    "MainCard": "100202308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_53  (Probopass ex Deck (Triumphant Light))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202405",
+    "MainCardSub1": "100202411",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_117  (Beedrill ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202505",
+    "MainCardSub1": "100202508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_118  (Charizard ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202609",
+    "MainCardSub1": "100202610",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_119  (Wugtrio ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202701",
+    "MainCardSub1": "100202711",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_120  (Pikachu ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202811",
+    "MainCardSub1": "100202805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_121  (Giratina ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100202910",
+    "MainCardSub1": "100202905",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_122  (Lucario ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203006",
+    "MainCardSub1": "100203011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_123  (PaldeanClodsire ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203107",
+    "MainCardSub1": "100203111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002031",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_124  (Tinkaton ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203209",
+    "MainCardSub1": "100203206",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_2  (You’ll get a theme deck list to use when accessing\nyour decks, and the 20 cards included in it. You\ncan obtain only one of the nine ex Starter Decks.)",
+    "ThemeDeckRecipeID": "1002032",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_125  (Bibarel ex Starter Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203305",
+    "MainCardSub1": "100203311",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002033",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_54  (Beedrill ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203405",
+    "MainCardSub1": "100203408",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002034",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_55  (Charizard ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203509",
+    "MainCardSub1": "100203510",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002035",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_56  (Wugtrio ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203601",
+    "MainCardSub1": "100203611",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002036",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_57  (Pikachu ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203711",
+    "MainCardSub1": "100203705",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002037",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_58  (Giratina ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203810",
+    "MainCardSub1": "100203805",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002038",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_59  (Lucario ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100203906",
+    "MainCardSub1": "100203911",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002039",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_60  (PaldeanClodsire ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204007",
+    "MainCardSub1": "100204011",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002040",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_61  (Tinkaton ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A2b",
+    "MainCard": "100204109",
+    "MainCardSub1": "100204106",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1002041",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_62  (Bibarel ex Deck (Shining Revelry))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300109",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_63  (Decidueye ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300218",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_64  (Mallow Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_65  (Incineroar ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300418",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_66  (Kiawe Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_67  (Crabominable ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300618",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_68  (Lana Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_69  (AlolanRaichu ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300820",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_70  (Sophocles Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100300913",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_71  (Lunala ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301018",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_72  (Acerola Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301113",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_73  (Passimian ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301209",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_74  (AlolanMuk ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3",
+    "MainCard": "100301311",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_75  (Solgaleo ex Deck (Celestial Guardians))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_76  (Buzzwole ex Deck (Extradimensional Crisis))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_77  (Tapu Koko ex Deck (Extradimensional Crisis))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_78  (Lycanroc ex Deck (Extradimensional Crisis))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301710",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_79  (Guzzlord ex Deck (Extradimensional Crisis))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A3a",
+    "MainCard": "100301803",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_80  (AlolanDugtrio ex Deck (Extradimensional Crisis))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100301902",
+    "MainCardSub1": "100301914",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_81  (Flareon ex & Eevee ex Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_82  (Primarina ex Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302106",
+    "MainCardSub1": "100302111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_83  (Sylveon ex & Eevee ex Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      2,
+      4
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302214",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_84  (Sweets Relay Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      4,
+      5
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302307",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_85  (Dragonite ex Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A3b",
+    "MainCard": "100302408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1003024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_86  (Snorlax ex Deck (Eevee Grove))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400113",
+    "MainCardSub1": "100400105",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_87  (Shuckle ex & Meganium Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400203",
+    "MainCardSub1": "100400201",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_88  (Ho-Oh ex & Entei Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400305",
+    "MainCardSub1": "100400313",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_89  (Kingdra ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_96  (Gyarados Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400503",
+    "MainCardSub1": "100400509",
+    "MainCardSub2": "100400508",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_90  (Lanturn ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400606",
+    "MainCardSub1": "100400605",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_91  (Espeon ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400712",
+    "MainCardSub1": "100400709",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_92  (Donphan ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400801",
+    "MainCardSub1": "100400808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_93  (Umbreon ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100400907",
+    "MainCardSub1": "100400906",
+    "MainCardSub2": "100400905",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_94  (Skarmory ex & Scizor Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4",
+    "MainCard": "100401014",
+    "MainCardSub1": "100401008",
+    "MainCardSub2": "100401003",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_95  (Lugia ex Deck (Wisdom of Sea and Sky))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401105",
+    "MainCardSub1": "100401108",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_97  (Jumpluff ex Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401205",
+    "MainCardSub1": "100401208",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_98  (Entei ex Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401307",
+    "MainCardSub1": "100401310",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_99  (Suicune ex Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401401",
+    "MainCardSub1": "100401406",
+    "MainCardSub2": "100401411",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_100  (Raikou ex Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401509",
+    "MainCardSub1": "100401508",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_101  (Latios & Latias Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      4,
+      7
+    ],
+    "ExpansionID": "A4a",
+    "MainCard": "100401606",
+    "MainCardSub1": "100401609",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_102  (Poliwrath ex Deck (Secluded Springs))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401702",
+    "MainCardSub1": "100401701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_103  (Buzzwole ex & Shuckle ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401805",
+    "MainCardSub1": "100401808",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_104  (Charizard ex & Moltres ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100401902",
+    "MainCardSub1": "100401901",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_105  (Palkia ex & Articuno ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402004",
+    "MainCardSub1": "100402003",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_106  (Pikachu ex & AlolanRaichu ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402102",
+    "MainCardSub1": "100402103",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_107  (Mewtwo ex & Mew ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402213",
+    "MainCardSub1": "100402204",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_108  (Lunala ex & Giratina ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402310",
+    "MainCardSub1": "100402307",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_109  (Lucario ex & Garchomp ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402410",
+    "MainCardSub1": "100402405",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_110  (Guzzlord ex & Crobat ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402513",
+    "MainCardSub1": "100402509",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_111  (Arceus ex & Dialga ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402612",
+    "MainCardSub1": "100402607",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004026",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_112  (Solgaleo ex & Skarmory ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6,
+      8
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402708",
+    "MainCardSub1": "100402701",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004027",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_113  (Eevee ex & Sylveon ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402803",
+    "MainCardSub1": "100402801",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004028",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_114  (Lugia ex & Ho-Oh ex Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      2,
+      3,
+      4
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100402908",
+    "MainCardSub1": "100402904",
+    "MainCardSub2": "100402912",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004029",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_115  (Best Partners Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "A4b",
+    "MainCard": "100403004",
+    "MainCardSub1": "100403003",
+    "MainCardSub2": "100403008",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1004030",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_116  (Pikachu & Friends Deck (Deluxe Pack: ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500101",
+    "MainCardSub1": "100500106",
+    "MainCardSub2": "100500113",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_126  (Mega Pinsir ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500205",
+    "MainCardSub1": "100500209",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_127  (Mega Blaziken ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500303",
+    "MainCardSub1": "100500306",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_128  (Mega Gyarados ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500417",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_129  (Marlon Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500505",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_130  (Mega Ampharos ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500601",
+    "MainCardSub1": "100500602",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_131  (Mega Altaria ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500719",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_132  (Fantina Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500805",
+    "MainCardSub1": "100500809",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_133  (Hitmonchan ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100500919",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_134  (Hala Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501003",
+    "MainCardSub1": "100501008",
+    "MainCardSub2": "100501009",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_135  (Mega Absol ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1",
+    "MainCard": "100501114",
+    "MainCardSub1": "100501111",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_136  (Melmetal ex Deck (Mega Rising))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501205",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_137  (Mega Venusaur ex Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_138  (Mega Charizard Y ex Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_139  (Mega Blastoise ex Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501517",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_140  (Clemont Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501604",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_141  (Mega Lopunny ex Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B1a",
+    "MainCard": "100501705",
+    "MainCardSub1": "100501708",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1005017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_142  (Mega Steelix ex Deck (Crimson Blaze))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600112",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_143  (Teal MaskOgerpon ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600206",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_144  (Blacephalon ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_145  (Mega Swampert ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_146  (AlolanNinetales ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600510",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_147  (Toxtricity ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600610",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_148  (Mega Gardevoir ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_149  (Gigalith ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600819",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_150  (Piers Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100600906",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_151  (Mega Mawile ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2",
+    "MainCard": "100601009",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_152  (Mega Kangaskhan ex Deck (Fantastical Parade))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601105",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_153  (Meowscarada ex Deck (Paldean Wonders))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601208",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_154  (Armarouge ex Deck (Paldean Wonders))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601314",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_155  (Chien-Pao ex Deck (Paldean Wonders))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601408",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_156  (Bellibolt ex Deck (Paldean Wonders))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2a",
+    "MainCard": "100601509",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_157  (Gholdengo ex Deck (Paldean Wonders))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601605",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_158  (Mega Charizard X ex Deck (Mega Shine))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601703",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_159  (Mega Slowbro ex Deck (Mega Shine))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601809",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_160  (Mega Manectric ex Deck (Mega Shine))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100601905",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_161  (Mega Gengar ex Deck (Mega Shine))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B2b",
+    "MainCard": "100602006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_162  (Mega Scizor ex Deck (Mega Shine))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100602108",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1006021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_187  (Elite Deck (Mega Blaziken ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700110",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_163  (Mega Sceptile ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_164  (Mega Camerupt ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700302",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_165  (Vaporeon ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700405",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_166  (Magnezone ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_167  (Mega Lucario ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700608",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_168  (Crustle ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700708",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_169  (Zoroark ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700808",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_170  (Corviknight ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      2,
+      7
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100700908",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_171  (Flygon ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701008",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_172  (Mega Audino ex Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      3,
+      4
+    ],
+    "ExpansionID": "B3",
+    "MainCard": "100701115",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_173  (Cheren Deck (Pulsing Aura))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_174  (Iron Bundle ex Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701308",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_175  (Miraidon ex Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701410",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_176  (Flutter Mane ex Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701508",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_177  (Koraidon ex Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701614",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_178  (Terapagos ex Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      4,
+      5
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701707",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007017",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_179  (Raging Bolt Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3a",
+    "MainCard": "100701801",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007018",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_180  (Iron Valiant Deck (Paradox Drive))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100701907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007019",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_181  (Milotic ex Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702006",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007020",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_182  (Dedenne ex Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702111",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007021",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_183  (Mega Diancie ex Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007022",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_184  (Mega Sableye ex Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702313",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007023",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_185  (HisuianZoroark ex Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B3b",
+    "MainCard": "100702415",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007024",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_186  (Puppy Pile Deck (Everyday Wonders))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "",
+    "MainCard": "100702501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1007025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_212  (Elite Deck (Mega Charizard Y ex))"
+  },
+  {
+    "DeckCaseType": 2,
+    "EnergyType": [
+      2
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800107",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008001",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_188  (Vespiquen ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800210",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008002",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_189  (Typhlosion ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800306",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008003",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_190  (Wailord ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800406",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008004",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_191  (Mega Sharpedo ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800503",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008005",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_192  (Rotom ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008006",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_193  (Mega Gallade ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800714",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008007",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_194  (Hoopa ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 9,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800810",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008008",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_195  (Mega Metagross ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 10,
+    "EnergyType": [
+      3,
+      5
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100800907",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008009",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_196  (Mega Rayquaza ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4",
+    "MainCard": "100801014",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008010",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_197  (Swanna ex Deck (Ruler of the Skies))"
+  },
+  {
+    "DeckCaseType": 3,
+    "EnergyType": [
+      3
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801101",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008011",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_198  (Team Rocket’sMoltres ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 4,
+    "EnergyType": [
+      4
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801203",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008012",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_199  (Team Rocket’sArticuno ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 5,
+    "EnergyType": [
+      5
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801305",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008013",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_200  (Team Rocket’sZapdos ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 6,
+    "EnergyType": [
+      6
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801403",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008014",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_201  (Team Rocket’sSlowking ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 8,
+    "EnergyType": [
+      8
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801511",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008015",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_202  (Team Rocket’sWeezing ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 1,
+    "EnergyType": [
+      9
+    ],
+    "ExpansionID": "B4a",
+    "MainCard": "100801609",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008016",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_203  (Team Rocket’sRaticate ex Deck (Team Rocket’s Ambition))"
+  },
+  {
+    "DeckCaseType": 7,
+    "EnergyType": [
+      7
+    ],
+    "ExpansionID": "",
+    "MainCard": "100802501",
+    "MainCardSub1": "",
+    "MainCardSub2": "",
+    "ThemeDeckDescriptionMSID": "BATTLE_THEME_DECK_DESCRIPTION_1  (A theme deck list that can be used when accessing\nyour decks. You will be able to build and play with\nthis deck by collecting the cards in this list.)",
+    "ThemeDeckRecipeID": "1008025",
+    "ThemeDeckRecipeNameMSID": "BATTLE_THEME_DECK_213  (Elite Deck (Mega Lucario ex))"
+  }
+]

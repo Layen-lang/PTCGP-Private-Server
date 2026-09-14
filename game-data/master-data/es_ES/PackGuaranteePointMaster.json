@@ -1,0 +1,269 @@
+[
+  {
+    "ID": "GP_AN001_01",
+    "guarantee_group_pack_ids": [
+      "AN001_0010_00_000",
+      "AN001_0020_00_000",
+      "AN001_0030_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN002_01",
+    "guarantee_group_pack_ids": [
+      "AN002_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN003_01",
+    "guarantee_group_pack_ids": [
+      "AN003_0010_00_000",
+      "AN003_0020_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN004_01",
+    "guarantee_group_pack_ids": [
+      "AN004_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN005_01",
+    "guarantee_group_pack_ids": [
+      "AN005_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN006_01",
+    "guarantee_group_pack_ids": [
+      "AN006_0010_00_000",
+      "AN006_0020_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN007_01",
+    "guarantee_group_pack_ids": [
+      "AN007_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN008_01",
+    "guarantee_group_pack_ids": [
+      "AN008_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GP_AN009_01",
+    "guarantee_group_pack_ids": [
+      "AN009_0010_00_000",
+      "AN009_0020_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_AN010_01",
+    "guarantee_group_pack_ids": [
+      "AN010_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN001_01",
+    "guarantee_group_pack_ids": [
+      "BN001_0010_00_000",
+      "BN001_0020_00_000",
+      "BN001_0030_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN002_01",
+    "guarantee_group_pack_ids": [
+      "BN002_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN003_01",
+    "guarantee_group_pack_ids": [
+      "BN003_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN004_01",
+    "guarantee_group_pack_ids": [
+      "BN004_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN005_01",
+    "guarantee_group_pack_ids": [
+      "BN005_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN006_01",
+    "guarantee_group_pack_ids": [
+      "BN006_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN007_01",
+    "guarantee_group_pack_ids": [
+      "BN007_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN008_01",
+    "guarantee_group_pack_ids": [
+      "BN008_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN009_01",
+    "guarantee_group_pack_ids": [
+      "BN009_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  },
+  {
+    "ID": "GR_BN010_01",
+    "guarantee_group_pack_ids": [
+      "BN010_0010_00_000"
+    ],
+    "guaranteed_rarities": [
+      100,
+      200,
+      300
+    ],
+    "guaranteed_rarity_ids": [],
+    "threshold": 12
+  }
+]

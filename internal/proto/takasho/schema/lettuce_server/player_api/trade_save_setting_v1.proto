@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/trade/trade_settings.proto";
+
+message TradeSaveSettingV1 {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.trade.TradeSettings settings = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.trade.TradeSettings settings = 1;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/poke_gold.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_event_power.proto";
+import "takasho/schema/lettuce_server/resource/solo_battle/solo_battle_event_power_heal_items.proto";
+
+message SoloBattleHealEventPowerV1 {
+  message Types {
+    message Request {
+      string event_id = 1;
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleEventPowerHealItems items = 2;
+      string transaction_id = 3;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.solo_battle.SoloBattleEventPower event_power = 1;
+      repeated takasho.schema.lettuce_server.resource.item.PokeGold poke_golds = 3;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+    }
+  }
+}

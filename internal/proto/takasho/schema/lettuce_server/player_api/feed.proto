@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/feed_challenge_v1.proto";
+import "takasho/schema/lettuce_server/player_api/feed_challenge_v2.proto";
+import "takasho/schema/lettuce_server/player_api/feed_get_timeline_v1.proto";
+import "takasho/schema/lettuce_server/player_api/feed_heal_challenge_power_v1.proto";
+import "takasho/schema/lettuce_server/player_api/feed_renew_timeline_v1.proto";
+import "takasho/schema/lettuce_server/player_api/feed_share_v1.proto";
+import "takasho/schema/lettuce_server/player_api/feed_snoop_v1.proto";
+
+service Feed {
+  rpc GetTimelineV1 (FeedGetTimelineV1.Types.Request) returns (FeedGetTimelineV1.Types.Response);
+  rpc RenewTimelineV1 (FeedRenewTimelineV1.Types.Request) returns (FeedRenewTimelineV1.Types.Response);
+  rpc ChallengeV1 (FeedChallengeV1.Types.Request) returns (FeedChallengeV1.Types.Response);
+  rpc HealChallengePowerV1 (FeedHealChallengePowerV1.Types.Request) returns (FeedHealChallengePowerV1.Types.Response);
+  rpc ShareV1 (FeedShareV1.Types.Request) returns (FeedShareV1.Types.Response);
+  rpc SnoopV1 (FeedSnoopV1.Types.Request) returns (FeedSnoopV1.Types.Response);
+  rpc ChallengeV2 (FeedChallengeV2.Types.Request) returns (FeedChallengeV2.Types.Response);
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message FeedElementCardSerializableModel {
+  int64 feed_element_index = 1;
+  takasho.schema.lettuce_server.resource.card.CardInstance card = 2;
+  int64 rarity = 4;
+  int64 wt = 5;
+}

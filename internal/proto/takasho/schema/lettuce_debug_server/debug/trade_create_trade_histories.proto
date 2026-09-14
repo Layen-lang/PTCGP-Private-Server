@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/debug_trade_history.proto";
+
+message TradeCreateTradeHistories {
+  message Types {
+    message Request {
+      repeated DebugTradeHistory trade_histories = 1;
+    }
+    message Response {
+    }
+  }
+}

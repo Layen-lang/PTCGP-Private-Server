@@ -1,0 +1,14 @@
+[
+  {
+    "PackSeriesListTabID": "series_a",
+    "ScheduleID": "SC_RELEASE",
+    "SeriesID": "A",
+    "SortOrderPriority": 1
+  },
+  {
+    "PackSeriesListTabID": "series_b",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SeriesID": "B",
+    "SortOrderPriority": 2
+  }
+]

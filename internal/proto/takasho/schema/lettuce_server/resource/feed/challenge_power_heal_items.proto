@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.feed;
+
+import "takasho/schema/lettuce_server/resource/item/challenge_power_charger.proto";
+
+message ChallengePowerHealItems {
+  repeated takasho.schema.lettuce_server.resource.item.ChallengePowerCharger chargers = 1;
+  int64 vc_amount = 2;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "STANCE_ID_ALL_OK",
+    "IsDefault": false,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_ALL_OK  (Scambio anche carte non nella lista dei desideri)",
+    "SortOrderPriority": 3
+  },
+  {
+    "ID": "STANCE_ID_DEFAULT",
+    "IsDefault": true,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_DEFAULT  (Nessuna preferenza)",
+    "SortOrderPriority": 1
+  },
+  {
+    "ID": "STANCE_ID_DESIRED_ONLY",
+    "IsDefault": false,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_DESIRED_ONLY  (Cerco solo carte nella lista dei desideri)",
+    "SortOrderPriority": 2
+  }
+]

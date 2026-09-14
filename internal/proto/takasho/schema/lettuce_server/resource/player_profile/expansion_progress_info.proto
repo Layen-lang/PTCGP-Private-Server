@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+message ExpansionProgressInfo {
+  string expansion_id = 1;
+  string pack_id = 2;
+  uint64 number_of_types = 3;
+}

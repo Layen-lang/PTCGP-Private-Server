@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "google/protobuf/timestamp.proto";
+
+message WebviewSetLastViewed {
+  message Types {
+    message Request {
+      google.protobuf.Timestamp last_viewed = 1;
+    }
+    message Response {
+      google.protobuf.Timestamp last_viewed = 1;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/player_resources/player_resources.proto";
+
+message ItemAdd {
+  message Types {
+    message Request {
+      takasho.schema.lettuce_server.resource.item.InventoryItems items = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item.InventoryItems accepted_items = 1;
+      takasho.schema.lettuce_server.resource.player_resources.PlayerResources last_inventory_items = 2;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Se puede usar para restaurar una elección mágica\nexpirada. Al hacerlo, se consume uno cada vez\njunto con energía mágica.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Retronómetro)",
+    "SortOrderPriority": 1
+  }
+]

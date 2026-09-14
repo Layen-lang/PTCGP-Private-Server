@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Usado para diminuir o tempo para recuperar\nRecarga de Pacote ou para trocar por itens\ne acessórios na Loja. É possível comprar na Loja.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokéouro)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Usado para diminuir o tempo para recuperar\nRecarga de Pacote ou para trocar por itens\ne acessórios na Loja. É possível comprar na Loja.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokéouro)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Pode ser obtido ao realizar Missões Premium.\nUsado para trocar por acessórios ou cartas\npromocionais na Loja.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Ticket Premium)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Usada para trocas e em \"Obter Adorno\". Pode\nser obtida ao adquirir cartas já registradas no \nDex de Cartas, como recompensa de missão, etc.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Poeira Cintilante)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (Pode ser obtido completando Missões de Eventos\nou Batalhas de Progressão. Usado para trocar\npor itens ou acessórios na Loja.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Ticket da Loja)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Pode ser obtido consumindo cartas de raridade\nalta em Minhas Cartas. Usado para trocar por \nitens ou acessórios especiais na Loja.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Ticket Especial da Loja)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

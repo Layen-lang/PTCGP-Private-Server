@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_resources;
+
+import "takasho/schema/lettuce_server/resource/card/card_stock.proto";
+import "takasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto";
+import "takasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto";
+import "takasho/schema/lettuce_server/resource/item/challenge_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/currency.proto";
+import "takasho/schema/lettuce_server/resource/item/event_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/exp_stock.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_ceil_point.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_guarantee_point.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/peripheral_goods.proto";
+import "takasho/schema/lettuce_server/resource/item/profile_decoration.proto";
+import "takasho/schema/lettuce_server/resource/item/rental_deck.proto";
+import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
+import "takasho/schema/lettuce_server/resource/item/reward_ticket.proto";
+import "takasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_ticket.proto";
+
+message PlayerResources {
+  repeated takasho.schema.lettuce_server.resource.card.CardStock card_stocks = 1;
+  repeated takasho.schema.lettuce_server.resource.card_skin.CardSkinStock card_skin_stocks = 2;
+  repeated takasho.schema.lettuce_server.resource.item.PackPowerCharger pack_power_chargers = 3;
+  repeated takasho.schema.lettuce_server.resource.item.ChallengePowerCharger challenge_power_chargers = 4;
+  repeated takasho.schema.lettuce_server.resource.item.PeripheralGoods peripheral_goods = 5;
+  repeated takasho.schema.lettuce_server.resource.item.Currency currencies = 6;
+  repeated takasho.schema.lettuce_server.resource.item.ProfileDecoration profile_decorations = 7;
+  repeated takasho.schema.lettuce_server.resource.item.RewardTicket reward_tickets = 8;
+  repeated takasho.schema.lettuce_server.resource.item.RevivalClock revival_clocks = 9;
+  repeated takasho.schema.lettuce_server.resource.item.RentalDeck rental_decks = 10;
+  repeated takasho.schema.lettuce_server.resource.item.ThemeDeckRecipe theme_deck_recipes = 11;
+  repeated takasho.schema.lettuce_server.resource.item.EventPowerCharger event_power_chargers = 12;
+  repeated takasho.schema.lettuce_server.resource.item.PackCeilPoint pack_ceil_points = 13;
+  takasho.schema.lettuce_server.resource.item.ExpStock exp_stock = 14;
+  repeated takasho.schema.lettuce_server.resource.item.TradePowerCharger trade_power_chargers = 15;
+  repeated takasho.schema.lettuce_server.resource.item.TradeItem trade_items = 16;
+  repeated takasho.schema.lettuce_server.resource.item.TradeTicket trade_tickets = 19;
+  repeated takasho.schema.lettuce_server.resource.card_frame.CardFrameStock card_frame_stocks = 20;
+  repeated takasho.schema.lettuce_server.resource.item.PackGuaranteePoint pack_guarantee_points = 21;
+}

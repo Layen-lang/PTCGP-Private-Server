@@ -1,0 +1,3321 @@
+[
+  {
+    "BattleID": "BT_EV_0002010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_01_01_01",
+      "BT_EV_0002010_DR_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_SHINEDUST_50",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0010_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2001032",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_01",
+    "SoloBattleGroupID": "BT_GR_0002010_01  (ラプラスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_01_02_01",
+      "BT_EV_0002010_DR_01_02_02",
+      "BT_EV_0002010_DR_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_SHINEDUST_100",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0010_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2001033",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_01",
+    "SoloBattleGroupID": "BT_GR_0002010_01  (ラプラスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_01_03_01",
+      "BT_EV_0002010_DR_01_03_02",
+      "BT_EV_0002010_DR_01_03_03",
+      "BT_EV_0002010_DR_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_SHINEDUST_150",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0010_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2001034",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_01",
+    "SoloBattleGroupID": "BT_GR_0002010_01  (ラプラスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0010_00_000_04_1"
+    ],
+    "NPCDeckID": "2001034",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_EV_0002010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_01_04_01",
+      "BT_EV_0002010_DR_01_04_02",
+      "BT_EV_0002010_DR_01_04_03",
+      "BT_EV_0002010_DR_01_04_04",
+      "BT_EV_0002010_DR_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_SHINEDUST_200",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0010_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2001035",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_01",
+    "SoloBattleGroupID": "BT_GR_0002010_01  (ラプラスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_02_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_02_01_01",
+      "BT_EV_0002010_DR_02_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_SHINEDUST_50",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0020_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_02_01_1"
+    ],
+    "NPCDeckID": "2001028",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_02",
+    "SoloBattleGroupID": "BT_GR_0002010_02  (フシギバナドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_02_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_02_02_01",
+      "BT_EV_0002010_DR_02_02_02",
+      "BT_EV_0002010_DR_02_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_SHINEDUST_100",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0020_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_02_02_1"
+    ],
+    "NPCDeckID": "2001029",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_02_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_02",
+    "SoloBattleGroupID": "BT_GR_0002010_02  (フシギバナドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_02_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_02_03_01",
+      "BT_EV_0002010_DR_02_03_02",
+      "BT_EV_0002010_DR_02_03_03",
+      "BT_EV_0002010_DR_02_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_SHINEDUST_150",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0020_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_02_03_1"
+    ],
+    "NPCDeckID": "2001030",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_02_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_02",
+    "SoloBattleGroupID": "BT_GR_0002010_02  (フシギバナドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_0002010_02_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0020_00_000_04_1"
+    ],
+    "NPCDeckID": "2001030",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_EV_0002010_02_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_0002010_DR_02_04_01",
+      "BT_EV_0002010_DR_02_04_02",
+      "BT_EV_0002010_DR_02_04_03",
+      "BT_EV_0002010_DR_02_04_04",
+      "BT_EV_0002010_DR_02_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_SHINEDUST_200",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0020_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_02_04_1"
+    ],
+    "NPCDeckID": "2001031",
+    "OpenConditionBattles": [
+      "BT_EV_0002010_02_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_0002010_DR_02",
+    "SoloBattleGroupID": "BT_GR_0002010_02  (フシギバナドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2011
+  },
+  {
+    "BattleID": "BT_EV_2408010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2408010_DR_01_01_01",
+      "BT_EV_2408010_DR_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_SHINEDUST_50",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0030_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2001052",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2408010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2408010_01  (カメックスドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2408010
+  },
+  {
+    "BattleID": "BT_EV_2408010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2408010_DR_01_02_01",
+      "BT_EV_2408010_DR_01_02_02",
+      "BT_EV_2408010_DR_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_SHINEDUST_100",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0030_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2001053",
+    "OpenConditionBattles": [
+      "BT_EV_2408010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2408010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2408010_01  (カメックスドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2408010
+  },
+  {
+    "BattleID": "BT_EV_2408010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2408010_DR_01_03_01",
+      "BT_EV_2408010_DR_01_03_02",
+      "BT_EV_2408010_DR_01_03_03",
+      "BT_EV_2408010_DR_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_SHINEDUST_150",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0030_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2001054",
+    "OpenConditionBattles": [
+      "BT_EV_2408010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2408010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2408010_01  (カメックスドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2408010
+  },
+  {
+    "BattleID": "BT_EV_2408010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0030_00_000_04_1"
+    ],
+    "NPCDeckID": "2001054",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_EV_2408010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2408010_DR_01_04_01",
+      "BT_EV_2408010_DR_01_04_02",
+      "BT_EV_2408010_DR_01_04_03",
+      "BT_EV_2408010_DR_01_04_04",
+      "BT_EV_2408010_DR_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_SHINEDUST_200",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0030_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2001055",
+    "OpenConditionBattles": [
+      "BT_EV_2408010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2408010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2408010_01  (カメックスドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2408010
+  },
+  {
+    "BattleID": "BT_EV_2409010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2409010_DR_01_01_01",
+      "BT_EV_2409010_DR_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_SHINEDUST_50",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0040_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2002026",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2409010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2409010_01  (クレセリアexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2409010
+  },
+  {
+    "BattleID": "BT_EV_2409010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2409010_DR_01_02_01",
+      "BT_EV_2409010_DR_01_02_02",
+      "BT_EV_2409010_DR_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_SHINEDUST_100",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0040_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2002027",
+    "OpenConditionBattles": [
+      "BT_EV_2409010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2409010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2409010_01  (クレセリアexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2409010
+  },
+  {
+    "BattleID": "BT_EV_2409010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2409010_DR_01_03_01",
+      "BT_EV_2409010_DR_01_03_02",
+      "BT_EV_2409010_DR_01_03_03",
+      "BT_EV_2409010_DR_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_SHINEDUST_150",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0040_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2002028",
+    "OpenConditionBattles": [
+      "BT_EV_2409010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2409010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2409010_01  (クレセリアexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2409010
+  },
+  {
+    "BattleID": "BT_EV_2409010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0040_00_000_04_1"
+    ],
+    "NPCDeckID": "2002028",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_EV_2409010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2409010_DR_01_04_01",
+      "BT_EV_2409010_DR_01_04_02",
+      "BT_EV_2409010_DR_01_04_03",
+      "BT_EV_2409010_DR_01_04_04",
+      "BT_EV_2409010_DR_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_SHINEDUST_200",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0040_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2002029",
+    "OpenConditionBattles": [
+      "BT_EV_2409010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2409010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2409010_01  (クレセリアexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2409010
+  },
+  {
+    "BattleID": "BT_GR_2502010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2502010_DR_01_01_01",
+      "BT_EV_2502010_DR_01_01_02",
+      "BT_EV_2502010_DR_01_01_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_SHINEDUST_50",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0050_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2002048",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2502010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2502010_01  (フカマルドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2502010
+  },
+  {
+    "BattleID": "BT_GR_2502010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2502010_DR_01_02_01",
+      "BT_EV_2502010_DR_01_02_02",
+      "BT_EV_2502010_DR_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_SHINEDUST_100",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0050_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2002049",
+    "OpenConditionBattles": [
+      "BT_GR_2502010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2502010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2502010_01  (フカマルドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2502010
+  },
+  {
+    "BattleID": "BT_GR_2502010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2502010_DR_01_03_01",
+      "BT_EV_2502010_DR_01_03_02",
+      "BT_EV_2502010_DR_01_03_03",
+      "BT_EV_2502010_DR_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_SHINEDUST_150",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0050_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2002050",
+    "OpenConditionBattles": [
+      "BT_GR_2502010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2502010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2502010_01  (フカマルドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2502010
+  },
+  {
+    "BattleID": "BT_GR_2502010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0050_00_000_04_1"
+    ],
+    "NPCDeckID": "2002050",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2502010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2502010_DR_01_04_01",
+      "BT_EV_2502010_DR_01_04_02",
+      "BT_EV_2502010_DR_01_04_03",
+      "BT_EV_2502010_DR_01_04_04",
+      "BT_EV_2502010_DR_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_SHINEDUST_200",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0050_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2002051",
+    "OpenConditionBattles": [
+      "BT_GR_2502010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2502010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2502010_01  (フカマルドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2502010
+  },
+  {
+    "BattleID": "BT_GR_2503010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2503010_DR_01_01_01",
+      "BT_EV_2503010_DR_01_01_02",
+      "BT_EV_2503010_DR_01_01_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0060_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2002070",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2503010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2503010_01  (パーモットドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2503010
+  },
+  {
+    "BattleID": "BT_GR_2503010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2503010_DR_01_02_01",
+      "BT_EV_2503010_DR_01_02_02",
+      "BT_EV_2503010_DR_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0060_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2002071",
+    "OpenConditionBattles": [
+      "BT_GR_2503010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2503010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2503010_01  (パーモットドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2503010
+  },
+  {
+    "BattleID": "BT_GR_2503010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2503010_DR_01_03_01",
+      "BT_EV_2503010_DR_01_03_02",
+      "BT_EV_2503010_DR_01_03_03",
+      "BT_EV_2503010_DR_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0060_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2002072",
+    "OpenConditionBattles": [
+      "BT_GR_2503010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2503010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2503010_01  (パーモットドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2503010
+  },
+  {
+    "BattleID": "BT_GR_2503010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0060_00_000_04_1"
+    ],
+    "NPCDeckID": "2002072",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2503010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_EV_2503010_DR_01_04_01",
+      "BT_EV_2503010_DR_01_04_02",
+      "BT_EV_2503010_DR_01_04_03",
+      "BT_EV_2503010_DR_01_04_04",
+      "BT_EV_2503010_DR_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0060_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2002073",
+    "OpenConditionBattles": [
+      "BT_GR_2503010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2503010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2503010_01  (パーモットドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2503010
+  },
+  {
+    "BattleID": "BT_GR_2504010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_01_01_01",
+      "BT_TR_BT_GR_2504010_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0080_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2003025",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2504010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2504010_01  (アローラキュウコンドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_01_02_01",
+      "BT_TR_BT_GR_2504010_01_02_02",
+      "BT_TR_BT_GR_2504010_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0080_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2003026",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2504010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2504010_01  (アローラキュウコンドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_01_03_01",
+      "BT_TR_BT_GR_2504010_01_03_02",
+      "BT_TR_BT_GR_2504010_01_03_03",
+      "BT_TR_BT_GR_2504010_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0080_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2003027",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2504010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2504010_01  (アローラキュウコンドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0080_00_000_04_1"
+    ],
+    "NPCDeckID": "2003027",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2504010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_01_04_01",
+      "BT_TR_BT_GR_2504010_01_04_02",
+      "BT_TR_BT_GR_2504010_01_04_03",
+      "BT_TR_BT_GR_2504010_01_04_04",
+      "BT_TR_BT_GR_2504010_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0080_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2003028",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2504010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2504010_01  (アローラキュウコンドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_02_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_02_01_01",
+      "BT_TR_BT_GR_2504010_02_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_AP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0070_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2003075",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_CM_2504010_01",
+    "SoloBattleGroupID": "BT_GR_2504010_02  (レックウザexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_02_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_02_02_01",
+      "BT_TR_BT_GR_2504010_02_02_02",
+      "BT_TR_BT_GR_2504010_02_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_AP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0070_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2003076",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_02_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_CM_2504010_01",
+    "SoloBattleGroupID": "BT_GR_2504010_02  (レックウザexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_02_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_02_03_01",
+      "BT_TR_BT_GR_2504010_02_03_02",
+      "BT_TR_BT_GR_2504010_02_03_03",
+      "BT_TR_BT_GR_2504010_02_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_AP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0070_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2003077",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_02_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_CM_2504010_01",
+    "SoloBattleGroupID": "BT_GR_2504010_02  (レックウザexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2504010_02_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2504010_02_04_01",
+      "BT_TR_BT_GR_2504010_02_04_02",
+      "BT_TR_BT_GR_2504010_02_04_03",
+      "BT_TR_BT_GR_2504010_02_04_04",
+      "BT_TR_BT_GR_2504010_02_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_AP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0070_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2003078",
+    "OpenConditionBattles": [
+      "BT_GR_2504010_02_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_CM_2504010_01",
+    "SoloBattleGroupID": "BT_GR_2504010_02  (レックウザexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2504010
+  },
+  {
+    "BattleID": "BT_GR_2505010_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2505010_01_01_01",
+      "BT_TR_BT_GR_2505010_01_01_02",
+      "BT_TR_BT_GR_2505010_01_01_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_DROP_AP001_0090_00_000_01_1",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0090_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2003044",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2505010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2505010_01  (ウルトラビーストドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2505010
+  },
+  {
+    "BattleID": "BT_GR_2505010_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2505010_01_02_01",
+      "BT_TR_BT_GR_2505010_01_02_02",
+      "BT_TR_BT_GR_2505010_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_DROP_AP001_0090_00_000_01_1",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0090_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2003045",
+    "OpenConditionBattles": [
+      "BT_GR_2505010_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2505010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2505010_01  (ウルトラビーストドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2505010
+  },
+  {
+    "BattleID": "BT_GR_2505010_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2505010_01_03_01",
+      "BT_TR_BT_GR_2505010_01_03_02",
+      "BT_TR_BT_GR_2505010_01_03_03",
+      "BT_TR_BT_GR_2505010_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_DROP_AP001_0090_00_000_01_1",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0090_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2003046",
+    "OpenConditionBattles": [
+      "BT_GR_2505010_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2505010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2505010_01  (ウルトラビーストドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2505010
+  },
+  {
+    "BattleID": "BT_GR_2505010_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0090_00_000_04_1"
+    ],
+    "NPCDeckID": "2003046",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2505010_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2505010_01_04_01",
+      "BT_TR_BT_GR_2505010_01_04_02",
+      "BT_TR_BT_GR_2505010_01_04_03",
+      "BT_TR_BT_GR_2505010_01_04_04",
+      "BT_TR_BT_GR_2505010_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_DROP_AP001_0090_00_000_01_1",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0090_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2003047",
+    "OpenConditionBattles": [
+      "BT_GR_2505010_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2505010_DR_01",
+    "SoloBattleGroupID": "BT_GR_2505010_01  (ウルトラビーストドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2505010
+  },
+  {
+    "BattleID": "BT_GR_2506000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2506000_01_01_01",
+      "BT_TR_BT_GR_2506000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0100_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2003066",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2506000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2506000_01  (マホイップドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2506000
+  },
+  {
+    "BattleID": "BT_GR_2506000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2506000_01_02_01",
+      "BT_TR_BT_GR_2506000_01_02_02",
+      "BT_TR_BT_GR_2506000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0100_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2003067",
+    "OpenConditionBattles": [
+      "BT_GR_2506000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2506000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2506000_01  (マホイップドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2506000
+  },
+  {
+    "BattleID": "BT_GR_2506000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2506000_01_03_01",
+      "BT_TR_BT_GR_2506000_01_03_02",
+      "BT_TR_BT_GR_2506000_01_03_03",
+      "BT_TR_BT_GR_2506000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0100_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2003068",
+    "OpenConditionBattles": [
+      "BT_GR_2506000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2506000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2506000_01  (マホイップドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2506000
+  },
+  {
+    "BattleID": "BT_GR_2506000_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0100_00_000_04_1"
+    ],
+    "NPCDeckID": "2003068",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2506000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2506000_01_04_01",
+      "BT_TR_BT_GR_2506000_01_04_02",
+      "BT_TR_BT_GR_2506000_01_04_03",
+      "BT_TR_BT_GR_2506000_01_04_04",
+      "BT_TR_BT_GR_2506000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0100_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2003069",
+    "OpenConditionBattles": [
+      "BT_GR_2506000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2506000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2506000_01  (マホイップドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2506000
+  },
+  {
+    "BattleID": "BT_GR_2507000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2507000_01_01_01",
+      "BT_TR_BT_GR_2507000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0110_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2004027",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2507000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2507000_01  (ハピナスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2507000
+  },
+  {
+    "BattleID": "BT_GR_2507000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2507000_01_02_01",
+      "BT_TR_BT_GR_2507000_01_02_02",
+      "BT_TR_BT_GR_2507000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0110_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2004028",
+    "OpenConditionBattles": [
+      "BT_GR_2507000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2507000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2507000_01  (ハピナスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2507000
+  },
+  {
+    "BattleID": "BT_GR_2507000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2507000_01_03_01",
+      "BT_TR_BT_GR_2507000_01_03_02",
+      "BT_TR_BT_GR_2507000_01_03_03",
+      "BT_TR_BT_GR_2507000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0110_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2004029",
+    "OpenConditionBattles": [
+      "BT_GR_2507000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2507000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2507000_01  (ハピナスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2507000
+  },
+  {
+    "BattleID": "BT_GR_2507000_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0110_00_000_04_1"
+    ],
+    "NPCDeckID": "2004029",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2507000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2507000_01_04_01",
+      "BT_TR_BT_GR_2507000_01_04_02",
+      "BT_TR_BT_GR_2507000_01_04_03",
+      "BT_TR_BT_GR_2507000_01_04_04",
+      "BT_TR_BT_GR_2507000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0110_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2004030",
+    "OpenConditionBattles": [
+      "BT_GR_2507000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2507000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2507000_01  (ハピナスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2507000
+  },
+  {
+    "BattleID": "BT_GR_2508000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2508000_01_01_01",
+      "BT_TR_BT_GR_2508000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0120_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2004049",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2508000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2508000_01  (ゾロアークドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2508000
+  },
+  {
+    "BattleID": "BT_GR_2508000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2508000_01_02_01",
+      "BT_TR_BT_GR_2508000_01_02_02",
+      "BT_TR_BT_GR_2508000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0120_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2004050",
+    "OpenConditionBattles": [
+      "BT_GR_2508000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2508000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2508000_01  (ゾロアークドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2508000
+  },
+  {
+    "BattleID": "BT_GR_2508000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2508000_01_03_01",
+      "BT_TR_BT_GR_2508000_01_03_02",
+      "BT_TR_BT_GR_2508000_01_03_03",
+      "BT_TR_BT_GR_2508000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0120_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2004051",
+    "OpenConditionBattles": [
+      "BT_GR_2508000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2508000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2508000_01  (ゾロアークドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2508000
+  },
+  {
+    "BattleID": "BT_GR_2508000_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0120_00_000_04_1"
+    ],
+    "NPCDeckID": "2004051",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2508000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2508000_01_04_01",
+      "BT_TR_BT_GR_2508000_01_04_02",
+      "BT_TR_BT_GR_2508000_01_04_03",
+      "BT_TR_BT_GR_2508000_01_04_04",
+      "BT_TR_BT_GR_2508000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0120_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2004052",
+    "OpenConditionBattles": [
+      "BT_GR_2508000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2508000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2508000_01  (ゾロアークドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2508000
+  },
+  {
+    "BattleID": "BT_GR_2509000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2509000_01_01_01",
+      "BT_TR_BT_GR_2509000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_AP001_0130_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0130_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2004080",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2509000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2509000_01  (ライチュウexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2509000
+  },
+  {
+    "BattleID": "BT_GR_2509000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2509000_01_02_01",
+      "BT_TR_BT_GR_2509000_01_02_02",
+      "BT_TR_BT_GR_2509000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_AP001_0130_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0130_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2004081",
+    "OpenConditionBattles": [
+      "BT_GR_2509000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2509000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2509000_01  (ライチュウexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2509000
+  },
+  {
+    "BattleID": "BT_GR_2509000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2509000_01_03_01",
+      "BT_TR_BT_GR_2509000_01_03_02",
+      "BT_TR_BT_GR_2509000_01_03_03",
+      "BT_TR_BT_GR_2509000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_AP001_0130_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0130_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2004082",
+    "OpenConditionBattles": [
+      "BT_GR_2509000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2509000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2509000_01  (ライチュウexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2509000
+  },
+  {
+    "BattleID": "BT_GR_2509000_01_03_REVIVAL_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [],
+    "ClearRewardIDs": [],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0130_00_000_04_1"
+    ],
+    "NPCDeckID": "2004082",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_MI_03",
+    "SoloBattleGroupID": "BT_GR_2510000_03  (復刻PROMOドロップイベント2025)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2509000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2509000_01_04_01",
+      "BT_TR_BT_GR_2509000_01_04_02",
+      "BT_TR_BT_GR_2509000_01_04_03",
+      "BT_TR_BT_GR_2509000_01_04_04",
+      "BT_TR_BT_GR_2509000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_AP001_0130_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_AP001_0130_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2004083",
+    "OpenConditionBattles": [
+      "BT_GR_2509000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2509000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2509000_01  (ライチュウexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2509000
+  },
+  {
+    "BattleID": "BT_GR_2510000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2510000_01_01_01",
+      "BT_TR_BT_GR_2510000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0010_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0010_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2005032",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2510000_01  (メガピジョットexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2510000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2510000_01_02_01",
+      "BT_TR_BT_GR_2510000_01_02_02",
+      "BT_TR_BT_GR_2510000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0010_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0010_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2005033",
+    "OpenConditionBattles": [
+      "BT_GR_2510000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2510000_01  (メガピジョットexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2510000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2510000_01_03_01",
+      "BT_TR_BT_GR_2510000_01_03_02",
+      "BT_TR_BT_GR_2510000_01_03_03",
+      "BT_TR_BT_GR_2510000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0010_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0010_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2005034",
+    "OpenConditionBattles": [
+      "BT_GR_2510000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2510000_01  (メガピジョットexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2510000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2510000_01_04_01",
+      "BT_TR_BT_GR_2510000_01_04_02",
+      "BT_TR_BT_GR_2510000_01_04_03",
+      "BT_TR_BT_GR_2510000_01_04_04",
+      "BT_TR_BT_GR_2510000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0010_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0010_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2005035",
+    "OpenConditionBattles": [
+      "BT_GR_2510000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2510000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2510000_01  (メガピジョットexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2510000
+  },
+  {
+    "BattleID": "BT_GR_2512000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_01_01_01",
+      "BT_TR_BT_GR_2512000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0030_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0030_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2005058",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2512000_01  (メガラティオスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_01_02_01",
+      "BT_TR_BT_GR_2512000_01_02_02",
+      "BT_TR_BT_GR_2512000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0030_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0030_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2005059",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2512000_01  (メガラティオスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_01_03_01",
+      "BT_TR_BT_GR_2512000_01_03_02",
+      "BT_TR_BT_GR_2512000_01_03_03",
+      "BT_TR_BT_GR_2512000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0030_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0030_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2005060",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2512000_01  (メガラティオスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_01_04_01",
+      "BT_TR_BT_GR_2512000_01_04_02",
+      "BT_TR_BT_GR_2512000_01_04_03",
+      "BT_TR_BT_GR_2512000_01_04_04",
+      "BT_TR_BT_GR_2512000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0030_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0030_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2005061",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2512000_01  (メガラティオスexドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_02_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_02_01_01",
+      "BT_TR_BT_GR_2512000_02_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0020_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0020_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2005036",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_02",
+    "SoloBattleGroupID": "BT_GR_2512000_02  (メリープドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_02_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_02_02_01",
+      "BT_TR_BT_GR_2512000_02_02_02",
+      "BT_TR_BT_GR_2512000_02_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0020_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0020_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2005037",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_02_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_02",
+    "SoloBattleGroupID": "BT_GR_2512000_02  (メリープドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_02_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_02_03_01",
+      "BT_TR_BT_GR_2512000_02_03_02",
+      "BT_TR_BT_GR_2512000_02_03_03",
+      "BT_TR_BT_GR_2512000_02_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0020_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0020_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2005038",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_02_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_02",
+    "SoloBattleGroupID": "BT_GR_2512000_02  (メリープドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2512000_02_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2512000_02_04_01",
+      "BT_TR_BT_GR_2512000_02_04_02",
+      "BT_TR_BT_GR_2512000_02_04_03",
+      "BT_TR_BT_GR_2512000_02_04_04",
+      "BT_TR_BT_GR_2512000_02_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0020_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0020_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2005039",
+    "OpenConditionBattles": [
+      "BT_GR_2512000_02_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2512000_DR_02",
+    "SoloBattleGroupID": "BT_GR_2512000_02  (メリープドロップイベント)",
+    "SortOrderPriority": 0,
+    "Version": 2512000
+  },
+  {
+    "BattleID": "BT_GR_2601000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2601000_01_01_01",
+      "BT_TR_BT_GR_2601000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0040_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0040_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2006028",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2601000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2601000_01  (メガチャーレムexドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2601000
+  },
+  {
+    "BattleID": "BT_GR_2601000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2601000_01_02_01",
+      "BT_TR_BT_GR_2601000_01_02_02",
+      "BT_TR_BT_GR_2601000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0040_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0040_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2006029",
+    "OpenConditionBattles": [
+      "BT_GR_2601000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2601000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2601000_01  (メガチャーレムexドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2601000
+  },
+  {
+    "BattleID": "BT_GR_2601000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2601000_01_03_01",
+      "BT_TR_BT_GR_2601000_01_03_02",
+      "BT_TR_BT_GR_2601000_01_03_03",
+      "BT_TR_BT_GR_2601000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0040_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0040_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2006030",
+    "OpenConditionBattles": [
+      "BT_GR_2601000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2601000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2601000_01  (メガチャーレムexドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2601000
+  },
+  {
+    "BattleID": "BT_GR_2601000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2601000_01_04_01",
+      "BT_TR_BT_GR_2601000_01_04_02",
+      "BT_TR_BT_GR_2601000_01_04_03",
+      "BT_TR_BT_GR_2601000_01_04_04",
+      "BT_TR_BT_GR_2601000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0040_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0040_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2006031",
+    "OpenConditionBattles": [
+      "BT_GR_2601000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2601000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2601000_01  (メガチャーレムexドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2601000
+  },
+  {
+    "BattleID": "BT_GR_2602000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2602000_01_01_01",
+      "BT_TR_BT_GR_2602000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0050_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0050_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2006050",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2602000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2602000_01  (カルボウドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2602000
+  },
+  {
+    "BattleID": "BT_GR_2602000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2602000_01_02_01",
+      "BT_TR_BT_GR_2602000_01_02_02",
+      "BT_TR_BT_GR_2602000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0050_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0050_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2006051",
+    "OpenConditionBattles": [
+      "BT_GR_2602000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2602000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2602000_01  (カルボウドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2602000
+  },
+  {
+    "BattleID": "BT_GR_2602000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2602000_01_03_01",
+      "BT_TR_BT_GR_2602000_01_03_02",
+      "BT_TR_BT_GR_2602000_01_03_03",
+      "BT_TR_BT_GR_2602000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0050_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0050_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2006052",
+    "OpenConditionBattles": [
+      "BT_GR_2602000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2602000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2602000_01  (カルボウドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2602000
+  },
+  {
+    "BattleID": "BT_GR_2602000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2602000_01_04_01",
+      "BT_TR_BT_GR_2602000_01_04_02",
+      "BT_TR_BT_GR_2602000_01_04_03",
+      "BT_TR_BT_GR_2602000_01_04_04",
+      "BT_TR_BT_GR_2602000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0050_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0050_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2006053",
+    "OpenConditionBattles": [
+      "BT_GR_2602000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2602000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2602000_01  (カルボウドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2602000
+  },
+  {
+    "BattleID": "BT_GR_2603000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2603000_01_01_01",
+      "BT_TR_BT_GR_2603000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0060_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2006072",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2603000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2603000_01  (ヤドンドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2603000
+  },
+  {
+    "BattleID": "BT_GR_2603000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2603000_01_02_01",
+      "BT_TR_BT_GR_2603000_01_02_02",
+      "BT_TR_BT_GR_2603000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0060_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2006073",
+    "OpenConditionBattles": [
+      "BT_GR_2603000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2603000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2603000_01  (ヤドンドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2603000
+  },
+  {
+    "BattleID": "BT_GR_2603000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2603000_01_03_01",
+      "BT_TR_BT_GR_2603000_01_03_02",
+      "BT_TR_BT_GR_2603000_01_03_03",
+      "BT_TR_BT_GR_2603000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0060_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2006074",
+    "OpenConditionBattles": [
+      "BT_GR_2603000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2603000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2603000_01  (ヤドンドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2603000
+  },
+  {
+    "BattleID": "BT_GR_2603000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2603000_01_04_01",
+      "BT_TR_BT_GR_2603000_01_04_02",
+      "BT_TR_BT_GR_2603000_01_04_03",
+      "BT_TR_BT_GR_2603000_01_04_04",
+      "BT_TR_BT_GR_2603000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0060_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0060_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2006075",
+    "OpenConditionBattles": [
+      "BT_GR_2603000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2603000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2603000_01  (ヤドンドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2603000
+  },
+  {
+    "BattleID": "BT_GR_2604000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_01_01_01",
+      "BT_TR_BT_GR_2604000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_BP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0070_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2007030",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_MI_01",
+    "SoloBattleGroupID": "BT_GR_2604000_01  (スペシャルドロップイベント2026)",
+    "SortOrderPriority": 1100,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_01_02_01",
+      "BT_TR_BT_GR_2604000_01_02_02",
+      "BT_TR_BT_GR_2604000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_BP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0070_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2007031",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_MI_01",
+    "SoloBattleGroupID": "BT_GR_2604000_01  (スペシャルドロップイベント2026)",
+    "SortOrderPriority": 1200,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_01_03_01",
+      "BT_TR_BT_GR_2604000_01_03_02",
+      "BT_TR_BT_GR_2604000_01_03_03",
+      "BT_TR_BT_GR_2604000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_BP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0070_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2007032",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_MI_01",
+    "SoloBattleGroupID": "BT_GR_2604000_01  (スペシャルドロップイベント2026)",
+    "SortOrderPriority": 1300,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_01_04_01",
+      "BT_TR_BT_GR_2604000_01_04_02",
+      "BT_TR_BT_GR_2604000_01_04_03",
+      "BT_TR_BT_GR_2604000_01_04_04",
+      "BT_TR_BT_GR_2604000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_15",
+      "BT_RW_ONCE_BP001_0070_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0070_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2007033",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_MI_01",
+    "SoloBattleGroupID": "BT_GR_2604000_01  (スペシャルドロップイベント2026)",
+    "SortOrderPriority": 1400,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_02_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_02_01_01",
+      "BT_TR_BT_GR_2604000_02_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0080_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2007034",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2604000_02  (メガヘラクロスexドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_02_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_02_02_01",
+      "BT_TR_BT_GR_2604000_02_02_02",
+      "BT_TR_BT_GR_2604000_02_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0080_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2007035",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_02_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2604000_02  (メガヘラクロスexドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_02_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_02_03_01",
+      "BT_TR_BT_GR_2604000_02_03_02",
+      "BT_TR_BT_GR_2604000_02_03_03",
+      "BT_TR_BT_GR_2604000_02_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0080_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2007036",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_02_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2604000_02  (メガヘラクロスexドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2604000_02_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2604000_02_04_01",
+      "BT_TR_BT_GR_2604000_02_04_02",
+      "BT_TR_BT_GR_2604000_02_04_03",
+      "BT_TR_BT_GR_2604000_02_04_04",
+      "BT_TR_BT_GR_2604000_02_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0080_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0080_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2007037",
+    "OpenConditionBattles": [
+      "BT_GR_2604000_02_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2604000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2604000_02  (メガヘラクロスexドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2604000
+  },
+  {
+    "BattleID": "BT_GR_2605000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2605000_01_01_01",
+      "BT_TR_BT_GR_2605000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0090_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0090_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2007054",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2605000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2605000_01  (ソウブレイズexドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2605000
+  },
+  {
+    "BattleID": "BT_GR_2605000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2605000_01_02_01",
+      "BT_TR_BT_GR_2605000_01_02_02",
+      "BT_TR_BT_GR_2605000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0090_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0090_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2007055",
+    "OpenConditionBattles": [
+      "BT_GR_2605000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2605000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2605000_01  (ソウブレイズexドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2605000
+  },
+  {
+    "BattleID": "BT_GR_2605000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2605000_01_03_01",
+      "BT_TR_BT_GR_2605000_01_03_02",
+      "BT_TR_BT_GR_2605000_01_03_03",
+      "BT_TR_BT_GR_2605000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0090_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0090_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2007056",
+    "OpenConditionBattles": [
+      "BT_GR_2605000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2605000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2605000_01  (ソウブレイズexドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2605000
+  },
+  {
+    "BattleID": "BT_GR_2605000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2605000_01_04_01",
+      "BT_TR_BT_GR_2605000_01_04_02",
+      "BT_TR_BT_GR_2605000_01_04_03",
+      "BT_TR_BT_GR_2605000_01_04_04",
+      "BT_TR_BT_GR_2605000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0090_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0090_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2007057",
+    "OpenConditionBattles": [
+      "BT_GR_2605000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2605000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2605000_01  (ソウブレイズexドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2605000
+  },
+  {
+    "BattleID": "BT_GR_2606000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2606000_01_01_01",
+      "BT_TR_BT_GR_2606000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_DROP_BP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0100_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2007074",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2606000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2606000_01  (ヒスイゾロアドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2606000
+  },
+  {
+    "BattleID": "BT_GR_2606000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2606000_01_02_01",
+      "BT_TR_BT_GR_2606000_01_02_02",
+      "BT_TR_BT_GR_2606000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_DROP_BP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0100_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2007075",
+    "OpenConditionBattles": [
+      "BT_GR_2606000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2606000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2606000_01  (ヒスイゾロアドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2606000
+  },
+  {
+    "BattleID": "BT_GR_2606000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2606000_01_03_01",
+      "BT_TR_BT_GR_2606000_01_03_02",
+      "BT_TR_BT_GR_2606000_01_03_03",
+      "BT_TR_BT_GR_2606000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_DROP_BP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0100_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2007076",
+    "OpenConditionBattles": [
+      "BT_GR_2606000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2606000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2606000_01  (ヒスイゾロアドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2606000
+  },
+  {
+    "BattleID": "BT_GR_2606000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2606000_01_04_01",
+      "BT_TR_BT_GR_2606000_01_04_02",
+      "BT_TR_BT_GR_2606000_01_04_03",
+      "BT_TR_BT_GR_2606000_01_04_04",
+      "BT_TR_BT_GR_2606000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_DROP_BP001_0100_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0100_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2007077",
+    "OpenConditionBattles": [
+      "BT_GR_2606000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2606000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2606000_01  (ヒスイゾロアドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2606000
+  },
+  {
+    "BattleID": "BT_GR_2607000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2607000_01_01_01",
+      "BT_TR_BT_GR_2607000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0110_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2008077",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2607000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2607000_01  (メガヘルガーexドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2607000
+  },
+  {
+    "BattleID": "BT_GR_2607000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2607000_01_02_01",
+      "BT_TR_BT_GR_2607000_01_02_02",
+      "BT_TR_BT_GR_2607000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0110_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2008078",
+    "OpenConditionBattles": [
+      "BT_GR_2607000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2607000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2607000_01  (メガヘルガーexドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2607000
+  },
+  {
+    "BattleID": "BT_GR_2607000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2607000_01_03_01",
+      "BT_TR_BT_GR_2607000_01_03_02",
+      "BT_TR_BT_GR_2607000_01_03_03",
+      "BT_TR_BT_GR_2607000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0110_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2008079",
+    "OpenConditionBattles": [
+      "BT_GR_2607000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2607000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2607000_01  (メガヘルガーexドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2607000
+  },
+  {
+    "BattleID": "BT_GR_2607000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2607000_01_04_01",
+      "BT_TR_BT_GR_2607000_01_04_02",
+      "BT_TR_BT_GR_2607000_01_04_03",
+      "BT_TR_BT_GR_2607000_01_04_04",
+      "BT_TR_BT_GR_2607000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0110_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0110_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2008080",
+    "OpenConditionBattles": [
+      "BT_GR_2607000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2607000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2607000_01  (メガヘルガーexドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2607000
+  },
+  {
+    "BattleID": "BT_GR_2608000_01_01",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2608000_01_01_01",
+      "BT_TR_BT_GR_2608000_01_01_02"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_2",
+      "BT_RW_ONCE_BP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_25"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 1,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0120_00_000_01_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_01_1"
+    ],
+    "NPCDeckID": "2008081",
+    "OpenConditionBattles": [],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2608000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2608000_01  (ロケット団のラプラスドロップイベント)",
+    "SortOrderPriority": 1100,
+    "Version": 2608000
+  },
+  {
+    "BattleID": "BT_GR_2608000_01_02",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2608000_01_02_01",
+      "BT_TR_BT_GR_2608000_01_02_02",
+      "BT_TR_BT_GR_2608000_01_02_03"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_4",
+      "BT_RW_ONCE_BP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_50"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 2,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0120_00_000_02_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_02_1"
+    ],
+    "NPCDeckID": "2008082",
+    "OpenConditionBattles": [
+      "BT_GR_2608000_01_01"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2608000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2608000_01  (ロケット団のラプラスドロップイベント)",
+    "SortOrderPriority": 1200,
+    "Version": 2608000
+  },
+  {
+    "BattleID": "BT_GR_2608000_01_03",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2608000_01_03_01",
+      "BT_TR_BT_GR_2608000_01_03_02",
+      "BT_TR_BT_GR_2608000_01_03_03",
+      "BT_TR_BT_GR_2608000_01_03_04"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_6",
+      "BT_RW_ONCE_BP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_75"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 3,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0120_00_000_03_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_03_1"
+    ],
+    "NPCDeckID": "2008083",
+    "OpenConditionBattles": [
+      "BT_GR_2608000_01_02"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2608000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2608000_01  (ロケット団のラプラスドロップイベント)",
+    "SortOrderPriority": 1300,
+    "Version": 2608000
+  },
+  {
+    "BattleID": "BT_GR_2608000_01_04",
+    "BattleRuleID": "BT_RU_SOLO_STANDARD",
+    "BattleTryIDs": [
+      "BT_TR_BT_GR_2608000_01_04_01",
+      "BT_TR_BT_GR_2608000_01_04_02",
+      "BT_TR_BT_GR_2608000_01_04_03",
+      "BT_TR_BT_GR_2608000_01_04_04",
+      "BT_TR_BT_GR_2608000_01_04_05"
+    ],
+    "ClearRewardIDs": [
+      "BT_RW_ONCE_CHARGER_P60_8",
+      "BT_RW_ONCE_BP001_0120_00_000",
+      "BT_RW_ONCE_SHOPTICKET_1",
+      "BT_RW_ONCE_EXP_100"
+    ],
+    "DeckRuleIDs": [],
+    "Difficulty": 4,
+    "DropRewardIDs": [
+      "BT_RW_DROP_BP001_0120_00_000_04_1",
+      "BT_RW_DROP_SHINEDUST_25",
+      "BT_RW_DROP_TICKET_0002010_EV_01_04_1"
+    ],
+    "NPCDeckID": "2008084",
+    "OpenConditionBattles": [
+      "BT_GR_2608000_01_03"
+    ],
+    "RequiredPowerAmount": 1,
+    "Schedule": "SC_EV_2608000_DR_01",
+    "SoloBattleGroupID": "BT_GR_2608000_01  (ロケット団のラプラスドロップイベント)",
+    "SortOrderPriority": 1400,
+    "Version": 2608000
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "ID": "STANCE_ID_ALL_OK",
+    "IsDefault": false,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_ALL_OK  (非想要的卡牌也想交換)",
+    "SortOrderPriority": 3
+  },
+  {
+    "ID": "STANCE_ID_DEFAULT",
+    "IsDefault": true,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_DEFAULT  (未設定)",
+    "SortOrderPriority": 1
+  },
+  {
+    "ID": "STANCE_ID_DESIRED_ONLY",
+    "IsDefault": false,
+    "MessageMSID": "TRADE_STANCE_MESSAGE_DESIRED_ONLY  (只想交換想要的卡牌)",
+    "SortOrderPriority": 2
+  }
+]

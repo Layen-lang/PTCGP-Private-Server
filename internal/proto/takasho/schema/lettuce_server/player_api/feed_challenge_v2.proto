@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/feed/card_statistics.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_timeline.proto";
+import "takasho/schema/lettuce_server/resource/feed/feed_type.proto";
+import "takasho/schema/lettuce_server/resource/item/inventory_items.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+
+message FeedChallengeV2 {
+  message Types {
+    message Request {
+      message Types {
+        enum FeedChallengeType {
+          FEED_CHALLENGE_TYPE_UNSPECIFIED = 0;
+          FEED_CHALLENGE_TYPE_SELECT_ONE_SNOOPED = 1;
+          FEED_CHALLENGE_TYPE_SELECT_OTHER_ONES = 2;
+          FEED_CHALLENGE_TYPE_IGNORE_PREVIOUS_RESULTS = 3;
+        }
+      }
+      takasho.schema.lettuce_server.resource.feed.FeedType feed_type = 1;
+      string feed_id = 2;
+      FeedChallengeV2.Types.Request.Types.FeedChallengeType challenge_type = 3;
+      takasho.schema.lettuce_server.resource.feed.CardStatistics card_statistics = 4;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.card.CardInstance picked_cards = 1;
+      takasho.schema.lettuce_server.resource.item.InventoryItems picked_substitution_item = 2;
+      takasho.schema.lettuce_server.resource.feed.FeedTimeline timeline = 3;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 15;
+    }
+  }
+}

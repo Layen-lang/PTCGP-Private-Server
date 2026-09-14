@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/asset_service_get_signed_cookie.proto";
+import "takasho/schema/lettuce_debug_server/debug/asset_service_get_versions.proto";
+
+service AssetService {
+  rpc GetSignedCookie (AssetServiceGetSignedCookie.Types.Request) returns (AssetServiceGetSignedCookie.Types.Response);
+  rpc GetVersions (AssetServiceGetVersions.Types.Request) returns (AssetServiceGetVersions.Types.Response);
+}

@@ -1,0 +1,770 @@
+[
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0010_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0010_01_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0010_02",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0020_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0020_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0020_01_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0020_02",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0030_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0030_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN001_0030_01_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN001_0030_02",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN002_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN002_0010_01",
+    "ScheduleID": "SC_RELEASE_A1a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN003_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN003_0010_01",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN003_0020_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN003_0020_01",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN004_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800
+    ],
+    "PlayerPackSettingID": "FD_PS_AN004_0010_01",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN005_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN005_0010_01",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN006_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN006_0010_01",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN006_0020_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN006_0020_01",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN007_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN007_0010_01",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN008_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN008_0010_01",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN009_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN009_0010_01",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN009_0020_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN009_0020_01",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN010_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN010_0010_01",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AN011_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AN011_0010_01",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SubstitutionItemIDs": [
+      "FD_SS_PACK_CHARGER_100030_2"
+    ]
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0010_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_AP001_0010_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0020_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_AP001_0020_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0030_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_AP001_0030_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0040_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_AP001_0040_01",
+    "ScheduleID": "SC_RELEASE_A2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0050_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_AP001_0050_01",
+    "ScheduleID": "SC_RELEASE_A2a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0060_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0060_01",
+    "ScheduleID": "SC_RELEASE_A2b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0070_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0070_01",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0080_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0080_01",
+    "ScheduleID": "SC_RELEASE_A3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0090_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0090_01",
+    "ScheduleID": "SC_RELEASE_A3a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0100_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0100_01",
+    "ScheduleID": "SC_RELEASE_A3b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0110_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0110_01",
+    "ScheduleID": "SC_RELEASE_A4",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0120_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0120_01",
+    "ScheduleID": "SC_RELEASE_A4a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "AP001_0130_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_AP001_0130_01",
+    "ScheduleID": "SC_RELEASE_A4b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN001_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BN001_0010_01",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN001_0020_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BN001_0020_01",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN001_0030_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BN001_0030_01",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN002_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BN002_0010_01",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0010_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BP001_0010_01",
+    "ScheduleID": "SC_RELEASE_B1",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0020_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BP001_0020_01",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0030_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FD_PS_BP001_0030_01",
+    "ScheduleID": "SC_RELEASE_B1a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "TUTORIAL_1",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_TUTORIAL_1_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "TUTORIAL_2",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_TUTORIAL_2_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "TUTORIAL_3",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [],
+    "PlayerPackSettingID": "FD_PS_TUTORIAL_3_01",
+    "ScheduleID": "SC_RELEASE",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN003_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN003_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN004_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN004_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN005_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN005_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN006_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN006_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN007_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN007_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN008_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN008_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN009_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN009_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B4",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BN010_0010_00_000",
+    "PackSharing": 3,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BN010_0010_01",
+    "ScheduleID": "SC_PACK_RELEASE_B4a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0040_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0040_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0050_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0050_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0060_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0060_01",
+    "ScheduleID": "SC_PACK_RELEASE_B2b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0070_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0070_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0080_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0080_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0090_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0090_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3a",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0100_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0100_01",
+    "ScheduleID": "SC_PACK_RELEASE_B3b",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0110_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0110_01",
+    "ScheduleID": "SC_PACK_RELEASE_B4",
+    "SubstitutionItemIDs": []
+  },
+  {
+    "MaxFeedChallengeCount": 1,
+    "PackID": "BP001_0120_00_000",
+    "PackSharing": 2,
+    "PackSharingPreventRarities": [
+      900,
+      800,
+      830,
+      860
+    ],
+    "PlayerPackSettingID": "FP_PS_BP001_0120_01",
+    "ScheduleID": "SC_PACK_RELEASE_B4a",
+    "SubstitutionItemIDs": []
+  }
+]

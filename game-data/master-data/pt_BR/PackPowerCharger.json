@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_P3  (Reduz o tempo para obter Recarga de Pacote.\nReduz em 1h o tempo para abrir pacotes.\nObtida como recompensa de missões, etc.)",
+    "ID": "PACK_CHARGER_100030",
+    "NameMSID": "ITEM_NAME_CHARGER_P3  (Ampulheta de Pacote)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

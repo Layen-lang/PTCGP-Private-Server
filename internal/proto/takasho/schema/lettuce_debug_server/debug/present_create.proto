@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/present/present_item.proto";
+
+message PresentCreate {
+  message Types {
+    message Request {
+      string player_id = 1;
+      repeated takasho.schema.lettuce_server.resource.present.PresentItem presents = 2;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.present.PresentItem presents = 1;
+    }
+  }
+}

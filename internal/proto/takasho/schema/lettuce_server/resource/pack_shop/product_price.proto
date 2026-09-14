@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pack_shop;
+
+message ProductPrice {
+  message Types {
+    enum ProductPriceType {
+      PRODUCT_PRICE_TYPE_UNSPECIFIED = 0;
+      PRODUCT_PRICE_TYPE_PACK_STAMINA = 1;
+    }
+  }
+  ProductPrice.Types.ProductPriceType type = 1;
+  uint64 amount = 2;
+}

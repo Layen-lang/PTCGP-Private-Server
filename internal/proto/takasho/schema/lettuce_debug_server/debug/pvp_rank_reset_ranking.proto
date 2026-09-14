@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message PvpRankResetRanking {
+  message Types {
+    message Request {
+      string season_id = 1;
+      bool delete_db_data = 2;
+    }
+    message Response {
+    }
+  }
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/give_card/give_card_player_expansion_dex_progress.proto";
+
+message GiveCardGetFriendDexProgressesV1 {
+  message Types {
+    message Request {
+      string friend_player_id = 100;
+      repeated string expansion_ids = 200;
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.give_card.GiveCardPlayerExpansionDexProgress expansion_dex_progresses = 100;
+    }
+  }
+}

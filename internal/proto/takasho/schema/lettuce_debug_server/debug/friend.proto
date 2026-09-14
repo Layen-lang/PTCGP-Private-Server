@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/friend_add.proto";
+import "takasho/schema/lettuce_debug_server/debug/friend_add_existing.proto";
+import "takasho/schema/lettuce_debug_server/debug/friend_approve_requests.proto";
+import "takasho/schema/lettuce_debug_server/debug/friend_cancel_requests.proto";
+import "takasho/schema/lettuce_debug_server/debug/friend_reject_requests.proto";
+import "takasho/schema/lettuce_debug_server/debug/friend_send_requests.proto";
+
+service Friend {
+  rpc Add (FriendAdd.Types.Request) returns (FriendAdd.Types.Response);
+  rpc AddExisting (FriendAddExisting.Types.Request) returns (FriendAddExisting.Types.Response);
+  rpc SendRequests (FriendSendRequests.Types.Request) returns (FriendSendRequests.Types.Response);
+  rpc ApproveRequests (FriendApproveRequests.Types.Request) returns (FriendApproveRequests.Types.Response);
+  rpc CancelRequests (FriendCancelRequests.Types.Request) returns (FriendCancelRequests.Types.Response);
+  rpc RejectRequests (FriendRejectRequests.Types.Request) returns (FriendRejectRequests.Types.Response);
+}

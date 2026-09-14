@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.system;
+
+enum PartialMaintenanceType {
+  PARTIAL_MAINTENANCE_TYPE_UNSPECIFIED = 0;
+  PARTIAL_MAINTENANCE_TYPE_PVP = 1;
+}

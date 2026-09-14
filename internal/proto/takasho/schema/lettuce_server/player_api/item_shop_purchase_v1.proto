@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item/currency.proto";
+import "takasho/schema/lettuce_server/resource/item/poke_gold.proto";
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/item_shop/purchase_summary.proto";
+
+message ItemShopPurchaseV1 {
+  message Types {
+    message Request {
+      string shop_id = 1;
+      string product_id = 2;
+      string transaction_id = 3;
+      int32 amount = 4;
+      repeated takasho.schema.lettuce_server.resource.item.Currency currencies = 5;
+      repeated takasho.schema.lettuce_server.resource.item.PokeGold poke_golds = 6;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 5;
+      takasho.schema.lettuce_server.resource.item_shop.PurchaseSummary purchase_summary = 6;
+    }
+  }
+}

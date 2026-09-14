@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pack/pack_detail.proto";
+
+message PackGetDetailV2 {
+  message Types {
+    message Request {
+      string pack_id = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.pack.PackDetail pack_detail = 1;
+      string pack_consistent_token = 2;
+    }
+  }
+}

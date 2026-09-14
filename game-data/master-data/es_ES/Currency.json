@@ -1,0 +1,50 @@
+[
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Reduce el tiempo de recuperación de energía de\nsobre. Se canjea por accesorios o artículos en la\ntienda y puede comprarse en ese menú.)",
+    "ID": "POKEGOLD_FREE",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokélingote)",
+    "SortOrderPriority": 2,
+    "Type": 1
+  },
+  {
+    "AssetID": "POKEGOLD",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_G1  (Reduce el tiempo de recuperación de energía de\nsobre. Se canjea por accesorios o artículos en la\ntienda y puede comprarse en ese menú.)",
+    "ID": "POKEGOLD_PAID",
+    "NameMSID": "ITEM_NAME_CURRENCY_G1  (Pokélingote)",
+    "SortOrderPriority": 1,
+    "Type": 0
+  },
+  {
+    "AssetID": "PREMIUM_TICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T3  (Se consigue al completar misiones prémium.\nSe puede canjear por accesorios o cartas de\npromoción en la tienda.)",
+    "ID": "PREMIUM_TICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T3  (Cupón prémium)",
+    "SortOrderPriority": 6,
+    "Type": 5
+  },
+  {
+    "AssetID": "SHINEDUST",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_D1  (Se usa en intercambios y \"Obtener efecto visual\".\nSe consigue, por ejemplo, al completar misiones u\nobtener cartas ya registradas en tu índice de cartas.)",
+    "ID": "SHINEDUST",
+    "NameMSID": "ITEM_NAME_CURRENCY_D1  (Polvo iris)",
+    "SortOrderPriority": 3,
+    "Type": 2
+  },
+  {
+    "AssetID": "SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T1  (Se consigue al completar misiones de evento\no partidas de práctica. Se puede canjear por\naccesorios o artículos en la tienda.)",
+    "ID": "SHOPTICKET",
+    "NameMSID": "ITEM_NAME_CURRENCY_T1  (Cupón de tienda)",
+    "SortOrderPriority": 4,
+    "Type": 3
+  },
+  {
+    "AssetID": "PREMIER_SHOPTICKET",
+    "DescriptionMSID": "ITEM_DESC_CURRENCY_T2  (Se consigue al consumir cartas de rareza alta\ndesde \"Mis cartas\". Se puede canjear por\naccesorios especiales o artículos en la tienda.)",
+    "ID": "SHOPTICKET_P",
+    "NameMSID": "ITEM_NAME_CURRENCY_T2  (Cupón de tienda especial)",
+    "SortOrderPriority": 5,
+    "Type": 4
+  }
+]

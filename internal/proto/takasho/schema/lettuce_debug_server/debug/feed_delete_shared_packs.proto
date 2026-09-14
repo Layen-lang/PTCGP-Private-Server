@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message FeedDeleteSharedPacks {
+  message Types {
+    message Request {
+      int64 from = 1;
+      int64 to = 2;
+    }
+    message Response {
+      int64 num_deleted = 1;
+      int64 num_remaining = 2;
+    }
+  }
+}

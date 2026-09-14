@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+message MissionUndoClear {
+  message Types {
+    message Request {
+      repeated string mission_ids = 1;
+    }
+    message Response {
+    }
+  }
+}

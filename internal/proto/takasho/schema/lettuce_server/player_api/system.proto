@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/system_authorize_v1.proto";
+import "takasho/schema/lettuce_server/player_api/system_login_v1.proto";
+import "takasho/schema/lettuce_server/player_api/system_partial_maintenance_v1.proto";
+
+service System {
+  rpc AuthorizeV1 (SystemAuthorizeV1.Types.Request) returns (SystemAuthorizeV1.Types.Response);
+  rpc LoginV1 (SystemLoginV1.Types.Request) returns (SystemLoginV1.Types.Response);
+  rpc PartialMaintenanceV1 (SystemPartialMaintenanceV1.Types.Request) returns (SystemPartialMaintenanceV1.Types.Response);
+}

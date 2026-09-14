@@ -1,0 +1,338 @@
+[
+  {
+    "ItemAmount": 1,
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_CHALLENGE_CHARGER_110030_1"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_CHALLENGE_CHARGER_110030_2"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_CHALLENGE_CHARGER_110030_3"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "CHALLENGE_CHARGER_110030",
+    "ItemType": 5,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_CHALLENGE_CHARGER_110030_4"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_EVENT_CHARGER_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "EVENT_CHARGER",
+    "ItemType": 3,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_EVENT_CHARGER_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_PACK_CHARGER_100030_1"
+  },
+  {
+    "ItemAmount": 2,
+    "ItemID": "PACK_CHARGER_100030",
+    "ItemType": 4,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_PACK_CHARGER_100030_2"
+  },
+  {
+    "ItemAmount": 25,
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_SHINEDUST_25_01"
+  },
+  {
+    "ItemAmount": 25,
+    "ItemID": "SHINEDUST",
+    "ItemType": 7,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_SHINEDUST_25_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_SHOPTICKET_1"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "SHOPTICKET",
+    "ItemType": 7,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_SHOPTICKET_2"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_0002010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_0002010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_0002010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_0002010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_0002010_EV_02",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_0002010_EV_02_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_0002010_EV_02",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_0002010_EV_02_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2408010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2408010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2408010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2408010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2409010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2409010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2409010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2409010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2502010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2502010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2502010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2502010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2503010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2503010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2503010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2503010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2504010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2504010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2504010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2504010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2505010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2505010_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2505010_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2505010_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2506000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2506000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2506000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2506000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2507000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2507000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2507000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2507000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2508000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2508000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2508000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2508000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2509000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2509000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2509000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2509000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2510000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2510000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2510000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2510000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2510000_EV_02",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2510000_EV_02_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2510000_EV_02",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2510000_EV_02_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2512000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2512000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2512000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2512000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2601000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2601000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2601000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2601000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2602000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2602000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2602000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2602000_EV_01_02"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2603000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2603000_EV_01_01"
+  },
+  {
+    "ItemAmount": 1,
+    "ItemID": "TICKET_2603000_EV_01",
+    "ItemType": 12,
+    "ProbabilityWeight": 1000,
+    "SubstitutionItemID": "FD_SS_TICKET_2603000_EV_01_02"
+  }
+]

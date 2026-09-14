@@ -1,0 +1,8 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_REVIVAL_CLOCK  (Used to restore an expired wonder pick. One\nmust be consumed each time, along with wonder\nstamina.)",
+    "ID": "REVIVAL_CLOCK_100010",
+    "NameMSID": "ITEM_NAME_REVIVAL_CLOCK  (Rewind Watch)",
+    "SortOrderPriority": 1
+  }
+]

@@ -1,0 +1,4442 @@
+[
+  {
+    "NameMSID": "ATTACK_NAME_1  (덩굴채찍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_10  (침)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_10"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_100  (괴롭히기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1000  (해님윈드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1000"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1001  (드레스업)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1001"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1002  (가만히있기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1002"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1003  (불꽃세례춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1003"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1004  (아쿠아불릿)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1004"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1005  (거품광선)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1005"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1006  (번들펌프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1006"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1007  (데데서클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1007"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1008  (반짝이는소포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1008"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1009  (브릴리언트 스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1009"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_101  (홀로숏)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1010  (사랑의일격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1010"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1011  (비상하는재앙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1011"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1012  (망각술)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1012"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1013  (커스주얼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1013"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1014  (마무리하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1014"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1015  (배드포이즌)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1015"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1016  (꾸욱꾸욱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1016"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1017  (더욱더욱드로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1017"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1018  (진검승부)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1018"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1019  (암해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1019"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_102  (중얼거리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1020  (원한의환영)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1020"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1021  (두번박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1021"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1022  (모이는고치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1022"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1023  (이볼브 플라이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1023"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1024  (감아서흡수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1024"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1025  (추격지령)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1025"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1026  (셸어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1026"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1027  (치고사라지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1027"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1028  (프렐류드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1028"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1029  (열탕)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1029"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_103  (사이코펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1030  (오거휩)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1030"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1031  (버스트테일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1031"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1032  (열풍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1032"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1033  (파괴의겁화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1033"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1034  (예리한손톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1034"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1035  (편두통)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1035"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1036  (터보샤크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1036"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1037  (미라클첨벙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1037"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1038  (빙결스플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1038"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1039  (블리자드록)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1039"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_104  (배리어어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1040  (타이달 블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1040"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1041  (셸블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1041"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1042  (미네랄펌프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1042"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1043  (리벤지버스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1043"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1044  (찌릿부수기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1044"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1045  (정크스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1045"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1046  (디재스터 볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1046"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1047  (일렉트릭 스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1047"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1048  (작게 손가락흔들기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1048"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1049  (흉내흉내셔플)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1049"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_105  (파워블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1050  (싱크로댄스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1050"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1051  (신통력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1051"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1052  (꾸욱꾸욱방해)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1052"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1053  (에어커터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1053"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1054  (사이코트립)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1054"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1055  (장난링)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1055"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1056  (괴이페더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1056"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1057  (뒤돌아던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1057"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1058  (나락떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1058"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1059  (레저넌스 블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1059"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_106  (염동탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1060  (암반허물기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1060"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1061  (코스믹태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1061"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1062  (팀헌트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1062"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1063  (중저음)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1063"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1064  (통째로 삼키기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1064"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1065  (강화슬래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1065"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1066  (본러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1066"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1067  (섀도불릿)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1067"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1068  (불릿펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1068"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1069  (그랜드크로스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1069"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_107  (사이코숏)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1070  (개틀링슬러그)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1070"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1071  (아이언랜스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1071"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1072  (테크노버스터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1072"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1073  (분노의칼날)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1073"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1074  (힘껏치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1074"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1075  (드래곤임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1075"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1076  (메가버스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1076"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1077  (변덕레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1077"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1078  (고속드라이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1078"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1079  (에너지믹서)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1079"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_108  (하트스탬프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1080  (맞춤뺨치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1080"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1081  (제트윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1081"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1082  (원수갚기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1082"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1083  (골드브레이크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1083"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1084  (헬하운드 플레어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1084"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1086  (로켓피버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1086"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1087  (혼내주기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1087"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1089  (반딧불의분노)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1089"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_109  (더블래리엇)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1090  (잎날부메랑)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1090"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1091  (조롱태우기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1091"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1092  (히트차지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1092"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1093  (지옥불의날개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1093"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1094  (독열엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1094"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1095  (빙설의폭풍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1095"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1096  (소울카운터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1096"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1097  (천둥 갈고리손톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1097"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1098  (쓰레기 뒤지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1098"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1099  (핸드키네시스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1099"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_11  (아로마슬립)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_11"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_110  (진흙뿌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1100  (함정에 빠트리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1101  (사이킥봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1102  (펀치&드로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1103  (가이아임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1104  (섀도시커)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1105  (오물공격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1106  (독빨기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1107  (역분사)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1108  (혼란가스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1109  (말뚝박기해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_111  (구멍파기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1110  (드래곤슬램)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1111  (부스트대시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1112  (데스로그)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1113  (치고숨기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1114  (탱탱옐)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1115  (히프드롭)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1116  (냉혹한회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_112  (안다리걸기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_113  (되갚기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_114  (괴력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_115  (지구던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_116  (구르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_117  (이판사판태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_117"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_118  (랜드크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_118"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_119  (울음소리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_119"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_12  (할퀴기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_12"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_120  (뼈때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_120"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_121  (뼈다귀부메랑)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_121"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_122  (늘어나는킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_122"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_123  (잽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_123"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_124  (뿔드릴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_124"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_125  (등껍질 어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_125"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_126  (흡혈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_126"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_127  (막치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_127"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_128  (회전차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_128"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_129  (힘껏후려치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_129"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_13  (베어가르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_13"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_130  (몰아붙이기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_130"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_131  (동료부르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_131"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_132  (러브러브어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_132"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_133  (뿔찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_133"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_134  (독뿔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_134"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_135  (활공)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_135"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_136  (독가스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_136"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_137  (베놈쇼크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_137"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_138  (깨물어부수기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_138"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_139  (궤찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_139"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_14  (몸통박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_14"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_140  (메탈클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_140"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_141  (저축하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_141"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_142  (헤비임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_142"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_143  (꼬리로때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_143"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_144  (용성군)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_144"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_145  (드릴라이너)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_145"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_146  (하이퍼보이스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_146"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_147  (슬리피송)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_147"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_148  (고양이돈받기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_148"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_149  (섀도클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_149"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_15  (독가루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_15"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_150  (파로 때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_150"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_151  (회전부리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_151"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_152  (연속낼름낼름)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_152"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_153  (잼잼펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_153"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_154  (어디서든복사)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_154"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_155  (각지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_155"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_156  (원시의날갯짓)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_156"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_157  (친구사이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_157"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_158  (사이코리포트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_158"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_159  (자이언트 블룸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_159"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_16  (씨폭탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_16"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_160  (홍련의바람)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_160"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_161  (히트블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_161"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_162  (하이드로 바주카)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_162"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_163  (눈보라)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_163"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_164  (허리케인 썬더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_164"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_165  (사이코 드라이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_165"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_166  (돌격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_166"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_167  (노래하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_167"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_168  (조금성장)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_168"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_169  (파워풀블룸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_169"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_17  (짓밟기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_17"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_170  (흔들리는포자)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_170"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_171  (에너지휩)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_171"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_172  (밀어올리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_172"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_173  (화쇄류)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_173"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_174  (독발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_174"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_175  (튀튀기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_175"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_176  (난동 바다회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_176"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_177  (아쿠아라이너)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_177"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_178  (다이빙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_178"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_179  (기가스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_179"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_18  (트로피컬스윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_18"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_180  (일렉트릭네트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_180"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_181  (스파이크드로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_181"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_182  (마인드잭)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_182"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_183  (바라보기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_183"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_184  (리프드레인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_184"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_185  (블룸샤인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_185"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_186  (요정의바람)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_186"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_187  (기합찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_187"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_188  (펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_188"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_189  (치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_189"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_19  (흡수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_19"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_190  (넘어뜨리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_190"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_191  (가드프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_191"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_192  (리벤지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_192"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_193  (메가톤킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_193"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_194  (분열)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_194"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_195  (연막)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_195"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_196  (독침)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_196"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_197  (차흩뜨리기 사이클론)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_197"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_198  (투지의태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_198"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_199  (연속스텝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_199"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_2  (잎날가르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_2"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_20  (날카로운낫)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_20"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_200  (흉내내기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_200"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_201  (솔라빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_201"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_202  (게놈핵)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_202"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_203  (드래곤클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_203"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_204  (리프스텝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_204"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_205  (에어슬래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_205"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_206  (독채찍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_206"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_207  (하드플랜트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_207"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_208  (트랜스멜로디)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_208"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_209  (잎사귀베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_209"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_21  (더블혼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_21"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_210  (휩다운)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_210"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_211  (잎날사이클론)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_211"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_212  (에너지커트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_212"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_213  (타오르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_213"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_214  (버스트 인페르노)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_214"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_215  (태워그을리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_215"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_216  (불꽃튀는펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_216"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_217  (플레어드라이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_217"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_218  (히트브레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_218"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_219  (한방 먹이기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_219"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_22  (들러붙기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_22"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_220  (프로스트덤프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_220"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_221  (프로스트 스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_221"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_222  (잠시 쉬기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_222"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_223  (아쿠아제트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_223"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_224  (제트 스크루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_224"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_225  (탁류)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_225"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_226  (우아하게 헤엄치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_226"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_227  (폭포오르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_227"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_228  (얼음뭉치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_228"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_229  (얼음숨결)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_229"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_23  (구르기 태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_23"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_230  (디멘션스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_230"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_231  (바다의소포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_231"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_232  (썬더블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_232"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_233  (폭발)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_233"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_234  (볼어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_234"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_235  (충전)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_235"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_236  (익사이팅볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_236"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_237  (숨기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_237"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_238  (전기발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_238"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_239  (볼티지애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_239"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_24  (조금흡수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_24"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_240  (가젯스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_240"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_241  (어솔트레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_241"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_242  (오버스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_242"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_243  (매지컬트립)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_243"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_244  (소울이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_244"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_245  (부풀기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_245"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_246  (벌룬어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_246"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_247  (마인드부스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_247"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_248  (갓블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_248"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_249  (사이코애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_249"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_25  (리프서플라이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_25"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_250  (문라이트게인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_250"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_251  (두들겨 부수기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_251"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_252  (마운틴스윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_252"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_253  (애크러뱃)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_253"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_254  (록스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_254"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_255  (양날박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_255"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_256  (서브머린블로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_256"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_257  (그라운드 프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_257"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_258  (에너지 블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_258"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_259  (직격비행)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_259"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_26  (허찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_26"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_260  (더블할퀴기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_260"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_261  (스크래치네일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_261"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_262  (어둠엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_262"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_263  (소용돌이재앙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_263"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_264  (크로스포이즌)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_264"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_265  (다함께 때려잡기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_265"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_266  (다크홀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_266"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_267  (다크프리즘)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_267"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_268  (메탈암즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_268"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_269  (헤드뱅)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_269"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_27  (불꽃세례)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_27"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_270  (아이언헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_270"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_271  (트리플노즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_271"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_272  (메탈터보)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_272"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_273  (강철태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_273"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_274  (낼름낼름러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_274"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_275  (빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_275"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_276  (버그빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_276"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_277  (꼬리펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_277"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_278  (더블어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_278"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_279  (쪼아대기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_279"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_28  (불꽃의발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_28"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_280  (꽉쥐기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_280"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_281  (분노의앞니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_281"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_282  (점프킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_282"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_283  (폼잡기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_283"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_284  (방해하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_284"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_285  (마구찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_285"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_286  (선풍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_286"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_287  (레이징해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_287"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_288  (한판던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_288"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_289  (나뭇잎)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_289"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_29  (회오리불꽃)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_29"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_290  (고민씨)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_290"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_291  (씨뿌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_291"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_292  (대노봄버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_292"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_293  (난동부리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_293"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_294  (고드름)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_294"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_295  (쥐어박기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_295"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_296  (프리즈윈드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_296"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_297  (존브레이크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_297"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_298  (물의파동)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_298"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_299  (스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_299"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_3  (메가드레인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_3"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_30  (꼬리흔들기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_30"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_300  (플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_300"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_301  (문포스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_301"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_302  (놀래키기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_302"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_303  (최면파동)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_303"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_304  (잠재파워)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_304"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_305  (대시어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_305"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_306  (투지의박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_306"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_307  (롤링스핀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_307"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_308  (스피드어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_308"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_309  (킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_309"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_31  (화염방사)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_31"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_310  (한방차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_310"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_311  (직격탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_311"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_312  (때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_312"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_313  (맹독)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_313"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_314  (파워빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_314"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_315  (철골깨기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_315"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_316  (프로텍트유닛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_316"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_317  (타임크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_317"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_318  (크라이시스 다이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_318"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_319  (쓰러지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_319"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_32  (물기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_32"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_320  (사일런트윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_320"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_321  (브레이브버드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_321"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_322  (얼티메이트 포스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_322"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_323  (사이코플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_323"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_324  (이상한빛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_324"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_325  (딱딱해지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_325"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_326  (상처때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_326"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_327  (찌리리펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_327"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_328  (파워프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_328"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_329  (플라스마)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_329"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_33  (히트태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_33"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_330  (친구부르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_330"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_331  (오버액셀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_331"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_332  (증식하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_332"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_333  (실뿜기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_333"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_334  (크래시스피어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_334"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_335  (자르기러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_335"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_336  (투지의손톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_336"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_337  (타오르는대포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_337"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_338  (스모크봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_338"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_339  (블레이즈태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_339"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_34  (맹화의돌진)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_34"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_340  (튀어나오기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_340"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_341  (여기저기분출)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_341"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_342  (오션사이클론)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_342"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_343  (롤링어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_343"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_344  (사이코 서프레션)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_344"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_345  (저글링)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_345"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_346  (카오스임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_346"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_347  (상자에숨기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_347"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_348  (후려갈기기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_348"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_349  (매그넘펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_349"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_35  (불꽃)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_35"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_350  (파동탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_350"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_351  (두번차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_351"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_352  (독이빨)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_352"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_353  (독찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_353"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_354  (노력해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_354"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_355  (호쾌스탬프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_355"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_356  (스핀드리프트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_356"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_357  (럭셔리서핑)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_357"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_358  (유유자적 프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_358"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_359  (홉핑슛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_359"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_36  (불꽃의갈기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_36"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_360  (철벽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_360"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_362  (트로피컬해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_362"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_363  (밟기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_363"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_364  (벌레의야단법석)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_364"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_365  (걸기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_365"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_366  (발톱 베어가르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_366"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_367  (날카로운날개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_367"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_368  (상처노려쏘기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_368"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_369  (꽃보라)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_369"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_37  (마그마펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_37"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_370  (깜빡이는빛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_370"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_371  (삼연각)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_371"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_372  (만나자마자)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_372"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_373  (앵커샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_373"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_374  (박히는태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_374"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_375  (불타는 뼈다귀부메랑)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_375"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_376  (불토하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_376"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_377  (불꽃날개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_377"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_378  (불꽃엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_378"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_379  (스카스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_379"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_38  (불새)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_38"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_380  (활활)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_380"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_381  (히트포이즌)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_381"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_382  (가시갑옷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_382"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_384  (더욱더욱봄버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_384"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_385  (어군스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_385"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_386  (데인저러스 크루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_386"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_387  (물뿌려대기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_387"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_388  (스파이럴 드레인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_388"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_389  (초전자포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_389"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_39  (열화의춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_39"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_390  (걷어차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_390"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_391  (뒤로 차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_391"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_392  (전자장해)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_392"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_393  (톡톡)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_393"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_394  (일렉트릭 스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_394"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_395  (볼트체인지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_395"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_396  (배리어푸시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_396"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_399  (문프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_399"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_4  (친구찾기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_4"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_40  (화염)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_40"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_400  (나이트바인드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_400"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_401  (미혹댄스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_401"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_402  (원한의춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_402"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_403  (진동)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_403"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_404  (섀도히트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_404"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_405  (에너지애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_405"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_406  (루나블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_406"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_407  (프리즘레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_407"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_408  (뺨때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_408"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_409  (밀어내기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_409"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_41  (갉기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_41"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_410  (진화의징조)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_410"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_411  (블러드팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_411"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_412  (10만마력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_412"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_413  (별떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_413"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_414  (뒤져서먹기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_414"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_415  (오물던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_415"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_416  (케미컬패닉)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_416"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_417  (어새신클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_417"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_418  (독의숨)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_418"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_419  (가시대포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_419"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_42  (불대문자)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_42"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_420  (롱스피어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_420"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_421  (언록)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_421"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_422  (솔브레이크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_422"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_423  (실버캐논)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_423"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_424  (발끈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_424"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_425  (스케일노이즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_425"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_426  (에너지 어시스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_426"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_427  (정의의프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_427"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_428  (날뛰기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_428"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_429  (원숭이함정)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_429"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_43  (물대포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_43"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_430  (사이코차지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_430"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_431  (사념의박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_431"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_432  (부리캐논)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_432"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_433  (데스스래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_433"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_434  (비트펑크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_434"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_435  (일렉트로니카)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_435"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_436  (사이코빌리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_436"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_437  (블랙메탈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_437"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_438  (브라스록)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_438"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_439  (포톤클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_439"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_44  (스플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_44"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_440  (슈게이즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_440"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_441  (스위트릴레이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_441"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_442  (비기닝볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_442"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_443  (한가득스위트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_443"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_444  (탈피)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_444"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_445  (드레인 뺨치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_445"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_446  (투스텝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_446"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_447  (곤두선가시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_447"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_448  (강화앞니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_448"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_449  (번개발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_449"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_45  (하이드로펌프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_45"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_450  (플라스마 허리케인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_450"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_451  (마하볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_451"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_452  (풀베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_452"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_453  (스나이핑애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_453"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_454  (빅비트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_454"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_455  (점프블루스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_455"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_456  (라이트닝볼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_456"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_457  (찌릿찌릿)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_457"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_458  (문킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_458"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_459  (걸어 넘어뜨리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_459"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_46  (파도타기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_46"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_460  (무릎차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_460"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_461  (돌떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_461"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_462  (갈팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_462"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_463  (다같이던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_463"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_464  (샌드샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_464"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_465  (모래지옥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_465"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_466  (간섭하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_466"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_467  (속이기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_467"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_468  (빼내기팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_468"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_469  (뉴웨이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_469"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_47  (두통)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_47"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_470  (그라인드코어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_470"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_471  (타이런트홀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_471"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_472  (애시드하우스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_472"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_473  (빼꼼헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_473"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_474  (트리플렛헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_474"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_475  (기가임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_475"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_476  (가시로찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_476"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_477  (예리한이빨)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_477"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_478  (괴력허그)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_478"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_479  (퀵어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_479"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_48  (아쿠아에지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_48"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_480  (버디브레이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_480"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_481  (뭄바톤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_481"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_482  (커터윈드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_482"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_483  (리프블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_483"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_484  (차서떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_484"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_485  (어시스트히터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_485"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_486  (DD래리어트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_486"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_487  (파괴의 바다회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_487"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_488  (얼음칼날)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_488"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_489  (더블스핀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_489"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_49  (지느러미 커터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_49"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_490  (물끼얹기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_490"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_491  (물거품아리아)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_491"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_492  (프티쇼크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_492"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_493  (썬더쇼크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_493"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_494  (에너지크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_494"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_495  (이볼브하모니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_495"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_496  (흉내내보기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_496"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_497  (머드샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_497"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_498  (지진)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_498"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_499  (하드롤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_499"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_5  (벌레먹기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_5"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_50  (꿀밤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_50"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_500  (블랙바인드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_500"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_501  (치근거려 떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_501"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_502  (슬래시크루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_502"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_503  (바이스집게)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_503"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_504  (용의숨결)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_504"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_505  (가져오기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_505"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_506  (자빠지기펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_506"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_507  (음치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_507"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_508  (꽃잎댄스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_508"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_509  (수면가루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_509"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_51  (메가톤펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_51"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_510  (풀묶기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_510"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_511  (가위자르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_511"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_512  (유턴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_512"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_513  (트리플뺨치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_513"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_514  (한곳찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_514"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_515  (불씨)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_515"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_516  (작열하는숨결)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_516"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_517  (쏟아내기 파이어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_517"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_518  (따끈따끈토스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_518"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_519  (스트롱플레어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_519"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_52  (세게때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_52"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_520  (피닉스터보)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_520"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_521  (그슬려태우기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_521"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_522  (스톰제일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_522"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_523  (튀어올라 피하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_523"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_524  (난동스윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_524"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_525  (파괴의회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_525"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_526  (대포무노포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_526"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_527  (꽈당드로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_527"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_528  (큐어 스트림)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_528"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_529  (집게해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_529"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_53  (독촉수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_53"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_530  (페더사이클론)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_530"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_531  (시그널플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_531"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_532  (파칙파칙토스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_532"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_533  (찌리릿샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_533"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_534  (번개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_534"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_535  (잠자기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_535"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_536  (오싹오싹 웨이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_536"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_537  (헤롱헤롱어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_537"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_538  (반짝반짝콜)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_538"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_539  (애교부리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_539"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_54  (박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_54"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_540  (스피드비행)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_540"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_541  (라이프다운)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_541"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_542  (세게되돌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_542"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_543  (환상빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_543"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_544  (와일드태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_544"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_545  (꿈춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_545"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_546  (머리박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_546"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_547  (기간트프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_547"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_548  (펑펑너클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_548"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_549  (빠져나가기 스핀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_549"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_55  (혀로 막치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_55"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_550  (더블촙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_550"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_551  (폭발촙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_551"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_552  (베놈슬래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_552"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_553  (붙들어매기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_553"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_554  (다크커터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_554"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_555  (스내치다이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_555"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_556  (버스터테일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_556"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_557  (넘어뛰기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_557"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_558  (셸크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_558"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_559  (질풍찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_559"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_56  (찝기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_56"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_560  (강철날개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_560"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_561  (기어커터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_561"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_562  (기어스피너)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_562"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_563  (벌레쪼아대기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_563"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_564  (둥글둥글)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_564"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_565  (에너지블로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_565"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_566  (내리치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_566"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_567  (슬로빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_567"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_568  (테일스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_568"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_569  (공중날기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_569"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_57  (필살크랩)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_57"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_570  (원숭이흉내)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_570"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_571  (스네이크 플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_571"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_572  (꿀핥기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_572"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_573  (휘두르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_573"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_574  (강화호른)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_574"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_575  (막칠하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_575"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_576  (엘리멘탈 블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_576"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_577  (연속박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_577"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_578  (유인하는빛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_578"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_579  (행복펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_579"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_58  (워터애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_58"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_580  (더블스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_580"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_581  (나이트버스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_581"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_582  (볼트태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_582"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_583  (허리케인펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_583"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_584  (구르기피버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_584"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_585  (바둥바둥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_585"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_586  (크로스 플라이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_586"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_587  (블레이즈비트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_587"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_588  (뛰어오르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_588"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_589  (산들바람어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_589"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_59  (돌아다니며 뛰기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_59"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_590  (시간의나뭇잎)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_590"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_591  (산갉아먹기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_591"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_592  (신경독)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_592"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_593  (함부로버리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_593"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_594  (크리스털왈츠)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_594"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_595  (참방참방토스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_595"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_596  (볼티지불릿)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_596"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_597  (프티볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_597"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_598  (와일드볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_598"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_599  (오기스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_599"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_6  (바람일으키기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_6"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_60  (뿔로쪼기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_60"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_600  (저주의언령)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_600"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_601  (러스터퍼지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_601"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_602  (절벽허물기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_602"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_603  (하이드로너클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_603"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_604  (돌진)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_604"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_605  (모래보라)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_605"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_606  (스톤에지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_606"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_607  (인연엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_607"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_608  (브레인서지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_608"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_609  (녹이기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_609"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_61  (수벽치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_61"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_610  (오물폭탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_610"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_611  (용의오의)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_611"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_612  (파로 마구 때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_612"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_613  (늘어나는혀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_613"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_614  (새근새근송)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_614"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_615  (말랑말랑힐)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_615"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_616  (냉기부르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_616"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_617  (스파이럴러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_617"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_618  (시저크로스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_618"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_619  (크리티컬시저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_619"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_62  (하이드로 스플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_62"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_620  (단단해지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_620"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_621  (셀렉트파우더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_621"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_622  (찬바람선풍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_622"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_623  (마구할퀴기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_623"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_624  (성스러운칼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_624"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_625  (가지찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_625"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_626  (우드혼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_626"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_627  (드럼러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_627"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_628  (발톱세우기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_628"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_629  (플레어 스프린터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_629"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_63  (튀어오르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_63"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_630  (홀리번)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_630"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_631  (블레이즈킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_631"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_632  (메가버닝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_632"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_633  (달마연속탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_633"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_634  (혀채찍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_634"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_635  (트랩셸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_635"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_636  (폭포오르기 진화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_636"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_637  (테일해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_637"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_638  (메가블래스터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_638"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_639  (리드믹스텝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_639"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_64  (파괴광선)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_64"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_640  (웨일펌프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_640"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_641  (커플태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_641"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_642  (빙글빙글펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_642"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_643  (블록셸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_643"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_644  (프로스트 배리어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_644"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_645  (물고버티기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_645"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_646  (찌리리불릿)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_646"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_647  (라이트닝랜서)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_647"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_648  (플래시임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_648"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_649  (전기갉기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_649"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_65  (버블드레인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_65"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_650  (울부짖기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_650"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_651  (더티스로우)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_651"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_652  (메가하모니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_652"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_653  (덮치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_653"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_654  (바람분사)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_654"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_655  (벌룬봄버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_655"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_656  (짤랑짤랑 노이즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_656"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_657  (소울슛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_657"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_658  (별의요람)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_658"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_659  (흔들흔들퍼퓸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_659"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_66  (고대의 바다회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_66"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_660  (코튼가드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_660"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_661  (드레인키스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_661"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_662  (퀵스트레이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_662"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_663  (뺨때려떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_663"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_664  (크래시팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_664"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_665  (우걱우걱 바이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_665"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_666  (와일드스핀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_666"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_667  (헤비로켓)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_667"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_668  (아슬아슬펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_668"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_669  (모래뿌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_669"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_67  (냉동빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_67"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_670  (라이프서커)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_670"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_671  (히트스탬프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_671"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_672  (석탄떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_672"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_673  (악의굴레)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_673"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_674  (불길한발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_674"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_675  (다크니스클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_675"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_676  (섀도쿠프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_676"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_677  (하이퍼빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_677"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_678  (드래곤휩)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_678"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_679  (사죄의찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_679"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_68  (아이스윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_68"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_680  (다같이물기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_680"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_681  (슬라이스 블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_681"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_682  (무쇠날개)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_682"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_683  (기가클로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_683"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_684  (스피드윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_684"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_685  (회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_685"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_686  (익사이팅테일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_686"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_687  (누르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_687"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_688  (제트헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_688"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_689  (대폭음)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_689"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_69  (홰치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_69"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_690  (치근거리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_690"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_691  (고양이킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_691"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_692  (흔들흔들 박치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_692"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_693  (예리한앞니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_693"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_694  (데인저러스 바이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_694"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_695  (연속 구르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_695"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_696  (저력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_696"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_697  (거품)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_697"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_698  (자이언트 트위스터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_698"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_699  (튀어오르기 고수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_699"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_7  (따끔따끔찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_7"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_70  (날개치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_70"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_700  (제비반환)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_700"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_701  (메탈블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_701"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_702  (소닉임펄스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_702"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_703  (친구복사)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_703"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_704  (광합성)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_704"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_705  (크라이시스 블룸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_705"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_706  (조숙빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_706"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_707  (매달리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_707"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_708  (그렌다이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_708"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_709  (더블스플래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_709"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_71  (물수제비)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_71"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_710  (트리플봄바드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_710"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_711  (기습공격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_711"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_712  (아쿠아샤워)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_712"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_713  (미러샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_713"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_714  (인도하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_714"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_715  (어시스트파워)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_715"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_716  (달콤한향기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_716"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_717  (퍼퓸봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_717"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_718  (지오버스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_718"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_719  (메가톤 뺨때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_719"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_72  (안개베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_72"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_720  (래피드스매셔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_720"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_721  (촙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_721"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_722  (로킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_722"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_723  (더스트슈트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_723"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_724  (뺏고사라지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_724"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_725  (애시드봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_725"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_726  (메탈디펜더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_726"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_727  (애더먼트롤링)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_727"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_728  (사이버잭)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_728"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_729  (허리케인윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_729"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_73  (물뿌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_73"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_730  (스피드스타)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_730"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_731  (포이즌서클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_731"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_732  (가시로 도려내기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_732"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_733  (바늘팔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_733"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_734  (니들래리엇)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_734"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_735  (비비드파우더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_735"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_736  (그라운드비트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_736"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_737  (두리둥실)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_737"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_738  (에너지리프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_738"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_739  (히트본)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_739"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_74  (아픈데때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_74"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_740  (푸른불꽃)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_740"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_741  (댄싱옐)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_741"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_742  (그을리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_742"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_743  (팝펑크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_743"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_744  (불구슬슛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_744"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_745  (화덕의춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_745"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_746  (스노바인드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_746"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_747  (트리플스핀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_747"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_748  (서프라이즈 박스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_748"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_749  (큰바다회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_749"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_75  (눈싸라기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_75"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_750  (완강버스터)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_750"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_751  (썰렁)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_751"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_752  (프로즌록)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_752"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_753  (오로라빔)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_753"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_754  (헤일프리즌)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_754"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_755  (토해내기샷)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_755"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_756  (우물의춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_756"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_757  (전격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_757"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_758  (빅썬더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_758"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_759  (전기꼬리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_759"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_76  (10만볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_76"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_760  (버디스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_760"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_761  (데미지스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_761"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_762  (포톤레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_762"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_763  (기상어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_763"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_764  (사이코터보)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_764"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_765  (판타지아포스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_765"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_766  (조금원망하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_766"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_767  (데드스톡)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_767"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_768  (사념의뭉치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_768"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_769  (깨부수기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_769"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_77  (일렉트릭서클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_77"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_770  (노크해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_770"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_771  (사이코킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_771"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_772  (파워젬)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_772"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_773  (메가톤캐논)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_773"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_774  (티라노팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_774"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_775  (내던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_775"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_776  (공격해나가기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_776"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_777  (주춧돌의춤)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_777"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_778  (뽐내기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_778"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_779  (무자비한일격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_779"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_78  (번쩍구슬)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_78"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_780  (분비액뿜기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_780"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_781  (연기탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_781"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_782  (콧소리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_782"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_783  (발톱 드러내기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_783"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_784  (약자제압)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_784"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_785  (이블크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_785"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_786  (브레이크코어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_786"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_787  (쩍바이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_787"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_788  (히트업크런치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_788"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_789  (트랩집게)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_789"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_79  (회전어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_79"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_790  (베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_790"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_791  (쌍검베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_791"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_792  (그레이트실드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_792"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_793  (드래곤폴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_793"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_794  (꿀기분)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_794"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_795  (원투펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_795"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_796  (패밀리 더블 펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_796"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_797  (꼬리로 뺨치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_797"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_798  (에어로블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_798"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_799  (하품)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_799"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_8  (날카로운침)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_8"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_80  (일렉트릭볼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_80"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_800  (전력펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_800"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_801  (묵펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_801"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_802  (흔들흔들스텝)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_802"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_803  (불어지나가기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_803"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_804  (무리짓기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_804"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_805  (패밀리비트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_805"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_806  (스노아이스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_806"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_807  (트릭플라워)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_807"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_808  (개구쟁이킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_808"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_809  (레드핫헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_809"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_81  (번개펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_81"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_810  (구슬구르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_810"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_811  (탐욕바인드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_811"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_812  (명랑하게 노래하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_812"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_813  (아머캐논)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_813"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_814  (시기의겁화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_814"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_815  (스플래시턴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_815"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_816  (하이드로킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_816"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_817  (삼연속채찍)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_817"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_818  (제트펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_818"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_819  (고드름미사일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_819"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_82  (바늘미사일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_82"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_820  (냉동펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_820"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_821  (다이어트 스크루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_821"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_822  (반격하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_822"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_823  (아이시클 다이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_823"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_824  (전자 스파크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_824"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_825  (고전압포)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_825"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_826  (라이트닝 레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_826"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_827  (투사의대검)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_827"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_828  (성묘)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_828"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_829  (연속 코인 던지기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_829"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_83  (낙뢰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_83"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_830  (분노)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_830"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_831  (다이너마이트 펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_831"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_832  (저리가루)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_832"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_833  (아드레나해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_833"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_834  (거만임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_834"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_835  (램페이지팽)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_835"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_836  (흙탕해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_836"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_837  (로켓점프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_837"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_838  (컬러풀어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_838"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_839  (거대해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_839"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_84  (쪼기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_84"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_840  (철분서플라이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_840"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_841  (뿌리기러시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_841"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_842  (레그스탬프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_842"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_843  (트리플 갉아먹기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_843"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_844  (버디드라이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_844"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_845  (차크라피스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_845"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_846  (영양소)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_846"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_847  (광란의칼날)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_847"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_848  (회전드로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_848"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_849  (멘탈크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_849"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_85  (일렉트릭킥)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_85"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_850  (럼블스톰프)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_850"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_851  (불꽃 꼬리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_851"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_852  (레이징 블레이즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_852"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_853  (천둥볼케이노)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_853"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_854  (론드리돌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_854"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_855  (레이징프리즈)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_855"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_856  (물보라)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_856"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_857  (황제의일격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_857"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_858  (아쿠아터보)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_858"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_859  (폭열썬더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_859"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_86  (썬더애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_86"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_860  (라이트닝액셀)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_860"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_861  (최면술)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_861"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_862  (미라클메모리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_862"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_863  (휘젓기댄스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_863"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_864  (가벼운돌입)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_864"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_865  (진흙폭탄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_865"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_866  (가이아 블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_866"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_867  (스핀턴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_867"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_868  (섀도래버린스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_868"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_869  (검은꿈결)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_869"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_87  (프티전기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_87"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_870  (오물회오리)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_870"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_871  (에너지차륜)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_871"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_872  (특대폭발)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_872"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_873  (불릿슬러거)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_873"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_874  (우락부락대시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_874"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_875  (꼬리로찌르기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_875"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_876  (천공의기도)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_876"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_877  (드래곤웨이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_877"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_878  (차서흩뜨리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_878"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_879  (조이기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_879"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_88  (헤드볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_88"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_880  (일당백)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_880"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_881  (스나이프에지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_881"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_882  (리프블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_882"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_883  (데들리테일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_883"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_884  (소화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_884"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_885  (버섯포자)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_885"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_886  (잠들때노리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_886"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_887  (얼얼파우더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_887"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_888  (방어)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_888"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_889  (나눠주기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_889"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_89  (번개엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_89"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_890  (새콤한타액)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_890"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_891  (띄워날리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_891"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_892  (분화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_892"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_893  (볼케닉쾅쾅)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_893"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_894  (불붙는태양)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_894"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_895  (V플레임)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_895"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_896  (플레어스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_896"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_897  (파이어애로)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_897"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_898  (두번때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_898"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_899  (습격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_899"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_9  (부딪치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_9"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_90  (꼬리로 막치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_90"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_900  (흙탕헤드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_900"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_901  (빗방울흡수)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_901"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_902  (얼어붙은설운)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_902"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_903  (구슬의 반짝임)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_903"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_904  (에너지 리플렉트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_904"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_905  (고드름펀치)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_905"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_906  (토네이도숏)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_906"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_907  (마그넷 블라스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_907"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_908  (우뢰의검)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_908"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_909  (한방봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_909"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_91  (전광석화)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_91"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_910  (일렉봄버)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_910"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_911  (뇌격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_911"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_912  (리벤지쇼크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_912"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_913  (만복볼트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_913"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_914  (다이아스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_914"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_915  (현기증추격)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_915"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_916  (차밍보이스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_916"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_917  (덤벼들기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_917"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_918  (매드해머)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_918"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_919  (글썽글썽어택)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_919"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_92  (전기쇼크)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_92"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_920  (투지의주먹)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_920"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_921  (인파이트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_921"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_922  (파이팅비트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_922"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_923  (그라운드소드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_923"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_924  (배대뒤치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_924"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_925  (깨트리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_925"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_926  (트리플스매시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_926"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_927  (마운틴크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_927"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_928  (굉장한 모래뿌리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_928"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_929  (단련)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_929"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_93  (뺨치기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_93"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_930  (방귀봄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_930"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_931  (가시러쉬)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_931"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_932  (각성)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_932"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_933  (비트다운)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_933"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_934  (위험한포자)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_934"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_935  (암습)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_935"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_936  (진화방해)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_936"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_937  (다크리벤지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_937"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_938  (프로텍트차지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_938"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_939  (사이코 레저넌스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_939"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_94  (매지컬숏)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_94"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_940  (깜짝베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_940"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_941  (기계장치캐논)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_941"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_942  (에어 크래시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_942"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_943  (샌드윈드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_943"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_944  (용의파동)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_944"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_945  (상처치료)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_945"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_946  (뛰어차기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_946"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_947  (찌르고 파고들기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_947"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_948  (분노발톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_948"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_949  (기가터보)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_949"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_95  (순간이동)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_95"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_950  (자기암시)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_950"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_951  (강아지투성이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_951"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_952  (투사의엄니)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_952"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_953  (치유의빛)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_953"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_954  (하트풀샤인)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_954"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_955  (푹신푹신테일)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_955"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_956  (변덕 태클)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_956"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_957  (노려떨구기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_957"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_958  (기운차게 때리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_958"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_959  (뒹굴며 난동부리기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_959"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_96  (초염동력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_96"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_960  (서멀거스트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_960"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_961  (가둬두기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_961"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_962  (콜드스타트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_962"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_963  (쇼크웨이브)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_963"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_964  (리피트슬랩)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_964"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_965  (바이너리썬더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_965"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_966  (하드론레이)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_966"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_967  (염동력)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_967"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_968  (루미나콜리전)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_968"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_969  (고함쳐내쫓기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_969"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_97  (사이코키네시스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_97"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_970  (원초속박)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_970"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_971  (어벤지에지)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_971"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_972  (모듈액스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_972"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_973  (카운트 블레이드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_973"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_974  (내딛고휘젓기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_974"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_975  (끌어당겨 부수기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_975"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_976  (천지분쇄)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_976"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_977  (주얼기프트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_977"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_978  (대장의칼날)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_978"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_979  (베놈히트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_979"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_98  (가스로감싸기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_98"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_980  (블라스트윈드)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_980"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_981  (어둠의바람)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_981"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_982  (아이언스윙)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_982"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_983  (롤링릴리스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_983"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_984  (물결치며 순회하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_984"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_985  (태워차단하기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_985"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_986  (굉음우레필살)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_986"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_987  (갑자기드릴)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_987"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_988  (갈고리손톱)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_988"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_989  (급강하)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_989"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_99  (도깨비불)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_99"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_990  (프리즘임팩트)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_990"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_991  (셀스톰)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_991"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_992  (그라운드 레이저)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_992"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_993  (다이내믹혼)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_993"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_994  (불내뿜기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_994"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_995  (아지랑이베기)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_995"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_996  (에너지프레스)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_996"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_997  (들뜸)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_997"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_998  (기계장치썬더)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_998"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_999  (괴상한염력파)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_999"
+  }
+]

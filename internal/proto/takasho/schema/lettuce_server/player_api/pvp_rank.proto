@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/pvp_rank_declare_loss_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_delete_matching_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_finish_battle_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_get_current_season_profile_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_get_current_season_ranking_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_get_matching_result_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_get_past_season_ranking_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_get_season_result_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_list_recent_battle_records_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_request_matching_v1.proto";
+import "takasho/schema/lettuce_server/player_api/pvp_rank_start_battle_v1.proto";
+
+service PvpRank {
+  rpc RequestMatchingV1 (PvpRankRequestMatchingV1.Types.Request) returns (PvpRankRequestMatchingV1.Types.Response);
+  rpc DeleteMatchingV1 (PvpRankDeleteMatchingV1.Types.Request) returns (PvpRankDeleteMatchingV1.Types.Response);
+  rpc GetMatchingResultV1 (PvpRankGetMatchingResultV1.Types.Request) returns (PvpRankGetMatchingResultV1.Types.Response);
+  rpc StartBattleV1 (PvpRankStartBattleV1.Types.Request) returns (PvpRankStartBattleV1.Types.Response);
+  rpc FinishBattleV1 (PvpRankFinishBattleV1.Types.Request) returns (PvpRankFinishBattleV1.Types.Response);
+  rpc DeclareLossV1 (PvpRankDeclareLossV1.Types.Request) returns (PvpRankDeclareLossV1.Types.Response);
+  rpc GetCurrentSeasonProfileV1 (PvpRankGetCurrentSeasonProfileV1.Types.Request) returns (PvpRankGetCurrentSeasonProfileV1.Types.Response);
+  rpc GetSeasonResultV1 (PvpRankGetSeasonResultV1.Types.Request) returns (PvpRankGetSeasonResultV1.Types.Response);
+  rpc ListRecentBattleRecordsV1 (PvpRankListRecentBattleRecordsV1.Types.Request) returns (PvpRankListRecentBattleRecordsV1.Types.Response);
+  rpc GetCurrentSeasonRankingV1 (PvpRankGetCurrentSeasonRankingV1.Types.Request) returns (PvpRankGetCurrentSeasonRankingV1.Types.Response);
+  rpc GetPastSeasonRankingV1 (PvpRankGetPastSeasonRankingV1.Types.Request) returns (PvpRankGetPastSeasonRankingV1.Types.Response);
+}

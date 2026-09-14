@@ -1,0 +1,123 @@
+[
+  {
+    "method": "POST",
+    "host": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "path": "/core/v1/gateway/sdk/login",
+    "request_fields": [
+      "appVersion",
+      "assertion",
+      "carrier",
+      "deviceAccount",
+      "deviceAnalyticsId",
+      "deviceName",
+      "locale",
+      "manufacturer",
+      "networkType",
+      "osType",
+      "osVersion",
+      "sdkVersion",
+      "timeZone",
+      "timeZoneOffset"
+    ],
+    "response_fields": [
+      "accessToken",
+      "behaviorSettings",
+      "capability",
+      "createdDeviceAccount",
+      "error",
+      "expiresIn",
+      "idToken",
+      "market",
+      "sessionId",
+      "user"
+    ],
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "host": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "path": "/bigdata/v1/analytics/events/config",
+    "request_fields": [],
+    "response_fields": [
+      "accessToken",
+      "applicationId",
+      "city",
+      "country",
+      "expirationTime",
+      "immediateReporting",
+      "mode",
+      "region",
+      "reportingPeriod",
+      "topic"
+    ],
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "host": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "path": "/bigdata/v1/analytics/events",
+    "request_fields": [],
+    "response_fields": [],
+    "status": 202
+  },
+  {
+    "method": "GET",
+    "host": "prod-game-assets-app-41283.akamaized.net",
+    "path": "/access-check.txt",
+    "request_fields": [],
+    "response_fields": [],
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "host": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "path": "/vcm/v1/users/{user_id}/wallets/split",
+    "request_fields": [],
+    "response_fields": [],
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "host": "pokemon-webapi.appspot.com",
+    "path": "/api/location/v1/estimate_country",
+    "request_fields": [
+      "key"
+    ],
+    "response_fields": [
+      "country"
+    ],
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "host": "cdn-prod-assets-notice-app-41283.cdn-dena.com",
+    "path": "/webview/fr_FR/policy/1.1.0/",
+    "request_fields": [],
+    "response_fields": [],
+    "status": 304
+  },
+  {
+    "method": "PUT",
+    "host": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
+    "path": "/subs/v1/users/{user_id}/markets/GOOGLE/purchases",
+    "request_fields": [
+      "purchases"
+    ],
+    "response_fields": [],
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "host": "pokemon-webapi.appspot.com",
+    "path": "/api/badword/v1/check_word",
+    "request_fields": [
+      "key",
+      "text",
+      "wordlist"
+    ],
+    "response_fields": [
+      "results"
+    ],
+    "status": 200
+  }
+]

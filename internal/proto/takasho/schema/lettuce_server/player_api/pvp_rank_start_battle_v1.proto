@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_battle_server_auth_info.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pvp_rank_established_match.proto";
+
+message PvpRankStartBattleV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.pvp.PvpRankBattleServerAuthInfo auth_info = 1;
+      takasho.schema.lettuce_server.resource.pvp.PvpRankEstablishedMatch match = 2;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto";
+
+message PresentBoxReceiveV1 {
+  message Types {
+    message Response {
+      message Types {
+        message Result {
+          message Types {
+            message Failure {
+              message Types {
+                enum FailureReason {
+                  FAILURE_REASON_UNSPECIFIED = 0;
+                  FAILURE_REASON_EXPIRED = 1;
+                  FAILURE_REASON_OVERFLOW = 2;
+                  FAILURE_REASON_SKIP = 3;
+                }
+              }
+              PresentBoxReceiveV1.Types.Response.Types.Result.Types.Failure.Types.FailureReason reason = 2;
+            }
+          }
+          string present_id = 1;
+          bool is_successe = 5;
+          PresentBoxReceiveV1.Types.Response.Types.Result.Types.Failure failure = 6;
+          takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 7;
+          bool is_pack = 8;
+          PresentBoxReceiveV1.Types.Response.Types.PackResult pack_result = 9;
+        }
+        message PackResult {
+          repeated takasho.schema.lettuce_server.resource.pack.PackUnpackOrder unpack_orders = 2;
+        }
+      }
+      PresentBoxReceiveV1.Types.Response.Types.Result result = 1;
+      bool is_pack = 3;
+      PresentBoxReceiveV1.Types.Response.Types.PackResult pack_result = 4;
+      repeated PresentBoxReceiveV1.Types.Response.Types.Result results = 5;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 6;
+    }
+    message Request {
+      string present_id = 2;
+      repeated string present_ids = 3;
+    }
+  }
+}

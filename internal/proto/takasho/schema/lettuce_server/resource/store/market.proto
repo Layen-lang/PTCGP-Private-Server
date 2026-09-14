@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.store;
+
+enum Market {
+  MARKET_UNSPECIFIED = 0;
+  MARKET_MOCK = 1;
+  MARKET_APPLE = 2;
+  MARKET_GOOGLE = 3;
+}

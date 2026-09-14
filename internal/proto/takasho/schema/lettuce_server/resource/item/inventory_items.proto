@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.item;
+
+import "takasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto";
+import "takasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto";
+import "takasho/schema/lettuce_server/resource/item/card_instance.proto";
+import "takasho/schema/lettuce_server/resource/item/challenge_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/currency.proto";
+import "takasho/schema/lettuce_server/resource/item/event_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/exp.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_ceil_point.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_guarantee_point.proto";
+import "takasho/schema/lettuce_server/resource/item/pack_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/peripheral_goods.proto";
+import "takasho/schema/lettuce_server/resource/item/poke_gold.proto";
+import "takasho/schema/lettuce_server/resource/item/profile_decoration.proto";
+import "takasho/schema/lettuce_server/resource/item/rental_deck.proto";
+import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
+import "takasho/schema/lettuce_server/resource/item/reward_ticket.proto";
+import "takasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
+import "takasho/schema/lettuce_server/resource/item/trade_ticket.proto";
+
+message InventoryItems {
+  repeated takasho.schema.lettuce_server.resource.card_skin.CardSkinStock card_skin_stocks = 1;
+  repeated EventPowerCharger event_power_chargers = 2;
+  repeated PackPowerCharger pack_power_chargers = 3;
+  repeated ChallengePowerCharger challenge_power_chargers = 4;
+  repeated PeripheralGoods peripheral_goods = 5;
+  repeated Currency currencies = 7;
+  repeated ProfileDecoration profile_decorations = 8;
+  repeated CardInstance card_instances = 9;
+  repeated RewardTicket reward_tickets = 10;
+  repeated RevivalClock revival_clocks = 11;
+  repeated RentalDeck rental_decks = 12;
+  repeated ThemeDeckRecipe theme_deck_recipes = 13;
+  repeated Exp exps = 14;
+  repeated PackCeilPoint pack_ceil_points = 15;
+  repeated PokeGold poke_golds = 16;
+  repeated TradePowerCharger trade_power_chargers = 17;
+  repeated TradeItem trade_items = 18;
+  repeated TradeTicket trade_tickets = 21;
+  repeated takasho.schema.lettuce_server.resource.card_frame.CardFrameStock card_frame_stocks = 22;
+  repeated PackGuaranteePoint pack_grantee_points = 23;
+}

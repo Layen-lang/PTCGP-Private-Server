@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (Usada para recuperar Recarga Misteriosa. Reduz \nem 1h o tempo para realizar Escolha Misteriosa.\nPode ser obtida como recompensa de missão, etc.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (Ampulheta Misteriosa)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

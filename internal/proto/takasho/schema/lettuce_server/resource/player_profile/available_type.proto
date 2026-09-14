@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.player_profile;
+
+enum AvailableType {
+  AVAILABLE_TYPE_UNSPECIFIED = 0;
+  AVAILABLE_TYPE_AVAILABLE = 1;
+  AVAILABLE_TYPE_SUSPEND = 2;
+  AVAILABLE_TYPE_UNAVAILABLE = 3;
+}

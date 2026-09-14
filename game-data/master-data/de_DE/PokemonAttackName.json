@@ -1,0 +1,4442 @@
+[
+  {
+    "NameMSID": "ATTACK_NAME_1  (Rankenhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_10  (Sabbern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_10"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_100  (Tortur)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1000  (Sonnige Brise)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1000"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1001  (In Schale werfen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1001"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1002  (Stillhalten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1002"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1003  (Gluttanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1003"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1004  (Aquageschoss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1004"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1005  (Blubbstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1005"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1006  (Bündelpumpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1006"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1007  (Dede-Stromkreis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1007"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1008  (Glitzerndes Geschenk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1008"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1009  (Strahlender Sturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1009"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_101  (Spukschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1010  (Vernarrter Angriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1010"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1011  (Unheilsflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1011"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1012  (Amnesie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1012"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1013  (Verfluchtes Juwel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1013"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1014  (Finalhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1014"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1015  (Pures Gift)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1015"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1016  (Hopphopphurra)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1016"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1017  (Gefräßiges Ziehen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1017"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1018  (Konfrontieren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1018"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1019  (Hammerarm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1019"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_102  (Grummeln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1020  (Tückisches Trugbild)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1020"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1021  (Doppelte Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1021"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1022  (Kokonsammler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1022"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1023  (Entwicklungsflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1023"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1024  (Festkleben und Einsaugen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1024"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1025  (Jagdbefehl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1025"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1026  (Seemuschelangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1026"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1027  (Peinigen und Abhauen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1027"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1028  (Auftakt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1028"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1029  (Siedewasser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1029"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_103  (Psyhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1030  (Ogerpeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1030"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1031  (Berstender Schweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1031"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1032  (Hitzewelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1032"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1033  (Verzehrendes Inferno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1033"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1034  (Scharfe Krallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1034"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1035  (Migräne)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1035"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1036  (Turbohai)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1036"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1037  (Wunderwellen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1037"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1038  (Frostiger Platscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1038"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1039  (Blizzardsperre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1039"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_104  (Angriffsbarriere)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1040  (Gezeitenstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1040"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1041  (Kalkklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1041"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1042  (Mineralpumpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1042"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1043  (Rachestoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1043"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1044  (Knisternder Knall)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1044"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1045  (Schrottfunken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1045"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1046  (Stromschwall)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1046"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1047  (Stromfunke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1047"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1048  (Mini-Metronom)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1048"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1049  (Imitierendes Mischen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1049"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_105  (Powerschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1050  (Synchrontanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1050"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1051  (Sondersensor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1051"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1052  (Störender Stampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1052"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1053  (Windschnitt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1053"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1054  (Gedankenverbiegung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1054"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1055  (Schabernackring)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1055"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1056  (Übernatürliche Feder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1056"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1057  (Schleuderwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1057"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1058  (Abgrundtiefer Fall)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1058"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1059  (Resonanzklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1059"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_106  (Psychosphäre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1060  (Felsgrundbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1060"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1061  (Kosmischer Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1061"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1062  (Teamjagd)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1062"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1063  (Basskontrolle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1063"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1064  (Runterschlucken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1064"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1065  (Verstärkte Klinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1065"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1066  (Knochenhatz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1066"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1067  (Schattenkugel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1067"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1068  (Patronenhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1068"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1069  (Vierkantattacke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1069"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_107  (Psychoschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1070  (Repetierschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1070"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1071  (Eisenlanze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1071"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1072  (Techblaster)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1072"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1073  (Wutklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1073"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1074  (Slam)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1074"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1075  (Dracheneinschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1075"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1076  (Mega-Explosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1076"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1077  (Launenlaser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1077"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1078  (Schnellganggetriebe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1078"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1079  (Energiemix)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1079"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_108  (Herzstempel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1080  (Spiegelklatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1080"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1081  (Jet-Flügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1081"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1082  (Heimzahlung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1082"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1083  (Goldbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1083"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1084  (Schattenhund-Fackel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1084"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1086  (Rocket-Fieber)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1086"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1087  (Bestrafung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1087"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1089  (Zorniger Leuchtkäfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1089"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_109  (Doppel-Lasso)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1090  (Blätter-Bumerang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1090"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1091  (Höhnisches Rösten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1091"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1092  (Hitzeaufladung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1092"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1093  (Infernale Flügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1093"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1094  (Giftfeuerfänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1094"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1095  (Eisiger Sturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1095"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1096  (Seelenkonter)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1096"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1097  (Donnernde Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1097"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1098  (Aasfresser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1098"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1099  (Handkinese)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1099"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_11  (Beruhigender Duft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_11"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_110  (Lehmschelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1100  (Falle stellen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1100"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1101  (Psycho-Explosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1101"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1102  (Schlagen und ziehen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1102"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1103  (Gaia-Einschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1103"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1104  (Schattensucher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1104"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1105  (Schlammbad)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1105"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1106  (Giftabsorption)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1106"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1107  (Umkehrschub)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1107"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1108  (Verwirrgas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1108"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1109  (Rammender Hammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1109"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_111  (Schaufler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1110  (Dracowucht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1110"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1111  (Boost-Sprint)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1111"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1112  (Gaunergefahr)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1113  (Versteckschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1114  (Kugeljubel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1115  (Platzierter Platscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_1116  (Grausamer Strudel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_1116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_112  (Fußkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_112"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_113  (Zur Wehr setzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_113"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_114  (Stärke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_114"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_115  (Geowurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_115"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_116  (Walzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_116"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_117  (Risikotackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_117"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_118  (Schollenbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_118"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_119  (Heuler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_119"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_12  (Kratzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_12"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_120  (Knochenprügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_120"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_121  (Knochmerang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_121"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_122  (Streckkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_122"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_123  (Boxschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_123"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_124  (Hornbohrer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_124"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_125  (Muschelangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_125"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_126  (Blutsauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_126"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_127  (Klaps)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_127"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_128  (Drehtritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_128"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_129  (Schlag versetzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_129"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_13  (Schlitzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_13"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_130  (Bedrängen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_130"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_131  (Familienruf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_131"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_132  (Liebestaumel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_132"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_133  (Hornattacke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_133"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_134  (Gifthorn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_134"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_135  (Gleiten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_135"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_136  (Giftwolke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_136"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_137  (Giftschock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_137"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_138  (Knirscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_138"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_139  (Durchbohren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_139"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_14  (Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_14"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_140  (Metallklaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_140"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_141  (Anhäufen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_141"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_142  (Schwerer Einschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_142"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_143  (Schweifschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_143"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_144  (Draco Meteor)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_144"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_145  (Schlagbohrer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_145"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_146  (Schallwelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_146"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_147  (Schlummerlied)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_147"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_148  (Zahltag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_148"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_149  (Dunkelklaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_149"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_15  (Giftpuder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_15"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_150  (Lauchschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_150"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_151  (Bohrschnabel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_151"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_152  (Dauerschlecker)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_152"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_153  (Irrschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_153"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_154  (Alleskopierer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_154"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_155  (Schärfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_155"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_156  (Antikschwinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_156"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_157  (Wellenreiten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_157"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_158  (Psycho-Offenlegung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_158"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_159  (Riesenblüte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_159"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_16  (Samenbomben)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_16"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_160  (Feuerroter Sturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_160"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_161  (Hitzestoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_161"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_162  (Hydro-Bazooka)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_162"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_163  (Blizzard)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_163"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_164  (Donnernder Orkan)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_164"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_165  (Psycho-Antrieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_165"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_166  (Waghalsiger Sturmangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_166"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_167  (Gesang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_167"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_168  (Wachstumsschub)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_168"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_169  (Kraftvolles Blühen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_169"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_17  (Stampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_17"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_170  (Flimmernde Sporen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_170"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_171  (Energiepeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_171"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_172  (Aufwärtsstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_172"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_173  (Vulkanasche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_173"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_174  (Giftkrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_174"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_175  (Herausspringen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_175"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_176  (Tosender Strudel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_176"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_177  (Wasserrohr)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_177"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_178  (Taucher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_178"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_179  (Gigaschock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_179"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_18  (Tropenschwung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_18"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_180  (Elektronetz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_180"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_181  (Stachelzug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_181"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_182  (Gedankenstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_182"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_183  (Hypnotischer Blick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_183"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_184  (Blattsauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_184"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_185  (Blütenglanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_185"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_186  (Feenbrise)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_186"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_187  (Fokussierfaust)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_187"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_188  (Boxhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_188"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_189  (Leichter Hieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_189"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_19  (Absorber)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_19"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_190  (Sprungangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_190"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_191  (Schutzdruck)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_191"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_192  (Vergeltung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_192"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_193  (Megakick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_193"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_194  (Teilung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_194"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_195  (Rauchwolke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_195"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_196  (Giftstachel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_196"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_197  (Wütender Zyklon)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_197"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_198  (Kampf-Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_198"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_199  (Dauerschritte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_199"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_2  (Rasierblatt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_2"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_20  (Scharfe Sense)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_20"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_200  (Mimikry)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_200"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_201  (Solarstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_201"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_202  (Genom-Hacking)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_202"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_203  (Drachenklaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_203"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_204  (Blattschritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_204"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_205  (Luftschnitt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_205"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_206  (Giftpeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_206"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_207  (Flora-Statue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_207"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_208  (Zaubermelodie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_208"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_209  (Blattschere)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_209"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_21  (Doppelhorn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_21"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_210  (Auspeitscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_210"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_211  (Blättergewirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_211"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_212  (Energiesperre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_212"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_213  (Anheizen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_213"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_214  (Flammendes Inferno)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_214"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_215  (Sengende Flammen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_215"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_216  (Flammenschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_216"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_217  (Flammenblitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_217"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_218  (Heißer Atem)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_218"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_219  (Einhämmern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_219"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_22  (Festkleben)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_22"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_220  (Frostige Plättung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_220"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_221  (Frostschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_221"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_222  (Nickerchen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_222"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_223  (Wasserdüse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_223"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_224  (Düsenschraube)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_224"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_225  (Lehmbrühe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_225"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_226  (Elegantes Schwimmen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_226"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_227  (Kaskade)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_227"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_228  (Eissplitter)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_228"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_229  (Eisesodem)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_229"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_23  (Rolltackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_23"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_230  (Dimensionssturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_230"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_231  (Geschenk des Meeres)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_231"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_232  (Donnerkeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_232"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_233  (Große Explosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_233"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_234  (Rollender Angriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_234"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_235  (Ladevorgang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_235"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_236  (Knisternde Spannung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_236"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_237  (Verstecken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_237"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_238  (Elektrokrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_238"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_239  (Strombolzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_239"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_24  (Klecks)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_24"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_240  (Gerätefunken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_240"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_241  (Offensiv-Laser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_241"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_242  (Turbosmash)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_242"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_243  (Magischer Wahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_243"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_244  (Seelenverschlinger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_244"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_245  (Ausdehnen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_245"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_246  (Ballonhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_246"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_247  (Gedankenantrieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_247"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_248  (Allmächtiger Schuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_248"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_249  (Psychopfeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_249"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_25  (Blättervorrat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_25"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_250  (Mondlichtabsorption)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_250"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_251  (Niederschleudern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_251"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_252  (Bergschwinger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_252"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_253  (Akrobatik)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_253"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_254  (Felsenquetscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_254"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_255  (Kopfstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_255"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_256  (Unterseehieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_256"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_257  (Bodenpresse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_257"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_258  (Energieklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_258"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_259  (Geübter Sturzflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_259"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_26  (Überraschungsangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_26"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_260  (Doppelkratzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_260"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_261  (Kratzende Krallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_261"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_262  (Fänge der Dunkelheit)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_262"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_263  (Wirbelndes Desaster)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_263"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_264  (Giftstreich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_264"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_265  (Gruppenprügler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_265"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_266  (Schlummerort)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_266"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_267  (Dunkles Prisma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_267"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_268  (Metallarme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_268"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_269  (Headbangen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_269"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_27  (Glut)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_27"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_270  (Eisenschädel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_270"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_271  (Dreifachnase)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_271"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_272  (Metallturbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_272"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_273  (Stahltackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_273"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_274  (Schleckwut)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_274"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_275  (Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_275"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_276  (Glitch-Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_276"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_277  (Schweifstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_277"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_278  (Doppelschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_278"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_279  (Pflücker)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_279"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_28  (Feuerkrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_28"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_280  (Greifer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_280"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_281  (Superzahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_281"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_282  (Sprungkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_282"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_283  (Posieren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_283"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_284  (Stören)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_284"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_285  (Furienschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_285"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_286  (Sturmwirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_286"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_287  (Wuthammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_287"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_288  (Einzelhornwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_288"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_289  (Blattwerk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_289"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_29  (Feuerwirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_29"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_290  (Sorgensamen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_290"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_291  (Egelsamen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_291"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_292  (Tobender Wutangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_292"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_293  (Fuchtler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_293"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_294  (Eiszapfen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_294"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_295  (Korkenzieherhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_295"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_296  (Polarwind)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_296"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_297  (Zonenbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_297"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_298  (Aquawelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_298"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_299  (Funkensprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_299"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_3  (Megasauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_3"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_30  (Rutenschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_30"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_300  (Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_300"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_301  (Mondgewalt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_301"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_302  (Erstauner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_302"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_303  (Hypnoschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_303"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_304  (Kraftreserve)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_304"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_305  (Spurtangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_305"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_306  (Kämpferische Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_306"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_307  (Drehwalze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_307"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_308  (Tempoangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_308"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_309  (Tritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_309"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_31  (Flammenwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_31"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_310  (Kickschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_310"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_311  (Linearer Angriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_311"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_312  (Verprügler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_312"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_313  (Toxin)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_313"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_314  (Power-Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_314"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_315  (Stahlgerüstbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_315"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_316  (Schutzeinheit)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_316"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_317  (Zeitenbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_317"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_318  (Krisensprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_318"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_319  (Kollaps)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_319"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_32  (Biss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_32"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_320  (Lautlose Flügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_320"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_321  (Sturzflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_321"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_322  (Ultimative Macht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_322"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_323  (Psycho-Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_323"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_324  (Konfusstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_324"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_325  (Verhärten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_325"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_326  (Wundschmerz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_326"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_327  (Elektroschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_327"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_328  (Powerdruck)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_328"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_329  (Plasma)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_329"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_33  (Hitze-Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_33"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_330  (Hilfeschrei)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_330"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_331  (Überbeschleunigung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_331"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_332  (Vervielfachung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_332"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_333  (Fadenschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_333"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_334  (Vernichtender Speer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_334"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_335  (Guillotinenrage)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_335"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_336  (Kampfkrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_336"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_337  (Dampfgeschütz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_337"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_338  (Rauchbombe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_338"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_339  (Flammender Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_339"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_34  (Inferno-Ansturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_34"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_340  (Rausspringen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_340"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_341  (Wuselausbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_341"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_342  (Meeressturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_342"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_343  (Taumler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_343"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_344  (Psychounterdrückung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_344"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_345  (Jongleur)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_345"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_346  (Chaoseinschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_346"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_347  (Truhentarnung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_347"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_348  (Trommler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_348"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_349  (Magnum-Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_349"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_35  (Flackern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_35"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_350  (Aurasphäre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_350"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_351  (Doppelkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_351"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_352  (Gifthauer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_352"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_353  (Gifthieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_353"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_354  (Hartnäckiger Hammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_354"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_355  (Heftiges Hämmern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_355"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_356  (Rotationsdrift)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_356"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_357  (Sensationelles Surfen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_357"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_358  (Entspannter Druck)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_358"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_359  (Hüpfkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_359"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_36  (Flammenmähne)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_36"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_360  (Eisenabwehr)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_360"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_362  (Tropischer Hammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_362"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_363  (Zertrampeln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_363"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_364  (Käfergebrumm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_364"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_365  (Haken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_365"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_366  (Klauenschlitzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_366"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_367  (Rasierflügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_367"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_368  (Wundschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_368"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_369  (Blütenwirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_369"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_37  (Magmahieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_37"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_370  (Flackerndes Licht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_370"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_371  (Tripeltrittkombo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_371"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_372  (Überrumpler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_372"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_373  (Ankerschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_373"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_374  (Verbissener Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_374"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_375  (Brennender Knochmerang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_375"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_376  (Stetiger Feuerhauch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_376"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_377  (Feuerflügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_377"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_378  (Feuerzahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_378"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_379  (Narbenhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_379"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_38  (Himmelsfeger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_38"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_380  (Anzünden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_380"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_381  (Glühendes Gift)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_381"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_382  (Stachelpanzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_382"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_384  (Unersättliches Prügeln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_384"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_385  (Schwarmsturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_385"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_386  (Bedrohliche Klauen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_386"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_387  (Wassersprüher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_387"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_388  (Spiralsauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_388"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_389  (Super-Blitzkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_389"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_39  (Infernotanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_39"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_390  (Schmetterkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_390"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_391  (Rückwärtskick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_391"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_392  (Unterbrechen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_392"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_393  (Zzzapp!)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_393"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_394  (Elektrostoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_394"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_395  (Voltwechsel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_395"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_396  (Barrierenschubser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_396"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_399  (Mondkraft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_399"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_4  (Freunde finden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_4"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_40  (Glühen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_40"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_400  (Nachtbindung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_400"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_401  (Verwirrender Tanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_401"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_402  (Tückischer Tanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_402"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_403  (Schwingung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_403"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_404  (Schattenschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_404"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_405  (Energiepfeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_405"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_406  (Mondsturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_406"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_407  (Prisma-Laser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_407"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_408  (Stoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_408"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_409  (Verdrängen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_409"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_41  (Nagen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_41"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_410  (Spuren der Evolution)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_410"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_411  (Blutfänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_411"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_412  (Pferdestärke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_412"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_413  (Sternensturz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_413"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_414  (Wühlfresser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_414"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_415  (Schleimwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_415"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_416  (Chemische Panik)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_416"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_417  (Klammheimliche Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_417"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_418  (Super-Gifthauch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_418"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_419  (Dornkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_419"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_42  (Feuersturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_42"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_420  (Langspieß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_420"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_421  (Aufschließen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_421"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_422  (Solarbrecher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_422"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_423  (Silberkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_423"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_424  (Wutausbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_424"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_425  (Schuppenrasseln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_425"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_426  (Energieförderung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_426"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_427  (Justified Press)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_427"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_428  (Rappel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_428"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_429  (Primatenhinterhalt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_429"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_43  (Aquaknarre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_43"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_430  (Psycholadung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_430"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_431  (Zen-Kopfstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_431"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_432  (Schnabelkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_432"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_433  (Thrash Metal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_433"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_434  (Beat Punk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_434"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_435  (Electronica)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_435"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_436  (Psychobilly)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_436"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_437  (Black Metal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_437"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_438  (Brass Rock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_438"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_439  (Photonenklaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_439"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_44  (Wellenplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_44"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_440  (Shoegaze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_440"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_441  (Süße Staffel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_441"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_442  (Startspannung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_442"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_443  (Süßer Überfluss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_443"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_444  (Expidermis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_444"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_445  (Watschensauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_445"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_446  (2-Step)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_446"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_447  (Aufgestellte Stacheln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_447"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_448  (Spezial-Zahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_448"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_449  (Blitzkrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_449"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_45  (Hydropumpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_45"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_450  (Plasmaorkan)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_450"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_451  (Flotter Sprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_451"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_452  (Zerschneider)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_452"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_453  (Präzisionspfeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_453"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_454  (Big Beat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_454"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_455  (Jump Blues)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_455"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_456  (Stromball)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_456"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_457  (Statischer Schock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_457"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_458  (Mondkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_458"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_459  (Stolperer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_459"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_46  (Surfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_46"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_460  (Turmkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_460"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_461  (Steinwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_461"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_462  (Wolwefänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_462"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_463  (Gemeinsamer Wurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_463"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_464  (Sandschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_464"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_465  (Sandgrab)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_465"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_466  (Einmischer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_466"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_467  (Mogelhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_467"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_468  (Herausreißer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_468"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_469  (New Wave)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_469"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_47  (Kopfweh)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_47"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_470  (Grindcore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_470"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_471  (Despotischer Schlund)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_471"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_472  (Electro House)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_472"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_473  (Versehentliche Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_473"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_474  (Dreier-Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_474"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_475  (Gigastoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_475"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_476  (Stachelstich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_476"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_477  (Scharfe Fänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_477"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_478  (Superstarke Umarmung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_478"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_479  (Schnellschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_479"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_48  (Aquaschneide)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_48"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_480  (Kühne Kumpel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_480"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_481  (Moombahton)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_481"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_482  (Schneidender Wind)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_482"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_483  (Blätterkanonade)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_483"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_484  (Abwärtstritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_484"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_485  (Zusatzhitze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_485"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_486  (Dark Lariat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_486"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_487  (Hyper Whirlpool)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_487"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_488  (Eisklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_488"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_489  (Doppeldreher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_489"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_49  (Rasierflosse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_49"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_490  (Gießen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_490"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_491  (Schaumserenade)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_491"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_492  (Durchrütteln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_492"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_493  (Elektroschock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_493"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_494  (Zermalmende Energie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_494"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_495  (Entwicklungsharmonie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_495"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_496  (Imitationsversuch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_496"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_497  (Lehmschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_497"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_498  (Erdbeben)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_498"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_499  (Hartes Einrollen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_499"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_5  (Käferbiss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_5"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_50  (Knöchelhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_50"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_500  (Finstere Fesseln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_500"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_501  (Verspielter Rempler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_501"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_502  (Schlitzende Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_502"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_503  (Kraftklammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_503"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_504  (Feuerodem)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_504"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_505  (Sammeln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_505"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_506  (Taumelhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_506"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_507  (Unmusikalisch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_507"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_508  (Blättertanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_508"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_509  (Schlafpuder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_509"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_51  (Megahieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_51"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_510  (Strauchler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_510"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_511  (Guillotine)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_511"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_512  (Kehrtwende)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_512"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_513  (Triplexhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_513"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_514  (Einzelsprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_514"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_515  (Glühende Kohlen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_515"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_516  (Sengender Atem)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_516"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_517  (Ausbrechende Flammen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_517"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_518  (Warmer Wurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_518"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_519  (Großes Auflodern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_519"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_52  (Sanfter Hieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_52"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_520  (Phönix-Turbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_520"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_521  (Bratende Hitze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_521"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_522  (Sturmgefängnis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_522"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_523  (Ausweichplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_523"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_524  (Tosender Schwung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_524"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_525  (Schrecklicher Strudel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_525"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_526  (Octazooka)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_526"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_527  (Stolperzieher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_527"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_528  (Heilfluss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_528"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_529  (Krabbhammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_529"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_53  (Giftige Tentakel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_53"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_530  (Feder-Zyklon)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_530"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_531  (Aufblitzendes Signal)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_531"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_532  (Funkenwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_532"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_533  (Fünkchenschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_533"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_534  (Donner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_534"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_535  (Erholung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_535"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_536  (Bibberwelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_536"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_537  (Köderklaps)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_537"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_538  (Funkelruf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_538"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_539  (Charme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_539"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_54  (Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_54"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_540  (Tempohechtsprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_540"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_541  (Lebensentzug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_541"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_542  (Energische Antwort)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_542"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_543  (Psystrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_543"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_544  (Wilder Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_544"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_545  (Traumtanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_545"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_546  (Abrupter Kopfstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_546"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_547  (Gigantische Presse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_547"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_548  (Kräftige Knöchel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_548"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_549  (Durchdringende Drehung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_549"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_55  (Zungenschelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_55"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_550  (Doppelhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_550"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_551  (Wuchthieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_551"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_552  (Giftschlitzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_552"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_553  (Anbinden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_553"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_554  (Dunkler Zerschneider)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_554"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_555  (Sturzklau)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_555"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_556  (Zertrümmernder Schweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_556"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_557  (Überspringen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_557"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_558  (Schaleneinschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_558"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_559  (Orkanstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_559"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_56  (Klammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_56"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_560  (Stahlflügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_560"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_561  (Schneidgetriebe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_561"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_562  (Radschleuder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_562"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_563  (Insektenleser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_563"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_564  (Zähneknirschen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_564"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_565  (Energieschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_565"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_566  (Überkreuzzerschneider)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_566"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_567  (Bremsender Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_567"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_568  (Schwanzschmetterer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_568"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_569  (Fliegen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_569"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_57  (K.O.-Krabbe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_57"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_570  (Nachäffen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_570"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_571  (Plötzlicher Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_571"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_572  (Honigschlecken)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_572"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_573  (Gegenschwung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_573"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_574  (Spezial-Hörner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_574"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_575  (Schmieranstrich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_575"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_576  (Urgewaltexplosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_576"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_577  (Anhaltender Kopfstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_577"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_578  (Lockendes Glühen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_578"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_579  (Freudenschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_579"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_58  (Wasserpfeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_58"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_580  (Doppelstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_580"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_581  (Nachtflut)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_581"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_582  (Volttackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_582"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_583  (Hurrikanhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_583"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_584  (Walzender Wahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_584"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_585  (Dreschflegel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_585"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_586  (Überkreuzflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_586"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_587  (Lodernder Niederprügler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_587"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_588  (Sprungfeder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_588"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_589  (Brisenangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_589"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_59  (Plumps)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_59"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_590  (Blätter der Zeit)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_590"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_591  (Gipfelmampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_591"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_592  (Nervengift)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_592"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_593  (Abfälle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_593"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_594  (Kristallwalzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_594"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_595  (Plätscherwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_595"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_596  (Voltgeschoss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_596"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_597  (Mini-Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_597"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_598  (Stromstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_598"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_599  (Trotzfunke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_599"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_6  (Windstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_6"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_60  (Gefährliches Horn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_60"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_600  (Verfluchende Worte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_600"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_601  (Scheinwerfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_601"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_602  (Klippenlawine)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_602"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_603  (Hydroknöchel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_603"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_604  (Bodycheck)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_604"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_605  (Sandspray)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_605"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_606  (Steinkante)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_606"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_607  (Verhängnisvolle Fänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_607"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_608  (Gedankenflut)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_608"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_609  (Schmelzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_609"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_61  (Klatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_61"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_610  (Matschbombe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_610"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_611  (Drachen-Arkana)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_611"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_612  (Lauchkloppe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_612"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_613  (Streckzunge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_613"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_614  (Schlummergesang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_614"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_615  (Elastische Heilung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_615"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_616  (Kälteruf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_616"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_617  (Spiralsturmangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_617"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_618  (Kreuzschere)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_618"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_619  (Kritische Scheren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_619"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_62  (Hydroplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_62"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_620  (Härtner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_620"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_621  (Auswahlpuder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_621"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_622  (Beißender Sturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_622"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_623  (Kratzfurie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_623"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_624  (Sanctoklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_624"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_625  (Zweigstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_625"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_626  (Holzgeweih)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_626"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_627  (Trommelansturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_627"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_628  (Schaufelkrallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_628"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_629  (Lodersprint)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_629"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_63  (Platscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_63"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_630  (Edle Verbrennung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_630"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_631  (Feuerfeger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_631"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_632  (Mega-Brand)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_632"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_633  (Flampivi-Hände)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_633"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_634  (Zungenpeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_634"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_635  (Panzerfalle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_635"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_636  (Kaskadenentwicklung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_636"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_637  (Hämmernder Schweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_637"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_638  (Mega-Blaster)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_638"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_639  (Rhythmische Schritte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_639"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_64  (Hyperstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_64"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_640  (Walpumpe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_640"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_641  (Paartackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_641"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_642  (Spiralhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_642"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_643  (Blockender Panzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_643"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_644  (Frostschutz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_644"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_645  (Fesselbiss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_645"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_646  (Stromgeschoss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_646"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_647  (Blitzlanze)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_647"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_648  (Blitzeinschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_648"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_649  (Stromnager)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_649"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_65  (Blasengully)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_65"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_650  (Brüller)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_650"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_651  (Schmutziger Wurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_651"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_652  (Mega-Harmonie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_652"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_653  (Hinterhalt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_653"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_654  (Stürmische Stoßwelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_654"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_655  (Ballonbeschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_655"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_656  (Klingellärm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_656"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_657  (Seelenschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_657"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_658  (Sternenwiege)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_658"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_659  (Verwirrender Duft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_659"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_66  (Urzeitsog)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_66"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_660  (Watteschild)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_660"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_661  (Diebeskuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_661"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_662  (Schneller Boxschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_662"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_663  (Rempelklatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_663"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_664  (Reißende Zähne)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_664"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_665  (Mampfbiss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_665"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_666  (Wilder Wirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_666"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_667  (Schwere Rakete)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_667"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_668  (Letzte-Chance-Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_668"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_669  (Sandwirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_669"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_67  (Eisstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_67"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_670  (Lebenssauger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_670"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_671  (Brandstempel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_671"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_672  (Kohlestreuer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_672"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_673  (Böses Gebot)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_673"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_674  (Unheilvolle Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_674"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_675  (Finstere Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_675"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_676  (Schattenverlies)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_676"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_677  (Hyperlicht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_677"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_678  (Drachenpeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_678"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_679  (Kniefalltrick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_679"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_68  (Frostschwinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_68"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_680  (Kollektiver Biss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_680"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_681  (Schwertschneide)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_681"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_682  (Eiserne Flügel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_682"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_683  (Gigaklaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_683"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_684  (Turboschwinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_684"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_685  (Windhose)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_685"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_686  (Aufgeregter Schweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_686"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_687  (Bodyslam)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_687"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_688  (Flinke Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_688"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_689  (Dröhnendes Gebrüll)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_689"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_69  (Flattern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_69"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_690  (Knuddler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_690"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_691  (Katzenkick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_691"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_692  (Schwindelkopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_692"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_693  (Reißfänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_693"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_694  (Gefährlicher Biss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_694"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_695  (Dauerrollen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_695"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_696  (Unbegrenzte Kraft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_696"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_697  (Blubber)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_697"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_698  (Gigantischer Wirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_698"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_699  (Platschexperte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_699"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_7  (Einstich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_7"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_70  (Flügelschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_70"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_700  (Aero-Ass)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_700"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_701  (Metallexplosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_701"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_702  (Überschallimpuls)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_702"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_703  (Freund imitieren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_703"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_704  (Synthese)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_704"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_705  (Krisenblüte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_705"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_706  (Wachstumsstrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_706"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_707  (Herunterhängen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_707"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_708  (Feuerroter Sturzflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_708"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_709  (Zweifachplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_709"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_71  (Spritzwasser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_71"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_710  (Dreifachbeschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_710"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_711  (Überraschungsschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_711"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_712  (Aquadusche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_712"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_713  (Spiegelsalve)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_713"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_714  (Führen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_714"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_715  (Kraftvorrat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_715"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_716  (Lockduft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_716"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_717  (Parfümbombe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_717"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_718  (Geodetonation)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_718"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_719  (Megatonnenstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_719"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_72  (Schleierschlitzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_72"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_720  (Schnelle Tritte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_720"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_721  (Hacker)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_721"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_722  (Fußtritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_722"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_723  (Mülltreffer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_723"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_724  (Stibitzen und Fliehen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_724"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_725  (Säurespeier)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_725"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_726  (Metallverteidiger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_726"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_727  (Stahlhartes Rollen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_727"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_728  (Cyberstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_728"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_729  (Hurrikanschwinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_729"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_73  (Regenplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_73"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_730  (Sternschauer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_730"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_731  (Giftring)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_731"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_732  (Zerreißende Dornen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_732"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_733  (Nietenranke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_733"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_734  (Stachelschild)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_734"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_735  (Farbenprächtiger Puder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_735"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_736  (Ground Beat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_736"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_737  (Hinaufschweben)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_737"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_738  (Energiegeladene Blätter)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_738"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_739  (Feuerknochen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_739"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_74  (Sekundärschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_74"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_740  (Blauflammen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_740"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_741  (Motivierender Tanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_741"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_742  (Versengung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_742"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_743  (Pop-Punk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_743"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_744  (Feuerballschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_744"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_745  (Ofentanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_745"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_746  (Fesselnder Schnee)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_746"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_747  (Dreifachdreher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_747"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_748  (Box voller Überraschungen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_748"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_749  (Großer Strudel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_749"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_75  (Pulverschnee)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_75"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_750  (Erbarmungsloser Zerstörer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_750"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_751  (Frösteln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_751"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_752  (Frostsperre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_752"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_753  (Aurorastrahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_753"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_754  (Hagelknast)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_754"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_755  (Ausspuckschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_755"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_756  (Brunnentanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_756"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_757  (Donnerrüttler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_757"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_758  (Gewaltiger Donner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_758"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_759  (Stromschweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_759"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_76  (Donnerblitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_76"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_760  (Kumpelfunke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_760"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_761  (Funkenschaden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_761"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_762  (Photonenlaser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_762"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_763  (Umstoßen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_763"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_764  (Psychoturbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_764"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_765  (Fantastische Kraft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_765"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_766  (Mini-Groll)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_766"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_767  (Erloschene Freunde)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_767"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_768  (Zen-Scherbe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_768"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_769  (Zertrümmern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_769"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_77  (Rundparcours)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_77"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_770  (Klopfender Hammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_770"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_771  (Psycho-Tritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_771"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_772  (Juwelenkraft)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_772"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_773  (Megatonnenkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_773"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_774  (Tyrannische Reißer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_774"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_775  (Schleuder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_775"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_776  (Einmarschieren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_776"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_777  (Fundamentstanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_777"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_778  (Angeberei)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_778"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_779  (Gnadenloser Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_779"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_78  (Kugelblitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_78"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_780  (Sprühwasser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_780"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_781  (Rauchwolkenschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_781"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_782  (Jammerstimme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_782"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_783  (Klauen anlegen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_783"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_784  (Nieder mit den Schwachen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_784"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_785  (Einschlag der Bosheit)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_785"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_786  (Breakcore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_786"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_787  (Riesiger Biss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_787"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_788  (Aufheizknirscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_788"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_789  (Zuschnappfalle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_789"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_79  (Rundumangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_79"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_790  (Zerhäckseln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_790"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_791  (Duoklingen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_791"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_792  (Grandioser Schild)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_792"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_793  (Drachensturzflug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_793"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_794  (Wohl fühlen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_794"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_795  (Ruhiger Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_795"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_796  (Doppelschlag-Familie)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_796"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_797  (Schweifklopfen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_797"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_798  (Luftstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_798"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_799  (Gähner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_799"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_8  (Scharfer Stich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_8"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_80  (Elektroball)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_80"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_800  (Bester Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_800"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_801  (Keile)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_801"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_802  (Schwankende Schritte)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_802"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_803  (Durchdringender Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_803"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_804  (Ausschwärmen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_804"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_805  (Familienniederprügler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_805"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_806  (Eisiger Schnee)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_806"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_807  (Blumentrick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_807"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_808  (Verspielter Kick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_808"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_809  (Hitzige Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_809"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_81  (Donnerschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_81"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_810  (Ballrolle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_810"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_811  (Fesselnde Gier)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_811"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_812  (Fröhlicher Gesang)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_812"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_813  (Rüstungskanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_813"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_814  (Megafeuer des Neids)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_814"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_815  (Platschende Drehung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_815"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_816  (Hydrokick)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_816"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_817  (Tripelpeitsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_817"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_818  (Düsenhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_818"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_819  (Eiszapfenrakete)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_819"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_82  (Nadelrakete)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_82"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_820  (Eishieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_820"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_821  (Abwurfspirale)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_821"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_822  (Aufholjagd)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_822"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_823  (Eiszapfenregen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_823"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_824  (Zufälliger Funke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_824"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_825  (Starkstromkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_825"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_826  (Blitzlaser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_826"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_827  (Kampfschwert)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_827"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_828  (Letzte Ehre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_828"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_829  (Dauermünzwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_829"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_83  (Tosender Donner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_83"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_830  (Raserei)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_830"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_831  (Dynamitstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_831"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_832  (Stachelspore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_832"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_833  (Adrenalinhammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_833"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_834  (Arroganter Einschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_834"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_835  (Tobende Fänge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_835"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_836  (Schlammhammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_836"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_837  (Raketensprung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_837"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_838  (Farbenfroher Angriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_838"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_839  (Riesenhammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_839"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_84  (Pikser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_84"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_840  (Eisenvorrat)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_840"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_841  (Freudiges Ausgeben)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_841"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_842  (Beinstampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_842"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_843  (Dreifaches Nagen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_843"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_844  (Mitfahrkumpel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_844"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_845  (Chakrafaust)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_845"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_846  (Nährstoffe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_846"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_847  (Rasende Klinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_847"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_848  (Drehender Zug)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_848"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_849  (Mentaler Zermalmer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_849"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_85  (Stromtritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_85"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_850  (Kampfstampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_850"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_851  (Flammenschweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_851"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_852  (Wütender Brand)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_852"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_853  (Donnernder Vulkan)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_853"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_854  (Reihumwäsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_854"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_855  (Wutstarre)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_855"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_856  (Wasserplatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_856"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_857  (Kaiserlicher Kahlschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_857"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_858  (Wasser-Turbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_858"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_859  (Zündender Donner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_859"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_86  (Donnerspeer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_86"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_860  (Blitzbeschleuniger)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_860"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_861  (Hypnose)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_861"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_862  (Wundersames Gedächtnis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_862"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_863  (Wiegender Tanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_863"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_864  (Vorwagen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_864"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_865  (Schlammbombe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_865"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_866  (Gaia-Ausbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_866"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_867  (Absatzdreher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_867"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_868  (Labyrinth der Schatten)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_868"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_869  (Dunkler Schlummer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_869"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_87  (Mini-Stromstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_87"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_870  (Schlammstrudel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_870"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_871  (Energiespendendes Rad)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_871"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_872  (Enorme Explosion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_872"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_873  (Kugelschwung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_873"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_874  (Furioses Flitzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_874"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_875  (Schwanzstreich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_875"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_876  (Himmelssegen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_876"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_877  (Drachenwelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_877"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_878  (Verheerung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_878"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_879  (Klammergriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_879"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_88  (Kopf-Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_88"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_880  (Einflussreiche Freunde)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_880"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_881  (Hinterhältige Klinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_881"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_882  (Laubklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_882"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_883  (Vernichtender Schweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_883"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_884  (Feuerwehr)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_884"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_885  (Pilzspore)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_885"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_886  (Angriff im Morgengrauen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_886"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_887  (Stechender Puder)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_887"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_888  (Schutzschild)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_888"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_889  (Verteiler)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_889"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_89  (Donnerzahn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_89"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_890  (Sauerspucke)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_890"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_891  (Zurückschlagen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_891"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_892  (Eruption)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_892"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_893  (Vulkangetöse)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_893"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_894  (Sonniges Versengen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_894"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_895  (V-Flamme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_895"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_896  (Hitzesturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_896"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_897  (Feuerpfeil)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_897"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_898  (Zweimal zuschlagen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_898"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_899  (Überfall)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_899"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_9  (Ramme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_9"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_90  (Schweifvertrimmer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_90"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_900  (Schlammige Kopfnuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_900"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_901  (Wolkige Absorption)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_901"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_902  (Verschneites Frieren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_902"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_903  (Funkelperle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_903"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_904  (Energiereflexion)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_904"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_905  (Eiswatsche)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_905"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_906  (Tornadoschuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_906"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_907  (Magnetstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_907"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_908  (Sturmklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_908"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_909  (Einzelschussballern)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_909"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_91  (Ruckzuckhieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_91"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_910  (Elektrokracher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_910"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_911  (Blitzschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_911"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_912  (Racheschock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_912"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_913  (Voller-Bauch-Blitz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_913"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_914  (Diamantsturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_914"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_915  (Piesacken der Taumelnden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_915"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_916  (Säuselstimme)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_916"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_917  (Anfallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_917"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_918  (Verrückter Hammer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_918"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_919  (Tränenreicher Angriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_919"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_92  (Donnerschock)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_92"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_920  (Kampffaust)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_920"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_921  (Nahkampf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_921"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_922  (Kämpferischer Puls)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_922"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_923  (Irdenes Schwert)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_923"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_924  (Überkopfwurf)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_924"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_925  (Durchbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_925"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_926  (Dreifachschmetterer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_926"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_927  (Bergbruch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_927"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_928  (Super-Sandwirbel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_928"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_929  (Training)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_929"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_93  (Hieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_93"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_930  (Gasbombe)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_930"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_931  (Stachelsturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_931"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_932  (Aufstieg)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_932"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_933  (Rabiate Krallen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_933"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_934  (Gefährliche Sporen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_934"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_935  (Aus heiterem Himmel)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_935"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_936  (Entwicklungsstörer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_936"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_937  (Finstere Vergeltung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_937"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_938  (Schützender Sturmangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_938"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_939  (Psycho-Resonanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_939"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_94  (Magischer Schuss)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_94"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_940  (Nachthieb)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_940"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_941  (Aufziehkanone)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_941"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_942  (Absturz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_942"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_943  (Flugsand)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_943"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_944  (Drachenpuls)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_944"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_945  (Wunden verbinden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_945"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_946  (Sprungtritt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_946"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_947  (Pieks und weg)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_947"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_948  (Wutklauen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_948"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_949  (Giga-Turbo)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_949"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_95  (Teleport)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_95"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_950  (Psycho-Plus)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_950"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_951  (Welpenhaufen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_951"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_952  (Kämpfende Reißzähne)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_952"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_953  (Heilendes Licht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_953"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_954  (Herzlicher Glanz)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_954"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_955  (Schlummerschweif)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_955"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_956  (Launischer Tackle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_956"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_957  (Lanzenstich)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_957"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_958  (Beherzter Klatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_958"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_959  (Wildes Winden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_959"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_96  (Super-Psischlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_96"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_960  (Thermowindstoß)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_960"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_961  (Festsetzen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_961"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_962  (Eisiger Start)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_962"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_963  (Voltwelle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_963"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_964  (Wiederholter Klatscher)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_964"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_965  (Binärdonner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_965"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_966  (Hadronen-Strahl)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_966"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_967  (Mentale Blockade)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_967"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_968  (Lichteinschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_968"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_969  (Verscheuchender Schrei)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_969"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_97  (Psychokinese)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_97"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_970  (Fesselnder Start)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_970"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_971  (Racheklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_971"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_972  (Modulare Axt)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_972"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_973  (Aufzählklinge)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_973"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_974  (Bebender Stampfer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_974"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_975  (Sogangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_975"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_976  (Weltenvernichter)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_976"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_977  (Juwelengeschenk)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_977"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_978  (Klinge des Feldherrn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_978"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_979  (Giftiger Schlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_979"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_98  (Würgegas)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_98"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_980  (Peitschender Wind)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_980"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_981  (Wind der Finsternis)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_981"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_982  (Eisenschwung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_982"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_983  (Rollen und Entfesseln)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_983"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_984  (Fegende Schwaden)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_984"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_985  (Versengende Unterbrechung)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_985"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_986  (K.O.-Donner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_986"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_987  (Abruptes Bohren)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_987"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_988  (Klaue)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_988"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_989  (Sturzflugangriff)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_989"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_99  (Irrlicht)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_99"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_990  (Prisma-Einschlag)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_990"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_991  (Zellsturm)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_991"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_992  (Bodenlaser)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_992"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_993  (Dynamisches Horn)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_993"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_994  (Feuerhauch)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_994"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_995  (Schimmernder Schlitzer)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_995"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_996  (Energiedruck)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_996"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_997  (Herumrennen)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_997"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_998  (Aufziehdonner)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_998"
+  },
+  {
+    "NameMSID": "ATTACK_NAME_999  (Verwirrende Welle)",
+    "PokemonAttackNameID": "PokemonAttackName_ID_999"
+  }
+]

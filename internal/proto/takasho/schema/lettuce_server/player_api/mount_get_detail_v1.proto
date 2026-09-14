@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/mount/mount.proto";
+
+message MountGetDetailV1 {
+  message Types {
+    message Request {
+      uint64 mount_id = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.mount.Mount mount = 2;
+    }
+  }
+}

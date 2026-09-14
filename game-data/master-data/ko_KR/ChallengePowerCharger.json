@@ -1,0 +1,10 @@
+[
+  {
+    "DescriptionMSID": "ITEM_DESC_CHARGER_C3  (챌린지 파워 대기 시간을 단축하는 플레이\n아이템입니다. 사용하면 겟 챌린지까지 필요한 시간이\n1시간 단축됩니다. 미션 정보 등에서 획득 가능합니다.)",
+    "ID": "CHALLENGE_CHARGER_110030",
+    "NameMSID": "ITEM_NAME_CHARGER_C3  (챌린지 모래시계)",
+    "RecoveryDuration": 60,
+    "SortOrderPriority": 10,
+    "Type": 300
+  }
+]

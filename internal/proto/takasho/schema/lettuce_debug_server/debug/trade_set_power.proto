@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_server/resource/trade/trade_power.proto";
+
+message TradeSetPower {
+  message Types {
+    message Request {
+      int64 amount = 1;
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.trade.TradePower trade_power = 1;
+    }
+  }
+}

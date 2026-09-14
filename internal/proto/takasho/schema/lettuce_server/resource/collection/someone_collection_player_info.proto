@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.collection;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/collection/collection_slot.proto";
+import "takasho/schema/lettuce_server/resource/collection/collection_type.proto";
+
+message SomeoneCollectionPlayerInfo {
+  string player_id = 1;
+  string nickname = 2;
+  string icon_id = 3;
+  uint64 like_count = 4;
+  string thumbnail_id = 5;
+  CollectionType type = 6;
+  uint64 collection_id = 7;
+  repeated CollectionSlot slots = 8;
+  google.protobuf.Timestamp like_history_expired_at = 10;
+  repeated string hash_tag_ids = 11;
+}

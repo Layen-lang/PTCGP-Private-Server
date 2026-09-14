@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.give_card;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/card/card_instance.proto";
+
+message GiveCardHistory {
+  takasho.schema.lettuce_server.resource.card.CardInstance given_card = 100;
+  string receiver_player_id = 200;
+  google.protobuf.Timestamp given_at = 300;
+}

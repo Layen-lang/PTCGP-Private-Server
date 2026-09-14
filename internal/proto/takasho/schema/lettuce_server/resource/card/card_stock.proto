@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.card;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/language/language.proto";
+
+message CardStock {
+  message Types {
+    message LangTag {
+      takasho.schema.lettuce_server.resource.language.Language lang = 1;
+      uint64 amount = 2;
+    }
+  }
+  string card_id = 1;
+  uint64 card_amount = 2;
+  repeated CardStock.Types.LangTag language_tags = 3;
+  repeated string expansion_ids = 4;
+  google.protobuf.Timestamp first_received_at = 98;
+  google.protobuf.Timestamp last_received_at = 99;
+  google.protobuf.Timestamp last_card_skin_received_at = 100;
+  google.protobuf.Timestamp last_card_skin_and_frame_received_at = 101;
+}

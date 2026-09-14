@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/emblem_event_win_type.proto";
+
+message PvpEventGetEmblemProfileV1 {
+  message Types {
+    message Request {
+      string emblem_event_id = 1;
+    }
+    message Response {
+      string current_emblem_step_id = 1;
+      EmblemEventWinType win_type = 2;
+      int64 value = 3;
+      string terminal_emblem_step_id = 4;
+      int64 max_value = 5;
+    }
+  }
+}
