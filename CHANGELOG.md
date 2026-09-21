@@ -6,6 +6,21 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.7.2.1] - 2026-09-21
+
+### Added
+
+- Master-data-driven tutorial routes, including route-specific card packs,
+  decks, feed cards, rewards, and persistent route selection.
+
+### Fixed
+
+- Install the local certificate in the Conscrypt APEX and Android app mount
+  namespaces used by Android 14 and newer, while retaining the legacy trust
+  store for older emulators.
+- Deduplicate multiple ADB transports that identify the same running emulator,
+  including recent MuMu releases without `ro.serialno`.
+
 ## [1.7.2.0] - 2026-09-14
 
 This is the first public release of PTCGP Private Server.

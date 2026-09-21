@@ -200,6 +200,43 @@ type MissionGroupRewardStep struct {
 	Amount                     int64
 }
 
+type TutorialRewardItem struct {
+	ID, ItemID, ExpansionID string
+	ItemType                int
+	Amount                  int64
+}
+
+type TutorialReward struct {
+	ID, TutorialID string
+	TutorialStep   int64
+	AcquireMethod  int
+	Items          []TutorialRewardItem
+}
+
+type TutorialExchangeRoute struct {
+	PackID, DeckID string
+	RouteType      int32
+}
+
+type TutorialFeed struct {
+	ID, RewardCardID string
+	RouteType        int32
+	CardIDs          []string
+	ExpansionIDs     []string
+}
+
+type TutorialPackSetting struct {
+	ID, PackID, CeilGroupID, GuaranteeID string
+	Experience, CeilPoints               int64
+	DisplayedPackIDs                     []string
+}
+
+type LevelReward struct {
+	ID, ItemID, ExpansionID string
+	Level, ItemType         int
+	Amount                  int64
+}
+
 // TutorialCompletion is the terminal status expected by the client for one
 // tutorial. Reward-backed tutorials are discovered from the master data.
 type TutorialCompletion struct {
@@ -234,6 +271,11 @@ type Catalog struct {
 	missions                 map[string]Mission
 	missionRewards           map[string]MissionReward
 	missionGroupSteps        map[string]MissionGroupRewardStep
+	tutorialRewards          map[string]TutorialReward
+	tutorialRoutes           map[string]TutorialExchangeRoute
+	tutorialFeeds            map[int32]TutorialFeed
+	tutorialPack             TutorialPackSetting
+	levelRewards             map[int][]LevelReward
 	tutorialCompletions      []TutorialCompletion
 	home                     HomeSettings
 }
@@ -264,7 +306,7 @@ func OpenLocale(root, locale, fallback string) (*Catalog, error) {
 		root: abs, locale: locale, fallback: fallback,
 		cards: map[string]Card{}, expansions: map[string]Expansion{}, packs: map[string]Pack{},
 		packTables: map[string]PackTable{}, packProducts: map[string]PackProduct{},
-		items: map[string]Item{}, currencies: map[string]Currency{}, levels: map[int]Level{}, cosmetics: map[string]Cosmetic{}, profileMessages: map[string]ProfileMessage{}, cardExchanges: map[string]CardExchange{}, shopContents: map[string]ShopContent{}, shopProducts: map[string]ShopProduct{}, trophies: map[string]Trophy{}, rentalDecks: map[string]RentalDeck{}, soloBattles: map[string]SoloBattle{}, missions: map[string]Mission{}, missionRewards: map[string]MissionReward{}, missionGroupSteps: map[string]MissionGroupRewardStep{},
+		items: map[string]Item{}, currencies: map[string]Currency{}, levels: map[int]Level{}, cosmetics: map[string]Cosmetic{}, profileMessages: map[string]ProfileMessage{}, cardExchanges: map[string]CardExchange{}, shopContents: map[string]ShopContent{}, shopProducts: map[string]ShopProduct{}, trophies: map[string]Trophy{}, rentalDecks: map[string]RentalDeck{}, soloBattles: map[string]SoloBattle{}, missions: map[string]Mission{}, missionRewards: map[string]MissionReward{}, missionGroupSteps: map[string]MissionGroupRewardStep{}, tutorialRewards: map[string]TutorialReward{}, tutorialRoutes: map[string]TutorialExchangeRoute{}, tutorialFeeds: map[int32]TutorialFeed{}, levelRewards: map[int][]LevelReward{},
 	}
 	if err := c.load(); err != nil {
 		return nil, err
@@ -485,6 +527,44 @@ func (c *Catalog) TutorialCompletions() []TutorialCompletion {
 	return append([]TutorialCompletion(nil), c.tutorialCompletions...)
 }
 
+func tutorialRewardKey(tutorialID string, step int64) string {
+	return fmt.Sprintf("%s:%d", tutorialID, step)
+}
+
+func (c *Catalog) TutorialReward(tutorialID string, step int64) (TutorialReward, bool) {
+	v, ok := c.tutorialRewards[tutorialRewardKey(tutorialID, step)]
+	v.Items = append([]TutorialRewardItem(nil), v.Items...)
+	return v, ok
+}
+
+func (c *Catalog) TutorialExchangeRoute(packID string) (TutorialExchangeRoute, error) {
+	v, ok := c.tutorialRoutes[packID]
+	if !ok {
+		return TutorialExchangeRoute{}, unknown("tutorial exchange route", packID)
+	}
+	return v, nil
+}
+
+func (c *Catalog) TutorialFeed(routeType int32) (TutorialFeed, error) {
+	v, ok := c.tutorialFeeds[routeType]
+	if !ok {
+		return TutorialFeed{}, unknown("tutorial feed route", fmt.Sprint(routeType))
+	}
+	v.CardIDs = append([]string(nil), v.CardIDs...)
+	v.ExpansionIDs = append([]string(nil), v.ExpansionIDs...)
+	return v, nil
+}
+
+func (c *Catalog) TutorialPackSetting() TutorialPackSetting {
+	v := c.tutorialPack
+	v.DisplayedPackIDs = append([]string(nil), v.DisplayedPackIDs...)
+	return v
+}
+
+func (c *Catalog) LevelRewards(level int) []LevelReward {
+	return append([]LevelReward(nil), c.levelRewards[level]...)
+}
+
 func unknown(kind, id string) error { return fmt.Errorf("%w: %s %q", ErrUnknownID, kind, id) }
 func sorted[V any](source map[string]V, key func(V) string) []V {
 	result := make([]V, 0, len(source))
@@ -647,8 +727,38 @@ type agreementRow struct {
 	AgreementVersion string
 }
 type tutorialRewardRow struct {
-	TutorialID   string
-	TutorialStep int64
+	ID, TutorialID string
+	TutorialStep   int64
+	AcquireMethod  int
+	RewardItemIds  []string
+}
+type tutorialRewardItemRow struct {
+	TutorialRewardItemID, ItemID, ExpansionID string
+	ItemType                                  int
+	Amount                                    int64
+}
+type tutorialExchangeRouteRow struct {
+	ExchangeRouteType      int32
+	PackID, TutorialDeckID string
+}
+type tutorialFeedRow struct {
+	ExchangeRouteType                           int32
+	TutorialFeedFreePackID, RewardPokemonCardID string
+	PokemonCardIDs, ExpansionIDsPriority        []string
+}
+type tutorialPackSettingRow struct {
+	TutorialPackSettingID, PackID, PackCeilPointSharedGroupID string
+	Exp, PackCeilPointAmount                                  int64
+	TutorialDisplayedPackIDs                                  []string
+}
+type levelRewardRow struct {
+	ID, ItemID, ExpansionID string
+	Level, ItemType         int
+	Amount                  int64
+}
+type packGuaranteeRow struct {
+	ID                    string
+	GuaranteeGroupPackIDs []string `json:"guarantee_group_pack_ids"`
 }
 type rentalDeckRow struct {
 	RentalDeckID     string
@@ -787,6 +897,9 @@ func (c *Catalog) load() error {
 	if err := c.loadLevels(); err != nil {
 		return err
 	}
+	if err := c.loadTutorialDefinitions(); err != nil {
+		return err
+	}
 	if err := c.loadCosmetics(); err != nil {
 		return err
 	}
@@ -922,7 +1035,9 @@ func (c *Catalog) loadTutorialCompletions() error {
 		if row.TutorialID == "" || row.TutorialStep <= 0 {
 			return fmt.Errorf("validate TutorialRewards.json: invalid tutorial %q step %d", row.TutorialID, row.TutorialStep)
 		}
-		if row.TutorialStep > completed[row.TutorialID] {
+		if row.TutorialID == "1011" && (completed[row.TutorialID] == 0 || row.TutorialStep < completed[row.TutorialID]) {
+			completed[row.TutorialID] = row.TutorialStep
+		} else if row.TutorialID != "1011" && row.TutorialStep > completed[row.TutorialID] {
 			completed[row.TutorialID] = row.TutorialStep
 		}
 	}
@@ -933,6 +1048,104 @@ func (c *Catalog) loadTutorialCompletions() error {
 	sort.Slice(c.tutorialCompletions, func(i, j int) bool {
 		return c.tutorialCompletions[i].ID < c.tutorialCompletions[j].ID
 	})
+	return nil
+}
+
+func (c *Catalog) loadTutorialDefinitions() error {
+	itemRows, err := readLocalized[tutorialRewardItemRow](c, "TutorialRewardItems.json")
+	if err != nil {
+		return err
+	}
+	items := make(map[string]TutorialRewardItem, len(itemRows))
+	for _, row := range itemRows {
+		if row.TutorialRewardItemID == "" || row.ItemID == "" || row.Amount <= 0 {
+			return fmt.Errorf("validate TutorialRewardItems.json: invalid reward item %q", row.TutorialRewardItemID)
+		}
+		items[row.TutorialRewardItemID] = TutorialRewardItem{ID: row.TutorialRewardItemID, ItemID: row.ItemID, ExpansionID: row.ExpansionID, ItemType: row.ItemType, Amount: row.Amount}
+	}
+	rewardRows, err := readLocalized[tutorialRewardRow](c, "TutorialRewards.json")
+	if err != nil {
+		return err
+	}
+	for _, row := range rewardRows {
+		if row.ID == "" || row.TutorialID == "" || row.TutorialStep <= 0 {
+			return fmt.Errorf("validate TutorialRewards.json: invalid reward %q", row.ID)
+		}
+		reward := TutorialReward{ID: row.ID, TutorialID: row.TutorialID, TutorialStep: row.TutorialStep, AcquireMethod: row.AcquireMethod}
+		for _, itemID := range row.RewardItemIds {
+			item, ok := items[itemID]
+			if !ok {
+				return fmt.Errorf("validate TutorialRewards.json: reward item %q is unknown", itemID)
+			}
+			reward.Items = append(reward.Items, item)
+		}
+		c.tutorialRewards[tutorialRewardKey(row.TutorialID, row.TutorialStep)] = reward
+	}
+	routeRows, err := readLocalized[tutorialExchangeRouteRow](c, "TutorialExchangeRoutes.json")
+	if err != nil {
+		return err
+	}
+	for _, row := range routeRows {
+		if row.PackID == "" || row.TutorialDeckID == "" || row.ExchangeRouteType < 1 || row.ExchangeRouteType > 3 {
+			return fmt.Errorf("validate TutorialExchangeRoutes.json: invalid route for pack %q", row.PackID)
+		}
+		if _, ok := c.packs[row.PackID]; !ok {
+			return fmt.Errorf("validate TutorialExchangeRoutes.json: pack %q is unknown", row.PackID)
+		}
+		c.tutorialRoutes[row.PackID] = TutorialExchangeRoute{PackID: row.PackID, DeckID: row.TutorialDeckID, RouteType: row.ExchangeRouteType}
+	}
+	feedRows, err := readLocalized[tutorialFeedRow](c, "TutorialFeedFreePack.json")
+	if err != nil {
+		return err
+	}
+	for _, row := range feedRows {
+		if row.TutorialFeedFreePackID == "" || row.RewardPokemonCardID == "" || len(row.PokemonCardIDs) == 0 {
+			return fmt.Errorf("validate TutorialFeedFreePack.json: invalid feed %q", row.TutorialFeedFreePackID)
+		}
+		for _, cardID := range append(append([]string(nil), row.PokemonCardIDs...), row.RewardPokemonCardID) {
+			if _, ok := c.cards[cardID]; !ok {
+				return fmt.Errorf("validate TutorialFeedFreePack.json: card %q is unknown", cardID)
+			}
+		}
+		cardIDs := append([]string(nil), row.PokemonCardIDs...)
+		sort.Strings(cardIDs)
+		c.tutorialFeeds[row.ExchangeRouteType] = TutorialFeed{ID: row.TutorialFeedFreePackID, RewardCardID: row.RewardPokemonCardID, RouteType: row.ExchangeRouteType, CardIDs: cardIDs, ExpansionIDs: append([]string(nil), row.ExpansionIDsPriority...)}
+	}
+	packRows, err := readLocalized[tutorialPackSettingRow](c, "TutorialPackSetting.json")
+	if err != nil {
+		return err
+	}
+	if len(packRows) != 1 || packRows[0].PackID == "" {
+		return fmt.Errorf("validate TutorialPackSetting.json: exactly one tutorial pack setting is required")
+	}
+	packRow := packRows[0]
+	if _, ok := c.packs[packRow.PackID]; !ok {
+		return fmt.Errorf("validate TutorialPackSetting.json: pack %q is unknown", packRow.PackID)
+	}
+	guaranteeRows, err := readLocalized[packGuaranteeRow](c, "PackGuaranteePointMaster.json")
+	if err != nil {
+		return err
+	}
+	guaranteeID := ""
+	for _, row := range guaranteeRows {
+		for _, packID := range row.GuaranteeGroupPackIDs {
+			if packID == packRow.PackID {
+				guaranteeID = row.ID
+				break
+			}
+		}
+	}
+	c.tutorialPack = TutorialPackSetting{ID: packRow.TutorialPackSettingID, PackID: packRow.PackID, CeilGroupID: packRow.PackCeilPointSharedGroupID, GuaranteeID: guaranteeID, Experience: packRow.Exp, CeilPoints: packRow.PackCeilPointAmount, DisplayedPackIDs: append([]string(nil), packRow.TutorialDisplayedPackIDs...)}
+	levelRows, err := readLocalized[levelRewardRow](c, "PlayerLevelUpRewards.json")
+	if err != nil {
+		return err
+	}
+	for _, row := range levelRows {
+		if row.ID == "" || row.ItemID == "" || row.Level < 2 || row.Amount <= 0 {
+			return fmt.Errorf("validate PlayerLevelUpRewards.json: invalid reward %q", row.ID)
+		}
+		c.levelRewards[row.Level] = append(c.levelRewards[row.Level], LevelReward{ID: row.ID, ItemID: row.ItemID, ExpansionID: row.ExpansionID, Level: row.Level, ItemType: row.ItemType, Amount: row.Amount})
+	}
 	return nil
 }
 

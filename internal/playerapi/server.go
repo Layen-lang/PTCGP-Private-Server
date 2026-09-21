@@ -78,7 +78,7 @@ func NewGRPCServer(players *player.Manager, packs *packlab.Engine, master *catal
 	api.RegisterSystemServer(server, service)
 	registerStartupReadServers(server, players)
 	registerStatefulReadServers(server, players, packs, master)
-	registerSupplementalServers(server, players)
+	registerSupplementalServers(server, players, packs)
 	registerSimpleServers(server, players)
 	return server, nil
 }
@@ -135,6 +135,16 @@ func (s *Server) LoginV1(ctx context.Context, _ *api.SystemLoginV1_Types_Request
 	if err != nil {
 		return nil, err
 	}
+	starterChanges, err := s.players.GrantStarterInventory(ctx, profile.Player.ID)
+	if err != nil {
+		return nil, status.Error(codes.Internal, "starter inventory unavailable")
+	}
+	if len(starterChanges) > 0 {
+		profile, err = s.players.Profile(ctx, profile.Player.ID)
+		if err != nil {
+			return nil, status.Error(codes.Internal, "starter inventory unavailable")
+		}
+	}
 	if err := s.players.AddAction(ctx, profile.Player.ID, player.ActionLogin, "", 1, true); err != nil {
 		return nil, status.Error(codes.Internal, "cannot record login action")
 	}
@@ -144,7 +154,7 @@ func (s *Server) LoginV1(ctx context.Context, _ *api.SystemLoginV1_Types_Request
 	}
 	return &api.SystemLoginV1_Types_Response{
 		PlayerSettingsInfo:    persistedSettingsInfo(profile, nil, s.players.HomeSettings()),
-		ItemAcquisitionResult: emptyItemAcquisitionResult(profile),
+		ItemAcquisitionResult: acquisitionFromChanges(profile, starterChanges, s.players.Catalog()),
 		TutorialCompletes:     tutorial,
 	}, nil
 }

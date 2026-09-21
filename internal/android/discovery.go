@@ -75,7 +75,15 @@ func discoverDevices(ctx context.Context, runner Runner, requested, packageName 
 			compatible: err == nil && strings.Contains(string(probe), "package:"),
 			preferred:  preferred[serial],
 		}
-		identity, identityErr := runner.Run(ctx, "adb", "-s", serial, "shell", "getprop", "ro.serialno")
+		// A single emulator can be advertised by ADB through several aliases
+		// (for example emulator-5554 plus one or more localhost ports). Modern
+		// MuMu releases also leave ro.serialno empty. The kernel boot ID is shared
+		// by every transport to the same running Android instance while remaining
+		// distinct across concurrently running emulators.
+		identity, identityErr := runner.Run(ctx, "adb", "-s", serial, "shell", "cat", "/proc/sys/kernel/random/boot_id")
+		if identityErr != nil || strings.TrimSpace(string(identity)) == "" {
+			identity, identityErr = runner.Run(ctx, "adb", "-s", serial, "shell", "getprop", "ro.serialno")
+		}
 		candidate.identity = strings.TrimSpace(string(identity))
 		if identityErr != nil || candidate.identity == "" {
 			candidate.identity = "adb:" + serial

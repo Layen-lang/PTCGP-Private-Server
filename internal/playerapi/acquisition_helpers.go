@@ -22,6 +22,9 @@ func acquisitionFromChanges(profile player.Profile, changes []store.ShopInventor
 	for _, change := range changes {
 		appendInventoryChange(result.AcquiredItems, change, master, language)
 		appendInventoryChange(result.AcceptedItems, change, master, language)
+		if change.Kind == "poke_gold" && change.Amount > 0 {
+			result.PokeGoldStates = append(result.PokeGoldStates, &itempb.PokeGold{Paid: false, Amount: uint64(change.Amount)})
+		}
 	}
 	return result
 }
@@ -48,6 +51,8 @@ func appendInventoryChange(items *itempb.InventoryItems, change store.ShopInvent
 				return
 			}
 		}
+	case "poke_gold":
+		items.PokeGolds = append(items.PokeGolds, &itempb.PokeGold{Paid: false, Amount: amount})
 	case "profile_decoration":
 		variant := 0
 		for _, definition := range master.Cosmetics {
@@ -95,7 +100,14 @@ func appendCatalogItem(items *itempb.InventoryItems, change store.ShopInventoryC
 	case catalog.ItemTrade:
 		items.TradeItems = append(items.TradeItems, &itempb.TradeItem{Id: change.ID, Amount: amount})
 	case catalog.ItemPeripheral:
-		items.PeripheralGoods = append(items.PeripheralGoods, &itempb.PeripheralGoods{Type: itempb.PeripheralGoods_Types_Type(definition.Variant + 1), Id: change.ID, Amount: amount, ObtainedAt: timestamppb.New(time.Now().UTC())})
+		peripheralType := itempb.PeripheralGoods_Types_Type(definition.Variant + 1)
+		switch definition.Variant {
+		case 0:
+			peripheralType = itempb.PeripheralGoods_Types_TYPE_PLAY_MAT
+		case 1:
+			peripheralType = itempb.PeripheralGoods_Types_TYPE_DECK_SHIELD
+		}
+		items.PeripheralGoods = append(items.PeripheralGoods, &itempb.PeripheralGoods{Type: peripheralType, Id: change.ID, Amount: amount, ObtainedAt: timestamppb.New(time.Now().UTC())})
 	case catalog.ItemHiddenEvent:
 		// The current checked-in protocol schema has no dedicated hidden-event
 		// item message. Preserve the ID and quantity in the generic peripheral

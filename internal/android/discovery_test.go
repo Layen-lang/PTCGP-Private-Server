@@ -41,12 +41,14 @@ func (r *discoveryRunner) Run(ctx context.Context, _ string, args ...string) ([]
 		return nil, fmt.Errorf("offline")
 	case strings.Contains(call, "shell pm path"):
 		return []byte("package:/data/app/game/base.apk"), nil
-	case strings.Contains(call, "shell getprop ro.serialno"):
+	case strings.Contains(call, "shell cat /proc/sys/kernel/random/boot_id"):
 		serial := strings.Fields(call)[1]
 		if identity := r.identities[serial]; identity != "" {
 			return []byte(identity), nil
 		}
-		return []byte(serial), nil
+		return nil, fmt.Errorf("boot ID unavailable")
+	case strings.Contains(call, "shell getprop ro.serialno"):
+		return nil, nil
 	}
 	return nil, fmt.Errorf("unexpected command: %s", call)
 }

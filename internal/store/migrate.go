@@ -140,6 +140,13 @@ CREATE TABLE IF NOT EXISTS tutorial_progress (
   updated_at INTEGER NOT NULL,
   PRIMARY KEY(player_id,tutorial_id)
 );
+CREATE TABLE IF NOT EXISTS player_tutorial_grants (
+  player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
+  tutorial_id TEXT NOT NULL,
+  tutorial_step INTEGER NOT NULL,
+  granted_at INTEGER NOT NULL,
+  PRIMARY KEY(player_id,tutorial_id,tutorial_step)
+);
 CREATE TABLE IF NOT EXISTS player_storage (
   player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
   key TEXT NOT NULL,
@@ -294,6 +301,12 @@ CREATE TABLE IF NOT EXISTS player_pack_ceil_points (
   group_id TEXT NOT NULL,
   quantity INTEGER NOT NULL CHECK(quantity >= 0),
   PRIMARY KEY(player_id,group_id)
+);
+CREATE TABLE IF NOT EXISTS player_pack_guarantee_points (
+  player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
+  guarantee_id TEXT NOT NULL,
+  quantity INTEGER NOT NULL CHECK(quantity >= 0),
+  PRIMARY KEY(player_id,guarantee_id)
 );
 CREATE TABLE IF NOT EXISTS pack_shop_exchanges (
   player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,

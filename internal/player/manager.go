@@ -90,6 +90,40 @@ type ShopPurchaseResult struct {
 	Replay  bool
 }
 
+type TutorialGrantInput struct {
+	TutorialID, CeilGroup, GuaranteeID string
+	Step                               int64
+	Rewards                            []store.ShopInventoryChange
+	Experience, CeilPoints             int64
+	GuaranteePoints                    int64
+	Flags                              map[string]int64
+	IncludeMasterReward                bool
+}
+
+type TutorialGrantResult struct {
+	Changes []store.ShopInventoryChange
+	Replay  bool
+}
+
+type LevelUpResult struct {
+	PreviousLevel, CurrentLevel int
+	Changes                     []store.ShopInventoryChange
+	Replay                      bool
+}
+
+var starterPeripheralIDs = []string{
+	"BOARD_100110_EIEVUI", "BOARD_100360_Displayframe_cool",
+	"COIN_100020_EIEVUI", "COIN_100160_MONSTERBALL",
+	"DECKSHIELD_100020_EIEVUI", "FILE_100020_EIEVUI",
+	"FILE_100270_MONSTERBALL_Ver2", "PLAYMAT_100020_EIEVUI",
+}
+
+var starterIconIDs = []string{
+	"PROFILE_ICON_100030_EIEVUI", "PROFILE_ICON_100090_ERIKA",
+	"PROFILE_ICON_100120_PIKACHU", "PROFILE_ICON_100130_YADON",
+	"PROFILE_ICON_100140_KABIGON", "PROFILE_ICON_100150_SAKAKI",
+}
+
 type CatalogView struct {
 	Cards      []catalog.Card
 	Expansions []catalog.Expansion
@@ -485,7 +519,132 @@ func (m *Manager) CompleteTutorial(ctx context.Context, playerID, tutorialID str
 	if step < 0 {
 		return validation("tutorial step must be non-negative")
 	}
-	return m.state.RecordTutorialCompletion(ctx, playerID, tutorialID, step)
+	_, err := m.GrantTutorial(ctx, playerID, TutorialGrantInput{TutorialID: tutorialID, Step: step, IncludeMasterReward: true})
+	return err
+}
+
+func (m *Manager) GrantTutorial(ctx context.Context, playerID string, input TutorialGrantInput) (TutorialGrantResult, error) {
+	input.TutorialID = strings.TrimSpace(input.TutorialID)
+	if input.TutorialID == "" || input.Step < 0 {
+		return TutorialGrantResult{}, validation("invalid tutorial progress")
+	}
+	changes := append([]store.ShopInventoryChange(nil), input.Rewards...)
+	if input.IncludeMasterReward {
+		if reward, ok := m.catalog.TutorialReward(input.TutorialID, input.Step); ok {
+			for _, item := range reward.Items {
+				change, err := m.missionRewardChange(item.ItemType, item.ItemID, item.ExpansionID, item.Amount)
+				if err != nil {
+					return TutorialGrantResult{}, err
+				}
+				changes = append(changes, change)
+			}
+		}
+	}
+	result, err := m.state.CommitTutorialGrant(ctx, store.TutorialGrant{PlayerID: playerID, TutorialID: input.TutorialID, Step: input.Step, Rewards: changes, Experience: input.Experience, CeilGroup: input.CeilGroup, CeilPoints: input.CeilPoints, GuaranteeID: input.GuaranteeID, GuaranteePoints: input.GuaranteePoints, Flags: input.Flags})
+	if err != nil {
+		return TutorialGrantResult{}, err
+	}
+	return TutorialGrantResult{Changes: result.Rewards, Replay: result.Replay}, nil
+}
+
+func (m *Manager) TutorialExchangeRoute(packID string) (catalog.TutorialExchangeRoute, error) {
+	return m.catalog.TutorialExchangeRoute(packID)
+}
+
+func (m *Manager) CatalogTutorialReward(tutorialID string, step int64) (catalog.TutorialReward, bool) {
+	return m.catalog.TutorialReward(tutorialID, step)
+}
+
+func (m *Manager) TutorialFeed(routeType int32) (catalog.TutorialFeed, error) {
+	return m.catalog.TutorialFeed(routeType)
+}
+
+func (m *Manager) TutorialPackSetting() catalog.TutorialPackSetting {
+	return m.catalog.TutorialPackSetting()
+}
+
+// RegisterTutorialPackOpening makes a tutorial pack transaction available to
+// the regular post-opening APIs without granting its rewards again.
+func (m *Manager) RegisterTutorialPackOpening(ctx context.Context, opening store.PackOpening) (store.PackOpening, bool, error) {
+	return m.state.RegisterPackOpening(ctx, opening)
+}
+
+func (m *Manager) TutorialRoute(ctx context.Context, playerID string) (int32, error) {
+	route, chosen, err := m.ChosenTutorialRoute(ctx, playerID)
+	if err != nil {
+		return 0, err
+	}
+	if chosen {
+		return route, nil
+	}
+	return m.CardExchangeRoute(playerID), nil
+}
+
+func (m *Manager) ChosenTutorialRoute(ctx context.Context, playerID string) (int32, bool, error) {
+	flags, err := m.state.Flags(ctx, playerID, "tutorial", []string{"exchange_route"})
+	if err != nil {
+		return 0, false, err
+	}
+	if flag, ok := flags["exchange_route"]; ok && flag.Value >= 1 && flag.Value <= 3 {
+		return int32(flag.Value), true, nil
+	}
+	return 0, false, nil
+}
+
+func (m *Manager) TutorialFeedChallenged(ctx context.Context, playerID string) (bool, error) {
+	flags, err := m.state.Flags(ctx, playerID, "tutorial", []string{"feed_challenged"})
+	if err != nil {
+		return false, err
+	}
+	return flags["feed_challenged"].Value != 0, nil
+}
+
+func (m *Manager) MayLevelUp(ctx context.Context, playerID string) (LevelUpResult, error) {
+	profile, err := m.Profile(ctx, playerID)
+	if err != nil {
+		return LevelUpResult{}, err
+	}
+	target := profile.Player.Level
+	for _, level := range m.catalog.Levels() {
+		if level.Number > target && profile.Player.Experience >= level.RequiredExp {
+			target = level.Number
+		}
+	}
+	changes := make([]store.ShopInventoryChange, 0)
+	for level := profile.Player.Level + 1; level <= target; level++ {
+		for _, reward := range m.catalog.LevelRewards(level) {
+			change, err := m.missionRewardChange(reward.ItemType, reward.ItemID, reward.ExpansionID, reward.Amount)
+			if err != nil {
+				return LevelUpResult{}, err
+			}
+			changes = append(changes, change)
+		}
+	}
+	previous, applied, replay, err := m.state.CommitLevelUp(ctx, playerID, target, changes)
+	if err != nil {
+		return LevelUpResult{}, err
+	}
+	return LevelUpResult{PreviousLevel: previous, CurrentLevel: target, Changes: applied, Replay: replay}, nil
+}
+
+func (m *Manager) GrantStarterInventory(ctx context.Context, playerID string) ([]store.ShopInventoryChange, error) {
+	changes := make([]store.ShopInventoryChange, 0, len(starterPeripheralIDs)+len(starterIconIDs))
+	for _, id := range starterPeripheralIDs {
+		item, err := m.catalog.Item(id)
+		if err != nil || item.Kind != catalog.ItemPeripheral {
+			return nil, fmt.Errorf("starter peripheral %q is unavailable", id)
+		}
+		changes = append(changes, store.ShopInventoryChange{Kind: "item", ID: id, SubID: string(item.Kind), Amount: 1})
+	}
+	for _, id := range starterIconIDs {
+		icon, err := m.catalog.Cosmetic(id)
+		if err != nil || icon.Kind != catalog.CosmeticProfileDecoration || icon.Variant != 0 {
+			return nil, fmt.Errorf("starter icon %q is unavailable", id)
+		}
+		changes = append(changes, store.ShopInventoryChange{Kind: "profile_decoration", ID: id, Amount: 1})
+	}
+	applied, _, err := m.state.CommitOneTimeInventoryGrant(ctx, playerID, "bootstrap", "starter_inventory", changes)
+	return applied, err
 }
 
 func (m *Manager) tutorialCompletions() []store.TutorialStep {
@@ -896,7 +1055,7 @@ func (m *Manager) missionRewardChange(itemType int, itemID, expansionID string, 
 			return store.ShopInventoryChange{}, validation("%v", err)
 		}
 		change.Kind = "card"
-	case 4, 5, 12, 16, 17:
+	case 4, 5, 12, 14, 16, 17:
 		item, err := m.catalog.Item(itemID)
 		if err != nil {
 			return store.ShopInventoryChange{}, validation("%v", err)
@@ -905,7 +1064,11 @@ func (m *Manager) missionRewardChange(itemType int, itemID, expansionID string, 
 	case 6:
 		change.Kind = "profile_decoration"
 	case 7:
-		change.Kind = "currency"
+		if itemID == "POKEGOLD_FREE" {
+			change.Kind = "poke_gold"
+		} else {
+			change.Kind = "currency"
+		}
 	case 8, 9:
 		item, err := m.catalog.Item(itemID)
 		if err != nil {
@@ -1280,13 +1443,17 @@ func (m *Manager) ExchangeCardCosmetics(ctx context.Context, playerID string, in
 	if len(inputs) == 0 || len(inputs) > 30 {
 		return nil, validation("between 1 and 30 card exchanges are required")
 	}
+	route, err := m.TutorialRoute(ctx, playerID)
+	if err != nil {
+		return nil, err
+	}
 	operations := make([]store.CardExchangeOperation, 0, len(inputs))
 	for _, input := range inputs {
 		definition, err := m.catalog.CardExchange(input.CatalogID)
 		if err != nil || input.Amount <= 0 {
 			return nil, validation("invalid card exchange %q", input.CatalogID)
 		}
-		if definition.RouteType != 0 && int32(definition.RouteType) != m.CardExchangeRoute(playerID) {
+		if definition.RouteType != 0 && int32(definition.RouteType) != route {
 			return nil, validation("card exchange %q is not available on this route", input.CatalogID)
 		}
 		requiredCards := definition.ConsumeCardAmount * input.Amount

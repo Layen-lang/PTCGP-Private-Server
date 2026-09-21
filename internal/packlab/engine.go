@@ -7,6 +7,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
+	"hash/fnv"
 	mathrand "math/rand"
 	"sort"
 	"strings"
@@ -111,6 +112,29 @@ func (e *Engine) Preview(ctx context.Context, input PreviewInput) (store.PackOpe
 		return store.PackOpening{}, err
 	}
 	return store.PackOpening{PlayerID: input.PlayerID, PackID: pack.ID, Mode: rule.Mode, RequestedCount: input.RequestedCount, ReturnedCount: len(packs), Seed: seed, Free: rule.FreeOpenings, Packs: packs}, nil
+}
+
+// PreviewOfficial draws from the master-data probabilities while ignoring
+// Pack Lab overrides. Its per-player seed makes tutorial retries stable.
+func (e *Engine) PreviewOfficial(_ context.Context, input PreviewInput) (store.PackOpening, error) {
+	pack, err := e.catalog.Pack(input.PackID)
+	if err != nil {
+		return store.PackOpening{}, err
+	}
+	hash := fnv.New64a()
+	_, _ = hash.Write([]byte(input.PlayerID + "\x00" + input.PackID))
+	seed := int64(hash.Sum64())
+	rng := mathrand.New(mathrand.NewSource(seed))
+	count := normalizedRequestedCount(input.RequestedCount)
+	packs := make([]store.OpeningPack, 0, count)
+	for range count {
+		drawn, err := drawOfficial(pack, rng)
+		if err != nil {
+			return store.PackOpening{}, err
+		}
+		packs = append(packs, drawn)
+	}
+	return store.PackOpening{PlayerID: input.PlayerID, PackID: input.PackID, Mode: "official", RequestedCount: count, ReturnedCount: len(packs), Seed: seed, Free: true, Packs: packs}, nil
 }
 
 func (e *Engine) Open(ctx context.Context, input OpenInput) (store.PackOpening, bool, error) {

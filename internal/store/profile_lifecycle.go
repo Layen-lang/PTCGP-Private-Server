@@ -152,6 +152,8 @@ func (s *Store) DuplicatePlayer(ctx context.Context, sourceID, displayName strin
 		`INSERT INTO player_settings SELECT ?,language,country,year_of_birth,month_of_birth,icon_id,message_id FROM player_settings WHERE player_id=?`,
 		`DELETE FROM tutorial_progress WHERE player_id=?`,
 		`INSERT INTO tutorial_progress SELECT ?,tutorial_id,step,completed,? FROM tutorial_progress WHERE player_id=?`,
+		`INSERT INTO player_tutorial_grants SELECT ?,tutorial_id,tutorial_step,? FROM player_tutorial_grants WHERE player_id=?`,
+		`INSERT INTO player_flags SELECT ?,namespace,flag_key,flag_value,? FROM player_flags WHERE player_id=?`,
 		`INSERT INTO player_cards SELECT ?,card_id,quantity,?,? FROM player_cards WHERE player_id=?`,
 		`INSERT INTO player_card_languages SELECT ?,card_id,language,quantity FROM player_card_languages WHERE player_id=?`,
 		`INSERT INTO player_currencies SELECT ?,currency_id,quantity FROM player_currencies WHERE player_id=?`,
@@ -163,14 +165,15 @@ func (s *Store) DuplicatePlayer(ctx context.Context, sourceID, displayName strin
 		`DELETE FROM player_pack_state WHERE player_id=?`,
 		`INSERT INTO player_pack_state SELECT ?,pack_power,?,poke_gold FROM player_pack_state WHERE player_id=?`,
 		`INSERT INTO player_pack_ceil_points SELECT ?,group_id,quantity FROM player_pack_ceil_points WHERE player_id=?`,
+		`INSERT INTO player_pack_guarantee_points SELECT ?,guarantee_id,quantity FROM player_pack_guarantee_points WHERE player_id=?`,
 		`INSERT INTO player_rental_decks SELECT ?,rental_deck_id,used_count,? FROM player_rental_decks WHERE player_id=?`,
 		`INSERT INTO player_theme_deck_recipes SELECT ?,theme_deck_recipe_id,? FROM player_theme_deck_recipes WHERE player_id=?`,
 	}
 	arguments := [][]any{
-		{duplicate.ID}, {duplicate.ID, sourceID}, {duplicate.ID}, {duplicate.ID, now.Unix(), sourceID},
+		{duplicate.ID}, {duplicate.ID, sourceID}, {duplicate.ID}, {duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, now.Unix(), sourceID},
 		{duplicate.ID, now.Unix(), now.Unix(), sourceID}, {duplicate.ID, sourceID}, {duplicate.ID, sourceID}, {duplicate.ID, now.Unix(), sourceID},
 		{duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, sourceID}, {duplicate.ID, sourceID}, {duplicate.ID, sourceID},
-		{duplicate.ID}, {duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, sourceID},
+		{duplicate.ID}, {duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, sourceID}, {duplicate.ID, sourceID},
 		{duplicate.ID, now.Unix(), sourceID}, {duplicate.ID, now.Unix(), sourceID},
 	}
 	for index, statement := range statements {

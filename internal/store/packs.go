@@ -376,17 +376,11 @@ func (s *Store) CommitPackOpening(ctx context.Context, input CommitPackOpening) 
 			return PackOpening{}, false, err
 		}
 	}
-	if _, err := tx.ExecContext(ctx, `INSERT INTO pack_openings(opening_id,player_id,transaction_id,product_id,pack_id,requested_count,returned_count,mode,seed,free_opening,power_cost,experience_reward,ceil_point_reward,shine_dust_reward,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`, opening.ID, opening.PlayerID, opening.TransactionID, opening.ProductID, opening.PackID, opening.RequestedCount, len(opening.Packs), opening.Mode, opening.Seed, opening.Free, opening.PowerCost, opening.ExperienceReward, opening.CeilPointReward, opening.ShineDustReward, now.Unix()); err != nil {
-		return PackOpening{}, false, fmt.Errorf("insert pack opening: %w", err)
+	if err := insertPackOpening(ctx, tx, &opening, now); err != nil {
+		return PackOpening{}, false, err
 	}
-	for packIndex, pack := range opening.Packs {
-		if _, err := tx.ExecContext(ctx, `INSERT INTO pack_opening_packs(opening_id,pack_index,pack_table_id) VALUES(?,?,?)`, opening.ID, packIndex, pack.TableID); err != nil {
-			return PackOpening{}, false, err
-		}
-		for slotIndex, cardID := range pack.Cards {
-			if _, err := tx.ExecContext(ctx, `INSERT INTO pack_opening_cards(opening_id,pack_index,slot_index,card_id) VALUES(?,?,?,?)`, opening.ID, packIndex, slotIndex, cardID); err != nil {
-				return PackOpening{}, false, err
-			}
+	for _, pack := range opening.Packs {
+		for _, cardID := range pack.Cards {
 			if _, err := tx.ExecContext(ctx, `INSERT INTO player_cards(player_id,card_id,quantity,first_received_at,last_received_at) VALUES(?,?,1,?,?) ON CONFLICT(player_id,card_id) DO UPDATE SET quantity=quantity+1,last_received_at=excluded.last_received_at`, opening.PlayerID, cardID, now.Unix(), now.Unix()); err != nil {
 				return PackOpening{}, false, err
 			}
@@ -431,6 +425,64 @@ func (s *Store) CommitPackOpening(ctx context.Context, input CommitPackOpening) 
 	}
 	opening.ReturnedCount = len(opening.Packs)
 	return opening, false, nil
+}
+
+// RegisterPackOpening records an already-granted opening so follow-up APIs,
+// such as Feed.ShareV1, can resolve its transaction without granting cards or
+// progression a second time.
+func (s *Store) RegisterPackOpening(ctx context.Context, opening PackOpening) (PackOpening, bool, error) {
+	if opening.PlayerID == "" || opening.TransactionID == "" || opening.PackID == "" || len(opening.Packs) == 0 {
+		return PackOpening{}, false, fmt.Errorf("%w: invalid pack opening", ErrRuleViolation)
+	}
+	tx, err := s.db.BeginTx(ctx, nil)
+	if err != nil {
+		return PackOpening{}, false, fmt.Errorf("begin register pack opening: %w", err)
+	}
+	defer tx.Rollback()
+	if existing, err := loadPackOpening(ctx, tx, opening.PlayerID, opening.TransactionID); err == nil {
+		return existing, true, tx.Commit()
+	} else if !errors.Is(err, ErrNotFound) {
+		return PackOpening{}, false, err
+	}
+	if opening.RequestedCount <= 0 {
+		opening.RequestedCount = len(opening.Packs)
+	}
+	if opening.Mode == "" {
+		opening.Mode = "official"
+	}
+	if err := insertPackOpening(ctx, tx, &opening, s.now().UTC()); err != nil {
+		return PackOpening{}, false, err
+	}
+	if err := tx.Commit(); err != nil {
+		return PackOpening{}, false, fmt.Errorf("commit register pack opening: %w", err)
+	}
+	return opening, false, nil
+}
+
+func insertPackOpening(ctx context.Context, tx *sql.Tx, opening *PackOpening, now time.Time) error {
+	if opening.ID == "" {
+		id, err := randomUUID()
+		if err != nil {
+			return err
+		}
+		opening.ID = id
+	}
+	opening.CreatedAt = now
+	opening.ReturnedCount = len(opening.Packs)
+	if _, err := tx.ExecContext(ctx, `INSERT INTO pack_openings(opening_id,player_id,transaction_id,product_id,pack_id,requested_count,returned_count,mode,seed,free_opening,power_cost,experience_reward,ceil_point_reward,shine_dust_reward,created_at) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`, opening.ID, opening.PlayerID, opening.TransactionID, opening.ProductID, opening.PackID, opening.RequestedCount, opening.ReturnedCount, opening.Mode, opening.Seed, opening.Free, opening.PowerCost, opening.ExperienceReward, opening.CeilPointReward, opening.ShineDustReward, now.Unix()); err != nil {
+		return fmt.Errorf("insert pack opening: %w", err)
+	}
+	for packIndex, pack := range opening.Packs {
+		if _, err := tx.ExecContext(ctx, `INSERT INTO pack_opening_packs(opening_id,pack_index,pack_table_id) VALUES(?,?,?)`, opening.ID, packIndex, pack.TableID); err != nil {
+			return err
+		}
+		for slotIndex, cardID := range pack.Cards {
+			if _, err := tx.ExecContext(ctx, `INSERT INTO pack_opening_cards(opening_id,pack_index,slot_index,card_id) VALUES(?,?,?,?)`, opening.ID, packIndex, slotIndex, cardID); err != nil {
+				return err
+			}
+		}
+	}
+	return nil
 }
 
 func (s *Store) PackHistory(ctx context.Context, playerID string, limit int) ([]PackOpening, error) {

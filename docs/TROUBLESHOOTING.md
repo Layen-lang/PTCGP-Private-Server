@@ -26,6 +26,13 @@ local state.
 | Browser does not open | Default-browser launch failed | Open <http://127.0.0.1:8080> manually |
 | Official restoration is pending | Stop was requested while the emulator was unavailable | Reconnect the emulator and run the launcher again |
 
+An authentication error such as `103-011-010` on Android 14 or newer usually
+means the local CA is not visible inside the game's Android mount namespace.
+Current builds install and verify the CA in both the legacy system store and
+the Conscrypt APEX before reporting **Private server active**. If the error
+persists after updating, switch to **Official**, then back to **Local**, and
+inspect `data/runtime/server.stderr.log` for `tls: unknown certificate`.
+
 ## ADB checks
 
 Run these commands in order:

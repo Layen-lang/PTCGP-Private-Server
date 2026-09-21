@@ -5,6 +5,7 @@ package playerapi
 
 import (
 	"context"
+	"errors"
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
@@ -13,6 +14,7 @@ import (
 	comebackplayer "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/comeback_player"
 	datepb "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/date"
 	solopb "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/solo_battle"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -83,9 +85,24 @@ func (s startupFeedServer) ShareV1(ctx context.Context, request *api.FeedShareV1
 		return nil, err
 	}
 	if err := s.players.SharePackOpening(ctx, current.ID, request.GetTransactionId()); err != nil {
+		if errors.Is(err, store.ErrNotFound) {
+			profile, profileErr := s.players.Profile(ctx, current.ID)
+			if profileErr == nil && tutorialStepAtLeast(profile.Tutorial, "1000", 600) {
+				return &api.FeedShareV1_Types_Response{}, nil
+			}
+		}
 		return nil, status.Error(codes.InvalidArgument, err.Error())
 	}
 	return &api.FeedShareV1_Types_Response{}, nil
+}
+
+func tutorialStepAtLeast(progress []store.TutorialStep, tutorialID string, step int64) bool {
+	for _, value := range progress {
+		if value.TutorialID == tutorialID && value.Completed && value.Step >= step {
+			return true
+		}
+	}
+	return false
 }
 
 type startupTradeServer struct {

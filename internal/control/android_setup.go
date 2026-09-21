@@ -11,6 +11,7 @@ import (
 	"path"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
@@ -18,7 +19,23 @@ import (
 )
 
 const remoteBackupDir = "/data/local/tmp/ptcgp-private-server"
-const remoteCADir = "/data/local/tmp/ptcgp-system-cacerts"
+const remoteSystemCADir = "/data/local/tmp/ptcgp-system-cacerts"
+const remoteConscryptCADir = "/data/local/tmp/ptcgp-conscrypt-cacerts"
+
+type androidCAStore struct {
+	target  string
+	staging string
+}
+
+var legacyAndroidCAStore = androidCAStore{
+	target:  "/system/etc/security/cacerts",
+	staging: remoteSystemCADir,
+}
+
+var conscryptAndroidCAStore = androidCAStore{
+	target:  "/apex/com.android.conscrypt/cacerts",
+	staging: remoteConscryptCADir,
+}
 
 func fileSHA256(filename string) (string, error) {
 	data, err := os.ReadFile(filename)
@@ -122,6 +139,126 @@ func (r *NativeRunner) pushRootFile(ctx context.Context, serial, local, target, 
 	return err
 }
 
+// androidCAStores returns every trust store used by the connected Android
+// release. Android 14 and newer prefer the updatable Conscrypt APEX store,
+// while older releases and vendor TLS stacks still use the legacy system
+// location. Installing into both when the APEX store is present keeps the
+// routing compatible with either implementation.
+func (r *NativeRunner) androidCAStores(ctx context.Context, serial string) []androidCAStore {
+	stores := []androidCAStore{legacyAndroidCAStore}
+	probe := "test -d " + shellQuote(conscryptAndroidCAStore.target) +
+		" && test -n \"$(ls -A " + shellQuote(conscryptAndroidCAStore.target) + " 2>/dev/null)\""
+	if _, err := r.shell(ctx, serial, probe); err == nil {
+		stores = append(stores, conscryptAndroidCAStore)
+	}
+	return stores
+}
+
+func (r *NativeRunner) androidZygotePIDs(ctx context.Context, serial string) ([]string, error) {
+	out, err := r.shell(ctx, serial, "for name in zygote64 zygote; do pidof \"$name\" 2>/dev/null || true; done")
+	if err != nil {
+		return nil, err
+	}
+	seen := make(map[string]bool)
+	var pids []string
+	for _, field := range strings.Fields(out) {
+		pid, err := strconv.Atoi(field)
+		if err != nil || pid <= 1 || seen[field] {
+			continue
+		}
+		seen[field] = true
+		pids = append(pids, field)
+	}
+	if len(pids) == 0 {
+		return nil, fmt.Errorf("Android zygote process not found")
+	}
+	return pids, nil
+}
+
+func caStoreUnmountCommand(store androidCAStore) string {
+	// The Conscrypt APEX is itself mounted at its target even in official
+	// mode. Only remove a bind whose mountinfo root names our staging
+	// directory; never unmount the underlying APEX.
+	marker := path.Base(store.staging) + " " + store.target + " "
+	return "if grep -F -q " + shellQuote(marker) + " /proc/self/mountinfo; then umount " + shellQuote(store.target) + "; fi"
+}
+
+func (r *NativeRunner) unmountAndroidCAStores(ctx context.Context, serial string) error {
+	pids, err := r.androidZygotePIDs(ctx, serial)
+	if err != nil {
+		return err
+	}
+	for _, store := range []androidCAStore{legacyAndroidCAStore, conscryptAndroidCAStore} {
+		command := caStoreUnmountCommand(store)
+		for _, pid := range pids {
+			inNamespace := "nsenter -t " + pid + " -m -- sh -c " + shellQuote(command)
+			if _, err := r.shell(ctx, serial, inNamespace); err != nil {
+				return err
+			}
+		}
+		if _, err := r.shell(ctx, serial, command); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func (r *NativeRunner) installAndroidCAStore(ctx context.Context, serial, caName string, store androidCAStore) error {
+	prepare := "rm -rf " + shellQuote(store.staging) +
+		" && mkdir -p " + shellQuote(store.staging) +
+		" && cp -a " + shellQuote(store.target+"/.") + " " + shellQuote(store.staging+"/")
+	if _, err := r.shell(ctx, serial, prepare); err != nil {
+		return err
+	}
+	certificate := store.staging + "/" + caName
+	if err := r.pushRootFile(ctx, serial, r.cfg.Runtime.CertificateAuthority, certificate, "644"); err != nil {
+		return err
+	}
+	install := "chown root:root " + shellQuote(certificate) +
+		" && chmod 644 " + shellQuote(certificate) +
+		" && (chcon u:object_r:system_security_cacerts_file:s0 " + shellQuote(certificate) + " >/dev/null 2>&1 || true)" +
+		" && mount --bind " + shellQuote(store.staging) + " " + shellQuote(store.target) +
+		" && test -f " + shellQuote(store.target+"/"+caName)
+	if _, err := r.shell(ctx, serial, install); err != nil {
+		return err
+	}
+	pids, err := r.androidZygotePIDs(ctx, serial)
+	if err != nil {
+		return err
+	}
+	for _, pid := range pids {
+		mount := "nsenter -t " + pid + " -m -- mount --bind " + shellQuote(store.staging) + " " + shellQuote(store.target)
+		if _, err := r.shell(ctx, serial, mount); err != nil {
+			return err
+		}
+		verify := "nsenter -t " + pid + " -m -- test -f " + shellQuote(store.target+"/"+caName)
+		if _, err := r.shell(ctx, serial, verify); err != nil {
+			return fmt.Errorf("certificate is not visible to Android app processes: %w", err)
+		}
+	}
+	return nil
+}
+
+func (r *NativeRunner) androidCAInstalled(ctx context.Context, serial, caName string) bool {
+	pids, err := r.androidZygotePIDs(ctx, serial)
+	if err != nil {
+		return false
+	}
+	for _, store := range r.androidCAStores(ctx, serial) {
+		certificate := store.target + "/" + caName
+		if _, err := r.shell(ctx, serial, "test -f "+shellQuote(certificate)); err != nil {
+			return false
+		}
+		for _, pid := range pids {
+			verify := "nsenter -t " + pid + " -m -- test -f " + shellQuote(certificate)
+			if _, err := r.shell(ctx, serial, verify); err != nil {
+				return false
+			}
+		}
+	}
+	return true
+}
+
 func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) error {
 	uid, err := r.shell(ctx, serial, "id -u")
 	if err != nil {
@@ -188,11 +325,14 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 			}
 		}
 		r.step("rollback", "Restoring official routing and certificates")
-		for _, target := range []string{"/system/etc/hosts", "/system/etc/security/cacerts"} {
+		for _, target := range []string{"/system/etc/hosts"} {
 			// Absence of a bind mount is normal after an emulator restart.
 			if _, err := r.shell(ctx, serial, "if grep -q ' "+target+" ' /proc/mounts; then umount "+shellQuote(target)+"; fi"); err != nil {
 				return err
 			}
+		}
+		if err := r.unmountAndroidCAStores(ctx, serial); err != nil {
+			return err
 		}
 		reverses, err := r.adb(ctx, serial, "reverse", "--list")
 		if err != nil {
@@ -268,17 +408,13 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 		}
 	}
 	r.step("local", "Installing the local certificate")
-	if _, err := r.shell(ctx, serial, "if grep -q ' /system/etc/security/cacerts ' /proc/mounts; then umount /system/etc/security/cacerts; fi"); err != nil {
+	if err := r.unmountAndroidCAStores(ctx, serial); err != nil {
 		return err
 	}
-	if _, err := r.shell(ctx, serial, "mkdir -p "+shellQuote(remoteCADir)+" && cp -a /system/etc/security/cacerts/. "+shellQuote(remoteCADir+"/")); err != nil {
-		return err
-	}
-	if err := r.pushRootFile(ctx, serial, r.cfg.Runtime.CertificateAuthority, remoteCADir+"/"+caName, "644"); err != nil {
-		return err
-	}
-	if _, err := r.shell(ctx, serial, "chmod 644 "+shellQuote(remoteCADir+"/"+caName)+" && mount --bind "+shellQuote(remoteCADir)+" /system/etc/security/cacerts"); err != nil {
-		return err
+	for _, store := range r.androidCAStores(ctx, serial) {
+		if err := r.installAndroidCAStore(ctx, serial, caName, store); err != nil {
+			return fmt.Errorf("install Android CA store %s: %w", store.target, err)
+		}
 	}
 	r.step("local", "Configuring the ADB tunnel and local routing")
 	_, port, err := net.SplitHostPort(r.cfg.Runtime.Address)

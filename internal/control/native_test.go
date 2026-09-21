@@ -55,6 +55,8 @@ func (r *androidStateRunner) Run(_ context.Context, _ string, args ...string) ([
 		return []byte("127.0.0.1 localhost"), nil
 	case strings.Contains(call, "shell pidof"):
 		return nil, fmt.Errorf("not running")
+	case strings.Contains(call, "pidof \"$name\"") && strings.Contains(call, "zygote64"):
+		return []byte("100"), nil
 	case len(args) > 2 && args[2] == "pull":
 		return nil, os.WriteFile(args[len(args)-1], r.data, 0600)
 	case len(args) > 2 && args[2] == "push":

@@ -149,7 +149,7 @@ func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, e
 		}
 	}
 	if name, err := localtls.AndroidSystemName(r.cfg.Runtime.CertificateAuthority); err == nil && a.Root {
-		if _, err := r.shell(ctx, serial, "test -f "+shellQuote("/system/etc/security/cacerts/"+name)); err == nil {
+		if r.androidCAInstalled(ctx, serial, name) {
 			a.CA = "locale installee"
 		} else {
 			a.CA = "officielle uniquement"

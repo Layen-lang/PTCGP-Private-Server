@@ -73,14 +73,14 @@ func TestLoadsCatalogAndFindsCoreEntities(t *testing.T) {
 	if len(c.CardSkinCompatibilities()) != 1 || len(c.CardFrameCompatibilities()) != 1 {
 		t.Fatalf("card cosmetic compatibilities: skins=%d frames=%d", len(c.CardSkinCompatibilities()), len(c.CardFrameCompatibilities()))
 	}
-	if len(c.Expansions()) != 1 || len(c.Packs()) != 2 || len(c.Cosmetics()) != 7 {
+	if len(c.Expansions()) != 1 || len(c.Packs()) != 5 || len(c.Cosmetics()) != 12 {
 		t.Fatalf("catalog incomplete: expansions=%d packs=%d cosmetics=%d", len(c.Expansions()), len(c.Packs()), len(c.Cosmetics()))
 	}
 	tutorials := c.TutorialCompletions()
 	if len(tutorials) != 41 {
 		t.Fatalf("tutorial completions = %d, want 41", len(tutorials))
 	}
-	wantTutorials := map[string]int64{"1011": 3, "2002": 5, "2010": 2, "2161": 2, "2520": 2, "3015": 2}
+	wantTutorials := map[string]int64{"1011": 1, "2002": 5, "2010": 2, "2161": 2, "2520": 2, "3015": 2}
 	for _, tutorial := range tutorials {
 		if want, ok := wantTutorials[tutorial.ID]; ok {
 			if tutorial.Step != want {
@@ -91,6 +91,25 @@ func TestLoadsCatalogAndFindsCoreEntities(t *testing.T) {
 	}
 	if len(wantTutorials) != 0 {
 		t.Fatalf("missing tutorial completions: %v", wantTutorials)
+	}
+	route, err := c.TutorialExchangeRoute("TUTORIAL_1")
+	if err != nil || route.RouteType != 2 || route.DeckID != "1001003" {
+		t.Fatalf("tutorial route = %+v err=%v", route, err)
+	}
+	feed, err := c.TutorialFeed(route.RouteType)
+	if err != nil || len(feed.CardIDs) != 5 || feed.RewardCardID != "PK_10_000020_00" {
+		t.Fatalf("tutorial feed = %+v err=%v", feed, err)
+	}
+	setting := c.TutorialPackSetting()
+	if setting.PackID != "PACK_A" || setting.Experience != 100 || setting.CeilPoints != 5 || setting.GuaranteeID != "GP_TEST" {
+		t.Fatalf("tutorial pack setting = %+v", setting)
+	}
+	reward, ok := c.TutorialReward("1011", 2)
+	if !ok || len(reward.Items) != 1 || reward.Items[0].ItemID != "PK_10_000020_00" {
+		t.Fatalf("tutorial reward = %+v ok=%v", reward, ok)
+	}
+	if rewards := c.LevelRewards(2); len(rewards) != 4 {
+		t.Fatalf("level 2 rewards = %+v", rewards)
 	}
 }
 

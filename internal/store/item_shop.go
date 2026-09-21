@@ -117,6 +117,9 @@ func changeShopInventory(ctx context.Context, tx *sql.Tx, playerID string, chang
 	case "currency":
 		_, err := tx.ExecContext(ctx, `INSERT INTO player_currencies(player_id,currency_id,quantity) VALUES(?,?,?) ON CONFLICT(player_id,currency_id) DO UPDATE SET quantity=quantity+excluded.quantity`, playerID, change.ID, change.Amount)
 		return err
+	case "poke_gold":
+		_, err := tx.ExecContext(ctx, `UPDATE player_pack_state SET poke_gold=poke_gold+? WHERE player_id=?`, change.Amount, playerID)
+		return err
 	case "item":
 		_, err := tx.ExecContext(ctx, `INSERT INTO player_items(player_id,item_kind,item_id,quantity,obtained_at) VALUES(?,?,?,?,?) ON CONFLICT(player_id,item_kind,item_id) DO UPDATE SET quantity=quantity+excluded.quantity`, playerID, change.SubID, change.ID, change.Amount, now)
 		return err
