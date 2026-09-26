@@ -236,6 +236,44 @@ func TestStatusCompletesRollbackDeferredWhileDeviceWasOffline(t *testing.T) {
 	}
 }
 
+func TestFailedDeferredRollbackDoesNotRetryOnEveryStatusPoll(t *testing.T) {
+	patched := []byte("patched library")
+	commands := &androidStateRunner{connected: true, data: patched, missingBackup: true}
+	r := testNativeRunner(t, commands)
+	r.cfg.Patch = binarypatch.Manifest{
+		Name: "fixture", Version: "1.0.0", Library: "lib.so",
+		SourceSHA256: fmt.Sprintf("%x", sha256.Sum256([]byte("official library"))),
+		TargetSHA256: fmt.Sprintf("%x", sha256.Sum256(patched)),
+		ExpectedHex:  "00", ReplacementHex: "01",
+	}
+	if err := r.markPendingRollback(); err != nil {
+		t.Fatal(err)
+	}
+	first, err := r.Status(context.Background())
+	if err != nil || first.Android.RecoveryError == "" {
+		t.Fatalf("first status=%+v error=%v", first, err)
+	}
+	commands.calls = nil
+	r.fullStatusValid = false // Simulate a reconnection that requires full inspection.
+	second, err := r.Status(context.Background())
+	if err != nil || second.Android.RecoveryError == "" {
+		t.Fatalf("second status=%+v error=%v", second, err)
+	}
+	for _, call := range commands.calls {
+		if strings.Contains(call, "test -e") || strings.Contains(call, "umount") {
+			t.Fatalf("deferred rollback retried during cooldown: %s", call)
+		}
+	}
+	commands.calls = nil
+	r.rollbackRetryAt = time.Now().Add(-time.Second)
+	if _, err := r.Status(context.Background()); err != nil {
+		t.Fatal(err)
+	}
+	if !strings.Contains(strings.Join(commands.calls, "\n"), "test -e") {
+		t.Fatal("deferred rollback was not retried after cooldown")
+	}
+}
+
 func TestStatusUsesLightweightChecksAfterInitialInspection(t *testing.T) {
 	commands := &androidStateRunner{connected: true, data: []byte("official library")}
 	r := testNativeRunner(t, commands)

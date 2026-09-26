@@ -33,6 +33,7 @@ const frFR = {
   'app.connectionMode': 'Mode de connexion', 'app.local': 'Local', 'app.official': 'Officiel', 'app.stopAll': 'Tout arrêter',
   'app.accounts': 'Comptes', 'app.packStudio': 'Studio boosters', 'app.packsMobile': 'Boosters', 'app.traffic': 'Trafic',
   'app.logs': 'Logs', 'app.settings': 'Paramètres', 'app.emulatorConnected': 'Émulateur connecté', 'app.waitingDevice': 'Appareil en attente',
+  'app.statusUnavailable': 'État du panneau indisponible',
   'app.activeProfile': 'Profil actif : {name}', 'app.refresh': 'Actualiser', 'app.refreshState': 'Actualiser l’état',
   'app.loadAccounts': 'Chargement des comptes…', 'app.refreshFailed': 'Impossible d’actualiser le panneau.',
   'app.modeChangeFailed': 'Le changement de mode a échoué.', 'app.connectionInterrupted': 'Connexion au panneau interrompue. Nouvelle tentative automatique…',

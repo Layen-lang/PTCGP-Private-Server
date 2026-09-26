@@ -175,6 +175,11 @@ func (r *NativeRunner) androidZygotePIDs(ctx context.Context, serial string) ([]
 	return pids, nil
 }
 
+func (r *NativeRunner) androidHasNsenter(ctx context.Context, serial string) bool {
+	_, err := r.shell(ctx, serial, "command -v nsenter >/dev/null 2>&1")
+	return err == nil
+}
+
 func caStoreUnmountCommand(store androidCAStore) string {
 	// The Conscrypt APEX is itself mounted at its target even in official
 	// mode. Only remove a bind whose mountinfo root names our staging
@@ -184,9 +189,13 @@ func caStoreUnmountCommand(store androidCAStore) string {
 }
 
 func (r *NativeRunner) unmountAndroidCAStores(ctx context.Context, serial string) error {
-	pids, err := r.androidZygotePIDs(ctx, serial)
-	if err != nil {
-		return err
+	var pids []string
+	if r.androidHasNsenter(ctx, serial) {
+		var err error
+		pids, err = r.androidZygotePIDs(ctx, serial)
+		if err != nil {
+			return err
+		}
 	}
 	for _, store := range []androidCAStore{legacyAndroidCAStore, conscryptAndroidCAStore} {
 		command := caStoreUnmountCommand(store)
@@ -204,6 +213,10 @@ func (r *NativeRunner) unmountAndroidCAStores(ctx context.Context, serial string
 }
 
 func (r *NativeRunner) installAndroidCAStore(ctx context.Context, serial, caName string, store androidCAStore) error {
+	hasNsenter := r.androidHasNsenter(ctx, serial)
+	if store == conscryptAndroidCAStore && !hasNsenter {
+		return fmt.Errorf("Android Conscrypt CA store requires nsenter")
+	}
 	prepare := "rm -rf " + shellQuote(store.staging) +
 		" && mkdir -p " + shellQuote(store.staging) +
 		" && cp -a " + shellQuote(store.target+"/.") + " " + shellQuote(store.staging+"/")
@@ -221,6 +234,9 @@ func (r *NativeRunner) installAndroidCAStore(ctx context.Context, serial, caName
 		" && test -f " + shellQuote(store.target+"/"+caName)
 	if _, err := r.shell(ctx, serial, install); err != nil {
 		return err
+	}
+	if !hasNsenter {
+		return nil
 	}
 	pids, err := r.androidZygotePIDs(ctx, serial)
 	if err != nil {
@@ -240,11 +256,19 @@ func (r *NativeRunner) installAndroidCAStore(ctx context.Context, serial, caName
 }
 
 func (r *NativeRunner) androidCAInstalled(ctx context.Context, serial, caName string) bool {
-	pids, err := r.androidZygotePIDs(ctx, serial)
-	if err != nil {
-		return false
+	hasNsenter := r.androidHasNsenter(ctx, serial)
+	var pids []string
+	if hasNsenter {
+		var err error
+		pids, err = r.androidZygotePIDs(ctx, serial)
+		if err != nil {
+			return false
+		}
 	}
 	for _, store := range r.androidCAStores(ctx, serial) {
+		if store == conscryptAndroidCAStore && !hasNsenter {
+			return false
+		}
 		certificate := store.target + "/" + caName
 		if _, err := r.shell(ctx, serial, "test -f "+shellQuote(certificate)); err != nil {
 			return false

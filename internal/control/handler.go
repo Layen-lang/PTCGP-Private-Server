@@ -44,14 +44,15 @@ type ServerStatus struct {
 }
 
 type AndroidStatus struct {
-	Serial    string `json:"serial,omitempty"`
-	Connected bool   `json:"connected"`
-	Root      bool   `json:"root"`
-	Routing   string `json:"routing"`
-	CA        string `json:"ca"`
-	Native    string `json:"native"`
-	Game      string `json:"game"`
-	Running   bool   `json:"running"`
+	Serial        string `json:"serial,omitempty"`
+	RecoveryError string `json:"recoveryError,omitempty"`
+	Connected     bool   `json:"connected"`
+	Root          bool   `json:"root"`
+	Routing       string `json:"routing"`
+	CA            string `json:"ca"`
+	Native        string `json:"native"`
+	Game          string `json:"game"`
+	Running       bool   `json:"running"`
 }
 
 type Action string

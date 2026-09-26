@@ -31,6 +31,9 @@ type NativeRunner struct {
 	cachedSerial           string
 	cachedStatus           Status
 	fullStatusValid        bool
+	rollbackRetrySerial    string
+	rollbackRetryAt        time.Time
+	rollbackRetryError     error
 }
 
 type nativeCommands struct{}
@@ -90,6 +93,9 @@ func (r *NativeRunner) discover(ctx context.Context) (string, error) {
 // remembered device's connection state and game process. A failed connection
 // invalidates the cache and triggers discovery again.
 func (r *NativeRunner) Status(ctx context.Context) (Status, error) {
+	if r.rollbackRetryError != nil && !time.Now().Before(r.rollbackRetryAt) {
+		r.fullStatusValid = false
+	}
 	if !r.fullStatusValid || r.cachedSerial == "" {
 		return r.fullStatus(ctx, r.cachedSerial)
 	}
@@ -141,8 +147,9 @@ func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, e
 		}
 	}
 	if err := r.recoverPendingRollback(ctx, serial); err != nil {
-		r.fullStatusValid = false
-		return s, err
+		// Restoration remains pending, but status must stay available so the
+		// user can resolve an emulator-specific failure.
+		s.Android.RecoveryError = err.Error()
 	}
 	a := &s.Android
 	a.Serial, a.Connected = serial, true
@@ -274,18 +281,40 @@ func (r *NativeRunner) clearPendingRollback() error {
 
 func (r *NativeRunner) recoverPendingRollback(ctx context.Context, serial string) error {
 	if _, err := os.Stat(r.pendingRollback()); errors.Is(err, os.ErrNotExist) {
+		r.rollbackRetrySerial = ""
+		r.rollbackRetryAt = time.Time{}
+		r.rollbackRetryError = nil
 		return nil
 	} else if err != nil {
 		return err
 	}
+	if serial == r.rollbackRetrySerial && time.Now().Before(r.rollbackRetryAt) {
+		return r.rollbackRetryError
+	}
 	r.step("rollback", "Resuming deferred restoration after stopping without an emulator")
 	if err := r.setupAndroid(ctx, serial, "rollback"); err != nil {
+		if ctx.Err() == nil {
+			r.rollbackRetrySerial = serial
+			r.rollbackRetryAt = time.Now().Add(time.Minute)
+			r.rollbackRetryError = err
+		}
 		return err
 	}
 	if _, err := r.shell(ctx, serial, "rm -f "+shellQuote("/data/data/"+r.cfg.Android.Package+"/files/UserPreferences/v1/MissionUserPrefs")); err != nil {
+		if ctx.Err() == nil {
+			r.rollbackRetrySerial = serial
+			r.rollbackRetryAt = time.Now().Add(time.Minute)
+			r.rollbackRetryError = err
+		}
 		return err
 	}
-	return r.clearPendingRollback()
+	if err := r.clearPendingRollback(); err != nil {
+		return err
+	}
+	r.rollbackRetrySerial = ""
+	r.rollbackRetryAt = time.Time{}
+	r.rollbackRetryError = nil
+	return nil
 }
 
 func (r *NativeRunner) pidFile(name string) string {

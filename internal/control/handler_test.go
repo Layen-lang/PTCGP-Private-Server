@@ -11,7 +11,24 @@ import (
 	"strings"
 	"testing"
 	"testing/fstest"
+
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
+
+func TestStatusKeepsPreparedDataVisibleWhenRecoveryWarns(t *testing.T) {
+	backend, _ := url.Parse("http://127.0.0.1:1")
+	runner := &fakeRunner{status: Status{
+		Mode:        "online",
+		Android:     AndroidStatus{RecoveryError: "restoration pending"},
+		Preparation: &provision.State{Ready: true, Phase: "ready"},
+	}}
+	handler := newHandler(t, runner, backend)
+	response := httptest.NewRecorder()
+	handler.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8080/api/control/status", nil))
+	if response.Code != http.StatusOK || !strings.Contains(response.Body.String(), `"ready":true`) || !strings.Contains(response.Body.String(), `"recoveryError":"restoration pending"`) {
+		t.Fatalf("status=%d body=%s", response.Code, response.Body.String())
+	}
+}
 
 type fakeRunner struct {
 	status  Status

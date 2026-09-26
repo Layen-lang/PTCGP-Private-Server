@@ -77,7 +77,7 @@ export default function App() {
   const refresh = async () => {
     setError('')
     try {
-      const status = await loadControlStatus(); setControl(status)
+      const status = await loadControlStatus(); setControl(status); setConnectionError(status.android.recoveryError || '')
       if (status.preparation?.ready) setData(await loadBootstrap()); else setData(null)
     } catch (value) {
       setError(value instanceof Error ? value.message : t('app.refreshFailed'))
@@ -137,7 +137,7 @@ export default function App() {
       try {
         const status = await loadControlStatus()
         if (cancelled) return
-        setConnectionError('')
+        setConnectionError(status.android.recoveryError || '')
         setControl(status)
         if (!status.busy && status.preparation?.ready && (control.busy || pending || !data)) {
           setPending(null)
@@ -170,6 +170,7 @@ export default function App() {
   const active = data?.players.find((value) => value.Active)
   const effectivePending = pending ?? (control.busy ? control.operation ?? null : null)
   const controlsBusy = pending !== null || control.busy || !control.csrfToken
+  const statusUnavailable = <div className="page" role="status"><h1>{t('app.statusUnavailable')}</h1><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>
   const changeThemeSettings = (nextSettings: ThemeSettings) => {
     saveThemeSettings(nextSettings)
     setThemeSettings(nextSettings)
@@ -186,26 +187,23 @@ export default function App() {
           <NavLink to="/packs"><CircleDot /><span>{t('app.packStudio')}</span></NavLink>
           <NavLink to="/traffic"><Activity /><span>{t('app.traffic')}</span></NavLink>
           <NavLink to="/logs"><FileText /><span>{t('app.logs')}</span></NavLink>
+          <NavLink className="settings-nav-item" to="/settings"><Settings /><span>{t('app.settings')}</span></NavLink>
         </nav>
-        <div className="sidebar-footer">
-          <div className="sidebar-status">
-            <span className={`status-dot ${control.android.connected ? 'online' : ''}`} />
-            <strong>{control.android.connected ? t('app.emulatorConnected') : t('app.waitingDevice')}</strong>
-          </div>
-          <NavLink className="sidebar-settings" to="/settings" aria-label={t('app.settings')} title={t('app.settings')}><Settings /></NavLink>
-        </div>
       </aside>
       <main className="main-area">
         <header className="topbar control-topbar">
-          <div className="topbar-context"><strong>{active ? t('app.activeProfile', { name: active.DisplayName }) : modeCopy(control).title}</strong></div>
+          <div className="topbar-context">
+            {active && <strong className="topbar-profile">{t('app.activeProfile', { name: active.DisplayName })}</strong>}
+            <div className="topbar-compact-status"><span className={`mode-dot ${control.mode}`} /><strong>{controlsBusy ? operationCopy(effectivePending).title : modeCopy(control).title}</strong></div>
+          </div>
           <ModeControls status={control} operation={effectivePending} busy={controlsBusy} onAction={(action) => void changeMode(action)} />
           <button className="quiet-button refresh-button" disabled={pending !== null || control.busy} onClick={() => void refresh()} aria-label={t('app.refreshState')}><RefreshCw size={16} /> <span>{t('app.refresh')}</span></button>
         </header>
         {(error || connectionError) && <div className="global-error" role="alert"><span>{error || connectionError}</span><button onClick={() => { setError(''); setConnectionError('') }}>{t('common.close')}</button></div>}
         {control.update && !['idle', 'current', 'unconfigured'].includes(control.update.phase) && <div className="update-notice" role="status"><span>{restarting ? t('prepare.restarting') : ({downloading:t('prepare.updateDownloading'),ready:t('prepare.updateReady'),offline:t('prepare.updateOffline'),incompatible:t('prepare.updateIncompatible')}[control.update.phase] || control.update.message)}{control.update.version ? ' · '+control.update.version : ''}</span>{control.update.phase === 'ready' && <button className="secondary-button" disabled={controlsBusy || restarting} onClick={() => void applyUpdate()}>{t('prepare.updateButton')}</button>}</div>}
           <Routes key={locale}>
-            <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
-            <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
+            <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : !preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
+            <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
             <Route path="/traffic" element={<TrafficPage serverRunning={control.server.running} />} />
             <Route path="/logs" element={<LogsPage />} />
             <Route path="/settings" element={<SettingsPage settings={themeSettings} onSettingsChange={changeThemeSettings} />} />

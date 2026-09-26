@@ -35,6 +35,7 @@ const enUS = {
   'app.connectionMode': 'Connection mode', 'app.local': 'Local', 'app.official': 'Official', 'app.stopAll': 'Stop all',
   'app.accounts': 'Accounts', 'app.packStudio': 'Pack Studio', 'app.packsMobile': 'Packs', 'app.traffic': 'Traffic',
   'app.logs': 'Logs', 'app.settings': 'Settings', 'app.emulatorConnected': 'Emulator connected', 'app.waitingDevice': 'Waiting for device',
+  'app.statusUnavailable': 'Panel status unavailable',
   'app.activeProfile': 'Active profile: {name}', 'app.refresh': 'Refresh', 'app.refreshState': 'Refresh status',
   'app.loadAccounts': 'Loading accounts…', 'app.refreshFailed': 'Unable to refresh the panel.',
   'app.modeChangeFailed': 'Failed to change mode.', 'app.connectionInterrupted': 'Panel connection interrupted. Retrying automatically…',

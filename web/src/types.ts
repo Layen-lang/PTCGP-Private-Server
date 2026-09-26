@@ -30,6 +30,7 @@ export type ControlStatus = {
   server: { running: boolean; pid?: number }
   android: {
     serial?: string
+    recoveryError?: string
     connected: boolean
     root: boolean
     routing: string

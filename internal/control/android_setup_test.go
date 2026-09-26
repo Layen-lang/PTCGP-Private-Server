@@ -10,8 +10,9 @@ import (
 )
 
 type caStoreRunner struct {
-	apex  bool
-	calls []string
+	apex           bool
+	missingNsenter bool
+	calls          []string
 }
 
 func (r *caStoreRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
@@ -20,10 +21,50 @@ func (r *caStoreRunner) Run(_ context.Context, _ string, args ...string) ([]byte
 	if strings.Contains(call, "pidof") && strings.Contains(call, "zygote64") {
 		return []byte("101\n102\n"), nil
 	}
+	if strings.Contains(call, "command -v nsenter") && r.missingNsenter {
+		return nil, fmt.Errorf("nsenter unavailable")
+	}
 	if strings.Contains(call, "test -d") && strings.Contains(call, conscryptAndroidCAStore.target) && !r.apex {
 		return nil, fmt.Errorf("APEX store absent")
 	}
 	return nil, nil
+}
+
+func TestLegacyCAStoreWorksWithoutNsenter(t *testing.T) {
+	commands := &caStoreRunner{missingNsenter: true}
+	r := &NativeRunner{
+		commands: commands,
+		cfg: configuration.Config{Runtime: configuration.Runtime{
+			CertificateAuthority: "ca.pem",
+		}},
+	}
+	ctx := context.Background()
+	if err := r.unmountAndroidCAStores(ctx, "serial"); err != nil {
+		t.Fatal(err)
+	}
+	if err := r.installAndroidCAStore(ctx, "serial", "12345678.0", legacyAndroidCAStore); err != nil {
+		t.Fatal(err)
+	}
+	if !r.androidCAInstalled(ctx, "serial", "12345678.0") {
+		t.Fatal("legacy CA certificate was not detected")
+	}
+	calls := strings.Join(commands.calls, "\n")
+	if !strings.Contains(calls, "mount --bind") || !strings.Contains(calls, legacyAndroidCAStore.staging) || !strings.Contains(calls, legacyAndroidCAStore.target) {
+		t.Fatalf("legacy bind mount missing:\n%s", calls)
+	}
+	for _, call := range commands.calls {
+		if strings.Contains(call, "nsenter -t ") {
+			t.Fatalf("legacy device attempted nsenter: %s", call)
+		}
+	}
+}
+
+func TestConscryptCARequiresNsenter(t *testing.T) {
+	commands := &caStoreRunner{apex: true, missingNsenter: true}
+	r := &NativeRunner{commands: commands}
+	if err := r.installAndroidCAStore(context.Background(), "serial", "12345678.0", conscryptAndroidCAStore); err == nil {
+		t.Fatal("Conscrypt installation succeeded without namespace access")
+	}
 }
 
 func TestAndroidCAStoresIncludeConscryptWhenAvailable(t *testing.T) {
