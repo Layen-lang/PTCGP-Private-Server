@@ -21,7 +21,12 @@ fn serial() -> String {
 }
 fn shell(command: &str) -> String {
     if std::env::var("PTCGP_USE_SU").as_deref() == Ok("1") {
-        format!("su -c {}", quote(command))
+        // LDPlayer's su can allocate a PTY even for adb exec-out. Its ONLCR
+        // processing inserts CR bytes into tar archives and reader streams.
+        format!(
+            "su -c {}",
+            quote(&format!("stty -onlcr 2>/dev/null; {command}"))
+        )
     } else {
         command.to_owned()
     }
