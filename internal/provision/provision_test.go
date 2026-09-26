@@ -56,6 +56,10 @@ func TestGenerationIsBoundToProfileAndValidatedFiles(t *testing.T) {
 	if _, e = Resolve(cfg, root); e != nil {
 		t.Fatal(e)
 	}
+	manager := New(cfg, root, root)
+	if restored, restoreErr := manager.Restore(); restoreErr != nil || restored.Data.Images != filepath.Join(directory, "images", "images") || !manager.Status().Ready {
+		t.Fatalf("validated generation did not restore without Android: %+v %v", manager.Status(), restoreErr)
+	}
 	changed := cfg
 	changed.Client.MasterMemoryAladdinHash = "new-revision"
 	if _, e = Resolve(changed, root); e == nil {
@@ -66,6 +70,10 @@ func TestGenerationIsBoundToProfileAndValidatedFiles(t *testing.T) {
 	}
 	if _, e = Resolve(cfg, root); e == nil {
 		t.Fatal("damaged file accepted")
+	}
+	manager = New(cfg, root, root)
+	if _, e = manager.Restore(); e == nil || manager.Status().Ready {
+		t.Fatal("damaged generation restored")
 	}
 }
 func TestUnsafeOutputPathsRejected(t *testing.T) {

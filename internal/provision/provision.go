@@ -49,6 +49,29 @@ func New(cfg configuration.Config, root, program string) *Manager {
 	return &Manager{cfg: cfg, root: root, program: program, state: State{Phase: "checking", Message: "Vérification de l’installation"}}
 }
 func (m *Manager) Status() State { m.mu.RLock(); defer m.mu.RUnlock(); return m.state }
+
+// Restore makes a complete local generation available without contacting ADB.
+// Android compatibility is checked separately before local mode is enabled.
+func (m *Manager) Restore() (configuration.Config, error) {
+	m.mu.RLock()
+	cfg, program := m.cfg, m.program
+	m.mu.RUnlock()
+	prepared, err := Resolve(cfg, program)
+	if err != nil {
+		return cfg, err
+	}
+	if cleanupErr := cleanupGeneration(filepath.Dir(filepath.Dir(prepared.Data.Images))); cleanupErr != nil {
+		slog.Warn("completed import cleanup failed", "error", cleanupErr)
+	}
+	var receipt receipt
+	if err := readJSON(filepath.Join(filepath.Dir(filepath.Dir(prepared.Data.Images)), "receipt.json"), &receipt); err != nil {
+		return cfg, err
+	}
+	m.mu.Lock()
+	m.state = State{Phase: "ready", Message: "Installation prête", Ready: true, Completed: len(receipt.Images), Total: len(receipt.Images), Serial: prepared.Android.Serial}
+	m.mu.Unlock()
+	return prepared, nil
+}
 func (m *Manager) set(phase, message string) {
 	m.mu.Lock()
 	m.state.Phase = phase

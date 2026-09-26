@@ -48,7 +48,7 @@ function ModeControls({ status, operation, busy, onAction }: { status: ControlSt
         <strong>{copy.title}</strong>
       </div>
       <div className="mode-switch" role="group" aria-label={t('app.connectionMode')}>
-        <button className={status.mode === 'local' ? 'active' : ''} aria-pressed={status.mode === 'local'} disabled={busy || status.preparation?.ready === false} onClick={() => onAction('local')}>
+        <button className={status.mode === 'local' ? 'active' : ''} aria-pressed={status.mode === 'local'} disabled={busy || !status.preparation?.ready || !status.android.connected} onClick={() => onAction('local')}>
           <Server /> <span>{t('app.local')}</span>
         </button>
         <button className={status.mode === 'online' ? 'active' : ''} aria-pressed={status.mode === 'online'} disabled={busy} onClick={() => onAction('online')}>
@@ -66,6 +66,7 @@ export default function App() {
   const locale = useLocale()
   const [data, setData] = useState<Bootstrap | null>(null)
   const [control, setControl] = useState<ControlStatus>({ csrfToken: '', busy: false, mode: 'unknown', server: { running: false }, android: { connected: false, root: false, routing: 'indisponible', ca: 'inconnue', native: 'inconnue', game: 'inconnu', running: false } })
+  const [statusLoaded, setStatusLoaded] = useState(false)
   const [restarting, setRestarting] = useState(false)
   const [pending, setPending] = useState<ControlAction | null>(null)
   const [error, setError] = useState('')
@@ -80,6 +81,8 @@ export default function App() {
       if (status.preparation?.ready) setData(await loadBootstrap()); else setData(null)
     } catch (value) {
       setError(value instanceof Error ? value.message : t('app.refreshFailed'))
+    } finally {
+      setStatusLoaded(true)
     }
   }
 
@@ -201,8 +204,8 @@ export default function App() {
         {(error || connectionError) && <div className="global-error" role="alert"><span>{error || connectionError}</span><button onClick={() => { setError(''); setConnectionError('') }}>{t('common.close')}</button></div>}
         {control.update && control.update.phase !== 'idle' && control.update.phase !== 'current' && <div className="update-notice" role="status"><span>{restarting ? t('prepare.restarting') : ({unconfigured:t('prepare.updateUnconfigured'),downloading:t('prepare.updateDownloading'),ready:t('prepare.updateReady'),offline:t('prepare.updateOffline'),incompatible:t('prepare.updateIncompatible')}[control.update.phase] || control.update.message)}{control.update.version ? ' · '+control.update.version : ''}</span>{control.update.phase === 'ready' && <button className="secondary-button" disabled={controlsBusy || restarting} onClick={() => void applyUpdate()}>{t('prepare.updateButton')}</button>}</div>}
           <Routes key={locale}>
-            <Route path="/accounts" element={!preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
-            <Route path="/packs" element={preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
+            <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
+            <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
             <Route path="/traffic" element={<TrafficPage serverRunning={control.server.running} />} />
             <Route path="/logs" element={<LogsPage />} />
             <Route path="/settings" element={<SettingsPage settings={themeSettings} onSettingsChange={changeThemeSettings} />} />

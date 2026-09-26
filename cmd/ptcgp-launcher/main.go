@@ -110,6 +110,30 @@ func runPanel(args []string) {
 	}
 	defer state.Close()
 	defer handler.ClosePreparation()
+	activatePrepared := func(prepared configuration.Config) error {
+		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
+		if err != nil {
+			return err
+		}
+		images, err := assets.Open(prepared.Data.Images)
+		if err != nil {
+			return err
+		}
+		master := catalogs.Default()
+		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithTrafficHistory(prepared.Runtime.TrafficLog))
+		if err != nil {
+			return err
+		}
+		handler.SetAdministration(administration, journal, prepared.Android.Package, prepared.Android.Activity)
+		runner.SetPreparedConfig(prepared)
+		return nil
+	}
+	if prepared, restoreErr := preparation.Restore(); restoreErr == nil {
+		if err := activatePrepared(prepared); err != nil {
+			preparation.Fail(err)
+			journal.Record("prepare", "error", err.Error())
+		}
+	}
 	handler.SetPreparation(preparation, func(ctx context.Context, serial string) error {
 		if updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
 			current, e := runner.Status(ctx)
@@ -137,22 +161,9 @@ func runPanel(args []string) {
 		if err != nil {
 			return err
 		}
-		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
-		if err != nil {
+		if err := activatePrepared(prepared); err != nil {
 			return err
 		}
-		images, err := assets.Open(prepared.Data.Images)
-		if err != nil {
-			return err
-		}
-		master := catalogs.Default()
-		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithTrafficHistory(prepared.Runtime.TrafficLog))
-		if err != nil {
-			return err
-		}
-		handler.SetAdministration(administration, journal, prepared.Android.Package, prepared.Android.Activity)
-		runner.SetPreparedConfig(prepared)
-
 		return provision.WriteJSON(filepath.Join(*projectRoot, "data", "device.json"), map[string]string{"serial": prepared.Android.Serial})
 	})
 	handler.SetUpdates(updater, func() error { return updates.StartInstaller(*projectRoot, updater.PreparedKey()) })
@@ -165,11 +176,12 @@ func runPanel(args []string) {
 				currentConfig = refreshed
 			}
 			game := currentConfig.Client.AppVersion
-			if installed, e := android.InstalledVersion(updateCtx, android.SystemRunner(), currentConfig); e == nil {
+			installed, installedErr := android.InstalledVersion(updateCtx, android.SystemRunner(), currentConfig)
+			if installedErr == nil {
 				game = installed
 			}
 			updater.Check(updateCtx, game)
-			if updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
+			if installedErr == nil && updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
 				handler.StartPreparation("")
 			}
 			select {
@@ -197,7 +209,9 @@ func runPanel(args []string) {
 		fatal(err)
 	}
 	go func() { serveResult <- server.Serve(listener) }()
-	handler.StartPreparation("")
+	if !preparation.Status().Ready {
+		handler.StartPreparation("")
+	}
 	runTrayAction := func(action control.Action) {
 		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 		defer cancel()

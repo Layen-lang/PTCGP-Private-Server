@@ -43,6 +43,9 @@ also checks it when started directly. An unsupported version or library hash is
 rejected before starting the TLS server or applying the Android patch. Missing
 resources require finishing the download in the official game. Unknown Unity
 schemas require an updated importer; the parser does not guess their layout.
+An already validated generation opens the administration immediately, even if
+the emulator is offline. Connecting the emulator remains necessary to start
+local mode. The preparation page appears only for missing or invalid data.
 
 ## Program updates
 
