@@ -49,12 +49,12 @@ You need:
 
 - Windows 10 or later;
 - Pokémon TCG Pocket **1.7.2**, installed by you;
-- an ARM64 Android emulator with ADB, root access, `adb reverse`, and writable
-  system mounts;
+- a 64-bit Android emulator (x86-64 or ARM64) that runs the supported ARM64
+  game, with ADB, root access, `adb reverse`, and writable system mounts;
 - `adb.exe` available in `PATH`.
 
-You do **not** need Go or Node.js when using a published release. Those tools
-are only required to run the project from source.
+You do **not** need Go, Node.js, or Rust when using a published release. Those
+tools are only required to run the project from source.
 
 > [!CAUTION]
 > Local mode temporarily changes Android routing, installs a local certificate
@@ -73,13 +73,15 @@ are only required to run the project from source.
    `device`.
 5. Double-click `start-server.cmd`. The control panel opens at
    <http://127.0.0.1:8080>.
+6. Let the panel import data from the installed game. Select an emulator if
+   several are connected. The Accounts page opens when validation completes.
 
 If any requirement is unclear, follow the
 [step-by-step installation guide](docs/INSTALLATION.md) before continuing.
 
 ## First local profile
 
-1. In the control panel, select **Local** and wait for **Private server
+1. After preparation, select **Local** and wait for **Private server
    active**.
 2. Open **Accounts**, select **New account**, and choose an empty or complete
    inventory.
@@ -101,6 +103,7 @@ the safest daily workflow.
 | [Configuration](docs/CONFIGURATION.md) | `server.json`, environment variables, and CLI |
 | [Architecture](docs/ARCHITECTURE.md) | Components, ports, data flow, and boundaries |
 | [Game data](docs/GAME-DATA.md) | Runtime data layout and compatibility |
+| [Preparation and updates](docs/LOCAL-DATA-UPDATES.md) | First launch, recovery, and signed updates |
 | [Development](docs/DEVELOPMENT.md) | Build, test, and release workflow |
 
 Also see [Security](SECURITY.md), [Contributing](CONTRIBUTING.md), the
@@ -125,7 +128,3 @@ them to a public issue without carefully reviewing their contents.
 Original project code is available under the [MIT License](LICENSE). Pokémon
 names, artwork, and game data remain the property of their respective owners
 and are not covered by that license. See [NOTICE.md](NOTICE.md) for details.
-
-### Local preparation and updates
-
-New distributions import images and master data from your installed game on first launch. The panel stays available during preparation and automatically opens the administration once validation completes. Subsequent launches reuse prepared data. Signed program updates download automatically and install after a click. See [Local preparation and updates](docs/LOCAL-DATA-UPDATES.md) for emulator requirements, recovery and publisher setup.

@@ -63,8 +63,11 @@ and validating a different supported client profile.
 | `data.masterData` | Locale-aware master-data directory |
 | `data.images` | Indexed image directory |
 
-The default values point to the two runtime directories under `game-data/`.
-Only development installations normally override them.
+The bundled `server.json` keeps legacy `game-data/` paths as configuration
+defaults. Before the panel enables Local mode, the launcher resolves them to a
+validated generation under `data/generations/`. The server performs the same
+resolution when started directly. Do not point these fields at an incomplete
+`.pending` generation; only development installations normally override them.
 
 ## Client, contracts, and patch
 

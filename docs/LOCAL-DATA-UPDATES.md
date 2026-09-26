@@ -5,13 +5,23 @@ mode stays disabled until the selected emulator, game profile, master data and
 image generation have passed validation. Accounts and settings remain under
 the original installation directory.
 
-## First launch and subsequent launches
+## First launch
 
-Install the official game and finish its resource download. Enable ADB and root
-in the emulator, then open `start-server.cmd`. The preparation screen lists ADB
-devices and lets you select an instance when several are available. It imports
-all nine locales and every image selected by the published compatibility profile.
-The regular administration appears automatically when preparation finishes.
+1. Install the official game and finish its resource download.
+2. Enable ADB and root in the emulator, then open `start-server.cmd`.
+3. If several emulators are connected, select the one containing the game.
+4. Wait for preparation to import all nine locales and the images in the
+   published compatibility profile. The Accounts page opens automatically
+   after validation. Then select **Local** to start the private server.
+
+On later launches, a validated generation opens Accounts immediately, even
+when the emulator is offline. Reconnect the emulator before selecting **Local**.
+If preparation fails, finish any missing resource download in the official
+game and select **Retry preparation** (or **Réessayer la préparation** in French)
+in the panel. A retry reuses completed work. An unsupported game version needs
+a compatible project release.
+
+## How local preparation works
 
 The importer is a precompiled Rust program. Users do not install Rust, Python,
 AssetRipper, or the datamining project. ADB must be available on PATH, as in
@@ -43,9 +53,7 @@ also checks it when started directly. An unsupported version or library hash is
 rejected before starting the TLS server or applying the Android patch. Missing
 resources require finishing the download in the official game. Unknown Unity
 schemas require an updated importer; the parser does not guess their layout.
-An already validated generation opens the administration immediately, even if
-the emulator is offline. Connecting the emulator remains necessary to start
-local mode. The preparation page appears only for missing or invalid data.
+The preparation page appears only for missing or invalid data.
 
 ## Program updates
 
@@ -56,8 +64,9 @@ reused. Unsigned, damaged, incompatible, or incomplete downloads are not run.
 The latest release must support the installed game; automatic downgrades are
 refused. If it does not, the current installation is preserved.
 
-Changes to executable code require **Mettre à jour et redémarrer**. The launcher
-restores official mode, stops the game server, and starts a temporary installer.
+Changes to executable code require **Update and restart** (or **Mettre à jour et
+redémarrer** in French). The launcher restores official mode, stops the game
+server, and starts a temporary installer.
 After the old panel exits, the installer backs up the accounts database, selects
 the prepared release, and starts its panel. Health must come from that exact
 new process. Startup failure restores the previous program selection and database.

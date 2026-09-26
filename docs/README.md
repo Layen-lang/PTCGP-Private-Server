@@ -7,6 +7,7 @@ Choose the guide that matches what you are trying to do.
 1. [Install PTCGP Private Server](INSTALLATION.md)
 2. [Create and use local profiles](USAGE.md)
 3. [Solve a startup or emulator problem](TROUBLESHOOTING.md)
+4. [Prepare game data and install updates](LOCAL-DATA-UPDATES.md)
 
 ## Understand or develop it
 
@@ -24,5 +25,3 @@ Choose the guide that matches what you are trying to do.
 
 For the shortest introduction and first-run steps, return to the main
 [README](../README.md).
-
-- [Local preparation and integrated updates](LOCAL-DATA-UPDATES.md)

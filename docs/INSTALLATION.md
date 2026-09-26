@@ -6,10 +6,11 @@ If the server is already installed, continue with the [user guide](USAGE.md).
 ## Choose how to install
 
 For most people, use the published Windows release. It contains the launcher,
-server, web interface, extraction profiles and precompiled Rust tools. Game data is prepared locally on first launch. Building from source is only
-for contributors and developers.
+server, web interface, extraction profiles, and precompiled Rust tools. Game
+data is prepared locally on first launch. Building from source is for
+contributors and developers.
 
-| Method | Requires Go and Node.js | Recommended for |
+| Method | Requires Go, Node.js, and Rust | Recommended for |
 | --- | --- | --- |
 | [Windows release](#install-a-windows-release) | No | Almost everyone |
 | [Source checkout](#run-from-source) | Yes | Development and contributions |
@@ -130,6 +131,7 @@ Install these development tools first:
 
 - Go 1.25.5 or a later compatible Go 1.25 release;
 - Node.js 22 with npm;
+- Rust with both Linux musl targets listed below;
 - ADB and the emulator requirements above.
 
 Then run:
@@ -153,9 +155,14 @@ workflow, see [Development](DEVELOPMENT.md).
 
 ## Updating
 
-Updates download automatically. Use **Mettre à jour et redémarrer** to install a verified program update. Accounts and runtime settings stay in place; preparation imports changed game data when needed. The game itself remains updated through its official source. Local mode refuses an unsupported game build.
+Signed program updates download automatically in published installations. Use
+**Update and restart** (or **Mettre à jour et redémarrer** in French) to install
+a verified executable update. Accounts and runtime settings stay in place;
+preparation imports changed game data when needed. Update the game itself
+through its official source. Local mode refuses an unsupported game build.
 
-See [Local preparation and updates](LOCAL-DATA-UPDATES.md) for recovery and the first migration from an older distribution.
+See [Preparation and updates](LOCAL-DATA-UPDATES.md) for recovery and the first
+migration from an older distribution.
 
 ## Uninstalling safely
 

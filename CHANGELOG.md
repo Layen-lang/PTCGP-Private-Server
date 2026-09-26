@@ -6,6 +6,31 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.7.2.2] - 2026-09-26
+
+### Added
+
+- Import game images and master data from the installed game on first launch,
+  with progress, resumable preparation, and validated local generations.
+- Download signed program updates and install them after confirmation, with
+  startup validation and rollback if the new version fails.
+- Package precompiled Rust extraction tools and compatibility profiles instead
+  of distributing the game's artwork and tables.
+
+### Changed
+
+- Open the control panel before data preparation and restore validated data
+  without requiring an emulator connection.
+- Support compatible 64-bit x86-64 and ARM64 Android systems, with device
+  selection when several emulators are connected.
+- Update installation, usage, troubleshooting, configuration, and development
+  guides for local preparation and integrated updates.
+
+### Fixed
+
+- Preserve binary data streams through root shells on LDPlayer and make
+  Android setup and deferred restoration more resilient.
+
 ## [1.7.2.1] - 2026-09-21
 
 ### Added

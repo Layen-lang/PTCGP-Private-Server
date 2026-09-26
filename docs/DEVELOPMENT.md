@@ -7,6 +7,9 @@ This page covers the source workflow. For the component model first, read
 
 - Go 1.25.5 or a later compatible Go 1.25 release.
 - Node.js 22 and npm.
+- Rust with the `x86_64-unknown-linux-musl` and
+  `aarch64-unknown-linux-musl` targets for the importer and Android readers.
+- ADB available on `PATH`.
 - Windows for launcher, system-tray, and Android integration testing.
 - A compatible rooted emulator for end-to-end tests.
 
@@ -18,7 +21,13 @@ npm ci
 cd ..
 ```
 
-Go modules are downloaded automatically by Go commands.
+Install the Rust cross-compilation targets:
+
+```powershell
+rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
+```
+
+Go and Cargo dependencies are downloaded by their build commands.
 
 ## Run from source
 
@@ -27,8 +36,8 @@ Go modules are downloaded automatically by Go commands.
 ```
 
 In a source checkout, the script runs the Go launcher controller. The launcher
-rebuilds the frontend and the two local executables when source inputs are newer
-than generated outputs.
+rebuilds the frontend, the two Go executables, the Rust importer, and both
+Android readers when their inputs are newer than generated outputs.
 
 To run the frontend development server separately:
 
@@ -46,6 +55,7 @@ workflow, not a replacement for the Go launcher and administration backend.
 cd web
 npm run build
 cd ..
+./native/build.ps1
 New-Item -ItemType Directory -Force bin | Out-Null
 go build -o bin/ptcgp-launcher.exe ./cmd/ptcgp-launcher
 go build -o bin/ptcgp-server.exe ./cmd/ptcgp-server
@@ -60,6 +70,7 @@ changes.
 ```powershell
 go test ./...
 go vet ./...
+cargo test --locked --manifest-path native/importer/Cargo.toml
 cd web
 npm run lint
 npm exec tsc -- -b
@@ -68,8 +79,8 @@ cd ..
 .\scripts\check_publication.ps1
 ```
 
-CI also checks Go formatting and verifies that `internal/admin/dist` matches
-the frontend source.
+CI also checks Go formatting, verifies that `internal/admin/dist` matches the
+frontend source, and builds the native importer and both Android readers.
 
 Tests use a synthetic master-data fixture from `internal/testfixture`; they do
 not require or publish local game data. Set `PTCGP_TEST_MASTER_DATA` only when
@@ -81,8 +92,10 @@ you intentionally run compatible integration checks against a local dataset.
 - Treat `internal/admin/dist` as generated but committed release input.
 - Never commit `data/`, `certs/`, binaries, traffic captures, Android backups,
   APKs, native libraries, credentials, or personal paths.
-- Keep runtime game data within the layout documented in
-  [Game data](GAME-DATA.md).
+- Keep imported game data in ignored `data/generations/`. Commit only validated
+  extraction plans and compatibility metadata under `profiles/`.
+- Keep generated native build outputs out of Git. See [Game data](GAME-DATA.md)
+  for the runtime layout.
 
 ## Release versioning
 
@@ -97,14 +110,22 @@ Git tags use the same value with a `v` prefix.
 
 ## Release process
 
-1. Update `VERSION`, `server.json`, and [CHANGELOG.md](../CHANGELOG.md).
-2. Verify that the game version, build metadata, contracts, patch manifest, and
-   data bundle belong to the same validated profile.
+1. Update `VERSION` and [CHANGELOG.md](../CHANGELOG.md). Review `server.json`
+   and update it when client compatibility metadata changes.
+2. Verify that the game version, build metadata, contracts, patch manifest,
+   extraction plan, and image index belong to the same validated profile.
 3. Run every validation command above.
-4. Push a tag equal to `v` plus the exact `VERSION` value.
-5. The release workflow builds both Windows executables, stages documentation
-   and game data, creates the ZIP and SHA-256 manifest, and publishes a GitHub
-   release.
+4. Configure the matching Ed25519 public key repository variable
+   `PTCGP_UPDATE_PUBLIC_KEY` and private signing seed secret
+   `PTCGP_UPDATE_SIGNING_SEED` before the first signed release. Keep the seed
+   out of the repository.
+5. Push a tag equal to `v` plus the exact `VERSION` value.
+6. The release workflow builds Go and Rust executables, stages documentation
+   and `profiles/`, creates the ZIP, SHA-256 list, and signed update manifest,
+   then publishes a GitHub release. It does not package `game-data/`.
+
+See [Preparation and updates](LOCAL-DATA-UPDATES.md#building-and-publishing)
+for the signing and profile requirements.
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution scope and language
 requirements.

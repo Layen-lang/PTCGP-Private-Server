@@ -6,19 +6,26 @@ open <http://127.0.0.1:8080> if the browser does not open automatically.
 ## The safe daily workflow
 
 ```text
-Start emulator → Open control panel → Local → Open a local profile
-       ↓
-Finish playing → Official (or Stop all) → Use an official account safely
+Start emulator → Open panel → Prepare data if prompted → Local
+→ Open a local profile → Finish playing → Official (or Stop all)
 ```
 
-1. Start the emulator and wait for **Emulator connected**.
-2. Select **Local** and wait for **Private server active**.
+1. Start the emulator and open the control panel. On a new installation, wait
+   for the game data import to finish; select the emulator if prompted.
+2. Select **Local** and wait for **Private server active**. Local mode is
+   available only after preparation succeeds and the emulator is connected.
 3. Open an account from the **Accounts** page.
 4. Make any profile or pack changes from the panel.
 5. Before using an official account, select **Official**.
 6. Use **Stop all** when you want to restore Android and close the local tools.
 
 Do not launch an official account while Local mode is active.
+
+After the first import, the panel can open Accounts using prepared data even
+when the emulator is offline. Reconnect it before enabling Local mode. If
+preparation stops or reports an error, use **Retry preparation** on the
+preparation page; see [Preparation and updates](LOCAL-DATA-UPDATES.md) for
+recovery details.
 
 ## Connection modes
 

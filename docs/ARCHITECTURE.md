@@ -11,13 +11,14 @@ Browser
   │ http://127.0.0.1:8080
   ▼
 Launcher / control panel ───────► Android emulator through ADB + root
+  │ imports and validates data         │ installed game resources
   │ reverse proxy                     │
   │ http://127.0.0.1:8081             │ local routing + CA + TLS patch
   ▼                                    ▼
 Private server ◄──── HTTPS / gRPC ── Game client
   │
   ├── SQLite profiles and rules
-  ├── curated master data and images
+  ├── locally imported master data and images
   └── sanitized traffic history
 ```
 
@@ -40,7 +41,13 @@ token. Administration listeners are required to remain on loopback.
 | --- | --- |
 | `cmd/ptcgp-launcher` | CLI, panel process, browser launch, and Windows tray |
 | `cmd/ptcgp-server` | Game-facing server command |
+| `cmd/ptcgp-release` | Signed update manifest creation during publication |
 | `internal/control` | Process lifecycle, status, Android routing, and recovery |
+| `internal/android` | Device discovery and installed-game compatibility checks |
+| `internal/provision` | Local import, validation, and generation selection |
+| `internal/updates` | Signed release download, activation, and rollback |
+| `native/importer` and `native/reader` | Game data extraction on Windows and Android |
+| `profiles` | Published extraction plans and image index |
 | `internal/admin` | Embedded frontend and administration handlers |
 | `internal/playerapi` | gRPC Player API compatibility handlers |
 | `internal/restapi` | HTTP compatibility handlers |
@@ -53,13 +60,18 @@ token. Administration listeners are required to remain on loopback.
 
 ## Local-mode lifecycle
 
-1. Validate `server.json`, client profile, contracts, data, and patch manifest.
-2. Generate or reuse the installation's local certificates.
-3. Start the private server and verify that it owns its recorded process.
-4. Discover the configured Android package through ADB.
+1. Open the control panel. If no validated generation exists, discover the
+   installed game, import its data, and publish a complete generation.
+2. Before Local mode, check the installed game's version and native library
+   against the published profile and resolve the validated generation.
+3. Generate or reuse the installation's local certificates.
+4. Start the private server and verify that it owns its recorded process.
 5. Back up and hash-check the exact native library.
 6. Apply the guarded patch, temporary CA store, hosts routing, and ADB tunnel.
 7. Record the active mode and expose status to the control panel.
+
+An existing validated generation lets the panel open Accounts without an
+emulator. Local mode still requires a connected compatible emulator.
 
 Official and Stop actions reverse those Android changes using the verified
 backup. A Stop request made without the emulator writes a pending-restoration
@@ -72,7 +84,9 @@ marker; the next complete status check resumes restoration.
 | `data/ptcgp.db` | Persistent | Local profiles, inventory, progression, and pack rules |
 | `data/runtime/` | Runtime | PIDs, mode, journal, logs, patch state, and recovery marker |
 | `certs/` | Per installation | Local certificate authority, certificate, and key |
-| `game-data/` | Per release | Read-only curated tables and indexed images |
+| `profiles/` | Per release | Validated extraction and compatibility metadata |
+| `data/generations/` | Per imported game profile | Validated local master data and indexed images |
+| `data/updates/` | Per installation | Downloaded program versions and active selection |
 | Browser storage | Per browser profile | Language and visual preferences |
 
 `data/`, `certs/`, and traffic-development workspaces are ignored by Git.

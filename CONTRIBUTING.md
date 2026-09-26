@@ -8,8 +8,8 @@ a new project revision is prepared.
 
 Contributions should remain focused on local interoperability. Do not add game
 binaries, credentials, certificates, traffic captures, player data, or personal
-information. Changes to the curated runtime data must be intentional, minimal,
-and documented in the pull request.
+information. Changes to published extraction profiles must be intentional,
+minimal, and documented in the pull request.
 
 ## Before opening a pull request
 
@@ -18,6 +18,9 @@ Run the complete validation suite from the repository root:
 ```powershell
 go test ./...
 go vet ./...
+rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
+cargo test --locked --manifest-path native/importer/Cargo.toml
+./native/build.ps1
 cd web
 npm ci
 npm run lint

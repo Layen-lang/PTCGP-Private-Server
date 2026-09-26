@@ -21,8 +21,8 @@ local state.
 | Root is false | `su` is unavailable or denied | Enable the emulator's root mode and test `adb shell su -c id` |
 | More than one device matches | Automatic selection is ambiguous | Pass `-Serial` or set `android.serial` |
 | Port already in use | Another process owns `443`, `8080`, or `8081` | Stop that process or restore the configured port |
-| Version or hash mismatch | The game build does not match this release | Return to Official mode and install the exact supported version |
-| Panel opens but data fails to load | Missing or damaged `game-data` | Extract the complete release again |
+| Version or hash mismatch | The installed game build is unsupported | Return to Official mode and use a project release that supports that game build |
+| Preparation is blocked or data fails to load | Game resources are incomplete, or the local generation is missing or damaged | Finish the official game's resource download, then select **Retry preparation** in the panel |
 | Browser does not open | Default-browser launch failed | Open <http://127.0.0.1:8080> manually |
 | Official restoration is pending | Stop was requested while the emulator was unavailable | Reconnect the emulator and run the launcher again |
 
@@ -88,19 +88,25 @@ restoring the TLS patch. It refuses unknown files intentionally.
 
 1. Keep the emulator connected.
 2. Run `start-server.cmd online`.
-3. Confirm the installed game is exactly the version stated in the root
-   [README](../README.md).
-4. Use the project release made for that game version.
+3. Confirm the installed game is a version supported by the current project
+   release, as stated in the root [README](../README.md).
+4. Install a project release that supports that version, if one is available.
 
 Do not edit hashes in `server.json` to bypass verification. A forced patch on
 an unknown library can leave the game installation unusable.
 
-## Missing game data
+## Missing or damaged game data
 
-A published release includes `game-data/images` and `game-data/master-data`.
-If either directory is missing or partially extracted, download the archive
-again and extract all files. See [Game data](GAME-DATA.md) for the expected
-layout.
+The release contains extraction profiles and tools, not the game's images or
+master data. The panel imports them from the installed game into
+`data/generations/`. Start the official game and finish its resource download,
+then return to the panel and select **Retry preparation**. Keep the
+installation folder and any `.pending` generation intact so a retry can reuse
+completed work.
+
+If the panel reports an unsupported game build or an unknown Unity schema,
+install a compatible project release. See
+[Preparation and updates](LOCAL-DATA-UPDATES.md) and [Game data](GAME-DATA.md).
 
 ## Logs
 
