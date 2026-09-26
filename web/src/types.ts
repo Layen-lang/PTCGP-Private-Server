@@ -1,3 +1,5 @@
+export type PreparationState = { phase: string; message: string; ready: boolean; busy: boolean; completed: number; total: number; serial?: string; error?: string }
+export type UpdateState = { phase: string; message: string; version?: string; completed: number; total: number }
 export type PlayerSummary = {
   ID: string
   DisplayName: string
@@ -19,9 +21,11 @@ export type Bootstrap = {
 }
 
 export type ControlStatus = {
+  preparation?: PreparationState
+  update?: UpdateState
   csrfToken: string
   busy: boolean
-  operation?: 'local' | 'online' | 'stop' | 'open'
+  operation?: 'local' | 'online' | 'stop' | 'open' | 'prepare' | 'update'
   mode: 'local' | 'online' | 'stopped' | 'unknown'
   server: { running: boolean; pid?: number }
   android: {

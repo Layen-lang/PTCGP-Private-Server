@@ -1173,3 +1173,24 @@ html[data-theme="dark"]:not([data-studio-theme="illegal"]) .traffic-payload pre 
   .theme-option:hover { transform:none; }
   .preset-trigger > svg, .theme-advanced > summary svg:last-child { transition:none; }
 }
+
+/* Installation shares the panel's existing theme and control vocabulary. */
+.preparation-page { max-width: 760px; margin-inline: auto; padding-block: 3rem; }
+.preparation-heading { display:flex; gap:1rem; align-items:center; color:var(--color-ink); }
+.preparation-heading > svg { color:var(--color-brand); flex-shrink:0; }
+.preparation-intro, .preparation-note { max-width:65ch; line-height:1.6; }
+.preparation-device { margin-block:2rem; }
+.preparation-device label { display:flex; align-items:center; gap:.5rem; font-weight:600; margin-bottom:.75rem; }
+.preparation-device-controls { display:flex; gap:.5rem; }
+.preparation-device-controls select { min-width:0; flex:1; }
+.preparation-device p, .preparation-note { font-size:.875rem; }
+.preparation-steps { list-style:none; margin:2rem 0; padding:0; }
+.preparation-steps li { display:flex; align-items:center; gap:.75rem; padding:.75rem 0; }
+.preparation-step-marker { width:1.75rem; height:1.75rem; border:1px solid var(--color-control-border); border-radius:50%; display:grid; place-items:center; font-size:.8rem; flex-shrink:0; }
+.preparation-steps .current { font-weight:600; }
+.preparation-steps .current .preparation-step-marker, .preparation-steps .complete .preparation-step-marker { background:var(--color-brand); color:white; border-color:var(--color-brand); }
+.preparation-progress { display:grid; gap:.75rem; margin-block:1.5rem; }
+.preparation-progress progress { width:100%; accent-color:var(--color-brand); }
+.preparation-error { padding:1rem; margin-block:1rem; border:1px solid var(--color-danger-line); border-radius:.5rem; color:var(--color-danger); background:var(--color-danger-soft); overflow-wrap:anywhere; }
+.update-notice { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 1.5rem; background:var(--color-surface-soft); border-bottom:1px solid var(--color-line); }
+@media(max-width:600px){.preparation-page{padding-block:1.5rem}.preparation-heading{align-items:flex-start}.preparation-heading h1{font-size:1.5rem}}

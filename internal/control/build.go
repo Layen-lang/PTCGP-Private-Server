@@ -91,6 +91,9 @@ func (r *NativeRunner) EnsureExecutables(ctx context.Context) error {
 	} else if err != nil {
 		return fmt.Errorf("inspect source project: %w", err)
 	}
+	if err := r.ensureNativeExecutables(ctx); err != nil {
+		return err
+	}
 
 	webTime, err := newestInput(r.root, "web/src", "web/package.json", "web/package-lock.json", "web/vite.config.ts", "web/tsconfig.json", "web/tsconfig.app.json", "web/index.html")
 	if err != nil {
@@ -131,6 +134,62 @@ func (r *NativeRunner) EnsureExecutables(ctx context.Context) error {
 			return err
 		}
 		if err := replaceExecutable(ctx, candidate, target.executable); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+var nativeExecutables = []string{"ptcgp-importer.exe", "ptcgp-reader-x86_64", "ptcgp-reader-aarch64"}
+
+func nativeNeedsBuild(root string) (bool, error) {
+	newest, err := newestInput(root, "native/build.ps1", "native/importer/src", "native/importer/Cargo.toml", "native/importer/Cargo.lock", "native/reader/src", "native/reader/Cargo.toml", "native/reader/Cargo.lock")
+	if err != nil {
+		return false, err
+	}
+	for _, name := range nativeExecutables {
+		if needsBuild(filepath.Join(root, "bin", name), newest) {
+			return true, nil
+		}
+	}
+	return false, nil
+}
+
+func (r *NativeRunner) ensureNativeExecutables(ctx context.Context) error {
+	// Installed signed releases are immutable, even inside a source checkout.
+	if filepath.Clean(r.server) != filepath.Join(r.root, "bin", "ptcgp-server.exe") {
+		return nil
+	}
+	needed, err := nativeNeedsBuild(r.root)
+	if err != nil || !needed {
+		return err
+	}
+	bin := filepath.Join(r.root, "bin")
+	if err := os.MkdirAll(bin, 0700); err != nil {
+		return err
+	}
+	stage, err := os.MkdirTemp(bin, ".native-build-")
+	if err != nil {
+		return err
+	}
+	defer os.RemoveAll(stage)
+	fmt.Fprintln(os.Stderr, "Compilation de l’importeur Rust et des lecteurs Android…")
+	if err := r.buildCommand(ctx, r.root, "powershell.exe", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", filepath.Join(r.root, "native", "build.ps1"), "-OutputDirectory", stage); err != nil {
+		return fmt.Errorf("compile native tools (Rust and both musl targets are required): %w", err)
+	}
+	for _, name := range nativeExecutables {
+		if _, err := os.Stat(filepath.Join(stage, name)); err != nil {
+			return fmt.Errorf("native build did not produce %s: %w", name, err)
+		}
+	}
+	for _, name := range nativeExecutables {
+		target := filepath.Join(bin, name)
+		if err := replaceExecutable(ctx, filepath.Join(stage, name), target); err != nil {
+			return err
+		}
+		// Cargo may reuse an older artifact when only the build script changed.
+		now := time.Now()
+		if err := os.Chtimes(target, now, now); err != nil {
 			return err
 		}
 	}

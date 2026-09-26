@@ -16,7 +16,9 @@ import (
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/localtls"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
 
 // NativeRunner controls the server and Android directly, without a shell host.
@@ -48,8 +50,12 @@ func (nativeCommands) Run(ctx context.Context, name string, args ...string) ([]b
 
 // NewNativeRunner resolves the executables installed in the project.
 func NewNativeRunner(cfg configuration.Config, root string) (*NativeRunner, error) {
+	program, err := installation.Program(root)
+	if err != nil {
+		return nil, err
+	}
 	r := &NativeRunner{cfg: cfg, root: root, commands: nativeCommands{},
-		server: filepath.Join(root, "bin", "ptcgp-server.exe"), launcher: filepath.Join(root, "bin", "ptcgp-launcher.exe")}
+		server: filepath.Join(program, "bin", "ptcgp-server.exe"), launcher: filepath.Join(program, "bin", "ptcgp-launcher.exe")}
 	return r, nil
 }
 
@@ -70,7 +76,8 @@ func (r *NativeRunner) adb(ctx context.Context, serial string, args ...string) (
 func (r *NativeRunner) shell(ctx context.Context, serial, command string) (string, error) {
 	// ADB joins shell arguments before sending them to Android. Quote the
 	// complete su argument so redirections and compound statements run as root.
-	return r.adb(ctx, serial, "shell", "su -c "+shellQuote(command))
+	quoted := shellQuote(command)
+	return r.adb(ctx, serial, "shell", "if [ \"$(id -u)\" = 0 ]; then sh -c "+quoted+"; else su -c "+quoted+"; fi")
 }
 
 func shellQuote(s string) string { return "'" + strings.ReplaceAll(s, "'", "'\"'\"'") + "'" }
@@ -286,6 +293,11 @@ func (r *NativeRunner) pidFile(name string) string {
 }
 
 func (r *NativeRunner) libraryPath(ctx context.Context, serial, library string) (string, error) {
+	if details, err := r.adb(ctx, serial, "shell", "dumpsys", "package", r.cfg.Android.Package); err == nil {
+		if match := regexp.MustCompile(`\bnativeLibraryDir=([^\s]+)`).FindStringSubmatch(details); len(match) == 2 {
+			return path.Join(match[1], library), nil
+		}
+	}
 	out, err := r.adb(ctx, serial, "shell", "pm", "path", r.cfg.Android.Package)
 	if err != nil {
 		return "", err
@@ -359,6 +371,20 @@ func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error
 		}
 	}
 	if action == ActionLocal {
+		check := r.cfg
+		check.Android.Serial = serial
+		if _, err := android.Inspect(ctx, r.commands, check); err != nil {
+			return Status{}, err
+		}
+		program, err := installation.Program(r.root)
+		if err != nil {
+			return Status{}, err
+		}
+		prepared, err := provision.Resolve(check, program)
+		if err != nil {
+			return Status{}, err
+		}
+		r.cfg = prepared
 		r.step("local", "Checking certificates and starting the server")
 		if _, err := r.commands.Run(ctx, r.server, "cert", "ensure", "--config", r.cfg.Path); err != nil {
 			return Status{}, err

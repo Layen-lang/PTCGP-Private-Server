@@ -24,3 +24,5 @@ Choose the guide that matches what you are trying to do.
 
 For the shortest introduction and first-run steps, return to the main
 [README](../README.md).
+
+- [Local preparation and integrated updates](LOCAL-DATA-UPDATES.md)

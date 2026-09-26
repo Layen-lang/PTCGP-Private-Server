@@ -11,13 +11,17 @@ import (
 	"os/signal"
 	"path/filepath"
 	"syscall"
+	"time"
 
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/assets"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/localtls"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/server"
 )
 
@@ -53,6 +57,14 @@ func run(args []string, logger *slog.Logger) error {
 	case "cert":
 		return runCert(args[1:], cfg)
 	case "verify":
+		program, err := installation.Program(filepath.Dir(cfg.Path))
+		if err != nil {
+			return err
+		}
+		cfg, err = provision.Resolve(cfg, program)
+		if err != nil {
+			return err
+		}
 		summary, err := contracts.VerifyProto(cfg.Contracts)
 		if err != nil {
 			return err
@@ -122,6 +134,14 @@ func runPatch(args []string, cfg configuration.Config) error {
 }
 
 func runServe(args []string, logger *slog.Logger, cfg configuration.Config) error {
+	program, err := installation.Program(filepath.Dir(cfg.Path))
+	if err != nil {
+		return err
+	}
+	cfg, err = provision.Resolve(cfg, program)
+	if err != nil {
+		return err
+	}
 	flags := flag.NewFlagSet("serve", flag.ContinueOnError)
 	address := flags.String("address", cfg.Runtime.Address, "TLS listen address")
 	adminAddress := flags.String("admin-address", cfg.Runtime.AdminAddress, "loopback administration address")
@@ -137,6 +157,13 @@ func runServe(args []string, logger *slog.Logger, cfg configuration.Config) erro
 	androidActivity := flags.String("android-activity", cfg.Android.Activity, "Android activity")
 	if err := flags.Parse(args); err != nil {
 		return err
+	}
+	cfg.Android.Serial = *adbSerial
+	checkCtx, cancelCheck := context.WithTimeout(context.Background(), 30*time.Second)
+	_, checkErr := android.Inspect(checkCtx, android.SystemRunner(), cfg)
+	cancelCheck()
+	if checkErr != nil {
+		return checkErr
 	}
 	if _, err := contracts.VerifyProto(cfg.Contracts); err != nil {
 		return err

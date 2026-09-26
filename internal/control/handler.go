@@ -15,22 +15,27 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"os"
 	"strings"
 	"sync"
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
 const maxBodyBytes = 1 << 16
 
 type Status struct {
-	CSRFToken string        `json:"csrfToken,omitempty"`
-	Busy      bool          `json:"busy"`
-	Operation string        `json:"operation,omitempty"`
-	Mode      string        `json:"mode"`
-	Server    ServerStatus  `json:"server"`
-	Android   AndroidStatus `json:"android"`
+	Update      *updates.State   `json:"update,omitempty"`
+	Preparation *provision.State `json:"preparation,omitempty"`
+	CSRFToken   string           `json:"csrfToken,omitempty"`
+	Busy        bool             `json:"busy"`
+	Operation   string           `json:"operation,omitempty"`
+	Mode        string           `json:"mode"`
+	Server      ServerStatus     `json:"server"`
+	Android     AndroidStatus    `json:"android"`
 }
 
 type ServerStatus struct {
@@ -63,15 +68,24 @@ type Runner interface {
 }
 
 type Handler struct {
-	runner          Runner
-	proxy           *httputil.ReverseProxy
-	static          http.Handler
-	csrf            string
-	administration  http.Handler
-	journal         *Journal
-	androidPackage  string
-	androidActivity string
-	shutdown        func()
+	updates           *updates.Manager
+	installUpdate     func() error
+	adminMu           sync.RWMutex
+	preparation       *provision.Manager
+	prepare           func(context.Context, string) error
+	preparationMu     sync.Mutex
+	preparationStop   context.CancelFunc
+	preparationDone   chan struct{}
+	preparationClosed bool
+	runner            Runner
+	proxy             *httputil.ReverseProxy
+	static            http.Handler
+	csrf              string
+	administration    http.Handler
+	journal           *Journal
+	androidPackage    string
+	androidActivity   string
+	shutdown          func()
 
 	operationMu sync.RWMutex
 	operation   string
@@ -94,8 +108,11 @@ func New(frontend fs.FS, backend *url.URL, runner Runner) (*Handler, error) {
 		csrf:   token,
 	}
 	proxy.ErrorHandler = func(w http.ResponseWriter, r *http.Request, _ error) {
-		if handler.administration != nil {
-			handler.administration.ServeHTTP(w, r)
+		handler.adminMu.RLock()
+		administration := handler.administration
+		handler.adminMu.RUnlock()
+		if administration != nil {
+			administration.ServeHTTP(w, r)
 			return
 		}
 		writeJSON(w, http.StatusServiceUnavailable, map[string]string{"error": "Administration unavailable."})
@@ -106,8 +123,13 @@ func New(frontend fs.FS, backend *url.URL, runner Runner) (*Handler, error) {
 // SetAdministration keeps account and catalog operations independent of the game process.
 // Configure it before serving requests.
 func (h *Handler) SetAdministration(handler http.Handler, journal *Journal, packageName, activity string) {
-	h.administration, h.journal = handler, journal
-	h.androidPackage, h.androidActivity = packageName, activity
+	h.adminMu.Lock()
+	defer h.adminMu.Unlock()
+	h.administration = handler
+	if h.journal == nil {
+		h.journal = journal
+		h.androidPackage, h.androidActivity = packageName, activity
+	}
 }
 
 // SetShutdown configures the graceful panel shutdown requested after a
@@ -154,6 +176,17 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 	switchPath := strings.Trim(strings.TrimPrefix(r.URL.Path, "/api/control/"), "/")
 	switch {
+	case r.Method == http.MethodGet && r.URL.Path == "/api/control/health":
+		writeJSON(w, 200, map[string]any{"healthy": true, "pid": os.Getpid()})
+	case r.Method == http.MethodGet && r.URL.Path == "/api/control/devices":
+		ctx, cancel := context.WithTimeout(r.Context(), 10*time.Second)
+		defer cancel()
+		devices, err := android.Devices(ctx, android.SystemRunner())
+		if err != nil {
+			writeJSON(w, 503, map[string]string{"error": err.Error()})
+		} else {
+			writeJSON(w, 200, devices)
+		}
 	case r.Method == http.MethodGet && r.URL.Path == "/api/control/status":
 		h.status(w, r)
 	case r.Method == http.MethodGet && (r.URL.Path == "/api/control/logs" || r.URL.Path == "/api/control/logs/export"):
@@ -181,13 +214,24 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		writeJSON(w, http.StatusOK, map[string]any{"events": events, "diagnostics": diagnostics})
+	case r.Method == http.MethodPost && r.URL.Path == "/api/control/update":
+		if h.validateMutation(w, r) {
+			h.updateAction(w, r)
+		}
+	case r.Method == http.MethodPost && r.URL.Path == "/api/control/prepare":
+		if h.validateMutation(w, r) {
+			h.preparationAction(w, r)
+		}
 	case r.Method == http.MethodPost && strings.HasPrefix(r.URL.Path, "/api/control/actions/"):
 		if h.validateMutation(w, r) {
 			h.action(w, r, strings.TrimPrefix(switchPath, "actions/"))
 		}
 	case strings.HasPrefix(r.URL.Path, "/api/") || strings.HasPrefix(r.URL.Path, "/assets/image/"):
-		if h.administration != nil && !strings.HasPrefix(r.URL.Path, "/api/traffic") {
-			h.administration.ServeHTTP(w, r)
+		h.adminMu.RLock()
+		administration := h.administration
+		h.adminMu.RUnlock()
+		if administration != nil && !strings.HasPrefix(r.URL.Path, "/api/traffic") {
+			administration.ServeHTTP(w, r)
 		} else {
 			h.proxy.ServeHTTP(w, r)
 		}
@@ -223,11 +267,23 @@ func (h *Handler) status(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	h.storeStatus(status)
+	if h.preparation != nil {
+		s := h.preparation.Status()
+		status.Preparation = &s
+	}
+	if h.updates != nil {
+		s := h.updates.Status()
+		status.Update = &s
+	}
 	status.CSRFToken = h.csrf
 	writeJSON(w, http.StatusOK, status)
 }
 
 func (h *Handler) action(w http.ResponseWriter, _ *http.Request, rawAction string) {
+	if rawAction == "local" && h.preparation != nil && !h.preparation.Status().Ready {
+		writeJSON(w, 409, map[string]string{"error": "Complete data preparation before enabling local mode"})
+		return
+	}
 	action, ok := parseAction(rawAction)
 	if !ok {
 		writeJSON(w, http.StatusNotFound, map[string]string{"error": "Unknown control action."})
@@ -251,6 +307,14 @@ func (h *Handler) action(w http.ResponseWriter, _ *http.Request, rawAction strin
 	}
 	h.storeStatus(status)
 	h.journal.Record(string(action), "success", "Operation completed: "+string(action))
+	if h.preparation != nil {
+		s := h.preparation.Status()
+		status.Preparation = &s
+	}
+	if h.updates != nil {
+		s := h.updates.Status()
+		status.Update = &s
+	}
 	status.CSRFToken = h.csrf
 	writeJSON(w, http.StatusOK, status)
 	if action == ActionStop && h.shutdown != nil {
@@ -280,6 +344,14 @@ func (h *Handler) writeBusyStatus(w http.ResponseWriter, operation string) {
 				Game:    "inconnu",
 			},
 		}
+	}
+	if h.preparation != nil {
+		s := h.preparation.Status()
+		status.Preparation = &s
+	}
+	if h.updates != nil {
+		s := h.updates.Status()
+		status.Update = &s
 	}
 	status.CSRFToken = h.csrf
 	status.Busy = true

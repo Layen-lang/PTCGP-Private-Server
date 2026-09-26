@@ -85,3 +85,44 @@ func TestConfigRejectsPatchForAnotherGameVersion(t *testing.T) {
 		t.Fatal("patch for another game version accepted")
 	}
 }
+
+func TestSelectedReleasePreservesLocalRuntimeAndDevice(t *testing.T) {
+	root := t.TempDir()
+	key := strings.Repeat("d", 64)
+	releaseRoot := filepath.Join(root, "data", "updates", "versions", key)
+	if err := os.MkdirAll(releaseRoot, 0700); err != nil {
+		t.Fatal(err)
+	}
+	var release Config
+	if err := json.Unmarshal(fixture(t), &release); err != nil {
+		t.Fatal(err)
+	}
+	release.Client.AppVersion = "9.9.9"
+	release.Patch.Version = "9.9.9"
+	release.Runtime.Database = "unwanted-new-database.db"
+	release.Android.Serial = "unwanted-new-device"
+	updated, err := json.Marshal(release)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for path, data := range map[string][]byte{
+		filepath.Join(root, "server.json"):                     fixture(t),
+		filepath.Join(releaseRoot, "server.json"):              updated,
+		filepath.Join(root, "data", "device.json"):             []byte(`{"serial":"chosen-device"}`),
+		filepath.Join(root, "data", "updates", "current.json"): []byte(`{"key":"` + key + `"}`),
+	} {
+		if err := os.WriteFile(path, data, 0600); err != nil {
+			t.Fatal(err)
+		}
+	}
+	got, err := Load(filepath.Join(root, "server.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got.Client.AppVersion != "9.9.9" || got.Patch.Version != "9.9.9" {
+		t.Fatal("release compatibility metadata was not selected")
+	}
+	if got.Runtime.Database != filepath.Join(root, "data", "ptcgp.db") || got.Android.Serial != "chosen-device" {
+		t.Fatal("release overwrote local accounts or device selection")
+	}
+}

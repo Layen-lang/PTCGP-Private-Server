@@ -114,7 +114,8 @@ The project stays on your machine by default:
 | --- | --- |
 | `data/` | Profiles, SQLite database, logs, and runtime state |
 | `certs/` | Locally generated certificate authority and private key |
-| `game-data/` | Read-only curated runtime data shipped with the project |
+| `profiles/` | Validated extraction and compatibility metadata |
+| `data/generations/` | Locally imported game images and master data |
 
 `data/` and `certs/` are ignored by Git. Treat them as private and never attach
 them to a public issue without carefully reviewing their contents.
@@ -124,3 +125,7 @@ them to a public issue without carefully reviewing their contents.
 Original project code is available under the [MIT License](LICENSE). Pokémon
 names, artwork, and game data remain the property of their respective owners
 and are not covered by that license. See [NOTICE.md](NOTICE.md) for details.
+
+### Local preparation and updates
+
+New distributions import images and master data from your installed game on first launch. The panel stays available during preparation and automatically opens the administration once validation completes. Subsequent launches reuse prepared data. Signed program updates download automatically and install after a click. See [Local preparation and updates](docs/LOCAL-DATA-UPDATES.md) for emulator requirements, recovery and publisher setup.

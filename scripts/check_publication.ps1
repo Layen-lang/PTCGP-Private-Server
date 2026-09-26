@@ -7,11 +7,11 @@ $forbiddenPrefixes = @(
     'bin/',
     'certs/',
     'data/',
+    'game-data/',
     'tools/',
     'traffic-intercepter/'
 )
 $forbiddenExtensions = @('.apk', '.aab', '.dex', '.har', '.key', '.p12', '.pfx', '.pem', '.so')
-$imageExtensions = @('.png', '.jpg', '.jpeg', '.webp')
 $maxPortablePathLength = 180
 
 $unsafe = foreach ($path in $tracked) {
@@ -29,16 +29,7 @@ $unsafe = foreach ($path in $tracked) {
         $path
         continue
     }
-    if ($normalized.StartsWith('game-data/', [StringComparison]::OrdinalIgnoreCase)) {
-        $extension = [IO.Path]::GetExtension($normalized).ToLowerInvariant()
-        $isImage = $normalized.StartsWith('game-data/images/', [StringComparison]::OrdinalIgnoreCase) -and
-            ($imageExtensions -contains $extension)
-        $isImageIndex = $normalized -eq 'game-data/images/index.json'
-        $isMasterData = $normalized -match '^game-data/master-data/[^/]+/[^/]+\.json$'
-        if (-not ($isImage -or $isImageIndex -or $isMasterData)) {
-            $path
-        }
-    }
+
 }
 
 $oversized = foreach ($path in $tracked) {

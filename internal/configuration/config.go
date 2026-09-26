@@ -14,6 +14,7 @@ import (
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/protocol"
 )
 
@@ -131,6 +132,26 @@ func Load(path string) (Config, error) {
 		return c, err
 	}
 	c.Path = absolute
+	program, err := installation.Program(filepath.Dir(absolute))
+	if err != nil {
+		return c, err
+	}
+	if program != filepath.Dir(absolute) {
+		var release Config
+		if err = readJSON(filepath.Join(program, "server.json"), &release, true); err != nil {
+			return c, err
+		}
+		c.Client = release.Client
+		c.Contracts = release.Contracts
+		c.Patch = release.Patch
+		c.Android.RedirectHosts = release.Android.RedirectHosts
+	}
+	if c.Android.Serial == "" {
+		var selected struct{ Serial string }
+		if readJSON(filepath.Join(filepath.Dir(absolute), "data", "device.json"), &selected, false) == nil {
+			c.Android.Serial = selected.Serial
+		}
+	}
 	if err := c.Validate(); err != nil {
 		return Config{}, fmt.Errorf("validate server config: %w", err)
 	}

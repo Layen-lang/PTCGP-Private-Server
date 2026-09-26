@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
 import { Activity, Boxes, CircleDot, FileText, Globe2, Power, RefreshCw, Server, Settings } from 'lucide-react'
-import { loadBootstrap, loadControlStatus, runControlAction } from './api'
+import { loadBootstrap, loadControlStatus, runControlAction, installUpdate } from './api'
 import type { Bootstrap, ControlStatus } from './types'
 import { applyTheme, getThemeSettings, saveThemeSettings } from './theme'
 import type { ThemeSettings } from './theme'
@@ -12,6 +12,7 @@ import PacksPage from './pages/PacksPage'
 import TrafficPage from './pages/TrafficPage'
 import LogsPage from './pages/LogsPage'
 import SettingsPage from './pages/SettingsPage'
+import PreparationPage from './pages/PreparationPage'
 
 type ControlAction = 'local' | 'online' | 'stop'
 
@@ -29,6 +30,8 @@ function modeCopy(status: ControlStatus) {
 }
 
 function operationCopy(action: ControlStatus['operation'] | null) {
+  if (action === 'prepare') return {title: t('prepare.operation')}
+  if (action === 'update') return {title: t('prepare.updateOperation')}
   if (action === 'local') return { title: t('app.activatingPrivate') }
   if (action === 'online') return { title: t('app.switchingOfficial') }
   if (action === 'stop') return { title: t('app.stopping') }
@@ -45,7 +48,7 @@ function ModeControls({ status, operation, busy, onAction }: { status: ControlSt
         <strong>{copy.title}</strong>
       </div>
       <div className="mode-switch" role="group" aria-label={t('app.connectionMode')}>
-        <button className={status.mode === 'local' ? 'active' : ''} aria-pressed={status.mode === 'local'} disabled={busy} onClick={() => onAction('local')}>
+        <button className={status.mode === 'local' ? 'active' : ''} aria-pressed={status.mode === 'local'} disabled={busy || status.preparation?.ready === false} onClick={() => onAction('local')}>
           <Server /> <span>{t('app.local')}</span>
         </button>
         <button className={status.mode === 'online' ? 'active' : ''} aria-pressed={status.mode === 'online'} disabled={busy} onClick={() => onAction('online')}>
@@ -63,6 +66,7 @@ export default function App() {
   const locale = useLocale()
   const [data, setData] = useState<Bootstrap | null>(null)
   const [control, setControl] = useState<ControlStatus>({ csrfToken: '', busy: false, mode: 'unknown', server: { running: false }, android: { connected: false, root: false, routing: 'indisponible', ca: 'inconnue', native: 'inconnue', game: 'inconnu', running: false } })
+  const [restarting, setRestarting] = useState(false)
   const [pending, setPending] = useState<ControlAction | null>(null)
   const [error, setError] = useState('')
   const [connectionError, setConnectionError] = useState('')
@@ -72,11 +76,8 @@ export default function App() {
   const refresh = async () => {
     setError('')
     try {
-      const results = await Promise.allSettled([
-        loadControlStatus().then(setControl), loadBootstrap().then(setData),
-      ])
-      const failed = results.find((result) => result.status === 'rejected')
-      if (failed?.status === 'rejected') throw failed.reason
+      const status = await loadControlStatus(); setControl(status)
+      if (status.preparation?.ready) setData(await loadBootstrap()); else setData(null)
     } catch (value) {
       setError(value instanceof Error ? value.message : t('app.refreshFailed'))
     }
@@ -94,7 +95,7 @@ export default function App() {
         closeControlPanel()
         return
       }
-      if (!status.busy) {
+      if (!status.busy && status.preparation?.ready) {
         setData(await loadBootstrap())
       }
     } catch (value) {
@@ -135,7 +136,7 @@ export default function App() {
         if (cancelled) return
         setConnectionError('')
         setControl(status)
-        if (!status.busy && (control.busy || pending)) {
+        if (!status.busy && status.preparation?.ready && (control.busy || pending || !data)) {
           setPending(null)
           setData(await loadBootstrap())
         }
@@ -145,13 +146,24 @@ export default function App() {
         polling = false
       }
     }
-    const timer = window.setInterval(() => { void poll() }, 10_000)
+    const timer = window.setInterval(() => { void poll() }, control.preparation?.ready ? 10_000 : 2_000)
     return () => {
       cancelled = true
       window.clearInterval(timer)
     }
-  }, [control.busy, pending])
+  }, [control.busy, control.preparation?.ready, pending, data])
 
+  const applyUpdate = async () => {
+    setRestarting(true)
+    try {
+      await installUpdate()
+      const deadline = Date.now() + 60_000
+      const wait = async () => {try { const response=await fetch('/api/control/health'); if(response.ok){window.location.reload();return} } catch { /* Panel restarts independently. */ }
+        if(Date.now()<deadline)window.setTimeout(() => void wait(),1000);else {setRestarting(false);setError(t('prepare.restartFailure'))} }
+      window.setTimeout(() => void wait(),3000)
+    } catch(value){setRestarting(false);setError((value as Error).message)}
+  }
+  const preparation = control.preparation || {phase:'checking',message:t('prepare.connecting'),ready:false,busy:true,completed:0,total:0}
   const active = data?.players.find((value) => value.Active)
   const effectivePending = pending ?? (control.busy ? control.operation ?? null : null)
   const controlsBusy = pending !== null || control.busy || !control.csrfToken
@@ -187,9 +199,10 @@ export default function App() {
           <button className="quiet-button refresh-button" disabled={pending !== null || control.busy} onClick={() => void refresh()} aria-label={t('app.refreshState')}><RefreshCw size={16} /> <span>{t('app.refresh')}</span></button>
         </header>
         {(error || connectionError) && <div className="global-error" role="alert"><span>{error || connectionError}</span><button onClick={() => { setError(''); setConnectionError('') }}>{t('common.close')}</button></div>}
+        {control.update && control.update.phase !== 'idle' && control.update.phase !== 'current' && <div className="update-notice" role="status"><span>{restarting ? t('prepare.restarting') : ({unconfigured:t('prepare.updateUnconfigured'),downloading:t('prepare.updateDownloading'),ready:t('prepare.updateReady'),offline:t('prepare.updateOffline'),incompatible:t('prepare.updateIncompatible')}[control.update.phase] || control.update.message)}{control.update.version ? ' · '+control.update.version : ''}</span>{control.update.phase === 'ready' && <button className="secondary-button" disabled={controlsBusy || restarting} onClick={() => void applyUpdate()}>{t('prepare.updateButton')}</button>}</div>}
           <Routes key={locale}>
-            <Route path="/accounts" element={data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
-            <Route path="/packs" element={<PacksPage reportError={setError} />} />
+            <Route path="/accounts" element={!preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
+            <Route path="/packs" element={preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
             <Route path="/traffic" element={<TrafficPage serverRunning={control.server.running} />} />
             <Route path="/logs" element={<LogsPage />} />
             <Route path="/settings" element={<SettingsPage settings={themeSettings} onSettingsChange={changeThemeSettings} />} />

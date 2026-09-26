@@ -11,6 +11,8 @@ permissions:
 jobs:
   windows-release:
     runs-on: windows-latest
+    env:
+      PTCGP_UPDATE_PUBLIC_KEY: ${{ vars.PTCGP_UPDATE_PUBLIC_KEY }}
     steps:
       - uses: actions/checkout@v5
 
@@ -41,11 +43,20 @@ jobs:
       - name: Test
         run: go test ./...
 
+      - name: Build native importer and emulator readers
+        shell: pwsh
+        run: |
+          rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
+          ./native/build.ps1
+          cargo test --locked --manifest-path native/importer/Cargo.toml
+          if ($LASTEXITCODE -ne 0) { throw "Native tests failed" }
+
       - name: Build Windows executables
         shell: pwsh
         run: |
           New-Item -ItemType Directory -Force -Path bin | Out-Null
-          go build -trimpath -o bin/ptcgp-launcher.exe ./cmd/ptcgp-launcher
+          if (!$env:PTCGP_UPDATE_PUBLIC_KEY) { throw "Configure release signing before publishing" }
+          go build -trimpath -ldflags "-X github.com/Layen-lang/PTCGP-Private-Server/internal/updates.PublicKey=$env:PTCGP_UPDATE_PUBLIC_KEY" -o bin/ptcgp-launcher.exe ./cmd/ptcgp-launcher
           go build -trimpath -o bin/ptcgp-server.exe ./cmd/ptcgp-server
 
       - name: Check publication safety
@@ -54,15 +65,20 @@ jobs:
 
       - name: Package release
         shell: pwsh
+        env:
+          PTCGP_UPDATE_SIGNING_SEED: ${{ secrets.PTCGP_UPDATE_SIGNING_SEED }}
         run: |
           $version = (Get-Content VERSION -Raw).Trim()
           $package = "PTCGP-Private-Server-$version-windows-amd64"
           $stage = Join-Path $PWD "dist/$package"
           New-Item -ItemType Directory -Force -Path "$stage/bin" | Out-Null
-          Copy-Item bin/ptcgp-launcher.exe,bin/ptcgp-server.exe "$stage/bin"
+          Copy-Item bin/ptcgp-launcher.exe,bin/ptcgp-server.exe,bin/ptcgp-importer.exe,bin/ptcgp-reader-x86_64,bin/ptcgp-reader-aarch64 "$stage/bin"
+          Copy-Item native/THIRD_PARTY_NOTICES.txt "$stage/bin"
           Copy-Item start-server.cmd,server.json,VERSION,README.md,CHANGELOG.md,LICENSE,NOTICE.md,SECURITY.md $stage
           Copy-Item docs "$stage/docs" -Recurse
-          Copy-Item game-data "$stage/game-data" -Recurse
+          Copy-Item profiles "$stage/profiles" -Recurse
+          go run ./cmd/ptcgp-release $stage dist/update "https://github.com/$env:GITHUB_REPOSITORY/releases/download/$env:GITHUB_REF_NAME"
+          if ($LASTEXITCODE -ne 0) { throw "Signed update preparation failed" }
           $archive = Join-Path $PWD "dist/$package.zip"
           Compress-Archive -Path "$stage/*" -DestinationPath $archive -CompressionLevel NoCompression
           if ((Get-Item $archive).Length -ge 2GB) { throw "Release archive exceeds GitHub's 2 GiB per-file limit" }
@@ -79,4 +95,8 @@ jobs:
             "dist/PTCGP-Private-Server-$version-windows-amd64.zip" `
             "dist/SHA256SUMS.txt" `
             --title "PTCGP Private Server $version" `
-            --generate-notes
+            --generate-notes --draft
+          if ($LASTEXITCODE -ne 0) { throw "Release creation failed" }
+          gh release upload $env:GITHUB_REF_NAME (Get-ChildItem dist/update -File).FullName
+          if ($LASTEXITCODE -ne 0) { throw "Update upload failed" }
+          gh release edit $env:GITHUB_REF_NAME --draft=false

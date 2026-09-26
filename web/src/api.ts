@@ -138,3 +138,7 @@ export const api = {
     }
   },
 }
+
+export const loadDevices = () => request<{serial:string;name:string;state:string}[]>('/api/control/devices')
+export const prepareInstallation = (serial: string) => request('/api/control/prepare', {method:'POST',headers:{'X-Control-CSRF-Token':controlToken},body:JSON.stringify({serial})})
+export const installUpdate = () => request('/api/control/update', {method:'POST',headers:{'X-Control-CSRF-Token':controlToken}})

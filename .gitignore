@@ -63,3 +63,7 @@ coverage/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Locally imported data and native build products
+/game-data/
+/native/**/target/

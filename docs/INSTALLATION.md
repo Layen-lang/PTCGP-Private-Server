@@ -6,7 +6,7 @@ If the server is already installed, continue with the [user guide](USAGE.md).
 ## Choose how to install
 
 For most people, use the published Windows release. It contains the launcher,
-server, web interface, and curated runtime data. Building from source is only
+server, web interface, extraction profiles and precompiled Rust tools. Game data is prepared locally on first launch. Building from source is only
 for contributors and developers.
 
 | Method | Requires Go and Node.js | Recommended for |
@@ -27,7 +27,7 @@ for contributors and developers.
 
 The emulator must provide all of the following:
 
-- an ARM64 Android environment;
+- a 64-bit Android system (x86-64 or ARM64) able to run the supported ARM64 game;
 - ADB access;
 - root through `su`;
 - support for `adb reverse`;
@@ -81,9 +81,12 @@ The result must identify user `root` or UID `0`.
 PTCGP-Private-Server/
 ├── bin/
 │   ├── ptcgp-launcher.exe
-│   └── ptcgp-server.exe
+│   ├── ptcgp-server.exe
+│   ├── ptcgp-importer.exe
+│   ├── ptcgp-reader-x86_64
+│   └── ptcgp-reader-aarch64
 ├── docs/
-├── game-data/
+├── profiles/
 ├── server.json
 └── start-server.cmd
 ```
@@ -98,7 +101,9 @@ unique local certificate authority on first use.
 3. Double-click `start-server.cmd`.
 4. Your browser should open <http://127.0.0.1:8080>. If it does not, open that
    address yourself.
-5. Check that the lower-left status says **Emulator connected**.
+5. Wait for preparation to import the installed game's data and all nine languages.
+   Select the emulator if several are connected. The panel switches to Accounts
+   when validation succeeds.
 6. Select **Local** in the top bar.
 7. Wait until the status becomes **Private server active**.
 8. Create or select a profile under **Accounts**, then select **Open account**.
@@ -137,23 +142,20 @@ cd ..
 .\start-server.cmd
 ```
 
+`start-server.cmd` also builds the Rust importer and both Android readers when
+their sources change or an executable is missing. Install Rust and its
+`x86_64-unknown-linux-musl` and `aarch64-unknown-linux-musl` targets beforehand.
+You can still build these tools separately with `./native/build.ps1`.
+
 The launcher rebuilds the frontend or Go executables when their source files
 are newer than the generated output. For the full manual build and validation
 workflow, see [Development](DEVELOPMENT.md).
 
 ## Updating
 
-Each project release targets one exact game version. Before updating:
+Updates download automatically. Use **Mettre à jour et redémarrer** to install a verified program update. Accounts and runtime settings stay in place; preparation imports changed game data when needed. The game itself remains updated through its official source. Local mode refuses an unsupported game build.
 
-1. Switch to **Official** while the emulator is connected.
-2. Select **Stop all**.
-3. Back up `data/` if you want to preserve local profiles.
-4. Read the [changelog](../CHANGELOG.md) for compatibility or migration notes.
-5. Extract the new release into a new folder.
-
-Do not carry an old `server.json`, `certs/`, or patched Android library into a
-release for another game version. Only move local profile data when the release
-notes say it is compatible.
+See [Local preparation and updates](LOCAL-DATA-UPDATES.md) for recovery and the first migration from an older distribution.
 
 ## Uninstalling safely
 

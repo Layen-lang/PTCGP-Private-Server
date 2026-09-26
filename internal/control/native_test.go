@@ -29,6 +29,22 @@ type androidStateRunner struct {
 	missingLibrary bool
 }
 
+func TestLocalRejectsGameVersionBeforeCertificatesOrServerStart(t *testing.T) {
+	commands := &androidStateRunner{connected: true, data: []byte("original")}
+	r := testNativeRunner(t, commands)
+	r.cfg.Client.AppVersion = "9.9.9"
+	if _, err := r.Action(context.Background(), ActionLocal); err == nil {
+		t.Fatal("accepted an unsupported game version")
+	}
+	for _, call := range commands.calls {
+		for _, mutation := range []string{"cert ensure", "force-stop", "push ", "mount ", "iptables"} {
+			if strings.Contains(call, mutation) {
+				t.Fatalf("mutation before compatibility check: %s", call)
+			}
+		}
+	}
+}
+
 func (r *androidStateRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
 	call := strings.Join(args, " ")
 	r.calls = append(r.calls, call)
@@ -49,7 +65,7 @@ func (r *androidStateRunner) Run(_ context.Context, _ string, args ...string) ([
 		return []byte("package:/data/app/game/base.apk\npackage:/data/app/game/split_config.arm64_v8a.apk"), nil
 	case strings.Contains(call, "shell dumpsys package"):
 		return []byte("versionName=1.0.0"), nil
-	case strings.Contains(call, "id -u"):
+	case strings.HasSuffix(call, " id -u"), strings.Contains(call, "sh -c 'id -u'"):
 		return []byte("0"), nil
 	case strings.Contains(call, "shell cat /system/etc/hosts"):
 		return []byte("127.0.0.1 localhost"), nil

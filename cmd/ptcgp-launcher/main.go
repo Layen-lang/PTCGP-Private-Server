@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"io/fs"
 	"log/slog"
+	"net"
 	"net/http"
 	"net/url"
 	"os"
@@ -17,17 +18,36 @@ import (
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/admin"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/assets"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/control"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/controlcli"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/packlab"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
 func main() {
+	if len(os.Args) == 5 && os.Args[1] == "apply-update" {
+		pid, err := strconv.Atoi(os.Args[4])
+		if err != nil {
+			fatal(err)
+		}
+		if err = updates.Apply(os.Args[2], os.Args[3], pid); err != nil {
+			fatal(err)
+		}
+		return
+	}
+	if followed, err := updates.FollowInstalled(os.Args[1:]); err != nil {
+		fatal(err)
+	} else if followed {
+		return
+	}
 	if len(os.Args) > 1 && os.Args[1] == "serve-panel" {
 		runPanel(os.Args[2:])
 		return
@@ -76,31 +96,90 @@ func runPanel(args []string) {
 		fatal(err)
 	}
 	runner.SetJournal(journal)
-	journal.Record("panel", "info", "Starting administration and loading data")
-	catalogs, err := catalog.OpenRegistry(cfg.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
+
+	handler.SetAdministration(nil, journal, cfg.Android.Package, cfg.Android.Activity)
+	program, err := installation.Program(*projectRoot)
 	if err != nil {
-		journal.Record("panel", "error", err.Error())
 		fatal(err)
 	}
-	master := catalogs.Default()
+	preparation := provision.New(cfg, *projectRoot, program)
+	updater := updates.New(*projectRoot, program)
 	state, err := store.Open(context.Background(), cfg.Runtime.Database)
 	if err != nil {
-		journal.Record("panel", "error", err.Error())
 		fatal(err)
 	}
 	defer state.Close()
-	images, err := assets.Open(cfg.Data.Images)
-	if err != nil {
-		journal.Record("panel", "warning", "Images unavailable: "+err.Error())
-	}
-	administration, err := admin.New(player.New(state, master), handler, slog.Default(),
-		admin.WithCatalogVersion(cfg.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)),
-		admin.WithImages(images), admin.WithTrafficHistory(cfg.Runtime.TrafficLog))
-	if err != nil {
-		journal.Record("panel", "error", err.Error())
-		fatal(err)
-	}
-	handler.SetAdministration(administration, journal, cfg.Android.Package, cfg.Android.Activity)
+	defer handler.ClosePreparation()
+	handler.SetPreparation(preparation, func(ctx context.Context, serial string) error {
+		if updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
+			current, e := runner.Status(ctx)
+			if e != nil {
+				return e
+			}
+			if !current.Server.Running {
+				if e = updater.ActivateProfile(); e != nil {
+					return e
+				}
+				refreshed, e := configuration.Load(cfg.Path)
+				if e != nil {
+					return e
+				}
+				program, e := installation.Program(*projectRoot)
+				if e != nil {
+					return e
+				}
+				if e = preparation.Configure(refreshed, program); e != nil {
+					return e
+				}
+			}
+		}
+		prepared, err := preparation.Prepare(ctx, serial)
+		if err != nil {
+			return err
+		}
+		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
+		if err != nil {
+			return err
+		}
+		images, err := assets.Open(prepared.Data.Images)
+		if err != nil {
+			return err
+		}
+		master := catalogs.Default()
+		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithTrafficHistory(prepared.Runtime.TrafficLog))
+		if err != nil {
+			return err
+		}
+		handler.SetAdministration(administration, journal, prepared.Android.Package, prepared.Android.Activity)
+		runner.SetPreparedConfig(prepared)
+
+		return provision.WriteJSON(filepath.Join(*projectRoot, "data", "device.json"), map[string]string{"serial": prepared.Android.Serial})
+	})
+	handler.SetUpdates(updater, func() error { return updates.StartInstaller(*projectRoot, updater.PreparedKey()) })
+	updateCtx, stopUpdates := context.WithCancel(context.Background())
+	defer stopUpdates()
+	go func() {
+		for {
+			currentConfig := cfg
+			if refreshed, e := configuration.Load(cfg.Path); e == nil {
+				currentConfig = refreshed
+			}
+			game := currentConfig.Client.AppVersion
+			if installed, e := android.InstalledVersion(updateCtx, android.SystemRunner(), currentConfig); e == nil {
+				game = installed
+			}
+			updater.Check(updateCtx, game)
+			if updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
+				handler.StartPreparation("")
+			}
+			select {
+			case <-updateCtx.Done():
+				return
+			case <-time.After(6 * time.Hour):
+			}
+		}
+	}()
+
 	server := &http.Server{Addr: *address, Handler: handler, ReadHeaderTimeout: 10 * time.Second, IdleTimeout: 90 * time.Second}
 	shutdownRequested := make(chan struct{}, 1)
 	handler.SetShutdown(func() {
@@ -113,7 +192,12 @@ func runPanel(args []string) {
 	slog.Info("control panel available", "address", "http://"+*address)
 	journal.Record("panel", "success", "Administration available at http://"+*address)
 	serveResult := make(chan error, 1)
-	go func() { serveResult <- server.ListenAndServe() }()
+	listener, err := net.Listen("tcp", *address)
+	if err != nil {
+		fatal(err)
+	}
+	go func() { serveResult <- server.Serve(listener) }()
+	handler.StartPreparation("")
 	runTrayAction := func(action control.Action) {
 		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 		defer cancel()
