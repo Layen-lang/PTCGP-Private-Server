@@ -1185,7 +1185,7 @@ html[data-theme="dark"]:not([data-studio-theme="illegal"]) .traffic-payload pre 
 .preparation-device select { min-width:0; width:100%; }
 .preparation-progress { display:grid; gap:.75rem; margin-block:2.75rem 1.5rem; }
 .preparation-progress-track { position:relative; width:100%; height:10px; overflow:hidden; border-radius:999px; background:var(--color-surface-raised); }
-.preparation-progress-fill { display:block; height:100%; border-radius:inherit; background:var(--color-brand); transition:width 250ms ease-out; }
+.preparation-progress-fill { display:block; height:100%; border-radius:inherit; background:var(--color-brand); transition:width 600ms linear; }
 .preparation-progress-track.is-indeterminate::after { content:""; position:absolute; inset:0 auto 0 -35%; width:35%; border-radius:inherit; background:var(--color-brand); animation:preparation-sweep 1.4s ease-in-out infinite; }
 .preparation-progress-track.is-blocked .preparation-progress-fill { background:var(--color-danger); }
 .preparation-activity { margin:0; color:var(--color-muted); font-size:.8125rem; line-height:1.5; }

@@ -4,7 +4,7 @@ const frFR = {
 "prepare.device": "Émulateur Android",
 "prepare.auto": "Détection automatique",
 "prepare.chooseDevice": "Choisissez un émulateur pour continuer.",
-"prepare.requirements": "Ouvrez un émulateur avec le jeu installé, ADB et l’accès root activés.",
+"prepare.requirements": "Ouvrez un émulateur avec le jeu installé. Terminez le téléchargement des données dans le jeu et activez ADB ainsi que l’accès root.",
 "prepare.checking": "Vérifier le jeu et l’émulateur",
 "prepare.master": "Préparer les données des neuf langues",
 "prepare.images": "Créer les images du catalogue",

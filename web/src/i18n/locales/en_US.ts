@@ -6,7 +6,7 @@ const enUS = {
 "prepare.device": "Android emulator",
 "prepare.auto": "Automatic detection",
 "prepare.chooseDevice": "Choose an emulator to continue.",
-"prepare.requirements": "Open an emulator with the game installed, ADB enabled and root access available.",
+"prepare.requirements": "Open an emulator with the game installed. Complete the in-game data download and enable ADB and root access.",
 "prepare.checking": "Check the game and emulator",
 "prepare.master": "Prepare data for all nine languages",
 "prepare.images": "Create catalogue images",

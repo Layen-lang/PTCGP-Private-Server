@@ -149,12 +149,12 @@ export default function App() {
         polling = false
       }
     }
-    const timer = window.setInterval(() => { void poll() }, control.preparation?.ready ? 10_000 : 2_000)
+    const timer = window.setInterval(() => { void poll() }, control.preparation?.phase === 'images' ? 500 : control.preparation?.ready ? 10_000 : 2_000)
     return () => {
       cancelled = true
       window.clearInterval(timer)
     }
-  }, [control.busy, control.preparation?.ready, pending, data])
+  }, [control.busy, control.preparation?.phase, control.preparation?.ready, pending, data])
 
   const applyUpdate = async () => {
     setRestarting(true)

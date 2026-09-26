@@ -484,6 +484,9 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 					return cfg, e
 				}
 				newReceipt.Files[rel] = record
+				m.mu.Lock()
+				m.state.Completed++
+				m.mu.Unlock()
 				if len(newReceipt.Files)%100 == 0 {
 					if e = WriteJSON(filepath.Join(stage, "checkpoint.json"), newReceipt); e != nil {
 						_ = cmd.Process.Kill()
@@ -491,17 +494,6 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 						return cfg, e
 					}
 				}
-			}
-			var progress struct {
-				Path      string
-				Phase     string
-				Completed int
-				Total     int
-			}
-			if json.Unmarshal(scanner.Bytes(), &progress) == nil && progress.Phase == "images" {
-				m.mu.Lock()
-				m.state.Completed = len(plan.Outputs) - len(delta.Outputs) + progress.Completed
-				m.mu.Unlock()
 			}
 		}
 		if e = scanner.Err(); e != nil {
