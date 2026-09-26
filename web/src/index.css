@@ -1175,22 +1175,22 @@ html[data-theme="dark"]:not([data-studio-theme="illegal"]) .traffic-payload pre 
 }
 
 /* Installation shares the panel's existing theme and control vocabulary. */
-.preparation-page { max-width: 760px; margin-inline: auto; padding-block: 3rem; }
+.preparation-page { max-width: 680px; margin-inline: auto; padding-block: 3rem; }
 .preparation-heading { display:flex; gap:1rem; align-items:center; color:var(--color-ink); }
 .preparation-heading > svg { color:var(--color-brand); flex-shrink:0; }
-.preparation-intro, .preparation-note { max-width:65ch; line-height:1.6; }
-.preparation-device { margin-block:2rem; }
-.preparation-device label { display:flex; align-items:center; gap:.5rem; font-weight:600; margin-bottom:.75rem; }
-.preparation-device-controls { display:flex; gap:.5rem; }
-.preparation-device-controls select { min-width:0; flex:1; }
-.preparation-device p, .preparation-note { font-size:.875rem; }
-.preparation-steps { list-style:none; margin:2rem 0; padding:0; }
-.preparation-steps li { display:flex; align-items:center; gap:.75rem; padding:.75rem 0; }
-.preparation-step-marker { width:1.75rem; height:1.75rem; border:1px solid var(--color-control-border); border-radius:50%; display:grid; place-items:center; font-size:.8rem; flex-shrink:0; }
-.preparation-steps .current { font-weight:600; }
-.preparation-steps .current .preparation-step-marker, .preparation-steps .complete .preparation-step-marker { background:var(--color-brand); color:white; border-color:var(--color-brand); }
-.preparation-progress { display:grid; gap:.75rem; margin-block:1.5rem; }
-.preparation-progress progress { width:100%; accent-color:var(--color-brand); }
+.preparation-intro { max-width:65ch; line-height:1.6; margin-bottom:.5rem; }
+.preparation-requirements { max-width:65ch; color:var(--color-muted); font-size:.875rem; line-height:1.6; }
+.preparation-device { display:grid; gap:.5rem; margin-top:1.75rem; }
+.preparation-device label { font-size:.875rem; font-weight:600; }
+.preparation-device select { min-width:0; width:100%; }
+.preparation-progress { display:grid; gap:.75rem; margin-block:2.75rem 1.5rem; }
+.preparation-progress-track { position:relative; width:100%; height:10px; overflow:hidden; border-radius:999px; background:var(--color-surface-raised); }
+.preparation-progress-fill { display:block; height:100%; border-radius:inherit; background:var(--color-brand); transition:width 250ms ease-out; }
+.preparation-progress-track.is-indeterminate::after { content:""; position:absolute; inset:0 auto 0 -35%; width:35%; border-radius:inherit; background:var(--color-brand); animation:preparation-sweep 1.4s ease-in-out infinite; }
+.preparation-progress-track.is-blocked .preparation-progress-fill { background:var(--color-danger); }
+.preparation-activity { margin:0; color:var(--color-muted); font-size:.8125rem; line-height:1.5; }
+@keyframes preparation-sweep { to { left:100%; } }
 .preparation-error { padding:1rem; margin-block:1rem; border:1px solid var(--color-danger-line); border-radius:.5rem; color:var(--color-danger); background:var(--color-danger-soft); overflow-wrap:anywhere; }
 .update-notice { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 1.5rem; background:var(--color-surface-soft); border-bottom:1px solid var(--color-line); }
-@media(max-width:600px){.preparation-page{padding-block:1.5rem}.preparation-heading{align-items:flex-start}.preparation-heading h1{font-size:1.5rem}}
+@media(max-width:600px){.preparation-page{padding-block:1.5rem}.preparation-heading{align-items:flex-start}.preparation-heading h1{font-size:1.5rem}.preparation-progress{margin-top:2rem}}
+@media(prefers-reduced-motion:reduce){.preparation-progress-track.is-indeterminate::after{animation:none;left:0}.preparation-progress-fill{transition:none}}
