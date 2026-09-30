@@ -7,8 +7,7 @@
 /.cache/
 /.tmp/
 
-# Generated acquisition and update workspaces remain local. The curated
-# runtime-only game-data directory is intentionally published.
+# Generated acquisition and update workspaces remain local.
 /game-data-back/
 
 # Private captures and reverse-engineering workspaces

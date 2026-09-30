@@ -33,7 +33,7 @@ The emulator must provide all of the following:
 - root through `su`;
 - support for `adb reverse`;
 - writable or bind-mountable system files;
-- Pokémon TCG Pocket **1.7.2**, installed by you.
+- Pokémon TCG Pocket **1.7.5**, installed by you.
 
 These requirements are stricter than simply enabling Android developer mode.
 If an emulator cannot provide root or system mounts, it is not compatible.

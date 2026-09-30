@@ -63,6 +63,9 @@ func (m *Manager) Restore() (configuration.Config, error) {
 	if cleanupErr := cleanupGeneration(filepath.Dir(filepath.Dir(prepared.Data.Images))); cleanupErr != nil {
 		slog.Warn("completed import cleanup failed", "error", cleanupErr)
 	}
+	if cleanupErr := pruneOldGenerations(generationRoot(cfg), filepath.Base(filepath.Dir(filepath.Dir(prepared.Data.Images)))); cleanupErr != nil {
+		slog.Warn("old generation cleanup failed", "error", cleanupErr)
+	}
 	var receipt receipt
 	if err := readJSON(filepath.Join(filepath.Dir(filepath.Dir(prepared.Data.Images)), "receipt.json"), &receipt); err != nil {
 		return cfg, err
@@ -99,6 +102,63 @@ type imageItem struct {
 type imagePlan struct {
 	Outputs []imageItem                `json:"outputs"`
 	Blobs   map[string]json.RawMessage `json:"blobs"`
+}
+
+type imageBlob struct {
+	Address string `json:"address"`
+	Content string `json:"content"`
+	Blob    string `json:"blob"`
+	Bytes   int64  `json:"bytes"`
+	Key     uint64 `json:"key"`
+}
+
+// Image identities must not depend on the field order chosen by the profile
+// writer. Keep the two earlier encodings for receipts already on disk.
+func imageIdentities(item imageItem, blobs map[string]json.RawMessage) ([]string, error) {
+	canonical := []any{converter, item}
+	oldOrder := []any{converter, item}
+	newOrder := []any{converter, item}
+	for _, hash := range item.Blobs {
+		row, ok := blobs[hash]
+		if !ok {
+			return nil, fmt.Errorf("missing image dependency %s", hash)
+		}
+		var blob imageBlob
+		if err := json.Unmarshal(row, &blob); err != nil {
+			return nil, err
+		}
+		// A map is encoded with sorted keys, regardless of JSON input order.
+		canonical = append(canonical, map[string]any{
+			"address": blob.Address, "blob": blob.Blob, "bytes": blob.Bytes,
+			"content": blob.Content, "key": blob.Key,
+		})
+		oldOrder = append(oldOrder, blob)
+		newOrder = append(newOrder, struct {
+			Address string `json:"address"`
+			Blob    string `json:"blob"`
+			Bytes   int64  `json:"bytes"`
+			Content string `json:"content"`
+			Key     uint64 `json:"key"`
+		}{blob.Address, blob.Blob, blob.Bytes, blob.Content, blob.Key})
+	}
+	result := make([]string, 0, 3)
+	for _, value := range [][]any{canonical, oldOrder, newOrder} {
+		encoded, err := json.Marshal(value)
+		if err != nil {
+			return nil, err
+		}
+		result = append(result, digest(encoded))
+	}
+	return result, nil
+}
+
+func matchesImageIdentity(want string, identities []string) bool {
+	for _, identity := range identities {
+		if want == identity {
+			return true
+		}
+	}
+	return false
 }
 
 func digest(data []byte) string { h := sha256.Sum256(data); return hex.EncodeToString(h[:]) }
@@ -366,25 +426,19 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 		if e != nil {
 			return cfg, e
 		}
-		parts := []any{converter, item}
-		for _, hash := range item.Blobs {
-			row, ok := plan.Blobs[hash]
-			if !ok {
-				return cfg, fmt.Errorf("missing image dependency")
-			}
-			parts = append(parts, row)
+		identities, e := imageIdentities(item, plan.Blobs)
+		if e != nil {
+			return cfg, e
 		}
-		b, _ := json.Marshal(parts)
-		identity := digest(b)
-		newReceipt.Images[item.Output] = identity
+		newReceipt.Images[item.Output] = identities[0]
 		rel := "images/images/" + item.Output
 		// Resume only images whose completion and identity were recorded.
-		if checkpoint.Images[item.Output] == identity && validFile(target, checkpoint.Files[rel]) {
+		if matchesImageIdentity(checkpoint.Images[item.Output], identities) && validFile(target, checkpoint.Files[rel]) {
 			newReceipt.Files[rel] = checkpoint.Files[rel]
 			continue
 		}
 		// Reuse only validated completed files, never a partial import output.
-		if old.Images[item.Output] == identity && validFile(filepath.Join(root, previous.Key, filepath.FromSlash(rel)), old.Files[rel]) {
+		if matchesImageIdentity(old.Images[item.Output], identities) && validFile(filepath.Join(root, previous.Key, filepath.FromSlash(rel)), old.Files[rel]) {
 			if e = os.MkdirAll(filepath.Dir(target), 0700); e != nil {
 				return cfg, e
 			}
@@ -591,7 +645,46 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 	if cleanupErr := cleanupGeneration(final); cleanupErr != nil {
 		slog.Warn("completed import cleanup failed", "error", cleanupErr)
 	}
-	return Resolve(cfg, m.program)
+	ready, err := Resolve(cfg, m.program)
+	if err != nil {
+		return cfg, err
+	}
+	if cleanupErr := pruneOldGenerations(root, key); cleanupErr != nil {
+		slog.Warn("old generation cleanup failed", "error", cleanupErr)
+	}
+	return ready, nil
+}
+
+// pruneOldGenerations keeps the published, validated generation. Pending and
+// damaged directories are left untouched so an interrupted import can resume.
+func pruneOldGenerations(root, keep string) error {
+	var active struct {
+		Key string `json:"key"`
+	}
+	if err := readJSON(filepath.Join(root, "active.json"), &active); err != nil || active.Key != keep {
+		return fmt.Errorf("active generation changed before cleanup")
+	}
+	if r, err := loadReceipt(root, keep); err != nil || len(r.Files) == 0 {
+		return fmt.Errorf("current generation is not validated")
+	}
+	entries, err := os.ReadDir(root)
+	if err != nil {
+		return err
+	}
+	for _, entry := range entries {
+		name := entry.Name()
+		if !entry.IsDir() || name == keep {
+			continue
+		}
+		old, err := loadReceipt(root, name)
+		if err != nil || len(old.Files) == 0 {
+			continue
+		}
+		if err := os.RemoveAll(filepath.Join(root, name)); err != nil {
+			return fmt.Errorf("remove old generation %s: %w", name, err)
+		}
+	}
+	return nil
 }
 
 // cleanupGeneration removes import-only files after a generation is complete.

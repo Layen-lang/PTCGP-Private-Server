@@ -95,66 +95,6 @@ func (*SystemAuthorizeV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type SystemAuthorizeV1_Types_Request struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	DeviceAccount string                 `protobuf:"bytes,1,opt,name=device_account,json=deviceAccount,proto3" json:"device_account,omitempty"`
-	DeviceInfo    *system.DeviceInfo     `protobuf:"bytes,3,opt,name=device_info,json=deviceInfo,proto3" json:"device_info,omitempty"`
-	IdToken       string                 `protobuf:"bytes,4,opt,name=id_token,json=idToken,proto3" json:"id_token,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
-}
-
-func (x *SystemAuthorizeV1_Types_Request) Reset() {
-	*x = SystemAuthorizeV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *SystemAuthorizeV1_Types_Request) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*SystemAuthorizeV1_Types_Request) ProtoMessage() {}
-
-func (x *SystemAuthorizeV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use SystemAuthorizeV1_Types_Request.ProtoReflect.Descriptor instead.
-func (*SystemAuthorizeV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *SystemAuthorizeV1_Types_Request) GetDeviceAccount() string {
-	if x != nil {
-		return x.DeviceAccount
-	}
-	return ""
-}
-
-func (x *SystemAuthorizeV1_Types_Request) GetDeviceInfo() *system.DeviceInfo {
-	if x != nil {
-		return x.DeviceInfo
-	}
-	return nil
-}
-
-func (x *SystemAuthorizeV1_Types_Request) GetIdToken() string {
-	if x != nil {
-		return x.IdToken
-	}
-	return ""
-}
-
 type SystemAuthorizeV1_Types_Response struct {
 	state         protoimpl.MessageState                               `protogen:"open.v1"`
 	SessionToken  string                                               `protobuf:"bytes,1,opt,name=session_token,json=sessionToken,proto3" json:"session_token,omitempty"`
@@ -167,7 +107,7 @@ type SystemAuthorizeV1_Types_Response struct {
 
 func (x *SystemAuthorizeV1_Types_Response) Reset() {
 	*x = SystemAuthorizeV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -179,7 +119,7 @@ func (x *SystemAuthorizeV1_Types_Response) String() string {
 func (*SystemAuthorizeV1_Types_Response) ProtoMessage() {}
 
 func (x *SystemAuthorizeV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -192,7 +132,7 @@ func (x *SystemAuthorizeV1_Types_Response) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SystemAuthorizeV1_Types_Response.ProtoReflect.Descriptor instead.
 func (*SystemAuthorizeV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *SystemAuthorizeV1_Types_Response) GetSessionToken() string {
@@ -221,6 +161,66 @@ func (x *SystemAuthorizeV1_Types_Response) GetSignedCookie() *SystemAuthorizeV1_
 		return x.SignedCookie
 	}
 	return nil
+}
+
+type SystemAuthorizeV1_Types_Request struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	DeviceAccount string                 `protobuf:"bytes,1,opt,name=device_account,json=deviceAccount,proto3" json:"device_account,omitempty"`
+	DeviceInfo    *system.DeviceInfo     `protobuf:"bytes,3,opt,name=device_info,json=deviceInfo,proto3" json:"device_info,omitempty"`
+	IdToken       string                 `protobuf:"bytes,4,opt,name=id_token,json=idToken,proto3" json:"id_token,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *SystemAuthorizeV1_Types_Request) Reset() {
+	*x = SystemAuthorizeV1_Types_Request{}
+	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *SystemAuthorizeV1_Types_Request) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*SystemAuthorizeV1_Types_Request) ProtoMessage() {}
+
+func (x *SystemAuthorizeV1_Types_Request) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use SystemAuthorizeV1_Types_Request.ProtoReflect.Descriptor instead.
+func (*SystemAuthorizeV1_Types_Request) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *SystemAuthorizeV1_Types_Request) GetDeviceAccount() string {
+	if x != nil {
+		return x.DeviceAccount
+	}
+	return ""
+}
+
+func (x *SystemAuthorizeV1_Types_Request) GetDeviceInfo() *system.DeviceInfo {
+	if x != nil {
+		return x.DeviceInfo
+	}
+	return nil
+}
+
+func (x *SystemAuthorizeV1_Types_Request) GetIdToken() string {
+	if x != nil {
+		return x.IdToken
+	}
+	return ""
 }
 
 type SystemAuthorizeV1_Types_Response_Types struct {
@@ -256,7 +256,7 @@ func (x *SystemAuthorizeV1_Types_Response_Types) ProtoReflect() protoreflect.Mes
 
 // Deprecated: Use SystemAuthorizeV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*SystemAuthorizeV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
+	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
 }
 
 type SystemAuthorizeV1_Types_Response_Types_SignedCookie struct {
@@ -294,7 +294,7 @@ func (x *SystemAuthorizeV1_Types_Response_Types_SignedCookie) ProtoReflect() pro
 
 // Deprecated: Use SystemAuthorizeV1_Types_Response_Types_SignedCookie.ProtoReflect.Descriptor instead.
 func (*SystemAuthorizeV1_Types_Response_Types_SignedCookie) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
 }
 
 func (x *SystemAuthorizeV1_Types_Response_Types_SignedCookie) GetSignedCookie() string {
@@ -317,12 +317,7 @@ const file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_ra
 	"\n" +
 	"Btakasho/schema/lettuce_server/player_api/system_authorize_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a\x1fgoogle/protobuf/timestamp.proto\x1a?takasho/schema/lettuce_server/resource/system/device_info.proto\"\xb8\x04\n" +
 	"\x11SystemAuthorizeV1\x1a\xa2\x04\n" +
-	"\x05Types\x1a\xa7\x01\n" +
-	"\aRequest\x12%\n" +
-	"\x0edevice_account\x18\x01 \x01(\tR\rdeviceAccount\x12Z\n" +
-	"\vdevice_info\x18\x03 \x01(\v29.takasho.schema.lettuce_server.resource.system.DeviceInfoR\n" +
-	"deviceInfo\x12\x19\n" +
-	"\bid_token\x18\x04 \x01(\tR\aidToken\x1a\xee\x02\n" +
+	"\x05Types\x1a\xee\x02\n" +
 	"\bResponse\x12#\n" +
 	"\rsession_token\x18\x01 \x01(\tR\fsessionToken\x12\x1b\n" +
 	"\tplayer_id\x18\x02 \x01(\tR\bplayerId\x12$\n" +
@@ -331,7 +326,12 @@ const file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_ra
 	"\x05Types\x1al\n" +
 	"\fSignedCookie\x12#\n" +
 	"\rsigned_cookie\x18\x01 \x01(\tR\fsignedCookie\x127\n" +
-	"\texpire_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\bexpireAtBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\texpire_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\bexpireAt\x1a\xa7\x01\n" +
+	"\aRequest\x12%\n" +
+	"\x0edevice_account\x18\x01 \x01(\tR\rdeviceAccount\x12Z\n" +
+	"\vdevice_info\x18\x03 \x01(\v29.takasho.schema.lettuce_server.resource.system.DeviceInfoR\n" +
+	"deviceInfo\x12\x19\n" +
+	"\bid_token\x18\x04 \x01(\tR\aidTokenBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_rawDescOnce sync.Once
@@ -349,16 +349,16 @@ var file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_msgT
 var file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_goTypes = []any{
 	(*SystemAuthorizeV1)(nil),                                   // 0: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1
 	(*SystemAuthorizeV1_Types)(nil),                             // 1: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types
-	(*SystemAuthorizeV1_Types_Request)(nil),                     // 2: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Request
-	(*SystemAuthorizeV1_Types_Response)(nil),                    // 3: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response
+	(*SystemAuthorizeV1_Types_Response)(nil),                    // 2: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response
+	(*SystemAuthorizeV1_Types_Request)(nil),                     // 3: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Request
 	(*SystemAuthorizeV1_Types_Response_Types)(nil),              // 4: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.Types
 	(*SystemAuthorizeV1_Types_Response_Types_SignedCookie)(nil), // 5: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.Types.SignedCookie
 	(*system.DeviceInfo)(nil),                                   // 6: takasho.schema.lettuce_server.resource.system.DeviceInfo
 	(*timestamppb.Timestamp)(nil),                               // 7: google.protobuf.Timestamp
 }
 var file_takasho_schema_lettuce_server_player_api_system_authorize_v1_proto_depIdxs = []int32{
-	6, // 0: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Request.device_info:type_name -> takasho.schema.lettuce_server.resource.system.DeviceInfo
-	5, // 1: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.signed_cookie:type_name -> takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.Types.SignedCookie
+	5, // 0: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.signed_cookie:type_name -> takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.Types.SignedCookie
+	6, // 1: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Request.device_info:type_name -> takasho.schema.lettuce_server.resource.system.DeviceInfo
 	7, // 2: takasho.schema.lettuce_server.player_api.SystemAuthorizeV1.Types.Response.Types.SignedCookie.expire_at:type_name -> google.protobuf.Timestamp
 	3, // [3:3] is the sub-list for method output_type
 	3, // [3:3] is the sub-list for method input_type

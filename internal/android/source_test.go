@@ -3,15 +3,19 @@ package android
 import (
 	"context"
 	"fmt"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"strings"
 	"testing"
+
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 )
 
 type sourceRunner struct {
 	abi, version, hash string
 	root               bool
 	calls              []string
+	missingLibrary     bool
+	missingAPKLibrary  bool
+	unreadableLibrary  bool
 }
 
 func (r *sourceRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
@@ -29,8 +33,23 @@ func (r *sourceRunner) Run(_ context.Context, _ string, args ...string) ([]byte,
 		return []byte("versionName=" + r.version + "\nnativeLibraryDir=/data/app/game/lib/arm64"), nil
 	case strings.Contains(s, "pm path"):
 		return []byte("package:/data/app/game/base.apk\npackage:/data/app/game/another-assets.apk"), nil
+	case strings.Contains(s, "unzip -l"):
+		if !r.missingAPKLibrary && strings.Contains(s, "another-assets.apk") {
+			return nil, nil
+		}
+		return nil, fmt.Errorf("entry missing")
+	case strings.Contains(s, "unzip -p"):
+		return []byte(r.hash + " -"), nil
 	case strings.Contains(s, "sha256sum"):
+		if r.missingLibrary || r.unreadableLibrary {
+			return []byte("cannot read library"), fmt.Errorf("exit status 1")
+		}
 		return []byte(r.hash + " file"), nil
+	case strings.Contains(s, "test -f"):
+		if r.missingLibrary {
+			return nil, fmt.Errorf("file missing")
+		}
+		return nil, nil
 	case strings.Contains(s, "od -An"):
 		return []byte(r.abi), nil
 	case strings.Contains(s, "EXTERNAL_STORAGE"):
@@ -39,6 +58,48 @@ func (r *sourceRunner) Run(_ context.Context, _ string, args ...string) ([]byte,
 		return nil, nil
 	}
 	return nil, fmt.Errorf("unexpected command %s", s)
+}
+
+func TestInspectLibraryInAPK(t *testing.T) {
+	for _, test := range []struct {
+		name, hash, wantError string
+		missingAPKLibrary     bool
+	}{
+		{name: "validated split library", hash: strings.Repeat("a", 64)},
+		{name: "unknown split library", hash: strings.Repeat("c", 64), wantError: "validated compatibility profile"},
+		{name: "missing split library", missingAPKLibrary: true, wantError: "in installed APKs"},
+		{name: "empty extraction", hash: "", wantError: "validated compatibility profile"},
+	} {
+		t.Run(test.name, func(t *testing.T) {
+			r := &sourceRunner{abi: "62 0", version: "1.7.2", hash: test.hash, root: true, missingLibrary: true, missingAPKLibrary: test.missingAPKLibrary}
+			_, err := Inspect(context.Background(), r, sourceConfig())
+			if test.wantError == "" {
+				if err != nil {
+					t.Fatal(err)
+				}
+			} else if err == nil || !strings.Contains(err.Error(), test.wantError) {
+				t.Fatalf("error = %v, want %q", err, test.wantError)
+			}
+			for _, call := range r.calls {
+				if strings.Contains(call, "push") || strings.Contains(call, "mkdir") || strings.Contains(call, "chmod") || strings.Contains(call, " > ") {
+					t.Fatalf("inspection mutated device: %s", call)
+				}
+			}
+		})
+	}
+}
+
+func TestInspectDoesNotBypassUnreadableExtractedLibrary(t *testing.T) {
+	r := &sourceRunner{version: "1.7.2", root: true, unreadableLibrary: true}
+	_, err := Inspect(context.Background(), r, sourceConfig())
+	if err == nil || !strings.Contains(err.Error(), "cannot read library") {
+		t.Fatalf("error = %v, want library read diagnostic", err)
+	}
+	for _, call := range r.calls {
+		if strings.Contains(call, "unzip") {
+			t.Fatalf("bypassed extracted library: %s", call)
+		}
+	}
 }
 func sourceConfig() configuration.Config {
 	var c configuration.Config

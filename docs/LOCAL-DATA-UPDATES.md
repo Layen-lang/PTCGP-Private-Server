@@ -45,8 +45,9 @@ fallback. Reuse depends on source identities and converter versions, not just
 filenames. File size/modification checks trigger hash validation when necessary.
 Once a generation is published, the importer removes its checkpoint, work plan,
 temporary stream manifests and diagnostic reports. Incomplete `.pending`
-generations retain their checkpoint for recovery. Older completed generations
-are cleaned on the next successful preparation check.
+generations retain their checkpoint for recovery. Once a new generation is
+published and validated, older completed generations are removed. If cleanup
+is interrupted, it is retried on the next successful startup.
 
 The launcher checks game compatibility again before local mode, and the server
 also checks it when started directly. An unsupported version or library hash is

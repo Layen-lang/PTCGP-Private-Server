@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"os"
 	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
@@ -19,6 +20,26 @@ func TestDeltaPlanPreservesFullWidthSourceKeys(t *testing.T) {
 	encoded, err := json.Marshal(plan)
 	if err != nil || !bytes.Contains(encoded, []byte("18446744073709551615")) {
 		t.Fatalf("source key rounded: %s (%v)", encoded, err)
+	}
+}
+
+func TestImageIdentityIgnoresBlobFieldOrderAndAcceptsOldReceipts(t *testing.T) {
+	item := imageItem{Output: "cards/card.png", Category: "cards", Source: "card", Blobs: []string{"abc"}}
+	old := json.RawMessage(`{"address":"card","content":"123","blob":"abc","bytes":42,"key":18446744073709551615}`)
+	newer := json.RawMessage(`{"address":"card","blob":"abc","bytes":42,"content":"123","key":18446744073709551615}`)
+	a, err := imageIdentities(item, map[string]json.RawMessage{"abc": old})
+	if err != nil {
+		t.Fatal(err)
+	}
+	b, err := imageIdentities(item, map[string]json.RawMessage{"abc": newer})
+	if err != nil || a[0] != b[0] {
+		t.Fatalf("field order changed image identity: %v", err)
+	}
+	for _, row := range []json.RawMessage{old, newer} {
+		encoded, err := json.Marshal([]any{converter, item, row})
+		if err != nil || !matchesImageIdentity(digest(encoded), a) {
+			t.Fatalf("old receipt rejected: %v", err)
+		}
 	}
 }
 
@@ -123,5 +144,41 @@ func TestCompletedGenerationCleanupKeepsRuntimeFiles(t *testing.T) {
 		if _, err := os.Stat(filepath.Join(root, filepath.FromSlash(relative))); err != nil {
 			t.Fatalf("runtime file removed: %s (%v)", relative, err)
 		}
+	}
+}
+
+func TestPruneOldGenerationsKeepsActiveAndPending(t *testing.T) {
+	root := t.TempDir()
+	oldKey := strings.Repeat("a", 64)
+	keep := strings.Repeat("b", 64)
+	for _, key := range []string{oldKey, keep} {
+		if err := WriteJSON(filepath.Join(root, key, "receipt.json"), receipt{
+			Key: key, Files: map[string]fileRecord{"test": {Hash: "x", Size: 1}},
+		}); err != nil {
+			t.Fatal(err)
+		}
+	}
+	if err := os.Mkdir(filepath.Join(root, oldKey+".pending"), 0700); err != nil {
+		t.Fatal(err)
+	}
+	if err := WriteJSON(filepath.Join(root, "active.json"), map[string]string{"key": oldKey}); err != nil {
+		t.Fatal(err)
+	}
+	if err := pruneOldGenerations(root, keep); err == nil {
+		t.Fatal("removed a generation while another was active")
+	}
+	if err := WriteJSON(filepath.Join(root, "active.json"), map[string]string{"key": keep}); err != nil {
+		t.Fatal(err)
+	}
+	if err := pruneOldGenerations(root, keep); err != nil {
+		t.Fatal(err)
+	}
+	for _, key := range []string{keep, oldKey + ".pending"} {
+		if _, err := os.Stat(filepath.Join(root, key)); err != nil {
+			t.Fatalf("removed %s: %v", key, err)
+		}
+	}
+	if _, err := os.Stat(filepath.Join(root, oldKey)); !os.IsNotExist(err) {
+		t.Fatalf("old generation remains: %v", err)
 	}
 }

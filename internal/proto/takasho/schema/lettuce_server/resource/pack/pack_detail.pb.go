@@ -125,58 +125,6 @@ func (*PackDetail_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type PackDetail_Types_PackTableWeight struct {
-	state             protoimpl.MessageState `protogen:"open.v1"`
-	PackTableId       string                 `protobuf:"bytes,1,opt,name=pack_table_id,json=packTableId,proto3" json:"pack_table_id,omitempty"`
-	ProbabilityString string                 `protobuf:"bytes,4,opt,name=probability_string,json=probabilityString,proto3" json:"probability_string,omitempty"`
-	unknownFields     protoimpl.UnknownFields
-	sizeCache         protoimpl.SizeCache
-}
-
-func (x *PackDetail_Types_PackTableWeight) Reset() {
-	*x = PackDetail_Types_PackTableWeight{}
-	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[3]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *PackDetail_Types_PackTableWeight) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*PackDetail_Types_PackTableWeight) ProtoMessage() {}
-
-func (x *PackDetail_Types_PackTableWeight) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[3]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use PackDetail_Types_PackTableWeight.ProtoReflect.Descriptor instead.
-func (*PackDetail_Types_PackTableWeight) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *PackDetail_Types_PackTableWeight) GetPackTableId() string {
-	if x != nil {
-		return x.PackTableId
-	}
-	return ""
-}
-
-func (x *PackDetail_Types_PackTableWeight) GetProbabilityString() string {
-	if x != nil {
-		return x.ProbabilityString
-	}
-	return ""
-}
-
 type PackDetail_Types_PackTable struct {
 	state               protoimpl.MessageState                                 `protogen:"open.v1"`
 	PackTableId         string                                                 `protobuf:"bytes,1,opt,name=pack_table_id,json=packTableId,proto3" json:"pack_table_id,omitempty"`
@@ -188,7 +136,7 @@ type PackDetail_Types_PackTable struct {
 
 func (x *PackDetail_Types_PackTable) Reset() {
 	*x = PackDetail_Types_PackTable{}
-	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[4]
+	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -200,7 +148,7 @@ func (x *PackDetail_Types_PackTable) String() string {
 func (*PackDetail_Types_PackTable) ProtoMessage() {}
 
 func (x *PackDetail_Types_PackTable) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[4]
+	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -213,7 +161,7 @@ func (x *PackDetail_Types_PackTable) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PackDetail_Types_PackTable.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *PackDetail_Types_PackTable) GetPackTableId() string {
@@ -235,6 +183,58 @@ func (x *PackDetail_Types_PackTable) GetDrawCountCardTables() map[string]*PackDe
 		return x.DrawCountCardTables
 	}
 	return nil
+}
+
+type PackDetail_Types_PackTableWeight struct {
+	state             protoimpl.MessageState `protogen:"open.v1"`
+	PackTableId       string                 `protobuf:"bytes,1,opt,name=pack_table_id,json=packTableId,proto3" json:"pack_table_id,omitempty"`
+	ProbabilityString string                 `protobuf:"bytes,4,opt,name=probability_string,json=probabilityString,proto3" json:"probability_string,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
+}
+
+func (x *PackDetail_Types_PackTableWeight) Reset() {
+	*x = PackDetail_Types_PackTableWeight{}
+	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[4]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *PackDetail_Types_PackTableWeight) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*PackDetail_Types_PackTableWeight) ProtoMessage() {}
+
+func (x *PackDetail_Types_PackTableWeight) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_msgTypes[4]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use PackDetail_Types_PackTableWeight.ProtoReflect.Descriptor instead.
+func (*PackDetail_Types_PackTableWeight) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *PackDetail_Types_PackTableWeight) GetPackTableId() string {
+	if x != nil {
+		return x.PackTableId
+	}
+	return ""
+}
+
+func (x *PackDetail_Types_PackTableWeight) GetProbabilityString() string {
+	if x != nil {
+		return x.ProbabilityString
+	}
+	return ""
 }
 
 type PackDetail_Types_PackTable_Types struct {
@@ -270,7 +270,7 @@ func (x *PackDetail_Types_PackTable_Types) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use PackDetail_Types_PackTable_Types.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0}
 }
 
 type PackDetail_Types_PackTable_Types_CardTable struct {
@@ -308,7 +308,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable) ProtoReflect() protoreflect
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
 }
 
 func (x *PackDetail_Types_PackTable_Types_CardTable) GetLabelWeights() []*PackDetail_Types_PackTable_Types_CardTable_Types_LabelWeight {
@@ -358,7 +358,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable_Types) ProtoReflect() protor
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable_Types.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0}
 }
 
 type PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems struct {
@@ -395,7 +395,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems) P
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0}
 }
 
 func (x *PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems) GetCardWeights() []*PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight {
@@ -440,7 +440,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable_Types_LabelWeight) ProtoRefl
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable_Types_LabelWeight.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable_Types_LabelWeight) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 1}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 1}
 }
 
 func (x *PackDetail_Types_PackTable_Types_CardTable_Types_LabelWeight) GetLabel() string {
@@ -490,7 +490,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Ty
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0, 0}
 }
 
 type PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight struct {
@@ -529,7 +529,7 @@ func (x *PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Ty
 
 // Deprecated: Use PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight.ProtoReflect.Descriptor instead.
 func (*PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0, 0, 0}
 }
 
 func (x *PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight) GetCardId() string {
@@ -559,10 +559,7 @@ const file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDesc
 	"\vpack_tables\x18\x05 \x03(\v2G.takasho.schema.lettuce_server.resource.pack.PackDetail.PackTablesEntryR\n" +
 	"packTables\x1a\xeb\n" +
 	"\n" +
-	"\x05Types\x1ad\n" +
-	"\x0fPackTableWeight\x12\"\n" +
-	"\rpack_table_id\x18\x01 \x01(\tR\vpackTableId\x12-\n" +
-	"\x12probability_string\x18\x04 \x01(\tR\x11probabilityString\x1a\xfb\t\n" +
+	"\x05Types\x1a\xfb\t\n" +
 	"\tPackTable\x12\"\n" +
 	"\rpack_table_id\x18\x01 \x01(\tR\vpackTableId\x12*\n" +
 	"\x11draw_count_labels\x18\x02 \x03(\tR\x0fdrawCountLabels\x12\x95\x01\n" +
@@ -588,7 +585,10 @@ const file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_rawDesc
 	"\x05value\x18\x02 \x01(\v2q.takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable.Types.CardTableLabelItemsR\x05value:\x028\x01\x1a\x9f\x01\n" +
 	"\x18DrawCountCardTablesEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12m\n" +
-	"\x05value\x18\x02 \x01(\v2W.takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTableR\x05value:\x028\x01\x1a\x86\x01\n" +
+	"\x05value\x18\x02 \x01(\v2W.takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTableR\x05value:\x028\x01\x1ad\n" +
+	"\x0fPackTableWeight\x12\"\n" +
+	"\rpack_table_id\x18\x01 \x01(\tR\vpackTableId\x12-\n" +
+	"\x12probability_string\x18\x04 \x01(\tR\x11probabilityString\x1a\x86\x01\n" +
 	"\x0fPackTablesEntry\x12\x10\n" +
 	"\x03key\x18\x01 \x01(\tR\x03key\x12]\n" +
 	"\x05value\x18\x02 \x01(\v2G.takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTableR\x05value:\x028\x01BlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pack;packb\x06proto3"
@@ -610,8 +610,8 @@ var file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_goTypes =
 	(*PackDetail)(nil),                       // 0: takasho.schema.lettuce_server.resource.pack.PackDetail
 	(*PackDetail_Types)(nil),                 // 1: takasho.schema.lettuce_server.resource.pack.PackDetail.Types
 	nil,                                      // 2: takasho.schema.lettuce_server.resource.pack.PackDetail.PackTablesEntry
-	(*PackDetail_Types_PackTableWeight)(nil), // 3: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTableWeight
-	(*PackDetail_Types_PackTable)(nil),       // 4: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable
+	(*PackDetail_Types_PackTable)(nil),       // 3: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable
+	(*PackDetail_Types_PackTableWeight)(nil), // 4: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTableWeight
 	(*PackDetail_Types_PackTable_Types)(nil), // 5: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types
 	nil,                                      // 6: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.DrawCountCardTablesEntry
 	(*PackDetail_Types_PackTable_Types_CardTable)(nil),       // 7: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable
@@ -623,9 +623,9 @@ var file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_goTypes =
 	(*PackDetail_Types_PackTable_Types_CardTable_Types_CardTableLabelItems_Types_CardWeight)(nil), // 13: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable.Types.CardTableLabelItems.Types.CardWeight
 }
 var file_takasho_schema_lettuce_server_resource_pack_pack_detail_proto_depIdxs = []int32{
-	3,  // 0: takasho.schema.lettuce_server.resource.pack.PackDetail.pack_table_weights:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTableWeight
+	4,  // 0: takasho.schema.lettuce_server.resource.pack.PackDetail.pack_table_weights:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTableWeight
 	2,  // 1: takasho.schema.lettuce_server.resource.pack.PackDetail.pack_tables:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.PackTablesEntry
-	4,  // 2: takasho.schema.lettuce_server.resource.pack.PackDetail.PackTablesEntry.value:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable
+	3,  // 2: takasho.schema.lettuce_server.resource.pack.PackDetail.PackTablesEntry.value:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable
 	6,  // 3: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.draw_count_card_tables:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.DrawCountCardTablesEntry
 	7,  // 4: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.DrawCountCardTablesEntry.value:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable
 	11, // 5: takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable.label_weights:type_name -> takasho.schema.lettuce_server.resource.pack.PackDetail.Types.PackTable.Types.CardTable.Types.LabelWeight

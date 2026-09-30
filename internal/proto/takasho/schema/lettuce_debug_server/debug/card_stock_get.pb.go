@@ -94,50 +94,6 @@ func (*CardStockGet_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type CardStockGet_Types_Response struct {
-	state            protoimpl.MessageState                               `protogen:"open.v1"`
-	PlayerCardStocks []*CardStockGet_Types_Response_Types_PlayerCardStock `protobuf:"bytes,1,rep,name=player_card_stocks,json=playerCardStocks,proto3" json:"player_card_stocks,omitempty"`
-	unknownFields    protoimpl.UnknownFields
-	sizeCache        protoimpl.SizeCache
-}
-
-func (x *CardStockGet_Types_Response) Reset() {
-	*x = CardStockGet_Types_Response{}
-	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *CardStockGet_Types_Response) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*CardStockGet_Types_Response) ProtoMessage() {}
-
-func (x *CardStockGet_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use CardStockGet_Types_Response.ProtoReflect.Descriptor instead.
-func (*CardStockGet_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *CardStockGet_Types_Response) GetPlayerCardStocks() []*CardStockGet_Types_Response_Types_PlayerCardStock {
-	if x != nil {
-		return x.PlayerCardStocks
-	}
-	return nil
-}
-
 type CardStockGet_Types_Request struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	PlayerIds     []string               `protobuf:"bytes,1,rep,name=player_ids,json=playerIds,proto3" json:"player_ids,omitempty"`
@@ -147,7 +103,7 @@ type CardStockGet_Types_Request struct {
 
 func (x *CardStockGet_Types_Request) Reset() {
 	*x = CardStockGet_Types_Request{}
-	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -159,7 +115,7 @@ func (x *CardStockGet_Types_Request) String() string {
 func (*CardStockGet_Types_Request) ProtoMessage() {}
 
 func (x *CardStockGet_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -172,12 +128,56 @@ func (x *CardStockGet_Types_Request) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CardStockGet_Types_Request.ProtoReflect.Descriptor instead.
 func (*CardStockGet_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *CardStockGet_Types_Request) GetPlayerIds() []string {
 	if x != nil {
 		return x.PlayerIds
+	}
+	return nil
+}
+
+type CardStockGet_Types_Response struct {
+	state            protoimpl.MessageState                               `protogen:"open.v1"`
+	PlayerCardStocks []*CardStockGet_Types_Response_Types_PlayerCardStock `protobuf:"bytes,1,rep,name=player_card_stocks,json=playerCardStocks,proto3" json:"player_card_stocks,omitempty"`
+	unknownFields    protoimpl.UnknownFields
+	sizeCache        protoimpl.SizeCache
+}
+
+func (x *CardStockGet_Types_Response) Reset() {
+	*x = CardStockGet_Types_Response{}
+	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *CardStockGet_Types_Response) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*CardStockGet_Types_Response) ProtoMessage() {}
+
+func (x *CardStockGet_Types_Response) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use CardStockGet_Types_Response.ProtoReflect.Descriptor instead.
+func (*CardStockGet_Types_Response) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *CardStockGet_Types_Response) GetPlayerCardStocks() []*CardStockGet_Types_Response_Types_PlayerCardStock {
+	if x != nil {
+		return x.PlayerCardStocks
 	}
 	return nil
 }
@@ -215,7 +215,7 @@ func (x *CardStockGet_Types_Response_Types) ProtoReflect() protoreflect.Message 
 
 // Deprecated: Use CardStockGet_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*CardStockGet_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 1, 0}
 }
 
 type CardStockGet_Types_Response_Types_PlayerCardStock struct {
@@ -253,7 +253,7 @@ func (x *CardStockGet_Types_Response_Types_PlayerCardStock) ProtoReflect() proto
 
 // Deprecated: Use CardStockGet_Types_Response_Types_PlayerCardStock.ProtoReflect.Descriptor instead.
 func (*CardStockGet_Types_Response_Types_PlayerCardStock) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
 }
 
 func (x *CardStockGet_Types_Response_Types_PlayerCardStock) GetPlayerId() string {
@@ -276,17 +276,17 @@ const file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDes
 	"\n" +
 	">takasho/schema/lettuce_debug_server/debug/card_stock_get.proto\x12)takasho.schema.lettuce_debug_server.debug\x1a<takasho/schema/lettuce_server/resource/card/card_stock.proto\"\xf0\x02\n" +
 	"\fCardStockGet\x1a\xdf\x02\n" +
-	"\x05Types\x1a\xab\x02\n" +
+	"\x05Types\x1a(\n" +
+	"\aRequest\x12\x1d\n" +
+	"\n" +
+	"player_ids\x18\x01 \x03(\tR\tplayerIds\x1a\xab\x02\n" +
 	"\bResponse\x12\x8a\x01\n" +
 	"\x12player_card_stocks\x18\x01 \x03(\v2\\.takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Response.Types.PlayerCardStockR\x10playerCardStocks\x1a\x91\x01\n" +
 	"\x05Types\x1a\x87\x01\n" +
 	"\x0fPlayerCardStock\x12\x1b\n" +
 	"\tplayer_id\x18\x01 \x01(\tR\bplayerId\x12W\n" +
 	"\vcard_stocks\x18\x02 \x03(\v26.takasho.schema.lettuce_server.resource.card.CardStockR\n" +
-	"cardStocks\x1a(\n" +
-	"\aRequest\x12\x1d\n" +
-	"\n" +
-	"player_ids\x18\x01 \x03(\tR\tplayerIdsBkZigithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_debug_server/debug;debugb\x06proto3"
+	"cardStocksBkZigithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_debug_server/debug;debugb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_rawDescOnce sync.Once
@@ -304,8 +304,8 @@ var file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_msgTypes
 var file_takasho_schema_lettuce_debug_server_debug_card_stock_get_proto_goTypes = []any{
 	(*CardStockGet)(nil),                                      // 0: takasho.schema.lettuce_debug_server.debug.CardStockGet
 	(*CardStockGet_Types)(nil),                                // 1: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types
-	(*CardStockGet_Types_Response)(nil),                       // 2: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Response
-	(*CardStockGet_Types_Request)(nil),                        // 3: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Request
+	(*CardStockGet_Types_Request)(nil),                        // 2: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Request
+	(*CardStockGet_Types_Response)(nil),                       // 3: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Response
 	(*CardStockGet_Types_Response_Types)(nil),                 // 4: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Response.Types
 	(*CardStockGet_Types_Response_Types_PlayerCardStock)(nil), // 5: takasho.schema.lettuce_debug_server.debug.CardStockGet.Types.Response.Types.PlayerCardStock
 	(*card.CardStock)(nil),                                    // 6: takasho.schema.lettuce_server.resource.card.CardStock

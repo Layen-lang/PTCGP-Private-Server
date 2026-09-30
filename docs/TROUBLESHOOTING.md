@@ -83,6 +83,13 @@ because Android routing expects port `443`.
 
 ## Version or native-library mismatch
 
+If preparation reports `game native library unavailable: exit status 1`, Android
+may be loading the library directly from a split APK. The preparation check now
+validates its SHA-256 inside the installed APK when the extracted file is absent;
+local-mode setup extracts it before applying the patch. Restart the launcher
+after updating the server and select **Retry preparation**. If it still fails,
+the error identifies the missing library or the file that could not be read.
+
 The launcher checks the game version and SHA-256 hashes before applying or
 restoring the TLS patch. It refuses unknown files intentionally.
 

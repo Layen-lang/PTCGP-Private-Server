@@ -72,7 +72,7 @@ func (x PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types_Fail
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types_FailureReason.Descriptor instead.
 func (PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types_FailureReason) EnumDescriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0, 0, 0}
 }
 
 type PresentBoxReceiveV1 struct {
@@ -147,6 +147,58 @@ func (*PresentBoxReceiveV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
+type PresentBoxReceiveV1_Types_Request struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	PresentId     string                 `protobuf:"bytes,2,opt,name=present_id,json=presentId,proto3" json:"present_id,omitempty"`
+	PresentIds    []string               `protobuf:"bytes,3,rep,name=present_ids,json=presentIds,proto3" json:"present_ids,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *PresentBoxReceiveV1_Types_Request) Reset() {
+	*x = PresentBoxReceiveV1_Types_Request{}
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[2]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *PresentBoxReceiveV1_Types_Request) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*PresentBoxReceiveV1_Types_Request) ProtoMessage() {}
+
+func (x *PresentBoxReceiveV1_Types_Request) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[2]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use PresentBoxReceiveV1_Types_Request.ProtoReflect.Descriptor instead.
+func (*PresentBoxReceiveV1_Types_Request) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0}
+}
+
+func (x *PresentBoxReceiveV1_Types_Request) GetPresentId() string {
+	if x != nil {
+		return x.PresentId
+	}
+	return ""
+}
+
+func (x *PresentBoxReceiveV1_Types_Request) GetPresentIds() []string {
+	if x != nil {
+		return x.PresentIds
+	}
+	return nil
+}
+
 type PresentBoxReceiveV1_Types_Response struct {
 	state                 protoimpl.MessageState                               `protogen:"open.v1"`
 	Result                *PresentBoxReceiveV1_Types_Response_Types_Result     `protobuf:"bytes,1,opt,name=result,proto3" json:"result,omitempty"`
@@ -160,7 +212,7 @@ type PresentBoxReceiveV1_Types_Response struct {
 
 func (x *PresentBoxReceiveV1_Types_Response) Reset() {
 	*x = PresentBoxReceiveV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[2]
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -172,7 +224,7 @@ func (x *PresentBoxReceiveV1_Types_Response) String() string {
 func (*PresentBoxReceiveV1_Types_Response) ProtoMessage() {}
 
 func (x *PresentBoxReceiveV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[2]
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -185,7 +237,7 @@ func (x *PresentBoxReceiveV1_Types_Response) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1}
 }
 
 func (x *PresentBoxReceiveV1_Types_Response) GetResult() *PresentBoxReceiveV1_Types_Response_Types_Result {
@@ -223,58 +275,6 @@ func (x *PresentBoxReceiveV1_Types_Response) GetItemAcquisitionResult() *item_ac
 	return nil
 }
 
-type PresentBoxReceiveV1_Types_Request struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	PresentId     string                 `protobuf:"bytes,2,opt,name=present_id,json=presentId,proto3" json:"present_id,omitempty"`
-	PresentIds    []string               `protobuf:"bytes,3,rep,name=present_ids,json=presentIds,proto3" json:"present_ids,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
-}
-
-func (x *PresentBoxReceiveV1_Types_Request) Reset() {
-	*x = PresentBoxReceiveV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[3]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *PresentBoxReceiveV1_Types_Request) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*PresentBoxReceiveV1_Types_Request) ProtoMessage() {}
-
-func (x *PresentBoxReceiveV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_msgTypes[3]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use PresentBoxReceiveV1_Types_Request.ProtoReflect.Descriptor instead.
-func (*PresentBoxReceiveV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1}
-}
-
-func (x *PresentBoxReceiveV1_Types_Request) GetPresentId() string {
-	if x != nil {
-		return x.PresentId
-	}
-	return ""
-}
-
-func (x *PresentBoxReceiveV1_Types_Request) GetPresentIds() []string {
-	if x != nil {
-		return x.PresentIds
-	}
-	return nil
-}
-
 type PresentBoxReceiveV1_Types_Response_Types struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	unknownFields protoimpl.UnknownFields
@@ -308,7 +308,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types) ProtoReflect() protoreflect.M
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
 }
 
 type PresentBoxReceiveV1_Types_Response_Types_Result struct {
@@ -350,7 +350,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types_Result) ProtoReflect() protore
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_Result.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types_Result) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
 }
 
 func (x *PresentBoxReceiveV1_Types_Response_Types_Result) GetPresentId() string {
@@ -429,7 +429,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types_PackResult) ProtoReflect() pro
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_PackResult.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types_PackResult) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 1}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 1}
 }
 
 func (x *PresentBoxReceiveV1_Types_Response_Types_PackResult) GetUnpackOrders() []*pack.PackUnpackOrder {
@@ -472,7 +472,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types_Result_Types) ProtoReflect() p
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_Result_Types.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types_Result_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0}
 }
 
 type PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure struct {
@@ -509,7 +509,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure) ProtoRef
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0}
 }
 
 func (x *PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure) GetReason() PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types_FailureReason {
@@ -552,7 +552,7 @@ func (x *PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types) Pr
 
 // Deprecated: Use PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types.ProtoReflect.Descriptor instead.
 func (*PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0, 0, 0, 0}
 }
 
 var File_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto protoreflect.FileDescriptor
@@ -561,7 +561,12 @@ const file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto
 	"\n" +
 	"Etakasho/schema/lettuce_server/player_api/present_box_receive_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1aUtakasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto\x1aCtakasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto\"\xa7\f\n" +
 	"\x13PresentBoxReceiveV1\x1a\x8f\f\n" +
-	"\x05Types\x1a\xba\v\n" +
+	"\x05Types\x1aI\n" +
+	"\aRequest\x12\x1d\n" +
+	"\n" +
+	"present_id\x18\x02 \x01(\tR\tpresentId\x12\x1f\n" +
+	"\vpresent_ids\x18\x03 \x03(\tR\n" +
+	"presentIds\x1a\xba\v\n" +
 	"\bResponse\x12q\n" +
 	"\x06result\x18\x01 \x01(\v2Y.takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response.Types.ResultR\x06result\x12\x17\n" +
 	"\ais_pack\x18\x03 \x01(\bR\x06isPack\x12~\n" +
@@ -591,12 +596,7 @@ const file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto
 	"\x13FAILURE_REASON_SKIP\x10\x03\x1ao\n" +
 	"\n" +
 	"PackResult\x12a\n" +
-	"\runpack_orders\x18\x02 \x03(\v2<.takasho.schema.lettuce_server.resource.pack.PackUnpackOrderR\funpackOrders\x1aI\n" +
-	"\aRequest\x12\x1d\n" +
-	"\n" +
-	"present_id\x18\x02 \x01(\tR\tpresentId\x12\x1f\n" +
-	"\vpresent_ids\x18\x03 \x03(\tR\n" +
-	"presentIdsBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\runpack_orders\x18\x02 \x03(\v2<.takasho.schema.lettuce_server.resource.pack.PackUnpackOrderR\funpackOrdersBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_rawDescOnce sync.Once
@@ -616,8 +616,8 @@ var file_takasho_schema_lettuce_server_player_api_present_box_receive_v1_proto_g
 	(PresentBoxReceiveV1_Types_Response_Types_Result_Types_Failure_Types_FailureReason)(0), // 0: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response.Types.Result.Types.Failure.Types.FailureReason
 	(*PresentBoxReceiveV1)(nil),                                                 // 1: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1
 	(*PresentBoxReceiveV1_Types)(nil),                                           // 2: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types
-	(*PresentBoxReceiveV1_Types_Response)(nil),                                  // 3: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response
-	(*PresentBoxReceiveV1_Types_Request)(nil),                                   // 4: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Request
+	(*PresentBoxReceiveV1_Types_Request)(nil),                                   // 3: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Request
+	(*PresentBoxReceiveV1_Types_Response)(nil),                                  // 4: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response
 	(*PresentBoxReceiveV1_Types_Response_Types)(nil),                            // 5: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response.Types
 	(*PresentBoxReceiveV1_Types_Response_Types_Result)(nil),                     // 6: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response.Types.Result
 	(*PresentBoxReceiveV1_Types_Response_Types_PackResult)(nil),                 // 7: takasho.schema.lettuce_server.player_api.PresentBoxReceiveV1.Types.Response.Types.PackResult

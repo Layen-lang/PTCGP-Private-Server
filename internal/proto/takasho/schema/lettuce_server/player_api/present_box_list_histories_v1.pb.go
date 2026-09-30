@@ -95,50 +95,6 @@ func (*PresentBoxListHistoriesV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type PresentBoxListHistoriesV1_Types_Request struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	PageToken     string                 `protobuf:"bytes,1,opt,name=page_token,json=pageToken,proto3" json:"page_token,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
-}
-
-func (x *PresentBoxListHistoriesV1_Types_Request) Reset() {
-	*x = PresentBoxListHistoriesV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *PresentBoxListHistoriesV1_Types_Request) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*PresentBoxListHistoriesV1_Types_Request) ProtoMessage() {}
-
-func (x *PresentBoxListHistoriesV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use PresentBoxListHistoriesV1_Types_Request.ProtoReflect.Descriptor instead.
-func (*PresentBoxListHistoriesV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *PresentBoxListHistoriesV1_Types_Request) GetPageToken() string {
-	if x != nil {
-		return x.PageToken
-	}
-	return ""
-}
-
 type PresentBoxListHistoriesV1_Types_Response struct {
 	state         protoimpl.MessageState                                    `protogen:"open.v1"`
 	NextPageToken string                                                    `protobuf:"bytes,1,opt,name=next_page_token,json=nextPageToken,proto3" json:"next_page_token,omitempty"`
@@ -149,7 +105,7 @@ type PresentBoxListHistoriesV1_Types_Response struct {
 
 func (x *PresentBoxListHistoriesV1_Types_Response) Reset() {
 	*x = PresentBoxListHistoriesV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -161,7 +117,7 @@ func (x *PresentBoxListHistoriesV1_Types_Response) String() string {
 func (*PresentBoxListHistoriesV1_Types_Response) ProtoMessage() {}
 
 func (x *PresentBoxListHistoriesV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -174,7 +130,7 @@ func (x *PresentBoxListHistoriesV1_Types_Response) ProtoReflect() protoreflect.M
 
 // Deprecated: Use PresentBoxListHistoriesV1_Types_Response.ProtoReflect.Descriptor instead.
 func (*PresentBoxListHistoriesV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *PresentBoxListHistoriesV1_Types_Response) GetNextPageToken() string {
@@ -189,6 +145,50 @@ func (x *PresentBoxListHistoriesV1_Types_Response) GetHistories() []*PresentBoxL
 		return x.Histories
 	}
 	return nil
+}
+
+type PresentBoxListHistoriesV1_Types_Request struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	PageToken     string                 `protobuf:"bytes,1,opt,name=page_token,json=pageToken,proto3" json:"page_token,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *PresentBoxListHistoriesV1_Types_Request) Reset() {
+	*x = PresentBoxListHistoriesV1_Types_Request{}
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *PresentBoxListHistoriesV1_Types_Request) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*PresentBoxListHistoriesV1_Types_Request) ProtoMessage() {}
+
+func (x *PresentBoxListHistoriesV1_Types_Request) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use PresentBoxListHistoriesV1_Types_Request.ProtoReflect.Descriptor instead.
+func (*PresentBoxListHistoriesV1_Types_Request) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *PresentBoxListHistoriesV1_Types_Request) GetPageToken() string {
+	if x != nil {
+		return x.PageToken
+	}
+	return ""
 }
 
 type PresentBoxListHistoriesV1_Types_Response_Types struct {
@@ -224,7 +224,7 @@ func (x *PresentBoxListHistoriesV1_Types_Response_Types) ProtoReflect() protoref
 
 // Deprecated: Use PresentBoxListHistoriesV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*PresentBoxListHistoriesV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
 }
 
 type PresentBoxListHistoriesV1_Types_Response_Types_History struct {
@@ -262,7 +262,7 @@ func (x *PresentBoxListHistoriesV1_Types_Response_Types_History) ProtoReflect() 
 
 // Deprecated: Use PresentBoxListHistoriesV1_Types_Response_Types_History.ProtoReflect.Descriptor instead.
 func (*PresentBoxListHistoriesV1_Types_Response_Types_History) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
 }
 
 func (x *PresentBoxListHistoriesV1_Types_Response_Types_History) GetPresent() *present.PresentItem {
@@ -285,10 +285,7 @@ const file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v
 	"\n" +
 	"Ltakasho/schema/lettuce_server/player_api/present_box_list_histories_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a\x1fgoogle/protobuf/timestamp.proto\x1aAtakasho/schema/lettuce_server/resource/present/present_item.proto\"\xae\x03\n" +
 	"\x19PresentBoxListHistoriesV1\x1a\x90\x03\n" +
-	"\x05Types\x1a(\n" +
-	"\aRequest\x12\x1d\n" +
-	"\n" +
-	"page_token\x18\x01 \x01(\tR\tpageToken\x1a\xdc\x02\n" +
+	"\x05Types\x1a\xdc\x02\n" +
 	"\bResponse\x12&\n" +
 	"\x0fnext_page_token\x18\x01 \x01(\tR\rnextPageToken\x12~\n" +
 	"\thistories\x18\x02 \x03(\v2`.takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Response.Types.HistoryR\thistories\x1a\xa7\x01\n" +
@@ -296,7 +293,10 @@ const file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v
 	"\aHistory\x12U\n" +
 	"\apresent\x18\x01 \x01(\v2;.takasho.schema.lettuce_server.resource.present.PresentItemR\apresent\x12;\n" +
 	"\vreceived_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\n" +
-	"receivedAtBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"receivedAt\x1a(\n" +
+	"\aRequest\x12\x1d\n" +
+	"\n" +
+	"page_token\x18\x01 \x01(\tR\tpageTokenBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_rawDescOnce sync.Once
@@ -314,8 +314,8 @@ var file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_
 var file_takasho_schema_lettuce_server_player_api_present_box_list_histories_v1_proto_goTypes = []any{
 	(*PresentBoxListHistoriesV1)(nil),                              // 0: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1
 	(*PresentBoxListHistoriesV1_Types)(nil),                        // 1: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types
-	(*PresentBoxListHistoriesV1_Types_Request)(nil),                // 2: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Request
-	(*PresentBoxListHistoriesV1_Types_Response)(nil),               // 3: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Response
+	(*PresentBoxListHistoriesV1_Types_Response)(nil),               // 2: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Response
+	(*PresentBoxListHistoriesV1_Types_Request)(nil),                // 3: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Request
 	(*PresentBoxListHistoriesV1_Types_Response_Types)(nil),         // 4: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Response.Types
 	(*PresentBoxListHistoriesV1_Types_Response_Types_History)(nil), // 5: takasho.schema.lettuce_server.player_api.PresentBoxListHistoriesV1.Types.Response.Types.History
 	(*present.PresentItem)(nil),                                    // 6: takasho.schema.lettuce_server.resource.present.PresentItem

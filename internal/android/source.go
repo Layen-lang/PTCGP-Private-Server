@@ -98,7 +98,28 @@ func Inspect(ctx context.Context, runner Runner, cfg configuration.Config) (Sour
 	}
 	hash, err := call("sha256sum " + ShellQuote(s.Library))
 	if err != nil {
-		return s, fmt.Errorf("game native library unavailable: %w", err)
+		// Android can load native code directly from a split APK without
+		// extracting it. Inspect the packaged bytes without modifying the device;
+		// setupAndroid will materialize the library when applying the patch.
+		if _, existsErr := call("test -f " + ShellQuote(s.Library)); existsErr == nil {
+			return s, fmt.Errorf("game native library unavailable at %s: %w (%s)", s.Library, err, hash)
+		}
+		entry := "lib/arm64-v8a/" + cfg.Patch.Library
+		found := false
+		for _, apk := range s.APKs {
+			if _, entryErr := call("unzip -l " + ShellQuote(apk) + " | grep -F -- " + ShellQuote(entry) + " >/dev/null 2>&1"); entryErr != nil {
+				continue
+			}
+			hash, err = call("unzip -p " + ShellQuote(apk) + " " + ShellQuote(entry) + " | sha256sum")
+			if err != nil {
+				return s, fmt.Errorf("read game native library from %s: %w (%s)", apk, err, hash)
+			}
+			found = true
+			break
+		}
+		if !found {
+			return s, fmt.Errorf("game native library %s unavailable at %s and in installed APKs: %w", cfg.Patch.Library, s.Library, err)
+		}
 	}
 	fields := strings.Fields(hash)
 	if len(fields) == 0 || (fields[0] != cfg.Patch.SourceSHA256 && fields[0] != cfg.Patch.TargetSHA256) {

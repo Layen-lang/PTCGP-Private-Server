@@ -856,8 +856,12 @@ func (c *Catalog) load() error {
 	skuExpansions := map[string]string{}
 	skuAssets := map[string]string{}
 	for _, r := range packSkus {
-		if _, ok := c.expansions[r.ExpansionID]; !ok {
-			return fmt.Errorf("validate PackSku.json: expansion %q is unknown", r.ExpansionID)
+		// Event boosters can have no expansion. Validate a reference only when
+		// supplied, while retaining the SKU so PackMaster can resolve it.
+		if r.ExpansionID != "" {
+			if _, ok := c.expansions[r.ExpansionID]; !ok {
+				return fmt.Errorf("validate PackSku.json: expansion %q is unknown", r.ExpansionID)
+			}
 		}
 		skuExpansions[r.PackSkuID] = r.ExpansionID
 		skuAssets[r.PackSkuID] = r.AssetID
@@ -867,8 +871,8 @@ func (c *Catalog) load() error {
 		return err
 	}
 	for _, r := range packs {
-		expansionID := skuExpansions[r.SkuID]
-		if expansionID == "" {
+		expansionID, ok := skuExpansions[r.SkuID]
+		if !ok {
 			return fmt.Errorf("validate PackMaster.json: sku %q is unknown", r.SkuID)
 		}
 		for _, cardID := range r.FeaturedCardIDs {

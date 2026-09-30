@@ -6,6 +6,9 @@ import "takasho/schema/lettuce_server/resource/card/card_stock.proto";
 
 message CardStockGet {
   message Types {
+    message Request {
+      repeated string player_ids = 1;
+    }
     message Response {
       message Types {
         message PlayerCardStock {
@@ -14,9 +17,6 @@ message CardStockGet {
         }
       }
       repeated CardStockGet.Types.Response.Types.PlayerCardStock player_card_stocks = 1;
-    }
-    message Request {
-      repeated string player_ids = 1;
     }
   }
 }

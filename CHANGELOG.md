@@ -6,6 +6,24 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.7.5.0] - 2026-09-30
+
+### Changed
+
+- Update the client compatibility profile, protocol schemas, image extraction
+  plans, and patch metadata for Pokémon TCG Pocket 1.7.5.
+- Resolve master data and images from a validated local generation instead of
+  requiring paths in the bundled configuration.
+- Remove older completed data generations after a new generation is validated.
+- Keep image import receipts reusable across profile JSON field-order changes.
+
+### Fixed
+
+- Inspect native libraries inside installed APKs when Android has not extracted
+  them yet, preserving compatibility hash validation before preparation.
+- Accept event booster SKUs without an expansion in the 1.7.5 master data while
+  continuing to reject unknown expansion and SKU references.
+
 ## [1.7.2.2] - 2026-09-26
 
 ### Added

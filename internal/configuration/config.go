@@ -40,6 +40,7 @@ type Android struct {
 }
 
 type Data struct {
+	// Resolve fills these from a validated local generation before serving.
 	MasterData string `json:"masterData"`
 	Images     string `json:"images"`
 }
@@ -182,7 +183,7 @@ func (c Config) Validate() error {
 	if c.Runtime.AdminAddress == c.Runtime.LauncherAddress {
 		return fmt.Errorf("admin and launcher addresses must differ")
 	}
-	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "masterData": c.Data.MasterData, "images": c.Data.Images, "android.package": c.Android.Package, "android.activity": c.Android.Activity, "android.serverAddress": c.Android.ServerAddress} {
+	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "android.package": c.Android.Package, "android.activity": c.Android.Activity, "android.serverAddress": c.Android.ServerAddress} {
 		if strings.TrimSpace(value) == "" {
 			return fmt.Errorf("%s is required", name)
 		}

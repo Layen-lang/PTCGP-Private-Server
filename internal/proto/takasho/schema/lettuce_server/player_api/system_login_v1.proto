@@ -8,6 +8,17 @@ import "takasho/schema/lettuce_server/resource/player_settings/info.proto";
 
 message SystemLoginV1 {
   message Types {
+    message Response {
+      message Types {
+        message TutorialStatus {
+          string tutorial_id = 1;
+          int64 tutorial_step = 2;
+        }
+      }
+      takasho.schema.lettuce_server.resource.player_settings.Info player_settings_info = 1;
+      repeated SystemLoginV1.Types.Response.Types.TutorialStatus tutorial_completes = 3;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
+    }
     message Request {
       takasho.schema.lettuce_server.resource.language.Language language_type = 1;
       bool third_party_data_provision_approved = 4;
@@ -22,17 +33,6 @@ message SystemLoginV1 {
       bool use_of_login_data = 13;
       bool use_of_performance_errors = 14;
       takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType age_gate_type = 15;
-    }
-    message Response {
-      message Types {
-        message TutorialStatus {
-          string tutorial_id = 1;
-          int64 tutorial_step = 2;
-        }
-      }
-      takasho.schema.lettuce_server.resource.player_settings.Info player_settings_info = 1;
-      repeated SystemLoginV1.Types.Response.Types.TutorialStatus tutorial_completes = 3;
-      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
     }
   }
 }

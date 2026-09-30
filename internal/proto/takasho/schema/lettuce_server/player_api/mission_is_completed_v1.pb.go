@@ -94,50 +94,6 @@ func (*MissionIsCompletedV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type MissionIsCompletedV1_Types_Response struct {
-	state             protoimpl.MessageState                                        `protogen:"open.v1"`
-	CompletedMissions []*MissionIsCompletedV1_Types_Response_Types_CompletedMission `protobuf:"bytes,2,rep,name=completed_missions,json=completedMissions,proto3" json:"completed_missions,omitempty"`
-	unknownFields     protoimpl.UnknownFields
-	sizeCache         protoimpl.SizeCache
-}
-
-func (x *MissionIsCompletedV1_Types_Response) Reset() {
-	*x = MissionIsCompletedV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *MissionIsCompletedV1_Types_Response) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*MissionIsCompletedV1_Types_Response) ProtoMessage() {}
-
-func (x *MissionIsCompletedV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use MissionIsCompletedV1_Types_Response.ProtoReflect.Descriptor instead.
-func (*MissionIsCompletedV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *MissionIsCompletedV1_Types_Response) GetCompletedMissions() []*MissionIsCompletedV1_Types_Response_Types_CompletedMission {
-	if x != nil {
-		return x.CompletedMissions
-	}
-	return nil
-}
-
 type MissionIsCompletedV1_Types_Request struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	MissionIds    []string               `protobuf:"bytes,1,rep,name=mission_ids,json=missionIds,proto3" json:"mission_ids,omitempty"`
@@ -147,7 +103,7 @@ type MissionIsCompletedV1_Types_Request struct {
 
 func (x *MissionIsCompletedV1_Types_Request) Reset() {
 	*x = MissionIsCompletedV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -159,7 +115,7 @@ func (x *MissionIsCompletedV1_Types_Request) String() string {
 func (*MissionIsCompletedV1_Types_Request) ProtoMessage() {}
 
 func (x *MissionIsCompletedV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -172,12 +128,56 @@ func (x *MissionIsCompletedV1_Types_Request) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use MissionIsCompletedV1_Types_Request.ProtoReflect.Descriptor instead.
 func (*MissionIsCompletedV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *MissionIsCompletedV1_Types_Request) GetMissionIds() []string {
 	if x != nil {
 		return x.MissionIds
+	}
+	return nil
+}
+
+type MissionIsCompletedV1_Types_Response struct {
+	state             protoimpl.MessageState                                        `protogen:"open.v1"`
+	CompletedMissions []*MissionIsCompletedV1_Types_Response_Types_CompletedMission `protobuf:"bytes,2,rep,name=completed_missions,json=completedMissions,proto3" json:"completed_missions,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
+}
+
+func (x *MissionIsCompletedV1_Types_Response) Reset() {
+	*x = MissionIsCompletedV1_Types_Response{}
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *MissionIsCompletedV1_Types_Response) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*MissionIsCompletedV1_Types_Response) ProtoMessage() {}
+
+func (x *MissionIsCompletedV1_Types_Response) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use MissionIsCompletedV1_Types_Response.ProtoReflect.Descriptor instead.
+func (*MissionIsCompletedV1_Types_Response) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *MissionIsCompletedV1_Types_Response) GetCompletedMissions() []*MissionIsCompletedV1_Types_Response_Types_CompletedMission {
+	if x != nil {
+		return x.CompletedMissions
 	}
 	return nil
 }
@@ -215,7 +215,7 @@ func (x *MissionIsCompletedV1_Types_Response_Types) ProtoReflect() protoreflect.
 
 // Deprecated: Use MissionIsCompletedV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*MissionIsCompletedV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
 }
 
 type MissionIsCompletedV1_Types_Response_Types_CompletedMission struct {
@@ -253,7 +253,7 @@ func (x *MissionIsCompletedV1_Types_Response_Types_CompletedMission) ProtoReflec
 
 // Deprecated: Use MissionIsCompletedV1_Types_Response_Types_CompletedMission.ProtoReflect.Descriptor instead.
 func (*MissionIsCompletedV1_Types_Response_Types_CompletedMission) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
 }
 
 func (x *MissionIsCompletedV1_Types_Response_Types_CompletedMission) GetMissionId() string {
@@ -276,17 +276,17 @@ const file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_prot
 	"\n" +
 	"Ftakasho/schema/lettuce_server/player_api/mission_is_completed_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a\x1fgoogle/protobuf/timestamp.proto\"\xf4\x02\n" +
 	"\x14MissionIsCompletedV1\x1a\xdb\x02\n" +
-	"\x05Types\x1a\xa5\x02\n" +
+	"\x05Types\x1a*\n" +
+	"\aRequest\x12\x1f\n" +
+	"\vmission_ids\x18\x01 \x03(\tR\n" +
+	"missionIds\x1a\xa5\x02\n" +
 	"\bResponse\x12\x93\x01\n" +
 	"\x12completed_missions\x18\x02 \x03(\v2d.takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Response.Types.CompletedMissionR\x11completedMissions\x1a\x82\x01\n" +
 	"\x05Types\x1ay\n" +
 	"\x10CompletedMission\x12\x1d\n" +
 	"\n" +
 	"mission_id\x18\x01 \x01(\tR\tmissionId\x12F\n" +
-	"\x11last_completed_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x0flastCompletedAt\x1a*\n" +
-	"\aRequest\x12\x1f\n" +
-	"\vmission_ids\x18\x01 \x03(\tR\n" +
-	"missionIdsBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\x11last_completed_at\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\x0flastCompletedAtBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_rawDescOnce sync.Once
@@ -304,8 +304,8 @@ var file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_
 var file_takasho_schema_lettuce_server_player_api_mission_is_completed_v1_proto_goTypes = []any{
 	(*MissionIsCompletedV1)(nil),                                       // 0: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1
 	(*MissionIsCompletedV1_Types)(nil),                                 // 1: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types
-	(*MissionIsCompletedV1_Types_Response)(nil),                        // 2: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Response
-	(*MissionIsCompletedV1_Types_Request)(nil),                         // 3: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Request
+	(*MissionIsCompletedV1_Types_Request)(nil),                         // 2: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Request
+	(*MissionIsCompletedV1_Types_Response)(nil),                        // 3: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Response
 	(*MissionIsCompletedV1_Types_Response_Types)(nil),                  // 4: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Response.Types
 	(*MissionIsCompletedV1_Types_Response_Types_CompletedMission)(nil), // 5: takasho.schema.lettuce_server.player_api.MissionIsCompletedV1.Types.Response.Types.CompletedMission
 	(*timestamppb.Timestamp)(nil),                                      // 6: google.protobuf.Timestamp

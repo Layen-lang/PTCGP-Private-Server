@@ -4,10 +4,6 @@ package takasho.schema.lettuce_server.resource.pack;
 
 message PackDetail {
   message Types {
-    message PackTableWeight {
-      string pack_table_id = 1;
-      string probability_string = 4;
-    }
     message PackTable {
       message Types {
         message CardTable {
@@ -33,6 +29,10 @@ message PackDetail {
       string pack_table_id = 1;
       repeated string draw_count_labels = 2;
       map<string, PackDetail.Types.PackTable.Types.CardTable> draw_count_card_tables = 3;
+    }
+    message PackTableWeight {
+      string pack_table_id = 1;
+      string probability_string = 4;
     }
   }
   string pack_id = 1;

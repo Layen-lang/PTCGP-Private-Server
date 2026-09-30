@@ -96,6 +96,66 @@ func (*SystemLoginV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
+type SystemLoginV1_Types_Response struct {
+	state                 protoimpl.MessageState                               `protogen:"open.v1"`
+	PlayerSettingsInfo    *player_settings.Info                                `protobuf:"bytes,1,opt,name=player_settings_info,json=playerSettingsInfo,proto3" json:"player_settings_info,omitempty"`
+	TutorialCompletes     []*SystemLoginV1_Types_Response_Types_TutorialStatus `protobuf:"bytes,3,rep,name=tutorial_completes,json=tutorialCompletes,proto3" json:"tutorial_completes,omitempty"`
+	ItemAcquisitionResult *item_acquisition.ItemAcquisitionResult              `protobuf:"bytes,4,opt,name=item_acquisition_result,json=itemAcquisitionResult,proto3" json:"item_acquisition_result,omitempty"`
+	unknownFields         protoimpl.UnknownFields
+	sizeCache             protoimpl.SizeCache
+}
+
+func (x *SystemLoginV1_Types_Response) Reset() {
+	*x = SystemLoginV1_Types_Response{}
+	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[2]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *SystemLoginV1_Types_Response) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*SystemLoginV1_Types_Response) ProtoMessage() {}
+
+func (x *SystemLoginV1_Types_Response) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[2]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use SystemLoginV1_Types_Response.ProtoReflect.Descriptor instead.
+func (*SystemLoginV1_Types_Response) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 0}
+}
+
+func (x *SystemLoginV1_Types_Response) GetPlayerSettingsInfo() *player_settings.Info {
+	if x != nil {
+		return x.PlayerSettingsInfo
+	}
+	return nil
+}
+
+func (x *SystemLoginV1_Types_Response) GetTutorialCompletes() []*SystemLoginV1_Types_Response_Types_TutorialStatus {
+	if x != nil {
+		return x.TutorialCompletes
+	}
+	return nil
+}
+
+func (x *SystemLoginV1_Types_Response) GetItemAcquisitionResult() *item_acquisition.ItemAcquisitionResult {
+	if x != nil {
+		return x.ItemAcquisitionResult
+	}
+	return nil
+}
+
 type SystemLoginV1_Types_Request struct {
 	state                                  protoimpl.MessageState                 `protogen:"open.v1"`
 	LanguageType                           language.Language                      `protobuf:"varint,1,opt,name=language_type,json=languageType,proto3,enum=takasho.schema.lettuce_server.resource.language.Language" json:"language_type,omitempty"`
@@ -117,7 +177,7 @@ type SystemLoginV1_Types_Request struct {
 
 func (x *SystemLoginV1_Types_Request) Reset() {
 	*x = SystemLoginV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[2]
+	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[3]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -129,7 +189,7 @@ func (x *SystemLoginV1_Types_Request) String() string {
 func (*SystemLoginV1_Types_Request) ProtoMessage() {}
 
 func (x *SystemLoginV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[2]
+	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[3]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -142,7 +202,7 @@ func (x *SystemLoginV1_Types_Request) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use SystemLoginV1_Types_Request.ProtoReflect.Descriptor instead.
 func (*SystemLoginV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 1}
 }
 
 func (x *SystemLoginV1_Types_Request) GetLanguageType() language.Language {
@@ -236,66 +296,6 @@ func (x *SystemLoginV1_Types_Request) GetAgeGateType() player_settings.Info_Type
 	return player_settings.Info_Types_AgeGateType(0)
 }
 
-type SystemLoginV1_Types_Response struct {
-	state                 protoimpl.MessageState                               `protogen:"open.v1"`
-	PlayerSettingsInfo    *player_settings.Info                                `protobuf:"bytes,1,opt,name=player_settings_info,json=playerSettingsInfo,proto3" json:"player_settings_info,omitempty"`
-	TutorialCompletes     []*SystemLoginV1_Types_Response_Types_TutorialStatus `protobuf:"bytes,3,rep,name=tutorial_completes,json=tutorialCompletes,proto3" json:"tutorial_completes,omitempty"`
-	ItemAcquisitionResult *item_acquisition.ItemAcquisitionResult              `protobuf:"bytes,4,opt,name=item_acquisition_result,json=itemAcquisitionResult,proto3" json:"item_acquisition_result,omitempty"`
-	unknownFields         protoimpl.UnknownFields
-	sizeCache             protoimpl.SizeCache
-}
-
-func (x *SystemLoginV1_Types_Response) Reset() {
-	*x = SystemLoginV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[3]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *SystemLoginV1_Types_Response) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*SystemLoginV1_Types_Response) ProtoMessage() {}
-
-func (x *SystemLoginV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes[3]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use SystemLoginV1_Types_Response.ProtoReflect.Descriptor instead.
-func (*SystemLoginV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 1}
-}
-
-func (x *SystemLoginV1_Types_Response) GetPlayerSettingsInfo() *player_settings.Info {
-	if x != nil {
-		return x.PlayerSettingsInfo
-	}
-	return nil
-}
-
-func (x *SystemLoginV1_Types_Response) GetTutorialCompletes() []*SystemLoginV1_Types_Response_Types_TutorialStatus {
-	if x != nil {
-		return x.TutorialCompletes
-	}
-	return nil
-}
-
-func (x *SystemLoginV1_Types_Response) GetItemAcquisitionResult() *item_acquisition.ItemAcquisitionResult {
-	if x != nil {
-		return x.ItemAcquisitionResult
-	}
-	return nil
-}
-
 type SystemLoginV1_Types_Response_Types struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	unknownFields protoimpl.UnknownFields
@@ -329,7 +329,7 @@ func (x *SystemLoginV1_Types_Response_Types) ProtoReflect() protoreflect.Message
 
 // Deprecated: Use SystemLoginV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*SystemLoginV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
+	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
 }
 
 type SystemLoginV1_Types_Response_Types_TutorialStatus struct {
@@ -367,7 +367,7 @@ func (x *SystemLoginV1_Types_Response_Types_TutorialStatus) ProtoReflect() proto
 
 // Deprecated: Use SystemLoginV1_Types_Response_Types_TutorialStatus.ProtoReflect.Descriptor instead.
 func (*SystemLoginV1_Types_Response_Types_TutorialStatus) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
 }
 
 func (x *SystemLoginV1_Types_Response_Types_TutorialStatus) GetTutorialId() string {
@@ -390,7 +390,16 @@ const file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDes
 	"\n" +
 	">takasho/schema/lettuce_server/player_api/system_login_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1aUtakasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto\x1a>takasho/schema/lettuce_server/resource/language/language.proto\x1aAtakasho/schema/lettuce_server/resource/player_settings/info.proto\"\xb2\v\n" +
 	"\rSystemLoginV1\x1a\xa0\v\n" +
-	"\x05Types\x1a\xa2\a\n" +
+	"\x05Types\x1a\xf1\x03\n" +
+	"\bResponse\x12n\n" +
+	"\x14player_settings_info\x18\x01 \x01(\v2<.takasho.schema.lettuce_server.resource.player_settings.InfoR\x12playerSettingsInfo\x12\x8a\x01\n" +
+	"\x12tutorial_completes\x18\x03 \x03(\v2[.takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types.TutorialStatusR\x11tutorialCompletes\x12\x86\x01\n" +
+	"\x17item_acquisition_result\x18\x04 \x01(\v2N.takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResultR\x15itemAcquisitionResult\x1a_\n" +
+	"\x05Types\x1aV\n" +
+	"\x0eTutorialStatus\x12\x1f\n" +
+	"\vtutorial_id\x18\x01 \x01(\tR\n" +
+	"tutorialId\x12#\n" +
+	"\rtutorial_step\x18\x02 \x01(\x03R\ftutorialStep\x1a\xa2\a\n" +
 	"\aRequest\x12^\n" +
 	"\rlanguage_type\x18\x01 \x01(\x0e29.takasho.schema.lettuce_server.resource.language.LanguageR\flanguageType\x12L\n" +
 	"#third_party_data_provision_approved\x18\x04 \x01(\bR\x1fthirdPartyDataProvisionApproved\x12[\n" +
@@ -405,16 +414,7 @@ const file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDes
 	"\x16use_of_last_login_time\x18\f \x01(\bR\x12useOfLastLoginTime\x12)\n" +
 	"\x11use_of_login_data\x18\r \x01(\bR\x0euseOfLoginData\x129\n" +
 	"\x19use_of_performance_errors\x18\x0e \x01(\bR\x16useOfPerformanceErrors\x12r\n" +
-	"\rage_gate_type\x18\x0f \x01(\x0e2N.takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateTypeR\vageGateType\x1a\xf1\x03\n" +
-	"\bResponse\x12n\n" +
-	"\x14player_settings_info\x18\x01 \x01(\v2<.takasho.schema.lettuce_server.resource.player_settings.InfoR\x12playerSettingsInfo\x12\x8a\x01\n" +
-	"\x12tutorial_completes\x18\x03 \x03(\v2[.takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types.TutorialStatusR\x11tutorialCompletes\x12\x86\x01\n" +
-	"\x17item_acquisition_result\x18\x04 \x01(\v2N.takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResultR\x15itemAcquisitionResult\x1a_\n" +
-	"\x05Types\x1aV\n" +
-	"\x0eTutorialStatus\x12\x1f\n" +
-	"\vtutorial_id\x18\x01 \x01(\tR\n" +
-	"tutorialId\x12#\n" +
-	"\rtutorial_step\x18\x02 \x01(\x03R\ftutorialStepBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\rage_gate_type\x18\x0f \x01(\x0e2N.takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateTypeR\vageGateTypeBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_rawDescOnce sync.Once
@@ -432,21 +432,21 @@ var file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_msgTypes
 var file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_goTypes = []any{
 	(*SystemLoginV1)(nil),                                     // 0: takasho.schema.lettuce_server.player_api.SystemLoginV1
 	(*SystemLoginV1_Types)(nil),                               // 1: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types
-	(*SystemLoginV1_Types_Request)(nil),                       // 2: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request
-	(*SystemLoginV1_Types_Response)(nil),                      // 3: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response
+	(*SystemLoginV1_Types_Response)(nil),                      // 2: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response
+	(*SystemLoginV1_Types_Request)(nil),                       // 3: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request
 	(*SystemLoginV1_Types_Response_Types)(nil),                // 4: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types
 	(*SystemLoginV1_Types_Response_Types_TutorialStatus)(nil), // 5: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types.TutorialStatus
-	(language.Language)(0),                                    // 6: takasho.schema.lettuce_server.resource.language.Language
-	(player_settings.Info_Types_AgeGateType)(0),               // 7: takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType
-	(*player_settings.Info)(nil),                              // 8: takasho.schema.lettuce_server.resource.player_settings.Info
-	(*item_acquisition.ItemAcquisitionResult)(nil),            // 9: takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
+	(*player_settings.Info)(nil),                              // 6: takasho.schema.lettuce_server.resource.player_settings.Info
+	(*item_acquisition.ItemAcquisitionResult)(nil),            // 7: takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
+	(language.Language)(0),                                    // 8: takasho.schema.lettuce_server.resource.language.Language
+	(player_settings.Info_Types_AgeGateType)(0),               // 9: takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType
 }
 var file_takasho_schema_lettuce_server_player_api_system_login_v1_proto_depIdxs = []int32{
-	6, // 0: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request.language_type:type_name -> takasho.schema.lettuce_server.resource.language.Language
-	7, // 1: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request.age_gate_type:type_name -> takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType
-	8, // 2: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.player_settings_info:type_name -> takasho.schema.lettuce_server.resource.player_settings.Info
-	5, // 3: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.tutorial_completes:type_name -> takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types.TutorialStatus
-	9, // 4: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.item_acquisition_result:type_name -> takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
+	6, // 0: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.player_settings_info:type_name -> takasho.schema.lettuce_server.resource.player_settings.Info
+	5, // 1: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.tutorial_completes:type_name -> takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.Types.TutorialStatus
+	7, // 2: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Response.item_acquisition_result:type_name -> takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
+	8, // 3: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request.language_type:type_name -> takasho.schema.lettuce_server.resource.language.Language
+	9, // 4: takasho.schema.lettuce_server.player_api.SystemLoginV1.Types.Request.age_gate_type:type_name -> takasho.schema.lettuce_server.resource.player_settings.Info.Types.AgeGateType
 	5, // [5:5] is the sub-list for method output_type
 	5, // [5:5] is the sub-list for method input_type
 	5, // [5:5] is the sub-list for extension type_name

@@ -6,6 +6,9 @@ import "google/protobuf/timestamp.proto";
 
 message MissionIsCompletedV1 {
   message Types {
+    message Request {
+      repeated string mission_ids = 1;
+    }
     message Response {
       message Types {
         message CompletedMission {
@@ -14,9 +17,6 @@ message MissionIsCompletedV1 {
         }
       }
       repeated MissionIsCompletedV1.Types.Response.Types.CompletedMission completed_missions = 2;
-    }
-    message Request {
-      repeated string mission_ids = 1;
     }
   }
 }

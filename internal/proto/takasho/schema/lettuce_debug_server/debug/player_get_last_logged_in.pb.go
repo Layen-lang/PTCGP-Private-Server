@@ -94,50 +94,6 @@ func (*PlayerGetLastLoggedIn_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type PlayerGetLastLoggedIn_Types_Response struct {
-	state             protoimpl.MessageState                                         `protogen:"open.v1"`
-	LastLoggedInInfos []*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo `protobuf:"bytes,1,rep,name=last_logged_in_infos,json=lastLoggedInInfos,proto3" json:"last_logged_in_infos,omitempty"`
-	unknownFields     protoimpl.UnknownFields
-	sizeCache         protoimpl.SizeCache
-}
-
-func (x *PlayerGetLastLoggedIn_Types_Response) Reset() {
-	*x = PlayerGetLastLoggedIn_Types_Response{}
-	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *PlayerGetLastLoggedIn_Types_Response) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*PlayerGetLastLoggedIn_Types_Response) ProtoMessage() {}
-
-func (x *PlayerGetLastLoggedIn_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use PlayerGetLastLoggedIn_Types_Response.ProtoReflect.Descriptor instead.
-func (*PlayerGetLastLoggedIn_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *PlayerGetLastLoggedIn_Types_Response) GetLastLoggedInInfos() []*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo {
-	if x != nil {
-		return x.LastLoggedInInfos
-	}
-	return nil
-}
-
 type PlayerGetLastLoggedIn_Types_Request struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	PlayerIds     []string               `protobuf:"bytes,1,rep,name=player_ids,json=playerIds,proto3" json:"player_ids,omitempty"`
@@ -147,7 +103,7 @@ type PlayerGetLastLoggedIn_Types_Request struct {
 
 func (x *PlayerGetLastLoggedIn_Types_Request) Reset() {
 	*x = PlayerGetLastLoggedIn_Types_Request{}
-	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -159,7 +115,7 @@ func (x *PlayerGetLastLoggedIn_Types_Request) String() string {
 func (*PlayerGetLastLoggedIn_Types_Request) ProtoMessage() {}
 
 func (x *PlayerGetLastLoggedIn_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -172,12 +128,56 @@ func (x *PlayerGetLastLoggedIn_Types_Request) ProtoReflect() protoreflect.Messag
 
 // Deprecated: Use PlayerGetLastLoggedIn_Types_Request.ProtoReflect.Descriptor instead.
 func (*PlayerGetLastLoggedIn_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *PlayerGetLastLoggedIn_Types_Request) GetPlayerIds() []string {
 	if x != nil {
 		return x.PlayerIds
+	}
+	return nil
+}
+
+type PlayerGetLastLoggedIn_Types_Response struct {
+	state             protoimpl.MessageState                                         `protogen:"open.v1"`
+	LastLoggedInInfos []*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo `protobuf:"bytes,1,rep,name=last_logged_in_infos,json=lastLoggedInInfos,proto3" json:"last_logged_in_infos,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
+}
+
+func (x *PlayerGetLastLoggedIn_Types_Response) Reset() {
+	*x = PlayerGetLastLoggedIn_Types_Response{}
+	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *PlayerGetLastLoggedIn_Types_Response) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*PlayerGetLastLoggedIn_Types_Response) ProtoMessage() {}
+
+func (x *PlayerGetLastLoggedIn_Types_Response) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use PlayerGetLastLoggedIn_Types_Response.ProtoReflect.Descriptor instead.
+func (*PlayerGetLastLoggedIn_Types_Response) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *PlayerGetLastLoggedIn_Types_Response) GetLastLoggedInInfos() []*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo {
+	if x != nil {
+		return x.LastLoggedInInfos
 	}
 	return nil
 }
@@ -215,7 +215,7 @@ func (x *PlayerGetLastLoggedIn_Types_Response_Types) ProtoReflect() protoreflect
 
 // Deprecated: Use PlayerGetLastLoggedIn_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*PlayerGetLastLoggedIn_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 1, 0}
 }
 
 type PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo struct {
@@ -253,7 +253,7 @@ func (x *PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo) ProtoRefle
 
 // Deprecated: Use PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo.ProtoReflect.Descriptor instead.
 func (*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
 }
 
 func (x *PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo) GetPlayerId() string {
@@ -276,16 +276,16 @@ const file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_p
 	"\n" +
 	"Itakasho/schema/lettuce_debug_server/debug/player_get_last_logged_in.proto\x12)takasho.schema.lettuce_debug_server.debug\x1a\x1fgoogle/protobuf/timestamp.proto\"\xee\x02\n" +
 	"\x15PlayerGetLastLoggedIn\x1a\xd4\x02\n" +
-	"\x05Types\x1a\xa0\x02\n" +
+	"\x05Types\x1a(\n" +
+	"\aRequest\x12\x1d\n" +
+	"\n" +
+	"player_ids\x18\x01 \x03(\tR\tplayerIds\x1a\xa0\x02\n" +
 	"\bResponse\x12\x97\x01\n" +
 	"\x14last_logged_in_infos\x18\x01 \x03(\v2f.takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Response.Types.LastLoggedInInfoR\x11lastLoggedInInfos\x1az\n" +
 	"\x05Types\x1aq\n" +
 	"\x10LastLoggedInInfo\x12\x1b\n" +
 	"\tplayer_id\x18\x01 \x01(\tR\bplayerId\x12@\n" +
-	"\x0elast_logged_in\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\flastLoggedIn\x1a(\n" +
-	"\aRequest\x12\x1d\n" +
-	"\n" +
-	"player_ids\x18\x01 \x03(\tR\tplayerIdsBkZigithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_debug_server/debug;debugb\x06proto3"
+	"\x0elast_logged_in\x18\x02 \x01(\v2\x1a.google.protobuf.TimestampR\flastLoggedInBkZigithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_debug_server/debug;debugb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_rawDescOnce sync.Once
@@ -303,8 +303,8 @@ var file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_pro
 var file_takasho_schema_lettuce_debug_server_debug_player_get_last_logged_in_proto_goTypes = []any{
 	(*PlayerGetLastLoggedIn)(nil),                                       // 0: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn
 	(*PlayerGetLastLoggedIn_Types)(nil),                                 // 1: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types
-	(*PlayerGetLastLoggedIn_Types_Response)(nil),                        // 2: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Response
-	(*PlayerGetLastLoggedIn_Types_Request)(nil),                         // 3: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Request
+	(*PlayerGetLastLoggedIn_Types_Request)(nil),                         // 2: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Request
+	(*PlayerGetLastLoggedIn_Types_Response)(nil),                        // 3: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Response
 	(*PlayerGetLastLoggedIn_Types_Response_Types)(nil),                  // 4: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Response.Types
 	(*PlayerGetLastLoggedIn_Types_Response_Types_LastLoggedInInfo)(nil), // 5: takasho.schema.lettuce_debug_server.debug.PlayerGetLastLoggedIn.Types.Response.Types.LastLoggedInInfo
 	(*timestamppb.Timestamp)(nil),                                       // 6: google.protobuf.Timestamp

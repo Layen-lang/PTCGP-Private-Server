@@ -7,6 +7,10 @@ import "takasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto";
 
 message PresentBoxReceiveV1 {
   message Types {
+    message Request {
+      string present_id = 2;
+      repeated string present_ids = 3;
+    }
     message Response {
       message Types {
         message Result {
@@ -39,10 +43,6 @@ message PresentBoxReceiveV1 {
       PresentBoxReceiveV1.Types.Response.Types.PackResult pack_result = 4;
       repeated PresentBoxReceiveV1.Types.Response.Types.Result results = 5;
       takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 6;
-    }
-    message Request {
-      string present_id = 2;
-      repeated string present_ids = 3;
     }
   }
 }

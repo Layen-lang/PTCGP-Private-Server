@@ -19,7 +19,7 @@ func fixture(t *testing.T) []byte {
 		SchemaVersion: 1,
 		Runtime:       Runtime{Address: "0.0.0.0:443", AdminAddress: "127.0.0.1:8081", LauncherAddress: "127.0.0.1:8080", Database: "data/ptcgp.db", Certificate: "certs/server.pem", PrivateKey: "certs/server-key.pem", CertificateAuthority: "certs/ca.pem", TrafficLog: "data/traffic.jsonl", RuntimeDirectory: "data/runtime"},
 		Android:       Android{Package: "jp.pokemon.pokemontcgp", Activity: "UnityPlayerActivity", ServerAddress: "10.0.2.2", RedirectHosts: []string{"example.test"}},
-		Data:          Data{MasterData: "game-data/master-data", Images: "game-data/images"},
+		Data:          Data{MasterData: "fixtures/master", Images: "fixtures/images"},
 		Client:        profile,
 		Contracts:     contracts.Expectations{Fingerprint: contracts.DeclarationOrderV1, Services: 1, Methods: 1, DescriptorSHA256: strings.Repeat("a", 64)},
 		Patch: binarypatch.Manifest{
@@ -46,8 +46,8 @@ func TestConfigResolvesRelativeToItsFileAndRejectsUnknownFields(t *testing.T) {
 		t.Fatal(err)
 	}
 	if c.Runtime.Database != filepath.Join(root, "data", "ptcgp.db") ||
-		c.Data.MasterData != filepath.Join(root, "game-data", "master-data") ||
-		c.Data.Images != filepath.Join(root, "game-data", "images") {
+		c.Data.MasterData != filepath.Join(root, "fixtures", "master") ||
+		c.Data.Images != filepath.Join(root, "fixtures", "images") {
 		t.Fatalf("relative paths were not resolved from %s", root)
 	}
 	var value map[string]any
@@ -64,6 +64,29 @@ func TestConfigResolvesRelativeToItsFileAndRejectsUnknownFields(t *testing.T) {
 	}
 	if _, err := Load(path); err == nil {
 		t.Fatal("unknown key accepted")
+	}
+}
+
+func TestConfigAcceptsDataResolvedByPreparation(t *testing.T) {
+	var value map[string]any
+	if err := json.Unmarshal(fixture(t), &value); err != nil {
+		t.Fatal(err)
+	}
+	delete(value, "data")
+	data, err := json.Marshal(value)
+	if err != nil {
+		t.Fatal(err)
+	}
+	path := filepath.Join(t.TempDir(), "server.json")
+	if err := os.WriteFile(path, data, 0o600); err != nil {
+		t.Fatal(err)
+	}
+	config, err := Load(path)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if config.Data.MasterData != "" || config.Data.Images != "" {
+		t.Fatal("unprepared data paths should remain empty")
 	}
 }
 

@@ -5,7 +5,7 @@ edit their collections, and control pack openings from a browser.
 
 > [!IMPORTANT]
 > This is an unofficial, local-only interoperability project for advanced
-> users. It currently supports Pokémon TCG Pocket **1.7.2** on Windows with a
+> users. It currently supports Pokémon TCG Pocket **1.7.5** on Windows with a
 > rooted Android emulator. It is not affiliated with Nintendo, The Pokémon
 > Company, Creatures Inc., or DeNA.
 
@@ -48,7 +48,7 @@ modify your official account. PvP matchmaking and the bidirectional
 You need:
 
 - Windows 10 or later;
-- Pokémon TCG Pocket **1.7.2**, installed by you;
+- Pokémon TCG Pocket **1.7.5**, installed by you;
 - a 64-bit Android emulator (x86-64 or ARM64) that runs the supported ARM64
   game, with ADB, root access, `adb reverse`, and writable system mounts;
 - `adb.exe` available in `PATH`.

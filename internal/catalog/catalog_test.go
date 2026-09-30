@@ -1,11 +1,67 @@
 package catalog
 
 import (
+	"encoding/json"
 	"errors"
+	"os"
+	"path/filepath"
+	"strings"
 	"testing"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/testfixture"
 )
+
+func TestPackSKUOptionalExpansion(t *testing.T) {
+	for _, test := range []struct {
+		name, expansion, sku, wantError string
+	}{
+		{name: "event pack without expansion", sku: "SKU_A"},
+		{name: "unknown expansion", expansion: "UNKNOWN", sku: "SKU_A", wantError: `validate PackSku.json: expansion "UNKNOWN" is unknown`},
+		{name: "unknown sku", sku: "UNKNOWN", wantError: `validate PackMaster.json: sku "UNKNOWN" is unknown`},
+	} {
+		t.Run(test.name, func(t *testing.T) {
+			root := testfixture.MasterData(t)
+			for _, table := range []struct {
+				file, field, value string
+			}{
+				{"PackSku.json", "ExpansionID", test.expansion},
+				{"PackMaster.json", "SkuID", test.sku},
+			} {
+				filename := filepath.Join(root, DefaultLocale, table.file)
+				data, err := os.ReadFile(filename)
+				if err != nil {
+					t.Fatal(err)
+				}
+				var rows []map[string]any
+				if err := json.Unmarshal(data, &rows); err != nil {
+					t.Fatal(err)
+				}
+				rows[0][table.field] = table.value
+				data, err = json.Marshal(rows)
+				if err != nil {
+					t.Fatal(err)
+				}
+				if err := os.WriteFile(filename, data, 0o600); err != nil {
+					t.Fatal(err)
+				}
+			}
+			c, err := Open(root)
+			if test.wantError != "" {
+				if err == nil || !strings.Contains(err.Error(), test.wantError) {
+					t.Fatalf("error = %v, want %q", err, test.wantError)
+				}
+				return
+			}
+			if err != nil {
+				t.Fatal(err)
+			}
+			pack, err := c.Pack("PACK_A")
+			if err != nil || pack.ExpansionID != "" || pack.SkuAssetID != "SKU_A_ASSET" {
+				t.Fatalf("event pack = %+v, error = %v", pack, err)
+			}
+		})
+	}
+}
 
 func TestLoadsCatalogAndFindsCoreEntities(t *testing.T) {
 	t.Parallel()

@@ -7,11 +7,6 @@ import "takasho/schema/lettuce_server/resource/system/device_info.proto";
 
 message SystemAuthorizeV1 {
   message Types {
-    message Request {
-      string device_account = 1;
-      takasho.schema.lettuce_server.resource.system.DeviceInfo device_info = 3;
-      string id_token = 4;
-    }
     message Response {
       message Types {
         message SignedCookie {
@@ -23,6 +18,11 @@ message SystemAuthorizeV1 {
       string player_id = 2;
       string asset_base_url = 3;
       SystemAuthorizeV1.Types.Response.Types.SignedCookie signed_cookie = 4;
+    }
+    message Request {
+      string device_account = 1;
+      takasho.schema.lettuce_server.resource.system.DeviceInfo device_info = 3;
+      string id_token = 4;
     }
   }
 }

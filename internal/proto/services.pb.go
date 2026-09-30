@@ -22,6 +22,62 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/asset_service.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/bot_defender.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/debug_storage.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/gm_tool_log.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/player.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/card_stock.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/feed.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pack_power.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pack_guarantee_point.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/mission.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/friend.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/item_shop.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/item.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/poke_gold_shop.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/card_exchange.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/trophy.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/my_collection.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/profile.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/present.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/solo_battle.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/webview.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/tutorial.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_casual.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_event.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pass.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/trade.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_rank.proto.
+
+// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/someday_ticket.proto.
+
 // Symbols defined in public import of takasho/schema/lettuce_server/player_api/album.proto.
 
 // Symbols defined in public import of takasho/schema/lettuce_server/player_api/collection.proto.
@@ -102,67 +158,11 @@ const (
 
 // Symbols defined in public import of takasho/schema/lettuce_server/player_api/tutorial.proto.
 
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/asset_service.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/bot_defender.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/debug_storage.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/gm_tool_log.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/player.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/card_stock.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/feed.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pack_power.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pack_guarantee_point.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/mission.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/friend.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/item_shop.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/item.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/poke_gold_shop.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/card_exchange.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/trophy.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/my_collection.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/profile.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/present.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/solo_battle.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/webview.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/tutorial.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_casual.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_event.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pass.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/trade.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/pvp_rank.proto.
-
-// Symbols defined in public import of takasho/schema/lettuce_debug_server/debug/someday_ticket.proto.
-
 var File_services_proto protoreflect.FileDescriptor
 
 const file_services_proto_rawDesc = "" +
 	"\n" +
-	"\x0eservices.proto\x12\x06pptcgp\x1a4takasho/schema/lettuce_server/player_api/album.proto\x1a9takasho/schema/lettuce_server/player_api/collection.proto\x1a<takasho/schema/lettuce_server/player_api/analytics_log.proto\x1a3takasho/schema/lettuce_server/player_api/card.proto\x1a8takasho/schema/lettuce_server/player_api/card_skin.proto\x1a>takasho/schema/lettuce_server/player_api/comeback_player.proto\x1a3takasho/schema/lettuce_server/player_api/deck.proto\x1a3takasho/schema/lettuce_server/player_api/echo.proto\x1a3takasho/schema/lettuce_server/player_api/fave.proto\x1a3takasho/schema/lettuce_server/player_api/feed.proto\x1a5takasho/schema/lettuce_server/player_api/friend.proto\x1a8takasho/schema/lettuce_server/player_api/give_card.proto\x1a8takasho/schema/lettuce_server/player_api/item_shop.proto\x1a5takasho/schema/lettuce_server/player_api/action.proto\x1a6takasho/schema/lettuce_server/player_api/mission.proto\x1a4takasho/schema/lettuce_server/player_api/mount.proto\x1a6takasho/schema/lettuce_server/player_api/webview.proto\x1a;takasho/schema/lettuce_server/player_api/notification.proto\x1a3takasho/schema/lettuce_server/player_api/pack.proto\x1a8takasho/schema/lettuce_server/player_api/pack_shop.proto\x1a3takasho/schema/lettuce_server/player_api/pass.proto\x1a>takasho/schema/lettuce_server/player_api/performance_log.proto\x1a5takasho/schema/lettuce_server/player_api/player.proto\x1a;takasho/schema/lettuce_server/player_api/player_level.proto\x1a=takasho/schema/lettuce_server/player_api/player_profile.proto\x1a?takasho/schema/lettuce_server/player_api/player_resources.proto\x1a>takasho/schema/lettuce_server/player_api/player_settings.proto\x1a=takasho/schema/lettuce_server/player_api/player_storage.proto\x1a:takasho/schema/lettuce_server/player_api/present_box.proto\x1a9takasho/schema/lettuce_server/player_api/pvp_casual.proto\x1a8takasho/schema/lettuce_server/player_api/pvp_event.proto\x1a7takasho/schema/lettuce_server/player_api/pvp_rank.proto\x1a3takasho/schema/lettuce_server/player_api/shop.proto\x1aAtakasho/schema/lettuce_server/player_api/sign_in_with_apple.proto\x1a:takasho/schema/lettuce_server/player_api/solo_battle.proto\x1a5takasho/schema/lettuce_server/player_api/system.proto\x1a;takasho/schema/lettuce_server/player_api/thank_reward.proto\x1a4takasho/schema/lettuce_server/player_api/trade.proto\x1a5takasho/schema/lettuce_server/player_api/trophy.proto\x1a7takasho/schema/lettuce_server/player_api/tutorial.proto\x1a=takasho/schema/lettuce_debug_server/debug/asset_service.proto\x1a<takasho/schema/lettuce_debug_server/debug/bot_defender.proto\x1a=takasho/schema/lettuce_debug_server/debug/debug_storage.proto\x1a;takasho/schema/lettuce_debug_server/debug/gm_tool_log.proto\x1a6takasho/schema/lettuce_debug_server/debug/player.proto\x1a:takasho/schema/lettuce_debug_server/debug/card_stock.proto\x1a4takasho/schema/lettuce_debug_server/debug/feed.proto\x1a:takasho/schema/lettuce_debug_server/debug/pack_power.proto\x1aDtakasho/schema/lettuce_debug_server/debug/pack_guarantee_point.proto\x1a7takasho/schema/lettuce_debug_server/debug/mission.proto\x1a6takasho/schema/lettuce_debug_server/debug/friend.proto\x1a9takasho/schema/lettuce_debug_server/debug/item_shop.proto\x1a4takasho/schema/lettuce_debug_server/debug/item.proto\x1a>takasho/schema/lettuce_debug_server/debug/poke_gold_shop.proto\x1a=takasho/schema/lettuce_debug_server/debug/card_exchange.proto\x1a6takasho/schema/lettuce_debug_server/debug/trophy.proto\x1a=takasho/schema/lettuce_debug_server/debug/my_collection.proto\x1a7takasho/schema/lettuce_debug_server/debug/profile.proto\x1a7takasho/schema/lettuce_debug_server/debug/present.proto\x1a;takasho/schema/lettuce_debug_server/debug/solo_battle.proto\x1a7takasho/schema/lettuce_debug_server/debug/webview.proto\x1a8takasho/schema/lettuce_debug_server/debug/tutorial.proto\x1a:takasho/schema/lettuce_debug_server/debug/pvp_casual.proto\x1a9takasho/schema/lettuce_debug_server/debug/pvp_event.proto\x1a4takasho/schema/lettuce_debug_server/debug/pass.proto\x1a5takasho/schema/lettuce_debug_server/debug/trade.proto\x1a8takasho/schema/lettuce_debug_server/debug/pvp_rank.proto\x1a>takasho/schema/lettuce_debug_server/debug/someday_ticket.protoBBZ@github.com/Layen-lang/PTCGP-Private-Server/internal/proto;pptcgpP\x00P\x01P\x02P\x03P\x04P\x05P\x06P\aP\bP\tP\n" +
+	"\x0eservices.proto\x12\x06pptcgp\x1a=takasho/schema/lettuce_debug_server/debug/asset_service.proto\x1a<takasho/schema/lettuce_debug_server/debug/bot_defender.proto\x1a=takasho/schema/lettuce_debug_server/debug/debug_storage.proto\x1a;takasho/schema/lettuce_debug_server/debug/gm_tool_log.proto\x1a6takasho/schema/lettuce_debug_server/debug/player.proto\x1a:takasho/schema/lettuce_debug_server/debug/card_stock.proto\x1a4takasho/schema/lettuce_debug_server/debug/feed.proto\x1a:takasho/schema/lettuce_debug_server/debug/pack_power.proto\x1aDtakasho/schema/lettuce_debug_server/debug/pack_guarantee_point.proto\x1a7takasho/schema/lettuce_debug_server/debug/mission.proto\x1a6takasho/schema/lettuce_debug_server/debug/friend.proto\x1a9takasho/schema/lettuce_debug_server/debug/item_shop.proto\x1a4takasho/schema/lettuce_debug_server/debug/item.proto\x1a>takasho/schema/lettuce_debug_server/debug/poke_gold_shop.proto\x1a=takasho/schema/lettuce_debug_server/debug/card_exchange.proto\x1a6takasho/schema/lettuce_debug_server/debug/trophy.proto\x1a=takasho/schema/lettuce_debug_server/debug/my_collection.proto\x1a7takasho/schema/lettuce_debug_server/debug/profile.proto\x1a7takasho/schema/lettuce_debug_server/debug/present.proto\x1a;takasho/schema/lettuce_debug_server/debug/solo_battle.proto\x1a7takasho/schema/lettuce_debug_server/debug/webview.proto\x1a8takasho/schema/lettuce_debug_server/debug/tutorial.proto\x1a:takasho/schema/lettuce_debug_server/debug/pvp_casual.proto\x1a9takasho/schema/lettuce_debug_server/debug/pvp_event.proto\x1a4takasho/schema/lettuce_debug_server/debug/pass.proto\x1a5takasho/schema/lettuce_debug_server/debug/trade.proto\x1a8takasho/schema/lettuce_debug_server/debug/pvp_rank.proto\x1a>takasho/schema/lettuce_debug_server/debug/someday_ticket.proto\x1a4takasho/schema/lettuce_server/player_api/album.proto\x1a9takasho/schema/lettuce_server/player_api/collection.proto\x1a<takasho/schema/lettuce_server/player_api/analytics_log.proto\x1a3takasho/schema/lettuce_server/player_api/card.proto\x1a8takasho/schema/lettuce_server/player_api/card_skin.proto\x1a>takasho/schema/lettuce_server/player_api/comeback_player.proto\x1a3takasho/schema/lettuce_server/player_api/deck.proto\x1a3takasho/schema/lettuce_server/player_api/echo.proto\x1a3takasho/schema/lettuce_server/player_api/fave.proto\x1a3takasho/schema/lettuce_server/player_api/feed.proto\x1a5takasho/schema/lettuce_server/player_api/friend.proto\x1a8takasho/schema/lettuce_server/player_api/give_card.proto\x1a8takasho/schema/lettuce_server/player_api/item_shop.proto\x1a5takasho/schema/lettuce_server/player_api/action.proto\x1a6takasho/schema/lettuce_server/player_api/mission.proto\x1a4takasho/schema/lettuce_server/player_api/mount.proto\x1a6takasho/schema/lettuce_server/player_api/webview.proto\x1a;takasho/schema/lettuce_server/player_api/notification.proto\x1a3takasho/schema/lettuce_server/player_api/pack.proto\x1a8takasho/schema/lettuce_server/player_api/pack_shop.proto\x1a3takasho/schema/lettuce_server/player_api/pass.proto\x1a>takasho/schema/lettuce_server/player_api/performance_log.proto\x1a5takasho/schema/lettuce_server/player_api/player.proto\x1a;takasho/schema/lettuce_server/player_api/player_level.proto\x1a=takasho/schema/lettuce_server/player_api/player_profile.proto\x1a?takasho/schema/lettuce_server/player_api/player_resources.proto\x1a>takasho/schema/lettuce_server/player_api/player_settings.proto\x1a=takasho/schema/lettuce_server/player_api/player_storage.proto\x1a:takasho/schema/lettuce_server/player_api/present_box.proto\x1a9takasho/schema/lettuce_server/player_api/pvp_casual.proto\x1a8takasho/schema/lettuce_server/player_api/pvp_event.proto\x1a7takasho/schema/lettuce_server/player_api/pvp_rank.proto\x1a3takasho/schema/lettuce_server/player_api/shop.proto\x1aAtakasho/schema/lettuce_server/player_api/sign_in_with_apple.proto\x1a:takasho/schema/lettuce_server/player_api/solo_battle.proto\x1a5takasho/schema/lettuce_server/player_api/system.proto\x1a;takasho/schema/lettuce_server/player_api/thank_reward.proto\x1a4takasho/schema/lettuce_server/player_api/trade.proto\x1a5takasho/schema/lettuce_server/player_api/trophy.proto\x1a7takasho/schema/lettuce_server/player_api/tutorial.protoBBZ@github.com/Layen-lang/PTCGP-Private-Server/internal/proto;pptcgpP\x00P\x01P\x02P\x03P\x04P\x05P\x06P\aP\bP\tP\n" +
 	"P\vP\fP\rP\x0eP\x0fP\x10P\x11P\x12P\x13P\x14P\x15P\x16P\x17P\x18P\x19P\x1aP\x1bP\x1cP\x1dP\x1eP\x1fP P!P\"P#P$P%P&P'P(P)P*P+P,P-P.P/P0P1P2P3P4P5P6P7P8P9P:P;P<P=P>P?P@PAPBPCb\x06proto3"
 
 var file_services_proto_goTypes = []any{}
