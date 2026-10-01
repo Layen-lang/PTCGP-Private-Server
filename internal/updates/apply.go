@@ -3,6 +3,7 @@ package updates
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -14,58 +15,9 @@ import (
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
-
-// ActivateProfile requires identical executable bytes and the compiled protocol.
-// The caller serializes this with local mode changes and keeps the server stopped.
-func (m *Manager) ActivateProfile() error {
-	m.work.Lock()
-	defer m.work.Unlock()
-	if !m.Status().ProfileOnly {
-		return fmt.Errorf("update changes executable code")
-	}
-	key := m.PreparedKey()
-	manifest, err := ValidatePrepared(m.root, key)
-	if err != nil {
-		return err
-	}
-	for _, file := range manifest.Files {
-		if strings.HasPrefix(file.Path, "bin/") {
-			data, e := os.ReadFile(filepath.Join(m.program, filepath.FromSlash(file.Path)))
-			if e != nil || hash(data) != file.SHA256 {
-				return fmt.Errorf("executable changed since profile verification")
-			}
-		}
-	}
-	program := filepath.Join(m.root, "data", "updates", "versions", key)
-	cfg, err := configuration.Load(filepath.Join(program, "server.json"))
-	if err != nil {
-		return err
-	}
-	if _, err = contracts.VerifyProto(cfg.Contracts); err != nil {
-		return err
-	}
-	var previous installation.Selection
-	b, e := os.ReadFile(filepath.Join(m.root, "data", "updates", "current.json"))
-	if e == nil {
-		if e = json.Unmarshal(b, &previous); e != nil {
-			return e
-		}
-	} else if !os.IsNotExist(e) {
-		return e
-	}
-	if err = provision.WriteJSON(filepath.Join(m.root, "data", "updates", "current.json"), installation.Selection{Key: key, Previous: previous.Key, Version: manifest.Version}); err != nil {
-		return err
-	}
-	m.mu.Lock()
-	m.program = program
-	m.state = State{Phase: "current", Version: manifest.Version, Message: "Profil de compatibilité actualisé"}
-	m.mu.Unlock()
-	return nil
-}
 
 func Copy(from, to string) error {
 	in, e := os.Open(from)
@@ -99,9 +51,14 @@ func StartInstaller(root, key string) error {
 	if e = Copy(exe, helper); e != nil {
 		return e
 	}
+	output, e := os.OpenFile(filepath.Join(root, "data", "updates", "installer.log"), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+	if e != nil {
+		return e
+	}
+	defer output.Close()
 	cmd := exec.Command(helper, "apply-update", root, key, strconv.Itoa(os.Getpid()))
-	hideWindow(cmd)
-	if e = cmd.Start(); e != nil {
+	cmd.Dir, cmd.Stdout, cmd.Stderr = root, output, output
+	if e = startDetached(cmd); e != nil {
 		return e
 	}
 	return cmd.Process.Release()
@@ -109,7 +66,12 @@ func StartInstaller(root, key string) error {
 
 // Apply runs only in the detached helper. Accounts are backed up after all
 // processes have closed, before the replacement program can migrate SQLite.
-func Apply(root, key string, parent int) error {
+func Apply(root, key string, parent int) (result error) {
+	defer func() {
+		if result != nil {
+			result = errors.Join(result, provision.WriteJSON(filepath.Join(root, "data", "updates", "last-error.json"), map[string]string{"error": result.Error()}))
+		}
+	}()
 	if e := waitForExit(parent, 45*time.Second); e != nil {
 		return e
 	}
@@ -121,13 +83,14 @@ func Apply(root, key string, parent int) error {
 	if e != nil {
 		return e
 	}
-	current := filepath.Join(root, "data", "updates", "current.json")
-	previousBytes, previousErr := os.ReadFile(current)
-	if previousErr != nil && !os.IsNotExist(previousErr) {
-		return previousErr
+	stage := filepath.Join(root, "data", "updates", "versions", key)
+	if _, e = configuration.Load(filepath.Join(stage, "server.json")); e != nil {
+		return e
 	}
-	var previous installation.Selection
-	_ = json.Unmarshal(previousBytes, &previous)
+	merged, e := releaseConfig(filepath.Join(root, "server.json"), filepath.Join(stage, "server.json"))
+	if e != nil {
+		return e
+	}
 	oldProgram, e := installation.Program(root)
 	if e != nil {
 		return e
@@ -142,84 +105,134 @@ func Apply(root, key string, parent int) error {
 	} else if !os.IsNotExist(e) {
 		return e
 	}
-	if e = provision.WriteJSON(current, installation.Selection{Key: key, Previous: previous.Key, Version: manifest.Version}); e != nil {
+	files, e := newReplacement(root, key)
+	if e != nil {
 		return e
 	}
-	program, e := installation.Program(root)
-	if e != nil {
+	for _, file := range manifest.Files {
+		if e = files.save(file.Path); e != nil {
+			return e
+		}
+	}
+	if e = files.save("data/updates/current.json"); e != nil {
 		return e
 	}
 	start := func(dir string) (*exec.Cmd, error) {
 		cmd := exec.Command(filepath.Join(dir, "bin", "ptcgp-launcher.exe"), "serve-panel", "--config", filepath.Join(root, "server.json"), "--project-root", root)
-		hideWindow(cmd)
 		cmd.Dir = root
-		return cmd, cmd.Start()
+		if err := os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
+			return cmd, err
+		}
+		output, err := os.OpenFile(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.stderr.log"), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+		if err != nil {
+			return cmd, err
+		}
+		defer output.Close()
+		cmd.Stdout, cmd.Stderr = output, output
+		return cmd, startDetached(cmd)
 	}
-	cmd, startErr := start(program)
-	if startErr == nil {
-		finished := make(chan error, 1)
-		go func() { finished <- cmd.Wait() }()
-		client := &http.Client{Timeout: time.Second}
-		deadline := time.NewTimer(30 * time.Second)
-		defer deadline.Stop()
-		tick := time.NewTicker(300 * time.Millisecond)
-		defer tick.Stop()
-		waiting := true
-		for waiting {
-			select {
-			case <-finished:
-				waiting = false
-				startErr = fmt.Errorf("updated panel exited during startup")
-			case <-deadline.C:
-				waiting = false
-				startErr = fmt.Errorf("updated panel did not become healthy")
-				_ = cmd.Process.Kill()
-				<-finished
-			case <-tick.C:
-				response, err := client.Get("http://" + cfg.Runtime.LauncherAddress + "/api/control/health")
-				if err == nil {
-					var health struct {
-						Healthy bool
-						PID     int
-					}
-					decodeErr := json.NewDecoder(io.LimitReader(response.Body, 4096)).Decode(&health)
-					response.Body.Close()
-					if response.StatusCode == 200 && decodeErr == nil && health.Healthy && health.PID == cmd.Process.Pid {
-						return nil
-					}
-				}
+	rollback := func(cause error, restoreDB bool) error {
+		if err := files.restore(); err != nil {
+			return errors.Join(cause, err)
+		}
+		if restoreDB && hasDB {
+			if err := restoreAccounts(cfg.Runtime.Database, backup, key); err != nil {
+				return errors.Join(cause, err)
 			}
 		}
+		if err := provision.WriteJSON(filepath.Join(root, "data", "updates", "last-error.json"), map[string]string{"error": cause.Error()}); err != nil {
+			return errors.Join(cause, err)
+		}
+		cmd, err := start(oldProgram)
+		if err != nil {
+			return fmt.Errorf("update failed (%v); rollback startup: %w", cause, err)
+		}
+		if err = waitForPanel(cmd, cfg.Runtime.LauncherAddress); err != nil {
+			return errors.Join(cause, fmt.Errorf("rollback startup: %w", err))
+		}
+		return cause
 	}
-	if previousErr == nil {
-		if e = provision.WriteJSON(current, json.RawMessage(previousBytes)); e != nil {
-			return e
+	configFile := filepath.Join(files.backup, "release-config.json")
+	if e = os.WriteFile(configFile, merged, 0600); e != nil {
+		return rollback(e, false)
+	}
+	for _, file := range manifest.Files {
+		from := filepath.Join(stage, filepath.FromSlash(file.Path))
+		if file.Path == "server.json" {
+			from = configFile
 		}
-	} else {
-		if e = os.Remove(current); e != nil {
-			return e
+		if e = replaceFile(from, filepath.Join(root, filepath.FromSlash(file.Path))); e != nil {
+			return rollback(e, false)
 		}
 	}
-	if hasDB {
-		failedSuffix := ".failed-" + key + "-" + strconv.FormatInt(time.Now().UnixNano(), 10)
-		for _, suffix := range []string{"", "-wal", "-shm"} {
-			p := cfg.Runtime.Database + suffix
-			if _, e = os.Stat(p); e == nil {
-				if e = os.Rename(p, p+failedSuffix); e != nil {
-					return e
-				}
-			}
-		}
-		if e = Copy(backup, cfg.Runtime.Database); e != nil {
-			return e
-		}
+	// Clear the legacy selector only after every root file has been replaced.
+	if e = os.Remove(filepath.Join(root, "data", "updates", "current.json")); e != nil && !os.IsNotExist(e) {
+		return rollback(e, false)
 	}
-	_, e = start(oldProgram)
+	if e = os.Remove(filepath.Join(root, "data", "updates", "last-error.json")); e != nil && !os.IsNotExist(e) {
+		return rollback(e, false)
+	}
+	cmd, e := start(root)
+	if e == nil {
+		e = waitForPanel(cmd, cfg.Runtime.LauncherAddress)
+	}
 	if e != nil {
-		return fmt.Errorf("update failed (%v); rollback startup: %w", startErr, e)
+		return rollback(e, true)
 	}
-	_ = provision.WriteJSON(filepath.Join(root, "data", "updates", "last-error.json"), map[string]string{"error": startErr.Error()})
-	return startErr
+	return nil
+}
+
+func restoreAccounts(database, backup, key string) error {
+	failedSuffix := ".failed-" + key + "-" + strconv.FormatInt(time.Now().UnixNano(), 10)
+	for _, suffix := range []string{"", "-wal", "-shm"} {
+		p := database + suffix
+		if _, err := os.Stat(p); err == nil {
+			if err = os.Rename(p, p+failedSuffix); err != nil {
+				return err
+			}
+		} else if !os.IsNotExist(err) {
+			return err
+		}
+	}
+	return Copy(backup, database)
+}
+
+// waitForPanel accepts health only from the exact child it started.
+func waitForPanel(cmd *exec.Cmd, address string) error {
+	finished := make(chan error, 1)
+	go func() { finished <- cmd.Wait() }()
+	client := &http.Client{Timeout: time.Second}
+	deadline := time.NewTimer(30 * time.Second)
+	defer deadline.Stop()
+	tick := time.NewTicker(300 * time.Millisecond)
+	defer tick.Stop()
+	for {
+		select {
+		case err := <-finished:
+			return fmt.Errorf("panel exited during startup: %v", err)
+		case <-deadline.C:
+			killErr := cmd.Process.Kill()
+			if killErr != nil && !errors.Is(killErr, os.ErrProcessDone) {
+				return fmt.Errorf("stop unresponsive panel: %w", killErr)
+			}
+			<-finished
+			return fmt.Errorf("panel did not become healthy")
+		case <-tick.C:
+			response, err := client.Get("http://" + address + "/api/control/health")
+			if err != nil {
+				continue
+			}
+			var health struct {
+				Healthy bool
+				PID     int
+			}
+			decodeErr := json.NewDecoder(io.LimitReader(response.Body, 4096)).Decode(&health)
+			response.Body.Close()
+			if response.StatusCode == http.StatusOK && decodeErr == nil && health.Healthy && health.PID == cmd.Process.Pid {
+				return nil
+			}
+		}
+	}
 }
 
 // FollowInstalled redirects the original entry point into the active release.

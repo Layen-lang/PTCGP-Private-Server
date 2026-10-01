@@ -45,12 +45,11 @@ type Envelope struct {
 	Signature string `json:"signature"`
 }
 type State struct {
-	ProfileOnly bool   `json:"profileOnly,omitempty"`
-	Phase       string `json:"phase"`
-	Version     string `json:"version,omitempty"`
-	Message     string `json:"message"`
-	Completed   int    `json:"completed"`
-	Total       int    `json:"total"`
+	Phase     string `json:"phase"`
+	Version   string `json:"version,omitempty"`
+	Message   string `json:"message"`
+	Completed int    `json:"completed"`
+	Total     int    `json:"total"`
 }
 type Manager struct {
 	work               sync.Mutex
@@ -232,14 +231,7 @@ func (m *Manager) Check(ctx context.Context, game string) {
 		m.set(State{Phase: "error", Message: e.Error()})
 		return
 	}
-	profileOnly := true
 	for i, file := range manifest.Files {
-		if strings.HasPrefix(file.Path, "bin/") {
-			installed, e := os.ReadFile(filepath.Join(m.program, filepath.FromSlash(file.Path)))
-			if e != nil || hash(installed) != file.SHA256 {
-				profileOnly = false
-			}
-		}
 		m.set(State{Phase: "downloading", Version: manifest.Version, Message: "Téléchargement de la mise à jour", Completed: i, Total: len(manifest.Files)})
 		p := filepath.Join(stage, filepath.FromSlash(file.Path))
 		bytes, _ := os.ReadFile(p)
@@ -274,8 +266,30 @@ func (m *Manager) Check(ctx context.Context, game string) {
 	}
 	m.mu.Lock()
 	m.key = key
-	m.state = State{ProfileOnly: profileOnly, Phase: "ready", Version: manifest.Version, Message: "Mise à jour prête à installer", Completed: len(manifest.Files), Total: len(manifest.Files)}
+	m.state = State{Phase: "ready", Version: manifest.Version, Message: "Mise à jour prête à installer", Completed: len(manifest.Files), Total: len(manifest.Files)}
 	m.mu.Unlock()
+}
+
+// InstalledVersion identifies the program serving the panel, independently of discovery.
+func (m *Manager) InstalledVersion() string {
+	data, err := os.ReadFile(filepath.Join(m.program, "VERSION"))
+	if err != nil {
+		return ""
+	}
+	return strings.TrimSpace(string(data))
+}
+
+// InstallationError reports a failed installation after the old panel restarts.
+func (m *Manager) InstallationError() string {
+	data, err := os.ReadFile(filepath.Join(m.root, "data", "updates", "last-error.json"))
+	if err != nil {
+		return ""
+	}
+	var failure struct{ Error string }
+	if json.Unmarshal(data, &failure) != nil {
+		return ""
+	}
+	return failure.Error
 }
 
 func ValidatePrepared(root, key string) (Manifest, error) {

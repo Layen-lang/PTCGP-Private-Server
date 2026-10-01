@@ -7,6 +7,7 @@ import { applyTheme, getThemeSettings, saveThemeSettings } from './theme'
 import type { ThemeSettings } from './theme'
 import { t, useLocale } from './i18n'
 import AppLogo from './components/AppLogo'
+import UpdateControl from './components/UpdateControl'
 import AccountsPage from './pages/AccountsPage'
 import PacksPage from './pages/PacksPage'
 import TrafficPage from './pages/TrafficPage'
@@ -73,6 +74,10 @@ export default function App() {
   const [connectionError, setConnectionError] = useState('')
   const [themeSettings, setThemeSettings] = useState<ThemeSettings>(() => getThemeSettings())
   const actionLock = useRef(false)
+  const restartLock = useRef(false)
+  const restartTimer = useRef<number | undefined>(undefined)
+
+  useEffect(() => () => window.clearTimeout(restartTimer.current), [])
 
   const refresh = async () => {
     setError('')
@@ -132,11 +137,11 @@ export default function App() {
     let cancelled = false
     let polling = false
     const poll = async () => {
-      if (polling) return
+      if (polling || restartLock.current) return
       polling = true
       try {
         const status = await loadControlStatus()
-        if (cancelled) return
+        if (cancelled || restartLock.current) return
         setConnectionError(status.android.recoveryError || '')
         setControl(status)
         if (!status.busy && status.preparation?.ready && (control.busy || pending || !data)) {
@@ -144,32 +149,63 @@ export default function App() {
           setData(await loadBootstrap())
         }
       } catch (value) {
-        if (!cancelled) setConnectionError(value instanceof Error ? value.message : t('app.connectionInterrupted'))
+        if (!cancelled && !restartLock.current) setConnectionError(value instanceof Error ? value.message : t('app.connectionInterrupted'))
       } finally {
         polling = false
       }
     }
-    const timer = window.setInterval(() => { void poll() }, control.preparation?.phase === 'images' ? 500 : control.preparation?.ready ? 10_000 : 2_000)
+    const timer = window.setInterval(() => { void poll() }, control.update?.phase === 'downloading' ? 1000 : control.preparation?.phase === 'images' ? 500 : control.preparation?.ready ? 10_000 : 2_000)
     return () => {
       cancelled = true
       window.clearInterval(timer)
     }
-  }, [control.busy, control.preparation?.phase, control.preparation?.ready, pending, data])
+  }, [control.busy, control.update?.phase, control.preparation?.phase, control.preparation?.ready, pending, data])
 
   const applyUpdate = async () => {
+    if (restartLock.current || actionLock.current || control.busy || control.update?.phase !== 'ready') return
+    restartLock.current = true
     setRestarting(true)
+    setError('')
+    setConnectionError('')
+    const targetVersion = control.update.version
+    const fail = (message: string) => {
+      restartLock.current = false
+      setRestarting(false)
+      setError(message)
+    }
     try {
-      await installUpdate()
-      const deadline = Date.now() + 60_000
-      const wait = async () => {try { const response=await fetch('/api/control/health'); if(response.ok){window.location.reload();return} } catch { /* Panel restarts independently. */ }
-        if(Date.now()<deadline)window.setTimeout(() => void wait(),1000);else {setRestarting(false);setError(t('prepare.restartFailure'))} }
-      window.setTimeout(() => void wait(),3000)
-    } catch(value){setRestarting(false);setError((value as Error).message)}
+      const { previousPID } = await installUpdate()
+      const deadline = Date.now() + 120_000
+      const wait = async () => {
+        try {
+          const response = await fetch('/api/control/health', { cache: 'no-store', signal: AbortSignal.timeout(3000) })
+          if (response.ok) {
+            const health = await response.json() as { healthy: boolean; pid: number; version?: string; updateError?: string }
+            if (health.healthy && health.pid !== previousPID) {
+              if (health.updateError) {
+                fail(t('prepare.updateRolledBack', { message: health.updateError }))
+                void loadControlStatus().then(setControl).catch(() => {})
+                return
+              }
+              if (health.version === targetVersion) {
+                window.location.reload()
+                return
+              }
+            }
+          }
+        } catch { /* The detached installer restarts the panel independently. */ }
+        if (Date.now() < deadline) restartTimer.current = window.setTimeout(() => void wait(), 1000)
+        else fail(t('prepare.restartFailure'))
+      }
+      restartTimer.current = window.setTimeout(() => void wait(), 1000)
+    } catch (value) {
+      fail(value instanceof Error ? value.message : t('prepare.restartFailure'))
+    }
   }
   const preparation = control.preparation || {phase:'checking',message:t('prepare.connecting'),ready:false,busy:true,completed:0,total:0}
   const active = data?.players.find((value) => value.Active)
-  const effectivePending = pending ?? (control.busy ? control.operation ?? null : null)
-  const controlsBusy = pending !== null || control.busy || !control.csrfToken
+  const effectivePending = restarting ? 'update' : pending ?? (control.busy ? control.operation ?? null : null)
+  const controlsBusy = restarting || pending !== null || control.busy || !control.csrfToken
   const statusUnavailable = <div className="page" role="status"><h1>{t('app.statusUnavailable')}</h1><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>
   const changeThemeSettings = (nextSettings: ThemeSettings) => {
     saveThemeSettings(nextSettings)
@@ -189,6 +225,7 @@ export default function App() {
           <NavLink to="/logs"><FileText /><span>{t('app.logs')}</span></NavLink>
           <NavLink className="settings-nav-item" to="/settings"><Settings /><span>{t('app.settings')}</span></NavLink>
         </nav>
+        <div className="sidebar-footer"><UpdateControl state={control.update} restarting={restarting} disabled={controlsBusy} onInstall={() => void applyUpdate()} /></div>
       </aside>
       <main className="main-area">
         <header className="topbar control-topbar">
@@ -197,10 +234,9 @@ export default function App() {
             <div className="topbar-compact-status"><span className={`mode-dot ${control.mode}`} /><strong>{controlsBusy ? operationCopy(effectivePending).title : modeCopy(control).title}</strong></div>
           </div>
           <ModeControls status={control} operation={effectivePending} busy={controlsBusy} onAction={(action) => void changeMode(action)} />
-          <button className="quiet-button refresh-button" disabled={pending !== null || control.busy} onClick={() => void refresh()} aria-label={t('app.refreshState')}><RefreshCw size={16} /> <span>{t('app.refresh')}</span></button>
+          <button className="quiet-button refresh-button" disabled={controlsBusy} onClick={() => void refresh()} aria-label={t('app.refreshState')}><RefreshCw size={16} /> <span>{t('app.refresh')}</span></button>
         </header>
         {(error || connectionError) && <div className="global-error" role="alert"><span>{error || connectionError}</span><button onClick={() => { setError(''); setConnectionError('') }}>{t('common.close')}</button></div>}
-        {control.update && !['idle', 'current', 'unconfigured'].includes(control.update.phase) && <div className="update-notice" role="status"><span>{restarting ? t('prepare.restarting') : ({downloading:t('prepare.updateDownloading'),ready:t('prepare.updateReady'),offline:t('prepare.updateOffline'),incompatible:t('prepare.updateIncompatible')}[control.update.phase] || control.update.message)}{control.update.version ? ' · '+control.update.version : ''}</span>{control.update.phase === 'ready' && <button className="secondary-button" disabled={controlsBusy || restarting} onClick={() => void applyUpdate()}>{t('prepare.updateButton')}</button>}</div>}
           <Routes key={locale}>
             <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : !preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
             <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
@@ -210,6 +246,7 @@ export default function App() {
             <Route path="*" element={<Navigate to="/accounts" replace />} />
           </Routes>
       </main>
+      <div className="mobile-update"><UpdateControl state={control.update} restarting={restarting} disabled={controlsBusy} onInstall={() => void applyUpdate()} /></div>
       <div className="mobile-nav">
         <NavLink to="/accounts"><Boxes /><span>{t('app.accounts')}</span></NavLink>
         <NavLink to="/packs"><CircleDot /><span>{t('app.packsMobile')}</span></NavLink>

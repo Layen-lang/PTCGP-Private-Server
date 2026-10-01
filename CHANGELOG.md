@@ -6,6 +6,25 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.7.5.1] - 2026-10-01
+
+### Changed
+
+- Show update availability and download progress in the sidebar and mobile
+  control panel, with installation actions disabled during restart.
+- Require confirmation for every program update, including compatibility-only
+  updates.
+
+### Fixed
+
+- Detach the Windows update installer so it survives the launcher shutdown.
+- Replace installed program files at the installation root while preserving
+  local settings, accounts, and compatibility with legacy update selections.
+- Restore program files and accounts when the updated panel fails to start,
+  and retain installer diagnostics for troubleshooting.
+- Wait for a different launcher process serving the expected version before
+  reloading the control panel after an update.
+
 ## [1.7.5.0] - 2026-09-30
 
 ### Changed

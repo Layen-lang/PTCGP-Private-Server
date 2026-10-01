@@ -178,7 +178,13 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	switchPath := strings.Trim(strings.TrimPrefix(r.URL.Path, "/api/control/"), "/")
 	switch {
 	case r.Method == http.MethodGet && r.URL.Path == "/api/control/health":
-		writeJSON(w, 200, map[string]any{"healthy": true, "pid": os.Getpid()})
+		w.Header().Set("Cache-Control", "no-store")
+		health := map[string]any{"healthy": true, "pid": os.Getpid()}
+		if h.updates != nil {
+			health["version"] = h.updates.InstalledVersion()
+			health["updateError"] = h.updates.InstallationError()
+		}
+		writeJSON(w, 200, health)
 	case r.Method == http.MethodGet && r.URL.Path == "/api/control/devices":
 		ctx, cancel := context.WithTimeout(r.Context(), 10*time.Second)
 		defer cancel()

@@ -135,28 +135,6 @@ func runPanel(args []string) {
 		}
 	}
 	handler.SetPreparation(preparation, func(ctx context.Context, serial string) error {
-		if updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
-			current, e := runner.Status(ctx)
-			if e != nil {
-				return e
-			}
-			if !current.Server.Running {
-				if e = updater.ActivateProfile(); e != nil {
-					return e
-				}
-				refreshed, e := configuration.Load(cfg.Path)
-				if e != nil {
-					return e
-				}
-				program, e := installation.Program(*projectRoot)
-				if e != nil {
-					return e
-				}
-				if e = preparation.Configure(refreshed, program); e != nil {
-					return e
-				}
-			}
-		}
 		prepared, err := preparation.Prepare(ctx, serial)
 		if err != nil {
 			return err
@@ -181,9 +159,6 @@ func runPanel(args []string) {
 				game = installed
 			}
 			updater.Check(updateCtx, game)
-			if installedErr == nil && updater.Status().ProfileOnly && updater.Status().Phase == "ready" {
-				handler.StartPreparation("")
-			}
 			select {
 			case <-updateCtx.Done():
 				return
@@ -206,6 +181,14 @@ func runPanel(args []string) {
 	serveResult := make(chan error, 1)
 	listener, err := net.Listen("tcp", *address)
 	if err != nil {
+		fatal(err)
+	}
+	if err = os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
+		listener.Close()
+		fatal(err)
+	}
+	if err = os.WriteFile(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.pid"), []byte(strconv.Itoa(os.Getpid())), 0600); err != nil {
+		listener.Close()
 		fatal(err)
 	}
 	go func() { serveResult <- server.Serve(listener) }()

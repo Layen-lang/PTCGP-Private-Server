@@ -65,28 +65,29 @@ reused. Unsigned, damaged, incompatible, or incomplete downloads are not run.
 The latest release must support the installed game; automatic downgrades are
 refused. If it does not, the current installation is preserved.
 
-Changes to executable code require **Update and restart** (or **Mettre à jour et
-redémarrer** in French). The launcher restores official mode, stops the game
-server, and starts a temporary installer.
-After the old panel exits, the installer backs up the accounts database, selects
-the prepared release, and starts its panel. Health must come from that exact
-new process. Startup failure restores the previous program selection and database.
+When a download is ready, a blue **Update and restart** button (or **Mettre à jour
+et redémarrer** in French) appears at the bottom of the sidebar. On mobile it
+appears above navigation. Download progress uses the same control. Every update,
+including a change to extraction profiles, waits for this action.
 
-A profile-only release may activate automatically while the server is stopped,
-provided every executable remains byte-identical and the compiled protocol
-accepts the new profile. Extraction then prepares the matching data. A newer
-game protocol can still require changes to the server; automatic downloading
-does not make unknown protocols compatible.
+The launcher restores official mode, stops the game server, and starts a detached
+temporary installer. After the old panel exits, the installer backs up the
+accounts database and affected files, then replaces `bin/`, `profiles/`, `VERSION`
+and compatibility metadata in `server.json` in the original installation.
+Local runtime paths, Android settings, accounts and certificates are preserved.
+The installer starts the panel again automatically; the browser reloads only
+after a different process reports the expected installed version. Startup failure
+restores the previous files and database and restarts the previous panel.
 
-Program versions live under `data/updates/versions/`. `current.json` selects the
-active version. The original entry point follows this selection, so users keep
-the same shortcut. Published client/contract/patch metadata is loaded from that
-version; local runtime paths, serial selection, accounts and certificates stay
-in the original installation. The Android game is never updated by this system.
+`data/updates/versions/` holds verified downloads, and `data/updates/backup-*`
+holds original files for recovery. Active program files live at the root; the
+root `VERSION` now reflects the installed release. A legacy `current.json`
+selector is removed during installation and restored if rollback is needed.
+Users keep the same shortcut. The Android game is never updated by this system.
 
 Older distributions need one manual move to this launcher. Keep a backup before
 that first migration. Subsequent updates operate in the same installation.
-The previous generation and program are retained; no Git history is rewritten.
+The previous data generation and program backup are retained; no Git history is rewritten.
 
 ## Building and publishing
 

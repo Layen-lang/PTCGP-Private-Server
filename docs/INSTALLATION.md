@@ -156,8 +156,9 @@ workflow, see [Development](DEVELOPMENT.md).
 ## Updating
 
 Signed program updates download automatically in published installations. Use
-**Update and restart** (or **Mettre à jour et redémarrer** in French) to install
-a verified executable update. Accounts and runtime settings stay in place;
+**Update and restart** (or **Mettre à jour et redémarrer** in French) at the
+bottom of the sidebar to install a verified update. Program files are replaced
+at the root and the panel restarts automatically. Accounts and runtime settings stay in place;
 preparation imports changed game data when needed. Update the game itself
 through its official source. Local mode refuses an unsupported game build.
 

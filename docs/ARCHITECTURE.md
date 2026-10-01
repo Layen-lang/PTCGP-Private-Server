@@ -86,7 +86,7 @@ marker; the next complete status check resumes restoration.
 | `certs/` | Per installation | Local certificate authority, certificate, and key |
 | `profiles/` | Per release | Validated extraction and compatibility metadata |
 | `data/generations/` | Per imported game profile | Validated local master data and indexed images |
-| `data/updates/` | Per installation | Downloaded program versions and active selection |
+| `data/updates/` | Per installation | Verified update downloads, program backups, and installer diagnostics |
 | Browser storage | Per browser profile | Language and visual preferences |
 
 `data/`, `certs/`, and traffic-development workspaces are ignored by Git.

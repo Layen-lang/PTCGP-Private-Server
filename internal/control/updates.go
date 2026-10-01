@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"net/http"
+	"os"
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
@@ -35,7 +36,7 @@ func (h *Handler) updateAction(w http.ResponseWriter, r *http.Request) {
 		writeJSON(w, 500, map[string]string{"error": err.Error()})
 		return
 	}
-	writeJSON(w, 202, map[string]bool{"restarting": true})
+	writeJSON(w, 202, map[string]any{"restarting": true, "previousPID": os.Getpid()})
 	if h.shutdown != nil {
 		h.shutdown()
 	}

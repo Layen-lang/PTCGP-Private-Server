@@ -5,8 +5,10 @@ import (
 	"net"
 	"net/http"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"runtime"
+	"strconv"
 	"strings"
 	"testing"
 	"time"
@@ -15,9 +17,29 @@ import (
 // The subprocess serves only a health endpoint. It never contacts an emulator,
 // opens a real account database, or runs the production game server.
 func TestMain(m *testing.M) {
+	if os.Getenv("PTCGP_UPDATE_TEST_CHILD") == "1" && len(os.Args) > 1 {
+		PublicKey = os.Getenv("PTCGP_UPDATE_TEST_PUBLIC_KEY")
+		if os.Args[1] == "request-update" {
+			if err := StartInstaller(os.Args[2], os.Args[3]); err != nil {
+				os.Exit(9)
+			}
+			os.Exit(0)
+		}
+		if os.Args[1] == "apply-update" {
+			parent, _ := strconv.Atoi(os.Args[4])
+			if err := Apply(os.Args[2], os.Args[3], parent); err != nil {
+				os.Exit(10)
+			}
+			if err := os.WriteFile(filepath.Join(os.Args[2], "data", "updates", "installer-test.done"), []byte(strconv.Itoa(os.Getpid())), 0600); err != nil {
+				os.Exit(11)
+			}
+			os.Exit(0)
+		}
+	}
 	if os.Getenv("PTCGP_UPDATE_TEST_CHILD") == "1" && len(os.Args) > 1 && os.Args[1] == "serve-panel" {
 		exe, _ := os.Executable()
-		if os.Getenv("PTCGP_UPDATE_TEST_FAIL") == "1" && strings.Contains(filepath.ToSlash(exe), "/versions/") {
+		version, _ := os.ReadFile(filepath.Join(filepath.Dir(filepath.Dir(exe)), "VERSION"))
+		if os.Getenv("PTCGP_UPDATE_TEST_FAIL") == "1" && strings.TrimSpace(string(version)) == "1.7.2.1" {
 			_ = os.WriteFile(os.Getenv("PTCGP_UPDATE_TEST_DB"), []byte("failed migration"), 0600)
 			os.Exit(7)
 		}
@@ -36,8 +58,18 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 	if runtime.GOOS != "windows" {
 		t.Skip("Windows installer")
 	}
-	for _, fail := range []bool{false, true} {
-		t.Run(map[bool]string{false: "activate", true: "rollback"}[fail], func(t *testing.T) {
+	for _, test := range []struct {
+		name                   string
+		fail, legacy, detached bool
+	}{
+		{name: "activate"},
+		{name: "rollback", fail: true},
+		{name: "legacy-to-root", legacy: true},
+		{name: "legacy-rollback", legacy: true, fail: true},
+		{name: "detached-restart", detached: true},
+	} {
+		t.Run(test.name, func(t *testing.T) {
+			fail := test.fail
 			root := t.TempDir()
 			listener, e := net.Listen("tcp", "127.0.0.1:0")
 			if e != nil {
@@ -98,6 +130,7 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			PublicKey = public
 			defer func() { PublicKey = saved }()
 			key := hash(envelope)
+			t.Setenv("PTCGP_UPDATE_TEST_PUBLIC_KEY", public)
 			stage := filepath.Join(root, "data", "updates", "versions", key)
 			for p, b := range payloads {
 				target := filepath.Join(stage, filepath.FromSlash(p))
@@ -117,12 +150,44 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if e = Copy(exe, filepath.Join(root, "bin", "ptcgp-launcher.exe")); e != nil {
 				t.Fatal(e)
 			}
-			err := Apply(root, key, 0)
-			if fail && err == nil {
-				t.Fatal("failed child was accepted")
+			if e = os.WriteFile(filepath.Join(root, "VERSION"), []byte("1.7.2.0"), 0600); e != nil {
+				t.Fatal(e)
 			}
-			if !fail && err != nil {
-				t.Fatal(err)
+			if e = os.WriteFile(filepath.Join(root, "bin", "ptcgp-server.exe"), []byte("previous server"), 0600); e != nil {
+				t.Fatal(e)
+			}
+			var previousSelection []byte
+			oldProgram := root
+			if test.legacy {
+				oldKey := strings.Repeat("a", 64)
+				oldProgram = filepath.Join(root, "data", "updates", "versions", oldKey)
+				for _, path := range []string{"bin/ptcgp-launcher.exe", "server.json", "VERSION"} {
+					target := filepath.Join(oldProgram, filepath.FromSlash(path))
+					if e = os.MkdirAll(filepath.Dir(target), 0700); e != nil {
+						t.Fatal(e)
+					}
+					if e = Copy(filepath.Join(root, filepath.FromSlash(path)), target); e != nil {
+						t.Fatal(e)
+					}
+				}
+				previousSelection = []byte(`{"key":"` + oldKey + `","version":"1.7.2.0"}`)
+				if e = os.WriteFile(filepath.Join(root, "data", "updates", "current.json"), previousSelection, 0600); e != nil {
+					t.Fatal(e)
+				}
+			}
+			if test.detached {
+				parent := exec.Command(filepath.Join(oldProgram, "bin", "ptcgp-launcher.exe"), "request-update", root, key)
+				if e = parent.Run(); e != nil {
+					t.Fatal(e)
+				}
+			} else {
+				err := Apply(root, key, 0)
+				if fail && err == nil {
+					t.Fatal("failed child was accepted")
+				}
+				if !fail && err != nil {
+					t.Fatal(err)
+				}
 			}
 			client := &http.Client{Timeout: time.Second}
 			var child int
@@ -141,17 +206,59 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if child == 0 {
 				t.Fatal("replacement or rollback panel did not start")
 			}
+			if test.detached {
+				// Let the installer accept the child's health and exit before
+				// cleanup stops that child; otherwise cleanup would trigger rollback.
+				deadline := time.Now().Add(5 * time.Second)
+				var installerPID int
+				for time.Now().Before(deadline) {
+					done, err := os.ReadFile(filepath.Join(root, "data", "updates", "installer-test.done"))
+					if err == nil {
+						installerPID, err = strconv.Atoi(string(done))
+						if err != nil {
+							t.Fatal(err)
+						}
+						break
+					}
+					time.Sleep(50 * time.Millisecond)
+				}
+				if installerPID == 0 {
+					t.Fatal("detached installer did not finish")
+				}
+				if err := waitForExit(installerPID, 5*time.Second); err != nil {
+					t.Fatal(err)
+				}
+			}
 			process, e := os.FindProcess(child)
 			if e != nil {
 				t.Fatal(e)
 			}
 			t.Cleanup(func() { _ = process.Kill(); _, _ = process.Wait() })
-			_, e = os.Stat(filepath.Join(root, "data", "updates", "current.json"))
-			if fail && !os.IsNotExist(e) {
-				t.Fatal("failed release remained selected")
+			selection, e := os.ReadFile(filepath.Join(root, "data", "updates", "current.json"))
+			if fail && test.legacy {
+				if e != nil || string(selection) != string(previousSelection) {
+					t.Fatalf("legacy selection not restored: %s %v", selection, e)
+				}
+			} else if !os.IsNotExist(e) {
+				t.Fatal("root installation kept a version selector")
 			}
-			if !fail && e != nil {
-				t.Fatal(e)
+			version, e := os.ReadFile(filepath.Join(root, "VERSION"))
+			wantVersion := "1.7.2.1"
+			wantServer := "server"
+			if fail {
+				wantVersion = "1.7.2.0"
+				wantServer = "previous server"
+			}
+			if e != nil || string(version) != wantVersion {
+				t.Fatalf("root version=%q, want %q: %v", version, wantVersion, e)
+			}
+			server, e := os.ReadFile(filepath.Join(root, "bin", "ptcgp-server.exe"))
+			if e != nil || string(server) != wantServer {
+				t.Fatalf("root server=%q, want %q: %v", server, wantServer, e)
+			}
+			_, e = os.Stat(filepath.Join(root, "profiles", "images-1.7.2.json"))
+			if fail && !os.IsNotExist(e) || !fail && e != nil {
+				t.Fatalf("root profiles were not installed or rolled back: %v", e)
 			}
 			b, e := os.ReadFile(db)
 			if e != nil || string(b) != "original accounts" {
