@@ -80,23 +80,36 @@ func Apply(root, key string, parent int) (result error) {
 	if e := waitForExit(parent, 45*time.Second); e != nil {
 		return e
 	}
-	manifest, e := ValidatePrepared(root, key)
-	if e != nil {
-		return e
-	}
 	cfg, e := configuration.Load(filepath.Join(root, "server.json"))
 	if e != nil {
 		return e
 	}
 	stage := filepath.Join(root, "data", "updates", "versions", key)
-	if _, e = configuration.Load(filepath.Join(stage, "server.json")); e != nil {
-		return e
-	}
-	merged, e := releaseConfig(filepath.Join(root, "server.json"), filepath.Join(stage, "server.json"))
+	// The signed release may introduce fields this installer does not know.
+	// Its replacement panel validates the merged config during startup; a
+	// failure there restores the previous program and accounts.
+	oldProgram, e := installation.Program(root)
 	if e != nil {
 		return e
 	}
-	oldProgram, e := installation.Program(root)
+	resumeOnFailure := true
+	defer func() {
+		if result != nil && resumeOnFailure {
+			result = errors.Join(result, provision.WriteJSON(filepath.Join(root, "data", "updates", "last-error.json"), map[string]string{"error": result.Error()}))
+			cmd, err := startPanel(root, oldProgram, cfg)
+			if err == nil {
+				err = waitForPanel(cmd, cfg.Runtime.LauncherAddress)
+			}
+			if err != nil {
+				result = errors.Join(result, fmt.Errorf("previous panel restart: %w", err))
+			}
+		}
+	}()
+	manifest, e := ValidatePrepared(root, key)
+	if e != nil {
+		return e
+	}
+	merged, e := releaseConfig(filepath.Join(root, "server.json"), filepath.Join(stage, "server.json"))
 	if e != nil {
 		return e
 	}
@@ -123,22 +136,7 @@ func Apply(root, key string, parent int) (result error) {
 		return e
 	}
 	start := func(dir string) (*exec.Cmd, error) {
-		cmd := exec.Command(filepath.Join(dir, "bin", "ptcgp-launcher.exe"), "serve-panel", "--config", filepath.Join(root, "server.json"), "--project-root", root)
-		cmd.Dir = root
-		if err := os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
-			return cmd, err
-		}
-		logPath := filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.stderr.log")
-		if err := trimUpdateLog(logPath); err != nil {
-			return cmd, err
-		}
-		output, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
-		if err != nil {
-			return cmd, err
-		}
-		defer output.Close()
-		cmd.Stdout, cmd.Stderr = output, output
-		return cmd, startDetached(cmd)
+		return startPanel(root, dir, cfg)
 	}
 	rollback := func(cause error, restoreDB bool) error {
 		if err := files.restore(); err != nil {
@@ -161,6 +159,7 @@ func Apply(root, key string, parent int) (result error) {
 		}
 		return cause
 	}
+	resumeOnFailure = false // From here rollback owns file restoration and restart.
 	configFile := filepath.Join(files.backup, "release-config.json")
 	if e = os.WriteFile(configFile, merged, 0600); e != nil {
 		return rollback(e, false)
@@ -199,6 +198,25 @@ func Apply(root, key string, parent int) (result error) {
 		slog.Warn("cannot schedule update cleanup", "error", cleanupErr)
 	}
 	return nil
+}
+
+func startPanel(root, program string, cfg configuration.Config) (*exec.Cmd, error) {
+	cmd := exec.Command(filepath.Join(program, "bin", "ptcgp-launcher.exe"), "serve-panel", "--config", filepath.Join(root, "server.json"), "--project-root", root)
+	cmd.Dir = root
+	if err := os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
+		return cmd, err
+	}
+	logPath := filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.stderr.log")
+	if err := trimUpdateLog(logPath); err != nil {
+		return cmd, err
+	}
+	output, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+	if err != nil {
+		return cmd, err
+	}
+	defer output.Close()
+	cmd.Stdout, cmd.Stderr = output, output
+	return cmd, startDetached(cmd)
 }
 
 func restoreAccounts(database, backup, key string) error {

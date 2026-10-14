@@ -125,7 +125,9 @@ func readJSON(path string, target any, strict bool) error {
 
 // Load rejects incomplete configuration and resolves paths relative to the file.
 func Load(path string) (Config, error) {
-	var c Config
+	// Keep the published JSON readable by older installers. An omitted LAN
+	// address uses the new default; an explicit empty string disables it.
+	c := Config{Runtime: Runtime{LANAddress: "0.0.0.0:8082"}}
 	absolute, err := filepath.Abs(path)
 	if err != nil {
 		return c, err

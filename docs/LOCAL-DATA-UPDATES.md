@@ -111,6 +111,12 @@ Older distributions need one manual move to this launcher. Keep a backup before
 that first migration. Subsequent updates operate in the same installation.
 The previous data generation and program backup are retained; no Git history is rewritten.
 
+The Wi-Fi panel defaults to `0.0.0.0:8082` when `runtime.lanAddress` is omitted.
+Set that field to an empty string to disable it or to a private IPv4 address
+and port to customize it. Published configuration omits the field so the
+1.7.5.1 installer can read the 1.7.5.2 update. Replacement launchers validate
+new release fields during startup, with rollback if validation fails.
+
 ## Building and publishing
 
 Development adds Rust to the existing Go/Node requirements:

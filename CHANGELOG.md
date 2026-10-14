@@ -30,6 +30,9 @@ revision for that game version.
 
 ### Fixed
 
+- Keep automatic updates from 1.7.5.1 compatible with the new Wi-Fi panel
+  setting, and let replacement launchers validate future release options.
+- Restart the previous panel when update preparation fails before replacement.
 - Label Android hosts overlays correctly for SELinux before mounting them, so
   rooted physical phones can resolve the game's local endpoints.
 - Keep process ownership, account credentials, and session invalidation scoped

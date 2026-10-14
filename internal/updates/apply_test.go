@@ -64,14 +64,15 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 		t.Skip("Windows installer")
 	}
 	for _, test := range []struct {
-		name                   string
-		fail, legacy, detached bool
+		name                              string
+		fail, legacy, detached, preflight bool
 	}{
 		{name: "activate"},
 		{name: "rollback", fail: true},
 		{name: "legacy-to-root", legacy: true},
 		{name: "legacy-rollback", legacy: true, fail: true},
 		{name: "detached-restart", detached: true},
+		{name: "preflight-restart", preflight: true, fail: true},
 	} {
 		t.Run(test.name, func(t *testing.T) {
 			fail := test.fail
@@ -121,7 +122,16 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if e != nil {
 				t.Fatal(e)
 			}
-			payloads := map[string][]byte{"server.json": config, "VERSION": []byte("1.7.2.1"), "bin/ptcgp-launcher.exe": binary, "bin/ptcgp-server.exe": []byte("server"), "bin/ptcgp-importer.exe": []byte("importer")}
+			// A future signed config must not be decoded against the old schema.
+			cfg["runtime"].(map[string]any)["futureReleaseOption"] = true
+			if test.preflight {
+				cfg["android"] = []any{"invalid configuration"}
+			}
+			published, e := json.Marshal(cfg)
+			if e != nil {
+				t.Fatal(e)
+			}
+			payloads := map[string][]byte{"server.json": published, "VERSION": []byte("1.7.2.1"), "bin/ptcgp-launcher.exe": binary, "bin/ptcgp-server.exe": []byte("server"), "bin/ptcgp-importer.exe": []byte("importer")}
 			payloads["bin/ptcgp-reader-x86_64"] = []byte("reader-x86_64")
 			payloads["bin/ptcgp-reader-aarch64"] = []byte("reader-aarch64")
 			payloads["profiles/images-1.7.2.json"] = []byte("{}")

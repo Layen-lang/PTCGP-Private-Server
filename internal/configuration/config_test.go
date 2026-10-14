@@ -95,6 +95,31 @@ func TestLANConfiguration(t *testing.T) {
 	}
 }
 
+func TestLoadLANDefaultAndExplicitSettings(t *testing.T) {
+	for _, test := range []struct {
+		name, field, want string
+	}{
+		{"omitted", "", "0.0.0.0:8082"},
+		{"disabled", `"lanAddress":"",`, ""},
+		{"custom", `"lanAddress":"192.168.1.10:9082",`, "192.168.1.10:9082"},
+	} {
+		t.Run(test.name, func(t *testing.T) {
+			data := strings.Replace(string(fixture(t)), `"runtime":{`, `"runtime":{`+test.field, 1)
+			path := filepath.Join(t.TempDir(), "server.json")
+			if err := os.WriteFile(path, []byte(data), 0600); err != nil {
+				t.Fatal(err)
+			}
+			cfg, err := Load(path)
+			if err != nil {
+				t.Fatal(err)
+			}
+			if cfg.Runtime.LANAddress != test.want {
+				t.Fatalf("LAN address=%q, want %q", cfg.Runtime.LANAddress, test.want)
+			}
+		})
+	}
+}
+
 func TestConfigAcceptsDataResolvedByPreparation(t *testing.T) {
 	var value map[string]any
 	if err := json.Unmarshal(fixture(t), &value); err != nil {
