@@ -102,59 +102,6 @@ jobs:
           $hash = (Get-FileHash $archive -Algorithm SHA256).Hash.ToLowerInvariant()
           "$hash  $package.zip" | Set-Content -NoNewline -Encoding utf8 "dist/SHA256SUMS.txt"
 
-      - name: Verify signed migration from the published 1.7.5.1 installer
-        if: env.RELEASE_TAG == 'v1.7.5.2'
-        shell: pwsh
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          $ErrorActionPreference = 'Stop'
-          $root = Join-Path $env:RUNNER_TEMP 'legacy-update-smoke'
-          New-Item -ItemType Directory -Force -Path "$root/bin" | Out-Null
-          gh release download v1.7.5.1 --repo $env:GITHUB_REPOSITORY --pattern 'bin__ptcgp-launcher.exe' --dir "$root/bin"
-          if ($LASTEXITCODE -ne 0) { throw "Legacy launcher download failed" }
-          $legacy = Join-Path $root 'bin/bin__ptcgp-launcher.exe'
-          if ((Get-FileHash $legacy -Algorithm SHA256).Hash.ToLowerInvariant() -ne 'c4ecac4447a95f8839a335b35f481bae87a94ef120a2daf1f5630c2234263f5b') {
-            throw "Legacy launcher checksum mismatch"
-          }
-          Move-Item -LiteralPath $legacy -Destination "$root/bin/ptcgp-launcher.exe"
-          $helper = Join-Path $env:RUNNER_TEMP 'legacy-installer.exe'
-          Copy-Item "$root/bin/ptcgp-launcher.exe" $helper
-          $version = (Get-Content VERSION -Raw).Trim()
-          $stage = Join-Path $PWD "dist/PTCGP-Private-Server-$version-windows-amd64"
-          $config = Get-Content "$stage/server.json" -Raw | ConvertFrom-Json
-          $listener = [Net.Sockets.TcpListener]::new([Net.IPAddress]::Loopback, 0)
-          $listener.Start()
-          $port = $listener.LocalEndpoint.Port
-          $listener.Stop()
-          $config.runtime.launcherAddress = "127.0.0.1:$port"
-          $config | ConvertTo-Json -Depth 20 | Set-Content -Encoding utf8NoBOM "$root/server.json"
-          '1.7.5.1' | Set-Content -Encoding utf8NoBOM "$root/VERSION"
-          $key = (Get-FileHash dist/update/update.json -Algorithm SHA256).Hash.ToLowerInvariant()
-          $prepared = Join-Path $root "data/updates/versions/$key"
-          New-Item -ItemType Directory -Force -Path $prepared | Out-Null
-          Copy-Item "$stage/*" $prepared -Recurse
-          Copy-Item dist/update/update.json "$prepared/update.json"
-          $installer = Start-Process -FilePath $helper -ArgumentList @('apply-update', $root, $key, '0') -WindowStyle Hidden -PassThru -RedirectStandardError "$root/installer.stderr.log"
-          try {
-            if (!$installer.WaitForExit(90000)) { throw "Legacy installer timed out" }
-            if ($installer.ExitCode -ne 0) { throw (Get-Content "$root/installer.stderr.log" -Raw) }
-            $health = Invoke-RestMethod "http://127.0.0.1:$port/api/control/health"
-            if (!$health.healthy -or $health.version -ne $version -or $health.updateError) { throw "Replacement panel did not report the expected version" }
-            if ((Get-Content "$root/VERSION" -Raw).Trim() -ne $version) { throw "Root version was not updated" }
-            $merged = Get-Content "$root/server.json" -Raw | ConvertFrom-Json
-            if ($merged.runtime.launcherAddress -ne "127.0.0.1:$port") { throw "Local panel address was not preserved" }
-            Write-Output "Published 1.7.5.1 installer successfully migrated to signed $version"
-          } finally {
-            if (!$installer.HasExited) { Stop-Process -Id $installer.Id -Force }
-            $pidFile = Join-Path $root 'data/runtime/launcher.pid'
-            if (Test-Path $pidFile) {
-              $panelPID = [int](Get-Content $pidFile -Raw).Trim()
-              $panel = Get-Process -Id $panelPID -ErrorAction SilentlyContinue
-              if ($panel -and $panel.Path -eq (Join-Path $root 'bin/ptcgp-launcher.exe')) { Stop-Process -Id $panelPID -Force }
-            }
-          }
-
       - name: Publish GitHub release assets
         shell: pwsh
         env:
