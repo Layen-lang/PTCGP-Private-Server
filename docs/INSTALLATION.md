@@ -22,11 +22,11 @@ contributors and developers.
 - Windows 10 or later.
 - Permission to run the extracted executables and bind local ports `443`,
   `8080`, and `8081`.
-- Enough free space for the release, your local profiles, and emulator.
+- Enough free space for the release, imported game data, your profiles, and any emulator.
 
-### Android emulator
+### Android device: emulator or rooted phone
 
-The emulator must provide all of the following:
+The Android device must provide all of the following:
 
 - a 64-bit Android system (x86-64 or ARM64) able to run the supported ARM64 game;
 - ADB access;
@@ -36,7 +36,10 @@ The emulator must provide all of the following:
 - Pokémon TCG Pocket **1.7.5**, installed by you.
 
 These requirements are stricter than simply enabling Android developer mode.
-If an emulator cannot provide root or system mounts, it is not compatible.
+If a device cannot provide root or system mounts, it is not compatible.
+Root is mandatory on physical phones as well as emulators. A rooted physical
+Android phone has been tested successfully, including over Wi-Fi ADB. This
+confirms the tested setup; other models and ROMs must satisfy the same checks.
 
 ### ADB
 
@@ -57,16 +60,111 @@ adb version
 adb devices
 ```
 
-Your emulator must appear with the state `device`, not `offline` or
+Your Android device must appear with the state `device`, not `offline` or
 `unauthorized`.
 
 You can also verify root access:
 
 ```bat
-adb shell su -c id
+adb -s DEVICE_SERIAL shell su -c id
 ```
 
-The result must identify user `root` or UID `0`.
+Replace `DEVICE_SERIAL` with the exact serial from `adb devices`. Accept the
+root manager's request on Android if shown. The result must identify user
+`root` or UID `0`.
+
+## Physical Android phone: USB or Wi-Fi
+
+The phone runs the game; the Windows computer runs the private server. Keep
+the computer and the chosen ADB connection available throughout preparation,
+playing, and restoration. Install the supported game and finish its resource
+download on the phone before preparing local data.
+
+### USB connection
+
+1. Enable **Developer options**, then **USB debugging** on the phone.
+2. Connect it with a USB data cable, unlock it, and accept the computer's
+   debugging authorization prompt.
+3. Run `adb devices -l` on Windows. If nothing appears, check the cable and
+   install the manufacturer's Windows ADB USB driver if needed. See
+   [Android's hardware-device setup](https://developer.android.com/studio/run/device).
+4. Run the root check above using the phone's serial and grant shell root access
+   in its root manager.
+5. Keep the cable connected, then follow [First launch](#first-launch). Select
+   the phone beside **Refresh**, enable **Local**, and open a local account.
+
+### Wi-Fi connection on Android 11 or later
+
+Use current Android SDK Platform-Tools. On the phone, enable **Developer
+options → Wireless debugging** on the same local network as the computer.
+
+1. Choose **Pair device with pairing code** on the phone.
+2. On Windows, run `adb pair` with the address and pairing port shown there:
+
+   ```bat
+   adb pair 192.168.1.50:37099
+   ```
+
+   Enter the displayed pairing code when asked. Addresses and ports here are
+   examples; substitute the phone's values.
+3. Return to the main **Wireless debugging** screen. If `adb devices -l` does
+   not list the connected phone, use `adb connect` with that screen's address
+   and connection port:
+
+   ```bat
+   adb connect 192.168.1.50:41815
+   adb devices -l
+   ```
+
+   The connection port is distinct from the pairing port. Use the displayed
+   connection port rather than assuming `5555`.
+4. Check root using the exact serial listed by ADB, then follow
+   [First launch](#first-launch). The USB cable is not needed for this method.
+
+These steps follow the official
+[ADB wireless-debugging guide](https://developer.android.com/tools/adb#connect-to-a-device-over-wi-fi).
+
+### Wi-Fi after an initial USB connection
+
+If Wireless debugging is unavailable, connect and authorize the phone over USB
+first. With both devices on the same local network, run:
+
+```bat
+adb -s PHONE_USB_SERIAL tcpip 5555
+adb connect 192.168.1.50:5555
+adb devices -l
+```
+
+Replace `PHONE_USB_SERIAL` with the USB serial and `192.168.1.50` with the
+phone's Wi-Fi address. Once the network connection reports `device`, unplug
+USB and select the Wi-Fi phone entry in the panel. This method requires the
+phone's ADB daemon to support TCP mode. Android documents it as the
+[USB-assisted Wi-Fi method](https://developer.android.com/tools/adb#wireless).
+
+After playing, restore **Official** while ADB is still connected. For this TCP
+method, `adb -s 192.168.1.50:5555 usb` returns ADB to USB mode; for paired
+Wireless debugging, switch **Wireless debugging** off on the phone.
+
+### Using the game over Wi-Fi
+
+Wi-Fi access alone is insufficient: the phone must be connected to ADB and
+listed as `device`. **Refresh** updates the selector after that connection;
+it does not pair phones automatically. Local mode creates the game's ADB
+reverse tunnel automatically, just as it does over USB. Keep game and internal
+administration listeners on loopback; you do not need to change
+`android.serverAddress`, expose port `443`, or configure `runtime.lanAddress`
+for this ADB setup.
+
+The optional [home Wi-Fi panel listener](CONFIGURATION.md#runtime) is only for
+opening the control panel in the phone's browser. It is separate from connecting
+the game through Wi-Fi ADB.
+
+If the Wi-Fi address or connection port changes, reconnect using the current
+values, select **Refresh**, and re-enable **Local** to restore the tunnel.
+When changing between USB and Wi-Fi, restore **Official** through the current
+connection first, then connect and select the new transport before enabling
+**Local** again. Restore **Official** or use **Stop all** before disconnecting
+ADB; an unavailable device's restoration remains pending until it reconnects.
 
 ## Install a Windows release
 
@@ -97,13 +195,14 @@ unique local certificate authority on first use.
 
 ## First launch
 
-1. Start the emulator and wait for Android to finish booting.
+1. Start the emulator or connect the rooted phone over USB or Wi-Fi ADB, and
+   wait for Android to finish booting.
 2. Close the game if it is already running.
 3. Double-click `start-server.cmd`.
 4. Your browser should open <http://127.0.0.1:8080>. If it does not, open that
    address yourself.
 5. Wait for preparation to import the installed game's data and all nine languages.
-   Select the emulator if several are connected. The panel switches to Accounts
+   Select the Android device if several are connected. The panel switches to Accounts
    when validation succeeds.
 6. Select **Local** in the top bar.
 7. Wait until the status becomes **Private server active**.
@@ -114,10 +213,23 @@ folders, and a verified Android backup are created.
 
 ## Multiple emulators or devices
 
-The launcher automatically selects a connected device that contains the
-configured game package. If more than one device matches, find the serial with
-`adb devices`, then set `android.serial` in `server.json` so the persistent
-control panel uses the same device. See [Configuration](CONFIGURATION.md#android).
+Use the device selector at the top right, next to **Refresh**. It remains visible
+with one device, and the panel remembers your choice in `data/device.json`.
+Leave `android.serial` empty to restore that remembered choice on startup;
+setting it explicitly overrides the saved selection.
+
+You can use several emulators at once: select A, enable **Local**, and open one
+account; then select B, enable **Local**, and open another. Each emulator has
+its own game session, server endpoint, tunnel, and restoration state. A running
+account cannot be opened on another emulator. **Official** affects the selected
+emulator; **Stop all** restores and stops every managed game session.
+
+Connected rooted phones use the same selector and per-device controls. A local
+account cannot run on a phone and an emulator at the same time either.
+
+Switching devices does not repeat installation preparation. Imported game data
+is shared, and compatibility is checked before Local mode starts on each device.
+ADB transports that refer to the same Android instance are treated as one device.
 
 You can test a serial before saving it with a one-off status command:
 
@@ -132,7 +244,7 @@ Install these development tools first:
 - Go 1.25.5 or a later compatible Go 1.25 release;
 - Node.js 22 with npm;
 - Rust with both Linux musl targets listed below;
-- ADB and the emulator requirements above.
+- ADB and the Android-device requirements above.
 
 Then run:
 
@@ -167,10 +279,11 @@ migration from an older distribution.
 
 ## Uninstalling safely
 
-1. Start the emulator and make sure ADB can see it.
-2. Select **Official** and wait for restoration to complete.
-3. Run `start-server.cmd status` and confirm routing, certificate, and native
-   library states are official.
+1. Connect every Android device used with Local mode and make sure ADB can see them.
+2. Select each device in the panel, select **Official**, and wait for its
+   restoration to complete.
+3. Confirm each device's routing, certificate, and native-library states are
+   official. For a command-line check, use `start-server.cmd status -Serial <serial>`.
 4. Select **Stop all**.
 5. Delete the extracted project folder.
 

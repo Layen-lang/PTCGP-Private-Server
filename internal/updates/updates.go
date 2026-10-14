@@ -60,7 +60,17 @@ type Manager struct {
 }
 
 func New(root, program string) *Manager {
-	return &Manager{root: root, program: program, state: State{Phase: "idle", Message: "Recherche de mises à jour"}, client: &http.Client{Timeout: 2 * time.Minute}}
+	m := &Manager{root: root, program: program, state: State{Phase: "idle", Message: "Recherche de mises à jour"}, client: &http.Client{Timeout: 2 * time.Minute}}
+	// An older installer may have selected this release without copying it to
+	// the root. Offer the verified local release again to finish that migration.
+	if filepath.Clean(program) != filepath.Clean(root) {
+		key := filepath.Base(program)
+		if manifest, err := ValidatePrepared(root, key); err == nil {
+			m.key = key
+			m.state = State{Phase: "ready", Version: manifest.Version, Message: "Finaliser l’installation à la racine", Completed: len(manifest.Files), Total: len(manifest.Files)}
+		}
+	}
+	return m
 }
 func (m *Manager) Status() State { m.mu.RLock(); defer m.mu.RUnlock(); return m.state }
 func (m *Manager) set(s State)   { m.mu.Lock(); m.state = s; m.mu.Unlock() }
@@ -196,6 +206,12 @@ func hash(data []byte) string { h := sha256.Sum256(data); return hex.EncodeToStr
 func (m *Manager) Check(ctx context.Context, game string) {
 	m.work.Lock()
 	defer m.work.Unlock()
+	// Finish the current local migration before looking for another release.
+	// Discovery must not hide this action when the installed version is latest
+	// or when the network is unavailable.
+	if filepath.Clean(m.program) != filepath.Clean(m.root) && m.PreparedKey() != "" {
+		return
+	}
 	if PublicKey == "" {
 		m.set(State{Phase: "unconfigured", Message: "Les mises à jour signées seront disponibles dans une distribution officielle."})
 		return

@@ -300,6 +300,9 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 		return err
 	}
 	work := filepath.Join(r.root, "data", "android-patch")
+	if r.isolated {
+		work = filepath.Join(r.cfg.Runtime.RuntimeDirectory, "android-patch")
+	}
 	if err := os.MkdirAll(work, 0700); err != nil {
 		return err
 	}
@@ -456,13 +459,25 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 	if err := os.WriteFile(localHosts, []byte(localHostsText(hosts, r.cfg.Android.RedirectHosts)), 0600); err != nil {
 		return err
 	}
-	if _, err := r.adb(ctx, serial, "push", localHosts, "/data/local/tmp/hosts.ptcgp"); err != nil {
+	return r.installAndroidHosts(ctx, serial, localHosts)
+}
+
+// installAndroidHosts labels the overlay for netd before exposing it as the
+// system hosts file. A bind mount preserves the staging file's SELinux label.
+func (r *NativeRunner) installAndroidHosts(ctx context.Context, serial, local string) error {
+	const remote = "/data/local/tmp/hosts.ptcgp"
+	if err := r.pushRootFile(ctx, serial, local, remote, "644"); err != nil {
 		return err
 	}
-	if _, err := r.shell(ctx, serial, "chmod 644 /data/local/tmp/hosts.ptcgp && if grep -q ' /system/etc/hosts ' /proc/mounts; then umount /system/etc/hosts; fi"); err != nil {
+	command := "chown root:root " + shellQuote(remote) +
+		" && if [ \"$(getenforce)\" != Disabled ]; then chcon u:object_r:system_file:s0 " + shellQuote(remote) + "; fi"
+	if _, err := r.shell(ctx, serial, command); err != nil {
+		return fmt.Errorf("prepare Android hosts permissions: %w", err)
+	}
+	if _, err := r.shell(ctx, serial, "if grep -q ' /system/etc/hosts ' /proc/mounts; then umount /system/etc/hosts; fi"); err != nil {
 		return err
 	}
-	_, err = r.shell(ctx, serial, "mount --bind /data/local/tmp/hosts.ptcgp /system/etc/hosts")
+	_, err := r.shell(ctx, serial, "mount --bind "+shellQuote(remote)+" /system/etc/hosts")
 	return err
 }
 

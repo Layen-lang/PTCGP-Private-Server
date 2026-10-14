@@ -34,6 +34,7 @@ type NativeRunner struct {
 	rollbackRetrySerial    string
 	rollbackRetryAt        time.Time
 	rollbackRetryError     error
+	isolated               bool
 }
 
 type nativeCommands struct{}
@@ -109,7 +110,7 @@ func (r *NativeRunner) Status(ctx context.Context) (Status, error) {
 	}
 
 	s := r.cachedStatus
-	s.Server.PID = managedPID(r.pidFile("server"), r.server)
+	s.Server.PID = r.processPID("server", r.server)
 	s.Server.Running = s.Server.PID != 0
 	pid, err := r.adb(ctx, serial, "shell", "pidof", r.cfg.Android.Package)
 	s.Android.Running = err == nil && pid != ""
@@ -125,7 +126,7 @@ func (r *NativeRunner) Status(ctx context.Context) (Status, error) {
 }
 
 func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, error) {
-	s := Status{Mode: "unknown", Server: ServerStatus{PID: managedPID(r.pidFile("server"), r.server)},
+	s := Status{Mode: "unknown", Server: ServerStatus{PID: r.processPID("server", r.server)},
 		Android: AndroidStatus{Routing: "indisponible", CA: "inconnue", Native: "inconnue", Game: "inconnu"}}
 	s.Server.Running = s.Server.PID != 0
 	var err error
@@ -418,8 +419,8 @@ func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error
 		if _, err := r.commands.Run(ctx, r.server, "cert", "ensure", "--config", r.cfg.Path); err != nil {
 			return Status{}, err
 		}
-		started := managedPID(r.pidFile("server"), r.server) == 0
-		if err := r.startProcess(ctx, "server", r.server, r.cfg.Runtime.Address, "serve", "--config", r.cfg.Path, "--adb-serial", serial); err != nil {
+		started := r.processPID("server", r.server) == 0
+		if err := r.startProcess(ctx, "server", r.server, r.cfg.Runtime.Address, "serve", "--config", r.cfg.Path, "--adb-serial", serial, "--address", r.cfg.Runtime.Address, "--admin-address", r.cfg.Runtime.AdminAddress, "--traffic-log", r.cfg.Runtime.TrafficLog); err != nil {
 			return Status{}, err
 		}
 		if err := r.setupAndroid(ctx, serial, "apply"); err != nil {

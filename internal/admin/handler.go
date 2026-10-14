@@ -3,6 +3,7 @@
 package admin
 
 import (
+	"context"
 	"crypto/rand"
 	"crypto/subtle"
 	"embed"
@@ -41,17 +42,18 @@ func Frontend() (fs.FS, error) {
 }
 
 type Handler struct {
-	catalogVersion string
-	catalogs       *catalog.Registry
-	players        *player.Manager
-	packs          *packlab.Engine
-	images         *assets.Resolver
-	launcher       player.GameLauncher
-	logger         *slog.Logger
-	traffic        *traffic.Recorder
-	trafficHistory string
-	csrf           string
-	static         http.Handler
+	catalogVersion          string
+	catalogs                *catalog.Registry
+	players                 *player.Manager
+	packs                   *packlab.Engine
+	images                  *assets.Resolver
+	launcher                player.GameLauncher
+	logger                  *slog.Logger
+	traffic                 *traffic.Recorder
+	trafficHistory          string
+	trafficHistoryForDevice func(context.Context) string
+	csrf                    string
+	static                  http.Handler
 }
 
 type Option func(*Handler)
@@ -77,6 +79,11 @@ func WithTraffic(recorder *traffic.Recorder) Option {
 
 // WithTrafficHistory exposes saved exchanges when the game server is stopped.
 func WithTrafficHistory(path string) Option { return func(h *Handler) { h.trafficHistory = path } }
+
+// WithDeviceTrafficHistory keeps saved exchanges scoped to the request's device.
+func WithDeviceTrafficHistory(path func(context.Context) string) Option {
+	return func(h *Handler) { h.trafficHistoryForDevice = path }
+}
 
 func New(players *player.Manager, launcher player.GameLauncher, logger *slog.Logger, options ...Option) (*Handler, error) {
 	token, err := randomToken()
@@ -225,9 +232,13 @@ func (h *Handler) trafficEvents(w http.ResponseWriter, r *http.Request) {
 		limit = parsed
 	}
 	recorder := h.traffic
-	if recorder == nil && h.trafficHistory != "" {
+	history := h.trafficHistory
+	if h.trafficHistoryForDevice != nil {
+		history = h.trafficHistoryForDevice(r.Context())
+	}
+	if recorder == nil && history != "" {
 		var err error
-		recorder, err = traffic.ReadHistory(h.trafficHistory)
+		recorder, err = traffic.ReadHistory(history)
 		if err != nil {
 			h.fail(w, r, err)
 			return
@@ -312,6 +323,7 @@ func (h *Handler) trafficStream(w http.ResponseWriter, r *http.Request) {
 
 type playerSummary struct {
 	ID, DisplayName          string
+	InUseOn                  string `json:"InUseOn,omitempty"`
 	Level                    int
 	Experience, StateVersion int64
 	Active, Authorized       bool
@@ -332,6 +344,11 @@ func (h *Handler) bootstrap(w http.ResponseWriter, r *http.Request) {
 	if value, err := h.players.Device(r.Context()); err == nil {
 		device = &value
 	}
+	reservations, err := h.players.EmulatorPlayers(r.Context())
+	if err != nil {
+		h.fail(w, r, err)
+		return
+	}
 	result := make([]playerSummary, 0, len(players))
 	for _, value := range players {
 		result = append(result, playerSummary{
@@ -339,6 +356,7 @@ func (h *Handler) bootstrap(w http.ResponseWriter, r *http.Request) {
 			Experience: value.Experience, StateVersion: value.StateVersion,
 			Active:     device != nil && device.ActivePlayerID == value.ID,
 			Authorized: device != nil && device.AuthorizedPlayerID == value.ID,
+			InUseOn:    reservations[value.ID],
 		})
 	}
 	currencies := h.displayCatalog(r).Currencies
@@ -349,7 +367,7 @@ func (h *Handler) bootstrap(w http.ResponseWriter, r *http.Request) {
 			ImageURL: h.imageURL(value.AssetID, 96),
 		})
 	}
-	h.writeJSON(w, http.StatusOK, map[string]any{"csrfToken": h.csrf, "players": result, "device": device, "catalogVersion": h.catalogVersion, "currencies": currencyResults})
+	h.writeJSON(w, http.StatusOK, map[string]any{"csrfToken": h.csrf, "players": result, "device": device, "emulator": h.players.EmulatorSerial(r.Context()), "catalogVersion": h.catalogVersion, "currencies": currencyResults})
 }
 
 type profileResponse struct {

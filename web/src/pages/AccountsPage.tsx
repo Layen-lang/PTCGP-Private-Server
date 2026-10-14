@@ -5,10 +5,10 @@ import {
 } from 'lucide-react'
 import { api } from '../api'
 import NumberInput from '../components/NumberInput'
-import type { Bootstrap, CardPage, CatalogResult, PlayerSummary, Profile, VisualCatalogItem } from '../types'
+import type { AndroidDevice, Bootstrap, CardPage, CatalogResult, PlayerSummary, Profile, VisualCatalogItem } from '../types'
 import { localeLower, t } from '../i18n'
 
-type Props = { canLaunch: boolean; bootstrap: Bootstrap; refresh: () => void; reportError: (message: string) => void }
+type Props = { canLaunch: boolean; bootstrap: Bootstrap; devices: AndroidDevice[]; refresh: () => void; reportError: (message: string) => void }
 type Section = 'profile' | 'resources' | 'cards' | 'battle' | 'showcase'
 type DropHint = { id: string; placement: 'before' | 'after' }
 
@@ -33,9 +33,9 @@ function accountLanguages() { return [
   { locale: 'zh_CN', name: t('cards.simplifiedChinese') }, { locale: 'id_ID', name: t('cards.indonesian') },
 ] }
 
-export default function AccountsPage({ bootstrap, refresh, reportError, canLaunch }: Props) {
+export default function AccountsPage({ bootstrap, devices, refresh, reportError, canLaunch }: Props) {
   const [players, setPlayers] = useState(bootstrap.players)
-  const [selectedID, setSelectedID] = useState(bootstrap.players.find((value) => value.Active)?.ID || bootstrap.players[0]?.ID || '')
+  const [selectedID, setSelectedID] = useState(bootstrap.players.find((value) => value.Active)?.ID || bootstrap.players.find((value) => !value.InUseOn || value.InUseOn === bootstrap.emulator)?.ID || bootstrap.players[0]?.ID || '')
   const [profile, setProfile] = useState<Profile | null>(null)
   const [section, setSection] = useState<Section>('profile')
   const [creating, setCreating] = useState(false)
@@ -45,6 +45,12 @@ export default function AccountsPage({ bootstrap, refresh, reportError, canLaunc
   const [dropHint, setDropHint] = useState<DropHint | null>(null)
   const profileCache = useRef(new Map<string, Profile>())
   const selectedSummary = players.find((value) => value.ID === selectedID)
+  const usedElsewhere = selectedSummary?.InUseOn && selectedSummary.InUseOn !== bootstrap.emulator ? selectedSummary.InUseOn : ''
+  const deviceName = (serial: string) => {
+    const device = devices.find((value) => value.serial === serial || value.aliases?.includes(serial))
+    if (!device) return serial
+    return devices.filter((value) => value.name === device.name).length > 1 ? `${device.name} (${serial})` : device.name
+  }
 
   useEffect(() => setPlayers(bootstrap.players), [bootstrap.players])
   useEffect(() => {
@@ -146,7 +152,7 @@ export default function AccountsPage({ bootstrap, refresh, reportError, canLaunc
         <div className="rail-title"><strong>{t('accounts.profileCount', { count: players.length })}</strong></div>
         {players.map((value) => <div key={value.ID} className={`account-row managed-account ${selectedID === value.ID ? 'selected' : ''} ${draggedID === value.ID ? 'dragging' : ''} ${dropHint?.id === value.ID ? `drop-${dropHint.placement}` : ''}`} onDragOver={(event) => previewPlayerDrop(event, value.ID)} onDrop={() => void dropPlayer(value.ID, dropHint?.id === value.ID ? dropHint.placement : 'before')}>
           <button type="button" className="drag-handle" draggable onDragStart={(event) => beginPlayerDrag(event, value.ID)} onDragEnd={finishPlayerDrag} aria-label={t('accounts.move', { name: value.DisplayName })} aria-pressed={draggedID === value.ID} title={t('accounts.drag')}><GripVertical size={16} /></button>
-          <button type="button" className="account-select" aria-pressed={selectedID === value.ID} onClick={() => setSelectedID(value.ID)}><span className="avatar">{value.DisplayName.slice(0, 1).toUpperCase()}</span><span><strong>{value.DisplayName}</strong><small>{t('accounts.level', { level: value.Level })}</small></span></button>
+          <button type="button" className="account-select" aria-pressed={selectedID === value.ID} onClick={() => setSelectedID(value.ID)}><span className="avatar">{value.DisplayName.slice(0, 1).toUpperCase()}</span><span><strong>{value.DisplayName}</strong><small>{t('accounts.level', { level: value.Level })}</small>{value.InUseOn && <small className="account-device-status" title={value.InUseOn}>{t('accounts.inUseOn', { device: deviceName(value.InUseOn) })}</small>}</span></button>
           <span className="account-tools"><button type="button" onClick={() => void duplicate(value.ID)} aria-label={t('accounts.duplicate', { name: value.DisplayName })} title={t('accounts.duplicateAction')}><Copy size={15} /></button><button type="button" className="danger-icon" onClick={() => setDeleting(value)} aria-label={t('accounts.delete', { name: value.DisplayName })} title={t('accounts.deleteAction')}><Trash2 size={15} /></button></span>
         </div>)}
         {!players.length && <div className="empty-rail"><UserRound /><strong>{t('accounts.none')}</strong></div>}
@@ -156,7 +162,7 @@ export default function AccountsPage({ bootstrap, refresh, reportError, canLaunc
         {profile ? <>
           <header className="profile-header">
             <div className="profile-identity"><span className="avatar large profile-avatar"><Image src={profile.ProfileImageURL} alt="" /></span><div><h2>{profile.Player.DisplayName}</h2><p>{t('accounts.cardCount', { level: profile.Player.Level, count: profile.CardCount })}</p></div></div>
-            <div className="profile-actions"><button className="primary-button" disabled={busy || !canLaunch} title={canLaunch ? t('accounts.launchReady') : t('accounts.launchUnavailable')} onClick={() => void openAccount()}><Gamepad2 size={18} /> {t('accounts.launch')}</button></div>
+            <div className="profile-actions">{usedElsewhere && <span className="account-device-status" role="status" title={usedElsewhere}>{t('accounts.inUseOn', { device: deviceName(usedElsewhere) })}</span>}<button className="primary-button" disabled={busy || !canLaunch || !!usedElsewhere} title={usedElsewhere ? t('accounts.inUseOn', { device: deviceName(usedElsewhere) }) : canLaunch ? t('accounts.launchReady') : t('accounts.launchUnavailable')} onClick={() => void openAccount()}><Gamepad2 size={18} /> {t('accounts.launch')}</button></div>
           </header>
           <nav className="section-tabs account-sections" aria-label={t('accounts.profileData')}>
             <Tab active={section === 'profile'} onClick={() => setSection('profile')} icon={<UserRound />}>{t('accounts.profile')}</Tab><Tab active={section === 'resources'} onClick={() => setSection('resources')} icon={<Sparkles />}>{t('accounts.resources')}</Tab><Tab active={section === 'cards'} onClick={() => setSection('cards')} icon={<WalletCards />}>{t('accounts.cards')}</Tab><Tab active={section === 'battle'} onClick={() => setSection('battle')} icon={<Shield />}>{t('accounts.battle')}</Tab><Tab active={section === 'showcase'} onClick={() => setSection('showcase')} icon={<ImageIcon />}>{t('accounts.showcases')}</Tab>

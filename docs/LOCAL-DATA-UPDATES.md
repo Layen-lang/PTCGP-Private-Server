@@ -1,21 +1,25 @@
 # Local preparation and integrated updates
 
 The Windows launcher opens its control panel before loading game data. Local
-mode stays disabled until the selected emulator, game profile, master data and
-image generation have passed validation. Accounts and settings remain under
-the original installation directory.
+mode requires validated master data and images plus a connected rooted Android
+device (emulator or physical phone). The selected device's game version and
+library are checked before Local mode starts. Accounts and settings remain
+under the original installation directory.
 
 ## First launch
 
 1. Install the official game and finish its resource download.
-2. Enable ADB and root in the emulator, then open `start-server.cmd`.
-3. If several emulators are connected, select the one containing the game.
+2. Enable ADB and root on the Android device, connect it, then open `start-server.cmd`.
+3. If several devices are connected, select the one containing the game.
 4. Wait for preparation to import all nine locales and the images in the
    published compatibility profile. The Accounts page opens automatically
    after validation. Then select **Local** to start the private server.
 
 On later launches, a validated generation opens Accounts immediately, even
-when the emulator is offline. Reconnect the emulator before selecting **Local**.
+when the device is offline. Reconnect the device before selecting **Local**.
+The imported generation is shared by all devices. Switching devices or
+accounts does not repeat preparation; the preparation page is needed only when
+the imported data is missing or invalid.
 If preparation fails, finish any missing resource download in the official
 game and select **Retry preparation** (or **Réessayer la préparation** in French)
 in the panel. A retry reuses completed work. An unsupported game version needs
@@ -31,7 +35,10 @@ required bundles. It does not download another copy of the APK or all assets.
 The reader is selected from the Android system ELF architecture, rather than
 `uname` or the translated game's ABI. Both x86-64 and ARM64 readers are built.
 The implementation uses Android/ADB capabilities, not a MuMu-specific protocol.
-MuMu has been exercised end to end; BlueStacks, LDPlayer, Nox and MEmu require
+MuMu has been exercised end to end. A rooted physical Android phone has also
+been tested successfully, including over Wi-Fi ADB; see
+[phone connection steps](INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
+BlueStacks, LDPlayer, Nox and MEmu require
 real-device validation before their particular versions can be listed as tested.
 ADB, root, a supported game build, and the existing routing/mount requirements
 remain mandatory. A 64-bit game running through native translation is distinct
@@ -65,14 +72,14 @@ reused. Unsigned, damaged, incompatible, or incomplete downloads are not run.
 The latest release must support the installed game; automatic downgrades are
 refused. If it does not, the current installation is preserved.
 
-When a download is ready, a blue **Update and restart** button (or **Mettre à jour
+When a download is ready, a theme-colored **Update and restart** button (or **Mettre à jour
 et redémarrer** in French) appears at the bottom of the sidebar. On mobile it
 appears above navigation. Download progress uses the same control. Every update,
 including a change to extraction profiles, waits for this action.
 
-The launcher restores official mode, stops the game server, and starts a detached
-temporary installer. After the old panel exits, the installer backs up the
-accounts database and affected files, then replaces `bin/`, `profiles/`, `VERSION`
+The launcher restores all managed Android devices, stops their game servers, and starts
+a detached temporary installer. After the old panel exits, the installer backs
+up the accounts database and affected files, then replaces `bin/`, `profiles/`, `VERSION`
 and compatibility metadata in `server.json` in the original installation.
 Local runtime paths, Android settings, accounts and certificates are preserved.
 The installer starts the panel again automatically; the browser reloads only
@@ -84,6 +91,21 @@ holds original files for recovery. Active program files live at the root; the
 root `VERSION` now reflects the installed release. A legacy `current.json`
 selector is removed during installation and restored if rollback is needed.
 Users keep the same shortcut. The Android game is never updated by this system.
+
+After the replacement panel confirms its health and the installer exits, cleanup
+removes the downloaded releases and temporary installers present before restart.
+Only the most recent program backup and its accounts database backup are retained.
+New downloads started by the replacement panel are preserved. The installer log
+keeps its latest 1 MiB, trimmed before installation and during successful cleanup.
+The launcher startup log is also trimmed to its latest 1 MiB before each update
+restart, including rollback restarts.
+Failed installations retain their recovery files. Interrupted cleanup is retried
+on the next root launcher startup; cleanup failure does not roll back a healthy panel.
+
+When an older installer places this launcher in a version directory, the new
+launcher offers the already verified local release through **Update and restart**
+to finish copying it to the root. This migration works even when that release is
+already the latest one or the network is unavailable; no new download is needed.
 
 Older distributions need one manual move to this launcher. Keep a backup before
 that first migration. Subsequent updates operate in the same installation.

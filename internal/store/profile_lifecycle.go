@@ -223,6 +223,12 @@ func (s *Store) DeletePlayer(ctx context.Context, playerID string) error {
 		return fmt.Errorf("begin delete player: %w", err)
 	}
 	defer tx.Rollback()
+	var owner string
+	if err := tx.QueryRowContext(ctx, `SELECT serial FROM emulator_profiles WHERE player_id=? AND active=1`, playerID).Scan(&owner); err == nil {
+		return fmt.Errorf("%w: %s", ErrPlayerInUse, owner)
+	} else if !errors.Is(err, sql.ErrNoRows) {
+		return err
+	}
 	var exists int
 	if err := tx.QueryRowContext(ctx, `SELECT 1 FROM players WHERE player_id=?`, playerID).Scan(&exists); errors.Is(err, sql.ErrNoRows) {
 		return fmt.Errorf("%w: player %q", ErrNotFound, playerID)

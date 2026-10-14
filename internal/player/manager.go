@@ -198,8 +198,35 @@ type GameLauncher interface{ Open(context.Context) error }
 
 // Manager is the deep module for profile lifecycle and catalog validation.
 type Manager struct {
-	state   *store.Store
-	catalog *catalog.Catalog
+	state    *store.Store
+	catalog  *catalog.Catalog
+	emulator string
+}
+
+type emulatorContextKey struct{}
+
+// WithEmulator fixes the administration's device for the lifetime of a request.
+func WithEmulator(ctx context.Context, serial string) context.Context {
+	return context.WithValue(ctx, emulatorContextKey{}, serial)
+}
+
+// Emulator returns the device attached to an administration request.
+func Emulator(ctx context.Context) string {
+	serial, _ := ctx.Value(emulatorContextKey{}).(string)
+	return serial
+}
+
+// EmulatorSerial uses the request target or this game server's fixed device.
+func (m *Manager) EmulatorSerial(ctx context.Context) string {
+	if serial := Emulator(ctx); serial != "" {
+		return serial
+	}
+	return m.emulator
+}
+
+// NewForEmulator isolates game authorization on one emulator's TLS endpoint.
+func NewForEmulator(state *store.Store, master *catalog.Catalog, serial string) *Manager {
+	return &Manager{state: state, catalog: master, emulator: serial}
 }
 
 func New(state *store.Store, master *catalog.Catalog) *Manager {
@@ -314,7 +341,16 @@ func (m *Manager) Profile(ctx context.Context, playerID string) (Profile, error)
 	return result, nil
 }
 func (m *Manager) Device(ctx context.Context) (store.Device, error) {
+	serial := m.EmulatorSerial(ctx)
+	if serial != "" {
+		return m.state.EmulatorDevice(ctx, serial)
+	}
 	return m.state.CurrentDevice(ctx)
+}
+
+// EmulatorPlayers exposes account reservations to the administration.
+func (m *Manager) EmulatorPlayers(ctx context.Context) (map[string]string, error) {
+	return m.state.EmulatorPlayers(ctx)
 }
 
 func (m *Manager) Create(ctx context.Context, input CreateInput) (store.Player, error) {
@@ -672,6 +708,10 @@ func hasCompletedTutorial(progress, required []store.TutorialStep) bool {
 }
 
 func (m *Manager) SelectActive(ctx context.Context, playerID string) error {
+	serial := m.EmulatorSerial(ctx)
+	if serial != "" {
+		return m.state.SelectEmulatorPlayer(ctx, serial, playerID, true)
+	}
 	device, err := m.state.CurrentDevice(ctx)
 	if errors.Is(err, store.ErrNotFound) || (err == nil && device.Account == "") {
 		return m.state.SelectPending(ctx, playerID)
@@ -685,6 +725,11 @@ func (m *Manager) SelectActive(ctx context.Context, playerID string) error {
 func (m *Manager) OpenInGame(ctx context.Context, playerID string, launcher GameLauncher) error {
 	if launcher == nil {
 		return fmt.Errorf("game launcher is unavailable")
+	}
+	if devices, ok := launcher.(interface {
+		OpenPlayer(context.Context, string) error
+	}); ok {
+		return devices.OpenPlayer(ctx, playerID)
 	}
 	if err := m.SelectActive(ctx, playerID); err != nil {
 		return err
@@ -703,6 +748,21 @@ func (m *Manager) OpenInGame(ctx context.Context, playerID string, launcher Game
 }
 
 func (m *Manager) Authorize(ctx context.Context, deviceAccount string) (Authorization, error) {
+	if m.emulator != "" {
+		p, token, err := m.state.AuthorizeEmulator(ctx, m.emulator, deviceAccount, sessionLifetime)
+		if err != nil {
+			return Authorization{}, err
+		}
+		if err := m.state.RecordAuthorization(ctx, p.DeviceAccount, p.ID); err != nil {
+			return Authorization{}, err
+		}
+		profile, err := m.Profile(ctx, p.ID)
+		if err != nil {
+			return Authorization{}, err
+		}
+		profile.Player.DeviceAccount = p.DeviceAccount
+		return Authorization{Player: p, Profile: profile, Token: token}, nil
+	}
 	profiles, err := m.state.Players(ctx)
 	if err != nil {
 		return Authorization{}, err
@@ -731,7 +791,18 @@ func (m *Manager) Authorize(ctx context.Context, deviceAccount string) (Authoriz
 }
 
 func (m *Manager) PlayerBySession(ctx context.Context, token string) (store.Player, error) {
-	return m.state.PlayerBySession(ctx, token)
+	p, err := m.state.PlayerBySession(ctx, token)
+	if err != nil || m.emulator == "" {
+		return p, err
+	}
+	profile, err := m.state.EmulatorProfile(ctx, m.emulator)
+	if err != nil {
+		return store.Player{}, err
+	}
+	if !profile.Active || profile.PlayerID != p.ID || profile.DeviceAccount != p.DeviceAccount {
+		return store.Player{}, store.ErrInvalidSession
+	}
+	return p, nil
 }
 
 func (m *Manager) AddAction(ctx context.Context, playerID string, key int32, target string, count int64, dated bool) error {

@@ -23,6 +23,7 @@ type Runtime struct {
 	Address              string `json:"address"`
 	AdminAddress         string `json:"adminAddress"`
 	LauncherAddress      string `json:"launcherAddress"`
+	LANAddress           string `json:"lanAddress,omitempty"`
 	Database             string `json:"database"`
 	Certificate          string `json:"certificate"`
 	PrivateKey           string `json:"privateKey"`
@@ -182,6 +183,19 @@ func (c Config) Validate() error {
 	}
 	if c.Runtime.AdminAddress == c.Runtime.LauncherAddress {
 		return fmt.Errorf("admin and launcher addresses must differ")
+	}
+	if c.Runtime.LANAddress != "" {
+		host, port, err := net.SplitHostPort(c.Runtime.LANAddress)
+		ip := net.ParseIP(host)
+		if err != nil || ip == nil || ip.To4() == nil || (host != "0.0.0.0" && !ip.IsPrivate()) {
+			return fmt.Errorf("LAN panel address must use 0.0.0.0 or a private IPv4 address")
+		}
+		for _, address := range []string{c.Runtime.Address, c.Runtime.AdminAddress, c.Runtime.LauncherAddress} {
+			_, otherPort, _ := net.SplitHostPort(address)
+			if port == otherPort {
+				return fmt.Errorf("LAN panel port must differ from the other service ports")
+			}
+		}
 	}
 	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "android.package": c.Android.Package, "android.activity": c.Android.Activity, "android.serverAddress": c.Android.ServerAddress} {
 		if strings.TrimSpace(value) == "" {

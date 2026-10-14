@@ -1,4 +1,5 @@
 export type PreparationState = { phase: string; message: string; ready: boolean; busy: boolean; completed: number; total: number; serial?: string; error?: string }
+export type AndroidDevice = { serial: string; name: string; state: string; aliases?: string[] }
 export type UpdateState = { phase: string; message: string; version?: string; completed: number; total: number }
 export type PlayerSummary = {
   ID: string
@@ -8,11 +9,13 @@ export type PlayerSummary = {
   StateVersion: number
   Active: boolean
   Authorized: boolean
+  InUseOn?: string
 }
 
 export type PlayerDetails = Omit<PlayerSummary, 'Active' | 'Authorized'> & { CreatedAt?: string; UpdatedAt?: string }
 
 export type Bootstrap = {
+  emulator?: string
   csrfToken: string
   catalogVersion: string
   players: PlayerSummary[]
@@ -25,7 +28,7 @@ export type ControlStatus = {
   update?: UpdateState
   csrfToken: string
   busy: boolean
-  operation?: 'local' | 'online' | 'stop' | 'open' | 'prepare' | 'update'
+  operation?: 'local' | 'online' | 'stop' | 'open' | 'prepare' | 'update' | 'device'
   mode: 'local' | 'online' | 'stopped' | 'unknown'
   server: { running: boolean; pid?: number }
   android: {

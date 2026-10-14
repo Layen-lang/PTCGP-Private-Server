@@ -6,6 +6,41 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.7.5.2] - 2026-10-14
+
+### Added
+
+- Document successful testing on a rooted physical Android phone, including
+  Wi-Fi ADB, with USB, wireless pairing, and USB-assisted TCP connection steps.
+- Keep a device selector beside Refresh, remember the selection automatically,
+  and discover LDPlayer 9 alongside MuMu when their ADB ports overlap.
+- Run separate game servers and accounts on multiple emulators concurrently,
+  with independent routing, traffic history, and Android restoration.
+- Add a separate control-panel listener for home Wi-Fi access, with private
+  IPv4 client checks and the panel's existing origin and CSRF protection.
+
+### Changed
+
+- Apply Local and Official modes only to the selected emulator; Stop all
+  restores all managed emulators and stops their servers.
+- Prevent a local account from running on two emulators at once and show which
+  emulator is using it in the account list.
+- Reuse prepared game data when switching emulators or accounts, while checking
+  each installed game before enabling Local mode.
+
+### Fixed
+
+- Label Android hosts overlays correctly for SELinux before mounting them, so
+  rooted physical phones can resolve the game's local endpoints.
+- Keep process ownership, account credentials, and session invalidation scoped
+  to each device, including aliases for the same Android instance.
+- Resume pending Android restoration when an unselected device reconnects.
+- Offer completion of legacy update installations without hiding the action
+  during automatic update discovery.
+- Clean obsolete update downloads, installers, and older backups after a
+  successful update while retaining the latest recovery backups and limiting
+  updater log size.
+
 ## [1.7.5.1] - 2026-10-01
 
 ### Changed

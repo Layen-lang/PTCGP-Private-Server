@@ -67,6 +67,34 @@ func TestConfigResolvesRelativeToItsFileAndRejectsUnknownFields(t *testing.T) {
 	}
 }
 
+func TestLANConfiguration(t *testing.T) {
+	for _, test := range []struct {
+		address string
+		valid   bool
+	}{
+		{"", true},
+		{"0.0.0.0:8082", true},
+		{"192.168.1.132:8082", true},
+		{"8.8.8.8:8082", false},
+		{"example.test:8082", false},
+		{"[::]:8082", false},
+		{"0.0.0.0:8080", false},
+		{"0.0.0.0:8081", false},
+		{"0.0.0.0:443", false},
+	} {
+		t.Run(test.address, func(t *testing.T) {
+			var cfg Config
+			if err := json.Unmarshal(fixture(t), &cfg); err != nil {
+				t.Fatal(err)
+			}
+			cfg.Runtime.LANAddress = test.address
+			if err := cfg.Validate(); (err == nil) != test.valid {
+				t.Fatalf("Validate()=%v, valid=%v", err, test.valid)
+			}
+		})
+	}
+}
+
 func TestConfigAcceptsDataResolvedByPreparation(t *testing.T) {
 	var value map[string]any
 	if err := json.Unmarshal(fixture(t), &value); err != nil {

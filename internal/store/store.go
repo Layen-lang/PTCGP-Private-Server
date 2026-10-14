@@ -881,6 +881,12 @@ func (s *Store) NewDeviceSession(ctx context.Context, deviceAccount, playerID st
 		return "", fmt.Errorf("begin session: %w", err)
 	}
 	defer tx.Rollback()
+	var owner string
+	if err := tx.QueryRowContext(ctx, `SELECT serial FROM emulator_profiles WHERE player_id=? AND active=1 AND device_account<>?`, playerID, deviceAccount).Scan(&owner); err == nil {
+		return "", fmt.Errorf("%w: %s", ErrPlayerInUse, owner)
+	} else if !errors.Is(err, sql.ErrNoRows) {
+		return "", err
+	}
 	if _, err := tx.ExecContext(ctx, `UPDATE sessions SET revoked_at=? WHERE device_account=? AND revoked_at IS NULL`, now.Unix(), deviceAccount); err != nil {
 		return "", fmt.Errorf("revoke sessions: %w", err)
 	}

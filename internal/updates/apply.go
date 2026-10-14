@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"log/slog"
 	"net/http"
 	"os"
 	"os/exec"
@@ -51,7 +52,11 @@ func StartInstaller(root, key string) error {
 	if e = Copy(exe, helper); e != nil {
 		return e
 	}
-	output, e := os.OpenFile(filepath.Join(root, "data", "updates", "installer.log"), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+	logPath := filepath.Join(root, "data", "updates", "installer.log")
+	if e = trimUpdateLog(logPath); e != nil {
+		return e
+	}
+	output, e := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
 	if e != nil {
 		return e
 	}
@@ -123,7 +128,11 @@ func Apply(root, key string, parent int) (result error) {
 		if err := os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
 			return cmd, err
 		}
-		output, err := os.OpenFile(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.stderr.log"), os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
+		logPath := filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.stderr.log")
+		if err := trimUpdateLog(logPath); err != nil {
+			return cmd, err
+		}
+		output, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0600)
 		if err != nil {
 			return cmd, err
 		}
@@ -172,12 +181,22 @@ func Apply(root, key string, parent int) (result error) {
 	if e = os.Remove(filepath.Join(root, "data", "updates", "last-error.json")); e != nil && !os.IsNotExist(e) {
 		return rollback(e, false)
 	}
+	// Snapshot before starting the panel: later downloads must not be deleted.
+	cleanup, cleanupErr := planCleanup(root, manifest.Version, files.backup, backup)
 	cmd, e := start(root)
 	if e == nil {
 		e = waitForPanel(cmd, cfg.Runtime.LauncherAddress)
 	}
 	if e != nil {
 		return rollback(e, true)
+	}
+	// Cleanup errors must never roll back a healthy installation. The panel
+	// waits for this helper to exit before removing its executable and log tail.
+	if cleanupErr == nil {
+		cleanupErr = provision.WriteJSON(filepath.Join(root, "data", "updates", "cleanup.json"), cleanup)
+	}
+	if cleanupErr != nil {
+		slog.Warn("cannot schedule update cleanup", "error", cleanupErr)
 	}
 	return nil
 }

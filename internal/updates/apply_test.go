@@ -1,6 +1,7 @@
 package updates
 
 import (
+	"context"
 	"encoding/json"
 	"net"
 	"net/http"
@@ -37,6 +38,10 @@ func TestMain(m *testing.M) {
 		}
 	}
 	if os.Getenv("PTCGP_UPDATE_TEST_CHILD") == "1" && len(os.Args) > 1 && os.Args[1] == "serve-panel" {
+		// Match production startup, including cleanup scheduled after health.
+		if len(os.Args) == 6 {
+			go New(os.Args[5], os.Args[5]).Cleanup(context.Background())
+		}
 		exe, _ := os.Executable()
 		version, _ := os.ReadFile(filepath.Join(filepath.Dir(filepath.Dir(exe)), "VERSION"))
 		if os.Getenv("PTCGP_UPDATE_TEST_FAIL") == "1" && strings.TrimSpace(string(version)) == "1.7.2.1" {
@@ -234,6 +239,36 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 				t.Fatal(e)
 			}
 			t.Cleanup(func() { _ = process.Kill(); _, _ = process.Wait() })
+			if fail {
+				if _, err := os.Stat(stage); err != nil {
+					t.Fatalf("failed installation lost its prepared files: %v", err)
+				}
+				if _, err := os.Stat(filepath.Join(root, "data", "updates", "cleanup.json")); !os.IsNotExist(err) {
+					t.Fatalf("failed installation scheduled cleanup: %v", err)
+				}
+			} else {
+				deadline := time.Now().Add(6 * time.Second)
+				for time.Now().Before(deadline) {
+					if _, err := os.Stat(stage); os.IsNotExist(err) {
+						break
+					}
+					time.Sleep(50 * time.Millisecond)
+				}
+				if _, err := os.Stat(stage); !os.IsNotExist(err) {
+					t.Fatalf("successful installation did not clean its download: %v", err)
+				}
+				backups, err := filepath.Glob(filepath.Join(root, "data", "updates", "backup-*"))
+				if err != nil || len(backups) != 1 {
+					t.Fatalf("latest program backup not retained: %v %v", backups, err)
+				}
+				if _, err := os.Stat(filepath.Join(root, "data", "updates", "accounts-before-"+key+".db")); err != nil {
+					t.Fatalf("latest accounts backup not retained: %v", err)
+				}
+				installers, err := filepath.Glob(filepath.Join(root, "data", "updates", "installer-*.exe"))
+				if err != nil || len(installers) != 0 {
+					t.Fatalf("temporary installer remains: %v %v", installers, err)
+				}
+			}
 			selection, e := os.ReadFile(filepath.Join(root, "data", "updates", "current.json"))
 			if fail && test.legacy {
 				if e != nil || string(selection) != string(previousSelection) {

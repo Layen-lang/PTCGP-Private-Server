@@ -25,8 +25,24 @@ func managedPID(pidFile, executable string) int {
 	return pid
 }
 
+func (r *NativeRunner) processPID(name, executable string) int {
+	if !r.isolated {
+		return managedPID(r.pidFile(name), executable)
+	}
+	// Multiple servers share an executable. Never adopt another emulator's PID.
+	data, err := os.ReadFile(r.pidFile(name))
+	if err != nil {
+		return 0
+	}
+	pid, err := strconv.Atoi(strings.TrimSpace(string(data)))
+	if err != nil || pid <= 0 || !processMatches(pid, executable) {
+		return 0
+	}
+	return pid
+}
+
 func (r *NativeRunner) stopProcess(name, executable string) error {
-	pid := managedPID(r.pidFile(name), executable)
+	pid := r.processPID(name, executable)
 	if pid == 0 {
 		return nil
 	}
@@ -52,7 +68,7 @@ func (r *NativeRunner) stopProcess(name, executable string) error {
 }
 
 func (r *NativeRunner) startProcess(ctx context.Context, name, executable, address string, args ...string) error {
-	if managedPID(r.pidFile(name), executable) != 0 {
+	if r.processPID(name, executable) != 0 {
 		return nil
 	}
 	if err := os.MkdirAll(r.cfg.Runtime.RuntimeDirectory, 0700); err != nil {

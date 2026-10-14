@@ -21,6 +21,7 @@ import (
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
@@ -229,18 +230,31 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		if h.validateMutation(w, r) {
 			h.preparationAction(w, r)
 		}
+	case r.Method == http.MethodPost && r.URL.Path == "/api/control/device":
+		if h.validateMutation(w, r) {
+			h.deviceAction(w, r)
+		}
 	case r.Method == http.MethodPost && strings.HasPrefix(r.URL.Path, "/api/control/actions/"):
 		if h.validateMutation(w, r) {
 			h.action(w, r, strings.TrimPrefix(switchPath, "actions/"))
 		}
 	case strings.HasPrefix(r.URL.Path, "/api/") || strings.HasPrefix(r.URL.Path, "/assets/image/"):
+		backend := h.proxy
+		if devices, ok := h.runner.(interface{ Routing() (string, string) }); ok {
+			serial, address := devices.Routing()
+			r = r.WithContext(player.WithEmulator(r.Context(), serial))
+			if target, err := url.Parse("http://" + address); err == nil {
+				backend = httputil.NewSingleHostReverseProxy(target)
+				backend.ErrorHandler = h.proxy.ErrorHandler
+			}
+		}
 		h.adminMu.RLock()
 		administration := h.administration
 		h.adminMu.RUnlock()
 		if administration != nil && !strings.HasPrefix(r.URL.Path, "/api/traffic") {
 			administration.ServeHTTP(w, r)
 		} else {
-			h.proxy.ServeHTTP(w, r)
+			backend.ServeHTTP(w, r)
 		}
 	case r.Method != http.MethodGet && r.Method != http.MethodHead:
 		writeJSON(w, http.StatusMethodNotAllowed, map[string]string{"error": "Method not allowed."})

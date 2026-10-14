@@ -6,8 +6,8 @@ edit their collections, and control pack openings from a browser.
 > [!IMPORTANT]
 > This is an unofficial, local-only interoperability project for advanced
 > users. It currently supports Pokémon TCG Pocket **1.7.5** on Windows with a
-> rooted Android emulator. It is not affiliated with Nintendo, The Pokémon
-> Company, Creatures Inc., or DeNA.
+> rooted Android emulator or rooted physical Android phone. It is not affiliated
+> with Nintendo, The Pokémon Company, Creatures Inc., or DeNA.
 
 [Download the latest release](https://github.com/Layen-lang/PTCGP-Private-Server/releases/latest)
 · [Installation guide](docs/INSTALLATION.md)
@@ -34,10 +34,13 @@ touching an official account.
 - Change a profile's level, experience, resources, cards, emblems, and
   cosmetics.
 - Open a selected local profile directly in the game.
+- Play on a rooted Android phone over USB or Wi-Fi ADB.
+- Run different local profiles on several Android devices at the same time.
 - Keep official pack odds or force a table, rarity, exact composition, or
   custom nonstandard pack.
 - Inspect sanitized HTTP and gRPC traffic and follow launcher logs live.
 - Switch safely between the private server and the official service.
+- Receive updates automatically and install them from the control panel.
 
 Local profiles are stored in SQLite on your computer. They do not replace or
 modify your official account. PvP matchmaking and the bidirectional
@@ -49,18 +52,30 @@ You need:
 
 - Windows 10 or later;
 - Pokémon TCG Pocket **1.7.5**, installed by you;
-- a 64-bit Android emulator (x86-64 or ARM64) that runs the supported ARM64
-  game, with ADB, root access, `adb reverse`, and writable system mounts;
+- a rooted 64-bit Android phone (ARM64) or emulator (x86-64 or ARM64) that runs
+  the supported ARM64 game, with ADB, root access, `adb reverse`, and writable
+  system mounts;
 - `adb.exe` available in `PATH`.
 
 You do **not** need Go, Node.js, or Rust when using a published release. Those
 tools are only required to run the project from source.
 
+A rooted physical phone has been tested successfully, including over Wi-Fi ADB.
+Root is required on phones too; developer options alone are insufficient.
+See [phone setup over USB or Wi-Fi](docs/INSTALLATION.md#physical-android-phone-usb-or-wi-fi)
+for the connection steps. The Windows computer still runs the server and must
+stay on and connected while you play.
+
 > [!CAUTION]
 > Local mode temporarily changes Android routing, installs a local certificate
 > authority, and applies a hash-verified patch to one game library. Always use
 > **Official** before signing in to an official account. Never expose ports
-> `443`, `8080`, or `8081` to your network or the Internet.
+> `443`, `8080`, `8081`, or additional emulators' game and administration ports
+> to your network or the Internet.
+
+The bundled configuration enables a separate home Wi-Fi panel listener on
+port `8082`. See [Configuration](docs/CONFIGURATION.md#runtime) for access and
+how to disable it.
 
 ## Install in 5 minutes
 
@@ -68,16 +83,26 @@ tools are only required to run the project from source.
    [latest release](https://github.com/Layen-lang/PTCGP-Private-Server/releases/latest).
 2. Extract the complete archive to a writable folder. Do not run it from inside
    the ZIP.
-3. Start your rooted emulator and wait for Android to finish booting.
-4. Open Command Prompt and check that `adb devices` lists the emulator as
+3. Start your rooted emulator, or connect your rooted phone using the
+   [phone setup guide](docs/INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
+4. Open Command Prompt and check that `adb devices` lists the Android device as
    `device`.
 5. Double-click `start-server.cmd`. The control panel opens at
    <http://127.0.0.1:8080>.
-6. Let the panel import data from the installed game. Select an emulator if
+6. Let the panel import data from the installed game. Select a device if
    several are connected. The Accounts page opens when validation completes.
 
 If any requirement is unclear, follow the
 [step-by-step installation guide](docs/INSTALLATION.md) before continuing.
+
+> [!TIP]
+> **Automatic updates are built in — download once, then update from the panel.**
+> Published releases automatically check for and download compatible, signed
+> updates at startup and every six hours while the launcher is open. When an
+> update is ready, click **Update and restart** at the bottom of the sidebar
+> (**Mettre à jour et redémarrer** in French) to install it. Your local profiles
+> and settings are preserved; no new ZIP needs to be downloaded manually.
+> See [how updates work](docs/LOCAL-DATA-UPDATES.md#program-updates).
 
 ## First local profile
 
@@ -87,7 +112,14 @@ If any requirement is unclear, follow the
    inventory.
 3. Adjust the profile if needed, then select **Open account**.
 4. When you finish, select **Official** to restore normal game routing, or
-   **Stop all** to restore it and close the local tools.
+   **Stop all** to restore every managed emulator and close the local tools.
+
+Choose the Android device at the top right, next to **Refresh**. To play on a
+second device, select it, enable **Local**, and open a different profile. The
+first game keeps running. Each profile can be used on only one device at a time.
+**Local** and **Official** apply to the selected device; **Stop all** applies
+to all managed devices. Switching devices or accounts reuses the prepared
+game data.
 
 The [user guide](docs/USAGE.md) explains every section of the control panel and
 the safest daily workflow.

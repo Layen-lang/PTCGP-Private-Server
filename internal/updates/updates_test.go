@@ -152,3 +152,49 @@ func TestUnknownGameDoesNotDownloadExecutables(t *testing.T) {
 		t.Fatal(m.Status())
 	}
 }
+
+func TestLegacySelectionOffersLocalRootMigration(t *testing.T) {
+	root := t.TempDir()
+	manifest := fixtureManifest("https://example.invalid")
+	envelope, public := signed(t, manifest)
+	savedPublic := PublicKey
+	PublicKey = public
+	t.Cleanup(func() { PublicKey = savedPublic })
+	key := hash(envelope)
+	program := filepath.Join(root, "data", "updates", "versions", key)
+	for _, file := range manifest.Files {
+		path := filepath.Join(program, filepath.FromSlash(file.Path))
+		if err := os.MkdirAll(filepath.Dir(path), 0700); err != nil {
+			t.Fatal(err)
+		}
+		if err := os.WriteFile(path, []byte("payload"), 0600); err != nil {
+			t.Fatal(err)
+		}
+	}
+	if err := os.WriteFile(filepath.Join(program, "update.json"), envelope, 0600); err != nil {
+		t.Fatal(err)
+	}
+	m := New(root, program)
+	if m.PreparedKey() != key || m.Status().Version != manifest.Version {
+		t.Fatalf("local migration not offered: %+v", m.Status())
+	}
+	// No network request may replace the ready migration with current/offline.
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		t.Error("queried network before completing local migration")
+		w.WriteHeader(http.StatusServiceUnavailable)
+	}))
+	defer server.Close()
+	savedURL := ManifestURL
+	ManifestURL = server.URL
+	t.Cleanup(func() { ManifestURL = savedURL })
+	m.Check(context.Background(), "1.7.2")
+	if m.PreparedKey() != key {
+		t.Fatalf("discovery hid local migration: %+v", m.Status())
+	}
+	if err := os.WriteFile(filepath.Join(program, "bin", "ptcgp-server.exe"), []byte("tampered"), 0600); err != nil {
+		t.Fatal(err)
+	}
+	if damaged := New(root, program); damaged.PreparedKey() != "" {
+		t.Fatal("offered a damaged local release")
+	}
+}

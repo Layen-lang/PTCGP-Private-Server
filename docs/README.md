@@ -9,6 +9,13 @@ Choose the guide that matches what you are trying to do.
 3. [Solve a startup or emulator problem](TROUBLESHOOTING.md)
 4. [Prepare game data and install updates](LOCAL-DATA-UPDATES.md)
 
+For a rooted phone, see
+[Physical Android phone: USB or Wi-Fi](INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
+
+To run accounts in parallel, see
+[Multiple emulators or devices](INSTALLATION.md#multiple-emulators-or-devices)
+and [Connection modes](USAGE.md#connection-modes).
+
 ## Understand or develop it
 
 - [Configuration reference](CONFIGURATION.md)

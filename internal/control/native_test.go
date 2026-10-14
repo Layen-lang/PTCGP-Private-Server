@@ -101,6 +101,8 @@ func (r *androidStateRunner) Run(_ context.Context, _ string, args ...string) ([
 		return nil, nil
 	case strings.Contains(call, "ptcgp-push-") && strings.Contains(call, "cp "):
 		return nil, nil
+	case strings.Contains(call, "chown root:root") && strings.Contains(call, "chcon u:object_r:system_file:s0"):
+		return nil, nil
 	case call == "-s serial reverse --list":
 		return nil, nil
 	case strings.Contains(call, "test -e"):

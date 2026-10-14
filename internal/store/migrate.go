@@ -49,6 +49,14 @@ CREATE TABLE IF NOT EXISTS active_profiles (
   player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
   selected_at INTEGER NOT NULL
 );
+CREATE TABLE IF NOT EXISTS emulator_profiles (
+  serial TEXT PRIMARY KEY,
+  player_id TEXT REFERENCES players(player_id) ON DELETE SET NULL,
+  device_account TEXT NOT NULL DEFAULT '',
+  started_at INTEGER NOT NULL DEFAULT 0,
+  active INTEGER NOT NULL DEFAULT 0 CHECK(active IN (0,1))
+);
+CREATE UNIQUE INDEX IF NOT EXISTS emulator_active_player ON emulator_profiles(player_id) WHERE active=1;
 CREATE TABLE IF NOT EXISTS player_currencies (
   player_id TEXT NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
   currency_id TEXT NOT NULL,
@@ -551,7 +559,7 @@ CREATE INDEX IF NOT EXISTS trade_sessions_partner_state ON trade_sessions(partne
 `
 
 func (s *Store) migrate(ctx context.Context) error {
-	if _, err := s.db.ExecContext(ctx, `PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;`); err != nil {
+	if _, err := s.db.ExecContext(ctx, `PRAGMA busy_timeout=10000; PRAGMA journal_mode=WAL; PRAGMA foreign_keys=ON;`); err != nil {
 		return fmt.Errorf("configure sqlite: %w", err)
 	}
 	legacy, err := hasColumn(ctx, s.db, "players", "device_account")
@@ -565,6 +573,9 @@ func (s *Store) migrate(ctx context.Context) error {
 	}
 	if _, err := s.db.ExecContext(ctx, schema); err != nil {
 		return fmt.Errorf("migrate sqlite: %w", err)
+	}
+	if err := ensureColumn(ctx, s.db, "emulator_profiles", "started_at", "INTEGER NOT NULL DEFAULT 0"); err != nil {
+		return err
 	}
 	for _, column := range []struct{ name, kind string }{{"password_hash", "BLOB"}, {"last_authorized_at", "INTEGER"}, {"authorized_player_id", "TEXT"}} {
 		if err := ensureColumn(ctx, s.db, "devices", column.name, column.kind); err != nil {

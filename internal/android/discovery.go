@@ -16,7 +16,85 @@ import (
 // Discover refreshes ADB connections on every call, including emulators started
 // after the panel. An explicit serial is never replaced with another device.
 func Discover(ctx context.Context, runner Runner, requested, packageName string) (string, error) {
-	return discoverDevices(ctx, runner, requested, packageName, blueStacksEndpoints())
+	return discoverDevices(ctx, runner, requested, packageName, localEmulatorEndpoints())
+}
+
+func localEmulatorEndpoints() []string {
+	return append(blueStacksEndpoints(), ldPlayerEndpoints()...)
+}
+
+// LDPlayer records the actual ADB forwarding ports in its NAT service logs.
+// Wildcard listeners also accept 127.0.0.2, avoiding MuMu's more specific
+// 127.0.0.1 listener when both emulators use port 5555.
+var ldPlayerForwarding = regexp.MustCompile(`(?m)Event: (Add|Delete) IPv4 port-forwarding rule "([^"]+)"(?:: TCP ([^\s:]*):([0-9]+) -> [0-9.]+:5555\b)?`)
+var ldPlayerNATLog = regexp.MustCompile(`^LdNatNetwork[0-9]+\.log$`)
+
+func parseLDPlayerEndpoints(data []byte) []string {
+	rules := make(map[string]string)
+	for _, match := range ldPlayerForwarding.FindAllSubmatch(data, -1) {
+		name := string(match[2])
+		delete(rules, name)
+		if string(match[1]) == "Delete" {
+			continue
+		}
+		port, err := strconv.Atoi(string(match[4]))
+		if err != nil || port <= 0 || port > 65535 {
+			continue
+		}
+		host := string(match[3])
+		switch host {
+		case "", "0.0.0.0":
+			host = "127.0.0.2"
+		case "127.0.0.1", "127.0.0.2":
+		default:
+			continue
+		}
+		rules[name] = net.JoinHostPort(host, strconv.Itoa(port))
+	}
+	seen := make(map[string]bool)
+	var endpoints []string
+	for _, endpoint := range rules {
+		if !seen[endpoint] {
+			seen[endpoint] = true
+			endpoints = append(endpoints, endpoint)
+		}
+	}
+	sort.Strings(endpoints)
+	return endpoints
+}
+
+func ldPlayerEndpoints() []string {
+	home, err := os.UserHomeDir()
+	if err != nil {
+		return nil
+	}
+	root := filepath.Join(home, ".Ld9VirtualBox")
+	return ldPlayerEndpointsIn(root)
+}
+
+func ldPlayerEndpointsIn(root string) []string {
+	entries, err := os.ReadDir(root)
+	if err != nil {
+		return nil
+	}
+	seen := make(map[string]bool)
+	var endpoints []string
+	for _, entry := range entries {
+		if entry.IsDir() || !ldPlayerNATLog.MatchString(entry.Name()) {
+			continue
+		}
+		data, err := os.ReadFile(filepath.Join(root, entry.Name()))
+		if err != nil {
+			continue
+		}
+		for _, endpoint := range parseLDPlayerEndpoints(data) {
+			if !seen[endpoint] {
+				seen[endpoint] = true
+				endpoints = append(endpoints, endpoint)
+			}
+		}
+	}
+	return endpoints
 }
 
 func discoverDevices(ctx context.Context, runner Runner, requested, packageName string, endpoints []string) (string, error) {
@@ -117,7 +195,7 @@ func discoverDevices(ctx context.Context, runner Runner, requested, packageName 
 			return aliases[0].serial, nil
 		}
 	}
-	return "", fmt.Errorf("multiple ADB devices detected; set android.serial in server.json")
+	return "", fmt.Errorf("multiple ADB devices detected; choose an emulator in the panel or specify its serial for this command")
 }
 
 var adbPortLine = regexp.MustCompile(`(?m)^bst\.instance\.[^.]+\.(?:status\.)?adb_port="([0-9]+)"\s*$`)

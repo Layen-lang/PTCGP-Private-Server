@@ -47,6 +47,7 @@
     "certificateAuthority": "certs/ca.pem",
     "database": "data/ptcgp.db",
     "launcherAddress": "127.0.0.1:8080",
+    "lanAddress": "0.0.0.0:8082",
     "privateKey": "certs/server-key.pem",
     "runtimeDirectory": "data/runtime",
     "strictMetadata": true,

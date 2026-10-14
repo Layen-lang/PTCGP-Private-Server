@@ -1,8 +1,8 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { NavLink, Navigate, Route, Routes } from 'react-router-dom'
-import { Activity, Boxes, CircleDot, FileText, Globe2, Power, RefreshCw, Server, Settings } from 'lucide-react'
-import { loadBootstrap, loadControlStatus, runControlAction, installUpdate } from './api'
-import type { Bootstrap, ControlStatus } from './types'
+import { Activity, Boxes, CircleDot, FileText, Globe2, Power, RefreshCw, Server, Settings, Smartphone } from 'lucide-react'
+import { loadBootstrap, loadControlStatus, loadDevices, prepareInstallation, selectDevice, runControlAction, installUpdate } from './api'
+import type { AndroidDevice, Bootstrap, ControlStatus } from './types'
 import { applyTheme, getThemeSettings, saveThemeSettings } from './theme'
 import type { ThemeSettings } from './theme'
 import { t, useLocale } from './i18n'
@@ -31,6 +31,7 @@ function modeCopy(status: ControlStatus) {
 }
 
 function operationCopy(action: ControlStatus['operation'] | null) {
+  if (action === 'device') return { title: t('app.switchingDevice') }
   if (action === 'prepare') return {title: t('prepare.operation')}
   if (action === 'update') return {title: t('prepare.updateOperation')}
   if (action === 'local') return { title: t('app.activatingPrivate') }
@@ -66,28 +67,93 @@ function ModeControls({ status, operation, busy, onAction }: { status: ControlSt
 export default function App() {
   const locale = useLocale()
   const [data, setData] = useState<Bootstrap | null>(null)
+  const [devices, setDevices] = useState<AndroidDevice[]>([])
   const [control, setControl] = useState<ControlStatus>({ csrfToken: '', busy: false, mode: 'unknown', server: { running: false }, android: { connected: false, root: false, routing: 'indisponible', ca: 'inconnue', native: 'inconnue', game: 'inconnu', running: false } })
   const [statusLoaded, setStatusLoaded] = useState(false)
   const [restarting, setRestarting] = useState(false)
-  const [pending, setPending] = useState<ControlAction | null>(null)
+  const [pending, setPending] = useState<ControlStatus['operation'] | null>(null)
   const [error, setError] = useState('')
   const [connectionError, setConnectionError] = useState('')
+  const [deviceError, setDeviceError] = useState('')
+  const [refreshing, setRefreshing] = useState(false)
   const [themeSettings, setThemeSettings] = useState<ThemeSettings>(() => getThemeSettings())
   const actionLock = useRef(false)
   const restartLock = useRef(false)
+  const refreshLock = useRef(false)
+  const deviceRequest = useRef(0)
   const restartTimer = useRef<number | undefined>(undefined)
 
   useEffect(() => () => window.clearTimeout(restartTimer.current), [])
 
-  const refresh = async () => {
+  const discoverDevices = useCallback(async () => {
+    const request = ++deviceRequest.current
+    try {
+      const found = await loadDevices()
+      if (request === deviceRequest.current) { setDevices(found); setDeviceError('') }
+      return found
+    } catch (value) {
+      if (request === deviceRequest.current) setDeviceError(t('app.deviceDiscoveryFailed', { message: value instanceof Error ? value.message : t('app.refreshFailed') }))
+      throw value
+    }
+  }, [])
+
+  const refresh = useCallback(async () => {
+    if (refreshLock.current) return
+    refreshLock.current = true
+    setRefreshing(true)
     setError('')
     try {
-      const status = await loadControlStatus(); setControl(status); setConnectionError(status.android.recoveryError || '')
+      const [result] = await Promise.allSettled([loadControlStatus(), discoverDevices()])
+      if (result.status === 'rejected') throw result.reason
+      const status = result.value
+      setControl(status); setConnectionError(status.android.recoveryError || '')
       if (status.preparation?.ready) setData(await loadBootstrap()); else setData(null)
     } catch (value) {
       setError(value instanceof Error ? value.message : t('app.refreshFailed'))
     } finally {
+      refreshLock.current = false
+      setRefreshing(false)
       setStatusLoaded(true)
+    }
+  }, [discoverDevices])
+
+  const startPreparation = async (serial: string) => {
+    if (actionLock.current || restartLock.current || control.busy || !control.csrfToken) return
+    actionLock.current = true
+    setPending('prepare')
+    setError('')
+    try {
+      const found = await discoverDevices()
+      const available = found.filter((device) => device.state === 'device')
+      const selected = available.find((device) => device.serial === serial)
+      if (available.length > 1 && !selected) throw new Error(t('prepare.chooseDevice'))
+      if (serial && !selected) throw new Error(t('app.deviceUnavailable'))
+      await prepareInstallation(selected ? selected.serial : '')
+      await refresh()
+    } catch (value) {
+      setError(value instanceof Error ? value.message : t('app.deviceChangeFailed'))
+    } finally {
+      actionLock.current = false
+      setPending(null)
+    }
+  }
+
+  const changeDevice = async (serial: string) => {
+    if (actionLock.current || restartLock.current || control.busy || !control.csrfToken || serial === control.android.serial) return
+    actionLock.current = true
+    setPending('device')
+    setError('')
+    try {
+      const status = await selectDevice(serial)
+      const bootstrap = status.preparation?.ready ? await loadBootstrap() : null
+      setControl(status)
+      setData(bootstrap)
+      setConnectionError(status.android.recoveryError || '')
+    } catch (value) {
+      setError(value instanceof Error ? value.message : t('app.deviceChangeFailed'))
+    } finally {
+      actionLock.current = false
+      setPending(null)
     }
   }
 
@@ -121,7 +187,23 @@ export default function App() {
     }
   }
 
-  useEffect(() => { void refresh() }, [locale])
+  useEffect(() => { void refresh() }, [locale, refresh])
+
+  useEffect(() => {
+    let cancelled = false
+    let polling = false
+    const timer = window.setInterval(async () => {
+      if (polling || actionLock.current || restartLock.current) return
+      polling = true
+      try {
+        if (!cancelled) await discoverDevices()
+      } catch { /* Discovery already reports errors and preserves the last list. */ }
+      finally {
+        polling = false
+      }
+    }, 10_000)
+    return () => { cancelled = true; window.clearInterval(timer) }
+  }, [discoverDevices])
 
   useEffect(() => {
     applyTheme(themeSettings)
@@ -137,16 +219,18 @@ export default function App() {
     let cancelled = false
     let polling = false
     const poll = async () => {
-      if (polling || restartLock.current) return
+      if (polling || restartLock.current || actionLock.current) return
       polling = true
       try {
         const status = await loadControlStatus()
-        if (cancelled || restartLock.current) return
+        if (cancelled || restartLock.current || actionLock.current) return
+        const bootstrap = !status.busy && status.preparation?.ready ? await loadBootstrap() : null
+        if (cancelled || restartLock.current || actionLock.current) return
         setConnectionError(status.android.recoveryError || '')
         setControl(status)
-        if (!status.busy && status.preparation?.ready && (control.busy || pending || !data)) {
+        if (bootstrap) {
           setPending(null)
-          setData(await loadBootstrap())
+          setData(bootstrap)
         }
       } catch (value) {
         if (!cancelled && !restartLock.current) setConnectionError(value instanceof Error ? value.message : t('app.connectionInterrupted'))
@@ -206,6 +290,10 @@ export default function App() {
   const active = data?.players.find((value) => value.Active)
   const effectivePending = restarting ? 'update' : pending ?? (control.busy ? control.operation ?? null : null)
   const controlsBusy = restarting || pending !== null || control.busy || !control.csrfToken
+  const availableDevices = devices.filter((device) => device.state === 'device')
+  const selectedSerial = control.android.serial || control.preparation?.serial || ''
+  const deviceChoice = availableDevices.find((device) => device.serial === selectedSerial || device.aliases?.includes(selectedSerial))?.serial || ''
+  const preparationPage = <PreparationPage state={preparation} pending={pending === 'prepare'} disabled={controlsBusy} onStart={() => void startPreparation(deviceChoice)} />
   const statusUnavailable = <div className="page" role="status"><h1>{t('app.statusUnavailable')}</h1><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>
   const changeThemeSettings = (nextSettings: ThemeSettings) => {
     saveThemeSettings(nextSettings)
@@ -234,13 +322,22 @@ export default function App() {
             <div className="topbar-compact-status"><span className={`mode-dot ${control.mode}`} /><strong>{controlsBusy ? operationCopy(effectivePending).title : modeCopy(control).title}</strong></div>
           </div>
           <ModeControls status={control} operation={effectivePending} busy={controlsBusy} onAction={(action) => void changeMode(action)} />
-          <button className="quiet-button refresh-button" disabled={controlsBusy} onClick={() => void refresh()} aria-label={t('app.refreshState')}><RefreshCw size={16} /> <span>{t('app.refresh')}</span></button>
+          <div className="topbar-actions">
+            <label className="device-selector">
+              <Smartphone size={16} aria-hidden="true" />
+              <select aria-label={t('app.chooseDevice')} title={deviceChoice ? `${availableDevices.find((device) => device.serial === deviceChoice)?.name} · ${deviceChoice}` : t('app.chooseDevice')} value={deviceChoice} disabled={controlsBusy || refreshing || availableDevices.length === 0} onChange={(event) => void changeDevice(event.target.value)}>
+                <option value="" disabled>{t(availableDevices.length === 0 ? 'app.noDevices' : 'app.chooseDevice')}</option>
+                {availableDevices.map((device) => <option key={device.serial} value={device.serial}>{device.name} · {device.serial}</option>)}
+              </select>
+            </label>
+            <button className="quiet-button refresh-button" disabled={controlsBusy || refreshing} onClick={() => void refresh()} aria-label={t('app.refreshState')} aria-busy={refreshing}><RefreshCw size={16} className={refreshing ? 'update-spinning' : undefined} /> <span>{t(refreshing ? 'app.refreshing' : 'app.refresh')}</span></button>
+          </div>
         </header>
-        {(error || connectionError) && <div className="global-error" role="alert"><span>{error || connectionError}</span><button onClick={() => { setError(''); setConnectionError('') }}>{t('common.close')}</button></div>}
+        {(error || connectionError || deviceError) && <div className="global-error" role="alert"><span>{error || connectionError || deviceError}</span><button onClick={() => { setError(''); setConnectionError(''); setDeviceError('') }}>{t('common.close')}</button></div>}
           <Routes key={locale}>
-            <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : !preparation.ready ? <PreparationPage state={preparation} refresh={refresh} /> : data ? <AccountsPage bootstrap={data} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
-            <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : preparation.ready ? <PacksPage reportError={setError} /> : <PreparationPage state={preparation} refresh={refresh} />} />
-            <Route path="/traffic" element={<TrafficPage serverRunning={control.server.running} />} />
+            <Route path="/accounts" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : !preparation.ready ? preparationPage : data ? <AccountsPage key={data.emulator} bootstrap={data} devices={availableDevices} refresh={refresh} reportError={setError} canLaunch={control.mode === 'local' && control.server.running && control.android.connected && !controlsBusy} /> : <div className="page"><h1>{t('app.accounts')}</h1><p role="status">{error || t('app.loadAccounts')}</p><button className="secondary-button" onClick={() => void refresh()}>{t('app.refresh')}</button></div>} />
+            <Route path="/packs" element={!statusLoaded ? <div className="page-loading" role="status">{t('common.loading')}</div> : !control.csrfToken ? statusUnavailable : preparation.ready ? <PacksPage reportError={setError} /> : preparationPage} />
+            <Route path="/traffic" element={<TrafficPage key={control.android.serial} serverRunning={control.server.running} />} />
             <Route path="/logs" element={<LogsPage />} />
             <Route path="/settings" element={<SettingsPage settings={themeSettings} onSettingsChange={changeThemeSettings} />} />
             <Route path="*" element={<Navigate to="/accounts" replace />} />

@@ -2,12 +2,66 @@ package control
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"strings"
 	"testing"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 )
+
+type hostsRunner struct {
+	labelErr error
+	labeled  bool
+	mounted  bool
+}
+
+func (r *hostsRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
+	call := strings.Join(args, " ")
+	if len(args) > 2 && args[2] == "push" && args[len(args)-1] == "/data/local/tmp/hosts.ptcgp" {
+		return nil, errors.New("ADB cannot overwrite root-owned hosts")
+	}
+	if strings.Contains(call, "chcon u:object_r:system_file:s0") {
+		if r.labelErr != nil {
+			return nil, r.labelErr
+		}
+		r.labeled = true
+	}
+	if strings.Contains(call, "mount --bind") {
+		if !r.labeled {
+			return nil, errors.New("netd cannot read unlabeled hosts")
+		}
+		r.mounted = true
+	}
+	return nil, nil
+}
+
+func TestInstallAndroidHostsSupportsRepeatedRootOwnedOverlay(t *testing.T) {
+	commands := &hostsRunner{}
+	r := &NativeRunner{commands: commands}
+	for range 2 {
+		commands.labeled = false
+		commands.mounted = false
+		if err := r.installAndroidHosts(context.Background(), "serial", "hosts"); err != nil {
+			t.Fatal(err)
+		}
+		if !commands.mounted {
+			t.Fatal("hosts overlay was not mounted")
+		}
+	}
+}
+
+func TestInstallAndroidHostsRejectsUnreadableSELinuxOverlay(t *testing.T) {
+	labelErr := errors.New("SELinux label rejected")
+	commands := &hostsRunner{labelErr: labelErr}
+	r := &NativeRunner{commands: commands}
+	if err := r.installAndroidHosts(context.Background(), "serial", "hosts"); !errors.Is(err, labelErr) {
+		t.Fatalf("got %v, want label failure %v", err, labelErr)
+	}
+	if commands.mounted {
+		t.Fatal("unreadable hosts overlay was mounted despite label failure")
+	}
+}
 
 type caStoreRunner struct {
 	apex           bool

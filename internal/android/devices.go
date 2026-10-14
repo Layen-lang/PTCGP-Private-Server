@@ -3,26 +3,40 @@ package android
 import (
 	"context"
 	"strings"
+	"time"
 )
 
 type Device struct {
-	Serial string `json:"serial"`
-	Name   string `json:"name"`
-	State  string `json:"state"`
+	Serial  string   `json:"serial"`
+	Name    string   `json:"name"`
+	State   string   `json:"state"`
+	Aliases []string `json:"aliases,omitempty"`
 }
 
 // Devices includes unauthorized and offline devices so the panel can explain
-// why an emulator cannot be selected. Only local configured endpoints are used.
+// why an emulator cannot be selected. Local forwarding endpoints are refreshed
+// even while another emulator remains connected.
 func Devices(ctx context.Context, runner Runner) ([]Device, error) {
-	for _, endpoint := range blueStacksEndpoints() {
-		_, _ = runner.Run(ctx, "adb", "connect", endpoint)
+	return listDevices(ctx, runner, localEmulatorEndpoints())
+}
+
+func listDevices(ctx context.Context, runner Runner, endpoints []string) ([]Device, error) {
+	for _, endpoint := range endpoints {
+		probeCtx, cancel := context.WithTimeout(ctx, 1500*time.Millisecond)
+		// Stopped emulators normally refuse the connection. Continue listing
+		// the other devices after this bounded probe.
+		_, _ = runner.Run(probeCtx, "adb", "connect", endpoint)
+		cancel()
+		if err := ctx.Err(); err != nil {
+			return nil, err
+		}
 	}
 	data, err := runner.Run(ctx, "adb", "devices", "-l")
 	if err != nil {
 		return nil, err
 	}
 	result := []Device{}
-	seen := map[string]bool{}
+	seen := map[string]int{}
 	for _, line := range strings.Split(string(data), "\n") {
 		f := strings.Fields(line)
 		if len(f) < 2 || f[0] == "List" {
@@ -41,11 +55,15 @@ func Devices(ctx context.Context, runner Runner) ([]Device, error) {
 				name = strings.TrimSpace(string(model))
 			}
 		}
-		if seen[identity] {
+		if index, exists := seen[identity]; exists {
+			if len(result[index].Aliases) == 0 {
+				result[index].Aliases = []string{result[index].Serial}
+			}
+			result[index].Aliases = append(result[index].Aliases, serial)
 			continue
 		}
-		seen[identity] = true
-		result = append(result, Device{serial, name, f[1]})
+		seen[identity] = len(result)
+		result = append(result, Device{Serial: serial, Name: name, State: f[1]})
 	}
 	return result, nil
 }

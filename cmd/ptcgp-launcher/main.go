@@ -83,7 +83,12 @@ func runPanel(args []string) {
 	if err != nil {
 		fatal(err)
 	}
-	runner, err := control.NewNativeRunner(cfg, *projectRoot)
+	state, err := store.Open(context.Background(), cfg.Runtime.Database)
+	if err != nil {
+		fatal(err)
+	}
+	defer state.Close()
+	runner, err := control.NewMultiRunner(cfg, *projectRoot, state)
 	if err != nil {
 		fatal(err)
 	}
@@ -104,11 +109,6 @@ func runPanel(args []string) {
 	}
 	preparation := provision.New(cfg, *projectRoot, program)
 	updater := updates.New(*projectRoot, program)
-	state, err := store.Open(context.Background(), cfg.Runtime.Database)
-	if err != nil {
-		fatal(err)
-	}
-	defer state.Close()
 	defer handler.ClosePreparation()
 	activatePrepared := func(prepared configuration.Config) error {
 		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
@@ -120,7 +120,7 @@ func runPanel(args []string) {
 			return err
 		}
 		master := catalogs.Default()
-		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithTrafficHistory(prepared.Runtime.TrafficLog))
+		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithDeviceTrafficHistory(handler.TrafficHistory))
 		if err != nil {
 			return err
 		}
@@ -147,6 +147,9 @@ func runPanel(args []string) {
 	handler.SetUpdates(updater, func() error { return updates.StartInstaller(*projectRoot, updater.PreparedKey()) })
 	updateCtx, stopUpdates := context.WithCancel(context.Background())
 	defer stopUpdates()
+	if filepath.Clean(program) == filepath.Clean(*projectRoot) {
+		go updater.Cleanup(updateCtx)
+	}
 	go func() {
 		for {
 			currentConfig := cfg
@@ -178,7 +181,7 @@ func runPanel(args []string) {
 	defer removeOwnedPID(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.pid"))
 	slog.Info("control panel available", "address", "http://"+*address)
 	journal.Record("panel", "success", "Administration available at http://"+*address)
-	serveResult := make(chan error, 1)
+	serveResult := make(chan error, 2)
 	listener, err := net.Listen("tcp", *address)
 	if err != nil {
 		fatal(err)
@@ -192,6 +195,21 @@ func runPanel(args []string) {
 		fatal(err)
 	}
 	go func() { serveResult <- server.Serve(listener) }()
+	if cfg.Runtime.LANAddress != "" {
+		lanListener, err := net.Listen("tcp4", cfg.Runtime.LANAddress)
+		if err != nil {
+			fatal(err)
+		}
+		lanServer := &http.Server{
+			Handler:           control.LANHandler(handler, *address),
+			ReadHeaderTimeout: 10 * time.Second,
+			IdleTimeout:       90 * time.Second,
+		}
+		defer lanServer.Close()
+		go func() { serveResult <- lanServer.Serve(lanListener) }()
+		slog.Info("Wi-Fi control panel available", "address", cfg.Runtime.LANAddress)
+		journal.Record("panel", "success", "Wi-Fi panel listening on "+cfg.Runtime.LANAddress)
+	}
 	if !preparation.Status().Ready {
 		handler.StartPreparation("")
 	}

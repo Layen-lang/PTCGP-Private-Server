@@ -130,8 +130,14 @@ func (r *NativeRunner) EnsureExecutables(ctx context.Context) error {
 		if err := r.buildCommand(ctx, r.root, "go", "build", "-buildvcs=false", "-o", candidate, "./cmd/ptcgp-"+target.name); err != nil {
 			return err
 		}
-		if err := r.stopProcess(target.name, target.executable); err != nil {
-			return err
+		var stopErr error
+		if target.name == "server" {
+			stopErr = r.stopServersForBuild()
+		} else {
+			stopErr = r.stopProcess(target.name, target.executable)
+		}
+		if stopErr != nil {
+			return stopErr
 		}
 		if err := replaceExecutable(ctx, candidate, target.executable); err != nil {
 			return err

@@ -14,11 +14,19 @@ data.
 
 ## Safe operation
 
-- Keep every service bound to `127.0.0.1`.
-- Do not expose ports 443, 8080, or 8081 to a LAN or the Internet.
+- Keep each device's game and administration services bound to `127.0.0.1`,
+  including automatically allocated ports for additional devices.
+- The primary panel stays on loopback. The bundled configuration also enables
+  the separate home Wi-Fi listener described in [Configuration](docs/CONFIGURATION.md#runtime);
+  remove `runtime.lanAddress` to disable it. Do not expose any service to the Internet.
 - Never reuse the generated local certificate authority for another purpose.
 - Treat databases, logs, HAR files, and Android backups as private data.
-- Return the client to **Official** mode before using an official account.
+- Return the selected device to **Official** mode before using an official
+  account there. **Stop all** restores every managed device.
+
+These requirements also apply to rooted physical phones. For Wi-Fi ADB, use a
+trusted local network and disable wireless debugging or TCP ADB after restoring
+Official mode, as described in the [phone setup guide](docs/INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
 
 The project is intended for local development and interoperability research. It
 is not hardened as an Internet-facing service.

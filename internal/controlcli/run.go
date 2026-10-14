@@ -14,6 +14,7 @@ import (
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/control"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
 )
 
 // Run manages the local panel, game server, and Android routing.
@@ -80,10 +81,20 @@ func Run(args []string) error {
 		return runner.SetupAndroid(ctx, action)
 	}
 	var status control.Status
+	state, err := store.Open(ctx, cfg.Runtime.Database)
+	if err != nil {
+		return err
+	}
+	defer state.Close()
+	devices, err := control.NewMultiRunner(cfg, root, state)
+	if err != nil {
+		return err
+	}
+	devices.SetJournal(journal)
 	if action == "status" {
-		status, err = runner.Status(ctx)
+		status, err = devices.Status(ctx)
 	} else {
-		status, err = runner.Action(ctx, control.Action(action))
+		status, err = devices.Action(ctx, control.Action(action))
 	}
 	if err != nil {
 		return err

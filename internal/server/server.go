@@ -59,7 +59,7 @@ func Run(ctx context.Context, config Config, logger *slog.Logger) error {
 		return err
 	}
 	defer state.Close()
-	players := player.New(state, catalogInfo)
+	players := player.NewForEmulator(state, catalogInfo, config.ADBSerial)
 	packs := packlab.New(state, catalogInfo)
 	trafficRecorder, err := traffic.Open(config.TrafficLogPath)
 	if err != nil {

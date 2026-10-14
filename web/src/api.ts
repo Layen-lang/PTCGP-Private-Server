@@ -1,4 +1,4 @@
-import type { Bootstrap, CardPage, CatalogResult, ControlLogs, ControlStatus, IllegalPackRule, PackRule, PackStudio, Profile, StockAmount, TrafficEvent, VisualCatalogItem } from './types'
+import type { AndroidDevice, Bootstrap, CardPage, CatalogResult, ControlLogs, ControlStatus, IllegalPackRule, PackRule, PackStudio, Profile, StockAmount, TrafficEvent, VisualCatalogItem } from './types'
 import { getLocale, t } from './i18n'
 
 let csrfToken = ''
@@ -139,6 +139,7 @@ export const api = {
   },
 }
 
-export const loadDevices = () => request<{serial:string;name:string;state:string}[]>('/api/control/devices')
+export const loadDevices = () => request<AndroidDevice[]>('/api/control/devices')
 export const prepareInstallation = (serial: string) => request('/api/control/prepare', {method:'POST',headers:{'X-Control-CSRF-Token':controlToken},body:JSON.stringify({serial})})
+export const selectDevice = (serial: string) => request<ControlStatus>('/api/control/device', {method:'POST',headers:{'X-Control-CSRF-Token':controlToken},body:JSON.stringify({serial})})
 export const installUpdate = () => request<{restarting: boolean; previousPID: number}>('/api/control/update', {method:'POST',headers:{'X-Control-CSRF-Token':controlToken}})

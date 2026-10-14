@@ -11,7 +11,7 @@ This page covers the source workflow. For the component model first, read
   `aarch64-unknown-linux-musl` targets for the importer and Android readers.
 - ADB available on `PATH`.
 - Windows for launcher, system-tray, and Android integration testing.
-- A compatible rooted emulator for end-to-end tests.
+- A compatible rooted Android emulator or physical phone for end-to-end tests.
 
 ## Install dependencies
 
