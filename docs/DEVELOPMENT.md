@@ -106,7 +106,9 @@ GAME_MAJOR.GAME_MINOR.GAME_PATCH.PROJECT_REVISION
 ```
 
 For example, `1.7.2.0` is the first project release for game version `1.7.2`.
-Git tags use the same value with a `v` prefix.
+Git tags use the same value with a `v` prefix. The README release badge reads
+the latest GitHub release tag, so the displayed project version updates
+automatically after each release.
 
 ## Release process
 
