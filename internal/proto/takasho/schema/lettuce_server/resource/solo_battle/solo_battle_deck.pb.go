@@ -24,9 +24,10 @@ const (
 type SoloBattleDeck_Types_DeckType int32
 
 const (
-	SoloBattleDeck_Types_DECK_TYPE_UNSPECIFIED SoloBattleDeck_Types_DeckType = 0
-	SoloBattleDeck_Types_DECK_TYPE_MY_DECK     SoloBattleDeck_Types_DeckType = 1
-	SoloBattleDeck_Types_DECK_TYPE_RENTAL_DECK SoloBattleDeck_Types_DeckType = 2
+	SoloBattleDeck_Types_DECK_TYPE_UNSPECIFIED    SoloBattleDeck_Types_DeckType = 0
+	SoloBattleDeck_Types_DECK_TYPE_MY_DECK        SoloBattleDeck_Types_DeckType = 1
+	SoloBattleDeck_Types_DECK_TYPE_RENTAL_DECK    SoloBattleDeck_Types_DeckType = 2
+	SoloBattleDeck_Types_DECK_TYPE_RENTAL_DECK_V2 SoloBattleDeck_Types_DeckType = 3
 )
 
 // Enum value maps for SoloBattleDeck_Types_DeckType.
@@ -35,11 +36,13 @@ var (
 		0: "DECK_TYPE_UNSPECIFIED",
 		1: "DECK_TYPE_MY_DECK",
 		2: "DECK_TYPE_RENTAL_DECK",
+		3: "DECK_TYPE_RENTAL_DECK_V2",
 	}
 	SoloBattleDeck_Types_DeckType_value = map[string]int32{
-		"DECK_TYPE_UNSPECIFIED": 0,
-		"DECK_TYPE_MY_DECK":     1,
-		"DECK_TYPE_RENTAL_DECK": 2,
+		"DECK_TYPE_UNSPECIFIED":    0,
+		"DECK_TYPE_MY_DECK":        1,
+		"DECK_TYPE_RENTAL_DECK":    2,
+		"DECK_TYPE_RENTAL_DECK_V2": 3,
 	}
 )
 
@@ -170,17 +173,18 @@ var File_takasho_schema_lettuce_server_resource_solo_battle_solo_battle_deck_pro
 
 const file_takasho_schema_lettuce_server_resource_solo_battle_solo_battle_deck_proto_rawDesc = "" +
 	"\n" +
-	"Itakasho/schema/lettuce_server/resource/solo_battle/solo_battle_deck.proto\x122takasho.schema.lettuce_server.resource.solo_battle\"\x9d\x02\n" +
+	"Itakasho/schema/lettuce_server/resource/solo_battle/solo_battle_deck.proto\x122takasho.schema.lettuce_server.resource.solo_battle\"\xbb\x02\n" +
 	"\x0eSoloBattleDeck\x12e\n" +
 	"\x04type\x18\x01 \x01(\x0e2Q.takasho.schema.lettuce_server.resource.solo_battle.SoloBattleDeck.Types.DeckTypeR\x04type\x12\x1c\n" +
 	"\n" +
 	"my_deck_id\x18\x02 \x01(\x03R\bmyDeckId\x12$\n" +
-	"\x0erental_deck_id\x18\x03 \x01(\tR\frentalDeckId\x1a`\n" +
-	"\x05Types\"W\n" +
+	"\x0erental_deck_id\x18\x03 \x01(\tR\frentalDeckId\x1a~\n" +
+	"\x05Types\"u\n" +
 	"\bDeckType\x12\x19\n" +
 	"\x15DECK_TYPE_UNSPECIFIED\x10\x00\x12\x15\n" +
 	"\x11DECK_TYPE_MY_DECK\x10\x01\x12\x19\n" +
-	"\x15DECK_TYPE_RENTAL_DECK\x10\x02BzZxgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/solo_battle;solo_battleb\x06proto3"
+	"\x15DECK_TYPE_RENTAL_DECK\x10\x02\x12\x1c\n" +
+	"\x18DECK_TYPE_RENTAL_DECK_V2\x10\x03BzZxgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/solo_battle;solo_battleb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_solo_battle_solo_battle_deck_proto_rawDescOnce sync.Once

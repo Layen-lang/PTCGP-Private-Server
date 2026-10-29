@@ -87,6 +87,8 @@ func appendCatalogItem(items *itempb.InventoryItems, change store.ShopInventoryC
 	switch definition.Kind {
 	case catalog.ItemPackCharger:
 		items.PackPowerChargers = append(items.PackPowerChargers, &itempb.PackPowerCharger{Type: itempb.PackPowerCharger_Types_TYPE_LARGE, Amount: amount})
+	case catalog.ItemSpecialPackTicket:
+		items.SpecialPackTickets = append(items.SpecialPackTickets, &itempb.SpecialPackTicket{Id: change.ID, Amount: int64(amount)})
 	case catalog.ItemChallengeCharger:
 		items.ChallengePowerChargers = append(items.ChallengePowerChargers, &itempb.ChallengePowerCharger{Type: itempb.ChallengePowerCharger_Types_TYPE_LARGE, Amount: amount})
 	case catalog.ItemEventCharger:

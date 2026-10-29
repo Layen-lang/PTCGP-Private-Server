@@ -24,9 +24,10 @@ const (
 type PvpBattleDeck_Types_DeckType int32
 
 const (
-	PvpBattleDeck_Types_DECK_TYPE_UNSPECIFIED PvpBattleDeck_Types_DeckType = 0
-	PvpBattleDeck_Types_DECK_TYPE_MY_DECK     PvpBattleDeck_Types_DeckType = 1
-	PvpBattleDeck_Types_DECK_TYPE_RENTAL_DECK PvpBattleDeck_Types_DeckType = 2
+	PvpBattleDeck_Types_DECK_TYPE_UNSPECIFIED    PvpBattleDeck_Types_DeckType = 0
+	PvpBattleDeck_Types_DECK_TYPE_MY_DECK        PvpBattleDeck_Types_DeckType = 1
+	PvpBattleDeck_Types_DECK_TYPE_RENTAL_DECK    PvpBattleDeck_Types_DeckType = 2
+	PvpBattleDeck_Types_DECK_TYPE_RENTAL_DECK_V2 PvpBattleDeck_Types_DeckType = 3
 )
 
 // Enum value maps for PvpBattleDeck_Types_DeckType.
@@ -35,11 +36,13 @@ var (
 		0: "DECK_TYPE_UNSPECIFIED",
 		1: "DECK_TYPE_MY_DECK",
 		2: "DECK_TYPE_RENTAL_DECK",
+		3: "DECK_TYPE_RENTAL_DECK_V2",
 	}
 	PvpBattleDeck_Types_DeckType_value = map[string]int32{
-		"DECK_TYPE_UNSPECIFIED": 0,
-		"DECK_TYPE_MY_DECK":     1,
-		"DECK_TYPE_RENTAL_DECK": 2,
+		"DECK_TYPE_UNSPECIFIED":    0,
+		"DECK_TYPE_MY_DECK":        1,
+		"DECK_TYPE_RENTAL_DECK":    2,
+		"DECK_TYPE_RENTAL_DECK_V2": 3,
 	}
 )
 
@@ -170,17 +173,18 @@ var File_takasho_schema_lettuce_server_resource_pvp_pvp_battle_deck_proto protor
 
 const file_takasho_schema_lettuce_server_resource_pvp_pvp_battle_deck_proto_rawDesc = "" +
 	"\n" +
-	"@takasho/schema/lettuce_server/resource/pvp/pvp_battle_deck.proto\x12*takasho.schema.lettuce_server.resource.pvp\"\x93\x02\n" +
+	"@takasho/schema/lettuce_server/resource/pvp/pvp_battle_deck.proto\x12*takasho.schema.lettuce_server.resource.pvp\"\xb1\x02\n" +
 	"\rPvpBattleDeck\x12\\\n" +
 	"\x04type\x18\x01 \x01(\x0e2H.takasho.schema.lettuce_server.resource.pvp.PvpBattleDeck.Types.DeckTypeR\x04type\x12\x1c\n" +
 	"\n" +
 	"my_deck_id\x18\x02 \x01(\x03R\bmyDeckId\x12$\n" +
-	"\x0erental_deck_id\x18\x03 \x01(\tR\frentalDeckId\x1a`\n" +
-	"\x05Types\"W\n" +
+	"\x0erental_deck_id\x18\x03 \x01(\tR\frentalDeckId\x1a~\n" +
+	"\x05Types\"u\n" +
 	"\bDeckType\x12\x19\n" +
 	"\x15DECK_TYPE_UNSPECIFIED\x10\x00\x12\x15\n" +
 	"\x11DECK_TYPE_MY_DECK\x10\x01\x12\x19\n" +
-	"\x15DECK_TYPE_RENTAL_DECK\x10\x02BjZhgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pvp;pvpb\x06proto3"
+	"\x15DECK_TYPE_RENTAL_DECK\x10\x02\x12\x1c\n" +
+	"\x18DECK_TYPE_RENTAL_DECK_V2\x10\x03BjZhgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pvp;pvpb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_pvp_pvp_battle_deck_proto_rawDescOnce sync.Once

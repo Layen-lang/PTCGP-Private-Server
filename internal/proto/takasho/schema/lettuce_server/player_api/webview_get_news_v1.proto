@@ -14,6 +14,7 @@ message WebviewGetNewsV1 {
       string news_url = 2;
       bool force_show = 3;
       string force_show_url = 4;
+      repeated string force_show_urls = 5;
     }
   }
 }

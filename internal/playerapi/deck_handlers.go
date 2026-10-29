@@ -3,10 +3,12 @@ package playerapi
 import (
 	"context"
 
+	cardcatalog "github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
 	api "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api"
 	cardpb "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/card"
 	deckpb "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck"
+	friendpb "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/friend"
 	language "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/language"
 	pokemon "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pokemon"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
@@ -112,6 +114,65 @@ func (s deckServer) ChangeOrderV1(ctx context.Context, request *api.DeckChangeOr
 		return nil, status.Error(codes.Internal, "cannot reorder local decks")
 	}
 	return &api.DeckChangeOrderV1_Types_Response{}, nil
+}
+
+// GetSomeoneDecksV1 exposes the first deck of every local friend. Friends and
+// decks are index-aligned because SomeoneDeck carries no owner identifier.
+func (s deckServer) GetSomeoneDecksV1(ctx context.Context, _ *api.DeckGetSomeoneDecksV1_Types_Request) (*api.DeckGetSomeoneDecksV1_Types_Response, error) {
+	current, err := currentPlayer(ctx)
+	if err != nil {
+		return nil, err
+	}
+	social, err := s.players.SocialSnapshot(ctx, current.ID)
+	if err != nil {
+		return nil, status.Error(codes.Internal, "cannot load local friends")
+	}
+	catalog := s.players.Catalog()
+	response := &api.DeckGetSomeoneDecksV1_Types_Response{}
+	for _, link := range social.Friends {
+		decks, err := s.players.Decks(ctx, link.PlayerID)
+		if err != nil {
+			return nil, status.Error(codes.Internal, "cannot load friend decks")
+		}
+		if len(decks) == 0 {
+			continue
+		}
+		profile, err := s.players.Profile(ctx, link.PlayerID)
+		if err != nil {
+			continue
+		}
+		response.Friends = append(response.Friends, &friendpb.Friend{PlayerId: link.PlayerID, BecameFriendsAt: timestamppb.New(link.Since), Profile: profileSpine(profile)})
+		response.SomeoneDecks = append(response.SomeoneDecks, someoneDeck(decks[0], catalog))
+	}
+	return response, nil
+}
+
+// CountSomeoneDeckV1 acknowledges a copied deck; popularity is not ranked locally.
+func (deckServer) CountSomeoneDeckV1(ctx context.Context, request *api.DeckCountSomeoneDeckV1_Types_Request) (*api.DeckCountSomeoneDeckV1_Types_Response, error) {
+	if _, err := currentPlayer(ctx); err != nil {
+		return nil, err
+	}
+	if request.GetSomeoneDeck() == nil {
+		return nil, status.Error(codes.InvalidArgument, "someone_deck is required")
+	}
+	return &api.DeckCountSomeoneDeckV1_Types_Response{}, nil
+}
+
+func someoneDeck(value store.Deck, catalog player.CatalogView) *deckpb.SomeoneDeck {
+	result := &deckpb.SomeoneDeck{}
+	for _, energy := range value.EnergyTypes {
+		result.EnergyTypes = append(result.EnergyTypes, pokemon.EnergyType(energy))
+	}
+	for _, card := range catalog.Cards {
+		for count := int64(0); count < value.Cards[card.ID]; count++ {
+			if card.Kind == cardcatalog.TrainerCard {
+				result.TrainerIds = append(result.TrainerIds, card.ID)
+			} else {
+				result.PokemonIds = append(result.PokemonIds, card.ID)
+			}
+		}
+	}
+	return result
 }
 
 func protoDeck(value store.Deck, catalog player.CatalogView, language language.Language) *deckpb.Deck {

@@ -17,6 +17,7 @@ import "takasho/schema/lettuce_server/resource/item/profile_decoration.proto";
 import "takasho/schema/lettuce_server/resource/item/rental_deck.proto";
 import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
 import "takasho/schema/lettuce_server/resource/item/reward_ticket.proto";
+import "takasho/schema/lettuce_server/resource/item/special_pack_ticket.proto";
 import "takasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto";
 import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
 import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
@@ -78,5 +79,6 @@ message PresentItem {
     takasho.schema.lettuce_server.resource.card_skin.CardSkinStock card_skin = 17;
     takasho.schema.lettuce_server.resource.item.TradeTicket trade_ticket = 20;
     takasho.schema.lettuce_server.resource.card_frame.CardFrameStock card_frame = 21;
+    takasho.schema.lettuce_server.resource.item.SpecialPackTicket special_pack_ticket = 22;
   }
 }

@@ -7,6 +7,7 @@
 package player_api
 
 import (
+	deck "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck"
 	item_acquisition "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/item_acquisition"
 	pvp "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pvp"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -169,6 +170,8 @@ type PvpRankFinishBattleV1_Types_Response struct {
 	Result                pvp.PvPResult                           `protobuf:"varint,2,opt,name=result,proto3,enum=takasho.schema.lettuce_server.resource.pvp.PvPResult" json:"result,omitempty"`
 	PointShift            *pvp.RankPointShift                     `protobuf:"bytes,3,opt,name=point_shift,json=pointShift,proto3" json:"point_shift,omitempty"`
 	RankRecorded          bool                                    `protobuf:"varint,4,opt,name=rank_recorded,json=rankRecorded,proto3" json:"rank_recorded,omitempty"`
+	OpponentDeck          *deck.Deck                              `protobuf:"bytes,5,opt,name=opponent_deck,json=opponentDeck,proto3" json:"opponent_deck,omitempty"`
+	OpponentRentalDeckId  string                                  `protobuf:"bytes,6,opt,name=opponent_rental_deck_id,json=opponentRentalDeckId,proto3" json:"opponent_rental_deck_id,omitempty"`
 	unknownFields         protoimpl.UnknownFields
 	sizeCache             protoimpl.SizeCache
 }
@@ -231,24 +234,40 @@ func (x *PvpRankFinishBattleV1_Types_Response) GetRankRecorded() bool {
 	return false
 }
 
+func (x *PvpRankFinishBattleV1_Types_Response) GetOpponentDeck() *deck.Deck {
+	if x != nil {
+		return x.OpponentDeck
+	}
+	return nil
+}
+
+func (x *PvpRankFinishBattleV1_Types_Response) GetOpponentRentalDeckId() string {
+	if x != nil {
+		return x.OpponentRentalDeckId
+	}
+	return ""
+}
+
 var File_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_proto_rawDesc = "" +
 	"\n" +
-	"Htakasho/schema/lettuce_server/player_api/pvp_rank_finish_battle_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1aUtakasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto\x1a<takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto\x1aItakasho/schema/lettuce_server/resource/pvp/pvp_battle_client_report.proto\x1aAtakasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto\"\xa6\x05\n" +
-	"\x15PvpRankFinishBattleV1\x1a\x8c\x05\n" +
+	"Htakasho/schema/lettuce_server/player_api/pvp_rank_finish_battle_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a6takasho/schema/lettuce_server/resource/deck/deck.proto\x1aUtakasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto\x1a<takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto\x1aItakasho/schema/lettuce_server/resource/pvp/pvp_battle_client_report.proto\x1aAtakasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto\"\xb5\x06\n" +
+	"\x15PvpRankFinishBattleV1\x1a\x9b\x06\n" +
 	"\x05Types\x1a\x9b\x02\n" +
 	"\aRequest\x12\x15\n" +
 	"\x06is_bot\x18\x01 \x01(\bR\x05isBot\x12.\n" +
 	"\x13finish_battle_token\x18\x02 \x01(\tR\x11finishBattleToken\x12a\n" +
 	"\x11bot_battle_result\x18\x03 \x01(\x0e25.takasho.schema.lettuce_server.resource.pvp.PvPResultR\x0fbotBattleResult\x12f\n" +
-	"\rclient_report\x18\x04 \x01(\v2A.takasho.schema.lettuce_server.resource.pvp.PvpBattleClientReportR\fclientReport\x1a\xe4\x02\n" +
+	"\rclient_report\x18\x04 \x01(\v2A.takasho.schema.lettuce_server.resource.pvp.PvpBattleClientReportR\fclientReport\x1a\xf3\x03\n" +
 	"\bResponse\x12\x86\x01\n" +
 	"\x17item_acquisition_result\x18\x01 \x01(\v2N.takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResultR\x15itemAcquisitionResult\x12M\n" +
 	"\x06result\x18\x02 \x01(\x0e25.takasho.schema.lettuce_server.resource.pvp.PvPResultR\x06result\x12[\n" +
 	"\vpoint_shift\x18\x03 \x01(\v2:.takasho.schema.lettuce_server.resource.pvp.RankPointShiftR\n" +
 	"pointShift\x12#\n" +
-	"\rrank_recorded\x18\x04 \x01(\bR\frankRecordedBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\rrank_recorded\x18\x04 \x01(\bR\frankRecorded\x12V\n" +
+	"\ropponent_deck\x18\x05 \x01(\v21.takasho.schema.lettuce_server.resource.deck.DeckR\fopponentDeck\x125\n" +
+	"\x17opponent_rental_deck_id\x18\x06 \x01(\tR\x14opponentRentalDeckIdBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_proto_rawDescOnce sync.Once
@@ -272,6 +291,7 @@ var file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_prot
 	(*pvp.PvpBattleClientReport)(nil),              // 5: takasho.schema.lettuce_server.resource.pvp.PvpBattleClientReport
 	(*item_acquisition.ItemAcquisitionResult)(nil), // 6: takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
 	(*pvp.RankPointShift)(nil),                     // 7: takasho.schema.lettuce_server.resource.pvp.RankPointShift
+	(*deck.Deck)(nil),                              // 8: takasho.schema.lettuce_server.resource.deck.Deck
 }
 var file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_proto_depIdxs = []int32{
 	4, // 0: takasho.schema.lettuce_server.player_api.PvpRankFinishBattleV1.Types.Request.bot_battle_result:type_name -> takasho.schema.lettuce_server.resource.pvp.PvPResult
@@ -279,11 +299,12 @@ var file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_prot
 	6, // 2: takasho.schema.lettuce_server.player_api.PvpRankFinishBattleV1.Types.Response.item_acquisition_result:type_name -> takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult
 	4, // 3: takasho.schema.lettuce_server.player_api.PvpRankFinishBattleV1.Types.Response.result:type_name -> takasho.schema.lettuce_server.resource.pvp.PvPResult
 	7, // 4: takasho.schema.lettuce_server.player_api.PvpRankFinishBattleV1.Types.Response.point_shift:type_name -> takasho.schema.lettuce_server.resource.pvp.RankPointShift
-	5, // [5:5] is the sub-list for method output_type
-	5, // [5:5] is the sub-list for method input_type
-	5, // [5:5] is the sub-list for extension type_name
-	5, // [5:5] is the sub-list for extension extendee
-	0, // [0:5] is the sub-list for field type_name
+	8, // 5: takasho.schema.lettuce_server.player_api.PvpRankFinishBattleV1.Types.Response.opponent_deck:type_name -> takasho.schema.lettuce_server.resource.deck.Deck
+	6, // [6:6] is the sub-list for method output_type
+	6, // [6:6] is the sub-list for method input_type
+	6, // [6:6] is the sub-list for extension type_name
+	6, // [6:6] is the sub-list for extension extendee
+	0, // [0:6] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_player_api_pvp_rank_finish_battle_v1_proto_init() }

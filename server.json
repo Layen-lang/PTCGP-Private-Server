@@ -11,34 +11,34 @@
     "serverAddress": "10.0.2.2"
   },
   "client": {
-    "androidAssetAladdinHash": "adfe0befe013193d",
-    "appVersion": "1.7.5",
+    "androidAssetAladdinHash": "a3f18ae638944c4a",
+    "appVersion": "1.8.1",
     "assetBaseURL": "https://prod-game-assets-app-41283.akamaized.net/",
     "baasHost": "1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com",
     "baasSDKVersion": "Unity-3.13.2-78c28a494",
-    "buildHash": "6f48a250e380292087bb8583a71ad3da58a35ee9",
+    "buildHash": "6f1ee3fc8d6205987be19e78a6474777a5494f96",
     "clientSDKVersion": "2.0.0",
-    "masterMemoryAladdinHash": "4b9e172aa0279624",
+    "masterMemoryAladdinHash": "88bf93add75e5e52",
     "playerAPIHost": "player-api-prod.app-41283.com",
     "responseProtocolVersion": "v8.2.9",
-    "sdkVersion": "v8.0.8"
+    "sdkVersion": "v9.2.0"
   },
   "contracts": {
-    "descriptorSHA256": "436bfa0e78f8b35b43c682f89696b790ee3e8ad87b982ae74ff7bb09a7433c2c",
+    "descriptorSHA256": "c7a162e23a95eff95da30a21728155671762175cb6dce5d2d92a95050d616dd6",
     "fingerprint": "declaration-order-v1",
-    "methods": 243,
-    "services": 68
+    "methods": 251,
+    "services": 69
   },
   "patch": {
-    "expected_hex": "ffc302d1fd7b05a9fc6f06a9fa6707a9",
+    "expected_hex": "ff8302d1fd7b05a9fa6706a9f85f07a9",
     "library": "libCysharp.Net.Http.YetAnotherHttpHandler.Native.so",
-    "name": "PTCGP 1.7.5 Yaha local TLS",
-    "offset": 1601044,
+    "name": "PTCGP 1.8.1 Yaha local TLS",
+    "offset": 1296204,
     "rationale": "derive the TLS flag store from the current exported setter and return success from the root-certificate entrypoint",
     "replacement_hex": "2100805201400f39000080d2c0035fd6",
-    "source_sha256": "00368cbd8da1423c9c6c359ca11008f548128d2c73274902759a4338c2580083",
-    "target_sha256": "ba0d1633d79e734c37808c02623a75d06fef7cd17bdc520ce63ca449f4a6d4b0",
-    "version": "1.7.5"
+    "source_sha256": "1ec31d56f39eb3717bda082f5c2754e029fb18f6e83668ed1f4d3219a7f0d48d",
+    "target_sha256": "16ced2a3bbcc278b89d0f1cdd3ab07e41ddb5b97ce3ab294ba6ef14c7755bb1f",
+    "version": "1.8.1"
   },
   "runtime": {
     "address": "127.0.0.1:443",

@@ -31,15 +31,16 @@ const (
 type ItemKind string
 
 const (
-	ItemPeripheral       ItemKind = "peripheral_goods"
-	ItemPackCharger      ItemKind = "pack_power_charger"
-	ItemChallengeCharger ItemKind = "challenge_power_charger"
-	ItemEventCharger     ItemKind = "event_power_charger"
-	ItemTradeCharger     ItemKind = "trade_power_charger"
-	ItemRewardTicket     ItemKind = "reward_ticket"
-	ItemRevivalClock     ItemKind = "revival_clock"
-	ItemTrade            ItemKind = "trade_item"
-	ItemHiddenEvent      ItemKind = "hidden_event_item"
+	ItemPeripheral        ItemKind = "peripheral_goods"
+	ItemPackCharger       ItemKind = "pack_power_charger"
+	ItemChallengeCharger  ItemKind = "challenge_power_charger"
+	ItemEventCharger      ItemKind = "event_power_charger"
+	ItemTradeCharger      ItemKind = "trade_power_charger"
+	ItemRewardTicket      ItemKind = "reward_ticket"
+	ItemRevivalClock      ItemKind = "revival_clock"
+	ItemTrade             ItemKind = "trade_item"
+	ItemHiddenEvent       ItemKind = "hidden_event_item"
+	ItemSpecialPackTicket ItemKind = "special_pack_ticket"
 )
 
 type CosmeticKind string
@@ -113,6 +114,11 @@ type PackProduct struct {
 	OnePrice, TenPrice           int64
 	OneExperience, TenExperience int64
 	OneCeilPoints, TenCeilPoints int64
+}
+
+type SpecialPackProduct struct {
+	ID, PackID, TicketID string
+	TicketAmount         int64
 }
 
 type Item struct {
@@ -253,6 +259,7 @@ type Catalog struct {
 	packs                    map[string]Pack
 	packTables               map[string]PackTable
 	packProducts             map[string]PackProduct
+	specialPackProducts      map[string]SpecialPackProduct
 	items                    map[string]Item
 	currencies               map[string]Currency
 	levels                   map[int]Level
@@ -305,7 +312,7 @@ func OpenLocale(root, locale, fallback string) (*Catalog, error) {
 	c := &Catalog{
 		root: abs, locale: locale, fallback: fallback,
 		cards: map[string]Card{}, expansions: map[string]Expansion{}, packs: map[string]Pack{},
-		packTables: map[string]PackTable{}, packProducts: map[string]PackProduct{},
+		packTables: map[string]PackTable{}, packProducts: map[string]PackProduct{}, specialPackProducts: map[string]SpecialPackProduct{},
 		items: map[string]Item{}, currencies: map[string]Currency{}, levels: map[int]Level{}, cosmetics: map[string]Cosmetic{}, profileMessages: map[string]ProfileMessage{}, cardExchanges: map[string]CardExchange{}, shopContents: map[string]ShopContent{}, shopProducts: map[string]ShopProduct{}, trophies: map[string]Trophy{}, rentalDecks: map[string]RentalDeck{}, soloBattles: map[string]SoloBattle{}, missions: map[string]Mission{}, missionRewards: map[string]MissionReward{}, missionGroupSteps: map[string]MissionGroupRewardStep{}, tutorialRewards: map[string]TutorialReward{}, tutorialRoutes: map[string]TutorialExchangeRoute{}, tutorialFeeds: map[int32]TutorialFeed{}, levelRewards: map[int][]LevelReward{},
 	}
 	if err := c.load(); err != nil {
@@ -370,6 +377,14 @@ func (c *Catalog) PackProduct(id string) (PackProduct, error) {
 	v, ok := c.packProducts[id]
 	if !ok {
 		return PackProduct{}, unknown("pack product", id)
+	}
+	return v, nil
+}
+
+func (c *Catalog) SpecialPackProduct(id string) (SpecialPackProduct, error) {
+	v, ok := c.specialPackProducts[id]
+	if !ok {
+		return SpecialPackProduct{}, unknown("special pack product", id)
 	}
 	return v, nil
 }
@@ -659,6 +674,10 @@ type packProductRow struct {
 	OnePackExp, TenPackExp             int64
 	OnePackCeilPoint, TenPackCeilPoint int64
 }
+type specialPackProductRow struct {
+	SpecialPackShopProductID, PackID, SpecialTicketItemID string
+	RequiredTicketAmount                                  int64
+}
 type namedRow struct {
 	ID, NameMSID, DescriptionMSID, ExpansionID, AssetID string
 	Type                                                int
@@ -898,6 +917,9 @@ func (c *Catalog) load() error {
 	if err := c.loadItems(); err != nil {
 		return err
 	}
+	if err := c.loadSpecialPackProducts(); err != nil {
+		return err
+	}
 	if err := c.loadLevels(); err != nil {
 		return err
 	}
@@ -1016,14 +1038,16 @@ func (c *Catalog) loadGameplayDefinitions() error {
 
 // clientTutorialCompletions contains feature tutorials whose identifiers and
 // terminal steps live in the IL2CPP client rather than in master-data tables.
-// Values match TutorialId and TutorialSteps in the 1.7.2 client.
+// Values match TutorialId and terminal TutorialSteps in the client. Function
+// tutorial 3100 ends at step 2. The client does not expose fixed terminal
+// steps for 2200 and 3200, so 999 is used to mark those tutorials complete.
 var clientTutorialCompletions = []TutorialCompletion{
 	{"1000", 999}, {"1010", 2},
 	{"2000", 3}, {"2001", 5}, {"2002", 5}, {"2003", 5}, {"2010", 2},
-	{"2140", 6}, {"2160", 5}, {"2161", 2}, {"2162", 2}, {"2300", 2},
+	{"2140", 6}, {"2160", 5}, {"2161", 2}, {"2162", 2}, {"2200", 999}, {"2300", 2},
 	{"2400", 2}, {"2500", 2}, {"2510", 2}, {"2520", 2}, {"2521", 2},
 	{"2530", 2}, {"2531", 2}, {"2540", 2}, {"2600", 2}, {"2700", 2},
-	{"2800", 999}, {"2900", 999},
+	{"2800", 999}, {"2900", 999}, {"3100", 2}, {"3200", 999},
 }
 
 func (c *Catalog) loadTutorialCompletions() error {
@@ -1328,6 +1352,32 @@ func (c *Catalog) loadPackProducts() error {
 	return nil
 }
 
+func (c *Catalog) loadSpecialPackProducts() error {
+	rows, err := readLocalized[specialPackProductRow](c, "SpecialPackShopProduct.json")
+	if err != nil {
+		return err
+	}
+	for _, row := range rows {
+		if row.SpecialPackShopProductID == "" || row.PackID == "" || row.SpecialTicketItemID == "" || row.RequiredTicketAmount <= 0 {
+			return fmt.Errorf("validate SpecialPackShopProduct.json: invalid product %q", row.SpecialPackShopProductID)
+		}
+		if _, ok := c.packs[row.PackID]; !ok {
+			return fmt.Errorf("validate SpecialPackShopProduct.json: pack %q is unknown", row.PackID)
+		}
+		if ticket, ok := c.items[row.SpecialTicketItemID]; !ok || ticket.Kind != ItemSpecialPackTicket {
+			return fmt.Errorf("validate SpecialPackShopProduct.json: ticket item %q is unknown", row.SpecialTicketItemID)
+		}
+		if _, exists := c.specialPackProducts[row.SpecialPackShopProductID]; exists {
+			return fmt.Errorf("validate SpecialPackShopProduct.json: duplicate product %q", row.SpecialPackShopProductID)
+		}
+		c.specialPackProducts[row.SpecialPackShopProductID] = SpecialPackProduct{
+			ID: row.SpecialPackShopProductID, PackID: row.PackID,
+			TicketID: row.SpecialTicketItemID, TicketAmount: row.RequiredTicketAmount,
+		}
+	}
+	return nil
+}
+
 func (c *Catalog) loadCards(table string, kind CardKind, names map[string]string, pokemonTypes map[string][]int32, trainerTypes map[string]int32, expansions map[string][]string, numbers map[string]int) error {
 	rows, err := readLocalized[cardRow](c, table)
 	if err != nil {
@@ -1385,7 +1435,7 @@ func (c *Catalog) loadItems() error {
 	for _, spec := range []struct {
 		table string
 		kind  ItemKind
-	}{{"PeripheralGoods.json", ItemPeripheral}, {"PackPowerCharger.json", ItemPackCharger}, {"ChallengePowerCharger.json", ItemChallengeCharger}, {"EventPowerCharger.json", ItemEventCharger}, {"TradePowerCharger.json", ItemTradeCharger}, {"RewardTicket.json", ItemRewardTicket}, {"RevivalClock.json", ItemRevivalClock}, {"TradeItem.json", ItemTrade}, {"TradeTicket.json", ItemTrade}, {"HiddenEventItem.json", ItemHiddenEvent}} {
+	}{{"PeripheralGoods.json", ItemPeripheral}, {"PackPowerCharger.json", ItemPackCharger}, {"SpecialPackTicket.json", ItemSpecialPackTicket}, {"ChallengePowerCharger.json", ItemChallengeCharger}, {"EventPowerCharger.json", ItemEventCharger}, {"TradePowerCharger.json", ItemTradeCharger}, {"RewardTicket.json", ItemRewardTicket}, {"RevivalClock.json", ItemRevivalClock}, {"TradeItem.json", ItemTrade}, {"TradeTicket.json", ItemTrade}, {"HiddenEventItem.json", ItemHiddenEvent}} {
 		rows, err := readLocalized[namedRow](c, spec.table)
 		if err != nil {
 			return err

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+enum PublicSetting {
+  PUBLIC_SETTING_UNSPECIFIED = 0;
+  PUBLIC_SETTING_PRIVATE = 1;
+  PUBLIC_SETTING_ALL_USERS = 2;
+  PUBLIC_SETTING_FRIEND_ONLY = 3;
+}

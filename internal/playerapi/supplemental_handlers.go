@@ -300,7 +300,9 @@ func registerSupplementalServers(server grpc.ServiceRegistrar, players *player.M
 	api.RegisterPlayerLevelServer(server, playerLevelServer{players: players})
 	api.RegisterMountServer(server, mountServer{players: players})
 	api.RegisterPlayerServer(server, playerServer{players: players})
+	api.RegisterPvpCasualServer(server, pvpCasualServer{rules: newPrivateMatchRules()})
 	api.RegisterThankRewardServer(server, thankRewardServer{players: players})
 	api.RegisterSignInWithAppleServer(server, signInWithAppleServer{})
+	api.RegisterSpecialPackServer(server, specialPackServer{players: players, packs: packs})
 	api.RegisterTutorialServer(server, tutorialServer{players: players, packs: packs})
 }

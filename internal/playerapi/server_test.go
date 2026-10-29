@@ -184,13 +184,13 @@ func TestAuthorizeBootstrapAndUnknownMutation(t *testing.T) {
 	}
 	foundTutorial := false
 	for _, progress := range loginResponse.GetTutorialCompletes() {
-		if progress.GetTutorialId() == "7777" && progress.GetTutorialStep() == 4 {
+		if progress.GetTutorialId() == "3200" && progress.GetTutorialStep() == 999 {
 			foundTutorial = true
 			break
 		}
 	}
 	if !foundTutorial {
-		t.Fatalf("login omitted persisted tutorial completion: %+v", loginResponse.GetTutorialCompletes())
+		t.Fatalf("login omitted the current feature tutorial completion: %+v", loginResponse.GetTutorialCompletes())
 	}
 	comebackResponse, err := api.NewComebackPlayerClient(conn).GetComebackPlayerInfoV1(ctx, &api.ComebackPlayerGetComebackPlayerInfoV1_Types_Request{})
 	if err != nil {

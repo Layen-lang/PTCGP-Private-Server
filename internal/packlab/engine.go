@@ -407,16 +407,21 @@ func (e *Engine) drawIllegal(pack catalog.Pack, pool []catalog.Card, rule store.
 	available := append([]catalog.Card(nil), pool...)
 	result := store.OpeningPack{TableID: table.ID, Cards: make([]string, 0, rule.CardCount)}
 	for cardIndex := 0; cardIndex < rule.CardCount; cardIndex++ {
+		if len(available) == 0 {
+			return store.OpeningPack{}, invalid("not enough cards match the illegal filters")
+		}
 		slot := table.Slots[cardIndex%len(table.Slots)]
 		choices := e.illegalPoolChoices([]catalog.PackSlot{slot}, available)
 		if len(choices) == 0 {
 			choices = e.illegalPoolChoices(table.Slots, available)
 		}
-		if len(choices) == 0 {
-			return store.OpeningPack{}, invalid("table %q has no probability for the filtered pool", table.ID)
+		// Rarities absent from this pack, such as special-pack-only cards,
+		// have no probability here and are drawn uniformly instead.
+		candidateIndex := rng.Intn(len(available))
+		if len(choices) > 0 {
+			choice := choices[weightedIndex(rng, illegalChoiceWeights(choices))]
+			candidateIndex = choice.CardIndexes[rng.Intn(len(choice.CardIndexes))]
 		}
-		choice := choices[weightedIndex(rng, illegalChoiceWeights(choices))]
-		candidateIndex := choice.CardIndexes[rng.Intn(len(choice.CardIndexes))]
 		result.Cards = append(result.Cards, available[candidateIndex].ID)
 		if !rule.AllowDuplicates {
 			available = append(available[:candidateIndex], available[candidateIndex+1:]...)

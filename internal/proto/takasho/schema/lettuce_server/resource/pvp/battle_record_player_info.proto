@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "takasho/schema/lettuce_server/resource/deck/deck_case_type.proto";
+import "takasho/schema/lettuce_server/resource/deck/deck_main_card_type.proto";
+
+message BattleRecordPlayerInfo {
+  message Types {
+    message RepresentativeCardInfo {
+      takasho.schema.lettuce_server.resource.deck.DeckMainCardType main_card_type = 1;
+      string card_id = 2;
+    }
+    message MyDeckInfo {
+      takasho.schema.lettuce_server.resource.deck.DeckCaseType deck_case_type = 1;
+      repeated BattleRecordPlayerInfo.Types.RepresentativeCardInfo representative_card = 2;
+    }
+  }
+  string player_name = 1;
+  string icon_id = 2;
+  oneof deck {
+    BattleRecordPlayerInfo.Types.MyDeckInfo my_deck = 3;
+    string rental_deck_id = 4;
+  }
+}

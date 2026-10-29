@@ -4,6 +4,7 @@ package takasho.schema.lettuce_server.resource.player_profile;
 
 import "google/protobuf/timestamp.proto";
 import "takasho/schema/lettuce_server/resource/collection/my_best_collection.proto";
+import "takasho/schema/lettuce_server/resource/deck/deck.proto";
 import "takasho/schema/lettuce_server/resource/player_profile/available_type.proto";
 
 message ProfileSpine {
@@ -16,4 +17,5 @@ message ProfileSpine {
   takasho.schema.lettuce_server.resource.collection.MyBestCollection collection = 7;
   string friend_id = 8;
   AvailableType available_type = 9;
+  takasho.schema.lettuce_server.resource.deck.Deck my_published_deck = 10;
 }

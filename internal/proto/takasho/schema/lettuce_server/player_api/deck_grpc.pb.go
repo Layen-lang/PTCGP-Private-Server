@@ -19,11 +19,13 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	Deck_GetListV1_FullMethodName        = "/takasho.schema.lettuce_server.player_api.Deck/GetListV1"
-	Deck_SaveV1_FullMethodName           = "/takasho.schema.lettuce_server.player_api.Deck/SaveV1"
-	Deck_DeleteV1_FullMethodName         = "/takasho.schema.lettuce_server.player_api.Deck/DeleteV1"
-	Deck_GetRentalDecksV1_FullMethodName = "/takasho.schema.lettuce_server.player_api.Deck/GetRentalDecksV1"
-	Deck_ChangeOrderV1_FullMethodName    = "/takasho.schema.lettuce_server.player_api.Deck/ChangeOrderV1"
+	Deck_GetListV1_FullMethodName          = "/takasho.schema.lettuce_server.player_api.Deck/GetListV1"
+	Deck_SaveV1_FullMethodName             = "/takasho.schema.lettuce_server.player_api.Deck/SaveV1"
+	Deck_DeleteV1_FullMethodName           = "/takasho.schema.lettuce_server.player_api.Deck/DeleteV1"
+	Deck_GetRentalDecksV1_FullMethodName   = "/takasho.schema.lettuce_server.player_api.Deck/GetRentalDecksV1"
+	Deck_ChangeOrderV1_FullMethodName      = "/takasho.schema.lettuce_server.player_api.Deck/ChangeOrderV1"
+	Deck_GetSomeoneDecksV1_FullMethodName  = "/takasho.schema.lettuce_server.player_api.Deck/GetSomeoneDecksV1"
+	Deck_CountSomeoneDeckV1_FullMethodName = "/takasho.schema.lettuce_server.player_api.Deck/CountSomeoneDeckV1"
 )
 
 // DeckClient is the client API for Deck service.
@@ -35,6 +37,8 @@ type DeckClient interface {
 	DeleteV1(ctx context.Context, in *DeckDeleteV1_Types_Request, opts ...grpc.CallOption) (*DeckDeleteV1_Types_Response, error)
 	GetRentalDecksV1(ctx context.Context, in *DeckGetRentalDecksV1_Types_Request, opts ...grpc.CallOption) (*DeckGetRentalDecksV1_Types_Response, error)
 	ChangeOrderV1(ctx context.Context, in *DeckChangeOrderV1_Types_Request, opts ...grpc.CallOption) (*DeckChangeOrderV1_Types_Response, error)
+	GetSomeoneDecksV1(ctx context.Context, in *DeckGetSomeoneDecksV1_Types_Request, opts ...grpc.CallOption) (*DeckGetSomeoneDecksV1_Types_Response, error)
+	CountSomeoneDeckV1(ctx context.Context, in *DeckCountSomeoneDeckV1_Types_Request, opts ...grpc.CallOption) (*DeckCountSomeoneDeckV1_Types_Response, error)
 }
 
 type deckClient struct {
@@ -95,6 +99,26 @@ func (c *deckClient) ChangeOrderV1(ctx context.Context, in *DeckChangeOrderV1_Ty
 	return out, nil
 }
 
+func (c *deckClient) GetSomeoneDecksV1(ctx context.Context, in *DeckGetSomeoneDecksV1_Types_Request, opts ...grpc.CallOption) (*DeckGetSomeoneDecksV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(DeckGetSomeoneDecksV1_Types_Response)
+	err := c.cc.Invoke(ctx, Deck_GetSomeoneDecksV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *deckClient) CountSomeoneDeckV1(ctx context.Context, in *DeckCountSomeoneDeckV1_Types_Request, opts ...grpc.CallOption) (*DeckCountSomeoneDeckV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(DeckCountSomeoneDeckV1_Types_Response)
+	err := c.cc.Invoke(ctx, Deck_CountSomeoneDeckV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // DeckServer is the server API for Deck service.
 // All implementations must embed UnimplementedDeckServer
 // for forward compatibility.
@@ -104,6 +128,8 @@ type DeckServer interface {
 	DeleteV1(context.Context, *DeckDeleteV1_Types_Request) (*DeckDeleteV1_Types_Response, error)
 	GetRentalDecksV1(context.Context, *DeckGetRentalDecksV1_Types_Request) (*DeckGetRentalDecksV1_Types_Response, error)
 	ChangeOrderV1(context.Context, *DeckChangeOrderV1_Types_Request) (*DeckChangeOrderV1_Types_Response, error)
+	GetSomeoneDecksV1(context.Context, *DeckGetSomeoneDecksV1_Types_Request) (*DeckGetSomeoneDecksV1_Types_Response, error)
+	CountSomeoneDeckV1(context.Context, *DeckCountSomeoneDeckV1_Types_Request) (*DeckCountSomeoneDeckV1_Types_Response, error)
 	mustEmbedUnimplementedDeckServer()
 }
 
@@ -128,6 +154,12 @@ func (UnimplementedDeckServer) GetRentalDecksV1(context.Context, *DeckGetRentalD
 }
 func (UnimplementedDeckServer) ChangeOrderV1(context.Context, *DeckChangeOrderV1_Types_Request) (*DeckChangeOrderV1_Types_Response, error) {
 	return nil, status.Error(codes.Unimplemented, "method ChangeOrderV1 not implemented")
+}
+func (UnimplementedDeckServer) GetSomeoneDecksV1(context.Context, *DeckGetSomeoneDecksV1_Types_Request) (*DeckGetSomeoneDecksV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method GetSomeoneDecksV1 not implemented")
+}
+func (UnimplementedDeckServer) CountSomeoneDeckV1(context.Context, *DeckCountSomeoneDeckV1_Types_Request) (*DeckCountSomeoneDeckV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method CountSomeoneDeckV1 not implemented")
 }
 func (UnimplementedDeckServer) mustEmbedUnimplementedDeckServer() {}
 func (UnimplementedDeckServer) testEmbeddedByValue()              {}
@@ -240,6 +272,42 @@ func _Deck_ChangeOrderV1_Handler(srv interface{}, ctx context.Context, dec func(
 	return interceptor(ctx, in, info, handler)
 }
 
+func _Deck_GetSomeoneDecksV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(DeckGetSomeoneDecksV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(DeckServer).GetSomeoneDecksV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Deck_GetSomeoneDecksV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(DeckServer).GetSomeoneDecksV1(ctx, req.(*DeckGetSomeoneDecksV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _Deck_CountSomeoneDeckV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(DeckCountSomeoneDeckV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(DeckServer).CountSomeoneDeckV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: Deck_CountSomeoneDeckV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(DeckServer).CountSomeoneDeckV1(ctx, req.(*DeckCountSomeoneDeckV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // Deck_ServiceDesc is the grpc.ServiceDesc for Deck service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -266,6 +334,14 @@ var Deck_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "ChangeOrderV1",
 			Handler:    _Deck_ChangeOrderV1_Handler,
+		},
+		{
+			MethodName: "GetSomeoneDecksV1",
+			Handler:    _Deck_GetSomeoneDecksV1_Handler,
+		},
+		{
+			MethodName: "CountSomeoneDeckV1",
+			Handler:    _Deck_CountSomeoneDeckV1_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},

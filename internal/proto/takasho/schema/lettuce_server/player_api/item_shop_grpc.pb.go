@@ -19,7 +19,6 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	ItemShop_GetPurchaseSummariesV1_FullMethodName = "/takasho.schema.lettuce_server.player_api.ItemShop/GetPurchaseSummariesV1"
 	ItemShop_GetPurchaseSummariesV2_FullMethodName = "/takasho.schema.lettuce_server.player_api.ItemShop/GetPurchaseSummariesV2"
 	ItemShop_PurchaseV1_FullMethodName             = "/takasho.schema.lettuce_server.player_api.ItemShop/PurchaseV1"
 	ItemShop_ExchangeV1_FullMethodName             = "/takasho.schema.lettuce_server.player_api.ItemShop/ExchangeV1"
@@ -30,7 +29,6 @@ const (
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type ItemShopClient interface {
-	GetPurchaseSummariesV1(ctx context.Context, in *ItemShopGetPurchaseSummariesV1_Types_Request, opts ...grpc.CallOption) (*ItemShopGetPurchaseSummariesV1_Types_Response, error)
 	GetPurchaseSummariesV2(ctx context.Context, in *ItemShopGetPurchaseSummariesV2_Types_Request, opts ...grpc.CallOption) (*ItemShopGetPurchaseSummariesV2_Types_Response, error)
 	PurchaseV1(ctx context.Context, in *ItemShopPurchaseV1_Types_Request, opts ...grpc.CallOption) (*ItemShopPurchaseV1_Types_Response, error)
 	ExchangeV1(ctx context.Context, in *ItemShopExchangeV1_Types_Request, opts ...grpc.CallOption) (*ItemShopExchangeV1_Types_Response, error)
@@ -43,16 +41,6 @@ type itemShopClient struct {
 
 func NewItemShopClient(cc grpc.ClientConnInterface) ItemShopClient {
 	return &itemShopClient{cc}
-}
-
-func (c *itemShopClient) GetPurchaseSummariesV1(ctx context.Context, in *ItemShopGetPurchaseSummariesV1_Types_Request, opts ...grpc.CallOption) (*ItemShopGetPurchaseSummariesV1_Types_Response, error) {
-	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
-	out := new(ItemShopGetPurchaseSummariesV1_Types_Response)
-	err := c.cc.Invoke(ctx, ItemShop_GetPurchaseSummariesV1_FullMethodName, in, out, cOpts...)
-	if err != nil {
-		return nil, err
-	}
-	return out, nil
 }
 
 func (c *itemShopClient) GetPurchaseSummariesV2(ctx context.Context, in *ItemShopGetPurchaseSummariesV2_Types_Request, opts ...grpc.CallOption) (*ItemShopGetPurchaseSummariesV2_Types_Response, error) {
@@ -99,7 +87,6 @@ func (c *itemShopClient) LiquidateV1(ctx context.Context, in *ItemShopLiquidateV
 // All implementations must embed UnimplementedItemShopServer
 // for forward compatibility.
 type ItemShopServer interface {
-	GetPurchaseSummariesV1(context.Context, *ItemShopGetPurchaseSummariesV1_Types_Request) (*ItemShopGetPurchaseSummariesV1_Types_Response, error)
 	GetPurchaseSummariesV2(context.Context, *ItemShopGetPurchaseSummariesV2_Types_Request) (*ItemShopGetPurchaseSummariesV2_Types_Response, error)
 	PurchaseV1(context.Context, *ItemShopPurchaseV1_Types_Request) (*ItemShopPurchaseV1_Types_Response, error)
 	ExchangeV1(context.Context, *ItemShopExchangeV1_Types_Request) (*ItemShopExchangeV1_Types_Response, error)
@@ -114,9 +101,6 @@ type ItemShopServer interface {
 // pointer dereference when methods are called.
 type UnimplementedItemShopServer struct{}
 
-func (UnimplementedItemShopServer) GetPurchaseSummariesV1(context.Context, *ItemShopGetPurchaseSummariesV1_Types_Request) (*ItemShopGetPurchaseSummariesV1_Types_Response, error) {
-	return nil, status.Error(codes.Unimplemented, "method GetPurchaseSummariesV1 not implemented")
-}
 func (UnimplementedItemShopServer) GetPurchaseSummariesV2(context.Context, *ItemShopGetPurchaseSummariesV2_Types_Request) (*ItemShopGetPurchaseSummariesV2_Types_Response, error) {
 	return nil, status.Error(codes.Unimplemented, "method GetPurchaseSummariesV2 not implemented")
 }
@@ -148,24 +132,6 @@ func RegisterItemShopServer(s grpc.ServiceRegistrar, srv ItemShopServer) {
 		t.testEmbeddedByValue()
 	}
 	s.RegisterService(&ItemShop_ServiceDesc, srv)
-}
-
-func _ItemShop_GetPurchaseSummariesV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
-	in := new(ItemShopGetPurchaseSummariesV1_Types_Request)
-	if err := dec(in); err != nil {
-		return nil, err
-	}
-	if interceptor == nil {
-		return srv.(ItemShopServer).GetPurchaseSummariesV1(ctx, in)
-	}
-	info := &grpc.UnaryServerInfo{
-		Server:     srv,
-		FullMethod: ItemShop_GetPurchaseSummariesV1_FullMethodName,
-	}
-	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ItemShopServer).GetPurchaseSummariesV1(ctx, req.(*ItemShopGetPurchaseSummariesV1_Types_Request))
-	}
-	return interceptor(ctx, in, info, handler)
 }
 
 func _ItemShop_GetPurchaseSummariesV2_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
@@ -247,10 +213,6 @@ var ItemShop_ServiceDesc = grpc.ServiceDesc{
 	ServiceName: "takasho.schema.lettuce_server.player_api.ItemShop",
 	HandlerType: (*ItemShopServer)(nil),
 	Methods: []grpc.MethodDesc{
-		{
-			MethodName: "GetPurchaseSummariesV1",
-			Handler:    _ItemShop_GetPurchaseSummariesV1_Handler,
-		},
 		{
 			MethodName: "GetPurchaseSummariesV2",
 			Handler:    _ItemShop_GetPurchaseSummariesV2_Handler,

@@ -26,4 +26,8 @@ message DeckMake {
   string coin_id = 6;
   int64 deck_make_type = 7;
   int64 auto_deck_make_flg = 8;
+  string deck_owner_player_id = 9;
+  int64 opensetting_type = 10;
+  string deck_recipe_deck_id = 11;
+  string popular_deck_id = 12;
 }

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/special_pack_get_unpack_right_v1.proto";
+import "takasho/schema/lettuce_server/player_api/special_pack_purchase_v1.proto";
+
+service SpecialPack {
+  rpc GetUnpackRightV1 (SpecialPackGetUnpackRightV1.Types.Request) returns (SpecialPackGetUnpackRightV1.Types.Response);
+  rpc PurchaseV1 (SpecialPackPurchaseV1.Types.Request) returns (SpecialPackPurchaseV1.Types.Response);
+}

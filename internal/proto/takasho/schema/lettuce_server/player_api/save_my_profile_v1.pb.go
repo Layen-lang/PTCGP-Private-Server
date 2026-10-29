@@ -23,6 +23,55 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
+type SaveMyProfileV1_Types_Request_Types_PublicDeckAction int32
+
+const (
+	SaveMyProfileV1_Types_Request_Types_PUBLIC_DECK_ACTION_UNSPECIFIED SaveMyProfileV1_Types_Request_Types_PublicDeckAction = 0
+	SaveMyProfileV1_Types_Request_Types_PUBLIC_DECK_ACTION_SET         SaveMyProfileV1_Types_Request_Types_PublicDeckAction = 1
+	SaveMyProfileV1_Types_Request_Types_PUBLIC_DECK_ACTION_REMOVE      SaveMyProfileV1_Types_Request_Types_PublicDeckAction = 2
+)
+
+// Enum value maps for SaveMyProfileV1_Types_Request_Types_PublicDeckAction.
+var (
+	SaveMyProfileV1_Types_Request_Types_PublicDeckAction_name = map[int32]string{
+		0: "PUBLIC_DECK_ACTION_UNSPECIFIED",
+		1: "PUBLIC_DECK_ACTION_SET",
+		2: "PUBLIC_DECK_ACTION_REMOVE",
+	}
+	SaveMyProfileV1_Types_Request_Types_PublicDeckAction_value = map[string]int32{
+		"PUBLIC_DECK_ACTION_UNSPECIFIED": 0,
+		"PUBLIC_DECK_ACTION_SET":         1,
+		"PUBLIC_DECK_ACTION_REMOVE":      2,
+	}
+)
+
+func (x SaveMyProfileV1_Types_Request_Types_PublicDeckAction) Enum() *SaveMyProfileV1_Types_Request_Types_PublicDeckAction {
+	p := new(SaveMyProfileV1_Types_Request_Types_PublicDeckAction)
+	*p = x
+	return p
+}
+
+func (x SaveMyProfileV1_Types_Request_Types_PublicDeckAction) String() string {
+	return protoimpl.X.EnumStringOf(x.Descriptor(), protoreflect.EnumNumber(x))
+}
+
+func (SaveMyProfileV1_Types_Request_Types_PublicDeckAction) Descriptor() protoreflect.EnumDescriptor {
+	return file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_enumTypes[0].Descriptor()
+}
+
+func (SaveMyProfileV1_Types_Request_Types_PublicDeckAction) Type() protoreflect.EnumType {
+	return &file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_enumTypes[0]
+}
+
+func (x SaveMyProfileV1_Types_Request_Types_PublicDeckAction) Number() protoreflect.EnumNumber {
+	return protoreflect.EnumNumber(x)
+}
+
+// Deprecated: Use SaveMyProfileV1_Types_Request_Types_PublicDeckAction.Descriptor instead.
+func (SaveMyProfileV1_Types_Request_Types_PublicDeckAction) EnumDescriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+}
+
 type SaveMyProfileV1 struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	unknownFields protoimpl.UnknownFields
@@ -96,13 +145,15 @@ func (*SaveMyProfileV1_Types) Descriptor() ([]byte, []int) {
 }
 
 type SaveMyProfileV1_Types_Request struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	Nickname      string                 `protobuf:"bytes,1,opt,name=nickname,proto3" json:"nickname,omitempty"`
-	IconId        string                 `protobuf:"bytes,2,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
-	EmblemIds     []string               `protobuf:"bytes,3,rep,name=emblem_ids,json=emblemIds,proto3" json:"emblem_ids,omitempty"`
-	MessageId     string                 `protobuf:"bytes,4,opt,name=message_id,json=messageId,proto3" json:"message_id,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
+	state            protoimpl.MessageState                               `protogen:"open.v1"`
+	Nickname         string                                               `protobuf:"bytes,1,opt,name=nickname,proto3" json:"nickname,omitempty"`
+	IconId           string                                               `protobuf:"bytes,2,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
+	EmblemIds        []string                                             `protobuf:"bytes,3,rep,name=emblem_ids,json=emblemIds,proto3" json:"emblem_ids,omitempty"`
+	MessageId        string                                               `protobuf:"bytes,4,opt,name=message_id,json=messageId,proto3" json:"message_id,omitempty"`
+	PublicDeckAction SaveMyProfileV1_Types_Request_Types_PublicDeckAction `protobuf:"varint,5,opt,name=public_deck_action,json=publicDeckAction,proto3,enum=takasho.schema.lettuce_server.player_api.SaveMyProfileV1_Types_Request_Types_PublicDeckAction" json:"public_deck_action,omitempty"`
+	PublicDeckId     uint64                                               `protobuf:"varint,6,opt,name=public_deck_id,json=publicDeckId,proto3" json:"public_deck_id,omitempty"`
+	unknownFields    protoimpl.UnknownFields
+	sizeCache        protoimpl.SizeCache
 }
 
 func (x *SaveMyProfileV1_Types_Request) Reset() {
@@ -161,6 +212,20 @@ func (x *SaveMyProfileV1_Types_Request) GetMessageId() string {
 		return x.MessageId
 	}
 	return ""
+}
+
+func (x *SaveMyProfileV1_Types_Request) GetPublicDeckAction() SaveMyProfileV1_Types_Request_Types_PublicDeckAction {
+	if x != nil {
+		return x.PublicDeckAction
+	}
+	return SaveMyProfileV1_Types_Request_Types_PUBLIC_DECK_ACTION_UNSPECIFIED
+}
+
+func (x *SaveMyProfileV1_Types_Request) GetPublicDeckId() uint64 {
+	if x != nil {
+		return x.PublicDeckId
+	}
+	return 0
 }
 
 type SaveMyProfileV1_Types_Response struct {
@@ -239,20 +304,63 @@ func (x *SaveMyProfileV1_Types_Response) GetLevelUpHistories() []*player_profile
 	return nil
 }
 
+type SaveMyProfileV1_Types_Request_Types struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *SaveMyProfileV1_Types_Request_Types) Reset() {
+	*x = SaveMyProfileV1_Types_Request_Types{}
+	mi := &file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_msgTypes[4]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *SaveMyProfileV1_Types_Request_Types) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*SaveMyProfileV1_Types_Request_Types) ProtoMessage() {}
+
+func (x *SaveMyProfileV1_Types_Request_Types) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_msgTypes[4]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use SaveMyProfileV1_Types_Request_Types.ProtoReflect.Descriptor instead.
+func (*SaveMyProfileV1_Types_Request_Types) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+}
+
 var File_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDesc = "" +
 	"\n" +
-	"Atakasho/schema/lettuce_server/player_api/save_my_profile_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a\x1fgoogle/protobuf/timestamp.proto\x1aLtakasho/schema/lettuce_server/resource/player_profile/level_up_history.proto\x1aCtakasho/schema/lettuce_server/resource/player_profile/profile.proto\"\xc2\x04\n" +
-	"\x0fSaveMyProfileV1\x1a\xae\x04\n" +
-	"\x05Types\x1a|\n" +
+	"Atakasho/schema/lettuce_server/player_api/save_my_profile_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a\x1fgoogle/protobuf/timestamp.proto\x1aLtakasho/schema/lettuce_server/resource/player_profile/level_up_history.proto\x1aCtakasho/schema/lettuce_server/resource/player_profile/profile.proto\"\xf4\x06\n" +
+	"\x0fSaveMyProfileV1\x1a\xe0\x06\n" +
+	"\x05Types\x1a\xad\x03\n" +
 	"\aRequest\x12\x1a\n" +
 	"\bnickname\x18\x01 \x01(\tR\bnickname\x12\x17\n" +
 	"\aicon_id\x18\x02 \x01(\tR\x06iconId\x12\x1d\n" +
 	"\n" +
 	"emblem_ids\x18\x03 \x03(\tR\temblemIds\x12\x1d\n" +
 	"\n" +
-	"message_id\x18\x04 \x01(\tR\tmessageId\x1a\xa6\x03\n" +
+	"message_id\x18\x04 \x01(\tR\tmessageId\x12\x8c\x01\n" +
+	"\x12public_deck_action\x18\x05 \x01(\x0e2^.takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request.Types.PublicDeckActionR\x10publicDeckAction\x12$\n" +
+	"\x0epublic_deck_id\x18\x06 \x01(\x04R\fpublicDeckId\x1az\n" +
+	"\x05Types\"q\n" +
+	"\x10PublicDeckAction\x12\"\n" +
+	"\x1ePUBLIC_DECK_ACTION_UNSPECIFIED\x10\x00\x12\x1a\n" +
+	"\x16PUBLIC_DECK_ACTION_SET\x10\x01\x12\x1d\n" +
+	"\x19PUBLIC_DECK_ACTION_REMOVE\x10\x02\x1a\xa6\x03\n" +
 	"\bResponse\x12X\n" +
 	"\aprofile\x18\x01 \x01(\v2>.takasho.schema.lettuce_server.resource.player_profile.ProfileR\aprofile\x12/\n" +
 	"\x13required_experience\x18\x02 \x01(\x04R\x12requiredExperience\x12J\n" +
@@ -272,26 +380,30 @@ func file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawD
 	return file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDescData
 }
 
-var file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_msgTypes = make([]protoimpl.MessageInfo, 4)
+var file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_enumTypes = make([]protoimpl.EnumInfo, 1)
+var file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_msgTypes = make([]protoimpl.MessageInfo, 5)
 var file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_goTypes = []any{
-	(*SaveMyProfileV1)(nil),                // 0: takasho.schema.lettuce_server.player_api.SaveMyProfileV1
-	(*SaveMyProfileV1_Types)(nil),          // 1: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types
-	(*SaveMyProfileV1_Types_Request)(nil),  // 2: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request
-	(*SaveMyProfileV1_Types_Response)(nil), // 3: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response
-	(*player_profile.Profile)(nil),         // 4: takasho.schema.lettuce_server.resource.player_profile.Profile
-	(*timestamppb.Timestamp)(nil),          // 5: google.protobuf.Timestamp
-	(*player_profile.LevelUpHistory)(nil),  // 6: takasho.schema.lettuce_server.resource.player_profile.LevelUpHistory
+	(SaveMyProfileV1_Types_Request_Types_PublicDeckAction)(0), // 0: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request.Types.PublicDeckAction
+	(*SaveMyProfileV1)(nil),                                   // 1: takasho.schema.lettuce_server.player_api.SaveMyProfileV1
+	(*SaveMyProfileV1_Types)(nil),                             // 2: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types
+	(*SaveMyProfileV1_Types_Request)(nil),                     // 3: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request
+	(*SaveMyProfileV1_Types_Response)(nil),                    // 4: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response
+	(*SaveMyProfileV1_Types_Request_Types)(nil),               // 5: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request.Types
+	(*player_profile.Profile)(nil),                            // 6: takasho.schema.lettuce_server.resource.player_profile.Profile
+	(*timestamppb.Timestamp)(nil),                             // 7: google.protobuf.Timestamp
+	(*player_profile.LevelUpHistory)(nil),                     // 8: takasho.schema.lettuce_server.resource.player_profile.LevelUpHistory
 }
 var file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_depIdxs = []int32{
-	4, // 0: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.profile:type_name -> takasho.schema.lettuce_server.resource.player_profile.Profile
-	5, // 1: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.nickname_changed_at:type_name -> google.protobuf.Timestamp
-	5, // 2: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.account_registered_at:type_name -> google.protobuf.Timestamp
-	6, // 3: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.level_up_histories:type_name -> takasho.schema.lettuce_server.resource.player_profile.LevelUpHistory
-	4, // [4:4] is the sub-list for method output_type
-	4, // [4:4] is the sub-list for method input_type
-	4, // [4:4] is the sub-list for extension type_name
-	4, // [4:4] is the sub-list for extension extendee
-	0, // [0:4] is the sub-list for field type_name
+	0, // 0: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request.public_deck_action:type_name -> takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Request.Types.PublicDeckAction
+	6, // 1: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.profile:type_name -> takasho.schema.lettuce_server.resource.player_profile.Profile
+	7, // 2: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.nickname_changed_at:type_name -> google.protobuf.Timestamp
+	7, // 3: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.account_registered_at:type_name -> google.protobuf.Timestamp
+	8, // 4: takasho.schema.lettuce_server.player_api.SaveMyProfileV1.Types.Response.level_up_histories:type_name -> takasho.schema.lettuce_server.resource.player_profile.LevelUpHistory
+	5, // [5:5] is the sub-list for method output_type
+	5, // [5:5] is the sub-list for method input_type
+	5, // [5:5] is the sub-list for extension type_name
+	5, // [5:5] is the sub-list for extension extendee
+	0, // [0:5] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_init() }
@@ -304,13 +416,14 @@ func file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_init
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: unsafe.Slice(unsafe.StringData(file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDesc), len(file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_rawDesc)),
-			NumEnums:      0,
-			NumMessages:   4,
+			NumEnums:      1,
+			NumMessages:   5,
 			NumExtensions: 0,
 			NumServices:   0,
 		},
 		GoTypes:           file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_goTypes,
 		DependencyIndexes: file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_depIdxs,
+		EnumInfos:         file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_enumTypes,
 		MessageInfos:      file_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto_msgTypes,
 	}.Build()
 	File_takasho_schema_lettuce_server_player_api_save_my_profile_v1_proto = out.File

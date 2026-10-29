@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+message ExpansionRestriction {
+  repeated string allowed_expansion_ids = 1;
+}

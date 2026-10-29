@@ -98,6 +98,7 @@ type DeckSaveV1_Types_Request struct {
 	state          protoimpl.MessageState `protogen:"open.v1"`
 	Deck           *deck.Deck             `protobuf:"bytes,1,opt,name=deck,proto3" json:"deck,omitempty"`
 	DeckStatistics *deck.DeckStatistics   `protobuf:"bytes,2,opt,name=deck_statistics,json=deckStatistics,proto3" json:"deck_statistics,omitempty"`
+	IsCompleted    bool                   `protobuf:"varint,3,opt,name=is_completed,json=isCompleted,proto3" json:"is_completed,omitempty"`
 	unknownFields  protoimpl.UnknownFields
 	sizeCache      protoimpl.SizeCache
 }
@@ -144,6 +145,13 @@ func (x *DeckSaveV1_Types_Request) GetDeckStatistics() *deck.DeckStatistics {
 		return x.DeckStatistics
 	}
 	return nil
+}
+
+func (x *DeckSaveV1_Types_Request) GetIsCompleted() bool {
+	if x != nil {
+		return x.IsCompleted
+	}
+	return false
 }
 
 type DeckSaveV1_Types_Response struct {
@@ -194,13 +202,14 @@ var File_takasho_schema_lettuce_server_player_api_deck_save_v1_proto protoreflec
 
 const file_takasho_schema_lettuce_server_player_api_deck_save_v1_proto_rawDesc = "" +
 	"\n" +
-	";takasho/schema/lettuce_server/player_api/deck_save_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a6takasho/schema/lettuce_server/resource/deck/deck.proto\x1aAtakasho/schema/lettuce_server/resource/deck/deck_statistics.proto\"\xa2\x02\n" +
+	";takasho/schema/lettuce_server/player_api/deck_save_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a6takasho/schema/lettuce_server/resource/deck/deck.proto\x1aAtakasho/schema/lettuce_server/resource/deck/deck_statistics.proto\"\xc5\x02\n" +
 	"\n" +
-	"DeckSaveV1\x1a\x93\x02\n" +
-	"\x05Types\x1a\xb6\x01\n" +
+	"DeckSaveV1\x1a\xb6\x02\n" +
+	"\x05Types\x1a\xd9\x01\n" +
 	"\aRequest\x12E\n" +
 	"\x04deck\x18\x01 \x01(\v21.takasho.schema.lettuce_server.resource.deck.DeckR\x04deck\x12d\n" +
-	"\x0fdeck_statistics\x18\x02 \x01(\v2;.takasho.schema.lettuce_server.resource.deck.DeckStatisticsR\x0edeckStatistics\x1aQ\n" +
+	"\x0fdeck_statistics\x18\x02 \x01(\v2;.takasho.schema.lettuce_server.resource.deck.DeckStatisticsR\x0edeckStatistics\x12!\n" +
+	"\fis_completed\x18\x03 \x01(\bR\visCompleted\x1aQ\n" +
 	"\bResponse\x12E\n" +
 	"\x04deck\x18\x01 \x01(\v21.takasho.schema.lettuce_server.resource.deck.DeckR\x04deckBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+enum DeckTypeRestriction {
+  DECK_TYPE_RESTRICTION_UNSPECIFIED = 0;
+  DECK_TYPE_RESTRICTION_MY_DECK_ONLY = 1;
+  DECK_TYPE_RESTRICTION_RENTAL_DECK_ONLY = 2;
+  DECK_TYPE_RESTRICTION_NO_RESTRICTION = 3;
+}

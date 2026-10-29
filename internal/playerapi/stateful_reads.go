@@ -354,6 +354,8 @@ func toProtoResources(p player.Profile) *resources.PlayerResources {
 			result.PeripheralGoods = append(result.PeripheralGoods, &item.PeripheralGoods{Type: item.PeripheralGoods_Types_TYPE_UNSPECIFIED, Id: owned.Definition.ID, Amount: amount, ObtainedAt: timestamppb.New(owned.ObtainedAt)})
 		case catalog.ItemPackCharger:
 			result.PackPowerChargers = append(result.PackPowerChargers, &item.PackPowerCharger{Type: item.PackPowerCharger_Types_TYPE_LARGE, Amount: amount})
+		case catalog.ItemSpecialPackTicket:
+			result.SpecialPackTickets = append(result.SpecialPackTickets, &item.SpecialPackTicket{Id: owned.Definition.ID, Amount: int64(amount)})
 		case catalog.ItemChallengeCharger:
 			result.ChallengePowerChargers = append(result.ChallengePowerChargers, &item.ChallengePowerCharger{Type: item.ChallengePowerCharger_Types_TYPE_LARGE, Amount: amount})
 		case catalog.ItemEventCharger:

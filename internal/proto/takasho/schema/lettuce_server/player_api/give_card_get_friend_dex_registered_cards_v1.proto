@@ -7,6 +7,8 @@ message GiveCardGetFriendDexRegisteredCardsV1 {
     message Request {
       string friend_player_id = 100;
       string expansion_id = 200;
+      bool include_over_number = 300;
+      bool include_numberless = 400;
     }
     message Response {
       repeated string dex_registered_card_ids = 100;

@@ -94,11 +94,13 @@ func (*GiveCardGetFriendDexRegisteredCardsV1_Types) Descriptor() ([]byte, []int)
 }
 
 type GiveCardGetFriendDexRegisteredCardsV1_Types_Request struct {
-	state          protoimpl.MessageState `protogen:"open.v1"`
-	FriendPlayerId string                 `protobuf:"bytes,100,opt,name=friend_player_id,json=friendPlayerId,proto3" json:"friend_player_id,omitempty"`
-	ExpansionId    string                 `protobuf:"bytes,200,opt,name=expansion_id,json=expansionId,proto3" json:"expansion_id,omitempty"`
-	unknownFields  protoimpl.UnknownFields
-	sizeCache      protoimpl.SizeCache
+	state             protoimpl.MessageState `protogen:"open.v1"`
+	FriendPlayerId    string                 `protobuf:"bytes,100,opt,name=friend_player_id,json=friendPlayerId,proto3" json:"friend_player_id,omitempty"`
+	ExpansionId       string                 `protobuf:"bytes,200,opt,name=expansion_id,json=expansionId,proto3" json:"expansion_id,omitempty"`
+	IncludeOverNumber bool                   `protobuf:"varint,300,opt,name=include_over_number,json=includeOverNumber,proto3" json:"include_over_number,omitempty"`
+	IncludeNumberless bool                   `protobuf:"varint,400,opt,name=include_numberless,json=includeNumberless,proto3" json:"include_numberless,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
 }
 
 func (x *GiveCardGetFriendDexRegisteredCardsV1_Types_Request) Reset() {
@@ -143,6 +145,20 @@ func (x *GiveCardGetFriendDexRegisteredCardsV1_Types_Request) GetExpansionId() s
 		return x.ExpansionId
 	}
 	return ""
+}
+
+func (x *GiveCardGetFriendDexRegisteredCardsV1_Types_Request) GetIncludeOverNumber() bool {
+	if x != nil {
+		return x.IncludeOverNumber
+	}
+	return false
+}
+
+func (x *GiveCardGetFriendDexRegisteredCardsV1_Types_Request) GetIncludeNumberless() bool {
+	if x != nil {
+		return x.IncludeNumberless
+	}
+	return false
 }
 
 type GiveCardGetFriendDexRegisteredCardsV1_Types_Response struct {
@@ -201,12 +217,14 @@ var File_takasho_schema_lettuce_server_player_api_give_card_get_friend_dex_regis
 
 const file_takasho_schema_lettuce_server_player_api_give_card_get_friend_dex_registered_cards_v1_proto_rawDesc = "" +
 	"\n" +
-	"[takasho/schema/lettuce_server/player_api/give_card_get_friend_dex_registered_cards_v1.proto\x12(takasho.schema.lettuce_server.player_api\"\xf8\x01\n" +
-	"%GiveCardGetFriendDexRegisteredCardsV1\x1a\xce\x01\n" +
-	"\x05Types\x1aW\n" +
+	"[takasho/schema/lettuce_server/player_api/give_card_get_friend_dex_registered_cards_v1.proto\x12(takasho.schema.lettuce_server.player_api\"\xda\x02\n" +
+	"%GiveCardGetFriendDexRegisteredCardsV1\x1a\xb0\x02\n" +
+	"\x05Types\x1a\xb8\x01\n" +
 	"\aRequest\x12(\n" +
 	"\x10friend_player_id\x18d \x01(\tR\x0efriendPlayerId\x12\"\n" +
-	"\fexpansion_id\x18\xc8\x01 \x01(\tR\vexpansionId\x1al\n" +
+	"\fexpansion_id\x18\xc8\x01 \x01(\tR\vexpansionId\x12/\n" +
+	"\x13include_over_number\x18\xac\x02 \x01(\bR\x11includeOverNumber\x12.\n" +
+	"\x12include_numberless\x18\x90\x03 \x01(\bR\x11includeNumberless\x1al\n" +
 	"\bResponse\x125\n" +
 	"\x17dex_registered_card_ids\x18d \x03(\tR\x14dexRegisteredCardIds\x12)\n" +
 	"\x10desired_card_ids\x18\xc8\x01 \x03(\tR\x0edesiredCardIdsBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"

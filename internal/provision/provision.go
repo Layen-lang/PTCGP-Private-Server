@@ -420,7 +420,9 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 		newReceipt.MasterKey = masterKey
 		break
 	}
-	delta := imagePlan{Blobs: map[string]json.RawMessage{}}
+	// Keep outputs as an empty JSON array when every image can be reused. The
+	// native importer deserializes this field into a Rust Vec, which rejects null.
+	delta := imagePlan{Outputs: []imageItem{}, Blobs: map[string]json.RawMessage{}}
 	for _, item := range plan.Outputs {
 		target, e := safePath(filepath.Join(stage, "images", "images"), item.Output)
 		if e != nil {

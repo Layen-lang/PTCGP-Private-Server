@@ -3,6 +3,7 @@ syntax = "proto3";
 package takasho.schema.lettuce_server.resource.pvp;
 
 import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/pvp/battle_record_player_info.proto";
 import "takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto";
 import "takasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto";
 
@@ -14,4 +15,6 @@ message PvpRankBattleRecords {
   string icon_id = 5;
   string player_name = 6;
   string bot_deck_id = 7;
+  BattleRecordPlayerInfo self_player = 8;
+  BattleRecordPlayerInfo opponent_player = 9;
 }

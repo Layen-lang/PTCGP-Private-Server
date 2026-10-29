@@ -8,6 +8,7 @@ message SoloBattleDeck {
       DECK_TYPE_UNSPECIFIED = 0;
       DECK_TYPE_MY_DECK = 1;
       DECK_TYPE_RENTAL_DECK = 2;
+      DECK_TYPE_RENTAL_DECK_V2 = 3;
     }
   }
   SoloBattleDeck.Types.DeckType type = 1;

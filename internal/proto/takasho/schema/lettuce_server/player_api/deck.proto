@@ -3,9 +3,11 @@ syntax = "proto3";
 package takasho.schema.lettuce_server.player_api;
 
 import "takasho/schema/lettuce_server/player_api/deck_change_order_v1.proto";
+import "takasho/schema/lettuce_server/player_api/deck_count_someone_deck_v1.proto";
 import "takasho/schema/lettuce_server/player_api/deck_delete_v1.proto";
 import "takasho/schema/lettuce_server/player_api/deck_get_list_v1.proto";
 import "takasho/schema/lettuce_server/player_api/deck_get_rental_decks_v1.proto";
+import "takasho/schema/lettuce_server/player_api/deck_get_someone_decks_v1.proto";
 import "takasho/schema/lettuce_server/player_api/deck_save_v1.proto";
 
 service Deck {
@@ -14,4 +16,6 @@ service Deck {
   rpc DeleteV1 (DeckDeleteV1.Types.Request) returns (DeckDeleteV1.Types.Response);
   rpc GetRentalDecksV1 (DeckGetRentalDecksV1.Types.Request) returns (DeckGetRentalDecksV1.Types.Response);
   rpc ChangeOrderV1 (DeckChangeOrderV1.Types.Request) returns (DeckChangeOrderV1.Types.Response);
+  rpc GetSomeoneDecksV1 (DeckGetSomeoneDecksV1.Types.Request) returns (DeckGetSomeoneDecksV1.Types.Response);
+  rpc CountSomeoneDeckV1 (DeckCountSomeoneDeckV1.Types.Request) returns (DeckCountSomeoneDeckV1.Types.Response);
 }

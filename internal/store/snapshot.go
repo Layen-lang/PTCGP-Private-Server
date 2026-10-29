@@ -33,12 +33,7 @@ WHERE p.player_id=?`, playerID).Scan(
 	}
 	result.Player.CreatedAt = time.Unix(createdAt, 0).UTC()
 	result.Player.UpdatedAt = time.Unix(updatedAt, 0).UTC()
-	progress, err := s.tutorialProgress(ctx, playerID)
-	if err != nil {
-		return ProfileSummary{}, err
-	}
-	result.Tutorial = progress
-	result.TutorialComplete = hasCompletedTutorial(progress, completedTutorial)
+	result.TutorialComplete = true
 	return result, nil
 }
 
@@ -171,11 +166,7 @@ func (s *Store) Snapshot(ctx context.Context, playerID string) (Snapshot, error)
 			return Snapshot{}, err
 		}
 	}
-	result.Tutorial, err = s.tutorialProgress(ctx, playerID)
-	if err != nil {
-		return Snapshot{}, err
-	}
-	result.TutorialComplete = hasCompletedTutorial(result.Tutorial, completedTutorial)
+	result.TutorialComplete = true
 	return result, nil
 }
 

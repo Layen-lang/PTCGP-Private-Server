@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/private_match_rule_setting.proto";
+
+message PvpCasualGetPrivateMatchRuleV1 {
+  message Types {
+    message Request {
+      string password = 1;
+    }
+    message Response {
+      PrivateMatchRuleSetting rule_setting = 1;
+    }
+  }
+}

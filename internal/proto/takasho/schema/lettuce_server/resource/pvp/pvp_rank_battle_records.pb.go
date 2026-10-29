@@ -23,14 +23,16 @@ const (
 )
 
 type PvpRankBattleRecords struct {
-	state          protoimpl.MessageState `protogen:"open.v1"`
-	BattleId       string                 `protobuf:"bytes,1,opt,name=battle_id,json=battleId,proto3" json:"battle_id,omitempty"`
-	PvpResult      PvPResult              `protobuf:"varint,2,opt,name=pvp_result,json=pvpResult,proto3,enum=takasho.schema.lettuce_server.resource.pvp.PvPResult" json:"pvp_result,omitempty"`
-	CompletedAt    *timestamppb.Timestamp `protobuf:"bytes,3,opt,name=completed_at,json=completedAt,proto3" json:"completed_at,omitempty"`
-	RankPointShift *RankPointShift        `protobuf:"bytes,4,opt,name=rank_point_shift,json=rankPointShift,proto3" json:"rank_point_shift,omitempty"`
-	IconId         string                 `protobuf:"bytes,5,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
-	PlayerName     string                 `protobuf:"bytes,6,opt,name=player_name,json=playerName,proto3" json:"player_name,omitempty"`
-	BotDeckId      string                 `protobuf:"bytes,7,opt,name=bot_deck_id,json=botDeckId,proto3" json:"bot_deck_id,omitempty"`
+	state          protoimpl.MessageState  `protogen:"open.v1"`
+	BattleId       string                  `protobuf:"bytes,1,opt,name=battle_id,json=battleId,proto3" json:"battle_id,omitempty"`
+	PvpResult      PvPResult               `protobuf:"varint,2,opt,name=pvp_result,json=pvpResult,proto3,enum=takasho.schema.lettuce_server.resource.pvp.PvPResult" json:"pvp_result,omitempty"`
+	CompletedAt    *timestamppb.Timestamp  `protobuf:"bytes,3,opt,name=completed_at,json=completedAt,proto3" json:"completed_at,omitempty"`
+	RankPointShift *RankPointShift         `protobuf:"bytes,4,opt,name=rank_point_shift,json=rankPointShift,proto3" json:"rank_point_shift,omitempty"`
+	IconId         string                  `protobuf:"bytes,5,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
+	PlayerName     string                  `protobuf:"bytes,6,opt,name=player_name,json=playerName,proto3" json:"player_name,omitempty"`
+	BotDeckId      string                  `protobuf:"bytes,7,opt,name=bot_deck_id,json=botDeckId,proto3" json:"bot_deck_id,omitempty"`
+	SelfPlayer     *BattleRecordPlayerInfo `protobuf:"bytes,8,opt,name=self_player,json=selfPlayer,proto3" json:"self_player,omitempty"`
+	OpponentPlayer *BattleRecordPlayerInfo `protobuf:"bytes,9,opt,name=opponent_player,json=opponentPlayer,proto3" json:"opponent_player,omitempty"`
 	unknownFields  protoimpl.UnknownFields
 	sizeCache      protoimpl.SizeCache
 }
@@ -114,11 +116,25 @@ func (x *PvpRankBattleRecords) GetBotDeckId() string {
 	return ""
 }
 
+func (x *PvpRankBattleRecords) GetSelfPlayer() *BattleRecordPlayerInfo {
+	if x != nil {
+		return x.SelfPlayer
+	}
+	return nil
+}
+
+func (x *PvpRankBattleRecords) GetOpponentPlayer() *BattleRecordPlayerInfo {
+	if x != nil {
+		return x.OpponentPlayer
+	}
+	return nil
+}
+
 var File_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_rawDesc = "" +
 	"\n" +
-	"Htakasho/schema/lettuce_server/resource/pvp/pvp_rank_battle_records.proto\x12*takasho.schema.lettuce_server.resource.pvp\x1a\x1fgoogle/protobuf/timestamp.proto\x1a<takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto\x1aAtakasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto\"\x88\x03\n" +
+	"Htakasho/schema/lettuce_server/resource/pvp/pvp_rank_battle_records.proto\x12*takasho.schema.lettuce_server.resource.pvp\x1a\x1fgoogle/protobuf/timestamp.proto\x1aJtakasho/schema/lettuce_server/resource/pvp/battle_record_player_info.proto\x1a<takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto\x1aAtakasho/schema/lettuce_server/resource/pvp/rank_point_shift.proto\"\xda\x04\n" +
 	"\x14PvpRankBattleRecords\x12\x1b\n" +
 	"\tbattle_id\x18\x01 \x01(\tR\bbattleId\x12T\n" +
 	"\n" +
@@ -128,7 +144,10 @@ const file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_pr
 	"\aicon_id\x18\x05 \x01(\tR\x06iconId\x12\x1f\n" +
 	"\vplayer_name\x18\x06 \x01(\tR\n" +
 	"playerName\x12\x1e\n" +
-	"\vbot_deck_id\x18\a \x01(\tR\tbotDeckIdBjZhgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pvp;pvpb\x06proto3"
+	"\vbot_deck_id\x18\a \x01(\tR\tbotDeckId\x12c\n" +
+	"\vself_player\x18\b \x01(\v2B.takasho.schema.lettuce_server.resource.pvp.BattleRecordPlayerInfoR\n" +
+	"selfPlayer\x12k\n" +
+	"\x0fopponent_player\x18\t \x01(\v2B.takasho.schema.lettuce_server.resource.pvp.BattleRecordPlayerInfoR\x0eopponentPlayerBjZhgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/pvp;pvpb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_rawDescOnce sync.Once
@@ -144,20 +163,23 @@ func file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_pro
 
 var file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_msgTypes = make([]protoimpl.MessageInfo, 1)
 var file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_goTypes = []any{
-	(*PvpRankBattleRecords)(nil),  // 0: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords
-	(PvPResult)(0),                // 1: takasho.schema.lettuce_server.resource.pvp.PvPResult
-	(*timestamppb.Timestamp)(nil), // 2: google.protobuf.Timestamp
-	(*RankPointShift)(nil),        // 3: takasho.schema.lettuce_server.resource.pvp.RankPointShift
+	(*PvpRankBattleRecords)(nil),   // 0: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords
+	(PvPResult)(0),                 // 1: takasho.schema.lettuce_server.resource.pvp.PvPResult
+	(*timestamppb.Timestamp)(nil),  // 2: google.protobuf.Timestamp
+	(*RankPointShift)(nil),         // 3: takasho.schema.lettuce_server.resource.pvp.RankPointShift
+	(*BattleRecordPlayerInfo)(nil), // 4: takasho.schema.lettuce_server.resource.pvp.BattleRecordPlayerInfo
 }
 var file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_depIdxs = []int32{
 	1, // 0: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords.pvp_result:type_name -> takasho.schema.lettuce_server.resource.pvp.PvPResult
 	2, // 1: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords.completed_at:type_name -> google.protobuf.Timestamp
 	3, // 2: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords.rank_point_shift:type_name -> takasho.schema.lettuce_server.resource.pvp.RankPointShift
-	3, // [3:3] is the sub-list for method output_type
-	3, // [3:3] is the sub-list for method input_type
-	3, // [3:3] is the sub-list for extension type_name
-	3, // [3:3] is the sub-list for extension extendee
-	0, // [0:3] is the sub-list for field type_name
+	4, // 3: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords.self_player:type_name -> takasho.schema.lettuce_server.resource.pvp.BattleRecordPlayerInfo
+	4, // 4: takasho.schema.lettuce_server.resource.pvp.PvpRankBattleRecords.opponent_player:type_name -> takasho.schema.lettuce_server.resource.pvp.BattleRecordPlayerInfo
+	5, // [5:5] is the sub-list for method output_type
+	5, // [5:5] is the sub-list for method input_type
+	5, // [5:5] is the sub-list for extension type_name
+	5, // [5:5] is the sub-list for extension extendee
+	0, // [0:5] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto_init() }
@@ -165,6 +187,7 @@ func file_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_pro
 	if File_takasho_schema_lettuce_server_resource_pvp_pvp_rank_battle_records_proto != nil {
 		return
 	}
+	file_takasho_schema_lettuce_server_resource_pvp_battle_record_player_info_proto_init()
 	file_takasho_schema_lettuce_server_resource_pvp_pv_p_result_proto_init()
 	file_takasho_schema_lettuce_server_resource_pvp_rank_point_shift_proto_init()
 	type x struct{}

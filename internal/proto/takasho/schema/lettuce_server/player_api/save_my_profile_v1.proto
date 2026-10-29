@@ -9,10 +9,19 @@ import "takasho/schema/lettuce_server/resource/player_profile/profile.proto";
 message SaveMyProfileV1 {
   message Types {
     message Request {
+      message Types {
+        enum PublicDeckAction {
+          PUBLIC_DECK_ACTION_UNSPECIFIED = 0;
+          PUBLIC_DECK_ACTION_SET = 1;
+          PUBLIC_DECK_ACTION_REMOVE = 2;
+        }
+      }
       string nickname = 1;
       string icon_id = 2;
       repeated string emblem_ids = 3;
       string message_id = 4;
+      SaveMyProfileV1.Types.Request.Types.PublicDeckAction public_deck_action = 5;
+      uint64 public_deck_id = 6;
     }
     message Response {
       takasho.schema.lettuce_server.resource.player_profile.Profile profile = 1;

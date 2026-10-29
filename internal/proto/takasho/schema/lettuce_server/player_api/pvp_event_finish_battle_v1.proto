@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package takasho.schema.lettuce_server.player_api;
 
+import "takasho/schema/lettuce_server/resource/deck/deck.proto";
 import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
 import "takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto";
 import "takasho/schema/lettuce_server/resource/pvp/pvp_battle_client_report.proto";
@@ -16,6 +17,9 @@ message PvpEventFinishBattleV1 {
     message Response {
       takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 4;
       takasho.schema.lettuce_server.resource.pvp.PvPResult result = 5;
+      takasho.schema.lettuce_server.resource.deck.Deck opponent_deck = 6;
+      string opponent_rental_deck_id = 7;
+      repeated string dropped_reward_ids = 8;
     }
   }
 }

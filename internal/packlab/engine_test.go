@@ -2,6 +2,7 @@ package packlab
 
 import (
 	"context"
+	mathrand "math/rand"
 	"path/filepath"
 	"testing"
 
@@ -417,4 +418,24 @@ func containsString(values []string, want string) bool {
 		}
 	}
 	return false
+}
+
+func TestIllegalOpeningDrawsRaritiesMissingFromOpenedPack(t *testing.T) {
+	t.Parallel()
+	// Special-pack-only rarities (1000 in 1.8.0) have no pool in normal packs.
+	engine := &Engine{rarityCodesByLabel: map[string]map[int]struct{}{"C": {100: {}}}}
+	pack := catalog.Pack{ID: "BN011", Tables: []catalog.PackTable{{ID: "BN011_01", Kind: "normal", Weight: 1, Slots: []catalog.PackSlot{
+		{Pools: []catalog.PackSlotPool{{Rarity: "C", Weight: 1, Cards: []catalog.WeightedCard{{CardID: "common", Weight: 1}}}}},
+	}}}}
+	pool := []catalog.Card{{ID: "special-a", Rarity: 1000}, {ID: "special-b", Rarity: 1000}}
+	drawn, err := engine.drawIllegal(pack, pool, store.IllegalPackRule{CardCount: 2}, mathrand.New(mathrand.NewSource(1)))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(drawn.Cards) != 2 || drawn.Cards[0] == drawn.Cards[1] {
+		t.Fatalf("drawn = %+v, want both special cards once", drawn.Cards)
+	}
+	if _, err := engine.drawIllegal(pack, pool, store.IllegalPackRule{CardCount: 3}, mathrand.New(mathrand.NewSource(1))); err == nil {
+		t.Fatal("expected an error when the pool is exhausted without duplicates")
+	}
 }

@@ -108,7 +108,7 @@ func compatibilityMutation(fullMethod string) bool {
 		return true
 	}
 	method := fullMethod[separator+1:]
-	for _, prefix := range []string{"Echo", "Get", "Insight", "Is", "List", "May", "Sync"} {
+	for _, prefix := range []string{"Get", "Insight", "Is", "List", "May", "Sync"} {
 		if strings.HasPrefix(method, prefix) {
 			return false
 		}

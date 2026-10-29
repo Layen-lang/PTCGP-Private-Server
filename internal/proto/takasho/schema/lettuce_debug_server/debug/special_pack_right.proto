@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_debug_server.debug;
+
+import "takasho/schema/lettuce_debug_server/debug/special_pack_right_get_last_used_at.proto";
+import "takasho/schema/lettuce_debug_server/debug/special_pack_right_set_last_used_at.proto";
+
+service SpecialPackRight {
+  rpc SetLastUsedAt (SpecialPackRightSetLastUsedAt.Types.Request) returns (SpecialPackRightSetLastUsedAt.Types.Response);
+  rpc GetLastUsedAt (SpecialPackRightGetLastUsedAt.Types.Request) returns (SpecialPackRightGetLastUsedAt.Types.Response);
+}

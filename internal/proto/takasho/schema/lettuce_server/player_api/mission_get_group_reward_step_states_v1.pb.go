@@ -93,50 +93,6 @@ func (*MissionGetGroupRewardStepStatesV1_Types) Descriptor() ([]byte, []int) {
 	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0}
 }
 
-type MissionGetGroupRewardStepStatesV1_Types_Response struct {
-	state         protoimpl.MessageState                                                                `protogen:"open.v1"`
-	States        []*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState `protobuf:"bytes,1,rep,name=states,proto3" json:"states,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
-}
-
-func (x *MissionGetGroupRewardStepStatesV1_Types_Response) Reset() {
-	*x = MissionGetGroupRewardStepStatesV1_Types_Response{}
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[2]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *MissionGetGroupRewardStepStatesV1_Types_Response) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*MissionGetGroupRewardStepStatesV1_Types_Response) ProtoMessage() {}
-
-func (x *MissionGetGroupRewardStepStatesV1_Types_Response) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[2]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use MissionGetGroupRewardStepStatesV1_Types_Response.ProtoReflect.Descriptor instead.
-func (*MissionGetGroupRewardStepStatesV1_Types_Response) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 0}
-}
-
-func (x *MissionGetGroupRewardStepStatesV1_Types_Response) GetStates() []*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState {
-	if x != nil {
-		return x.States
-	}
-	return nil
-}
-
 type MissionGetGroupRewardStepStatesV1_Types_Request struct {
 	state                     protoimpl.MessageState `protogen:"open.v1"`
 	MissionGroupRewardStepIds []string               `protobuf:"bytes,1,rep,name=mission_group_reward_step_ids,json=missionGroupRewardStepIds,proto3" json:"mission_group_reward_step_ids,omitempty"`
@@ -146,7 +102,7 @@ type MissionGetGroupRewardStepStatesV1_Types_Request struct {
 
 func (x *MissionGetGroupRewardStepStatesV1_Types_Request) Reset() {
 	*x = MissionGetGroupRewardStepStatesV1_Types_Request{}
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[2]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -158,7 +114,7 @@ func (x *MissionGetGroupRewardStepStatesV1_Types_Request) String() string {
 func (*MissionGetGroupRewardStepStatesV1_Types_Request) ProtoMessage() {}
 
 func (x *MissionGetGroupRewardStepStatesV1_Types_Request) ProtoReflect() protoreflect.Message {
-	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[3]
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[2]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -171,12 +127,56 @@ func (x *MissionGetGroupRewardStepStatesV1_Types_Request) ProtoReflect() protore
 
 // Deprecated: Use MissionGetGroupRewardStepStatesV1_Types_Request.ProtoReflect.Descriptor instead.
 func (*MissionGetGroupRewardStepStatesV1_Types_Request) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 0}
 }
 
 func (x *MissionGetGroupRewardStepStatesV1_Types_Request) GetMissionGroupRewardStepIds() []string {
 	if x != nil {
 		return x.MissionGroupRewardStepIds
+	}
+	return nil
+}
+
+type MissionGetGroupRewardStepStatesV1_Types_Response struct {
+	state         protoimpl.MessageState                                                                `protogen:"open.v1"`
+	States        []*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState `protobuf:"bytes,1,rep,name=states,proto3" json:"states,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *MissionGetGroupRewardStepStatesV1_Types_Response) Reset() {
+	*x = MissionGetGroupRewardStepStatesV1_Types_Response{}
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[3]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *MissionGetGroupRewardStepStatesV1_Types_Response) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*MissionGetGroupRewardStepStatesV1_Types_Response) ProtoMessage() {}
+
+func (x *MissionGetGroupRewardStepStatesV1_Types_Response) ProtoReflect() protoreflect.Message {
+	mi := &file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_msgTypes[3]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use MissionGetGroupRewardStepStatesV1_Types_Response.ProtoReflect.Descriptor instead.
+func (*MissionGetGroupRewardStepStatesV1_Types_Response) Descriptor() ([]byte, []int) {
+	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 1}
+}
+
+func (x *MissionGetGroupRewardStepStatesV1_Types_Response) GetStates() []*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState {
+	if x != nil {
+		return x.States
 	}
 	return nil
 }
@@ -214,7 +214,7 @@ func (x *MissionGetGroupRewardStepStatesV1_Types_Response_Types) ProtoReflect() 
 
 // Deprecated: Use MissionGetGroupRewardStepStatesV1_Types_Response_Types.ProtoReflect.Descriptor instead.
 func (*MissionGetGroupRewardStepStatesV1_Types_Response_Types) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0}
 }
 
 type MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState struct {
@@ -253,7 +253,7 @@ func (x *MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewa
 
 // Deprecated: Use MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState.ProtoReflect.Descriptor instead.
 func (*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState) Descriptor() ([]byte, []int) {
-	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 0, 0, 0}
+	return file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescGZIP(), []int{0, 0, 1, 0, 0}
 }
 
 func (x *MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState) GetMissionGroupRewardStepId() string {
@@ -276,16 +276,16 @@ const file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_ste
 	"\n" +
 	"Vtakasho/schema/lettuce_server/player_api/mission_get_group_reward_step_states_v1.proto\x12(takasho.schema.lettuce_server.player_api\"\xa6\x03\n" +
 	"!MissionGetGroupRewardStepStatesV1\x1a\x80\x03\n" +
-	"\x05Types\x1a\xa9\x02\n" +
+	"\x05Types\x1aK\n" +
+	"\aRequest\x12@\n" +
+	"\x1dmission_group_reward_step_ids\x18\x01 \x03(\tR\x19missionGroupRewardStepIds\x1a\xa9\x02\n" +
 	"\bResponse\x12\x94\x01\n" +
 	"\x06states\x18\x01 \x03(\v2|.takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Response.Types.MissionGroupRewardStepStateR\x06states\x1a\x85\x01\n" +
 	"\x05Types\x1a|\n" +
 	"\x1bMissionGroupRewardStepState\x12>\n" +
 	"\x1cmission_group_reward_step_id\x18\x01 \x01(\tR\x18missionGroupRewardStepId\x12\x1d\n" +
 	"\n" +
-	"is_cleared\x18\x02 \x01(\bR\tisCleared\x1aK\n" +
-	"\aRequest\x12@\n" +
-	"\x1dmission_group_reward_step_ids\x18\x01 \x03(\tR\x19missionGroupRewardStepIdsBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"is_cleared\x18\x02 \x01(\bR\tisClearedBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_rawDescOnce sync.Once
@@ -303,8 +303,8 @@ var file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_
 var file_takasho_schema_lettuce_server_player_api_mission_get_group_reward_step_states_v1_proto_goTypes = []any{
 	(*MissionGetGroupRewardStepStatesV1)(nil),                                                  // 0: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1
 	(*MissionGetGroupRewardStepStatesV1_Types)(nil),                                            // 1: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types
-	(*MissionGetGroupRewardStepStatesV1_Types_Response)(nil),                                   // 2: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Response
-	(*MissionGetGroupRewardStepStatesV1_Types_Request)(nil),                                    // 3: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Request
+	(*MissionGetGroupRewardStepStatesV1_Types_Request)(nil),                                    // 2: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Request
+	(*MissionGetGroupRewardStepStatesV1_Types_Response)(nil),                                   // 3: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Response
 	(*MissionGetGroupRewardStepStatesV1_Types_Response_Types)(nil),                             // 4: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Response.Types
 	(*MissionGetGroupRewardStepStatesV1_Types_Response_Types_MissionGroupRewardStepState)(nil), // 5: takasho.schema.lettuce_server.player_api.MissionGetGroupRewardStepStatesV1.Types.Response.Types.MissionGroupRewardStepState
 }

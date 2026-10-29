@@ -315,7 +315,7 @@ func TestCardLanguageQuantitiesPersistAndDuplicate(t *testing.T) {
 	}
 }
 
-func TestTutorialCompletionPersistsHighestStep(t *testing.T) {
+func TestTutorialProgressIsCleanedOnOpen(t *testing.T) {
 	t.Parallel()
 	ctx := context.Background()
 	path := filepath.Join(t.TempDir(), "tutorial.db")
@@ -345,15 +345,9 @@ func TestTutorialCompletionPersistsHighestStep(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	for _, progress := range snapshot.Tutorial {
-		if progress.TutorialID == "2160" {
-			if progress.Step != 4 || !progress.Completed {
-				t.Fatalf("tutorial progress = %+v, want completed step 4", progress)
-			}
-			return
-		}
+	if len(snapshot.Tutorial) != 0 {
+		t.Fatalf("tutorial progress = %+v, want no persisted progress", snapshot.Tutorial)
 	}
-	t.Fatal("tutorial 2160 was not persisted")
 }
 
 func TestTutorialCompleteSettingIncludesEveryKnownFeature(t *testing.T) {
@@ -375,30 +369,8 @@ func TestTutorialCompleteSettingIncludesEveryKnownFeature(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if !snapshot.TutorialComplete || len(snapshot.Tutorial) != 41 {
-		t.Fatalf("completed tutorial state = %t with %d entries, want true with 41", snapshot.TutorialComplete, len(snapshot.Tutorial))
-	}
-	want := map[string]int64{
-		"1000": 999, "1010": 2, "1011": 3,
-		"2000": 3, "2001": 5, "2002": 5, "2003": 5, "2010": 2,
-		"2140": 6, "2160": 5, "2161": 2, "2162": 2, "2300": 2, "2400": 2,
-		"2500": 2, "2510": 2, "2520": 2, "2521": 2, "2530": 2, "2531": 2,
-		"2540": 2, "2600": 2, "2700": 2,
-		"2800": 999, "2900": 999,
-		"3000": 2, "3001": 2, "3002": 2, "3003": 2,
-		"3004": 2, "3005": 2, "3006": 2, "3007": 2,
-		"3008": 2, "3009": 2, "3010": 2, "3011": 2,
-		"3012": 2, "3013": 2, "3014": 2, "3015": 2,
-	}
-	for _, progress := range snapshot.Tutorial {
-		step, ok := want[progress.TutorialID]
-		if !ok || progress.Step != step || !progress.Completed {
-			t.Fatalf("unexpected completed tutorial: %+v", progress)
-		}
-		delete(want, progress.TutorialID)
-	}
-	if len(want) != 0 {
-		t.Fatalf("missing completed tutorials: %+v", want)
+	if !snapshot.TutorialComplete || len(snapshot.Tutorial) != 0 {
+		t.Fatalf("completed tutorial state = %t with %d persisted entries, want true with 0", snapshot.TutorialComplete, len(snapshot.Tutorial))
 	}
 }
 
@@ -432,15 +404,9 @@ func TestTutorialMasterDataMigrationBackfillsVersion4Profiles(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if !snapshot.TutorialComplete || len(snapshot.Tutorial) != 41 {
-		t.Fatalf("migrated tutorial state = %t with %d entries, want true with 41", snapshot.TutorialComplete, len(snapshot.Tutorial))
+	if !snapshot.TutorialComplete || len(snapshot.Tutorial) != 0 {
+		t.Fatalf("migrated tutorial state = %t with %d persisted entries, want true with 0", snapshot.TutorialComplete, len(snapshot.Tutorial))
 	}
-	for _, progress := range snapshot.Tutorial {
-		if progress.TutorialID == "3015" && progress.Step == 2 && progress.Completed {
-			return
-		}
-	}
-	t.Fatal("tutorial 3015 was not backfilled")
 }
 
 func TestTutorialCompletionMigrationBackfillsCompletedProfiles(t *testing.T) {
@@ -476,18 +442,18 @@ func TestTutorialCompletionMigrationBackfillsCompletedProfiles(t *testing.T) {
 		t.Fatal(err)
 	}
 	defer s.Close()
-	var step int64
-	if err := s.db.QueryRowContext(ctx, `SELECT step FROM tutorial_progress WHERE player_id=? AND tutorial_id='2160'`, created.ID).Scan(&step); err != nil {
+	var progressCount int
+	if err := s.db.QueryRowContext(ctx, `SELECT count(*) FROM tutorial_progress WHERE player_id=?`, created.ID).Scan(&progressCount); err != nil {
 		t.Fatal(err)
 	}
-	if step != 5 {
-		t.Fatalf("migrated tutorial step = %d, want 5", step)
+	if progressCount != 0 {
+		t.Fatalf("migrated tutorial progress count = %d, want 0", progressCount)
 	}
 	incompleteSnapshot, err := s.Snapshot(ctx, incomplete.ID)
 	if err != nil {
 		t.Fatal(err)
 	}
-	if incompleteSnapshot.TutorialComplete || len(incompleteSnapshot.Tutorial) != 1 || incompleteSnapshot.Tutorial[0].TutorialID != "1000" || incompleteSnapshot.Tutorial[0].Step != 100 {
+	if !incompleteSnapshot.TutorialComplete || len(incompleteSnapshot.Tutorial) != 0 {
 		t.Fatalf("migration changed incomplete tutorial state: %+v", incompleteSnapshot.Tutorial)
 	}
 }

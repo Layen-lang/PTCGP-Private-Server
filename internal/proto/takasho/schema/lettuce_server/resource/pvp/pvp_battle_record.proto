@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.pvp;
+
+import "google/protobuf/timestamp.proto";
+import "takasho/schema/lettuce_server/resource/pvp/battle_record_player_info.proto";
+import "takasho/schema/lettuce_server/resource/pvp/pv_p_result.proto";
+
+message PvpBattleRecord {
+  string battle_id = 1;
+  PvPResult result = 2;
+  google.protobuf.Timestamp battle_finished_at = 3;
+  BattleRecordPlayerInfo self = 4;
+  BattleRecordPlayerInfo opponent = 5;
+}

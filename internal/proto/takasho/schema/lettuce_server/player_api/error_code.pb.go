@@ -142,6 +142,7 @@ const (
 	ErrorCode_Types_METHOD_FAILED_TO_ASSIGN_PVP_BATTLE                                      ErrorCode_Types_Method = 5804
 	ErrorCode_Types_METHOD_MASTER_VERSION_MISMATCH                                          ErrorCode_Types_Method = 5805
 	ErrorCode_Types_METHOD_PVP_OUT_OF_EVENT_SCHEDULE                                        ErrorCode_Types_Method = 5806
+	ErrorCode_Types_METHOD_DECK_RULE_VIOLATION                                              ErrorCode_Types_Method = 5807
 	ErrorCode_Types_METHOD_OUT_OF_SEASON                                                    ErrorCode_Types_Method = 6000
 	ErrorCode_Types_METHOD_OUT_OF_SEASON_RESULT                                             ErrorCode_Types_Method = 6001
 	ErrorCode_Types_METHOD_SEASON_CANCELLED                                                 ErrorCode_Types_Method = 6002
@@ -216,6 +217,7 @@ var (
 		5804: "METHOD_FAILED_TO_ASSIGN_PVP_BATTLE",
 		5805: "METHOD_MASTER_VERSION_MISMATCH",
 		5806: "METHOD_PVP_OUT_OF_EVENT_SCHEDULE",
+		5807: "METHOD_DECK_RULE_VIOLATION",
 		6000: "METHOD_OUT_OF_SEASON",
 		6001: "METHOD_OUT_OF_SEASON_RESULT",
 		6002: "METHOD_SEASON_CANCELLED",
@@ -287,6 +289,7 @@ var (
 		"METHOD_FAILED_TO_ASSIGN_PVP_BATTLE":                                      5804,
 		"METHOD_MASTER_VERSION_MISMATCH":                                          5805,
 		"METHOD_PVP_OUT_OF_EVENT_SCHEDULE":                                        5806,
+		"METHOD_DECK_RULE_VIOLATION":                                              5807,
 		"METHOD_OUT_OF_SEASON":                                                    6000,
 		"METHOD_OUT_OF_SEASON_RESULT":                                             6001,
 		"METHOD_SEASON_CANCELLED":                                                 6002,
@@ -411,8 +414,8 @@ var File_takasho_schema_lettuce_server_player_api_error_code_proto protoreflect.
 
 const file_takasho_schema_lettuce_server_player_api_error_code_proto_rawDesc = "" +
 	"\n" +
-	"9takasho/schema/lettuce_server/player_api/error_code.proto\x12(takasho.schema.lettuce_server.player_api\"\x82\x19\n" +
-	"\tErrorCode\x1a\xf4\x18\n" +
+	"9takasho/schema/lettuce_server/player_api/error_code.proto\x12(takasho.schema.lettuce_server.player_api\"\xa3\x19\n" +
+	"\tErrorCode\x1a\x95\x19\n" +
 	"\x05Types\"\xa8\x02\n" +
 	"\x06Common\x12\x16\n" +
 	"\x12COMMON_UNSPECIFIED\x10\x00\x12\x1b\n" +
@@ -423,7 +426,7 @@ const file_takasho_schema_lettuce_server_player_api_error_code_proto_rawDesc = "
 	"\x18COMMON_UNDER_MAINTENANCE\x10\xee\a\x12\x1a\n" +
 	"\x15COMMON_DELETED_PLAYER\x10\xef\a\x12)\n" +
 	"$COMMON_UNDER_PVP_PARTIAL_MAINTENANCE\x10\xf0\a\x12 \n" +
-	"\x1bCOMMON_FRAUDULENT_OPERATION\x10\xf1\a\"\xbf\x16\n" +
+	"\x1bCOMMON_FRAUDULENT_OPERATION\x10\xf1\a\"\xe0\x16\n" +
 	"\x06Method\x12\x16\n" +
 	"\x12METHOD_UNSPECIFIED\x10\x00\x12\x1c\n" +
 	"\x17METHOD_ILLEGAL_ARGUMENT\x10\xd1\x0f\x12\x1e\n" +
@@ -475,7 +478,8 @@ const file_takasho_schema_lettuce_server_player_api_error_code_proto_rawDesc = "
 	"(METHOD_MATCHING_HAS_NOT_BEEN_ESTABLISHED\x10\xab-\x12'\n" +
 	"\"METHOD_FAILED_TO_ASSIGN_PVP_BATTLE\x10\xac-\x12#\n" +
 	"\x1eMETHOD_MASTER_VERSION_MISMATCH\x10\xad-\x12%\n" +
-	" METHOD_PVP_OUT_OF_EVENT_SCHEDULE\x10\xae-\x12\x19\n" +
+	" METHOD_PVP_OUT_OF_EVENT_SCHEDULE\x10\xae-\x12\x1f\n" +
+	"\x1aMETHOD_DECK_RULE_VIOLATION\x10\xaf-\x12\x19\n" +
 	"\x14METHOD_OUT_OF_SEASON\x10\xf0.\x12 \n" +
 	"\x1bMETHOD_OUT_OF_SEASON_RESULT\x10\xf1.\x12\x1c\n" +
 	"\x17METHOD_SEASON_CANCELLED\x10\xf2.\x12\x1d\n" +

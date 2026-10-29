@@ -557,7 +557,7 @@ func (h *Handler) updateProfile(w http.ResponseWriter, r *http.Request, playerID
 		h.writeError(w, http.StatusBadRequest, "country must be a two-letter region code")
 		return
 	}
-	err := h.players.Apply(r.Context(), playerID, player.Change{DisplayName: &input.DisplayName, Level: &input.Level, Experience: &input.Experience, TutorialComplete: &input.TutorialComplete})
+	err := h.players.Apply(r.Context(), playerID, player.Change{DisplayName: &input.DisplayName, Level: &input.Level, Experience: &input.Experience})
 	if err != nil {
 		h.writeError(w, http.StatusBadRequest, err.Error())
 		return

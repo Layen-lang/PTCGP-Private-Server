@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.special_pack;
+
+import "google/protobuf/timestamp.proto";
+
+message SpecialPackUnpackRight {
+  google.protobuf.Timestamp next_available_at = 1;
+}

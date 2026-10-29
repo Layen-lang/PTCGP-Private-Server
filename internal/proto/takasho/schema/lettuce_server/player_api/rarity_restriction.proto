@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/card_rarity.proto";
+
+message RarityRestriction {
+  repeated CardRarity allowed_rarities = 1;
+  bool allow_promo = 2;
+}

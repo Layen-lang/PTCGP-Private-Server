@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/special_pack/special_pack_unpack_right.proto";
+
+message SpecialPackGetUnpackRightV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      takasho.schema.lettuce_server.resource.special_pack.SpecialPackUnpackRight special_pack_unpack_right = 1;
+    }
+  }
+}

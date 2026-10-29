@@ -6,6 +6,27 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.8.1.0] - 2026-10-29
+
+### Changed
+
+- Adopt the Pokémon TCG Pocket 1.8.0 Player API protocol: drop the removed
+  `Echo/EchoV1` and `ItemShop/GetPurchaseSummariesV1` handlers.
+
+### Added
+
+- Share private match rules between local players by room password, list
+  friends' first decks as someone decks, and answer the new versus battle
+  record lists (empty locally).
+- Report the weekly special pack right as available; special pack openings are
+  refused until they are modelled locally.
+
+### Fixed
+
+- Illegal mode no longer fails when its filters select a rarity absent from
+  the opened pack, such as the special-pack-only rarity of 1.8.0; those cards
+  are drawn uniformly.
+
 ## [1.7.5.2] - 2026-10-14
 
 ### Added

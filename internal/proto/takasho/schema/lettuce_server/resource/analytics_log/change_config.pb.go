@@ -45,6 +45,7 @@ type ChangeConfig struct {
 	SeMuteFlg                 bool                   `protobuf:"varint,19,opt,name=se_mute_flg,json=seMuteFlg,proto3" json:"se_mute_flg,omitempty"`
 	TradeAutoReject           int64                  `protobuf:"varint,20,opt,name=trade_auto_reject,json=tradeAutoReject,proto3" json:"trade_auto_reject,omitempty"`
 	AutomationGoldFrameFlg    bool                   `protobuf:"varint,21,opt,name=automation_gold_frame_flg,json=automationGoldFrameFlg,proto3" json:"automation_gold_frame_flg,omitempty"`
+	PushNoticeStamina3        bool                   `protobuf:"varint,22,opt,name=push_notice_stamina3,json=pushNoticeStamina3,proto3" json:"push_notice_stamina3,omitempty"`
 	unknownFields             protoimpl.UnknownFields
 	sizeCache                 protoimpl.SizeCache
 }
@@ -226,11 +227,18 @@ func (x *ChangeConfig) GetAutomationGoldFrameFlg() bool {
 	return false
 }
 
+func (x *ChangeConfig) GetPushNoticeStamina3() bool {
+	if x != nil {
+		return x.PushNoticeStamina3
+	}
+	return false
+}
+
 var File_takasho_schema_lettuce_server_resource_analytics_log_change_config_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_resource_analytics_log_change_config_proto_rawDesc = "" +
 	"\n" +
-	"Htakasho/schema/lettuce_server/resource/analytics_log/change_config.proto\x124takasho.schema.lettuce_server.resource.analytics_log\x1a>takasho/schema/lettuce_server/resource/language/language.proto\"\xb7\a\n" +
+	"Htakasho/schema/lettuce_server/resource/analytics_log/change_config.proto\x124takasho.schema.lettuce_server.resource.analytics_log\x1a>takasho/schema/lettuce_server/resource/language/language.proto\"\xe9\a\n" +
 	"\fChangeConfig\x12,\n" +
 	"\x12speaker_bgm_volume\x18\x01 \x01(\x03R\x10speakerBgmVolume\x12*\n" +
 	"\x11speaker_se_volume\x18\x02 \x01(\x03R\x0fspeakerSeVolume\x120\n" +
@@ -255,7 +263,8 @@ const file_takasho_schema_lettuce_server_resource_analytics_log_change_config_pr
 	"bgmMuteFlg\x12\x1e\n" +
 	"\vse_mute_flg\x18\x13 \x01(\bR\tseMuteFlg\x12*\n" +
 	"\x11trade_auto_reject\x18\x14 \x01(\x03R\x0ftradeAutoReject\x129\n" +
-	"\x19automation_gold_frame_flg\x18\x15 \x01(\bR\x16automationGoldFrameFlgB~Z|github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/analytics_log;analytics_logb\x06proto3"
+	"\x19automation_gold_frame_flg\x18\x15 \x01(\bR\x16automationGoldFrameFlg\x120\n" +
+	"\x14push_notice_stamina3\x18\x16 \x01(\bR\x12pushNoticeStamina3B~Z|github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/analytics_log;analytics_logb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_analytics_log_change_config_proto_rawDescOnce sync.Once

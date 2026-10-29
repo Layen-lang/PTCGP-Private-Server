@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+enum CardRarity {
+  CARD_RARITY_UNSPECIFIED = 0;
+  CARD_RARITY_C = 100;
+  CARD_RARITY_U = 200;
+  CARD_RARITY_R = 300;
+  CARD_RARITY_RR = 400;
+  CARD_RARITY_AR = 500;
+  CARD_RARITY_SAR = 600;
+  CARD_RARITY_SR = 700;
+  CARD_RARITY_IM = 800;
+  CARD_RARITY_S = 830;
+  CARD_RARITY_SSR = 860;
+  CARD_RARITY_UR = 900;
+  CARD_RARITY_AN = 1000;
+}

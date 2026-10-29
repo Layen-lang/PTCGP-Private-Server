@@ -349,7 +349,7 @@ func (s *Store) CreatePlayerWithSettings(ctx context.Context, displayName string
 	return player, nil
 }
 
-func insertPlayer(ctx context.Context, tx *sql.Tx, player Player, tutorialComplete bool, language, country string) error {
+func insertPlayer(ctx context.Context, tx *sql.Tx, player Player, _ bool, language, country string) error {
 	_, err := tx.ExecContext(ctx, `INSERT INTO players(player_id,display_name,level,experience,state_version,created_at,updated_at) VALUES(?,?,?,?,?,?,?)`, player.ID, player.DisplayName, player.Level, player.Experience, player.StateVersion, player.CreatedAt.Unix(), player.UpdatedAt.Unix())
 	if err != nil {
 		return fmt.Errorf("insert player: %w", err)
@@ -366,7 +366,7 @@ func insertPlayer(ctx context.Context, tx *sql.Tx, player Player, tutorialComple
 	if _, err := tx.ExecContext(ctx, `INSERT INTO player_pack_state(player_id,pack_power,pack_power_updated_at,poke_gold) VALUES(?,?,?,?)`, player.ID, 2, player.UpdatedAt.Unix(), 0); err != nil {
 		return fmt.Errorf("insert player pack state: %w", err)
 	}
-	return setTutorialTx(ctx, tx, player.ID, tutorialComplete, completedTutorial, player.UpdatedAt.Unix())
+	return nil
 }
 
 func (s *Store) Players(ctx context.Context) ([]Player, error) {

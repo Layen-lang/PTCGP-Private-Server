@@ -57,11 +57,14 @@ type PackOpening struct {
 }
 
 type CommitPackOpening struct {
-	Opening    PackOpening
-	CeilGroup  string
-	Share      bool
-	MaxPower   int64
-	HealPeriod time.Duration
+	Opening                 PackOpening
+	CeilGroup               string
+	Share                   bool
+	MaxPower                int64
+	HealPeriod              time.Duration
+	SpecialPackTicketID     string
+	SpecialPackTicketAmount int64
+	SpecialPackRightWeekKey string
 }
 
 func defaultPackRule() PackRule {
@@ -358,6 +361,35 @@ func (s *Store) CommitPackOpening(ctx context.Context, input CommitPackOpening) 
 		return PackOpening{}, false, err
 	}
 	opening.CreatedAt = now
+	if input.SpecialPackTicketAmount < 0 || (input.SpecialPackTicketAmount > 0 && input.SpecialPackTicketID == "") {
+		return PackOpening{}, false, fmt.Errorf("%w: invalid special pack ticket cost", ErrRuleViolation)
+	}
+	if input.SpecialPackRightWeekKey != "" {
+		flagKey := "unpack_right:" + input.SpecialPackRightWeekKey
+		var used int
+		err := tx.QueryRowContext(ctx, `SELECT 1 FROM player_flags WHERE player_id=? AND namespace='special_pack' AND flag_key=? AND flag_value<>0`, opening.PlayerID, flagKey).Scan(&used)
+		if err == nil {
+			return PackOpening{}, false, ErrInsufficientResources
+		}
+		if !errors.Is(err, sql.ErrNoRows) {
+			return PackOpening{}, false, err
+		}
+		if _, err := tx.ExecContext(ctx, `INSERT INTO player_flags(player_id,namespace,flag_key,flag_value,updated_at) VALUES(?,'special_pack',?,1,?)`, opening.PlayerID, flagKey, now.Unix()); err != nil {
+			return PackOpening{}, false, err
+		}
+	}
+	if input.SpecialPackTicketAmount > 0 {
+		result, err := tx.ExecContext(ctx, `UPDATE player_items SET quantity=quantity-? WHERE player_id=? AND item_kind='special_pack_ticket' AND item_id=? AND quantity>=?`, input.SpecialPackTicketAmount, opening.PlayerID, input.SpecialPackTicketID, input.SpecialPackTicketAmount)
+		if err != nil {
+			return PackOpening{}, false, err
+		}
+		if changed, _ := result.RowsAffected(); changed != 1 {
+			return PackOpening{}, false, ErrInsufficientResources
+		}
+		if _, err := tx.ExecContext(ctx, `DELETE FROM player_items WHERE player_id=? AND item_kind='special_pack_ticket' AND item_id=? AND quantity=0`, opening.PlayerID, input.SpecialPackTicketID); err != nil {
+			return PackOpening{}, false, err
+		}
+	}
 	if !opening.Free {
 		var power, pokeGold, updated int64
 		if err := tx.QueryRowContext(ctx, `SELECT pack_power,poke_gold,pack_power_updated_at FROM player_pack_state WHERE player_id=?`, opening.PlayerID).Scan(&power, &pokeGold, &updated); err != nil {

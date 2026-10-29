@@ -68,7 +68,6 @@ export type Profile = {
   Player: PlayerDetails
   Settings: { Language: string; Country: string; IconID: string; MessageID: string }
   ProfileImageURL: string
-  TutorialComplete: boolean
   RequiredExperience: number
   CardCount: number
   EmblemIDs: string[] | null

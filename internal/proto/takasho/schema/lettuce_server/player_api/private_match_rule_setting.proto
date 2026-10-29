@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/player_api/deck_type_restriction.proto";
+import "takasho/schema/lettuce_server/player_api/expansion_restriction.proto";
+import "takasho/schema/lettuce_server/player_api/rarity_restriction.proto";
+
+message PrivateMatchRuleSetting {
+  DeckTypeRestriction deck_type_restriction = 1;
+  ExpansionRestriction expansion_restriction = 2;
+  RarityRestriction rarity_restriction = 3;
+}

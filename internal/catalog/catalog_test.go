@@ -133,10 +133,10 @@ func TestLoadsCatalogAndFindsCoreEntities(t *testing.T) {
 		t.Fatalf("catalog incomplete: expansions=%d packs=%d cosmetics=%d", len(c.Expansions()), len(c.Packs()), len(c.Cosmetics()))
 	}
 	tutorials := c.TutorialCompletions()
-	if len(tutorials) != 41 {
-		t.Fatalf("tutorial completions = %d, want 41", len(tutorials))
+	if len(tutorials) != 44 {
+		t.Fatalf("tutorial completions = %d, want 44", len(tutorials))
 	}
-	wantTutorials := map[string]int64{"1011": 1, "2002": 5, "2010": 2, "2161": 2, "2520": 2, "3015": 2}
+	wantTutorials := map[string]int64{"1011": 1, "2002": 5, "2010": 2, "2161": 2, "2200": 999, "2520": 2, "3015": 2, "3100": 2, "3200": 999}
 	for _, tutorial := range tutorials {
 		if want, ok := wantTutorials[tutorial.ID]; ok {
 			if tutorial.Step != want {

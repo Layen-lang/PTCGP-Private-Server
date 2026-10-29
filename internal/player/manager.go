@@ -60,13 +60,12 @@ type CreateInput struct {
 }
 
 type Change struct {
-	DisplayName      *string
-	Level            *int
-	Experience       *int64
-	TutorialComplete *bool
-	Cards            map[string]int64
-	Currencies       map[string]int64
-	Items            map[string]int64
+	DisplayName *string
+	Level       *int
+	Experience  *int64
+	Cards       map[string]int64
+	Currencies  map[string]int64
+	Items       map[string]int64
 }
 
 type CardExchangeInput struct {
@@ -251,7 +250,7 @@ func (m *Manager) ProfileSummary(ctx context.Context, playerID string) (ProfileS
 	}
 	result := ProfileSummary{
 		Player: value.Player, Settings: value.Settings,
-		TutorialComplete: hasCompletedTutorial(value.Tutorial, m.tutorialCompletions()), CardCount: value.CardCount,
+		TutorialComplete: true, CardCount: value.CardCount,
 	}
 	result.EmblemIDs, err = m.state.SelectedEmblems(ctx, playerID)
 	if err != nil {
@@ -266,8 +265,8 @@ func (m *Manager) Profile(ctx context.Context, playerID string) (Profile, error)
 		return Profile{}, err
 	}
 	result := Profile{
-		Player: snapshot.Player, Settings: snapshot.Settings, Tutorial: snapshot.Tutorial,
-		TutorialComplete: hasCompletedTutorial(snapshot.Tutorial, m.tutorialCompletions()),
+		Player: snapshot.Player, Settings: snapshot.Settings, Tutorial: m.tutorialCompletions(),
+		TutorialComplete: true,
 	}
 	result.EmblemIDs, err = m.state.SelectedEmblems(ctx, playerID)
 	if err != nil {
@@ -372,7 +371,7 @@ func (m *Manager) Create(ctx context.Context, input CreateInput) (store.Player, 
 	var created store.Player
 	switch input.Preset {
 	case "", "empty":
-		created, err = m.state.CreatePlayerWithSettings(ctx, name, input.Level, input.Experience, input.TutorialComplete, language, country)
+		created, err = m.state.CreatePlayerWithSettings(ctx, name, input.Level, input.Experience, false, language, country)
 	case "complete":
 		quantity := input.CardQuantity
 		if quantity == 0 {
@@ -381,17 +380,12 @@ func (m *Manager) Create(ctx context.Context, input CreateInput) (store.Player, 
 		if quantity < 1 || quantity > 999999 {
 			return store.Player{}, validation("complete account card quantity must be between 1 and 999999")
 		}
-		created, err = m.state.CreatePlayerWithInventoryAndSettings(ctx, name, input.Level, input.Experience, true, m.completeInventory(quantity), language, country)
+		created, err = m.state.CreatePlayerWithInventoryAndSettings(ctx, name, input.Level, input.Experience, false, m.completeInventory(quantity), language, country)
 	default:
 		return store.Player{}, validation("unknown account preset %q", input.Preset)
 	}
 	if err != nil {
 		return store.Player{}, err
-	}
-	if input.TutorialComplete || input.Preset == "complete" {
-		if err := m.state.SetTutorialCompletions(ctx, created.ID, m.tutorialCompletions()); err != nil {
-			return store.Player{}, fmt.Errorf("complete tutorials for created player: %w", err)
-		}
 	}
 	return created, nil
 }
@@ -491,17 +485,6 @@ func (m *Manager) Apply(ctx context.Context, playerID string, change Change) err
 	if name != current.DisplayName || level != current.Level || experience != current.Experience {
 		if err := m.state.UpdatePlayer(ctx, playerID, name, level, experience); err != nil {
 			return err
-		}
-	}
-	if change.TutorialComplete != nil {
-		var tutorialErr error
-		if *change.TutorialComplete {
-			tutorialErr = m.state.SetTutorialCompletions(ctx, playerID, m.tutorialCompletions())
-		} else {
-			tutorialErr = m.state.SetTutorialComplete(ctx, playerID, false)
-		}
-		if tutorialErr != nil {
-			return tutorialErr
 		}
 	}
 	for id, quantity := range change.Cards {
@@ -1394,6 +1377,20 @@ func (m *Manager) Flags(ctx context.Context, playerID, namespace string, keys []
 func (m *Manager) SetFlags(ctx context.Context, playerID, namespace string, values map[string]int64) (time.Time, error) {
 	return m.state.SetFlags(ctx, playerID, namespace, values)
 }
+
+func (m *Manager) SpecialPackRightUsed(ctx context.Context, playerID, weekKey string) (bool, error) {
+	return m.state.SpecialPackRightUsed(ctx, playerID, weekKey)
+}
+
+func (m *Manager) CommitPackOpening(ctx context.Context, input store.CommitPackOpening) (store.PackOpening, bool, error) {
+	return m.state.CommitPackOpening(ctx, input)
+}
+
+func (m *Manager) SpecialPackProduct(id string) (catalog.SpecialPackProduct, error) {
+	return m.catalog.SpecialPackProduct(id)
+}
+
+func (m *Manager) Pack(id string) (catalog.Pack, error) { return m.catalog.Pack(id) }
 
 func (m *Manager) SavePlayerSettings(ctx context.Context, playerID, language, country string, useLastLogin, useLoginData, usePerformanceErrors bool) error {
 	language, ok := gamelocale.NormalizeLocale(language)

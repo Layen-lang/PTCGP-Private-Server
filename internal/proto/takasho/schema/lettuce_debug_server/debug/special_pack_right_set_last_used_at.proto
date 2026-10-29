@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-package takasho.schema.lettuce_server.player_api;
+package takasho.schema.lettuce_debug_server.debug;
 
 import "google/protobuf/timestamp.proto";
 
-message EchoEchoV1 {
+message SpecialPackRightSetLastUsedAt {
   message Types {
     message Request {
+      google.protobuf.Timestamp last_used_at = 2;
     }
     message Response {
-      google.protobuf.Timestamp time = 1;
     }
   }
 }

@@ -26,4 +26,5 @@ message ChangeConfig {
   bool se_mute_flg = 19;
   int64 trade_auto_reject = 20;
   bool automation_gold_frame_flg = 21;
+  bool push_notice_stamina3 = 22;
 }

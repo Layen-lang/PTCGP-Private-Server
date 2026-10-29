@@ -162,6 +162,8 @@ func inventoryFromPresent(value *presentpb.PresentItem) *itempb.InventoryItems {
 		result.EventPowerChargers = append(result.EventPowerChargers, item.EventPowerCharger)
 	case *presentpb.PresentItem_PackPowerCharger:
 		result.PackPowerChargers = append(result.PackPowerChargers, item.PackPowerCharger)
+	case *presentpb.PresentItem_SpecialPackTicket:
+		result.SpecialPackTickets = append(result.SpecialPackTickets, item.SpecialPackTicket)
 	case *presentpb.PresentItem_ChallengePowerCharger:
 		result.ChallengePowerChargers = append(result.ChallengePowerChargers, item.ChallengePowerCharger)
 	case *presentpb.PresentItem_PeripheralGoods:

@@ -33,12 +33,6 @@ func (s startupActionServer) SyncAccountLinkStateV1(ctx context.Context, request
 	return &api.ActionSyncAccountLinkStateV1_Types_Response{}, nil
 }
 
-type echoServer struct{ api.UnimplementedEchoServer }
-
-func (echoServer) EchoV1(context.Context, *api.EchoEchoV1_Types_Request) (*api.EchoEchoV1_Types_Response, error) {
-	return &api.EchoEchoV1_Types_Response{Time: timestamppb.Now()}, nil
-}
-
 type performanceLogServer struct {
 	api.UnimplementedPerformanceLogServer
 }
@@ -225,7 +219,6 @@ func languageForProfile(profile player.Profile) languagepb.Language {
 }
 
 func registerSimpleServers(server grpc.ServiceRegistrar, players *player.Manager) {
-	api.RegisterEchoServer(server, echoServer{})
 	api.RegisterNotificationServer(server, notificationServer{players: players})
 	api.RegisterPerformanceLogServer(server, performanceLogServer{})
 }

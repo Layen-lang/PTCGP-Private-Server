@@ -73,7 +73,7 @@ const enUS = {
   'accounts.saveProfile': 'Save profile', 'accounts.nickname': 'Name', 'accounts.experience': 'Experience',
   'accounts.gameLanguage': 'Game language', 'accounts.chooseLanguage': 'Choose a language', 'accounts.region': 'Region',
   'accounts.regionPlaceholder': 'US', 'accounts.regionHint': 'Two-letter country code, such as US, GB, or CA.',
-  'accounts.nextLevel': 'Next level: {value}', 'accounts.tutorialDone': 'Tutorial completed', 'accounts.profilePicture': 'Profile picture',
+  'accounts.nextLevel': 'Next level: {value}', 'accounts.profilePicture': 'Profile picture',
   'accounts.iconsAvailable': '{count} icons available', 'accounts.searchIcon': 'Search for an icon…',
   'accounts.emblems': 'Profile emblems', 'accounts.selectedOfThree': '{count}/3 selected', 'accounts.searchEmblem': 'Search for an emblem…',
   'accounts.emblemOrder': 'Selected emblem order', 'accounts.position': 'Position {position}{name}', 'accounts.emptyPosition': ' empty',

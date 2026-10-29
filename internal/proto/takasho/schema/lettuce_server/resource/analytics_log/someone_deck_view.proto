@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.analytics_log;
+
+message SomeoneDeckView {
+  message Types {
+    enum SomeoneDeckType {
+      SOMEONE_DECK_TYPE_UNSPECIFIED = 0;
+      SOMEONE_DECK_TYPE_POPULAR = 1;
+      SOMEONE_DECK_TYPE_FRIEND = 2;
+      SOMEONE_DECK_TYPE_OPPONENT = 3;
+    }
+    enum EnergyType {
+      ENERGY_TYPE_UNSPECIFIED = 0;
+      ENERGY_TYPE_COLORLESS = 1;
+      ENERGY_TYPE_GRASS = 2;
+      ENERGY_TYPE_FIRE = 3;
+      ENERGY_TYPE_WATER = 4;
+      ENERGY_TYPE_LIGHTNING = 5;
+      ENERGY_TYPE_PSYCHIC = 6;
+      ENERGY_TYPE_FIGHTING = 7;
+      ENERGY_TYPE_DARKNESS = 8;
+      ENERGY_TYPE_METAL = 9;
+      ENERGY_TYPE_DRAGON = 10;
+    }
+  }
+  string deck_owner_player_id = 1;
+  string deck_id = 2;
+  repeated string deck_card_ids = 3;
+  SomeoneDeckView.Types.SomeoneDeckType someone_deck_type = 4;
+  repeated SomeoneDeckView.Types.EnergyType energy_types = 5;
+}

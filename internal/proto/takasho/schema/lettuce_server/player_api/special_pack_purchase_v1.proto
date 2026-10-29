@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/item_acquisition/item_acquisition_result.proto";
+import "takasho/schema/lettuce_server/resource/pack/pack_unpack_order.proto";
+import "takasho/schema/lettuce_server/resource/special_pack/special_pack_unpack_right.proto";
+
+message SpecialPackPurchaseV1 {
+  message Types {
+    message Request {
+      message Types {
+        enum Amount {
+          AMOUNT_UNSPECIFIED = 0;
+          AMOUNT_ONE = 1;
+          AMOUNT_TEN = 10;
+        }
+        enum ConsumedResource {
+          CONSUMED_RESOURCE_UNSPECIFIED = 0;
+          CONSUMED_RESOURCE_SPECIAL_PACK_UNPACK_RIGHT = 1;
+          CONSUMED_RESOURCE_SPECIAL_PACK_TICKET = 2;
+          CONSUMED_RESOURCE_SPECIAL_PACK_UNPACK_RIGHT_AND_TICKET = 3;
+        }
+      }
+      string product_id = 1;
+      SpecialPackPurchaseV1.Types.Request.Types.Amount amount = 2;
+      string pack_consistent_token = 3;
+      SpecialPackPurchaseV1.Types.Request.Types.ConsumedResource consumed_resource = 4;
+      int64 consumed_ticket_amount = 5;
+    }
+    message Response {
+      message Types {
+        enum ConsumedResource {
+          CONSUMED_RESOURCE_UNSPECIFIED = 0;
+          CONSUMED_RESOURCE_SPECIAL_PACK_UNPACK_RIGHT = 1;
+          CONSUMED_RESOURCE_SPECIAL_PACK_TICKET = 2;
+          CONSUMED_RESOURCE_SPECIAL_PACK_UNPACK_RIGHT_AND_TICKET = 3;
+        }
+      }
+      repeated takasho.schema.lettuce_server.resource.pack.PackUnpackOrder unpack_orders = 1;
+      SpecialPackPurchaseV1.Types.Response.Types.ConsumedResource consumed_resource = 2;
+      int64 consumed_ticket_amount = 3;
+      takasho.schema.lettuce_server.resource.special_pack.SpecialPackUnpackRight unpack_right = 4;
+      takasho.schema.lettuce_server.resource.item_acquisition.ItemAcquisitionResult item_acquisition_result = 5;
+    }
+  }
+}

@@ -116,9 +116,9 @@ func TestUnaryInterceptorCapturesDecodedMessages(t *testing.T) {
 	}
 	defer recorder.Close()
 	interceptor := recorder.UnaryServerInterceptor(func(context.Context) string { return "player-1" })
-	request := &api.EchoEchoV1_Types_Request{}
-	response, err := interceptor(context.Background(), request, &grpc.UnaryServerInfo{FullMethod: "/Echo/EchoV1"}, func(context.Context, any) (any, error) {
-		return &api.EchoEchoV1_Types_Response{Time: timestamppb.Now()}, nil
+	request := &api.SystemPartialMaintenanceV1_Types_Request{}
+	response, err := interceptor(context.Background(), request, &grpc.UnaryServerInfo{FullMethod: "/System/PartialMaintenanceV1"}, func(context.Context, any) (any, error) {
+		return &api.SystemPartialMaintenanceV1_Types_Response{OpenedAt: timestamppb.Now()}, nil
 	})
 	if err != nil || response == nil {
 		t.Fatalf("response=%v err=%v", response, err)

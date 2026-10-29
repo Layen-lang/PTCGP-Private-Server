@@ -19,12 +19,16 @@ import (
 const _ = grpc.SupportPackageIsVersion9
 
 const (
-	PvpCasual_RequestPublicMatchingV2_FullMethodName  = "/takasho.schema.lettuce_server.player_api.PvpCasual/RequestPublicMatchingV2"
-	PvpCasual_RequestPrivateMatchingV2_FullMethodName = "/takasho.schema.lettuce_server.player_api.PvpCasual/RequestPrivateMatchingV2"
-	PvpCasual_DeleteMatchingV2_FullMethodName         = "/takasho.schema.lettuce_server.player_api.PvpCasual/DeleteMatchingV2"
-	PvpCasual_GetMatchingResultV2_FullMethodName      = "/takasho.schema.lettuce_server.player_api.PvpCasual/GetMatchingResultV2"
-	PvpCasual_StartBattleV2_FullMethodName            = "/takasho.schema.lettuce_server.player_api.PvpCasual/StartBattleV2"
-	PvpCasual_FinishBattleV1_FullMethodName           = "/takasho.schema.lettuce_server.player_api.PvpCasual/FinishBattleV1"
+	PvpCasual_RequestPublicMatchingV2_FullMethodName         = "/takasho.schema.lettuce_server.player_api.PvpCasual/RequestPublicMatchingV2"
+	PvpCasual_RequestPrivateMatchingV2_FullMethodName        = "/takasho.schema.lettuce_server.player_api.PvpCasual/RequestPrivateMatchingV2"
+	PvpCasual_DeleteMatchingV2_FullMethodName                = "/takasho.schema.lettuce_server.player_api.PvpCasual/DeleteMatchingV2"
+	PvpCasual_GetMatchingResultV2_FullMethodName             = "/takasho.schema.lettuce_server.player_api.PvpCasual/GetMatchingResultV2"
+	PvpCasual_StartBattleV2_FullMethodName                   = "/takasho.schema.lettuce_server.player_api.PvpCasual/StartBattleV2"
+	PvpCasual_FinishBattleV1_FullMethodName                  = "/takasho.schema.lettuce_server.player_api.PvpCasual/FinishBattleV1"
+	PvpCasual_SetupPrivateMatchRuleV1_FullMethodName         = "/takasho.schema.lettuce_server.player_api.PvpCasual/SetupPrivateMatchRuleV1"
+	PvpCasual_GetPrivateMatchRuleV1_FullMethodName           = "/takasho.schema.lettuce_server.player_api.PvpCasual/GetPrivateMatchRuleV1"
+	PvpCasual_ListPublicMatchBattleRecordsV1_FullMethodName  = "/takasho.schema.lettuce_server.player_api.PvpCasual/ListPublicMatchBattleRecordsV1"
+	PvpCasual_ListPrivateMatchBattleRecordsV1_FullMethodName = "/takasho.schema.lettuce_server.player_api.PvpCasual/ListPrivateMatchBattleRecordsV1"
 )
 
 // PvpCasualClient is the client API for PvpCasual service.
@@ -37,6 +41,10 @@ type PvpCasualClient interface {
 	GetMatchingResultV2(ctx context.Context, in *PvpCasualGetMatchingResultV2_Types_Request, opts ...grpc.CallOption) (*PvpCasualGetMatchingResultV2_Types_Response, error)
 	StartBattleV2(ctx context.Context, in *PvpCasualStartBattleV2_Types_Request, opts ...grpc.CallOption) (*PvpCasualStartBattleV2_Types_Response, error)
 	FinishBattleV1(ctx context.Context, in *PvpCasualFinishBattleV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualFinishBattleV1_Types_Response, error)
+	SetupPrivateMatchRuleV1(ctx context.Context, in *PvpCasualSetupPrivateMatchRuleV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualSetupPrivateMatchRuleV1_Types_Response, error)
+	GetPrivateMatchRuleV1(ctx context.Context, in *PvpCasualGetPrivateMatchRuleV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualGetPrivateMatchRuleV1_Types_Response, error)
+	ListPublicMatchBattleRecordsV1(ctx context.Context, in *PvpCasualListPublicMatchBattleRecordsV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualListPublicMatchBattleRecordsV1_Types_Response, error)
+	ListPrivateMatchBattleRecordsV1(ctx context.Context, in *PvpCasualListPrivateMatchBattleRecordsV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualListPrivateMatchBattleRecordsV1_Types_Response, error)
 }
 
 type pvpCasualClient struct {
@@ -107,6 +115,46 @@ func (c *pvpCasualClient) FinishBattleV1(ctx context.Context, in *PvpCasualFinis
 	return out, nil
 }
 
+func (c *pvpCasualClient) SetupPrivateMatchRuleV1(ctx context.Context, in *PvpCasualSetupPrivateMatchRuleV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualSetupPrivateMatchRuleV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(PvpCasualSetupPrivateMatchRuleV1_Types_Response)
+	err := c.cc.Invoke(ctx, PvpCasual_SetupPrivateMatchRuleV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *pvpCasualClient) GetPrivateMatchRuleV1(ctx context.Context, in *PvpCasualGetPrivateMatchRuleV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualGetPrivateMatchRuleV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(PvpCasualGetPrivateMatchRuleV1_Types_Response)
+	err := c.cc.Invoke(ctx, PvpCasual_GetPrivateMatchRuleV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *pvpCasualClient) ListPublicMatchBattleRecordsV1(ctx context.Context, in *PvpCasualListPublicMatchBattleRecordsV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualListPublicMatchBattleRecordsV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(PvpCasualListPublicMatchBattleRecordsV1_Types_Response)
+	err := c.cc.Invoke(ctx, PvpCasual_ListPublicMatchBattleRecordsV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *pvpCasualClient) ListPrivateMatchBattleRecordsV1(ctx context.Context, in *PvpCasualListPrivateMatchBattleRecordsV1_Types_Request, opts ...grpc.CallOption) (*PvpCasualListPrivateMatchBattleRecordsV1_Types_Response, error) {
+	cOpts := append([]grpc.CallOption{grpc.StaticMethod()}, opts...)
+	out := new(PvpCasualListPrivateMatchBattleRecordsV1_Types_Response)
+	err := c.cc.Invoke(ctx, PvpCasual_ListPrivateMatchBattleRecordsV1_FullMethodName, in, out, cOpts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
 // PvpCasualServer is the server API for PvpCasual service.
 // All implementations must embed UnimplementedPvpCasualServer
 // for forward compatibility.
@@ -117,6 +165,10 @@ type PvpCasualServer interface {
 	GetMatchingResultV2(context.Context, *PvpCasualGetMatchingResultV2_Types_Request) (*PvpCasualGetMatchingResultV2_Types_Response, error)
 	StartBattleV2(context.Context, *PvpCasualStartBattleV2_Types_Request) (*PvpCasualStartBattleV2_Types_Response, error)
 	FinishBattleV1(context.Context, *PvpCasualFinishBattleV1_Types_Request) (*PvpCasualFinishBattleV1_Types_Response, error)
+	SetupPrivateMatchRuleV1(context.Context, *PvpCasualSetupPrivateMatchRuleV1_Types_Request) (*PvpCasualSetupPrivateMatchRuleV1_Types_Response, error)
+	GetPrivateMatchRuleV1(context.Context, *PvpCasualGetPrivateMatchRuleV1_Types_Request) (*PvpCasualGetPrivateMatchRuleV1_Types_Response, error)
+	ListPublicMatchBattleRecordsV1(context.Context, *PvpCasualListPublicMatchBattleRecordsV1_Types_Request) (*PvpCasualListPublicMatchBattleRecordsV1_Types_Response, error)
+	ListPrivateMatchBattleRecordsV1(context.Context, *PvpCasualListPrivateMatchBattleRecordsV1_Types_Request) (*PvpCasualListPrivateMatchBattleRecordsV1_Types_Response, error)
 	mustEmbedUnimplementedPvpCasualServer()
 }
 
@@ -144,6 +196,18 @@ func (UnimplementedPvpCasualServer) StartBattleV2(context.Context, *PvpCasualSta
 }
 func (UnimplementedPvpCasualServer) FinishBattleV1(context.Context, *PvpCasualFinishBattleV1_Types_Request) (*PvpCasualFinishBattleV1_Types_Response, error) {
 	return nil, status.Error(codes.Unimplemented, "method FinishBattleV1 not implemented")
+}
+func (UnimplementedPvpCasualServer) SetupPrivateMatchRuleV1(context.Context, *PvpCasualSetupPrivateMatchRuleV1_Types_Request) (*PvpCasualSetupPrivateMatchRuleV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method SetupPrivateMatchRuleV1 not implemented")
+}
+func (UnimplementedPvpCasualServer) GetPrivateMatchRuleV1(context.Context, *PvpCasualGetPrivateMatchRuleV1_Types_Request) (*PvpCasualGetPrivateMatchRuleV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method GetPrivateMatchRuleV1 not implemented")
+}
+func (UnimplementedPvpCasualServer) ListPublicMatchBattleRecordsV1(context.Context, *PvpCasualListPublicMatchBattleRecordsV1_Types_Request) (*PvpCasualListPublicMatchBattleRecordsV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method ListPublicMatchBattleRecordsV1 not implemented")
+}
+func (UnimplementedPvpCasualServer) ListPrivateMatchBattleRecordsV1(context.Context, *PvpCasualListPrivateMatchBattleRecordsV1_Types_Request) (*PvpCasualListPrivateMatchBattleRecordsV1_Types_Response, error) {
+	return nil, status.Error(codes.Unimplemented, "method ListPrivateMatchBattleRecordsV1 not implemented")
 }
 func (UnimplementedPvpCasualServer) mustEmbedUnimplementedPvpCasualServer() {}
 func (UnimplementedPvpCasualServer) testEmbeddedByValue()                   {}
@@ -274,6 +338,78 @@ func _PvpCasual_FinishBattleV1_Handler(srv interface{}, ctx context.Context, dec
 	return interceptor(ctx, in, info, handler)
 }
 
+func _PvpCasual_SetupPrivateMatchRuleV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(PvpCasualSetupPrivateMatchRuleV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PvpCasualServer).SetupPrivateMatchRuleV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: PvpCasual_SetupPrivateMatchRuleV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PvpCasualServer).SetupPrivateMatchRuleV1(ctx, req.(*PvpCasualSetupPrivateMatchRuleV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _PvpCasual_GetPrivateMatchRuleV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(PvpCasualGetPrivateMatchRuleV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PvpCasualServer).GetPrivateMatchRuleV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: PvpCasual_GetPrivateMatchRuleV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PvpCasualServer).GetPrivateMatchRuleV1(ctx, req.(*PvpCasualGetPrivateMatchRuleV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _PvpCasual_ListPublicMatchBattleRecordsV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(PvpCasualListPublicMatchBattleRecordsV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PvpCasualServer).ListPublicMatchBattleRecordsV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: PvpCasual_ListPublicMatchBattleRecordsV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PvpCasualServer).ListPublicMatchBattleRecordsV1(ctx, req.(*PvpCasualListPublicMatchBattleRecordsV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _PvpCasual_ListPrivateMatchBattleRecordsV1_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(PvpCasualListPrivateMatchBattleRecordsV1_Types_Request)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(PvpCasualServer).ListPrivateMatchBattleRecordsV1(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: PvpCasual_ListPrivateMatchBattleRecordsV1_FullMethodName,
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(PvpCasualServer).ListPrivateMatchBattleRecordsV1(ctx, req.(*PvpCasualListPrivateMatchBattleRecordsV1_Types_Request))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
 // PvpCasual_ServiceDesc is the grpc.ServiceDesc for PvpCasual service.
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
@@ -304,6 +440,22 @@ var PvpCasual_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "FinishBattleV1",
 			Handler:    _PvpCasual_FinishBattleV1_Handler,
+		},
+		{
+			MethodName: "SetupPrivateMatchRuleV1",
+			Handler:    _PvpCasual_SetupPrivateMatchRuleV1_Handler,
+		},
+		{
+			MethodName: "GetPrivateMatchRuleV1",
+			Handler:    _PvpCasual_GetPrivateMatchRuleV1_Handler,
+		},
+		{
+			MethodName: "ListPublicMatchBattleRecordsV1",
+			Handler:    _PvpCasual_ListPublicMatchBattleRecordsV1_Handler,
+		},
+		{
+			MethodName: "ListPrivateMatchBattleRecordsV1",
+			Handler:    _PvpCasual_ListPrivateMatchBattleRecordsV1_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},

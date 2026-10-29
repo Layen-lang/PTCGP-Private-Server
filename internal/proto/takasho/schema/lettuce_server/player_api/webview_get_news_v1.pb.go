@@ -143,6 +143,7 @@ type WebviewGetNewsV1_Types_Response struct {
 	NewsUrl       string                 `protobuf:"bytes,2,opt,name=news_url,json=newsUrl,proto3" json:"news_url,omitempty"`
 	ForceShow     bool                   `protobuf:"varint,3,opt,name=force_show,json=forceShow,proto3" json:"force_show,omitempty"`
 	ForceShowUrl  string                 `protobuf:"bytes,4,opt,name=force_show_url,json=forceShowUrl,proto3" json:"force_show_url,omitempty"`
+	ForceShowUrls []string               `protobuf:"bytes,5,rep,name=force_show_urls,json=forceShowUrls,proto3" json:"force_show_urls,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -205,22 +206,30 @@ func (x *WebviewGetNewsV1_Types_Response) GetForceShowUrl() string {
 	return ""
 }
 
+func (x *WebviewGetNewsV1_Types_Response) GetForceShowUrls() []string {
+	if x != nil {
+		return x.ForceShowUrls
+	}
+	return nil
+}
+
 var File_takasho_schema_lettuce_server_player_api_webview_get_news_v1_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_player_api_webview_get_news_v1_proto_rawDesc = "" +
 	"\n" +
-	"Btakasho/schema/lettuce_server/player_api/webview_get_news_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a?takasho/schema/lettuce_server/player_api/webview_language.proto\"\x8c\x02\n" +
-	"\x10WebviewGetNewsV1\x1a\xf7\x01\n" +
+	"Btakasho/schema/lettuce_server/player_api/webview_get_news_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1a?takasho/schema/lettuce_server/player_api/webview_language.proto\"\xb4\x02\n" +
+	"\x10WebviewGetNewsV1\x1a\x9f\x02\n" +
 	"\x05Types\x1a`\n" +
 	"\aRequest\x12U\n" +
-	"\blanguage\x18\x01 \x01(\x0e29.takasho.schema.lettuce_server.player_api.WebviewLanguageR\blanguage\x1a\x8b\x01\n" +
+	"\blanguage\x18\x01 \x01(\x0e29.takasho.schema.lettuce_server.player_api.WebviewLanguageR\blanguage\x1a\xb3\x01\n" +
 	"\bResponse\x12\x1f\n" +
 	"\vnew_arrival\x18\x01 \x01(\bR\n" +
 	"newArrival\x12\x19\n" +
 	"\bnews_url\x18\x02 \x01(\tR\anewsUrl\x12\x1d\n" +
 	"\n" +
 	"force_show\x18\x03 \x01(\bR\tforceShow\x12$\n" +
-	"\x0eforce_show_url\x18\x04 \x01(\tR\fforceShowUrlBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\x0eforce_show_url\x18\x04 \x01(\tR\fforceShowUrl\x12&\n" +
+	"\x0fforce_show_urls\x18\x05 \x03(\tR\rforceShowUrlsBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_player_api_webview_get_news_v1_proto_rawDescOnce sync.Once

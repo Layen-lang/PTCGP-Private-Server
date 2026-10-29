@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.resource.deck;
+
+import "takasho/schema/lettuce_server/resource/pokemon/energy_type.proto";
+
+message SomeoneDeck {
+  repeated string pokemon_ids = 1;
+  repeated string trainer_ids = 2;
+  repeated takasho.schema.lettuce_server.resource.pokemon.EnergyType energy_types = 3;
+  string popular_deck_id = 4;
+}

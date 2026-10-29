@@ -17,6 +17,7 @@ import "takasho/schema/lettuce_server/resource/item/profile_decoration.proto";
 import "takasho/schema/lettuce_server/resource/item/rental_deck.proto";
 import "takasho/schema/lettuce_server/resource/item/revival_clock.proto";
 import "takasho/schema/lettuce_server/resource/item/reward_ticket.proto";
+import "takasho/schema/lettuce_server/resource/item/special_pack_ticket.proto";
 import "takasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto";
 import "takasho/schema/lettuce_server/resource/item/trade_item.proto";
 import "takasho/schema/lettuce_server/resource/item/trade_power_charger.proto";
@@ -42,4 +43,5 @@ message PlayerResources {
   repeated takasho.schema.lettuce_server.resource.item.TradeTicket trade_tickets = 19;
   repeated takasho.schema.lettuce_server.resource.card_frame.CardFrameStock card_frame_stocks = 20;
   repeated takasho.schema.lettuce_server.resource.item.PackGuaranteePoint pack_guarantee_points = 21;
+  repeated takasho.schema.lettuce_server.resource.item.SpecialPackTicket special_pack_tickets = 22;
 }

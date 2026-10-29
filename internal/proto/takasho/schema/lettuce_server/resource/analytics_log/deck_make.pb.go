@@ -95,17 +95,21 @@ func (DeckMake_Types_EnergyType) EnumDescriptor() ([]byte, []int) {
 }
 
 type DeckMake struct {
-	state           protoimpl.MessageState      `protogen:"open.v1"`
-	DeckId          string                      `protobuf:"bytes,1,opt,name=deck_id,json=deckId,proto3" json:"deck_id,omitempty"`
-	DeckCardIds     []string                    `protobuf:"bytes,2,rep,name=deck_card_ids,json=deckCardIds,proto3" json:"deck_card_ids,omitempty"`
-	EnergyTypes     []DeckMake_Types_EnergyType `protobuf:"varint,3,rep,packed,name=energy_types,json=energyTypes,proto3,enum=takasho.schema.lettuce_server.resource.analytics_log.DeckMake_Types_EnergyType" json:"energy_types,omitempty"`
-	PlaymatId       string                      `protobuf:"bytes,4,opt,name=playmat_id,json=playmatId,proto3" json:"playmat_id,omitempty"`
-	DeckshieldId    string                      `protobuf:"bytes,5,opt,name=deckshield_id,json=deckshieldId,proto3" json:"deckshield_id,omitempty"`
-	CoinId          string                      `protobuf:"bytes,6,opt,name=coin_id,json=coinId,proto3" json:"coin_id,omitempty"`
-	DeckMakeType    int64                       `protobuf:"varint,7,opt,name=deck_make_type,json=deckMakeType,proto3" json:"deck_make_type,omitempty"`
-	AutoDeckMakeFlg int64                       `protobuf:"varint,8,opt,name=auto_deck_make_flg,json=autoDeckMakeFlg,proto3" json:"auto_deck_make_flg,omitempty"`
-	unknownFields   protoimpl.UnknownFields
-	sizeCache       protoimpl.SizeCache
+	state             protoimpl.MessageState      `protogen:"open.v1"`
+	DeckId            string                      `protobuf:"bytes,1,opt,name=deck_id,json=deckId,proto3" json:"deck_id,omitempty"`
+	DeckCardIds       []string                    `protobuf:"bytes,2,rep,name=deck_card_ids,json=deckCardIds,proto3" json:"deck_card_ids,omitempty"`
+	EnergyTypes       []DeckMake_Types_EnergyType `protobuf:"varint,3,rep,packed,name=energy_types,json=energyTypes,proto3,enum=takasho.schema.lettuce_server.resource.analytics_log.DeckMake_Types_EnergyType" json:"energy_types,omitempty"`
+	PlaymatId         string                      `protobuf:"bytes,4,opt,name=playmat_id,json=playmatId,proto3" json:"playmat_id,omitempty"`
+	DeckshieldId      string                      `protobuf:"bytes,5,opt,name=deckshield_id,json=deckshieldId,proto3" json:"deckshield_id,omitempty"`
+	CoinId            string                      `protobuf:"bytes,6,opt,name=coin_id,json=coinId,proto3" json:"coin_id,omitempty"`
+	DeckMakeType      int64                       `protobuf:"varint,7,opt,name=deck_make_type,json=deckMakeType,proto3" json:"deck_make_type,omitempty"`
+	AutoDeckMakeFlg   int64                       `protobuf:"varint,8,opt,name=auto_deck_make_flg,json=autoDeckMakeFlg,proto3" json:"auto_deck_make_flg,omitempty"`
+	DeckOwnerPlayerId string                      `protobuf:"bytes,9,opt,name=deck_owner_player_id,json=deckOwnerPlayerId,proto3" json:"deck_owner_player_id,omitempty"`
+	OpensettingType   int64                       `protobuf:"varint,10,opt,name=opensetting_type,json=opensettingType,proto3" json:"opensetting_type,omitempty"`
+	DeckRecipeDeckId  string                      `protobuf:"bytes,11,opt,name=deck_recipe_deck_id,json=deckRecipeDeckId,proto3" json:"deck_recipe_deck_id,omitempty"`
+	PopularDeckId     string                      `protobuf:"bytes,12,opt,name=popular_deck_id,json=popularDeckId,proto3" json:"popular_deck_id,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
 }
 
 func (x *DeckMake) Reset() {
@@ -194,6 +198,34 @@ func (x *DeckMake) GetAutoDeckMakeFlg() int64 {
 	return 0
 }
 
+func (x *DeckMake) GetDeckOwnerPlayerId() string {
+	if x != nil {
+		return x.DeckOwnerPlayerId
+	}
+	return ""
+}
+
+func (x *DeckMake) GetOpensettingType() int64 {
+	if x != nil {
+		return x.OpensettingType
+	}
+	return 0
+}
+
+func (x *DeckMake) GetDeckRecipeDeckId() string {
+	if x != nil {
+		return x.DeckRecipeDeckId
+	}
+	return ""
+}
+
+func (x *DeckMake) GetPopularDeckId() string {
+	if x != nil {
+		return x.PopularDeckId
+	}
+	return ""
+}
+
 type DeckMake_Types struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	unknownFields protoimpl.UnknownFields
@@ -234,7 +266,7 @@ var File_takasho_schema_lettuce_server_resource_analytics_log_deck_make_proto pr
 
 const file_takasho_schema_lettuce_server_resource_analytics_log_deck_make_proto_rawDesc = "" +
 	"\n" +
-	"Dtakasho/schema/lettuce_server/resource/analytics_log/deck_make.proto\x124takasho.schema.lettuce_server.resource.analytics_log\"\x97\x05\n" +
+	"Dtakasho/schema/lettuce_server/resource/analytics_log/deck_make.proto\x124takasho.schema.lettuce_server.resource.analytics_log\"\xca\x06\n" +
 	"\bDeckMake\x12\x17\n" +
 	"\adeck_id\x18\x01 \x01(\tR\x06deckId\x12\"\n" +
 	"\rdeck_card_ids\x18\x02 \x03(\tR\vdeckCardIds\x12r\n" +
@@ -244,7 +276,12 @@ const file_takasho_schema_lettuce_server_resource_analytics_log_deck_make_proto_
 	"\rdeckshield_id\x18\x05 \x01(\tR\fdeckshieldId\x12\x17\n" +
 	"\acoin_id\x18\x06 \x01(\tR\x06coinId\x12$\n" +
 	"\x0edeck_make_type\x18\a \x01(\x03R\fdeckMakeType\x12+\n" +
-	"\x12auto_deck_make_flg\x18\b \x01(\x03R\x0fautoDeckMakeFlg\x1a\xa9\x02\n" +
+	"\x12auto_deck_make_flg\x18\b \x01(\x03R\x0fautoDeckMakeFlg\x12/\n" +
+	"\x14deck_owner_player_id\x18\t \x01(\tR\x11deckOwnerPlayerId\x12)\n" +
+	"\x10opensetting_type\x18\n" +
+	" \x01(\x03R\x0fopensettingType\x12-\n" +
+	"\x13deck_recipe_deck_id\x18\v \x01(\tR\x10deckRecipeDeckId\x12&\n" +
+	"\x0fpopular_deck_id\x18\f \x01(\tR\rpopularDeckId\x1a\xa9\x02\n" +
 	"\x05Types\"\x9f\x02\n" +
 	"\n" +
 	"EnergyType\x12\x1b\n" +

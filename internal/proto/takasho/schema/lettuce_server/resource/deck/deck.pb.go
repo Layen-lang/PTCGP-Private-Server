@@ -33,6 +33,7 @@ type Deck struct {
 	CoinSkinId    string                 `protobuf:"bytes,7,opt,name=coin_skin_id,json=coinSkinId,proto3" json:"coin_skin_id,omitempty"`
 	PlayMatId     string                 `protobuf:"bytes,8,opt,name=play_mat_id,json=playMatId,proto3" json:"play_mat_id,omitempty"`
 	DisplayOrder  int64                  `protobuf:"varint,9,opt,name=display_order,json=displayOrder,proto3" json:"display_order,omitempty"`
+	PublicSetting PublicSetting          `protobuf:"varint,10,opt,name=public_setting,json=publicSetting,proto3,enum=takasho.schema.lettuce_server.resource.deck.PublicSetting" json:"public_setting,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -130,11 +131,18 @@ func (x *Deck) GetDisplayOrder() int64 {
 	return 0
 }
 
+func (x *Deck) GetPublicSetting() PublicSetting {
+	if x != nil {
+		return x.PublicSetting
+	}
+	return PublicSetting_PUBLIC_SETTING_UNSPECIFIED
+}
+
 var File_takasho_schema_lettuce_server_resource_deck_deck_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_resource_deck_deck_proto_rawDesc = "" +
 	"\n" +
-	"6takasho/schema/lettuce_server/resource/deck/deck.proto\x12+takasho.schema.lettuce_server.resource.deck\x1a@takasho/schema/lettuce_server/resource/deck/deck_case_type.proto\x1a;takasho/schema/lettuce_server/resource/deck/deck_slot.proto\x1a@takasho/schema/lettuce_server/resource/pokemon/energy_type.proto\"\xd6\x03\n" +
+	"6takasho/schema/lettuce_server/resource/deck/deck.proto\x12+takasho.schema.lettuce_server.resource.deck\x1a@takasho/schema/lettuce_server/resource/deck/deck_case_type.proto\x1a;takasho/schema/lettuce_server/resource/deck/deck_slot.proto\x1a@takasho/schema/lettuce_server/resource/deck/public_setting.proto\x1a@takasho/schema/lettuce_server/resource/pokemon/energy_type.proto\"\xb9\x04\n" +
 	"\x04Deck\x12\x17\n" +
 	"\adeck_id\x18\x01 \x01(\x03R\x06deckId\x12\x1b\n" +
 	"\tdeck_name\x18\x02 \x01(\tR\bdeckName\x12K\n" +
@@ -145,7 +153,9 @@ const file_takasho_schema_lettuce_server_resource_deck_deck_proto_rawDesc = "" +
 	"\fcoin_skin_id\x18\a \x01(\tR\n" +
 	"coinSkinId\x12\x1e\n" +
 	"\vplay_mat_id\x18\b \x01(\tR\tplayMatId\x12#\n" +
-	"\rdisplay_order\x18\t \x01(\x03R\fdisplayOrderBlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck;deckb\x06proto3"
+	"\rdisplay_order\x18\t \x01(\x03R\fdisplayOrder\x12a\n" +
+	"\x0epublic_setting\x18\n" +
+	" \x01(\x0e2:.takasho.schema.lettuce_server.resource.deck.PublicSettingR\rpublicSettingBlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck;deckb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_deck_deck_proto_rawDescOnce sync.Once
@@ -165,16 +175,18 @@ var file_takasho_schema_lettuce_server_resource_deck_deck_proto_goTypes = []any{
 	(*DeckSlot)(nil),        // 1: takasho.schema.lettuce_server.resource.deck.DeckSlot
 	(pokemon.EnergyType)(0), // 2: takasho.schema.lettuce_server.resource.pokemon.EnergyType
 	(DeckCaseType)(0),       // 3: takasho.schema.lettuce_server.resource.deck.DeckCaseType
+	(PublicSetting)(0),      // 4: takasho.schema.lettuce_server.resource.deck.PublicSetting
 }
 var file_takasho_schema_lettuce_server_resource_deck_deck_proto_depIdxs = []int32{
 	1, // 0: takasho.schema.lettuce_server.resource.deck.Deck.slots:type_name -> takasho.schema.lettuce_server.resource.deck.DeckSlot
 	2, // 1: takasho.schema.lettuce_server.resource.deck.Deck.energy_types:type_name -> takasho.schema.lettuce_server.resource.pokemon.EnergyType
 	3, // 2: takasho.schema.lettuce_server.resource.deck.Deck.deck_case_type:type_name -> takasho.schema.lettuce_server.resource.deck.DeckCaseType
-	3, // [3:3] is the sub-list for method output_type
-	3, // [3:3] is the sub-list for method input_type
-	3, // [3:3] is the sub-list for extension type_name
-	3, // [3:3] is the sub-list for extension extendee
-	0, // [0:3] is the sub-list for field type_name
+	4, // 3: takasho.schema.lettuce_server.resource.deck.Deck.public_setting:type_name -> takasho.schema.lettuce_server.resource.deck.PublicSetting
+	4, // [4:4] is the sub-list for method output_type
+	4, // [4:4] is the sub-list for method input_type
+	4, // [4:4] is the sub-list for extension type_name
+	4, // [4:4] is the sub-list for extension extendee
+	0, // [0:4] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_resource_deck_deck_proto_init() }
@@ -184,6 +196,7 @@ func file_takasho_schema_lettuce_server_resource_deck_deck_proto_init() {
 	}
 	file_takasho_schema_lettuce_server_resource_deck_deck_case_type_proto_init()
 	file_takasho_schema_lettuce_server_resource_deck_deck_slot_proto_init()
+	file_takasho_schema_lettuce_server_resource_deck_public_setting_proto_init()
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{

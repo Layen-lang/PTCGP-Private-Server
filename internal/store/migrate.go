@@ -667,7 +667,38 @@ func (s *Store) applyTutorialCompletionMigration(ctx context.Context) error {
 	if err := s.backfillCompletedTutorials(ctx, 4, previousCompletedTutorial, tutorialCompletionV4); err != nil {
 		return err
 	}
-	return s.backfillCompletedTutorials(ctx, 5, tutorialCompletionV4, completedTutorial)
+	if err := s.backfillCompletedTutorials(ctx, 5, tutorialCompletionV4, completedTutorial); err != nil {
+		return err
+	}
+	return s.clearTutorialProgressMigration(ctx)
+}
+
+// Tutorial completion is now a server-wide policy and is synthesized in
+// player profiles. Per-player progress rows are no longer needed.
+func (s *Store) clearTutorialProgressMigration(ctx context.Context) error {
+	const version = 7
+	var exists int
+	if err := s.db.QueryRowContext(ctx, `SELECT count(*) FROM schema_migrations WHERE version=?`, version).Scan(&exists); err != nil {
+		return fmt.Errorf("check tutorial progress cleanup migration: %w", err)
+	}
+	if exists != 0 {
+		return nil
+	}
+	tx, err := s.db.BeginTx(ctx, nil)
+	if err != nil {
+		return fmt.Errorf("begin tutorial progress cleanup migration: %w", err)
+	}
+	defer tx.Rollback()
+	if _, err := tx.ExecContext(ctx, `DELETE FROM tutorial_progress`); err != nil {
+		return fmt.Errorf("clear tutorial progress: %w", err)
+	}
+	if _, err := tx.ExecContext(ctx, `INSERT INTO schema_migrations(version,applied_at) VALUES(?,?)`, version, s.now().UTC().Unix()); err != nil {
+		return fmt.Errorf("record tutorial progress cleanup migration: %w", err)
+	}
+	if err := tx.Commit(); err != nil {
+		return fmt.Errorf("commit tutorial progress cleanup migration: %w", err)
+	}
+	return nil
 }
 
 func (s *Store) backfillCompletedTutorials(ctx context.Context, version int, required, target []TutorialStep) error {

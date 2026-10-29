@@ -88,76 +88,82 @@ const (
 	ActionState_Types_ACTION_KEY_FUTURE                                 ActionState_Types_ActionKey = 62
 	ActionState_Types_ACTION_KEY_FUTURE_DEX                             ActionState_Types_ActionKey = 63
 	ActionState_Types_ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE               ActionState_Types_ActionKey = 64
+	ActionState_Types_ACTION_KEY_GIVE_CARD_UNDEX_OR_DESIRED_TOTAL       ActionState_Types_ActionKey = 65
 	ActionState_Types_ACTION_KEY_PVE_GET_POINT_TOTAL_V2                 ActionState_Types_ActionKey = 66
+	ActionState_Types_ACTION_KEY_CARD_GET_DUAL_TYPE_TOTAL               ActionState_Types_ActionKey = 10042
+	ActionState_Types_ACTION_KEY_CARD_GET_DUAL_TYPE_DEX_TOTAL           ActionState_Types_ActionKey = 10043
 )
 
 // Enum value maps for ActionState_Types_ActionKey.
 var (
 	ActionState_Types_ActionKey_name = map[int32]string{
-		0:  "ACTION_KEY_UNSPECIFIED",
-		1:  "ACTION_KEY_GET_CARDS",
-		2:  "ACTION_KEY_LOGIN",
-		3:  "ACTION_KEY_PVP_TRY",
-		4:  "ACTION_KEY_PVP_WON",
-		5:  "ACTION_KEY_PVE_TRY",
-		6:  "ACTION_KEY_PVE_WON",
-		7:  "ACTION_KEY_PACK_OPENED",
-		8:  "ACTION_KEY_FEED_CHALLENGED",
-		9:  "ACTION_KEY_GET_SKINS",
-		10: "ACTION_KEY_FIRST_TUTORIAL_CLEARED",
-		11: "ACTION_KEY_PLAYER_LEVEL",
-		12: "ACTION_KEY_CARD_COLLECTION_MISSION_CLEARED_TOTAL",
-		13: "ACTION_KEY_NA_FEDERATION",
-		14: "ACTION_KEY_RENTAL_DECK_WON",
-		15: "ACTION_KEY_RENTAL_DECK_USE",
-		16: "ACTION_KEY_FRIEND_ADDED",
-		17: "ACTION_KEY_DECK_CREATED",
-		18: "ACTION_KEY_PLAY_MAT_SET",
-		19: "ACTION_KEY_DECK_SHIELD_SET",
-		20: "ACTION_KEY_THANK_SENT",
-		21: "ACTION_KEY_TRADE_TOTAL",
-		22: "ACTION_KEY_TRADE_PARTNER_TOTAL",
-		23: "ACTION_KEY_TRADE_PARTNER",
-		24: "ACTION_KEY_PACK_OPEN_TOTAL",
-		25: "ACTION_KEY_PACK_OPEN_BY_EXPANSION_ID",
-		26: "ACTION_KEY_CARD_GET_TOTAL",
-		27: "ACTION_KEY_CARD_GET_DEX_TOTAL",
-		28: "ACTION_KEY_CARD_GET_RARITY_TOTAL",
-		29: "ACTION_KEY_CARD_GET_RARITY_DEX_TOTAL",
-		30: "ACTION_KEY_CARD_GET_TYPE_TOTAL",
-		31: "ACTION_KEY_CARD_GET_TYPE_DEX_TOTAL",
-		32: "ACTION_KEY_TRAINERS_CARD_GET_TYPE_TOTAL",
-		33: "ACTION_KEY_SKIN_EXCHANGED_TOTAL",
-		34: "ACTION_KEY_RENTAL_DECK_TOTAL_WON",
-		35: "ACTION_KEY_RENTAL_DECK_TOTAL_USED",
-		36: "ACTION_KEY_PVE_PLAY_TOTAL",
-		37: "ACTION_KEY_PVE_WON_TOTAL",
-		38: "ACTION_KEY_CARD_GET_EXPANSION_TOTAL",
-		39: "ACTION_KEY_CARD_GET_EXPANSION_DEX_TOTAL",
-		40: "ACTION_KEY_CARD_GET_EXPANSION_IN_NUMBER_TOTAL",
-		41: "ACTION_KEY_CARD_GET_EXPANSION_DEX_IN_NUMBER_TOTAL",
-		42: "ACTION_KEY_REGION_FORM",
-		43: "ACTION_KEY_ULTRA_BEAST",
-		44: "ACTION_KEY_REGION_FORM_DEX",
-		45: "ACTION_KEY_ULTRA_BEAST_DEX",
-		46: "ACTION_KEY_PVP_RANK_TRY",
-		47: "ACTION_KEY_PVP_RANK_WON",
-		48: "ACTION_KEY_GOOGLE_FEDERATION",
-		49: "ACTION_KEY_APPLE_FEDERATION",
-		52: "ACTION_KEY_MEGA_EVOLUTION_EX",
-		53: "ACTION_KEY_MEGA_EVOLUTION_EX_DEX",
-		54: "ACTION_KEY_THANK_LIKE_TOTAL",
-		55: "ACTION_KEY_COLLECTION_BOARD_CREATED",
-		56: "ACTION_KEY_PROFILE_WISH_CARD_SET",
-		57: "ACTION_KEY_GIVE_CARD_TOTAL",
-		58: "ACTION_KEY_PVP_GET_POINT",
-		59: "ACTION_KEY_PVE_GET_POINT_TOTAL",
-		60: "ACTION_KEY_ANCIENT",
-		61: "ACTION_KEY_ANCIENT_DEX",
-		62: "ACTION_KEY_FUTURE",
-		63: "ACTION_KEY_FUTURE_DEX",
-		64: "ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE",
-		66: "ACTION_KEY_PVE_GET_POINT_TOTAL_V2",
+		0:     "ACTION_KEY_UNSPECIFIED",
+		1:     "ACTION_KEY_GET_CARDS",
+		2:     "ACTION_KEY_LOGIN",
+		3:     "ACTION_KEY_PVP_TRY",
+		4:     "ACTION_KEY_PVP_WON",
+		5:     "ACTION_KEY_PVE_TRY",
+		6:     "ACTION_KEY_PVE_WON",
+		7:     "ACTION_KEY_PACK_OPENED",
+		8:     "ACTION_KEY_FEED_CHALLENGED",
+		9:     "ACTION_KEY_GET_SKINS",
+		10:    "ACTION_KEY_FIRST_TUTORIAL_CLEARED",
+		11:    "ACTION_KEY_PLAYER_LEVEL",
+		12:    "ACTION_KEY_CARD_COLLECTION_MISSION_CLEARED_TOTAL",
+		13:    "ACTION_KEY_NA_FEDERATION",
+		14:    "ACTION_KEY_RENTAL_DECK_WON",
+		15:    "ACTION_KEY_RENTAL_DECK_USE",
+		16:    "ACTION_KEY_FRIEND_ADDED",
+		17:    "ACTION_KEY_DECK_CREATED",
+		18:    "ACTION_KEY_PLAY_MAT_SET",
+		19:    "ACTION_KEY_DECK_SHIELD_SET",
+		20:    "ACTION_KEY_THANK_SENT",
+		21:    "ACTION_KEY_TRADE_TOTAL",
+		22:    "ACTION_KEY_TRADE_PARTNER_TOTAL",
+		23:    "ACTION_KEY_TRADE_PARTNER",
+		24:    "ACTION_KEY_PACK_OPEN_TOTAL",
+		25:    "ACTION_KEY_PACK_OPEN_BY_EXPANSION_ID",
+		26:    "ACTION_KEY_CARD_GET_TOTAL",
+		27:    "ACTION_KEY_CARD_GET_DEX_TOTAL",
+		28:    "ACTION_KEY_CARD_GET_RARITY_TOTAL",
+		29:    "ACTION_KEY_CARD_GET_RARITY_DEX_TOTAL",
+		30:    "ACTION_KEY_CARD_GET_TYPE_TOTAL",
+		31:    "ACTION_KEY_CARD_GET_TYPE_DEX_TOTAL",
+		32:    "ACTION_KEY_TRAINERS_CARD_GET_TYPE_TOTAL",
+		33:    "ACTION_KEY_SKIN_EXCHANGED_TOTAL",
+		34:    "ACTION_KEY_RENTAL_DECK_TOTAL_WON",
+		35:    "ACTION_KEY_RENTAL_DECK_TOTAL_USED",
+		36:    "ACTION_KEY_PVE_PLAY_TOTAL",
+		37:    "ACTION_KEY_PVE_WON_TOTAL",
+		38:    "ACTION_KEY_CARD_GET_EXPANSION_TOTAL",
+		39:    "ACTION_KEY_CARD_GET_EXPANSION_DEX_TOTAL",
+		40:    "ACTION_KEY_CARD_GET_EXPANSION_IN_NUMBER_TOTAL",
+		41:    "ACTION_KEY_CARD_GET_EXPANSION_DEX_IN_NUMBER_TOTAL",
+		42:    "ACTION_KEY_REGION_FORM",
+		43:    "ACTION_KEY_ULTRA_BEAST",
+		44:    "ACTION_KEY_REGION_FORM_DEX",
+		45:    "ACTION_KEY_ULTRA_BEAST_DEX",
+		46:    "ACTION_KEY_PVP_RANK_TRY",
+		47:    "ACTION_KEY_PVP_RANK_WON",
+		48:    "ACTION_KEY_GOOGLE_FEDERATION",
+		49:    "ACTION_KEY_APPLE_FEDERATION",
+		52:    "ACTION_KEY_MEGA_EVOLUTION_EX",
+		53:    "ACTION_KEY_MEGA_EVOLUTION_EX_DEX",
+		54:    "ACTION_KEY_THANK_LIKE_TOTAL",
+		55:    "ACTION_KEY_COLLECTION_BOARD_CREATED",
+		56:    "ACTION_KEY_PROFILE_WISH_CARD_SET",
+		57:    "ACTION_KEY_GIVE_CARD_TOTAL",
+		58:    "ACTION_KEY_PVP_GET_POINT",
+		59:    "ACTION_KEY_PVE_GET_POINT_TOTAL",
+		60:    "ACTION_KEY_ANCIENT",
+		61:    "ACTION_KEY_ANCIENT_DEX",
+		62:    "ACTION_KEY_FUTURE",
+		63:    "ACTION_KEY_FUTURE_DEX",
+		64:    "ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE",
+		65:    "ACTION_KEY_GIVE_CARD_UNDEX_OR_DESIRED_TOTAL",
+		66:    "ACTION_KEY_PVE_GET_POINT_TOTAL_V2",
+		10042: "ACTION_KEY_CARD_GET_DUAL_TYPE_TOTAL",
+		10043: "ACTION_KEY_CARD_GET_DUAL_TYPE_DEX_TOTAL",
 	}
 	ActionState_Types_ActionKey_value = map[string]int32{
 		"ACTION_KEY_UNSPECIFIED":                            0,
@@ -223,7 +229,10 @@ var (
 		"ACTION_KEY_FUTURE":                                 62,
 		"ACTION_KEY_FUTURE_DEX":                             63,
 		"ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE":               64,
+		"ACTION_KEY_GIVE_CARD_UNDEX_OR_DESIRED_TOTAL":       65,
 		"ACTION_KEY_PVE_GET_POINT_TOTAL_V2":                 66,
+		"ACTION_KEY_CARD_GET_DUAL_TYPE_TOTAL":               10042,
+		"ACTION_KEY_CARD_GET_DUAL_TYPE_DEX_TOTAL":           10043,
 	}
 )
 
@@ -362,14 +371,14 @@ var File_takasho_schema_lettuce_server_resource_action_action_state_proto protor
 
 const file_takasho_schema_lettuce_server_resource_action_action_state_proto_rawDesc = "" +
 	"\n" +
-	"@takasho/schema/lettuce_server/resource/action/action_state.proto\x12-takasho.schema.lettuce_server.resource.action\x1a6takasho/schema/lettuce_server/resource/date/date.proto\"\xe5\x12\n" +
+	"@takasho/schema/lettuce_server/resource/action/action_state.proto\x12-takasho.schema.lettuce_server.resource.action\x1a6takasho/schema/lettuce_server/resource/date/date.proto\"\xee\x13\n" +
 	"\vActionState\x12i\n" +
 	"\n" +
 	"action_key\x18\x01 \x01(\x0e2J.takasho.schema.lettuce_server.resource.action.ActionState.Types.ActionKeyR\tactionKey\x12#\n" +
 	"\raction_target\x18\x02 \x01(\tR\factionTarget\x12E\n" +
 	"\x04date\x18\x03 \x01(\v21.takasho.schema.lettuce_server.resource.date.DateR\x04date\x12\x14\n" +
-	"\x05count\x18\x04 \x01(\x03R\x05count\x1a\xe8\x10\n" +
-	"\x05Types\"\xde\x10\n" +
+	"\x05count\x18\x04 \x01(\x03R\x05count\x1a\xf1\x11\n" +
+	"\x05Types\"\xe7\x11\n" +
 	"\tActionKey\x12\x1a\n" +
 	"\x16ACTION_KEY_UNSPECIFIED\x10\x00\x12\x18\n" +
 	"\x14ACTION_KEY_GET_CARDS\x10\x01\x12\x14\n" +
@@ -434,8 +443,11 @@ const file_takasho_schema_lettuce_server_resource_action_action_state_proto_rawD
 	"\x16ACTION_KEY_ANCIENT_DEX\x10=\x12\x15\n" +
 	"\x11ACTION_KEY_FUTURE\x10>\x12\x19\n" +
 	"\x15ACTION_KEY_FUTURE_DEX\x10?\x12'\n" +
-	"#ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE\x10@\x12%\n" +
-	"!ACTION_KEY_PVE_GET_POINT_TOTAL_V2\x10BBpZngithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/action;actionb\x06proto3"
+	"#ACTION_KEY_PVP_WIN_WITH_ENERGY_TYPE\x10@\x12/\n" +
+	"+ACTION_KEY_GIVE_CARD_UNDEX_OR_DESIRED_TOTAL\x10A\x12%\n" +
+	"!ACTION_KEY_PVE_GET_POINT_TOTAL_V2\x10B\x12(\n" +
+	"#ACTION_KEY_CARD_GET_DUAL_TYPE_TOTAL\x10\xbaN\x12,\n" +
+	"'ACTION_KEY_CARD_GET_DUAL_TYPE_DEX_TOTAL\x10\xbbNBpZngithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/action;actionb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_action_action_state_proto_rawDescOnce sync.Once

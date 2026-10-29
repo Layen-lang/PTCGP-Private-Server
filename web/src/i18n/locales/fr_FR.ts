@@ -71,7 +71,7 @@ const frFR = {
   'accounts.saveProfile': 'Enregistrer le profil', 'accounts.nickname': 'Pseudo', 'accounts.experience': 'Expérience',
   'accounts.gameLanguage': 'Langue du jeu', 'accounts.chooseLanguage': 'Choisir une langue', 'accounts.region': 'Région',
   'accounts.regionPlaceholder': 'FR', 'accounts.regionHint': 'Code pays à deux lettres, par exemple FR, BE ou CA.',
-  'accounts.nextLevel': 'Prochain niveau : {value}', 'accounts.tutorialDone': 'Tutoriel terminé', 'accounts.profilePicture': 'Photo de profil',
+  'accounts.nextLevel': 'Prochain niveau : {value}', 'accounts.profilePicture': 'Photo de profil',
   'accounts.iconsAvailable': '{count} icônes disponibles', 'accounts.searchIcon': 'Rechercher une icône…',
   'accounts.emblems': 'Insignes du profil', 'accounts.selectedOfThree': '{count}/3 sélectionnés', 'accounts.searchEmblem': 'Rechercher un insigne…',
   'accounts.emblemOrder': 'Ordre des insignes sélectionnés', 'accounts.position': 'Position {position}{name}', 'accounts.emptyPosition': ' vide',

@@ -24,11 +24,15 @@ const (
 type DeckStatistics_Types_DeckMakeType int32
 
 const (
-	DeckStatistics_Types_DECK_MAKE_TYPE_UNSPECIFIED  DeckStatistics_Types_DeckMakeType = 0
-	DeckStatistics_Types_DECK_MAKE_TYPE_NEW          DeckStatistics_Types_DeckMakeType = 1
-	DeckStatistics_Types_DECK_MAKE_TYPE_THEME_RECIPE DeckStatistics_Types_DeckMakeType = 2
-	DeckStatistics_Types_DECK_MAKE_TYPE_COPY         DeckStatistics_Types_DeckMakeType = 3
-	DeckStatistics_Types_DECK_MAKE_TYPE_UPDATE       DeckStatistics_Types_DeckMakeType = 99
+	DeckStatistics_Types_DECK_MAKE_TYPE_UNSPECIFIED        DeckStatistics_Types_DeckMakeType = 0
+	DeckStatistics_Types_DECK_MAKE_TYPE_NEW                DeckStatistics_Types_DeckMakeType = 1
+	DeckStatistics_Types_DECK_MAKE_TYPE_THEME_RECIPE       DeckStatistics_Types_DeckMakeType = 2
+	DeckStatistics_Types_DECK_MAKE_TYPE_COPY               DeckStatistics_Types_DeckMakeType = 3
+	DeckStatistics_Types_DECK_MAKE_TYPE_POPULAR_DECK_COPY  DeckStatistics_Types_DeckMakeType = 4
+	DeckStatistics_Types_DECK_MAKE_TYPE_FRIEND_DECK_COPY   DeckStatistics_Types_DeckMakeType = 5
+	DeckStatistics_Types_DECK_MAKE_TYPE_OPPONENT_DECK_COPY DeckStatistics_Types_DeckMakeType = 6
+	DeckStatistics_Types_DECK_MAKE_TYPE_PROFILE_DECK_COPY  DeckStatistics_Types_DeckMakeType = 7
+	DeckStatistics_Types_DECK_MAKE_TYPE_UPDATE             DeckStatistics_Types_DeckMakeType = 99
 )
 
 // Enum value maps for DeckStatistics_Types_DeckMakeType.
@@ -38,14 +42,22 @@ var (
 		1:  "DECK_MAKE_TYPE_NEW",
 		2:  "DECK_MAKE_TYPE_THEME_RECIPE",
 		3:  "DECK_MAKE_TYPE_COPY",
+		4:  "DECK_MAKE_TYPE_POPULAR_DECK_COPY",
+		5:  "DECK_MAKE_TYPE_FRIEND_DECK_COPY",
+		6:  "DECK_MAKE_TYPE_OPPONENT_DECK_COPY",
+		7:  "DECK_MAKE_TYPE_PROFILE_DECK_COPY",
 		99: "DECK_MAKE_TYPE_UPDATE",
 	}
 	DeckStatistics_Types_DeckMakeType_value = map[string]int32{
-		"DECK_MAKE_TYPE_UNSPECIFIED":  0,
-		"DECK_MAKE_TYPE_NEW":          1,
-		"DECK_MAKE_TYPE_THEME_RECIPE": 2,
-		"DECK_MAKE_TYPE_COPY":         3,
-		"DECK_MAKE_TYPE_UPDATE":       99,
+		"DECK_MAKE_TYPE_UNSPECIFIED":        0,
+		"DECK_MAKE_TYPE_NEW":                1,
+		"DECK_MAKE_TYPE_THEME_RECIPE":       2,
+		"DECK_MAKE_TYPE_COPY":               3,
+		"DECK_MAKE_TYPE_POPULAR_DECK_COPY":  4,
+		"DECK_MAKE_TYPE_FRIEND_DECK_COPY":   5,
+		"DECK_MAKE_TYPE_OPPONENT_DECK_COPY": 6,
+		"DECK_MAKE_TYPE_PROFILE_DECK_COPY":  7,
+		"DECK_MAKE_TYPE_UPDATE":             99,
 	}
 )
 
@@ -77,11 +89,15 @@ func (DeckStatistics_Types_DeckMakeType) EnumDescriptor() ([]byte, []int) {
 }
 
 type DeckStatistics struct {
-	state           protoimpl.MessageState            `protogen:"open.v1"`
-	DeckMakeType    DeckStatistics_Types_DeckMakeType `protobuf:"varint,1,opt,name=deck_make_type,json=deckMakeType,proto3,enum=takasho.schema.lettuce_server.resource.deck.DeckStatistics_Types_DeckMakeType" json:"deck_make_type,omitempty"`
-	AutoDeckMakeFlg int64                             `protobuf:"varint,2,opt,name=auto_deck_make_flg,json=autoDeckMakeFlg,proto3" json:"auto_deck_make_flg,omitempty"`
-	unknownFields   protoimpl.UnknownFields
-	sizeCache       protoimpl.SizeCache
+	state             protoimpl.MessageState            `protogen:"open.v1"`
+	DeckMakeType      DeckStatistics_Types_DeckMakeType `protobuf:"varint,1,opt,name=deck_make_type,json=deckMakeType,proto3,enum=takasho.schema.lettuce_server.resource.deck.DeckStatistics_Types_DeckMakeType" json:"deck_make_type,omitempty"`
+	AutoDeckMakeFlg   int64                             `protobuf:"varint,2,opt,name=auto_deck_make_flg,json=autoDeckMakeFlg,proto3" json:"auto_deck_make_flg,omitempty"`
+	DeckOwnerPlayerId string                            `protobuf:"bytes,3,opt,name=deck_owner_player_id,json=deckOwnerPlayerId,proto3" json:"deck_owner_player_id,omitempty"`
+	OpensettingType   int64                             `protobuf:"varint,4,opt,name=opensetting_type,json=opensettingType,proto3" json:"opensetting_type,omitempty"`
+	DeckRecipeDeckId  string                            `protobuf:"bytes,5,opt,name=deck_recipe_deck_id,json=deckRecipeDeckId,proto3" json:"deck_recipe_deck_id,omitempty"`
+	PopularDeckId     string                            `protobuf:"bytes,6,opt,name=popular_deck_id,json=popularDeckId,proto3" json:"popular_deck_id,omitempty"`
+	unknownFields     protoimpl.UnknownFields
+	sizeCache         protoimpl.SizeCache
 }
 
 func (x *DeckStatistics) Reset() {
@@ -128,6 +144,34 @@ func (x *DeckStatistics) GetAutoDeckMakeFlg() int64 {
 	return 0
 }
 
+func (x *DeckStatistics) GetDeckOwnerPlayerId() string {
+	if x != nil {
+		return x.DeckOwnerPlayerId
+	}
+	return ""
+}
+
+func (x *DeckStatistics) GetOpensettingType() int64 {
+	if x != nil {
+		return x.OpensettingType
+	}
+	return 0
+}
+
+func (x *DeckStatistics) GetDeckRecipeDeckId() string {
+	if x != nil {
+		return x.DeckRecipeDeckId
+	}
+	return ""
+}
+
+func (x *DeckStatistics) GetPopularDeckId() string {
+	if x != nil {
+		return x.PopularDeckId
+	}
+	return ""
+}
+
 type DeckStatistics_Types struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	unknownFields protoimpl.UnknownFields
@@ -168,16 +212,24 @@ var File_takasho_schema_lettuce_server_resource_deck_deck_statistics_proto proto
 
 const file_takasho_schema_lettuce_server_resource_deck_deck_statistics_proto_rawDesc = "" +
 	"\n" +
-	"Atakasho/schema/lettuce_server/resource/deck/deck_statistics.proto\x12+takasho.schema.lettuce_server.resource.deck\"\xdb\x02\n" +
+	"Atakasho/schema/lettuce_server/resource/deck/deck_statistics.proto\x12+takasho.schema.lettuce_server.resource.deck\"\xa6\x05\n" +
 	"\x0eDeckStatistics\x12t\n" +
 	"\x0edeck_make_type\x18\x01 \x01(\x0e2N.takasho.schema.lettuce_server.resource.deck.DeckStatistics.Types.DeckMakeTypeR\fdeckMakeType\x12+\n" +
-	"\x12auto_deck_make_flg\x18\x02 \x01(\x03R\x0fautoDeckMakeFlg\x1a\xa5\x01\n" +
-	"\x05Types\"\x9b\x01\n" +
+	"\x12auto_deck_make_flg\x18\x02 \x01(\x03R\x0fautoDeckMakeFlg\x12/\n" +
+	"\x14deck_owner_player_id\x18\x03 \x01(\tR\x11deckOwnerPlayerId\x12)\n" +
+	"\x10opensetting_type\x18\x04 \x01(\x03R\x0fopensettingType\x12-\n" +
+	"\x13deck_recipe_deck_id\x18\x05 \x01(\tR\x10deckRecipeDeckId\x12&\n" +
+	"\x0fpopular_deck_id\x18\x06 \x01(\tR\rpopularDeckId\x1a\xbd\x02\n" +
+	"\x05Types\"\xb3\x02\n" +
 	"\fDeckMakeType\x12\x1e\n" +
 	"\x1aDECK_MAKE_TYPE_UNSPECIFIED\x10\x00\x12\x16\n" +
 	"\x12DECK_MAKE_TYPE_NEW\x10\x01\x12\x1f\n" +
 	"\x1bDECK_MAKE_TYPE_THEME_RECIPE\x10\x02\x12\x17\n" +
-	"\x13DECK_MAKE_TYPE_COPY\x10\x03\x12\x19\n" +
+	"\x13DECK_MAKE_TYPE_COPY\x10\x03\x12$\n" +
+	" DECK_MAKE_TYPE_POPULAR_DECK_COPY\x10\x04\x12#\n" +
+	"\x1fDECK_MAKE_TYPE_FRIEND_DECK_COPY\x10\x05\x12%\n" +
+	"!DECK_MAKE_TYPE_OPPONENT_DECK_COPY\x10\x06\x12$\n" +
+	" DECK_MAKE_TYPE_PROFILE_DECK_COPY\x10\a\x12\x19\n" +
 	"\x15DECK_MAKE_TYPE_UPDATE\x10cBlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck;deckb\x06proto3"
 
 var (

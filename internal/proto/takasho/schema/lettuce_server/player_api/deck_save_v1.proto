@@ -10,6 +10,7 @@ message DeckSaveV1 {
     message Request {
       takasho.schema.lettuce_server.resource.deck.Deck deck = 1;
       takasho.schema.lettuce_server.resource.deck.DeckStatistics deck_statistics = 2;
+      bool is_completed = 3;
     }
     message Response {
       takasho.schema.lettuce_server.resource.deck.Deck deck = 1;

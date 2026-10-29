@@ -8,6 +8,7 @@ package player_profile
 
 import (
 	collection "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/collection"
+	deck "github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/deck"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -24,18 +25,19 @@ const (
 )
 
 type ProfileSpine struct {
-	state          protoimpl.MessageState       `protogen:"open.v1"`
-	PlayerId       string                       `protobuf:"bytes,1,opt,name=player_id,json=playerId,proto3" json:"player_id,omitempty"`
-	Nickname       string                       `protobuf:"bytes,2,opt,name=nickname,proto3" json:"nickname,omitempty"`
-	IconId         string                       `protobuf:"bytes,3,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
-	PlayerLevel    uint64                       `protobuf:"varint,4,opt,name=player_level,json=playerLevel,proto3" json:"player_level,omitempty"`
-	LastLoggedInAt *timestamppb.Timestamp       `protobuf:"bytes,5,opt,name=last_logged_in_at,json=lastLoggedInAt,proto3" json:"last_logged_in_at,omitempty"`
-	EmblemIds      []string                     `protobuf:"bytes,6,rep,name=emblem_ids,json=emblemIds,proto3" json:"emblem_ids,omitempty"`
-	Collection     *collection.MyBestCollection `protobuf:"bytes,7,opt,name=collection,proto3" json:"collection,omitempty"`
-	FriendId       string                       `protobuf:"bytes,8,opt,name=friend_id,json=friendId,proto3" json:"friend_id,omitempty"`
-	AvailableType  AvailableType                `protobuf:"varint,9,opt,name=available_type,json=availableType,proto3,enum=takasho.schema.lettuce_server.resource.player_profile.AvailableType" json:"available_type,omitempty"`
-	unknownFields  protoimpl.UnknownFields
-	sizeCache      protoimpl.SizeCache
+	state           protoimpl.MessageState       `protogen:"open.v1"`
+	PlayerId        string                       `protobuf:"bytes,1,opt,name=player_id,json=playerId,proto3" json:"player_id,omitempty"`
+	Nickname        string                       `protobuf:"bytes,2,opt,name=nickname,proto3" json:"nickname,omitempty"`
+	IconId          string                       `protobuf:"bytes,3,opt,name=icon_id,json=iconId,proto3" json:"icon_id,omitempty"`
+	PlayerLevel     uint64                       `protobuf:"varint,4,opt,name=player_level,json=playerLevel,proto3" json:"player_level,omitempty"`
+	LastLoggedInAt  *timestamppb.Timestamp       `protobuf:"bytes,5,opt,name=last_logged_in_at,json=lastLoggedInAt,proto3" json:"last_logged_in_at,omitempty"`
+	EmblemIds       []string                     `protobuf:"bytes,6,rep,name=emblem_ids,json=emblemIds,proto3" json:"emblem_ids,omitempty"`
+	Collection      *collection.MyBestCollection `protobuf:"bytes,7,opt,name=collection,proto3" json:"collection,omitempty"`
+	FriendId        string                       `protobuf:"bytes,8,opt,name=friend_id,json=friendId,proto3" json:"friend_id,omitempty"`
+	AvailableType   AvailableType                `protobuf:"varint,9,opt,name=available_type,json=availableType,proto3,enum=takasho.schema.lettuce_server.resource.player_profile.AvailableType" json:"available_type,omitempty"`
+	MyPublishedDeck *deck.Deck                   `protobuf:"bytes,10,opt,name=my_published_deck,json=myPublishedDeck,proto3" json:"my_published_deck,omitempty"`
+	unknownFields   protoimpl.UnknownFields
+	sizeCache       protoimpl.SizeCache
 }
 
 func (x *ProfileSpine) Reset() {
@@ -131,11 +133,18 @@ func (x *ProfileSpine) GetAvailableType() AvailableType {
 	return AvailableType_AVAILABLE_TYPE_UNSPECIFIED
 }
 
+func (x *ProfileSpine) GetMyPublishedDeck() *deck.Deck {
+	if x != nil {
+		return x.MyPublishedDeck
+	}
+	return nil
+}
+
 var File_takasho_schema_lettuce_server_resource_player_profile_profile_spine_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_proto_rawDesc = "" +
 	"\n" +
-	"Itakasho/schema/lettuce_server/resource/player_profile/profile_spine.proto\x125takasho.schema.lettuce_server.resource.player_profile\x1a\x1fgoogle/protobuf/timestamp.proto\x1aJtakasho/schema/lettuce_server/resource/collection/my_best_collection.proto\x1aJtakasho/schema/lettuce_server/resource/player_profile/available_type.proto\"\xd8\x03\n" +
+	"Itakasho/schema/lettuce_server/resource/player_profile/profile_spine.proto\x125takasho.schema.lettuce_server.resource.player_profile\x1a\x1fgoogle/protobuf/timestamp.proto\x1aJtakasho/schema/lettuce_server/resource/collection/my_best_collection.proto\x1a6takasho/schema/lettuce_server/resource/deck/deck.proto\x1aJtakasho/schema/lettuce_server/resource/player_profile/available_type.proto\"\xb7\x04\n" +
 	"\fProfileSpine\x12\x1b\n" +
 	"\tplayer_id\x18\x01 \x01(\tR\bplayerId\x12\x1a\n" +
 	"\bnickname\x18\x02 \x01(\tR\bnickname\x12\x17\n" +
@@ -148,7 +157,9 @@ const file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_p
 	"collection\x18\a \x01(\v2C.takasho.schema.lettuce_server.resource.collection.MyBestCollectionR\n" +
 	"collection\x12\x1b\n" +
 	"\tfriend_id\x18\b \x01(\tR\bfriendId\x12k\n" +
-	"\x0eavailable_type\x18\t \x01(\x0e2D.takasho.schema.lettuce_server.resource.player_profile.AvailableTypeR\ravailableTypeB\x80\x01Z~github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/player_profile;player_profileb\x06proto3"
+	"\x0eavailable_type\x18\t \x01(\x0e2D.takasho.schema.lettuce_server.resource.player_profile.AvailableTypeR\ravailableType\x12]\n" +
+	"\x11my_published_deck\x18\n" +
+	" \x01(\v21.takasho.schema.lettuce_server.resource.deck.DeckR\x0fmyPublishedDeckB\x80\x01Z~github.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/player_profile;player_profileb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_proto_rawDescOnce sync.Once
@@ -168,16 +179,18 @@ var file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_pro
 	(*timestamppb.Timestamp)(nil),       // 1: google.protobuf.Timestamp
 	(*collection.MyBestCollection)(nil), // 2: takasho.schema.lettuce_server.resource.collection.MyBestCollection
 	(AvailableType)(0),                  // 3: takasho.schema.lettuce_server.resource.player_profile.AvailableType
+	(*deck.Deck)(nil),                   // 4: takasho.schema.lettuce_server.resource.deck.Deck
 }
 var file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_proto_depIdxs = []int32{
 	1, // 0: takasho.schema.lettuce_server.resource.player_profile.ProfileSpine.last_logged_in_at:type_name -> google.protobuf.Timestamp
 	2, // 1: takasho.schema.lettuce_server.resource.player_profile.ProfileSpine.collection:type_name -> takasho.schema.lettuce_server.resource.collection.MyBestCollection
 	3, // 2: takasho.schema.lettuce_server.resource.player_profile.ProfileSpine.available_type:type_name -> takasho.schema.lettuce_server.resource.player_profile.AvailableType
-	3, // [3:3] is the sub-list for method output_type
-	3, // [3:3] is the sub-list for method input_type
-	3, // [3:3] is the sub-list for extension type_name
-	3, // [3:3] is the sub-list for extension extendee
-	0, // [0:3] is the sub-list for field type_name
+	4, // 3: takasho.schema.lettuce_server.resource.player_profile.ProfileSpine.my_published_deck:type_name -> takasho.schema.lettuce_server.resource.deck.Deck
+	4, // [4:4] is the sub-list for method output_type
+	4, // [4:4] is the sub-list for method input_type
+	4, // [4:4] is the sub-list for extension type_name
+	4, // [4:4] is the sub-list for extension extendee
+	0, // [0:4] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_resource_player_profile_profile_spine_proto_init() }

@@ -2,6 +2,7 @@ syntax = "proto3";
 
 package takasho.schema.lettuce_server.player_api;
 
+import "takasho/schema/lettuce_server/resource/analytics_log/asset_download.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/auto_deck_make.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/battle_config.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/battle_tutorial.proto";
@@ -10,6 +11,7 @@ import "takasho/schema/lettuce_server/resource/analytics_log/card_wish.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/change_config.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/collection_board_favorite_from_client.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/collection_file_favorite_from_client.proto";
+import "takasho/schema/lettuce_server/resource/analytics_log/collection_my_deck_from_client.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/feature_tutorial.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/game_tutorial.proto";
 import "takasho/schema/lettuce_server/resource/analytics_log/goods_favorite.proto";
@@ -43,6 +45,8 @@ message AnalyticsLogSendV1 {
         takasho.schema.lettuce_server.resource.analytics_log.PackFavorite pack_favorite = 16;
         takasho.schema.lettuce_server.resource.analytics_log.GoodsFavorite goods_favorite = 17;
         takasho.schema.lettuce_server.resource.analytics_log.PackOpen pack_open = 18;
+        takasho.schema.lettuce_server.resource.analytics_log.CollectionMyDeckFromClient collection_my_deck = 19;
+        takasho.schema.lettuce_server.resource.analytics_log.AssetDownload asset_download = 20;
       }
     }
     message Response {

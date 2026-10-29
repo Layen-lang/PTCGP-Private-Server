@@ -45,6 +45,7 @@ type InventoryItems struct {
 	TradeTickets           []*TradeTicket               `protobuf:"bytes,21,rep,name=trade_tickets,json=tradeTickets,proto3" json:"trade_tickets,omitempty"`
 	CardFrameStocks        []*card_frame.CardFrameStock `protobuf:"bytes,22,rep,name=card_frame_stocks,json=cardFrameStocks,proto3" json:"card_frame_stocks,omitempty"`
 	PackGranteePoints      []*PackGuaranteePoint        `protobuf:"bytes,23,rep,name=pack_grantee_points,json=packGranteePoints,proto3" json:"pack_grantee_points,omitempty"`
+	SpecialPackTickets     []*SpecialPackTicket         `protobuf:"bytes,24,rep,name=special_pack_tickets,json=specialPackTickets,proto3" json:"special_pack_tickets,omitempty"`
 	unknownFields          protoimpl.UnknownFields
 	sizeCache              protoimpl.SizeCache
 }
@@ -219,11 +220,18 @@ func (x *InventoryItems) GetPackGranteePoints() []*PackGuaranteePoint {
 	return nil
 }
 
+func (x *InventoryItems) GetSpecialPackTickets() []*SpecialPackTicket {
+	if x != nil {
+		return x.SpecialPackTickets
+	}
+	return nil
+}
+
 var File_takasho_schema_lettuce_server_resource_item_inventory_items_proto protoreflect.FileDescriptor
 
 const file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_rawDesc = "" +
 	"\n" +
-	"Atakasho/schema/lettuce_server/resource/item/inventory_items.proto\x12+takasho.schema.lettuce_server.resource.item\x1aHtakasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto\x1aFtakasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto\x1a?takasho/schema/lettuce_server/resource/item/card_instance.proto\x1aItakasho/schema/lettuce_server/resource/item/challenge_power_charger.proto\x1a:takasho/schema/lettuce_server/resource/item/currency.proto\x1aEtakasho/schema/lettuce_server/resource/item/event_power_charger.proto\x1a5takasho/schema/lettuce_server/resource/item/exp.proto\x1aAtakasho/schema/lettuce_server/resource/item/pack_ceil_point.proto\x1aFtakasho/schema/lettuce_server/resource/item/pack_guarantee_point.proto\x1aDtakasho/schema/lettuce_server/resource/item/pack_power_charger.proto\x1aBtakasho/schema/lettuce_server/resource/item/peripheral_goods.proto\x1a;takasho/schema/lettuce_server/resource/item/poke_gold.proto\x1aDtakasho/schema/lettuce_server/resource/item/profile_decoration.proto\x1a=takasho/schema/lettuce_server/resource/item/rental_deck.proto\x1a?takasho/schema/lettuce_server/resource/item/revival_clock.proto\x1a?takasho/schema/lettuce_server/resource/item/reward_ticket.proto\x1aCtakasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto\x1a<takasho/schema/lettuce_server/resource/item/trade_item.proto\x1aEtakasho/schema/lettuce_server/resource/item/trade_power_charger.proto\x1a>takasho/schema/lettuce_server/resource/item/trade_ticket.proto\"\x85\x10\n" +
+	"Atakasho/schema/lettuce_server/resource/item/inventory_items.proto\x12+takasho.schema.lettuce_server.resource.item\x1aHtakasho/schema/lettuce_server/resource/card_frame/card_frame_stock.proto\x1aFtakasho/schema/lettuce_server/resource/card_skin/card_skin_stock.proto\x1a?takasho/schema/lettuce_server/resource/item/card_instance.proto\x1aItakasho/schema/lettuce_server/resource/item/challenge_power_charger.proto\x1a:takasho/schema/lettuce_server/resource/item/currency.proto\x1aEtakasho/schema/lettuce_server/resource/item/event_power_charger.proto\x1a5takasho/schema/lettuce_server/resource/item/exp.proto\x1aAtakasho/schema/lettuce_server/resource/item/pack_ceil_point.proto\x1aFtakasho/schema/lettuce_server/resource/item/pack_guarantee_point.proto\x1aDtakasho/schema/lettuce_server/resource/item/pack_power_charger.proto\x1aBtakasho/schema/lettuce_server/resource/item/peripheral_goods.proto\x1a;takasho/schema/lettuce_server/resource/item/poke_gold.proto\x1aDtakasho/schema/lettuce_server/resource/item/profile_decoration.proto\x1a=takasho/schema/lettuce_server/resource/item/rental_deck.proto\x1a?takasho/schema/lettuce_server/resource/item/revival_clock.proto\x1a?takasho/schema/lettuce_server/resource/item/reward_ticket.proto\x1aEtakasho/schema/lettuce_server/resource/item/special_pack_ticket.proto\x1aCtakasho/schema/lettuce_server/resource/item/theme_deck_recipe.proto\x1a<takasho/schema/lettuce_server/resource/item/trade_item.proto\x1aEtakasho/schema/lettuce_server/resource/item/trade_power_charger.proto\x1a>takasho/schema/lettuce_server/resource/item/trade_ticket.proto\"\xf7\x10\n" +
 	"\x0eInventoryItems\x12i\n" +
 	"\x10card_skin_stocks\x18\x01 \x03(\v2?.takasho.schema.lettuce_server.resource.card_skin.CardSkinStockR\x0ecardSkinStocks\x12p\n" +
 	"\x14event_power_chargers\x18\x02 \x03(\v2>.takasho.schema.lettuce_server.resource.item.EventPowerChargerR\x12eventPowerChargers\x12m\n" +
@@ -249,7 +257,8 @@ const file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_raw
 	"tradeItems\x12]\n" +
 	"\rtrade_tickets\x18\x15 \x03(\v28.takasho.schema.lettuce_server.resource.item.TradeTicketR\ftradeTickets\x12m\n" +
 	"\x11card_frame_stocks\x18\x16 \x03(\v2A.takasho.schema.lettuce_server.resource.card_frame.CardFrameStockR\x0fcardFrameStocks\x12o\n" +
-	"\x13pack_grantee_points\x18\x17 \x03(\v2?.takasho.schema.lettuce_server.resource.item.PackGuaranteePointR\x11packGranteePointsBlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/item;itemb\x06proto3"
+	"\x13pack_grantee_points\x18\x17 \x03(\v2?.takasho.schema.lettuce_server.resource.item.PackGuaranteePointR\x11packGranteePoints\x12p\n" +
+	"\x14special_pack_tickets\x18\x18 \x03(\v2>.takasho.schema.lettuce_server.resource.item.SpecialPackTicketR\x12specialPackTicketsBlZjgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/resource/item;itemb\x06proto3"
 
 var (
 	file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_rawDescOnce sync.Once
@@ -286,6 +295,7 @@ var file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_goTyp
 	(*TradeTicket)(nil),               // 18: takasho.schema.lettuce_server.resource.item.TradeTicket
 	(*card_frame.CardFrameStock)(nil), // 19: takasho.schema.lettuce_server.resource.card_frame.CardFrameStock
 	(*PackGuaranteePoint)(nil),        // 20: takasho.schema.lettuce_server.resource.item.PackGuaranteePoint
+	(*SpecialPackTicket)(nil),         // 21: takasho.schema.lettuce_server.resource.item.SpecialPackTicket
 }
 var file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_depIdxs = []int32{
 	1,  // 0: takasho.schema.lettuce_server.resource.item.InventoryItems.card_skin_stocks:type_name -> takasho.schema.lettuce_server.resource.card_skin.CardSkinStock
@@ -308,11 +318,12 @@ var file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_depId
 	18, // 17: takasho.schema.lettuce_server.resource.item.InventoryItems.trade_tickets:type_name -> takasho.schema.lettuce_server.resource.item.TradeTicket
 	19, // 18: takasho.schema.lettuce_server.resource.item.InventoryItems.card_frame_stocks:type_name -> takasho.schema.lettuce_server.resource.card_frame.CardFrameStock
 	20, // 19: takasho.schema.lettuce_server.resource.item.InventoryItems.pack_grantee_points:type_name -> takasho.schema.lettuce_server.resource.item.PackGuaranteePoint
-	20, // [20:20] is the sub-list for method output_type
-	20, // [20:20] is the sub-list for method input_type
-	20, // [20:20] is the sub-list for extension type_name
-	20, // [20:20] is the sub-list for extension extendee
-	0,  // [0:20] is the sub-list for field type_name
+	21, // 20: takasho.schema.lettuce_server.resource.item.InventoryItems.special_pack_tickets:type_name -> takasho.schema.lettuce_server.resource.item.SpecialPackTicket
+	21, // [21:21] is the sub-list for method output_type
+	21, // [21:21] is the sub-list for method input_type
+	21, // [21:21] is the sub-list for extension type_name
+	21, // [21:21] is the sub-list for extension extendee
+	0,  // [0:21] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_init() }
@@ -334,6 +345,7 @@ func file_takasho_schema_lettuce_server_resource_item_inventory_items_proto_init
 	file_takasho_schema_lettuce_server_resource_item_rental_deck_proto_init()
 	file_takasho_schema_lettuce_server_resource_item_revival_clock_proto_init()
 	file_takasho_schema_lettuce_server_resource_item_reward_ticket_proto_init()
+	file_takasho_schema_lettuce_server_resource_item_special_pack_ticket_proto_init()
 	file_takasho_schema_lettuce_server_resource_item_theme_deck_recipe_proto_init()
 	file_takasho_schema_lettuce_server_resource_item_trade_item_proto_init()
 	file_takasho_schema_lettuce_server_resource_item_trade_power_charger_proto_init()

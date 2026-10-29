@@ -9,9 +9,17 @@ message DeckStatistics {
       DECK_MAKE_TYPE_NEW = 1;
       DECK_MAKE_TYPE_THEME_RECIPE = 2;
       DECK_MAKE_TYPE_COPY = 3;
+      DECK_MAKE_TYPE_POPULAR_DECK_COPY = 4;
+      DECK_MAKE_TYPE_FRIEND_DECK_COPY = 5;
+      DECK_MAKE_TYPE_OPPONENT_DECK_COPY = 6;
+      DECK_MAKE_TYPE_PROFILE_DECK_COPY = 7;
       DECK_MAKE_TYPE_UPDATE = 99;
     }
   }
   DeckStatistics.Types.DeckMakeType deck_make_type = 1;
   int64 auto_deck_make_flg = 2;
+  string deck_owner_player_id = 3;
+  int64 opensetting_type = 4;
+  string deck_recipe_deck_id = 5;
+  string popular_deck_id = 6;
 }

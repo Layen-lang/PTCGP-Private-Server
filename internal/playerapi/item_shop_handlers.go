@@ -18,25 +18,6 @@ type itemShopServer struct {
 	players *player.Manager
 }
 
-func (s itemShopServer) GetPurchaseSummariesV1(ctx context.Context, request *api.ItemShopGetPurchaseSummariesV1_Types_Request) (*api.ItemShopGetPurchaseSummariesV1_Types_Response, error) {
-	current, err := currentPlayer(ctx)
-	if err != nil {
-		return nil, err
-	}
-	response := &api.ItemShopGetPurchaseSummariesV1_Types_Response{}
-	for _, product := range request.GetProductIds() {
-		if product == nil {
-			continue
-		}
-		count, loadErr := s.players.ShopPurchaseCount(ctx, current.ID, request.GetShopId(), product.GetProductId())
-		if loadErr != nil {
-			return nil, status.Error(codes.Internal, "cannot load shop purchases")
-		}
-		response.PurchaseSummaries = append(response.PurchaseSummaries, shopSummary(request.GetShopId(), product.GetProductId(), count))
-	}
-	return response, nil
-}
-
 func (s itemShopServer) GetPurchaseSummariesV2(ctx context.Context, request *api.ItemShopGetPurchaseSummariesV2_Types_Request) (*api.ItemShopGetPurchaseSummariesV2_Types_Response, error) {
 	current, err := currentPlayer(ctx)
 	if err != nil {

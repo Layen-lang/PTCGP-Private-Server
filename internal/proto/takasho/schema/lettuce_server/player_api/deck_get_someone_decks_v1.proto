@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package takasho.schema.lettuce_server.player_api;
+
+import "takasho/schema/lettuce_server/resource/deck/someone_deck.proto";
+import "takasho/schema/lettuce_server/resource/friend/friend.proto";
+
+message DeckGetSomeoneDecksV1 {
+  message Types {
+    message Request {
+    }
+    message Response {
+      repeated takasho.schema.lettuce_server.resource.friend.Friend friends = 1;
+      repeated takasho.schema.lettuce_server.resource.deck.SomeoneDeck someone_decks = 2;
+    }
+  }
+}

@@ -24,28 +24,40 @@ var File_takasho_schema_lettuce_server_player_api_pvp_casual_proto protoreflect.
 
 const file_takasho_schema_lettuce_server_player_api_pvp_casual_proto_rawDesc = "" +
 	"\n" +
-	"9takasho/schema/lettuce_server/player_api/pvp_casual.proto\x12(takasho.schema.lettuce_server.player_api\x1aLtakasho/schema/lettuce_server/player_api/pvp_casual_delete_matching_v2.proto\x1aJtakasho/schema/lettuce_server/player_api/pvp_casual_finish_battle_v1.proto\x1aPtakasho/schema/lettuce_server/player_api/pvp_casual_get_matching_result_v2.proto\x1aUtakasho/schema/lettuce_server/player_api/pvp_casual_request_private_matching_v2.proto\x1aTtakasho/schema/lettuce_server/player_api/pvp_casual_request_public_matching_v2.proto\x1aItakasho/schema/lettuce_server/player_api/pvp_casual_start_battle_v2.proto2\x9a\t\n" +
+	"9takasho/schema/lettuce_server/player_api/pvp_casual.proto\x12(takasho.schema.lettuce_server.player_api\x1aLtakasho/schema/lettuce_server/player_api/pvp_casual_delete_matching_v2.proto\x1aJtakasho/schema/lettuce_server/player_api/pvp_casual_finish_battle_v1.proto\x1aPtakasho/schema/lettuce_server/player_api/pvp_casual_get_matching_result_v2.proto\x1aStakasho/schema/lettuce_server/player_api/pvp_casual_get_private_match_rule_v1.proto\x1a^takasho/schema/lettuce_server/player_api/pvp_casual_list_private_match_battle_records_v1.proto\x1a]takasho/schema/lettuce_server/player_api/pvp_casual_list_public_match_battle_records_v1.proto\x1aUtakasho/schema/lettuce_server/player_api/pvp_casual_request_private_matching_v2.proto\x1aTtakasho/schema/lettuce_server/player_api/pvp_casual_request_public_matching_v2.proto\x1aUtakasho/schema/lettuce_server/player_api/pvp_casual_setup_private_match_rule_v1.proto\x1aItakasho/schema/lettuce_server/player_api/pvp_casual_start_battle_v2.proto2\x85\x10\n" +
 	"\tPvpCasual\x12\xce\x01\n" +
 	"\x17RequestPublicMatchingV2\x12X.takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Request\x1aY.takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Response\x12\xd1\x01\n" +
 	"\x18RequestPrivateMatchingV2\x12Y.takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Request\x1aZ.takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Response\x12\xb9\x01\n" +
 	"\x10DeleteMatchingV2\x12Q.takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Request\x1aR.takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Response\x12\xc2\x01\n" +
 	"\x13GetMatchingResultV2\x12T.takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Request\x1aU.takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Response\x12\xb0\x01\n" +
 	"\rStartBattleV2\x12N.takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Request\x1aO.takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Response\x12\xb3\x01\n" +
-	"\x0eFinishBattleV1\x12O.takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Request\x1aP.takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.ResponseBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
+	"\x0eFinishBattleV1\x12O.takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Request\x1aP.takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Response\x12\xce\x01\n" +
+	"\x17SetupPrivateMatchRuleV1\x12X.takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Request\x1aY.takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Response\x12\xc8\x01\n" +
+	"\x15GetPrivateMatchRuleV1\x12V.takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Request\x1aW.takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Response\x12\xe3\x01\n" +
+	"\x1eListPublicMatchBattleRecordsV1\x12_.takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Request\x1a`.takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Response\x12\xe6\x01\n" +
+	"\x1fListPrivateMatchBattleRecordsV1\x12`.takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.Request\x1aa.takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.ResponseBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
 
 var file_takasho_schema_lettuce_server_player_api_pvp_casual_proto_goTypes = []any{
-	(*PvpCasualRequestPublicMatchingV2_Types_Request)(nil),   // 0: takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Request
-	(*PvpCasualRequestPrivateMatchingV2_Types_Request)(nil),  // 1: takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Request
-	(*PvpCasualDeleteMatchingV2_Types_Request)(nil),          // 2: takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Request
-	(*PvpCasualGetMatchingResultV2_Types_Request)(nil),       // 3: takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Request
-	(*PvpCasualStartBattleV2_Types_Request)(nil),             // 4: takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Request
-	(*PvpCasualFinishBattleV1_Types_Request)(nil),            // 5: takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Request
-	(*PvpCasualRequestPublicMatchingV2_Types_Response)(nil),  // 6: takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Response
-	(*PvpCasualRequestPrivateMatchingV2_Types_Response)(nil), // 7: takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Response
-	(*PvpCasualDeleteMatchingV2_Types_Response)(nil),         // 8: takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Response
-	(*PvpCasualGetMatchingResultV2_Types_Response)(nil),      // 9: takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Response
-	(*PvpCasualStartBattleV2_Types_Response)(nil),            // 10: takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Response
-	(*PvpCasualFinishBattleV1_Types_Response)(nil),           // 11: takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Response
+	(*PvpCasualRequestPublicMatchingV2_Types_Request)(nil),          // 0: takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Request
+	(*PvpCasualRequestPrivateMatchingV2_Types_Request)(nil),         // 1: takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Request
+	(*PvpCasualDeleteMatchingV2_Types_Request)(nil),                 // 2: takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Request
+	(*PvpCasualGetMatchingResultV2_Types_Request)(nil),              // 3: takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Request
+	(*PvpCasualStartBattleV2_Types_Request)(nil),                    // 4: takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Request
+	(*PvpCasualFinishBattleV1_Types_Request)(nil),                   // 5: takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Request
+	(*PvpCasualSetupPrivateMatchRuleV1_Types_Request)(nil),          // 6: takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Request
+	(*PvpCasualGetPrivateMatchRuleV1_Types_Request)(nil),            // 7: takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Request
+	(*PvpCasualListPublicMatchBattleRecordsV1_Types_Request)(nil),   // 8: takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Request
+	(*PvpCasualListPrivateMatchBattleRecordsV1_Types_Request)(nil),  // 9: takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.Request
+	(*PvpCasualRequestPublicMatchingV2_Types_Response)(nil),         // 10: takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Response
+	(*PvpCasualRequestPrivateMatchingV2_Types_Response)(nil),        // 11: takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Response
+	(*PvpCasualDeleteMatchingV2_Types_Response)(nil),                // 12: takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Response
+	(*PvpCasualGetMatchingResultV2_Types_Response)(nil),             // 13: takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Response
+	(*PvpCasualStartBattleV2_Types_Response)(nil),                   // 14: takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Response
+	(*PvpCasualFinishBattleV1_Types_Response)(nil),                  // 15: takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Response
+	(*PvpCasualSetupPrivateMatchRuleV1_Types_Response)(nil),         // 16: takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Response
+	(*PvpCasualGetPrivateMatchRuleV1_Types_Response)(nil),           // 17: takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Response
+	(*PvpCasualListPublicMatchBattleRecordsV1_Types_Response)(nil),  // 18: takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Response
+	(*PvpCasualListPrivateMatchBattleRecordsV1_Types_Response)(nil), // 19: takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.Response
 }
 var file_takasho_schema_lettuce_server_player_api_pvp_casual_proto_depIdxs = []int32{
 	0,  // 0: takasho.schema.lettuce_server.player_api.PvpCasual.RequestPublicMatchingV2:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Request
@@ -54,14 +66,22 @@ var file_takasho_schema_lettuce_server_player_api_pvp_casual_proto_depIdxs = []i
 	3,  // 3: takasho.schema.lettuce_server.player_api.PvpCasual.GetMatchingResultV2:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Request
 	4,  // 4: takasho.schema.lettuce_server.player_api.PvpCasual.StartBattleV2:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Request
 	5,  // 5: takasho.schema.lettuce_server.player_api.PvpCasual.FinishBattleV1:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Request
-	6,  // 6: takasho.schema.lettuce_server.player_api.PvpCasual.RequestPublicMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Response
-	7,  // 7: takasho.schema.lettuce_server.player_api.PvpCasual.RequestPrivateMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Response
-	8,  // 8: takasho.schema.lettuce_server.player_api.PvpCasual.DeleteMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Response
-	9,  // 9: takasho.schema.lettuce_server.player_api.PvpCasual.GetMatchingResultV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Response
-	10, // 10: takasho.schema.lettuce_server.player_api.PvpCasual.StartBattleV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Response
-	11, // 11: takasho.schema.lettuce_server.player_api.PvpCasual.FinishBattleV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Response
-	6,  // [6:12] is the sub-list for method output_type
-	0,  // [0:6] is the sub-list for method input_type
+	6,  // 6: takasho.schema.lettuce_server.player_api.PvpCasual.SetupPrivateMatchRuleV1:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Request
+	7,  // 7: takasho.schema.lettuce_server.player_api.PvpCasual.GetPrivateMatchRuleV1:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Request
+	8,  // 8: takasho.schema.lettuce_server.player_api.PvpCasual.ListPublicMatchBattleRecordsV1:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Request
+	9,  // 9: takasho.schema.lettuce_server.player_api.PvpCasual.ListPrivateMatchBattleRecordsV1:input_type -> takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.Request
+	10, // 10: takasho.schema.lettuce_server.player_api.PvpCasual.RequestPublicMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualRequestPublicMatchingV2.Types.Response
+	11, // 11: takasho.schema.lettuce_server.player_api.PvpCasual.RequestPrivateMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualRequestPrivateMatchingV2.Types.Response
+	12, // 12: takasho.schema.lettuce_server.player_api.PvpCasual.DeleteMatchingV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualDeleteMatchingV2.Types.Response
+	13, // 13: takasho.schema.lettuce_server.player_api.PvpCasual.GetMatchingResultV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualGetMatchingResultV2.Types.Response
+	14, // 14: takasho.schema.lettuce_server.player_api.PvpCasual.StartBattleV2:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualStartBattleV2.Types.Response
+	15, // 15: takasho.schema.lettuce_server.player_api.PvpCasual.FinishBattleV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualFinishBattleV1.Types.Response
+	16, // 16: takasho.schema.lettuce_server.player_api.PvpCasual.SetupPrivateMatchRuleV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualSetupPrivateMatchRuleV1.Types.Response
+	17, // 17: takasho.schema.lettuce_server.player_api.PvpCasual.GetPrivateMatchRuleV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualGetPrivateMatchRuleV1.Types.Response
+	18, // 18: takasho.schema.lettuce_server.player_api.PvpCasual.ListPublicMatchBattleRecordsV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualListPublicMatchBattleRecordsV1.Types.Response
+	19, // 19: takasho.schema.lettuce_server.player_api.PvpCasual.ListPrivateMatchBattleRecordsV1:output_type -> takasho.schema.lettuce_server.player_api.PvpCasualListPrivateMatchBattleRecordsV1.Types.Response
+	10, // [10:20] is the sub-list for method output_type
+	0,  // [0:10] is the sub-list for method input_type
 	0,  // [0:0] is the sub-list for extension type_name
 	0,  // [0:0] is the sub-list for extension extendee
 	0,  // [0:0] is the sub-list for field type_name
@@ -75,8 +95,12 @@ func file_takasho_schema_lettuce_server_player_api_pvp_casual_proto_init() {
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_delete_matching_v2_proto_init()
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_finish_battle_v1_proto_init()
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_get_matching_result_v2_proto_init()
+	file_takasho_schema_lettuce_server_player_api_pvp_casual_get_private_match_rule_v1_proto_init()
+	file_takasho_schema_lettuce_server_player_api_pvp_casual_list_private_match_battle_records_v1_proto_init()
+	file_takasho_schema_lettuce_server_player_api_pvp_casual_list_public_match_battle_records_v1_proto_init()
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_request_private_matching_v2_proto_init()
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_request_public_matching_v2_proto_init()
+	file_takasho_schema_lettuce_server_player_api_pvp_casual_setup_private_match_rule_v1_proto_init()
 	file_takasho_schema_lettuce_server_player_api_pvp_casual_start_battle_v2_proto_init()
 	type x struct{}
 	out := protoimpl.TypeBuilder{

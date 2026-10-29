@@ -116,6 +116,8 @@ type AnalyticsLogSendV1_Types_Request struct {
 	//	*AnalyticsLogSendV1_Types_Request_PackFavorite
 	//	*AnalyticsLogSendV1_Types_Request_GoodsFavorite
 	//	*AnalyticsLogSendV1_Types_Request_PackOpen
+	//	*AnalyticsLogSendV1_Types_Request_CollectionMyDeck
+	//	*AnalyticsLogSendV1_Types_Request_AssetDownload
 	Body          isAnalyticsLogSendV1_Types_Request_Body `protobuf_oneof:"body"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
@@ -320,6 +322,24 @@ func (x *AnalyticsLogSendV1_Types_Request) GetPackOpen() *analytics_log.PackOpen
 	return nil
 }
 
+func (x *AnalyticsLogSendV1_Types_Request) GetCollectionMyDeck() *analytics_log.CollectionMyDeckFromClient {
+	if x != nil {
+		if x, ok := x.Body.(*AnalyticsLogSendV1_Types_Request_CollectionMyDeck); ok {
+			return x.CollectionMyDeck
+		}
+	}
+	return nil
+}
+
+func (x *AnalyticsLogSendV1_Types_Request) GetAssetDownload() *analytics_log.AssetDownload {
+	if x != nil {
+		if x, ok := x.Body.(*AnalyticsLogSendV1_Types_Request_AssetDownload); ok {
+			return x.AssetDownload
+		}
+	}
+	return nil
+}
+
 type isAnalyticsLogSendV1_Types_Request_Body interface {
 	isAnalyticsLogSendV1_Types_Request_Body()
 }
@@ -396,6 +416,14 @@ type AnalyticsLogSendV1_Types_Request_PackOpen struct {
 	PackOpen *analytics_log.PackOpen `protobuf:"bytes,18,opt,name=pack_open,json=packOpen,proto3,oneof"`
 }
 
+type AnalyticsLogSendV1_Types_Request_CollectionMyDeck struct {
+	CollectionMyDeck *analytics_log.CollectionMyDeckFromClient `protobuf:"bytes,19,opt,name=collection_my_deck,json=collectionMyDeck,proto3,oneof"`
+}
+
+type AnalyticsLogSendV1_Types_Request_AssetDownload struct {
+	AssetDownload *analytics_log.AssetDownload `protobuf:"bytes,20,opt,name=asset_download,json=assetDownload,proto3,oneof"`
+}
+
 func (*AnalyticsLogSendV1_Types_Request_BattleConfig) isAnalyticsLogSendV1_Types_Request_Body() {}
 
 func (*AnalyticsLogSendV1_Types_Request_HomeScreen) isAnalyticsLogSendV1_Types_Request_Body() {}
@@ -433,6 +461,10 @@ func (*AnalyticsLogSendV1_Types_Request_PackFavorite) isAnalyticsLogSendV1_Types
 func (*AnalyticsLogSendV1_Types_Request_GoodsFavorite) isAnalyticsLogSendV1_Types_Request_Body() {}
 
 func (*AnalyticsLogSendV1_Types_Request_PackOpen) isAnalyticsLogSendV1_Types_Request_Body() {}
+
+func (*AnalyticsLogSendV1_Types_Request_CollectionMyDeck) isAnalyticsLogSendV1_Types_Request_Body() {}
+
+func (*AnalyticsLogSendV1_Types_Request_AssetDownload) isAnalyticsLogSendV1_Types_Request_Body() {}
 
 type AnalyticsLogSendV1_Types_Response struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
@@ -474,9 +506,9 @@ var File_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto pr
 
 const file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_rawDesc = "" +
 	"\n" +
-	"Dtakasho/schema/lettuce_server/player_api/analytics_log_send_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1aItakasho/schema/lettuce_server/resource/analytics_log/auto_deck_make.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/battle_config.proto\x1aJtakasho/schema/lettuce_server/resource/analytics_log/battle_tutorial.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/card_favorite.proto\x1aDtakasho/schema/lettuce_server/resource/analytics_log/card_wish.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/change_config.proto\x1a`takasho/schema/lettuce_server/resource/analytics_log/collection_board_favorite_from_client.proto\x1a_takasho/schema/lettuce_server/resource/analytics_log/collection_file_favorite_from_client.proto\x1aKtakasho/schema/lettuce_server/resource/analytics_log/feature_tutorial.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/game_tutorial.proto\x1aItakasho/schema/lettuce_server/resource/analytics_log/goods_favorite.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/home_icon_tap.proto\x1aFtakasho/schema/lettuce_server/resource/analytics_log/home_screen.proto\x1aItakasho/schema/lettuce_server/resource/analytics_log/immersive_play.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/mission_clear.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/pack_favorite.proto\x1aDtakasho/schema/lettuce_server/resource/analytics_log/pack_open.proto\x1aLtakasho/schema/lettuce_server/resource/analytics_log/pack_share_config.proto\"\x9b\x10\n" +
-	"\x12AnalyticsLogSendV1\x1a\x84\x10\n" +
-	"\x05Types\x1a\xee\x0f\n" +
+	"Dtakasho/schema/lettuce_server/player_api/analytics_log_send_v1.proto\x12(takasho.schema.lettuce_server.player_api\x1aItakasho/schema/lettuce_server/resource/analytics_log/asset_download.proto\x1aItakasho/schema/lettuce_server/resource/analytics_log/auto_deck_make.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/battle_config.proto\x1aJtakasho/schema/lettuce_server/resource/analytics_log/battle_tutorial.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/card_favorite.proto\x1aDtakasho/schema/lettuce_server/resource/analytics_log/card_wish.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/change_config.proto\x1a`takasho/schema/lettuce_server/resource/analytics_log/collection_board_favorite_from_client.proto\x1a_takasho/schema/lettuce_server/resource/analytics_log/collection_file_favorite_from_client.proto\x1aYtakasho/schema/lettuce_server/resource/analytics_log/collection_my_deck_from_client.proto\x1aKtakasho/schema/lettuce_server/resource/analytics_log/feature_tutorial.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/game_tutorial.proto\x1aItakasho/schema/lettuce_server/resource/analytics_log/goods_favorite.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/home_icon_tap.proto\x1aFtakasho/schema/lettuce_server/resource/analytics_log/home_screen.proto\x1aItakasho/schema/lettuce_server/resource/analytics_log/immersive_play.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/mission_clear.proto\x1aHtakasho/schema/lettuce_server/resource/analytics_log/pack_favorite.proto\x1aDtakasho/schema/lettuce_server/resource/analytics_log/pack_open.proto\x1aLtakasho/schema/lettuce_server/resource/analytics_log/pack_share_config.proto\"\x8c\x12\n" +
+	"\x12AnalyticsLogSendV1\x1a\xf5\x11\n" +
+	"\x05Types\x1a\xdf\x11\n" +
 	"\aRequest\x12i\n" +
 	"\rbattle_config\x18\x01 \x01(\v2B.takasho.schema.lettuce_server.resource.analytics_log.BattleConfigH\x00R\fbattleConfig\x12c\n" +
 	"\vhome_screen\x18\x02 \x01(\v2@.takasho.schema.lettuce_server.resource.analytics_log.HomeScreenH\x00R\n" +
@@ -497,7 +529,9 @@ const file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_
 	"\x0eauto_deck_make\x18\x0f \x01(\v2B.takasho.schema.lettuce_server.resource.analytics_log.AutoDeckMakeH\x00R\fautoDeckMake\x12i\n" +
 	"\rpack_favorite\x18\x10 \x01(\v2B.takasho.schema.lettuce_server.resource.analytics_log.PackFavoriteH\x00R\fpackFavorite\x12l\n" +
 	"\x0egoods_favorite\x18\x11 \x01(\v2C.takasho.schema.lettuce_server.resource.analytics_log.GoodsFavoriteH\x00R\rgoodsFavorite\x12]\n" +
-	"\tpack_open\x18\x12 \x01(\v2>.takasho.schema.lettuce_server.resource.analytics_log.PackOpenH\x00R\bpackOpenB\x06\n" +
+	"\tpack_open\x18\x12 \x01(\v2>.takasho.schema.lettuce_server.resource.analytics_log.PackOpenH\x00R\bpackOpen\x12\x80\x01\n" +
+	"\x12collection_my_deck\x18\x13 \x01(\v2P.takasho.schema.lettuce_server.resource.analytics_log.CollectionMyDeckFromClientH\x00R\x10collectionMyDeck\x12l\n" +
+	"\x0easset_download\x18\x14 \x01(\v2C.takasho.schema.lettuce_server.resource.analytics_log.AssetDownloadH\x00R\rassetDownloadB\x06\n" +
 	"\x04body\x1a\n" +
 	"\n" +
 	"\bResponseBoZmgithub.com/Layen-lang/PTCGP-Private-Server/internal/proto/takasho/schema/lettuce_server/player_api;player_apib\x06proto3"
@@ -538,6 +572,8 @@ var file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_go
 	(*analytics_log.PackFavorite)(nil),                      // 19: takasho.schema.lettuce_server.resource.analytics_log.PackFavorite
 	(*analytics_log.GoodsFavorite)(nil),                     // 20: takasho.schema.lettuce_server.resource.analytics_log.GoodsFavorite
 	(*analytics_log.PackOpen)(nil),                          // 21: takasho.schema.lettuce_server.resource.analytics_log.PackOpen
+	(*analytics_log.CollectionMyDeckFromClient)(nil),        // 22: takasho.schema.lettuce_server.resource.analytics_log.CollectionMyDeckFromClient
+	(*analytics_log.AssetDownload)(nil),                     // 23: takasho.schema.lettuce_server.resource.analytics_log.AssetDownload
 }
 var file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_depIdxs = []int32{
 	4,  // 0: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.battle_config:type_name -> takasho.schema.lettuce_server.resource.analytics_log.BattleConfig
@@ -558,11 +594,13 @@ var file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_de
 	19, // 15: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.pack_favorite:type_name -> takasho.schema.lettuce_server.resource.analytics_log.PackFavorite
 	20, // 16: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.goods_favorite:type_name -> takasho.schema.lettuce_server.resource.analytics_log.GoodsFavorite
 	21, // 17: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.pack_open:type_name -> takasho.schema.lettuce_server.resource.analytics_log.PackOpen
-	18, // [18:18] is the sub-list for method output_type
-	18, // [18:18] is the sub-list for method input_type
-	18, // [18:18] is the sub-list for extension type_name
-	18, // [18:18] is the sub-list for extension extendee
-	0,  // [0:18] is the sub-list for field type_name
+	22, // 18: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.collection_my_deck:type_name -> takasho.schema.lettuce_server.resource.analytics_log.CollectionMyDeckFromClient
+	23, // 19: takasho.schema.lettuce_server.player_api.AnalyticsLogSendV1.Types.Request.asset_download:type_name -> takasho.schema.lettuce_server.resource.analytics_log.AssetDownload
+	20, // [20:20] is the sub-list for method output_type
+	20, // [20:20] is the sub-list for method input_type
+	20, // [20:20] is the sub-list for extension type_name
+	20, // [20:20] is the sub-list for extension extendee
+	0,  // [0:20] is the sub-list for field type_name
 }
 
 func init() { file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_init() }
@@ -589,6 +627,8 @@ func file_takasho_schema_lettuce_server_player_api_analytics_log_send_v1_proto_i
 		(*AnalyticsLogSendV1_Types_Request_PackFavorite)(nil),
 		(*AnalyticsLogSendV1_Types_Request_GoodsFavorite)(nil),
 		(*AnalyticsLogSendV1_Types_Request_PackOpen)(nil),
+		(*AnalyticsLogSendV1_Types_Request_CollectionMyDeck)(nil),
+		(*AnalyticsLogSendV1_Types_Request_AssetDownload)(nil),
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
