@@ -178,17 +178,15 @@ ADB; an unavailable device's restoration remains pending until it reconnects.
 
 ```text
 PTCGP-Private-Server/
+├── ptcgp-private-server.exe
 ├── bin/
-│   ├── ptcgp-launcher.exe
-│   ├── ptcgp-server.exe
-│   ├── ptcgp-importer.exe
-│   ├── ptcgp-reader-x86_64
-│   └── ptcgp-reader-aarch64
+│   └── ptcgp-server.exe
 ├── docs/
 ├── profiles/
-├── server.json
-└── start-server.cmd
+└── server.json
 ```
+
+Launch `ptcgp-private-server.exe`.
 
 Do not copy certificates from another installation. The launcher creates a
 unique local certificate authority on first use.
@@ -198,7 +196,7 @@ unique local certificate authority on first use.
 1. Start the emulator or connect the rooted phone over USB or Wi-Fi ADB, and
    wait for Android to finish booting.
 2. Close the game if it is already running.
-3. Double-click `start-server.cmd`.
+3. Double-click `ptcgp-private-server.exe`.
 4. Your browser should open <http://127.0.0.1:8080>. If it does not, open that
    address yourself.
 5. Wait for preparation to import the installed game's data and all nine languages.
@@ -234,7 +232,7 @@ ADB transports that refer to the same Android instance are treated as one device
 You can test a serial before saving it with a one-off status command:
 
 ```bat
-start-server.cmd status -Serial 127.0.0.1:5555
+ptcgp-private-server.exe status -Serial 127.0.0.1:5555
 ```
 
 ## Run from source
@@ -252,18 +250,17 @@ Then run:
 git clone https://github.com/Layen-lang/PTCGP-Private-Server.git
 cd PTCGP-Private-Server\web
 npm ci
+npm run build
 cd ..
-.\start-server.cmd
+rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
+powershell -ExecutionPolicy Bypass -File desktop/build.ps1
+.\ptcgp-private-server.exe
 ```
 
-`start-server.cmd` also builds the Rust importer and both Android readers when
-their sources change or an executable is missing. Install Rust and its
-`x86_64-unknown-linux-musl` and `aarch64-unknown-linux-musl` targets beforehand.
-You can still build these tools separately with `./native/build.ps1`.
-
-The launcher rebuilds the frontend or Go executables when their source files
-are newer than the generated output. For the full manual build and validation
-workflow, see [Development](DEVELOPMENT.md).
+`desktop/build.ps1` builds `bin\ptcgp-server.exe` and `ptcgp-private-server.exe`
+(with the Android readers compiled in). Run it again after changing the
+sources. For the full manual build and validation workflow, see
+[Development](DEVELOPMENT.md).
 
 ## Updating
 
@@ -283,7 +280,7 @@ migration from an older distribution.
 2. Select each device in the panel, select **Official**, and wait for its
    restoration to complete.
 3. Confirm each device's routing, certificate, and native-library states are
-   official. For a command-line check, use `start-server.cmd status -Serial <serial>`.
+   official. For a command-line check, use `ptcgp-private-server.exe status -Serial <serial>`.
 4. Select **Stop all**.
 5. Delete the extracted project folder.
 

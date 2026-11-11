@@ -201,7 +201,7 @@ func Apply(root, key string, parent int) (result error) {
 }
 
 func startPanel(root, program string, cfg configuration.Config) (*exec.Cmd, error) {
-	cmd := exec.Command(filepath.Join(program, "bin", "ptcgp-launcher.exe"), "serve-panel", "--config", filepath.Join(root, "server.json"), "--project-root", root)
+	cmd := exec.Command(filepath.Join(program, "bin", "ptcgp-server.exe"), "serve-panel", "--config", filepath.Join(root, "server.json"), "--project-root", root)
 	cmd.Dir = root
 	if err := os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
 		return cmd, err
@@ -294,7 +294,7 @@ func FollowInstalled(args []string) (bool, error) {
 	if e != nil {
 		return false, e
 	}
-	target := filepath.Join(program, "bin", "ptcgp-launcher.exe")
+	target := filepath.Join(program, "bin", "ptcgp-server.exe")
 	if strings.EqualFold(filepath.Clean(exe), filepath.Clean(target)) {
 		return false, nil
 	}

@@ -46,7 +46,9 @@ type Manager struct {
 }
 
 func New(cfg configuration.Config, root, program string) *Manager {
-	return &Manager{cfg: cfg, root: root, program: program, state: State{Phase: "checking", Message: "Vérification de l’installation"}}
+	// "restoring" is the start-up check of an existing installation; a real
+	// preparation starts with "checking".
+	return &Manager{cfg: cfg, root: root, program: program, state: State{Phase: "restoring", Message: "Chargement des données", Busy: true}}
 }
 func (m *Manager) Status() State { m.mu.RLock(); defer m.mu.RUnlock(); return m.state }
 
@@ -218,6 +220,46 @@ func fileHash(path string) (fileRecord, error) {
 	}
 	return fileRecord{hex.EncodeToString(h.Sum(nil)), info.Size(), info.ModTime().UnixNano()}, nil
 }
+
+// firstInvalidFile checks a generation's files concurrently. Thousands of
+// metadata lookups dominate startup on Windows, where they parallelize well.
+// It returns an invalid relative path, or "" when every file is valid.
+func firstInvalidFile(base string, files map[string]fileRecord) string {
+	type job struct {
+		rel  string
+		want fileRecord
+	}
+	jobs := make(chan job)
+	var invalid string
+	var once sync.Once
+	stop := make(chan struct{})
+	var wg sync.WaitGroup
+	workers := min(max(runtime.NumCPU(), 4), 16)
+	for range workers {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for j := range jobs {
+				p, e := safePath(base, j.rel)
+				if e != nil || !validFile(p, j.want) {
+					once.Do(func() { invalid = j.rel; close(stop) })
+				}
+			}
+		}()
+	}
+feed:
+	for rel, want := range files {
+		select {
+		case jobs <- job{rel, want}:
+		case <-stop:
+			break feed
+		}
+	}
+	close(jobs)
+	wg.Wait()
+	return invalid
+}
+
 func validFile(path string, want fileRecord) bool {
 	info, err := os.Lstat(path)
 	if err != nil || !info.Mode().IsRegular() || info.Size() != want.Size {
@@ -285,11 +327,8 @@ func Resolve(cfg configuration.Config, program string) (configuration.Config, er
 	if len(r.Files) == 0 {
 		return cfg, fmt.Errorf("empty data generation")
 	}
-	for rel, want := range r.Files {
-		p, e := safePath(filepath.Join(root, key), rel)
-		if e != nil || !validFile(p, want) {
-			return cfg, fmt.Errorf("data file needs repair: %s", rel)
-		}
+	if rel := firstInvalidFile(filepath.Join(root, key), r.Files); rel != "" {
+		return cfg, fmt.Errorf("data file needs repair: %s", rel)
 	}
 	cfg.Data.MasterData = filepath.Join(root, key, "master", "output")
 	cfg.Data.Images = filepath.Join(root, key, "images", "images")
@@ -473,10 +512,12 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 	if err = WriteJSON(filepath.Join(stage, "config.json"), cfg); err != nil {
 		return cfg, err
 	}
-	reader := filepath.Join(m.program, "bin", "ptcgp-reader-"+source.ABI)
-	if _, err = os.Stat(reader); err != nil {
-		return cfg, fmt.Errorf("reader for %s is unavailable: %w", source.ABI, err)
+	importer, err := importerExecutable(m.root)
+	if err != nil {
+		return cfg, err
 	}
+	// The desktop application carries both readers and streams them to the device.
+	reader := "embedded:" + source.ABI
 	apks, _ := json.Marshal(source.APKs)
 	useSU := "0"
 	if source.UseSU {
@@ -498,7 +539,7 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 			continue
 		}
 		m.set(job, map[string]string{"master": "Extraction des données et des neuf langues", "images": "Création des images"}[job])
-		cmd := exec.CommandContext(ctx, filepath.Join(m.program, "bin", "ptcgp-importer.exe"), job, filepath.Join(stage, "plan.json"), filepath.Join(stage, "config.json"), filepath.Join(stage, job), reader, strconv.Itoa(workers))
+		cmd := exec.CommandContext(ctx, importer, append([]string{"import"}, job, filepath.Join(stage, "plan.json"), filepath.Join(stage, "config.json"), filepath.Join(stage, job), reader, strconv.Itoa(workers))...)
 		hideWindow(cmd)
 		cmd.Env = env
 		cmd.WaitDelay = 3 * time.Second
@@ -707,6 +748,24 @@ func cleanupGeneration(directory string) error {
 		}
 	}
 	return nil
+}
+
+// DesktopExecutable is the desktop application's file name. It contains the
+// data importer and the Android readers.
+const DesktopExecutable = "ptcgp-private-server.exe"
+
+// importerExecutable returns the desktop application, which runs the data
+// importer in its "import" role.
+func importerExecutable(root string) (string, error) {
+	for _, candidate := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(root, DesktopExecutable)} {
+		if candidate == "" {
+			continue
+		}
+		if info, err := os.Stat(candidate); err == nil && info.Mode().IsRegular() {
+			return candidate, nil
+		}
+	}
+	return "", fmt.Errorf("%s is required to prepare game data", DesktopExecutable)
 }
 
 func cleanupReader(source android.Source, pid int) {

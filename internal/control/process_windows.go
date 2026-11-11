@@ -34,6 +34,25 @@ func startDetached(cmd *exec.Cmd) error {
 	return err
 }
 
+var allowSetForegroundWindow = windows.NewLazySystemDLL("user32.dll").NewProc("AllowSetForegroundWindow")
+
+const asfwAny = ^uint32(0)
+
+// startWindowed starts an application that shows a window. Unlike
+// startDetached it must not request a hidden window: Windows applies that
+// startup state to the application's first window.
+func startWindowed(cmd *exec.Cmd) error {
+	// Let the application bring an already open window to the front.
+	_, _, _ = allowSetForegroundWindow.Call(uintptr(asfwAny))
+	cmd.SysProcAttr = &syscall.SysProcAttr{CreationFlags: windows.CREATE_NEW_PROCESS_GROUP | windows.CREATE_BREAKAWAY_FROM_JOB}
+	err := cmd.Start()
+	if errors.Is(err, windows.ERROR_ACCESS_DENIED) {
+		cmd.SysProcAttr.CreationFlags &^= windows.CREATE_BREAKAWAY_FROM_JOB
+		return cmd.Start()
+	}
+	return err
+}
+
 func processMatches(pid int, executable string) bool {
 	handle, err := windows.OpenProcess(windows.PROCESS_QUERY_LIMITED_INFORMATION, false, uint32(pid))
 	if err != nil {

@@ -89,8 +89,8 @@ how to disable it.
    [phone setup guide](docs/INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
 4. Open Command Prompt and check that `adb devices` lists the Android device as
    `device`.
-5. Double-click `start-server.cmd`. The control panel opens at
-   <http://127.0.0.1:8080>.
+5. Double-click `ptcgp-private-server.exe`. The control panel window opens.
+   The same panel stays available in a browser at <http://127.0.0.1:8080>.
 6. Let the panel import data from the installed game. Select a device if
    several are connected. The Accounts page opens when validation completes.
 

@@ -16,6 +16,8 @@ func detachProcess(cmd *exec.Cmd) { cmd.SysProcAttr = &syscall.SysProcAttr{Setsi
 
 func startDetached(cmd *exec.Cmd) error { detachProcess(cmd); return cmd.Start() }
 
+func startWindowed(cmd *exec.Cmd) error { return startDetached(cmd) }
+
 func processMatches(pid int, executable string) bool {
 	actual, err := os.Readlink("/proc/" + strconv.Itoa(pid) + "/exe")
 	return err == nil && filepath.Clean(actual) == filepath.Clean(executable)

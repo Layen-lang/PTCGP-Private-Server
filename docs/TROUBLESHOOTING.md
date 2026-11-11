@@ -3,7 +3,7 @@
 Start with the status command from the extracted project folder:
 
 ```bat
-start-server.cmd status
+ptcgp-private-server.exe status
 ```
 
 In Local mode, the server should be running, Android should be connected with
@@ -56,7 +56,7 @@ Use the exact serial from `adb devices` for the emulator you are diagnosing:
 ```bat
 adb -s 127.0.0.1:5555 shell su -c id
 adb -s 127.0.0.1:5555 reverse --list
-start-server.cmd status -Serial 127.0.0.1:5555
+ptcgp-private-server.exe status -Serial 127.0.0.1:5555
 ```
 
 If the device is offline, restart ADB:
@@ -114,7 +114,7 @@ restoring the TLS patch. It refuses unknown files intentionally.
 
 1. Keep the emulator connected.
 2. Select that emulator in the panel and select **Official**, or run
-   `start-server.cmd online -Serial <serial>`.
+   `ptcgp-private-server.exe online -Serial <serial>`.
 3. Confirm the installed game is a version supported by the current project
    release, as stated in the root [README](../README.md).
 4. Install a project release that supports that version, if one is available.
@@ -162,10 +162,10 @@ If Local mode failed halfway through:
 
 1. Leave the installation folder intact.
 2. Start the same emulator and verify ADB plus root.
-3. Run `start-server.cmd online -Serial <serial>` for the affected emulator.
-4. Run `start-server.cmd status -Serial <serial>` and confirm official routing,
+3. Run `ptcgp-private-server.exe online -Serial <serial>` for the affected emulator.
+4. Run `ptcgp-private-server.exe status -Serial <serial>` and confirm official routing,
    certificate, and native-library states.
-5. Run `start-server.cmd stop` when restoration is complete. This restores and
+5. Run `ptcgp-private-server.exe stop` when restoration is complete. This restores and
    stops all managed emulators' servers, then closes the panel.
 
 If restoration still fails, keep the exact installation and its runtime state,

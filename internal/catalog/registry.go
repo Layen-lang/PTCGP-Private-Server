@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"sort"
 	"strings"
+	"sync"
 )
 
 // Registry owns the immutable catalog adapters available to presentation
@@ -21,20 +22,34 @@ func OpenRegistry(root, defaultLocale string, locales ...string) (*Registry, err
 		defaultLocale = DefaultLocale
 	}
 	requested := append([]string{defaultLocale}, locales...)
-	catalogs := make(map[string]*Catalog, len(requested))
+	unique := make([]string, 0, len(requested))
+	seen := make(map[string]bool, len(requested))
 	for _, locale := range requested {
 		locale = strings.TrimSpace(locale)
-		if locale == "" {
+		if locale == "" || seen[locale] {
 			continue
 		}
-		if _, exists := catalogs[locale]; exists {
-			continue
+		seen[locale] = true
+		unique = append(unique, locale)
+	}
+	// Locales are independent and immutable: decode them concurrently.
+	loaded := make([]*Catalog, len(unique))
+	errs := make([]error, len(unique))
+	var wg sync.WaitGroup
+	for i, locale := range unique {
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			loaded[i], errs[i] = OpenLocale(root, locale, FallbackLocale)
+		}()
+	}
+	wg.Wait()
+	catalogs := make(map[string]*Catalog, len(unique))
+	for i, locale := range unique {
+		if errs[i] != nil {
+			return nil, fmt.Errorf("load catalog locale %s: %w", locale, errs[i])
 		}
-		loaded, err := OpenLocale(root, locale, FallbackLocale)
-		if err != nil {
-			return nil, fmt.Errorf("load catalog locale %s: %w", locale, err)
-		}
-		catalogs[locale] = loaded
+		catalogs[locale] = loaded[i]
 	}
 	if catalogs[defaultLocale] == nil {
 		return nil, fmt.Errorf("default catalog locale %s is unavailable", defaultLocale)

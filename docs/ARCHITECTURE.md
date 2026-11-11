@@ -27,10 +27,11 @@ selected device's administration endpoint.
 
 | Component | Entry point | Default address | Responsibility |
 | --- | --- | --- | --- |
-| CLI controller | `start-server.cmd` / `ptcgp-launcher.exe` | none | Run one action, manage processes, and report status |
-| Control panel | `ptcgp-launcher.exe serve-panel` | `127.0.0.1:8080` | Serve the React UI and coordinate Android actions |
-| Private server | `ptcgp-server.exe serve`, one per active device | First: `127.0.0.1:443`; others: allocated loopback ports | Serve local HTTPS, REST, and gRPC game endpoints |
-| Admin API | each private server | First: `127.0.0.1:8081`; others: allocated loopback ports | Administration and per-device live traffic |
+| Desktop app | `ptcgp-private-server.exe` | none | Native interface; data importer and Android readers |
+| Control panel | `ptcgp-server.exe serve-panel` | `127.0.0.1:8080` | Panel API, Wi-Fi React UI, Android actions, and hosting of every game server |
+| Game server | inside the control panel, one per active device | First: `127.0.0.1:443`; others: allocated loopback ports | Serve local HTTPS, REST, and gRPC game endpoints |
+| Admin API | each game server | First: `127.0.0.1:8081`; others: allocated loopback ports | Administration and per-device live traffic |
+| CLI | `ptcgp-server.exe <action>` | none | Run one action through the running panel |
 
 The panel proxies administration requests so the browser only needs the
 launcher address. Mutating control actions require the panel's same-origin CSRF
@@ -45,8 +46,9 @@ shared; game credentials and sessions are scoped to an emulator.
 
 | Path | Role |
 | --- | --- |
-| `cmd/ptcgp-launcher` | CLI, panel process, browser launch, and Windows tray |
-| `cmd/ptcgp-server` | Game-facing server command |
+| `cmd/ptcgp-server` | Single backend: panel, CLI, Windows tray, and server subcommands |
+| `internal/servercmd` | Game-facing server command, hosted in the panel process |
+| `desktop` | Native desktop app (Rust, GPUI); see [Desktop application](DESKTOP.md) |
 | `cmd/ptcgp-release` | Signed update manifest creation during publication |
 | `internal/control` | Per-device process lifecycle, selection, status, Android routing, and recovery |
 | `internal/android` | Device discovery and installed-game compatibility checks |

@@ -66,3 +66,5 @@ Desktop.ini
 # Locally imported data and native build products
 /game-data/
 /native/**/target/
+/desktop/target/
+/ptcgp-private-server.exe

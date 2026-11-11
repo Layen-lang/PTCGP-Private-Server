@@ -211,37 +211,6 @@ func emulatorRuntimeDirectory(root, serial string) string {
 	return filepath.Join(root, "emulators", hash[:16])
 }
 
-// stopServersForBuild prevents sibling emulator processes from keeping a Windows
-// server executable locked while the source launcher replaces it.
-func (r *NativeRunner) stopServersForBuild() error {
-	data, err := os.ReadFile(filepath.Join(r.cfg.Runtime.RuntimeDirectory, "emulators.json"))
-	if errors.Is(err, os.ErrNotExist) {
-		return r.stopProcess("server", r.server)
-	}
-	if err != nil {
-		return err
-	}
-	var entries []emulatorRuntime
-	if err := json.Unmarshal(data, &entries); err != nil {
-		return err
-	}
-	var failures []error
-	for _, entry := range entries {
-		if entry.Serial == "" {
-			return fmt.Errorf("invalid saved emulator runtime")
-		}
-		cfg := r.cfg
-		if !entry.Legacy {
-			cfg.Runtime.RuntimeDirectory = emulatorRuntimeDirectory(cfg.Runtime.RuntimeDirectory, entry.Serial)
-		}
-		device := &NativeRunner{cfg: cfg, isolated: true}
-		if err := device.stopProcess("server", r.server); err != nil {
-			failures = append(failures, err)
-		}
-	}
-	return errors.Join(failures...)
-}
-
 // Routing is an immutable request snapshot, available while an action is busy.
 func (m *MultiRunner) Routing() (string, string) {
 	m.routingMu.RLock()

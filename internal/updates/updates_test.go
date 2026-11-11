@@ -31,7 +31,7 @@ func signed(t *testing.T, m Manifest) ([]byte, string) {
 }
 func fixtureManifest(base string) Manifest {
 	m := Manifest{Version: "1.7.2.1", Games: []string{"1.7.2"}}
-	for _, p := range []string{"server.json", "VERSION", "bin/ptcgp-launcher.exe", "bin/ptcgp-server.exe", "bin/ptcgp-importer.exe", "bin/ptcgp-reader-x86_64", "bin/ptcgp-reader-aarch64"} {
+	for _, p := range []string{"server.json", "VERSION", "bin/ptcgp-server.exe"} {
 		m.Files = append(m.Files, File{Path: p, URL: base + "/file", SHA256: hash([]byte("payload")), Size: 7})
 	}
 	for _, p := range []string{"profiles/images-1.7.2.json", "profiles/image-index-1.7.2.json"} {

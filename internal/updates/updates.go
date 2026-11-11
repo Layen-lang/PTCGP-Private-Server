@@ -166,7 +166,7 @@ func Verify(data []byte, public string) (Manifest, error) {
 	if total > 1<<30 {
 		return manifest, fmt.Errorf("update exceeds size limit")
 	}
-	for _, required := range []string{"server.json", "VERSION", "bin/ptcgp-launcher.exe", "bin/ptcgp-server.exe", "bin/ptcgp-importer.exe", "bin/ptcgp-reader-x86_64", "bin/ptcgp-reader-aarch64"} {
+	for _, required := range []string{"server.json", "VERSION", "bin/ptcgp-server.exe"} {
 		if !seen[strings.ToLower(required)] {
 			return manifest, fmt.Errorf("update missing %s", required)
 		}

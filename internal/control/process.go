@@ -26,6 +26,12 @@ func managedPID(pidFile, executable string) int {
 }
 
 func (r *NativeRunner) processPID(name, executable string) int {
+	if r.hosts(name) {
+		if r.hostedRunning(name) {
+			return os.Getpid()
+		}
+		return 0
+	}
 	if !r.isolated {
 		return managedPID(r.pidFile(name), executable)
 	}
@@ -42,6 +48,9 @@ func (r *NativeRunner) processPID(name, executable string) int {
 }
 
 func (r *NativeRunner) stopProcess(name, executable string) error {
+	if r.hosts(name) {
+		return r.stopHosted(name)
+	}
 	pid := r.processPID(name, executable)
 	if pid == 0 {
 		return nil
@@ -68,6 +77,9 @@ func (r *NativeRunner) stopProcess(name, executable string) error {
 }
 
 func (r *NativeRunner) startProcess(ctx context.Context, name, executable, address string, args ...string) error {
+	if r.hosts(name) {
+		return r.startHosted(ctx, name, address, args)
+	}
 	if r.processPID(name, executable) != 0 {
 		return nil
 	}

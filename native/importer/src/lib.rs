@@ -1,3 +1,4 @@
+//! Game data importer, also embedded in the desktop executable.
 #![allow(dead_code)]
 use anyhow::{ensure, Result};
 use std::{fs, path::Path};
@@ -21,8 +22,33 @@ mod support {
         }
     }
 }
-fn run() -> Result<()> {
-    let a: Vec<String> = std::env::args().collect();
+static EMBEDDED_READERS: std::sync::OnceLock<[(&'static str, &'static [u8]); 2]> = std::sync::OnceLock::new();
+
+/// Registers Android readers compiled into the host executable. A reader
+/// argument of `embedded:<abi>` then refers to them and they are streamed to
+/// the device without being written on the computer.
+pub fn set_embedded_readers(x86_64: &'static [u8], aarch64: &'static [u8]) {
+    let _ = EMBEDDED_READERS.set([("x86_64", x86_64), ("aarch64", aarch64)]);
+}
+
+pub(crate) fn embedded_reader(spec: &std::path::Path) -> Option<&'static [u8]> {
+    let abi = spec.to_str()?.strip_prefix("embedded:")?;
+    EMBEDDED_READERS.get()?.iter().find(|(name, bytes)| *name == abi && !bytes.is_empty()).map(|(_, bytes)| *bytes)
+}
+
+pub(crate) fn reader_size(spec: &std::path::Path) -> Result<u64> {
+    match embedded_reader(spec) {
+        Some(bytes) => Ok(bytes.len() as u64),
+        None => Ok(fs::metadata(spec)?.len()),
+    }
+}
+
+/// Runs the importer with the process arguments.
+pub fn run() -> Result<()> { run_with(std::env::args().collect()) }
+
+/// Runs the importer; `a[0]` is the program name, then
+/// `<images|master> PLAN CONFIG OUTPUT READER WORKERS`.
+pub fn run_with(a: Vec<String>) -> Result<()> {
     ensure!(
         a.len() == 7,
         "usage: ptcgp-importer <images|master> PLAN CONFIG OUTPUT READER WORKERS"
@@ -83,10 +109,4 @@ fn run() -> Result<()> {
     }
     println!("{}", serde_json::json!({"phase":"complete"}));
     Ok(())
-}
-fn main() {
-    if let Err(e) = run() {
-        eprintln!("{e:#}");
-        std::process::exit(1)
-    }
 }

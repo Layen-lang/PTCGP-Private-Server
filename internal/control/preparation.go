@@ -40,6 +40,36 @@ func (h *Handler) StartPreparation(serial string) bool {
 	return true
 }
 
+// StartRestore activates an existing data generation after the panel already
+// listens, so startup is not blocked by file validation and catalog loading.
+// It is serialized like a preparation; when restore reports no usable
+// generation, a fresh preparation starts automatically.
+func (h *Handler) StartRestore(restore func() bool) bool {
+	h.preparationMu.Lock()
+	defer h.preparationMu.Unlock()
+	if h.preparationClosed || !h.tryStartOperation("prepare") {
+		return false
+	}
+	done := make(chan struct{})
+	h.preparationDone = done
+	go func() {
+		defer close(done)
+		h.runnerMu.Lock()
+		ready := restore()
+		h.runnerMu.Unlock()
+		h.finishOperation()
+		if !ready {
+			h.preparationMu.Lock()
+			if h.preparationDone == done {
+				h.preparationDone = nil
+			}
+			h.preparationMu.Unlock()
+			h.StartPreparation("")
+		}
+	}()
+	return true
+}
+
 // ClosePreparation cancels import work and waits before its database is closed.
 func (h *Handler) ClosePreparation() {
 	h.preparationMu.Lock()

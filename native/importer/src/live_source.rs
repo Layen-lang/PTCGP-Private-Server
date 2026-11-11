@@ -123,12 +123,63 @@ impl Drop for RemoteFiles {
     }
 }
 fn push(local: &Path, remote: &str) -> Result<()> {
+    if let Some(bytes) = crate::embedded_reader(local) {
+        return sync_push(bytes, remote, 0o700);
+    }
     let r = adb_process()
         .args(["-s", &serial(), "push"])
         .arg(local)
         .arg(remote)
         .output()?;
     ensure!(r.status.success(), "push reader manifest failed");
+    Ok(())
+}
+/// Pushes bytes through the ADB server's sync protocol, the one `adb push`
+/// uses, without a local file. `adb exec-in` and `adb shell` stdin streams
+/// truncate binaries on some emulators.
+fn sync_push(bytes: &[u8], remote: &str, mode: u32) -> Result<()> {
+    use std::io::{Read, Write};
+    use std::net::TcpStream;
+    let port: u16 = std::env::var("ANDROID_ADB_SERVER_PORT").ok().and_then(|p| p.parse().ok()).unwrap_or(5037);
+    let mut stream = TcpStream::connect(("127.0.0.1", port)).context("connect to the ADB server")?;
+    fn request(stream: &mut TcpStream, service: &str) -> Result<()> {
+        stream.write_all(format!("{:04x}{service}", service.len()).as_bytes())?;
+        let mut status = [0u8; 4];
+        stream.read_exact(&mut status)?;
+        if &status != b"OKAY" {
+            let mut len = [0u8; 4];
+            stream.read_exact(&mut len)?;
+            let mut message = vec![0u8; usize::from_str_radix(std::str::from_utf8(&len)?, 16)?];
+            stream.read_exact(&mut message)?;
+            bail!("ADB {service}: {}", String::from_utf8_lossy(&message));
+        }
+        Ok(())
+    }
+    request(&mut stream, &format!("host:transport:{}", serial()))?;
+    request(&mut stream, "sync:")?;
+    let header = format!("{remote},{}", 0o100000 | mode);
+    let mut packet = b"SEND".to_vec();
+    packet.extend_from_slice(&(header.len() as u32).to_le_bytes());
+    packet.extend_from_slice(header.as_bytes());
+    stream.write_all(&packet)?;
+    for chunk in bytes.chunks(64 * 1024) {
+        let mut data = b"DATA".to_vec();
+        data.extend_from_slice(&(chunk.len() as u32).to_le_bytes());
+        data.extend_from_slice(chunk);
+        stream.write_all(&data)?;
+    }
+    let now = std::time::SystemTime::now().duration_since(std::time::UNIX_EPOCH)?.as_secs() as u32;
+    let mut done = b"DONE".to_vec();
+    done.extend_from_slice(&now.to_le_bytes());
+    stream.write_all(&done)?;
+    let mut reply = [0u8; 8];
+    stream.read_exact(&mut reply)?;
+    if &reply[..4] != b"OKAY" {
+        let mut message = vec![0u8; u32::from_le_bytes(reply[4..8].try_into()?) as usize];
+        stream.read_exact(&mut message)?;
+        bail!("push reader failed: {}", String::from_utf8_lossy(&message));
+    }
+    let _ = stream.write_all(b"QUIT\0\0\0\0");
     Ok(())
 }
 fn resource_root(_index: &str) -> Result<String> {
@@ -434,7 +485,7 @@ pub fn stream_run(args: &[String]) -> Result<()> {
         readers.iter().map(|r| r.0).sum::<usize>() == plan.blobs.len(),
         "missing streamed blobs"
     );
-    let report = serde_json::json!({"total_seconds":start.elapsed().as_secs_f64(),"preparation_seconds":preparation,"control_seconds":control_seconds,"first_png_seconds":preparation+processing["first_png_seconds"].as_f64().unwrap_or(0.),"processing":processing,"readers":readers,"transfer_streams":streams,"reader_workers_per_stream":reader_workers,"transferred_bytes":control_bytes+readers.iter().map(|r|r.1).sum::<usize>(),"reader_binary_bytes":fs::metadata(reader)?.len(),"live_device":&serial(),"game_version":version,"source_root":source_root,"full_apk_copied":false,"python_runtime":false,"intermediate_files":0,"ready_images_queue_bound":32,"os_and_emulator_caches_flushed":false});
+    let report = serde_json::json!({"total_seconds":start.elapsed().as_secs_f64(),"preparation_seconds":preparation,"control_seconds":control_seconds,"first_png_seconds":preparation+processing["first_png_seconds"].as_f64().unwrap_or(0.),"processing":processing,"readers":readers,"transfer_streams":streams,"reader_workers_per_stream":reader_workers,"transferred_bytes":control_bytes+readers.iter().map(|r|r.1).sum::<usize>(),"reader_binary_bytes":crate::reader_size(reader)?,"live_device":&serial(),"game_version":version,"source_root":source_root,"full_apk_copied":false,"python_runtime":false,"intermediate_files":0,"ready_images_queue_bound":32,"os_and_emulator_caches_flushed":false});
     fs::write(
         output.join("stream-report.json"),
         serde_json::to_vec_pretty(&report)?,

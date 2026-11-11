@@ -131,7 +131,7 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if e != nil {
 				t.Fatal(e)
 			}
-			payloads := map[string][]byte{"server.json": published, "VERSION": []byte("1.7.2.1"), "bin/ptcgp-launcher.exe": binary, "bin/ptcgp-server.exe": []byte("server"), "bin/ptcgp-importer.exe": []byte("importer")}
+			payloads := map[string][]byte{"server.json": published, "VERSION": []byte("1.7.2.1"), "bin/ptcgp-server.exe": binary}
 			payloads["bin/ptcgp-reader-x86_64"] = []byte("reader-x86_64")
 			payloads["bin/ptcgp-reader-aarch64"] = []byte("reader-aarch64")
 			payloads["profiles/images-1.7.2.json"] = []byte("{}")
@@ -162,13 +162,10 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if e = os.MkdirAll(filepath.Join(root, "bin"), 0700); e != nil {
 				t.Fatal(e)
 			}
-			if e = Copy(exe, filepath.Join(root, "bin", "ptcgp-launcher.exe")); e != nil {
+			if e = Copy(exe, filepath.Join(root, "bin", "ptcgp-server.exe")); e != nil {
 				t.Fatal(e)
 			}
 			if e = os.WriteFile(filepath.Join(root, "VERSION"), []byte("1.7.2.0"), 0600); e != nil {
-				t.Fatal(e)
-			}
-			if e = os.WriteFile(filepath.Join(root, "bin", "ptcgp-server.exe"), []byte("previous server"), 0600); e != nil {
 				t.Fatal(e)
 			}
 			var previousSelection []byte
@@ -176,7 +173,7 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			if test.legacy {
 				oldKey := strings.Repeat("a", 64)
 				oldProgram = filepath.Join(root, "data", "updates", "versions", oldKey)
-				for _, path := range []string{"bin/ptcgp-launcher.exe", "server.json", "VERSION"} {
+				for _, path := range []string{"bin/ptcgp-server.exe", "server.json", "VERSION"} {
 					target := filepath.Join(oldProgram, filepath.FromSlash(path))
 					if e = os.MkdirAll(filepath.Dir(target), 0700); e != nil {
 						t.Fatal(e)
@@ -191,7 +188,7 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 				}
 			}
 			if test.detached {
-				parent := exec.Command(filepath.Join(oldProgram, "bin", "ptcgp-launcher.exe"), "request-update", root, key)
+				parent := exec.Command(filepath.Join(oldProgram, "bin", "ptcgp-server.exe"), "request-update", root, key)
 				if e = parent.Run(); e != nil {
 					t.Fatal(e)
 				}
@@ -289,17 +286,23 @@ func TestInstallerActivationAndRollback(t *testing.T) {
 			}
 			version, e := os.ReadFile(filepath.Join(root, "VERSION"))
 			wantVersion := "1.7.2.1"
-			wantServer := "server"
+			// The published server is the update's single backend binary.
+			wantServer := string(binary)
 			if fail {
 				wantVersion = "1.7.2.0"
-				wantServer = "previous server"
+				// Rollback restores the previous program, here the test binary.
+				previous, readErr := os.ReadFile(exe)
+				if readErr != nil {
+					t.Fatal(readErr)
+				}
+				wantServer = string(previous)
 			}
 			if e != nil || string(version) != wantVersion {
 				t.Fatalf("root version=%q, want %q: %v", version, wantVersion, e)
 			}
 			server, e := os.ReadFile(filepath.Join(root, "bin", "ptcgp-server.exe"))
 			if e != nil || string(server) != wantServer {
-				t.Fatalf("root server=%q, want %q: %v", server, wantServer, e)
+				t.Fatalf("root server has %d bytes, want %d: %v", len(server), len(wantServer), e)
 			}
 			_, e = os.Stat(filepath.Join(root, "profiles", "images-1.7.2.json"))
 			if fail && !os.IsNotExist(e) || !fail && e != nil {

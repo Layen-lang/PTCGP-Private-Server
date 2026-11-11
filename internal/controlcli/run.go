@@ -19,7 +19,7 @@ import (
 
 // Run manages the local panel, game server, and Android routing.
 func Run(args []string) error {
-	// Accept case-insensitive Windows-style flag names from start-server.cmd.
+	// Accept case-insensitive Windows-style flag names (-Serial, -Json…).
 	for i, arg := range args {
 		if strings.HasPrefix(arg, "-") && !strings.Contains(arg, "=") {
 			args[i] = strings.ToLower(arg)
@@ -33,7 +33,7 @@ func Run(args []string) error {
 	if len(args) > 0 && !strings.HasPrefix(args[0], "-") {
 		action, args = args[0], args[1:]
 	}
-	flags := flag.NewFlagSet("ptcgp-launcher "+action, flag.ContinueOnError)
+	flags := flag.NewFlagSet("ptcgp-server "+action, flag.ContinueOnError)
 	serial := flags.String("serial", os.Getenv("PTCGP_ADB_SERIAL"), "ADB serial (automatic when empty)")
 	packageName := flags.String("package", "", "Android package override")
 	noOpen := flags.Bool("noopen", false, "do not open the browser")
@@ -69,11 +69,6 @@ func Run(args []string) error {
 	runner.SetJournal(journal)
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Minute)
 	defer cancel()
-	if action == "ui" || action == "local" || action == "online" {
-		if err := runner.EnsureExecutables(ctx); err != nil {
-			return err
-		}
-	}
 	if action == "ui" {
 		return runner.StartPanel(ctx, !*noOpen)
 	}
@@ -81,6 +76,13 @@ func Run(args []string) error {
 		return runner.SetupAndroid(ctx, action)
 	}
 	var status control.Status
+	// A running panel hosts the game servers: act through it.
+	if panelStatus, ok, panelErr := panelAction(ctx, cfg.Runtime.LauncherAddress, action); ok {
+		if panelErr != nil {
+			return panelErr
+		}
+		return printStatus(panelStatus, *jsonOutput)
+	}
 	state, err := store.Open(ctx, cfg.Runtime.Database)
 	if err != nil {
 		return err
@@ -109,7 +111,11 @@ func Run(args []string) error {
 			return err
 		}
 	}
-	if *jsonOutput {
+	return printStatus(status, *jsonOutput)
+}
+
+func printStatus(status control.Status, jsonOutput bool) error {
+	if jsonOutput {
 		return json.NewEncoder(os.Stdout).Encode(status)
 	}
 	fmt.Printf("Serveur : %t\nAndroid : %t (%s)\nRoot : %t\nMode : %s\nRoutage : %s\nCertificats : %s\nBibliothèque TLS : %s\nJeu : %s\n", status.Server.Running, status.Android.Connected, status.Android.Serial, status.Android.Root, status.Mode, status.Android.Routing, status.Android.CA, status.Android.Native, status.Android.Game)

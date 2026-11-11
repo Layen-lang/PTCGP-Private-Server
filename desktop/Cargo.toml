@@ -1,0 +1,34 @@
+[package]
+name = "ptcgp-private-server"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "PTCGP Private Server desktop app (GPUI)."
+
+[[bin]]
+name = "ptcgp-private-server"
+path = "src/main.rs"
+
+[dependencies]
+gpui-kit = "0.9.0"
+gpui-pre-http-client = "=0.3.11"
+anyhow = "1"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+futures = "0.3"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = { version = "2.12", default-features = false, features = ["json"] }
+ptcgp-importer = { path = "../native/importer" }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.59", features = ["Win32_System_Console", "Win32_System_Threading", "Win32_Security", "Win32_UI_WindowsAndMessaging", "Win32_Foundation"] }
+
+[build-dependencies]
+winresource = "0.1"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+strip = true
+panic = "abort"

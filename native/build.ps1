@@ -1,11 +1,9 @@
-param([string]$OutputDirectory = (Join-Path $PSScriptRoot '../bin'))
-# Also invoked by the source launcher, using a temporary output directory.
+param([string]$OutputDirectory = (Join-Path $PSScriptRoot 'target/readers'))
+# Builds the two Android readers (static Linux binaries). The desktop app
+# compiles them in and streams them to emulators during data preparation.
 $ErrorActionPreference = 'Stop'
 $destination = [IO.Path]::GetFullPath($OutputDirectory)
 New-Item -ItemType Directory -Force -Path $destination | Out-Null
-cargo build --locked --release --manifest-path (Join-Path $PSScriptRoot 'importer/Cargo.toml')
-if ($LASTEXITCODE -ne 0) { throw 'Importer build failed' }
-Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'importer/target/release/ptcgp-importer.exe') -Destination $destination
 $sysroot = (rustc --print sysroot).Trim()
 $hostTriple = ((rustc -vV | Select-String '^host: ').ToString() -replace '^host: ', '').Trim()
 $linker = Join-Path $sysroot "lib/rustlib/$hostTriple/bin/rust-lld.exe"

@@ -1,234 +1,292 @@
-// Command ptcgp-server runs and prepares the local PTCGP endpoint.
+// Command ptcgp-server is the single PTCGP Private Server backend: the
+// persistent control panel (accounts, Android control, data preparation,
+// Wi-Fi web panel), every device's game server hosted in the same process,
+// the command-line actions, and the server maintenance subcommands.
 package main
 
 import (
 	"context"
-	"encoding/json"
 	"flag"
 	"fmt"
+	"io/fs"
 	"log/slog"
+	"net"
+	"net/http"
+	"net/url"
 	"os"
-	"os/signal"
 	"path/filepath"
-	"syscall"
+	"strconv"
+	"strings"
 	"time"
 
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/admin"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/assets"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/control"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/controlcli"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/localtls"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/packlab"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/server"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/servercmd"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
+	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
 func main() {
-	logger := slog.New(slog.NewTextHandler(os.Stderr, &slog.HandlerOptions{Level: slog.LevelInfo}))
-	if err := run(os.Args[1:], logger); err != nil {
-		logger.Error("command failed", "error", err)
-		os.Exit(1)
+	// Server maintenance subcommands (serve, cert, patch, verify…).
+	if _, rest, err := configuration.Arguments(append([]string(nil), os.Args[1:]...)); err == nil && len(rest) > 0 && servercmd.Commands[rest[0]] {
+		servercmd.Main()
+		return
+	}
+	if len(os.Args) == 5 && os.Args[1] == "apply-update" {
+		pid, err := strconv.Atoi(os.Args[4])
+		if err != nil {
+			fatal(err)
+		}
+		if err = updates.Apply(os.Args[2], os.Args[3], pid); err != nil {
+			fatal(err)
+		}
+		return
+	}
+	if followed, err := updates.FollowInstalled(os.Args[1:]); err != nil {
+		fatal(err)
+	} else if followed {
+		return
+	}
+	if len(os.Args) > 1 && os.Args[1] == "serve-panel" {
+		runPanel(os.Args[2:])
+		return
+	}
+	if err := controlcli.Run(os.Args[1:]); err != nil {
+		fatal(err)
 	}
 }
 
-func run(args []string, logger *slog.Logger) error {
-	path, args, err := configuration.Arguments(args)
+func runPanel(args []string) {
+	// Every device's game server runs inside this process.
+	control.HostServer = servercmd.Serve
+	defer control.StopHostedServers()
+	configPath, args, err := configuration.Arguments(args)
 	if err != nil {
-		return err
+		fatal(err)
 	}
-	cfg, err := configuration.Load(path)
+	cfg, err := configuration.Load(configPath)
 	if err != nil {
-		return err
+		fatal(err)
 	}
-	if len(args) == 0 {
-		return fmt.Errorf("usage: ptcgp-server <serve|cert|verify|patch|probe>")
+	flags := flag.NewFlagSet("ptcgp-server", flag.ExitOnError)
+	address := flags.String("address", cfg.Runtime.LauncherAddress, "control panel address")
+	backendAddress := flags.String("backend", "http://"+cfg.Runtime.AdminAddress, "private server administration URL")
+	projectRoot := flags.String("project-root", filepath.Dir(cfg.Path), "project directory")
+	flags.Parse(args)
+	backend, err := url.Parse(*backendAddress)
+	if err != nil {
+		fatal(err)
 	}
-	switch args[0] {
-	case "inspect-proto":
-		summary, err := contracts.InspectProto(contracts.DeclarationOrderV1)
-		if err != nil {
-			return err
-		}
-		return json.NewEncoder(os.Stdout).Encode(summary)
-	case "serve":
-		return runServe(args[1:], logger, cfg)
-	case "cert":
-		return runCert(args[1:], cfg)
-	case "verify":
-		program, err := installation.Program(filepath.Dir(cfg.Path))
-		if err != nil {
-			return err
-		}
-		cfg, err = provision.Resolve(cfg, program)
-		if err != nil {
-			return err
-		}
-		summary, err := contracts.VerifyProto(cfg.Contracts)
-		if err != nil {
-			return err
-		}
-		if _, err := catalog.Open(cfg.Data.MasterData); err != nil {
-			return err
-		}
-		if _, err := assets.Open(cfg.Data.Images); err != nil {
-			return err
-		}
-		fmt.Printf("Player API: %d services, %d RPC, %d files, descriptor SHA-256 %s\n", summary.Services, summary.Methods, summary.Files, summary.DescriptorSHA256)
-		return nil
-	case "config":
-		return json.NewEncoder(os.Stdout).Encode(cfg)
-	case "patch":
-		return runPatch(args[1:], cfg)
-	case "probe":
-		return runProbe(args[1:], cfg)
-	case "asset-probe":
-		return runAssetProbe(args[1:], cfg)
-	default:
-		return fmt.Errorf("unknown command %q", args[0])
+	frontend, err := admin.Frontend()
+	if err != nil {
+		fatal(err)
 	}
-}
+	trayIcon, err := fs.ReadFile(frontend, "app-icon.svg")
+	if err != nil {
+		fatal(err)
+	}
+	state, err := store.Open(context.Background(), cfg.Runtime.Database)
+	if err != nil {
+		fatal(err)
+	}
+	defer state.Close()
+	runner, err := control.NewMultiRunner(cfg, *projectRoot, state)
+	if err != nil {
+		fatal(err)
+	}
+	handler, err := control.New(frontend, backend, runner)
+	if err != nil {
+		fatal(err)
+	}
+	journal, err := control.NewJournal(cfg.Runtime.RuntimeDirectory)
+	if err != nil {
+		fatal(err)
+	}
+	runner.SetJournal(journal)
 
-func runPatch(args []string, cfg configuration.Config) error {
-	if len(args) == 0 {
-		return fmt.Errorf("usage: ptcgp-server patch <verify|apply|rollback> [flags]")
-	}
-	flags := flag.NewFlagSet("patch "+args[0], flag.ContinueOnError)
-	target := flags.String("target", "", "native library to inspect or modify")
-	backup := flags.String("backup", "", "backup path; defaults to TARGET.original")
-	if err := flags.Parse(args[1:]); err != nil {
-		return err
-	}
-	if *target == "" {
-		return fmt.Errorf("--target is required")
-	}
-	if *backup == "" {
-		*backup = *target + ".original"
-	}
-	manifest := cfg.Patch
-	switch args[0] {
-	case "verify":
-		state, err := binarypatch.Verify(*target, manifest)
-		if err != nil {
-			return err
-		}
-		fmt.Printf("%s: %s (%s)\n", *target, state, manifest.Version)
-		return nil
-	case "apply":
-		state, err := binarypatch.Apply(*target, *backup, manifest)
-		if err != nil {
-			return err
-		}
-		fmt.Printf("%s: %s; backup %s\n", *target, state, *backup)
-		return nil
-	case "rollback":
-		if err := binarypatch.Rollback(*target, *backup, manifest); err != nil {
-			return err
-		}
-		fmt.Printf("%s: restored from %s\n", *target, *backup)
-		return nil
-	default:
-		return fmt.Errorf("unknown patch action %q", args[0])
-	}
-}
-
-func runServe(args []string, logger *slog.Logger, cfg configuration.Config) error {
-	program, err := installation.Program(filepath.Dir(cfg.Path))
+	handler.SetAdministration(nil, journal, cfg.Android.Package, cfg.Android.Activity)
+	program, err := installation.Program(*projectRoot)
 	if err != nil {
-		return err
+		fatal(err)
 	}
-	cfg, err = provision.Resolve(cfg, program)
-	if err != nil {
-		return err
-	}
-	flags := flag.NewFlagSet("serve", flag.ContinueOnError)
-	address := flags.String("address", cfg.Runtime.Address, "TLS listen address")
-	adminAddress := flags.String("admin-address", cfg.Runtime.AdminAddress, "loopback administration address")
-	database := flags.String("database", cfg.Runtime.Database, "SQLite database")
-	certificate := flags.String("cert", cfg.Runtime.Certificate, "server certificate")
-	privateKey := flags.String("key", cfg.Runtime.PrivateKey, "server private key")
-	masterData := flags.String("master-data", cfg.Data.MasterData, "master-data directory")
-	imageData := flags.String("image-data", cfg.Data.Images, "read-only datamined image directory")
-	trafficLog := flags.String("traffic-log", cfg.Runtime.TrafficLog, "sanitized request/response JSONL log")
-	strict := flags.Bool("strict-metadata", cfg.Runtime.StrictMetadata, "require the configured Takasho metadata")
-	adbSerial := flags.String("adb-serial", cfg.Android.Serial, "Android ADB serial")
-	androidPackage := flags.String("android-package", cfg.Android.Package, "Android package")
-	androidActivity := flags.String("android-activity", cfg.Android.Activity, "Android activity")
-	if err := flags.Parse(args); err != nil {
-		return err
-	}
-	cfg.Android.Serial = *adbSerial
-	checkCtx, cancelCheck := context.WithTimeout(context.Background(), 30*time.Second)
-	_, checkErr := android.Inspect(checkCtx, android.SystemRunner(), cfg)
-	cancelCheck()
-	if checkErr != nil {
-		return checkErr
-	}
-	if _, err := contracts.VerifyProto(cfg.Contracts); err != nil {
-		return err
-	}
-	if err := os.MkdirAll(filepath.Dir(*database), 0o700); err != nil {
-		return fmt.Errorf("create database directory: %w", err)
-	}
-	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
-	defer stop()
-	return server.Run(ctx, server.Config{
-		Client: cfg.Client, Contracts: cfg.Contracts,
-		Address:         *address,
-		AdminAddress:    *adminAddress,
-		DatabasePath:    *database,
-		Certificate:     *certificate,
-		PrivateKey:      *privateKey,
-		MasterDataPath:  *masterData,
-		ImageDataPath:   *imageData,
-		TrafficLogPath:  *trafficLog,
-		StrictMetadata:  *strict,
-		ADBSerial:       *adbSerial,
-		AndroidPackage:  *androidPackage,
-		AndroidActivity: *androidActivity,
-	}, logger)
-}
-
-func runCert(args []string, cfg configuration.Config) error {
-	if len(args) == 0 {
-		return fmt.Errorf("usage: ptcgp-server cert <init|android-name>")
-	}
-	if args[0] == "android-name" {
-		flags := flag.NewFlagSet("cert android-name", flag.ContinueOnError)
-		ca := flags.String("ca", cfg.Runtime.CertificateAuthority, "CA certificate")
-		if err := flags.Parse(args[1:]); err != nil {
-			return err
-		}
-		name, err := localtls.AndroidSystemName(*ca)
+	preparation := provision.New(cfg, *projectRoot, program)
+	updater := updates.New(*projectRoot, program)
+	defer handler.ClosePreparation()
+	activatePrepared := func(prepared configuration.Config) error {
+		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
 		if err != nil {
 			return err
 		}
-		fmt.Println(name)
+		images, err := assets.Open(prepared.Data.Images)
+		if err != nil {
+			return err
+		}
+		master := catalogs.Default()
+		administration, err := admin.New(player.New(state, master), handler, slog.Default(), admin.WithCatalogVersion(prepared.Client.AppVersion), admin.WithCatalogs(catalogs), admin.WithPackLab(packlab.New(state, master)), admin.WithImages(images), admin.WithDeviceTrafficHistory(handler.TrafficHistory))
+		if err != nil {
+			return err
+		}
+		handler.SetAdministration(administration, journal, prepared.Android.Package, prepared.Android.Activity)
+		runner.SetPreparedConfig(prepared)
 		return nil
 	}
-	if args[0] != "init" && args[0] != "ensure" {
-		return fmt.Errorf("usage: ptcgp-server cert <init|ensure|android-name>")
-	}
-	flags := flag.NewFlagSet("cert init", flag.ContinueOnError)
-	directory := flags.String("directory", "", "optional output directory; defaults to configured certificate paths")
-	if err := flags.Parse(args[1:]); err != nil {
-		return err
-	}
-	var err error
-	if args[0] == "ensure" {
-		if *directory != "" {
-			return fmt.Errorf("cert ensure uses configured paths")
+	handler.SetPreparation(preparation, func(ctx context.Context, serial string) error {
+		prepared, err := preparation.Prepare(ctx, serial)
+		if err != nil {
+			return err
 		}
-		err = localtls.EnsureFiles(localtls.Paths{CA: cfg.Runtime.CertificateAuthority, CAKey: filepath.Join(filepath.Dir(cfg.Runtime.CertificateAuthority), "ca-key.pem"), Certificate: cfg.Runtime.Certificate, PrivateKey: cfg.Runtime.PrivateKey}, cfg.Android.RedirectHosts)
-	} else if *directory != "" {
-		err = localtls.Generate(*directory, cfg.Android.RedirectHosts)
+		if err := activatePrepared(prepared); err != nil {
+			return err
+		}
+		return provision.WriteJSON(filepath.Join(*projectRoot, "data", "device.json"), map[string]string{"serial": prepared.Android.Serial})
+	})
+	handler.SetUpdates(updater, func() error { return updates.StartInstaller(*projectRoot, updater.PreparedKey()) })
+	updateCtx, stopUpdates := context.WithCancel(context.Background())
+	defer stopUpdates()
+	if filepath.Clean(program) == filepath.Clean(*projectRoot) {
+		go updater.Cleanup(updateCtx)
+	}
+	go func() {
+		for {
+			currentConfig := cfg
+			if refreshed, e := configuration.Load(cfg.Path); e == nil {
+				currentConfig = refreshed
+			}
+			game := currentConfig.Client.AppVersion
+			installed, installedErr := android.InstalledVersion(updateCtx, android.SystemRunner(), currentConfig)
+			if installedErr == nil {
+				game = installed
+			}
+			updater.Check(updateCtx, game)
+			select {
+			case <-updateCtx.Done():
+				return
+			case <-time.After(6 * time.Hour):
+			}
+		}
+	}()
+
+	server := &http.Server{Addr: *address, Handler: handler, ReadHeaderTimeout: 10 * time.Second, IdleTimeout: 90 * time.Second}
+	shutdownRequested := make(chan struct{}, 1)
+	handler.SetShutdown(func() {
+		select {
+		case shutdownRequested <- struct{}{}:
+		default:
+		}
+	})
+	defer removeOwnedPID(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.pid"))
+	slog.Info("control panel available", "address", "http://"+*address)
+	journal.Record("panel", "success", "Administration available at http://"+*address)
+	serveResult := make(chan error, 2)
+	listener, err := net.Listen("tcp", *address)
+	if err != nil {
+		fatal(err)
+	}
+	if err = os.MkdirAll(cfg.Runtime.RuntimeDirectory, 0700); err != nil {
+		listener.Close()
+		fatal(err)
+	}
+	if err = os.WriteFile(filepath.Join(cfg.Runtime.RuntimeDirectory, "launcher.pid"), []byte(strconv.Itoa(os.Getpid())), 0600); err != nil {
+		listener.Close()
+		fatal(err)
+	}
+	go func() { serveResult <- server.Serve(listener) }()
+	if cfg.Runtime.LANAddress != "" {
+		lanListener, err := net.Listen("tcp4", cfg.Runtime.LANAddress)
+		if err != nil {
+			fatal(err)
+		}
+		lanServer := &http.Server{
+			Handler:           control.LANHandler(handler, *address),
+			ReadHeaderTimeout: 10 * time.Second,
+			IdleTimeout:       90 * time.Second,
+		}
+		defer lanServer.Close()
+		go func() { serveResult <- lanServer.Serve(lanListener) }()
+		slog.Info("Wi-Fi control panel available", "address", cfg.Runtime.LANAddress)
+		journal.Record("panel", "success", "Wi-Fi panel listening on "+cfg.Runtime.LANAddress)
+	}
+	// Validate and load the existing data generation only after the panel
+	// listens: clients can connect immediately and observe the "prepare"
+	// operation instead of waiting for catalog loading.
+	handler.StartRestore(func() bool {
+		prepared, restoreErr := preparation.Restore()
+		if restoreErr != nil {
+			return false
+		}
+		if err := activatePrepared(prepared); err != nil {
+			preparation.Fail(err)
+			journal.Record("prepare", "error", err.Error())
+			return false
+		}
+		return true
+	})
+	runTrayAction := func(action control.Action) {
+		ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
+		defer cancel()
+		if err := requestTrayAction(ctx, *address, action); err != nil {
+			journal.Record("panel", "error", "System Tray action: "+err.Error())
+		}
+	}
+	stopTray, trayErr := startSystemTray(trayActions{
+		IconSVG: trayIcon,
+		Open: func() {
+			ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
+			defer cancel()
+			if err := runner.StartPanel(ctx, true); err != nil {
+				journal.Record("panel", "error", "Opening from the System Tray: "+err.Error())
+			}
+		},
+		Local:  func() { runTrayAction(control.ActionLocal) },
+		Online: func() { runTrayAction(control.ActionOnline) },
+		Stop:   func() { runTrayAction(control.ActionStop) },
+	})
+	if trayErr != nil {
+		journal.Record("panel", "warning", "System Tray unavailable: "+trayErr.Error())
 	} else {
-		err = localtls.GenerateFiles(localtls.Paths{CA: cfg.Runtime.CertificateAuthority, CAKey: filepath.Join(filepath.Dir(cfg.Runtime.CertificateAuthority), "ca-key.pem"), Certificate: cfg.Runtime.Certificate, PrivateKey: cfg.Runtime.PrivateKey}, cfg.Android.RedirectHosts)
+		defer stopTray()
 	}
+	select {
+	case err := <-serveResult:
+		if err != nil && err != http.ErrServerClosed {
+			fatal(err)
+		}
+	case <-shutdownRequested:
+		ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		err := server.Shutdown(ctx)
+		cancel()
+		if err != nil {
+			journal.Record("panel", "error", "Stopping the control panel: "+err.Error())
+			fmt.Fprintln(os.Stderr, err)
+			return
+		}
+		if err := <-serveResult; err != nil && err != http.ErrServerClosed {
+			fatal(err)
+		}
+	}
+}
+
+func removeOwnedPID(path string) {
+	value, err := os.ReadFile(path)
 	if err != nil {
-		return err
+		return
 	}
-	fmt.Println("Local CA and server certificate ready")
-	return nil
+	pid, err := strconv.Atoi(strings.TrimSpace(string(value)))
+	if err == nil && pid == os.Getpid() {
+		_ = os.Remove(path)
+	}
+}
+
+func fatal(err error) {
+	fmt.Fprintln(os.Stderr, err)
+	os.Exit(1)
 }

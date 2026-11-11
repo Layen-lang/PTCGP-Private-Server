@@ -1,6 +1,6 @@
 # Using PTCGP Private Server
 
-The control panel is the main interface. Start it with `start-server.cmd`, then
+The control panel is the main interface. Start it with `ptcgp-private-server.exe`, then
 open <http://127.0.0.1:8080> if the browser does not open automatically.
 
 You can use a rooted Android emulator or a rooted physical phone. A phone can
@@ -166,11 +166,11 @@ installation.
 ## Command-line shortcuts
 
 ```bat
-start-server.cmd             rem Open the control panel
-start-server.cmd local       rem Enable Local on the selected device and open the panel
-start-server.cmd online      rem Restore Official on the selected device and open the panel
-start-server.cmd stop        rem Restore all managed devices and stop everything
-start-server.cmd status      rem Print the selected device's state
+ptcgp-private-server.exe rem Open the control panel
+ptcgp-private-server.exe local       rem Enable Local on the selected device and open the panel
+ptcgp-private-server.exe online      rem Restore Official on the selected device and open the panel
+ptcgp-private-server.exe stop        rem Restore all managed devices and stop everything
+ptcgp-private-server.exe status      rem Print the selected device's state
 ```
 
 For automation-friendly JSON and device-selection options, see the

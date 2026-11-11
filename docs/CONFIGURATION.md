@@ -12,12 +12,12 @@ By default, the launcher searches for `server.json` from the current directory
 upward, then beside the installed executables. Override it with either:
 
 ```bat
-start-server.cmd --config C:\path\to\server.json
+ptcgp-private-server.exe --config C:\path\to\server.json
 ```
 
 ```powershell
 $env:PTCGP_SERVER_CONFIG = 'C:\path\to\server.json'
-.\start-server.cmd
+.\ptcgp-private-server.exe ui
 ```
 
 Relative data and runtime paths are resolved from the directory containing the
@@ -121,7 +121,7 @@ An explicit command-line option takes precedence over its environment default.
 ## Command-line reference
 
 ```text
-start-server.cmd [action] [options]
+ptcgp-private-server.exe [action] [options]
 ```
 
 ### Actions
@@ -147,5 +147,5 @@ start-server.cmd [action] [options]
 Windows-style option names are case-insensitive. Example:
 
 ```bat
-start-server.cmd status -Serial 127.0.0.1:5555 -Json
+ptcgp-private-server.exe status -Serial 127.0.0.1:5555 -Json
 ```

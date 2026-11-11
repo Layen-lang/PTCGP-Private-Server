@@ -9,7 +9,7 @@ under the original installation directory.
 ## First launch
 
 1. Install the official game and finish its resource download.
-2. Enable ADB and root on the Android device, connect it, then open `start-server.cmd`.
+2. Enable ADB and root on the Android device, connect it, then open `ptcgp-private-server.exe`.
 3. If several devices are connected, select the one containing the game.
 4. Wait for preparation to import all nine locales and the images in the
    published compatibility profile. The Accounts page opens automatically
@@ -121,10 +121,9 @@ new release fields during startup, with rollback if validation fails.
 
 Development adds Rust to the existing Go/Node requirements:
 
-In a source checkout, `start-server.cmd` checks the native sources, Cargo manifests,
-lockfiles and build script alongside the existing frontend and Go build checks.
-It recompiles changed or missing native tools before launching the panel. Unchanged
-tools are reused. Packaged releases continue to use precompiled executables.
+`native/build.ps1` builds the two Android readers into `native/target/readers`.
+The desktop app compiles them in, together with the importer, so a release ships
+no native tool as a separate file.
 
 ```powershell
 rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl

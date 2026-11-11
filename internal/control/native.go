@@ -59,7 +59,7 @@ func NewNativeRunner(cfg configuration.Config, root string) (*NativeRunner, erro
 		return nil, err
 	}
 	r := &NativeRunner{cfg: cfg, root: root, commands: nativeCommands{},
-		server: filepath.Join(program, "bin", "ptcgp-server.exe"), launcher: filepath.Join(program, "bin", "ptcgp-launcher.exe")}
+		server: filepath.Join(program, "bin", "ptcgp-server.exe"), launcher: filepath.Join(program, "bin", "ptcgp-server.exe")}
 	return r, nil
 }
 
@@ -462,9 +462,28 @@ func (r *NativeRunner) StartPanel(ctx context.Context, open bool) error {
 		return err
 	}
 	if open {
+		// Prefer the native window; fall back to the browser panel.
+		for _, desktop := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(r.root, provision.DesktopExecutable)} {
+			if desktop == "" {
+				continue
+			}
+			if info, err := os.Stat(desktop); err == nil && info.Mode().IsRegular() {
+				return startDesktop(desktop, r.root)
+			}
+		}
 		return openBrowser("http://" + r.cfg.Runtime.LauncherAddress)
 	}
 	return nil
+}
+
+// startDesktop opens the native panel window that started this panel.
+func startDesktop(executable, root string) error {
+	cmd := exec.Command(executable)
+	cmd.Dir = root
+	if err := startWindowed(cmd); err != nil {
+		return err
+	}
+	return cmd.Process.Release()
 }
 
 // StopPanel stops a launcher started by this project.

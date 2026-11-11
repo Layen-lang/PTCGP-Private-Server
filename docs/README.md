@@ -20,6 +20,7 @@ and [Connection modes](USAGE.md#connection-modes).
 
 - [Configuration reference](CONFIGURATION.md)
 - [Architecture](ARCHITECTURE.md)
+- [Desktop application](DESKTOP.md)
 - [Game-data layout](GAME-DATA.md)
 - [Development workflow](DEVELOPMENT.md)
 

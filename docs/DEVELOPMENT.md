@@ -32,12 +32,15 @@ Go and Cargo dependencies are downloaded by their build commands.
 ## Run from source
 
 ```powershell
-.\start-server.cmd
+npm --prefix web run build
+powershell -ExecutionPolicy Bypass -File desktop/build.ps1
+.\ptcgp-private-server.exe
 ```
 
-In a source checkout, the script runs the Go launcher controller. The launcher
-rebuilds the frontend, the two Go executables, the Rust importer, and both
-Android readers when their inputs are newer than generated outputs.
+`desktop/build.ps1` builds the backend (`bin\ptcgp-server.exe`), the Android
+readers, and the desktop app, which compiles the readers in. Rebuild after
+changing Go, Rust, or frontend sources; the embedded frontend comes from
+`internal/admin/dist`.
 
 To run the frontend development server separately:
 
@@ -47,7 +50,7 @@ npm run dev
 ```
 
 The Vite development server listens on `127.0.0.1:5173`. It is a frontend
-workflow, not a replacement for the Go launcher and administration backend.
+workflow, not a replacement for the Go backend.
 
 ## Manual build
 
@@ -55,11 +58,14 @@ workflow, not a replacement for the Go launcher and administration backend.
 cd web
 npm run build
 cd ..
-./native/build.ps1
 New-Item -ItemType Directory -Force bin | Out-Null
-go build -o bin/ptcgp-launcher.exe ./cmd/ptcgp-launcher
 go build -o bin/ptcgp-server.exe ./cmd/ptcgp-server
+./native/build.ps1
+cargo build --release --manifest-path desktop/Cargo.toml
+Copy-Item desktop/target/release/ptcgp-private-server.exe ptcgp-private-server.exe
 ```
+
+`desktop/build.ps1` runs the same steps; see [Desktop application](DESKTOP.md).
 
 The frontend build is written to `internal/admin/dist` and embedded in the Go
 executables. Commit regenerated files in that directory whenever the web source
