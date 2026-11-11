@@ -82,6 +82,35 @@ func (m *Manager) PreparedKey() string {
 	}
 	return m.key
 }
+
+// PreparedSupportsNativeHash reports whether the verified staged release can
+// identify an Android native library that the currently running panel cannot.
+// This allows a program update to finish a version transition while leaving
+// the pending Android rollback for the replacement panel to resume.
+func (m *Manager) PreparedSupportsNativeHash(nativeHash string) bool {
+	key := m.PreparedKey()
+	if key == "" || nativeHash == "" {
+		return false
+	}
+	if _, err := ValidatePrepared(m.root, key); err != nil {
+		return false
+	}
+	data, err := os.ReadFile(filepath.Join(m.root, "data", "updates", "versions", key, "server.json"))
+	if err != nil {
+		return false
+	}
+	var release struct {
+		Patch struct {
+			SourceSHA256 string `json:"source_sha256"`
+			TargetSHA256 string `json:"target_sha256"`
+		} `json:"patch"`
+	}
+	if err := json.Unmarshal(data, &release); err != nil {
+		return false
+	}
+	return strings.EqualFold(nativeHash, release.Patch.SourceSHA256) || strings.EqualFold(nativeHash, release.Patch.TargetSHA256)
+}
+
 func allowedPath(p string) bool {
 	if !filepath.IsLocal(p) || strings.ContainsAny(p, ":\\") || filepath.ToSlash(filepath.Clean(p)) != p {
 		return false
