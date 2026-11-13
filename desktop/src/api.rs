@@ -20,7 +20,7 @@ fn pack_slots<'de, D: serde::Deserializer<'de>>(d: D) -> Result<Option<Vec<Vec<R
     Ok(raw.map(|packs| packs.into_iter().map(Option::unwrap_or_default).collect()))
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct PreparationState {
     pub phase: String,
@@ -42,7 +42,7 @@ pub struct AndroidDevice {
     pub aliases: Option<Vec<String>>,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct UpdateState {
     pub phase: String,
@@ -52,7 +52,7 @@ pub struct UpdateState {
     pub total: i64,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default, rename_all = "PascalCase")]
 pub struct PlayerSummary {
     #[serde(rename = "ID")]
@@ -66,7 +66,7 @@ pub struct PlayerSummary {
     pub in_use_on: Option<String>,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct Currency {
     #[serde(rename = "ID")]
@@ -77,7 +77,7 @@ pub struct Currency {
     pub image_url: String,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default, rename_all = "camelCase")]
 pub struct Bootstrap {
     pub emulator: Option<String>,
@@ -88,14 +88,14 @@ pub struct Bootstrap {
     pub currencies: Option<Vec<Currency>>,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct ServerStatus {
     pub running: bool,
     pub pid: Option<i64>,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default, rename_all = "camelCase")]
 pub struct AndroidStatus {
     pub serial: Option<String>,
@@ -109,7 +109,7 @@ pub struct AndroidStatus {
     pub running: bool,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default, rename_all = "camelCase")]
 pub struct ControlStatus {
     pub preparation: Option<PreparationState>,
@@ -122,7 +122,7 @@ pub struct ControlStatus {
     pub android: AndroidStatus,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct LogEvent {
     pub time: String,
@@ -131,7 +131,7 @@ pub struct LogEvent {
     pub message: String,
 }
 
-#[derive(Clone, Debug, Default, Deserialize)]
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default)]
 pub struct ControlLogs {
     #[serde(deserialize_with = "null_default")]
@@ -390,8 +390,10 @@ impl Api {
             Err(error) => return Err(anyhow!(crate::i18n::tf("common.httpError", &[("status", &error.kind())]))),
         };
         let status = response.status();
-        let text = response.into_string().unwrap_or_default();
-        let value: Value = serde_json::from_str(&text).unwrap_or(Value::Null);
+        // `into_string` caps bodies at 10 MB, and a full traffic history exceeds it.
+        let mut body = Vec::new();
+        std::io::Read::read_to_end(&mut response.into_reader(), &mut body)?;
+        let value: Value = serde_json::from_slice(&body).unwrap_or(Value::Null);
         Ok((status, value))
     }
 

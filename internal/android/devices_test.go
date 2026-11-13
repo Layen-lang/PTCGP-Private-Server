@@ -82,7 +82,8 @@ func (r *lateDeviceRunner) Run(ctx context.Context, _ string, args ...string) ([
 		return []byte("connected"), nil
 	case "devices -l":
 		list := "List of devices attached\n127.0.0.1:5555 device\nemulator-5554 device\n"
-		if r.ldConnected {
+		// A stopped emulator drops its ADB connection.
+		if r.ldConnected && r.ldBooted {
 			list += "127.0.0.2:5555 device\n"
 		}
 		return []byte(list), nil
@@ -102,12 +103,13 @@ func (r *lateDeviceRunner) Run(ctx context.Context, _ string, args ...string) ([
 func TestDeviceListFindsLDPlayerAfterMuMuIsAlreadyConnected(t *testing.T) {
 	runner := &lateDeviceRunner{}
 	endpoints := []string{"127.0.0.2:5555"}
-	first, err := listDevices(context.Background(), runner, endpoints)
+	cache := &identityCache{}
+	first, err := listDevices(context.Background(), runner, endpoints, cache)
 	if err != nil || len(first) != 1 || !runner.probed {
 		t.Fatalf("initial list = %v, err = %v, probed = %v", first, err, runner.probed)
 	}
 	runner.ldBooted = true
-	second, err := listDevices(context.Background(), runner, endpoints)
+	second, err := listDevices(context.Background(), runner, endpoints, cache)
 	want := []Device{
 		{Serial: "127.0.0.1:5555", Name: "MuMu model", State: "device", Aliases: []string{"127.0.0.1:5555", "emulator-5554"}},
 		{Serial: "127.0.0.2:5555", Name: "LDPlayer model", State: "device"},
@@ -116,8 +118,54 @@ func TestDeviceListFindsLDPlayerAfterMuMuIsAlreadyConnected(t *testing.T) {
 		t.Fatalf("refreshed list = %v, err = %v, want %v", second, err, want)
 	}
 	runner.ldBooted = false
-	third, err := listDevices(context.Background(), runner, endpoints)
+	third, err := listDevices(context.Background(), runner, endpoints, cache)
 	if err != nil || !reflect.DeepEqual(third, first) {
 		t.Fatalf("list after stopping LDPlayer = %v, err = %v, want %v", third, err, first)
+	}
+}
+
+type countingDeviceRunner struct {
+	transport string
+	calls     []string
+}
+
+func (r *countingDeviceRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
+	call := strings.Join(args, " ")
+	r.calls = append(r.calls, call)
+	switch call {
+	case "devices -l":
+		return []byte("List of devices attached\n127.0.0.2:5555 device product:x model:y transport_id:" + r.transport + "\n"), nil
+	case "-s 127.0.0.2:5555 shell cat /proc/sys/kernel/random/boot_id":
+		return []byte("boot-" + r.transport), nil
+	case "-s 127.0.0.2:5555 shell getprop ro.product.model":
+		return []byte("LDPlayer model"), nil
+	default:
+		return nil, fmt.Errorf("unexpected command: %s", call)
+	}
+}
+
+func TestDeviceListReusesIdentityOfTheSameConnection(t *testing.T) {
+	runner := &countingDeviceRunner{transport: "3"}
+	cache := &identityCache{}
+	endpoints := []string{"127.0.0.2:5555"}
+	want := []Device{{Serial: "127.0.0.2:5555", Name: "LDPlayer model", State: "device"}}
+	for range 2 {
+		devices, err := listDevices(context.Background(), runner, endpoints, cache)
+		if err != nil || !reflect.DeepEqual(devices, want) {
+			t.Fatalf("devices = %v, err = %v", devices, err)
+		}
+	}
+	// The connected endpoint is neither reconnected nor asked its identity again.
+	wantCalls := "devices -l\n-s 127.0.0.2:5555 shell cat /proc/sys/kernel/random/boot_id\n-s 127.0.0.2:5555 shell getprop ro.product.model\ndevices -l"
+	if got := strings.Join(runner.calls, "\n"); got != wantCalls {
+		t.Fatalf("calls =\n%s", got)
+	}
+	// A new connection on the same serial may be another emulator.
+	runner.transport, runner.calls = "4", nil
+	if _, err := listDevices(context.Background(), runner, endpoints, cache); err != nil {
+		t.Fatal(err)
+	}
+	if len(runner.calls) != 3 {
+		t.Fatalf("new transport was not inspected again: %v", runner.calls)
 	}
 }

@@ -316,3 +316,27 @@ func TestSelectingAnADBAliasKeepsTheSameRuntimeAndAccount(t *testing.T) {
 		t.Fatal("an ADB alias created or restarted a second runtime")
 	}
 }
+
+type noEmulatorRunner struct{ listings *int }
+
+func (r noEmulatorRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
+	if strings.Join(args, " ") == "devices -l" {
+		*r.listings++
+		return []byte("List of devices attached\n"), nil
+	}
+	return nil, fmt.Errorf("device unavailable")
+}
+
+func TestStatusWithoutEmulatorDiscoversOnce(t *testing.T) {
+	m, _ := multiRunnerFixture(t)
+	listings := 0
+	m.base.commands = noEmulatorRunner{listings: &listings}
+	m.selected = ""
+	status, err := m.Status(context.Background())
+	if err != nil || status.Android.Connected || status.Mode != "unknown" {
+		t.Fatalf("status = %+v, err = %v", status, err)
+	}
+	if listings != 1 {
+		t.Fatalf("ADB device listings = %d, want 1", listings)
+	}
+}

@@ -188,7 +188,18 @@ impl AppView {
     fn poll_interval(&self) -> Duration {
         let update = self.control.update.as_ref().map(|u| u.phase.as_str());
         let prep = self.control.preparation.as_ref();
-        Duration::from_millis(if prep.map(|p| p.phase.as_str()) == Some("restoring") { 200 } else if update == Some("downloading") { 1000 } else if prep.map(|p| p.phase.as_str()) == Some("images") { 500 } else if prep.map(|p| p.ready).unwrap_or(false) && !self.control.busy { 10_000 } else { 1_000 })
+        let working = self.control.busy || prep.map(|p| p.busy).unwrap_or(false);
+        // Idle and not prepared (no emulator, waiting for the user): each status
+        // may run ADB discovery on the server, so it is asked less often.
+        Duration::from_millis(if prep.map(|p| p.phase.as_str()) == Some("restoring") { 200 } else if update == Some("downloading") { 1000 } else if prep.map(|p| p.phase.as_str()) == Some("images") { 500 } else if working { 1_000 } else if prep.map(|p| p.ready).unwrap_or(false) { 10_000 } else { 3_000 })
+    }
+
+    /// Each device listing runs ADB on the server. Look for emulators often
+    /// only while none is usable; the Refresh button lists them at once.
+    fn device_poll_interval(&self) -> Duration {
+        let ready = self.control.preparation.as_ref().map(|p| p.ready).unwrap_or(false);
+        let usable = self.control.android.connected && !self.available_devices().is_empty();
+        Duration::from_secs(if ready && usable { 60 } else { 10 })
     }
 
     fn start_polling(&mut self, window: &mut Window, cx: &mut Context<Self>) {
@@ -207,23 +218,41 @@ impl AppView {
             }).await;
             let _ = this.update_in(cx, |v, window, cx| {
                 if v.action_lock || v.restarting { return }
-                match result {
+                // Routine polls usually return the same state: redraw only on change.
+                let changed = match result {
                     Ok((status, bootstrap)) => {
-                        v.connection_error = status.android.recovery_error.clone().unwrap_or_default();
+                        let connection_error = status.android.recovery_error.clone().unwrap_or_default();
+                        let mut changed = v.connection_error != connection_error || v.control != status;
+                        v.connection_error = connection_error;
                         v.control = status;
-                        if let Some(bootstrap) = bootstrap { v.pending = None; v.set_data(Some(bootstrap), window, cx) }
+                        if let Some(bootstrap) = bootstrap {
+                            if v.pending.is_some() || v.data.as_ref() != Some(&bootstrap) {
+                                changed = true;
+                                v.pending = None;
+                                v.set_data(Some(bootstrap), window, cx);
+                            }
+                        }
+                        changed
                     }
-                    Err(error) => v.connection_error = error.to_string(),
-                }
-                cx.notify();
+                    Err(error) => {
+                        let error = error.to_string();
+                        let changed = v.connection_error != error;
+                        v.connection_error = error;
+                        changed
+                    }
+                };
+                if changed { cx.notify() }
             });
         });
         let api = self.api.clone();
         let background = cx.background_executor().clone();
+        let mut listed = Instant::now();
         let device_task = cx.spawn_in(window, async move |this, cx| loop {
+            // Re-evaluated every 10 s so a lost device shortens the wait.
             background.timer(Duration::from_secs(10)).await;
-            let Ok(skip) = this.update(cx, |v, _| v.action_lock || v.restarting) else { return };
-            if skip { continue }
+            let Ok((skip, interval)) = this.update(cx, |v, _| (v.action_lock || v.restarting, v.device_poll_interval())) else { return };
+            if skip || listed.elapsed() + Duration::from_secs(1) < interval { continue }
+            listed = Instant::now();
             let probe = api.clone();
             let found = background.spawn(async move { probe.devices() }).await;
             let _ = this.update_in(cx, |v, window, cx| v.apply_devices(found, window, cx));
@@ -233,6 +262,11 @@ impl AppView {
     }
 
     fn apply_devices(&mut self, found: anyhow::Result<Vec<AndroidDevice>>, window: &mut Window, cx: &mut Context<Self>) {
+        let unchanged = match &found {
+            Ok(devices) => *devices == self.devices && self.device_error.is_empty(),
+            Err(error) => self.device_error == tf("app.deviceDiscoveryFailed", &[("message", error)]),
+        };
+        if unchanged { return }
         match found {
             Ok(devices) => { self.devices = devices; self.device_error.clear() }
             Err(error) => self.device_error = tf("app.deviceDiscoveryFailed", &[("message", &error)]),
@@ -412,6 +446,9 @@ impl AppView {
 
     fn navigate(&mut self, route: Route, cx: &mut Context<Self>) {
         self.route = route;
+        if let Some(logs) = &self.logs {
+            logs.update(cx, |page, cx| page.set_active(route == Route::Logs, cx));
+        }
         self.prefs.route = route.key().into();
         self.inst.save_preferences(&self.prefs);
         cx.notify();

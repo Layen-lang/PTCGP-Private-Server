@@ -125,6 +125,16 @@ func (r *NativeRunner) Status(ctx context.Context) (Status, error) {
 	return s, nil
 }
 
+// disconnectedStatus describes the local server while no device is usable.
+func (r *NativeRunner) disconnectedStatus(ctx context.Context) (Status, error) {
+	s := Status{Mode: "unknown", Server: ServerStatus{PID: r.processPID("server", r.server)},
+		Android: AndroidStatus{Routing: "indisponible", CA: "inconnue", Native: "inconnue", Game: "inconnu"}}
+	s.Server.Running = s.Server.PID != 0
+	r.cachedSerial = ""
+	r.fullStatusValid = false
+	return s, ctx.Err()
+}
+
 func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, error) {
 	s := Status{Mode: "unknown", Server: ServerStatus{PID: r.processPID("server", r.server)},
 		Android: AndroidStatus{Routing: "indisponible", CA: "inconnue", Native: "inconnue", Game: "inconnu"}}
@@ -139,12 +149,7 @@ func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, e
 	if serial == "" {
 		serial, err = r.discover(ctx)
 		if err != nil {
-			r.cachedSerial = ""
-			r.fullStatusValid = false
-			if ctx.Err() != nil {
-				return s, ctx.Err()
-			}
-			return s, nil
+			return r.disconnectedStatus(ctx)
 		}
 	}
 	if err := r.recoverPendingRollback(ctx, serial); err != nil {

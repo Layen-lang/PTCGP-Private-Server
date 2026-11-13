@@ -19,6 +19,8 @@ pub struct LogsPage {
     operation: String,
     errors_only: bool,
     live: bool,
+    /// Whether the page is the current route.
+    active: bool,
     loading: bool,
     error: String,
     diagnostics_open: bool,
@@ -43,9 +45,17 @@ impl LogsPage {
                 if let SelectEvent::Confirm(Some(value)) = event { this.operation = value.to_string(); cx.notify() }
             }),
         ];
-        let mut page = LogsPage { api, logs: ControlLogs::default(), query, operation_select, operation: "all".into(), errors_only: false, live: true, loading: true, error: String::new(), diagnostics_open: false, exported: None, _poll: Task::ready(()), _subs: subs };
+        let mut page = LogsPage { api, logs: ControlLogs::default(), query, operation_select, operation: "all".into(), errors_only: false, live: true, active: true, loading: true, error: String::new(), diagnostics_open: false, exported: None, _poll: Task::ready(()), _subs: subs };
         page.start(cx);
         page
+    }
+
+    /// The shell keeps this page alive across navigation; only the visible
+    /// page polls the journal.
+    pub fn set_active(&mut self, active: bool, cx: &mut Context<Self>) {
+        if active == self.active { return }
+        self.active = active;
+        if active { self.start(cx) } else { self._poll = Task::ready(()) }
     }
 
     fn start(&mut self, cx: &mut Context<Self>) {
@@ -55,13 +65,23 @@ impl LogsPage {
             let probe = api.clone();
             let result = background.spawn(async move { probe.control_logs() }).await;
             let Ok(live) = this.update(cx, |page, cx| {
-                match result {
-                    Ok(logs) => { page.logs = logs; page.error.clear() }
-                    Err(error) => page.error = error.to_string(),
-                }
+                let changed = match result {
+                    Ok(logs) => {
+                        let changed = page.logs != logs || !page.error.is_empty();
+                        page.logs = logs;
+                        page.error.clear();
+                        changed
+                    }
+                    Err(error) => {
+                        let error = error.to_string();
+                        let changed = page.error != error;
+                        page.error = error;
+                        changed
+                    }
+                };
+                if changed || page.loading { cx.notify() }
                 page.loading = false;
-                cx.notify();
-                page.live
+                page.live && page.active
             }) else { return };
             if !live { return }
             background.timer(Duration::from_secs(1)).await;

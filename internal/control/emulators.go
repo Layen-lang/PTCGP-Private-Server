@@ -306,7 +306,9 @@ func (m *MultiRunner) Status(ctx context.Context) (Status, error) {
 	if m.selected == "" {
 		serial, err := m.base.discover(ctx)
 		if err != nil {
-			return m.base.Status(ctx)
+			// Discovery just failed: report the disconnected state instead of
+			// letting the base runner run the same ADB discovery again.
+			return m.base.disconnectedStatus(ctx)
 		}
 		m.selected = serial
 		m.publishRouting()
