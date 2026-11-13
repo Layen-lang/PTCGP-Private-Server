@@ -95,6 +95,25 @@ impl SettingsPage {
             .when_some(second, |d, s| d.child(div().text_color(fg).font_weight(FontWeight::BOLD).child(s.to_string())))
     }
 
+    /// Miniature app layout (sidebar + content) drawn with `scheme`, filling its parent.
+    fn mini_ui(scheme: &Scheme) -> Div {
+        let (bg, accent, ink) = (color_of(&scheme.background), color_of(&scheme.accent), color_of(&scheme.foreground));
+        let mut faint = ink;
+        faint.a = 0.13;
+        let mut dim = white();
+        dim.a = 0.36;
+        let mut text = ink;
+        text.a = 0.78;
+        let bar = |w: f32, h: f32, c: Hsla| div().w(relative(w)).h(px(h)).rounded(px(2.)).bg(c);
+        div().size_full().flex().bg(bg)
+            .child(div().w(relative(0.29)).flex().flex_col().gap(px(7.)).px(px(7.)).py(px(12.)).bg(accent)
+                .child(bar(0.7, 8., white())).child(bar(1.0, 5., dim)).child(bar(1.0, 5., dim)))
+            .child(div().flex_1().flex().flex_col().gap(px(9.)).p(px(13.))
+                .child(bar(0.55, 7., text))
+                .child(div().w_full().h(px(23.)).rounded(px(4.)).border_1().border_color(faint).bg(bg))
+                .child(div().w(relative(0.76)).h(px(23.)).rounded(px(4.)).border_1().border_color(faint).bg(bg)))
+    }
+
     fn section(title: String, name: &str, body: impl IntoElement, p: &Palette) -> Div {
         div().relative().border_1().border_color(p.line).rounded(px(14.)).bg(p.panel)
             .child(div().flex().items_center().gap(px(13.)).px(px(24.)).py(px(18.)).border_b_1().border_color(p.line)
@@ -103,11 +122,11 @@ impl SettingsPage {
             .child(body)
     }
 
-    fn trigger(id: &'static str, badge: Div, label: Div, open: bool, p: &Palette) -> Stateful<Div> {
-        div().id(id).flex().items_center().gap(px(9.)).w(px(190.)).h(px(38.)).pl(px(5.)).pr(px(9.)).rounded(px(9.)).border_1().border_color(p.line).bg(p.surface_soft)
+    fn trigger(id: &'static str, badge: Option<Div>, label: Div, open: bool, p: &Palette) -> Stateful<Div> {
+        div().id(id).flex().items_center().gap(px(9.)).w(px(190.)).h(px(38.)).pl(px(if badge.is_some() { 5. } else { 12. })).pr(px(9.)).rounded(px(9.)).border_1().border_color(p.line).bg(p.surface_soft)
             .text_size(px(11.)).font_weight(FontWeight::BOLD).cursor_pointer()
             .hover({ let (b, h) = (p.control_border, p.surface_hover); move |s| s.border_color(b).bg(h) })
-            .child(badge).child(label.flex_1().min_w_0())
+            .children(badge).child(label.flex_1().min_w_0())
             .child(icon(if open { "chevron-up" } else { "chevron-down" }, 14., p.muted))
     }
 
@@ -127,20 +146,18 @@ impl Render for SettingsPage {
         let ratio = contrast(&scheme.foreground, &scheme.background);
 
         // Language selector.
-        let code = |l: &str| l[..2].to_uppercase();
         let lang_label = |l: &str| i18n::LANGUAGES.iter().find(|(k, _)| *k == l).map(|(_, v)| v.to_string()).unwrap_or_default();
         let mut language = div().relative().w(px(190.))
-            .child(Self::trigger("language", Self::badge(p.panel, p.brand, p.ink, &code(locale), None),
-                div().flex().flex_col().child(lang_label(locale)).child(div().text_size(px(10.)).text_color(p.muted).child(locale.replace('_', "-"))), self.menu == Menu::Language, &p)
+            .child(Self::trigger("language", None, div().truncate().child(lang_label(locale)), self.menu == Menu::Language, &p)
                 .on_click(cx.listener(|this, _, _, cx| { this.menu = if this.menu == Menu::Language { Menu::None } else { Menu::Language }; cx.notify() })));
         if self.menu == Menu::Language {
             let items = i18n::LANGUAGES.iter().map(|(key, label)| {
                 let key: &'static str = key;
                 let chosen = key == locale;
-                div().id(key).flex().items_center().gap(px(10.)).min_h(px(40.)).px(px(7.)).py(px(4.)).rounded(px(7.)).cursor_pointer().text_size(px(11.))
+                div().id(key).flex().items_center().gap(px(10.)).min_h(px(34.)).px(px(9.)).py(px(4.)).rounded(px(7.)).cursor_pointer().text_size(px(11.))
+                    .font_weight(if chosen { FontWeight::BOLD } else { FontWeight::MEDIUM })
                     .hover({ let h = p.surface_soft; move |s| s.bg(h) })
-                    .child(Self::badge(p.panel, p.brand, p.ink, &code(key), None))
-                    .child(div().flex_1().flex().flex_col().child(label.to_string()).child(div().text_size(px(10.)).text_color(p.muted).child(key.replace('_', "-"))))
+                    .child(div().flex_1().child(label.to_string()))
                     .when(chosen, |d| d.child(icon("check", 15., p.brand)))
                     .on_click(cx.listener(move |this, _, _, cx| { this.menu = Menu::None; cx.emit(PageEvent::Locale(key.to_string())); cx.notify() }))
             }).collect::<Vec<_>>();
@@ -151,19 +168,18 @@ impl Render for SettingsPage {
         let options = [(Preference::System, "laptop", t("settings.system")), (Preference::Light, "sun", t("settings.light")), (Preference::Dark, "moon", t("settings.dark"))]
             .into_iter().map(|(pref, name, label)| {
                 let chosen = self.settings.preference == pref;
-                let preview_scheme = match pref { Preference::Dark => &self.settings.dark, _ => &self.settings.light };
-                let (bg, accent, ink) = (color_of(&preview_scheme.background), color_of(&preview_scheme.accent), color_of(&preview_scheme.foreground));
-                let mut faint = ink;
-                faint.a = 0.13;
-                let bar = |w: f32, h: f32, c: Hsla| div().w(relative(w)).h(px(h)).rounded(px(2.)).bg(c);
-                let preview = div().relative().flex().h(px(105.)).mx(px(10.)).mt(px(10.)).overflow_hidden().rounded(px(8.)).border_1().border_color(faint).bg(bg)
-                    .child(div().w(relative(0.29)).flex().flex_col().gap(px(7.)).px(px(7.)).py(px(12.)).bg(accent)
-                        .child(bar(0.7, 8., white())).child(bar(1.0, 5., { let mut w = white(); w.a = 0.36; w })).child(bar(1.0, 5., { let mut w = white(); w.a = 0.36; w })))
-                    .child(div().flex_1().flex().flex_col().gap(px(9.)).p(px(13.))
-                        .child(bar(0.55, 7., { let mut c = ink; c.a = 0.78; c }))
-                        .child(div().w_full().h(px(23.)).rounded(px(4.)).border_1().border_color(faint).bg(bg))
-                        .child(div().w(relative(0.76)).h(px(23.)).rounded(px(4.)).border_1().border_color(faint).bg(bg)))
-                    .when(pref == Preference::System, |d| d.child(div().absolute().top_0().bottom_0().right_0().w(relative(0.48)).bg(rgb(0x171B19))));
+                let base = match pref { Preference::Dark => &self.settings.dark, _ => &self.settings.light };
+                let mut border = color_of(&base.foreground);
+                border.a = 0.13;
+                let preview = div().relative().h(px(105.)).mx(px(10.)).mt(px(10.)).overflow_hidden().rounded(px(8.)).border_1().border_color(border)
+                    .child(Self::mini_ui(base))
+                    .when(pref == Preference::System, |d| {
+                        // Same layout in the dark scheme, clipped to the right half.
+                        let mut divider = white();
+                        divider.a = 0.4;
+                        d.child(div().absolute().top_0().bottom_0().right_0().w(relative(0.5)).overflow_hidden().border_l_1().border_color(divider)
+                            .child(div().absolute().top_0().bottom_0().right_0().w(relative(2.0)).child(Self::mini_ui(&self.settings.dark))))
+                    });
                 div().id(name).relative().flex().flex_col().flex_1().min_w_0().overflow_hidden().rounded(px(12.)).border_1().cursor_pointer()
                     .border_color(if chosen { p.brand } else { p.line }).bg(if chosen { p.brand_soft } else { p.panel })
                     .hover({ let (b, h) = (p.control_border, p.surface_hover); move |s| if chosen { s } else { s.border_color(b).bg(h) } })
@@ -178,7 +194,7 @@ impl Render for SettingsPage {
 
         // Preset selector.
         let mut presets = div().relative().w(px(190.))
-            .child(Self::trigger("preset", Self::badge(color_of(&scheme.background), color_of(&scheme.accent), color_of(&scheme.foreground), "A", Some("a")), div().truncate().child(preset_label), self.menu == Menu::Preset, &p)
+            .child(Self::trigger("preset", Some(Self::badge(color_of(&scheme.background), color_of(&scheme.accent), color_of(&scheme.foreground), "A", Some("a"))), div().truncate().child(preset_label), self.menu == Menu::Preset, &p)
                 .on_click(cx.listener(|this, _, _, cx| { this.menu = if this.menu == Menu::Preset { Menu::None } else { Menu::Preset }; cx.notify() })));
         if self.menu == Menu::Preset {
             let items = PRESETS.iter().filter(|x| x.dark == dark).map(|x| {

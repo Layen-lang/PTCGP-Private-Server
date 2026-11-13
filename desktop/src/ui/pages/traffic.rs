@@ -59,10 +59,74 @@ fn is_success(event: &TrafficEvent) -> bool {
 }
 
 fn payload_text(payload: &TrafficPayload) -> String {
+    // Truncated previews arrive as a string holding the first bytes of the body.
+    let raw = payload.data.as_str().map(str::to_string).unwrap_or_else(|| payload.data.to_string());
     match payload.encoding.as_str() {
         "empty" => t("traffic.noContent"),
-        "json" => serde_json::to_string_pretty(&payload.data).unwrap_or_default(),
-        _ => payload.data.as_str().map(str::to_string).unwrap_or_else(|| payload.data.to_string()),
+        "json" => {
+            let mut text = indent_json(&raw);
+            if payload.truncated.unwrap_or(false) { text.push_str("\n…") }
+            text
+        }
+        _ => raw,
+    }
+}
+
+/// Indents JSON text without parsing it, so a body cut off mid-value still
+/// reads like the rest. Strings are copied untouched.
+fn indent_json(raw: &str) -> String {
+    const INDENT: &str = "  ";
+    let mut out = String::with_capacity(raw.len() + raw.len() / 2);
+    let mut depth = 0usize;
+    let (mut in_string, mut escaped) = (false, false);
+    let mut chars = raw.chars().peekable();
+    let newline = |out: &mut String, depth: usize| {
+        out.push('\n');
+        for _ in 0..depth { out.push_str(INDENT) }
+    };
+    while let Some(c) = chars.next() {
+        if in_string {
+            out.push(c);
+            if escaped { escaped = false } else if c == '\\' { escaped = true } else if c == '"' { in_string = false }
+            continue;
+        }
+        match c {
+            '"' => { in_string = true; out.push(c) }
+            '{' | '[' => {
+                while chars.peek().is_some_and(|n| n.is_whitespace()) { chars.next(); }
+                let close = if c == '{' { '}' } else { ']' };
+                if chars.peek() == Some(&close) {
+                    chars.next();
+                    out.push(c);
+                    out.push(close);
+                } else {
+                    out.push(c);
+                    depth += 1;
+                    newline(&mut out, depth);
+                }
+            }
+            '}' | ']' => {
+                depth = depth.saturating_sub(1);
+                newline(&mut out, depth);
+                out.push(c);
+            }
+            ',' => { out.push(c); newline(&mut out, depth) }
+            ':' => out.push_str(": "),
+            c if c.is_whitespace() => {}
+            c => out.push(c),
+        }
+    }
+    out
+}
+
+#[cfg(test)]
+mod tests {
+    use super::indent_json;
+
+    #[test]
+    fn indents_complete_and_truncated_json() {
+        assert_eq!(indent_json(r#"{"a":[1,2],"b":{},"c":"x,{y}"}"#), "{\n  \"a\": [\n    1,\n    2\n  ],\n  \"b\": {},\n  \"c\": \"x,{y}\"\n}");
+        assert_eq!(indent_json(r#"{"items":[{"id":"PK_1"},{"id":"PK"#), "{\n  \"items\": [\n    {\n      \"id\": \"PK_1\"\n    },\n    {\n      \"id\": \"PK");
     }
 }
 
