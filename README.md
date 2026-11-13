@@ -1,7 +1,7 @@
 # PTCGP Private Server
 
 Run Pokémon TCG Pocket against your own local server, create separate profiles,
-edit their collections, and control pack openings from a browser.
+edit their collections, and control pack openings from a native Windows app.
 
 > [!IMPORTANT]
 > This is an unofficial, local-only interoperability project for advanced
@@ -59,7 +59,7 @@ You need:
   system mounts;
 - `adb.exe` available in `PATH`.
 
-You do **not** need Go, Node.js, or Rust when using a published release. Those
+You do **not** need Go or Rust when using a published release. Those
 tools are only required to run the project from source.
 
 A rooted physical phone has been tested successfully, including over Wi-Fi ADB.
@@ -75,10 +75,6 @@ stay on and connected while you play.
 > `443`, `8080`, `8081`, or additional emulators' game and administration ports
 > to your network or the Internet.
 
-The bundled configuration enables a separate home Wi-Fi panel listener on
-port `8082`. See [Configuration](docs/CONFIGURATION.md#runtime) for access and
-how to disable it.
-
 ## Install in 5 minutes
 
 1. Download the ZIP from the
@@ -90,7 +86,6 @@ how to disable it.
 4. Open Command Prompt and check that `adb devices` lists the Android device as
    `device`.
 5. Double-click `ptcgp-private-server.exe`. The control panel window opens.
-   The same panel stays available in a browser at <http://127.0.0.1:8080>.
 6. Let the panel import data from the installed game. Select a device if
    several are connected. The Accounts page opens when validation completes.
 

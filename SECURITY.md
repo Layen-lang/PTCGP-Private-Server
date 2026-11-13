@@ -16,9 +16,8 @@ data.
 
 - Keep each device's game and administration services bound to `127.0.0.1`,
   including automatically allocated ports for additional devices.
-- The primary panel stays on loopback. The bundled configuration also enables
-  the separate home Wi-Fi listener described in [Configuration](docs/CONFIGURATION.md#runtime);
-  remove `runtime.lanAddress` to disable it. Do not expose any service to the Internet.
+- The control panel API stays on loopback and is used only by the desktop
+  app. Do not expose any service to your network or the Internet.
 - Never reuse the generated local certificate authority for another purpose.
 - Treat databases, logs, HAR files, and Android backups as private data.
 - Return the selected device to **Official** mode before using an official

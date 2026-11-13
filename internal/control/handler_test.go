@@ -4,13 +4,11 @@ import (
 	"context"
 	"fmt"
 	"io"
-	"io/fs"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
 	"strings"
 	"testing"
-	"testing/fstest"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
@@ -61,8 +59,7 @@ func (f *fakeRunner) Action(_ context.Context, action Action) (Status, error) {
 
 func newHandler(t *testing.T, runner Runner, backend *url.URL) *Handler {
 	t.Helper()
-	frontend := fstest.MapFS{"index.html": &fstest.MapFile{Data: []byte("PTCGP control panel")}}
-	handler, err := New(fs.FS(frontend), backend, runner)
+	handler, err := New(backend, runner)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -229,7 +226,7 @@ func TestFailedStopDoesNotRequestPanelShutdown(t *testing.T) {
 	}
 }
 
-func TestRoutesFrontendAndReportsOfflineBackend(t *testing.T) {
+func TestServesNoPagesAndReportsOfflineBackend(t *testing.T) {
 	t.Parallel()
 	backend, _ := url.Parse("http://127.0.0.1:1")
 	handler := newHandler(t, &fakeRunner{}, backend)
@@ -238,7 +235,7 @@ func TestRoutesFrontendAndReportsOfflineBackend(t *testing.T) {
 	page.Host = "127.0.0.1:8080"
 	pageResponse := httptest.NewRecorder()
 	handler.ServeHTTP(pageResponse, page)
-	if pageResponse.Code != http.StatusOK || !strings.Contains(pageResponse.Body.String(), "PTCGP control panel") {
+	if pageResponse.Code != http.StatusNotFound {
 		t.Fatalf("page status=%d body=%s", pageResponse.Code, pageResponse.Body.String())
 	}
 

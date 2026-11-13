@@ -45,13 +45,6 @@ coverage/
 **/__pycache__/
 *.py[cod]
 
-# Frontend dependencies and caches. internal/admin/dist is committed because
-# it is embedded in the Go binaries.
-/web/node_modules/
-/web/.vite/
-/web/dist/
-*.tsbuildinfo
-.eslintcache
 /dist/
 
 # Editors and operating systems

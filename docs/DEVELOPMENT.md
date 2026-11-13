@@ -6,7 +6,6 @@ This page covers the source workflow. For the component model first, read
 ## Toolchain
 
 - Go 1.25.5 or a later compatible Go 1.25 release.
-- Node.js 22 and npm.
 - Rust with the `x86_64-unknown-linux-musl` and
   `aarch64-unknown-linux-musl` targets for the importer and Android readers.
 - ADB available on `PATH`.
@@ -14,12 +13,6 @@ This page covers the source workflow. For the component model first, read
 - A compatible rooted Android emulator or physical phone for end-to-end tests.
 
 ## Install dependencies
-
-```powershell
-cd web
-npm ci
-cd ..
-```
 
 Install the Rust cross-compilation targets:
 
@@ -32,32 +25,17 @@ Go and Cargo dependencies are downloaded by their build commands.
 ## Run from source
 
 ```powershell
-npm --prefix web run build
 powershell -ExecutionPolicy Bypass -File desktop/build.ps1
 .\ptcgp-private-server.exe
 ```
 
 `desktop/build.ps1` builds the backend (`bin\ptcgp-server.exe`), the Android
 readers, and the desktop app, which compiles the readers in. Rebuild after
-changing Go, Rust, or frontend sources; the embedded frontend comes from
-`internal/admin/dist`.
-
-To run the frontend development server separately:
-
-```powershell
-cd web
-npm run dev
-```
-
-The Vite development server listens on `127.0.0.1:5173`. It is a frontend
-workflow, not a replacement for the Go backend.
+changing Go or Rust sources.
 
 ## Manual build
 
 ```powershell
-cd web
-npm run build
-cd ..
 New-Item -ItemType Directory -Force bin | Out-Null
 go build -o bin/ptcgp-server.exe ./cmd/ptcgp-server
 ./native/build.ps1
@@ -67,26 +45,18 @@ Copy-Item desktop/target/release/ptcgp-private-server.exe ptcgp-private-server.e
 
 `desktop/build.ps1` runs the same steps; see [Desktop application](DESKTOP.md).
 
-The frontend build is written to `internal/admin/dist` and embedded in the Go
-executables. Commit regenerated files in that directory whenever the web source
-changes.
-
 ## Validate before a pull request
 
 ```powershell
 go test ./...
 go vet ./...
 cargo test --locked --manifest-path native/importer/Cargo.toml
-cd web
-npm run lint
-npm exec tsc -- -b
-npm run build
-cd ..
+cargo build --release --manifest-path desktop/Cargo.toml
 .\scripts\check_publication.ps1
 ```
 
-CI also checks Go formatting, verifies that `internal/admin/dist` matches the
-frontend source, and builds the native importer and both Android readers.
+CI also checks Go formatting and builds the native importer and both Android
+readers.
 
 Tests use a synthetic master-data fixture from `internal/testfixture`; they do
 not require or publish local game data. Set `PTCGP_TEST_MASTER_DATA` only when
@@ -95,7 +65,6 @@ you intentionally run compatible integration checks against a local dataset.
 ## Generated code and assets
 
 - Keep generated `.pb.go` files synchronized with their `.proto` declarations.
-- Treat `internal/admin/dist` as generated but committed release input.
 - Never commit `data/`, `certs/`, binaries, traffic captures, Android backups,
   APKs, native libraries, credentials, or personal paths.
 - Keep imported game data in ignored `data/generations/`. Commit only validated

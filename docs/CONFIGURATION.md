@@ -29,8 +29,7 @@ selected configuration file, not from the terminal's current directory.
 | --- | --- | --- |
 | `runtime.address` | `127.0.0.1:443` | First device's local HTTPS and gRPC game endpoint |
 | `runtime.adminAddress` | `127.0.0.1:8081` | First device's internal administration API |
-| `runtime.launcherAddress` | `127.0.0.1:8080` | Browser control panel |
-| `runtime.lanAddress` | `0.0.0.0:8082` in the bundled configuration | Home Wi-Fi panel listener; omit or empty to disable |
+| `runtime.launcherAddress` | `127.0.0.1:8080` | Control panel API used by the desktop app |
 | `runtime.database` | `data/ptcgp.db` | SQLite profile database |
 | `runtime.certificate` | `certs/server.pem` | Generated server certificate |
 | `runtime.privateKey` | `certs/server-key.pem` | Generated private key |
@@ -40,16 +39,9 @@ selected configuration file, not from the terminal's current directory.
 | `runtime.strictMetadata` | `true` | Require the approved client metadata profile |
 
 `adminAddress` and `launcherAddress` must use `127.0.0.1` and must be different.
-Keep the game, internal administration, and primary panel services on loopback.
-The bundled configuration also enables the separate home Wi-Fi panel listener
-at `0.0.0.0:8082`. To enable it in an older configuration, set `lanAddress` to
-that value and restart the launcher. Open
-`http://<PC IPv4 address>:8082` on a device connected to the same home network.
-The Wi-Fi listener accepts private IPv4 clients and numeric local addresses;
-the existing origin and CSRF checks still apply. All devices on that network
-can control the panel. Allow TCP port 8082 in Windows Firewall for the private
-network and local subnet only. Do not forward this port on your router.
-Remove `lanAddress` to disable Wi-Fi access.
+Keep the game, internal administration, and panel services on loopback. A
+`lanAddress` left from an older configuration is ignored: the browser panel
+for phones has been removed.
 
 Additional devices receive independent loopback game and administration ports
 automatically. Their addresses are saved in `emulators.json` under
@@ -70,8 +62,7 @@ For normal use, choose the device in the panel; no manual serial is required.
 A rooted phone connects through USB or Wi-Fi ADB, following the
 [phone setup guide](INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
 With the launcher-managed ADB reverse tunnel, keep the bundled
-`android.serverAddress` unchanged. `runtime.lanAddress` only enables browser
-access to the panel; it does not establish the phone's ADB connection.
+`android.serverAddress` unchanged.
 `data/device.json` is written automatically after selection. Independent server
 addresses are saved in `data/runtime/emulators.json`; additional device runtime
 files live under `data/runtime/emulators/`. Accounts and imported data are shared.
@@ -140,7 +131,7 @@ ptcgp-private-server.exe [action] [options]
 | --- | --- |
 | `-Serial <serial>` | Override the selected ADB device; `stop` still affects all managed devices |
 | `-Package <name>` | Override the Android package for this command |
-| `-NoOpen` | Do not open a browser window |
+| `-NoOpen` | Do not open the desktop window |
 | `-Json` | Print action or status output as JSON |
 | `--config <path>` | Use another `server.json` |
 

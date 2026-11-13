@@ -11,7 +11,6 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
-	"testing/fstest"
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
@@ -163,7 +162,7 @@ func TestFailedLaunchRestoresAccountAndDoesNotAffectOtherEmulator(t *testing.T) 
 func TestDeviceSelectionEndpointIsProtectedAndSkipsPreparation(t *testing.T) {
 	m, _ := multiRunnerFixture(t)
 	backend, _ := url.Parse("http://127.0.0.1:18081")
-	h, err := New(fstest.MapFS{"index.html": {Data: []byte("panel")}}, backend, m)
+	h, err := New(backend, m)
 	if err != nil {
 		t.Fatal(err)
 	}

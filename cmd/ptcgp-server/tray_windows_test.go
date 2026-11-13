@@ -4,12 +4,11 @@ package main
 
 import (
 	"os"
-	"path/filepath"
 	"testing"
 )
 
 func TestSystemTrayStartsAndStops(t *testing.T) {
-	icon, err := os.ReadFile(filepath.Join("..", "..", "web", "public", "app-icon.svg"))
+	icon, err := os.ReadFile("app-icon.svg")
 	if err != nil {
 		t.Fatal(err)
 	}

@@ -1,17 +1,15 @@
-// Package admin exposes the loopback-only JSON administration API and serves
-// the separately built React application.
+// Package admin exposes the loopback-only JSON administration API used by the
+// desktop application.
 package admin
 
 import (
 	"context"
 	"crypto/rand"
 	"crypto/subtle"
-	"embed"
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/fs"
 	"log/slog"
 	"net"
 	"net/http"
@@ -31,16 +29,6 @@ import (
 
 const maxBodyBytes = 1 << 20
 
-//go:embed dist
-var frontend embed.FS
-
-// Frontend returns the embedded administration application. The lightweight
-// control panel serves the same files while proxying data requests to the
-// private server process.
-func Frontend() (fs.FS, error) {
-	return fs.Sub(frontend, "dist")
-}
-
 type Handler struct {
 	catalogVersion          string
 	catalogs                *catalog.Registry
@@ -53,7 +41,6 @@ type Handler struct {
 	trafficHistory          string
 	trafficHistoryForDevice func(context.Context) string
 	csrf                    string
-	static                  http.Handler
 }
 
 type Option func(*Handler)
@@ -90,11 +77,7 @@ func New(players *player.Manager, launcher player.GameLauncher, logger *slog.Log
 	if err != nil {
 		return nil, err
 	}
-	dist, err := Frontend()
-	if err != nil {
-		return nil, fmt.Errorf("open embedded admin frontend: %w", err)
-	}
-	handler := &Handler{players: players, launcher: launcher, logger: logger, csrf: token, static: http.FileServer(http.FS(dist))}
+	handler := &Handler{players: players, launcher: launcher, logger: logger, csrf: token}
 	for _, option := range options {
 		option(handler)
 	}
@@ -131,17 +114,8 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		h.serveAPI(w, r)
 		return
 	}
-	if r.Method != http.MethodGet && r.Method != http.MethodHead {
-		h.writeError(w, http.StatusMethodNotAllowed, "Méthode non autorisée.")
-		return
-	}
-	if !strings.Contains(strings.TrimPrefix(r.URL.Path, "/"), ".") {
-		clone := r.Clone(r.Context())
-		clone.URL.Path = "/"
-		h.static.ServeHTTP(w, clone)
-		return
-	}
-	h.static.ServeHTTP(w, r)
+	// The desktop application is the only client: there are no web pages.
+	h.writeError(w, http.StatusNotFound, "Introuvable.")
 }
 
 func (h *Handler) serveAPI(w http.ResponseWriter, r *http.Request) {

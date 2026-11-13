@@ -19,16 +19,6 @@ jobs:
           go-version-file: go.mod
           cache: true
 
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: web/package-lock.json
-
-      - name: Install frontend dependencies
-        working-directory: web
-        run: npm ci
-
       - name: Check Go formatting
         shell: pwsh
         run: |
@@ -42,21 +32,6 @@ jobs:
 
       - name: Vet Go packages
         run: go vet ./...
-
-      - name: Lint frontend
-        working-directory: web
-        run: npm run lint
-
-      - name: Type-check frontend
-        working-directory: web
-        run: npm exec tsc -- -b
-
-      - name: Build frontend
-        working-directory: web
-        run: npm run build
-
-      - name: Verify embedded frontend is current
-        run: git diff --exit-code -- internal/admin/dist
 
       - name: Check publication safety
         shell: pwsh

@@ -10,7 +10,7 @@ server, web interface, extraction profiles, and precompiled Rust tools. Game
 data is prepared locally on first launch. Building from source is for
 contributors and developers.
 
-| Method | Requires Go, Node.js, and Rust | Recommended for |
+| Method | Requires Go and Rust | Recommended for |
 | --- | --- | --- |
 | [Windows release](#install-a-windows-release) | No | Almost everyone |
 | [Source checkout](#run-from-source) | Yes | Development and contributions |
@@ -152,12 +152,7 @@ listed as `device`. **Refresh** updates the selector after that connection;
 it does not pair phones automatically. Local mode creates the game's ADB
 reverse tunnel automatically, just as it does over USB. Keep game and internal
 administration listeners on loopback; you do not need to change
-`android.serverAddress`, expose port `443`, or configure `runtime.lanAddress`
-for this ADB setup.
-
-The optional [home Wi-Fi panel listener](CONFIGURATION.md#runtime) is only for
-opening the control panel in the phone's browser. It is separate from connecting
-the game through Wi-Fi ADB.
+`android.serverAddress` or expose port `443` for this ADB setup.
 
 If the Wi-Fi address or connection port changes, reconnect using the current
 values, select **Refresh**, and re-enable **Local** to restore the tunnel.
@@ -197,8 +192,7 @@ unique local certificate authority on first use.
    wait for Android to finish booting.
 2. Close the game if it is already running.
 3. Double-click `ptcgp-private-server.exe`.
-4. Your browser should open <http://127.0.0.1:8080>. If it does not, open that
-   address yourself.
+4. The control panel window opens.
 5. Wait for preparation to import the installed game's data and all nine languages.
    Select the Android device if several are connected. The panel switches to Accounts
    when validation succeeds.
@@ -240,7 +234,6 @@ ptcgp-private-server.exe status -Serial 127.0.0.1:5555
 Install these development tools first:
 
 - Go 1.25.5 or a later compatible Go 1.25 release;
-- Node.js 22 with npm;
 - Rust with both Linux musl targets listed below;
 - ADB and the Android-device requirements above.
 
@@ -248,10 +241,7 @@ Then run:
 
 ```powershell
 git clone https://github.com/Layen-lang/PTCGP-Private-Server.git
-cd PTCGP-Private-Server\web
-npm ci
-npm run build
-cd ..
+cd PTCGP-Private-Server
 rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
 powershell -ExecutionPolicy Bypass -File desktop/build.ps1
 .\ptcgp-private-server.exe

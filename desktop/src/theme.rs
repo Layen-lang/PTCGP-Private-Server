@@ -1,5 +1,5 @@
-//! Port of `web/src/theme.ts`: the same presets, persistence rules and
-//! colour derivation, so the desktop panel matches the browser panel.
+//! Theme presets, persistence rules and colour derivation (carried over from
+//! the former web panel so existing preferences look the same).
 
 use gpui_kit::{rgb, Hsla};
 use serde::{Deserialize, Serialize};

@@ -36,7 +36,7 @@ func Run(args []string) error {
 	flags := flag.NewFlagSet("ptcgp-server "+action, flag.ContinueOnError)
 	serial := flags.String("serial", os.Getenv("PTCGP_ADB_SERIAL"), "ADB serial (automatic when empty)")
 	packageName := flags.String("package", "", "Android package override")
-	noOpen := flags.Bool("noopen", false, "do not open the browser")
+	noOpen := flags.Bool("noopen", false, "do not open the desktop window")
 	jsonOutput := flags.Bool("json", false, "print machine-readable status")
 	if err := flags.Parse(args); err != nil {
 		return err

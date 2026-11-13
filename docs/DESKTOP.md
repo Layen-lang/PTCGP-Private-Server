@@ -5,7 +5,7 @@ PTCGP Private Server ships as two Windows executables:
 | File | Role |
 | --- | --- |
 | `ptcgp-private-server.exe` | The desktop app a user launches. It also contains the data importer and both Android readers |
-| `bin\ptcgp-server.exe` | The single backend: control panel API, accounts, Android control, data preparation, Wi-Fi web panel, and the game server for every device |
+| `bin\ptcgp-server.exe` | The single backend: control panel API, accounts, Android control, data preparation, and the game server for every device |
 
 There are no other executables or libraries. The Android readers are Linux
 programs for emulators: they are compiled into the app and streamed to the
@@ -71,9 +71,9 @@ also works for interface work; it embeds the readers built by
 | `desktop/build.rs` | Compiles the Android readers into the app |
 | `desktop/src/api.rs` | HTTP client for the panel API (same CSRF rules as the web panel) |
 | `desktop/src/http.rs` | Image loading for GPUI |
-| `desktop/src/theme.rs` | Port of `web/src/theme.ts` (presets and colour derivation) |
-| `desktop/src/i18n.rs`, `desktop/locales/` | Translations generated from `web/src/i18n/locales` |
-| `desktop/src/ui/` | Shell and pages, mirroring `web/src/App.tsx` and `web/src/pages/` |
+| `desktop/src/theme.rs` | Theme presets and colour derivation |
+| `desktop/src/i18n.rs`, `desktop/locales/` | French and English translations |
+| `desktop/src/ui/` | Shell and pages |
 
 Desktop preferences (language, theme, last page) are stored in
 `data/desktop.json`.

@@ -1,5 +1,5 @@
 //! Blocking client for the panel's HTTP API (same endpoints and CSRF rules as
-//! `web/src/api.ts`). Calls run on GPUI's background executor.
+//! the web panel it replaced). Calls run on GPUI's background executor.
 
 use anyhow::{anyhow, Result};
 use serde::de::DeserializeOwned;

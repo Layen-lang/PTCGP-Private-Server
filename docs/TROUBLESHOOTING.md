@@ -30,7 +30,7 @@ local state.
 | Port already in use | Another process owns a configured or assigned port | Inspect the port named in the error and stop the conflicting process |
 | Version or hash mismatch | The installed game build is unsupported | Return to Official mode and use a project release that supports that game build |
 | Preparation is blocked or data fails to load | Game resources are incomplete, or the local generation is missing or damaged | Finish the official game's resource download, then select **Retry preparation** in the panel |
-| Browser does not open | Default-browser launch failed | Open <http://127.0.0.1:8080> manually |
+| The window does not open | `ptcgp-private-server.exe` is missing or `bin\\ptcgp-server.exe` cannot start | Keep both files from the release together and check `data/runtime/launcher.stderr.log` |
 | Official restoration is pending | Stop was requested while the emulator was unavailable | Reconnect the emulator and run the launcher again |
 
 An authentication error such as `103-011-010` on Android 14 or newer usually
@@ -82,7 +82,7 @@ The default ports are:
 | Port | Owner |
 | --- | --- |
 | `443` | First emulator's local game HTTPS and gRPC server |
-| `8080` | Browser control panel |
+| `8080` | Control panel API (desktop app only) |
 | `8081` | First emulator's internal administration API |
 
 Additional emulators receive their own loopback game and administration ports,

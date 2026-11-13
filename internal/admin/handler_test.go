@@ -143,13 +143,14 @@ func request(handler *Handler, method, path, body, origin, fetchSite string) *ht
 	return response
 }
 
-func TestReactApplicationAndCSRFProtection(t *testing.T) {
+func TestNoWebPagesAndCSRFProtection(t *testing.T) {
 	t.Parallel()
 	handler, _, state := newFixture(t)
 	defer state.Close()
 
+	// The desktop application is the only client: no web pages are served.
 	page := request(handler, http.MethodGet, "/accounts", "", "", "")
-	if page.Code != http.StatusOK || !strings.Contains(page.Body.String(), "PTCGP") {
+	if page.Code != http.StatusNotFound {
 		t.Fatalf("page status=%d body=%s", page.Code, page.Body.String())
 	}
 	bootstrap := request(handler, http.MethodGet, "/api/bootstrap", "", "", "")

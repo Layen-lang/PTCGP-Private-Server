@@ -21,16 +21,10 @@ go vet ./...
 rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
 cargo test --locked --manifest-path native/importer/Cargo.toml
 ./native/build.ps1
-cd web
-npm ci
-npm run lint
-npm exec tsc -- -b
-npm run build
-cd ..
+cargo build --release --manifest-path desktop/Cargo.toml
 ./scripts/check_publication.ps1
 ```
 
-Commit the regenerated `internal/admin/dist` files when the frontend changes.
 Keep generated protobuf sources synchronized with their `.proto` declarations.
 
 ## Conventions

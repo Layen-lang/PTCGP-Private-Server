@@ -82,7 +82,7 @@ a detached temporary installer. After the old panel exits, the installer backs
 up the accounts database and affected files, then replaces `bin/`, `profiles/`, `VERSION`
 and compatibility metadata in `server.json` in the original installation.
 Local runtime paths, Android settings, accounts and certificates are preserved.
-The installer starts the panel again automatically; the browser reloads only
+The installer starts the panel again automatically; the desktop app reconnects
 after a different process reports the expected installed version. Startup failure
 restores the previous files and database and restarts the previous panel.
 
@@ -111,15 +111,12 @@ Older distributions need one manual move to this launcher. Keep a backup before
 that first migration. Subsequent updates operate in the same installation.
 The previous data generation and program backup are retained; no Git history is rewritten.
 
-The Wi-Fi panel defaults to `0.0.0.0:8082` when `runtime.lanAddress` is omitted.
-Set that field to an empty string to disable it or to a private IPv4 address
-and port to customize it. Published configuration omits the field so the
-1.7.5.1 installer can read the 1.7.5.2 update. Replacement launchers validate
-new release fields during startup, with rollback if validation fails.
+Replacement launchers validate new release fields during startup, with
+rollback if validation fails.
 
 ## Building and publishing
 
-Development adds Rust to the existing Go/Node requirements:
+Development needs Go and Rust:
 
 `native/build.ps1` builds the two Android readers into `native/target/readers`.
 The desktop app compiles them in, together with the importer, so a release ships
@@ -128,7 +125,6 @@ no native tool as a separate file.
 ```powershell
 rustup target add x86_64-unknown-linux-musl aarch64-unknown-linux-musl
 ./native/build.ps1
-npm --prefix web run build
 go test ./...
 cargo test --locked --manifest-path native/importer/Cargo.toml
 ```

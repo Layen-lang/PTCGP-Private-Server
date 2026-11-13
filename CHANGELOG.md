@@ -6,6 +6,17 @@ revision for that game version.
 
 ## Unreleased
 
+### Changed
+
+- The control panel is now a native Windows app (`ptcgp-private-server.exe`)
+  backed by a single server (`bin\ptcgp-server.exe`) that hosts every
+  device's game server.
+
+### Removed
+
+- The browser panel, including the home Wi-Fi panel on port 8082.
+  `runtime.lanAddress` is ignored.
+
 ## [1.8.1.0] - 2026-10-29
 
 ### Changed

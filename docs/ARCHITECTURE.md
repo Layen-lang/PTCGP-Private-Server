@@ -1,17 +1,17 @@
 # Architecture
 
-PTCGP Private Server is a local compatibility stack with a short-lived command
-controller, a persistent browser panel, one game-facing server per active
+PTCGP Private Server is a local compatibility stack with a native desktop
+app, a persistent backend that hosts one game-facing server per active
 Android device, and temporary Android integration. Devices may be rooted
 emulators or physical Android phones connected through USB or Wi-Fi ADB.
 
 ## Component map
 
 ```text
-Browser
-  │ http://127.0.0.1:8080
+Desktop app (ptcgp-private-server.exe)
+  │ http://127.0.0.1:8080 (loopback API)
   ▼
-Launcher / control panel
+Backend / control panel (ptcgp-server.exe)
   ├── ADB + root ──► Android device A ── HTTPS / gRPC ──► Private server A
   ├── ADB + root ──► Android device B ── HTTPS / gRPC ──► Private server B
   ├── shared SQLite profiles, account reservations, and pack rules
@@ -28,13 +28,13 @@ selected device's administration endpoint.
 | Component | Entry point | Default address | Responsibility |
 | --- | --- | --- | --- |
 | Desktop app | `ptcgp-private-server.exe` | none | Native interface; data importer and Android readers |
-| Control panel | `ptcgp-server.exe serve-panel` | `127.0.0.1:8080` | Panel API, Wi-Fi React UI, Android actions, and hosting of every game server |
+| Control panel | `ptcgp-server.exe serve-panel` | `127.0.0.1:8080` | Panel API for the desktop app, Android actions, and hosting of every game server |
 | Game server | inside the control panel, one per active device | First: `127.0.0.1:443`; others: allocated loopback ports | Serve local HTTPS, REST, and gRPC game endpoints |
 | Admin API | each game server | First: `127.0.0.1:8081`; others: allocated loopback ports | Administration and per-device live traffic |
 | CLI | `ptcgp-server.exe <action>` | none | Run one action through the running panel |
 
-The panel proxies administration requests so the browser only needs the
-launcher address. Mutating control actions require the panel's same-origin CSRF
+The panel proxies administration requests so the desktop app only needs the
+launcher address. It serves no web pages. Mutating control actions require the panel's same-origin CSRF
 token. Administration listeners are required to remain on loopback.
 
 Additional game and administration ports are allocated automatically and saved
@@ -56,7 +56,7 @@ shared; game credentials and sessions are scoped to an emulator.
 | `internal/updates` | Signed release download, activation, and rollback |
 | `native/importer` and `native/reader` | Game data extraction on Windows and Android |
 | `profiles` | Published extraction plans and image index |
-| `internal/admin` | Embedded frontend and administration handlers |
+| `internal/admin` | Administration API handlers |
 | `internal/playerapi` | gRPC Player API compatibility handlers |
 | `internal/restapi` | HTTP compatibility handlers |
 | `internal/store` | SQLite persistence and migrations |
@@ -64,7 +64,6 @@ shared; game credentials and sessions are scoped to an emulator.
 | `internal/packlab` | Official and custom pack-opening rules |
 | `internal/protocol` | Approved client metadata policy |
 | `internal/proto` | Interoperability protocol declarations and generated Go code |
-| `web` | React and TypeScript control panel source |
 
 ## Local-mode lifecycle
 
@@ -111,7 +110,7 @@ allowing a short grace period while a game starts.
 | `profiles/` | Per release | Validated extraction and compatibility metadata |
 | `data/generations/` | Per imported game profile | Validated local master data and indexed images |
 | `data/updates/` | Per installation | Verified update downloads, program backups, and installer diagnostics |
-| Browser storage | Per browser profile | Language and visual preferences |
+| `data/desktop.json` | Per installation | Desktop language, theme, and last page |
 
 `data/`, `certs/`, and traffic-development workspaces are ignored by Git.
 Runtime locations above assume the default `runtime.runtimeDirectory`. Each
@@ -136,8 +135,7 @@ compatible rooted Android devices, including physical phones. Concurrent game se
 and panel; there are no separate panel user accounts. It is not an Internet
 service. The primary safeguards are loopback game and administration listeners,
 strict configuration, process ownership checks, CSRF protection, hash-guarded
-patching, and sanitized traffic previews. Optional home Wi-Fi panel access is
-described in [Configuration](CONFIGURATION.md#runtime).
+patching, and sanitized traffic previews.
 
 For operational rules and vulnerability reporting, see
 [SECURITY.md](../SECURITY.md).

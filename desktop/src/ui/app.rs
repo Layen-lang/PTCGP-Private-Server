@@ -1,5 +1,5 @@
 //! Application shell: sidebar, control top bar, global errors, status polling
-//! and page routing. Port of `web/src/App.tsx`.
+//! and page routing.
 
 use super::forms::{self, Choice, ChoiceState};
 use super::kit::{self, icon, pal, Colors, Kind};

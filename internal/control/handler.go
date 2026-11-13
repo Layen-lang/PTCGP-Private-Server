@@ -10,7 +10,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"io/fs"
 	"net"
 	"net/http"
 	"net/http/httputil"
@@ -81,7 +80,6 @@ type Handler struct {
 	preparationClosed bool
 	runner            Runner
 	proxy             *httputil.ReverseProxy
-	static            http.Handler
 	csrf              string
 	administration    http.Handler
 	journal           *Journal
@@ -97,7 +95,7 @@ type Handler struct {
 	hasLast     bool
 }
 
-func New(frontend fs.FS, backend *url.URL, runner Runner) (*Handler, error) {
+func New(backend *url.URL, runner Runner) (*Handler, error) {
 	token, err := randomToken()
 	if err != nil {
 		return nil, err
@@ -106,7 +104,6 @@ func New(frontend fs.FS, backend *url.URL, runner Runner) (*Handler, error) {
 	handler := &Handler{
 		runner: runner,
 		proxy:  proxy,
-		static: http.FileServer(http.FS(frontend)),
 		csrf:   token,
 	}
 	proxy.ErrorHandler = func(w http.ResponseWriter, r *http.Request, _ error) {
@@ -256,14 +253,9 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		} else {
 			backend.ServeHTTP(w, r)
 		}
-	case r.Method != http.MethodGet && r.Method != http.MethodHead:
-		writeJSON(w, http.StatusMethodNotAllowed, map[string]string{"error": "Method not allowed."})
-	case !strings.Contains(strings.TrimPrefix(r.URL.Path, "/"), "."):
-		clone := r.Clone(r.Context())
-		clone.URL.Path = "/"
-		h.static.ServeHTTP(w, clone)
 	default:
-		h.static.ServeHTTP(w, r)
+		// The desktop application is the only client: there are no web pages.
+		writeJSON(w, http.StatusNotFound, map[string]string{"error": "Not found."})
 	}
 }
 

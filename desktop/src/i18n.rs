@@ -1,5 +1,5 @@
-//! Same translation catalogue as the web panel (generated from
-//! `web/src/i18n/locales/*.ts`), with `{name}` interpolation.
+//! French and English translations (`desktop/locales/*.json`), with
+//! `{name}` interpolation.
 
 use std::collections::HashMap;
 use std::sync::atomic::{AtomicBool, Ordering};

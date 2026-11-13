@@ -51,7 +51,7 @@ func TestAdministrationAndLogsAvailableDuringOperation(t *testing.T) {
 	go func() { h.action(httptest.NewRecorder(), nil, "local"); close(done) }()
 	<-runner.started
 	defer func() { close(runner.release); <-done }()
-	for _, path := range []string{"/api/bootstrap", "/api/control/logs", "/api/control/logs/export", "/logs"} {
+	for _, path := range []string{"/api/bootstrap", "/api/control/logs", "/api/control/logs/export"} {
 		response := httptest.NewRecorder()
 		h.ServeHTTP(response, httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8080"+path, nil))
 		if response.Code != http.StatusOK {

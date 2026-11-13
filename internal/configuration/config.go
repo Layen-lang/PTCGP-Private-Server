@@ -19,10 +19,12 @@ import (
 )
 
 type Runtime struct {
-	StrictMetadata       bool   `json:"strictMetadata"`
-	Address              string `json:"address"`
-	AdminAddress         string `json:"adminAddress"`
-	LauncherAddress      string `json:"launcherAddress"`
+	StrictMetadata  bool   `json:"strictMetadata"`
+	Address         string `json:"address"`
+	AdminAddress    string `json:"adminAddress"`
+	LauncherAddress string `json:"launcherAddress"`
+	// LANAddress configured the removed browser panel for phones. It is
+	// accepted so existing configuration files still load, and ignored.
 	LANAddress           string `json:"lanAddress,omitempty"`
 	Database             string `json:"database"`
 	Certificate          string `json:"certificate"`
@@ -125,9 +127,7 @@ func readJSON(path string, target any, strict bool) error {
 
 // Load rejects incomplete configuration and resolves paths relative to the file.
 func Load(path string) (Config, error) {
-	// Keep the published JSON readable by older installers. An omitted LAN
-	// address uses the new default; an explicit empty string disables it.
-	c := Config{Runtime: Runtime{LANAddress: "0.0.0.0:8082"}}
+	var c Config
 	absolute, err := filepath.Abs(path)
 	if err != nil {
 		return c, err
@@ -185,19 +185,6 @@ func (c Config) Validate() error {
 	}
 	if c.Runtime.AdminAddress == c.Runtime.LauncherAddress {
 		return fmt.Errorf("admin and launcher addresses must differ")
-	}
-	if c.Runtime.LANAddress != "" {
-		host, port, err := net.SplitHostPort(c.Runtime.LANAddress)
-		ip := net.ParseIP(host)
-		if err != nil || ip == nil || ip.To4() == nil || (host != "0.0.0.0" && !ip.IsPrivate()) {
-			return fmt.Errorf("LAN panel address must use 0.0.0.0 or a private IPv4 address")
-		}
-		for _, address := range []string{c.Runtime.Address, c.Runtime.AdminAddress, c.Runtime.LauncherAddress} {
-			_, otherPort, _ := net.SplitHostPort(address)
-			if port == otherPort {
-				return fmt.Errorf("LAN panel port must differ from the other service ports")
-			}
-		}
 	}
 	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "android.package": c.Android.Package, "android.activity": c.Android.Activity, "android.serverAddress": c.Android.ServerAddress} {
 		if strings.TrimSpace(value) == "" {

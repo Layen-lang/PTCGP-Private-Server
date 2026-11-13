@@ -1,7 +1,6 @@
 # Using PTCGP Private Server
 
-The control panel is the main interface. Start it with `ptcgp-private-server.exe`, then
-open <http://127.0.0.1:8080> if the browser does not open automatically.
+The control panel is the main interface. Start it with `ptcgp-private-server.exe`.
 
 You can use a rooted Android emulator or a rooted physical phone. A phone can
 connect over USB or Wi-Fi ADB; follow the
@@ -150,8 +149,8 @@ account-related values.
 ## Settings
 
 Settings controls the interface language, light or dark appearance, theme
-colors, and interface size. These preferences are stored by the browser and do
-not change the game or local profiles.
+colors, and interface size. These preferences are stored in `data/desktop.json`
+and do not change the game or local profiles.
 
 ## Back up local profiles
 

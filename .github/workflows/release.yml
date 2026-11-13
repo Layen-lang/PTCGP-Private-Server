@@ -32,12 +32,6 @@ jobs:
           go-version-file: go.mod
           cache: true
 
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: web/package-lock.json
-
       - name: Validate tag
         shell: pwsh
         env:
@@ -50,12 +44,6 @@ jobs:
             gh release view $env:RELEASE_TAG --json tagName
             if ($LASTEXITCODE -ne 0) { throw "An in-place rebuild requires an existing release" }
           }
-
-      - name: Install and build frontend
-        working-directory: web
-        run: |
-          npm ci
-          npm run build
 
       - name: Test
         run: go test ./...

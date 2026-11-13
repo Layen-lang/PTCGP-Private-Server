@@ -67,56 +67,14 @@ func TestConfigResolvesRelativeToItsFileAndRejectsUnknownFields(t *testing.T) {
 	}
 }
 
-func TestLANConfiguration(t *testing.T) {
-	for _, test := range []struct {
-		address string
-		valid   bool
-	}{
-		{"", true},
-		{"0.0.0.0:8082", true},
-		{"192.168.1.132:8082", true},
-		{"8.8.8.8:8082", false},
-		{"example.test:8082", false},
-		{"[::]:8082", false},
-		{"0.0.0.0:8080", false},
-		{"0.0.0.0:8081", false},
-		{"0.0.0.0:443", false},
-	} {
-		t.Run(test.address, func(t *testing.T) {
-			var cfg Config
-			if err := json.Unmarshal(fixture(t), &cfg); err != nil {
-				t.Fatal(err)
-			}
-			cfg.Runtime.LANAddress = test.address
-			if err := cfg.Validate(); (err == nil) != test.valid {
-				t.Fatalf("Validate()=%v, valid=%v", err, test.valid)
-			}
-		})
+func TestLegacyLANAddressIsAccepted(t *testing.T) {
+	data := strings.Replace(string(fixture(t)), `"runtime":{`, `"runtime":{"lanAddress":"0.0.0.0:8082",`, 1)
+	path := filepath.Join(t.TempDir(), "server.json")
+	if err := os.WriteFile(path, []byte(data), 0600); err != nil {
+		t.Fatal(err)
 	}
-}
-
-func TestLoadLANDefaultAndExplicitSettings(t *testing.T) {
-	for _, test := range []struct {
-		name, field, want string
-	}{
-		{"omitted", "", "0.0.0.0:8082"},
-		{"disabled", `"lanAddress":"",`, ""},
-		{"custom", `"lanAddress":"192.168.1.10:9082",`, "192.168.1.10:9082"},
-	} {
-		t.Run(test.name, func(t *testing.T) {
-			data := strings.Replace(string(fixture(t)), `"runtime":{`, `"runtime":{`+test.field, 1)
-			path := filepath.Join(t.TempDir(), "server.json")
-			if err := os.WriteFile(path, []byte(data), 0600); err != nil {
-				t.Fatal(err)
-			}
-			cfg, err := Load(path)
-			if err != nil {
-				t.Fatal(err)
-			}
-			if cfg.Runtime.LANAddress != test.want {
-				t.Fatalf("LAN address=%q, want %q", cfg.Runtime.LANAddress, test.want)
-			}
-		})
+	if _, err := Load(path); err != nil {
+		t.Fatal(err)
 	}
 }
 

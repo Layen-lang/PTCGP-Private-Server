@@ -462,7 +462,7 @@ func (r *NativeRunner) StartPanel(ctx context.Context, open bool) error {
 		return err
 	}
 	if open {
-		// Prefer the native window; fall back to the browser panel.
+		// The desktop application is the control panel window.
 		for _, desktop := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(r.root, provision.DesktopExecutable)} {
 			if desktop == "" {
 				continue
@@ -471,7 +471,7 @@ func (r *NativeRunner) StartPanel(ctx context.Context, open bool) error {
 				return startDesktop(desktop, r.root)
 			}
 		}
-		return openBrowser("http://" + r.cfg.Runtime.LauncherAddress)
+		return fmt.Errorf("%s is missing next to the bin folder", provision.DesktopExecutable)
 	}
 	return nil
 }

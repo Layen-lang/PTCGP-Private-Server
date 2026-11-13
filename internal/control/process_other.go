@@ -36,11 +36,3 @@ func findManagedProcess(executable string) int {
 	}
 	return 0
 }
-
-func openBrowser(address string) error {
-	cmd := exec.Command("xdg-open", address)
-	if err := cmd.Start(); err != nil {
-		return err
-	}
-	return cmd.Process.Release()
-}

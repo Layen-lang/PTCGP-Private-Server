@@ -1,14 +1,15 @@
 // Command ptcgp-server is the single PTCGP Private Server backend: the
-// persistent control panel (accounts, Android control, data preparation,
-// Wi-Fi web panel), every device's game server hosted in the same process,
-// the command-line actions, and the server maintenance subcommands.
+// persistent control panel API used by the desktop application (accounts,
+// Android control, data preparation), every device's game server hosted in
+// the same process, the command-line actions, and the server maintenance
+// subcommands.
 package main
 
 import (
 	"context"
+	_ "embed"
 	"flag"
 	"fmt"
-	"io/fs"
 	"log/slog"
 	"net"
 	"net/http"
@@ -34,6 +35,9 @@ import (
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
+
+//go:embed app-icon.svg
+var trayIcon []byte
 
 func main() {
 	// Server maintenance subcommands (serve, cert, patch, verify…).
@@ -86,14 +90,6 @@ func runPanel(args []string) {
 	if err != nil {
 		fatal(err)
 	}
-	frontend, err := admin.Frontend()
-	if err != nil {
-		fatal(err)
-	}
-	trayIcon, err := fs.ReadFile(frontend, "app-icon.svg")
-	if err != nil {
-		fatal(err)
-	}
 	state, err := store.Open(context.Background(), cfg.Runtime.Database)
 	if err != nil {
 		fatal(err)
@@ -103,7 +99,7 @@ func runPanel(args []string) {
 	if err != nil {
 		fatal(err)
 	}
-	handler, err := control.New(frontend, backend, runner)
+	handler, err := control.New(backend, runner)
 	if err != nil {
 		fatal(err)
 	}
@@ -200,21 +196,6 @@ func runPanel(args []string) {
 		fatal(err)
 	}
 	go func() { serveResult <- server.Serve(listener) }()
-	if cfg.Runtime.LANAddress != "" {
-		lanListener, err := net.Listen("tcp4", cfg.Runtime.LANAddress)
-		if err != nil {
-			fatal(err)
-		}
-		lanServer := &http.Server{
-			Handler:           control.LANHandler(handler, *address),
-			ReadHeaderTimeout: 10 * time.Second,
-			IdleTimeout:       90 * time.Second,
-		}
-		defer lanServer.Close()
-		go func() { serveResult <- lanServer.Serve(lanListener) }()
-		slog.Info("Wi-Fi control panel available", "address", cfg.Runtime.LANAddress)
-		journal.Record("panel", "success", "Wi-Fi panel listening on "+cfg.Runtime.LANAddress)
-	}
 	// Validate and load the existing data generation only after the panel
 	// listens: clients can connect immediately and observe the "prepare"
 	// operation instead of waiting for catalog loading.

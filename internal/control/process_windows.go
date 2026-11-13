@@ -89,12 +89,3 @@ func findManagedProcess(executable string) int {
 	}
 	return 0
 }
-
-func openBrowser(address string) error {
-	cmd := exec.Command("rundll32.exe", "url.dll,FileProtocolHandler", address)
-	hideWindow(cmd)
-	if err := cmd.Start(); err != nil {
-		return err
-	}
-	return cmd.Process.Release()
-}
