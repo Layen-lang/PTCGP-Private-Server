@@ -6,6 +6,23 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.8.1.2] - 2026-11-14
+
+### Fixed
+
+- The app no longer mistakes another program listening on the panel port
+  (Steam's debugger uses `8080`, for example) for its backend, which showed
+  `HTTP error 404` on every page. It now checks that the panel itself answers,
+  and otherwise moves the panel to a free port saved in `server.local.json`.
+- **Update and restart** installs a downloaded update even when no backend is
+  running.
+- A first launch no longer stops on `preparation already running`: data
+  preparation starts, or reports that no emulator is connected.
+- Data preparation no longer freezes when ADB stalls one of its transfer
+  streams (seen as a progress bar stuck near 4,960 / 5,621 images). A stream
+  that sends nothing for 30 seconds is restarted for the images still missing.
+  Files left on the device by an interrupted import are removed by the next one.
+
 ## [1.8.1.1] - 2026-11-14
 
 ### Changed
