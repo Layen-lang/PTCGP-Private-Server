@@ -6,6 +6,8 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.8.1.1] - 2026-11-14
+
 ### Changed
 
 - Program updates are now handled by [Velopack](https://velopack.io). The app
