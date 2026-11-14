@@ -98,7 +98,7 @@ download on the phone before preparing local data.
 Use current Android SDK Platform-Tools. On the phone, enable **Developer
 options → Wireless debugging** on the same local network as the computer.
 
-The app does this for you in **Settings → Phone over Wi-Fi**:
+The app does this for you in **Settings → Devices → Phone over Wi-Fi**:
 
 1. On the phone, choose **Pair device with pairing code**. In the app, enter
    the IP address and port and the 6-digit code it shows, then click **Pair**.

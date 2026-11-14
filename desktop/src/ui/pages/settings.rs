@@ -1,5 +1,5 @@
-//! Port of `SettingsPage.tsx`: interface language, theme customisation and
-//! the devices the panel remembers.
+//! Port of `SettingsPage.tsx`, split into two tabs: "Interface" (language,
+//! theme customisation) and "Devices" (remembered devices, Wi-Fi pairing).
 
 use crate::api::{AndroidDevice, Api, ManagedDevice};
 use crate::i18n::{self, t, tf};
@@ -20,10 +20,17 @@ enum Menu {
     Preset,
 }
 
+#[derive(Clone, Copy, PartialEq)]
+enum Tab {
+    Interface,
+    Devices,
+}
+
 pub struct SettingsPage {
     pub system_dark: bool,
     settings: ThemeSettings,
     menu: Menu,
+    tab: Tab,
     advanced: bool,
     accent: Entity<InputState>,
     background: Entity<InputState>,
@@ -45,6 +52,8 @@ struct WifiForm {
     running: Option<&'static str>,
     /// Last outcome: success flag and message.
     outcome: Option<(bool, String)>,
+    /// The pairing steps are folded away until asked for.
+    open: bool,
 }
 
 impl EventEmitter<PageEvent> for SettingsPage {}
@@ -59,6 +68,7 @@ impl SettingsPage {
             connect_address: forms::text_state("", "192.168.1.50:41815", window, cx),
             running: None,
             outcome: None,
+            open: false,
         };
         let accent = forms::text_state("", "", window, cx);
         let background = forms::text_state("", "", window, cx);
@@ -72,7 +82,7 @@ impl SettingsPage {
                 if valid { this.update_scheme(field, value, cx) } else { this.sync_inputs(window, cx) }
             }));
         }
-        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, advanced: false, accent, background, foreground, managed: Vec::new(), devices: Vec::new(), busy: false, api, wifi, _subs: subs };
+        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, tab: Tab::Interface, advanced: false, accent, background, foreground, managed: Vec::new(), devices: Vec::new(), busy: false, api, wifi, _subs: subs };
         page.sync_inputs(window, cx);
         page
     }
@@ -104,7 +114,7 @@ impl SettingsPage {
                 forget = forget.on_click(cx.listener(move |_, _, _, cx| cx.emit(PageEvent::Forget(serial.clone()))));
             }
             let (state_bg, state_fg) = if connected { (p.brand_soft, p.brand_dark) } else { (p.surface_soft, p.muted) };
-            div().flex().items_center().gap(px(14.)).px(px(24.)).py(px(14.)).when(index > 0, |d| d.border_t_1().border_color(p.line))
+            div().flex().items_center().gap(px(14.)).px(px(24.)).py(px(10.)).when(index > 0, |d| d.border_t_1().border_color(p.line))
                 .child(icon(icon_name, 18., if connected { p.brand_dark } else { p.muted }))
                 .child(div().flex_1().min_w_0().flex().flex_col().gap(px(3.))
                     .child(div().flex().items_center().gap(px(8.)).flex_wrap()
@@ -143,10 +153,27 @@ impl SettingsPage {
         });
     }
 
+    /// Folding card: the header toggles the intro and the two pairing steps.
     fn render_wifi(&self, p: &Palette, cx: &mut Context<Self>) -> Div {
+        let open = self.wifi.open || self.wifi.running.is_some();
+        let header = div().id("wifi-toggle").flex().items_center().gap(px(13.)).px(px(24.)).py(px(18.)).cursor_pointer()
+            .hover({ let h = p.surface_hover; move |s| s.bg(h) })
+            .child(Self::section_icon("wifi", p))
+            .child(div().flex_1().min_w_0().flex().flex_col().gap(px(2.))
+                .child(div().text_size(px(15.)).font_weight(FontWeight::BOLD).child(t("settings.wifiTitle")))
+                .when(!open, |d| d.child(div().text_size(px(11.)).text_color(p.muted).truncate().child(t("settings.wifiAdd")))))
+            .child(icon(if open { "chevron-up" } else { "chevron-down" }, 16., p.muted))
+            .on_click(cx.listener(|this, _, _, cx| { this.wifi.open = !this.wifi.open; cx.notify() }));
+        div().border_1().border_color(p.line).rounded(px(14.)).bg(p.panel).overflow_hidden()
+            .child(header)
+            .when(open, |d| d.child(div().border_t_1().border_color(p.line).child(self.render_wifi_steps(p, cx))))
+    }
+
+    fn render_wifi_steps(&self, p: &Palette, cx: &mut Context<Self>) -> Div {
         let running = self.wifi.running;
+        let wide = !kit::compact(cx);
         let step = |number: &str, title: String, hint: String, fields: Vec<(String, &Entity<InputState>, f32)>, button: Stateful<Div>| {
-            div().flex().flex_col().gap(px(10.)).px(px(24.)).py(px(18.)).border_t_1().border_color(p.line)
+            div().flex_1().min_w_0().flex().flex_col().gap(px(10.)).px(px(24.)).py(px(18.))
                 .child(div().flex().items_center().gap(px(10.))
                     .child(div().size(px(22.)).flex_none().flex().items_center().justify_center().rounded_full().bg(p.brand_soft).text_color(p.brand_dark).text_size(px(11.)).font_weight(FontWeight::EXTRA_BOLD).child(number.to_string()))
                     .child(div().text_size(px(13.)).font_weight(FontWeight::BOLD).child(title)))
@@ -166,10 +193,17 @@ impl SettingsPage {
         };
         let pair_button = button("wifi-pair", t("settings.wifiPair"), "link", running == Some("pair"), true, cx);
         let connect_button = button("wifi-connect", t("settings.wifiConnect"), "wifi", running == Some("connect"), false, cx);
+        let pair = step("1", t("settings.wifiPairTitle"), t("settings.wifiPairHint"), vec![(t("settings.wifiAddress"), &self.wifi.pair_address, 200.), (t("settings.wifiCode"), &self.wifi.code, 110.)], pair_button);
+        let connect = step("2", t("settings.wifiConnectTitle"), t("settings.wifiConnectHint"), vec![(t("settings.wifiAddress"), &self.wifi.connect_address, 200.)], connect_button);
+        // Side by side on wide windows, stacked otherwise.
+        let steps = if wide {
+            div().flex().border_t_1().border_color(p.line).child(pair).child(connect.border_l_1().border_color(p.line))
+        } else {
+            div().flex().flex_col().child(pair.border_t_1().border_color(p.line)).child(connect.border_t_1().border_color(p.line))
+        };
         div().flex().flex_col()
             .child(div().px(px(24.)).py(px(16.)).text_size(px(12.)).text_color(p.muted).line_height(relative(1.5)).child(t("settings.wifiIntro")))
-            .child(step("1", t("settings.wifiPairTitle"), t("settings.wifiPairHint"), vec![(t("settings.wifiAddress"), &self.wifi.pair_address, 220.), (t("settings.wifiCode"), &self.wifi.code, 120.)], pair_button))
-            .child(step("2", t("settings.wifiConnectTitle"), t("settings.wifiConnectHint"), vec![(t("settings.wifiAddress"), &self.wifi.connect_address, 220.)], connect_button))
+            .child(steps)
             .when_some(self.wifi.outcome.clone(), |d, (ok, message)| {
                 let (bg, fg, border) = if ok { (p.brand_soft, p.brand_dark, p.brand_soft) } else { (p.danger_soft, p.danger, p.danger_line) };
                 d.child(div().mx(px(24.)).mb(px(18.)).px(px(14.)).py(px(10.)).rounded(px(8.)).border_1().border_color(border).bg(bg).text_color(fg).text_size(px(12.)).child(message))
@@ -239,12 +273,27 @@ impl SettingsPage {
                 .child(div().w(relative(0.76)).h(px(23.)).rounded(px(4.)).border_1().border_color(faint).bg(bg)))
     }
 
+    fn section_icon(name: &str, p: &Palette) -> Div {
+        div().size(px(36.)).flex_none().flex().items_center().justify_center().rounded(px(9.)).bg(p.brand_soft).child(icon(name, 18., p.brand_dark))
+    }
+
+    fn section_header(title: String, name: &str, right: Option<AnyElement>, p: &Palette) -> Div {
+        div().flex().items_center().gap(px(13.)).px(px(24.)).py(px(18.))
+            .child(Self::section_icon(name, p))
+            .child(div().flex_1().min_w_0().text_size(px(15.)).font_weight(FontWeight::BOLD).child(title))
+            .children(right)
+    }
+
     fn section(title: String, name: &str, body: impl IntoElement, p: &Palette) -> Div {
         div().relative().border_1().border_color(p.line).rounded(px(14.)).bg(p.panel)
-            .child(div().flex().items_center().gap(px(13.)).px(px(24.)).py(px(18.)).border_b_1().border_color(p.line)
-                .child(div().size(px(36.)).flex().items_center().justify_center().rounded(px(9.)).bg(p.brand_soft).child(icon(name, 18., p.brand_dark)))
-                .child(div().text_size(px(15.)).font_weight(FontWeight::BOLD).child(title)))
+            .child(Self::section_header(title, name, None, p).border_b_1().border_color(p.line))
             .child(body)
+    }
+
+    /// One-line card: title on the left, control on the right.
+    fn inline_section(title: String, name: &str, control: impl IntoElement, p: &Palette) -> Div {
+        div().relative().border_1().border_color(p.line).rounded(px(14.)).bg(p.panel)
+            .child(Self::section_header(title, name, Some(control.into_any_element()), p))
     }
 
     fn trigger(id: &'static str, badge: Option<Div>, label: Div, open: bool, p: &Palette) -> Stateful<Div> {
@@ -260,9 +309,9 @@ impl SettingsPage {
     }
 }
 
-impl Render for SettingsPage {
-    fn render(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
-        let p = pal(cx);
+impl SettingsPage {
+    /// Language and appearance.
+    fn render_interface(&self, p: &Palette, cx: &mut Context<Self>) -> Div {
         let locale = i18n::locale();
         let dark = self.editing_dark();
         let scheme = self.scheme().clone();
@@ -286,7 +335,7 @@ impl Render for SettingsPage {
                     .when(chosen, |d| d.child(icon("check", 15., p.brand)))
                     .on_click(cx.listener(move |this, _, _, cx| { this.menu = Menu::None; cx.emit(PageEvent::Locale(key.to_string())); cx.notify() }))
             }).collect::<Vec<_>>();
-            language = language.child(deferred(Self::menu_panel(&p).left_0().children(items)).with_priority(1));
+            language = language.child(deferred(Self::menu_panel(&p).children(items)).with_priority(1));
         }
 
         // Theme options.
@@ -346,12 +395,8 @@ impl Render for SettingsPage {
             .on_click(cx.listener(move |this, _, _, cx| { this.settings.ui_font_size = (this.settings.ui_font_size + delta).clamp(12., 18.); this.emit(cx) }));
         let warning = ratio < 4.5;
 
-        div().w_full().max_w(px(1120.)).mx_auto().p(px(32.)).flex().flex_col().gap(px(16.))
-            .on_mouse_down_out(cx.listener(|this, _, _, cx| if this.menu != Menu::None { this.menu = Menu::None; cx.notify() }))
-            .child(div().mb(px(8.)).text_size(px(30.)).font_weight(FontWeight::EXTRA_BOLD).child(t("settings.title")))
-            .child(Self::section(t("settings.language"), "languages", div().px(px(24.)).py(px(18.)).child(language), &p))
-            .child(Self::section(t("settings.devices"), "smartphone", self.render_devices(&p, cx), &p))
-            .child(Self::section(t("settings.wifiTitle"), "wifi", self.render_wifi(&p, cx), &p))
+        div().flex().flex_col().gap(px(16.))
+            .child(Self::inline_section(t("settings.language"), "languages", language, &p))
             .child(Self::section(t("settings.appearance"), "palette", div().flex().flex_col()
                 .child(div().flex().gap(px(12.)).px(px(24.)).pt(px(22.)).pb(px(26.)).children(options))
                 .child(div().relative().mx(px(24.)).mb(px(24.)).border_1().border_color(p.line).rounded(px(12.)).bg(p.panel)
@@ -377,5 +422,37 @@ impl Render for SettingsPage {
                             .child(icon("rotate-ccw", 14., p.muted)).child(t("settings.resetAll"))
                             .on_click(cx.listener(|this, _, window, cx| { this.settings = ThemeSettings::default(); this.sync_inputs(window, cx); this.emit(cx) })))))
                 , &p))
+    }
+}
+
+impl Render for SettingsPage {
+    fn render(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
+        let p = pal(cx);
+        let tab = |which: Tab, id: &'static str, name: &str, label: String, count: usize, cx: &mut Context<Self>| {
+            let active = self.tab == which;
+            let fg = if active { p.brand_dark } else { p.muted };
+            div().id(id).relative().flex().items_center().gap(px(8.)).h_full().px(px(14.)).text_size(px(13.)).font_weight(FontWeight::BOLD).text_color(fg).cursor_pointer()
+                .hover({ let i = p.ink; move |s| if active { s } else { s.text_color(i) } })
+                .child(icon(name, 16., fg)).child(label)
+                .when(count > 0, |d| d.child(kit::badge(count.to_string(), if active { p.brand_soft } else { p.surface_soft }, fg)))
+                .when(active, |d| d.child(div().absolute().left(px(6.)).right(px(6.)).bottom(px(-1.)).h(px(2.)).bg(p.brand)))
+                .on_click(cx.listener(move |this, _, _, cx| { this.tab = which; this.menu = Menu::None; cx.notify() }))
+        };
+        let tabs = div().flex().items_end().gap(px(4.)).h(px(46.)).border_b_1().border_color(p.line)
+            .child(tab(Tab::Interface, "tab-interface", "palette", t("settings.tabInterface"), 0, cx))
+            .child(tab(Tab::Devices, "tab-devices", "smartphone", t("settings.tabDevices"), self.managed.len(), cx));
+        let body = match self.tab {
+            Tab::Interface => self.render_interface(&p, cx),
+            // The folded Wi-Fi card stays reachable above a long device list.
+            Tab::Devices => div().flex().flex_col().gap(px(16.))
+                .child(self.render_wifi(&p, cx))
+                .child(Self::section(t("settings.devices"), "smartphone", self.render_devices(&p, cx), &p)),
+        };
+        div().w_full().max_w(px(1120.)).mx_auto().p(px(32.)).flex().flex_col().gap(px(20.))
+            .on_mouse_down_out(cx.listener(|this, _, _, cx| if this.menu != Menu::None { this.menu = Menu::None; cx.notify() }))
+            .child(div().flex().flex_col().gap(px(12.))
+                .child(div().text_size(px(30.)).font_weight(FontWeight::EXTRA_BOLD).child(t("settings.title")))
+                .child(tabs))
+            .child(body)
     }
 }
