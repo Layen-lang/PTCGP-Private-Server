@@ -21,19 +21,16 @@ import (
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/admin"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/assets"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/control"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/controlcli"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/packlab"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/servercmd"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/store"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
 //go:embed app-icon.svg
@@ -43,21 +40,6 @@ func main() {
 	// Server maintenance subcommands (serve, cert, patch, verify…).
 	if _, rest, err := configuration.Arguments(append([]string(nil), os.Args[1:]...)); err == nil && len(rest) > 0 && servercmd.Commands[rest[0]] {
 		servercmd.Main()
-		return
-	}
-	if len(os.Args) == 5 && os.Args[1] == "apply-update" {
-		pid, err := strconv.Atoi(os.Args[4])
-		if err != nil {
-			fatal(err)
-		}
-		if err = updates.Apply(os.Args[2], os.Args[3], pid); err != nil {
-			fatal(err)
-		}
-		return
-	}
-	if followed, err := updates.FollowInstalled(os.Args[1:]); err != nil {
-		fatal(err)
-	} else if followed {
 		return
 	}
 	if len(os.Args) > 1 && os.Args[1] == "serve-panel" {
@@ -84,12 +66,13 @@ func runPanel(args []string) {
 	flags := flag.NewFlagSet("ptcgp-server", flag.ExitOnError)
 	address := flags.String("address", cfg.Runtime.LauncherAddress, "control panel address")
 	backendAddress := flags.String("backend", "http://"+cfg.Runtime.AdminAddress, "private server administration URL")
-	projectRoot := flags.String("project-root", filepath.Dir(cfg.Path), "project directory")
+	projectRoot := flags.String("project-root", cfg.DataRoot(), "data directory")
 	flags.Parse(args)
 	backend, err := url.Parse(*backendAddress)
 	if err != nil {
 		fatal(err)
 	}
+	version := backupBeforeUpgrade(cfg)
 	state, err := store.Open(context.Background(), cfg.Runtime.Database)
 	if err != nil {
 		fatal(err)
@@ -110,12 +93,9 @@ func runPanel(args []string) {
 	runner.SetJournal(journal)
 
 	handler.SetAdministration(nil, journal, cfg.Android.Package, cfg.Android.Activity)
-	program, err := installation.Program(*projectRoot)
-	if err != nil {
-		fatal(err)
-	}
+	program := cfg.ProgramDir()
 	preparation := provision.New(cfg, *projectRoot, program)
-	updater := updates.New(*projectRoot, program)
+	handler.SetVersion(version)
 	defer handler.ClosePreparation()
 	activatePrepared := func(prepared configuration.Config) error {
 		catalogs, err := catalog.OpenRegistry(prepared.Data.MasterData, catalog.DefaultLocale, catalog.FallbackLocale)
@@ -145,31 +125,6 @@ func runPanel(args []string) {
 		}
 		return provision.WriteJSON(filepath.Join(*projectRoot, "data", "device.json"), map[string]string{"serial": prepared.Android.Serial})
 	})
-	handler.SetUpdates(updater, func() error { return updates.StartInstaller(*projectRoot, updater.PreparedKey()) })
-	updateCtx, stopUpdates := context.WithCancel(context.Background())
-	defer stopUpdates()
-	if filepath.Clean(program) == filepath.Clean(*projectRoot) {
-		go updater.Cleanup(updateCtx)
-	}
-	go func() {
-		for {
-			currentConfig := cfg
-			if refreshed, e := configuration.Load(cfg.Path); e == nil {
-				currentConfig = refreshed
-			}
-			game := currentConfig.Client.AppVersion
-			installed, installedErr := android.InstalledVersion(updateCtx, android.SystemRunner(), currentConfig)
-			if installedErr == nil {
-				game = installed
-			}
-			updater.Check(updateCtx, game)
-			select {
-			case <-updateCtx.Done():
-				return
-			case <-time.After(6 * time.Hour):
-			}
-		}
-	}()
 
 	server := &http.Server{Addr: *address, Handler: handler, ReadHeaderTimeout: 10 * time.Second, IdleTimeout: 90 * time.Second}
 	shutdownRequested := make(chan struct{}, 1)
@@ -270,4 +225,52 @@ func removeOwnedPID(path string) {
 func fatal(err error) {
 	fmt.Fprintln(os.Stderr, err)
 	os.Exit(1)
+}
+
+// backupBeforeUpgrade copies the accounts the first time a new program
+// version starts, before it can migrate the database. One backup is kept. It
+// returns the installed version.
+func backupBeforeUpgrade(cfg configuration.Config) string {
+	data, err := os.ReadFile(filepath.Join(cfg.ProgramDir(), "VERSION"))
+	version := strings.TrimSpace(string(data))
+	if err != nil || version == "" {
+		return ""
+	}
+	marker := filepath.Join(cfg.DataRoot(), "data", "version")
+	if previous, _ := os.ReadFile(marker); strings.TrimSpace(string(previous)) == version {
+		return version
+	}
+	if _, err = os.Stat(cfg.Runtime.Database); err == nil {
+		backups := filepath.Join(cfg.DataRoot(), "data", "backups")
+		if err = os.MkdirAll(backups, 0700); err == nil {
+			old, _ := filepath.Glob(filepath.Join(backups, "accounts-before-*.db*"))
+			for _, path := range old {
+				os.Remove(path)
+			}
+			target := filepath.Join(backups, "accounts-before-"+version+".db")
+			for _, suffix := range []string{"", "-wal"} {
+				var content []byte
+				if content, err = os.ReadFile(cfg.Runtime.Database + suffix); err == nil {
+					err = os.WriteFile(target+suffix, content, 0600)
+				} else if suffix != "" && os.IsNotExist(err) {
+					err = nil
+				}
+				if err != nil {
+					break
+				}
+			}
+		}
+		if err != nil {
+			// Without a backup, try again at the next start.
+			slog.Warn("accounts were not backed up before the upgrade", "error", err)
+			return version
+		}
+	}
+	if err = os.MkdirAll(filepath.Dir(marker), 0700); err == nil {
+		err = os.WriteFile(marker, []byte(version), 0600)
+	}
+	if err != nil {
+		slog.Warn("cannot record the installed version", "error", err)
+	}
+	return version
 }

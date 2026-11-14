@@ -7,35 +7,43 @@ use std::path::{Path, PathBuf};
 use std::process::{Command, Stdio};
 
 pub struct Installation {
+    /// User data (data, certs, server.local.json). Never replaced by updates.
     pub root: PathBuf,
+    /// Program files (bin, profiles, server.json), replaced by every update.
+    pub program: PathBuf,
     pub config: PathBuf,
     pub address: String,
 }
 
 impl Installation {
-    /// The installation root is the nearest directory (from the executable
-    /// upwards) holding `server.json`.
+    /// The program folder is the nearest directory (from the executable
+    /// upwards) holding the published `server.json`. An installed program
+    /// lives in `current` next to Update.exe and user data stays in the parent
+    /// folder; in a source checkout both are the same folder.
     pub fn locate() -> Self {
         let exe = std::env::current_exe().unwrap_or_default();
         let start = exe.parent().map(Path::to_path_buf).unwrap_or_default();
-        let mut root = start.clone();
+        let mut program = start.clone();
         // PTCGP_ROOT points a development build at another installation.
         let start = std::env::var_os("PTCGP_ROOT").map(PathBuf::from).unwrap_or(start);
         let mut cursor = Some(start.as_path());
         while let Some(dir) = cursor {
             if dir.join("server.json").is_file() {
-                root = dir.to_path_buf();
+                program = dir.to_path_buf();
                 break;
             }
             cursor = dir.parent();
         }
+        let installed = program.file_name().is_some_and(|name| name.eq_ignore_ascii_case("current"));
+        let root = program.parent().filter(|parent| installed && parent.join("Update.exe").is_file()).map(Path::to_path_buf).unwrap_or_else(|| program.clone());
         // PTCGP_CONFIG selects another configuration (side-by-side testing).
-        let config = std::env::var_os("PTCGP_CONFIG").map(|c| root.join(c)).unwrap_or_else(|| root.join("server.json"));
-        let address = std::fs::read_to_string(&config).ok()
-            .and_then(|text| serde_json::from_str::<serde_json::Value>(&text).ok())
-            .and_then(|value| value.pointer("/runtime/launcherAddress").and_then(|v| v.as_str()).map(str::to_string))
-            .unwrap_or_else(|| "127.0.0.1:8080".to_string());
-        Installation { root, config, address }
+        let config = std::env::var_os("PTCGP_CONFIG").map(|c| program.join(c)).unwrap_or_else(|| program.join("server.json"));
+        let read = |path: PathBuf| std::fs::read_to_string(path).ok()
+            .and_then(|text| serde_json::from_str::<serde_json::Value>(text.trim_start_matches('\u{feff}')).ok())
+            .and_then(|value| value.pointer("/runtime/launcherAddress").and_then(|v| v.as_str()).map(str::to_string));
+        // Local overrides win over the published configuration.
+        let address = read(root.join("server.local.json")).or_else(|| read(config.clone())).unwrap_or_else(|| "127.0.0.1:8080".to_string());
+        Installation { root, program, config, address }
     }
 
     fn settings_path(&self) -> PathBuf { self.root.join("data").join("desktop.json") }
@@ -56,15 +64,15 @@ impl Installation {
         }
     }
 
-    /// The backend server: bin\ptcgp-server.exe in the installation.
+    /// The backend server: bin\ptcgp-server.exe in the program folder.
     pub fn server_executable(&self) -> Option<PathBuf> {
-        Some(self.root.join("bin").join("ptcgp-server.exe")).filter(|path| path.is_file())
+        Some(self.program.join("bin").join("ptcgp-server.exe")).filter(|path| path.is_file())
     }
 
     /// Starts `serve-panel` detached so it keeps serving games after the
     /// window closes. Returns quickly; callers poll the API for readiness.
     pub fn start_panel(&self) -> anyhow::Result<()> {
-        let core = self.server_executable().ok_or_else(|| anyhow::anyhow!("bin/ptcgp-server.exe introuvable dans {}", self.root.display()))?;
+        let core = self.server_executable().ok_or_else(|| anyhow::anyhow!("bin/ptcgp-server.exe introuvable dans {}", self.program.display()))?;
         let runtime = self.root.join("data").join("runtime");
         std::fs::create_dir_all(&runtime)?;
         let stdout = std::fs::File::create(runtime.join("launcher.stdout.log"))?;

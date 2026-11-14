@@ -16,7 +16,6 @@ import (
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/localtls"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
@@ -55,10 +54,7 @@ func (nativeCommands) Run(ctx context.Context, name string, args ...string) ([]b
 
 // NewNativeRunner resolves the executables installed in the project.
 func NewNativeRunner(cfg configuration.Config, root string) (*NativeRunner, error) {
-	program, err := installation.Program(root)
-	if err != nil {
-		return nil, err
-	}
+	program := cfg.ProgramDir()
 	r := &NativeRunner{cfg: cfg, root: root, commands: nativeCommands{},
 		server: filepath.Join(program, "bin", "ptcgp-server.exe"), launcher: filepath.Join(program, "bin", "ptcgp-server.exe")}
 	return r, nil
@@ -485,11 +481,7 @@ func (r *NativeRunner) enableLocal(ctx context.Context, serial string) error {
 	if _, err := android.Inspect(ctx, r.commands, check); err != nil {
 		return err
 	}
-	program, err := installation.Program(r.root)
-	if err != nil {
-		return err
-	}
-	prepared, err := provision.Resolve(check, program)
+	prepared, err := provision.Resolve(check, r.cfg.ProgramDir())
 	if err != nil {
 		return err
 	}
@@ -618,7 +610,7 @@ func (r *NativeRunner) StartPanel(ctx context.Context, open bool) error {
 	}
 	if open {
 		// The desktop application is the control panel window.
-		for _, desktop := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(r.root, provision.DesktopExecutable)} {
+		for _, desktop := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(r.cfg.ProgramDir(), provision.DesktopExecutable)} {
 			if desktop == "" {
 				continue
 			}

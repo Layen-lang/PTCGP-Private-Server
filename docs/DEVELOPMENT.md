@@ -92,17 +92,16 @@ automatically after each release.
 2. Verify that the game version, build metadata, contracts, patch manifest,
    extraction plan, and image index belong to the same validated profile.
 3. Run every validation command above.
-4. Configure the matching Ed25519 public key repository variable
-   `PTCGP_UPDATE_PUBLIC_KEY` and private signing seed secret
-   `PTCGP_UPDATE_SIGNING_SEED` before the first signed release. Keep the seed
-   out of the repository.
-5. Push a tag equal to `v` plus the exact `VERSION` value.
-6. The release workflow builds Go and Rust executables, stages documentation
-   and `profiles/`, creates the ZIP, SHA-256 list, and signed update manifest,
-   then publishes a GitHub release. It does not package `game-data/`.
+4. Push a tag equal to `v` plus the exact `VERSION` value.
+5. The release workflow builds the Go and Rust executables, then
+   `desktop/package.ps1` stages the program folder and packages it with
+   [Velopack](https://velopack.io): installer, portable archive, full and delta
+   update packages, and the release feed. `vpk upload github` publishes them
+   as the GitHub release that installed applications read. It does not package
+   `game-data/`.
 
 See [Preparation and updates](LOCAL-DATA-UPDATES.md#building-and-publishing)
-for the signing and profile requirements.
+for packaging, local update tests and profile requirements.
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for contribution scope and language
 requirements.

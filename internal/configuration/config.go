@@ -1,4 +1,5 @@
-// Package configuration loads the single local server configuration.
+// Package configuration loads the server configuration: the file published
+// with the program, plus the optional local overrides kept with user data.
 package configuration
 
 import (
@@ -14,18 +15,14 @@ import (
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/binarypatch"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/protocol"
 )
 
 type Runtime struct {
-	StrictMetadata  bool   `json:"strictMetadata"`
-	Address         string `json:"address"`
-	AdminAddress    string `json:"adminAddress"`
-	LauncherAddress string `json:"launcherAddress"`
-	// LANAddress configured the removed browser panel for phones. It is
-	// accepted so existing configuration files still load, and ignored.
-	LANAddress           string `json:"lanAddress,omitempty"`
+	StrictMetadata       bool   `json:"strictMetadata"`
+	Address              string `json:"address"`
+	AdminAddress         string `json:"adminAddress"`
+	LauncherAddress      string `json:"launcherAddress"`
 	Database             string `json:"database"`
 	Certificate          string `json:"certificate"`
 	PrivateKey           string `json:"privateKey"`
@@ -38,7 +35,6 @@ type Android struct {
 	Serial        string   `json:"serial"`
 	Package       string   `json:"package"`
 	Activity      string   `json:"activity"`
-	ServerAddress string   `json:"serverAddress"`
 	RedirectHosts []string `json:"redirectHosts"`
 }
 
@@ -57,7 +53,56 @@ type Config struct {
 	Client        protocol.Profile       `json:"client"`
 	Contracts     contracts.Expectations `json:"contracts"`
 	Patch         binarypatch.Manifest   `json:"patch"`
-	Path          string                 `json:"-"`
+	// Path is the configuration published with the program; its directory
+	// holds the program files (bin, profiles, VERSION).
+	Path string `json:"-"`
+	// Root holds user data (data, certs, server.local.json). It survives
+	// program updates and is the base of relative paths.
+	Root string `json:"-"`
+}
+
+// LocalName is the optional file of local overrides in the data root. Any
+// value it contains replaces the published one; everything else follows the
+// installed release.
+const LocalName = "server.local.json"
+
+// Root returns the data root for a program directory. An installed program
+// lives in "current" next to Update.exe and is replaced on every update, so
+// user data stays in the parent directory. Elsewhere (a source checkout) the
+// program directory is also the data root.
+func Root(program string) string {
+	if strings.EqualFold(filepath.Base(program), "current") {
+		parent := filepath.Dir(program)
+		if info, err := os.Stat(filepath.Join(parent, "Update.exe")); err == nil && info.Mode().IsRegular() {
+			return parent
+		}
+	}
+	return program
+}
+
+// DataRoot is Root, derived from the program directory for a configuration
+// that was not read by Load.
+func (c Config) DataRoot() string {
+	if c.Root != "" {
+		return c.Root
+	}
+	return Root(c.ProgramDir())
+}
+
+// ProgramDir is the directory of the installed program files.
+func (c Config) ProgramDir() string { return filepath.Dir(c.Path) }
+
+// overlay replaces published values with local ones, object by object.
+func overlay(base, local map[string]any) {
+	for key, value := range local {
+		if next, ok := value.(map[string]any); ok {
+			if current, ok := base[key].(map[string]any); ok {
+				overlay(current, next)
+				continue
+			}
+		}
+		base[key] = value
+	}
 }
 
 // DefaultPath is independent of the package test working directory.
@@ -125,7 +170,8 @@ func readJSON(path string, target any, strict bool) error {
 	return nil
 }
 
-// Load rejects incomplete configuration and resolves paths relative to the file.
+// Load rejects incomplete configuration and resolves paths relative to the
+// data root.
 func Load(path string) (Config, error) {
 	var c Config
 	absolute, err := filepath.Abs(path)
@@ -136,30 +182,40 @@ func Load(path string) (Config, error) {
 		return c, err
 	}
 	c.Path = absolute
-	program, err := installation.Program(filepath.Dir(absolute))
-	if err != nil {
-		return c, err
-	}
-	if program != filepath.Dir(absolute) {
-		var release Config
-		if err = readJSON(filepath.Join(program, "server.json"), &release, true); err != nil {
+	c.Root = Root(filepath.Dir(absolute))
+	root := c.Root
+	if data, err := os.ReadFile(filepath.Join(root, LocalName)); err == nil {
+		var local, merged map[string]any
+		if err = json.Unmarshal(data, &local); err != nil {
+			return c, fmt.Errorf("decode %s: %w", LocalName, err)
+		}
+		published, err := os.ReadFile(absolute)
+		if err != nil {
 			return c, err
 		}
-		c.Client = release.Client
-		c.Contracts = release.Contracts
-		c.Patch = release.Patch
-		c.Android.RedirectHosts = release.Android.RedirectHosts
+		if err = json.Unmarshal(published, &merged); err != nil {
+			return c, err
+		}
+		overlay(merged, local)
+		if data, err = json.Marshal(merged); err != nil {
+			return c, err
+		}
+		// Unknown local keys are ignored: a release may retire a setting.
+		if err = json.Unmarshal(data, &c); err != nil {
+			return c, fmt.Errorf("decode %s: %w", LocalName, err)
+		}
+	} else if !os.IsNotExist(err) {
+		return c, err
 	}
 	if c.Android.Serial == "" {
 		var selected struct{ Serial string }
-		if readJSON(filepath.Join(filepath.Dir(absolute), "data", "device.json"), &selected, false) == nil {
+		if readJSON(filepath.Join(root, "data", "device.json"), &selected, false) == nil {
 			c.Android.Serial = selected.Serial
 		}
 	}
 	if err := c.Validate(); err != nil {
 		return Config{}, fmt.Errorf("validate server config: %w", err)
 	}
-	root := filepath.Dir(absolute)
 	for _, value := range []*string{&c.Runtime.Database, &c.Runtime.Certificate, &c.Runtime.PrivateKey, &c.Runtime.CertificateAuthority, &c.Runtime.TrafficLog, &c.Runtime.RuntimeDirectory, &c.Data.MasterData, &c.Data.Images} {
 		if *value != "" && !filepath.IsAbs(*value) {
 			*value = filepath.Join(root, filepath.FromSlash(*value))
@@ -186,7 +242,7 @@ func (c Config) Validate() error {
 	if c.Runtime.AdminAddress == c.Runtime.LauncherAddress {
 		return fmt.Errorf("admin and launcher addresses must differ")
 	}
-	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "android.package": c.Android.Package, "android.activity": c.Android.Activity, "android.serverAddress": c.Android.ServerAddress} {
+	for name, value := range map[string]string{"database": c.Runtime.Database, "certificate": c.Runtime.Certificate, "privateKey": c.Runtime.PrivateKey, "certificateAuthority": c.Runtime.CertificateAuthority, "trafficLog": c.Runtime.TrafficLog, "runtimeDirectory": c.Runtime.RuntimeDirectory, "android.package": c.Android.Package, "android.activity": c.Android.Activity} {
 		if strings.TrimSpace(value) == "" {
 			return fmt.Errorf("%s is required", name)
 		}

@@ -4,7 +4,7 @@ The Windows launcher opens its control panel before loading game data. Local
 mode requires validated master data and images plus a connected rooted Android
 device (emulator or physical phone). The selected device's game version and
 library are checked before Local mode starts. Accounts and settings remain
-under the original installation directory.
+in the installation folder, outside the program files.
 
 ## First launch
 
@@ -65,54 +65,45 @@ The preparation page appears only for missing or invalid data.
 
 ## Program updates
 
-The launcher checks the release manifest on opening and every six hours while
-open. Downloads are automatic. Ed25519 verifies the manifest, and SHA-256 plus
-exact sizes verify each component. Files already matching the new release are
-reused. Unsigned, damaged, incompatible, or incomplete downloads are not run.
-The latest release must support the installed game; automatic downgrades are
-refused. If it does not, the current installation is preserved.
+Updates are handled by [Velopack](https://velopack.io). The desktop app checks
+this project's GitHub releases when it opens and every six hours, downloads a
+newer version in the background (a small delta when possible) and verifies its
+checksum against the release feed. Nothing is installed during the download.
 
-When a download is ready, a theme-colored **Update and restart** button (or **Mettre à jour
-et redémarrer** in French) appears at the bottom of the sidebar. On mobile it
-appears above navigation. Download progress uses the same control. Every update,
-including a change to extraction profiles, waits for this action.
+When the download is ready, a theme-colored **Update and restart** button (or
+**Mettre à jour et redémarrer** in French) appears at the bottom of the
+sidebar, with the download progress shown in the same place before that.
 
-The launcher restores all managed Android devices, stops their game servers, and starts
-a detached temporary installer. After the old panel exits, the installer backs
-up the accounts database and affected files, then replaces `bin/`, `profiles/`, `VERSION`
-and compatibility metadata in `server.json` in the original installation.
-Local runtime paths, Android settings, accounts and certificates are preserved.
-The installer starts the panel again automatically; the desktop app reconnects
-after a different process reports the expected installed version. Startup failure
-restores the previous files and database and restarts the previous panel.
+Selecting it restores every managed Android device to the official game and
+stops the backend. Velopack's `Update.exe` then replaces the whole `current`
+folder with the new version and starts the app again. Because the folder is
+replaced as a whole, a release can add, rename or remove any program file
+without a change to the updater.
 
-`data/updates/versions/` holds verified downloads, and `data/updates/backup-*`
-holds original files for recovery. Active program files live at the root; the
-root `VERSION` now reflects the installed release. A legacy `current.json`
-selector is removed during installation and restored if rollback is needed.
-Users keep the same shortcut. The Android game is never updated by this system.
+User data is outside `current` and is never touched: `data/` (accounts,
+imported game data, logs), `certs/` and the optional `server.local.json`.
+The new version's `server.json` replaces the old one, so new settings and
+compatibility metadata always come from the release; local changes belong in
+[`server.local.json`](CONFIGURATION.md#local-settings).
 
-After the replacement panel confirms its health and the installer exits, cleanup
-removes the downloaded releases and temporary installers present before restart.
-Only the most recent program backup and its accounts database backup are retained.
-New downloads started by the replacement panel are preserved. The installer log
-keeps its latest 1 MiB, trimmed before installation and during successful cleanup.
-The launcher startup log is also trimmed to its latest 1 MiB before each update
-restart, including rollback restarts.
-Failed installations retain their recovery files. Interrupted cleanup is retried
-on the next root launcher startup; cleanup failure does not roll back a healthy panel.
+The first time a new version starts, the backend copies the accounts database
+to `data/backups/accounts-before-<version>.db` before opening it. Only the
+latest copy is kept. The Android game is never updated by this system.
 
-When an older installer places this launcher in a version directory, the new
-launcher offers the already verified local release through **Update and restart**
-to finish copying it to the root. This migration works even when that release is
-already the latest one or the network is unavailable; no new download is needed.
+A build run from the source tree is not an installation and does not update
+itself.
 
-Older distributions need one manual move to this launcher. Keep a backup before
-that first migration. Subsequent updates operate in the same installation.
-The previous data generation and program backup are retained; no Git history is rewritten.
+### Moving from 1.8.1.0 or an older ZIP
 
-Replacement launchers validate new release fields during startup, with
-rollback if validation fails.
+Older ZIP installations cannot update themselves to this layout. Once:
+
+1. Restore **Official** mode, select **Stop all** and close the old app.
+2. Install the new release.
+3. Close it, then copy the old `data` and `certs` folders into the new
+   installation folder (`%LocalAppData%\PTCGPPrivateServer`), next to
+   `Update.exe`. `data\updates` belongs to the old updater and can be deleted.
+4. If you had edited the old `server.json`, put only those values in
+   `server.local.json`. Do not copy the old file.
 
 ## Building and publishing
 
@@ -133,17 +124,27 @@ The release workflow packages the Go executables, Rust importer, both readers,
 and `profiles/`. It excludes `game-data/`; those files are now ignored locally.
 Tests use synthetic master-data fixtures and do not require the game assets.
 
-Before the first signed release, configure these repository settings:
+`desktop/package.ps1` stages the program folder and runs `vpk pack`. The
+package version has three numbers, so the game patch and the project revision
+share the last one: `1.8.1.3` is packaged as `1.8.103`. `VERSION` and the app
+keep showing four numbers. Keep the `vpk` version in the workflow equal to the
+`velopack` crate version in `desktop/Cargo.toml`.
 
-- variable `PTCGP_UPDATE_PUBLIC_KEY`: base64 Ed25519 public key, 32 bytes;
-- secret `PTCGP_UPDATE_SIGNING_SEED`: matching base64 Ed25519 seed, 32 bytes.
+Everything in the staged folder is shipped. To ship a new file or folder, add
+it to the staged folder in `desktop/package.ps1`; the updater needs no change.
 
-The workflow embeds only the public key in the launcher. `ptcgp-release` reads
-the seed from its environment to sign `update.json`; it does not print the seed.
-The workflow refuses publication without matching signing configuration.
-Source builds without a public key keep local preparation functional and report
-that automatic signed updates are not configured. No production signing secret
-is generated or committed by the implementation.
+To try an update before publishing, package two versions into one folder,
+install the first from its portable archive and point the app at that folder:
+
+```powershell
+dotnet tool install -g vpk --version 1.2.161
+./desktop/build.ps1
+./desktop/package.ps1 -Version 1.8.1.0 -Output C:\tmp\feed
+./desktop/package.ps1 -Version 1.8.1.1 -Output C:\tmp\feed
+$env:PTCGP_UPDATE_SOURCE = 'C:\tmp\feed'
+```
+
+Releases are not code-signed; Windows SmartScreen may warn on the installer.
 
 Each supported game revision needs a validated extraction plan and image index
 in `profiles/`, plus matching release metadata in `server.json`. Plans contain
@@ -161,13 +162,11 @@ installation took 1.52 seconds including HTTP polling. These are warm-system
 measurements on the development machine, not universal startup guarantees.
 
 The test installation and detailed comparison remain in `.tmp/bootstrap-install`.
-Unit tests cover unknown game versions, architecture detection, invalid update
-signatures and paths, modified downloads, generation identity and damaged files.
+Unit tests cover unknown game versions, architecture detection, generation
+identity and damaged files.
 
 A forced importer termination preserved 515 completed images and the master data.
 Retry imported the remaining 4,486 images, with no output differences. Damaging
 one PNG then triggered extraction of exactly one image and reused every master
 table. The optimized repair took 7.80 seconds including validation and publication.
-These checks are recorded under `.tmp/bootstrap-resume`. Installer tests start
-real isolated Windows subprocesses and verify both activation and database rollback
-after a simulated failed migration.
+These checks are recorded under `.tmp/bootstrap-resume`.

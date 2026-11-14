@@ -18,7 +18,7 @@ func fixture(t *testing.T) []byte {
 	data, err := json.Marshal(Config{
 		SchemaVersion: 1,
 		Runtime:       Runtime{Address: "0.0.0.0:443", AdminAddress: "127.0.0.1:8081", LauncherAddress: "127.0.0.1:8080", Database: "data/ptcgp.db", Certificate: "certs/server.pem", PrivateKey: "certs/server-key.pem", CertificateAuthority: "certs/ca.pem", TrafficLog: "data/traffic.jsonl", RuntimeDirectory: "data/runtime"},
-		Android:       Android{Package: "jp.pokemon.pokemontcgp", Activity: "UnityPlayerActivity", ServerAddress: "10.0.2.2", RedirectHosts: []string{"example.test"}},
+		Android:       Android{Package: "jp.pokemon.pokemontcgp", Activity: "UnityPlayerActivity", RedirectHosts: []string{"example.test"}},
 		Data:          Data{MasterData: "fixtures/master", Images: "fixtures/images"},
 		Client:        profile,
 		Contracts:     contracts.Expectations{Fingerprint: contracts.DeclarationOrderV1, Services: 1, Methods: 1, DescriptorSHA256: strings.Repeat("a", 64)},
@@ -67,17 +67,6 @@ func TestConfigResolvesRelativeToItsFileAndRejectsUnknownFields(t *testing.T) {
 	}
 }
 
-func TestLegacyLANAddressIsAccepted(t *testing.T) {
-	data := strings.Replace(string(fixture(t)), `"runtime":{`, `"runtime":{"lanAddress":"0.0.0.0:8082",`, 1)
-	path := filepath.Join(t.TempDir(), "server.json")
-	if err := os.WriteFile(path, []byte(data), 0600); err != nil {
-		t.Fatal(err)
-	}
-	if _, err := Load(path); err != nil {
-		t.Fatal(err)
-	}
-}
-
 func TestConfigAcceptsDataResolvedByPreparation(t *testing.T) {
 	var value map[string]any
 	if err := json.Unmarshal(fixture(t), &value); err != nil {
@@ -120,43 +109,61 @@ func TestConfigRejectsPatchForAnotherGameVersion(t *testing.T) {
 	}
 }
 
-func TestSelectedReleasePreservesLocalRuntimeAndDevice(t *testing.T) {
+func TestInstalledProgramKeepsLocalSettingsAndFollowsRelease(t *testing.T) {
 	root := t.TempDir()
-	key := strings.Repeat("d", 64)
-	releaseRoot := filepath.Join(root, "data", "updates", "versions", key)
-	if err := os.MkdirAll(releaseRoot, 0700); err != nil {
+	program := filepath.Join(root, "current")
+	if err := os.MkdirAll(filepath.Join(root, "data"), 0700); err != nil {
 		t.Fatal(err)
 	}
-	var release Config
-	if err := json.Unmarshal(fixture(t), &release); err != nil {
-		t.Fatal(err)
-	}
-	release.Client.AppVersion = "9.9.9"
-	release.Patch.Version = "9.9.9"
-	release.Runtime.Database = "unwanted-new-database.db"
-	release.Android.Serial = "unwanted-new-device"
-	updated, err := json.Marshal(release)
-	if err != nil {
+	if err := os.MkdirAll(program, 0700); err != nil {
 		t.Fatal(err)
 	}
 	for path, data := range map[string][]byte{
-		filepath.Join(root, "server.json"):                     fixture(t),
-		filepath.Join(releaseRoot, "server.json"):              updated,
-		filepath.Join(root, "data", "device.json"):             []byte(`{"serial":"chosen-device"}`),
-		filepath.Join(root, "data", "updates", "current.json"): []byte(`{"key":"` + key + `"}`),
+		filepath.Join(root, "Update.exe"):          {},
+		filepath.Join(program, "server.json"):      fixture(t),
+		filepath.Join(root, "data", "device.json"): []byte(`{"serial":"chosen-device"}`),
+		// "retired" is a setting this release no longer knows.
+		filepath.Join(root, LocalName): []byte(`{"runtime":{"launcherAddress":"127.0.0.1:9090","retired":true}}`),
 	} {
 		if err := os.WriteFile(path, data, 0600); err != nil {
 			t.Fatal(err)
 		}
 	}
+	var release Config
+	if err := json.Unmarshal(fixture(t), &release); err != nil {
+		t.Fatal(err)
+	}
+	got, err := Load(filepath.Join(program, "server.json"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got.Root != root || got.ProgramDir() != program {
+		t.Fatalf("root %q, program %q", got.Root, got.ProgramDir())
+	}
+	if got.Runtime.LauncherAddress != "127.0.0.1:9090" || got.Android.Serial != "chosen-device" {
+		t.Fatal("local settings were not applied")
+	}
+	if got.Runtime.AdminAddress != release.Runtime.AdminAddress || got.Client != release.Client {
+		t.Fatal("published values were not kept")
+	}
+	if got.Runtime.Database != filepath.Join(root, "data", "ptcgp.db") {
+		t.Fatalf("accounts must stay in the data root, got %q", got.Runtime.Database)
+	}
+}
+
+func TestSourceCheckoutUsesProgramDirectoryAsRoot(t *testing.T) {
+	root := filepath.Join(t.TempDir(), "current")
+	if err := os.MkdirAll(root, 0700); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(root, "server.json"), fixture(t), 0600); err != nil {
+		t.Fatal(err)
+	}
 	got, err := Load(filepath.Join(root, "server.json"))
 	if err != nil {
 		t.Fatal(err)
 	}
-	if got.Client.AppVersion != "9.9.9" || got.Patch.Version != "9.9.9" {
-		t.Fatal("release compatibility metadata was not selected")
-	}
-	if got.Runtime.Database != filepath.Join(root, "data", "ptcgp.db") || got.Android.Serial != "chosen-device" {
-		t.Fatal("release overwrote local accounts or device selection")
+	if got.Root != root {
+		t.Fatalf("root %q", got.Root)
 	}
 }

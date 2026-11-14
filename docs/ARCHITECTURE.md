@@ -49,11 +49,10 @@ shared; game credentials and sessions are scoped to an emulator.
 | `cmd/ptcgp-server` | Single backend: panel, CLI, Windows tray, and server subcommands |
 | `internal/servercmd` | Game-facing server command, hosted in the panel process |
 | `desktop` | Native desktop app (Rust, GPUI); see [Desktop application](DESKTOP.md) |
-| `cmd/ptcgp-release` | Signed update manifest creation during publication |
 | `internal/control` | Per-device process lifecycle, selection, status, Android routing, and recovery |
 | `internal/android` | Device discovery and installed-game compatibility checks |
 | `internal/provision` | Local import, validation, and generation selection |
-| `internal/updates` | Signed release download, activation, and rollback |
+| `desktop/src/updater.rs` | Program updates through Velopack and GitHub releases |
 | `native/importer` and `native/reader` | Game data extraction on Windows and Android |
 | `profiles` | Published extraction plans and image index |
 | `internal/admin` | Administration API handlers |
@@ -115,7 +114,8 @@ allowing a short grace period while a game starts.
 | `certs/` | Per installation | Local certificate authority, certificate, and key |
 | `profiles/` | Per release | Validated extraction and compatibility metadata |
 | `data/generations/` | Per imported game profile | Validated local master data and indexed images |
-| `data/updates/` | Per installation | Verified update downloads, program backups, and installer diagnostics |
+| `data/backups/` | Per installation | Accounts database copied before a new program version first starts |
+| `packages/` | Per installation | Update packages downloaded by Velopack |
 | `data/desktop.json` | Per installation | Desktop language, theme, and last page |
 
 `data/`, `certs/`, and traffic-development workspaces are ignored by Git.

@@ -164,8 +164,8 @@ Wi-Fi access alone is insufficient: the phone must be connected to ADB and
 listed as `device`. **Refresh** updates the selector after that connection;
 it does not pair phones automatically. Local mode creates the game's ADB
 reverse tunnel automatically, just as it does over USB. Keep game and internal
-administration listeners on loopback; you do not need to change
-`android.serverAddress` or expose port `443` for this ADB setup.
+administration listeners on loopback; you do not need to expose port `443`
+for this ADB setup.
 
 If the Wi-Fi address or connection port changes, reconnect using the current
 values, select **Refresh**, and re-enable **Local** to restore the tunnel.
@@ -178,23 +178,33 @@ ADB; an unavailable device's restoration remains pending until it reconnects.
 
 1. Open the
    [latest release](https://github.com/Layen-lang/PTCGP-Private-Server/releases/latest).
-2. Download `PTCGP-Private-Server-<version>-windows-amd64.zip`.
-3. Optionally compare the archive's SHA-256 hash with `SHA256SUMS.txt`.
-4. Extract the **entire** ZIP into a folder your Windows user can modify, for
-   example `C:\Games\PTCGP-Private-Server`.
-5. Confirm that the extracted folder contains:
+2. Download `PTCGPPrivateServer-win-Setup.exe` and run it. It installs for
+   your Windows user, without administrator rights, creates the shortcuts and
+   opens the control panel. Windows may warn that the publisher is unknown:
+   the installer is not code-signed.
+
+To keep everything in a folder of your choice instead, download
+`PTCGPPrivateServer-win-Portable.zip`, extract the **entire** archive into a
+folder your Windows user can modify and launch `PTCGP Private Server.exe`.
+Both forms update themselves the same way.
+
+The installation (`%LocalAppData%\PTCGPPrivateServer`, or the extracted
+portable folder) is laid out as follows:
 
 ```text
-PTCGP-Private-Server/
-├── ptcgp-private-server.exe
-├── bin/
-│   └── ptcgp-server.exe
-├── docs/
-├── profiles/
-└── server.json
+PTCGPPrivateServer/
+├── current/          program files, replaced as a whole by every update
+│   ├── ptcgp-private-server.exe
+│   ├── bin/ptcgp-server.exe
+│   ├── profiles/
+│   └── server.json
+├── data/             accounts, imported game data, logs (created on first use)
+├── certs/            local certificate authority (created on first use)
+├── server.local.json optional local settings
+└── Update.exe
 ```
 
-Launch `ptcgp-private-server.exe`.
+Never store your own files in `current`: an update replaces that folder.
 
 Do not copy certificates from another installation. The launcher creates a
 unique local certificate authority on first use.
@@ -267,15 +277,17 @@ sources. For the full manual build and validation workflow, see
 
 ## Updating
 
-Signed program updates download automatically in published installations. Use
+The installed app checks the project's GitHub releases at startup and every
+six hours, and downloads a new version in the background. Use
 **Update and restart** (or **Mettre à jour et redémarrer** in French) at the
-bottom of the sidebar to install a verified update. Program files are replaced
-at the root and the panel restarts automatically. Accounts and runtime settings stay in place;
-preparation imports changed game data when needed. Update the game itself
-through its official source. Local mode refuses an unsupported game build.
+bottom of the sidebar to install it. The program folder is replaced as a whole
+and the app restarts; accounts, imported data, certificates and local settings
+are outside that folder and stay in place. Preparation imports changed game
+data when needed. Update the game itself through its official source. Local
+mode refuses an unsupported game build.
 
-See [Preparation and updates](LOCAL-DATA-UPDATES.md) for recovery and the first
-migration from an older distribution.
+See [Preparation and updates](LOCAL-DATA-UPDATES.md#program-updates) for
+details and for moving from a 1.8.1.0 or older ZIP installation.
 
 ## Uninstalling safely
 
@@ -285,7 +297,9 @@ migration from an older distribution.
 3. Confirm each device's routing, certificate, and native-library states are
    official. For a command-line check, use `ptcgp-private-server.exe status -Serial <serial>`.
 4. Select **Stop all**.
-5. Delete the extracted project folder.
+5. Uninstall **PTCGP Private Server** from Windows **Installed apps**, or
+   delete the folder of a portable installation. Copy `data` elsewhere first
+   if you want to keep your accounts.
 
 Do not delete the installation while Android restoration is pending. If a step
 fails, use the [troubleshooting guide](TROUBLESHOOTING.md).

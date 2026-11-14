@@ -80,8 +80,8 @@ Desktop preferences (language, theme, last page) are stored in
 
 ## Known limits
 
-- Signed updates replace `bin\ptcgp-server.exe` and the profiles. Updating the
-  desktop app itself through the updater is not done yet.
+- Only an installed app (installer or portable archive) updates itself. A
+  build run from the source tree never shows an update.
 - Game servers now stop with the server process. After a restart, select
   **Local** again for a device that was in local mode.
 - Live traffic polls the server every second instead of using the

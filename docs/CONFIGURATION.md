@@ -1,9 +1,31 @@
 # Configuration reference
 
-The release works with the bundled `server.json`; most users should not edit
-it. This reference is for development, fixed-device selection, and diagnosis.
+The release works with the bundled `server.json`; most users need no
+configuration. This reference is for development, fixed-device selection, and
+diagnosis.
 
-The configuration file is strict JSON. Unknown fields, missing required values,
+## Local settings
+
+`server.json` belongs to the program: every update replaces it, so new fields
+and new compatibility metadata arrive with the release. Do not edit it in an
+installed app.
+
+To change a setting, create `server.local.json` in the installation folder
+(next to `Update.exe`, or next to `server.json` in a source checkout) and put
+only the values you want to change in it:
+
+```json
+{
+  "runtime": { "launcherAddress": "127.0.0.1:9090" },
+  "android": { "serial": "emulator-5554" }
+}
+```
+
+Each value in this file replaces the published one; everything else keeps
+following the installed release. A setting that a later release no longer
+knows is ignored.
+
+The published configuration file is strict JSON. Unknown fields, missing required values,
 invalid addresses, and incompatible release metadata stop startup.
 
 ## Selecting a configuration file
@@ -20,8 +42,9 @@ $env:PTCGP_SERVER_CONFIG = 'C:\path\to\server.json'
 .\ptcgp-private-server.exe ui
 ```
 
-Relative data and runtime paths are resolved from the directory containing the
-selected configuration file, not from the terminal's current directory.
+Relative data and runtime paths are resolved from the installation folder
+(the parent of `current` in an installed app, otherwise the directory containing
+the configuration file), not from the terminal's current directory.
 
 ## Runtime
 
@@ -39,9 +62,7 @@ selected configuration file, not from the terminal's current directory.
 | `runtime.strictMetadata` | `true` | Require the approved client metadata profile |
 
 `adminAddress` and `launcherAddress` must use `127.0.0.1` and must be different.
-Keep the game, internal administration, and panel services on loopback. A
-`lanAddress` left from an older configuration is ignored: the browser panel
-for phones has been removed.
+Keep the game, internal administration, and panel services on loopback.
 
 Additional devices receive independent loopback game and administration ports
 automatically. Their addresses are saved in `emulators.json` under
@@ -55,14 +76,11 @@ device's ADB tunnel maps Android port `443` to its own Windows game endpoint.
 | `android.serial` | Optional startup ADB serial; empty restores `data/device.json`, then enables automatic discovery |
 | `android.package` | Installed Android game package |
 | `android.activity` | Activity opened by the launcher |
-| `android.serverAddress` | Host address visible from Android when reverse tunneling is unavailable |
 | `android.redirectHosts` | Hosts redirected only while Local mode is active |
 
 For normal use, choose the device in the panel; no manual serial is required.
 A rooted phone connects through USB or Wi-Fi ADB, following the
 [phone setup guide](INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
-With the launcher-managed ADB reverse tunnel, keep the bundled
-`android.serverAddress` unchanged.
 `data/device.json` is written automatically after selection. Independent server
 addresses are saved in `data/runtime/emulators.json`; additional device runtime
 files live under `data/runtime/emulators/`. Accounts and imported data are shared.

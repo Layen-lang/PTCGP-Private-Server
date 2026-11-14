@@ -282,7 +282,7 @@ func reusedRecord(path string, previous fileRecord) (fileRecord, error) {
 	return fileHash(path)
 }
 func generationRoot(cfg configuration.Config) string {
-	return filepath.Join(filepath.Dir(cfg.Path), "data", "generations")
+	return filepath.Join(cfg.DataRoot(), "data", "generations")
 }
 func loadReceipt(root, key string) (receipt, error) {
 	var r receipt
@@ -512,7 +512,7 @@ func (m *Manager) Prepare(ctx context.Context, serial string) (cfg configuration
 	if err = WriteJSON(filepath.Join(stage, "config.json"), cfg); err != nil {
 		return cfg, err
 	}
-	importer, err := importerExecutable(m.root)
+	importer, err := importerExecutable(m.program)
 	if err != nil {
 		return cfg, err
 	}
@@ -756,8 +756,8 @@ const DesktopExecutable = "ptcgp-private-server.exe"
 
 // importerExecutable returns the desktop application, which runs the data
 // importer in its "import" role.
-func importerExecutable(root string) (string, error) {
-	for _, candidate := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(root, DesktopExecutable)} {
+func importerExecutable(program string) (string, error) {
+	for _, candidate := range []string{os.Getenv("PTCGP_DESKTOP_EXE"), filepath.Join(program, DesktopExecutable)} {
 		if candidate == "" {
 			continue
 		}

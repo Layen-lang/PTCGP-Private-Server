@@ -1,13 +1,12 @@
 param(
     # Installation folder to write (the repository root by default).
-    [string]$Output = (Join-Path $PSScriptRoot '..'),
-    # Optional update-signing key, as in the release workflow.
-    [string]$UpdatePublicKey = $env:PTCGP_UPDATE_PUBLIC_KEY
+    [string]$Output = (Join-Path $PSScriptRoot '..')
 )
 # Builds the two PTCGP Private Server executables:
 #   ptcgp-private-server.exe  desktop app (GPUI), data importer and Android readers
 #   bin\ptcgp-server.exe      backend: panel, accounts, Android control, game servers
 # Requirements: Go, Rust and both musl targets for the readers.
+# desktop\package.ps1 turns the result into an installer and update packages.
 $ErrorActionPreference = 'Stop'
 $root = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $Output = [IO.Path]::GetFullPath($Output)
@@ -15,10 +14,8 @@ New-Item -ItemType Directory -Force -Path (Join-Path $Output 'bin') | Out-Null
 
 Push-Location $root
 try {
-    $ldflags = '-s -w'
-    if ($UpdatePublicKey) { $ldflags += " -X github.com/Layen-lang/PTCGP-Private-Server/internal/updates.PublicKey=$UpdatePublicKey" }
     $env:GOFLAGS = '-buildvcs=false'
-    go build -trimpath -ldflags $ldflags -o (Join-Path $Output 'bin\ptcgp-server.exe') ./cmd/ptcgp-server
+    go build -trimpath -ldflags '-s -w' -o (Join-Path $Output 'bin\ptcgp-server.exe') ./cmd/ptcgp-server
     if ($LASTEXITCODE -ne 0) { throw 'Go build failed' }
     # The readers are compiled into the desktop app, not shipped as files.
     & (Join-Path $root 'native\build.ps1')

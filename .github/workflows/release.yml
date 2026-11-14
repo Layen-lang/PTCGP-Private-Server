@@ -22,7 +22,6 @@ jobs:
   windows-release:
     runs-on: windows-latest
     env:
-      PTCGP_UPDATE_PUBLIC_KEY: ${{ vars.PTCGP_UPDATE_PUBLIC_KEY }}
       RELEASE_TAG: ${{ inputs.release_tag || github.ref_name }}
     steps:
       - uses: actions/checkout@v5
@@ -66,55 +65,50 @@ jobs:
       - name: Build Windows executables
         shell: pwsh
         run: |
-          New-Item -ItemType Directory -Force -Path bin | Out-Null
-          if (!$env:PTCGP_UPDATE_PUBLIC_KEY) { throw "Configure release signing before publishing" }
-          go build -trimpath -ldflags "-X github.com/Layen-lang/PTCGP-Private-Server/internal/updates.PublicKey=$env:PTCGP_UPDATE_PUBLIC_KEY" -o bin/ptcgp-server.exe ./cmd/ptcgp-server
+          New-Item -ItemType Directory -Force -Path stage-build/bin | Out-Null
+          go build -trimpath -ldflags "-s -w" -o stage-build/bin/ptcgp-server.exe ./cmd/ptcgp-server
+          if ($LASTEXITCODE -ne 0) { throw "Server build failed" }
+          Copy-Item desktop/target/release/ptcgp-private-server.exe stage-build/
 
       - name: Check publication safety
         shell: pwsh
         run: ./scripts/check_publication.ps1
 
+      # Velopack builds the installer, the portable archive, the update
+      # packages and the feed that installed applications read from this
+      # repository's releases. Keep this version equal to the velopack crate
+      # in desktop/Cargo.toml.
+      - name: Install Velopack
+        shell: pwsh
+        run: |
+          dotnet tool install -g vpk --version 1.2.161
+          if ($LASTEXITCODE -ne 0) { throw "Velopack installation failed" }
+
       - name: Package release
         shell: pwsh
         env:
-          PTCGP_UPDATE_SIGNING_SEED: ${{ secrets.PTCGP_UPDATE_SIGNING_SEED }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          $version = (Get-Content VERSION -Raw).Trim()
-          $package = "PTCGP-Private-Server-$version-windows-amd64"
-          $stage = Join-Path $PWD "dist/$package"
-          New-Item -ItemType Directory -Force -Path "$stage/bin" | Out-Null
-          # Two executables: the desktop app and the single backend server.
-          Copy-Item bin/ptcgp-server.exe "$stage/bin"
-          Copy-Item native/THIRD_PARTY_NOTICES.txt "$stage/bin"
-          Copy-Item desktop/target/release/ptcgp-private-server.exe "$stage/ptcgp-private-server.exe"
-          Copy-Item server.json,VERSION,README.md,CHANGELOG.md,LICENSE,NOTICE.md,SECURITY.md $stage
-          Copy-Item docs "$stage/docs" -Recurse
-          Copy-Item profiles "$stage/profiles" -Recurse
-          go run ./cmd/ptcgp-release $stage dist/update "https://github.com/$env:GITHUB_REPOSITORY/releases/download/$env:RELEASE_TAG"
-          if ($LASTEXITCODE -ne 0) { throw "Signed update preparation failed" }
-          $archive = Join-Path $PWD "dist/$package.zip"
-          Compress-Archive -Path "$stage/*" -DestinationPath $archive -CompressionLevel NoCompression
-          if ((Get-Item $archive).Length -ge 2GB) { throw "Release archive exceeds GitHub's 2 GiB per-file limit" }
-          $hash = (Get-FileHash $archive -Algorithm SHA256).Hash.ToLowerInvariant()
-          "$hash  $package.zip" | Set-Content -NoNewline -Encoding utf8 "dist/SHA256SUMS.txt"
+          New-Item -ItemType Directory -Force -Path dist/releases | Out-Null
+          # The previous release makes a small delta package possible. The
+          # first Velopack release has none.
+          vpk download github --repoUrl "https://github.com/$env:GITHUB_REPOSITORY" --token $env:GH_TOKEN --outputDir dist/releases
+          if ($LASTEXITCODE -ne 0) { Write-Warning "No previous release: publishing a full package only"; $global:LASTEXITCODE = 0 }
+          ./desktop/package.ps1 -Build (Join-Path $PWD 'stage-build') -Output (Join-Path $PWD 'dist/releases')
 
-      - name: Publish GitHub release assets
+      - name: Publish GitHub release
         shell: pwsh
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           $version = (Get-Content VERSION -Raw).Trim()
-          if ('${{ github.event_name }}' -ne 'workflow_dispatch') {
-            gh release create $env:RELEASE_TAG --title "PTCGP Private Server $version" --generate-notes --draft
-            if ($LASTEXITCODE -ne 0) { throw "Release creation failed" }
+          $repo = "https://github.com/$env:GITHUB_REPOSITORY"
+          # A manual run rebuilds the assets of the existing release.
+          $mode = if ('${{ github.event_name }}' -eq 'workflow_dispatch') { '--merge' } else { '--publish' }
+          vpk upload github --repoUrl $repo --token $env:GH_TOKEN --outputDir dist/releases `
+            --tag $env:RELEASE_TAG --releaseName "PTCGP Private Server $version" $mode
+          if ($LASTEXITCODE -ne 0) { throw "Release upload failed" }
+          if ($mode -eq '--publish') {
+            $notes = gh api "repos/$env:GITHUB_REPOSITORY/releases/generate-notes" -f tag_name=$env:RELEASE_TAG --jq .body
+            if ($LASTEXITCODE -eq 0 -and $notes) { $notes | gh release edit $env:RELEASE_TAG --notes-file - }
           }
-          gh release upload $env:RELEASE_TAG `
-            "dist/PTCGP-Private-Server-$version-windows-amd64.zip" `
-            "dist/SHA256SUMS.txt" --clobber
-          if ($LASTEXITCODE -ne 0) { throw "Archive upload failed" }
-          gh release upload $env:RELEASE_TAG (Get-ChildItem dist/update -File | Where-Object Name -ne 'update.json').FullName --clobber
-          if ($LASTEXITCODE -ne 0) { throw "Update upload failed" }
-          # Publish the signed manifest only after every referenced file is ready.
-          gh release upload $env:RELEASE_TAG dist/update/update.json --clobber
-          if ($LASTEXITCODE -ne 0) { throw "Manifest upload failed" }
-          gh release edit $env:RELEASE_TAG --draft=false

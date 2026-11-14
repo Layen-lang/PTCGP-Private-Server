@@ -77,15 +77,15 @@ stay on and connected while you play.
 
 ## Install in 5 minutes
 
-1. Download the ZIP from the
+1. Download `PTCGPPrivateServer-win-Setup.exe` from the
    [latest release](https://github.com/Layen-lang/PTCGP-Private-Server/releases/latest).
-2. Extract the complete archive to a writable folder. Do not run it from inside
-   the ZIP.
+2. Run it. It installs for your Windows user, without administrator rights,
+   and opens the control panel.
 3. Start your rooted emulator, or connect your rooted phone using the
    [phone setup guide](docs/INSTALLATION.md#physical-android-phone-usb-or-wi-fi).
 4. Open Command Prompt and check that `adb devices` lists the Android device as
    `device`.
-5. Double-click `ptcgp-private-server.exe`. The control panel window opens.
+5. Open **PTCGP Private Server** from the Start menu or the desktop shortcut.
 6. Let the panel import data from the installed game. Select a device if
    several are connected. The Accounts page opens when validation completes.
 
@@ -94,11 +94,11 @@ If any requirement is unclear, follow the
 
 > [!TIP]
 > **Automatic updates are built in — download once, then update from the panel.**
-> Published releases automatically check for and download compatible, signed
-> updates at startup and every six hours while the launcher is open. When an
-> update is ready, click **Update and restart** at the bottom of the sidebar
-> (**Mettre à jour et redémarrer** in French) to install it. Your local profiles
-> and settings are preserved; no new ZIP needs to be downloaded manually.
+> The installed app checks GitHub releases at startup and every six hours while
+> it is open, and downloads new versions in the background. When an update is
+> ready, click **Update and restart** at the bottom of the sidebar
+> (**Mettre à jour et redémarrer** in French) to install it. Your accounts and
+> settings are preserved; nothing needs to be downloaded manually.
 > See [how updates work](docs/LOCAL-DATA-UPDATES.md#program-updates).
 
 ## First local profile

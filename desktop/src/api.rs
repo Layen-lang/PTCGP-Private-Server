@@ -48,16 +48,6 @@ pub struct AndroidDevice {
 }
 
 #[derive(Clone, Debug, Default, Deserialize, PartialEq)]
-#[serde(default)]
-pub struct UpdateState {
-    pub phase: String,
-    pub message: String,
-    pub version: Option<String>,
-    pub completed: i64,
-    pub total: i64,
-}
-
-#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
 #[serde(default, rename_all = "PascalCase")]
 pub struct PlayerSummary {
     #[serde(rename = "ID")]
@@ -118,7 +108,6 @@ pub struct AndroidStatus {
 #[serde(default, rename_all = "camelCase")]
 pub struct ControlStatus {
     pub preparation: Option<PreparationState>,
-    pub update: Option<UpdateState>,
     pub csrf_token: String,
     pub busy: bool,
     pub operation: Option<String>,
@@ -485,8 +474,8 @@ impl Api {
     /// Wi-Fi phone: pairs, then connects when the phone announces its port.
     pub fn pair_wireless(&self, address: &str, code: &str) -> Result<WirelessResult> { self.json("POST", "/api/control/wireless/pair", Some(serde_json::json!({ "address": address, "code": code })), Csrf::Control) }
     pub fn connect_wireless(&self, address: &str) -> Result<WirelessResult> { self.json("POST", "/api/control/wireless/connect", Some(serde_json::json!({ "address": address })), Csrf::Control) }
-    pub fn install_update(&self) -> Result<Value> { self.json("POST", "/api/control/update", None, Csrf::Control) }
-    pub fn health_json(&self) -> Result<Value> { self.json("GET", "/api/control/health", None, Csrf::None) }
+    /// Restores the official game and stops the backend so the program can be replaced.
+    pub fn prepare_update(&self) -> Result<Value> { self.json("POST", "/api/control/update", None, Csrf::Control) }
 
     pub fn profile(&self, id: &str) -> Result<Profile> { self.admin("GET", &format!("/api/players/{id}/summary"), None) }
     pub fn inventory(&self, id: &str, section: &str, language: Option<i64>) -> Result<Vec<StockAmount>> {

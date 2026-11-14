@@ -9,6 +9,7 @@ mod http;
 mod i18n;
 mod theme;
 mod ui;
+mod updater;
 
 use backend::Installation;
 use gpui_kit::*;
@@ -85,6 +86,7 @@ mod single_instance {
 }
 
 fn main() {
+    updater::startup();
     if let Some(code) = dispatch() { std::process::exit(code) }
     #[cfg(windows)]
     if !single_instance::claim() {

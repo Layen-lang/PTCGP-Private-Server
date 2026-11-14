@@ -45,10 +45,6 @@ func (h *Handler) deviceAction(w http.ResponseWriter, r *http.Request) {
 		p := h.preparation.Status()
 		s.Preparation = &p
 	}
-	if h.updates != nil {
-		u := h.updates.Status()
-		s.Update = &u
-	}
 	s.CSRFToken = h.csrf
 	writeJSON(w, http.StatusOK, s)
 }

@@ -22,13 +22,11 @@ import (
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/android"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/player"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
 const maxBodyBytes = 1 << 16
 
 type Status struct {
-	Update      *updates.State   `json:"update,omitempty"`
 	Preparation *provision.State `json:"preparation,omitempty"`
 	CSRFToken   string           `json:"csrfToken,omitempty"`
 	Busy        bool             `json:"busy"`
@@ -72,8 +70,7 @@ type Runner interface {
 }
 
 type Handler struct {
-	updates           *updates.Manager
-	installUpdate     func() error
+	version           string
 	adminMu           sync.RWMutex
 	preparation       *provision.Manager
 	prepare           func(context.Context, string) error
@@ -186,9 +183,8 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	case r.Method == http.MethodGet && r.URL.Path == "/api/control/health":
 		w.Header().Set("Cache-Control", "no-store")
 		health := map[string]any{"healthy": true, "pid": os.Getpid()}
-		if h.updates != nil {
-			health["version"] = h.updates.InstalledVersion()
-			health["updateError"] = h.updates.InstallationError()
+		if h.version != "" {
+			health["version"] = h.version
 		}
 		writeJSON(w, 200, health)
 	case r.Method == http.MethodGet && r.URL.Path == "/api/control/devices":
@@ -308,10 +304,6 @@ func (h *Handler) status(w http.ResponseWriter, r *http.Request) {
 		s := h.preparation.Status()
 		status.Preparation = &s
 	}
-	if h.updates != nil {
-		s := h.updates.Status()
-		status.Update = &s
-	}
 	status.CSRFToken = h.csrf
 	writeJSON(w, http.StatusOK, status)
 }
@@ -349,10 +341,6 @@ func (h *Handler) action(w http.ResponseWriter, _ *http.Request, rawAction strin
 	if h.preparation != nil {
 		s := h.preparation.Status()
 		status.Preparation = &s
-	}
-	if h.updates != nil {
-		s := h.updates.Status()
-		status.Update = &s
 	}
 	status.CSRFToken = h.csrf
 	writeJSON(w, http.StatusOK, status)
@@ -401,10 +389,6 @@ func (h *Handler) writeBusyStatus(w http.ResponseWriter, operation string) {
 	if h.preparation != nil {
 		s := h.preparation.Status()
 		status.Preparation = &s
-	}
-	if h.updates != nil {
-		s := h.updates.Status()
-		status.Update = &s
 	}
 	status.CSRFToken = h.csrf
 	status.Busy = true

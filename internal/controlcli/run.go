@@ -8,7 +8,6 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"path/filepath"
 	"strings"
 	"time"
 
@@ -57,7 +56,7 @@ func Run(args []string) error {
 	if *packageName != "" {
 		cfg.Android.Package = *packageName
 	}
-	root := filepath.Dir(cfg.Path)
+	root := cfg.DataRoot()
 	runner, err := control.NewNativeRunner(cfg, root)
 	if err != nil {
 		return err

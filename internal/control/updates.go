@@ -7,19 +7,15 @@ import (
 	"os"
 	"strings"
 	"time"
-
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/updates"
 )
 
-func (h *Handler) SetUpdates(manager *updates.Manager, install func() error) {
-	h.updates = manager
-	h.installUpdate = install
-}
+// SetVersion records the installed program version reported by health.
+func (h *Handler) SetVersion(version string) { h.version = version }
+
+// updateAction prepares a program update. The desktop application downloads
+// and installs releases; the backend only has to restore the official game
+// and exit so that its own files can be replaced.
 func (h *Handler) updateAction(w http.ResponseWriter, r *http.Request) {
-	if h.updates == nil || h.updates.PreparedKey() == "" {
-		writeJSON(w, 409, map[string]string{"error": "No verified update is ready"})
-		return
-	}
 	if !h.tryStartOperation("update") {
 		writeJSON(w, 409, map[string]string{"error": "Another operation is in progress"})
 		return
@@ -30,22 +26,16 @@ func (h *Handler) updateAction(w http.ResponseWriter, r *http.Request) {
 	ctx, cancel := context.WithTimeout(r.Context(), time.Minute)
 	defer cancel()
 	if _, err := h.runner.Action(ctx, ActionStop); err != nil {
-		// Older panels can reject a library patched for the exact game version
-		// in the verified update. If Android is already fully official and idle,
-		// let the replacement panel resume the rollback with its newer manifest.
+		// This version can reject a library patched for a newer game. If
+		// Android is already fully official and idle there is nothing to
+		// restore, and the new version resumes with its own manifest.
 		current, statusErr := h.runner.Status(ctx)
-		nativeHash := strings.TrimSuffix(strings.TrimPrefix(current.Android.Native, "inconnu ("), ")")
 		if statusErr != nil || !strings.Contains(err.Error(), "unsupported native library") ||
 			current.Server.Running || current.Android.Running || current.Android.Routing != "officiel" ||
-			current.Android.CA != "officielle uniquement" || nativeHash == current.Android.Native ||
-			!h.updates.PreparedSupportsNativeHash(nativeHash) {
+			current.Android.CA != "officielle uniquement" {
 			writeJSON(w, 500, map[string]string{"error": fmt.Sprintf("Restore official mode before updating: %v", err)})
 			return
 		}
-	}
-	if err := h.installUpdate(); err != nil {
-		writeJSON(w, 500, map[string]string{"error": err.Error()})
-		return
 	}
 	writeJSON(w, 202, map[string]any{"restarting": true, "previousPID": os.Getpid()})
 	if h.shutdown != nil {

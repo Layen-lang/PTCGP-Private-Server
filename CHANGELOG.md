@@ -8,6 +8,16 @@ revision for that game version.
 
 ### Changed
 
+- Program updates are now handled by [Velopack](https://velopack.io). The app
+  is installed with `PTCGPPrivateServer-win-Setup.exe` (or the self-updating
+  portable archive), downloads new GitHub releases in the background and
+  replaces the whole program folder on **Update and restart**, including the
+  desktop app itself. Accounts, imported data and certificates now live beside
+  the program folder. Installations from a 1.8.1.0 or older ZIP must be
+  [moved once](docs/LOCAL-DATA-UPDATES.md#moving-from-1810-or-an-older-zip).
+- `server.json` now always comes from the installed release. Local changes go
+  in the optional `server.local.json`, which only lists the values to change.
+
 - The control panel is now a native Windows app (`ptcgp-private-server.exe`)
   backed by a single server (`bin\ptcgp-server.exe`) that hosts every
   device's game server.
@@ -62,7 +72,7 @@ revision for that game version.
 ### Removed
 
 - The browser panel, including the home Wi-Fi panel on port 8082.
-  `runtime.lanAddress` is ignored.
+- The unused `runtime.lanAddress` and `android.serverAddress` settings.
 
 ## [1.8.1.0] - 2026-10-29
 

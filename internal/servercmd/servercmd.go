@@ -21,7 +21,6 @@ import (
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/catalog"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/configuration"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/contracts"
-	"github.com/Layen-lang/PTCGP-Private-Server/internal/installation"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/localtls"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/server"
@@ -62,11 +61,7 @@ func run(args []string, logger *slog.Logger) error {
 	case "cert":
 		return runCert(args[1:], cfg)
 	case "verify":
-		program, err := installation.Program(filepath.Dir(cfg.Path))
-		if err != nil {
-			return err
-		}
-		cfg, err = provision.Resolve(cfg, program)
+		cfg, err = provision.Resolve(cfg, cfg.ProgramDir())
 		if err != nil {
 			return err
 		}
@@ -159,11 +154,7 @@ func Serve(ctx context.Context, args []string, logger *slog.Logger) error {
 }
 
 func runServe(ctx context.Context, args []string, logger *slog.Logger, cfg configuration.Config) error {
-	program, err := installation.Program(filepath.Dir(cfg.Path))
-	if err != nil {
-		return err
-	}
-	cfg, err = provision.Resolve(cfg, program)
+	cfg, err := provision.Resolve(cfg, cfg.ProgramDir())
 	if err != nil {
 		return err
 	}

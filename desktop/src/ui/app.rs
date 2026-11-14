@@ -10,6 +10,7 @@ use crate::api::{AndroidDevice, Api, Bootstrap, ControlStatus, ManagedDevice, Pr
 use crate::backend::{Installation, Preferences};
 use crate::i18n::{number, t, tf};
 use crate::theme::{Palette, ThemeSettings};
+use crate::updater::{self, Phase, UpdateState, Updater};
 use gpui_kit::component::select::SelectEvent;
 use gpui_kit::*;
 use gpui_kit::prelude::FluentBuilder as _;
@@ -61,6 +62,8 @@ pub struct AppView {
     connection_error: String,
     device_error: String,
     refreshing: u8,
+    updater: Updater,
+    update: UpdateState,
     restarting: bool,
     action_lock: bool,
     /// An account launch is running (it may enable Local first).
@@ -113,6 +116,8 @@ impl AppView {
             connection_error: String::new(),
             device_error: String::new(),
             refreshing: 0,
+            updater: Updater::start(),
+            update: UpdateState::default(),
             restarting: false,
             action_lock: false,
             launching: false,
@@ -128,6 +133,7 @@ impl AppView {
             _subscriptions: vec![sub, appearance],
         };
         view.apply_theme(cx);
+        view.watch_updates(cx);
         view.connect(window, cx);
         view
     }
@@ -189,14 +195,13 @@ impl AppView {
     }
 
     fn poll_interval(&self) -> Duration {
-        let update = self.control.update.as_ref().map(|u| u.phase.as_str());
         let prep = self.control.preparation.as_ref();
         // An operation started here: follow its progress closely.
         if self.action_lock || self.launching { return Duration::from_millis(600) }
         let working = self.control.busy || prep.map(|p| p.busy).unwrap_or(false);
         // Idle and not prepared (no emulator, waiting for the user): each status
         // may run ADB discovery on the server, so it is asked less often.
-        Duration::from_millis(if prep.map(|p| p.phase.as_str()) == Some("restoring") { 200 } else if update == Some("downloading") { 1000 } else if prep.map(|p| p.phase.as_str()) == Some("images") { 500 } else if working { 1_000 } else if prep.map(|p| p.ready).unwrap_or(false) { 10_000 } else { 3_000 })
+        Duration::from_millis(if prep.map(|p| p.phase.as_str()) == Some("restoring") { 200 } else if prep.map(|p| p.phase.as_str()) == Some("images") { 500 } else if working { 1_000 } else if prep.map(|p| p.ready).unwrap_or(false) { 10_000 } else { 3_000 })
     }
 
     /// Each device listing runs ADB on the server. Look for emulators often
@@ -466,32 +471,37 @@ impl AppView {
         });
     }
 
+    /// Mirrors the background updater's state into the sidebar.
+    fn watch_updates(&mut self, cx: &mut Context<Self>) {
+        let background = cx.background_executor().clone();
+        let task = cx.spawn(async move |this, cx| loop {
+            let Ok(downloading) = this.update(cx, |v, cx| {
+                let state = v.updater.state();
+                if v.update != state { v.update = state; cx.notify() }
+                v.update.phase == Phase::Downloading
+            }) else { return };
+            background.timer(Duration::from_millis(if downloading { 250 } else { 2_000 })).await;
+        });
+        self._tasks.push(task);
+    }
+
+    /// Installs the downloaded update: the backend restores the official game
+    /// and exits, then Velopack replaces the program and restarts the app.
     fn apply_update(&mut self, window: &mut Window, cx: &mut Context<Self>) {
-        let Some(update) = self.control.update.clone() else { return };
-        if self.restarting || self.action_lock || self.control.busy || update.phase != "ready" { return }
+        if self.restarting || self.action_lock || self.control.busy || self.update.phase != Phase::Ready { return }
         self.restarting = true;
         self.error.clear();
         self.connection_error.clear();
-        let target = update.version.unwrap_or_default();
         spawn_api_in(window, cx, &self.api, move |api| {
-            let previous = api.install_update()?.get("previousPID").and_then(|v| v.as_i64()).unwrap_or(0);
-            let deadline = Instant::now() + Duration::from_secs(120);
-            while Instant::now() < deadline {
-                std::thread::sleep(Duration::from_secs(1));
-                let Ok(health) = api.health_json() else { continue };
-                let pid = health.get("pid").and_then(|v| v.as_i64()).unwrap_or(0);
-                if health.get("healthy").and_then(|v| v.as_bool()) == Some(true) && pid != previous {
-                    if let Some(message) = health.get("updateError").and_then(|v| v.as_str()).filter(|m| !m.is_empty()) {
-                        anyhow::bail!(tf("prepare.updateRolledBack", &[("message", &message)]))
-                    }
-                    if health.get("version").and_then(|v| v.as_str()) == Some(target.as_str()) { return Ok(()) }
-                }
-            }
-            anyhow::bail!(t("prepare.restartFailure"))
+            let backend = api.prepare_update()?.get("previousPID").and_then(|v| v.as_u64()).unwrap_or(0) as u32;
+            if backend != 0 && !updater::wait_for_exit(backend, Duration::from_secs(60)) { anyhow::bail!(t("prepare.restartFailure")) }
+            // Exits the process on success.
+            updater::apply()
         }, |this, result, window, cx| {
             this.restarting = false;
             if let Err(error) = result { this.error = error.to_string() }
-            this.refresh(window, cx);
+            // The backend may have stopped: start it again.
+            this.connect(window, cx);
         });
     }
 
@@ -612,15 +622,15 @@ impl AppView {
     }
 
     fn render_update(&self, p: &Palette, cx: &mut Context<Self>) -> AnyElement {
-        let state = self.control.update.clone();
-        let phase = state.as_ref().map(|s| s.phase.as_str()).unwrap_or("idle");
-        if !self.restarting && matches!(phase, "idle" | "current" | "unconfigured" | "") { return div().into_any_element() }
-        let ready = phase == "ready";
-        let downloading = phase == "downloading";
-        let progress = state.as_ref().filter(|s| s.total > 0).map(|s| ((s.completed as f32 / s.total as f32) * 100.0).min(100.0)).unwrap_or(0.0);
-        let label = t(if self.restarting { "prepare.restarting" } else if ready { "prepare.updateButton" } else if downloading { "prepare.updateDownloading" } else if phase == "offline" { "prepare.updateOffline" } else if phase == "incompatible" { "prepare.updateIncompatible" } else { "prepare.updateError" });
+        let state = &self.update;
+        let phase = state.phase;
+        if !self.restarting && phase == Phase::Idle { return div().into_any_element() }
+        let ready = phase == Phase::Ready;
+        let downloading = phase == Phase::Downloading;
+        let progress = state.progress;
+        let label = t(if self.restarting { "prepare.restarting" } else if ready { "prepare.updateButton" } else if downloading { "prepare.updateDownloading" } else if phase == Phase::Offline { "prepare.updateOffline" } else { "prepare.updateError" });
         let name = if self.restarting { "rotate-cw" } else if downloading { "loader-circle" } else if ready { "arrow-down-to-line" } else { "circle-alert" };
-        let version = state.as_ref().and_then(|s| s.version.clone());
+        let version = Some(state.version.clone()).filter(|v| !v.is_empty());
         let mut wrap = div().p(px(12.)).flex().flex_col();
         if ready || downloading || self.restarting {
             let disabled = self.controls_busy() || !ready || self.restarting;
@@ -628,7 +638,8 @@ impl AppView {
             let mut button = div().id("update").flex().items_center().justify_center().gap(px(7.)).min_h(px(32.)).px(px(9.)).py(px(6.)).rounded(px(9.)).bg(bg).text_color(fg)
                 .child(icon(name, 15., fg))
                 .child(div().flex().flex_col().text_size(px(12.)).font_weight(FontWeight::SEMIBOLD).child(label)
-                    .when(downloading, |d| d.child(div().text_size(px(11.)).child(format!("{}%{}", progress.round(), version.as_ref().map(|v| format!(" · {v}")).unwrap_or_default())))));
+                    .when(downloading, |d| d.child(div().text_size(px(11.)).child(format!("{}%{}", progress.round(), version.as_ref().map(|v| format!(" · {v}")).unwrap_or_default()))))
+                    .when_some(version.clone().filter(|_| ready && !self.restarting), |d, v| d.child(div().text_size(px(11.)).child(tf("prepare.updateVersion", &[("version", &v)])))));
             button = if disabled { button.opacity(if ready { 0.65 } else { 1.0 }) } else { button.cursor_pointer().hover({ let b = p.brand_dark; move |s| s.bg(b) }).on_click(cx.listener(|this, _, window, cx| this.apply_update(window, cx))) };
             wrap = wrap.child(button);
             if downloading {
@@ -639,7 +650,7 @@ impl AppView {
         } else {
             wrap = wrap.child(div().flex().gap(px(10.)).text_color(p.sidebar_muted).child(icon(name, 18., p.sidebar_muted))
                 .child(div().flex().flex_col().gap(px(4.)).child(div().text_size(px(12.)).font_weight(FontWeight::SEMIBOLD).child(label))
-                    .when(phase == "error", |d| d.child(div().text_size(px(11.)).child(state.as_ref().map(|s| s.message.clone()).unwrap_or_default())))));
+                    .when(phase == Phase::Error, |d| d.child(div().text_size(px(11.)).child(state.message.clone())))));
         }
         wrap.into_any_element()
     }
