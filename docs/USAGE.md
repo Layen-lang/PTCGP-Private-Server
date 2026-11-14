@@ -47,8 +47,11 @@ recovery details.
 
 Local mode checks the supported client and patch hashes on the selected
 device, starts its private server, installs temporary Android routing and the
-local certificate, and creates its ADB tunnel. Other devices keep their current
-mode. The game is not opened until you select **Open account**.
+local certificate, and creates its ADB tunnel. The server starts while Android
+is configured. If the device still carries a verified Local setup (for example
+after the panel restarted), only the server and the ADB tunnel are restored.
+Other devices keep their current mode. The game is not opened until you select
+**Open account**. While a switch runs, the control bar shows its current step.
 
 ### Official
 
@@ -61,10 +64,20 @@ control panel stays open.
 ### Stop all
 
 Stop all closes the games and performs the same Android restoration as Official
-mode on every managed device, stops their private servers, and closes the
-control panel after successful shutdown. If an device is unavailable, its
-server stops immediately and Android restoration is recorded for the next time
-that device is detected by the launcher.
+mode on every managed device, all at once, stops their private servers, and
+closes the control panel after successful shutdown. A device that was never
+switched to Local has nothing to restore: it is not searched for when it is
+missing. If a device with local changes is unavailable, its server stops
+immediately and Android restoration is recorded for the next time that device
+is detected by the launcher.
+
+### Remembered devices
+
+**Settings → Remembered devices** lists every device the panel has managed,
+connected or not. **Forget** removes an obsolete one (its ports, runtime files
+and account reservation). The selected device, a device whose server runs, and
+a device that still needs restoration cannot be forgotten: reconnect the latter
+and switch it to **Official** first.
 
 ## Accounts
 
@@ -98,8 +111,8 @@ applied from their own controls.
 
 ### Open a profile in the game
 
-Local mode must be active on the selected device, which must be connected.
-Select the profile, then **Open account**. The launcher writes that device's
+The selected device must be connected. Select the profile, then **Open
+account**: Local mode is enabled first when it is not already active. The launcher writes that device's
 local account state and starts its game. Opening another profile on the same
 device replaces that game session without repeating data preparation.
 

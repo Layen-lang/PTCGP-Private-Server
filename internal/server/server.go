@@ -4,11 +4,13 @@ package server
 import (
 	"context"
 	"crypto/tls"
+	"errors"
 	"fmt"
 	"log/slog"
 	"net"
 	"net/http"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/admin"
@@ -120,21 +122,52 @@ func Run(ctx context.Context, config Config, logger *slog.Logger) error {
 			runErr = err
 		}
 	}
-	grpcServer.GracefulStop()
-	shutdownCtx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
-	defer cancel()
-	tlsErr := httpServer.Shutdown(shutdownCtx)
-	adminErr := adminServer.Shutdown(shutdownCtx)
+	// gRPC runs inside the HTTP handler: its graceful stop ends once the
+	// HTTP servers below have closed the streams it waits for.
+	grpcStopped := make(chan struct{})
+	go func() { grpcServer.GracefulStop(); close(grpcStopped) }()
+	shutdownErr := shutdownServers(shutdownGrace, httpServer, adminServer)
+	select {
+	case <-grpcStopped:
+	case <-time.After(shutdownGrace):
+		grpcServer.Stop()
+	}
 	if runErr != nil {
 		return fmt.Errorf("serve local endpoint: %w", runErr)
 	}
-	if tlsErr != nil {
-		return fmt.Errorf("shutdown local TLS server: %w", tlsErr)
-	}
-	if adminErr != nil {
-		return fmt.Errorf("shutdown local administration: %w", adminErr)
+	if shutdownErr != nil {
+		return fmt.Errorf("shutdown local server: %w", shutdownErr)
 	}
 	return nil
+}
+
+// shutdownGrace bounds the wait for in-flight requests when the server
+// stops. Long-lived streams (the game's gRPC streams, the panel's traffic
+// feed) never end on their own: a plain graceful shutdown always waited for
+// its whole timeout, which made every switch to Official and Stop all last
+// about ten seconds longer.
+const shutdownGrace = 2 * time.Second
+
+// shutdownServers lets in-flight requests finish within grace, then closes
+// the remaining connections.
+func shutdownServers(grace time.Duration, servers ...*http.Server) error {
+	ctx, cancel := context.WithTimeout(context.Background(), grace)
+	defer cancel()
+	errs := make([]error, len(servers))
+	var wg sync.WaitGroup
+	for i, server := range servers {
+		wg.Add(1)
+		go func(i int, server *http.Server) {
+			defer wg.Done()
+			err := server.Shutdown(ctx)
+			if errors.Is(err, context.DeadlineExceeded) {
+				err = server.Close()
+			}
+			errs[i] = err
+		}(i, server)
+	}
+	wg.Wait()
+	return errors.Join(errs...)
 }
 
 func requireLoopback(address string) error {

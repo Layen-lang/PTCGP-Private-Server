@@ -50,8 +50,17 @@ type MultiRunner struct {
 	routingSerial  string
 	routingBackend string
 	histories      map[string]string
+	pendingChecks  map[string]pendingCheck
 	now            func() time.Time
 }
+
+type pendingCheck struct {
+	at      time.Time
+	message string
+}
+
+// pendingRecheck spaces deferred restoration attempts on unselected devices.
+const pendingRecheck = 30 * time.Second
 
 // NewMultiRunner restores per-device runtimes without importing game data or
 // starting games. The first device retains the original server ports and files.
@@ -60,7 +69,7 @@ func NewMultiRunner(cfg configuration.Config, root string, state *store.Store) (
 	if err != nil {
 		return nil, err
 	}
-	m := &MultiRunner{base: base, state: state, selected: cfg.Android.Serial, runtimes: make(map[string]emulatorRuntime), devices: make(map[string]emulatorControl), now: time.Now}
+	m := &MultiRunner{base: base, state: state, selected: cfg.Android.Serial, runtimes: make(map[string]emulatorRuntime), devices: make(map[string]emulatorControl), pendingChecks: make(map[string]pendingCheck), now: time.Now}
 	data, err := os.ReadFile(m.runtimeFile())
 	if err == nil {
 		var entries []emulatorRuntime
@@ -356,16 +365,35 @@ func (m *MultiRunner) Status(ctx context.Context) (Status, error) {
 			if serial == m.selected {
 				continue
 			}
-			pending := filepath.Join(m.deviceConfig(m.runtimes[serial]).Runtime.RuntimeDirectory, "pending-rollback")
-			if _, pendingErr := os.Stat(pending); pendingErr == nil {
+			directory := m.deviceConfig(m.runtimes[serial]).Runtime.RuntimeDirectory
+			pending := filepath.Join(directory, "pending-rollback")
+			if _, pendingErr := os.Stat(pending); pendingErr != nil {
+				delete(m.pendingChecks, serial)
+				continue
+			}
+			if !runtimeNeedsRestoration(directory) {
+				// Nothing was changed on this device: older releases marked it anyway.
+				_ = os.Remove(pending)
+				delete(m.pendingChecks, serial)
+				continue
+			}
+			// Reaching a missing device costs ADB connection timeouts: retry
+			// the deferred restoration periodically, not on every poll.
+			check, checked := m.pendingChecks[serial]
+			if !checked || m.now().Sub(check.at) >= pendingRecheck {
 				recovery, recoveryErr := managed.Status(ctx)
-				message := recovery.Android.RecoveryError
+				if ctx.Err() != nil {
+					// Interrupted by an operation: check again on the next poll.
+					return s, ctx.Err()
+				}
+				check = pendingCheck{at: m.now(), message: recovery.Android.RecoveryError}
 				if recoveryErr != nil {
-					message = recoveryErr.Error()
+					check.message = recoveryErr.Error()
 				}
-				if message != "" {
-					s.Android.RecoveryError = strings.TrimSpace(s.Android.RecoveryError + " " + serial + ": " + message)
-				}
+				m.pendingChecks[serial] = check
+			}
+			if check.message != "" {
+				s.Android.RecoveryError = strings.TrimSpace(s.Android.RecoveryError + " " + serial + ": " + check.message)
 			}
 		}
 	}
@@ -402,10 +430,36 @@ func (m *MultiRunner) stopAll(ctx context.Context) (Status, error) {
 			return Status{}, err
 		}
 	}
+	if len(m.devices) == 0 {
+		return m.base.Action(ctx, ActionStop)
+	}
+	// Devices are independent: stop them together so a missing emulator's
+	// ADB timeouts do not delay the others. Serials reaching the same Android
+	// are restored one after the other: concurrent restorations of one system
+	// race on its mounts (one unmounts, the other fails).
+	type outcome struct {
+		status Status
+		err    error
+	}
+	results := make(map[string]outcome, len(m.devices))
+	var mu sync.Mutex
+	var wg sync.WaitGroup
+	for _, group := range m.androidGroups(ctx) {
+		wg.Add(1)
+		go func(group []string) {
+			defer wg.Done()
+			for _, serial := range group {
+				status, err := m.devices[serial].Action(ctx, ActionStop)
+				mu.Lock()
+				results[serial] = outcome{status, err}
+				mu.Unlock()
+			}
+		}(group)
+	}
+	wg.Wait()
 	var failures []error
 	for serial, device := range m.devices {
-		_, err := device.Action(ctx, ActionStop)
-		if err != nil {
+		if err := results[serial].err; err != nil {
 			failures = append(failures, fmt.Errorf("%s: %w", serial, err))
 		}
 		// A stopped server cannot serve an account, even if Android was offline.
@@ -418,10 +472,51 @@ func (m *MultiRunner) stopAll(ctx context.Context) (Status, error) {
 	if err := errors.Join(failures...); err != nil {
 		return Status{}, err
 	}
-	if len(m.devices) == 0 {
-		return m.base.Action(ctx, ActionStop)
+	m.pendingChecks = make(map[string]pendingCheck)
+	// The panel exits after Stop: report the selected device without another
+	// inspection.
+	s := results[m.selected].status
+	s.Android.Serial = m.selected
+	return s, nil
+}
+
+// androidGroups groups the started devices by running Android instance (boot
+// ID). A stopped emulator's old serial can reach another emulator now
+// listening on its port, so two remembered serials may be one system.
+// Unreachable devices form groups of their own.
+func (m *MultiRunner) androidGroups(ctx context.Context) [][]string {
+	serials := make([]string, 0, len(m.devices))
+	for serial := range m.devices {
+		serials = append(serials, serial)
 	}
-	return m.Status(ctx)
+	sort.Strings(serials)
+	identities := make([]string, len(serials))
+	var wg sync.WaitGroup
+	for i, serial := range serials {
+		wg.Add(1)
+		go func(i int, serial string) {
+			defer wg.Done()
+			probeCtx, cancel := context.WithTimeout(ctx, 3*time.Second)
+			defer cancel()
+			if id, err := m.base.adb(probeCtx, serial, "shell", "cat", "/proc/sys/kernel/random/boot_id"); err == nil && strings.TrimSpace(id) != "" {
+				identities[i] = "boot:" + strings.TrimSpace(id)
+			} else {
+				identities[i] = "serial:" + serial
+			}
+		}(i, serial)
+	}
+	wg.Wait()
+	index := make(map[string]int)
+	var groups [][]string
+	for i, serial := range serials {
+		if g, ok := index[identities[i]]; ok {
+			groups[g] = append(groups[g], serial)
+			continue
+		}
+		index[identities[i]] = len(groups)
+		groups = append(groups, []string{serial})
+	}
+	return groups
 }
 
 // OpenPlayer acquires the exclusive account reservation before restarting just

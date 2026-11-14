@@ -1,10 +1,13 @@
-//! Port of `SettingsPage.tsx`: interface language and theme customisation.
+//! Port of `SettingsPage.tsx`: interface language, theme customisation and
+//! the devices the panel remembers.
 
-use crate::i18n::{self, t};
+use crate::api::{AndroidDevice, Api, ManagedDevice};
+use crate::i18n::{self, t, tf};
+use crate::ui::tasks::spawn_api;
 use crate::theme::{contrast, Preference, Scheme, ThemeSettings, PRESETS};
 use crate::ui::app::PageEvent;
 use crate::ui::forms;
-use crate::ui::kit::{icon, pal};
+use crate::ui::kit::{self, icon, pal, Kind};
 use crate::theme::Palette;
 use gpui_kit::component::input::{InputEvent, InputState};
 use gpui_kit::*;
@@ -25,7 +28,23 @@ pub struct SettingsPage {
     accent: Entity<InputState>,
     background: Entity<InputState>,
     foreground: Entity<InputState>,
+    managed: Vec<ManagedDevice>,
+    devices: Vec<AndroidDevice>,
+    busy: bool,
+    api: Api,
+    wifi: WifiForm,
     _subs: Vec<Subscription>,
+}
+
+/// Wi-Fi phone pairing (Android 11+ Wireless debugging).
+struct WifiForm {
+    pair_address: Entity<InputState>,
+    code: Entity<InputState>,
+    connect_address: Entity<InputState>,
+    /// "pair" or "connect" while ADB works.
+    running: Option<&'static str>,
+    /// Last outcome: success flag and message.
+    outcome: Option<(bool, String)>,
 }
 
 impl EventEmitter<PageEvent> for SettingsPage {}
@@ -33,7 +52,14 @@ impl EventEmitter<PageEvent> for SettingsPage {}
 fn color_of(value: &str) -> Hsla { crate::theme::color(u32::from_str_radix(value.trim_start_matches('#'), 16).unwrap_or(0)) }
 
 impl SettingsPage {
-    pub fn new(settings: ThemeSettings, window: &mut Window, cx: &mut Context<Self>) -> Self {
+    pub fn new(api: Api, settings: ThemeSettings, window: &mut Window, cx: &mut Context<Self>) -> Self {
+        let wifi = WifiForm {
+            pair_address: forms::text_state("", "192.168.1.50:37099", window, cx),
+            code: forms::text_state("", "123456", window, cx),
+            connect_address: forms::text_state("", "192.168.1.50:41815", window, cx),
+            running: None,
+            outcome: None,
+        };
         let accent = forms::text_state("", "", window, cx);
         let background = forms::text_state("", "", window, cx);
         let foreground = forms::text_state("", "", window, cx);
@@ -46,9 +72,108 @@ impl SettingsPage {
                 if valid { this.update_scheme(field, value, cx) } else { this.sync_inputs(window, cx) }
             }));
         }
-        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, advanced: false, accent, background, foreground, _subs: subs };
+        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, advanced: false, accent, background, foreground, managed: Vec::new(), devices: Vec::new(), busy: false, api, wifi, _subs: subs };
         page.sync_inputs(window, cx);
         page
+    }
+
+    /// Remembered devices from the control status and the current ADB list.
+    pub fn set_devices(&mut self, managed: Vec<ManagedDevice>, devices: Vec<AndroidDevice>, busy: bool) {
+        self.managed = managed;
+        self.devices = devices;
+        self.busy = busy;
+    }
+
+    fn render_devices(&self, p: &Palette, cx: &mut Context<Self>) -> Div {
+        if self.managed.is_empty() {
+            return div().px(px(24.)).py(px(18.)).text_size(px(12.)).text_color(p.muted).child(t("settings.noManagedDevices"));
+        }
+        let rows = self.managed.iter().enumerate().map(|(index, device)| {
+            let adb = self.devices.iter().find(|d| d.serial == device.serial || d.aliases.as_ref().map(|a| a.contains(&device.serial)).unwrap_or(false));
+            let connected = adb.map(|d| d.state == "device").unwrap_or(false);
+            let (icon_name, name, detail) = match adb.map(crate::ui::device::label) {
+                Some(label) => (label.icon, label.title, label.detail),
+                None => ("smartphone", device.serial.clone(), String::new()),
+            };
+            // Forgetting is refused by the panel in these cases; say why up front.
+            let blocked = if device.selected { Some("settings.deviceSelected") } else if device.running { Some("settings.deviceRunning") } else if device.needs_restoration { Some("settings.deviceNeedsRestoration") } else { None };
+            let disabled = self.busy || blocked.is_some();
+            let mut forget = kit::button(SharedString::from(format!("forget-{index}")), Kind::Quiet, t("settings.forget"), Some("trash"), disabled, p);
+            if !disabled {
+                let serial = device.serial.clone();
+                forget = forget.on_click(cx.listener(move |_, _, _, cx| cx.emit(PageEvent::Forget(serial.clone()))));
+            }
+            let (state_bg, state_fg) = if connected { (p.brand_soft, p.brand_dark) } else { (p.surface_soft, p.muted) };
+            div().flex().items_center().gap(px(14.)).px(px(24.)).py(px(14.)).when(index > 0, |d| d.border_t_1().border_color(p.line))
+                .child(icon(icon_name, 18., if connected { p.brand_dark } else { p.muted }))
+                .child(div().flex_1().min_w_0().flex().flex_col().gap(px(3.))
+                    .child(div().flex().items_center().gap(px(8.)).flex_wrap()
+                        .child(div().text_size(px(13.)).font_weight(FontWeight::BOLD).truncate().child(name))
+                        .child(kit::badge(t(if connected { "settings.deviceConnected" } else { "settings.deviceDisconnected" }), state_bg, state_fg))
+                        .when(device.pending_restoration, |d| d.child(kit::badge(t("settings.restorationPending"), p.warning_soft, p.warning))))
+                    .when(!detail.is_empty() || blocked.is_some(), |d| d.child(div().text_size(px(11.)).text_color(p.muted).truncate().child(match blocked {
+                        Some(key) if detail.is_empty() => t(key),
+                        Some(key) => format!("{detail} · {}", t(key)),
+                        None => detail,
+                    }))))
+                .child(forget)
+        }).collect::<Vec<_>>();
+        div().flex().flex_col().children(rows)
+    }
+
+    fn wifi_submit(&mut self, pair: bool, cx: &mut Context<Self>) {
+        if self.wifi.running.is_some() { return }
+        let address = forms::text(if pair { &self.wifi.pair_address } else { &self.wifi.connect_address }, cx).trim().to_string();
+        let code = forms::text(&self.wifi.code, cx).trim().to_string();
+        if address.is_empty() || (pair && code.is_empty()) {
+            self.wifi.outcome = Some((false, t(if pair { "settings.wifiPairMissing" } else { "settings.wifiConnectMissing" })));
+            cx.notify();
+            return;
+        }
+        self.wifi.running = Some(if pair { "pair" } else { "connect" });
+        self.wifi.outcome = None;
+        cx.notify();
+        spawn_api(cx, &self.api, move |api| if pair { api.pair_wireless(&address, &code) } else { api.connect_wireless(&address) }, move |this, result, cx| {
+            this.wifi.running = None;
+            this.wifi.outcome = Some(match result {
+                Ok(r) if !r.serial.is_empty() => { cx.emit(PageEvent::Refresh); (true, tf("settings.wifiConnected", &[("serial", &r.serial)])) }
+                Ok(_) => (true, t("settings.wifiPaired")),
+                Err(e) => (false, e.to_string()),
+            });
+        });
+    }
+
+    fn render_wifi(&self, p: &Palette, cx: &mut Context<Self>) -> Div {
+        let running = self.wifi.running;
+        let step = |number: &str, title: String, hint: String, fields: Vec<(String, &Entity<InputState>, f32)>, button: Stateful<Div>| {
+            div().flex().flex_col().gap(px(10.)).px(px(24.)).py(px(18.)).border_t_1().border_color(p.line)
+                .child(div().flex().items_center().gap(px(10.))
+                    .child(div().size(px(22.)).flex_none().flex().items_center().justify_center().rounded_full().bg(p.brand_soft).text_color(p.brand_dark).text_size(px(11.)).font_weight(FontWeight::EXTRA_BOLD).child(number.to_string()))
+                    .child(div().text_size(px(13.)).font_weight(FontWeight::BOLD).child(title)))
+                .child(div().text_size(px(12.)).text_color(p.muted).line_height(relative(1.5)).child(hint))
+                .child(div().flex().items_end().gap(px(10.)).flex_wrap()
+                    .children(fields.into_iter().map(|(label, state, width)| div().flex().flex_col().gap(px(5.)).w(px(width))
+                        .child(div().text_size(px(11.)).font_weight(FontWeight::BOLD).text_color(p.muted).child(label))
+                        .child(forms::input(state))))
+                    .child(button))
+        };
+        let button = |id: &'static str, label: String, leading: &str, active: bool, pair: bool, cx: &mut Context<Self>| {
+            let disabled = running.is_some();
+            let label = if active { t("settings.wifiWorking") } else { label };
+            let mut b = kit::button(id, if pair { Kind::Primary } else { Kind::Secondary }, label, Some(leading), disabled, p);
+            if !disabled { b = b.on_click(cx.listener(move |this, _, _, cx| this.wifi_submit(pair, cx))) }
+            b
+        };
+        let pair_button = button("wifi-pair", t("settings.wifiPair"), "link", running == Some("pair"), true, cx);
+        let connect_button = button("wifi-connect", t("settings.wifiConnect"), "wifi", running == Some("connect"), false, cx);
+        div().flex().flex_col()
+            .child(div().px(px(24.)).py(px(16.)).text_size(px(12.)).text_color(p.muted).line_height(relative(1.5)).child(t("settings.wifiIntro")))
+            .child(step("1", t("settings.wifiPairTitle"), t("settings.wifiPairHint"), vec![(t("settings.wifiAddress"), &self.wifi.pair_address, 220.), (t("settings.wifiCode"), &self.wifi.code, 120.)], pair_button))
+            .child(step("2", t("settings.wifiConnectTitle"), t("settings.wifiConnectHint"), vec![(t("settings.wifiAddress"), &self.wifi.connect_address, 220.)], connect_button))
+            .when_some(self.wifi.outcome.clone(), |d, (ok, message)| {
+                let (bg, fg, border) = if ok { (p.brand_soft, p.brand_dark, p.brand_soft) } else { (p.danger_soft, p.danger, p.danger_line) };
+                d.child(div().mx(px(24.)).mb(px(18.)).px(px(14.)).py(px(10.)).rounded(px(8.)).border_1().border_color(border).bg(bg).text_color(fg).text_size(px(12.)).child(message))
+            })
     }
 
     fn editing_dark(&self) -> bool {
@@ -225,6 +350,8 @@ impl Render for SettingsPage {
             .on_mouse_down_out(cx.listener(|this, _, _, cx| if this.menu != Menu::None { this.menu = Menu::None; cx.notify() }))
             .child(div().mb(px(8.)).text_size(px(30.)).font_weight(FontWeight::EXTRA_BOLD).child(t("settings.title")))
             .child(Self::section(t("settings.language"), "languages", div().px(px(24.)).py(px(18.)).child(language), &p))
+            .child(Self::section(t("settings.devices"), "smartphone", self.render_devices(&p, cx), &p))
+            .child(Self::section(t("settings.wifiTitle"), "wifi", self.render_wifi(&p, cx), &p))
             .child(Self::section(t("settings.appearance"), "palette", div().flex().flex_col()
                 .child(div().flex().gap(px(12.)).px(px(24.)).pt(px(22.)).pb(px(26.)).children(options))
                 .child(div().relative().mx(px(24.)).mb(px(24.)).border_1().border_color(p.line).rounded(px(12.)).bg(p.panel)

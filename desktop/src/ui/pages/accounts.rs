@@ -176,11 +176,22 @@ impl AccountsPage {
         cx.notify();
     }
 
+    /// Refresh button: profiles are cached for instant switching, so reload
+    /// them all and reopen the visible section from the server.
+    pub fn reload(&mut self, window: &mut Window, cx: &mut Context<Self>) {
+        self.profiles.clear();
+        for player in self.players.clone().into_iter().filter(|p| p.id != self.selected) {
+            let id = player.id.clone();
+            spawn_api(cx, &self.api, move |api| api.profile(&id), move |this: &mut Self, result, _| { if let Ok(p) = result { this.profiles.entry(player.id.clone()).or_insert(p); } });
+        }
+        self.load_profile(window, cx);
+    }
+
     fn profile(&self) -> Option<&Profile> { self.profiles.get(&self.selected) }
 
     fn device_name(&self, serial: &str) -> String {
         let Some(device) = self.devices.iter().find(|d| d.serial == serial || d.aliases.as_ref().map(|a| a.iter().any(|x| x == serial)).unwrap_or(false)) else { return serial.to_string() };
-        if self.devices.iter().filter(|d| d.name == device.name).count() > 1 { format!("{} ({serial})", device.name) } else { device.name.clone() }
+        crate::ui::device::unique_title(device, &self.devices)
     }
 
     fn select(&mut self, id: String, window: &mut Window, cx: &mut Context<Self>) {
@@ -441,7 +452,14 @@ impl AccountsPage {
         if self.selected.is_empty() { return }
         self.busy = true;
         let id = self.selected.clone();
-        spawn_api(cx, &self.api, move |api| api.open_player(&id), |this, result, cx| { this.busy = false; match result { Ok(_) => cx.emit(PageEvent::Refresh), Err(e) => error(cx, e) } });
+        // The shell shows the progress (Local may be enabled first) and refreshes at the end.
+        cx.emit(PageEvent::Launching(true));
+        spawn_api(cx, &self.api, move |api| api.open_player(&id), |this, result, cx| {
+            this.busy = false;
+            // Refreshing clears errors: report the failure after it starts.
+            cx.emit(PageEvent::Launching(false));
+            if let Err(e) = result { error(cx, e) }
+        });
     }
 
     fn duplicate(&mut self, id: String, window: &mut Window, cx: &mut Context<Self>) {

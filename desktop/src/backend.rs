@@ -97,11 +97,10 @@ impl Installation {
 pub struct Preferences {
     pub theme: ThemeSettings,
     pub locale: String,
-    pub route: String,
 }
 
 impl Default for Preferences {
     fn default() -> Self {
-        Preferences { theme: ThemeSettings::default(), locale: "en_US".into(), route: "accounts".into() }
+        Preferences { theme: ThemeSettings::default(), locale: "en_US".into() }
     }
 }

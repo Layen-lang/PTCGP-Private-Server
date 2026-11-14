@@ -155,7 +155,9 @@ func (r *NativeRunner) androidCAStores(ctx context.Context, serial string) []and
 }
 
 func (r *NativeRunner) androidZygotePIDs(ctx context.Context, serial string) ([]string, error) {
-	out, err := r.shell(ctx, serial, "for name in zygote64 zygote; do pidof \"$name\" 2>/dev/null || true; done")
+	out, err := r.remember(serial+"|zygote", func() (string, error) {
+		return r.shell(ctx, serial, "for name in zygote64 zygote; do pidof \"$name\" 2>/dev/null || true; done")
+	})
 	if err != nil {
 		return nil, err
 	}
@@ -176,7 +178,9 @@ func (r *NativeRunner) androidZygotePIDs(ctx context.Context, serial string) ([]
 }
 
 func (r *NativeRunner) androidHasNsenter(ctx context.Context, serial string) bool {
-	_, err := r.shell(ctx, serial, "command -v nsenter >/dev/null 2>&1")
+	_, err := r.remember(serial+"|nsenter", func() (string, error) {
+		return r.shell(ctx, serial, "command -v nsenter >/dev/null 2>&1")
+	})
 	return err == nil
 }
 
@@ -185,7 +189,10 @@ func caStoreUnmountCommand(store androidCAStore) string {
 	// mode. Only remove a bind whose mountinfo root names our staging
 	// directory; never unmount the underlying APEX.
 	marker := path.Base(store.staging) + " " + store.target + " "
-	return "if grep -F -q " + shellQuote(marker) + " /proc/self/mountinfo; then umount " + shellQuote(store.target) + "; fi"
+	// A failure is fine if the mount is gone meanwhile (unmounted by another
+	// restoration of the same Android).
+	return "if grep -F -q " + shellQuote(marker) + " /proc/self/mountinfo; then umount " + shellQuote(store.target) +
+		" || ! grep -F -q " + shellQuote(marker) + " /proc/self/mountinfo; fi"
 }
 
 func (r *NativeRunner) unmountAndroidCAStores(ctx context.Context, serial string) error {
@@ -307,12 +314,23 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 		return err
 	}
 	local := filepath.Join(work, m.Library)
-	if _, err := r.adb(ctx, serial, "pull", library, local); err != nil {
-		return err
-	}
-	hash, err := fileSHA256(local)
+	// Hash on the device: the library is only copied to Windows when it must
+	// be verified or patched there.
+	hash, err := r.remoteHash(ctx, serial, library)
 	if err != nil {
 		return err
+	}
+	if action == "verify" || (action == "apply" && hash == m.SourceSHA256) {
+		if _, err := r.adb(ctx, serial, "pull", library, local); err != nil {
+			return err
+		}
+		pulled, err := fileSHA256(local)
+		if err != nil {
+			return err
+		}
+		if pulled != hash {
+			return fmt.Errorf("the native library changed while it was copied")
+		}
 	}
 	officialUpgrade := false
 	if action == "rollback" && hash != m.SourceSHA256 && hash != m.TargetSHA256 {
@@ -353,8 +371,7 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 		}
 		r.step("rollback", "Restoring official routing and certificates")
 		for _, target := range []string{"/system/etc/hosts"} {
-			// Absence of a bind mount is normal after an emulator restart.
-			if _, err := r.shell(ctx, serial, "if grep -q ' "+target+" ' /proc/mounts; then umount "+shellQuote(target)+"; fi"); err != nil {
+			if _, err := r.shell(ctx, serial, unmountIfMounted(target)); err != nil {
 				return err
 			}
 		}
@@ -379,7 +396,7 @@ func (r *NativeRunner) setupAndroid(ctx context.Context, serial, action string) 
 		return nil
 	}
 	r.step("local", "Checking the game version and TLS patch")
-	details, err := r.adb(ctx, serial, "shell", "dumpsys", "package", r.cfg.Android.Package)
+	details, err := r.packageDetails(ctx, serial)
 	if err != nil {
 		return err
 	}
@@ -474,11 +491,19 @@ func (r *NativeRunner) installAndroidHosts(ctx context.Context, serial, local st
 	if _, err := r.shell(ctx, serial, command); err != nil {
 		return fmt.Errorf("prepare Android hosts permissions: %w", err)
 	}
-	if _, err := r.shell(ctx, serial, "if grep -q ' /system/etc/hosts ' /proc/mounts; then umount /system/etc/hosts; fi"); err != nil {
+	if _, err := r.shell(ctx, serial, unmountIfMounted("/system/etc/hosts")); err != nil {
 		return err
 	}
 	_, err := r.shell(ctx, serial, "mount --bind "+shellQuote(remote)+" /system/etc/hosts")
 	return err
+}
+
+// unmountIfMounted removes a bind mount. Its absence is normal after an
+// emulator restart, and an umount failure is fine when the mount disappeared
+// meanwhile (another restoration of the same Android unmounted it first).
+func unmountIfMounted(target string) string {
+	mounted := "grep -q ' " + target + " ' /proc/mounts"
+	return "if " + mounted + "; then umount " + shellQuote(target) + " || ! " + mounted + "; fi"
 }
 
 func (r *NativeRunner) saveInstalledPatch() error {

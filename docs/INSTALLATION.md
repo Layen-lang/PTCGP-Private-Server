@@ -98,6 +98,19 @@ download on the phone before preparing local data.
 Use current Android SDK Platform-Tools. On the phone, enable **Developer
 options → Wireless debugging** on the same local network as the computer.
 
+The app does this for you in **Settings → Phone over Wi-Fi**:
+
+1. On the phone, choose **Pair device with pairing code**. In the app, enter
+   the IP address and port and the 6-digit code it shows, then click **Pair**.
+   Pairing is needed once per computer.
+2. The app connects automatically when the phone announces itself on the
+   network. Otherwise, enter the address and port from the main **Wireless
+   debugging** screen and click **Connect**. This port changes each time
+   wireless debugging is turned on: reconnect with the new one.
+3. Choose the phone beside **Refresh** and follow [First launch](#first-launch).
+
+To do the same from a terminal:
+
 1. Choose **Pair device with pairing code** on the phone.
 2. On Windows, run `adb pair` with the address and pairing port shown there:
 

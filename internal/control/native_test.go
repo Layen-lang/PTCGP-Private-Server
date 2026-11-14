@@ -180,6 +180,9 @@ func testNativeRunner(t *testing.T, commands *androidStateRunner) *NativeRunner 
 
 func TestStopWithoutDeviceClosesServicesAndDefersRollback(t *testing.T) {
 	r := testNativeRunner(t, &androidStateRunner{})
+	if err := r.setMode("local"); err != nil {
+		t.Fatal(err)
+	}
 	status, err := r.Action(context.Background(), ActionStop)
 	if err != nil {
 		t.Fatal(err)
@@ -247,6 +250,9 @@ func TestFailedDeferredRollbackDoesNotRetryOnEveryStatusPoll(t *testing.T) {
 		SourceSHA256: fmt.Sprintf("%x", sha256.Sum256([]byte("official library"))),
 		TargetSHA256: fmt.Sprintf("%x", sha256.Sum256(patched)),
 		ExpectedHex:  "00", ReplacementHex: "01",
+	}
+	if err := r.saveInstalledPatch(); err != nil {
+		t.Fatal(err)
 	}
 	if err := r.markPendingRollback(); err != nil {
 		t.Fatal(err)
@@ -374,6 +380,9 @@ func TestHTTPStatusDetectsLateDeviceAndDisappearance(t *testing.T) {
 func TestStopWithoutEmulatorStopsAndDefersAndroidRollback(t *testing.T) {
 	commands := &androidStateRunner{}
 	r := testNativeRunner(t, commands)
+	if err := r.saveInstalledPatch(); err != nil {
+		t.Fatal(err)
+	}
 
 	status, err := r.Action(context.Background(), ActionStop)
 	if err != nil {
@@ -456,5 +465,77 @@ func TestManagedPIDDoesNotTreatControllerAsPersistentLauncher(t *testing.T) {
 	}
 	if got := managedPID(filepath.Join(t.TempDir(), "missing.pid"), executable); got != 0 {
 		t.Fatalf("current controller process accepted as persistent launcher: %d", got)
+	}
+}
+
+func TestStopOfAnUntouchedMissingDeviceSkipsDiscoveryAndRestoration(t *testing.T) {
+	commands := &androidStateRunner{}
+	r := testNativeRunner(t, commands)
+	r.cfg.Android.Serial = "192.168.1.20:5555"
+	status, err := r.Action(context.Background(), ActionStop)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if status.Mode != "stopped" || status.Android.Connected {
+		t.Fatalf("status=%+v", status)
+	}
+	if _, err := os.Stat(r.pendingRollback()); !errors.Is(err, os.ErrNotExist) {
+		t.Fatalf("an untouched device was marked for restoration: %v", err)
+	}
+	for _, call := range commands.calls {
+		if strings.HasPrefix(call, "connect ") || call == "devices -l" {
+			t.Fatalf("stop waited for a missing device: %s", call)
+		}
+	}
+}
+
+func TestStopOfAnUntouchedConnectedDeviceOnlyClosesTheGame(t *testing.T) {
+	commands := &androidStateRunner{connected: true, data: []byte("official library")}
+	r := testNativeRunner(t, commands)
+	r.cachedSerial = "serial"
+	status, err := r.Action(context.Background(), ActionStop)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if status.Mode != "stopped" || !status.Android.Connected || status.Android.Routing != "officiel" {
+		t.Fatalf("status=%+v", status)
+	}
+	calls := strings.Join(commands.calls, "\n")
+	if !strings.Contains(calls, "am force-stop game") || strings.Contains(calls, "umount") || strings.Contains(calls, "sha256sum") {
+		t.Fatalf("unexpected stop calls:\n%s", calls)
+	}
+}
+
+func TestStaleRestorationMarkerOnAnUntouchedDeviceIsCleared(t *testing.T) {
+	commands := &androidStateRunner{connected: true, data: []byte("official library")}
+	r := testNativeRunner(t, commands)
+	if err := r.markPendingRollback(); err != nil {
+		t.Fatal(err)
+	}
+	status, err := r.Status(context.Background())
+	if err != nil || status.Android.RecoveryError != "" {
+		t.Fatalf("status=%+v err=%v", status, err)
+	}
+	if _, err := os.Stat(r.pendingRollback()); !errors.Is(err, os.ErrNotExist) {
+		t.Fatalf("stale marker kept: %v", err)
+	}
+	for _, call := range commands.calls {
+		if strings.Contains(call, "umount") || strings.Contains(call, "force-stop") {
+			t.Fatalf("restored an untouched device: %s", call)
+		}
+	}
+}
+
+func TestRollbackHashesTheLibraryOnTheDeviceWithoutCopyingIt(t *testing.T) {
+	official := []byte("official library")
+	commands := &androidStateRunner{connected: true, data: official}
+	r := testNativeRunner(t, commands)
+	if err := r.SetupAndroid(context.Background(), "rollback"); err != nil {
+		t.Fatal(err)
+	}
+	for _, call := range commands.calls {
+		if strings.Contains(call, " pull ") {
+			t.Fatalf("rollback copied the library: %s", call)
+		}
 	}
 }

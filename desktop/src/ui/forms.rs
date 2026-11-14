@@ -5,7 +5,8 @@ use gpui_kit::component::input::{Input, InputState};
 use gpui_kit::component::select::{Select, SelectItem, SelectState};
 use gpui_kit::component::searchable_list::SearchableVec;
 use gpui_kit::component::theme::{Theme, ThemeMode};
-use gpui_kit::component::{IndexPath, Sizable};
+use gpui_kit::component::{ActiveTheme, IndexPath, Sizable};
+use gpui_kit::prelude::FluentBuilder as _;
 use gpui_kit::*;
 
 /// Applies the palette to gpui-component's theme so inputs, selects,
@@ -82,16 +83,39 @@ pub fn input(state: &Entity<InputState>) -> Input { Input::new(state).large() }
 pub struct Choice {
     pub value: SharedString,
     pub label: SharedString,
+    pub icon: Option<SharedString>,
+    pub detail: Option<SharedString>,
 }
 
 impl Choice {
-    pub fn new(value: impl Into<SharedString>, label: impl Into<SharedString>) -> Self { Choice { value: value.into(), label: label.into() } }
+    pub fn new(value: impl Into<SharedString>, label: impl Into<SharedString>) -> Self { Choice { value: value.into(), label: label.into(), icon: None, detail: None } }
+
+    /// Adds a leading icon and a muted second line to the dropdown row.
+    pub fn described(mut self, icon: &str, detail: impl Into<SharedString>) -> Self {
+        self.icon = Some(SharedString::from(icon.to_string()));
+        self.detail = Some(detail.into()).filter(|d: &SharedString| !d.is_empty());
+        self
+    }
 }
 
 impl SelectItem for Choice {
     type Value = SharedString;
     fn title(&self) -> SharedString { self.label.clone() }
     fn value(&self) -> &SharedString { &self.value }
+
+    fn render(&self, _: &mut Window, cx: &mut App) -> impl IntoElement {
+        let muted = cx.theme().muted_foreground;
+        div().flex().items_center().gap(px(10.)).min_w_0()
+            .when_some(self.icon.clone(), |d, name| d.child(crate::ui::kit::icon(name.as_ref(), 16., muted)))
+            .child(div().flex().flex_col().min_w_0()
+                .child(div().truncate().child(self.label.clone()))
+                .when_some(self.detail.clone(), |d, detail| d.child(div().text_size(px(11.)).text_color(muted).truncate().child(detail))))
+    }
+
+    fn matches(&self, query: &str) -> bool {
+        let query = query.to_lowercase();
+        self.label.to_lowercase().contains(&query) || self.detail.as_ref().is_some_and(|d| d.to_lowercase().contains(&query))
+    }
 }
 
 pub type ChoiceState = Entity<SelectState<SearchableVec<Choice>>>;

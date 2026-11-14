@@ -2,6 +2,7 @@ package android
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"net"
 	"os"
@@ -16,11 +17,133 @@ import (
 // Discover refreshes ADB connections on every call, including emulators started
 // after the panel. An explicit serial is never replaced with another device.
 func Discover(ctx context.Context, runner Runner, requested, packageName string) (string, error) {
-	return discoverDevices(ctx, runner, requested, packageName, localEmulatorEndpoints())
+	return discoverDevices(ctx, runner, requested, packageName, endpointAddresses(localEmulatorEndpoints()))
 }
 
-func localEmulatorEndpoints() []string {
-	return append(blueStacksEndpoints(), ldPlayerEndpoints()...)
+// Emulator names reported to the panel.
+const (
+	emulatorMuMu       = "MuMu"
+	emulatorLDPlayer   = "LDPlayer"
+	emulatorBlueStacks = "BlueStacks"
+)
+
+// emulatorEndpoint is a local ADB port with the emulator instance that
+// forwards it, as read from that emulator's own configuration.
+type emulatorEndpoint struct {
+	address, emulator, instance string
+}
+
+func endpointAddresses(endpoints []emulatorEndpoint) []string {
+	var addresses []string
+	for _, endpoint := range endpoints {
+		addresses = append(addresses, endpoint.address)
+	}
+	return addresses
+}
+
+func localEmulatorEndpoints() []emulatorEndpoint {
+	endpoints := append(blueStacksEndpoints(), ldPlayerEndpoints()...)
+	return append(endpoints, muMuEndpoints()...)
+}
+
+// MuMu Player (12 and later) keeps each instance's ADB forwarding port in
+// vms/<instance>/configs/vm_config.json under its install directory.
+type muMuVMConfig struct {
+	VM struct {
+		NAT struct {
+			PortForward struct {
+				ADB struct {
+					HostIP   string `json:"host_ip"`
+					HostPort string `json:"host_port"`
+				} `json:"adb"`
+			} `json:"port_forward"`
+		} `json:"nat"`
+	} `json:"vm"`
+}
+
+func parseMuMuEndpoint(data []byte) string {
+	var config muMuVMConfig
+	if json.Unmarshal(data, &config) != nil {
+		return ""
+	}
+	adb := config.VM.NAT.PortForward.ADB
+	port, err := strconv.Atoi(strings.TrimSpace(adb.HostPort))
+	if err != nil || port <= 0 || port > 65535 {
+		return ""
+	}
+	host := strings.TrimSpace(adb.HostIP)
+	if host == "" || host == "0.0.0.0" {
+		host = "127.0.0.1"
+	}
+	if !strings.HasPrefix(host, "127.") {
+		return ""
+	}
+	return net.JoinHostPort(host, strconv.Itoa(port))
+}
+
+// muMuInstance names an instance like MuMu's multi-instance manager: the
+// name in extra_config.json followed by the folder's trailing index.
+func muMuInstance(folder string, extraConfig []byte) string {
+	var extra struct {
+		PlayerName string `json:"playerName"`
+	}
+	_ = json.Unmarshal(extraConfig, &extra)
+	name := strings.TrimSpace(extra.PlayerName)
+	index := ""
+	if cut := strings.LastIndex(folder, "-"); cut >= 0 {
+		if _, err := strconv.Atoi(folder[cut+1:]); err == nil {
+			index = "#" + folder[cut+1:]
+		}
+	}
+	switch {
+	case name != "" && index != "":
+		return name + " " + index
+	case name != "":
+		return name
+	case index != "":
+		return index
+	}
+	return folder
+}
+
+func muMuEndpoints() []emulatorEndpoint {
+	roots := muMuInstallRoots()
+	for _, variable := range []string{"ProgramFiles", "ProgramFiles(x86)"} {
+		if base := os.Getenv(variable); base != "" {
+			matches, _ := filepath.Glob(filepath.Join(base, "Netease", "MuMu*"))
+			roots = append(roots, matches...)
+		}
+	}
+	return muMuEndpointsIn(roots)
+}
+
+func muMuEndpointsIn(roots []string) []emulatorEndpoint {
+	seenRoot := make(map[string]bool)
+	seen := make(map[string]bool)
+	var endpoints []emulatorEndpoint
+	for _, root := range roots {
+		key := strings.ToLower(filepath.Clean(root))
+		if root == "" || seenRoot[key] {
+			continue
+		}
+		seenRoot[key] = true
+		configs, _ := filepath.Glob(filepath.Join(root, "vms", "*", "configs", "vm_config.json"))
+		sort.Strings(configs)
+		for _, path := range configs {
+			data, err := os.ReadFile(path)
+			if err != nil {
+				continue
+			}
+			if endpoint := parseMuMuEndpoint(data); endpoint != "" && !seen[endpoint] {
+				seen[endpoint] = true
+				configs := filepath.Dir(path)
+				extra, _ := os.ReadFile(filepath.Join(configs, "extra_config.json"))
+				instance := muMuInstance(filepath.Base(filepath.Dir(configs)), extra)
+				endpoints = append(endpoints, emulatorEndpoint{endpoint, emulatorMuMu, instance})
+			}
+		}
+	}
+	return endpoints
 }
 
 // LDPlayer records the actual ADB forwarding ports in its NAT service logs.
@@ -29,7 +152,18 @@ func localEmulatorEndpoints() []string {
 var ldPlayerForwarding = regexp.MustCompile(`(?m)Event: (Add|Delete) IPv4 port-forwarding rule "([^"]+)"(?:: TCP ([^\s:]*):([0-9]+) -> [0-9.]+:5555\b)?`)
 var ldPlayerNATLog = regexp.MustCompile(`^LdNatNetwork[0-9]+\.log$`)
 
-func parseLDPlayerEndpoints(data []byte) []string {
+// ldPlayerInstance turns a forwarding rule name such as "tcp_5555_0" into
+// the instance index LDPlayer's multi-instance manager shows.
+func ldPlayerInstance(rule string) string {
+	if cut := strings.LastIndex(rule, "_"); cut >= 0 {
+		if _, err := strconv.Atoi(rule[cut+1:]); err == nil {
+			return "#" + rule[cut+1:]
+		}
+	}
+	return ""
+}
+
+func parseLDPlayerEndpoints(data []byte) []emulatorEndpoint {
 	rules := make(map[string]string)
 	for _, match := range ldPlayerForwarding.FindAllSubmatch(data, -1) {
 		name := string(match[2])
@@ -51,34 +185,64 @@ func parseLDPlayerEndpoints(data []byte) []string {
 		}
 		rules[name] = net.JoinHostPort(host, strconv.Itoa(port))
 	}
+	names := make([]string, 0, len(rules))
+	for name := range rules {
+		names = append(names, name)
+	}
+	sort.Strings(names)
 	seen := make(map[string]bool)
-	var endpoints []string
-	for _, endpoint := range rules {
-		if !seen[endpoint] {
+	var endpoints []emulatorEndpoint
+	for _, name := range names {
+		if endpoint := rules[name]; !seen[endpoint] {
 			seen[endpoint] = true
-			endpoints = append(endpoints, endpoint)
+			endpoints = append(endpoints, emulatorEndpoint{endpoint, emulatorLDPlayer, ldPlayerInstance(name)})
 		}
 	}
-	sort.Strings(endpoints)
+	sort.Slice(endpoints, func(i, j int) bool { return endpoints[i].address < endpoints[j].address })
 	return endpoints
 }
 
-func ldPlayerEndpoints() []string {
+func ldPlayerEndpoints() []emulatorEndpoint {
 	home, err := os.UserHomeDir()
 	if err != nil {
 		return nil
 	}
-	root := filepath.Join(home, ".Ld9VirtualBox")
-	return ldPlayerEndpointsIn(root)
+	endpoints := ldPlayerEndpointsIn(filepath.Join(home, ".Ld9VirtualBox"))
+	nameLDPlayerInstances(endpoints, ldPlayerDataDirs())
+	return endpoints
 }
 
-func ldPlayerEndpointsIn(root string) []string {
+// nameLDPlayerInstances adds the name given to a renamed instance, kept in
+// <DataDir>/config/leidian<N>.config. Unnamed instances keep their index.
+func nameLDPlayerInstances(endpoints []emulatorEndpoint, dataDirs []string) {
+	for index, endpoint := range endpoints {
+		number := strings.TrimPrefix(endpoint.instance, "#")
+		if number == endpoint.instance {
+			continue
+		}
+		for _, dir := range dataDirs {
+			data, err := os.ReadFile(filepath.Join(dir, "config", "leidian"+number+".config"))
+			if err != nil {
+				continue
+			}
+			var config struct {
+				PlayerName string `json:"statusSettings.playerName"`
+			}
+			if json.Unmarshal(data, &config) == nil && strings.TrimSpace(config.PlayerName) != "" {
+				endpoints[index].instance = strings.TrimSpace(config.PlayerName) + " " + endpoint.instance
+			}
+			break
+		}
+	}
+}
+
+func ldPlayerEndpointsIn(root string) []emulatorEndpoint {
 	entries, err := os.ReadDir(root)
 	if err != nil {
 		return nil
 	}
 	seen := make(map[string]bool)
-	var endpoints []string
+	var endpoints []emulatorEndpoint
 	for _, entry := range entries {
 		if entry.IsDir() || !ldPlayerNATLog.MatchString(entry.Name()) {
 			continue
@@ -88,8 +252,8 @@ func ldPlayerEndpointsIn(root string) []string {
 			continue
 		}
 		for _, endpoint := range parseLDPlayerEndpoints(data) {
-			if !seen[endpoint] {
-				seen[endpoint] = true
+			if !seen[endpoint.address] {
+				seen[endpoint.address] = true
 				endpoints = append(endpoints, endpoint)
 			}
 		}
@@ -198,34 +362,46 @@ func discoverDevices(ctx context.Context, runner Runner, requested, packageName 
 	return "", fmt.Errorf("multiple ADB devices detected; choose an emulator in the panel or specify its serial for this command")
 }
 
-var adbPortLine = regexp.MustCompile(`(?m)^bst\.instance\.[^.]+\.(?:status\.)?adb_port="([0-9]+)"\s*$`)
+var adbPortLine = regexp.MustCompile(`(?m)^bst\.instance\.([^.]+)\.(?:status\.)?adb_port="([0-9]+)"\s*$`)
+var blueStacksDisplayName = regexp.MustCompile(`(?m)^bst\.instance\.([^.]+)\.display_name="([^"]*)"\s*$`)
 
-func parseBlueStacksEndpoints(data []byte) []string {
-	seen := make(map[int]bool)
+func parseBlueStacksEndpoints(data []byte) []emulatorEndpoint {
+	names := make(map[string]string)
+	for _, match := range blueStacksDisplayName.FindAllSubmatch(data, -1) {
+		names[string(match[1])] = strings.TrimSpace(string(match[2]))
+	}
+	instances := make(map[int]string)
 	for _, match := range adbPortLine.FindAllSubmatch(data, -1) {
-		port, err := strconv.Atoi(string(match[1]))
-		if err == nil && port > 0 && port <= 65535 {
-			seen[port] = true
+		port, err := strconv.Atoi(string(match[2]))
+		if err != nil || port <= 0 || port > 65535 {
+			continue
+		}
+		if _, seen := instances[port]; !seen {
+			instance := string(match[1])
+			if name := names[instance]; name != "" {
+				instance = name
+			}
+			instances[port] = instance
 		}
 	}
-	ports := make([]int, 0, len(seen))
-	for port := range seen {
+	ports := make([]int, 0, len(instances))
+	for port := range instances {
 		ports = append(ports, port)
 	}
 	sort.Ints(ports)
-	var endpoints []string
+	var endpoints []emulatorEndpoint
 	for _, port := range ports {
-		endpoints = append(endpoints, net.JoinHostPort("127.0.0.1", strconv.Itoa(port)))
+		endpoints = append(endpoints, emulatorEndpoint{net.JoinHostPort("127.0.0.1", strconv.Itoa(port)), emulatorBlueStacks, instances[port]})
 	}
 	return endpoints
 }
 
-func blueStacksEndpoints() []string {
+func blueStacksEndpoints() []emulatorEndpoint {
 	root := os.Getenv("ProgramData")
 	if root == "" {
 		return nil
 	}
-	var endpoints []string
+	var endpoints []emulatorEndpoint
 	seen := make(map[string]bool)
 	for _, folder := range []string{"BlueStacks_nxt", "BlueStacks"} {
 		data, err := os.ReadFile(filepath.Join(root, folder, "bluestacks.conf"))
@@ -233,9 +409,9 @@ func blueStacksEndpoints() []string {
 			continue
 		}
 		for _, endpoint := range parseBlueStacksEndpoints(data) {
-			if !seen[endpoint] {
+			if !seen[endpoint.address] {
 				endpoints = append(endpoints, endpoint)
-				seen[endpoint] = true
+				seen[endpoint.address] = true
 			}
 		}
 	}

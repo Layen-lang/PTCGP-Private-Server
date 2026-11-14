@@ -36,6 +36,9 @@ type Status struct {
 	Mode        string           `json:"mode"`
 	Server      ServerStatus     `json:"server"`
 	Android     AndroidStatus    `json:"android"`
+	// Step is the latest progress message of the running operation.
+	Step    string          `json:"step,omitempty"`
+	Managed []ManagedDevice `json:"managed,omitempty"`
 }
 
 type ServerStatus struct {
@@ -87,12 +90,17 @@ type Handler struct {
 	androidActivity   string
 	shutdown          func()
 
-	operationMu sync.RWMutex
-	operation   string
-	runnerMu    sync.Mutex
-	statusMu    sync.RWMutex
-	last        Status
-	hasLast     bool
+	operationMu      sync.RWMutex
+	operation        string
+	operationStarted time.Time
+	// statusCancel interrupts a status check in progress so a newly started
+	// operation does not wait for its ADB calls.
+	statusCancelMu sync.Mutex
+	statusCancel   context.CancelFunc
+	runnerMu       sync.Mutex
+	statusMu       sync.RWMutex
+	last           Status
+	hasLast        bool
 }
 
 func New(backend *url.URL, runner Runner) (*Handler, error) {
@@ -145,7 +153,7 @@ func (h *Handler) Open(ctx context.Context) error {
 		return fmt.Errorf("an operation is already in progress")
 	}
 	defer h.finishOperation()
-	h.runnerMu.Lock()
+	h.lockRunner("open")
 	defer h.runnerMu.Unlock()
 	h.journal.Record("open", "info", "Checking the server and emulator before launching the account")
 	status, err := h.runner.Status(ctx)
@@ -227,6 +235,14 @@ func (h *Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		if h.validateMutation(w, r) {
 			h.preparationAction(w, r)
 		}
+	case r.Method == http.MethodPost && r.URL.Path == "/api/control/forget":
+		if h.validateMutation(w, r) {
+			h.forgetAction(w, r)
+		}
+	case r.Method == http.MethodPost && (r.URL.Path == "/api/control/wireless/pair" || r.URL.Path == "/api/control/wireless/connect"):
+		if h.validateMutation(w, r) {
+			h.wirelessAction(w, r, strings.HasSuffix(r.URL.Path, "/pair"))
+		}
 	case r.Method == http.MethodPost && r.URL.Path == "/api/control/device":
 		if h.validateMutation(w, r) {
 			h.deviceAction(w, r)
@@ -274,11 +290,19 @@ func (h *Handler) status(w http.ResponseWriter, r *http.Request) {
 	}
 	ctx, cancel := context.WithTimeout(r.Context(), 60*time.Second)
 	defer cancel()
+	h.setStatusCancel(cancel)
 	status, err := h.runner.Status(ctx)
+	h.setStatusCancel(nil)
+	// An operation started meanwhile interrupted this check: report it.
+	if operation := h.currentOperation(); operation != "" {
+		h.writeBusyStatus(w, operation)
+		return
+	}
 	if err != nil {
 		writeJSON(w, http.StatusServiceUnavailable, map[string]string{"error": err.Error()})
 		return
 	}
+	status.Managed = h.managedDevices()
 	h.storeStatus(status)
 	if h.preparation != nil {
 		s := h.preparation.Status()
@@ -308,18 +332,20 @@ func (h *Handler) action(w http.ResponseWriter, _ *http.Request, rawAction strin
 	}
 	defer h.finishOperation()
 	h.journal.Record(string(action), "info", "Starting operation: "+string(action))
-	h.runnerMu.Lock()
+	started := time.Now()
+	h.lockRunner(string(action))
 	defer h.runnerMu.Unlock()
 	ctx, cancel := context.WithTimeout(context.Background(), 3*time.Minute)
 	defer cancel()
 	status, err := h.runner.Action(ctx, action)
 	if err != nil {
-		h.journal.Record(string(action), "error", err.Error())
+		h.journal.Record(string(action), "error", err.Error()+" ("+elapsed(started)+")")
 		writeJSON(w, http.StatusInternalServerError, map[string]string{"error": err.Error()})
 		return
 	}
+	status.Managed = h.managedDevices()
 	h.storeStatus(status)
-	h.journal.Record(string(action), "success", "Operation completed: "+string(action))
+	h.journal.Record(string(action), "success", "Operation completed: "+string(action)+" in "+elapsed(started))
 	if h.preparation != nil {
 		s := h.preparation.Status()
 		status.Preparation = &s
@@ -333,6 +359,20 @@ func (h *Handler) action(w http.ResponseWriter, _ *http.Request, rawAction strin
 	if action == ActionStop && h.shutdown != nil {
 		h.shutdown()
 	}
+}
+
+// lockRunner waits for the device runner and records waits long enough to be
+// felt, so slow switches can be told apart from slow status checks.
+func (h *Handler) lockRunner(operation string) {
+	waiting := time.Now()
+	h.runnerMu.Lock()
+	if wait := time.Since(waiting); wait > 200*time.Millisecond {
+		h.journal.Record(operation, "info", "Waited "+elapsed(waiting)+" for the current status check")
+	}
+}
+
+func elapsed(since time.Time) string {
+	return fmt.Sprintf("%.1f s", time.Since(since).Seconds())
 }
 
 func parseAction(value string) (Action, bool) {
@@ -369,6 +409,10 @@ func (h *Handler) writeBusyStatus(w http.ResponseWriter, operation string) {
 	status.CSRFToken = h.csrf
 	status.Busy = true
 	status.Operation = operation
+	h.operationMu.RLock()
+	started := h.operationStarted
+	h.operationMu.RUnlock()
+	status.Step = h.journal.LatestStep(started)
 	writeJSON(w, http.StatusOK, status)
 }
 
@@ -379,7 +423,19 @@ func (h *Handler) tryStartOperation(operation string) bool {
 		return false
 	}
 	h.operation = operation
+	h.operationStarted = time.Now()
+	h.statusCancelMu.Lock()
+	if h.statusCancel != nil {
+		h.statusCancel()
+	}
+	h.statusCancelMu.Unlock()
 	return true
+}
+
+func (h *Handler) setStatusCancel(cancel context.CancelFunc) {
+	h.statusCancelMu.Lock()
+	h.statusCancel = cancel
+	h.statusCancelMu.Unlock()
 }
 
 func (h *Handler) finishOperation() {

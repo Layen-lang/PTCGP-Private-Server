@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"strings"
 	"testing"
+	"time"
 
 	"github.com/Layen-lang/PTCGP-Private-Server/internal/provision"
 )
@@ -285,5 +286,54 @@ func TestRejectsNonLoopbackHost(t *testing.T) {
 	handler.ServeHTTP(response, request)
 	if response.Code != http.StatusForbidden {
 		t.Fatalf("status=%d", response.Code)
+	}
+}
+
+type slowStatusRunner struct {
+	checking chan struct{}
+}
+
+func (r *slowStatusRunner) Status(ctx context.Context) (Status, error) {
+	select {
+	case r.checking <- struct{}{}:
+	default:
+	}
+	select {
+	case <-ctx.Done():
+		return Status{Mode: "unknown"}, ctx.Err()
+	case <-time.After(5 * time.Second):
+		return Status{Mode: "online"}, nil
+	}
+}
+
+func (r *slowStatusRunner) Action(context.Context, Action) (Status, error) {
+	return Status{Mode: "local", Server: ServerStatus{Running: true}}, nil
+}
+
+func TestActionInterruptsAStatusCheckInProgress(t *testing.T) {
+	t.Parallel()
+	backend, _ := url.Parse("http://127.0.0.1:1")
+	runner := &slowStatusRunner{checking: make(chan struct{}, 1)}
+	handler := newHandler(t, runner, backend)
+	status := httptest.NewRecorder()
+	statusDone := make(chan struct{})
+	go func() {
+		request := httptest.NewRequest(http.MethodGet, "http://127.0.0.1:8080/api/control/status", nil)
+		handler.ServeHTTP(status, request)
+		close(statusDone)
+	}()
+	<-runner.checking
+	started := time.Now()
+	request := httptest.NewRequest(http.MethodPost, "http://127.0.0.1:8080/api/control/actions/local", nil)
+	request.AddCookie(&http.Cookie{Name: "ptcgp_control_csrf", Value: handler.csrf})
+	request.Header.Set("X-Control-CSRF-Token", handler.csrf)
+	action := httptest.NewRecorder()
+	handler.ServeHTTP(action, request)
+	if action.Code != http.StatusOK || time.Since(started) > 2*time.Second {
+		t.Fatalf("action waited %s: %d %s", time.Since(started), action.Code, action.Body.String())
+	}
+	<-statusDone
+	if status.Code != http.StatusOK || !strings.Contains(status.Body.String(), `"busy":true`) {
+		t.Fatalf("interrupted status = %d %s", status.Code, status.Body.String())
 	}
 }

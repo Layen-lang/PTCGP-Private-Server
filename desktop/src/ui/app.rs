@@ -1,11 +1,12 @@
 //! Application shell: sidebar, control top bar, global errors, status polling
 //! and page routing.
 
+use super::device;
 use super::forms::{self, Choice, ChoiceState};
 use super::kit::{self, icon, pal, Colors, Kind};
 use super::pages::{accounts::AccountsPage, logs::LogsPage, packs::PacksPage, settings::SettingsPage, traffic::TrafficPage};
 use super::tasks::spawn_api_in;
-use crate::api::{AndroidDevice, Api, Bootstrap, ControlStatus, PreparationState};
+use crate::api::{AndroidDevice, Api, Bootstrap, ControlStatus, ManagedDevice, PreparationState};
 use crate::backend::{Installation, Preferences};
 use crate::i18n::{number, t, tf};
 use crate::theme::{Palette, ThemeSettings};
@@ -24,21 +25,16 @@ pub enum Route {
     Settings,
 }
 
-impl Route {
-    fn key(self) -> &'static str {
-        match self { Route::Accounts => "accounts", Route::Packs => "packs", Route::Traffic => "traffic", Route::Logs => "logs", Route::Settings => "settings" }
-    }
-    fn parse(value: &str) -> Route {
-        match value { "packs" => Route::Packs, "traffic" => Route::Traffic, "logs" => Route::Logs, "settings" => Route::Settings, _ => Route::Accounts }
-    }
-}
-
 /// Events pages send to the shell.
 pub enum PageEvent {
     Error(String),
     Refresh,
     Theme(ThemeSettings),
     Locale(String),
+    /// An account launch started (true) or finished (false) on the Accounts page.
+    Launching(bool),
+    /// Forget a remembered device (Settings).
+    Forget(String),
 }
 
 #[derive(Clone, PartialEq)]
@@ -67,6 +63,10 @@ pub struct AppView {
     refreshing: u8,
     restarting: bool,
     action_lock: bool,
+    /// An account launch is running (it may enable Local first).
+    launching: bool,
+    /// Progress message of the running operation, polled while it runs.
+    step: Option<String>,
     device_select: ChoiceState,
     accounts: Option<(String, Entity<AccountsPage>)>,
     packs: Option<Entity<PacksPage>>,
@@ -97,7 +97,8 @@ impl AppView {
             this.apply_theme(cx);
         });
         let mut view = AppView {
-            route: Route::parse(&prefs.route),
+            // The app always opens on Accounts, whatever page was last shown.
+            route: Route::Accounts,
             inst,
             api,
             prefs,
@@ -114,6 +115,8 @@ impl AppView {
             refreshing: 0,
             restarting: false,
             action_lock: false,
+            launching: false,
+            step: None,
             device_select,
             accounts: None,
             packs: None,
@@ -188,6 +191,8 @@ impl AppView {
     fn poll_interval(&self) -> Duration {
         let update = self.control.update.as_ref().map(|u| u.phase.as_str());
         let prep = self.control.preparation.as_ref();
+        // An operation started here: follow its progress closely.
+        if self.action_lock || self.launching { return Duration::from_millis(600) }
         let working = self.control.busy || prep.map(|p| p.busy).unwrap_or(false);
         // Idle and not prepared (no emulator, waiting for the user): each status
         // may run ADB discovery on the server, so it is asked less often.
@@ -208,8 +213,19 @@ impl AppView {
         let status_task = cx.spawn_in(window, async move |this, cx| loop {
             let Ok(interval) = this.update(cx, |v, _| v.poll_interval()) else { return };
             background.timer(interval).await;
-            let Ok(skip) = this.update(cx, |v, _| v.action_lock || v.restarting || v.refreshing > 0) else { return };
+            let Ok((skip, watching)) = this.update(cx, |v, _| (v.restarting || (v.refreshing > 0 && !v.action_lock), v.action_lock || v.launching)) else { return };
             if skip { continue }
+            if watching {
+                // The operation's own request returns the final state; meanwhile
+                // the busy status only carries its progress.
+                let probe = api.clone();
+                let result = background.spawn(async move { probe.control_status() }).await;
+                let _ = this.update(cx, |v, cx| {
+                    let step = result.ok().filter(|s| s.busy).and_then(|s| s.step);
+                    if (v.action_lock || v.launching) && v.step != step { v.step = step; cx.notify() }
+                });
+                continue;
+            }
             let probe = api.clone();
             let result = background.spawn(async move {
                 let status = probe.control_status()?;
@@ -223,6 +239,7 @@ impl AppView {
                     Ok((status, bootstrap)) => {
                         let connection_error = status.android.recovery_error.clone().unwrap_or_default();
                         let mut changed = v.connection_error != connection_error || v.control != status;
+                        v.step = if status.busy { status.step.clone() } else { None };
                         v.connection_error = connection_error;
                         v.control = status;
                         if let Some(bootstrap) = bootstrap {
@@ -285,7 +302,11 @@ impl AppView {
     }
 
     fn sync_device_select(&mut self, window: &mut Window, cx: &mut Context<Self>) {
-        let choices = self.available_devices().into_iter().map(|d| Choice::new(d.serial.clone(), format!("{} · {}", d.name, d.serial))).collect();
+        let devices = self.available_devices();
+        let choices = devices.iter().map(|d| {
+            let label = device::label(d);
+            Choice::new(d.serial.clone(), device::unique_title(d, &devices)).described(label.icon, label.detail)
+        }).collect();
         let choice = self.device_choice();
         forms::set_choices(&self.device_select, choices, &choice, window, cx);
     }
@@ -332,11 +353,27 @@ impl AppView {
         });
     }
 
-    fn controls_busy(&self) -> bool { self.restarting || self.pending.is_some() || self.control.busy || self.control.csrf_token.is_empty() }
+    /// The Refresh buttons: besides the shell state, reload the visible
+    /// page, whose data is otherwise loaded once and cached.
+    fn refresh_view(&mut self, window: &mut Window, cx: &mut Context<Self>) {
+        if self.refreshing > 0 { return }
+        self.refresh(window, cx);
+        match self.route {
+            Route::Accounts => if let Some((_, page)) = &self.accounts { page.update(cx, |page, cx| page.reload(window, cx)) },
+            // Rebuilt on the next render, which loads them again.
+            Route::Packs => self.packs = None,
+            Route::Traffic => self.traffic = None,
+            Route::Logs | Route::Settings => {}
+        }
+        cx.notify();
+    }
+
+    fn controls_busy(&self) -> bool { self.restarting || self.launching || self.pending.is_some() || self.control.busy || self.control.csrf_token.is_empty() }
 
     fn change_mode(&mut self, action: &'static str, window: &mut Window, cx: &mut Context<Self>) {
-        if self.action_lock || self.control.busy { return }
+        if self.action_lock || self.launching || self.control.busy { return }
         self.action_lock = true;
+        self.step = None;
         self.pending = Some(action.into());
         self.error.clear();
         spawn_api_in(window, cx, &self.api, move |api| {
@@ -365,7 +402,21 @@ impl AppView {
             }
             if let Some(bootstrap) = bootstrap { this.set_data(Some(bootstrap), window, cx) }
             this.action_lock = false;
+            this.step = None;
             this.pending = None;
+        });
+    }
+
+    fn forget_device(&mut self, serial: String, window: &mut Window, cx: &mut Context<Self>) {
+        if self.action_lock || self.launching || self.restarting || self.control.busy || self.control.csrf_token.is_empty() { return }
+        self.action_lock = true;
+        self.pending = Some("forget".into());
+        self.error.clear();
+        spawn_api_in(window, cx, &self.api, move |api| api.forget_device(&serial), |this, result, window, cx| {
+            if let Err(error) = result { this.error = error.to_string() }
+            this.action_lock = false;
+            this.pending = None;
+            this.refresh(window, cx);
         });
     }
 
@@ -449,8 +500,6 @@ impl AppView {
         if let Some(logs) = &self.logs {
             logs.update(cx, |page, cx| page.set_active(route == Route::Logs, cx));
         }
-        self.prefs.route = route.key().into();
-        self.inst.save_preferences(&self.prefs);
         cx.notify();
     }
 
@@ -458,6 +507,17 @@ impl AppView {
         match event {
             PageEvent::Error(message) => self.error = message.clone(),
             PageEvent::Refresh => self.refresh(window, cx),
+            PageEvent::Launching(true) => {
+                self.launching = true;
+                self.step = None;
+                self.error.clear();
+            }
+            PageEvent::Launching(false) => {
+                self.launching = false;
+                self.step = None;
+                self.refresh(window, cx);
+            }
+            PageEvent::Forget(serial) => self.forget_device(serial.clone(), window, cx),
             PageEvent::Theme(theme) => {
                 self.prefs.theme = theme.clone().sanitized();
                 self.inst.save_preferences(&self.prefs);
@@ -495,12 +555,14 @@ impl AppView {
             Some("online") => "app.switchingOfficial",
             Some("stop") => "app.stopping",
             Some("open") => "app.openingAccount",
+            Some("forget") => "app.forgettingDevice",
             _ => "app.operation",
         })
     }
 
     fn effective_pending(&self) -> Option<String> {
         if self.restarting { return Some("update".into()) }
+        if self.launching { return Some("open".into()) }
         self.pending.clone().or_else(|| if self.control.busy { self.control.operation.clone() } else { None })
     }
 
@@ -587,7 +649,8 @@ impl AppView {
         let busy = self.controls_busy();
         let restoring = self.control.preparation.as_ref().map(|s| s.phase == "restoring").unwrap_or(false);
         // Loading existing data at start-up is not a preparation.
-        let title = if busy && restoring { t("common.loading") } else if busy { Self::operation_title(self.effective_pending().as_deref()) } else { self.mode_title() };
+        let step = self.step.as_deref().and_then(step_label);
+        let title = if busy && restoring { t("common.loading") } else if busy { step.unwrap_or_else(|| Self::operation_title(self.effective_pending().as_deref())) } else { self.mode_title() };
         let active = self.data.as_ref().and_then(|d| d.players.iter().find(|p| p.active)).map(|p| tf("app.activeProfile", &[("name", &p.display_name)]));
         let prepared = self.control.preparation.as_ref().map(|p| p.ready).unwrap_or(false);
         let mode = self.control.mode.clone();
@@ -609,11 +672,11 @@ impl AppView {
                 .child(div().min_w_0().truncate().text_size(px(11.)).font_weight(FontWeight::EXTRA_BOLD).text_color(p.ink).child(title.clone()));
             match width { Some(w) => d.w(px(w)).flex_none(), None => d }
         };
-        let switch = div().flex().flex_none().w(px(188.)).h(px(40.)).p(px(3.)).rounded(px(10.)).border_1().border_color(p.line).bg(p.surface_soft)
+        let switch = div().occlude().flex().flex_none().w(px(188.)).h(px(40.)).p(px(3.)).rounded(px(10.)).border_1().border_color(p.line).bg(p.surface_soft)
             .child(switch_button("local", "server", t("app.local"), mode == "local", busy || !prepared || !self.control.android.connected, p.brand_dark, cx))
             .child(switch_button("online", "globe", t("app.official"), mode == "online", busy, if p.dark { p.online } else { rgb(0x285D9F).into() }, cx));
         let stop = {
-            let mut stop = div().id("stop").flex().flex_none().items_center().justify_center().gap(px(6.)).w(px(if narrow { 40. } else { 112. })).h(px(40.)).px(px(if narrow { 0. } else { 10. })).rounded(px(8.)).border_1().border_color(p.danger_line)
+            let mut stop = div().id("stop").occlude().flex().flex_none().items_center().justify_center().gap(px(6.)).w(px(if narrow { 40. } else { 112. })).h(px(40.)).px(px(if narrow { 0. } else { 10. })).rounded(px(8.)).border_1().border_color(p.danger_line)
                 .bg(p.panel).text_color(p.danger).text_size(px(11.)).font_weight(FontWeight::EXTRA_BOLD)
                 .child(icon("power", 15., p.danger)).when(!narrow, |d| d.child(div().truncate().child(t("app.stopAll"))));
             if busy { stop = stop.opacity(0.55) } else {
@@ -629,6 +692,8 @@ impl AppView {
 
         let devices = self.available_devices();
         let placeholder = t(if devices.is_empty() { "app.noDevices" } else { "app.chooseDevice" });
+        let selected = self.device_choice();
+        let selected_icon = devices.iter().find(|d| d.serial == selected).map(|d| device::label(d).icon).unwrap_or("smartphone");
         let refreshing = self.refreshing > 0;
         let refresh = {
             let label = t(if refreshing { "app.refreshing" } else { "app.refresh" });
@@ -640,24 +705,24 @@ impl AppView {
             } else {
                 kit::button("refresh", Kind::Quiet, label, Some("refresh-cw"), busy || refreshing, p)
             };
-            if !(busy || refreshing) { b = b.on_click(cx.listener(|this, _, window, cx| this.refresh(window, cx))) }
-            b
+            if !(busy || refreshing) { b = b.on_click(cx.listener(|this, _, window, cx| this.refresh_view(window, cx))) }
+            b.occlude()
         };
         let actions_width = if narrow { 200. } else if compact { 228. } else { 304. };
         let actions = div().flex().flex_none().items_center().gap(px(8.)).w(px(actions_width))
-            .child(div().flex().flex_1().min_w_0().items_center().gap(px(6.)).child(icon("smartphone", 16., p.muted))
-                .child(div().flex_1().min_w_0().child(forms::select(&self.device_select).placeholder(placeholder).disabled(busy || refreshing || devices.is_empty()))))
+            .child(div().flex().flex_1().min_w_0().items_center().gap(px(6.)).child(icon(selected_icon, 16., p.muted))
+                .child(div().flex_1().min_w_0().occlude().child(forms::select(&self.device_select).placeholder(placeholder).menu_width(px(340.)).disabled(busy || refreshing || devices.is_empty()))))
             .child(refresh);
-        // Only empty space moves the window: GPUI resolves the first
-        // registered area under the cursor, so a parent drag area would
-        // swallow the clicks of every button inside it.
-        let context = div().flex_1().min_w_0().h(px(40.)).flex().items_center().overflow_hidden().window_control_area(WindowControlArea::Drag);
+        let context = div().flex_1().min_w_0().h(px(40.)).flex().items_center().overflow_hidden();
         let context = if compact { context.child(status(None)) } else {
             // Shown only when it has room next to the controls.
             context.when_some(active.filter(|_| kit::width(cx) >= 1400.), |d, name| d.child(div().text_size(px(12.)).font_weight(FontWeight::SEMIBOLD).text_color(p.ink).truncate().child(name)))
         };
         // Always one line: narrower windows shorten the labels instead.
-        div().flex_1().min_w_0().bg(p.panel).border_b_1().border_color(p.line).px(px(if narrow { 16. } else { 24. }))
+        // The whole bar moves the window. GPUI takes the first drag area
+        // under the cursor (parents before children), so every button above
+        // occludes the hit test to keep its clicks instead of starting a move.
+        div().flex_1().min_w_0().window_control_area(WindowControlArea::Drag).bg(p.panel).border_b_1().border_color(p.line).px(px(if narrow { 16. } else { 24. }))
             .flex().items_center().gap(px(if narrow { 10. } else { 16. })).h(px(72.))
             .child(context)
             .child(controls)
@@ -727,7 +792,7 @@ impl AppView {
         div().p(px(32.)).flex().flex_col().gap(px(16.)).items_start()
             .child(kit::heading(title, p))
             .when_some(message, |d, m| d.child(div().text_color(p.muted).child(m)))
-            .child(kit::button("refresh-page", Kind::Secondary, t("app.refresh"), None, false, p).on_click(cx.listener(|this, _, window, cx| this.refresh(window, cx))))
+            .child(kit::button("refresh-page", Kind::Secondary, t("app.refresh"), None, false, p).on_click(cx.listener(|this, _, window, cx| this.refresh_view(window, cx))))
             .into_any_element()
     }
 
@@ -778,14 +843,18 @@ impl AppView {
             Route::Settings => {
                 if self.settings.is_none() {
                     let theme = self.prefs.theme.clone();
-                    let page = cx.new(|cx| SettingsPage::new(theme, window, cx));
+                    let api = self.api.clone();
+                    let page = cx.new(|cx| SettingsPage::new(api, theme, window, cx));
                     let sub = cx.subscribe_in(&page, window, |this, _, event: &PageEvent, window, cx| this.on_page_event(event, window, cx));
                     self._subscriptions.push(sub);
                     self.settings = Some(page);
                 }
                 let system_dark = self.system_dark;
                 let page = self.settings.clone().unwrap();
-                page.update(cx, |page, _| page.system_dark = system_dark);
+                let managed: Vec<ManagedDevice> = self.control.managed.clone();
+                let devices = self.devices.clone();
+                let busy = self.controls_busy();
+                page.update(cx, |page, _| { page.system_dark = system_dark; page.set_devices(managed, devices, busy) });
                 page.into_any_element()
             }
         }
@@ -802,7 +871,9 @@ impl AppView {
                 self._subscriptions.push(sub);
                 self.accounts = Some((key, page));
             }
-            let can_launch = self.control.mode == "local" && self.control.server.running && self.control.android.connected && !self.controls_busy();
+            // Launching enables Local first when needed (one click).
+            let prepared = self.control.preparation.as_ref().map(|p| p.ready).unwrap_or(false);
+            let can_launch = prepared && self.control.android.connected && !self.controls_busy();
             let devices = self.available_devices();
             let (_, page) = self.accounts.as_ref().unwrap();
             page.update(cx, |page, _| page.set_context(can_launch, devices));
@@ -889,4 +960,24 @@ fn window_controls(maximized: bool, p: &Palette) -> Div {
             .child(button("window-close", "x", WindowControlArea::Close, true)))
         // The space under the buttons still moves the window.
         .child(div().flex_1().w_full().window_control_area(WindowControlArea::Drag))
+}
+
+/// Translates a server progress message (the operation journal is in
+/// English) into a short label for the control bar.
+fn step_label(message: &str) -> Option<String> {
+    const STEPS: &[(&str, &str)] = &[
+        ("Checking certificates and starting the server", "step.server"),
+        ("Checking the game version and TLS patch", "step.patch"),
+        ("Installing the local certificate", "step.certificate"),
+        ("Configuring the ADB tunnel", "step.routing"),
+        ("Fallback ADB tunnel", "step.routing"),
+        ("Android is still configured", "step.tunnelOnly"),
+        ("Restoring official routing", "step.restoring"),
+        ("Resuming deferred restoration", "step.restoring"),
+        ("Emulator unavailable", "step.deferred"),
+        ("Enabling local mode before launching", "step.enablingLocal"),
+        ("Checking the server and emulator before launching", "step.launching"),
+        ("Launching the account", "step.launching"),
+    ];
+    STEPS.iter().find(|(prefix, _)| message.starts_with(prefix)).map(|(_, key)| t(key))
 }

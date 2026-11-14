@@ -26,6 +26,21 @@ type LogEvent struct {
 type Journal struct {
 	mu   sync.Mutex
 	path string
+	step LogEvent
+}
+
+// LatestStep returns the last progress message recorded since a time, so a
+// busy status can show where a running operation is.
+func (j *Journal) LatestStep(since time.Time) string {
+	if j == nil {
+		return ""
+	}
+	j.mu.Lock()
+	defer j.mu.Unlock()
+	if j.step.Time.Before(since) {
+		return ""
+	}
+	return j.step.Message
 }
 
 // NewJournal creates the directory used for the bounded operation log.
@@ -43,7 +58,11 @@ func (j *Journal) Record(operation, level, message string) {
 	}
 	j.mu.Lock()
 	defer j.mu.Unlock()
-	if err := j.append(LogEvent{Time: time.Now().UTC(), Level: level, Operation: operation, Message: message}); err != nil {
+	event := LogEvent{Time: time.Now().UTC(), Level: level, Operation: operation, Message: message}
+	if level == "info" {
+		j.step = event
+	}
+	if err := j.append(event); err != nil {
 		slog.Error("write control journal", "error", err)
 	}
 }

@@ -35,6 +35,7 @@ type NativeRunner struct {
 	rollbackRetryAt        time.Time
 	rollbackRetryError     error
 	isolated               bool
+	cache                  *actionCache
 }
 
 type nativeCommands struct{}
@@ -152,7 +153,12 @@ func (r *NativeRunner) fullStatus(ctx context.Context, serial string) (Status, e
 			return r.disconnectedStatus(ctx)
 		}
 	}
-	if err := r.recoverPendingRollback(ctx, serial); err != nil {
+	// A starting operation may interrupt a status check, but never a
+	// restoration halfway through writing the native library.
+	recoveryCtx, cancelRecovery := context.WithTimeout(context.WithoutCancel(ctx), time.Minute)
+	err = r.recoverPendingRollback(recoveryCtx, serial)
+	cancelRecovery()
+	if err != nil {
 		// Restoration remains pending, but status must stay available so the
 		// user can resolve an emulator-specific failure.
 		s.Android.RecoveryError = err.Error()
@@ -270,6 +276,23 @@ func (r *NativeRunner) savedMode() string {
 	return ""
 }
 
+// runtimeNeedsRestoration reports whether a device runtime directory records
+// Android changes that Official or Stop must undo: a patched library (saved
+// before the first native write), a fallback tunnel, or local routing.
+func runtimeNeedsRestoration(directory string) bool {
+	for _, name := range []string{"installed-patch.json", "adb-tunnel.json"} {
+		if _, err := os.Stat(filepath.Join(directory, name)); err == nil {
+			return true
+		}
+	}
+	data, err := os.ReadFile(filepath.Join(directory, "mode"))
+	return err == nil && strings.TrimSpace(string(data)) == "local"
+}
+
+func (r *NativeRunner) needsRestoration() bool {
+	return runtimeNeedsRestoration(r.cfg.Runtime.RuntimeDirectory)
+}
+
 func (r *NativeRunner) markPendingRollback() error {
 	if err := os.MkdirAll(r.cfg.Runtime.RuntimeDirectory, 0o700); err != nil {
 		return err
@@ -293,6 +316,11 @@ func (r *NativeRunner) recoverPendingRollback(ctx context.Context, serial string
 		return nil
 	} else if err != nil {
 		return err
+	}
+	if !r.needsRestoration() {
+		// Older releases marked every stopped device, even untouched ones.
+		r.rollbackRetrySerial, r.rollbackRetryAt, r.rollbackRetryError = "", time.Time{}, nil
+		return r.clearPendingRollback()
 	}
 	if serial == r.rollbackRetrySerial && time.Now().Before(r.rollbackRetryAt) {
 		return r.rollbackRetryError
@@ -328,7 +356,7 @@ func (r *NativeRunner) pidFile(name string) string {
 }
 
 func (r *NativeRunner) libraryPath(ctx context.Context, serial, library string) (string, error) {
-	if details, err := r.adb(ctx, serial, "shell", "dumpsys", "package", r.cfg.Android.Package); err == nil {
+	if details, err := r.packageDetails(ctx, serial); err == nil {
 		if match := regexp.MustCompile(`\bnativeLibraryDir=([^\s]+)`).FindStringSubmatch(details); len(match) == 2 {
 			return path.Join(match[1], library), nil
 		}
@@ -357,7 +385,7 @@ func (r *NativeRunner) remoteHash(ctx context.Context, serial, filename string) 
 	return strings.ToLower(fields[0]), nil
 }
 
-// Action preserves verified backups and only starts the game in official mode.
+// Action preserves verified backups and never starts the game.
 func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error) {
 	if _, ok := parseAction(string(action)); !ok {
 		return Status{}, fmt.Errorf("unknown action %q", action)
@@ -365,6 +393,13 @@ func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error
 	// Any action can change routing, certificates, the native patch or process
 	// state. If it fails, the next status request must inspect everything again.
 	r.fullStatusValid = false
+	r.beginActionCache()
+	defer r.endActionCache()
+	if action == ActionStop && !r.needsRestoration() {
+		if status, done, err := r.stopUntouched(ctx); done {
+			return status, err
+		}
+	}
 	if action == ActionStop {
 		if err := r.markPendingRollback(); err != nil {
 			return Status{}, err
@@ -406,32 +441,7 @@ func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error
 		}
 	}
 	if action == ActionLocal {
-		check := r.cfg
-		check.Android.Serial = serial
-		if _, err := android.Inspect(ctx, r.commands, check); err != nil {
-			return Status{}, err
-		}
-		program, err := installation.Program(r.root)
-		if err != nil {
-			return Status{}, err
-		}
-		prepared, err := provision.Resolve(check, program)
-		if err != nil {
-			return Status{}, err
-		}
-		r.cfg = prepared
-		r.step("local", "Checking certificates and starting the server")
-		if _, err := r.commands.Run(ctx, r.server, "cert", "ensure", "--config", r.cfg.Path); err != nil {
-			return Status{}, err
-		}
-		started := r.processPID("server", r.server) == 0
-		if err := r.startProcess(ctx, "server", r.server, r.cfg.Runtime.Address, "serve", "--config", r.cfg.Path, "--adb-serial", serial, "--address", r.cfg.Runtime.Address, "--admin-address", r.cfg.Runtime.AdminAddress, "--traffic-log", r.cfg.Runtime.TrafficLog); err != nil {
-			return Status{}, err
-		}
-		if err := r.setupAndroid(ctx, serial, "apply"); err != nil {
-			if started {
-				err = errors.Join(err, r.stopProcess("server", r.server))
-			}
+		if err := r.enableLocal(ctx, serial); err != nil {
 			return Status{}, err
 		}
 	} else {
@@ -458,7 +468,147 @@ func (r *NativeRunner) Action(ctx context.Context, action Action) (Status, error
 	if err := r.setMode(mode); err != nil {
 		return Status{}, err
 	}
+	if action == ActionStop {
+		// The panel exits after Stop: a final inspection would be discarded.
+		// The rollback above already verified the official library.
+		return stoppedStatus(serial, true, "officiel"), nil
+	}
 	return r.fullStatus(ctx, serial)
+}
+
+// enableLocal checks the game, then starts the server while Android is
+// configured: both are independent until the game connects. A device whose
+// patch, certificate and routing are still in place only gets its tunnel.
+func (r *NativeRunner) enableLocal(ctx context.Context, serial string) error {
+	check := r.cfg
+	check.Android.Serial = serial
+	if _, err := android.Inspect(ctx, r.commands, check); err != nil {
+		return err
+	}
+	program, err := installation.Program(r.root)
+	if err != nil {
+		return err
+	}
+	prepared, err := provision.Resolve(check, program)
+	if err != nil {
+		return err
+	}
+	r.cfg = prepared
+	r.step("local", "Checking certificates and starting the server")
+	if err := r.ensureCertificates(); err != nil {
+		return err
+	}
+	started := r.processPID("server", r.server) == 0
+	server := make(chan error, 1)
+	go func() {
+		server <- r.startProcess(ctx, "server", r.server, r.cfg.Runtime.Address, "serve", "--config", r.cfg.Path, "--adb-serial", serial, "--address", r.cfg.Runtime.Address, "--admin-address", r.cfg.Runtime.AdminAddress, "--traffic-log", r.cfg.Runtime.TrafficLog)
+	}()
+	var androidErr error
+	if r.localStillApplied(ctx, serial) {
+		r.step("local", "Android is still configured: restoring the ADB tunnel only")
+		androidErr = r.restoreTunnel(ctx, serial)
+	} else {
+		androidErr = r.setupAndroid(ctx, serial, "apply")
+	}
+	err = errors.Join(androidErr, <-server)
+	if err != nil && started {
+		err = errors.Join(err, r.stopProcess("server", r.server))
+	}
+	return err
+}
+
+// ensureCertificates renews the local leaf in-process (formerly the
+// `cert ensure` subcommand, started as a separate program on every switch).
+func (r *NativeRunner) ensureCertificates() error {
+	ca := r.cfg.Runtime.CertificateAuthority
+	return localtls.EnsureFiles(localtls.Paths{CA: ca, CAKey: filepath.Join(filepath.Dir(ca), "ca-key.pem"), Certificate: r.cfg.Runtime.Certificate, PrivateKey: r.cfg.Runtime.PrivateKey}, r.cfg.Android.RedirectHosts)
+}
+
+// localStillApplied reports whether a previous Local left the verified patch,
+// certificate and hosts routing in place (the panel or the server stopped,
+// the emulator did not restart).
+func (r *NativeRunner) localStillApplied(ctx context.Context, serial string) bool {
+	if _, err := os.Stat(r.installedPatch()); err != nil {
+		return false
+	}
+	manifest, err := r.manifest(false)
+	if err != nil {
+		return false
+	}
+	hosts, err := r.adb(ctx, serial, "shell", "cat", "/system/etc/hosts")
+	if err != nil || !strings.Contains(hosts, "# PTCGP-LOCAL-BEGIN") {
+		return false
+	}
+	library, err := r.libraryPath(ctx, serial, manifest.Library)
+	if err != nil {
+		return false
+	}
+	if hash, err := r.remoteHash(ctx, serial, library); err != nil || hash != manifest.TargetSHA256 {
+		return false
+	}
+	name, err := localtls.AndroidSystemName(r.cfg.Runtime.CertificateAuthority)
+	return err == nil && r.androidCAInstalled(ctx, serial, name)
+}
+
+func (r *NativeRunner) restoreTunnel(ctx context.Context, serial string) error {
+	details, err := r.packageDetails(ctx, serial)
+	if err != nil {
+		return err
+	}
+	_, port, err := net.SplitHostPort(r.cfg.Runtime.Address)
+	if err != nil {
+		return err
+	}
+	return r.configureTunnel(ctx, serial, port, details)
+}
+
+// stopUntouched stops a device that carries no local Android changes without
+// discovering it: a missing emulator costs nothing, a connected one only has
+// its game closed. It defers to the full restoration if local routing is
+// unexpectedly present.
+func (r *NativeRunner) stopUntouched(ctx context.Context) (Status, bool, error) {
+	serial := r.cachedSerial
+	if serial == "" {
+		serial = r.cfg.Android.Serial
+	}
+	connected := false
+	if serial != "" {
+		state, err := r.adb(ctx, serial, "get-state")
+		connected = err == nil && state == "device"
+	}
+	if connected {
+		hosts, err := r.adb(ctx, serial, "shell", "cat", "/system/etc/hosts")
+		if err != nil || strings.Contains(hosts, "# PTCGP-LOCAL-BEGIN") {
+			return Status{}, false, nil
+		}
+	}
+	if err := r.stopProcess("server", r.server); err != nil {
+		return Status{}, true, err
+	}
+	if connected {
+		if _, err := r.adb(ctx, serial, "shell", "am", "force-stop", r.cfg.Android.Package); err != nil {
+			return Status{}, true, err
+		}
+	}
+	if err := r.clearPendingRollback(); err != nil {
+		return Status{}, true, err
+	}
+	if err := r.setMode("stopped"); err != nil {
+		return Status{}, true, err
+	}
+	routing := "indisponible"
+	if connected {
+		routing = "officiel"
+	}
+	return stoppedStatus(serial, connected, routing), true, nil
+}
+
+func stoppedStatus(serial string, connected bool, routing string) Status {
+	s := Status{Mode: "stopped", Android: AndroidStatus{Serial: serial, Connected: connected, Root: connected, Routing: routing, CA: "inconnue", Native: "inconnue", Game: "arrete"}}
+	if connected {
+		s.Android.CA, s.Android.Native = "officielle uniquement", "officiel"
+	}
+	return s
 }
 
 // StartPanel starts the persistent administration and optionally opens it.

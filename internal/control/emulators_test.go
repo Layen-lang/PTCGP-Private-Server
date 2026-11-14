@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"sync/atomic"
 	"testing"
 	"time"
 
@@ -274,10 +275,43 @@ func TestPendingRestorationChecksTheUnselectedEmulator(t *testing.T) {
 	if err := os.WriteFile(filepath.Join(root, "pending-rollback"), []byte("stop requested"), 0600); err != nil {
 		t.Fatal(err)
 	}
+	if err := os.WriteFile(filepath.Join(root, "installed-patch.json"), []byte("{}"), 0600); err != nil {
+		t.Fatal(err)
+	}
 	a.status.Android.RecoveryError = "restoration pending"
 	status, err := m.Status(context.Background())
 	if err != nil || a.statusCalls != before+1 || m.selected != "LD9" || !strings.Contains(status.Android.RecoveryError, "MuMu: restoration pending") {
 		t.Fatalf("deferred restoration = %+v, calls = %d, err = %v", status, a.statusCalls, err)
+	}
+	// Later polls reuse the result until the retry delay has passed.
+	status, err = m.Status(context.Background())
+	if err != nil || a.statusCalls != before+1 || !strings.Contains(status.Android.RecoveryError, "MuMu: restoration pending") {
+		t.Fatalf("second poll = %+v, calls = %d, err = %v", status, a.statusCalls, err)
+	}
+	m.now = func() time.Time { return time.Now().Add(time.Minute) }
+	if _, err := m.Status(context.Background()); err != nil || a.statusCalls != before+2 {
+		t.Fatalf("restoration was not retried after the delay: calls = %d, err = %v", a.statusCalls, err)
+	}
+}
+
+func TestStaleRestorationMarkerOnAnUnselectedUntouchedEmulatorIsCleared(t *testing.T) {
+	m, _ := multiRunnerFixture(t)
+	for _, serial := range []string{"MuMu", "LD9"} {
+		if _, err := m.SelectDevice(context.Background(), serial); err != nil {
+			t.Fatal(err)
+		}
+	}
+	a := m.devices["MuMu"].(*emulatorFake)
+	before := a.statusCalls
+	pending := filepath.Join(m.deviceConfig(m.runtimes["MuMu"]).Runtime.RuntimeDirectory, "pending-rollback")
+	if err := os.WriteFile(pending, []byte("stop requested"), 0600); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := m.Status(context.Background()); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := os.Stat(pending); !errors.Is(err, os.ErrNotExist) || a.statusCalls != before {
+		t.Fatalf("stale marker = %v, calls = %d", err, a.statusCalls)
 	}
 }
 
@@ -317,6 +351,58 @@ func TestSelectingAnADBAliasKeepsTheSameRuntimeAndAccount(t *testing.T) {
 	}
 }
 
+// concurrentStop records whether two devices' stops overlapped.
+type concurrentStop struct {
+	*emulatorFake
+	active, overlap *int32
+}
+
+func (d concurrentStop) Action(ctx context.Context, action Action) (Status, error) {
+	if atomic.AddInt32(d.active, 1) > 1 {
+		atomic.StoreInt32(d.overlap, 1)
+	}
+	time.Sleep(30 * time.Millisecond)
+	atomic.AddInt32(d.active, -1)
+	return d.emulatorFake.Action(ctx, action)
+}
+
+func TestStopAllRestoresSerialsOfOneAndroidOneAfterTheOther(t *testing.T) {
+	m, _ := multiRunnerFixture(t)
+	// "BlueStacks" is a stopped emulator's old serial that now reaches LD9.
+	m.base.commands = sharedAndroidRunner{}
+	var active, overlap int32
+	for _, serial := range []string{"BlueStacks", "LD9"} {
+		m.devices[serial] = concurrentStop{&emulatorFake{status: Status{Server: ServerStatus{Running: true}}}, &active, &overlap}
+	}
+	m.selected = "LD9"
+	m.runtimes["LD9"] = emulatorRuntime{Serial: "LD9"}
+	m.runtimes["BlueStacks"] = emulatorRuntime{Serial: "BlueStacks"}
+	groups := m.androidGroups(context.Background())
+	if len(groups) != 1 || len(groups[0]) != 2 {
+		t.Fatalf("groups = %v", groups)
+	}
+	if _, err := m.stopAll(context.Background()); err != nil {
+		t.Fatal(err)
+	}
+	if overlap != 0 {
+		t.Fatal("one Android was restored twice at the same time")
+	}
+	for _, serial := range []string{"BlueStacks", "LD9"} {
+		if fake := m.devices[serial].(concurrentStop); len(fake.actions) != 1 || fake.actions[0] != ActionStop {
+			t.Fatalf("%s actions = %v", serial, fake.actions)
+		}
+	}
+}
+
+type sharedAndroidRunner struct{ connectedEmulators }
+
+func (r sharedAndroidRunner) Run(ctx context.Context, name string, args ...string) ([]byte, error) {
+	if len(args) == 5 && args[4] == "/proc/sys/kernel/random/boot_id" {
+		return []byte("ld9-boot\n"), nil
+	}
+	return r.connectedEmulators.Run(ctx, name, args...)
+}
+
 type noEmulatorRunner struct{ listings *int }
 
 func (r noEmulatorRunner) Run(_ context.Context, _ string, args ...string) ([]byte, error) {
@@ -338,5 +424,78 @@ func TestStatusWithoutEmulatorDiscoversOnce(t *testing.T) {
 	}
 	if listings != 1 {
 		t.Fatalf("ADB device listings = %d, want 1", listings)
+	}
+}
+
+func TestForgetDeviceRemovesOnlyUntouchedUnselectedDevices(t *testing.T) {
+	ctx := context.Background()
+	m, profiles := multiRunnerFixture(t)
+	for _, serial := range []string{"MuMu", "LD9", "Phone"} {
+		if _, err := m.SelectDevice(ctx, serial); err != nil {
+			t.Fatal(err)
+		}
+	}
+	if err := m.ForgetDevice(ctx, "Phone"); err == nil {
+		t.Fatal("forgot the selected device")
+	}
+	ld9 := m.deviceConfig(m.runtimes["LD9"]).Runtime.RuntimeDirectory
+	if err := os.MkdirAll(ld9, 0700); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(ld9, "installed-patch.json"), []byte("{}"), 0600); err != nil {
+		t.Fatal(err)
+	}
+	if err := m.ForgetDevice(ctx, "LD9"); err == nil {
+		t.Fatal("forgot a device that still needs restoration")
+	}
+	if err := m.state.SelectEmulatorPlayer(ctx, "MuMu", profiles[0].ID, true); err != nil {
+		t.Fatal(err)
+	}
+	if err := m.ForgetDevice(ctx, "MuMu"); err != nil {
+		t.Fatal(err)
+	}
+	if _, exists := m.runtimes["MuMu"]; exists || m.devices["MuMu"] != nil {
+		t.Fatal("device still managed")
+	}
+	if owners, err := m.state.EmulatorPlayers(ctx); err != nil || owners[profiles[0].ID] != "" {
+		t.Fatalf("reservation kept: %v %v", owners, err)
+	}
+	restored, err := NewMultiRunner(m.base.cfg, m.base.root, m.state)
+	if err != nil || len(restored.runtimes) != 2 {
+		t.Fatalf("saved runtimes = %d, err = %v", len(restored.runtimes), err)
+	}
+	listed := m.ManagedDevices()
+	if len(listed) != 2 || !listed[0].NeedsRestoration || listed[0].Serial != "LD9" || !listed[1].Selected {
+		t.Fatalf("managed devices = %+v", listed)
+	}
+}
+
+func TestOpeningAnAccountEnablesLocalModeFirst(t *testing.T) {
+	m, profiles := multiRunnerFixture(t)
+	if _, err := m.SelectDevice(context.Background(), "MuMu"); err != nil {
+		t.Fatal(err)
+	}
+	backend, _ := url.Parse("http://127.0.0.1:18081")
+	h, err := New(backend, m)
+	if err != nil {
+		t.Fatal(err)
+	}
+	ctx := player.WithEmulator(context.Background(), "MuMu")
+	if err := h.OpenPlayer(ctx, profiles[0].ID); err != nil {
+		t.Fatal(err)
+	}
+	device := m.devices["MuMu"].(*emulatorFake)
+	if len(device.actions) != 1 || device.actions[0] != ActionLocal || device.launches != 1 {
+		t.Fatalf("actions = %v, launches = %d", device.actions, device.launches)
+	}
+	// Already local: the next launch does not switch again.
+	if err := h.OpenPlayer(ctx, profiles[1].ID); err != nil {
+		t.Fatal(err)
+	}
+	if len(device.actions) != 1 || device.launches != 2 {
+		t.Fatalf("actions = %v, launches = %d", device.actions, device.launches)
+	}
+	if err := h.OpenPlayer(player.WithEmulator(context.Background(), "LD9"), profiles[2].ID); err == nil || device.launches != 2 {
+		t.Fatal("launched on a device other than the one the user saw")
 	}
 }

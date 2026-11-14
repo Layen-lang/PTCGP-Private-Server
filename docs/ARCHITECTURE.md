@@ -88,9 +88,15 @@ Switching the selected device or account does not repeat data preparation.
 
 Official reverses the selected device's Android changes using its verified
 backup, stops its server, and releases its account. Stop all does this for every
-managed emulator. An unavailable device receives a pending-restoration marker;
-later status checks resume restoration when it reconnects, including devices
-that are not currently selected.
+managed emulator in parallel. An unavailable device that may carry local changes
+(a recorded patch, fallback tunnel or Local mode) receives a pending-restoration
+marker; later status checks resume restoration when it reconnects, including
+devices that are not currently selected, at most every 30 seconds for those.
+Devices without local changes are stopped without contacting them.
+
+Status checks never delay a mode change: a starting operation interrupts the
+check in progress (except a restoration, which always completes). Within one
+operation, package details and Android namespace probes are read once.
 
 SQLite enforces one active device reservation per profile. Emulator-scoped
 credentials prevent cloned Android account state from sharing game sessions.

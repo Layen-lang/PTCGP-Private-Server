@@ -107,8 +107,9 @@ func TestExplicitTCPReconnect(t *testing.T) {
 }
 
 func TestBlueStacksPortsAreValidatedAndDeduplicated(t *testing.T) {
-	data := []byte("bst.instance.Pie64.adb_port=\"5555\"\r\nbst.instance.Pie64.status.adb_port=\"5555\"\r\nbst.instance.Second.adb_port=\"5565\"\nbst.instance.Bad.adb_port=\"65536\"\nbst.instance.Off.adb_port=\"0\"\n")
-	if got, want := parseBlueStacksEndpoints(data), []string{"127.0.0.1:5555", "127.0.0.1:5565"}; !reflect.DeepEqual(got, want) {
+	data := []byte("bst.instance.Pie64.adb_port=\"5555\"\r\nbst.instance.Pie64.display_name=\"BlueStacks App Player\"\r\nbst.instance.Pie64.status.adb_port=\"5555\"\r\nbst.instance.Second.adb_port=\"5565\"\nbst.instance.Bad.adb_port=\"65536\"\nbst.instance.Off.adb_port=\"0\"\n")
+	want := []emulatorEndpoint{{"127.0.0.1:5555", emulatorBlueStacks, "BlueStacks App Player"}, {"127.0.0.1:5565", emulatorBlueStacks, "Second"}}
+	if got := parseBlueStacksEndpoints(data); !reflect.DeepEqual(got, want) {
 		t.Fatalf("ports=%v want=%v", got, want)
 	}
 }

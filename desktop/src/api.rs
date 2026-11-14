@@ -40,6 +40,11 @@ pub struct AndroidDevice {
     pub name: String,
     pub state: String,
     pub aliases: Option<Vec<String>>,
+    /// "emulator", "usb" or "wifi".
+    pub kind: String,
+    pub emulator: String,
+    pub instance: String,
+    pub model: String,
 }
 
 #[derive(Clone, Debug, Default, Deserialize, PartialEq)]
@@ -120,6 +125,29 @@ pub struct ControlStatus {
     pub mode: String,
     pub server: ServerStatus,
     pub android: AndroidStatus,
+    /// Latest progress message of the running operation.
+    pub step: Option<String>,
+    #[serde(deserialize_with = "null_default")]
+    pub managed: Vec<ManagedDevice>,
+}
+
+/// Outcome of a Wi-Fi pairing or connection: the connected ADB serial, empty
+/// when pairing worked but the connection address must still be entered.
+#[derive(Clone, Debug, Default, Deserialize)]
+#[serde(default)]
+pub struct WirelessResult {
+    pub serial: String,
+}
+
+/// A device the panel remembers, connected or not.
+#[derive(Clone, Debug, Default, Deserialize, PartialEq)]
+#[serde(default, rename_all = "camelCase")]
+pub struct ManagedDevice {
+    pub serial: String,
+    pub selected: bool,
+    pub running: bool,
+    pub needs_restoration: bool,
+    pub pending_restoration: bool,
 }
 
 #[derive(Clone, Debug, Default, Deserialize, PartialEq)]
@@ -355,7 +383,8 @@ impl Api {
     pub fn new(address: &str) -> Self {
         let agent = ureq::AgentBuilder::new()
             .timeout_connect(Duration::from_millis(800))
-            .timeout(Duration::from_secs(120))
+            // Mode switches may last up to the server's 3-minute limit.
+            .timeout(Duration::from_secs(200))
             .max_idle_connections_per_host(8)
             .build();
         Api { base: format!("http://{address}").into(), agent, tokens: Arc::default() }
@@ -452,6 +481,10 @@ impl Api {
     pub fn devices(&self) -> Result<Vec<AndroidDevice>> { self.json("GET", "/api/control/devices", None, Csrf::None) }
     pub fn prepare(&self, serial: &str) -> Result<Value> { self.json("POST", "/api/control/prepare", Some(serde_json::json!({ "serial": serial })), Csrf::Control) }
     pub fn select_device(&self, serial: &str) -> Result<ControlStatus> { self.json("POST", "/api/control/device", Some(serde_json::json!({ "serial": serial })), Csrf::Control) }
+    pub fn forget_device(&self, serial: &str) -> Result<Value> { self.json("POST", "/api/control/forget", Some(serde_json::json!({ "serial": serial })), Csrf::Control) }
+    /// Wi-Fi phone: pairs, then connects when the phone announces its port.
+    pub fn pair_wireless(&self, address: &str, code: &str) -> Result<WirelessResult> { self.json("POST", "/api/control/wireless/pair", Some(serde_json::json!({ "address": address, "code": code })), Csrf::Control) }
+    pub fn connect_wireless(&self, address: &str) -> Result<WirelessResult> { self.json("POST", "/api/control/wireless/connect", Some(serde_json::json!({ "address": address })), Csrf::Control) }
     pub fn install_update(&self) -> Result<Value> { self.json("POST", "/api/control/update", None, Csrf::Control) }
     pub fn health_json(&self) -> Result<Value> { self.json("GET", "/api/control/health", None, Csrf::None) }
 

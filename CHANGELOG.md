@@ -11,6 +11,53 @@ revision for that game version.
 - The control panel is now a native Windows app (`ptcgp-private-server.exe`)
   backed by a single server (`bin\ptcgp-server.exe`) that hosts every
   device's game server.
+- Faster mode switches. Status checks no longer wait for disconnected
+  devices that have nothing to restore (each one cost a 1.5 s ADB connection
+  attempt on every poll), and a mode change interrupts a status check instead
+  of waiting for it. Stop all stops devices in parallel and skips its final
+  inspection. Local starts the server while Android is configured, renews
+  certificates in-process, and only restores the ADB tunnel when the device is
+  still set up. Official hashes the native library on the device instead of
+  copying it.
+- **Open account** enables Local mode first when needed.
+- The control bar shows the current step of a running operation, and the
+  journal records each operation's duration.
+- The app always opens on **Accounts** instead of the last page shown.
+- **Refresh** also reloads the visible page: the selected account's profile,
+  resources and cards, the pack studio and the traffic history.
+- Devices are named by what they are instead of the phone model emulators
+  imitate: `LDPlayer #0`, `MuMu · Android Device #1`, or the phone's own name
+  (`Mi 11 Lite 5G`) with an emulator, USB or Wi-Fi icon. The model and ADB
+  address follow in grey. Emulators are recognised over ADB (x86 processor,
+  services each emulator adds), which also settles which emulator owns a port
+  that BlueStacks and LDPlayer both claim; the instance comes from the
+  emulator's configuration, including the name given to a renamed LDPlayer
+  instance. This replaces the model query and is still asked
+  once per boot.
+
+### Fixed
+
+- MuMu Player instances are found: their ADB ports are read from MuMu's
+  instance configurations.
+- The device list no longer shows a stopped emulator under the name of
+  another one now reachable on the same port (ADB reconnects it under the
+  same transport ID); each listing checks the device's boot ID.
+- **Stop all** no longer fails with `umount: /system/etc/hosts: Invalid
+  argument` when two remembered serials reach the same Android: they are
+  restored one after the other, and an unmount is no longer an error when
+  the mount is already gone.
+- Switching to Official and **Stop all** are about ten seconds faster: the
+  game server no longer waits for long-lived streams (game streams, the
+  traffic feed) to end before stopping, and closes them after a 2-second
+  grace period.
+
+### Added
+
+- **Settings → Remembered devices**, to forget obsolete devices.
+- **Settings → Phone over Wi-Fi**: pair and connect a phone with Android
+  wireless debugging from the app, without typing `adb pair` and
+  `adb connect`. After pairing, the phone is connected automatically when it
+  announces its connection port on the network.
 
 ### Removed
 
