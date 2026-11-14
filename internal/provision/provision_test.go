@@ -182,3 +182,19 @@ func TestPruneOldGenerationsKeepsActiveAndPending(t *testing.T) {
 		t.Fatalf("old generation remains: %v", err)
 	}
 }
+
+func TestFirstLaunchWithoutDataLeavesPreparationAvailable(t *testing.T) {
+	root := t.TempDir()
+	cfg := configuration.Config{Path: filepath.Join(root, "server.json")}
+	cfg.Client.AppVersion = "1.0.0"
+	m := New(cfg, root, root)
+	if !m.Status().Busy {
+		t.Fatal("a new manager restores existing data first")
+	}
+	if _, err := m.Restore(); err == nil {
+		t.Fatal("restore succeeded without data")
+	}
+	if m.Status().Busy {
+		t.Fatal("a failed restore must not block the first preparation")
+	}
+}

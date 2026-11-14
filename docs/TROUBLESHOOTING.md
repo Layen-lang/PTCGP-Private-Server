@@ -28,6 +28,7 @@ local state.
 | Account is in use on another emulator | That emulator owns the active account session | Choose another account, or select **Official** on the owning emulator to release it |
 | Switching devices or accounts opens preparation | Old panel build, or missing/invalid imported data | Restart the updated launcher; valid imported data is reused for all emulators and accounts |
 | Port already in use | Another process owns a configured or assigned port | Inspect the port named in the error and stop the conflicting process |
+| `HTTP error 404` on every page (1.8.1.1) | Another program, such as Steam, listens on the panel port `8080` | Update to a later release: the panel then moves to a free port by itself |
 | Version or hash mismatch | The installed game build is unsupported | Return to Official mode and use a project release that supports that game build |
 | Preparation is blocked or data fails to load | Game resources are incomplete, or the local generation is missing or damaged | Finish the official game's resource download, then select **Retry preparation** in the panel |
 | The window does not open | `ptcgp-private-server.exe` is missing or `bin\\ptcgp-server.exe` cannot start | Keep both files from the release together and check `data/runtime/launcher.stderr.log` |

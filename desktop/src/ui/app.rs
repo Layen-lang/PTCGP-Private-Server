@@ -493,8 +493,11 @@ impl AppView {
         self.error.clear();
         self.connection_error.clear();
         spawn_api_in(window, cx, &self.api, move |api| {
-            let backend = api.prepare_update()?.get("previousPID").and_then(|v| v.as_u64()).unwrap_or(0) as u32;
-            if backend != 0 && !updater::wait_for_exit(backend, Duration::from_secs(60)) { anyhow::bail!(t("prepare.restartFailure")) }
+            // Without a running backend there is nothing to restore or stop.
+            if api.health() {
+                let backend = api.prepare_update()?.get("previousPID").and_then(|v| v.as_u64()).unwrap_or(0) as u32;
+                if backend != 0 && !updater::wait_for_exit(backend, Duration::from_secs(60)) { anyhow::bail!(t("prepare.restartFailure")) }
+            }
             // Exits the process on success.
             updater::apply()
         }, |this, result, window, cx| {

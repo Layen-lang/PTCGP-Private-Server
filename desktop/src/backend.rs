@@ -43,6 +43,7 @@ impl Installation {
             .and_then(|value| value.pointer("/runtime/launcherAddress").and_then(|v| v.as_str()).map(str::to_string));
         // Local overrides win over the published configuration.
         let address = read(root.join("server.local.json")).or_else(|| read(config.clone())).unwrap_or_else(|| "127.0.0.1:8080".to_string());
+        let address = claim_address(&root, address);
         Installation { root, program, config, address }
     }
 
@@ -80,6 +81,7 @@ impl Installation {
         let mut command = Command::new(core);
         command
             .args(["serve-panel", "--config"]).arg(&self.config)
+            .arg("--address").arg(&self.address)
             .arg("--project-root").arg(&self.root)
             .current_dir(&self.root)
             .env("PTCGP_DESKTOP_EXE", std::env::current_exe().unwrap_or_default())
@@ -100,6 +102,46 @@ impl Installation {
     }
 }
 
+/// Whether something accepts connections at `address`. A bare TCP connect
+/// with a short timeout: on Windows, connecting to a closed loopback port
+/// otherwise waits for SYN retries (about two seconds).
+fn port_open(address: &str) -> bool {
+    use std::net::ToSocketAddrs;
+    address.to_socket_addrs().ok().and_then(|mut a| a.next())
+        .map(|addr| std::net::TcpStream::connect_timeout(&addr, std::time::Duration::from_millis(50)).is_ok())
+        .unwrap_or(false)
+}
+
+/// Whether the panel backend answers at `address`. Another program may own
+/// the port (Steam's debugger uses 8080, for example): only the panel's own
+/// health reply counts.
+pub fn is_panel(address: &str) -> bool {
+    if !port_open(address) { return false }
+    let agent = ureq::AgentBuilder::new().timeout(std::time::Duration::from_millis(1500)).build();
+    agent.get(&format!("http://{address}/api/control/health")).call().ok()
+        .and_then(|response| response.into_json::<serde_json::Value>().ok())
+        .and_then(|health| health.get("healthy").and_then(|v| v.as_bool()))
+        .unwrap_or(false)
+}
+
+/// Keeps `address` unless another program holds its port. The panel then
+/// moves to a free port, saved in server.local.json so that the backend, the
+/// command line and the next launches all use it.
+fn claim_address(root: &Path, address: String) -> String {
+    if !port_open(&address) || is_panel(&address) { return address }
+    let Some(free) = (18080..18180u16).map(|port| format!("127.0.0.1:{port}"))
+        .find(|candidate| is_panel(candidate) || std::net::TcpListener::bind(candidate.as_str()).is_ok()) else { return address };
+    let path = root.join("server.local.json");
+    let mut local = std::fs::read_to_string(&path).ok()
+        .and_then(|text| serde_json::from_str::<serde_json::Value>(text.trim_start_matches('\u{feff}')).ok())
+        .filter(serde_json::Value::is_object)
+        .unwrap_or_else(|| serde_json::json!({}));
+    if !local.get("runtime").is_some_and(serde_json::Value::is_object) { local["runtime"] = serde_json::json!({}) }
+    local["runtime"]["launcherAddress"] = serde_json::Value::String(free.clone());
+    if let Ok(text) = serde_json::to_string_pretty(&local) { let _ = std::fs::write(&path, text); }
+    free
+}
+
 #[derive(Clone, Debug, Serialize, Deserialize)]
 #[serde(default, rename_all = "camelCase")]
 pub struct Preferences {
@@ -110,5 +152,58 @@ pub struct Preferences {
 impl Default for Preferences {
     fn default() -> Self {
         Preferences { theme: ThemeSettings::default(), locale: "en_US".into() }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::io::{Read, Write};
+
+    /// Serves one fixed HTTP reply per connection, like a foreign program or
+    /// like the panel's health endpoint.
+    fn serve(reply: &'static str) -> String {
+        let listener = std::net::TcpListener::bind("127.0.0.1:0").unwrap();
+        let address = listener.local_addr().unwrap().to_string();
+        std::thread::spawn(move || for stream in listener.incoming() {
+            let Ok(mut stream) = stream else { continue };
+            let _ = stream.read(&mut [0u8; 1024]);
+            let _ = stream.write_all(reply.as_bytes());
+        });
+        address
+    }
+
+    fn temp(name: &str) -> PathBuf {
+        let dir = std::env::temp_dir().join(format!("ptcgp-{name}-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&dir);
+        std::fs::create_dir_all(&dir).unwrap();
+        dir
+    }
+
+    #[test]
+    fn a_port_held_by_another_program_moves_the_panel() {
+        let foreign = serve("HTTP/1.1 404 Not Found\r\nContent-Length: 0\r\nConnection: close\r\n\r\n");
+        let root = temp("foreign");
+        std::fs::write(root.join("server.local.json"), r#"{"android":{"serial":"kept"}}"#).unwrap();
+        assert!(!is_panel(&foreign));
+        let claimed = claim_address(&root, foreign.clone());
+        assert_ne!(claimed, foreign);
+        let saved: serde_json::Value = serde_json::from_str(&std::fs::read_to_string(root.join("server.local.json")).unwrap()).unwrap();
+        assert_eq!(saved["runtime"]["launcherAddress"], claimed.as_str());
+        assert_eq!(saved["android"]["serial"], "kept");
+        let _ = std::fs::remove_dir_all(root);
+    }
+
+    #[test]
+    fn a_running_panel_or_a_free_port_keeps_the_address() {
+        let body = r#"{"healthy":true,"pid":1}"#;
+        let panel = serve(Box::leak(format!("HTTP/1.1 200 OK\r\nContent-Type: application/json\r\nContent-Length: {}\r\nConnection: close\r\n\r\n{body}", body.len()).into_boxed_str()));
+        let root = temp("panel");
+        assert!(is_panel(&panel));
+        assert_eq!(claim_address(&root, panel.clone()), panel);
+        let free = std::net::TcpListener::bind("127.0.0.1:0").unwrap().local_addr().unwrap().to_string();
+        assert_eq!(claim_address(&root, free.clone()), free);
+        assert!(!root.join("server.local.json").exists());
+        let _ = std::fs::remove_dir_all(root);
     }
 }

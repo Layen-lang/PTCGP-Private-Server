@@ -54,11 +54,21 @@ func (m *Manager) Status() State { m.mu.RLock(); defer m.mu.RUnlock(); return m.
 
 // Restore makes a complete local generation available without contacting ADB.
 // Android compatibility is checked separately before local mode is enabled.
-func (m *Manager) Restore() (configuration.Config, error) {
+func (m *Manager) Restore() (prepared configuration.Config, err error) {
 	m.mu.RLock()
 	cfg, program := m.cfg, m.program
 	m.mu.RUnlock()
-	prepared, err := Resolve(cfg, program)
+	// A new manager is busy "restoring". Without usable data (a first launch)
+	// that must end here, or the import that follows is refused as a second
+	// preparation.
+	defer func() {
+		if err != nil {
+			m.mu.Lock()
+			m.state.Busy = false
+			m.mu.Unlock()
+		}
+	}()
+	prepared, err = Resolve(cfg, program)
 	if err != nil {
 		return cfg, err
 	}
@@ -69,7 +79,7 @@ func (m *Manager) Restore() (configuration.Config, error) {
 		slog.Warn("old generation cleanup failed", "error", cleanupErr)
 	}
 	var receipt receipt
-	if err := readJSON(filepath.Join(filepath.Dir(filepath.Dir(prepared.Data.Images)), "receipt.json"), &receipt); err != nil {
+	if err = readJSON(filepath.Join(filepath.Dir(filepath.Dir(prepared.Data.Images)), "receipt.json"), &receipt); err != nil {
 		return cfg, err
 	}
 	m.mu.Lock()

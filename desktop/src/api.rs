@@ -429,16 +429,9 @@ impl Api {
         self.json(method, path, body, if method == "GET" { Csrf::None } else { Csrf::Admin })
     }
 
-    /// Whether the panel accepts connections. A bare TCP connect with a short
-    /// timeout: on Windows, connecting to a closed loopback port otherwise
-    /// waits for SYN retries (about two seconds).
-    pub fn health(&self) -> bool {
-        use std::net::ToSocketAddrs;
-        let address = self.base.trim_start_matches("http://");
-        address.to_socket_addrs().ok().and_then(|mut a| a.next())
-            .map(|addr| std::net::TcpStream::connect_timeout(&addr, Duration::from_millis(50)).is_ok())
-            .unwrap_or(false)
-    }
+    /// Whether the panel backend answers. A program that merely listens on
+    /// the same port is not the panel.
+    pub fn health(&self) -> bool { crate::backend::is_panel(self.base.trim_start_matches("http://")) }
 
     pub fn bootstrap(&self) -> Result<Bootstrap> {
         let value: Bootstrap = self.json("GET", "/api/bootstrap", None, Csrf::None)?;

@@ -10,7 +10,11 @@ use std::{
     io::{BufReader, Read},
     path::Path,
     process::{Command, Stdio},
-    time::Instant,
+    sync::{
+        atomic::{AtomicBool, AtomicU64, Ordering},
+        Mutex,
+    },
+    time::{Duration, Instant},
 };
 fn remote() -> String {
     std::env::var("PTCGP_SOURCE_ROOT").expect("source root required")
@@ -280,81 +284,159 @@ fn tar_files(
     ensure!(status.success(), "tar transfer failed");
     Ok((blobs, key, index, transferred))
 }
+/// A device stream is stalled when nothing arrives for this long while the
+/// importer waits for it. ADB occasionally freezes one stream through a root
+/// shell: the reader on the device stays blocked on its output and the import
+/// would otherwise wait forever.
+const STREAM_STALL: Duration = Duration::from_secs(30);
+/// How many times one stream is started before the import gives up.
+const STREAM_ATTEMPTS: usize = 4;
+
+/// Records when bytes last arrived from the device.
+struct Arrival<'a, R> {
+    inner: R,
+    clock: Instant,
+    last: &'a AtomicU64,
+}
+impl<R: Read> Read for Arrival<'_, R> {
+    fn read(&mut self, buffer: &mut [u8]) -> std::io::Result<usize> {
+        let n = self.inner.read(buffer)?;
+        self.last
+            .store(self.clock.elapsed().as_millis() as u64, Ordering::Relaxed);
+        Ok(n)
+    }
+}
+
+/// Reads one shard of blobs from the device. `start` returns the command for
+/// an attempt, given the blobs already received: a stalled stream is stopped
+/// and started again for the remaining ones.
 fn stream_reader(
-    command: &str,
+    start: &(dyn Fn(usize, &HashSet<String>) -> Result<String> + Sync),
     plan: &Plan,
     lookup: &HashMap<String, (usize, usize)>,
     sender: std::sync::mpsc::SyncSender<fast_pipeline::ImageJob>,
 ) -> Result<(usize, usize, f64)> {
-    let start = Instant::now();
-    let mut child = adb_process()
-        .args(["-s", &serial(), "exec-out", &shell(command)])
-        .stdout(Stdio::piped())
-        .stderr(Stdio::piped())
-        .spawn()?;
-    let mut input =
-        BufReader::with_capacity(1024 * 1024, child.stdout.take().context("stream stdout")?);
+    let clock = Instant::now();
     let mut pending: HashMap<usize, Vec<Option<Vec<u8>>>> = HashMap::new();
     let mut transferred = 0;
     let mut count = 0;
     let mut seen = HashSet::new();
-    let result = (|| -> Result<()> {
-        let mut magic = [0u8; 8];
-        input.read_exact(&mut magic)?;
-        ensure!(&magic == b"PTCGP001", "stream protocol mismatch");
-        transferred += 8;
-        loop {
-            let mut header = [0u8; 11];
-            input.read_exact(&mut header)?;
-            let tag = header[0];
-            let name_size = u16::from_le_bytes(header[1..3].try_into()?) as usize;
-            let size = u64::from_le_bytes(header[3..11].try_into()?) as usize;
-            ensure!(
-                name_size <= 256 && size <= 128 * 1024 * 1024,
-                "invalid stream record size"
-            );
-            let mut id = vec![0; name_size];
-            input.read_exact(&mut id)?;
-            let id = String::from_utf8(id)?;
-            let mut data = vec![0; size];
-            input.read_exact(&mut data)?;
-            transferred += 11 + name_size + size;
-            if tag == b'Z' {
+    let mut attempt = 0;
+    loop {
+        let command = start(attempt, &seen)?;
+        let mut child = adb_process()
+            .args(["-s", &serial(), "exec-out", &shell(&command)])
+            .stdout(Stdio::piped())
+            .stderr(Stdio::null())
+            .spawn()?;
+        let last = AtomicU64::new(clock.elapsed().as_millis() as u64);
+        let mut input = BufReader::with_capacity(
+            1024 * 1024,
+            Arrival {
+                inner: child.stdout.take().context("stream stdout")?,
+                clock,
+                last: &last,
+            },
+        );
+        let child = Mutex::new(child);
+        // False while the importer is busy handing an image to the pipeline.
+        let waiting = AtomicBool::new(true);
+        let finished = AtomicBool::new(false);
+        let stalled = AtomicBool::new(false);
+        let result = std::thread::scope(|scope| {
+            scope.spawn(|| {
+                while !finished.load(Ordering::Relaxed) {
+                    std::thread::sleep(Duration::from_millis(250));
+                    let idle = (clock.elapsed().as_millis() as u64)
+                        .saturating_sub(last.load(Ordering::Relaxed));
+                    if waiting.load(Ordering::Relaxed) && idle > STREAM_STALL.as_millis() as u64 {
+                        stalled.store(true, Ordering::Relaxed);
+                        // Closing the stream makes the blocked read fail.
+                        let _ = child.lock().unwrap().kill();
+                        break;
+                    }
+                }
+            });
+            let result = (|| -> Result<()> {
+                let mut magic = [0u8; 8];
+                input.read_exact(&mut magic)?;
+                ensure!(&magic == b"PTCGP001", "stream protocol mismatch");
+                transferred += 8;
+                loop {
+                    let mut header = [0u8; 11];
+                    input.read_exact(&mut header)?;
+                    let tag = header[0];
+                    let name_size = u16::from_le_bytes(header[1..3].try_into()?) as usize;
+                    let size = u64::from_le_bytes(header[3..11].try_into()?) as usize;
+                    ensure!(
+                        name_size <= 256 && size <= 128 * 1024 * 1024,
+                        "invalid stream record size"
+                    );
+                    let mut id = vec![0; name_size];
+                    input.read_exact(&mut id)?;
+                    let id = String::from_utf8(id)?;
+                    let mut data = vec![0; size];
+                    input.read_exact(&mut data)?;
+                    transferred += 11 + name_size + size;
+                    if tag == b'Z' {
+                        break;
+                    }
+                    ensure!(
+                        tag == b'B' && plan.blobs.get(&id).is_some_and(|r| r.bytes == size),
+                        "unexpected stream blob"
+                    );
+                    ensure!(seen.insert(id.clone()), "duplicate stream blob");
+                    let &(item, part) = lookup.get(&id).context("unmapped stream blob")?;
+                    let entry = pending
+                        .entry(item)
+                        .or_insert_with(|| vec![None; plan.outputs[item].blobs.len()]);
+                    entry[part] = Some(data);
+                    count += 1;
+                    if entry.iter().all(Option::is_some) {
+                        let data = pending
+                            .remove(&item)
+                            .unwrap()
+                            .into_iter()
+                            .map(Option::unwrap)
+                            .collect();
+                        waiting.store(false, Ordering::Relaxed);
+                        let sent = sender.send(Ok((item, data)));
+                        last.store(clock.elapsed().as_millis() as u64, Ordering::Relaxed);
+                        waiting.store(true, Ordering::Relaxed);
+                        sent.map_err(|_| anyhow::anyhow!("stream processor stopped"))?;
+                    }
+                }
+                Ok(())
+            })();
+            finished.store(true, Ordering::Relaxed);
+            result
+        });
+        let mut child = child.into_inner().unwrap();
+        match result {
+            Ok(()) => {
+                ensure!(child.wait()?.success(), "stream reader ADB failed");
                 break;
             }
-            ensure!(
-                tag == b'B' && plan.blobs.get(&id).is_some_and(|r| r.bytes == size),
-                "unexpected stream blob"
-            );
-            ensure!(seen.insert(id.clone()), "duplicate stream blob");
-            let &(item, part) = lookup.get(&id).context("unmapped stream blob")?;
-            let entry = pending
-                .entry(item)
-                .or_insert_with(|| vec![None; plan.outputs[item].blobs.len()]);
-            entry[part] = Some(data);
-            count += 1;
-            if entry.iter().all(Option::is_some) {
-                let data = pending
-                    .remove(&item)
-                    .unwrap()
-                    .into_iter()
-                    .map(Option::unwrap)
-                    .collect();
-                sender
-                    .send(Ok((item, data)))
-                    .map_err(|_| anyhow::anyhow!("stream processor stopped"))?;
+            Err(error) => {
+                let _ = child.kill();
+                let _ = child.wait();
+                if !stalled.load(Ordering::Relaxed) {
+                    return Err(error);
+                }
+                attempt += 1;
+                ensure!(
+                    attempt < STREAM_ATTEMPTS,
+                    "the device stopped sending data {STREAM_ATTEMPTS} times"
+                );
+                eprintln!(
+                    "device stream stalled after {} blobs; starting it again",
+                    seen.len()
+                );
             }
         }
-        ensure!(pending.is_empty(), "incomplete card pairs in stream");
-        Ok(())
-    })();
-    if result.is_err() {
-        let _ = child.kill();
     }
-    let status = child.wait()?;
-    result?;
-    ensure!(status.success(), "stream reader ADB failed");
-    Ok((count, transferred, start.elapsed().as_secs_f64()))
+    ensure!(pending.is_empty(), "incomplete card pairs in stream");
+    Ok((count, transferred, clock.elapsed().as_secs_f64()))
 }
 
 pub fn stream_run(args: &[String]) -> Result<()> {
@@ -427,6 +509,8 @@ pub fn stream_run(args: &[String]) -> Result<()> {
         "/data/local/tmp/ptcgp-stream-benchmark-{}",
         std::process::id()
     );
+    // An interrupted import leaves its files on the device.
+    let _ = adb("rm -f /data/local/tmp/ptcgp-stream-benchmark-*");
     let mut remote = RemoteFiles {
         paths: vec![format!("{prefix}.bin")],
     };
@@ -453,17 +537,46 @@ pub fn stream_run(args: &[String]) -> Result<()> {
             quote(&log)
         ));
     }
+    let reader_path = remote.paths[0].clone();
     let preparation = start.elapsed().as_secs_f64();
     let (send, receive) = std::sync::mpsc::sync_channel::<fast_pipeline::ImageJob>(32);
-    let (processing, readers) = std::thread::scope(|scope| {
-        let jobs: Vec<_> = commands
+    // The command of a stream; after a stall, a new manifest lists only the
+    // blobs that have not arrived yet.
+    let restart = |i: usize, attempt: usize, seen: &HashSet<String>| -> Result<String> {
+        if attempt == 0 {
+            return Ok(commands[i].clone());
+        }
+        let jobs: Vec<_> = shards[i]
             .iter()
-            .map(|command| {
+            .filter(|job| !job["hash"].as_str().is_some_and(|hash| seen.contains(hash)))
+            .collect();
+        let path = format!("{prefix}-{i}-r{attempt}.json");
+        let local = output.join(format!("stream-manifest-{i}-r{attempt}.json"));
+        fs::write(
+            &local,
+            serde_json::to_vec(
+                &serde_json::json!({"root":source_root,"apk":apk,"apks":apks(),"index":indexpath,"controls":false,"jobs":jobs}),
+            )?,
+        )?;
+        push(&local, &path)?;
+        Ok(format!(
+            "{} {} {} 2>{}",
+            quote(&reader_path),
+            quote(&path),
+            quote(reader_workers),
+            quote(&format!("{prefix}-{i}-r{attempt}.log"))
+        ))
+    };
+    let (processing, readers) = std::thread::scope(|scope| {
+        let jobs: Vec<_> = (0..commands.len())
+            .map(|i| {
                 let sender = send.clone();
                 let plan = &plan;
                 let lookup = &lookup;
+                let restart = &restart;
                 scope.spawn(move || {
-                    let result = stream_reader(command, plan, lookup, sender.clone());
+                    let start = |attempt: usize, seen: &HashSet<String>| restart(i, attempt, seen);
+                    let result = stream_reader(&start, plan, lookup, sender.clone());
                     if let Err(e) = &result {
                         let _ = sender.send(Err(anyhow::anyhow!("source reader: {e:#}")));
                     }
@@ -479,6 +592,8 @@ pub fn stream_run(args: &[String]) -> Result<()> {
             .collect::<Vec<_>>();
         (processing, readers)
     });
+    // Manifests of restarted streams are not in `remote`.
+    let _ = adb(&format!("rm -f {prefix}-*-r*"));
     let readers = readers.into_iter().collect::<Result<Vec<_>>>()?;
     let processing = processing?;
     ensure!(
