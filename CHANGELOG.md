@@ -6,6 +6,8 @@ revision for that game version.
 
 ## Unreleased
 
+## [1.8.1.3] - 2026-11-15
+
 ### Changed
 
 - The app now uses the game's own pictograms (search, delete, settings,
