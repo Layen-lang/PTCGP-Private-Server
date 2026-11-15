@@ -30,6 +30,8 @@ pub struct SettingsPage {
     pub system_dark: bool,
     settings: ThemeSettings,
     menu: Menu,
+    /// The pointer is over the open dropdown, which can hang below the page's bounds.
+    menu_hovered: bool,
     tab: Tab,
     advanced: bool,
     accent: Entity<InputState>,
@@ -82,7 +84,7 @@ impl SettingsPage {
                 if valid { this.update_scheme(field, value, cx) } else { this.sync_inputs(window, cx) }
             }));
         }
-        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, tab: Tab::Interface, advanced: false, accent, background, foreground, managed: Vec::new(), devices: Vec::new(), busy: false, api, wifi, _subs: subs };
+        let mut page = SettingsPage { system_dark: false, settings, menu: Menu::None, menu_hovered: false, tab: Tab::Interface, advanced: false, accent, background, foreground, managed: Vec::new(), devices: Vec::new(), busy: false, api, wifi, _subs: subs };
         page.sync_inputs(window, cx);
         page
     }
@@ -304,8 +306,15 @@ impl SettingsPage {
             .child(icon(if open { "chevron-up" } else { "chevron-down" }, 14., p.muted))
     }
 
-    fn menu_panel(p: &Palette) -> Div {
-        div().absolute().top(px(44.)).right_0().w(px(238.)).max_h(px(318.)).p(px(5.)).rounded(px(11.)).border_1().border_color(p.control_border).bg(p.panel).shadow_lg()
+    fn menu_panel(id: &'static str, p: &Palette, cx: &mut Context<Self>) -> Stateful<Div> {
+        div().id(id).on_hover(cx.listener(|this, hovered: &bool, _, _| this.menu_hovered = *hovered)).w(px(238.)).max_h(px(318.)).p(px(5.)).rounded(px(11.)).border_1().border_color(p.control_border).bg(p.panel).shadow_lg()
+    }
+
+    /// Hangs `panel` under the trigger's right edge, or above the trigger when the window lacks room below.
+    fn dropdown(panel: Stateful<Div>) -> Div {
+        // The spacer clears the 38px trigger going down; flipped, the padding leaves the same gap above it.
+        div().absolute().top_0().right_0()
+            .child(deferred(anchored().anchor(Anchor::TopRight).child(div().flex().flex_col().pt(px(44.)).pb(px(6.)).child(panel))).with_priority(1))
     }
 }
 
@@ -335,7 +344,7 @@ impl SettingsPage {
                     .when(chosen, |d| d.child(icon("check", 15., p.brand)))
                     .on_click(cx.listener(move |this, _, _, cx| { this.menu = Menu::None; cx.emit(PageEvent::Locale(key.to_string())); cx.notify() }))
             }).collect::<Vec<_>>();
-            language = language.child(deferred(Self::menu_panel(&p).children(items)).with_priority(1));
+            language = language.child(Self::dropdown(Self::menu_panel("language-menu", &p, cx).children(items)));
         }
 
         // Theme options.
@@ -381,7 +390,7 @@ impl SettingsPage {
                     .when(chosen, |d| d.child(icon("check", 15., p.brand)))
                     .on_click(cx.listener(move |this, _, window, cx| this.select_preset(id, window, cx)))
             }).collect::<Vec<_>>();
-            presets = presets.child(deferred(Self::menu_panel(&p).id("preset-menu").overflow_y_scroll().children(items)).with_priority(1));
+            presets = presets.child(Self::dropdown(Self::menu_panel("preset-menu", &p, cx).overflow_y_scroll().children(items)));
         }
 
         let setting_row = |label: String, control: AnyElement| div().flex().items_center().justify_between().gap(px(16.)).px(px(14.)).py(px(12.)).border_t_1().border_color(p.line)
@@ -428,6 +437,7 @@ impl SettingsPage {
 impl Render for SettingsPage {
     fn render(&mut self, _window: &mut Window, cx: &mut Context<Self>) -> impl IntoElement {
         let p = pal(cx);
+        if self.menu == Menu::None { self.menu_hovered = false }
         let tab = |which: Tab, id: &'static str, name: &str, label: String, count: usize, cx: &mut Context<Self>| {
             let active = self.tab == which;
             let fg = if active { p.brand_dark } else { p.muted };
@@ -449,7 +459,7 @@ impl Render for SettingsPage {
                 .child(Self::section(t("settings.devices"), "smartphone", self.render_devices(&p, cx), &p)),
         };
         div().w_full().max_w(px(1120.)).mx_auto().p(px(32.)).flex().flex_col().gap(px(20.))
-            .on_mouse_down_out(cx.listener(|this, _, _, cx| if this.menu != Menu::None { this.menu = Menu::None; cx.notify() }))
+            .on_mouse_down_out(cx.listener(|this, _, _, cx| if this.menu != Menu::None && !this.menu_hovered { this.menu = Menu::None; cx.notify() }))
             .child(div().flex().flex_col().gap(px(12.))
                 .child(div().text_size(px(30.)).font_weight(FontWeight::EXTRA_BOLD).child(t("settings.title")))
                 .child(tabs))

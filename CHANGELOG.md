@@ -15,6 +15,9 @@ revision for that game version.
 - The Accounts page no longer caps profiles at level 60. The highest level
   now comes from the imported game data (70 for game 1.8.1), and a complete
   account is created at that level.
+- The language and theme menus in Settings open above their button when the
+  window has no room below, instead of being cut off, and choosing an entry
+  that hangs past the page no longer closes the menu first.
 
 ## [1.8.1.2] - 2026-11-14
 
