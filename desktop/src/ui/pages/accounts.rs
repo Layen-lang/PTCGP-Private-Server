@@ -670,10 +670,10 @@ impl AccountsPage {
         };
         let tabs = div().id("account-tabs").flex().items_end().gap(px(4.)).h(px(58.)).overflow_x_scroll().px(px(24.)).border_b_1().border_color(p.line)
             .child(tab(Section::Profile, "tab-profile", "user-round", t("accounts.profile"), cx))
-            .child(tab(Section::Resources, "tab-resources", "sparkles", t("accounts.resources"), cx))
+            .child(tab(Section::Resources, "tab-resources", "items", t("accounts.resources"), cx))
             .child(tab(Section::Cards, "tab-cards", "wallet-cards", t("accounts.cards"), cx))
-            .child(tab(Section::Battle, "tab-battle", "shield", t("accounts.battle"), cx))
-            .child(tab(Section::Showcase, "tab-showcase", "image", t("accounts.showcases"), cx));
+            .child(tab(Section::Battle, "tab-battle", "battle", t("accounts.battle"), cx))
+            .child(tab(Section::Showcase, "tab-showcase", "showcase", t("accounts.showcases"), cx));
         let body = match self.section {
             Section::Profile => self.render_profile(&profile, p, window, cx),
             Section::Resources => self.render_resources(p, cx),

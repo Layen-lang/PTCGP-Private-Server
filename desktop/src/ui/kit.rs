@@ -27,21 +27,26 @@ pub fn compact(cx: &App) -> bool { width(cx) <= 1100. }
 /// `@media (max-width: 950px)`.
 pub fn narrow(cx: &App) -> bool { width(cx) <= 950. }
 
-/// Lucide icon by file name (`icons/<name>.svg`).
+/// Icon by Lucide name (`icons/<name>.svg`), drawn with the game's own
+/// pictogram when one with the same meaning has been imported.
 pub fn icon(name: &str, size: f32, color: Hsla) -> Icon {
-    Icon::empty().path(SharedString::from(format!("icons/{name}.svg"))).size(px(size)).text_color(color)
+    Icon::empty().path(SharedString::from(crate::ui::game_icons::asset_path(name))).size(px(size)).text_color(color)
 }
 
 pub fn logo(size: f32, color: Hsla) -> Svg {
     svg().path("app/logo.svg").size(px(size)).text_color(color)
 }
 
-/// Assets: the full Lucide catalog plus the application logo.
+/// Assets: the full Lucide catalog, the application logo and the imported
+/// game pictograms.
 pub struct AppAssets;
 impl AssetSource for AppAssets {
     fn load(&self, path: &str) -> Result<Option<Cow<'static, [u8]>>> {
         if path == "app/logo.svg" {
             return Ok(Some(Cow::Borrowed(LOGO.as_bytes())));
+        }
+        if path.starts_with("game-icons/") {
+            return Ok(crate::ui::game_icons::load(path).map(Cow::Owned));
         }
         gpui_kit::assets::AllAssets.load(path)
     }

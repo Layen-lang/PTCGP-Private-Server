@@ -6,6 +6,15 @@ revision for that game version.
 
 ## Unreleased
 
+### Changed
+
+- The app now uses the game's own pictograms (search, delete, settings,
+  arrows, profile, cards, battle, showcase, items…) wherever the game has an
+  icon with the same meaning; the others keep their current icon. Like the
+  cards, these pictograms are imported from the installed game, not shipped
+  with the program, so an existing installation prepares its data once more
+  after the update (only the new pictograms are read from the device).
+
 ### Fixed
 
 - **Update and restart** no longer comes back offering the same update. The

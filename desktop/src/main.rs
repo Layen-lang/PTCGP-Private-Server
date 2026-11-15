@@ -96,6 +96,7 @@ fn main() {
     let inst = Arc::new(Installation::locate());
     updater::resume(&inst.root, || backend::is_panel(&inst.address));
     let prefs = inst.load_preferences();
+    ui::game_icons::init(inst.root.clone());
     i18n::set_locale(&prefs.locale);
 
     gpui_kit::application().with_assets(AppAssets).with_http_client(http::PoolClient::new(6)).run(move |cx| {

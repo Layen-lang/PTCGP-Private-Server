@@ -158,6 +158,15 @@ contents. Preserve 64-bit JSON integers exactly when generating them. Updating
 only these files can avoid rebuilding executables; a converter change must also
 bump its cache identity in `internal/provision`.
 
+The app's pictograms (`ui-icons` outputs, written to `ui/icons/`) are sprites
+of the game's shared UI atlas (`Common/UI/Textures/Common_bundles`). Their
+plan items add a `crop`: the sprite rectangle in the atlas page named by
+`source` (top-left origin), and its place on the sprite's original canvas.
+Several items share the atlas blob, which is read from the device once. The
+rectangles change whenever the game repacks its atlas, so they must be
+regenerated for each game revision. `desktop/src/ui/game_icons.rs` lists which
+sprite replaces which icon, and keeps the Lucide icon while a sprite is missing.
+
 ## Verification performed during integration
 
 On the available MuMu installation, the integrated import produced 5,001 PNGs

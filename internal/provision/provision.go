@@ -106,10 +106,24 @@ type receipt struct {
 	Images    map[string]string     `json:"images"`
 }
 type imageItem struct {
-	Output   string   `json:"output"`
-	Category string   `json:"category"`
-	Source   string   `json:"source"`
-	Blobs    []string `json:"blobs"`
+	Output   string     `json:"output"`
+	Category string     `json:"category"`
+	Source   string     `json:"source"`
+	Blobs    []string   `json:"blobs"`
+	Crop     *imageCrop `json:"crop,omitempty"`
+}
+
+// imageCrop cuts one sprite out of an atlas texture. It is omitted from
+// items without one, so their identities stay those of earlier releases.
+type imageCrop struct {
+	X            int `json:"x"`
+	Y            int `json:"y"`
+	Width        int `json:"width"`
+	Height       int `json:"height"`
+	CanvasWidth  int `json:"canvasWidth"`
+	CanvasHeight int `json:"canvasHeight"`
+	Left         int `json:"left"`
+	Top          int `json:"top"`
 }
 type imagePlan struct {
 	Outputs []imageItem                `json:"outputs"`

@@ -313,7 +313,7 @@ impl<R: Read> Read for Arrival<'_, R> {
 fn stream_reader(
     start: &(dyn Fn(usize, &HashSet<String>) -> Result<String> + Sync),
     plan: &Plan,
-    lookup: &HashMap<String, (usize, usize)>,
+    lookup: &HashMap<String, Vec<(usize, usize)>>,
     sender: std::sync::mpsc::SyncSender<fast_pipeline::ImageJob>,
 ) -> Result<(usize, usize, f64)> {
     let clock = Instant::now();
@@ -386,24 +386,28 @@ fn stream_reader(
                         "unexpected stream blob"
                     );
                     ensure!(seen.insert(id.clone()), "duplicate stream blob");
-                    let &(item, part) = lookup.get(&id).context("unmapped stream blob")?;
-                    let entry = pending
-                        .entry(item)
-                        .or_insert_with(|| vec![None; plan.outputs[item].blobs.len()]);
-                    entry[part] = Some(data);
+                    // One blob can feed several outputs, such as the sprites
+                    // of a shared atlas.
+                    let owners = lookup.get(&id).context("unmapped stream blob")?;
                     count += 1;
-                    if entry.iter().all(Option::is_some) {
-                        let data = pending
-                            .remove(&item)
-                            .unwrap()
-                            .into_iter()
-                            .map(Option::unwrap)
-                            .collect();
-                        waiting.store(false, Ordering::Relaxed);
-                        let sent = sender.send(Ok((item, data)));
-                        last.store(clock.elapsed().as_millis() as u64, Ordering::Relaxed);
-                        waiting.store(true, Ordering::Relaxed);
-                        sent.map_err(|_| anyhow::anyhow!("stream processor stopped"))?;
+                    for &(item, part) in owners {
+                        let entry = pending
+                            .entry(item)
+                            .or_insert_with(|| vec![None; plan.outputs[item].blobs.len()]);
+                        entry[part] = Some(data.clone());
+                        if entry.iter().all(Option::is_some) {
+                            let data = pending
+                                .remove(&item)
+                                .unwrap()
+                                .into_iter()
+                                .map(Option::unwrap)
+                                .collect();
+                            waiting.store(false, Ordering::Relaxed);
+                            let sent = sender.send(Ok((item, data)));
+                            last.store(clock.elapsed().as_millis() as u64, Ordering::Relaxed);
+                            waiting.store(true, Ordering::Relaxed);
+                            sent.map_err(|_| anyhow::anyhow!("stream processor stopped"))?;
+                        }
                     }
                 }
                 Ok(())
@@ -485,21 +489,27 @@ pub fn stream_run(args: &[String]) -> Result<()> {
     let control_seconds = controls.elapsed().as_secs_f64();
     let mut shards = vec![Vec::new(); streams];
     let mut weights = vec![0usize; streams];
-    let mut lookup = HashMap::new();
+    let mut lookup: HashMap<String, Vec<(usize, usize)>> = HashMap::new();
+    // Each blob is read once. Outputs that share a blob use the stream that
+    // already carries it, so every output is completed by a single stream.
+    let mut blob_shard: HashMap<&str, usize> = HashMap::new();
     for (i, item) in plan.outputs.iter().enumerate() {
-        let shard = weights
-            .iter()
-            .enumerate()
-            .min_by_key(|(_, w)| **w)
-            .unwrap()
-            .0;
+        let mut shared = item.blobs.iter().filter_map(|hash| blob_shard.get(hash.as_str()).copied());
+        let shard = match shared.next() {
+            Some(shard) => {
+                ensure!(shared.all(|s| s == shard), "output dependencies span streams");
+                shard
+            }
+            None => weights.iter().enumerate().min_by_key(|(_, w)| **w).unwrap().0,
+        };
         for (part, hash) in item.blobs.iter().enumerate() {
-            ensure!(
-                lookup.insert(hash.clone(), (i, part)).is_none(),
-                "duplicate dependency"
-            );
-            shards[shard].push(serde_json::json!({"hash":hash,"bytes":plan.blobs[hash].bytes}));
-            weights[shard] += plan.blobs[hash].bytes;
+            let owners = lookup.entry(hash.clone()).or_default();
+            ensure!(owners.iter().all(|&(o, _)| o != i), "duplicate dependency");
+            owners.push((i, part));
+            if blob_shard.insert(hash.as_str(), shard).is_none() {
+                shards[shard].push(serde_json::json!({"hash":hash,"bytes":plan.blobs[hash].bytes}));
+                weights[shard] += plan.blobs[hash].bytes;
+            }
         }
     }
     for shard in &mut shards {

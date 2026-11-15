@@ -628,8 +628,8 @@ impl AppView {
                 // Wraps onto two lines when the sidebar is narrow, like the web panel.
                 .when(!rail, |d| d.child(div().flex_1().min_w_0().text_size(px(15.)).font_weight(FontWeight::BOLD).line_height(px(19.)).child("PTCGP Private Server"))))
             .child(div().flex().flex_col().gap(px(4.)).p(px(12.))
-                .child(item(Route::Accounts, "boxes", t("app.accounts"), 0., cx))
-                .child(item(Route::Packs, "circle-dot", t("app.packStudio"), 0., cx))
+                .child(item(Route::Accounts, "accounts", t("app.accounts"), 0., cx))
+                .child(item(Route::Packs, "pack-studio", t("app.packStudio"), 0., cx))
                 .child(item(Route::Traffic, "activity", t("app.traffic"), 0., cx))
                 .child(item(Route::Logs, "file-text", t("app.logs"), 0., cx))
                 .child(item(Route::Settings, "settings", t("app.settings"), 12., cx)))

@@ -23,6 +23,22 @@ func TestDeltaPlanPreservesFullWidthSourceKeys(t *testing.T) {
 	}
 }
 
+func TestDeltaPlanKeepsSpriteCropsAndOmitsAbsentOnes(t *testing.T) {
+	const raw = `{"outputs":[{"output":"ui/icons/a.png","category":"ui-icons","source":"atlas","blobs":["abc"],"crop":{"x":1,"y":2,"width":3,"height":4,"canvasWidth":8,"canvasHeight":8,"left":2,"top":1}},{"output":"cards/b.png","category":"cards","source":"b","blobs":["abc"]}],"blobs":{}}`
+	var plan imagePlan
+	if err := json.Unmarshal([]byte(raw), &plan); err != nil {
+		t.Fatal(err)
+	}
+	encoded, err := json.Marshal(plan.Outputs)
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := `[{"output":"ui/icons/a.png","category":"ui-icons","source":"atlas","blobs":["abc"],"crop":{"x":1,"y":2,"width":3,"height":4,"canvasWidth":8,"canvasHeight":8,"left":2,"top":1}},{"output":"cards/b.png","category":"cards","source":"b","blobs":["abc"]}]`
+	if string(encoded) != want {
+		t.Fatalf("crop not carried to the importer:\n%s", encoded)
+	}
+}
+
 func TestImageIdentityIgnoresBlobFieldOrderAndAcceptsOldReceipts(t *testing.T) {
 	item := imageItem{Output: "cards/card.png", Category: "cards", Source: "card", Blobs: []string{"abc"}}
 	old := json.RawMessage(`{"address":"card","content":"123","blob":"abc","bytes":42,"key":18446744073709551615}`)

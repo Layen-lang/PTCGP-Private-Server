@@ -25,6 +25,41 @@ pub struct Item {
     pub category: String,
     pub source: String,
     pub blobs: Vec<String>,
+    /// Cuts one sprite out of an atlas texture.
+    #[serde(default)]
+    pub crop: Option<Crop>,
+}
+/// A sprite rectangle in a texture (top-left origin), placed at
+/// `left`/`top` on a transparent canvas of the sprite's original size.
+#[derive(Deserialize, Clone, Copy)]
+#[serde(rename_all = "camelCase", deny_unknown_fields)]
+pub struct Crop {
+    pub x: u32,
+    pub y: u32,
+    pub width: u32,
+    pub height: u32,
+    pub canvas_width: u32,
+    pub canvas_height: u32,
+    pub left: u32,
+    pub top: u32,
+}
+impl Crop {
+    pub fn apply(&self, texture: &image::RgbaImage) -> Result<image::RgbaImage> {
+        let fits = |offset: u32, size: u32, limit: u32| offset.checked_add(size).is_some_and(|end| end <= limit);
+        ensure!(
+            self.width > 0 && self.height > 0
+                && fits(self.x, self.width, texture.width())
+                && fits(self.y, self.height, texture.height())
+                && self.canvas_width <= 4096 && self.canvas_height <= 4096
+                && fits(self.left, self.width, self.canvas_width)
+                && fits(self.top, self.height, self.canvas_height),
+            "sprite crop outside its texture or canvas"
+        );
+        let sprite = image::imageops::crop_imm(texture, self.x, self.y, self.width, self.height).to_image();
+        let mut canvas = image::RgbaImage::new(self.canvas_width, self.canvas_height);
+        image::imageops::replace(&mut canvas, &sprite, self.left as i64, self.top as i64);
+        Ok(canvas)
+    }
 }
 #[derive(Deserialize)]
 pub struct Blob {
@@ -87,7 +122,7 @@ pub fn stream(
                 let alpha=t[3] as u16;for c in 0..3{b[c]=((b[c] as u16*alpha+t[c] as u16*(255-alpha)+127)/255) as u8;}b[3]=255;
             }
             if mode=="exact"{mesh.render(&base)}else{filter.render(&base)}
-        }else{ensure!(textures.len()==1,"expected one texture");textures.pop().unwrap()};
+        }else{ensure!(textures.len()==1,"expected one texture");let texture=textures.pop().unwrap();match &item.crop{Some(crop)=>crop.apply(&texture)?,None=>texture}};
         timings[3]+=t.elapsed().as_secs_f64();
         let t=Instant::now();let mut png=Vec::with_capacity(result.len()/2);
         let filter=match png_filter{"sub"=>FilterType::Sub,"up"=>FilterType::Up,"none"=>FilterType::NoFilter,_=>FilterType::Adaptive};
@@ -126,4 +161,34 @@ pub fn stream(
         errors.first()
     );
     Ok(report)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::Crop;
+    use image::{Rgba, RgbaImage};
+
+    fn crop(x: u32, y: u32, width: u32, height: u32, left: u32, top: u32) -> Crop {
+        Crop { x, y, width, height, canvas_width: 8, canvas_height: 8, left, top }
+    }
+
+    #[test]
+    fn crop_places_the_sprite_on_its_canvas() {
+        let mut atlas = RgbaImage::new(16, 16);
+        atlas.put_pixel(5, 6, Rgba([1, 2, 3, 255]));
+        atlas.put_pixel(6, 7, Rgba([4, 5, 6, 255]));
+        let sprite = crop(5, 6, 2, 2, 3, 1).apply(&atlas).unwrap();
+        assert_eq!(sprite.dimensions(), (8, 8));
+        assert_eq!(*sprite.get_pixel(3, 1), Rgba([1, 2, 3, 255]));
+        assert_eq!(*sprite.get_pixel(4, 2), Rgba([4, 5, 6, 255]));
+        assert_eq!(sprite.pixels().filter(|p| p[3] != 0).count(), 2);
+    }
+
+    #[test]
+    fn crop_rejects_rectangles_outside_texture_or_canvas() {
+        let atlas = RgbaImage::new(16, 16);
+        assert!(crop(15, 0, 2, 2, 0, 0).apply(&atlas).is_err());
+        assert!(crop(0, 0, 2, 2, 7, 0).apply(&atlas).is_err());
+        assert!(crop(0, 0, 0, 2, 0, 0).apply(&atlas).is_err());
+    }
 }
