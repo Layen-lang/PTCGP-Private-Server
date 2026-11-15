@@ -5,7 +5,8 @@
 //! Only an installed application updates itself. A development build is not
 //! a Velopack installation, so it never shows an update.
 
-use std::path::Path;
+use std::path::{Path, PathBuf};
+use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::{mpsc, Arc, Mutex};
 use std::time::Duration;
 use velopack::{sources, UpdateCheck, UpdateManager, VelopackApp};
@@ -114,6 +115,54 @@ impl Updater {
             Err(error) => self.set(Phase::Error, &version, error.to_string()),
         }
     }
+}
+
+/// Set once the user asked for the update: it is installed when the window
+/// has closed, from a process that has nothing left to release.
+static APPLY_ON_EXIT: AtomicBool = AtomicBool::new(false);
+
+/// How many times a requested installation is started again by itself.
+const AUTOMATIC_RETRIES: u64 = 2;
+
+fn request_file(root: &Path) -> PathBuf { root.join("data").join("update-requested.json") }
+
+/// Records that the user asked for the downloaded update and arranges its
+/// installation for when the application has shut down.
+pub fn request(root: &Path) {
+    let path = request_file(root);
+    if let Some(parent) = path.parent() { let _ = std::fs::create_dir_all(parent); }
+    let _ = std::fs::write(path, r#"{"attempts":0}"#);
+    APPLY_ON_EXIT.store(true, Ordering::SeqCst);
+}
+
+/// Installs the requested update, once. Call when the window has closed.
+pub fn apply_if_requested() {
+    if APPLY_ON_EXIT.swap(false, Ordering::SeqCst) {
+        let _ = apply();
+    }
+}
+
+/// Finishes an installation the user asked for that did not complete: Windows
+/// can keep the program folder locked for a few seconds after the window
+/// closes, and Velopack then gives up and starts the old version again. This
+/// runs first at startup, before anything is opened, and tries again instead
+/// of offering the same update once more. `backend_running` skips it: a
+/// running backend must first restore the official game.
+pub fn resume(root: &Path, backend_running: impl FnOnce() -> bool) {
+    let path = request_file(root);
+    let Ok(text) = std::fs::read_to_string(&path) else { return };
+    let attempts = serde_json::from_str::<serde_json::Value>(&text).ok()
+        .and_then(|value| value.get("attempts").and_then(|v| v.as_u64()))
+        .unwrap_or(AUTOMATIC_RETRIES);
+    let pending = manager().ok().and_then(|manager| manager.get_update_pending_restart());
+    // Installed (no newer package is left), or tried often enough: the
+    // button takes over again.
+    if pending.is_none() || attempts >= AUTOMATIC_RETRIES || backend_running() {
+        let _ = std::fs::remove_file(&path);
+        return;
+    }
+    let _ = std::fs::write(&path, serde_json::json!({ "attempts": attempts + 1 }).to_string());
+    let _ = apply();
 }
 
 /// Installs the downloaded update and restarts. The backend must have

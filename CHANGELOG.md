@@ -6,6 +6,13 @@ revision for that game version.
 
 ## Unreleased
 
+### Fixed
+
+- **Update and restart** no longer comes back offering the same update. The
+  update is now installed once the window has closed, and an installation
+  that Windows blocked (the program folder can stay locked for a few seconds)
+  is tried again by itself at the next start, twice at most.
+
 ## [1.8.1.2] - 2026-11-14
 
 ### Fixed

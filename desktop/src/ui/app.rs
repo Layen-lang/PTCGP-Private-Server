@@ -133,7 +133,7 @@ impl AppView {
             _subscriptions: vec![sub, appearance],
         };
         view.apply_theme(cx);
-        view.watch_updates(cx);
+        view.watch_updates(window, cx);
         view.connect(window, cx);
         view
     }
@@ -373,6 +373,7 @@ impl AppView {
         cx.notify();
     }
 
+    fn backend_ready(&self) -> bool { matches!(self.backend, Backend::Ready) && !self.control.csrf_token.is_empty() }
     fn controls_busy(&self) -> bool { self.restarting || self.launching || self.pending.is_some() || self.control.busy || self.control.csrf_token.is_empty() }
 
     fn change_mode(&mut self, action: &'static str, window: &mut Window, cx: &mut Context<Self>) {
@@ -472,12 +473,16 @@ impl AppView {
     }
 
     /// Mirrors the background updater's state into the sidebar.
-    fn watch_updates(&mut self, cx: &mut Context<Self>) {
+    fn watch_updates(&mut self, window: &mut Window, cx: &mut Context<Self>) {
         let background = cx.background_executor().clone();
-        let task = cx.spawn(async move |this, cx| loop {
-            let Ok(downloading) = this.update(cx, |v, cx| {
+        // PTCGP_UPDATE_NOW installs a ready update without the click, to
+        // test the whole installation from a script.
+        let unattended = std::env::var_os("PTCGP_UPDATE_NOW").is_some();
+        let task = cx.spawn_in(window, async move |this, cx| loop {
+            let Ok(downloading) = this.update_in(cx, |v, window, cx| {
                 let state = v.updater.state();
                 if v.update != state { v.update = state; cx.notify() }
+                if unattended && v.update.phase == Phase::Ready && v.backend_ready() { v.apply_update(window, cx) }
                 v.update.phase == Phase::Downloading
             }) else { return };
             background.timer(Duration::from_millis(if downloading { 250 } else { 2_000 })).await;
@@ -486,7 +491,8 @@ impl AppView {
     }
 
     /// Installs the downloaded update: the backend restores the official game
-    /// and exits, then Velopack replaces the program and restarts the app.
+    /// and exits, the window closes, then Velopack replaces the program and
+    /// restarts the app.
     fn apply_update(&mut self, window: &mut Window, cx: &mut Context<Self>) {
         if self.restarting || self.action_lock || self.control.busy || self.update.phase != Phase::Ready { return }
         self.restarting = true;
@@ -498,13 +504,20 @@ impl AppView {
                 let backend = api.prepare_update()?.get("previousPID").and_then(|v| v.as_u64()).unwrap_or(0) as u32;
                 if backend != 0 && !updater::wait_for_exit(backend, Duration::from_secs(60)) { anyhow::bail!(t("prepare.restartFailure")) }
             }
-            // Exits the process on success.
-            updater::apply()
+            Ok(())
         }, |this, result, window, cx| {
-            this.restarting = false;
-            if let Err(error) = result { this.error = error.to_string() }
-            // The backend may have stopped: start it again.
-            this.connect(window, cx);
+            if let Err(error) = result {
+                this.restarting = false;
+                this.error = error.to_string();
+                // The backend may have stopped: start it again.
+                this.connect(window, cx);
+                return;
+            }
+            updater::request(&this.inst.root);
+            // Normally `main` installs once the window has closed; this covers
+            // a shutdown that does not return there.
+            std::thread::spawn(|| { std::thread::sleep(Duration::from_secs(5)); updater::apply_if_requested() });
+            cx.quit();
         });
     }
 

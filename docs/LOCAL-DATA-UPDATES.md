@@ -144,6 +144,11 @@ dotnet tool install -g vpk --version 1.2.161
 $env:PTCGP_UPDATE_SOURCE = 'C:\tmp\feed'
 ```
 
+Also set `PTCGP_UPDATE_NOW=1` to install the update as soon as it is
+downloaded, without clicking **Update and restart**: the whole sequence can
+then be tested from a script. Velopack logs every step in
+`%LocalAppData%\Velopack\velopack_PTCGPPrivateServer.log`.
+
 Releases are not code-signed; Windows SmartScreen may warn on the installer.
 
 Each supported game revision needs a validated extraction plan and image index

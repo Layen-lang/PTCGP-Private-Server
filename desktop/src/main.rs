@@ -94,6 +94,7 @@ fn main() {
         return;
     }
     let inst = Arc::new(Installation::locate());
+    updater::resume(&inst.root, || backend::is_panel(&inst.address));
     let prefs = inst.load_preferences();
     i18n::set_locale(&prefs.locale);
 
@@ -115,4 +116,6 @@ fn main() {
         gpui_kit::open_window(options, cx, move |window, cx| cx.new(|cx| AppView::new(inst, prefs, window, cx))).expect("open window");
         cx.on_window_closed(|cx, _| if cx.windows().is_empty() { cx.quit() }).detach();
     });
+    // The window and its graphics resources are gone: install now.
+    updater::apply_if_requested();
 }
