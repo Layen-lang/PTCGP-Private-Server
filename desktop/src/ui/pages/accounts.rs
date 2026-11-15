@@ -117,7 +117,13 @@ struct CreateForm {
     busy: bool,
 }
 
+/// A backend older than this app does not send the level table.
+fn highest_level(bootstrap: &Bootstrap) -> i64 { if bootstrap.max_level > 0 { bootstrap.max_level } else { 60 } }
+
 pub struct AccountsPage {
+    /// Highest level of the imported game data, and the experience it needs.
+    max_level: i64,
+    max_level_experience: i64,
     api: Api,
     emulator: String,
     players: Vec<PlayerSummary>,
@@ -156,6 +162,7 @@ impl AccountsPage {
             .or_else(|| bootstrap.players.iter().find(|p| p.in_use_on.as_deref().map(|d| d == emulator).unwrap_or(true)).map(|p| p.id.clone()))
             .or_else(|| bootstrap.players.first().map(|p| p.id.clone())).unwrap_or_default();
         let mut page = AccountsPage {
+            max_level: highest_level(&bootstrap), max_level_experience: bootstrap.max_level_experience,
             api, emulator, players: bootstrap.players, selected, profiles: HashMap::new(), section: Section::Profile, can_launch: false, devices, busy: false,
             deleting: None, create: None, form: None, icons: Vec::new(), emblems: None, resources: Vec::new(), owned: None, rows: HashMap::new(), cards: None,
             peripherals: Vec::new(), peripheral_query: None, peripheral_filter: -1, peripheral_busy: String::new(), pending_sync: false, _subs: Vec::new(),
@@ -172,6 +179,8 @@ impl AccountsPage {
     pub fn set_context(&mut self, can_launch: bool, devices: Vec<AndroidDevice>) { self.can_launch = can_launch; self.devices = devices; }
 
     pub fn update_bootstrap(&mut self, bootstrap: Bootstrap, _: &mut Window, cx: &mut Context<Self>) {
+        self.max_level = highest_level(&bootstrap);
+        self.max_level_experience = bootstrap.max_level_experience;
         self.players = bootstrap.players;
         cx.notify();
     }
@@ -401,8 +410,9 @@ impl AccountsPage {
     }
 
     fn save_profile(&mut self, cx: &mut Context<Self>) {
+        let max_level = self.max_level;
         let Some(form) = self.form.as_mut() else { return };
-        let level = forms::number(&form.level, 1, 60, cx).unwrap_or(1);
+        let level = forms::number(&form.level, 1, max_level, cx).unwrap_or(1);
         let experience = forms::number(&form.experience, 0, i64::MAX, cx).unwrap_or(0);
         let body = serde_json::json!({
             "DisplayName": forms::text(&form.name, cx), "Language": form.language.read(cx).selected_value().map(|v| v.to_string()).unwrap_or_default(),
@@ -527,10 +537,11 @@ impl AccountsPage {
     }
 
     fn submit_create(&mut self, cx: &mut Context<Self>) {
+        let max_level = self.max_level;
         let Some(form) = self.create.as_mut() else { return };
         let body = serde_json::json!({
             "DisplayName": forms::text(&form.name, cx), "Language": form.language.read(cx).selected_value().map(|v| v.to_string()).unwrap_or_default(),
-            "Country": forms::text(&form.country, cx).to_uppercase(), "Level": forms::number(&form.level, 1, 60, cx).unwrap_or(1),
+            "Country": forms::text(&form.country, cx).to_uppercase(), "Level": forms::number(&form.level, 1, max_level, cx).unwrap_or(1),
             "Experience": forms::number(&form.experience, 0, i64::MAX, cx).unwrap_or(0), "Preset": if form.complete { "complete" } else { "empty" },
             "CardQuantity": forms::number(&form.quantity, 1, 999_999, cx).unwrap_or(2),
         });
@@ -904,11 +915,12 @@ impl AccountsPage {
             .child(div().text_size(px(14.)).font_weight(FontWeight::BOLD).child(title)).child(div().mt(px(4.)).text_size(px(10.)).text_color(p.muted).child(text))
             .when(chosen, |d| d.child(div().absolute().right(px(10.)).top(px(10.)).child(icon("check", 16., p.brand))))
             .on_click(cx.listener(move |this, _, window, cx| {
+                // A complete account starts at the highest level of the game data.
+                let (level, xp) = if complete { (this.max_level.to_string(), this.max_level_experience.to_string()) } else { ("1".to_string(), "0".to_string()) };
                 if let Some(f) = this.create.as_mut() {
                     f.complete = complete;
-                    let (level, xp) = if complete { ("60", "2755") } else { ("1", "0") };
-                    forms::set_text(&f.level.clone(), level, window, cx);
-                    forms::set_text(&f.experience.clone(), xp, window, cx);
+                    forms::set_text(&f.level.clone(), &level, window, cx);
+                    forms::set_text(&f.experience.clone(), &xp, window, cx);
                 }
                 cx.notify()
             }));

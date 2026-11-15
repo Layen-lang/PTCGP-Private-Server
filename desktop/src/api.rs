@@ -81,6 +81,9 @@ pub struct Bootstrap {
     #[serde(deserialize_with = "null_default")]
     pub players: Vec<PlayerSummary>,
     pub currencies: Option<Vec<Currency>>,
+    /// Highest level in the imported game data, and the experience it needs.
+    pub max_level: i64,
+    pub max_level_experience: i64,
 }
 
 #[derive(Clone, Debug, Default, Deserialize, PartialEq)]

@@ -333,7 +333,16 @@ func (h *Handler) bootstrap(w http.ResponseWriter, r *http.Request) {
 			InUseOn:    reservations[value.ID],
 		})
 	}
-	currencies := h.displayCatalog(r).Currencies
+	catalog := h.displayCatalog(r)
+	currencies := catalog.Currencies
+	// The level table follows the imported game data: its last row is the
+	// highest level a profile can have.
+	maxLevel, maxLevelExperience := 1, int64(0)
+	for _, level := range catalog.Levels {
+		if level.Number > maxLevel {
+			maxLevel, maxLevelExperience = level.Number, level.RequiredExp
+		}
+	}
 	currencyResults := make([]currencyResponse, 0, len(currencies))
 	for _, value := range currencies {
 		currencyResults = append(currencyResults, currencyResponse{
@@ -341,7 +350,7 @@ func (h *Handler) bootstrap(w http.ResponseWriter, r *http.Request) {
 			ImageURL: h.imageURL(value.AssetID, 96),
 		})
 	}
-	h.writeJSON(w, http.StatusOK, map[string]any{"csrfToken": h.csrf, "players": result, "device": device, "emulator": h.players.EmulatorSerial(r.Context()), "catalogVersion": h.catalogVersion, "currencies": currencyResults})
+	h.writeJSON(w, http.StatusOK, map[string]any{"csrfToken": h.csrf, "players": result, "device": device, "emulator": h.players.EmulatorSerial(r.Context()), "catalogVersion": h.catalogVersion, "currencies": currencyResults, "maxLevel": maxLevel, "maxLevelExperience": maxLevelExperience})
 }
 
 type profileResponse struct {

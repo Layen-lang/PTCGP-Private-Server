@@ -12,6 +12,9 @@ revision for that game version.
   update is now installed once the window has closed, and an installation
   that Windows blocked (the program folder can stay locked for a few seconds)
   is tried again by itself at the next start, twice at most.
+- The Accounts page no longer caps profiles at level 60. The highest level
+  now comes from the imported game data (70 for game 1.8.1), and a complete
+  account is created at that level.
 
 ## [1.8.1.2] - 2026-11-14
 
